@@ -1,18 +1,16 @@
 /**
  * IMPACT TECH — Tailwind config
- * Les tokens sont mappés sur les variables CSS déclarées dans app/globals.css
- * (source : token.css / design-system.md fournis par le client).
+ * Les tokens sont mappés sur les variables CSS déclarées dans
+ * src/styles.css.tailwind-input (source : token.css design-system).
  */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./app/**/*.{js,jsx}", "./components/**/*.{js,jsx}"],
+  content: ["./src/**/*.{ts,tsx}", "./admin-app/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
-        // Marque
         red: { DEFAULT: "#C0202B", dark: "#96131B", soft: "rgba(192,32,43,.1)" },
         cream: { DEFAULT: "#F7EFD9", soft: "#FBF6EA" },
-        // Neutres
         ink: "#1A1A17",
         body: "#5E5E5E",
         graylight: "#B4B4B4",

@@ -1,21 +1,20 @@
 # ------------------------------------------------------------------
-# IMPACT TECH — Configuration Cloudflare Workers (adaptateur OpenNext)
-# Build  : npx opennextjs-cloudflare build
+# IMPACT TECH — Configuration Cloudflare Worker (Hono, sans Next.js)
+# Build  : npm run build   (Tailwind CSS + bundle client via esbuild)
 # Deploy : npx wrangler deploy
 #
-# ⚠️ En production, définissez ces variables dans le dashboard Cloudflare
-# (Workers & Pages → impact-tech → Settings → Variables and Secrets) :
+# Variables/secrets a definir dans le dashboard (Settings > Variables
+# and Secrets) ou via `wrangler secret put` :
 #   - ADMIN_PASSWORD : mot de passe du dashboard admin (/admin)
-#   - AUTH_SECRET    : chaîne aléatoire longue pour signer les sessions
+#   - AUTH_SECRET    : chaine aleatoire longue pour signer les sessions
 # ------------------------------------------------------------------
 name = "impact-tech"
-main = ".open-next/worker.js"
+main = "src/worker.tsx"
 compatibility_date = "2026-06-01"
 compatibility_flags = ["nodejs_compat"]
 
 [assets]
-directory = ".open-next/assets"
-binding = "ASSETS"
+directory = "./public"
 
 [[d1_databases]]
 binding = "DB"

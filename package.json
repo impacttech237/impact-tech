@@ -2,24 +2,22 @@
   "name": "impact-tech",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "cf:build": "opennextjs-cloudflare build",
-    "preview": "npm run cf:build && opennextjs-cloudflare preview",
-    "deploy": "npm run cf:build && opennextjs-cloudflare deploy"
+    "build:css": "tailwindcss -i src/styles.css.tailwind-input -o public/styles.css --minify",
+    "build:client": "node scripts/build.mjs",
+    "build": "npm run build:css && npm run build:client",
+    "dev": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "hono": "^4.6.14",
     "gsap": "^3.13.0",
     "lenis": "^1.3.4",
-    "next": "^14.2.30",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "1.6.5",
     "autoprefixer": "^10.4.20",
     "esbuild": "^0.28.1",
     "postcss": "^8.4.49",

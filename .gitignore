@@ -1,14 +1,13 @@
 # Dépendances
 node_modules/
 
-# Next.js
-.next/
-out/
-
-# Cloudflare (build OpenNext)
-.open-next/
-.vercel/
+# Cloudflare (wrangler dev/deploy)
 .wrangler/
+
+# Bundles generes (npm run build)
+public/styles.css
+public/client.js
+public/admin/bundle.js
 
 # Environnement local
 .env
