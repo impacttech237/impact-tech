@@ -2,7 +2,6 @@
 import { requireAdmin } from "@/lib/auth";
 import { getDB } from "@/lib/db";
 
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 const ALLOWED_KEYS = [

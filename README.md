@@ -35,14 +35,16 @@ wrangler.toml           → binding D1 + config Cloudflare Pages
 Base D1 : `impact-tech-db` (id `2739901c-9560-4341-8e0f-c5fcfc854920`), déjà créée et remplie.
 Tables : `settings`, `services`, `offers`, `testimonials`, `stats`, `faqs`, `posts`, `projects`, `process_steps`, `contact_requests`, `newsletter_subscribers`.
 
-## Déploiement sur Cloudflare Pages
+## Déploiement sur Cloudflare Workers (adaptateur OpenNext)
 
-1. Connecter ce repo GitHub à Cloudflare Pages (Workers & Pages → Create → Pages → Connect to Git).
-2. Build command : `npx @cloudflare/next-on-pages@1.13.12`
-   Build output : `.vercel/output/static`
-3. Settings → Functions → **Compatibility flags** : ajouter `nodejs_compat` (production + preview).
-4. Settings → Bindings : le binding D1 `DB` → `impact-tech-db` (repris automatiquement depuis `wrangler.toml`, sinon l'ajouter à la main).
-5. Settings → Environment variables (⚠️ obligatoire en production) :
+Le site se déploie comme un **Worker** via [@opennextjs/cloudflare](https://opennext.js.org/cloudflare).
+
+Dans le dashboard Cloudflare (Workers & Pages → impact-tech → Settings → Build) :
+
+1. **Build command** : `npx opennextjs-cloudflare build`
+2. **Deploy command** : `npx wrangler deploy`
+3. Le binding D1 `DB` → `impact-tech-db` et le flag `nodejs_compat` sont déjà déclarés dans `wrangler.toml` (appliqués automatiquement au déploiement).
+4. Settings → Variables and Secrets (⚠️ obligatoire en production) :
    - `ADMIN_PASSWORD` : mot de passe du dashboard `/admin` (défaut dev : `impact-admin-2026` — à changer !)
    - `AUTH_SECRET` : longue chaîne aléatoire (signature des sessions)
 
@@ -50,9 +52,9 @@ Tables : `settings`, `services`, `offers`, `testimonials`, `stats`, `faqs`, `pos
 
 ```bash
 npm install
-npm run dev        # site avec contenu de secours (sans BD)
-npm run preview    # build next-on-pages + wrangler pages dev (avec D1 réelle)
-npm run deploy     # déploiement direct via wrangler
+npm run dev        # site avec contenu de secours (D1 locale vide → fallback)
+npm run preview    # build OpenNext + aperçu local dans le runtime Workers
+npm run deploy     # build + déploiement direct via wrangler
 ```
 
 ## Dashboard admin

@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "cf:build": "opennextjs-cloudflare build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "gsap": "^3.13.0",
@@ -19,11 +19,11 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "1.13.12",
+    "@opennextjs/cloudflare": "1.6.5",
     "autoprefixer": "^10.4.20",
+    "esbuild": "^0.28.1",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "vercel": "^39.4.2",
-    "wrangler": "^3.114.17"
+    "wrangler": "^4.28.0"
   }
 }

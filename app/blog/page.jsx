@@ -5,7 +5,6 @@ import BlogList from "@/components/BlogList";
 import { JsonLd, breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
 import { getContent } from "@/lib/content";
 
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export const metadata = {

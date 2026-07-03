@@ -6,7 +6,6 @@ import CtaBanner from "@/components/CtaBanner";
 import { JsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { getContent } from "@/lib/content";
 
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export const metadata = {

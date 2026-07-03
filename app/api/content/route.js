@@ -1,7 +1,6 @@
 /* GET /api/content — contenu public complet du site (issu de D1) */
 import { getContent } from "@/lib/content";
 
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export async function GET() {

@@ -18,7 +18,6 @@ import { getContent } from "@/lib/content";
    Page d'accueil IMPACT TECH — 13 sections ✓
    Contenu chargé depuis la base D1 (dashboard /admin).
 ------------------------------------------------------------------- */
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export const metadata = {

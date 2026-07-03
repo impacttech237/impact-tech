@@ -1,7 +1,6 @@
 /* POST /api/contact — enregistre une demande de devis dans D1 */
 import { getDB } from "@/lib/db";
 
-export const runtime = "edge";
 
 export async function POST(request) {
   let body;

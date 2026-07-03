@@ -4,7 +4,6 @@ import { requireAdmin } from "@/lib/auth";
 import { getDB } from "@/lib/db";
 import { RESOURCES } from "@/lib/admin-resources";
 
-export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 function getResource(params) {

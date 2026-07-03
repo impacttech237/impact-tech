@@ -1,19 +1,26 @@
 # ------------------------------------------------------------------
-# IMPACT TECH — Configuration Cloudflare Pages
-# Build : npx @cloudflare/next-on-pages
-# Sortie : .vercel/output/static
+# IMPACT TECH — Configuration Cloudflare Workers (adaptateur OpenNext)
+# Build  : npx opennextjs-cloudflare build
+# Deploy : npx wrangler deploy
 #
-# ⚠️ En production, définissez ces secrets dans le dashboard Cloudflare
-# (Pages → Settings → Environment variables) :
+# ⚠️ En production, définissez ces variables dans le dashboard Cloudflare
+# (Workers & Pages → impact-tech → Settings → Variables and Secrets) :
 #   - ADMIN_PASSWORD : mot de passe du dashboard admin (/admin)
 #   - AUTH_SECRET    : chaîne aléatoire longue pour signer les sessions
 # ------------------------------------------------------------------
 name = "impact-tech"
+main = ".open-next/worker.js"
 compatibility_date = "2026-06-01"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "impact-tech-db"
 database_id = "2739901c-9560-4341-8e0f-c5fcfc854920"
+
+[observability]
+enabled = true

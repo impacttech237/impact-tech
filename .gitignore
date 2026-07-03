@@ -5,7 +5,8 @@ node_modules/
 .next/
 out/
 
-# Cloudflare / Vercel (build next-on-pages)
+# Cloudflare (build OpenNext)
+.open-next/
 .vercel/
 .wrangler/
 
