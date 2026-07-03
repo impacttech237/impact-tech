@@ -1,0 +1,19 @@
+# Dépendances
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Cloudflare / Vercel (build next-on-pages)
+.vercel/
+.wrangler/
+
+# Environnement local
+.env
+.env*.local
+.dev.vars
+
+# Divers
+*.log
+.DS_Store
