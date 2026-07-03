@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "cf:build": "opennextjs-cloudflare build",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+    "preview": "npm run cf:build && opennextjs-cloudflare preview",
+    "deploy": "npm run cf:build && wrangler deploy"
   },
   "dependencies": {
     "gsap": "^3.13.0",
