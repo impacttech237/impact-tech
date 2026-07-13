@@ -19,7 +19,7 @@ directory = "./public"
 [[d1_databases]]
 binding = "DB"
 database_name = "impact-tech-db"
-database_id = "2739901c-9560-4341-8e0f-c5fcfc854920"
+database_id = "afaeac82-b728-4095-a4ff-a2053a5a9b55"
 
 [observability]
 enabled = true

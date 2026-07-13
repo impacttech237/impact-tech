@@ -25,6 +25,13 @@ await build({
   minify: true,
   sourcemap: false,
   jsx: "automatic",
+  jsxImportSource: "react",
+  // Le tsconfig.json racine impose jsxImportSource "hono/jsx" (pour src/, rendu serveur).
+  // tsconfigRaw court-circuite la lecture du fichier disque pour CE build précis,
+  // sinon esbuild applique le jsxImportSource du tsconfig.json même par-dessus l'option ci-dessus.
+  tsconfigRaw: JSON.stringify({
+    compilerOptions: { jsx: "react-jsx", jsxImportSource: "react" },
+  }),
 });
 
 console.log("Bundles client OK : public/client.js + public/admin/bundle.js");
