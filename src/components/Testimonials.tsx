@@ -1,5 +1,3 @@
-import { DEFAULTS } from "../lib/defaults";
-
 function Card({ t }) {
   return (
     <article className="testi-card">
@@ -23,7 +21,8 @@ function Card({ t }) {
 }
 
 export default function Testimonials({ items }) {
-  const TESTIMONIALS = items?.length ? items : DEFAULTS.testimonials;
+  if (!items?.length) return null;
+  const TESTIMONIALS = items;
   const cols = [[], [], []];
   TESTIMONIALS.forEach((t, i) => cols[i % 3].push(t));
 

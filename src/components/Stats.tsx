@@ -1,7 +1,6 @@
-import { DEFAULTS } from "../lib/defaults";
-
 export default function Stats({ items }) {
-  const STATS = items?.length ? items : DEFAULTS.stats;
+  if (!items?.length) return null;
+  const STATS = items;
 
   return (
     <section id="chiffres" className="stats section-pad" data-anim="stats">

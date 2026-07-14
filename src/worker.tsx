@@ -13,6 +13,8 @@ import RealisationsPage from "./pages/realisations";
 import BlogPage from "./pages/blog";
 import ContactPage from "./pages/contact";
 import AboutPage from "./pages/a-propos";
+import MentionsLegalesPage from "./pages/mentions-legales";
+import ConfidentialitePage from "./pages/confidentialite";
 
 const app = new Hono();
 
@@ -46,6 +48,16 @@ app.get("/contact", async (c) => {
 app.get("/a-propos", async (c) => {
   const content = await getContent(c.env);
   return c.html(<AboutPage content={content} />);
+});
+
+app.get("/mentions-legales", async (c) => {
+  const content = await getContent(c.env);
+  return c.html(<MentionsLegalesPage content={content} />);
+});
+
+app.get("/confidentialite", async (c) => {
+  const content = await getContent(c.env);
+  return c.html(<ConfidentialitePage content={content} />);
 });
 
 /* ---------- API publiques ---------- */

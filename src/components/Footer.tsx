@@ -115,8 +115,8 @@ export default function Footer({ settings }) {
           <div className="footer__bottom">
             <p>© 2026 IMPACT TECH — Tous droits réservés.</p>
             <div className="footer__legal">
-              <a href="#">Mentions légales</a>
-              <a href="#">Confidentialité</a>
+              <a href="/mentions-legales">Mentions légales</a>
+              <a href="/confidentialite">Confidentialité</a>
             </div>
             <p className="footer__made">Fait avec <span aria-hidden="true">❤</span> à Douala</p>
           </div>
