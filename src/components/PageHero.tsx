@@ -29,11 +29,11 @@ export default function PageHero({
 
         <h1 className="page-hero__title">
           {title.map((w, i) => (
-            <span key={i} className="inline-block overflow-hidden align-bottom">
-              <span className={`ph-word inline-block ${w.accent ? "accent" : ""}`}>
-                {w.t}
-                {" "}
+            <span key={i}>
+              <span className="inline-block overflow-hidden align-bottom">
+                <span className={`ph-word inline-block ${w.accent ? "accent" : ""}`}>{w.t}</span>
               </span>
+              {i < title.length - 1 ? " " : ""}
             </span>
           ))}
         </h1>

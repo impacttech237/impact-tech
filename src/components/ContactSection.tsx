@@ -2,10 +2,7 @@ import { DEFAULTS } from "../lib/defaults";
 
 /* Le formulaire est intercepté par client/main.ts (data-ajax-form="contact")
    qui POST vers /api/contact et bascule l'affichage idle/sent/error. */
-const PROJECT_TYPES = [
-  "Landing Page", "Site E-commerce", "Blog / Site Vitrine", "SaaS",
-  "Application web / mobile", "Solution sur-mesure", "Je ne sais pas encore",
-];
+const OFFERS = ["Impact Vitrine", "Impact Gestion", "Impact Signature", "Autre / à discuter"];
 const BUDGETS = [
   "Moins de 200 000 FCFA", "200 000 – 500 000 FCFA", "500 000 – 1 500 000 FCFA",
   "Plus de 1 500 000 FCFA", "À définir ensemble",
@@ -109,15 +106,15 @@ export default function ContactSection({ settings }) {
 
               <div className="form-row">
                 <div className="form-field">
-                  <label htmlFor="cf-type">Type de projet *</label>
-                  <select id="cf-type" name="type" required defaultValue="">
+                  <label htmlFor="cf-type">Offre *</label>
+                  <select id="cf-type" name="type" data-offer-select required defaultValue="">
                     <option value="" disabled>Choisissez...</option>
-                    {PROJECT_TYPES.map((t) => <option key={t} value={t}>{t}</option>)}
+                    {OFFERS.map((t) => <option key={t} value={t}>{t}</option>)}
                   </select>
                 </div>
                 <div className="form-field">
                   <label htmlFor="cf-budget">Budget indicatif</label>
-                  <select id="cf-budget" name="budget" defaultValue="">
+                  <select id="cf-budget" name="budget" data-budget-select defaultValue="">
                     <option value="" disabled>Choisissez...</option>
                     {BUDGETS.map((b) => <option key={b} value={b}>{b}</option>)}
                   </select>

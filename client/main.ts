@@ -372,6 +372,42 @@ function initPortfolioFilter() {
   });
 }
 
+/* ================= Contact : offre -> budget auto + prefill via URL ================= */
+const OFFER_BUDGET_MAP = {
+  "Impact Vitrine": "Moins de 200 000 FCFA",
+  "Impact Gestion": "200 000 – 500 000 FCFA",
+  "Impact Signature": "À définir ensemble",
+};
+
+function slugifyOfferLabel(label) {
+  return label.toLowerCase().replace(/\s+/g, "-");
+}
+
+function initOfferBudgetSync() {
+  const offerSelect = document.querySelector("[data-offer-select]");
+  const budgetSelect = document.querySelector("[data-budget-select]");
+  if (!offerSelect || !budgetSelect) return;
+
+  const applyBudgetFor = (offerLabel) => {
+    const budget = OFFER_BUDGET_MAP[offerLabel];
+    if (budget) budgetSelect.value = budget;
+  };
+
+  offerSelect.addEventListener("change", () => applyBudgetFor(offerSelect.value));
+
+  const params = new URLSearchParams(window.location.search);
+  const offreParam = params.get("offre");
+  if (!offreParam) return;
+
+  const match = Array.from(offerSelect.options).find(
+    (opt) => opt.value && slugifyOfferLabel(opt.value) === offreParam
+  );
+  if (match) {
+    offerSelect.value = match.value;
+    applyBudgetFor(match.value);
+  }
+}
+
 /* ================= Formulaires AJAX (contact + newsletter) ================= */
 function initAjaxForms() {
   document.querySelectorAll("[data-ajax-form]").forEach((form) => {
@@ -421,6 +457,7 @@ function boot() {
   initServicesCarousel();
   initFaq();
   initPortfolioFilter();
+  initOfferBudgetSync();
   initAjaxForms();
   ScrollTrigger.refresh();
 }

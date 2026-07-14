@@ -2,10 +2,21 @@ import PillButton from "./PillButton";
 import ArrowIcon from "./ArrowIcon";
 import { DEFAULTS } from "../lib/defaults";
 
+function slugify(str) {
+  const noAccents = str
+    .toLowerCase()
+    .normalize("NFD")
+    .split("")
+    .filter((ch) => ch.codePointAt(0) < 0x0300 || ch.codePointAt(0) > 0x036f)
+    .join("");
+  return noAccents.replace(/\s+/g, "-");
+}
+
 function toCard(o) {
   return {
     img: o.image, tag: o.tag, title: o.title, price: o.price,
     isQuote: o.isQuote, popular: o.popular, features: o.features,
+    slug: slugify(o.tag),
   };
 }
 
@@ -47,7 +58,8 @@ export default function Offers({ items }) {
               </div>
 
               <div className="offer-card__body">
-                <h3>{o.title}</h3>
+                <h3 className="offer-card__name">{o.tag}</h3>
+                <p className="offer-card__tagline">{o.title}</p>
 
                 <ul className="offer-card__features">
                   {o.features.map((f) => (
@@ -69,7 +81,7 @@ export default function Offers({ items }) {
                       </>
                     )}
                   </p>
-                  <a href="/contact" className="offer-card__cta" aria-label={`Demander le ${o.tag}`}>
+                  <a href={`/contact?offre=${o.slug}`} className="offer-card__cta" aria-label={`Demander le ${o.tag}`}>
                     <ArrowIcon />
                   </a>
                 </div>

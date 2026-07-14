@@ -4,17 +4,18 @@ import { DEFAULTS } from "../lib/defaults";
 /* Split "maison" par mots : chaque mot dans un span (masque overflow).
    L'animation d'entrée est jouée par client/main.ts sur .hero-word. */
 function SplitWords({ children, accentWord }) {
+  const words = children.split(" ");
   return (
     <>
-      {children.split(" ").map((word, i) => {
+      {words.map((word, i) => {
         const clean = word.replace(/[.,!?']/g, "");
         const isAccent = accentWord && clean.toLowerCase().includes(accentWord);
         return (
-          <span key={i} className="inline-block overflow-hidden align-bottom">
-            <span className={`hero-word inline-block ${isAccent ? "accent" : ""}`}>
-              {word}
-              {" "}
+          <span key={i}>
+            <span className="inline-block overflow-hidden align-bottom">
+              <span className={`hero-word inline-block ${isAccent ? "accent" : ""}`}>{word}</span>
             </span>
+            {i < words.length - 1 ? " " : ""}
           </span>
         );
       })}
