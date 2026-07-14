@@ -7,6 +7,10 @@
 # and Secrets) ou via `wrangler secret put` :
 #   - ADMIN_PASSWORD : mot de passe du dashboard admin (/admin)
 #   - AUTH_SECRET    : chaine aleatoire longue pour signer les sessions
+#   - NOTION_TOKEN   : jeton d'integration interne Notion (optionnel) —
+#                      synchronise chaque demande de devis vers la base
+#                      "CRM — Prospects & Clients". Sans ce secret, le
+#                      formulaire fonctionne normalement (D1 seulement).
 # ------------------------------------------------------------------
 name = "impact-tech"
 main = "src/worker.tsx"

@@ -5,6 +5,7 @@
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
 import { getContent } from "./lib/content";
+import { syncContactToNotion } from "./lib/notion";
 import adminApi from "./api/admin";
 
 import HomePage from "./pages/home";
@@ -94,6 +95,19 @@ app.post("/api/contact", async (c) => {
         message.slice(0, 5000)
       )
       .run();
+
+    c.executionCtx.waitUntil(
+      syncContactToNotion(c.env, {
+        name,
+        phone,
+        email: (body.email || "").trim(),
+        company: (body.company || "").trim(),
+        type: (body.type || "").trim(),
+        budget: (body.budget || "").trim(),
+        message,
+      })
+    );
+
     return c.json({ ok: true });
   } catch (e) {
     console.error("POST /api/contact:", e?.message);
