@@ -75,6 +75,11 @@ export default function Footer({ settings }) {
                 <a href={s.instagram || "#"} aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" /></svg>
                 </a>
+                {s.tiktok && (
+                  <a href={s.tiktok} aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.3 2 1.5 3.6 3.5 4v2.7c-1.3 0-2.5-.4-3.5-1v5.6a5.8 5.8 0 1 1-5.8-5.8c.3 0 .6 0 .9.1v2.9a2.9 2.9 0 1 0 2 2.8V3h2.9Z" /></svg>
+                  </a>
+                )}
               </div>
             </div>
 

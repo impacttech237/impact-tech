@@ -1,12 +1,14 @@
 /* ------------------------------------------------------------------
    SEO — configuration centrale IMPACT TECH
-   ⚠️ Remplacez SITE_URL par votre vrai domaine avant la mise en ligne
-   (ex : https://www.impacttech.cm)
+   SITE_URL = domaine canonique du site (sans slash final).
+   Tout le SEO (canonical, Open Graph, Twitter, JSON-LD, sitemap) en
+   découle. On utilise le domaine apex (sans www) pour rester cohérent
+   avec la redirection Cloudflare.
 ------------------------------------------------------------------- */
-export const SITE_URL = "https://www.impacttech.cm";
+export const SITE_URL = "https://impacttech237.com";
 export const SITE_NAME = "IMPACT TECH";
-export const PHONE = "+237600000000";
-export const EMAIL = "contact@impacttech.cm";
+export const PHONE = "+237653395694";
+export const EMAIL = "impacttech237@gmail.com";
 
 /* --- Données structurées JSON-LD --- */
 
@@ -45,9 +47,10 @@ export const organizationJsonLd = {
     { "@type": "City", name: "Yaoundé" },
   ],
   sameAs: [
-    "https://www.facebook.com/impacttech",
-    "https://www.linkedin.com/company/impacttech",
-    "https://www.instagram.com/impacttech",
+    "https://web.facebook.com/profile.php?id=61592459664276",
+    "https://www.linkedin.com/company/impact-tech-cm",
+    "https://www.instagram.com/impacttech_237/",
+    "https://www.tiktok.com/@impact.tech92",
   ],
 };
 

@@ -16,7 +16,7 @@ const app = new Hono();
 
 const SETTINGS_KEYS = [
   "site_name", "phone_display", "phone_link", "email", "address", "hours",
-  "location_note", "hours_note", "facebook", "linkedin", "instagram",
+  "location_note", "hours_note", "facebook", "linkedin", "instagram", "tiktok",
   "marquee_items", "hero_pills",
 ];
 

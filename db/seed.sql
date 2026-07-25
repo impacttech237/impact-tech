@@ -1,16 +1,17 @@
 -- Seed D1 — contenu par défaut (src/lib/defaults.js)
 
 INSERT INTO settings (key, value) VALUES ('site_name', 'IMPACT TECH');
-INSERT INTO settings (key, value) VALUES ('phone_display', '+237 6 00 00 00 00');
-INSERT INTO settings (key, value) VALUES ('phone_link', '+237600000000');
-INSERT INTO settings (key, value) VALUES ('email', 'contact@impacttech.cm');
+INSERT INTO settings (key, value) VALUES ('phone_display', '+237 6 53 39 56 94');
+INSERT INTO settings (key, value) VALUES ('phone_link', '+237653395694');
+INSERT INTO settings (key, value) VALUES ('email', 'impacttech237@gmail.com');
 INSERT INTO settings (key, value) VALUES ('address', 'Douala, Cameroun 🇨🇲');
 INSERT INTO settings (key, value) VALUES ('hours', 'Lundi – Samedi : 8h – 18h');
 INSERT INTO settings (key, value) VALUES ('location_note', 'Rendez-vous en présentiel à Douala ou en visio partout ailleurs.');
 INSERT INTO settings (key, value) VALUES ('hours_note', 'Urgence sur un site en production ? WhatsApp, 7j/7.');
-INSERT INTO settings (key, value) VALUES ('facebook', 'https://www.facebook.com/impacttech');
-INSERT INTO settings (key, value) VALUES ('linkedin', 'https://www.linkedin.com/company/impacttech');
-INSERT INTO settings (key, value) VALUES ('instagram', 'https://www.instagram.com/impacttech');
+INSERT INTO settings (key, value) VALUES ('facebook', 'https://web.facebook.com/profile.php?id=61592459664276');
+INSERT INTO settings (key, value) VALUES ('linkedin', 'https://www.linkedin.com/company/impact-tech-cm');
+INSERT INTO settings (key, value) VALUES ('instagram', 'https://www.instagram.com/impacttech_237/');
+INSERT INTO settings (key, value) VALUES ('tiktok', 'https://www.tiktok.com/@impact.tech92');
 INSERT INTO settings (key, value) VALUES ('marquee_items', '["Landing Page","E-commerce","SaaS","Application","Blog"]');
 INSERT INTO settings (key, value) VALUES ('hero_pills', '["Sans engagement","Livraison rapide","Support local"]');
 

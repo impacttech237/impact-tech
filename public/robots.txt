@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /api/
 
-Sitemap: https://www.impacttech.cm/sitemap.xml
+Sitemap: https://impacttech237.com/sitemap.xml

@@ -149,6 +149,7 @@ const SETTINGS_FIELDS = [
   { name: "facebook", label: "Lien Facebook" },
   { name: "linkedin", label: "Lien LinkedIn" },
   { name: "instagram", label: "Lien Instagram" },
+  { name: "tiktok", label: "Lien TikTok" },
   { name: "marquee_items", label: "Bandeau défilant (un mot par ligne)", type: "list" },
   { name: "hero_pills", label: "Arguments du hero (un par ligne)", type: "list" },
 ];
