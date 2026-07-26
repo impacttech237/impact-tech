@@ -9,6 +9,11 @@ export default function CtaBanner({ settings }) {
     <section className="cta-banner" data-anim="cta-banner">
       <div className="container-it">
         <div className="cta-banner__card">
+          <svg className="cta-route" viewBox="0 0 1000 520" fill="none" aria-hidden="true">
+            <path id="cta-motion-path" d="M44 407C168 98 371 71 481 249c110 178 296 238 476 27" />
+            <circle cx="44" cy="407" r="8" />
+            <circle cx="957" cy="276" r="8" />
+          </svg>
           <svg className="cta-plane" viewBox="0 0 48 48" fill="none" aria-hidden="true">
             <path d="M6 24 42 8 30 40l-8-12-16-4Z" stroke="#C0202B" strokeWidth="2.4" strokeLinejoin="round" fill="rgba(192,32,43,.08)" />
             <path d="M22 28 42 8" stroke="#C0202B" strokeWidth="2.4" strokeLinecap="round" />
@@ -24,6 +29,7 @@ export default function CtaBanner({ settings }) {
           <span className="section-badge">
             <span className="dot" /> Parlons-en <span className="dot" />
           </span>
+          <span className="cta-banner__chapter" aria-hidden="true">05 / PASSONS À L’ACTION</span>
 
           <h2 className="cta-banner__title">
             Prêt à donner de l'<span className="accent">impact</span>

@@ -15,8 +15,12 @@ export default function Stats({ items }) {
         </div>
 
         <div className="stats-grid">
-          {STATS.map((s) => (
+          {STATS.map((s, index) => (
             <div key={s.label} className="stat-item">
+              <svg className="stat-ring" viewBox="0 0 160 160" fill="none" aria-hidden="true">
+                <circle className="stat-ring__track" cx="80" cy="80" r="70" />
+                <circle className="stat-ring__value" cx="80" cy="80" r="70" data-ring={index} />
+              </svg>
               <p className="stat-value">
                 <span className="stat-num" data-value={s.value}>0</span>
                 <span className="stat-suffix">{s.suffix}</span>
@@ -40,6 +44,7 @@ export default function Stats({ items }) {
             </div>
           ))}
         </div>
+        <div className="stats__axis" aria-hidden="true"><span>IMPACT</span><span>MESURABLE</span></div>
       </div>
     </section>
   );

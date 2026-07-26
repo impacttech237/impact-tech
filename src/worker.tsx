@@ -5,6 +5,7 @@
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
 import { getContent } from "./lib/content";
+import { DEFAULTS } from "./lib/defaults";
 import { syncContactToNotion } from "./lib/notion";
 import adminApi from "./api/admin";
 
@@ -12,10 +13,12 @@ import HomePage from "./pages/home";
 import ServicesPage from "./pages/services";
 import RealisationsPage from "./pages/realisations";
 import BlogPage from "./pages/blog";
+import ArticlePage from "./pages/article";
 import ContactPage from "./pages/contact";
 import AboutPage from "./pages/a-propos";
 import MentionsLegalesPage from "./pages/mentions-legales";
 import ConfidentialitePage from "./pages/confidentialite";
+import { getArticleBySlug, getRelatedArticles } from "./lib/articles";
 
 const app = new Hono();
 
@@ -39,6 +42,18 @@ app.get("/realisations", async (c) => {
 app.get("/blog", async (c) => {
   const content = await getContent(c.env);
   return c.html(<BlogPage content={content} />);
+});
+
+app.get("/blog/:slug", async (c) => {
+  const content = await getContent(c.env);
+  // Mêmes données que la liste du blog : si la table posts (D1) est vide,
+  // on retombe sur DEFAULTS.posts, exactement comme BlogList/Blog. Sans ça,
+  // les liens d'articles (générés depuis DEFAULTS) renverraient un 404.
+  const posts = content.posts?.length ? content.posts : DEFAULTS.posts;
+  const article = getArticleBySlug(posts, c.req.param("slug"));
+  if (!article) return c.notFound();
+  const related = getRelatedArticles(posts, article.slug, 3);
+  return c.html(<ArticlePage article={article} related={related} settings={content.settings} />);
 });
 
 app.get("/contact", async (c) => {

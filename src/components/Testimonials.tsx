@@ -23,9 +23,6 @@ function Card({ t }) {
 export default function Testimonials({ items }) {
   if (!items?.length) return null;
   const TESTIMONIALS = items;
-  const cols = [[], [], []];
-  TESTIMONIALS.forEach((t, i) => cols[i % 3].push(t));
-
   return (
     <section className="testimonials section-pad" data-anim="testimonials">
       <div className="container-it">
@@ -42,16 +39,15 @@ export default function Testimonials({ items }) {
         </div>
       </div>
 
-      <div className="testi-wall">
-        {cols.map((col, i) => (
-          <div key={i} className={`testi-col ${i === 2 ? "testi-col--desktop" : ""}`}>
-            <div className="testi-col-inner">
-              {[...col, ...col].map((t, j) => (
-                <Card key={`${t.name}-${j}`} t={t} />
-              ))}
-            </div>
-          </div>
-        ))}
+      <div className="testi-stage">
+        <div className="testi-track">
+          {[...TESTIMONIALS, ...TESTIMONIALS].map((t, index) => (
+            <Card key={`${t.name}-${index}`} t={t} />
+          ))}
+        </div>
+        <div className="testi-drag-hint" aria-hidden="true">
+          <span>←</span><strong>GLISSEZ</strong><span>→</span>
+        </div>
       </div>
     </section>
   );

@@ -51,6 +51,14 @@ export default function Promise() {
     <section id="promesse" className="promise section-pad" data-anim="promise">
       <div className="container-it">
         <div className="promise__stage">
+          <div className="promise__morph-wrap" aria-hidden="true">
+            <svg className="promise__morph" viewBox="0 0 520 520">
+              <path id="promise-shape" d="M259 38C350 25 454 86 476 181c22 95-49 147-64 230-15 83-102 86-185 69S40 426 34 330c-6-96 84-124 103-193C156 68 207 45 259 38Z" />
+              <path id="promise-shape-two" d="M260 32C346 32 398 110 465 167c67 57-4 135-42 213-38 78-128 112-209 76S47 387 55 295c8-92 100-121 128-187 28-66 27-76 77-76Z" visibility="hidden" />
+              <path id="promise-shape-three" d="M250 44C347 18 452 97 469 191c17 94-72 119-66 209 6 90-101 90-184 66S38 407 51 309c13-98 105-109 116-187 11-78 34-65 83-78Z" visibility="hidden" />
+            </svg>
+            <img src="/images/icone-transparent.png" alt="" className="promise__mark" />
+          </div>
           {BLOBS.map((b) => (
             <div key={b.label} className={`blob ${b.className}`}>
               <span className="blob__icon" aria-hidden="true">{b.icon}</span>
@@ -59,6 +67,7 @@ export default function Promise() {
           ))}
 
           <div className="promise__content">
+            <span className="promise__chapter" aria-hidden="true">03 / MANIFESTE</span>
             <span className="section-badge promise-badge">
               <span className="dot" /> Notre promesse <span className="dot" />
             </span>

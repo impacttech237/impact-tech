@@ -18,9 +18,11 @@ export default function Header() {
       <header className="header" data-header>
         <div className="container-it">
           <div className="header__inner">
-            <a href="/" className="logo" aria-label="IMPACT TECH — Accueil">
-              impact<span className="logo-dot">.</span>
-              <span className="logo-tech">Tech</span>
+            <a href="/" className="logo" aria-label="Impact Tech — Accueil">
+              <img className="logo__img" src="/images/logo.png" alt="Impact Tech" />
+              <span className="logo__text" aria-hidden="true">
+                impact<span className="logo-dot">.</span><span className="logo-tech">Tech</span>
+              </span>
             </a>
 
             <nav className="header__nav flex items-center gap-8" aria-label="Navigation principale">

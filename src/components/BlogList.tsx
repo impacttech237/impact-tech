@@ -1,8 +1,9 @@
 import ArrowIcon from "./ArrowIcon";
 import { DEFAULTS } from "../lib/defaults";
+import { articleSlug } from "../lib/articles";
 
 function toCard(p) {
-  return { img: p.image, cat: p.category, date: p.date, read: p.readTime, title: p.title, excerpt: p.excerpt };
+  return { img: p.image, cat: p.category, date: p.date, read: p.readTime, title: p.title, excerpt: p.excerpt, slug: articleSlug(p.title) };
 }
 
 export default function BlogList({ posts }) {
@@ -13,14 +14,25 @@ export default function BlogList({ posts }) {
 
   return (
     <section className="bloglist section-pad" data-anim="bloglist">
+      <div className="bl-backdrop" aria-hidden="true"><span /><span /><span /></div>
       <div className="container-it">
+        <header className="bl-intro">
+          <span>02 — JOURNAL D’IMPACT</span>
+          <h2>Des idées à lire. Des déclics à <em>appliquer.</em></h2>
+          <div className="bl-intro__rail">
+            <span>STRATÉGIE</span><span>DESIGN</span><span>BUSINESS</span><span>TECH</span><span>CAMEROUN</span>
+          </div>
+        </header>
+
         <article className="blog-featured">
-          <a href="/contact" className="blog-featured__inner">
+          <a href={`/blog/${FEATURED.slug}`} className="blog-featured__inner">
             <div className="blog-featured__media">
               <img src={FEATURED.img} alt="" loading="lazy" draggable="false" />
               <span className="blog-card__cat">À la une</span>
+              <span className="blog-featured__index">01</span>
             </div>
             <div className="blog-featured__body">
+              <span className="blog-featured__eyebrow">ARTICLE MANIFESTE</span>
               <p className="blog-card__meta">{FEATURED.cat} · {FEATURED.date} · {FEATURED.read} de lecture</p>
               <h2>{FEATURED.title}</h2>
               <p className="blog-featured__excerpt">{FEATURED.excerpt}</p>
@@ -30,12 +42,13 @@ export default function BlogList({ posts }) {
         </article>
 
         <div className="bl-grid">
-          {POSTS.map((p) => (
-            <article key={p.title} className="bl-card">
-              <a href="/contact" className="blog-card__inner">
+          {POSTS.map((p, index) => (
+            <article key={p.title} className="bl-card" data-bl-title={p.title}>
+              <a href={`/blog/${p.slug}`} className="blog-card__inner">
                 <div className="blog-card__media">
                   <img src={p.img} alt="" loading="lazy" draggable="false" />
                   <span className="blog-card__cat">{p.cat}</span>
+                  <span className="bl-card__index">{String(index + 2).padStart(2, "0")}</span>
                 </div>
                 <div className="blog-card__body">
                   <p className="blog-card__meta">{p.date} · {p.read} de lecture</p>
@@ -49,6 +62,7 @@ export default function BlogList({ posts }) {
         </div>
 
         <div className="bl-newsletter">
+          <span className="bl-newsletter__pulse" aria-hidden="true" />
           <div>
             <h2>Ne ratez pas le prochain <span className="accent">article</span></h2>
             <p>Un email par mois, des conseils actionnables. C'est tout.</p>
@@ -61,6 +75,8 @@ export default function BlogList({ posts }) {
           <p className="newsletter__done" data-form-done style={{ display: "none" }}>✓ Merci, à très vite !</p>
         </div>
       </div>
+      <div className="bl-reader" aria-hidden="true"><span>LIRE</span><strong>ARTICLE</strong></div>
+      <div className="bl-scroll-count" aria-hidden="true"><strong>01</strong><span>/ {String(all.length).padStart(2, "0")}</span></div>
     </section>
   );
 }

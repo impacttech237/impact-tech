@@ -54,6 +54,11 @@ export default function Process({ steps }) {
               alt="Session de cadrage projet avec une cliente chez IMPACT TECH à Douala"
               loading="lazy"
             />
+            <svg className="process-visual__route" viewBox="0 0 640 760" fill="none" aria-hidden="true">
+              <path id="process-draw-path" d="M82 88C433 46 503 192 300 285c-203 93-231 257 42 313 103 21 174 66 199 112" />
+              <circle className="process-route-dot process-route-dot--one" cx="82" cy="88" r="8" />
+              <circle className="process-route-dot process-route-dot--two" cx="541" cy="710" r="8" />
+            </svg>
             <div className="process-visual__badge">
               <span className="process-visual__badge-dot" />
               Devis sous 48h

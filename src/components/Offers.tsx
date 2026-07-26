@@ -33,8 +33,9 @@ export default function Offers({ items }) {
 
   return (
     <section id="realisations" className="offers section-pad" data-anim="offers">
-      <div className="container-it">
+      <div className="container-it offers__scene">
         <div className="offers-head">
+          <span className="offers__chapter" aria-hidden="true">04 / NOS PACKS</span>
           <span className="section-badge">
             <span className="dot" /> Offres phares <span className="dot" />
           </span>
@@ -48,8 +49,9 @@ export default function Offers({ items }) {
         </div>
 
         <div className="offers-grid">
-          {OFFERS.map((o) => (
+          {OFFERS.map((o, index) => (
             <article key={o.tag} className={`offer-card ${o.popular ? "offer-card--popular" : ""}`}>
+              <span className="offer-card__index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
               {o.popular && <span className="offer-card__flag">Le plus demandé</span>}
 
               <div className="offer-card__media">
@@ -88,6 +90,9 @@ export default function Offers({ items }) {
               </div>
             </article>
           ))}
+        </div>
+        <div className="offers__progress" aria-hidden="true">
+          {OFFERS.map((o, index) => <span key={o.tag} className={index === 0 ? "is-active" : ""} />)}
         </div>
 
         <p className="offers-note">* Paiement échelonné possible. Chaque pack est ajustable selon vos besoins réels.</p>

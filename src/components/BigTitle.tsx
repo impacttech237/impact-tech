@@ -13,6 +13,8 @@ function SplitChars({ word, accent = false }) {
 export default function BigTitle() {
   return (
     <section className="bigtitle" aria-label="Le digital, pour tous." data-anim="bigtitle">
+      <div className="bigtitle__grid" aria-hidden="true" />
+      <span className="bigtitle__chapter" aria-hidden="true">09 / NOTRE CONVICTION</span>
       <div className="container-it">
         <h2 aria-hidden="true">
           <span className="bigtitle-line bigtitle-line--1">

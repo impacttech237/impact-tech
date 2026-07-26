@@ -11,7 +11,10 @@ export default function Services({ items }) {
 
   return (
     <section id="services" className="services section-pad" data-anim="services">
-      <div className="container-it">
+      <div className="container-it services__scene">
+        <div className="services__chapter" aria-hidden="true">
+          <span>02</span><span>EXPERTISES</span>
+        </div>
         <div className="services-head">
           <span className="section-badge">
             <span className="dot" /> Nos services <span className="dot" />
@@ -25,10 +28,16 @@ export default function Services({ items }) {
         </div>
 
         <div className="services-carousel">
+          <div className="services__rail-label" aria-hidden="true">
+            <span>Explorez</span>
+            <span className="services__rail-line" />
+            <strong className="services__rail-count">01 / {String(SERVICES.length).padStart(2, "0")}</strong>
+          </div>
           <ul className="services-track" aria-label="Liste de nos services">
-            {SERVICES.map((s) => (
+            {SERVICES.map((s, index) => (
               <li key={s.title} className="service-card">
                 <a href="/services" className="service-card__inner">
+                  <span className="service-card__index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
                   <div className="service-card__media">
                     <img src={s.img} alt={s.title} loading="lazy" draggable="false" />
                     <span className="service-card__tag">{s.tag}</span>

@@ -1,9 +1,10 @@
 import PillButton from "./PillButton";
 import ArrowIcon from "./ArrowIcon";
 import { DEFAULTS } from "../lib/defaults";
+import { articleSlug } from "../lib/articles";
 
 function toCard(p) {
-  return { img: p.image, cat: p.category, date: p.date, read: p.readTime, title: p.title, excerpt: p.excerpt };
+  return { img: p.image, cat: p.category, date: p.date, read: p.readTime, title: p.title, excerpt: p.excerpt, slug: articleSlug(p.title) };
 }
 
 export default function Blog({ posts }) {
@@ -30,9 +31,10 @@ export default function Blog({ posts }) {
         </div>
 
         <div className="blog-grid">
-          {POSTS.map((p) => (
+          {POSTS.map((p, index) => (
             <article key={p.title} className="blog-card">
-              <a href="/blog" className="blog-card__inner">
+              <a href={`/blog/${p.slug}`} className="blog-card__inner">
+                <span className="blog-card__index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
                 <div className="blog-card__media">
                   <img src={p.img} alt="" loading="lazy" draggable="false" />
                   <span className="blog-card__cat">{p.cat}</span>
@@ -47,6 +49,7 @@ export default function Blog({ posts }) {
             </article>
           ))}
         </div>
+        <div className="blog__progress" aria-hidden="true"><span /></div>
 
         <div className="blog-cta">
           <PillButton href="/blog" variant="outline">Tous les articles</PillButton>

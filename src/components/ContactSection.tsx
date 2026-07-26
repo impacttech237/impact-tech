@@ -39,7 +39,18 @@ export default function ContactSection({ settings }) {
 
   return (
     <section className="contact section-pad" data-anim="contact">
+      <div className="contact-ambient" aria-hidden="true">
+        <svg viewBox="0 0 1440 520" preserveAspectRatio="none">
+          <path className="contact-route" d="M-20 420C260 120 430 480 700 230S1110 70 1460 250" />
+          <circle className="contact-route__dot" r="7" />
+        </svg>
+      </div>
       <div className="container-it">
+        <header className="contact-intro">
+          <span>02 — PREMIER ÉCHANGE</span>
+          <h2>Une conversation peut tout <em>déclencher.</em></h2>
+          <p>Choisissez votre canal ou construisez votre demande en deux étapes simples.</p>
+        </header>
         <div className="contact__grid">
           <div className="contact__side">
             <h2>Choisissez votre <span className="accent">canal</span></h2>
@@ -80,7 +91,14 @@ export default function ContactSection({ settings }) {
 
           <div className="contact-form">
             <form data-ajax-form="contact" action="/api/contact" method="post">
-              <h2>Demandez votre <span className="accent">devis</span> gratuit</h2>
+              <div className="contact-form__top">
+                <h2>Demandez votre <span className="accent">devis</span> gratuit</h2>
+                <div className="contact-form__counter" aria-live="polite"><strong>01</strong><span>/ 02</span></div>
+              </div>
+              <div className="contact-form__progress" aria-hidden="true"><span /></div>
+              <div className="contact-form__steps">
+                <div className="contact-form__step is-active" data-contact-step="1">
+                  <span className="contact-form__step-label">ÉTAPE 01 — FAISONS CONNAISSANCE</span>
 
               <div className="form-row">
                 <div className="form-field">
@@ -104,6 +122,13 @@ export default function ContactSection({ settings }) {
                 </div>
               </div>
 
+                  <button type="button" className="contact-form__next" data-contact-next>
+                    Continuer <span>02 →</span>
+                  </button>
+                </div>
+
+                <div className="contact-form__step" data-contact-step="2" aria-hidden="true">
+                  <span className="contact-form__step-label">ÉTAPE 02 — VOTRE PROJET</span>
               <div className="form-row">
                 <div className="form-field">
                   <label htmlFor="cf-type">Offre *</label>
@@ -128,11 +153,16 @@ export default function ContactSection({ settings }) {
 
               <p className="contact-form__error" data-form-error style={{ color: "#C0202B", fontSize: "0.9rem", marginBottom: "0.75rem", display: "none" }} role="alert" />
 
-              <button type="submit" className="contact-form__submit" data-form-submit>Envoyer ma demande</button>
+              <div className="contact-form__actions">
+                <button type="button" className="contact-form__back" data-contact-back>← Retour</button>
+                <button type="submit" className="contact-form__submit" data-form-submit>Envoyer ma demande</button>
+              </div>
               <p className="contact-form__privacy">
                 En envoyant ce formulaire, vous acceptez d'être recontacté au sujet de votre projet. Vos données ne
                 sont jamais partagées.
               </p>
+                </div>
+              </div>
             </form>
 
             <div className="contact-form__done" role="status" data-form-done style={{ display: "none" }}>

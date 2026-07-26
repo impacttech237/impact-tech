@@ -30,11 +30,26 @@ export default function Hero({ pills }) {
     <section className="hero" data-anim="hero">
       <div className="hero__bg" role="img" aria-label="Équipe IMPACT TECH au travail, Douala, Cameroun" />
       <div className="hero__overlay" aria-hidden="true" />
+      <div className="hero__kinetic" aria-hidden="true">
+        <svg className="hero__orbit" viewBox="0 0 1200 760" fill="none">
+          <path className="hero__orbit-path hero__orbit-path--outer" d="M72 450C168 92 488 24 765 118c277 94 421 349 304 507-117 158-416 134-655 58C175 607-4 734 72 450Z" />
+          <path id="hero-motion-path" className="hero__orbit-path hero__orbit-path--route" d="M96 570C238 708 437 671 540 488 643 305 709 82 1038 168" />
+          <circle className="hero__orbit-ring hero__orbit-ring--one" cx="600" cy="380" r="260" />
+          <circle className="hero__orbit-ring hero__orbit-ring--two" cx="600" cy="380" r="142" />
+          <circle className="hero__runner" cx="0" cy="0" r="8" />
+          <circle className="hero__pulse hero__pulse--one" cx="1038" cy="168" r="7" />
+          <circle className="hero__pulse hero__pulse--two" cx="96" cy="570" r="5" />
+        </svg>
+        <div className="hero__impact-mark">
+          <img src="/images/icone-transparent.png" alt="" />
+        </div>
+        <span className="hero__chapter">01 — IMPACT EN MOUVEMENT</span>
+      </div>
 
       <div className="hero__content">
         <div className="hero__badge gsap-hidden">
           <span className="dot" aria-hidden="true" />
-          Le digital accessible — depuis le Cameroun
+          <span className="hero__badge-label">Le digital accessible — depuis le Cameroun</span>
         </div>
 
         <h1 className="hero__title">
