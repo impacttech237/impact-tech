@@ -1145,15 +1145,25 @@ function initPageHero() {
   gsap.set(".ph-fade", { y: 28 });
   gsap.set(".ph-route", { drawSVG: "0% 0%" });
 
+  // États de départ posés via set() + to() (et non from()/fromTo()). Les tweens
+  // .from() sont ré-appliqués par ScrollTrigger.refresh() — déclenché par le pin
+  // du hero et par le chargement de l'image de fond — ce qui re-figeait le titre
+  // à son état de départ (lettres éclatées et masquées). Les .to() y sont immunisés.
+  gsap.set(".ph-word", { yPercent: 125, rotation: 5, autoAlpha: 0 });
+  if (mark) gsap.set(mark, { scale: .48, rotation: -24, autoAlpha: 0 });
+  if (nodes.length) gsap.set(nodes, { scale: 0, autoAlpha: 0 });
+  gsap.set(".page-hero__chapter", { x: -24, autoAlpha: 0 });
+  gsap.set(".page-hero__scroll", { x: 24, autoAlpha: 0 });
+
   const entrance = gsap.timeline({ delay: .28, defaults: { ease: "impact-out" } });
   entrance
-    .from(".ph-word", { yPercent: 125, rotation: 5, autoAlpha: 0, duration: 1.05, stagger: .075 }, 0)
+    .to(".ph-word", { yPercent: 0, rotation: 0, autoAlpha: 1, duration: 1.05, stagger: .075 }, 0)
     .to(".ph-fade", { autoAlpha: 1, y: 0, duration: .78, stagger: .1 }, .22)
-    .fromTo(mark, { scale: .48, rotation: -24, autoAlpha: 0 }, { scale: 1, rotation: 0, autoAlpha: .18, duration: 1.1 }, .05)
+    .to(mark, { scale: 1, rotation: 0, autoAlpha: .18, duration: 1.1 }, .05)
     .to(".ph-route", { drawSVG: "0% 100%", duration: 1.25, stagger: .12, ease: "power2.inOut" }, .05)
-    .from(nodes, { scale: 0, autoAlpha: 0, stagger: .12, duration: .55, ease: "back.out(1.8)" }, .52)
-    .from(".page-hero__chapter", { x: -24, autoAlpha: 0, duration: .7 }, .58)
-    .from(".page-hero__scroll", { x: 24, autoAlpha: 0, duration: .7 }, .65);
+    .to(nodes, { scale: 1, autoAlpha: 1, stagger: .12, duration: .55, ease: "back.out(1.8)" }, .52)
+    .to(".page-hero__chapter", { x: 0, autoAlpha: 1, duration: .7 }, .58)
+    .to(".page-hero__scroll", { x: 0, autoAlpha: 1, duration: .7 }, .65);
 
   if (route && runner) {
     entrance.to(runner, {

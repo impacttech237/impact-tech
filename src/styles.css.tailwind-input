@@ -2903,7 +2903,9 @@ h4 {
   position: relative;
   z-index: 2;
   background: transparent;
-  margin-top: clamp(-56px, -5vw, -36px);
+  /* Pas de chevauchement négatif : sinon l'emblème flottant (centré sur le bord
+     haut de la carte) remonte dans la zone du formulaire newsletter. */
+  margin-top: 0;
 }
 .footer > .container-it {
   max-width: none;
@@ -3077,11 +3079,11 @@ h4 {
 }
 @media (max-width: 640px) {
   .footer {
-    margin-top: -30px;
+    margin-top: 0;
   }
   .footer__card {
     border-radius: 26px 26px 0 0;
-    padding: 60px 22px 24px;
+    padding: 64px 22px 24px;
   }
   .footer__cols {
     grid-template-columns: 1fr;
@@ -4282,7 +4284,10 @@ h4 {
   border-radius: 0;
 }
 .newsletter__inner {
-  padding: clamp(42px, 5vw, 68px) 24px clamp(78px, 7vw, 100px);
+  /* Gros rembourrage bas : laisse un espace crème propre sous le formulaire,
+     où la moitié haute de l'emblème du footer vient flotter sans chevaucher
+     le champ e-mail. */
+  padding: clamp(42px, 5vw, 68px) 24px clamp(150px, 14vw, 205px);
 }
 .newsletter__title {
   font-size: clamp(2rem, 4vw, 3.8rem);
