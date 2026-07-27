@@ -657,7 +657,12 @@ function initHeroImmersiveScene() {
   });
   scrollTl
     .to(".hero__orbit", { rotation: 95, scale: 1.34, transformOrigin: "50% 50%", duration: 1 }, 0)
-    .to(".hero__impact-mark", { scale: 5.2, autoAlpha: 0.035, rotation: 90, duration: 1 }, 0)
+    // L'icône Impact Tech se révèle au scroll : de quasi transparente (.16) à
+    // bien visible (1), centrée dans l'orbite et droite (rotation 0), avec un
+    // léger grossissement pour qu'elle ressorte quand le contenu s'efface.
+    .fromTo(".hero__impact-mark",
+      { scale: 1, autoAlpha: 0.16, rotation: 0 },
+      { scale: 1.9, autoAlpha: 1, rotation: 0, duration: 1, ease: "power2.out" }, 0)
     .to(".hero__content", { yPercent: -46, scale: 0.68, autoAlpha: 0, duration: 0.72 }, 0.12)
     .to(".hero__bg", { scale: 1.22, filter: "blur(8px)", duration: 1 }, 0)
     .to(".hero__overlay", { backgroundColor: "rgba(14,14,12,.92)", duration: 1 }, 0.18)
