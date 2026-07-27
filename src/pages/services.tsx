@@ -13,7 +13,7 @@ export default function ServicesPage({ content }) {
       title="Nos services — Sites, e-commerce, SaaS & apps"
       description="Landing page dès 200 000 FCFA, e-commerce avec Mobile Money dès 500 000 FCFA, SaaS, applications et solutions sur-mesure. Packs tout inclus."
       canonical="/services"
-      jsonLd={[servicesJsonLd, faqJsonLd, breadcrumbJsonLd([{ name: "Accueil", path: "/" }, { name: "Services", path: "/services" }])]}
+      jsonLd={[servicesJsonLd, faqJsonLd(content.faqs), breadcrumbJsonLd([{ name: "Accueil", path: "/" }, { name: "Services", path: "/services" }])]}
     >
       <Header />
       <main>

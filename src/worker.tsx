@@ -18,7 +18,8 @@ import ContactPage from "./pages/contact";
 import AboutPage from "./pages/a-propos";
 import MentionsLegalesPage from "./pages/mentions-legales";
 import ConfidentialitePage from "./pages/confidentialite";
-import { getArticleBySlug, getRelatedArticles } from "./lib/articles";
+import { getArticleBySlug, getRelatedArticles, articleSlug } from "./lib/articles";
+import { SITE_URL } from "./lib/seo";
 
 const app = new Hono();
 
@@ -74,6 +75,34 @@ app.get("/mentions-legales", async (c) => {
 app.get("/confidentialite", async (c) => {
   const content = await getContent(c.env);
   return c.html(<ConfidentialitePage content={content} />);
+});
+
+/* ---------- Sitemap dynamique (inclut tous les articles du blog) ---------- */
+app.get("/sitemap.xml", async (c) => {
+  const content = await getContent(c.env);
+  const posts = content.posts?.length ? content.posts : DEFAULTS.posts;
+  const staticUrls = [
+    { path: "/", freq: "weekly", prio: "1.0" },
+    { path: "/services", freq: "monthly", prio: "0.9" },
+    { path: "/realisations", freq: "monthly", prio: "0.8" },
+    { path: "/contact", freq: "yearly", prio: "0.8" },
+    { path: "/a-propos", freq: "yearly", prio: "0.6" },
+    { path: "/blog", freq: "weekly", prio: "0.7" },
+    { path: "/mentions-legales", freq: "yearly", prio: "0.3" },
+    { path: "/confidentialite", freq: "yearly", prio: "0.3" },
+  ];
+  const urls = [
+    ...staticUrls,
+    ...posts.map((p) => ({ path: `/blog/${articleSlug(p.title)}`, freq: "monthly", prio: "0.7" })),
+  ];
+  const body =
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    urls
+      .map((u) => `  <url><loc>${SITE_URL}${u.path}</loc><changefreq>${u.freq}</changefreq><priority>${u.prio}</priority></url>`)
+      .join("\n") +
+    `\n</urlset>\n`;
+  return c.body(body, 200, { "Content-Type": "application/xml; charset=utf-8", "Cache-Control": "public, max-age=3600" });
 });
 
 /* ---------- API publiques ---------- */

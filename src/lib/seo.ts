@@ -107,44 +107,28 @@ export const servicesJsonLd = {
   ],
 };
 
-export const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Le prix affiché est-il vraiment tout compris ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Oui. Design, développement, nom de domaine, hébergement la première année, certificat SSL et mise en ligne sont inclus. La seule dépense future est le renouvellement domaine + hébergement à partir de la 2e année, annoncé dès le devis.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Puis-je payer en plusieurs fois ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Oui. En général : un acompte au démarrage, un paiement à la validation du design, et le solde à la livraison. Nous nous adaptons à votre trésorerie.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Combien de temps pour avoir mon site en ligne ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Une landing page est livrée en 2 semaines environ, un site vitrine en 3 semaines, un e-commerce en 4 à 6 semaines. Le délai exact est fixé dans le devis.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Proposez-vous le paiement Mobile Money sur les boutiques ?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Oui, nous intégrons MTN Mobile Money, Orange Money et les cartes bancaires selon vos besoins — indispensable pour vendre en ligne au Cameroun.",
-      },
-    },
-  ],
-};
+/* Données structurées FAQPage — construites à partir des VRAIES FAQ (base D1)
+   pour que chaque question gérée au dashboard alimente les résultats enrichis
+   Google. Repli sur une liste minimale si aucune FAQ n'est fournie. */
+const FALLBACK_FAQS = [
+  { q: "Le prix affiché est-il vraiment tout compris ?", a: "Oui. Design, développement, nom de domaine, hébergement la première année, certificat SSL et mise en ligne sont inclus. La seule dépense future est le renouvellement domaine + hébergement à partir de la 2e année, annoncé dès le devis." },
+  { q: "Combien de temps pour avoir mon site en ligne ?", a: "Une landing page est livrée en 2 semaines environ, un site vitrine en 3 semaines, un e-commerce en 4 à 6 semaines. Le délai exact est fixé dans le devis." },
+];
+
+export function faqJsonLd(faqs) {
+  const list = Array.isArray(faqs) && faqs.length ? faqs : FALLBACK_FAQS;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: list
+      .filter((f) => f.q && f.a)
+      .map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+  };
+}
 
 export function breadcrumbJsonLd(items) {
   return {

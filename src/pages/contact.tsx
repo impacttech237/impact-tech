@@ -12,7 +12,7 @@ export default function ContactPage({ content }) {
       title="Contact — Devis gratuit sous 48h"
       description="Parlons de votre projet : devis gratuit sous 48h. WhatsApp, téléphone, email ou formulaire — IMPACT TECH, agence web à Douala, Cameroun."
       canonical="/contact"
-      jsonLd={[faqJsonLd, breadcrumbJsonLd([{ name: "Accueil", path: "/" }, { name: "Contact", path: "/contact" }])]}
+      jsonLd={[faqJsonLd(content.faqs), breadcrumbJsonLd([{ name: "Accueil", path: "/" }, { name: "Contact", path: "/contact" }])]}
     >
       <Header />
       <main>
