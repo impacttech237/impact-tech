@@ -6307,3 +6307,35 @@ h4 {
   .article-related__card:last-child { grid-column: auto; }
   .article-related__card > a { min-height: 560px; }
 }
+
+/* ============================================================
+   CORRECTIFS RESPONSIVE (2026)
+   Anti-débordement horizontal sur mobile : rien ne dépasse la
+   largeur de l'écran (titres, formulaires, médias). Bloc placé
+   en fin de feuille pour primer sur les règles précédentes.
+   ============================================================ */
+html { overflow-x: hidden; }
+body { max-width: 100%; }
+
+/* Aucun média ne dépasse jamais son conteneur */
+img, svg, video, canvas, iframe { max-width: 100%; }
+
+/* Les grands titres cassent les mots trop longs plutôt que de déborder */
+h1, h2, h3,
+.newsletter__title, .article-hero h1, .page-hero__title, .hero__title, .bigtitle h2 {
+  overflow-wrap: break-word;
+}
+
+/* Newsletter (footer) : le bloc central doit tenir dans la carte
+   (min-width:0 permet à l'item flex de rétrécir sous sa taille de contenu). */
+.newsletter__inner { max-width: 100%; min-width: 0; box-sizing: border-box; }
+.newsletter__form { max-width: 100%; }
+
+@media (max-width: 640px) {
+  .newsletter__title { font-size: clamp(1.55rem, 6.4vw, 2rem); }
+  .newsletter__inner { padding-left: 20px; padding-right: 20px; }
+
+  /* Titre d'article : taille raisonnable, tient sur un petit écran */
+  .article-hero h1 { font-size: clamp(2rem, 8.5vw, 2.9rem); letter-spacing: -.04em; }
+  .article-hero__inner { padding-top: 104px; }
+}
