@@ -33,7 +33,7 @@ export const RESOURCES = {
   posts: {
     table: "posts",
     orderBy: "sort_order, id",
-    columns: ["title", "category", "date", "read_time", "excerpt", "image", "featured", "sort_order", "active"],
+    columns: ["title", "category", "date", "read_time", "excerpt", "image", "featured", "sort_order", "active", "eyebrow", "lead", "secondary_image", "author", "sections"],
   },
   projects: {
     table: "projects",

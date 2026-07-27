@@ -70,6 +70,47 @@ app.put("/settings", async (c) => {
   return c.json({ ok: true });
 });
 
+/* Upload d'une image vers R2 (bucket MEDIA). Renvoie une URL /media/<clé>
+   utilisable directement comme src d'image (cover, image secondaire...). */
+const ALLOWED_IMAGE_TYPES = {
+  "image/jpeg": "jpg",
+  "image/png": "png",
+  "image/webp": "webp",
+  "image/gif": "gif",
+  "image/avif": "avif",
+  "image/svg+xml": "svg",
+};
+const MAX_UPLOAD_BYTES = 8 * 1024 * 1024; // 8 Mo
+
+app.post("/upload", async (c) => {
+  const denied = await requireAdmin(c);
+  if (denied) return denied;
+  if (!c.env.MEDIA) return c.json({ ok: false, error: "Stockage des médias indisponible." }, 503);
+
+  let form;
+  try {
+    form = await c.req.formData();
+  } catch {
+    return c.json({ ok: false, error: "Envoi invalide (multipart attendu)." }, 400);
+  }
+  const file = form.get("file");
+  if (!file || typeof file === "string") return c.json({ ok: false, error: "Aucun fichier fourni." }, 400);
+
+  const ext = ALLOWED_IMAGE_TYPES[file.type];
+  if (!ext) return c.json({ ok: false, error: "Format non supporté (JPG, PNG, WEBP, GIF, AVIF, SVG)." }, 415);
+  if (file.size > MAX_UPLOAD_BYTES) return c.json({ ok: false, error: "Image trop lourde (max 8 Mo)." }, 413);
+
+  const key = `blog/${Date.now()}-${crypto.randomUUID().slice(0, 8)}.${ext}`;
+  try {
+    await c.env.MEDIA.put(key, file.stream(), {
+      httpMetadata: { contentType: file.type, cacheControl: "public, max-age=31536000, immutable" },
+    });
+    return c.json({ ok: true, url: `/media/${key}` });
+  } catch (e) {
+    return c.json({ ok: false, error: e?.message || "Échec de l'upload." }, 500);
+  }
+});
+
 app.get("/:resource", async (c) => {
   const denied = await requireAdmin(c);
   if (denied) return denied;

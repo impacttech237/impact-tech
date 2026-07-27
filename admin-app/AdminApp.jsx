@@ -115,8 +115,13 @@ const RESOURCES = [
       { name: "category", label: "Catégorie (ex : Conseils, Guide)", type: "text" },
       { name: "date", label: "Date affichée (ex : 28 juin 2026)", type: "text" },
       { name: "read_time", label: "Temps de lecture (ex : 5 min)", type: "text" },
-      { name: "excerpt", label: "Extrait", type: "textarea" },
-      { name: "image", label: "Image (chemin /images/...)", type: "text" },
+      { name: "author", label: "Auteur affiché", type: "text" },
+      { name: "image", label: "Image de couverture", type: "image" },
+      { name: "excerpt", label: "Extrait (résumé : carte blog + méta description)", type: "textarea" },
+      { name: "eyebrow", label: "Sur-titre (petit label au-dessus du titre)", type: "text" },
+      { name: "lead", label: "Chapô / accroche d'introduction", type: "textarea" },
+      { name: "secondary_image", label: "Image secondaire (insérée au milieu de l'article)", type: "image" },
+      { name: "sections", label: "Contenu de l'article", type: "sections" },
       { name: "featured", label: "Article à la une", type: "bool" },
       { name: "sort_order", label: "Ordre d'affichage", type: "number" },
       { name: "active", label: "Visible sur le site", type: "bool", default: 1 },
@@ -244,14 +249,135 @@ function textToList(text) {
   );
 }
 
+/* --- Sections d'article : JSON <-> forme d'édition (paragraphes/puces en texte) --- */
+function sectionsFromJson(jsonStr) {
+  let arr = [];
+  try { const p = JSON.parse(jsonStr || "[]"); if (Array.isArray(p)) arr = p; } catch { /* ignore */ }
+  return arr.map((s) => ({
+    title: s?.title || "",
+    paragraphs: Array.isArray(s?.paragraphs) ? s.paragraphs.join("\n\n") : "",
+    bullets: Array.isArray(s?.bullets) ? s.bullets.join("\n") : "",
+    quote: s?.quote || "",
+    callout: s?.callout || "",
+  }));
+}
+
+function sectionsToJson(editing) {
+  const arr = (editing || [])
+    .map((s) => ({
+      title: (s.title || "").trim(),
+      paragraphs: (s.paragraphs || "").split(/\n{2,}/).map((x) => x.trim()).filter(Boolean),
+      bullets: (s.bullets || "").split("\n").map((x) => x.trim()).filter(Boolean),
+      quote: (s.quote || "").trim(),
+      callout: (s.callout || "").trim(),
+    }))
+    .filter((s) => s.title || s.paragraphs.length || s.bullets.length || s.quote || s.callout);
+  return JSON.stringify(arr);
+}
+
+/* --- Upload d'image vers R2 via l'API admin --- */
+async function uploadImage(file) {
+  const fd = new FormData();
+  fd.append("file", file);
+  const res = await fetch("/api/admin/upload", { method: "POST", body: fd });
+  const data = await res.json().catch(() => ({}));
+  if (res.status === 401) throw new Error("__unauthorized__");
+  if (!res.ok || data.ok === false) throw new Error(data.error || `Erreur ${res.status}`);
+  return data.url;
+}
+
+function ImageField({ label, value, onChange }) {
+  const [uploading, setUploading] = useState(false);
+  const [err, setErr] = useState("");
+  const onFile = async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    setErr("");
+    try {
+      const url = await uploadImage(file);
+      onChange(url);
+    } catch (er) {
+      setErr(er.message === "__unauthorized__" ? "Session expirée — reconnectez-vous." : er.message);
+    }
+    setUploading(false);
+    e.target.value = "";
+  };
+  return (
+    <label className="block">
+      <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-[#5E5E5E]">{label}</span>
+      <div className="flex gap-2">
+        <input
+          type="text"
+          value={value || ""}
+          placeholder="/images/… ou uploadez une image"
+          onChange={(e) => onChange(e.target.value)}
+          className="w-full rounded-lg border border-[#D8D3C4] bg-white px-3 py-2 text-sm text-[#1A1A17] outline-none focus:border-[#C0202B]"
+        />
+        <label className="flex cursor-pointer items-center whitespace-nowrap rounded-lg border border-[#D8D3C4] px-3 py-2 text-sm font-semibold text-[#1A1A17] transition hover:border-[#C0202B] hover:text-[#C0202B]">
+          {uploading ? "Envoi…" : "⬆ Uploader"}
+          <input type="file" accept="image/*" className="hidden" onChange={onFile} disabled={uploading} />
+        </label>
+      </div>
+      {value && <img src={value} alt="" className="mt-2 h-24 rounded-lg border border-[#D8D3C4] object-cover" />}
+      {err && <p className="mt-1 text-xs text-[#C0202B]">{err}</p>}
+    </label>
+  );
+}
+
+function SectionsEditor({ value, onChange }) {
+  const sections = Array.isArray(value) ? value : [];
+  const emptySection = () => ({ title: "", paragraphs: "", bullets: "", quote: "", callout: "" });
+  const update = (i, key, val) => onChange(sections.map((s, idx) => (idx === i ? { ...s, [key]: val } : s)));
+  const add = () => onChange([...sections, emptySection()]);
+  const remove = (i) => onChange(sections.filter((_, idx) => idx !== i));
+  const move = (i, dir) => {
+    const j = i + dir;
+    if (j < 0 || j >= sections.length) return;
+    const next = [...sections];
+    [next[i], next[j]] = [next[j], next[i]];
+    onChange(next);
+  };
+  return (
+    <div className="sm:col-span-2">
+      <span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-[#5E5E5E]">
+        Contenu de l'article (sections)
+      </span>
+      <div className="space-y-3">
+        {sections.map((s, i) => (
+          <div key={i} className="space-y-2 rounded-lg border border-[#D8D3C4] bg-white p-3">
+            <div className="flex items-center justify-between">
+              <strong className="text-sm text-[#1A1A17]">Section {i + 1}</strong>
+              <div className="flex gap-1">
+                <button type="button" onClick={() => move(i, -1)} title="Monter" className="rounded border border-[#D8D3C4] px-2 py-0.5 text-xs hover:border-[#C0202B]">↑</button>
+                <button type="button" onClick={() => move(i, 1)} title="Descendre" className="rounded border border-[#D8D3C4] px-2 py-0.5 text-xs hover:border-[#C0202B]">↓</button>
+                <button type="button" onClick={() => remove(i)} className="rounded border border-[#C0202B]/30 px-2 py-0.5 text-xs text-[#C0202B] hover:bg-[#C0202B] hover:text-white">Supprimer</button>
+              </div>
+            </div>
+            <Input label="Titre de la section" value={s.title} onChange={(e) => update(i, "title", e.target.value)} />
+            <Textarea label="Paragraphes (séparez chaque paragraphe par une ligne vide)" rows={4} value={s.paragraphs} onChange={(e) => update(i, "paragraphs", e.target.value)} />
+            <Textarea label="Puces à cocher (une par ligne — optionnel)" rows={3} value={s.bullets} onChange={(e) => update(i, "bullets", e.target.value)} />
+            <Input label="Citation mise en avant (optionnel)" value={s.quote} onChange={(e) => update(i, "quote", e.target.value)} />
+            <Textarea label="Encadré « À retenir » (optionnel)" rows={2} value={s.callout} onChange={(e) => update(i, "callout", e.target.value)} />
+          </div>
+        ))}
+      </div>
+      <div className="mt-2">
+        <Button type="button" variant="ghost" onClick={add}>+ Ajouter une section</Button>
+      </div>
+    </div>
+  );
+}
+
 function ItemForm({ resource, item, onSaved, onCancel }) {
   const isNew = !item?.id;
   const [values, setValues] = useState(() => {
     const v = {};
     for (const f of resource.fields) {
       if (f.type === "list") v[f.name] = listToText(item?.[f.name]);
+      else if (f.type === "sections") v[f.name] = sectionsFromJson(item?.[f.name]);
       else if (f.type === "bool") v[f.name] = item?.[f.name] ?? f.default ?? 0;
-      else v[f.name] = item?.[f.name] ?? "";
+      else v[f.name] = item?.[f.name] ?? ""; // text, textarea, number, image
     }
     return v;
   });
@@ -267,9 +393,10 @@ function ItemForm({ resource, item, onSaved, onCancel }) {
     const payload = {};
     for (const f of resource.fields) {
       if (f.type === "list") payload[f.name] = textToList(values[f.name]);
+      else if (f.type === "sections") payload[f.name] = sectionsToJson(values[f.name]);
       else if (f.type === "bool") payload[f.name] = values[f.name] ? 1 : 0;
       else if (f.type === "number") payload[f.name] = values[f.name] === "" ? 0 : Number(values[f.name]);
-      else payload[f.name] = values[f.name];
+      else payload[f.name] = values[f.name]; // text, textarea, image
     }
     try {
       if (isNew) await api(resource.key, { method: "POST", body: JSON.stringify(payload) });
@@ -288,6 +415,14 @@ function ItemForm({ resource, item, onSaved, onCancel }) {
       </h3>
       <div className="grid gap-4 sm:grid-cols-2">
         {resource.fields.map((f) => {
+          if (f.type === "sections")
+            return <SectionsEditor key={f.name} value={values[f.name]} onChange={(val) => set(f.name, val)} />;
+          if (f.type === "image")
+            return (
+              <div key={f.name} className="sm:col-span-2">
+                <ImageField label={f.label} value={values[f.name]} onChange={(val) => set(f.name, val)} />
+              </div>
+            );
           if (f.type === "textarea" || f.type === "list")
             return (
               <div key={f.name} className="sm:col-span-2">

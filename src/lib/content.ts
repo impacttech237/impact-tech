@@ -84,6 +84,13 @@ export async function getContent(env) {
         excerpt: r.excerpt,
         image: r.image,
         featured: !!r.featured,
+        // Contenu riche de la page article (rédigé depuis le dashboard).
+        // Champs vides/absents => hydrateArticle retombe sur les valeurs par défaut.
+        eyebrow: r.eyebrow || "",
+        lead: r.lead || "",
+        secondaryImage: r.secondary_image || "",
+        author: r.author || "",
+        sections: parseJson(r.sections, null),
       })),
       projects: projectsQ.results.map((r) => ({
         title: r.title,

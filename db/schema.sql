@@ -76,7 +76,13 @@ CREATE TABLE IF NOT EXISTS posts (
   image      TEXT,
   featured   INTEGER DEFAULT 0,
   sort_order INTEGER DEFAULT 0,
-  active     INTEGER DEFAULT 1
+  active     INTEGER DEFAULT 1,
+  -- Contenu riche de la page article (rédigé depuis le dashboard) :
+  eyebrow         TEXT,   -- petit sur-titre au-dessus du titre
+  lead            TEXT,   -- chapô / accroche d'introduction
+  secondary_image TEXT,   -- image insérée en milieu d'article
+  author          TEXT,   -- auteur affiché
+  sections        TEXT    -- JSON: [{title, paragraphs[], bullets[], quote, callout}]
 );
 
 CREATE TABLE IF NOT EXISTS projects (

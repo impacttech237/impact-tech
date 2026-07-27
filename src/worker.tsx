@@ -150,6 +150,19 @@ app.post("/api/newsletter", async (c) => {
   }
 });
 
+/* ---------- Médias uploadés (R2, public en lecture) ---------- */
+app.get("/media/*", async (c) => {
+  const key = decodeURIComponent(c.req.path.replace(/^\/media\//, ""));
+  if (!key || !c.env.MEDIA) return c.notFound();
+  const obj = await c.env.MEDIA.get(key);
+  if (!obj) return c.notFound();
+  const headers = new Headers();
+  obj.writeHttpMetadata(headers);
+  headers.set("etag", obj.httpEtag);
+  headers.set("cache-control", "public, max-age=31536000, immutable");
+  return new Response(obj.body, { headers });
+});
+
 /* ---------- API admin (protégée) ---------- */
 app.route("/api/admin", adminApi);
 

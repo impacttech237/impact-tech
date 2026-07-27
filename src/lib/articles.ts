@@ -245,17 +245,41 @@ function genericSections(post) {
   ];
 }
 
+/* Nettoie les sections rédigées depuis le dashboard vers la forme exacte
+   attendue par la page article (src/pages/article.tsx) — jamais modifiée. */
+function normalizeSections(sections) {
+  if (!Array.isArray(sections)) return null;
+  const clean = sections
+    .map((s) => {
+      const title = typeof s?.title === "string" ? s.title.trim() : "";
+      const paragraphs = Array.isArray(s?.paragraphs)
+        ? s.paragraphs.map((p) => String(p).trim()).filter(Boolean)
+        : [];
+      const bullets = Array.isArray(s?.bullets)
+        ? s.bullets.map((b) => String(b).trim()).filter(Boolean)
+        : [];
+      const quote = typeof s?.quote === "string" ? s.quote.trim() : "";
+      const callout = typeof s?.callout === "string" ? s.callout.trim() : "";
+      return { title, paragraphs, bullets, quote, callout };
+    })
+    .filter((s) => s.title || s.paragraphs.length || s.bullets.length || s.quote || s.callout);
+  return clean.length ? clean : null;
+}
+
 export function hydrateArticle(post) {
   const slug = articleSlug(post.title);
   const rich = RICH_ARTICLES[slug] || {};
+  // Priorité au contenu rédigé dans le dashboard (D1) ; à défaut, contenu riche
+  // codé en dur ; en dernier recours, sections génériques dérivées de l'extrait.
+  const ownSections = normalizeSections(post.sections);
   return {
     ...post,
     slug,
-    eyebrow: rich.eyebrow || post.category,
-    lead: rich.lead || post.excerpt,
-    secondaryImage: rich.secondaryImage || post.image,
-    sections: rich.sections || genericSections(post),
-    author: "L’équipe IMPACT TECH",
+    eyebrow: post.eyebrow || rich.eyebrow || post.category,
+    lead: post.lead || rich.lead || post.excerpt,
+    secondaryImage: post.secondaryImage || rich.secondaryImage || post.image,
+    sections: ownSections || rich.sections || genericSections(post),
+    author: post.author || "L’équipe IMPACT TECH",
   };
 }
 
