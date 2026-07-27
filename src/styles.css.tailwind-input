@@ -1794,8 +1794,8 @@ h4 {
   z-index: 2;
   left: 50%;
   top: 50%;
-  width: clamp(104px, 10vw, 154px);
-  aspect-ratio: 128 / 88;
+  width: clamp(120px, 11vw, 168px);
+  aspect-ratio: 1 / 1;
   display: grid;
   place-items: center;
   transform: translate(-50%, -50%);

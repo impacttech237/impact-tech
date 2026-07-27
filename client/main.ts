@@ -48,6 +48,10 @@ function initSmoothScroll() {
 }
 
 /* ================= Système motion global ================= */
+/* Tracé vectoriel exact de l'icône Impact Tech (public/images/icone.png),
+   obtenu par potrace. Le loader le « redessine » (drawSVG) puis le remplit. */
+const ICON_MARK_PATH = "M 209.500 224.397 C 185.207 232.134, 175.436 259.552, 189.775 279.747 C 192.934 284.196, 203.909 297.900, 225.216 324 C 227.686 327.025, 236.828 338.275, 245.531 349 C 254.235 359.725, 264.107 371.875, 267.469 376 C 280.182 391.600, 316.914 436.952, 345.756 472.660 C 358.667 488.644, 366.411 497.371, 369.256 499.144 C 380.291 506.017, 396.905 504.256, 405.118 495.342 C 406.558 493.779, 417.351 480.125, 429.102 465 C 449.097 439.265, 484.874 393.586, 504.684 368.500 C 514.986 355.454, 535.071 329.803, 543.500 318.926 C 546.800 314.668, 554.450 304.803, 560.500 297.004 C 566.550 289.204, 574.326 279.160, 577.781 274.682 C 583.873 266.786, 588.035 257.382, 587.979 251.645 C 587.893 242.874, 580.612 231.265, 572 226.165 L 567.500 223.500 390.500 223.311 C 249.465 223.161, 212.687 223.381, 209.500 224.397 M 708.235 224.590 C 698.761 227.911, 699.582 227.071, 661.436 272.500 C 656.062 278.900, 604.725 340.745, 573.030 379 C 559.588 395.225, 543.359 414.800, 536.966 422.500 C 512.987 451.381, 501.974 465.634, 500.263 470 C 498.613 474.211, 498.483 483.552, 498.233 615.410 C 497.941 769.531, 497.751 764.051, 503.662 771.801 C 508.148 777.682, 553.915 831.416, 663.902 959.933 C 736.215 1044.429, 728.623 1036.579, 737.231 1035.752 C 744.082 1035.093, 746.583 1032.267, 747.348 1024.317 C 747.656 1021.118, 747.886 898.627, 747.860 752.116 L 747.813 485.732 750.429 483.116 L 753.044 480.500 862.772 479.951 L 972.500 479.403 983.377 476.725 C 1024.665 466.561, 1054.503 442.013, 1072.674 403.259 C 1087.320 372.023, 1089.576 336.715, 1078.966 304.804 C 1064.533 261.398, 1027.675 230.208, 983.566 224.072 C 970.251 222.220, 713.619 222.703, 708.235 224.590";
+
 function initMotionShell() {
   document.body.classList.add("motion-ready");
 
@@ -60,9 +64,8 @@ function initMotionShell() {
     <div class="motion-wipe">
       <span></span><span></span><span></span>
       <div class="motion-loader-mark">
-        <svg viewBox="0 0 128 88" role="img" aria-label="Impact Tech">
-          <path class="motion-loader-mark__left" d="M10 13H57c7 0 11 8 7 14L43 58c-4 6-12 6-16 0L5 27c-5-6-1-14 5-14Z" />
-          <path class="motion-loader-mark__right" d="M82 13h41v37h-17v25H62V48l20-35Z" />
+        <svg viewBox="0 0 1254 1254" role="img" aria-label="Impact Tech">
+          <path d="${ICON_MARK_PATH}" />
         </svg>
       </div>
     </div>
@@ -80,22 +83,36 @@ function initMotionShell() {
   const wipeBars = shell.querySelectorAll(".motion-wipe > span");
   const loaderMark = shell.querySelector(".motion-loader-mark");
   const loaderPaths = shell.querySelectorAll(".motion-loader-mark path");
+
+  // Arrivée via navigation interne ? L'icône a déjà été dessinée sur la page
+  // précédente (avant le départ) : on se contente ici de lever le voile, sans
+  // la redessiner. => l'icône ne se forme qu'UNE seule fois par écran de chargement.
+  let cameFromInternalNav = false;
+  try { cameFromInternalNav = sessionStorage.getItem("it-nav") === "1"; sessionStorage.removeItem("it-nav"); } catch {}
+
   if (!reduced) {
-    gsap.timeline({ defaults: { ease: "impact-snap" } })
-      .set(wipeBars, { scaleY: 1, transformOrigin: "top center" })
-      .set(loaderMark, { autoAlpha: 1 })
-      .fromTo(loaderMark,
-        { scale: .72, rotation: -8 },
-        { scale: 1, rotation: 0, duration: .34, ease: "back.out(1.9)" },
-        0,
-      )
-      .fromTo(loaderPaths,
-        { drawSVG: "0% 0%", fill: "rgba(192,32,43,0)" },
-        { drawSVG: "0% 100%", fill: "rgba(192,32,43,1)", duration: .34, stagger: .035, ease: "power2.out" },
-        0,
-      )
-      .to(loaderMark, { scale: 1.12, autoAlpha: 0, duration: .2, ease: "power2.in" }, .48)
-      .to(wipeBars, { scaleY: 0, duration: .34, stagger: .025, ease: "power3.inOut" }, .61);
+    if (cameFromInternalNav) {
+      gsap.set(loaderMark, { autoAlpha: 0 });
+      gsap.timeline({ defaults: { ease: "impact-snap" } })
+        .set(wipeBars, { scaleY: 1, transformOrigin: "top center" })
+        .to(wipeBars, { scaleY: 0, duration: .42, stagger: .04, ease: "power3.inOut" }, .08);
+    } else {
+      gsap.timeline({ defaults: { ease: "impact-snap" } })
+        .set(wipeBars, { scaleY: 1, transformOrigin: "top center" })
+        .set(loaderMark, { autoAlpha: 1 })
+        .fromTo(loaderMark,
+          { scale: .72, rotation: -8 },
+          { scale: 1, rotation: 0, duration: .5, ease: "back.out(1.7)" },
+          0,
+        )
+        .fromTo(loaderPaths,
+          { drawSVG: "0% 0%", fill: "rgba(192,32,43,0)" },
+          { drawSVG: "0% 100%", fill: "rgba(192,32,43,1)", duration: .62, ease: "power2.out" },
+          0,
+        )
+        .to(loaderMark, { scale: 1.12, autoAlpha: 0, duration: .24, ease: "power2.in" }, .78)
+        .to(wipeBars, { scaleY: 0, duration: .38, stagger: .03, ease: "power3.inOut" }, .92);
+    }
   } else {
     gsap.set(wipeBars, { scaleY: 0 });
     gsap.set(loaderMark, { autoAlpha: 0 });
@@ -131,6 +148,8 @@ function initMotionShell() {
 function initPageTransitions() {
   if (reduced) return;
   const bars = document.querySelectorAll(".motion-wipe span");
+  const loaderMark = document.querySelector(".motion-loader-mark");
+  const loaderPaths = document.querySelectorAll(".motion-loader-mark path");
 
   document.querySelectorAll('a[href]').forEach((link) => {
     link.addEventListener("click", (event) => {
@@ -140,9 +159,21 @@ function initPageTransitions() {
       if (destination.origin !== window.location.origin || destination.hash || destination.href === window.location.href) return;
 
       event.preventDefault();
-      gsap.timeline({ onComplete: () => window.location.assign(destination.href) })
-        .set(bars, { transformOrigin: "bottom center" })
-        .to(bars, { scaleY: 1, duration: 0.54, stagger: 0.055, ease: "impact-snap" });
+      // Même loader que le chargement initial : les barres couvrent l'écran
+      // pendant que l'icône Impact Tech se dessine, puis on navigue. Le drapeau
+      // "it-nav" indique à la page suivante que l'icône a déjà été dessinée
+      // (elle se contentera de lever le voile) => un seul écran de chargement.
+      try { sessionStorage.setItem("it-nav", "1"); } catch {}
+      const tl = gsap.timeline({ onComplete: () => window.location.assign(destination.href) });
+      tl.set(bars, { transformOrigin: "bottom center" })
+        .to(bars, { scaleY: 1, duration: 0.5, stagger: 0.05, ease: "impact-snap" }, 0);
+      if (loaderMark && loaderPaths.length) {
+        tl.set(loaderMark, { autoAlpha: 1 }, 0)
+          .fromTo(loaderMark, { scale: .72, rotation: -8 }, { scale: 1, rotation: 0, duration: .5, ease: "back.out(1.7)" }, .18)
+          .fromTo(loaderPaths,
+            { drawSVG: "0% 0%", fill: "rgba(192,32,43,0)" },
+            { drawSVG: "0% 100%", fill: "rgba(192,32,43,1)", duration: .55, ease: "power2.out" }, .18);
+      }
     });
   });
 
