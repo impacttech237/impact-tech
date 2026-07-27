@@ -17,8 +17,8 @@ import { servicesJsonLd, breadcrumbJsonLd } from "../lib/seo";
 export default function HomePage({ content }) {
   return (
     <Layout
-      title="IMPACT TECH — Agence web au Cameroun | Sites & apps à prix juste"
-      description="Agence web à Douala, Cameroun. Création de sites internet, boutiques e-commerce (Mobile Money), SaaS et applications — packs tout inclus à prix accessible."
+      title="Créer un site web au Cameroun — Agence web à Douala | IMPACT TECH"
+      description="Vous voulez créer un site web au Cameroun ? On fait des sites internet, des boutiques en ligne (paiement MTN MoMo et Orange Money), des applications et des logiciels (SaaS), à prix clair. Agence web à Douala."
       canonical="/"
       jsonLd={[servicesJsonLd, breadcrumbJsonLd([{ name: "Accueil", path: "/" }])]}
     >
