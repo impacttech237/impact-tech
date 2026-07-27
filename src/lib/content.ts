@@ -63,6 +63,7 @@ export async function getContent(env) {
       offers: offersQ.results.map((r) => ({
         tag: r.tag,
         title: r.title,
+        description: r.description || "",
         price: r.price,
         isQuote: !!r.is_quote,
         popular: !!r.popular,

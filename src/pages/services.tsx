@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageHero from "../components/PageHero";
 import ServicesDetail from "../components/ServicesDetail";
+import Offers from "../components/Offers";
 import Faq from "../components/Faq";
 import CtaBanner from "../components/CtaBanner";
 import { servicesJsonLd, faqJsonLd, breadcrumbJsonLd } from "../lib/seo";
@@ -24,6 +25,7 @@ export default function ServicesPage({ content }) {
           subtitle="Chaque offre est un pack complet : design, développement, domaine, hébergement et sécurité inclus. Vous choisissez, on s'occupe de tout."
         />
         <ServicesDetail items={content.services} />
+        <Offers items={content.offers} />
         <Faq items={content.faqs} />
         <CtaBanner settings={content.settings} />
       </main>

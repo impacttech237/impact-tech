@@ -13,7 +13,7 @@ export const RESOURCES = {
   offers: {
     table: "offers",
     orderBy: "sort_order, id",
-    columns: ["tag", "title", "price", "is_quote", "popular", "features", "image", "sort_order", "active"],
+    columns: ["tag", "title", "description", "price", "is_quote", "popular", "features", "image", "sort_order", "active"],
   },
   testimonials: {
     table: "testimonials",

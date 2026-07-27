@@ -40,7 +40,8 @@ const RESOURCES = [
     titleField: "tag",
     fields: [
       { name: "tag", label: "Nom du pack", type: "text", required: true },
-      { name: "title", label: "Titre", type: "text", required: true },
+      { name: "title", label: "Titre / accroche", type: "text", required: true },
+      { name: "description", label: "Explication du pack (à qui il s'adresse, ce qu'il couvre)", type: "textarea" },
       { name: "price", label: "Prix (ex : 200 000 ou Sur devis)", type: "text" },
       { name: "is_quote", label: "Sur devis (pas de FCFA affiché)", type: "bool" },
       { name: "popular", label: "Badge « Le plus demandé »", type: "bool" },

@@ -14,7 +14,7 @@ function slugify(str) {
 
 function toCard(o) {
   return {
-    img: o.image, tag: o.tag, title: o.title, price: o.price,
+    img: o.image, tag: o.tag, title: o.title, description: o.description, price: o.price,
     isQuote: o.isQuote, popular: o.popular, features: o.features,
     slug: slugify(o.tag),
   };
@@ -32,25 +32,25 @@ export default function Offers({ items }) {
   const OFFERS = (items?.length ? items : DEFAULTS.offers).map(toCard);
 
   return (
-    <section id="realisations" className="offers section-pad" data-anim="offers">
+    <section id="offres" className="offers section-pad" data-anim="offers">
       <div className="container-it offers__scene">
         <div className="offers-head">
           <span className="offers__chapter" aria-hidden="true">04 / NOS PACKS</span>
           <span className="section-badge">
-            <span className="dot" /> Offres phares <span className="dot" />
+            <span className="dot" /> Nos formules <span className="dot" />
           </span>
           <h2 className="offers-title">
-            Des packs <span className="accent">tout inclus</span>,<br />zéro mauvaise surprise
+            Trois packs clairs, <span className="accent">tout inclus</span><br />zéro mauvaise surprise
           </h2>
           <p className="offers-sub">
-            Design, développement, nom de domaine, hébergement, sécurité : tout est compris dans le prix. Vous
-            n'avez rien d'autre à payer.
+            Chaque service se retrouve dans l'un de ces trois packs. Design, développement, nom de domaine,
+            hébergement et sécurité sont compris dans le prix — vous n'avez rien d'autre à payer.
           </p>
         </div>
 
         <div className="offers-grid">
           {OFFERS.map((o, index) => (
-            <article key={o.tag} className={`offer-card ${o.popular ? "offer-card--popular" : ""}`}>
+            <article key={o.tag} id={`offre-${o.slug}`} className={`offer-card ${o.popular ? "offer-card--popular" : ""}`}>
               <span className="offer-card__index" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
               {o.popular && <span className="offer-card__flag">Le plus demandé</span>}
 
@@ -62,6 +62,7 @@ export default function Offers({ items }) {
               <div className="offer-card__body">
                 <h3 className="offer-card__name">{o.tag}</h3>
                 <p className="offer-card__tagline">{o.title}</p>
+                {o.description && <p className="offer-card__desc">{o.description}</p>}
 
                 <ul className="offer-card__features">
                   {o.features.map((f) => (

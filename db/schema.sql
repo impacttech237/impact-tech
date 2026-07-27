@@ -36,16 +36,17 @@ CREATE TABLE IF NOT EXISTS services (
 );
 
 CREATE TABLE IF NOT EXISTS offers (
-  id         INTEGER PRIMARY KEY AUTOINCREMENT,
-  tag        TEXT,
-  title      TEXT,
-  price      TEXT,
-  is_quote   INTEGER DEFAULT 0,
-  popular    INTEGER DEFAULT 0,
-  features   TEXT,
-  image      TEXT,
-  sort_order INTEGER DEFAULT 0,
-  active     INTEGER DEFAULT 1
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  tag         TEXT,
+  title       TEXT,
+  description TEXT,   -- explication du pack (à qui il s'adresse, ce qu'il couvre)
+  price       TEXT,
+  is_quote    INTEGER DEFAULT 0,
+  popular     INTEGER DEFAULT 0,
+  features    TEXT,
+  image       TEXT,
+  sort_order  INTEGER DEFAULT 0,
+  active      INTEGER DEFAULT 1
 );
 
 CREATE TABLE IF NOT EXISTS testimonials (

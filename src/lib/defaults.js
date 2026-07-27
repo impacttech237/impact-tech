@@ -169,6 +169,7 @@ export const DEFAULTS = {
     {
       tag: "Pack Landing Page",
       title: "Votre page qui convertit, clé en main",
+      description: "Le pack idéal pour lancer une offre, un produit ou une campagne. Une seule page, pensée pour convaincre et transformer vos visiteurs en clients. Parfait pour démarrer vite, sans gros budget.",
       price: "200 000",
       isQuote: false,
       popular: false,
@@ -183,6 +184,7 @@ export const DEFAULTS = {
     {
       tag: "Pack E-commerce",
       title: "Votre boutique en ligne complète",
+      description: "Votre boutique ouverte jour et nuit : catalogue, panier, paiement MTN MoMo et Orange Money, gestion des commandes. Idéal pour les commerçants et marques qui veulent vendre sérieusement en ligne.",
       price: "500 000",
       isQuote: false,
       popular: true,
@@ -197,6 +199,7 @@ export const DEFAULTS = {
     {
       tag: "Pack Sur-mesure",
       title: "La solution taillée pour votre entreprise",
+      description: "Pour les projets uniques : application mobile, logiciel de gestion (SaaS), plateforme métier ou outil interne. On analyse votre besoin et on construit exactement l'outil qu'il vous faut.",
       price: "Sur devis",
       isQuote: true,
       popular: false,

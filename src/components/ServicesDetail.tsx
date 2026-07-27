@@ -1,4 +1,5 @@
 import PillButton from "./PillButton";
+import ArrowIcon from "./ArrowIcon";
 import { DEFAULTS } from "../lib/defaults";
 
 function toBlock(s) {
@@ -114,7 +115,10 @@ export default function ServicesDetail({ items }) {
                       {s.delay}
                     </p>
                   </div>
-                  <PillButton href="/contact" variant="dark">Demander un devis</PillButton>
+                  <div className="sd-actions">
+                    <a href="#offres" className="sd-offer-link">Voir nos formules <ArrowIcon /></a>
+                    <PillButton href="/contact" variant="dark">Demander un devis</PillButton>
+                  </div>
                 </div>
               </div>
             </article>
