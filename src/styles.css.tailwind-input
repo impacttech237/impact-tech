@@ -2920,13 +2920,15 @@ h4 {
   border-radius: 40px 40px 0 0;
   padding: clamp(72px, 8vw, 110px) clamp(24px, 6vw, 96px) 30px;
 }
-/* Icône flottante centrée au-dessus de la carte (style Golfclub) */
+/* Icône flottante centrée sur le bord haut de la carte (style Golfclub).
+   Ancrée sur .footer (et non .footer__card) pour échapper au contexte
+   isolation:isolate de la carte, qui rognait sa moitié supérieure. */
 .footer__emblem {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 3;
+  z-index: 5;
   pointer-events: none;
 }
 .footer__emblem img {
@@ -4294,7 +4296,9 @@ h4 {
 }
 @media (max-width: 640px) {
   .newsletter__card { min-height: 300px; }
-  .newsletter__inner { padding-bottom: 78px; }
+  /* Espace crème sous le formulaire pour laisser flotter l'emblème du footer
+     (≈70px au-dessus de la carte) sans qu'il colle au champ e-mail. */
+  .newsletter__inner { padding-bottom: 120px; }
 }
 
 /* ============================================================

@@ -44,12 +44,14 @@ export default function Footer({ settings }) {
       </section>
 
       <div className="footer">
+        {/* Emblème SORTI de la carte : enfant direct de .footer (hors du
+            contexte isolation:isolate de .footer__card qui le coupait au bord
+            supérieur). Il flotte ainsi au-dessus, jamais rogné. */}
+        <div className="footer__emblem">
+          <img src="/images/icone.png" alt="" aria-hidden="true" />
+        </div>
         <div className="container-it">
           <div className="footer__card">
-            <div className="footer__emblem">
-              <img src="/images/icone.png" alt="" aria-hidden="true" />
-            </div>
-
             <div className="footer__brand">
               <a href="/" className="footer__logo" aria-label="Impact Tech — Accueil">
                 <img src="/images/logo.png" alt="Impact Tech" />
