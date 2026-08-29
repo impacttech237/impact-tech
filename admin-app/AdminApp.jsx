@@ -707,6 +707,79 @@ function SubscribersPanel({ onUnauthorized }) {
   );
 }
 
+/* ---------- Panneau paiements (K-PAY, lecture seule) ---------- */
+
+const PAYMENT_STATUSES = {
+  COMPLETED: { label: "Payé", color: "bg-emerald-100 text-emerald-700" },
+  PENDING: { label: "En attente", color: "bg-amber-100 text-amber-700" },
+  FAILED: { label: "Échoué", color: "bg-[#C0202B]/10 text-[#C0202B]" },
+  CANCELLED: { label: "Annulé", color: "bg-gray-200 text-gray-500" },
+};
+
+function PaymentsPanel({ onUnauthorized }) {
+  const [items, setItems] = useState(null);
+  const [error, setError] = useState("");
+
+  const load = useCallback(async () => {
+    try {
+      const data = await api("payments");
+      setItems(data.items);
+    } catch (err) {
+      if (err.message === "__unauthorized__") return onUnauthorized();
+      setError(err.message);
+      setItems([]);
+    }
+  }, [onUnauthorized]);
+
+  useEffect(() => { load(); }, [load]);
+
+  if (items === null) return <p className="text-sm text-[#5E5E5E]">Chargement...</p>;
+
+  const totalCompleted = items.filter((p) => p.status === "COMPLETED").reduce((sum, p) => sum + (p.amount || 0), 0);
+
+  return (
+    <div className="space-y-4">
+      <h2 className="text-lg font-bold text-[#1A1A17]">
+        💳 Paiements <span className="text-sm font-normal text-[#5E5E5E]">
+          ({items.length} au total · {totalCompleted.toLocaleString("fr-FR")} FCFA encaissés)
+        </span>
+      </h2>
+      <p className="text-xs text-[#5E5E5E]">
+        Lecture seule — le statut est mis à jour automatiquement par K-PAY (webhook), jamais modifié ici.
+      </p>
+      {error && <p className="text-sm text-[#C0202B]">{error}</p>}
+      {items.length === 0 ? (
+        <p className="rounded-xl border border-[#D8D3C4] bg-white p-4 text-sm text-[#5E5E5E]">
+          Aucun paiement pour le moment. Ils apparaîtront ici dès qu'un client paiera une offre.
+        </p>
+      ) : (
+        <div className="overflow-hidden rounded-xl border border-[#D8D3C4] bg-white">
+          <ul className="divide-y divide-[#F0EDE6]">
+            {items.map((p) => {
+              const status = PAYMENT_STATUSES[p.status] || PAYMENT_STATUSES.PENDING;
+              return (
+                <li key={p.id} className="flex flex-wrap items-center gap-3 px-4 py-3">
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-sm font-medium text-[#1A1A17]">
+                      {p.offer_tag || "—"} <span className="font-normal text-[#5E5E5E]">· {p.customer_name}</span>
+                    </p>
+                    <p className="text-xs text-[#5E5E5E]">
+                      {p.external_id} · {p.customer_phone}{p.is_test ? " · test" : ""}
+                    </p>
+                  </div>
+                  <strong className="text-sm text-[#1A1A17]">{(p.amount || 0).toLocaleString("fr-FR")} {p.currency}</strong>
+                  <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${status.color}`}>{status.label}</span>
+                  <span className="text-xs text-[#5E5E5E]">{p.created_at}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ---------- Panneau réglages ---------- */
 
 function SettingsPanel({ onUnauthorized }) {
@@ -834,6 +907,7 @@ function LoginScreen({ onLogin }) {
 const TABS = [
   { key: "requests", label: "Demandes", icon: "📥" },
   ...RESOURCES.map((r) => ({ key: r.key, label: r.label, icon: r.icon })),
+  { key: "payments", label: "Paiements", icon: "💳" },
   { key: "subscribers", label: "Newsletter", icon: "✉️" },
   { key: "settings", label: "Réglages", icon: "⚙️" },
 ];
@@ -920,6 +994,7 @@ export default function AdminPage() {
           </p>
         )}
         {tab === "requests" && <RequestsPanel onUnauthorized={onUnauthorized} />}
+        {tab === "payments" && <PaymentsPanel onUnauthorized={onUnauthorized} />}
         {tab === "subscribers" && <SubscribersPanel onUnauthorized={onUnauthorized} />}
         {tab === "settings" && <SettingsPanel onUnauthorized={onUnauthorized} />}
         {resource && <ResourcePanel resource={resource} onUnauthorized={onUnauthorized} />}

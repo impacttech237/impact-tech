@@ -88,6 +88,18 @@ export default function Offers({ items }) {
                     <ArrowIcon />
                   </a>
                 </div>
+                {!o.isQuote && (
+                  <button
+                    type="button"
+                    className="offer-card__pay"
+                    data-pay-trigger
+                    data-pay-tag={o.tag}
+                    data-pay-label={o.tag}
+                    data-pay-price={`${o.price} FCFA`}
+                  >
+                    Payer maintenant (Mobile Money)
+                  </button>
+                )}
               </div>
             </article>
           ))}
@@ -99,6 +111,32 @@ export default function Offers({ items }) {
         <p className="offers-note">* Paiement échelonné possible. Chaque pack est ajustable selon vos besoins réels.</p>
         <div className="offers-cta">
           <PillButton href="/contact" variant="dark">Demander mon devis gratuit</PillButton>
+        </div>
+      </div>
+
+      {/* Modale de paiement K-PAY (Mobile Money) — logique dans client/main.ts,
+          sélecteurs data-pay-*. Une seule instance, réutilisée pour chaque pack. */}
+      <div className="pay-modal" data-pay-modal aria-hidden="true">
+        <div className="pay-modal__backdrop" data-pay-close />
+        <div className="pay-modal__card" role="dialog" aria-modal="true" aria-labelledby="pay-modal-title">
+          <button type="button" className="pay-modal__close" data-pay-close aria-label="Fermer">✕</button>
+          <p className="pay-modal__eyebrow">Paiement sécurisé · Mobile Money</p>
+          <h3 id="pay-modal-title" data-pay-modal-label>Payer un pack</h3>
+          <p className="pay-modal__price" data-pay-modal-price></p>
+          <form data-pay-form>
+            <label>Nom complet
+              <input type="text" name="customerName" required autoComplete="name" placeholder="Votre nom" />
+            </label>
+            <label>Téléphone (MTN MoMo / Orange Money)
+              <input type="tel" name="customerPhone" required autoComplete="tel" placeholder="+237 6XX XXX XXX" />
+            </label>
+            <label>Email <span>(optionnel, pour le reçu)</span>
+              <input type="email" name="customerEmail" autoComplete="email" placeholder="vous@exemple.com" />
+            </label>
+            <p className="pay-modal__error" data-pay-error style={{ display: "none" }}></p>
+            <button type="submit" className="pay-modal__submit" data-pay-submit>Continuer vers le paiement</button>
+            <p className="pay-modal__note">Vous choisirez MTN MoMo ou Orange Money sur la page sécurisée K-PAY.</p>
+          </form>
         </div>
       </div>
     </section>

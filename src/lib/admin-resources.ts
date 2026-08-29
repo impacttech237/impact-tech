@@ -57,4 +57,12 @@ export const RESOURCES = {
     columns: [],
     noCreate: true,
   },
+  payments: {
+    // Lecture seule : le statut est mis à jour uniquement par le webhook K-PAY
+    // (source d'autorité), jamais modifié à la main depuis le dashboard.
+    table: "payments",
+    orderBy: "id DESC",
+    columns: [],
+    noCreate: true,
+  },
 };

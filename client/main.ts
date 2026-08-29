@@ -2414,6 +2414,77 @@ function initAjaxForms() {
   });
 }
 
+/* ================= Modale de paiement K-PAY (Mobile Money) =================
+   Sélecteurs : [data-pay-modal], [data-pay-trigger] (bouton "Payer" par pack),
+   [data-pay-close], [data-pay-form]. Voir .claude/skills/kpay-payments/SKILL.md. */
+function initPaymentModal() {
+  const modal = document.querySelector("[data-pay-modal]");
+  if (!modal) return;
+
+  const labelEl = modal.querySelector("[data-pay-modal-label]");
+  const priceEl = modal.querySelector("[data-pay-modal-price]");
+  const form = modal.querySelector("[data-pay-form]");
+  const errorEl = modal.querySelector("[data-pay-error]");
+  const submitBtn = modal.querySelector("[data-pay-submit]");
+  let currentTag = null;
+
+  const open = (tag, label, price) => {
+    currentTag = tag;
+    if (labelEl) labelEl.textContent = `Payer — ${label}`;
+    if (priceEl) priceEl.textContent = price;
+    if (errorEl) { errorEl.style.display = "none"; errorEl.textContent = ""; }
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  };
+  const close = () => {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  };
+
+  document.querySelectorAll("[data-pay-trigger]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      open(btn.dataset.payTag, btn.dataset.payLabel, btn.dataset.payPrice);
+    });
+  });
+  modal.querySelectorAll("[data-pay-close]").forEach((el) => el.addEventListener("click", close));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modal.classList.contains("is-open")) close();
+  });
+
+  form?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (!currentTag) return;
+    const fd = new FormData(form);
+    const originalLabel = submitBtn ? submitBtn.textContent : "";
+    if (errorEl) { errorEl.style.display = "none"; errorEl.textContent = ""; }
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = "Redirection en cours..."; }
+
+    try {
+      const res = await fetch("/api/payments/init", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          offerTag: currentTag,
+          customerName: fd.get("customerName"),
+          customerPhone: fd.get("customerPhone"),
+          customerEmail: fd.get("customerEmail"),
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.ok) throw new Error(data.error || "Erreur d'initiation du paiement.");
+      window.location.assign(data.gatewayUrl);
+    } catch (err) {
+      if (errorEl) {
+        errorEl.textContent = err.message || "Une erreur est survenue, réessayez ou contactez-nous sur WhatsApp.";
+        errorEl.style.display = "";
+      }
+      if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = originalLabel; }
+    }
+  });
+}
+
 /* ================= Boot ================= */
 function boot() {
   const immersiveHome = Boolean(document.querySelector(".hero"));
@@ -2447,6 +2518,7 @@ function boot() {
   initPortfolioFilter();
   initOfferBudgetSync();
   initAjaxForms();
+  initPaymentModal();
   ScrollTrigger.refresh();
 }
 

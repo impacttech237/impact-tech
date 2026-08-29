@@ -124,3 +124,23 @@ CREATE TABLE IF NOT EXISTS newsletter_subscribers (
   email      TEXT UNIQUE,
   created_at TEXT DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Paiements K-PAY (Mobile Money — bouton "Payer maintenant" des offres).
+-- Voir .claude/skills/kpay-payments/SKILL.md pour l'architecture complète.
+CREATE TABLE IF NOT EXISTS payments (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  external_id    TEXT UNIQUE,   -- notre référence envoyée à K-PAY (idempotence)
+  kpay_id        TEXT,          -- id K-PAY (pay_xxx)
+  kpay_reference TEXT,          -- référence K-PAY (KPAY-...)
+  offer_tag      TEXT,
+  amount         INTEGER,
+  currency       TEXT DEFAULT 'XAF',
+  status         TEXT DEFAULT 'PENDING', -- PENDING | COMPLETED | FAILED | CANCELLED
+  customer_name  TEXT,
+  customer_email TEXT,
+  customer_phone TEXT,
+  failure_reason TEXT,
+  is_test        INTEGER DEFAULT 1,
+  created_at     TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at     TEXT
+);

@@ -20,6 +20,7 @@ import MentionsLegalesPage from "./pages/mentions-legales";
 import ConfidentialitePage from "./pages/confidentialite";
 import { getArticleBySlug, getRelatedArticles, articleSlug } from "./lib/articles";
 import { SITE_URL } from "./lib/seo";
+import { initGatewayPayment, getPayment, verifyGatewayReturnSignature, verifyWebhookSignature, generatePaymentExternalId } from "./lib/kpay";
 
 const app = new Hono();
 
@@ -177,6 +178,141 @@ app.post("/api/newsletter", async (c) => {
     console.error("POST /api/newsletter:", e?.message);
     return c.json({ ok: false, error: "Erreur serveur, réessayez." }, 500);
   }
+});
+
+/* ---------- Paiements K-PAY (Mobile Money) ----------
+   Architecture complète : .claude/skills/kpay-payments/SKILL.md */
+
+function parseOfferAmount(priceText) {
+  const digits = String(priceText || "").replace(/[^\d]/g, "");
+  return digits ? parseInt(digits, 10) : NaN;
+}
+
+app.post("/api/payments/init", async (c) => {
+  if (!c.env.DB) return c.json({ ok: false, error: "Base de données indisponible." }, 503);
+
+  const body = await c.req.json().catch(() => null);
+  const offerTag = (body?.offerTag || "").trim();
+  const customerName = (body?.customerName || "").trim().slice(0, 200);
+  const customerEmail = (body?.customerEmail || "").trim().slice(0, 200);
+  const customerPhone = (body?.customerPhone || "").trim().slice(0, 50);
+  if (!offerTag || !customerName || !customerPhone) {
+    return c.json({ ok: false, error: "Nom, téléphone et offre sont obligatoires." }, 400);
+  }
+
+  const offer = await c.env.DB.prepare("SELECT tag, price, is_quote FROM offers WHERE tag = ? AND active = 1")
+    .bind(offerTag)
+    .first();
+  if (!offer) return c.json({ ok: false, error: "Offre introuvable." }, 404);
+  if (offer.is_quote) return c.json({ ok: false, error: "Cette offre est sur devis : contactez-nous via le formulaire." }, 400);
+
+  const amount = parseOfferAmount(offer.price);
+  if (!Number.isFinite(amount) || amount < 50) {
+    return c.json({ ok: false, error: "Montant de l'offre invalide." }, 422);
+  }
+
+  const externalId = generatePaymentExternalId();
+
+  try {
+    await c.env.DB.prepare(
+      `INSERT INTO payments (external_id, offer_tag, amount, currency, status, customer_name, customer_email, customer_phone)
+       VALUES (?, ?, ?, 'XAF', 'PENDING', ?, ?, ?)`
+    )
+      .bind(externalId, offerTag, amount, customerName, customerEmail, customerPhone)
+      .run();
+
+    const payment = await initGatewayPayment(c.env, {
+      amount,
+      externalId,
+      description: `${offer.tag} — impacttech237.com`,
+      returnUrl: `${SITE_URL}/api/payments/return`,
+      cancelUrl: `${SITE_URL}/api/payments/return`,
+      customerEmail: customerEmail || undefined,
+    });
+
+    await c.env.DB.prepare("UPDATE payments SET kpay_id = ?, kpay_reference = ?, is_test = ? WHERE external_id = ?")
+      .bind(payment.id, payment.reference, payment.isTest ? 1 : 0, externalId)
+      .run();
+
+    return c.json({ ok: true, gatewayUrl: payment.gatewayUrl });
+  } catch (e) {
+    console.error("POST /api/payments/init:", e?.message, e?.kpayError);
+    await c.env.DB.prepare("UPDATE payments SET status = 'FAILED', failure_reason = ? WHERE external_id = ?")
+      .bind(e?.message || "Erreur d'initiation", externalId)
+      .run()
+      .catch(() => {});
+    return c.json({ ok: false, error: "Impossible d'initier le paiement. Réessayez ou contactez-nous." }, 502);
+  }
+});
+
+app.get("/api/payments/return", async (c) => {
+  const query = c.req.query();
+  const layoutPage = (title, message, ok) => c.html(
+    `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>${title} — IMPACT TECH</title>
+    <style>body{font-family:system-ui,sans-serif;background:#0e0e0c;color:#f7efd9;display:flex;min-height:100svh;align-items:center;justify-content:center;padding:24px;text-align:center}
+    .card{max-width:440px}h1{font-size:1.6rem;margin-bottom:12px;color:${ok ? "#3ecf6e" : "#c0202b"}}p{color:rgba(247,239,217,.72);margin-bottom:24px}
+    a{display:inline-block;background:#c0202b;color:#fff;text-decoration:none;padding:12px 28px;border-radius:100px;font-weight:600}</style>
+    </head><body><div class="card"><h1>${title}</h1><p>${message}</p><a href="/">Retour à l'accueil</a></div></body></html>`,
+    200
+  );
+
+  const validSig = c.env.DB ? await verifyGatewayReturnSignature(c.env, query) : false;
+  if (!validSig) {
+    return layoutPage("Lien invalide", "Ce lien de paiement est invalide ou a expiré. Si le paiement a bien été effectué, contactez-nous.", false);
+  }
+
+  const row = await c.env.DB.prepare("SELECT * FROM payments WHERE external_id = ?").bind(query.externalId).first();
+  if (!row) {
+    return layoutPage("Paiement introuvable", "Nous ne retrouvons pas cette transaction. Contactez-nous si le paiement a été débité.", false);
+  }
+
+  // Ne jamais faire confiance à la seule query signée : on reconfirme le
+  // statut auprès de K-PAY avant d'afficher un succès (le webhook reste la
+  // source d'autorité pour la mise à jour définitive de la base).
+  let finalStatus = row.status;
+  try {
+    const payment = await getPayment(c.env, row.kpay_id);
+    finalStatus = payment.status;
+    await c.env.DB.prepare("UPDATE payments SET status = ?, failure_reason = ?, updated_at = datetime('now') WHERE external_id = ?")
+      .bind(finalStatus, payment.failureReason || null, query.externalId)
+      .run();
+  } catch (e) {
+    console.error("GET /api/payments/return — reconfirmation impossible:", e?.message);
+  }
+
+  if (finalStatus === "COMPLETED") {
+    return layoutPage("Paiement réussi", "Merci ! Votre paiement a bien été reçu. Nous démarrons votre projet très vite.", true);
+  }
+  if (finalStatus === "CANCELLED") {
+    return layoutPage("Paiement annulé", "Vous avez annulé le paiement. Vous pouvez réessayer à tout moment depuis la page des offres.", false);
+  }
+  if (finalStatus === "FAILED") {
+    return layoutPage("Paiement échoué", "Le paiement n'a pas abouti. Vérifiez votre solde Mobile Money et réessayez, ou contactez-nous.", false);
+  }
+  return layoutPage("Paiement en attente", "Votre paiement est en cours de traitement. Vous recevrez une confirmation dès qu'il sera validé.", false);
+});
+
+app.post("/api/payments/webhook", async (c) => {
+  const raw = await c.req.text();
+  const signature = c.req.header("x-kpay-signature");
+  const valid = c.env.DB ? await verifyWebhookSignature(c.env, raw, signature) : false;
+  if (!valid) return c.json({ ok: false, error: "Invalid signature" }, 401);
+
+  const event = JSON.parse(raw);
+  const { externalId, paymentId, reference, status, failureReason } = event;
+
+  if (externalId) {
+    await c.env.DB.prepare(
+      `UPDATE payments SET status = ?, kpay_id = COALESCE(kpay_id, ?), kpay_reference = COALESCE(kpay_reference, ?),
+       failure_reason = ?, updated_at = datetime('now') WHERE external_id = ?`
+    )
+      .bind(status, paymentId || null, reference || null, failureReason || null, externalId)
+      .run()
+      .catch((e) => console.error("POST /api/payments/webhook — update:", e?.message));
+  }
+
+  return c.json({ ok: true });
 });
 
 /* ---------- Médias uploadés (R2, public en lecture) ---------- */
