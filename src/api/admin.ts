@@ -11,6 +11,9 @@ import {
   DEFAULT_PASSWORD,
 } from "../lib/auth";
 import { RESOURCES } from "../lib/admin-resources";
+import adminSurveysApi from "./admin-surveys";
+import adminAppointmentsApi from "./admin-appointments";
+import adminPortalApi from "./admin-portal";
 
 const app = new Hono();
 
@@ -108,6 +111,65 @@ app.post("/upload", async (c) => {
     return c.json({ ok: true, url: `/media/${key}` });
   } catch (e) {
     return c.json({ ok: false, error: e?.message || "Échec de l'upload." }, 500);
+  }
+});
+
+/* ---------- Sous‑routeur enquêtes ---------- */
+app.route("/surveys", adminSurveysApi);
+
+/* ---------- Sous‑routeur agenda ---------- */
+app.route("/appointments", adminAppointmentsApi);
+
+/* ---------- Sous‑routeur portail client ---------- */
+app.route("/portal", adminPortalApi);
+
+/* ---------- Dashboard agrégé ---------- */
+app.get("/dashboard", async (c) => {
+  const denied = await requireAdmin(c);
+  if (denied) return denied;
+  if (!c.env.DB) return c.json({ ok: false, error: "Base de données indisponible." }, 503);
+
+  try {
+    const safe = async (q: string, mode: "first" | "all" = "first") => {
+      try { return mode === "all" ? await c.env.DB.prepare(q).all() : await c.env.DB.prepare(q).first(); }
+      catch { return mode === "all" ? { results: [] } : null; }
+    };
+
+    const [requests, newRequests, payments, completedPayments, clients, contracts, appointments] = await Promise.all([
+      safe("SELECT COUNT(*) as c FROM contact_requests"),
+      safe("SELECT COUNT(*) as c FROM contact_requests WHERE status = 'new'"),
+      safe("SELECT COUNT(*) as c FROM payments"),
+      safe("SELECT COALESCE(SUM(amount),0) as total FROM payments WHERE status = 'COMPLETED'"),
+      safe("SELECT COUNT(*) as c FROM clients"),
+      safe("SELECT COUNT(*) as c FROM signatures"),
+      safe("SELECT COUNT(*) as c FROM appointments WHERE date >= date('now')"),
+    ]);
+
+    const monthlyRequests = await safe("SELECT strftime('%Y-%m', created_at) as month, COUNT(*) as count FROM contact_requests WHERE created_at >= date('now', '-6 months') GROUP BY month ORDER BY month", "all");
+    const monthlyPayments = await safe("SELECT strftime('%Y-%m', created_at) as month, COALESCE(SUM(amount),0) as total FROM payments WHERE status = 'COMPLETED' AND created_at >= date('now', '-6 months') GROUP BY month ORDER BY month", "all");
+    const recentRequests = await safe("SELECT id, name, project_type, status, created_at FROM contact_requests ORDER BY id DESC LIMIT 10", "all");
+    const upcomingAppointments = await safe("SELECT id, client_name, date, time FROM appointments WHERE date >= date('now') ORDER BY date, time LIMIT 5", "all");
+
+    return c.json({
+      ok: true,
+      stats: {
+        totalRequests: (requests as any)?.c || 0,
+        newRequests: (newRequests as any)?.c || 0,
+        totalPayments: (payments as any)?.c || 0,
+        completedPaymentsTotal: (completedPayments as any)?.total || 0,
+        clients: (clients as any)?.c || 0,
+        signedContracts: (contracts as any)?.c || 0,
+        upcomingAppointments: (appointments as any)?.c || 0,
+      },
+      charts: {
+        monthlyRequests: (monthlyRequests as any)?.results || [],
+        monthlyPayments: (monthlyPayments as any)?.results || [],
+      },
+      recentRequests: (recentRequests as any)?.results || [],
+      upcomingAppointments: (upcomingAppointments as any)?.results || [],
+    });
+  } catch (e: any) {
+    return c.json({ ok: false, error: e?.message || "Erreur inconnue" }, 500);
   }
 });
 

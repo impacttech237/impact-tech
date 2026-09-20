@@ -34,4 +34,34 @@ await build({
   }),
 });
 
-console.log("Bundles client OK : public/client.js + public/admin/bundle.js");
+await build({
+  entryPoints: ["client/survey.ts"],
+  outfile: "public/survey.js",
+  bundle: true,
+  format: "esm",
+  target: "es2020",
+  minify: true,
+  sourcemap: false,
+});
+
+await build({
+  entryPoints: ["client/booking.ts"],
+  outfile: "public/booking.js",
+  bundle: true,
+  format: "esm",
+  target: "es2020",
+  minify: true,
+  sourcemap: false,
+});
+
+await build({
+  entryPoints: ["client/portal.ts"],
+  outfile: "public/portal.js",
+  bundle: true,
+  format: "esm",
+  target: "es2020",
+  minify: true,
+  sourcemap: false,
+});
+
+console.log("Bundles client OK : public/client.js + public/admin/bundle.js + public/survey.js + public/booking.js + public/portal.js");

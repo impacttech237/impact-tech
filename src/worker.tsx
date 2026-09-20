@@ -8,6 +8,9 @@ import { getContent } from "./lib/content";
 import { DEFAULTS } from "./lib/defaults";
 import { syncContactToNotion } from "./lib/notion";
 import adminApi from "./api/admin";
+import surveysApi from "./api/surveys";
+import appointmentsApi from "./api/appointments";
+import portalApi from "./api/portal";
 
 import HomePage from "./pages/home";
 import ServicesPage from "./pages/services";
@@ -19,6 +22,10 @@ import AboutPage from "./pages/a-propos";
 import MentionsLegalesPage from "./pages/mentions-legales";
 import ConfidentialitePage from "./pages/confidentialite";
 import { getArticleBySlug, getRelatedArticles, articleSlug } from "./lib/articles";
+import { getFormBySlug } from "./lib/surveys";
+import EnquetePage from "./pages/enquete";
+import RdvPage from "./pages/rdv";
+import PortailPage from "./pages/portail";
 import { SITE_URL } from "./lib/seo";
 import { initGatewayPayment, getPayment, verifyGatewayReturnSignature, verifyWebhookSignature, generatePaymentExternalId } from "./lib/kpay";
 
@@ -76,6 +83,24 @@ app.get("/mentions-legales", async (c) => {
 app.get("/confidentialite", async (c) => {
   const content = await getContent(c.env);
   return c.html(<ConfidentialitePage content={content} />);
+});
+
+/* ---------- Prise de rendez-vous ---------- */
+app.get("/rdv", (c) => {
+  return c.html(<RdvPage />);
+});
+
+/* ---------- Portail client ---------- */
+app.get("/portail/:token", (c) => {
+  return c.html(<PortailPage accessToken={c.req.param("token")} />);
+});
+
+/* ---------- Formulaires prospects (enquêtes) ---------- */
+app.get("/enquete/:slug", async (c) => {
+  if (!c.env.DB) return c.notFound();
+  const form = await getFormBySlug(c.env.DB, c.req.param("slug"));
+  if (!form) return c.notFound();
+  return c.html(<EnquetePage form={form} />);
 });
 
 /* ---------- Sitemap dynamique (inclut tous les articles du blog) ---------- */
@@ -327,6 +352,15 @@ app.get("/media/*", async (c) => {
   headers.set("cache-control", "public, max-age=31536000, immutable");
   return new Response(obj.body, { headers });
 });
+
+/* ---------- API formulaires prospects ---------- */
+app.route("/api/surveys", surveysApi);
+
+/* ---------- API prise de RDV ---------- */
+app.route("/api/appointments", appointmentsApi);
+
+/* ---------- API portail client ---------- */
+app.route("/api/portal", portalApi);
 
 /* ---------- API admin (protégée) ---------- */
 app.route("/api/admin", adminApi);

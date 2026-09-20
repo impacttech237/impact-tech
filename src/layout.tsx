@@ -12,6 +12,7 @@ export default function Layout({
   canonical,
   ogImage = "/images/og-cover.png",
   jsonLd = [],
+  noIndex = false,
   children,
 }) {
   const fullTitle = title.includes("IMPACT TECH") ? title : `${title} | IMPACT TECH`;
@@ -25,6 +26,7 @@ export default function Layout({
         <meta name="theme-color" content="#0E0E0C" />
         <title>{fullTitle}</title>
         <meta name="description" content={description} />
+        {noIndex && <meta name="robots" content="noindex, nofollow" />}
         <link rel="canonical" href={url} />
         <link rel="icon" href="/icon-square.png" />
         <link rel="apple-touch-icon" href="/icon-square.png" />
