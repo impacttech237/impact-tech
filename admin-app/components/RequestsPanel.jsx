@@ -50,7 +50,7 @@ export default function RequestsPanel({ onUnauthorized }) {
                   <Badge variant={status.color} className="ml-auto">{status.label}</Badge>
                 </div>
                 <p className="mt-1 text-xs text-adm-text-3">
-                  {r.created_at} · {r.project_type || "Type non precis"} · {r.budget || "Budget non precis"}
+                  {r.created_at} · {r.project_type || "Type non précisé"} · {r.budget || "Budget non précisé"}
                 </p>
                 <p className="mt-2 whitespace-pre-wrap text-sm text-adm-text-2">{r.message}</p>
                 <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
@@ -66,7 +66,7 @@ export default function RequestsPanel({ onUnauthorized }) {
                     <select
                       value={r.status}
                       onChange={(e) => setStatus(r, e.target.value)}
-                      className="rounded-lg border border-adm-border-2 bg-adm-surface-3 px-2 py-1 text-xs text-adm-text"
+                      className="cursor-pointer appearance-none rounded-lg border border-adm-border-2 bg-adm-surface-3 px-2 py-1 pr-6 text-xs text-adm-text outline-none transition-colors focus:border-adm-red"
                     >
                       {REQUEST_STATUSES.map((s) => (
                         <option key={s.value} value={s.value}>{s.label}</option>

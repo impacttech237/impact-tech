@@ -44,7 +44,7 @@ export default function Sidebar({ tab, onTab, onLogout, mobileOpen, onMobileClos
         {sections.map((section) => (
           <div key={section.label}>
             {!collapsed && (
-              <p className="mb-2 px-3 text-[10px] font-semibold uppercase tracking-widest text-adm-text-3">
+              <p className="mb-2 px-3 text-[11px] font-semibold uppercase tracking-widest text-adm-text-3">
                 {section.label}
               </p>
             )}
@@ -57,12 +57,13 @@ export default function Sidebar({ tab, onTab, onLogout, mobileOpen, onMobileClos
                     key={t.key}
                     onClick={() => { onTab(t.key); onMobileClose?.(); }}
                     title={collapsed ? t.label : undefined}
-                    className={`flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
+                    className={`relative flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium cursor-pointer transition-all duration-150 ${
                       active
-                        ? "bg-adm-red/10 text-adm-red border-l-[3px] border-adm-red pl-[9px]"
+                        ? "bg-adm-red/10 text-adm-red"
                         : "text-adm-text-2 hover:bg-adm-surface-2 hover:text-adm-text"
                     } ${collapsed ? "justify-center" : ""}`}
                   >
+                    {active && <span className="absolute left-0 top-1/2 -translate-y-1/2 h-5 w-[3px] rounded-r-full bg-adm-red" />}
                     <Icon size={18} />
                     {!collapsed && <span className="truncate">{t.label}</span>}
                   </button>
@@ -79,14 +80,14 @@ export default function Sidebar({ tab, onTab, onLogout, mobileOpen, onMobileClos
           href="/"
           target="_blank"
           rel="noopener noreferrer"
-          className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-adm-text-3 transition-colors hover:bg-adm-surface-2 hover:text-adm-text ${collapsed ? "justify-center" : ""}`}
+          className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-adm-text-3 cursor-pointer transition-all duration-150 hover:bg-adm-surface-2 hover:text-adm-text ${collapsed ? "justify-center" : ""}`}
         >
           <ExternalLink size={16} />
           {!collapsed && "Voir le site"}
         </a>
         <button
           onClick={onLogout}
-          className={`flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-adm-red transition-colors hover:bg-adm-red/10 ${collapsed ? "justify-center" : ""}`}
+          className={`flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-adm-red cursor-pointer transition-all duration-150 hover:bg-adm-red/10 ${collapsed ? "justify-center" : ""}`}
         >
           <LogOut size={16} />
           {!collapsed && "Déconnexion"}

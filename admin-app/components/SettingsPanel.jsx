@@ -53,7 +53,7 @@ export default function SettingsPanel({ onUnauthorized }) {
 
   return (
     <form onSubmit={submit} className="space-y-4">
-      <h2 className="font-head text-lg font-semibold text-adm-text">Reglages du site</h2>
+      <h2 className="font-head text-lg font-semibold text-adm-text">Réglages du site</h2>
       <Card>
         <div className="grid gap-4 sm:grid-cols-2">
           {SETTINGS_FIELDS.map((f) =>
@@ -69,10 +69,10 @@ export default function SettingsPanel({ onUnauthorized }) {
       </Card>
       {message && (
         <p className={`text-sm ${message === "ok" ? "text-emerald-400" : "text-adm-red"}`}>
-          {message === "ok" ? "Reglages enregistres." : message}
+          {message === "ok" ? "Réglages enregistrés." : message}
         </p>
       )}
-      <Button type="submit" loading={saving}>{saving ? "Enregistrement..." : "Enregistrer les reglages"}</Button>
+      <Button type="submit" loading={saving}>{saving ? "Enregistrement..." : "Enregistrer les réglages"}</Button>
     </form>
   );
 }

@@ -32,7 +32,7 @@ function GCalStatus({ onUnauthorized }) {
   };
 
   const disconnect = async () => {
-    if (!confirm("Deconnecter Google Calendar ?")) return;
+    if (!confirm("Déconnecter Google Calendar ?")) return;
     try {
       await api("appointments/gcal/disconnect", { method: "POST" });
       setStatus(false);
@@ -49,13 +49,13 @@ function GCalStatus({ onUnauthorized }) {
       <div className="flex-1">
         <p className="text-sm font-semibold text-adm-text">Google Calendar</p>
         <p className="text-xs text-adm-text-3">
-          {status === null ? "Verification..." : status ? "Connecte — les RDV seront synchronises" : "Non connecte"}
+          {status === null ? "Vérification..." : status ? "Connecté — les RDV seront synchronisés" : "Non connecté"}
         </p>
       </div>
       {status === true ? (
         <div className="flex items-center gap-2">
-          <Badge variant="success">Connecte</Badge>
-          <Button variant="danger" size="sm" onClick={disconnect}>Deconnecter</Button>
+          <Badge variant="success">Connecté</Badge>
+          <Button variant="danger" size="sm" onClick={disconnect}>Déconnecter</Button>
           <Button variant="ghost" size="sm" onClick={check}>Actualiser</Button>
         </div>
       ) : status === false ? (
@@ -137,7 +137,7 @@ function TypesManager({ onUnauthorized }) {
           <div className="grid gap-3 sm:grid-cols-2">
             <Input label="Titre" value={form.title} onChange={(e) => setForm((f) => ({ ...f, title: e.target.value }))} />
             <Input label="Slug (URL)" value={form.slug} onChange={(e) => setForm((f) => ({ ...f, slug: e.target.value }))} />
-            <Input label="Duree (min)" type="number" value={form.duration} onChange={(e) => setForm((f) => ({ ...f, duration: parseInt(e.target.value) || 30 }))} />
+            <Input label="Durée (min)" type="number" value={form.duration} onChange={(e) => setForm((f) => ({ ...f, duration: parseInt(e.target.value) || 30 }))} />
             <Input label="Lieu" value={form.location} onChange={(e) => setForm((f) => ({ ...f, location: e.target.value }))} />
             <Input label="Couleur" type="color" value={form.color} onChange={(e) => setForm((f) => ({ ...f, color: e.target.value }))} />
           </div>
@@ -151,7 +151,7 @@ function TypesManager({ onUnauthorized }) {
 
       <div className="overflow-hidden rounded-xl border border-adm-border">
         {types.length === 0 ? (
-          <p className="bg-adm-surface p-4 text-sm text-adm-text-3">Aucun type de RDV configure.</p>
+          <p className="bg-adm-surface p-4 text-sm text-adm-text-3">Aucun type de RDV configuré.</p>
         ) : (
           <ul className="divide-y divide-adm-border bg-adm-surface">
             {types.map((t) => (
@@ -161,7 +161,7 @@ function TypesManager({ onUnauthorized }) {
                 <span className="text-xs text-adm-text-3">{t.duration} min</span>
                 <button
                   onClick={() => toggleActive(t)}
-                  className="text-xs"
+                  className="cursor-pointer text-xs transition-opacity hover:opacity-80"
                 >
                   <Badge variant={t.active ? "success" : "default"}>
                     {t.active ? "Actif" : "Inactif"}
@@ -234,7 +234,7 @@ function AvailabilityManager({ onUnauthorized }) {
             <select
               value={form.day_of_week}
               onChange={(e) => setForm((f) => ({ ...f, day_of_week: parseInt(e.target.value) }))}
-              className="rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none focus:border-adm-red"
+              className="cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none transition-colors focus:border-adm-red"
             >
               {DAY_NAMES.map((d, i) => <option key={i} value={i}>{d}</option>)}
             </select>
@@ -248,7 +248,7 @@ function AvailabilityManager({ onUnauthorized }) {
 
       <div className="overflow-hidden rounded-xl border border-adm-border">
         {rules.length === 0 ? (
-          <p className="bg-adm-surface p-4 text-sm text-adm-text-3">Aucune plage horaire. Ajoutez vos disponibilites pour permettre les reservations.</p>
+          <p className="bg-adm-surface p-4 text-sm text-adm-text-3">Aucune plage horaire. Ajoutez vos disponibilités pour permettre les réservations.</p>
         ) : (
           <ul className="divide-y divide-adm-border bg-adm-surface">
             {rules.map((r) => (
@@ -299,7 +299,7 @@ function AppointmentsList({ onUnauthorized }) {
   };
 
   const remove = async (id) => {
-    if (!confirm("Supprimer definitivement ce RDV ?")) return;
+    if (!confirm("Supprimer définitivement ce RDV ?")) return;
     try {
       await api(`appointments/appointments/${id}`, { method: "DELETE" });
       load();
@@ -309,7 +309,7 @@ function AppointmentsList({ onUnauthorized }) {
   };
 
   const statusVariant = { confirmed: "success", cancelled: "danger", completed: "info" };
-  const statusLabels = { confirmed: "Confirme", cancelled: "Annule", completed: "Termine" };
+  const statusLabels = { confirmed: "Confirmé", cancelled: "Annulé", completed: "Terminé" };
 
   return (
     <div className="space-y-3">
@@ -318,11 +318,11 @@ function AppointmentsList({ onUnauthorized }) {
         <select
           value={statusFilter}
           onChange={(e) => { setStatusFilter(e.target.value); setPage(1); }}
-          className="rounded-lg border border-adm-border-2 bg-adm-surface-3 px-2 py-1 text-xs text-adm-text outline-none focus:border-adm-red"
+          className="cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-2 py-1 text-xs text-adm-text outline-none transition-colors focus:border-adm-red"
         >
           <option value="">Tous</option>
-          <option value="confirmed">Confirmes</option>
-          <option value="cancelled">Annules</option>
+          <option value="confirmed">Confirmés</option>
+          <option value="cancelled">Annulés</option>
         </select>
       </div>
 
@@ -365,9 +365,9 @@ function AppointmentsList({ onUnauthorized }) {
                   </td>
                   <td className="px-4 py-3 text-right">
                     {a.status === "confirmed" && (
-                      <button onClick={() => cancel(a.id)} className="text-xs font-semibold text-adm-red hover:underline">Annuler</button>
+                      <button onClick={() => cancel(a.id)} className="cursor-pointer text-xs font-semibold text-adm-red transition-colors hover:underline">Annuler</button>
                     )}
-                    <button onClick={() => remove(a.id)} className="ml-2 text-xs text-adm-text-3 hover:text-adm-red">Suppr.</button>
+                    <button onClick={() => remove(a.id)} className="ml-2 cursor-pointer text-xs text-adm-text-3 transition-colors hover:text-adm-red">Suppr.</button>
                   </td>
                 </tr>
               ))}
@@ -378,7 +378,7 @@ function AppointmentsList({ onUnauthorized }) {
 
       {total > 20 && (
         <div className="flex items-center justify-center gap-2">
-          <Button variant="ghost" size="sm" disabled={page === 1} onClick={() => setPage((p) => p - 1)}>&larr; Precedent</Button>
+          <Button variant="ghost" size="sm" disabled={page === 1} onClick={() => setPage((p) => p - 1)}>&larr; Précédent</Button>
           <span className="text-xs text-adm-text-3">Page {page} / {Math.ceil(total / 20)}</span>
           <Button variant="ghost" size="sm" disabled={page >= Math.ceil(total / 20)} onClick={() => setPage((p) => p + 1)}>Suivant &rarr;</Button>
         </div>
@@ -405,7 +405,7 @@ export default function AppointmentsPanel({ onUnauthorized }) {
           <button
             key={t.key}
             onClick={() => setTab(t.key)}
-            className={`px-3 py-1.5 text-xs font-semibold transition ${tab === t.key ? "bg-adm-red text-white" : "bg-adm-surface text-adm-text-2 hover:bg-adm-surface-2"}`}
+            className={`cursor-pointer px-3 py-1.5 text-xs font-semibold transition-colors ${tab === t.key ? "bg-adm-red text-white" : "bg-adm-surface text-adm-text-2 hover:bg-adm-surface-2"}`}
           >
             {t.label}
           </button>

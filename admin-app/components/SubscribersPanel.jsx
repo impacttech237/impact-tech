@@ -16,7 +16,7 @@ export default function SubscribersPanel({ onUnauthorized }) {
   useEffect(() => { load(); }, [load]);
 
   const remove = async (item) => {
-    if (!confirm(`Desinscrire ${item.email} ?`)) return;
+    if (!confirm(`Désinscrire ${item.email} ?`)) return;
     await api(`subscribers/${item.id}`, { method: "DELETE" });
     load();
   };
@@ -27,7 +27,7 @@ export default function SubscribersPanel({ onUnauthorized }) {
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <h2 className="font-head text-lg font-semibold text-adm-text">
-          Newsletter <span className="text-sm font-normal text-adm-text-3">({items.length} abonne{items.length > 1 ? "s" : ""})</span>
+          Newsletter <span className="text-sm font-normal text-adm-text-3">({items.length} abonné{items.length > 1 ? "s" : ""})</span>
         </h2>
         {items.length > 0 && (
           <Button variant="ghost" size="sm" icon={Copy} onClick={() => navigator.clipboard.writeText(items.map((i) => i.email).join(", "))}>
@@ -36,7 +36,7 @@ export default function SubscribersPanel({ onUnauthorized }) {
         )}
       </div>
       {items.length === 0 ? (
-        <p className="rounded-xl border border-adm-border bg-adm-surface p-6 text-sm text-adm-text-3">Aucun abonne.</p>
+        <p className="rounded-xl border border-adm-border bg-adm-surface p-6 text-sm text-adm-text-3">Aucun abonné.</p>
       ) : (
         <div className="overflow-x-auto rounded-xl border border-adm-border">
           <table className="w-full text-left text-sm">

@@ -1,8 +1,15 @@
-export function StatsCard({ icon: Icon, label, value, trend, trendUp, className = "" }) {
+export function StatsCard({ icon: Icon, label, value, trend, trendUp, accent = "red", className = "" }) {
+  const accents = {
+    red: "bg-adm-red/12 text-adm-red",
+    green: "bg-emerald-500/12 text-emerald-400",
+    blue: "bg-blue-500/12 text-blue-400",
+    amber: "bg-amber-500/12 text-amber-400",
+    purple: "bg-purple-500/12 text-purple-400",
+  };
   return (
-    <div className={`rounded-xl border border-adm-border bg-adm-surface p-5 ${className}`}>
+    <div className={`group rounded-xl border border-adm-border bg-adm-surface p-5 transition-all duration-200 hover:border-adm-border-2 hover:bg-adm-surface/80 ${className}`}>
       <div className="flex items-start justify-between">
-        <div className="rounded-lg bg-adm-surface-2 p-2.5 text-adm-text-2">
+        <div className={`rounded-lg p-2.5 ${accents[accent] || accents.red}`}>
           {Icon && <Icon size={20} />}
         </div>
         {trend && (

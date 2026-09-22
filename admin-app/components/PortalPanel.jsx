@@ -3,14 +3,14 @@ import { api, apiForm } from "../lib/api";
 import { Button, Input, Textarea, Card, Badge } from "./ui";
 import { Users, FileText, Send, Edit3, Trash2, Plus, ArrowLeft, Briefcase, File } from "../lib/icons";
 
-const STATUS_LABELS = { cadrage: "Cadrage", devis: "Devis", contrat: "Contrat", en_cours: "En cours", livraison: "Livraison", termine: "Termine" };
+const STATUS_LABELS = { cadrage: "Cadrage", devis: "Devis", contrat: "Contrat", en_cours: "En cours", livraison: "Livraison", termine: "Terminé" };
 const STATUS_COLORS = { cadrage: "#6366f1", devis: "#f59e0b", contrat: "#C0202B", en_cours: "#3b82f6", livraison: "#8b5cf6", termine: "#3ecf6e" };
 
 export default function PortalPanel({ onUnauthorized }) {
   const [tab, setTab] = useState("clients");
   const TABS = [
     { key: "clients", label: "Clients", Icon: Users },
-    { key: "templates", label: "Modeles contrat", Icon: FileText },
+    { key: "templates", label: "Modèles contrat", Icon: FileText },
     { key: "stats", label: "Stats", Icon: Briefcase },
   ];
 
@@ -25,7 +25,7 @@ export default function PortalPanel({ onUnauthorized }) {
           <button
             key={t.key}
             onClick={() => setTab(t.key)}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition ${
+            className={`flex cursor-pointer items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               tab === t.key ? "bg-adm-red text-white" : "text-adm-text-3 hover:text-adm-text hover:bg-adm-surface-2"
             }`}
           >
@@ -84,7 +84,7 @@ function ClientsManager({ onUnauthorized }) {
                 await api(`portal/clients/${data.id}`, { method: "PUT", body: JSON.stringify(data) });
               } else {
                 const res = await api("portal/clients", { method: "POST", body: JSON.stringify(data) });
-                alert(`Client cree !\nLien portail : ${res.portalUrl}`);
+                alert(`Client créé !\nLien portail : ${res.portalUrl}`);
               }
               setEditing(null);
               load();
@@ -105,7 +105,7 @@ function ClientsManager({ onUnauthorized }) {
               <Button variant="ghost" size="sm" icon={Send} onClick={async () => {
                 try {
                   const res = await api(`portal/clients/${c.id}/send-link`, { method: "POST" });
-                  alert(res.ok ? "Lien envoye par email !" : "Erreur d'envoi");
+                  alert(res.ok ? "Lien envoyé par email !" : "Erreur d'envoi");
                 } catch (e) { alert(e.message); }
               }}>Envoyer lien</Button>
               <Button variant="ghost" size="sm" icon={Edit3} onClick={() => setEditing(c)} />
@@ -132,7 +132,7 @@ function ClientForm({ client, onSave, onCancel }) {
       <div className="grid grid-cols-2 gap-3">
         <Input label="Nom *" value={form.name} onChange={(e) => set("name", e.target.value)} />
         <Input label="Email *" type="email" value={form.email} onChange={(e) => set("email", e.target.value)} />
-        <Input label="Telephone" value={form.phone || ""} onChange={(e) => set("phone", e.target.value)} />
+        <Input label="Téléphone" value={form.phone || ""} onChange={(e) => set("phone", e.target.value)} />
         <Input label="Entreprise" value={form.company || ""} onChange={(e) => set("company", e.target.value)} />
       </div>
       <div className="flex gap-2">
@@ -167,7 +167,7 @@ function ClientDetail({ client, onBack, onUnauthorized }) {
 
   return (
     <div>
-      <button onClick={onBack} className="flex items-center gap-1 text-sm text-adm-text-3 hover:text-adm-text mb-4">
+      <button onClick={onBack} className="flex cursor-pointer items-center gap-1 text-sm text-adm-text-3 transition-colors hover:text-adm-text mb-4">
         <ArrowLeft size={14} /> Retour aux clients
       </button>
       <div className="flex items-center justify-between mb-4">
@@ -238,13 +238,13 @@ function ProjectForm({ project, onSave, onCancel }) {
           <select
             value={form.status}
             onChange={(e) => set("status", e.target.value)}
-            className="w-full rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none focus:border-adm-red"
+            className="w-full cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none transition-colors focus:border-adm-red"
           >
             {Object.entries(STATUS_LABELS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
         </label>
-        <Input label="Date de debut" type="date" value={form.start_date || ""} onChange={(e) => set("start_date", e.target.value)} />
-        <Input label="Echeance" type="date" value={form.due_date || ""} onChange={(e) => set("due_date", e.target.value)} />
+        <Input label="Date de début" type="date" value={form.start_date || ""} onChange={(e) => set("start_date", e.target.value)} />
+        <Input label="Échéance" type="date" value={form.due_date || ""} onChange={(e) => set("due_date", e.target.value)} />
       </div>
       <div className="flex gap-2">
         <Button onClick={() => onSave(form)} disabled={!form.title}>Enregistrer</Button>
@@ -290,7 +290,7 @@ function ProjectDetail({ project, clientId, onBack, onUnauthorized }) {
 
   return (
     <div>
-      <button onClick={onBack} className="flex items-center gap-1 text-sm text-adm-text-3 hover:text-adm-text mb-4">
+      <button onClick={onBack} className="flex cursor-pointer items-center gap-1 text-sm text-adm-text-3 transition-colors hover:text-adm-text mb-4">
         <ArrowLeft size={14} /> Retour aux projets
       </button>
       <div className="flex items-center justify-between mb-4">
@@ -303,10 +303,10 @@ function ProjectDetail({ project, clientId, onBack, onUnauthorized }) {
       {error && <p className="text-adm-red text-sm mb-2">{error}</p>}
 
       <div className="flex gap-2 mb-4 border-b border-adm-border pb-2">
-        <button onClick={() => setSubTab("documents")} className={`flex items-center gap-1 px-3 py-1.5 text-sm rounded-lg transition ${subTab === "documents" ? "bg-adm-red text-white" : "text-adm-text-3 hover:text-adm-text"}`}>
+        <button onClick={() => setSubTab("documents")} className={`flex cursor-pointer items-center gap-1 px-3 py-1.5 text-sm rounded-lg transition-colors ${subTab === "documents" ? "bg-adm-red text-white" : "text-adm-text-3 hover:text-adm-text hover:bg-adm-surface-2"}`}>
           <FileText size={14} /> Documents
         </button>
-        <button onClick={() => setSubTab("files")} className={`flex items-center gap-1 px-3 py-1.5 text-sm rounded-lg transition ${subTab === "files" ? "bg-adm-red text-white" : "text-adm-text-3 hover:text-adm-text"}`}>
+        <button onClick={() => setSubTab("files")} className={`flex cursor-pointer items-center gap-1 px-3 py-1.5 text-sm rounded-lg transition-colors ${subTab === "files" ? "bg-adm-red text-white" : "text-adm-text-3 hover:text-adm-text hover:bg-adm-surface-2"}`}>
           <File size={14} /> Fichiers
         </button>
       </div>
@@ -344,12 +344,12 @@ function ProjectDetail({ project, clientId, onBack, onUnauthorized }) {
                   <div className="font-semibold text-sm text-adm-text">{d.title}</div>
                   <div className="text-xs text-adm-text-3">
                     {d.category === "contrat" ? "Contrat" : "Document"}
-                    {d.signed_at ? ` — Signe le ${new Date(d.signed_at).toLocaleDateString("fr-FR")}` : ""}
+                    {d.signed_at ? ` — Signé le ${new Date(d.signed_at).toLocaleDateString("fr-FR")}` : ""}
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Badge variant={d.status === "signed" ? "success" : d.status === "sent" ? "danger" : "default"}>
-                    {d.status === "signed" ? "Signe" : d.status === "sent" ? "Envoye" : "Brouillon"}
+                    {d.status === "signed" ? "Signé" : d.status === "sent" ? "Envoyé" : "Brouillon"}
                   </Badge>
                   {d.status === "draft" && (
                     <>
@@ -358,7 +358,7 @@ function ProjectDetail({ project, clientId, onBack, onUnauthorized }) {
                         if (!confirm("Envoyer ce document au client ?")) return;
                         try {
                           await api(`portal/documents/${d.id}/send`, { method: "POST" });
-                          alert("Document envoye !");
+                          alert("Document envoyé !");
                           loadDocs();
                         } catch (e) { alert(e.message); }
                       }}>Envoyer</Button>
@@ -439,11 +439,11 @@ function DocumentEditor({ doc, templates, onSave, onCancel }) {
       <div className="grid grid-cols-2 gap-3">
         <Input label="Titre *" value={form.title} onChange={(e) => set("title", e.target.value)} />
         <label className="block">
-          <span className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-adm-text-3">Categorie</span>
+          <span className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-adm-text-3">Catégorie</span>
           <select
             value={form.category}
             onChange={(e) => set("category", e.target.value)}
-            className="w-full rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none focus:border-adm-red"
+            className="w-full cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none transition-colors focus:border-adm-red"
           >
             <option value="document">Document</option>
             <option value="contrat">Contrat</option>
@@ -454,13 +454,13 @@ function DocumentEditor({ doc, templates, onSave, onCancel }) {
       </div>
       {templates.length > 0 && (
         <label className="block">
-          <span className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-adm-text-3">Modele de contrat</span>
+          <span className="mb-1.5 block text-xs font-medium uppercase tracking-wide text-adm-text-3">Modèle de contrat</span>
           <select
             value={form.template_id || ""}
             onChange={(e) => applyTemplate(e.target.value)}
-            className="w-full rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none focus:border-adm-red"
+            className="w-full cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none transition-colors focus:border-adm-red"
           >
-            <option value="">— Aucun modele —</option>
+            <option value="">— Aucun modèle —</option>
             {templates.map((t) => <option key={t.id} value={t.id}>{t.title}</option>)}
           </select>
         </label>
@@ -502,8 +502,8 @@ function TemplatesManager({ onUnauthorized }) {
   return (
     <div>
       <div className="flex justify-between mb-4">
-        <h3 className="font-head text-lg font-semibold text-adm-text">Modeles de contrat</h3>
-        <Button icon={Plus} onClick={() => setEditing({ title: "", content: "", variables: "" })}>Nouveau modele</Button>
+        <h3 className="font-head text-lg font-semibold text-adm-text">Modèles de contrat</h3>
+        <Button icon={Plus} onClick={() => setEditing({ title: "", content: "", variables: "" })}>Nouveau modèle</Button>
       </div>
 
       {error && <p className="text-adm-red text-sm mb-2">{error}</p>}
@@ -517,7 +517,7 @@ function TemplatesManager({ onUnauthorized }) {
             onChange={(e) => setEditing({ ...editing, content: e.target.value })}
             style={{ minHeight: "400px", fontFamily: "monospace", fontSize: "13px" }}
           />
-          <Input label="Variables (separees par virgule)" value={editing.variables || ""} onChange={(e) => setEditing({ ...editing, variables: e.target.value })} />
+          <Input label="Variables (séparées par virgule)" value={editing.variables || ""} onChange={(e) => setEditing({ ...editing, variables: e.target.value })} />
           <p className="text-xs text-adm-text-3">
             Utilisez {"{{nom_variable}}"} dans le contenu. Ex: {"{{client_name}}"}, {"{{date}}"}, {"{{montant}}"}
           </p>
@@ -548,14 +548,14 @@ function TemplatesManager({ onUnauthorized }) {
             <div className="flex gap-2">
               <Button variant="ghost" size="sm" icon={Edit3} onClick={() => setEditing(t)} />
               <Button variant="danger" size="sm" icon={Trash2} onClick={async () => {
-                if (!confirm("Supprimer ce modele ?")) return;
+                if (!confirm("Supprimer ce modèle ?")) return;
                 await api(`portal/templates/${t.id}`, { method: "DELETE" });
                 load();
               }} />
             </div>
           </Card>
         ))}
-        {templates.length === 0 && <p className="text-sm text-adm-text-3 text-center py-8">Aucun modele</p>}
+        {templates.length === 0 && <p className="text-sm text-adm-text-3 text-center py-8">Aucun modèle</p>}
       </div>
     </div>
   );
@@ -575,7 +575,7 @@ function PortalStatsView({ onUnauthorized }) {
     { label: "Clients", value: stats.clients, Icon: Users, color: "#3b82f6" },
     { label: "Projets", value: stats.projects, Icon: Briefcase, color: "#8b5cf6" },
     { label: "Documents en attente", value: stats.pendingDocuments, Icon: FileText, color: "#f59e0b" },
-    { label: "Contrats signes", value: stats.signedContracts, Icon: FileText, color: "#3ecf6e" },
+    { label: "Contrats signés", value: stats.signedContracts, Icon: FileText, color: "#3ecf6e" },
   ];
 
   return (

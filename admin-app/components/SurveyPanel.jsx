@@ -60,8 +60,8 @@ function QuestionEditor({ question, onSave, onDelete }) {
           </p>
           <p className="text-xs text-adm-text-3">{typeLabel}</p>
         </div>
-        <button onClick={() => setEditing(true)} className="shrink-0 text-xs text-adm-text-3 hover:text-adm-red">Modifier</button>
-        <button onClick={onDelete} className="shrink-0 text-xs text-adm-red hover:underline">Suppr.</button>
+        <button onClick={() => setEditing(true)} className="shrink-0 cursor-pointer text-xs text-adm-text-3 transition-colors hover:text-adm-red">Modifier</button>
+        <button onClick={onDelete} className="shrink-0 cursor-pointer text-xs text-adm-red transition-colors hover:underline">Suppr.</button>
       </div>
     );
   }
@@ -69,7 +69,7 @@ function QuestionEditor({ question, onSave, onDelete }) {
   return (
     <div className="space-y-3 rounded-lg border border-adm-red/30 bg-adm-surface-2 p-3">
       <div className="grid gap-3 sm:grid-cols-2">
-        <Input label="Intitule" value={form.label} onChange={(e) => setForm((f) => ({ ...f, label: e.target.value }))} />
+        <Input label="Intitulé" value={form.label} onChange={(e) => setForm((f) => ({ ...f, label: e.target.value }))} />
         <Select
           label="Type"
           value={form.type}
@@ -89,7 +89,7 @@ function QuestionEditor({ question, onSave, onDelete }) {
         />
       )}
       {form.type === "multi_choice" && (
-        <Input label="Selections max (0 = illimite)" type="number" value={config.max_selections || 0} onChange={(e) => setConfig("max_selections", parseInt(e.target.value) || 0)} />
+        <Input label="Sélections max (0 = illimité)" type="number" value={config.max_selections || 0} onChange={(e) => setConfig("max_selections", parseInt(e.target.value) || 0)} />
       )}
       {isScale && (
         <div className="grid gap-3 sm:grid-cols-4">
@@ -175,7 +175,7 @@ function SectionEditor({ section, onReload, onDelete }) {
   return (
     <Card>
       <div className="flex items-center gap-2 px-4 py-3">
-        <button onClick={() => setExpanded(!expanded)} className="text-sm text-adm-text-2">{expanded ? "▾" : "▸"}</button>
+        <button onClick={() => setExpanded(!expanded)} className="cursor-pointer text-sm text-adm-text-2 transition-colors hover:text-adm-text">{expanded ? "▾" : "▸"}</button>
         {editingTitle ? (
           <div className="flex flex-1 items-center gap-2">
             <input
@@ -193,7 +193,7 @@ function SectionEditor({ section, onReload, onDelete }) {
         )}
         {condition && <Badge variant="warning">Conditionnelle</Badge>}
         <span className="text-xs text-adm-text-3">{questions.length} question{questions.length !== 1 ? "s" : ""}</span>
-        <button onClick={onDelete} className="text-xs text-adm-red hover:underline">Supprimer</button>
+        <button onClick={onDelete} className="cursor-pointer text-xs text-adm-red transition-colors hover:underline">Supprimer</button>
       </div>
 
       {expanded && (
@@ -221,7 +221,7 @@ function SectionEditor({ section, onReload, onDelete }) {
               </div>
             </div>
           ) : (
-            <button onClick={() => setAddingQ(true)} className="text-xs font-semibold text-adm-red hover:underline">
+            <button onClick={() => setAddingQ(true)} className="cursor-pointer text-xs font-semibold text-adm-red transition-colors hover:underline">
               + Ajouter une question
             </button>
           )}
@@ -336,20 +336,20 @@ function ResponseDetail({ responseId, onBack, onUnauthorized }) {
 
   return (
     <div className="space-y-4">
-      <button onClick={onBack} className="text-sm font-semibold text-adm-red hover:underline">&larr; Retour aux reponses</button>
+      <button onClick={onBack} className="cursor-pointer text-sm font-semibold text-adm-red transition-colors hover:underline">&larr; Retour aux réponses</button>
 
       <Card className="p-4">
         <div className="grid gap-3 sm:grid-cols-2">
           {response.respondent_name && <div><p className="text-xs text-adm-text-3">Nom</p><p className="text-sm font-medium text-adm-text">{response.respondent_name}</p></div>}
           {response.respondent_email && <div><p className="text-xs text-adm-text-3">Email</p><p className="text-sm font-medium text-adm-text">{response.respondent_email}</p></div>}
-          {response.respondent_phone && <div><p className="text-xs text-adm-text-3">Telephone</p><p className="text-sm font-medium text-adm-text">{response.respondent_phone}</p></div>}
+          {response.respondent_phone && <div><p className="text-xs text-adm-text-3">Téléphone</p><p className="text-sm font-medium text-adm-text">{response.respondent_phone}</p></div>}
           {response.respondent_company && <div><p className="text-xs text-adm-text-3">Entreprise</p><p className="text-sm font-medium text-adm-text">{response.respondent_company}</p></div>}
         </div>
         <div className="mt-3 flex gap-4 text-xs text-adm-text-3">
-          <span>Debut : {new Date(response.started_at).toLocaleString("fr-FR")}</span>
+          <span>Début : {new Date(response.started_at).toLocaleString("fr-FR")}</span>
           {response.completed_at && <span>Fin : {new Date(response.completed_at).toLocaleString("fr-FR")}</span>}
           <Badge variant={response.completed_at ? "success" : "warning"}>
-            {response.completed_at ? "Complete" : "En cours"}
+            {response.completed_at ? "Complété" : "En cours"}
           </Badge>
         </div>
       </Card>
@@ -361,7 +361,7 @@ function ResponseDetail({ responseId, onBack, onUnauthorized }) {
             <p className="mt-0.5 text-sm text-adm-text whitespace-pre-wrap">{a.value || "—"}</p>
           </div>
         ))}
-        {answers.length === 0 && <p className="text-sm text-adm-text-3">Aucune reponse enregistree.</p>}
+        {answers.length === 0 && <p className="text-sm text-adm-text-3">Aucune réponse enregistrée.</p>}
       </div>
     </div>
   );
@@ -388,15 +388,15 @@ function SurveyStatsView({ formId, onUnauthorized }) {
       <div className="grid gap-3 sm:grid-cols-3">
         <Card className="p-4 text-center">
           <p className="font-head text-2xl font-bold text-adm-text">{stats.total}</p>
-          <p className="text-xs text-adm-text-3">Reponses totales</p>
+          <p className="text-xs text-adm-text-3">Réponses totales</p>
         </Card>
         <Card className="p-4 text-center">
           <p className="font-head text-2xl font-bold text-emerald-400">{stats.completed}</p>
-          <p className="text-xs text-adm-text-3">Completees</p>
+          <p className="text-xs text-adm-text-3">Complétées</p>
         </Card>
         <Card className="p-4 text-center">
           <p className="font-head text-2xl font-bold text-adm-red">{stats.completionRate}%</p>
-          <p className="text-xs text-adm-text-3">Taux de completion</p>
+          <p className="text-xs text-adm-text-3">Taux de complétion</p>
         </Card>
       </div>
 
@@ -423,7 +423,7 @@ function SurveyStatsView({ formId, onUnauthorized }) {
                   })}
                 </div>
               ) : (
-                <p className="mt-1 text-xs text-adm-text-3">Pas assez de donnees</p>
+                <p className="mt-1 text-xs text-adm-text-3">Pas assez de données</p>
               )}
             </Card>
           ))}
@@ -488,7 +488,7 @@ function ResponsesList({ formId, onUnauthorized }) {
   if (showStats) {
     return (
       <div>
-        <button onClick={() => setShowStats(false)} className="mb-3 text-sm font-semibold text-adm-red hover:underline">&larr; Retour aux reponses</button>
+        <button onClick={() => setShowStats(false)} className="mb-3 cursor-pointer text-sm font-semibold text-adm-red transition-colors hover:underline">&larr; Retour aux réponses</button>
         <SurveyStatsView formId={formId} onUnauthorized={onUnauthorized} />
       </div>
     );
@@ -507,13 +507,13 @@ function ResponsesList({ formId, onUnauthorized }) {
         <select
           value={filter}
           onChange={(e) => { setFilter(e.target.value); setPage(1); }}
-          className="rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none"
+          className="cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm text-adm-text outline-none transition-colors focus:border-adm-red"
         >
           <option value="all">Toutes</option>
-          <option value="completed">Completees</option>
+          <option value="completed">Complétées</option>
           <option value="incomplete">En cours</option>
         </select>
-        <span className="text-xs text-adm-text-3">{total} reponse{total !== 1 ? "s" : ""}</span>
+        <span className="text-xs text-adm-text-3">{total} réponse{total !== 1 ? "s" : ""}</span>
         <div className="ml-auto flex gap-2">
           <Button variant="ghost" size="sm" onClick={() => setShowStats(true)}>Stats</Button>
           <Button variant="ghost" size="sm" onClick={exportCsv}>CSV</Button>
@@ -523,7 +523,7 @@ function ResponsesList({ formId, onUnauthorized }) {
       {responses === null ? (
         <p className="text-sm text-adm-text-3">Chargement...</p>
       ) : responses.length === 0 ? (
-        <Card className="p-4 text-sm text-adm-text-3">Aucune reponse.</Card>
+        <Card className="p-4 text-sm text-adm-text-3">Aucune réponse.</Card>
       ) : (
         <div className="overflow-x-auto rounded-xl border border-adm-border">
           <table className="w-full text-left text-sm">
@@ -544,12 +544,12 @@ function ResponsesList({ formId, onUnauthorized }) {
                   <td className="px-4 py-3 text-adm-text-2">{new Date(r.started_at).toLocaleDateString("fr-FR")}</td>
                   <td className="px-4 py-3">
                     <Badge variant={r.completed_at ? "success" : "warning"}>
-                      {r.completed_at ? "Complete" : "En cours"}
+                      {r.completed_at ? "Complété" : "En cours"}
                     </Badge>
                   </td>
                   <td className="px-4 py-3 text-right">
-                    <button onClick={() => setViewId(r.id)} className="text-xs font-semibold text-adm-red hover:underline">Voir</button>
-                    <button onClick={() => deleteResponse(r.id)} className="ml-2 text-xs text-adm-text-3 hover:text-adm-red">Suppr.</button>
+                    <button onClick={() => setViewId(r.id)} className="cursor-pointer text-xs font-semibold text-adm-red transition-colors hover:underline">Voir</button>
+                    <button onClick={() => deleteResponse(r.id)} className="ml-2 cursor-pointer text-xs text-adm-text-3 transition-colors hover:text-adm-red">Suppr.</button>
                   </td>
                 </tr>
               ))}
@@ -560,7 +560,7 @@ function ResponsesList({ formId, onUnauthorized }) {
 
       {total > 20 && (
         <div className="flex items-center justify-center gap-2">
-          <Button variant="ghost" size="sm" disabled={page === 1} onClick={() => setPage((p) => p - 1)}>&larr; Precedent</Button>
+          <Button variant="ghost" size="sm" disabled={page === 1} onClick={() => setPage((p) => p - 1)}>&larr; Précédent</Button>
           <span className="text-xs text-adm-text-3">Page {page} / {Math.ceil(total / 20)}</span>
           <Button variant="ghost" size="sm" disabled={page >= Math.ceil(total / 20)} onClick={() => setPage((p) => p + 1)}>Suivant &rarr;</Button>
         </div>
@@ -599,7 +599,7 @@ export default function SurveyPanel({ onUnauthorized }) {
 
       {forms.length === 0 ? (
         <Card className="p-4 text-sm text-adm-text-3">
-          Aucun formulaire. Executez le script de seed pour creer les 3 formulaires permanents.
+          Aucun formulaire. Exécutez le script de seed pour créer les 3 formulaires permanents.
         </Card>
       ) : (
         <>
@@ -607,7 +607,7 @@ export default function SurveyPanel({ onUnauthorized }) {
             <select
               value={selectedFormId || ""}
               onChange={(e) => setSelectedFormId(parseInt(e.target.value))}
-              className="rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm font-semibold text-adm-text outline-none focus:border-adm-red"
+              className="cursor-pointer rounded-lg border border-adm-border-2 bg-adm-surface-3 px-3 py-2 text-sm font-semibold text-adm-text outline-none transition-colors focus:border-adm-red"
             >
               {forms.map((f) => (
                 <option key={f.id} value={f.id}>{f.title}</option>
@@ -617,15 +617,15 @@ export default function SurveyPanel({ onUnauthorized }) {
             <div className="flex rounded-lg border border-adm-border overflow-hidden">
               <button
                 onClick={() => setView("editor")}
-                className={`px-3 py-1.5 text-xs font-semibold transition ${view === "editor" ? "bg-adm-red text-white" : "bg-adm-surface text-adm-text-2 hover:bg-adm-surface-2"}`}
+                className={`cursor-pointer px-3 py-1.5 text-xs font-semibold transition-colors ${view === "editor" ? "bg-adm-red text-white" : "bg-adm-surface text-adm-text-2 hover:bg-adm-surface-2"}`}
               >
-                Editeur
+                Éditeur
               </button>
               <button
                 onClick={() => setView("responses")}
-                className={`px-3 py-1.5 text-xs font-semibold transition ${view === "responses" ? "bg-adm-red text-white" : "bg-adm-surface text-adm-text-2 hover:bg-adm-surface-2"}`}
+                className={`cursor-pointer px-3 py-1.5 text-xs font-semibold transition-colors ${view === "responses" ? "bg-adm-red text-white" : "bg-adm-surface text-adm-text-2 hover:bg-adm-surface-2"}`}
               >
-                Reponses
+                Réponses
               </button>
             </div>
 

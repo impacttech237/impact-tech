@@ -18,7 +18,7 @@ export function Button({ children, variant = "primary", size = "md", icon: Icon,
     <button
       {...props}
       disabled={props.disabled || loading}
-      className={`inline-flex items-center justify-center rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${variants[variant]} ${sizes[size]} ${className}`}
+      className={`inline-flex items-center justify-center rounded-lg font-semibold cursor-pointer transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed ${variants[variant]} ${sizes[size]} ${className}`}
     >
       {loading ? <LoadingSpinner size={size === "sm" ? 14 : 16} /> : Icon && <Icon size={size === "sm" ? 14 : 16} />}
       {children}

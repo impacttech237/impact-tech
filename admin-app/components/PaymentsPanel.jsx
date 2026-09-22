@@ -24,8 +24,8 @@ export default function PaymentsPanel({ onUnauthorized }) {
   return (
     <div className="space-y-4">
       <h2 className="font-head text-lg font-semibold text-adm-text">Paiements</h2>
-      <StatsCard icon={CreditCard} label="Total encaisse" value={`${totalCompleted.toLocaleString("fr-FR")} FCFA`} />
-      <p className="text-xs text-adm-text-3">Lecture seule — le statut est mis a jour par K-PAY (webhook).</p>
+      <StatsCard icon={CreditCard} label="Total encaissé" value={`${totalCompleted.toLocaleString("fr-FR")} FCFA`} />
+      <p className="text-xs text-adm-text-3">Lecture seule — le statut est mis à jour par K-PAY (webhook).</p>
       {error && <p className="text-sm text-adm-red">{error}</p>}
       {items.length === 0 ? (
         <p className="rounded-xl border border-adm-border bg-adm-surface p-6 text-sm text-adm-text-3">Aucun paiement pour le moment.</p>

@@ -170,7 +170,7 @@ export default function ResourcePanel({ resource, onUnauthorized }) {
 
       <div className="overflow-hidden rounded-xl border border-adm-border">
         {items.length === 0 ? (
-          <p className="bg-adm-surface p-6 text-sm text-adm-text-3">Aucun element pour le moment.</p>
+          <p className="bg-adm-surface p-6 text-sm text-adm-text-3">Aucun élément pour le moment.</p>
         ) : (
           <table className="w-full text-left text-sm">
             <thead>
@@ -188,9 +188,9 @@ export default function ResourcePanel({ resource, onUnauthorized }) {
                   </td>
                   <td className="px-4 py-3">
                     {"active" in item && (
-                      <button onClick={() => toggleActive(item)}>
+                      <button onClick={() => toggleActive(item)} className="cursor-pointer transition-opacity hover:opacity-80">
                         <Badge variant={item.active ? "success" : "default"}>
-                          {item.active ? "Visible" : "Masque"}
+                          {item.active ? "Visible" : "Masqué"}
                         </Badge>
                       </button>
                     )}

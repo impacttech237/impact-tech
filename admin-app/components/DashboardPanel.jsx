@@ -70,11 +70,11 @@ export default function DashboardPanel({ onUnauthorized }) {
     <div className="space-y-6">
       {/* Stats cards */}
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-5">
-        <StatsCard icon={FileText} label="Nouvelles demandes" value={stats.newRequests} />
-        <StatsCard icon={Users} label="Clients actifs" value={stats.clients} />
-        <StatsCard icon={Calendar} label="RDV a venir" value={stats.upcomingAppointments} />
-        <StatsCard icon={CreditCard} label="Paiements encaisses" value={`${(stats.completedPaymentsTotal || 0).toLocaleString("fr-FR")} FCFA`} />
-        <StatsCard icon={Check} label="Contrats signes" value={stats.signedContracts} className="col-span-2 lg:col-span-1" />
+        <StatsCard icon={FileText} label="Nouvelles demandes" value={stats.newRequests} accent="red" />
+        <StatsCard icon={Users} label="Clients actifs" value={stats.clients} accent="blue" />
+        <StatsCard icon={Calendar} label="RDV à venir" value={stats.upcomingAppointments} accent="amber" />
+        <StatsCard icon={CreditCard} label="Paiements encaissés" value={`${(stats.completedPaymentsTotal || 0).toLocaleString("fr-FR")} FCFA`} accent="green" />
+        <StatsCard icon={Check} label="Contrats signés" value={stats.signedContracts} accent="purple" className="col-span-2 lg:col-span-1" />
       </div>
 
       {/* Chart + Upcoming */}
@@ -84,7 +84,7 @@ export default function DashboardPanel({ onUnauthorized }) {
           {chartData.labels.length > 0 ? (
             <Chart data={chartData} options={{ plugins: { legend: { display: true, labels: { color: "#b8b0a0", boxWidth: 12, padding: 16 } } } }} />
           ) : (
-            <p className="py-10 text-center text-sm text-adm-text-3">Pas encore de donnees.</p>
+            <p className="py-10 text-center text-sm text-adm-text-3">Pas encore de données.</p>
           )}
         </Card>
 
@@ -93,7 +93,7 @@ export default function DashboardPanel({ onUnauthorized }) {
             <Calendar size={16} /> Prochains RDV
           </h3>
           {(!upcomingAppointments || upcomingAppointments.length === 0) ? (
-            <p className="text-sm text-adm-text-3">Aucun RDV a venir.</p>
+            <p className="text-sm text-adm-text-3">Aucun RDV à venir.</p>
           ) : (
             <div className="space-y-3">
               {upcomingAppointments.map((a) => (
@@ -115,10 +115,10 @@ export default function DashboardPanel({ onUnauthorized }) {
       {/* Recent activity */}
       <Card>
         <h3 className="mb-4 font-head text-sm font-semibold text-adm-text flex items-center gap-2">
-          <Activity size={16} /> Activite recente
+          <Activity size={16} /> Activité récente
         </h3>
         {(!recentRequests || recentRequests.length === 0) ? (
-          <p className="text-sm text-adm-text-3">Aucune activite.</p>
+          <p className="text-sm text-adm-text-3">Aucune activité.</p>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">

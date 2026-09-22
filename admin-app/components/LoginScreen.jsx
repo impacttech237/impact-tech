@@ -52,7 +52,7 @@ export default function LoginScreen({ onLogin }) {
         {error && <p className="text-sm text-adm-red">{error}</p>}
         {warning && (
           <p className="rounded-lg bg-amber-500/10 px-3 py-2 text-xs text-amber-400">
-            Vous utilisez le mot de passe par defaut. Definissez ADMIN_PASSWORD dans Cloudflare.
+            Vous utilisez le mot de passe par défaut. Définissez ADMIN_PASSWORD dans Cloudflare.
           </p>
         )}
         <Button type="submit" loading={loading} className="w-full">
