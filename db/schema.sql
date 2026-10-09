@@ -140,7 +140,10 @@ CREATE TABLE IF NOT EXISTS contact_requests (
   budget       TEXT,
   message      TEXT,
   status       TEXT DEFAULT 'nouvelle',
-  created_at   TEXT DEFAULT CURRENT_TIMESTAMP
+  created_at   TEXT DEFAULT CURRENT_TIMESTAMP,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  referral_code TEXT,
+  converted_client_id INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS newsletter_subscribers (
@@ -273,7 +276,17 @@ CREATE TABLE IF NOT EXISTS clients (
   auth_code     TEXT,
   auth_code_exp TEXT,
   active        INTEGER DEFAULT 1,
-  created_at    TEXT DEFAULT CURRENT_TIMESTAMP
+  created_at    TEXT DEFAULT CURRENT_TIMESTAMP,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  slug TEXT,
+  locale TEXT DEFAULT 'fr',
+  auth_attempts INTEGER DEFAULT 0,
+  code_sent_at TEXT,
+  onboarded_at TEXT,
+  last_seen_at TEXT,
+  referral_code TEXT,
+  internal_notes TEXT,
+  source_request_id INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS client_projects (
@@ -285,7 +298,31 @@ CREATE TABLE IF NOT EXISTS client_projects (
   start_date  TEXT,
   due_date    TEXT,
   created_at  TEXT DEFAULT CURRENT_TIMESTAMP,
-  updated_at  TEXT
+  updated_at  TEXT,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  pack TEXT,
+  preview_url TEXT,
+  site_url TEXT,
+  admin_url TEXT,
+  amount INTEGER,
+  currency TEXT DEFAULT 'XAF',
+  revision_rounds INTEGER,
+  revision_used INTEGER DEFAULT 0,
+  support_days INTEGER,
+  delivered_at TEXT,
+  support_until TEXT,
+  hosting_renewal_at TEXT,
+  domain_renewal_at TEXT,
+  renewal_amount INTEGER,
+  handover_notes TEXT,
+  handover_links TEXT,
+  internal_notes TEXT,
+  feedback_key TEXT,
+  weekly_update TEXT,
+  weekly_update_at TEXT,
+  health_status INTEGER,
+  health_ms INTEGER,
+  health_checked_at TEXT
 );
 
 CREATE TABLE IF NOT EXISTS contract_templates (
@@ -295,7 +332,12 @@ CREATE TABLE IF NOT EXISTS contract_templates (
   variables  TEXT,
   active     INTEGER DEFAULT 1,
   created_at TEXT DEFAULT CURRENT_TIMESTAMP,
-  updated_at TEXT
+  updated_at TEXT,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  pack TEXT,
+  file_key TEXT,
+  file_name TEXT,
+  file_mime TEXT
 );
 
 CREATE TABLE IF NOT EXISTS client_documents (
@@ -308,7 +350,16 @@ CREATE TABLE IF NOT EXISTS client_documents (
   template_id INTEGER REFERENCES contract_templates(id),
   r2_key      TEXT,
   created_at  TEXT DEFAULT CURRENT_TIMESTAMP,
-  updated_at  TEXT
+  updated_at  TEXT,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  file_key TEXT,
+  file_name TEXT,
+  file_mime TEXT,
+  file_sha256 TEXT,
+  needs_signature INTEGER DEFAULT 0,
+  sent_at TEXT,
+  admin_signed_at TEXT,
+  admin_signature_key TEXT
 );
 
 CREATE TABLE IF NOT EXISTS signatures (
@@ -319,7 +370,9 @@ CREATE TABLE IF NOT EXISTS signatures (
   signature_r2  TEXT NOT NULL,
   ip_address    TEXT,
   user_agent    TEXT,
-  signed_at     TEXT DEFAULT CURRENT_TIMESTAMP
+  signed_at     TEXT DEFAULT CURRENT_TIMESTAMP,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  document_sha256 TEXT
 );
 
 CREATE TABLE IF NOT EXISTS client_files (
@@ -330,7 +383,11 @@ CREATE TABLE IF NOT EXISTS client_files (
   size        INTEGER,
   mime_type   TEXT,
   uploaded_by TEXT DEFAULT 'admin',
-  created_at  TEXT DEFAULT CURRENT_TIMESTAMP
+  created_at  TEXT DEFAULT CURRENT_TIMESTAMP,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  category TEXT DEFAULT 'autre',
+  checklist_item_id INTEGER,
+  message_id INTEGER
 );
 
 CREATE INDEX IF NOT EXISTS idx_clients_access_token ON clients(access_token);
@@ -358,5 +415,168 @@ CREATE TABLE IF NOT EXISTS payments (
   failure_reason TEXT,
   is_test        INTEGER DEFAULT 1,
   created_at     TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at     TEXT,
+  -- Portail client v2 (db/migrate-portal-v2.sql)
+  invoice_id INTEGER
+);
+
+-- ─── Portail client v2 ───
+CREATE UNIQUE INDEX IF NOT EXISTS idx_clients_slug ON clients(slug);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_clients_referral ON clients(referral_code);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_client_projects_feedback_key ON client_projects(feedback_key);
+
+-- ─── Modèles de projet par pack ───
+CREATE TABLE IF NOT EXISTS project_templates (
+  id                   INTEGER PRIMARY KEY AUTOINCREMENT,
+  pack                 TEXT NOT NULL,
+  title                TEXT,
+  delay_days           INTEGER,
+  revision_rounds      INTEGER,
+  support_days         INTEGER,
+  steps                TEXT,   -- JSON [{title, description, needs_validation, days}]
+  checklist            TEXT,   -- JSON [{label, help, kind, category, config, due_days}]
+  contract_template_id INTEGER,
+  active               INTEGER DEFAULT 1,
+  sort_order           INTEGER DEFAULT 0,
+  created_at           TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at           TEXT
+);
+
+-- ─── Étapes du projet ───
+CREATE TABLE IF NOT EXISTS project_steps (
+  id                   INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id           INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  title                TEXT NOT NULL,
+  description          TEXT,
+  status               TEXT DEFAULT 'todo',   -- todo | in_progress | review | done
+  needs_validation     INTEGER DEFAULT 0,
+  due_date             TEXT,
+  started_at           TEXT,
+  completed_at         TEXT,
+  validated_at         TEXT,
+  validated_ip         TEXT,
+  validation_comment   TEXT,
+  satisfaction         INTEGER,               -- 1..5
+  satisfaction_comment TEXT,
+  sort_order           INTEGER DEFAULT 0
+);
+CREATE INDEX IF NOT EXISTS idx_project_steps_project ON project_steps(project_id);
+
+-- ─── Ce qu'on attend du client ───
+CREATE TABLE IF NOT EXISTS checklist_items (
+  id               INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id       INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  label            TEXT NOT NULL,
+  help             TEXT,
+  kind             TEXT DEFAULT 'file',  -- file | form | access | confirm
+  category         TEXT,                 -- catégorie de fichiers (logo, photos...)
+  config           TEXT,                 -- JSON : questions du formulaire guidé
+  answer           TEXT,                 -- JSON : réponses
+  status           TEXT DEFAULT 'todo',  -- todo | sent | ok
+  due_date         TEXT,
+  sent_at          TEXT,
+  validated_at     TEXT,
+  reminder_count   INTEGER DEFAULT 0,
+  last_reminder_at TEXT,
+  sort_order       INTEGER DEFAULT 0
+);
+CREATE INDEX IF NOT EXISTS idx_checklist_project ON checklist_items(project_id);
+
+-- ─── Coffre d'accès (secrets chiffrés AES-GCM) ───
+CREATE TABLE IF NOT EXISTS vault_entries (
+  id         INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  label      TEXT NOT NULL,
+  url        TEXT,
+  login      TEXT,
+  secret_enc TEXT,
+  note       TEXT,
+  created_by TEXT DEFAULT 'client',  -- client | admin
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS idx_vault_project ON vault_entries(project_id);
+
+-- ─── Messagerie ───
+CREATE TABLE IF NOT EXISTS messages (
+  id                INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id        INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  author            TEXT NOT NULL,       -- client | admin | system
+  kind              TEXT DEFAULT 'text', -- text | voice | update | file
+  body              TEXT,
+  file_id           INTEGER,
+  read_by_client_at TEXT,
+  read_by_admin_at  TEXT,
+  created_at        TEXT DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS idx_messages_project ON messages(project_id);
+
+-- ─── Retours, demandes de modification, support ───
+CREATE TABLE IF NOT EXISTS project_requests (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id     INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  kind           TEXT DEFAULT 'retour',  -- retour | support | hors_perimetre
+  comment        TEXT NOT NULL,
+  page_url       TEXT,
+  pos_x          REAL,
+  pos_y          REAL,
+  selector       TEXT,
+  viewport       TEXT,
+  device         TEXT,
+  screenshot_key TEXT,
+  round          INTEGER,
+  status         TEXT DEFAULT 'nouveau', -- nouveau | en_cours | fait | refuse | devis
+  admin_reply    TEXT,
+  invoice_id     INTEGER,
+  created_at     TEXT DEFAULT CURRENT_TIMESTAMP,
   updated_at     TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_project_requests_project ON project_requests(project_id);
+
+-- ─── Devis / factures ───
+CREATE TABLE IF NOT EXISTS invoices (
+  id                  INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id          INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  kind                TEXT DEFAULT 'facture',  -- devis | facture
+  number              TEXT UNIQUE,
+  title               TEXT NOT NULL,
+  items               TEXT,                    -- JSON [{label, qty, unit}]
+  amount              INTEGER NOT NULL,
+  currency            TEXT DEFAULT 'XAF',
+  status              TEXT DEFAULT 'brouillon', -- brouillon | envoye | accepte | refuse | paye | annule
+  due_date            TEXT,
+  notes               TEXT,
+  sent_at             TEXT,
+  accepted_at         TEXT,
+  paid_at             TEXT,
+  payment_external_id TEXT,
+  created_at          TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at          TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_invoices_project ON invoices(project_id);
+
+-- ─── Journal d'activité (preuve + fil "Quoi de neuf") ───
+CREATE TABLE IF NOT EXISTS activity_log (
+  id         INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id INTEGER,
+  client_id  INTEGER,
+  actor      TEXT NOT NULL,        -- client | admin | system
+  action     TEXT NOT NULL,
+  detail     TEXT,
+  visible    INTEGER DEFAULT 1,    -- affiché dans le fil du client
+  ip         TEXT,
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS idx_activity_project ON activity_log(project_id);
+CREATE INDEX IF NOT EXISTS idx_activity_created ON activity_log(created_at);
+
+-- ─── Avis clients ───
+CREATE TABLE IF NOT EXISTS client_reviews (
+  id             INTEGER PRIMARY KEY AUTOINCREMENT,
+  project_id     INTEGER NOT NULL REFERENCES client_projects(id) ON DELETE CASCADE,
+  client_id      INTEGER NOT NULL,
+  rating         INTEGER,
+  text           TEXT,
+  allow_publish  INTEGER DEFAULT 0,
+  testimonial_id INTEGER,
+  created_at     TEXT DEFAULT CURRENT_TIMESTAMP
 );
