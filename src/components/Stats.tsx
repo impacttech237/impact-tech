@@ -1,5 +1,6 @@
-export default function Stats({ items }) {
+export default function Stats({ items, locale = "fr" }) {
   if (!items?.length) return null;
+  const en = locale === "en";
   const STATS = items;
 
   return (
@@ -7,10 +8,10 @@ export default function Stats({ items }) {
       <div className="container-it">
         <div className="stats-head">
           <span className="section-badge">
-            <span className="dot" /> Nos chiffres <span className="dot" />
+            <span className="dot" /> {en ? "Our numbers" : "Nos chiffres"} <span className="dot" />
           </span>
           <h2 className="stats-title">
-            Des résultats <span className="accent">concrets</span>
+            {en ? <>Real <span className="accent">results</span></> : <>Des résultats <span className="accent">concrets</span></>}
           </h2>
         </div>
 
@@ -44,7 +45,7 @@ export default function Stats({ items }) {
             </div>
           ))}
         </div>
-        <div className="stats__axis" aria-hidden="true"><span>IMPACT</span><span>MESURABLE</span></div>
+        <div className="stats__axis" aria-hidden="true"><span>IMPACT</span><span>{en ? "MEASURABLE" : "MESURABLE"}</span></div>
       </div>
     </section>
   );

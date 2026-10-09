@@ -4,7 +4,9 @@
    les pages marketing (SSR), les API publiques et l'API admin.
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
+import { getCookie, setCookie } from "hono/cookie";
 import { getContent } from "./lib/content";
+import { localeForCountry, countryFromRequest } from "./lib/geo";
 import { DEFAULTS } from "./lib/defaults";
 import { syncContactToNotion } from "./lib/notion";
 import adminApi from "./api/admin";
@@ -13,7 +15,7 @@ import appointmentsApi from "./api/appointments";
 import portalApi from "./api/portal";
 
 import HomePage from "./pages/home";
-import ServicesPage from "./pages/services";
+import OffresPage from "./pages/offres";
 import RealisationsPage from "./pages/realisations";
 import BlogPage from "./pages/blog";
 import ArticlePage from "./pages/article";
@@ -31,19 +33,54 @@ import { initGatewayPayment, getPayment, verifyGatewayReturnSignature, verifyWeb
 
 const app = new Hono();
 
+const LANG_COOKIE = "lang_pref";
+const LANG_COOKIE_OPTS = { path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "Lax" };
+
+/* Redirection géo-langue (refonte) : au tout premier passage d'un
+   visiteur (aucun cookie de préférence), on regarde son pays via
+   request.cf.country (natif Cloudflare, zéro service tiers) et on le
+   redirige vers /en si son pays n'est pas francophone. Dès qu'un cookie
+   existe -- posé par cette redirection OU simplement en visitant une
+   page FR ou EN -- on ne redirige plus jamais automatiquement : le
+   sélecteur de langue et la navigation manuelle reprennent la main sans
+   jamais boucler avec ce mécanisme. */
+function geoRedirectToEn(c, enPath) {
+  const existing = getCookie(c, LANG_COOKIE);
+  if (!existing) {
+    const country = countryFromRequest(c.req.raw);
+    const locale = localeForCountry(country);
+    if (locale === "en") {
+      setCookie(c, LANG_COOKIE, "en", LANG_COOKIE_OPTS);
+      return c.redirect(enPath, 302);
+    }
+  }
+  setCookie(c, LANG_COOKIE, "fr", LANG_COOKIE_OPTS);
+  return null;
+}
+
 /* ---------- Pages marketing (SSR) ---------- */
 
 app.get("/", async (c) => {
+  const redirect = geoRedirectToEn(c, "/en");
+  if (redirect) return redirect;
   const content = await getContent(c.env);
   return c.html(<HomePage content={content} />);
 });
 
-app.get("/services", async (c) => {
+app.get("/offres", async (c) => {
+  const redirect = geoRedirectToEn(c, "/en/offres");
+  if (redirect) return redirect;
   const content = await getContent(c.env);
-  return c.html(<ServicesPage content={content} />);
+  return c.html(<OffresPage content={content} />);
 });
 
+// Fusion Services -> Offres (refonte) : préserve le référencement de
+// l'ancienne page /services avec une redirection permanente.
+app.get("/services", (c) => c.redirect("/offres", 301));
+
 app.get("/realisations", async (c) => {
+  const redirect = geoRedirectToEn(c, "/en/realisations");
+  if (redirect) return redirect;
   const content = await getContent(c.env);
   return c.html(<RealisationsPage content={content} />);
 });
@@ -66,11 +103,15 @@ app.get("/blog/:slug", async (c) => {
 });
 
 app.get("/contact", async (c) => {
+  const redirect = geoRedirectToEn(c, "/en/contact");
+  if (redirect) return redirect;
   const content = await getContent(c.env);
   return c.html(<ContactPage content={content} />);
 });
 
 app.get("/a-propos", async (c) => {
+  const redirect = geoRedirectToEn(c, "/en/a-propos");
+  if (redirect) return redirect;
   const content = await getContent(c.env);
   return c.html(<AboutPage content={content} />);
 });
@@ -83,6 +124,44 @@ app.get("/mentions-legales", async (c) => {
 app.get("/confidentialite", async (c) => {
   const content = await getContent(c.env);
   return c.html(<ConfidentialitePage content={content} />);
+});
+
+/* ---------- Version anglaise (refonte, marché Europe du Nord) ----------
+   Mêmes composants de page que le FR, locale="en" : ils basculent tout le
+   texte statique et content.ts sert les colonnes _en (offres/FAQ) en
+   priorité. Blog, RDV, enquête et portail restent FR uniquement (contenu
+   non traduit) — voir liens de langue dans Header/Footer.
+   On pose ici le cookie "en" : si le visiteur revient plus tard sur une
+   URL FR (ex: la racine /), on saura qu'il a déjà choisi l'anglais et on
+   ne le redirigera plus jamais automatiquement par géolocalisation. */
+app.get("/en", async (c) => {
+  setCookie(c, LANG_COOKIE, "en", LANG_COOKIE_OPTS);
+  const content = await getContent(c.env, "en");
+  return c.html(<HomePage content={content} locale="en" />);
+});
+
+app.get("/en/offres", async (c) => {
+  setCookie(c, LANG_COOKIE, "en", LANG_COOKIE_OPTS);
+  const content = await getContent(c.env, "en");
+  return c.html(<OffresPage content={content} locale="en" />);
+});
+
+app.get("/en/realisations", async (c) => {
+  setCookie(c, LANG_COOKIE, "en", LANG_COOKIE_OPTS);
+  const content = await getContent(c.env, "en");
+  return c.html(<RealisationsPage content={content} locale="en" />);
+});
+
+app.get("/en/contact", async (c) => {
+  setCookie(c, LANG_COOKIE, "en", LANG_COOKIE_OPTS);
+  const content = await getContent(c.env, "en");
+  return c.html(<ContactPage content={content} locale="en" />);
+});
+
+app.get("/en/a-propos", async (c) => {
+  setCookie(c, LANG_COOKIE, "en", LANG_COOKIE_OPTS);
+  const content = await getContent(c.env, "en");
+  return c.html(<AboutPage content={content} locale="en" />);
 });
 
 /* ---------- Prise de rendez-vous ---------- */
@@ -109,13 +188,20 @@ app.get("/sitemap.xml", async (c) => {
   const posts = content.posts?.length ? content.posts : DEFAULTS.posts;
   const staticUrls = [
     { path: "/", freq: "weekly", prio: "1.0" },
-    { path: "/services", freq: "monthly", prio: "0.9" },
+    { path: "/offres", freq: "monthly", prio: "0.9" },
     { path: "/realisations", freq: "monthly", prio: "0.8" },
     { path: "/contact", freq: "yearly", prio: "0.8" },
     { path: "/a-propos", freq: "yearly", prio: "0.6" },
     { path: "/blog", freq: "weekly", prio: "0.7" },
+    { path: "/rdv", freq: "monthly", prio: "0.5" },
     { path: "/mentions-legales", freq: "yearly", prio: "0.3" },
     { path: "/confidentialite", freq: "yearly", prio: "0.3" },
+    // Version anglaise (refonte, marché Europe du Nord)
+    { path: "/en", freq: "weekly", prio: "0.9" },
+    { path: "/en/offres", freq: "monthly", prio: "0.8" },
+    { path: "/en/realisations", freq: "monthly", prio: "0.7" },
+    { path: "/en/contact", freq: "yearly", prio: "0.7" },
+    { path: "/en/a-propos", freq: "yearly", prio: "0.5" },
   ];
   const urls = [
     ...staticUrls,

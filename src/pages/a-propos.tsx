@@ -7,29 +7,39 @@ import Stats from "../components/Stats";
 import CtaBanner from "../components/CtaBanner";
 import { breadcrumbJsonLd } from "../lib/seo";
 
-export default function AboutPage({ content }) {
+export default function AboutPage({ content, locale = "fr" }) {
+  const en = locale === "en";
   return (
     <Layout
-      title="À propos — Notre mission : le digital pour tous"
-      description="IMPACT TECH, agence web camerounaise basée à Douala. Notre mission : rendre le digital accessible à tous les entrepreneurs et entreprises, au prix juste."
-      canonical="/a-propos"
+      title={en ? "About — Behind every project, there's Roberto" : "À propos — Derrière chaque projet, il y a Roberto"}
+      description={en
+        ? "Impact Tech, Africa's trusted digital partner. Pay on delivery, a founder who oversees every project, the same rigor for Cameroon and Northern Europe."
+        : "Impact Tech, le partenaire digital africain de confiance. Paiement à la livraison, un fondateur qui supervise chaque projet, la même exigence pour le Cameroun et l'Europe du Nord."}
+      canonical={en ? "/en/a-propos" : "/a-propos"}
+      locale={locale}
       ogImage="/images/about-team.jpg"
-      jsonLd={[breadcrumbJsonLd([{ name: "Accueil", path: "/" }, { name: "À propos", path: "/a-propos" }])]}
+      jsonLd={[breadcrumbJsonLd([{ name: en ? "Home" : "Accueil", path: en ? "/en" : "/" }, { name: en ? "About" : "À propos", path: en ? "/en/a-propos" : "/a-propos" }])]}
     >
-      <Header />
+      <Header current="/a-propos" locale={locale} frPath="/a-propos" />
       <main>
         <PageHero
-          crumb="À propos"
-          badge="Agence web — Douala, Cameroun"
-          title={[{ t: "Le digital pour" }, { t: "tous,", accent: true }, { t: "vraiment" }]}
-          subtitle="On a créé IMPACT TECH avec une conviction : un bon site web ne devrait pas être un luxe réservé aux grandes entreprises."
+          page="a-propos"
+          locale={locale}
+          crumb={en ? "About" : "À propos"}
+          badge={en ? "Behind every project, there's Roberto" : "Derrière chaque projet, il y a Roberto"}
+          title={en
+            ? [{ t: "Africa's trusted" }, { t: "digital", accent: true }, { t: "partner" }]
+            : [{ t: "Le partenaire" }, { t: "digital", accent: true }, { t: "africain de confiance" }]}
+          subtitle={en
+            ? "We build first, you pay after. If you're not satisfied, you don't pay. Period."
+            : "On construit d'abord, vous payez après. Si vous n'êtes pas satisfait, vous ne payez pas. Point."}
           image="/images/about-team.jpg"
         />
-        <AboutSection />
-        <Stats items={content.stats} />
-        <CtaBanner settings={content.settings} />
+        <AboutSection locale={locale} />
+        <Stats items={content.stats} locale={locale} />
+        <CtaBanner settings={content.settings} locale={locale} />
       </main>
-      <Footer settings={content.settings} />
+      <Footer settings={content.settings} locale={locale} />
     </Layout>
   );
 }

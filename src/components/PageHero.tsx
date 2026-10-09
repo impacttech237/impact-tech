@@ -3,23 +3,22 @@
    Animation d'entrée gérée par client/main.ts (sélecteurs .ph-word /
    .ph-fade), pas de JS ici : rendu 100% statique côté serveur.
 ------------------------------------------------------------------- */
+const PAGE_INDEX = { offres: "01", realisations: "02", "a-propos": "03", blog: "04", contact: "05" };
+
 export default function PageHero({
   badge,
   title, // tableau de mots : [{ t: "Nos" }, { t: "services", accent: true }]
   subtitle,
   crumb,
+  page, // clé stable indépendante de la langue (ex. "offres") — pilote data-page
+  locale = "fr",
   image = "/images/hero-bg-africa-1.jpg",
 }) {
-  const pageMeta = {
-    Services: { key: "services", index: "01" },
-    "Réalisations": { key: "realisations", index: "02" },
-    "À propos": { key: "a-propos", index: "03" },
-    Blog: { key: "blog", index: "04" },
-    Contact: { key: "contact", index: "05" },
-  }[crumb] ?? { key: "interieur", index: "00" };
+  const en = locale === "en";
+  const index = PAGE_INDEX[page] ?? "00";
 
   return (
-    <section className="page-hero" data-anim="page-hero" data-page={pageMeta.key}>
+    <section className="page-hero" data-anim="page-hero" data-page={page || "interieur"}>
       <div className="page-hero__bg" style={{ backgroundImage: `url(${image})` }} aria-hidden="true" />
       <div className="page-hero__overlay" aria-hidden="true" />
       <div className="page-hero__grid" aria-hidden="true" />
@@ -38,13 +37,13 @@ export default function PageHero({
       </div>
 
       <div className="page-hero__chapter" aria-hidden="true">
-        <span>{pageMeta.index}</span>
+        <span>{index}</span>
         <span>IMPACT EXPERIENCE</span>
       </div>
 
       <div className="container-it page-hero__content">
-        <nav className="page-hero__crumb ph-fade gsap-hidden" aria-label="Fil d'Ariane">
-          <a href="/">Accueil</a>
+        <nav className="page-hero__crumb ph-fade gsap-hidden" aria-label={en ? "Breadcrumb" : "Fil d'Ariane"}>
+          <a href={en ? "/en" : "/"}>{en ? "Home" : "Accueil"}</a>
           <span aria-hidden="true">·</span>
           <span>{crumb}</span>
         </nav>
@@ -69,7 +68,7 @@ export default function PageHero({
       </div>
 
       <div className="page-hero__scroll" aria-hidden="true">
-        <span>SCROLL TO EXPLORE</span>
+        <span>{en ? "SCROLL TO EXPLORE" : "SCROLL TO EXPLORE"}</span>
         <i />
       </div>
     </section>

@@ -15,16 +15,19 @@ function parseJson(value, fallback) {
   }
 }
 
-export async function getContent(env) {
+/* Bilingue (refonte) : sur les pages /en/*, on préfère la colonne "_en" et
+   on retombe sur le FR si elle est vide — jamais de trou de contenu. */
+export async function getContent(env, locale = "fr") {
   const db = env?.DB;
   if (!db) return DEFAULTS;
+  const en = locale === "en";
+  const pick = (enValue, frValue) => (en && enValue ? enValue : frValue);
 
   try {
-    const [settingsQ, statsQ, servicesQ, offersQ, testimonialsQ, faqsQ, postsQ, projectsQ, stepsQ] =
+    const [settingsQ, statsQ, offersQ, testimonialsQ, faqsQ, postsQ, projectsQ, stepsQ] =
       await db.batch([
         db.prepare("SELECT key, value FROM settings"),
         db.prepare("SELECT * FROM stats WHERE active = 1 ORDER BY sort_order, id"),
-        db.prepare("SELECT * FROM services WHERE active = 1 ORDER BY sort_order, id"),
         db.prepare("SELECT * FROM offers WHERE active = 1 ORDER BY sort_order, id"),
         db.prepare("SELECT * FROM testimonials WHERE active = 1 ORDER BY sort_order, id"),
         db.prepare("SELECT * FROM faqs WHERE active = 1 ORDER BY sort_order, id"),
@@ -46,29 +49,26 @@ export async function getContent(env) {
         label: r.label,
         note: r.note ?? "",
       })),
-      services: servicesQ.results.map((r) => ({
-        slug: r.slug,
-        tag: r.tag,
-        title: r.title,
-        shortDesc: r.short_desc,
-        headline: r.headline,
-        accent: r.accent,
-        description: r.description,
-        features: parseJson(r.features, []),
-        ideal: r.ideal,
-        price: r.price,
-        delay: r.delay,
-        image: r.image,
-      })),
       offers: offersQ.results.map((r) => ({
-        tag: r.tag,
-        title: r.title,
-        description: r.description || "",
-        price: r.price,
+        tag: pick(r.tag_en, r.tag),
+        title: pick(r.title_en, r.title),
+        description: pick(r.description_en, r.description) || "",
+        price: en ? (r.price_eur || r.price) : r.price,
+        currency: en && r.price_eur ? "EUR" : "FCFA",
+        // Prix EUR brut, exposé même en FR pour afficher un petit équivalent
+        // €/‌FCFA aux prospects internationaux francophones (grille v2).
+        priceEur: r.price_eur || "",
         isQuote: !!r.is_quote,
         popular: !!r.popular,
-        features: parseJson(r.features, []),
+        features: en ? parseJson(r.features_en, parseJson(r.features, [])) : parseJson(r.features, []),
         image: r.image,
+        // Colonnes de fusion Services -> Offres (refonte) : chaque pack
+        // porte désormais l'accroche, la cible, le délai et le value stack.
+        hook: pick(r.hook_en, r.hook) || "",
+        ideal: pick(r.ideal_en, r.ideal) || "",
+        delay: pick(r.delay_en, r.delay) || "",
+        valueStack: en ? parseJson(r.value_stack_en, parseJson(r.value_stack, [])) : parseJson(r.value_stack, []),
+        totalValue: pick(r.total_value_en, r.total_value) || "",
       })),
       testimonials: testimonialsQ.results.map((r) => ({
         name: r.name,
@@ -76,7 +76,7 @@ export async function getContent(env) {
         text: r.text,
         initials: r.initials,
       })),
-      faqs: faqsQ.results.map((r) => ({ q: r.question, a: r.answer })),
+      faqs: faqsQ.results.map((r) => ({ q: pick(r.question_en, r.question), a: pick(r.answer_en, r.answer) })),
       posts: postsQ.results.map((r) => ({
         title: r.title,
         category: r.category,

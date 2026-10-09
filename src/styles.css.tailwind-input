@@ -311,9 +311,13 @@ h4 {
   transform-origin: right;
   transition: transform 0.35s cubic-bezier(0.2, 0, 0, 1);
 }
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link.is-active::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+.nav-link.is-active {
+  font-weight: 600;
 }
 
 /* Logo */
@@ -3194,6 +3198,123 @@ h4 {
 }
 
 /* ============================================================
+   Témoignage inline pleine largeur — /realisations (refonte)
+   ============================================================ */
+.ft-card {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--it-cream-soft);
+  border: 1px solid var(--it-border);
+  border-radius: var(--r-lg, 30px);
+  padding: 48px 40px;
+}
+.ft-stars {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  color: var(--it-red);
+}
+.ft-stars svg { width: 18px; height: 18px; }
+.ft-text {
+  margin-top: 20px;
+  font-family: var(--f-head);
+  font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+  line-height: 1.5;
+  color: var(--it-ink);
+}
+.ft-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+.ft-avatar {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--it-red-soft);
+  color: var(--it-red);
+  font-family: var(--f-head);
+  font-weight: 700;
+  flex: none;
+}
+.ft-author div { text-align: left; display: flex; flex-direction: column; }
+.ft-author strong { font-family: var(--f-head); color: var(--it-ink); }
+.ft-author span { color: var(--it-body); font-size: 0.9rem; }
+
+/* ============================================================
+   Tableau comparatif des packs — /offres (refonte)
+   ============================================================ */
+.offers-comparison {
+  background: var(--it-cream-soft);
+}
+.oc-intro {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+.oc-intro h2 {
+  font-family: var(--f-head);
+  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  margin-top: 16px;
+}
+.oc-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--r-card, 20px);
+  border: 1px solid var(--it-border);
+  background: var(--it-white);
+}
+.oc-table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.oc-table th,
+.oc-table td {
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid var(--it-border);
+  white-space: nowrap;
+}
+.oc-table thead th {
+  font-family: var(--f-head);
+  font-weight: 600;
+  color: var(--it-ink);
+  position: relative;
+}
+.oc-table tbody th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--it-body);
+  white-space: normal;
+}
+.oc-table__feature { text-align: left; }
+.oc-table__popular {
+  background: var(--it-red-soft);
+}
+.oc-table__badge {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--it-red);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.oc-table__price-row th,
+.oc-table__price-row td {
+  border-bottom: none;
+  font-size: 1.05rem;
+}
+.oc-check { width: 18px; height: 18px; color: var(--it-red); margin: 0 auto; }
+.oc-cross { width: 14px; height: 14px; color: var(--it-gray, #B4B4B4); margin: 0 auto; }
+
+/* ============================================================
    Services détail — /services
    ============================================================ */
 .services-detail {
@@ -3334,6 +3455,24 @@ h4 {
 .sd-ideal strong {
   color: var(--it-ink);
   font-family: var(--f-head);
+}
+
+.sd-total-value {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  color: var(--it-body);
+}
+.sd-total-value strong { color: var(--it-ink); }
+.sd-savings {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 2px 10px;
+  border-radius: var(--r-pill);
+  background: var(--it-red-soft);
+  color: var(--it-red);
+  font-family: var(--f-head);
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 
 .sd-footer {
@@ -3975,6 +4114,13 @@ h4 {
   margin-top: 18px;
   font-size: 1.02rem;
   line-height: 1.75;
+}
+.about-story__signature {
+  margin-top: 22px;
+  font-family: var(--f-head);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--it-red);
 }
 .about-story__cta {
   margin-top: 30px;

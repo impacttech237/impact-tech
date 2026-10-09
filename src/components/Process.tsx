@@ -1,7 +1,10 @@
 import PillButton from "./PillButton";
 import { DEFAULTS } from "../lib/defaults";
 
-export default function Process({ steps }) {
+export default function Process({ steps, locale = "fr" }) {
+  const en = locale === "en";
+  // Contenu des étapes toujours servi en FR (pas encore de colonnes _en sur
+  // process_steps) — seuls les libellés statiques de la section sont traduits.
   const STEPS = (steps?.length ? steps : DEFAULTS.processSteps).map((s) => ({
     num: s.num,
     title: s.title,
@@ -15,13 +18,15 @@ export default function Process({ steps }) {
           <div className="process__content">
             <div className="process-head">
               <span className="section-badge section-badge--light">
-                <span className="dot" /> Notre méthode <span className="dot" />
+                <span className="dot" /> {en ? "Our process" : "Notre méthode"} <span className="dot" />
               </span>
               <h2 className="process-title">
-                Comment on <span className="accent">travaille</span>
+                {en ? <>How we <span className="accent">work</span></> : <>Comment on <span className="accent">travaille</span></>}
               </h2>
               <p className="process-sub">
-                Un process simple et transparent, du premier échange jusqu'au suivi après livraison.
+                {en
+                  ? "A simple, transparent process, from the first conversation to post-launch follow-up."
+                  : "Un process simple et transparent, du premier échange jusqu'au suivi après livraison."}
               </p>
             </div>
 
@@ -44,7 +49,7 @@ export default function Process({ steps }) {
             </div>
 
             <div className="process-cta">
-              <PillButton href="/contact" variant="cream">Lancer la première étape</PillButton>
+              <PillButton href={en ? "/en/contact" : "/contact"} variant="cream">{en ? "Start the first step" : "Lancer la première étape"}</PillButton>
             </div>
           </div>
 
@@ -61,7 +66,7 @@ export default function Process({ steps }) {
             </svg>
             <div className="process-visual__badge">
               <span className="process-visual__badge-dot" />
-              Devis sous 48h
+              {en ? "Quote within 48h" : "Devis sous 48h"}
             </div>
           </div>
         </div>

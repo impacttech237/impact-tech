@@ -1,52 +1,49 @@
-const BLOBS = [
-  {
-    label: "Prix accessible",
-    className: "blob--1",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M14.8 9.2a3.2 3.2 0 1 0 0 5.6M8 10.5h4M8 13.5h4" />
-      </svg>
-    ),
-  },
-  {
-    label: "Support local",
-    className: "blob--2",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 21s7-5.1 7-11a7 7 0 1 0-14 0c0 5.9 7 11 7 11Z" />
-        <circle cx="12" cy="10" r="2.6" />
-      </svg>
-    ),
-  },
-  {
-    label: "100% sur-mesure",
-    className: "blob--3",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 8h10M18 8h2M4 16h2M10 16h10" />
-        <circle cx="16" cy="8" r="2.4" />
-        <circle cx="8" cy="16" r="2.4" />
-      </svg>
-    ),
-  },
-  {
-    label: "Livraison rapide",
-    className: "blob--4",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5L13 2Z" />
-      </svg>
-    ),
-  },
+/* Garantie & Différenciation (refonte) — remplace l'ancienne promesse
+   générique par les 4 piliers de confiance issus des mémos stratégiques :
+   la garantie "paiement à la livraison" est l'ADN de la boîte. */
+const ICONS = [
+  (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M14.8 9.2a3.2 3.2 0 1 0 0 5.6M8 10.5h4M8 13.5h4" />
+    </svg>
+  ),
+  (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 21s7-5.1 7-11a7 7 0 1 0-14 0c0 5.9 7 11 7 11Z" />
+      <circle cx="12" cy="10" r="2.6" />
+    </svg>
+  ),
+  (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M4 8h10M18 8h2M4 16h2M10 16h10" />
+      <circle cx="16" cy="8" r="2.4" />
+      <circle cx="8" cy="16" r="2.4" />
+    </svg>
+  ),
+  (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5L13 2Z" />
+    </svg>
+  ),
 ];
 
-const TITLE_WORDS = [
-  { t: "On" }, { t: "ne" }, { t: "livre" }, { t: "pas" }, { t: "juste" }, { t: "un" }, { t: "site," },
-  { t: "on" }, { t: "crée" }, { t: "de" }, { t: "l'impact", accent: true }, { t: "qui" }, { t: "dure." },
+const LABELS_FR = ["Paiement à la livraison", "Zéro acompte", "Un interlocuteur unique", "Qualité internationale, prix juste"];
+const LABELS_EN = ["Pay on delivery", "Zero deposit", "One point of contact", "International quality, fair price"];
+
+const TITLE_WORDS_FR = [
+  { t: "On" }, { t: "développe" }, { t: "d'abord." }, { t: "Vous" }, { t: "ne" }, { t: "payez" }, { t: "qu'à" },
+  { t: "la", accent: true }, { t: "livraison.", accent: true },
+];
+const TITLE_WORDS_EN = [
+  { t: "We" }, { t: "build" }, { t: "first." }, { t: "You" }, { t: "only" }, { t: "pay" }, { t: "on" },
+  { t: "delivery.", accent: true },
 ];
 
-export default function Promise() {
+export default function Promise({ locale = "fr" }) {
+  const en = locale === "en";
+  const BLOBS = (en ? LABELS_EN : LABELS_FR).map((label, i) => ({ label, className: `blob--${i + 1}`, icon: ICONS[i] }));
+  const TITLE_WORDS = en ? TITLE_WORDS_EN : TITLE_WORDS_FR;
   return (
     <section id="promesse" className="promise section-pad" data-anim="promise">
       <div className="container-it">
@@ -67,12 +64,12 @@ export default function Promise() {
           ))}
 
           <div className="promise__content">
-            <span className="promise__chapter" aria-hidden="true">03 / MANIFESTE</span>
+            <span className="promise__chapter" aria-hidden="true">03 / {en ? "GUARANTEE" : "GARANTIE"}</span>
             <span className="section-badge promise-badge">
-              <span className="dot" /> Notre promesse <span className="dot" />
+              <span className="dot" /> {en ? "Why businesses choose us" : "Pourquoi les entreprises nous choisissent"} <span className="dot" />
             </span>
 
-            <h2 className="promise-title" aria-label="On ne livre pas juste un site, on crée de l'impact qui dure.">
+            <h2 className="promise-title" aria-label={en ? "We build first. You only pay on delivery." : "On développe d'abord. Vous ne payez qu'à la livraison."}>
               {TITLE_WORDS.map((w, i) => (
                 <span key={i} aria-hidden="true" className={`promise-word ${w.accent ? "accent" : ""}`}>
                   {w.t}{" "}
@@ -81,8 +78,9 @@ export default function Promise() {
             </h2>
 
             <p className="promise-sub">
-              Chaque projet est pensé pour durer : un design soigné, un code solide et un accompagnement qui ne
-              s'arrête pas à la livraison.
+              {en
+                ? "If the result doesn't match the agreed brief, we fix it for free. Roberto, the founder, personally oversees every project — you have his WhatsApp."
+                : "Si le résultat ne correspond pas au brief validé ensemble, on corrige gratuitement. Roberto, le fondateur, supervise chaque projet personnellement — vous avez son WhatsApp."}
             </p>
           </div>
         </div>

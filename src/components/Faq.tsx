@@ -2,7 +2,8 @@ import { DEFAULTS } from "../lib/defaults";
 
 /* L'accordéon (ouverture/fermeture) est géré par client/main.ts via
    les attributs data-faq-btn / data-faq-panel et aria-expanded. */
-export default function Faq({ items }) {
+export default function Faq({ items, locale = "fr" }) {
+  const en = locale === "en";
   const FAQ = items?.length ? items : DEFAULTS.faqs;
 
   return (
@@ -13,8 +14,8 @@ export default function Faq({ items }) {
             <span className="section-badge">
               <span className="dot" /> FAQ <span className="dot" />
             </span>
-            <h2>Les questions qu'on nous pose <span className="accent">souvent</span></h2>
-            <p>Une autre question ? Écrivez-nous sur WhatsApp, on répond rapidement et sans jargon.</p>
+            <h2>{en ? <>Questions we get <span className="accent">often</span></> : <>Les questions qu'on nous pose <span className="accent">souvent</span></>}</h2>
+            <p>{en ? "Another question? Write to us on WhatsApp, we reply fast and without jargon." : "Une autre question ? Écrivez-nous sur WhatsApp, on répond rapidement et sans jargon."}</p>
           </div>
 
           <div className="faq__list">

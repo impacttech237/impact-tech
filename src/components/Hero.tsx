@@ -23,8 +23,11 @@ function SplitWords({ children, accentWord }) {
   );
 }
 
-export default function Hero({ pills }) {
-  const PILLS = pills?.length ? pills : DEFAULTS.settings.hero_pills;
+const EN_PILLS = ["Pay on delivery only", "Cameroon & Europe", "Reply within 24h"];
+
+export default function Hero({ pills, locale = "fr" }) {
+  const en = locale === "en";
+  const PILLS = en ? EN_PILLS : (pills?.length ? pills : DEFAULTS.settings.hero_pills);
 
   return (
     <section className="hero" data-anim="hero">
@@ -49,16 +52,21 @@ export default function Hero({ pills }) {
       <div className="hero__content">
         <div className="hero__badge gsap-hidden">
           <span className="dot" aria-hidden="true" />
-          <span className="hero__badge-label">Le digital accessible — depuis le Cameroun</span>
+          <span className="hero__badge-label">{en ? "Pay on delivery only" : "Paiement à la livraison uniquement"}</span>
         </div>
 
         <h1 className="hero__title">
-          <SplitWords accentWord="impact">Un digital qui a de l'impact, à prix juste</SplitWords>
+          {en ? (
+            <SplitWords accentWord="fix">Your website isn't making you money? We fix that.</SplitWords>
+          ) : (
+            <SplitWords accentWord="change">Votre site web ne vous rapporte rien ? On change ça.</SplitWords>
+          )}
         </h1>
 
         <p className="hero__subtitle gsap-hidden">
-          Sites, applications et solutions sur-mesure pensés pour les entreprises et entrepreneurs qui veulent du
-          concret, sans exploser leur budget.
+          {en
+            ? "Impact Tech builds websites and applications that turn visitors into customers. Pay only on delivery. Based in Douala, delivered worldwide."
+            : "Impact Tech conçoit des sites et applications qui transforment vos visiteurs en clients. Paiement uniquement à la livraison. Basé à Douala, livré partout."}
         </p>
 
         <ul className="hero__pills" aria-label="Nos engagements">
@@ -73,17 +81,17 @@ export default function Hero({ pills }) {
         </ul>
 
         <div className="hero__cta gsap-hidden">
-          <PillButton href="/contact" variant="cream">
-            Démarrer un projet
+          <PillButton href={en ? "/en/contact" : "/contact"} variant="cream">
+            {en ? "Start my project" : "Démarrer un projet"}
           </PillButton>
-          <PillButton href="#services" variant="outline" className="!text-cream !border-cream/30 hover:!border-red">
-            Découvrir nos services
+          <PillButton href={en ? "/en/realisations" : "/realisations"} variant="outline" className="!text-cream !border-cream/30 hover:!border-red">
+            {en ? "See our work" : "Voir nos réalisations"}
           </PillButton>
         </div>
       </div>
 
       <div className="hero__scroll gsap-hidden" aria-hidden="true">
-        <span>Scroll</span>
+        <span>{en ? "Scroll" : "Scroll"}</span>
         <span className="hero__scroll-line" />
       </div>
     </section>

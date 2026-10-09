@@ -1,7 +1,8 @@
 import PillButton from "./PillButton";
 import { DEFAULTS } from "../lib/defaults";
 
-export default function CtaBanner({ settings }) {
+export default function CtaBanner({ settings, locale = "fr" }) {
+  const en = locale === "en";
   const phone = settings?.phone_link || DEFAULTS.settings.phone_link;
   const waLink = `https://wa.me/${phone.replace("+", "")}`;
 
@@ -27,26 +28,31 @@ export default function CtaBanner({ settings }) {
           </svg>
 
           <span className="section-badge">
-            <span className="dot" /> Parlons-en <span className="dot" />
+            <span className="dot" /> {en ? "Let's talk" : "Parlons-en"} <span className="dot" />
           </span>
-          <span className="cta-banner__chapter" aria-hidden="true">05 / PASSONS À L’ACTION</span>
+          <span className="cta-banner__chapter" aria-hidden="true">05 / {en ? "LET'S GET STARTED" : "PASSONS À L’ACTION"}</span>
 
           <h2 className="cta-banner__title">
-            Prêt à donner de l'<span className="accent">impact</span>
-            <br />à votre projet ?
+            {en ? (
+              <>Your next website starts<br />with a <span className="accent">conversation.</span></>
+            ) : (
+              <>Votre futur site commence<br />par une <span className="accent">conversation.</span></>
+            )}
           </h2>
 
           <p className="cta-banner__sub">
-            Premier échange gratuit, devis sous 48h. Racontez-nous votre idée, on s'occupe du reste.
+            {en
+              ? "Free 30-minute discovery call. We listen, we advise, zero commitment. Response guaranteed within 24h · No payment before delivery."
+              : "Appel découverte gratuit de 30 min. On vous écoute, on vous conseille, zéro engagement. Réponse garantie sous 24h · Pas de paiement avant livraison."}
           </p>
 
           <div className="cta-banner__actions">
-            <PillButton href="/contact" variant="dark">Discutons-en</PillButton>
+            <PillButton href={en ? "/en/contact" : "/contact"} variant="dark">{en ? "Start my project" : "Démarrer mon projet"}</PillButton>
             <a href={waLink} target="_blank" rel="noopener noreferrer" className="cta-banner__whatsapp">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.2.2-.3.4-.1.7.2.3.8 1.4 1.8 2.2 1.3 1.1 2.3 1.5 2.6 1.6.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.3.6.4 0 .1 0 .7-.3 1.4Z" />
               </svg>
-              WhatsApp direct
+              {en ? "WhatsApp direct" : "WhatsApp direct"}
             </a>
           </div>
         </div>

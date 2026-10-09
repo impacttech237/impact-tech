@@ -22,10 +22,13 @@ function Band({ items, reverse = false, variant = "dark" }) {
   );
 }
 
-export default function Marquee({ items }) {
-  const ITEMS = items?.length ? items : DEFAULTS.settings.marquee_items;
+const EN_MARQUEE_ITEMS = ["Essential", "Business", "Custom", "Pay on delivery", "Mobile Money"];
+
+export default function Marquee({ items, locale = "fr" }) {
+  const en = locale === "en";
+  const ITEMS = en ? EN_MARQUEE_ITEMS : (items?.length ? items : DEFAULTS.settings.marquee_items);
   return (
-    <section className="marquee" aria-label={`Nos prestations : ${ITEMS.join(", ")}`}>
+    <section className="marquee" aria-label={en ? `Our plans: ${ITEMS.join(", ")}` : `Nos prestations : ${ITEMS.join(", ")}`}>
       <div className="marquee__stage">
         <Band items={ITEMS} variant="dark" />
         <Band items={ITEMS} variant="red" reverse />

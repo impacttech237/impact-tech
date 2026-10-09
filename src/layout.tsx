@@ -13,13 +13,18 @@ export default function Layout({
   ogImage = "/images/og-cover.png",
   jsonLd = [],
   noIndex = false,
+  locale = "fr",
   children,
 }) {
   const fullTitle = title.includes("IMPACT TECH") ? title : `${title} | IMPACT TECH`;
   const url = `${SITE_URL}${canonical}`;
+  // Chemin FR équivalent (pour les balises hreflang) : on retire le préfixe
+  // /en si on est déjà sur la version anglaise.
+  const frPath = locale === "en" ? canonical.replace(/^\/en/, "") || "/" : canonical;
+  const enPath = frPath === "/" ? "/en" : `/en${frPath}`;
 
   return (
-    <html lang="fr">
+    <html lang={locale === "en" ? "en" : "fr"}>
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,13 +33,16 @@ export default function Layout({
         <meta name="description" content={description} />
         {noIndex && <meta name="robots" content="noindex, nofollow" />}
         <link rel="canonical" href={url} />
+        <link rel="alternate" hrefLang="fr" href={`${SITE_URL}${frPath}`} />
+        <link rel="alternate" hrefLang="en" href={`${SITE_URL}${enPath}`} />
+        <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${frPath}`} />
         <link rel="icon" href="/icon-square.png" />
         <link rel="apple-touch-icon" href="/icon-square.png" />
         <link rel="manifest" href="/manifest.json" />
 
         {/* Open Graph / réseaux sociaux (WhatsApp, Facebook...) */}
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:locale" content={locale === "en" ? "en_US" : "fr_FR"} />
         <meta property="og:site_name" content={SITE_NAME} />
         <meta property="og:url" content={url} />
         <meta property="og:title" content={fullTitle} />
@@ -59,7 +67,7 @@ export default function Layout({
 
         {/* JSON-LD global : organisation + site web */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(organizationJsonLd) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(websiteJsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(websiteJsonLd(locale)) }} />
         {jsonLd.map((data, i) => (
           <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(data) }} />
         ))}

@@ -20,21 +20,27 @@ function Card({ t }) {
   );
 }
 
-export default function Testimonials({ items }) {
+export default function Testimonials({ items, locale = "fr" }) {
   if (!items?.length) return null;
+  const en = locale === "en";
+  // Citations clients servies telles quelles (FR) — pas encore de traduction
+  // dédiée en base ; traduire une citation attribuée nominativement sans
+  // colonne _en dédiée risquerait de déformer la parole du client.
   const TESTIMONIALS = items;
   return (
     <section className="testimonials section-pad" data-anim="testimonials">
       <div className="container-it">
         <div className="testi-head">
           <span className="section-badge">
-            <span className="dot" /> Témoignages <span className="dot" />
+            <span className="dot" /> {en ? "Testimonials" : "Témoignages"} <span className="dot" />
           </span>
           <h2 className="testi-title">
-            Ils nous ont fait <span className="accent">confiance</span>
+            {en ? <>They trusted <span className="accent">us</span></> : <>Ils nous ont fait <span className="accent">confiance</span></>}
           </h2>
           <p className="testi-sub">
-            Des entrepreneurs et entreprises qui ont donné vie à leurs projets avec IMPACT TECH.
+            {en
+              ? "Entrepreneurs and businesses who brought their projects to life with Impact Tech."
+              : "Des entrepreneurs et entreprises qui ont donné vie à leurs projets avec IMPACT TECH."}
           </p>
         </div>
       </div>
@@ -46,7 +52,7 @@ export default function Testimonials({ items }) {
           ))}
         </div>
         <div className="testi-drag-hint" aria-hidden="true">
-          <span>←</span><strong>GLISSEZ</strong><span>→</span>
+          <span>←</span><strong>{en ? "DRAG" : "GLISSEZ"}</strong><span>→</span>
         </div>
       </div>
     </section>

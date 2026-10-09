@@ -6,15 +6,23 @@
 ------------------------------------------------------------------- */
 const CRM_DATABASE_ID = "ad9212b8-d31a-8286-b591-01364a2e6f8d";
 
+// Clés FR (formulaire FR) + EN (formulaire /en, grille tarifaire v2).
 const OFFER_TO_PACK = {
-  "Impact Vitrine": "Présence",
-  "Impact Gestion": "Plateforme",
-  "Impact Signature": "Sur-mesure",
+  "Impact Essentiel": "Présence",
+  "Impact Business": "Plateforme",
+  "Impact Sur Mesure": "Sur-mesure",
+  Essential: "Présence",
+  Business: "Plateforme",
+  Custom: "Sur-mesure",
 };
 
 const OFFER_TO_VALUE = {
-  "Impact Vitrine": 150000,
-  "Impact Gestion": 400000,
+  "Impact Essentiel": 150000,
+  "Impact Business": 400000,
+  "Impact Sur Mesure": 600000,
+  Essential: 150000,
+  Business: 400000,
+  Custom: 600000,
 };
 
 export async function syncContactToNotion(env, data) {

@@ -5,15 +5,17 @@
 ------------------------------------------------------------------- */
 
 export const RESOURCES = {
-  services: {
-    table: "services",
-    orderBy: "sort_order, id",
-    columns: ["slug", "tag", "title", "short_desc", "headline", "accent", "description", "features", "ideal", "price", "delay", "image", "sort_order", "active"],
-  },
+  // "services" fusionnée dans "offers" (refonte) : chaque pack EST le service.
+  // Table conservée en base (dépréciée) mais retirée du dashboard admin.
   offers: {
     table: "offers",
     orderBy: "sort_order, id",
-    columns: ["tag", "title", "description", "price", "is_quote", "popular", "features", "image", "sort_order", "active"],
+    columns: [
+      "tag", "title", "description", "price", "is_quote", "popular", "features", "image", "sort_order", "active",
+      "hook", "ideal", "delay", "value_stack", "total_value",
+      // Bilingue EN (refonte)
+      "title_en", "description_en", "hook_en", "ideal_en", "delay_en", "features_en", "value_stack_en", "total_value_en", "price_eur",
+    ],
   },
   testimonials: {
     table: "testimonials",
@@ -28,7 +30,7 @@ export const RESOURCES = {
   faqs: {
     table: "faqs",
     orderBy: "sort_order, id",
-    columns: ["question", "answer", "sort_order", "active"],
+    columns: ["question", "answer", "sort_order", "active", "question_en", "answer_en"],
   },
   posts: {
     table: "posts",
