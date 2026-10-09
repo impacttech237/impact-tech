@@ -17,6 +17,9 @@ CREATE TABLE IF NOT EXISTS stats (
   active     INTEGER DEFAULT 1
 );
 
+-- Table "services" dépréciée (refonte : chaque pack EST le service, cf. "offers"
+-- ci-dessous). Conservée telle quelle pour ne pas casser une base existante,
+-- mais plus lue/écrite par le code applicatif depuis la fusion Offres/Services.
 CREATE TABLE IF NOT EXISTS services (
   id          INTEGER PRIMARY KEY AUTOINCREMENT,
   slug        TEXT,
@@ -46,7 +49,25 @@ CREATE TABLE IF NOT EXISTS offers (
   features    TEXT,
   image       TEXT,
   sort_order  INTEGER DEFAULT 0,
-  active      INTEGER DEFAULT 1
+  active      INTEGER DEFAULT 1,
+  -- Colonnes de fusion Offres/Services (refonte) : chaque pack porte
+  -- désormais tout le contenu marketing (accroche, cible, délai, value stack).
+  hook          TEXT,   -- accroche ("Vous perdez des clients chaque jour...")
+  ideal         TEXT,   -- "Pour qui" (repris de l'ancienne table services)
+  delay         TEXT,   -- délai de livraison affiché
+  value_stack   TEXT,   -- JSON [{label, value}] — value stack chiffré (Hormozi)
+  total_value   TEXT,   -- valeur totale affichée barrée, ex. "385 000 FCFA"
+  -- Colonnes bilingue EN (refonte) : marché Europe du Nord, prix en EUR.
+  tag_en          TEXT,  -- nom du pack en anglais (ex. "Essential", grille tarifaire v2)
+  title_en        TEXT,
+  description_en  TEXT,
+  hook_en         TEXT,
+  ideal_en        TEXT,
+  delay_en        TEXT,
+  features_en     TEXT,  -- JSON, même format que "features"
+  value_stack_en  TEXT,  -- JSON, même format que "value_stack"
+  total_value_en  TEXT,
+  price_eur       TEXT   -- prix affiché en € sur la version EN (ex. "230" ou "Custom quote")
 );
 
 CREATE TABLE IF NOT EXISTS testimonials (
@@ -60,11 +81,14 @@ CREATE TABLE IF NOT EXISTS testimonials (
 );
 
 CREATE TABLE IF NOT EXISTS faqs (
-  id         INTEGER PRIMARY KEY AUTOINCREMENT,
-  question   TEXT,
-  answer     TEXT,
-  sort_order INTEGER DEFAULT 0,
-  active     INTEGER DEFAULT 1
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  question    TEXT,
+  answer      TEXT,
+  sort_order  INTEGER DEFAULT 0,
+  active      INTEGER DEFAULT 1,
+  -- Bilingue EN (refonte)
+  question_en TEXT,
+  answer_en   TEXT
 );
 
 CREATE TABLE IF NOT EXISTS posts (
@@ -315,8 +339,10 @@ CREATE INDEX IF NOT EXISTS idx_client_documents_project ON client_documents(proj
 CREATE INDEX IF NOT EXISTS idx_signatures_document ON signatures(document_id);
 CREATE INDEX IF NOT EXISTS idx_client_files_project ON client_files(project_id);
 
--- Paiements K-PAY (Mobile Money — bouton "Payer maintenant" des offres).
--- Voir .claude/skills/kpay-payments/SKILL.md pour l'architecture complète.
+-- Paiements K-PAY (Mobile Money). Backend conservé mais plus exposé en UI
+-- depuis la refonte (garantie "paiement à la livraison uniquement" — le
+-- bouton "Payer maintenant" a été retiré des packs). Voir
+-- .claude/skills/kpay-payments/SKILL.md pour l'architecture complète.
 CREATE TABLE IF NOT EXISTS payments (
   id             INTEGER PRIMARY KEY AUTOINCREMENT,
   external_id    TEXT UNIQUE,   -- notre référence envoyée à K-PAY (idempotence)
