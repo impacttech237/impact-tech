@@ -54,14 +54,32 @@ await build({
   sourcemap: false,
 });
 
+// Portail client (Preact) : produit public/portal.js + public/portal.css.
 await build({
-  entryPoints: ["client/portal.ts"],
-  outfile: "public/portal.js",
+  entryPoints: { portal: "client/portal/main.tsx" },
+  outdir: "public",
   bundle: true,
   format: "esm",
   target: "es2020",
   minify: true,
   sourcemap: false,
+  jsx: "automatic",
+  jsxImportSource: "preact",
+  tsconfigRaw: JSON.stringify({
+    compilerOptions: { jsx: "react-jsx", jsxImportSource: "preact" },
+  }),
 });
 
-console.log("Bundles client OK : public/client.js + public/admin/bundle.js + public/survey.js + public/booking.js + public/portal.js");
+// Widget « Commenter » chargé par les sites clients en développement
+// (script classique : document.currentScript doit être disponible).
+await build({
+  entryPoints: ["client/feedback-widget.ts"],
+  outfile: "public/feedback.js",
+  bundle: true,
+  format: "iife",
+  target: "es2018",
+  minify: true,
+  sourcemap: false,
+});
+
+console.log("Bundles client OK : client.js, admin/bundle.js, survey.js, booking.js, portal.js + portal.css, feedback.js");

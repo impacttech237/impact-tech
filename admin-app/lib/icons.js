@@ -56,6 +56,20 @@ export const Edit3 = I([ "M12 20h9", "M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-
 export const File = I([ "M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V9z", { t: "polyline", points: "13 2 13 9 20 9" } ]);
 export const Link2 = I([ "M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3", { t: "line", x1: "8", y1: "12", x2: "16", y2: "12" } ]);
 
+export const MessageCircle = I("M21 11.5a8.4 8.4 0 01-9 8.4 9 9 0 01-4-.9L3 20l1.1-4A8.4 8.4 0 0112 3a8.5 8.5 0 019 8.5z");
+export const Mic = I([ "M12 2a3 3 0 00-3 3v7a3 3 0 006 0V5a3 3 0 00-3-3z", "M19 10v2a7 7 0 01-14 0v-2", { t: "line", x1: "12", y1: "19", x2: "12", y2: "22" } ]);
+export const Lock = I([ { t: "rect", x: "5", y: "11", width: "14", height: "10", rx: "2" }, "M8 11V7a4 4 0 018 0v4" ]);
+export const Phone = I("M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z");
+export const Globe = I([ { t: "circle", cx: "12", cy: "12", r: "10" }, { t: "line", x1: "2", y1: "12", x2: "22", y2: "12" }, "M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" ]);
+export const Gift = I([ "M20 12v10H4V12", { t: "rect", x: "2", y: "7", width: "20", height: "5" }, "M12 22V7", "M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z", "M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z" ]);
+export const CheckCircle = I([ "M22 11.1V12a10 10 0 11-5.9-9.1", { t: "polyline", points: "22 4 12 14 9 11" } ]);
+export const Columns = I([ { t: "rect", x: "3", y: "3", width: "7", height: "18", rx: "1" }, { t: "rect", x: "14", y: "3", width: "7", height: "11", rx: "1" } ]);
+export const RefreshCw = I([ { t: "polyline", points: "23 4 23 10 17 10" }, { t: "polyline", points: "1 20 1 14 7 14" }, "M3.5 9a9 9 0 0114.9-3.4L23 10M1 14l4.6 4.4A9 9 0 0020.5 15" ]);
+export const Paperclip = I("M21.4 11.1l-9.2 9.2a6 6 0 01-8.5-8.5l9.2-9.2a4 4 0 015.7 5.7l-9.2 9.2a2 2 0 01-2.8-2.8l8.5-8.5");
+export const PenTool = I([ "M12 19l7-7 3 3-7 7-3-3z", "M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z", "M2 2l7.6 7.6", { t: "circle", cx: "11", cy: "11", r: "2" } ]);
+export const Monitor = I([ { t: "rect", x: "2", y: "3", width: "20", height: "14", rx: "2" }, { t: "line", x1: "8", y1: "21", x2: "16", y2: "21" }, { t: "line", x1: "12", y1: "17", x2: "12", y2: "21" } ]);
+export const Zap = I({ t: "polygon", points: "13 2 3 14 12 14 11 22 21 10 12 10 13 2" });
+
 const iconMap = {
   Home, FileText, Puzzle, Briefcase, Building2, Star, BarChart3, HelpCircle,
   Newspaper, Layers, ClipboardList, Calendar, Users, CreditCard, Mail,
@@ -63,7 +77,8 @@ const iconMap = {
   ChevronDown, ChevronLeft, ChevronRight, Search, Eye, Upload, Download,
   ArrowUp, ArrowDown, TrendingUp, TrendingDown, Activity, Menu,
   PanelLeftClose, PanelLeftOpen, Send, Copy, Clock, AlertCircle, FileDown,
-  ArrowLeft, Edit3, File, Link2,
+  ArrowLeft, Edit3, File, Link2, MessageCircle, Mic, Lock, Phone, Globe, Gift,
+  CheckCircle, Columns, RefreshCw, Paperclip, PenTool, Monitor, Zap,
 };
 
 export function getIcon(name) {

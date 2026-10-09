@@ -18,3 +18,6 @@ public/admin/bundle.js
 *.log
 .DS_Store
 .claude/
+public/portal.js
+public/portal.css
+public/feedback.js

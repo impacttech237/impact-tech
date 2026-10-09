@@ -1,4 +1,4 @@
-var l=document.getElementById("booking-root");if(!l)throw new Error("Missing #booking-root");var f=document.createElement("style");f.textContent=`
+var i=document.getElementById("booking-root");if(!i)throw new Error("Missing #booking-root");var k=document.createElement("style");k.textContent=`
 #booking-root{max-width:640px;margin:0 auto;padding:80px 20px 60px;min-height:100vh;font-family:'Inter',system-ui,sans-serif;color:#f7efd9}
 .bk-title{font-family:'Space Grotesk',system-ui,sans-serif;font-size:2rem;font-weight:700;margin-bottom:8px}
 .bk-sub{color:rgba(247,239,217,.6);font-size:.9rem;margin-bottom:32px}
@@ -45,38 +45,38 @@ var l=document.getElementById("booking-root");if(!l)throw new Error("Missing #bo
 .bk-loading{text-align:center;padding:40px 0;color:rgba(247,239,217,.5);font-size:.9rem}
 .bk-err{color:#C0202B;font-size:.85rem;margin-top:8px}
 @media(max-width:600px){.bk-title{font-size:1.5rem}.bk-slots{grid-template-columns:repeat(3,1fr)}}
-`;document.head.appendChild(f);var e={step:"types",types:[],selectedType:null,selectedDate:"",slots:[],selectedSlot:null,loadingSlots:!1,booking:!1,error:"",result:null};async function E(){let n=await(await fetch("/api/appointments/types")).json();n.ok&&(e.types=n.types)}async function y(t,n){e.loadingSlots=!0,e.selectedSlot=null,e.error="",a();let i=await(await fetch(`/api/appointments/slots/${t}?date=${n}`)).json();e.loadingSlots=!1,i.ok?e.slots=i.slots:e.slots=[],a()}function a(){switch(e.step){case"types":w();break;case"calendar":T();break;case"form":D();break;case"success":z();break}}function w(){l.innerHTML=`
+`;document.head.appendChild(k);var e={step:"types",types:[],selectedType:null,selectedDate:"",slots:[],selectedSlot:null,loadingSlots:!1,booking:!1,error:"",result:null};async function E(){let n=await(await fetch("/api/appointments/types")).json();n.ok&&(e.types=n.types)}async function f(t,n){e.loadingSlots=!0,e.selectedSlot=null,e.error="",a();let s=await(await fetch(`/api/appointments/slots/${t}?date=${n}`)).json();e.loadingSlots=!1,s.ok?e.slots=s.slots:e.slots=[],a()}function a(){switch(e.step){case"types":w();break;case"calendar":T();break;case"form":D();break;case"success":z();break}}function w(){i.innerHTML=`
     <h1 class="bk-title">Prendre rendez-vous</h1>
     <p class="bk-sub">Choisissez le type de rendez-vous qui correspond \xE0 votre besoin.</p>
     <p class="bk-step-label">\xC9tape 1 \u2014 Type de RDV</p>
     <div class="bk-types">
       ${e.types.length===0?'<p class="bk-loading">Chargement...</p>':e.types.map((t,n)=>`
           <div class="bk-type" data-idx="${n}">
-            <h3>${c(t.title)}</h3>
-            ${t.description?`<p>${c(t.description)}</p>`:""}
-            <span class="dur">${t.duration} min${t.location?` \xB7 ${c(t.location)}`:""}</span>
+            <h3>${p(t.title)}</h3>
+            ${t.description?`<p>${p(t.description)}</p>`:""}
+            <span class="dur">${t.duration} min${t.location?` \xB7 ${p(t.location)}`:""}</span>
           </div>
         `).join("")}
     </div>
-  `,l.querySelectorAll(".bk-type").forEach(t=>{t.addEventListener("click",()=>{let n=parseInt(t.dataset.idx||"0");e.selectedType=e.types[n],e.step="calendar";let r=new Date,i=new Date(r.getTime()+864e5);e.selectedDate=i.toISOString().slice(0,10),y(e.selectedType.slug,e.selectedDate),a()})})}function T(){let t=e.selectedType,[n,r]=e.selectedDate?e.selectedDate.split("-").map(Number):[new Date().getFullYear(),new Date().getMonth()+1],i=new Date(n,r-1,1),b=new Date(n,r,0).getDate(),m=i.getDay(),d=new Date().toISOString().slice(0,10),k=["Janvier","F\xE9vrier","Mars","Avril","Mai","Juin","Juillet","Ao\xFBt","Septembre","Octobre","Novembre","D\xE9cembre"],u=["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"].map(o=>`<div class="bk-cal-day">${o}</div>`).join("");for(let o=0;o<m;o++)u+='<div class="bk-cal-cell empty"></div>';for(let o=1;o<=b;o++){let s=`${n}-${String(r).padStart(2,"0")}-${String(o).padStart(2,"0")}`,h=s<d,$=s===e.selectedDate,S=["bk-cal-cell",h?"disabled":"",$?"selected":"",s===d?"today":""].filter(Boolean).join(" ");u+=`<div class="${S}" data-date="${s}">${o}</div>`}let x=r===1?`${n-1}-12`:`${n}-${String(r-1).padStart(2,"0")}`,v=r===12?`${n+1}-01`:`${n}-${String(r+1).padStart(2,"0")}`;l.innerHTML=`
+  `,i.querySelectorAll(".bk-type").forEach(t=>{t.addEventListener("click",()=>{let n=parseInt(t.dataset.idx||"0");e.selectedType=e.types[n],e.step="calendar";let r=new Date,s=new Date(r.getTime()+864e5);e.selectedDate=s.toISOString().slice(0,10),f(e.selectedType.slug,e.selectedDate),a()})})}function T(){let t=e.selectedType,[n,r]=e.selectedDate?e.selectedDate.split("-").map(Number):[new Date().getFullYear(),new Date().getMonth()+1],s=new Date(n,r-1,1),b=new Date(n,r,0).getDate(),c=s.getDay(),m=new Date().toISOString().slice(0,10),u=["Janvier","F\xE9vrier","Mars","Avril","Mai","Juin","Juillet","Ao\xFBt","Septembre","Octobre","Novembre","D\xE9cembre"],d=["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"].map(o=>`<div class="bk-cal-day">${o}</div>`).join("");for(let o=0;o<c;o++)d+='<div class="bk-cal-cell empty"></div>';for(let o=1;o<=b;o++){let l=`${n}-${String(r).padStart(2,"0")}-${String(o).padStart(2,"0")}`,x=l<m,$=l===e.selectedDate,S=["bk-cal-cell",x?"disabled":"",$?"selected":"",l===m?"today":""].filter(Boolean).join(" ");d+=`<div class="${S}" data-date="${l}">${o}</div>`}let v=r===1?`${n-1}-12`:`${n}-${String(r-1).padStart(2,"0")}`,h=r===12?`${n+1}-01`:`${n}-${String(r+1).padStart(2,"0")}`;i.innerHTML=`
     <button class="bk-back" id="bk-back">\u2190 Changer de type</button>
-    <h1 class="bk-title">${c(t.title)}</h1>
-    <p class="bk-sub">${t.duration} min${t.location?` \xB7 ${c(t.location)}`:""}</p>
+    <h1 class="bk-title">${p(t.title)}</h1>
+    <p class="bk-sub">${t.duration} min${t.location?` \xB7 ${p(t.location)}`:""}</p>
     <p class="bk-step-label">\xC9tape 2 \u2014 Choisissez une date et un cr\xE9neau</p>
     <div class="bk-calendar">
       <div class="bk-cal-header">
         <button id="bk-prev">\u2190</button>
-        <h3>${k[r-1]} ${n}</h3>
+        <h3>${u[r-1]} ${n}</h3>
         <button id="bk-next">\u2192</button>
       </div>
-      <div class="bk-cal-grid">${u}</div>
+      <div class="bk-cal-grid">${d}</div>
     </div>
     ${e.selectedDate?`
       <p style="margin-top:16px;font-size:.85rem;font-weight:600">Cr\xE9neaux pour le ${g(e.selectedDate)}</p>
       ${e.loadingSlots?'<p class="bk-loading">Chargement des cr\xE9neaux...</p>':e.slots.length===0?'<p style="color:rgba(247,239,217,.5);font-size:.85rem">Aucun cr\xE9neau disponible ce jour.</p>':`
         <div class="bk-slots">
-          ${e.slots.map((o,s)=>`
-            <div class="bk-slot${e.selectedSlot?.start===o.start?" active":""}" data-idx="${s}">
+          ${e.slots.map((o,l)=>`
+            <div class="bk-slot${e.selectedSlot?.start===o.start?" active":""}" data-idx="${l}">
               ${o.start.slice(11,16)}
             </div>
           `).join("")}
@@ -84,10 +84,10 @@ var l=document.getElementById("booking-root");if(!l)throw new Error("Missing #bo
       `}
       ${e.selectedSlot?'<div style="margin-top:20px;text-align:center"><button class="bk-btn" id="bk-continue">Continuer \u2192</button></div>':""}
     `:""}
-  `,document.getElementById("bk-back")?.addEventListener("click",()=>{e.step="types",e.selectedType=null,e.selectedDate="",e.selectedSlot=null,a()}),document.getElementById("bk-prev")?.addEventListener("click",()=>{e.selectedDate=`${x}-01`,e.selectedSlot=null,e.slots=[],a()}),document.getElementById("bk-next")?.addEventListener("click",()=>{e.selectedDate=`${v}-01`,e.selectedSlot=null,e.slots=[],a()}),l.querySelectorAll(".bk-cal-cell:not(.disabled):not(.empty)").forEach(o=>{o.addEventListener("click",()=>{let s=o.dataset.date;e.selectedDate=s,e.selectedSlot=null,y(t.slug,s)})}),l.querySelectorAll(".bk-slot").forEach(o=>{o.addEventListener("click",()=>{let s=parseInt(o.dataset.idx||"0");e.selectedSlot=e.slots[s],a()})}),document.getElementById("bk-continue")?.addEventListener("click",()=>{e.step="form",a()})}function D(){let t=e.selectedType,n=e.selectedSlot;l.innerHTML=`
+  `,document.getElementById("bk-back")?.addEventListener("click",()=>{e.step="types",e.selectedType=null,e.selectedDate="",e.selectedSlot=null,a()}),document.getElementById("bk-prev")?.addEventListener("click",()=>{e.selectedDate=`${v}-01`,e.selectedSlot=null,e.slots=[],a()}),document.getElementById("bk-next")?.addEventListener("click",()=>{e.selectedDate=`${h}-01`,e.selectedSlot=null,e.slots=[],a()}),i.querySelectorAll(".bk-cal-cell:not(.disabled):not(.empty)").forEach(o=>{o.addEventListener("click",()=>{let l=o.dataset.date;e.selectedDate=l,e.selectedSlot=null,f(t.slug,l)})}),i.querySelectorAll(".bk-slot").forEach(o=>{o.addEventListener("click",()=>{let l=parseInt(o.dataset.idx||"0");e.selectedSlot=e.slots[l],a()})}),document.getElementById("bk-continue")?.addEventListener("click",()=>{e.step="form",a()})}function D(){let t=e.selectedType,n=e.selectedSlot;i.innerHTML=`
     <button class="bk-back" id="bk-back">\u2190 Changer de cr\xE9neau</button>
     <h1 class="bk-title">Vos coordonn\xE9es</h1>
-    <p class="bk-sub">${c(t.title)} \u2014 ${g(e.selectedDate)} \xE0 ${n.start.slice(11,16)}</p>
+    <p class="bk-sub">${p(t.title)} \u2014 ${g(e.selectedDate)} \xE0 ${n.start.slice(11,16)}</p>
     <p class="bk-step-label">\xC9tape 3 \u2014 Informations de contact</p>
     <div class="bk-form">
       <div>
@@ -115,12 +115,12 @@ var l=document.getElementById("booking-root");if(!l)throw new Error("Missing #bo
         <button class="bk-btn" id="bk-submit" ${e.booking?"disabled":""}>${e.booking?"R\xE9servation...":"Confirmer le RDV"}</button>
       </div>
     </div>
-  `,document.getElementById("bk-back")?.addEventListener("click",()=>{e.step="calendar",e.error="",a()}),document.getElementById("bk-submit")?.addEventListener("click",async()=>{let r=document.getElementById("bk-name").value.trim(),i=document.getElementById("bk-phone").value.trim(),b=document.getElementById("bk-email").value.trim(),m=document.getElementById("bk-company").value.trim(),d=document.getElementById("bk-notes").value.trim();if(!r||!i){e.error="Le nom et le t\xE9l\xE9phone sont obligatoires.",a();return}e.booking=!0,e.error="",a();try{let p=await(await fetch("/api/appointments/book",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({typeSlug:t.slug,startTime:n.start,clientName:r,clientEmail:b||void 0,clientPhone:i,clientCompany:m||void 0,notes:d||void 0})})).json();p.ok?(e.result={...p.appointment,clientName:r},e.step="success"):e.error=p.error||"Erreur lors de la r\xE9servation."}catch{e.error="Erreur r\xE9seau. V\xE9rifiez votre connexion."}e.booking=!1,a()})}function z(){let t=e.result;l.innerHTML=`
+  `;let r=null;try{r=JSON.parse(sessionStorage.getItem("it-rdv-prefill")||localStorage.getItem("it-rdv-prefill")||"null")}catch{}for(let[s,b]of[["name","bk-name"],["phone","bk-phone"],["email","bk-email"],["company","bk-company"]]){let c=document.getElementById(b);c&&!c.value&&r?.[s]&&(c.value=String(r[s]).slice(0,200))}document.getElementById("bk-back")?.addEventListener("click",()=>{e.step="calendar",e.error="",a()}),document.getElementById("bk-submit")?.addEventListener("click",async()=>{let s=document.getElementById("bk-name").value.trim(),b=document.getElementById("bk-phone").value.trim(),c=document.getElementById("bk-email").value.trim(),m=document.getElementById("bk-company").value.trim(),u=document.getElementById("bk-notes").value.trim();if(!s||!b){e.error="Le nom et le t\xE9l\xE9phone sont obligatoires.",a();return}e.booking=!0,e.error="",a();try{let d=await(await fetch("/api/appointments/book",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({typeSlug:t.slug,startTime:n.start,clientName:s,clientEmail:c||void 0,clientPhone:b,clientCompany:m||void 0,notes:u||void 0})})).json();d.ok?(e.result={...d.appointment,clientName:s},e.step="success"):e.error=d.error||"Erreur lors de la r\xE9servation."}catch{e.error="Erreur r\xE9seau. V\xE9rifiez votre connexion."}e.booking=!1,a()})}function z(){let t=e.result;i.innerHTML=`
     <div class="bk-success">
       <h2>Rendez-vous confirm\xE9 \u2713</h2>
       <p>Nous avons bien enregistr\xE9 votre r\xE9servation.</p>
       <div class="info">
-        <p><span>Type</span> ${c(t.typeName)}</p>
+        <p><span>Type</span> ${p(t.typeName)}</p>
         <p><span>Date</span> ${g(t.startTime.slice(0,10))}</p>
         <p><span>Heure</span> ${t.startTime.slice(11,16)}</p>
         <p><span>Dur\xE9e</span> ${t.duration} min</p>
@@ -131,4 +131,4 @@ var l=document.getElementById("booking-root");if(!l)throw new Error("Missing #bo
         <button class="bk-btn bk-btn-ghost" id="bk-another">Nouveau RDV</button>
       </div>
     </div>
-  `,document.getElementById("bk-another")?.addEventListener("click",()=>{e={step:"types",types:e.types,selectedType:null,selectedDate:"",slots:[],selectedSlot:null,loadingSlots:!1,booking:!1,error:"",result:null},a()})}function g(t){return new Date(t+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})}function c(t){return t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}(async()=>(await E(),a()))();
+  `,document.getElementById("bk-another")?.addEventListener("click",()=>{e={step:"types",types:e.types,selectedType:null,selectedDate:"",slots:[],selectedSlot:null,loadingSlots:!1,booking:!1,error:"",result:null},a()})}function g(t){return new Date(t+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})}function p(t){return t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}(async()=>(await E(),a()))();

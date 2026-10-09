@@ -285,6 +285,16 @@ function renderForm() {
     </div>
   `;
 
+  // Préremplissage depuis le portail client (même origine, jamais dans l'URL).
+  let prefill: any = null;
+  try {
+    prefill = JSON.parse(sessionStorage.getItem("it-rdv-prefill") || localStorage.getItem("it-rdv-prefill") || "null");
+  } catch {}
+  for (const [key, id] of [["name", "bk-name"], ["phone", "bk-phone"], ["email", "bk-email"], ["company", "bk-company"]]) {
+    const el = document.getElementById(id) as HTMLInputElement | null;
+    if (el && !el.value && prefill?.[key]) el.value = String(prefill[key]).slice(0, 200);
+  }
+
   document.getElementById("bk-back")?.addEventListener("click", () => {
     state.step = "calendar";
     state.error = "";
