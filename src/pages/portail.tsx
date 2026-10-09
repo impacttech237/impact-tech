@@ -1,19 +1,40 @@
 /* ------------------------------------------------------------------
-   /portail/:token — espace client privé.
-   Shell SSR minimal : le rendu interactif se fait côté client (portal.js).
+   /espace/:slug — espace client privé.
+   Shell SSR autonome et léger (pas le Layout marketing : ni GSAP ni
+   Lenis, pour rester rapide en 3G). L'interface est rendue par
+   /portal.js (Preact) + /portal.css.
 ------------------------------------------------------------------- */
-import Layout from "../layout";
+import { raw } from "hono/html";
 
-export default function PortailPage({ accessToken }: { accessToken: string }) {
+export default function PortailPage({ accessKey }: { accessKey: string }) {
   return (
-    <Layout
-      title="Espace Client"
-      description="Votre espace client Impact Tech : projets, documents, contrats et signature électronique."
-      canonical="/portail"
-      noIndex={true}
-    >
-      <div id="portal-root" data-token={accessToken}></div>
-      <script type="module" src="/portal.js"></script>
-    </Layout>
+    <html lang="fr">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta name="theme-color" content="#0E0E0C" />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="referrer" content="same-origin" />
+        <title>Mon espace — Impact Tech</title>
+        <link rel="icon" href="/icon-square.png" />
+        <link rel="apple-touch-icon" href="/icon-square.png" />
+        {accessKey && <link rel="manifest" href={`/espace/${encodeURIComponent(accessKey)}/manifest.webmanifest`} />}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Impact Tech" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/portal.css" />
+      </head>
+      <body>
+        <div id="portal-root" data-key={accessKey}>
+          <div class="pt-boot">
+            <div class="pt-logo">impact<span>.</span>Tech</div>
+          </div>
+        </div>
+        <noscript>{raw("<p style='padding:24px;color:#f7efd9'>Activez JavaScript pour accéder à votre espace client.</p>")}</noscript>
+        <script type="module" src="/portal.js"></script>
+      </body>
+    </html>
   );
 }

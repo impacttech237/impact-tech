@@ -13,6 +13,11 @@ import adminApi from "./api/admin";
 import surveysApi from "./api/surveys";
 import appointmentsApi from "./api/appointments";
 import portalApi from "./api/portal";
+import feedbackApi from "./api/feedback";
+import { setEmailEnv } from "./lib/email";
+import { findClientByKey } from "./lib/portal-auth";
+import { applyInvoicePayment } from "./lib/portal/billing";
+import { runScheduled } from "./cron";
 
 import HomePage from "./pages/home";
 import OffresPage from "./pages/offres";
@@ -32,6 +37,19 @@ import { SITE_URL } from "./lib/seo";
 import { initGatewayPayment, getPayment, verifyGatewayReturnSignature, verifyWebhookSignature, generatePaymentExternalId } from "./lib/kpay";
 
 const app = new Hono();
+
+const REF_COOKIE = "ref";
+
+app.use("*", async (c, next) => {
+  setEmailEnv(c.env);
+  // Parrainage : ?ref=CODE sur n'importe quelle page -> cookie 90 jours,
+  // relu à l'envoi du formulaire de contact (/api/contact).
+  const ref = c.req.query("ref");
+  if (ref && /^[A-Z0-9]{4,12}$/i.test(ref) && c.req.method === "GET") {
+    setCookie(c, REF_COOKIE, ref.toUpperCase(), { path: "/", maxAge: 60 * 60 * 24 * 90, sameSite: "Lax" });
+  }
+  await next();
+});
 
 const LANG_COOKIE = "lang_pref";
 const LANG_COOKIE_OPTS = { path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "Lax" };
@@ -169,9 +187,39 @@ app.get("/rdv", (c) => {
   return c.html(<RdvPage />);
 });
 
-/* ---------- Portail client ---------- */
-app.get("/portail/:token", (c) => {
-  return c.html(<PortailPage accessToken={c.req.param("token")} />);
+/* ---------- Portail client ----------
+   /espace/<slug> : lien personnel lisible. /portail/<token> : anciens
+   liens, redirigés vers le lien personnel quand le client en a un. */
+const portalHtml = (c, key: string) =>
+  c.html(`<!doctype html>${<PortailPage accessKey={key} />}`, 200, { "cache-control": "no-store", "x-frame-options": "DENY" });
+
+app.get("/espace/:slug", (c) => portalHtml(c, c.req.param("slug")));
+app.get("/espace", (c) => portalHtml(c, ""));
+
+// Manifeste PWA propre à chaque client : « Ajouter à l'écran d'accueil »
+// rouvre directement SON espace.
+app.get("/espace/:slug/manifest.webmanifest", (c) => {
+  const slug = c.req.param("slug").replace(/[^a-zA-Z0-9-]/g, "");
+  return c.json(
+    {
+      name: "Mon espace — Impact Tech",
+      short_name: "Impact Tech",
+      start_url: `/espace/${slug}`,
+      scope: `/espace/${slug}`,
+      display: "standalone",
+      background_color: "#0E0E0C",
+      theme_color: "#0E0E0C",
+      icons: [{ src: "/icon-square.png", sizes: "512x512", type: "image/png", purpose: "any maskable" }],
+    },
+    200,
+    { "content-type": "application/manifest+json" }
+  );
+});
+
+app.get("/portail/:token", async (c) => {
+  const client = c.env.DB ? await findClientByKey(c.env.DB, c.req.param("token")) : null;
+  if (client?.slug) return c.redirect(`/espace/${client.slug}`, 301);
+  return portalHtml(c, c.req.param("token"));
 });
 
 /* ---------- Formulaires prospects (enquêtes) ---------- */
@@ -239,7 +287,7 @@ app.post("/api/contact", async (c) => {
 
   try {
     await c.env.DB.prepare(
-      "INSERT INTO contact_requests (name, phone, email, company, project_type, budget, message) VALUES (?, ?, ?, ?, ?, ?, ?)"
+      "INSERT INTO contact_requests (name, phone, email, company, project_type, budget, message, referral_code) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
     )
       .bind(
         name.slice(0, 200),
@@ -248,7 +296,8 @@ app.post("/api/contact", async (c) => {
         (body.company || "").trim().slice(0, 200),
         (body.type || "").trim().slice(0, 100),
         (body.budget || "").trim().slice(0, 100),
-        message.slice(0, 5000)
+        message.slice(0, 5000),
+        (getCookie(c, REF_COOKIE) || "").slice(0, 12) || null
       )
       .run();
 
@@ -392,6 +441,22 @@ app.get("/api/payments/return", async (c) => {
     console.error("GET /api/payments/return — reconfirmation impossible:", e?.message);
   }
 
+  if (row.invoice_id) {
+    await applyInvoicePayment(c.env, row, finalStatus).catch((e) => console.error("applyInvoicePayment:", e?.message));
+    const back = await c.env.DB.prepare(
+      "SELECT c.slug, c.access_token FROM invoices i JOIN client_projects p ON p.id = i.project_id JOIN clients c ON c.id = p.client_id WHERE i.id = ?"
+    ).bind(row.invoice_id).first();
+    const portalPath = back ? `/espace/${back.slug || back.access_token}` : "/";
+    const ok = finalStatus === "COMPLETED";
+    return c.html(
+      `<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paiement — IMPACT TECH</title>
+      <style>body{font-family:system-ui,sans-serif;background:#0e0e0c;color:#f7efd9;display:flex;min-height:100svh;align-items:center;justify-content:center;padding:24px;text-align:center}.card{max-width:440px}h1{font-size:1.6rem;margin-bottom:12px;color:${ok ? "#3ecf6e" : "#f59e0b"}}p{color:rgba(247,239,217,.72);margin-bottom:24px}a{display:inline-block;background:#c0202b;color:#fff;text-decoration:none;padding:14px 30px;border-radius:100px;font-weight:600}</style>
+      </head><body><div class="card"><h1>${ok ? "Paiement reçu ✓" : finalStatus === "PENDING" || finalStatus === "PROCESSING" ? "Paiement en cours…" : "Paiement non abouti"}</h1>
+      <p>${ok ? "Merci ! Votre reçu est disponible dans votre espace client." : finalStatus === "PENDING" || finalStatus === "PROCESSING" ? "Votre paiement est en cours de validation. Vous recevrez une confirmation dès qu'il sera validé." : "Le paiement n'a pas abouti. Vous pouvez réessayer depuis votre espace."}</p>
+      <a href="${portalPath}">Retour à mon espace</a></div></body></html>`
+    );
+  }
+
   if (finalStatus === "COMPLETED") {
     return layoutPage("Paiement réussi", "Merci ! Votre paiement a bien été reçu. Nous démarrons votre projet très vite.", true);
   }
@@ -421,6 +486,9 @@ app.post("/api/payments/webhook", async (c) => {
       .bind(status, paymentId || null, reference || null, failureReason || null, externalId)
       .run()
       .catch((e) => console.error("POST /api/payments/webhook — update:", e?.message));
+    // Facture du portail client -> passe en « payé » + reçu
+    const row = await c.env.DB.prepare("SELECT * FROM payments WHERE external_id = ?").bind(externalId).first().catch(() => null);
+    if (row?.invoice_id) c.executionCtx.waitUntil(applyInvoicePayment(c.env, row, status).catch((e) => console.error("webhook invoice:", e?.message)));
   }
 
   return c.json({ ok: true });
@@ -448,7 +516,18 @@ app.route("/api/appointments", appointmentsApi);
 /* ---------- API portail client ---------- */
 app.route("/api/portal", portalApi);
 
+/* ---------- Widget de retours (sites en développement) ---------- */
+app.route("/api/feedback", feedbackApi);
+
 /* ---------- API admin (protégée) ---------- */
 app.route("/api/admin", adminApi);
 
-export default app;
+export default {
+  fetch: app.fetch,
+  // Tâches planifiées (wrangler.toml [triggers]) : relances, renouvellements,
+  // santé des sites livrés, récapitulatif admin.
+  async scheduled(event, env, ctx) {
+    setEmailEnv(env);
+    ctx.waitUntil(runScheduled(env, event.cron));
+  },
+};

@@ -7,6 +7,10 @@
 # and Secrets) ou via `wrangler secret put` :
 #   - ADMIN_PASSWORD : mot de passe du dashboard admin (/admin)
 #   - AUTH_SECRET    : chaine aleatoire longue pour signer les sessions
+#   - RESEND_API_KEY : cle API Resend — envoi des emails (portail client,
+#                      RDV). Sans elle, aucun email ne part.
+#   - VAULT_KEY      : (optionnel) cle de chiffrement du coffre d'acces du
+#                      portail client ; a defaut AUTH_SECRET est utilise.
 #   - NOTION_TOKEN   : jeton d'integration interne Notion (optionnel) —
 #                      synchronise chaque demande de devis vers la base
 #                      "CRM — Prospects & Clients". Sans ce secret, le
@@ -30,6 +34,11 @@ database_id = "afaeac82-b728-4095-a4ff-a2053a5a9b55"
 [[r2_buckets]]
 binding = "MEDIA"
 bucket_name = "impact-tech-media"
+
+# Tache quotidienne (8h heure de Douala) : relances clients, renouvellements,
+# sante des sites livres, recap du lundi. Voir src/cron.ts.
+[triggers]
+crons = ["0 7 * * *"]
 
 [observability]
 enabled = true

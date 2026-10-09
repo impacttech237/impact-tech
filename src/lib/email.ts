@@ -1,9 +1,14 @@
 /* ------------------------------------------------------------------
-   Email — envoi via MailChannels (gratuit avec Cloudflare Workers).
-   Requiert un enregistrement DNS SPF sur le domaine expéditeur :
-   v=spf1 include:relay.mailchannels.net -all
-   + un enregistrement TXT _mailchannels.impacttech237.com :
-   v=mc1 cfid=impact-tech.impacttech237.workers.dev
+   Email — envoi via Resend (https://resend.com, offre gratuite).
+   MailChannels n'accepte plus les envois gratuits depuis Workers (2024) :
+   sans RESEND_API_KEY, aucun email ne part (sendEmail renvoie false et
+   l'admin affiche un avertissement + les alternatives WhatsApp / code).
+
+   Configuration (une seule fois) :
+   1. Créer un compte Resend, ajouter le domaine impacttech237.com et
+      copier les enregistrements DNS (SPF/DKIM) proposés chez Cloudflare.
+   2. wrangler secret put RESEND_API_KEY
+   3. (optionnel) EMAIL_FROM="Impact Tech <contact@impacttech237.com>"
 ------------------------------------------------------------------- */
 
 interface EmailOptions {
@@ -12,42 +17,62 @@ interface EmailOptions {
   subject: string;
   html: string;
   text?: string;
+  replyTo?: string;
 }
 
-const FROM_EMAIL = "rdv@impacttech237.com";
-const FROM_NAME = "Impact Tech";
+const DEFAULT_FROM = "Impact Tech <portail@impacttech237.com>";
+export const ADMIN_EMAIL = "impacttech237@gmail.com";
 
-export async function sendEmail(options: EmailOptions): Promise<boolean> {
-  const payload = {
-    personalizations: [
-      {
-        to: [{ email: options.to, name: options.toName || options.to }],
-      },
-    ],
-    from: { email: FROM_EMAIL, name: FROM_NAME },
-    subject: options.subject,
-    content: [
-      ...(options.text ? [{ type: "text/plain", value: options.text }] : []),
-      { type: "text/html", value: options.html },
-    ],
-  };
+// Les bindings d'un Worker sont identiques pour toutes les requêtes : on les
+// mémorise une fois (middleware global + cron) plutôt que de les faire
+// transiter par chaque appelant de sendEmail.
+let emailEnv: any = null;
+export function setEmailEnv(env: any) {
+  emailEnv = env;
+}
 
+export function emailConfigured(env: any = emailEnv): boolean {
+  return !!env?.RESEND_API_KEY;
+}
+
+export async function sendEmailDetailed(options: EmailOptions): Promise<{ ok: boolean; error?: string }> {
+  const env = emailEnv;
+  if (!env?.RESEND_API_KEY) {
+    return { ok: false, error: "Envoi d'emails non configuré (clé RESEND_API_KEY manquante)." };
+  }
   try {
-    const res = await fetch("https://api.mailchannels.net/tx/v1/send", {
+    const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      headers: {
+        Authorization: `Bearer ${env.RESEND_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: env.EMAIL_FROM || DEFAULT_FROM,
+        to: [options.toName ? `${options.toName.replace(/[<>"]/g, "")} <${options.to}>` : options.to],
+        subject: options.subject,
+        html: options.html,
+        ...(options.text ? { text: options.text } : {}),
+        reply_to: options.replyTo || ADMIN_EMAIL,
+      }),
     });
-    return res.status === 202 || res.ok;
+    if (res.ok) return { ok: true };
+    const data: any = await res.json().catch(() => ({}));
+    console.error("sendEmail Resend:", res.status, data?.message);
+    return { ok: false, error: data?.message || `Erreur d'envoi (${res.status})` };
   } catch (e) {
     console.error("sendEmail error:", (e as Error).message);
-    return false;
+    return { ok: false, error: "Service d'email injoignable." };
   }
+}
+
+export async function sendEmail(options: EmailOptions): Promise<boolean> {
+  return (await sendEmailDetailed(options)).ok;
 }
 
 /* ── Templates email RDV ── */
 
-function baseLayout(content: string): string {
+export function baseLayout(content: string): string {
   return `<!DOCTYPE html>
 <html lang="fr">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
