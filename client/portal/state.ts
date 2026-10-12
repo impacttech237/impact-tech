@@ -16,6 +16,7 @@ export interface PortalCtx {
   go: (view: string, id?: number) => void;
   logout: () => void;
   toggleLocale: () => void;
+  startTour: () => void; // relance la visite guidée (page Aide)
 }
 
 export const Ctx = createContext<PortalCtx>(null as any);

@@ -11,7 +11,8 @@ import { Ctx, PortalCtx, Route, parseHash, store, usePortal, whatsappLink } from
 import { ErrorBox, Icon, Spinner, Toasts } from "./ui";
 import { Documents } from "./views/Documents";
 import { Files } from "./views/Files";
-import { Help, Onboarding } from "./views/Help";
+import { Help } from "./views/Help";
+import { PageHelp, Tour } from "./views/Guide";
 import { Home } from "./views/Home";
 import { Kit } from "./views/Kit";
 import { Login } from "./views/Login";
@@ -116,6 +117,7 @@ function App() {
       await api("/logout", { body: {} }).catch(() => {});
       setPhase("login");
     },
+    startTour: () => setOnboarding(true),
     toggleLocale: async () => {
       const next = getLocale() === "en" ? "fr" : "en";
       setLocale(next);
@@ -127,7 +129,7 @@ function App() {
   return (
     <Ctx.Provider value={ctx}>
       <Shell />
-      {onboarding && <Onboarding onDone={() => setOnboarding(false)} />}
+      {onboarding && <Tour onDone={() => setOnboarding(false)} />}
       <Toasts />
     </Ctx.Provider>
   );
@@ -207,7 +209,14 @@ function Shell() {
       </header>
 
       <main class="pt-main" id="main">
-        {!dash ? <Spinner /> : <View view={view} />}
+        {!dash ? (
+          <Spinner />
+        ) : (
+          <>
+            <PageHelp page={GUIDED.includes(view) ? view : "home"} />
+            <View view={view} />
+          </>
+        )}
       </main>
 
       <nav class="pt-tabbar" aria-label="Navigation">
@@ -277,6 +286,9 @@ function ProjectSwitch({ projects, projectId, onChange }: { projects: any[]; pro
     </select>
   );
 }
+
+// Pages qui ont un encart « Comment ça marche ? » (voir guide.ts).
+const GUIDED = ["home", "todo", "messages", "files", "documents", "site", "kit", "payments", "help"];
 
 function View({ view }: { view: string }) {
   switch (view) {

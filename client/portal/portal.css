@@ -318,6 +318,46 @@ textarea.pt-input { resize: vertical; min-height: 88px; }
 .pt-onb__dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--surface-3); }
 .pt-onb__dots span.is-on { background: var(--red); width: 22px; border-radius: 4px; }
 
+/* Visite guidée */
+.pt-tour { max-width: 440px; max-height: calc(100dvh - 32px); overflow-y: auto; text-align: left; align-items: stretch; animation: pt-tour-in 0.3s ease both; }
+.pt-tour h2:focus { outline: none; }
+.pt-tour .pt-onb__icon, .pt-tour .pt-onb__dots { align-self: center; }
+.pt-tour h2, .pt-tour > p { text-align: center; }
+.pt-tour__top { display: flex; justify-content: space-between; align-items: center; min-height: 32px; }
+.pt-tour__count { font-size: 13px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+.pt-tour__list { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.pt-tour__list li { display: flex; gap: 10px; align-items: flex-start; color: var(--text-2); font-size: 15px; line-height: 1.45; }
+.pt-tour__list li svg { flex: none; margin-top: 3px; color: var(--green); }
+.pt-tour__where { margin: 0; font-size: 13px; color: var(--text-3); text-align: center; }
+.pt-tour__nav { display: flex; gap: 10px; width: 100%; }
+@keyframes pt-tour-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* Encart « Comment ça marche ? » */
+.pt-guide-toggle { max-width: 860px; margin: 0 auto; padding: 0 0 4px; display: flex; justify-content: flex-end; }
+.pt-guide-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-2); font-size: 14px; cursor: pointer; }
+.pt-guide-btn:hover { background: var(--surface-2); color: var(--text); }
+.pt-guide { max-width: 860px; margin: 0 auto 18px; padding: 18px; border-radius: var(--radius); border: 1px solid var(--border-2); border-left: 3px solid var(--red); background: var(--surface); display: flex; flex-direction: column; gap: 8px; animation: pt-tour-in 0.3s ease both; }
+.pt-guide__head { display: flex; gap: 12px; align-items: flex-start; }
+.pt-guide__icon { flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--red-soft); color: var(--red); }
+.pt-guide__eyebrow { margin: 0; font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); }
+.pt-guide__purpose { margin: 2px 0 0; font-weight: 600; line-height: 1.4; }
+.pt-guide__label { margin: 8px 0 0; font-size: 13px; font-weight: 600; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.05em; }
+.pt-guide__steps { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; color: var(--text-2); }
+.pt-guide__next { margin: 0; color: var(--text-2); }
+.pt-guide__foot { display: flex; justify-content: flex-end; margin-top: 6px; }
+
+/* Aide : visite, guide des pages, FAQ */
+.pt-guide-replay { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.pt-acc { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.pt-acc__item { border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); }
+.pt-acc__item summary { display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 12px 16px; cursor: pointer; font-weight: 600; list-style: none; }
+.pt-acc__item summary::-webkit-details-marker { display: none; }
+.pt-acc__item summary::after { content: "+"; margin-left: auto; color: var(--text-3); font-size: 20px; line-height: 1; }
+.pt-acc__item[open] summary::after { content: "–"; }
+.pt-acc__item summary svg { flex: none; color: var(--red); }
+.pt-acc__body { padding: 0 16px 16px; display: flex; flex-direction: column; gap: 6px; color: var(--text-2); }
+.pt-acc__body p { margin: 0; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
