@@ -1,7 +1,9 @@
 /* ------------------------------------------------------------------
    Questionnaire client (/q/<token>) — Preact.
-   Sauvegarde automatique (serveur + copie locale de secours), barre de
-   progression, envoi final. Le client peut revenir et compléter plus tard.
+   Une étape par section (moins décourageant qu'une longue page), accueil
+   avec le sommaire, sauvegarde automatique (serveur + copie locale de
+   secours) à chaque saisie et à chaque changement d'étape, envoi final.
+   Le client peut revenir plus tard : il reprend à l'étape où il était.
 ------------------------------------------------------------------- */
 import { render } from "preact";
 import { useEffect, useMemo, useRef, useState } from "preact/hooks";
@@ -33,6 +35,18 @@ const TXT = {
     choose: "Choisir…",
     empty: "Vous n'avez encore rien rempli. Rien n'est obligatoire : laissez vide ce qui n'est pas prêt.",
     restored: "Des réponses non envoyées ont été retrouvées sur cet appareil et rechargées.",
+    start: "Commencer",
+    resume: (n: number) => `Reprendre à l'étape ${n}`,
+    review: "Revoir mes réponses",
+    steps: (n: number) => `${n} étapes courtes · rien n'est obligatoire`,
+    stepOf: (i: number, n: number) => `Étape ${i} sur ${n}`,
+    next: "Suivant",
+    nextTo: (title: string) => `Suivant : ${title}`,
+    prev: "Précédent",
+    home: "Sommaire",
+    left: (n: number) => (n === 1 ? "Plus qu'une étape, vous y êtes presque !" : `Bravo, plus que ${n} étapes.`),
+    last: "Dernière étape : relisez si vous voulez, puis envoyez.",
+    stepCount: (f: number, t: number) => `${f}/${t}`,
   },
   en: {
     loading: "Loading…",
@@ -55,21 +69,33 @@ const TXT = {
     choose: "Choose…",
     empty: "Nothing filled in yet. Nothing is mandatory: leave blank whatever isn't ready.",
     restored: "Unsent answers were found on this device and restored.",
+    start: "Start",
+    resume: (n: number) => `Resume at step ${n}`,
+    review: "Review my answers",
+    steps: (n: number) => `${n} short steps · nothing is mandatory`,
+    stepOf: (i: number, n: number) => `Step ${i} of ${n}`,
+    next: "Next",
+    nextTo: (title: string) => `Next: ${title}`,
+    prev: "Back",
+    home: "Overview",
+    left: (n: number) => (n === 1 ? "Just one step left, you're almost there!" : `Well done, ${n} steps to go.`),
+    last: "Last step: review if you like, then send.",
+    stepCount: (f: number, t: number) => `${f}/${t}`,
   },
 };
 
 type Answers = Record<string, string | string[]>;
 
-function flatKeys(def: any): string[] {
+function sectionKeys(section: any): string[] {
   const keys: string[] = [];
-  for (const s of def.sections)
-    for (const f of s.fields) {
-      if (f.type === "info") continue;
-      if (f.type === "repeat") for (let n = 1; n <= f.count; n++) for (const sub of f.fields) keys.push(`${f.id}.${n}.${sub.id}`);
-      else keys.push(f.id);
-    }
+  for (const f of section.fields) {
+    if (f.type === "info") continue;
+    if (f.type === "repeat") for (let n = 1; n <= f.count; n++) for (const sub of f.fields) keys.push(`${f.id}.${n}.${sub.id}`);
+    else keys.push(f.id);
+  }
   return keys;
 }
+const flatKeys = (def: any): string[] => def.sections.flatMap(sectionKeys);
 
 const filled = (v: any) => (Array.isArray(v) ? v.length > 0 : v != null && String(v).trim() !== "");
 
@@ -86,6 +112,20 @@ function readLocal(): { answers: Answers; at: string } | null {
     return null;
   }
 }
+const STEP_KEY = `${LOCAL_KEY}-step`;
+function readStep(): number {
+  try {
+    return parseInt(localStorage.getItem(STEP_KEY) || "", 10);
+  } catch {
+    return NaN;
+  }
+}
+function writeStep(n: number) {
+  try {
+    localStorage.setItem(STEP_KEY, String(n));
+  } catch {}
+}
+
 function writeLocal(answers: Answers) {
   try {
     localStorage.setItem(LOCAL_KEY, JSON.stringify({ answers, at: new Date().toISOString() }));
@@ -101,6 +141,7 @@ function App() {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [notice, setNotice] = useState("");
+  const [step, setStep] = useState(-1); // -1 = accueil / sommaire
   const timer = useRef<any>(null);
   const latest = useRef<Answers>({});
 
@@ -132,6 +173,7 @@ function App() {
   }, []);
 
   const keys = useMemo(() => (data ? flatKeys(data.definition) : []), [data]);
+  const perSection = useMemo(() => (data ? data.definition.sections.map(sectionKeys) : []), [data]);
   const done = keys.filter((k) => filled(answers[k])).length;
   const readOnly = data?.status === "closed";
 
@@ -192,8 +234,17 @@ function App() {
     setSending(false);
     if (ok) {
       setSubmitted(true);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      goTo(-1);
     }
+  }
+
+  function goTo(n: number) {
+    if (state === "dirty") persist();
+    setStep(n);
+    if (n >= 0) writeStep(n);
+    window.scrollTo({ top: 0 });
+    // Le focus suit le changement d'étape (lecteurs d'écran, clavier).
+    requestAnimationFrame(() => document.getElementById("q-step-title")?.focus());
   }
 
   if (error) return <main class="q-wrap q-center"><p class="q-muted">{error === "network" ? "Connexion impossible. Réessayez dans un instant." : TXT.fr.invalid}</p></main>;
@@ -202,19 +253,27 @@ function App() {
   const def = data.definition;
   const fmtTime = (iso: string) => new Date(iso).toLocaleTimeString(data.locale === "en" ? "en-GB" : "fr-FR", { hour: "2-digit", minute: "2-digit" });
 
-  return (
-    <main class="q-wrap">
-      <header class="q-top">
-        <div class="q-logo">impact<span>.</span>Tech</div>
-        {def.eyebrow && <span class="q-eyebrow">{def.eyebrow}</span>}
-        <h1>
-          <Accent text={def.heading || def.title} />
-        </h1>
-        {data.clientFirstName && <p class="q-hello">{t.hello(data.clientFirstName)}</p>}
-        {def.intro && <p class="q-lede">{def.intro}</p>}
-      </header>
+  const sections = def.sections;
+  const total = sections.length;
+  const sectionDone = (i: number) => perSection[i].filter((k: string) => filled(answers[k])).length;
 
-      {submitted && (
+  const status = (
+    <div class="q-progress" aria-live="polite">
+      <div class="q-progress__track">
+        <div class="q-progress__fill" style={{ width: `${keys.length ? Math.round((done / keys.length) * 100) : 0}%` }} />
+      </div>
+      <div class="q-progress__label">
+        <span>{step >= 0 ? t.stepOf(step + 1, total) : t.progress(done, keys.length)}</span>
+        <span class={state === "offline" ? "q-warn" : ""}>
+          {state === "saving" ? t.saving : state === "offline" ? t.offline : savedAt ? t.saved(fmtTime(savedAt)) : t.autosave}
+        </span>
+      </div>
+    </div>
+  );
+
+  const banners = (
+    <>
+      {submitted && step < 0 && (
         <div class="q-banner q-banner--ok" role="status">
           <strong>{t.doneTitle}</strong>
           <span>{t.doneText}</span>
@@ -222,59 +281,136 @@ function App() {
       )}
       {readOnly && <div class="q-banner" role="status">{t.closed}</div>}
       {notice && <div class="q-banner" role="status">{notice}</div>}
+    </>
+  );
 
-      <div class="q-progress" aria-live="polite">
-        <div class="q-progress__track">
-          <div class="q-progress__fill" style={{ width: `${keys.length ? Math.round((done / keys.length) * 100) : 0}%` }} />
+  /* Accueil : la promesse, le sommaire des étapes, commencer ou reprendre. */
+  if (step < 0) {
+    const saved = readStep();
+    const firstOpen = sections.findIndex((_: any, i: number) => sectionDone(i) < perSection[i].length);
+    const startAt = done === 0 ? 0 : Number.isFinite(saved) && saved >= 0 && saved < total ? saved : Math.max(0, firstOpen);
+    return (
+      <main class="q-wrap">
+        <header class="q-top">
+          <div class="q-logo">impact<span>.</span>Tech</div>
+          {def.eyebrow && <span class="q-eyebrow">{def.eyebrow}</span>}
+          <h1>
+            <Accent text={def.heading || def.title} />
+          </h1>
+          {data.clientFirstName && <p class="q-hello">{t.hello(data.clientFirstName)}</p>}
+          {def.intro && <p class="q-lede">{def.intro}</p>}
+        </header>
+        {banners}
+        {status}
+        <p class="q-steps__count">{t.steps(total)}</p>
+        <ol class="q-steps">
+          {sections.map((s: any, i: number) => {
+            const d = sectionDone(i);
+            const n = perSection[i].length;
+            const complete = n > 0 && d === n;
+            return (
+              <li key={i}>
+                <button type="button" class={`q-steps__item ${complete ? "is-done" : d ? "is-started" : ""}`} onClick={() => goTo(i)}>
+                  <span class="q-steps__num" aria-hidden="true">
+                    {complete ? "✓" : String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span class="q-steps__title">{s.title}</span>
+                  {n > 0 && <span class="q-steps__meta">{t.stepCount(d, n)}</span>}
+                </button>
+              </li>
+            );
+          })}
+        </ol>
+        <div class="q-cta">
+          <button type="button" class="q-btn" onClick={() => goTo(startAt)}>
+            {submitted ? t.review : done > 0 ? t.resume(startAt + 1) : t.start} →
+          </button>
         </div>
-        <div class="q-progress__label">
-          <span>{t.progress(done, keys.length)}</span>
-          <span class={state === "offline" ? "q-warn" : ""}>
-            {state === "saving" ? t.saving : state === "offline" ? t.offline : savedAt ? t.saved(fmtTime(savedAt)) : t.autosave}
-          </span>
-        </div>
-      </div>
+      </main>
+    );
+  }
+
+  /* Une étape = une section : quelques questions, puis on avance. */
+  const s = sections[step];
+  const isLast = step === total - 1;
+  return (
+    <main class="q-wrap">
+      <header class="q-stepbar">
+        <button type="button" class="q-link" onClick={() => goTo(-1)}>
+          ← {t.home}
+        </button>
+        <div class="q-logo q-logo--small">impact<span>.</span>Tech</div>
+      </header>
+      <nav class="q-dots" aria-label={t.home}>
+        {sections.map((s2: any, i: number) => {
+          const n = perSection[i].length;
+          const complete = n > 0 && sectionDone(i) === n;
+          return (
+            <button
+              key={i}
+              type="button"
+              class={`q-dot ${i === step ? "is-current" : ""} ${complete ? "is-done" : ""}`}
+              aria-label={`${i + 1}. ${s2.title}`}
+              aria-current={i === step ? "step" : undefined}
+              title={s2.title}
+              onClick={() => goTo(i)}
+            />
+          );
+        })}
+      </nav>
+      {banners}
+      {status}
 
       <form onSubmit={(e) => e.preventDefault()}>
         <fieldset disabled={readOnly}>
-          {def.sections.map((s: any, i: number) => (
-            <section class="q-block" key={i}>
-              <div class="q-block__head">
-                <span class="q-block__index">{String(i + 1).padStart(2, "0")}</span>
-                <h2>{s.title}</h2>
-              </div>
-              {s.context && <p class="q-block__context">{s.context}</p>}
-              <div class="q-fields">
-                {s.fields.map((f: any) =>
-                  f.type === "repeat" ? (
-                    Array.from({ length: f.count }).map((_, n) => (
-                      <div class="q-repeat" key={`${f.id}-${n}`}>
-                        <span class="q-repeat__label">
-                          {f.label || f.id} {n + 1}
-                        </span>
-                        {f.fields.map((sub: any) => (
-                          <Field key={sub.id} f={sub} k={`${f.id}.${n + 1}.${sub.id}`} value={answers[`${f.id}.${n + 1}.${sub.id}`]} set={set} t={t} />
-                        ))}
-                      </div>
-                    ))
-                  ) : (
-                    <Field key={f.id} f={f} k={f.id} value={answers[f.id]} set={set} t={t} />
-                  )
-                )}
-              </div>
-            </section>
-          ))}
+          <section class="q-block q-block--step" key={step}>
+            <div class="q-block__head">
+              <span class="q-block__index">{String(step + 1).padStart(2, "0")}</span>
+              <h2 id="q-step-title" tabIndex={-1}>
+                {s.title}
+              </h2>
+            </div>
+            {s.context && <p class="q-block__context">{s.context}</p>}
+            <div class="q-fields">
+              {s.fields.map((f: any) =>
+                f.type === "repeat" ? (
+                  Array.from({ length: f.count }).map((_, n) => (
+                    <div class="q-repeat" key={`${f.id}-${n}`}>
+                      <span class="q-repeat__label">
+                        {f.label || f.id} {n + 1}
+                      </span>
+                      {f.fields.map((sub: any) => (
+                        <Field key={sub.id} f={sub} k={`${f.id}.${n + 1}.${sub.id}`} value={answers[`${f.id}.${n + 1}.${sub.id}`]} set={set} t={t} />
+                      ))}
+                    </div>
+                  ))
+                ) : (
+                  <Field key={f.id} f={f} k={f.id} value={answers[f.id]} set={set} t={t} />
+                )
+              )}
+            </div>
+          </section>
         </fieldset>
       </form>
 
-      {!readOnly && (
-        <div class="q-footer">
-          <span class="q-footer__status">{done === 0 ? t.empty : t.progress(done, keys.length)}</span>
-          <button type="button" class="q-btn" disabled={sending} onClick={submit}>
-            {sending ? t.sending : submitted ? t.update : t.submit}
+      {step > 0 && <p class="q-cheer">{isLast ? t.last : t.left(total - step - 1)}</p>}
+      <div class="q-footer q-footer--nav">
+        <button key="prev" type="button" class="q-btn q-btn--ghost" onClick={() => goTo(step - 1)}>
+          ← {step === 0 ? t.home : t.prev}
+        </button>
+        {isLast ? (
+          !readOnly && (
+            <button type="button" class="q-btn" disabled={sending} onClick={submit}>
+              {sending ? t.sending : submitted ? t.update : t.submit}
+            </button>
+          )
+        ) : (
+          <button key="next" type="button" class="q-btn" onClick={() => goTo(step + 1)}>
+            <span class="q-btn__long">{t.nextTo(sections[step + 1].title)}</span>
+            <span class="q-btn__short">{t.next}</span> →
           </button>
-        </div>
-      )}
+        )}
+      </div>
     </main>
   );
 }
