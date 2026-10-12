@@ -46,12 +46,12 @@ const ROWS_EN = [
   { label: "Unlimited revisions during project", values: [false, false, true] },
 ];
 
-function Mark({ v }) {
+function Mark({ v, en = false }) {
   if (typeof v !== "boolean") return <>{v}</>;
   return v ? (
-    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="oc-check" aria-label="Inclus"><path d="M2.5 8.5 6 12l7.5-8" /></svg>
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="oc-check" aria-label={en ? "Included" : "Inclus"}><path d="M2.5 8.5 6 12l7.5-8" /></svg>
   ) : (
-    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" className="oc-cross" aria-label="Non inclus"><path d="M3 3l10 10M13 3 3 13" /></svg>
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" className="oc-cross" aria-label={en ? "Not included" : "Non inclus"}><path d="M3 3l10 10M13 3 3 13" /></svg>
   );
 }
 
@@ -101,7 +101,7 @@ export default function OffersComparison({ items, locale = "fr" }) {
                 <tr key={row.label}>
                   <th scope="row">{row.label}</th>
                   {row.values.map((v, i) => (
-                    <td key={i} className={i === popularIndex ? "oc-table__popular" : ""}><Mark v={v} /></td>
+                    <td key={i} className={i === popularIndex ? "oc-table__popular" : ""}><Mark v={v} en={en} /></td>
                   ))}
                 </tr>
               ))}

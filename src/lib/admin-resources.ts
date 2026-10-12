@@ -20,12 +20,12 @@ export const RESOURCES = {
   testimonials: {
     table: "testimonials",
     orderBy: "sort_order, id",
-    columns: ["name", "role", "text", "initials", "sort_order", "active"],
+    columns: ["name", "role", "text", "initials", "sort_order", "active", "role_en", "text_en"],
   },
   stats: {
     table: "stats",
     orderBy: "sort_order, id",
-    columns: ["value", "suffix", "label", "note", "sort_order", "active"],
+    columns: ["value", "suffix", "label", "note", "sort_order", "active", "label_en", "note_en", "suffix_en"],
   },
   faqs: {
     table: "faqs",
@@ -40,12 +40,12 @@ export const RESOURCES = {
   projects: {
     table: "projects",
     orderBy: "sort_order, id",
-    columns: ["title", "category", "description", "result", "image", "sort_order", "active"],
+    columns: ["title", "category", "description", "result", "image", "sort_order", "active", "title_en", "description_en", "result_en"],
   },
   "process-steps": {
     table: "process_steps",
     orderBy: "sort_order, id",
-    columns: ["num", "title", "description", "sort_order", "active"],
+    columns: ["num", "title", "description", "sort_order", "active", "title_en", "description_en"],
   },
   requests: {
     table: "contact_requests",

@@ -25,7 +25,7 @@ export default function Header({ current = "", locale = "fr", frPath = "/" }) {
       <header className="header" data-header>
         <div className="container-it">
           <div className="header__inner">
-            <a href={p("/")} className="logo" aria-label="Impact Tech — Accueil">
+            <a href={p("/")} className="logo" aria-label={locale === "en" ? "Impact Tech — Home" : "Impact Tech — Accueil"}>
               <img className="logo__img" src="/images/logo.png" alt="Impact Tech" />
               <span className="logo__text" aria-hidden="true">
                 impact<span className="logo-dot">.</span><span className="logo-tech">Tech</span>
@@ -52,7 +52,7 @@ export default function Header({ current = "", locale = "fr", frPath = "/" }) {
               <PillButton href={p("/contact")} variant="cream" data-header-cta>{t(locale, "cta_start")}</PillButton>
             </div>
 
-            <button className="burger" aria-expanded="false" aria-label="Ouvrir le menu" data-burger>
+            <button className="burger" aria-expanded="false" aria-label={locale === "en" ? "Open menu" : "Ouvrir le menu"} data-burger>
               <span /><span /><span />
             </button>
           </div>

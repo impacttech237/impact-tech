@@ -2526,7 +2526,13 @@ h4 {
   background-size: 64px 64px;
 }
 .bigtitle__chapter { position: absolute; top: 6vh; left: 6vw; color: var(--it-red); }
-.immersive-home .bigtitle h2 { font-size: clamp(4rem, 10vw, 11rem); line-height: .78; }
+.immersive-home .bigtitle h2 { font-size: clamp(2.6rem, 10vw, 11rem); line-height: .9; }
+/* Scène 3D : les lettres arrivent de loin, le masque les couperait en deux. */
+.immersive-home .bigtitle-mask { overflow: visible; }
+@media (max-width: 600px) {
+  .immersive-home .bigtitle h2 { font-size: clamp(2.4rem, 15vw, 4.4rem); }
+  .bigtitle-line { white-space: normal; }
+}
 
 /* 10 — rail éditorial */
 .immersive-home .blog {
@@ -3270,16 +3276,39 @@ h4 {
 }
 .oc-table {
   width: 100%;
-  min-width: 640px;
+  min-width: 560px;
   border-collapse: collapse;
   font-size: 0.95rem;
+  table-layout: fixed;
 }
 .oc-table th,
 .oc-table td {
   padding: 14px 18px;
   text-align: center;
   border-bottom: 1px solid var(--it-border);
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+}
+/* Colonne « Fonctionnalité » figée pendant le défilement horizontal. */
+.oc-table thead th:first-child,
+.oc-table tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--it-white);
+  width: 32%;
+}
+/* Mobile : les 4 colonnes tiennent dans l'écran (pas de défilement caché). */
+@media (max-width: 640px) {
+  .oc-table { font-size: 0.74rem; min-width: 0; }
+  .oc-table th,
+  .oc-table td { padding: 9px 4px; }
+  .oc-table thead th:first-child,
+  .oc-table tbody th { width: 34%; padding-left: 10px; position: static; }
+  .oc-table thead th { font-size: 0.78rem; }
+  .oc-table__badge { font-size: 0.56rem; letter-spacing: 0; }
+  .oc-table__price-row th,
+  .oc-table__price-row td { font-size: 0.82rem; }
+  .oc-check { width: 15px; height: 15px; }
 }
 .oc-table thead th {
   font-family: var(--f-head);

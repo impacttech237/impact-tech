@@ -50,6 +50,9 @@ export const RESOURCES = [
       { name: "image", label: "Image", type: "image" },
       { name: "sort_order", label: "Ordre d'affichage", type: "number" },
       { name: "active", label: "Visible sur le site", type: "bool", default: 1 },
+      { name: "title_en", label: "EN — Title", type: "text" },
+      { name: "description_en", label: "EN — Description", type: "textarea" },
+      { name: "result_en", label: "EN — Result", type: "text" },
     ],
   },
   {
@@ -64,6 +67,8 @@ export const RESOURCES = [
       { name: "initials", label: "Initiales (avatar)", type: "text" },
       { name: "sort_order", label: "Ordre d'affichage", type: "number" },
       { name: "active", label: "Visible sur le site", type: "bool", default: 1 },
+      { name: "role_en", label: "EN — Role / business", type: "text" },
+      { name: "text_en", label: "EN — Testimonial", type: "textarea" },
     ],
   },
   {
@@ -78,6 +83,9 @@ export const RESOURCES = [
       { name: "note", label: "Note (sous le libellé)", type: "text" },
       { name: "sort_order", label: "Ordre d'affichage", type: "number" },
       { name: "active", label: "Visible sur le site", type: "bool", default: 1 },
+      { name: "label_en", label: "EN — Label", type: "text" },
+      { name: "note_en", label: "EN — Note", type: "text" },
+      { name: "suffix_en", label: "EN — Suffix (e.g. days)", type: "text" },
     ],
   },
   {
@@ -127,6 +135,8 @@ export const RESOURCES = [
       { name: "description", label: "Description", type: "textarea" },
       { name: "sort_order", label: "Ordre d'affichage", type: "number" },
       { name: "active", label: "Visible sur le site", type: "bool", default: 1 },
+      { name: "title_en", label: "EN — Step title", type: "text" },
+      { name: "description_en", label: "EN — Description", type: "textarea" },
     ],
   },
 ];

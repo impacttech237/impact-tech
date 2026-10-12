@@ -5,8 +5,8 @@ import { DEFAULTS } from "../lib/defaults";
    data-pf-filter / data-pf-cat, en montrant/masquant les cartes. */
 export default function PortfolioGrid({ items, locale = "fr" }) {
   const en = locale === "en";
-  // Contenu des projets servi en FR (pas encore de colonnes _en sur
-  // "projects") — seuls les libellés statiques de la section sont traduits.
+  // Contenu traduit par getContent (colonnes _en de "projects", catégorie =
+  // nom anglais du pack) : filtres et cartes restent cohérents.
   const PROJECTS = (items?.length ? items : DEFAULTS.projects).map((p) => ({
     img: p.image, cat: p.category, title: p.title, desc: p.description, result: p.result,
   }));
@@ -22,7 +22,7 @@ export default function PortfolioGrid({ items, locale = "fr" }) {
           <p>{en ? "Explore the projects, filter by plan, and let each project reveal its impact." : "Explorez les projets, filtrez les univers et laissez chaque réalisation révéler son impact."}</p>
         </header>
 
-        <div className="pf-filters" role="tablist" aria-label="Filtrer les projets">
+        <div className="pf-filters" role="tablist" aria-label={en ? "Filter projects" : "Filtrer les projets"}>
           {CATEGORIES.map((c, i) => (
             <button
               key={c}

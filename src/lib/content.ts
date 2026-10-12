@@ -36,6 +36,8 @@ export async function getContent(env, locale = "fr") {
         db.prepare("SELECT * FROM process_steps WHERE active = 1 ORDER BY sort_order, id"),
       ]);
 
+    const packNamesEn = Object.fromEntries(offersQ.results.filter((o) => o.tag_en).map((o) => [o.tag, o.tag_en]));
+
     const settings = { ...DEFAULTS.settings };
     for (const row of settingsQ.results) settings[row.key] = row.value;
     settings.marquee_items = parseJson(settings.marquee_items, DEFAULTS.settings.marquee_items);
@@ -45,9 +47,9 @@ export async function getContent(env, locale = "fr") {
       settings,
       stats: statsQ.results.map((r) => ({
         value: r.value,
-        suffix: r.suffix ?? "",
-        label: r.label,
-        note: r.note ?? "",
+        suffix: pick(r.suffix_en, r.suffix) ?? "",
+        label: pick(r.label_en, r.label),
+        note: pick(r.note_en, r.note) ?? "",
       })),
       offers: offersQ.results.map((r) => ({
         tag: pick(r.tag_en, r.tag),
@@ -72,8 +74,8 @@ export async function getContent(env, locale = "fr") {
       })),
       testimonials: testimonialsQ.results.map((r) => ({
         name: r.name,
-        role: r.role,
-        text: r.text,
+        role: pick(r.role_en, r.role),
+        text: pick(r.text_en, r.text),
         initials: r.initials,
       })),
       faqs: faqsQ.results.map((r) => ({ q: pick(r.question_en, r.question), a: pick(r.answer_en, r.answer) })),
@@ -94,16 +96,18 @@ export async function getContent(env, locale = "fr") {
         sections: parseJson(r.sections, null),
       })),
       projects: projectsQ.results.map((r) => ({
-        title: r.title,
-        category: r.category,
-        description: r.description,
-        result: r.result,
+        title: pick(r.title_en, r.title),
+        // Les catégories sont les noms de packs : en anglais on affiche le
+        // nom anglais du pack (Essential, Business...) quand il existe.
+        category: en ? packNamesEn[r.category] || r.category : r.category,
+        description: pick(r.description_en, r.description),
+        result: pick(r.result_en, r.result),
         image: r.image,
       })),
       processSteps: stepsQ.results.map((r) => ({
         num: r.num,
-        title: r.title,
-        description: r.description,
+        title: pick(r.title_en, r.title),
+        description: pick(r.description_en, r.description),
       })),
     };
   } catch (e) {

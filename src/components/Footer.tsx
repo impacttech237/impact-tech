@@ -73,7 +73,7 @@ export default function Footer({ settings, locale = "fr" }) {
         <div className="container-it">
           <div className="footer__card">
             <div className="footer__brand">
-              <a href={p("/")} className="footer__logo" aria-label="Impact Tech — Accueil">
+              <a href={p("/")} className="footer__logo" aria-label={locale === "en" ? "Impact Tech — Home" : "Impact Tech — Accueil"}>
                 <img src="/images/logo.png" alt="Impact Tech" />
               </a>
               <p className="footer__tagline">

@@ -1,7 +1,7 @@
-function Card({ t }) {
+function Card({ t, en }) {
   return (
     <article className="testi-card">
-      <div className="testi-stars" aria-label="5 étoiles sur 5">
+      <div className="testi-stars" aria-label={en ? "5 out of 5 stars" : "5 étoiles sur 5"}>
         {Array.from({ length: 5 }).map((_, i) => (
           <svg key={i} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path d="M10 1.5 12.6 7l6 .6-4.5 4 1.3 5.9L10 14.4l-5.4 3.1L5.9 11.6l-4.5-4 6-.6L10 1.5Z" />
@@ -48,7 +48,7 @@ export default function Testimonials({ items, locale = "fr" }) {
       <div className="testi-stage">
         <div className="testi-track">
           {[...TESTIMONIALS, ...TESTIMONIALS].map((t, index) => (
-            <Card key={`${t.name}-${index}`} t={t} />
+            <Card key={`${t.name}-${index}`} t={t} en={locale === "en"} />
           ))}
         </div>
         <div className="testi-drag-hint" aria-hidden="true">

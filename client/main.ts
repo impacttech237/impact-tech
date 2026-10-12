@@ -1017,6 +1017,8 @@ function initBigTitleScene() {
     rotationY: () => gsap.utils.random(-180, 180),
     autoAlpha: 0,
   });
+  // Toutes les lettres sont en place à t=1 ; le scroll « se pose » sur le
+  // repère "lisible" (phrase complète), jamais au milieu de l'assemblage.
   const tl = gsap.timeline({
     scrollTrigger: {
       trigger: section,
@@ -1025,15 +1027,18 @@ function initBigTitleScene() {
       pin: true,
       scrub: 1,
       anticipatePin: 1,
-      snap: { snapTo: [.52, 1], duration: { min: .12, max: .3 }, delay: .06 },
+      snap: { snapTo: "labelsDirectional", duration: { min: .12, max: .3 }, delay: .06 },
     },
   });
   tl
-    .to(chars, { x: 0, y: 0, z: 0, rotationX: 0, rotationY: 0, autoAlpha: 1, stagger: { amount: .65, from: "random" }, duration: 1, ease: "impact-snap" }, 0)
-    .to(".bigtitle__grid", { scale: 1.28, rotation: 5, autoAlpha: .45, duration: 1, ease: "none" }, .45)
-    .to(".bigtitle-line--1", { xPercent: -14, duration: .8, ease: "none" }, 1.05)
-    .to(".bigtitle-line--2", { xPercent: 14, duration: .8, ease: "none" }, 1.05)
-    .to(chars, { y: (i) => i % 2 ? -30 : 30, rotation: (i) => i % 2 ? -3 : 3, duration: .8, ease: "none" }, 1.05);
+    .addLabel("start", 0)
+    .to(chars, { x: 0, y: 0, z: 0, rotationX: 0, rotationY: 0, autoAlpha: 1, stagger: { amount: .4, from: "random" }, duration: .6, ease: "impact-snap" }, 0)
+    .to(".bigtitle__grid", { scale: 1.28, rotation: 5, autoAlpha: .45, duration: 1, ease: "none" }, .3)
+    .addLabel("readable", 1.15)
+    // Sortie : léger glissement des deux lignes, la phrase reste lisible.
+    .to(".bigtitle-line--1", { xPercent: -6, duration: .8, ease: "none" }, 1.3)
+    .to(".bigtitle-line--2", { xPercent: 6, duration: .8, ease: "none" }, 1.3)
+    .addLabel("end");
 }
 
 function initBlogHorizontalScene() {
@@ -2388,9 +2393,10 @@ function initAjaxForms() {
       const errorEl = form.querySelector("[data-form-error]");
       const doneEl = form.parentElement.querySelector("[data-form-done]");
       const originalLabel = submitBtn ? submitBtn.textContent : "";
+      const en = document.documentElement.lang === "en";
 
       if (errorEl) { errorEl.style.display = "none"; errorEl.textContent = ""; }
-      if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = "Envoi en cours..."; }
+      if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = en ? "Sending..." : "Envoi en cours..."; }
 
       try {
         const fd = new FormData(form);
@@ -2400,17 +2406,19 @@ function initAjaxForms() {
           body: JSON.stringify(Object.fromEntries(fd.entries())),
         });
         const data = await res.json();
-        if (!res.ok || !data.ok) throw new Error(data.error || "Erreur d'envoi");
+        // Les messages d'erreur du serveur sont en français : en anglais on
+        // affiche un message générique plutôt qu'un texte FR.
+        if (!res.ok || !data.ok) throw new Error(en ? "" : data.error || "Erreur d'envoi");
 
         form.style.display = "none";
         if (doneEl) doneEl.style.display = "";
       } catch (err) {
         if (errorEl) {
-          errorEl.textContent = err.message || "Erreur d'envoi, réessayez ou écrivez-nous sur WhatsApp.";
+          errorEl.textContent = err.message || (en ? "Something went wrong. Please try again or message us on WhatsApp." : "Erreur d'envoi, réessayez ou écrivez-nous sur WhatsApp.");
           errorEl.style.display = "";
         } else if (doneEl) {
           doneEl.style.display = "";
-          doneEl.textContent = "✓ Merci !";
+          doneEl.textContent = en ? "✓ Thank you!" : "✓ Merci !";
         }
         if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = originalLabel; }
       }

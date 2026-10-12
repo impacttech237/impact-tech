@@ -92,7 +92,7 @@ export default function ContactSection({ settings, locale = "fr" }) {
               <div>
                 <h3>{en ? "Hours" : "Horaires"}</h3>
                 <p>{s.hours}</p>
-                <p className="contact__info-note">{s.hours_note}</p>
+                <p className="contact__info-note">{en ? s.hours_note_en || "Emergency on a live website? WhatsApp, 7 days a week." : s.hours_note}</p>
               </div>
             </div>
           </div>

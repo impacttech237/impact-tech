@@ -14,7 +14,11 @@ CREATE TABLE IF NOT EXISTS stats (
   label      TEXT,
   note       TEXT,
   sort_order INTEGER DEFAULT 0,
-  active     INTEGER DEFAULT 1
+  active     INTEGER DEFAULT 1,
+  -- Bilingue EN (db/migrate-bilingual-v2.sql)
+  label_en TEXT,
+  note_en TEXT,
+  suffix_en TEXT
 );
 
 -- Table "services" dépréciée (refonte : chaque pack EST le service, cf. "offers"
@@ -77,7 +81,10 @@ CREATE TABLE IF NOT EXISTS testimonials (
   text       TEXT,
   initials   TEXT,
   sort_order INTEGER DEFAULT 0,
-  active     INTEGER DEFAULT 1
+  active     INTEGER DEFAULT 1,
+  -- Bilingue EN (db/migrate-bilingual-v2.sql)
+  role_en TEXT,
+  text_en TEXT
 );
 
 CREATE TABLE IF NOT EXISTS faqs (
@@ -118,7 +125,11 @@ CREATE TABLE IF NOT EXISTS projects (
   result      TEXT,
   image       TEXT,
   sort_order  INTEGER DEFAULT 0,
-  active      INTEGER DEFAULT 1
+  active      INTEGER DEFAULT 1,
+  -- Bilingue EN (db/migrate-bilingual-v2.sql)
+  title_en TEXT,
+  description_en TEXT,
+  result_en TEXT
 );
 
 CREATE TABLE IF NOT EXISTS process_steps (
@@ -127,7 +138,10 @@ CREATE TABLE IF NOT EXISTS process_steps (
   title       TEXT,
   description TEXT,
   sort_order  INTEGER DEFAULT 0,
-  active      INTEGER DEFAULT 1
+  active      INTEGER DEFAULT 1,
+  -- Bilingue EN (db/migrate-bilingual-v2.sql)
+  title_en TEXT,
+  description_en TEXT
 );
 
 CREATE TABLE IF NOT EXISTS contact_requests (
