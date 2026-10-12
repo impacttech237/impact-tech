@@ -51,6 +51,7 @@ const fr = {
   all_good_sub: "On avance sur votre projet. Vous serez prévenu dès qu'on aura besoin de vous.",
   more_actions: "+ {n} autre(s) chose(s) à faire",
   a_sign: "Signer « {t} »",
+  a_questionnaire: "Remplir le questionnaire « {t} »",
   a_validate: "Valider « {t} »",
   a_accept_quote: "Répondre au devis « {t} »",
   a_pay: "Régler « {t} » ({a})",
@@ -271,6 +272,8 @@ const fr = {
   act_round_closed: "{d}",
   act_vault_added: "Accès ajouté : {d}",
   act_review: "Avis envoyé : {d}",
+  act_questionnaire_sent: "Questionnaire à remplir : {d}",
+  act_questionnaire_submitted: "Questionnaire envoyé : {d}",
 };
 
 const en: typeof fr = {
@@ -321,6 +324,7 @@ const en: typeof fr = {
   all_good_sub: "We're working on your project. You'll be notified as soon as we need you.",
   more_actions: "+ {n} more thing(s) to do",
   a_sign: "Sign \"{t}\"",
+  a_questionnaire: "Fill in the questionnaire \"{t}\"",
   a_validate: "Approve \"{t}\"",
   a_accept_quote: "Reply to the quote \"{t}\"",
   a_pay: "Pay \"{t}\" ({a})",
@@ -531,6 +535,8 @@ const en: typeof fr = {
   act_round_closed: "{d}",
   act_vault_added: "Credentials added: {d}",
   act_review: "Review sent: {d}",
+  act_questionnaire_sent: "Questionnaire to fill in: {d}",
+  act_questionnaire_submitted: "Questionnaire sent: {d}",
 };
 
 export type Key = keyof typeof fr;

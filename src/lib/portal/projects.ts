@@ -210,24 +210,31 @@ export async function createProjectFromTemplate(
 /* ── Résumé côté client : où en est mon projet / que dois-je faire / quoi de neuf ── */
 
 export interface NextAction {
-  type: "sign" | "validate" | "checklist" | "pay" | "accept_quote" | "message" | "review";
+  type: "sign" | "validate" | "checklist" | "pay" | "accept_quote" | "message" | "review" | "questionnaire";
   label: string;
   title?: string;
   amount?: string;
   kind?: string;
+  url?: string;
   target: string; // onglet / identifiant à ouvrir dans le portail
   id?: number;
   due?: string | null;
 }
 
 export async function projectSnapshot(db: any, projectId: number) {
-  const [steps, checklist, docs, invoices, unread, requests] = await db.batch([
+  const [steps, checklist, docs, invoices, unread, requests, questionnaires] = await db.batch([
     db.prepare("SELECT * FROM project_steps WHERE project_id = ? ORDER BY sort_order, id").bind(projectId),
     db.prepare("SELECT id, label, help, kind, category, config, answer, status, due_date, sort_order FROM checklist_items WHERE project_id = ? ORDER BY sort_order, id").bind(projectId),
     db.prepare("SELECT id, title, category, status, needs_signature, sent_at, created_at FROM client_documents WHERE project_id = ? AND status != 'draft' ORDER BY created_at DESC").bind(projectId),
     db.prepare("SELECT id, kind, number, title, amount, currency, status, due_date FROM invoices WHERE project_id = ? AND status != 'brouillon' ORDER BY created_at DESC").bind(projectId),
     db.prepare("SELECT COUNT(*) AS n FROM messages WHERE project_id = ? AND author != 'client' AND read_by_client_at IS NULL").bind(projectId),
     db.prepare("SELECT COUNT(*) AS n FROM project_requests WHERE project_id = ? AND status IN ('nouveau','en_cours')").bind(projectId),
+    // Questionnaires du projet, ou du client sans projet précis.
+    db.prepare(
+      `SELECT q.token, q.title, q.status FROM questionnaires q
+       WHERE q.status IN ('sent','in_progress') AND (q.project_id = ? OR (q.project_id IS NULL AND q.client_id = (SELECT client_id FROM client_projects WHERE id = ?)))
+       ORDER BY q.created_at`
+    ).bind(projectId, projectId),
   ]);
   return {
     steps: steps.results || [],
@@ -236,6 +243,7 @@ export async function projectSnapshot(db: any, projectId: number) {
     invoices: invoices.results || [],
     unreadMessages: unread.results?.[0]?.n || 0,
     openRequests: requests.results?.[0]?.n || 0,
+    questionnaires: questionnaires.results || [],
   };
 }
 
@@ -249,6 +257,7 @@ export function computeProgress(steps: any[]) {
 
 export function clientNextActions(snap: Awaited<ReturnType<typeof projectSnapshot>>): NextAction[] {
   const actions: NextAction[] = [];
+  for (const q of snap.questionnaires) actions.push({ type: "questionnaire", label: `Remplir « ${q.title} »`, title: q.title, target: "home", url: `/q/${q.token}` });
   for (const d of snap.documents) if (d.needs_signature && d.status === "sent") actions.push({ type: "sign", label: `Signer « ${d.title} »`, title: d.title, target: "documents", id: d.id });
   for (const s of snap.steps) if (s.status === "review" && s.needs_validation) actions.push({ type: "validate", label: `Valider l'étape « ${s.title} »`, title: s.title, target: "home", id: s.id });
   for (const inv of snap.invoices) {

@@ -20,6 +20,7 @@ export async function runScheduled(env: any, cron?: string) {
     ["checklist", () => checklistReminders(env)],
     ["signatures", () => signatureReminders(env)],
     ["invoices", () => invoiceReminders(env)],
+    ["questionnaires", () => questionnaireReminders(env)],
     ["renewals", () => renewalReminders(env)],
     ["health", () => healthChecks(env)],
   ];
@@ -89,6 +90,30 @@ async function signatureReminders(env: any) {
       cta: "Lire et signer",
     });
     await logActivity(env.DB, { projectId: d.project_id, actor: "system", action: "reminder_signature", detail: d.title, visible: false });
+  }
+}
+
+/* Questionnaire ouvert ou non, pas envoyé après 3 jours : un seul rappel. */
+async function questionnaireReminders(env: any) {
+  const limit = new Date(Date.now() - 3 * DAY).toISOString();
+  const { results } = await env.DB.prepare(
+    `SELECT q.id, q.token, q.title, q.project_id, q.client_id, c.name, c.email, c.locale, c.slug, c.access_token
+     FROM questionnaires q JOIN clients c ON c.id = q.client_id
+     WHERE q.status IN ('sent','in_progress') AND q.created_at < ? AND c.email != ''
+       AND NOT EXISTS (SELECT 1 FROM activity_log a WHERE a.client_id = q.client_id AND a.action = 'reminder_questionnaire' AND a.detail = q.title)`
+  )
+    .bind(limit)
+    .all();
+  for (const q of results || []) {
+    await notifyClient(q, {
+      subject: `Petit rappel : « ${q.title} »`,
+      title: "Votre questionnaire attend vos réponses",
+      body: `Il ne prend que quelques minutes, et vos réponses sont enregistrées au fur et à mesure.
+
+Le lien : https://impacttech237.com/q/${q.token}`,
+      cta: "Ouvrir mon espace",
+    });
+    await logActivity(env.DB, { projectId: q.project_id, clientId: q.client_id, actor: "system", action: "reminder_questionnaire", detail: q.title, visible: false });
   }
 }
 

@@ -8,6 +8,7 @@ import projects from "./projects";
 import documents from "./documents";
 import comms from "./comms";
 import billing from "./billing";
+import questionnaires from "./questionnaires";
 
 const app = new Hono();
 
@@ -24,5 +25,6 @@ app.route("/", projects);
 app.route("/", documents);
 app.route("/", comms);
 app.route("/", billing);
+app.route("/", questionnaires);
 
 export default app;

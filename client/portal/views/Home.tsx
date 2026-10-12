@@ -38,7 +38,7 @@ export function Home() {
         <h2 id="next-title" class="pt-h2">{t("next_action")}</h2>
         {first ? (
           <Card tone="accent">
-            <button type="button" class="pt-action" onClick={() => go(first.target, first.type === "sign" ? first.id : undefined)}>
+            <button type="button" class="pt-action" onClick={() => (first.url ? (location.href = first.url) : go(first.target, first.type === "sign" ? first.id : undefined))}>
               <span class="pt-action__icon">
                 <Icon name={first.type === "checklist" ? KIND_ICON[first.kind] || "upload" : ACTION_ICON[first.type] || "todo"} />
               </span>
@@ -125,7 +125,7 @@ export function Home() {
 }
 
 const KIND_ICON: Record<string, string> = { file: "upload", form: "pen", access: "key", confirm: "check" };
-const ACTION_ICON: Record<string, string> = { sign: "pen", checklist: "upload", pay: "money", accept_quote: "money", message: "chat", validate: "check" };
+const ACTION_ICON: Record<string, string> = { questionnaire: "pen", sign: "pen", checklist: "upload", pay: "money", accept_quote: "money", message: "chat", validate: "check" };
 
 export function actionLabel(a: any) {
   const key = `a_${a.type}`;

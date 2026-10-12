@@ -28,6 +28,7 @@ import InvoicesTab from "./ws/InvoicesTab";
 import VaultTab from "./ws/VaultTab";
 import DeliveryTab from "./ws/DeliveryTab";
 import ActivityTab from "./ws/ActivityTab";
+import Questionnaires from "./Questionnaires";
 
 export default function ProjectWorkspace({ projectId, onBack }) {
   const { data, error, reload } = useLoad(`projects/${projectId}`);
@@ -44,6 +45,7 @@ export default function ProjectWorkspace({ projectId, onBack }) {
   const tabs = [
     { key: "steps", label: "Étapes", Icon: CheckCircle },
     { key: "checklist", label: "Attendu du client", Icon: ClipboardList, badge: toCheck || null },
+    { key: "questionnaires", label: "Questionnaires", Icon: ClipboardList },
     { key: "documents", label: "Documents", Icon: FileText },
     { key: "files", label: "Fichiers", Icon: File, badge: null },
     { key: "messages", label: "Messages", Icon: MessageCircle, badge: data.counts.unreadMessages || null },
@@ -101,6 +103,7 @@ export default function ProjectWorkspace({ projectId, onBack }) {
 
       {tab === "steps" && <StepsTab data={data} reload={reload} />}
       {tab === "checklist" && <ChecklistTab data={data} reload={reload} />}
+      {tab === "questionnaires" && <Questionnaires clientId={p.client_id} projectId={p.id} />}
       {tab === "documents" && <DocumentsTab project={p} />}
       {tab === "files" && <FilesTab project={p} />}
       {tab === "messages" && <MessagesTab project={p} onRead={reload} />}

@@ -14,6 +14,8 @@ import surveysApi from "./api/surveys";
 import appointmentsApi from "./api/appointments";
 import portalApi from "./api/portal";
 import feedbackApi from "./api/feedback";
+import questionnairesApi from "./api/questionnaires";
+import QuestionnairePage from "./pages/questionnaire";
 import { setEmailEnv } from "./lib/email";
 import { findClientByKey } from "./lib/portal-auth";
 import { applyInvoicePayment } from "./lib/portal/billing";
@@ -515,6 +517,12 @@ app.route("/api/appointments", appointmentsApi);
 
 /* ---------- API portail client ---------- */
 app.route("/api/portal", portalApi);
+
+/* ---------- Questionnaires clients (/q/<token>) ---------- */
+app.route("/api/q", questionnairesApi);
+app.get("/q/:token", (c) =>
+  c.html(`<!doctype html>${<QuestionnairePage token={c.req.param("token")} />}`, 200, { "cache-control": "no-store", "x-frame-options": "DENY" })
+);
 
 /* ---------- Widget de retours (sites en développement) ---------- */
 app.route("/api/feedback", feedbackApi);

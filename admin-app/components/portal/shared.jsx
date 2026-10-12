@@ -113,6 +113,9 @@ export const ACTION_LABEL = {
   client_created: "Client créé",
   link_sent: "Lien envoyé",
   manual_code: "Code manuel généré",
+  questionnaire_sent: "Questionnaire créé",
+  questionnaire_submitted: "Questionnaire rempli",
+  reminder_questionnaire: "Relance questionnaire",
 };
 
 export function CopyButton({ text, label = "Copier", size = "sm", variant = "secondary" }) {

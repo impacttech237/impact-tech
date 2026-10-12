@@ -290,3 +290,39 @@ export async function invoicePdf(params: {
   writeText(w, `Impact Tech — impacttech237.com${params.issuer.phone ? ` — ${params.issuer.phone}` : ""}${params.issuer.email ? ` — ${params.issuer.email}` : ""}`, { size: 8.5, color: MUTED });
   return w.doc.save();
 }
+
+/* ── Réponses d'un questionnaire client ── */
+export async function questionnairePdf(params: {
+  title: string;
+  clientName?: string;
+  submittedAt?: string | null;
+  updatedAt?: string | null;
+  sections: { title: string; items: { label: string; group?: string; value: string }[] }[];
+}): Promise<Uint8Array> {
+  const w = await newWriter();
+  brandHeader(w, "Questionnaire client");
+  writeText(w, params.title, { size: 17, bold: true, gap: 4 });
+  const meta = [
+    params.clientName ? `Client : ${params.clientName}` : "",
+    params.submittedAt ? `Envoyé le ${params.submittedAt}` : params.updatedAt ? `Brouillon enregistré le ${params.updatedAt}` : "",
+  ].filter(Boolean);
+  if (meta.length) writeText(w, meta.join("   ·   "), { color: MUTED, gap: 12 });
+
+  for (const s of params.sections) {
+    ensureSpace(w, 60);
+    w.y -= 6;
+    w.page.drawLine({ start: { x: MARGIN, y: w.y }, end: { x: A4[0] - MARGIN, y: w.y }, thickness: 0.6, color: RED });
+    w.y -= 14;
+    writeText(w, s.title, { size: 13, bold: true, gap: 6 });
+    let lastGroup = "";
+    for (const it of s.items) {
+      if (it.group && it.group !== lastGroup) {
+        writeText(w, it.group, { size: 10, bold: true, color: RED, gap: 1 });
+        lastGroup = it.group;
+      }
+      writeText(w, it.label, { size: 9.5, bold: true, color: MUTED });
+      writeText(w, it.value || "—", { size: 10.5, color: it.value ? INK : MUTED, gap: 7 });
+    }
+  }
+  return w.doc.save();
+}

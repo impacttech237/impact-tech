@@ -54,9 +54,9 @@ await build({
   sourcemap: false,
 });
 
-// Portail client (Preact) : produit public/portal.js + public/portal.css.
+// Portail client et questionnaires (Preact) : public/portal.js|css + public/questionnaire.js|css.
 await build({
-  entryPoints: { portal: "client/portal/main.tsx" },
+  entryPoints: { portal: "client/portal/main.tsx", questionnaire: "client/questionnaire/main.tsx" },
   outdir: "public",
   bundle: true,
   format: "esm",

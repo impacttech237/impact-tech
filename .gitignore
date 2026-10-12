@@ -21,3 +21,8 @@ public/admin/bundle.js
 public/portal.js
 public/portal.css
 public/feedback.js
+public/questionnaire.js
+public/questionnaire.css
+
+# Questionnaires clients (contiennent des infos clients, dépôt public)
+questionnaires/
