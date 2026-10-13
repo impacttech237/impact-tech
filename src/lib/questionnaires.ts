@@ -101,8 +101,38 @@ function normalizeField(f: any, path: string, seen: Set<string>, nested = false)
   return out;
 }
 
-/* Valide et nettoie une définition ; lève une Error lisible sinon. */
-export function normalizeDefinition(input: any): QDefinition {
+/* Coordonnées : toujours demandées, en première étape. Elles complètent la
+   fiche du client (voir src/api/questionnaires.ts) pour l'envoi du code
+   d'accès par email ou WhatsApp. */
+export const CONTACT_PHONE = "contactPhone";
+export const CONTACT_EMAIL = "contactEmail";
+
+function contactSection(locale: string): QSection {
+  const en = locale === "en";
+  return {
+    title: en ? "Your contact details" : "Vos coordonnées",
+    context: en
+      ? "So we can send you the access code to your client space and keep you posted on your project."
+      : "Pour vous envoyer le code d'accès à votre espace client et vous tenir informé de votre projet.",
+    fields: [
+      { id: CONTACT_PHONE, type: "tel", label: en ? "Your WhatsApp number" : "Votre numéro WhatsApp", placeholder: en ? "E.g. +237 6 90 00 00 00" : "Ex : 6 90 00 00 00", half: true },
+      { id: CONTACT_EMAIL, type: "email", label: en ? "Your email" : "Votre email", placeholder: en ? "E.g. name@company.com" : "Ex : nom@entreprise.cm", half: true },
+    ],
+  };
+}
+
+/* Valide et nettoie une définition ; lève une Error lisible sinon.
+   Ajoute la section « Vos coordonnées » si elle n'y est pas déjà. */
+export function normalizeDefinition(input: any, locale = "fr"): QDefinition {
+  const def = typeof input === "string" ? JSON.parse(input) : input;
+  if (def && Array.isArray(def.sections)) {
+    const has = (id: string) => def.sections.some((s: any) => Array.isArray(s?.fields) && s.fields.some((f: any) => f?.id === id));
+    if (!has(CONTACT_PHONE) && !has(CONTACT_EMAIL)) def.sections = [contactSection(locale), ...def.sections];
+  }
+  return normalizeRaw(def);
+}
+
+function normalizeRaw(input: any): QDefinition {
   const def = typeof input === "string" ? JSON.parse(input) : input;
   if (!def || typeof def !== "object") throw new Error("Définition vide");
   const title = str(def.title, 200);

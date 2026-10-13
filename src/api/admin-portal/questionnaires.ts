@@ -39,7 +39,7 @@ app.post("/questionnaires", async (c) => {
   const body = await c.req.json().catch(() => null);
   let def;
   try {
-    def = normalizeDefinition(body?.definition);
+    def = normalizeDefinition(body?.definition, body?.locale === "en" ? "en" : "fr");
   } catch (e) {
     return c.json({ ok: false, error: `Définition invalide : ${(e as Error).message}` }, 400);
   }
