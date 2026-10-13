@@ -112,6 +112,39 @@ export async function storeAuthCode(env: any, clientId: number, validitySeconds 
   return code;
 }
 
+/* 5 tentatives de connexion par heure et par client : demandes de code
+   (email ou WhatsApp), codes faux et numéros faux comptent ensemble. */
+export const MAX_LOGIN_TRIES_PER_HOUR = 5;
+export const LOGIN_TRY_ACTIONS = ["code_requested", "code_requested_whatsapp", "code_failed", "code_phone_mismatch"];
+
+export async function loginTriesLeft(db: any, clientId: number): Promise<{ ok: boolean; retryMinutes: number }> {
+  const since = new Date(Date.now() - 3600 * 1000).toISOString();
+  const row = await db
+    .prepare(
+      `SELECT COUNT(*) AS n, MIN(created_at) AS first FROM activity_log
+       WHERE client_id = ? AND created_at > ? AND action IN (${LOGIN_TRY_ACTIONS.map(() => "?").join(",")})`
+    )
+    .bind(clientId, since, ...LOGIN_TRY_ACTIONS)
+    .first();
+  if ((row?.n || 0) < MAX_LOGIN_TRIES_PER_HOUR) return { ok: true, retryMinutes: 0 };
+  const freeAt = new Date(row.first).getTime() + 3600 * 1000;
+  return { ok: false, retryMinutes: Math.max(1, Math.ceil((freeAt - Date.now()) / 60000)) };
+}
+
+/* Même numéro ? On compare les 9 derniers chiffres (indicatif +237 facultatif). */
+export function samePhone(a: string, b: string): boolean {
+  const x = String(a || "").replace(/\D/g, "");
+  const y = String(b || "").replace(/\D/g, "");
+  if (x.length < 8 || y.length < 8) return false;
+  return x.slice(-9) === y.slice(-9);
+}
+
+export function maskPhone(phone: string): string {
+  const d = String(phone || "").replace(/\D/g, "");
+  if (d.length < 4) return "";
+  return `${d.length > 9 ? `+${d.slice(0, d.length - 9)} ` : ""}${d.slice(-9, -8)}•• •• •• ${d.slice(-2)}`;
+}
+
 export function canResendCode(client: any): boolean {
   if (!client.code_sent_at) return true;
   return Date.now() - new Date(client.code_sent_at).getTime() > CODE_RESEND_DELAY * 1000;

@@ -94,7 +94,7 @@ export function notifyClient(client: any, msg: { subject: string; title: string;
 }
 
 /* Notification à Impact Tech (admin). */
-export function notifyAdmin(msg: { subject: string; title: string; lines: string[]; url?: string }) {
+export function notifyAdmin(msg: { subject: string; title: string; lines: string[]; url?: string; cta?: string }) {
   return sendEmailDetailed({
     to: ADMIN_EMAIL,
     toName: "Impact Tech",
@@ -102,6 +102,6 @@ export function notifyAdmin(msg: { subject: string; title: string; lines: string
     html: baseLayout(`
       <h2 style="margin:0 0 16px;color:#f7efd9;font-size:20px">${escapeHtml(msg.title)}</h2>
       ${msg.lines.map((l) => `<p style="margin:6px 0">${escapeHtml(l)}</p>`).join("")}
-      ${button("Ouvrir dans l'admin", msg.url || `${SITE_URL}/admin/`)}`),
+      ${button(msg.cta || "Ouvrir dans l'admin", msg.url || `${SITE_URL}/admin/`)}`),
   });
 }

@@ -9,17 +9,33 @@ import {
   clientCookieHeader,
   createClientSession,
   currentClient,
+  EMAIL_CODE_VALIDITY,
   findClientByKey,
+  loginTriesLeft,
+  MANUAL_CODE_VALIDITY,
+  maskPhone,
+  samePhone,
   storeAuthCode,
 } from "../../lib/portal-auth";
 import { emailConfigured } from "../../lib/email";
-import { sendCodeEmail, portalUrl } from "../../lib/portal/mail";
-import { clientIp, logActivity, nowIso, portalSettings } from "../../lib/portal/util";
+import { sendWhatsappCode, whatsappConfigured } from "../../lib/whatsapp";
+import { notifyAdmin, sendCodeEmail, portalUrl } from "../../lib/portal/mail";
+import { clientIp, logActivity, nowIso, portalSettings, waLink } from "../../lib/portal/util";
 import { SITE_URL } from "../../lib/seo";
 import { fail, withClient } from "./common";
 
 const app = new Hono();
 const MAX_CODES_PER_DAY = 8;
+
+/* Plus de 5 tentatives dans l'heure : on bloque (réponse 429). */
+async function tooManyTries(c: any, client: any) {
+  const left = await loginTriesLeft(c.env.DB, client.id);
+  if (left.ok) return null;
+  return c.json(
+    { ok: false, code: "rate_limited", error: `Trop de tentatives. Pour votre sécurité, réessayez dans ${left.retryMinutes} minute${left.retryMinutes > 1 ? "s" : ""}.` },
+    429
+  );
+}
 
 function maskEmail(email: string) {
   if (!email || !email.includes("@")) return "";
@@ -40,6 +56,7 @@ app.get("/lookup", async (c) => {
     firstName: String(client.name || "").split(" ")[0],
     locale: client.locale || "fr",
     hasEmail: !!client.email,
+    hasPhone: !!client.phone,
     email: maskEmail(client.email),
     emailEnabled: emailConfigured(c.env),
     whatsapp: settings.whatsapp,
@@ -54,6 +71,8 @@ app.post("/request-code", async (c) => {
   if (!client.email) return c.json({ ok: false, code: "no_email", error: "Aucun email enregistré : demandez votre code par WhatsApp." }, 400);
   if (!emailConfigured(c.env)) return c.json({ ok: false, code: "email_unavailable", error: "L'envoi par email est momentanément indisponible : demandez votre code par WhatsApp." }, 503);
   if (!canResendCode(client)) return c.json({ ok: false, code: "too_soon", error: "Un code vient d'être envoyé. Patientez quelques secondes avant d'en redemander un." }, 429);
+  const limited = await tooManyTries(c, client);
+  if (limited) return limited;
   // Plafond quotidien : protège le quota d'emails et limite le bruteforce
   // (chaque nouveau code redonne 5 essais).
   const since = new Date(Date.now() - 24 * 3600 * 1000).toISOString();
@@ -71,13 +90,67 @@ app.post("/request-code", async (c) => {
   return c.json({ ok: true, email: maskEmail(client.email) });
 });
 
+/* Code par WhatsApp : le client confirme le numéro enregistré dans sa fiche.
+   S'il correspond, le code part automatiquement sur ce numéro (et seulement
+   celui-là) via l'API WhatsApp. Si l'API n'est pas configurée ou échoue,
+   Impact Tech reçoit un email avec un lien WhatsApp prêt à envoyer. */
+app.post("/request-code-whatsapp", async (c) => {
+  if (!c.env.DB) return fail(c, "Base indisponible", 503);
+  const body = await c.req.json().catch(() => null);
+  const client = await findClientByKey(c.env.DB, body?.key || "");
+  if (!client) return fail(c, "Lien invalide", 404);
+  if (!client.phone) return c.json({ ok: false, code: "no_phone", error: "Aucun numéro n'est enregistré pour votre espace : écrivez-nous sur WhatsApp." }, 400);
+  const limited = await tooManyTries(c, client);
+  if (limited) return limited;
+
+  if (!samePhone(body?.phone, client.phone)) {
+    await logActivity(c.env.DB, { clientId: client.id, actor: "client", action: "code_phone_mismatch", visible: false, ip: clientIp(c) });
+    return c.json({ ok: false, code: "phone_mismatch", error: "Ce numéro ne correspond pas à celui de votre dossier. Utilisez le numéro WhatsApp que vous nous avez donné." }, 400);
+  }
+  if (!canResendCode(client)) return c.json({ ok: false, code: "too_soon", error: "Un code vient d'être envoyé. Patientez quelques secondes avant d'en redemander un." }, 429);
+  await logActivity(c.env.DB, { clientId: client.id, actor: "client", action: "code_requested_whatsapp", visible: false, ip: clientIp(c) });
+
+  // Envoi automatique (code valable 15 min, comme par email).
+  if (whatsappConfigured(c.env)) {
+    const code = await storeAuthCode(c.env, client.id, EMAIL_CODE_VALIDITY);
+    const sent = await sendWhatsappCode(c.env, client.phone, code, client.locale);
+    if (sent.ok) {
+      await logActivity(c.env.DB, { clientId: client.id, actor: "system", action: "code_sent_whatsapp", visible: false });
+      return c.json({ ok: true, auto: true, phone: maskPhone(client.phone) });
+    }
+    console.error("whatsapp code:", sent.error);
+    await logActivity(c.env.DB, { clientId: client.id, actor: "system", action: "whatsapp_failed", detail: sent.error, visible: false });
+  }
+
+  // Repli manuel : code valable 24 h, envoyé par Impact Tech en un clic.
+  const code = await storeAuthCode(c.env, client.id, MANUAL_CODE_VALIDITY);
+  const first = String(client.name || "").split(" ")[0];
+  const text =
+    client.locale === "en"
+      ? `Hello ${first}, your Impact Tech access code is ${code} (valid 24h). Your space: ${portalUrl(client)}`
+      : `Bonjour ${first}, votre code d'accès Impact Tech est ${code} (valable 24 h). Votre espace : ${portalUrl(client)}`;
+  c.executionCtx.waitUntil(
+    notifyAdmin({
+      subject: `🔑 Code demandé sur WhatsApp — ${client.company || client.name}`,
+      title: `${client.name} demande son code d'accès`,
+      lines: [`Numéro vérifié : ${client.phone}.`, "Touchez le bouton : le message avec le code s'ouvre dans WhatsApp, il ne reste qu'à l'envoyer.", "Le code est valable 24 h."],
+      url: waLink(client.phone, text),
+      cta: "Envoyer le code sur WhatsApp",
+    })
+  );
+  return c.json({ ok: true, auto: false, phone: maskPhone(client.phone) });
+});
+
 app.post("/verify-code", async (c) => {
   if (!c.env.DB) return fail(c, "Base indisponible", 503);
   const body = await c.req.json().catch(() => null);
   const client = await findClientByKey(c.env.DB, body?.key || body?.accessToken || "");
   if (!client) return fail(c, "Lien invalide", 404);
 
+  const limited = await tooManyTries(c, client);
+  if (limited) return limited;
   const result = await checkAuthCode(c.env, client, String(body?.code || ""));
+  if (result !== "ok") await logActivity(c.env.DB, { clientId: client.id, actor: "client", action: "code_failed", detail: result, visible: false, ip: clientIp(c) });
   if (result === "expired") return fail(c, "Ce code a expiré. Demandez-en un nouveau.", 401);
   if (result === "locked") return fail(c, "Trop d'essais. Demandez un nouveau code.", 429);
   if (result === "invalid") return fail(c, "Code incorrect. Vérifiez et réessayez.", 401);

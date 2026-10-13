@@ -192,7 +192,7 @@ const fr: GuideText = {
   },
   faq: [
     { q: "Je dois me reconnecter à chaque fois ?", a: "Non. Une fois connecté avec votre code, vous restez connecté 90 jours sur cet appareil. Sur un nouvel appareil, demandez un nouveau code (par email ou sur WhatsApp)." },
-    { q: "Je n'ai pas reçu mon code de connexion", a: "Regardez dans vos spams. Sinon, touchez « Demander mon code sur WhatsApp » sur la page de connexion : on vous l'envoie rapidement." },
+    { q: "Je n'ai pas reçu mon code de connexion", a: "Par email, regardez aussi dans vos spams. Sinon, touchez « Recevoir mon code sur WhatsApp » et indiquez le numéro que vous nous avez donné : on vous envoie le code sur ce numéro. Pour votre sécurité, l'espace accepte 5 tentatives par heure (demandes de code et codes saisis) : au-delà, patientez quelques minutes." },
     { q: "Puis-je envoyer de grosses vidéos ?", a: "Oui, jusqu'à 5 Go par fichier. Gardez la page ouverte pendant l'envoi ; si la connexion coupe, relancez simplement l'envoi du fichier." },
     { q: "Qui voit mes fichiers et mes accès ?", a: "Seulement vous et l'équipe Impact Tech. Les accès (mots de passe) sont chiffrés." },
     { q: "Comment valider une étape ?", a: "Sur l'Accueil, une étape « À valider » affiche deux boutons : « Je valide » si tout vous convient, ou « Je veux des changements » en expliquant quoi changer." },
@@ -339,7 +339,7 @@ const en: GuideText = {
   },
   faq: [
     { q: "Do I have to log in every time?", a: "No. Once logged in with your code, you stay logged in for 90 days on this device. On a new device, ask for a new code (by email or on WhatsApp)." },
-    { q: "I didn't receive my login code", a: "Check your spam folder. Otherwise, tap “Ask for my code on WhatsApp” on the login page: we'll send it quickly." },
+    { q: "I didn't receive my login code", a: "By email, also check your spam folder. Otherwise, tap “Get my code on WhatsApp” and enter the number you gave us: we send the code to that number. For your security, the space allows 5 attempts per hour (code requests and codes entered): beyond that, wait a few minutes." },
     { q: "Can I send large videos?", a: "Yes, up to 5 GB per file. Keep the page open while it uploads; if the connection drops, just upload the file again." },
     { q: "Who can see my files and access?", a: "Only you and the Impact Tech team. Access details (passwords) are encrypted." },
     { q: "How do I approve a step?", a: "On Home, a step “To approve” shows two buttons: “I approve” if you're happy, or “I'd like changes” with what to change." },
