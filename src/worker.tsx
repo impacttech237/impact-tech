@@ -211,7 +211,7 @@ app.get("/espace/:slug/manifest.webmanifest", (c) => {
       display: "standalone",
       background_color: "#0E0E0C",
       theme_color: "#0E0E0C",
-      icons: [{ src: "/icon-square.png", sizes: "512x512", type: "image/png", purpose: "any maskable" }],
+      icons: [{ src: "/icon-square.png?v=2", sizes: "512x512", type: "image/png", purpose: "any maskable" }],
     },
     200,
     { "content-type": "application/manifest+json" }

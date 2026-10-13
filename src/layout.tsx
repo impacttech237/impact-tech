@@ -36,8 +36,8 @@ export default function Layout({
         <link rel="alternate" hrefLang="fr" href={`${SITE_URL}${frPath}`} />
         <link rel="alternate" hrefLang="en" href={`${SITE_URL}${enPath}`} />
         <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}${frPath}`} />
-        <link rel="icon" href="/icon-square.png" />
-        <link rel="apple-touch-icon" href="/icon-square.png" />
+        <link rel="icon" href="/icon-square.png?v=2" />
+        <link rel="apple-touch-icon" href="/icon-square.png?v=2" />
         <link rel="manifest" href="/manifest.json" />
 
         {/* Open Graph / réseaux sociaux (WhatsApp, Facebook...) */}

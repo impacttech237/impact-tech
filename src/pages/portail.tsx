@@ -16,8 +16,17 @@ export default function PortailPage({ accessKey }: { accessKey: string }) {
         <meta name="robots" content="noindex, nofollow" />
         <meta name="referrer" content="same-origin" />
         <title>Mon espace — Impact Tech</title>
-        <link rel="icon" href="/icon-square.png" />
-        <link rel="apple-touch-icon" href="/icon-square.png" />
+        <link rel="icon" href="/icon-square.png?v=2" />
+        <link rel="apple-touch-icon" href="/icon-square.png?v=2" />
+        {/* Aperçu des liens (WhatsApp, Facebook…) : l'icône Impact Tech. */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Impact Tech" />
+        <meta property="og:title" content="Votre espace client Impact Tech" />
+        <meta property="og:description" content="Suivez votre projet, envoyez vos fichiers et échangez avec l'équipe, au même endroit." />
+        <meta property="og:image" content="https://impacttech237.com/images/og-icone.jpg" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:image:alt" content="Impact Tech" />
         {accessKey && <link rel="manifest" href={`/espace/${encodeURIComponent(accessKey)}/manifest.webmanifest`} />}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Impact Tech" />

@@ -18,7 +18,7 @@ export const organizationJsonLd = {
   "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: SITE_URL,
-  logo: `${SITE_URL}/icon-square.png`,
+  logo: `${SITE_URL}/icon-square.png?v=2`,
   image: `${SITE_URL}/images/og-cover.png`,
   description:
     "Agence web au Cameroun : sites internet, boutiques en ligne (Mobile Money), applications et logiciels sur-mesure. Paiement à la livraison uniquement.",

@@ -65,7 +65,7 @@ function renderIntro() {
   root.appendChild(
     h("div", { className: "survey-container" },
       h("div", { className: "survey-card" },
-        h("img", { src: "/icon-square.png", alt: "Impact Tech", className: "survey-logo" }),
+        h("img", { src: "/images/icone-transparent.png", alt: "Impact Tech", className: "survey-logo" }),
         h("h1", { className: "survey-title" }, form.title),
         form.description ? h("p", { className: "survey-desc" }, form.description) : document.createTextNode(""),
         h("p", { className: "survey-meta" },

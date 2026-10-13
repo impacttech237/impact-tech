@@ -14,7 +14,16 @@ export default function QuestionnairePage({ token }: { token: string }) {
         <meta name="robots" content="noindex, nofollow" />
         <meta name="referrer" content="same-origin" />
         <title>Questionnaire — Impact Tech</title>
-        <link rel="icon" href="/icon-square.png" />
+        <link rel="icon" href="/icon-square.png?v=2" />
+        {/* Aperçu des liens (WhatsApp, Facebook…) : l'icône Impact Tech. */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Impact Tech" />
+        <meta property="og:title" content="Votre questionnaire Impact Tech" />
+        <meta property="og:description" content="Quelques questions pour construire votre projet, à votre rythme. Vos réponses s'enregistrent automatiquement." />
+        <meta property="og:image" content="https://impacttech237.com/images/og-icone.jpg" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:image:alt" content="Impact Tech" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet" />
