@@ -8,17 +8,19 @@ import { Badge, Button, Card, Icon, Progress, toast } from "../ui";
 const STEP_TONE: Record<string, "default" | "blue" | "amber" | "green"> = { todo: "default", in_progress: "blue", review: "amber", done: "green" };
 
 export function Home() {
-  const { me, dash, go } = usePortal();
+  const { person, dash, go } = usePortal();
+  // Un membre sans le droit de signer / payer ne voit pas ces actions comme « à faire ».
+  const allowed = (a: any) => (["sign", "validate", "accept_quote"].includes(a.type) ? person.rights.decide : a.type === "pay" ? person.rights.pay : true);
   const p = dash.project;
   const current = dash.steps.find((s: any) => s.id === dash.currentStepId);
   const review = dash.steps.find((s: any) => s.status === "review" && s.needs_validation);
-  const [first, ...rest] = dash.actions.filter((a: any) => a.type !== "validate");
+  const [first, ...rest] = dash.actions.filter((a: any) => a.type !== "validate" && allowed(a));
 
   return (
     <div class="pt-page">
       <header class="pt-hero">
         <p class="pt-eyebrow">{p.pack || p.title}</p>
-        <h1>{t("hello", { name: String(me.name).split(" ")[0] })}</h1>
+        <h1>{t("hello", { name: String(person.name).split(" ")[0] })}</h1>
         <div class="pt-hero__progress">
           <div class="pt-row pt-row--between">
             <span>{t("progress_label")}</span>
@@ -111,7 +113,10 @@ export function Home() {
             {dash.feed.slice(0, 8).map((f: any) => (
               <li key={f.id}>
                 <span class={`pt-feed__dot pt-feed__dot--${f.actor}`} />
-                <span>{activityLabel(f)}</span>
+                <span>
+                  {activityLabel(f)}
+                  {f.actor_name && <span class="pt-muted"> · {f.actor_name}</span>}
+                </span>
                 <time class="pt-muted pt-small">{fmtRelative(f.created_at)}</time>
               </li>
             ))}
@@ -138,7 +143,7 @@ export function activityLabel(f: any) {
 }
 
 function ValidateStep({ step }: { step: any }) {
-  const { reloadDash } = usePortal();
+  const { reloadDash, person } = usePortal();
   const [mode, setMode] = useState<"ask" | "changes">("ask");
   const [comment, setComment] = useState("");
   const [busy, setBusy] = useState(false);
@@ -156,6 +161,13 @@ function ValidateStep({ step }: { step: any }) {
     }
   }
 
+  if (!person.rights.decide)
+    return (
+      <Card tone="warn">
+        <h2 class="pt-h3">{t("validate_title", { step: step.title })}</h2>
+        <p class="pt-muted">{t("right_decide")}</p>
+      </Card>
+    );
   return (
     <Card tone="warn">
       <h2 class="pt-h3">{t("validate_title", { step: step.title })}</h2>

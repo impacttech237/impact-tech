@@ -19,11 +19,16 @@ export function Login({ accessKey, info, onLogged }: { accessKey: string; info: 
   const [error, setError] = useState("");
   const [cooldown, setCooldown] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
-  const canEmail = info?.hasEmail && info?.emailEnabled;
+  const team = !!info?.hasTeam;
+  // Avec une équipe, « Recevoir mon code par email » enverrait le code au responsable :
+  // chacun s'identifie alors avec SON numéro ou SON email.
+  const canEmail = info?.hasEmail && info?.emailEnabled && !team;
+  const isEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim());
+  const idOk = isEmail(phone) || (!phone.includes("@") && phone.replace(/\D/g, "").length >= 8);
   const wa = whatsappLink(info?.whatsapp, `${t("login_whatsapp_text")} (${location.href})`);
   const waPing = whatsappLink(info?.whatsapp, t("login_wa_ping_text", { name: info?.firstName || "" }));
   // Sans numéro dans la fiche, on garde l'ancien chemin : écrire à Impact Tech.
-  const askWhatsapp = () => (info?.hasPhone ? (setError(""), setStep("phone")) : window.open(wa, "_blank", "noopener"));
+  const askWhatsapp = () => (info?.hasPhone || team ? (setError(""), setStep("phone")) : window.open(wa, "_blank", "noopener"));
 
   useEffect(() => {
     if (step === "code") setTimeout(() => inputRef.current?.focus(), 50);
@@ -53,10 +58,19 @@ export function Login({ accessKey, info, onLogged }: { accessKey: string; info: 
 
   async function requestWhatsapp(e?: Event) {
     e?.preventDefault();
-    if (phone.replace(/\D/g, "").length < 8) return;
+    if (!idOk) return;
     setBusy(true);
     setError("");
     try {
+      // Un email saisi ici : le code part par email à CETTE adresse (client ou membre).
+      if (isEmail(phone)) {
+        const r = await api("/request-code", { body: { key: accessKey, email: phone.trim() } });
+        setWaPhone("");
+        setEmail(r.email);
+        setStep("code");
+        setCooldown(45);
+        return;
+      }
       const r = await api("/request-code-whatsapp", { body: { key: accessKey, phone } });
       setWaPhone(r.phone);
       setWaAuto(!!r.auto);
@@ -97,7 +111,7 @@ export function Login({ accessKey, info, onLogged }: { accessKey: string; info: 
         <div class="pt-login__lock">
           <Icon name="lock" size={22} />
         </div>
-        <h1>{info?.firstName ? t("login_title", { name: info.firstName }) : t("login_title_anon")}</h1>
+        <h1>{team ? t("login_title_team", { company: info?.company || "" }) : info?.firstName ? t("login_title", { name: info.firstName }) : t("login_title_anon")}</h1>
         <p class="pt-muted">{t("login_sub")}</p>
 
         {error && <ErrorBox message={error} />}
@@ -121,21 +135,21 @@ export function Login({ accessKey, info, onLogged }: { accessKey: string; info: 
         {step === "phone" && (
           <form class="pt-stack" onSubmit={requestWhatsapp}>
             <label class="pt-label" for="pt-phone">
-              {t("login_phone_label")}
+              {t(team ? "login_id_label" : "login_phone_label")}
             </label>
             <input
               id="pt-phone"
               ref={phoneRef}
               class="pt-input"
-              type="tel"
-              inputMode="tel"
-              autoComplete="tel"
-              placeholder={t("login_phone_ph")}
+              type={team ? "text" : "tel"}
+              inputMode={team ? "text" : "tel"}
+              autoComplete={team ? "username" : "tel"}
+              placeholder={t(team ? "login_id_ph" : "login_phone_ph")}
               value={phone}
               onInput={(e: any) => setPhone(e.currentTarget.value)}
             />
-            <p class="pt-muted pt-small">{t("login_phone_hint")}</p>
-            <Button size="lg" block type="submit" icon="chat" loading={busy} disabled={phone.replace(/\D/g, "").length < 8}>
+            <p class="pt-muted pt-small">{t(team ? "login_id_hint" : "login_phone_hint")}</p>
+            <Button size="lg" block type="submit" icon="chat" loading={busy} disabled={!idOk}>
               {t("login_phone_submit")}
             </Button>
             <div class="pt-row pt-row--center pt-gap-lg">

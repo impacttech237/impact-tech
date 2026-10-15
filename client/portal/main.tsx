@@ -99,6 +99,7 @@ function App() {
 
   const ctx: PortalCtx = {
     me: me.client,
+    person: me.person || { name: me.client.name, role: "", email: me.client.email || "", phone: me.client.phone || "", isMember: false, rights: { decide: true, pay: true, vault: true } },
     settings: me.settings,
     projects: me.projects,
     projectId,
@@ -136,7 +137,7 @@ function App() {
 }
 
 function Shell() {
-  const { me, settings, projects, projectId, setProjectId, dash, route, go, logout, toggleLocale } = usePortal();
+  const { me, person, settings, projects, projectId, setProjectId, dash, route, go, logout, toggleLocale } = usePortal();
   const [moreOpen, setMoreOpen] = useState(false);
   useEffect(() => setMoreOpen(false), [route.view, route.id]);
   const p = dash?.project;
@@ -160,7 +161,7 @@ function Shell() {
     return (
       <main class="pt-main">
         <div class="pt-page">
-          <h1 class="pt-h1">{t("hello", { name: String(me.name).split(" ")[0] })}</h1>
+          <h1 class="pt-h1">{t("hello", { name: String(person.name).split(" ")[0] })}</h1>
           <p class="pt-muted">{t("all_good_sub")}</p>
           <Help />
         </div>
@@ -202,7 +203,7 @@ function Shell() {
         </div>
         {projects.length > 1 && <ProjectSwitch projects={projects} projectId={projectId} onChange={setProjectId} />}
         {settings.whatsapp && (
-          <a class="pt-iconbtn" href={whatsappLink(settings.whatsapp, `Bonjour, c'est ${me.name}.`)} target="_blank" rel="noopener noreferrer" aria-label={t("help_whatsapp")}>
+          <a class="pt-iconbtn" href={whatsappLink(settings.whatsapp, person.isMember ? `Bonjour, c'est ${person.name} (${me.company || me.name}).` : `Bonjour, c'est ${me.name}.`)} target="_blank" rel="noopener noreferrer" aria-label={t("help_whatsapp")}>
             <Icon name="chat" />
           </a>
         )}

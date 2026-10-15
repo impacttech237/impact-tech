@@ -4,8 +4,23 @@ import { useContext } from "preact/hooks";
 
 export type Route = { view: string; id?: number };
 
+/* Personne connectée : le client principal, ou un membre de son équipe
+   (droits : signer/valider, payer, coffre d'accès). */
+export interface Person {
+  name: string;
+  role: string;
+  email: string;
+  phone: string;
+  isMember: boolean;
+  rights: { decide: boolean; pay: boolean; vault: boolean };
+}
+
+/* « C'est moi qui l'ai fait ? » — le nom d'auteur est vide pour le client principal. */
+export const isMine = (person: Person, authorName: string | null | undefined) => (person.isMember ? authorName === person.name : !authorName);
+
 export interface PortalCtx {
   me: any;
+  person: Person;
   settings: any;
   projects: any[];
   projectId: number | null;

@@ -2,14 +2,14 @@
 import { useEffect, useState } from "preact/hooks";
 import { api, fileUrl } from "../api";
 import { fmtRelative, fmtSize, t } from "../i18n";
-import { usePortal } from "../state";
+import { isMine, usePortal } from "../state";
 import { Empty, ErrorBox, Icon, Modal, Skeleton, fileIcon, toast } from "../ui";
 import { Uploader } from "./Uploader";
 
 const CATS = ["logo", "photos", "videos", "musique", "textes", "documents", "autre"];
 
 export function Files() {
-  const { projectId } = usePortal();
+  const { projectId, person, me } = usePortal();
   const [files, setFiles] = useState<any[] | null>(null);
   const [error, setError] = useState("");
   const [cat, setCat] = useState("all");
@@ -90,7 +90,7 @@ export function Files() {
               <span class="pt-file__info">
                 <strong class="pt-ellipsis">{f.name}</strong>
                 <small class="pt-muted">
-                  {fmtSize(f.size)} · {fmtRelative(f.created_at)} · {f.uploaded_by === "admin" ? t("files_from_us") : t("files_from_you")}
+                  {fmtSize(f.size)} · {fmtRelative(f.created_at)} · {f.uploaded_by === "admin" ? t("files_from_us") : isMine(person, f.uploaded_by_name) ? t("files_from_you") : t("files_from_person", { name: f.uploaded_by_name || me.name })}
                 </small>
               </span>
             </button>

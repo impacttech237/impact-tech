@@ -8,7 +8,7 @@ import { Badge, Button, Card, Empty, ErrorBox, Icon, Skeleton, toast } from "../
 const TONE: Record<string, any> = { envoye: "amber", accepte: "blue", refuse: "default", paye: "green", annule: "default" };
 
 export function Payments() {
-  const { projectId, reloadDash } = usePortal();
+  const { projectId, reloadDash, person } = usePortal();
   const [list, setList] = useState<any[] | null>(null);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState<number | null>(null);
@@ -79,8 +79,9 @@ export function Payments() {
               </ul>
             )}
             {inv.status === "envoye" && inv.due_date && <p class="pt-small pt-muted">{t("inv_due", { date: fmtDate(inv.due_date) })}</p>}
+            {((inv.kind === "devis" && inv.status === "envoye" && !person.rights.decide) || (payable && !person.rights.pay)) && <p class="pt-small pt-muted">{t(inv.kind === "devis" && inv.status === "envoye" ? "right_decide" : "right_pay")}</p>}
             <div class="pt-row pt-gap pt-wrap pt-mt">
-              {inv.kind === "devis" && inv.status === "envoye" && (
+              {inv.kind === "devis" && inv.status === "envoye" && person.rights.decide && (
                 <>
                   <Button variant="success" icon="check" loading={busy === inv.id} onClick={() => act(inv, "accept")}>
                     {t("inv_accept")}
@@ -90,7 +91,7 @@ export function Payments() {
                   </Button>
                 </>
               )}
-              {payable && inv.currency !== "EUR" && (
+              {payable && inv.currency !== "EUR" && person.rights.pay && (
                 <Button icon="money" loading={busy === inv.id} onClick={() => act(inv, "pay")}>
                   {t("inv_pay")}
                 </Button>

@@ -2,12 +2,12 @@
 import { useEffect, useRef, useState } from "preact/hooks";
 import { api, fileUrl } from "../api";
 import { fmtRelative, fmtSize, t } from "../i18n";
-import { usePortal } from "../state";
+import { isMine, usePortal } from "../state";
 import { uploadFile } from "../upload";
 import { Button, Empty, ErrorBox, Icon, Skeleton, fileIcon, toast } from "../ui";
 
 export function Messages() {
-  const { projectId, reloadDash } = usePortal();
+  const { projectId, reloadDash, person, me } = usePortal();
   const [msgs, setMsgs] = useState<any[] | null>(null);
   const [error, setError] = useState("");
   const [text, setText] = useState("");
@@ -75,7 +75,7 @@ export function Messages() {
         {msgs?.map((m) => (
           <li key={m.id} class={`pt-msg pt-msg--${m.author} ${m.kind === "update" ? "pt-msg--update" : ""}`}>
             <div class="pt-msg__meta">
-              {m.kind === "update" ? t("msg_update") : m.author === "client" ? t("msg_you") : t("msg_us")} · {fmtRelative(m.created_at)}
+              {m.kind === "update" ? t("msg_update") : m.author === "client" ? (isMine(person, m.author_name) ? t("msg_you") : m.author_name || me.name) : t("msg_us")} · {fmtRelative(m.created_at)}
             </div>
             {m.body && <p class="pt-pre">{m.body}</p>}
             {m.file_id && <Attachment m={m} />}

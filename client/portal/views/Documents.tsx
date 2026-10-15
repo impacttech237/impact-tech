@@ -127,6 +127,18 @@ function DocumentView({ id, onBack, onSigned }: { id: number; onBack: () => void
 }
 
 function SignBox({ docId, onDone }: { docId: number; onDone: () => void }) {
+  const { person } = usePortal();
+  if (!person.rights.decide)
+    return (
+      <Card tone="accent">
+        <h2 class="pt-h3">{t("doc_sign_title")}</h2>
+        <p class="pt-muted">{t("right_decide")}</p>
+      </Card>
+    );
+  return <SignForm docId={docId} onDone={onDone} />;
+}
+
+function SignForm({ docId, onDone }: { docId: number; onDone: () => void }) {
   const canvas = useRef<HTMLCanvasElement>(null);
   const [approval, setApproval] = useState("");
   const [hasInk, setHasInk] = useState(false);

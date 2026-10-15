@@ -14,7 +14,7 @@ window.addEventListener("beforeinstallprompt", (e: any) => {
 });
 
 export function Help() {
-  const { me, settings, projectId, dash } = usePortal();
+  const { me, person, settings, projectId, dash } = usePortal();
   const [canInstall, setCanInstall] = useState(!!deferredInstall);
   const [vaultKey, setVaultKey] = useState(0);
   useEffect(() => {
@@ -25,7 +25,7 @@ export function Help() {
   // Prérempli via le stockage local (même origine) : pas de données perso dans l'URL.
   const bookCall = () => {
     try {
-      localStorage.setItem("it-rdv-prefill", JSON.stringify({ name: me.name, email: me.email, phone: me.phone, company: me.company }));
+      localStorage.setItem("it-rdv-prefill", JSON.stringify({ name: person.name, email: person.email, phone: person.phone, company: me.company }));
     } catch {}
   };
 
@@ -35,7 +35,7 @@ export function Help() {
       <p class="pt-muted">{t("help_sub")}</p>
       <div class="pt-stack">
         {settings.whatsapp && (
-          <Button size="lg" block icon="chat" href={whatsappLink(settings.whatsapp, `Bonjour, c'est ${me.name} (${dash?.project?.title || ""}).`)} target="_blank">
+          <Button size="lg" block icon="chat" href={whatsappLink(settings.whatsapp, `Bonjour, c'est ${person.name} (${dash?.project?.title || ""}).`)} target="_blank">
             {t("help_whatsapp")}
           </Button>
         )}
@@ -68,7 +68,7 @@ export function Help() {
         </Card>
       )}
 
-      {projectId && (
+      {projectId && person.rights.vault && (
         <section>
           <h2 class="pt-h2">
             <Icon name="lock" size={18} /> {t("vault_title")}

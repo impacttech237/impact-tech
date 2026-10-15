@@ -200,6 +200,7 @@ const fr: GuideText = {
     { q: "Comment payer ?", a: "Dans Paiements, touchez « Payer par Mobile Money » (MTN ou Orange). Le paiement est sécurisé et enregistré automatiquement." },
     { q: "Ma signature en ligne est-elle valable ?", a: "Oui : vous écrivez « Lu et approuvé » et signez ; la signature est datée et le PDF signé est conservé dans Documents, téléchargeable à tout moment." },
     { q: "Comment suis-je prévenu ?", a: "Quand on a besoin de vous, le bouton rouge apparaît sur l'Accueil et une pastille sur la page concernée. Vous recevez aussi un message (email ou WhatsApp)." },
+    { q: "Un collègue peut-il aussi avoir accès ?", a: "Oui. Demandez-le à Impact Tech (dans Messages ou sur WhatsApp) en donnant son nom, son rôle et son numéro WhatsApp. Il se connectera sur le même lien avec son propre numéro, et ses envois porteront son nom. Signer, valider et payer restent réservés au responsable, sauf si vous demandez de lui donner ces droits." },
     { q: "Je préfère l'anglais", a: "Touchez « English » dans le menu (dans « Plus » sur téléphone) : tout l'espace passe en anglais." },
   ],
 };
@@ -347,6 +348,7 @@ const en: GuideText = {
     { q: "How do I pay?", a: "In Payments, tap “Pay with Mobile Money” (MTN or Orange). Payment is secure and recorded automatically." },
     { q: "Is my online signature valid?", a: "Yes: you write “Read and approved” and sign; the signature is dated and the signed PDF is kept in Documents, downloadable at any time." },
     { q: "How am I notified?", a: "When we need you, the red button appears on Home and a dot on the relevant page. You also receive a message (email or WhatsApp)." },
+    { q: "Can a colleague have access too?", a: "Yes. Ask Impact Tech (in Messages or on WhatsApp) with their name, role and WhatsApp number. They'll log in on the same link with their own number, and what they send will carry their name. Signing, approving and paying stay with the project owner, unless you ask us to give them these rights." },
     { q: "I prefer French", a: "Tap “Français” in the menu (under “More” on a phone): the whole space switches language." },
   ],
 };
