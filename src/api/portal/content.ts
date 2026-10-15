@@ -3,6 +3,7 @@
    signature électronique).
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
+import { RIGHT_ERRORS, actorName, can } from "../../lib/portal-auth";
 import { streamObject } from "../../lib/portal/files";
 import { notifyAdmin } from "../../lib/portal/mail";
 import { buildSignedPdf, dataUrlToBytes, documentFingerprint } from "../../lib/portal/signing";
@@ -19,7 +20,7 @@ registerUploadRoutes(app, async (c, projectId) => {
   if ("denied" in r) return r.denied;
   const project = await ownedProject(c, r.client, projectId);
   if (!project) return c.json({ ok: false, error: "Projet introuvable" }, 404);
-  return { project, actor: "client" };
+  return { project, actor: "client", actorName: actorName(r.client) };
 });
 
 /* Le navigateur signale la fin d'un lot d'envois : une seule notification. */
@@ -48,7 +49,7 @@ app.get("/projects/:id/files", async (c) => {
   const project = await ownedProject(c, r.client, c.req.param("id"));
   if (!project) return fail(c, "Projet introuvable", 404);
   const { results } = await c.env.DB.prepare(
-    "SELECT id, name, size, mime_type, category, uploaded_by, checklist_item_id, created_at FROM client_files WHERE project_id = ? AND message_id IS NULL ORDER BY created_at DESC"
+    "SELECT id, name, size, mime_type, category, uploaded_by, uploaded_by_name, checklist_item_id, created_at FROM client_files WHERE project_id = ? AND message_id IS NULL ORDER BY created_at DESC"
   )
     .bind(project.id)
     .all();
@@ -71,7 +72,7 @@ app.delete("/files/:id", async (c) => {
   if (file.uploaded_by !== "client") return fail(c, "Ce fichier a été déposé par Impact Tech.", 403);
   await c.env.MEDIA.delete(file.r2_key).catch(() => {});
   await c.env.DB.prepare("DELETE FROM client_files WHERE id = ?").bind(file.id).run();
-  await logActivity(c.env.DB, { projectId: file.project_id, clientId: r.client.id, actor: "client", action: "file_deleted", detail: file.name, visible: false });
+  await logActivity(c.env.DB, { projectId: file.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "file_deleted", detail: file.name, visible: false });
   return c.json({ ok: true });
 });
 
@@ -141,6 +142,7 @@ app.get("/documents/:id/signed", async (c) => {
 app.post("/documents/:id/sign", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "decide")) return fail(c, RIGHT_ERRORS.decide, 403);
   const doc = await ownedRow(c, r.client, "client_documents", c.req.param("id"));
   if (!doc || doc.status !== "sent" || !doc.needs_signature) return fail(c, "Ce document n'est pas (ou plus) à signer.", 409);
   const existing = await c.env.DB.prepare("SELECT id FROM signatures WHERE document_id = ?").bind(doc.id).first();
@@ -163,8 +165,8 @@ app.post("/documents/:id/sign", async (c) => {
 
   await c.env.DB.batch([
     c.env.DB.prepare(
-      "INSERT INTO signatures (document_id, client_id, approval_text, signature_r2, ip_address, user_agent, signed_at, document_sha256) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
-    ).bind(doc.id, r.client.id, approvalText, sigKey, ip, (c.req.header("user-agent") || "").slice(0, 300), signedAt, sha),
+      "INSERT INTO signatures (document_id, client_id, approval_text, signature_r2, ip_address, user_agent, signed_at, document_sha256, signer_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+    ).bind(doc.id, r.client.id, approvalText, sigKey, ip, (c.req.header("user-agent") || "").slice(0, 300), signedAt, sha, actorName(r.client)),
     c.env.DB.prepare("UPDATE client_documents SET status = 'signed', updated_at = ? WHERE id = ?").bind(signedAt, doc.id),
   ]);
 
@@ -175,7 +177,7 @@ app.post("/documents/:id/sign", async (c) => {
     console.error("signed pdf:", (e as Error).message);
   }
 
-  await logActivity(c.env.DB, { projectId: doc.project_id, clientId: r.client.id, actor: "client", action: "document_signed", detail: doc.title, ip });
+  await logActivity(c.env.DB, { projectId: doc.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "document_signed", detail: doc.title, ip });
   c.executionCtx.waitUntil(
     notifyAdmin({
       subject: `✍️ Contrat signé — ${r.client.name} (${doc.title})`,

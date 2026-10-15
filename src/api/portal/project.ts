@@ -3,6 +3,7 @@
    checklist (« ce qu'on attend de vous »), coffre d'accès, avis.
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
+import { RIGHT_ERRORS, actorName, can } from "../../lib/portal-auth";
 import { notifyAdmin } from "../../lib/portal/mail";
 import { clientNextActions, computeProgress, projectSnapshot } from "../../lib/portal/projects";
 import { clampText, clientIp, logActivity, nowIso, parseJson } from "../../lib/portal/util";
@@ -54,7 +55,7 @@ app.get("/projects/:id", async (c) => {
   const snap = await projectSnapshot(c.env.DB, project.id);
   const progress = computeProgress(snap.steps);
   const [feed, review] = await Promise.all([
-    c.env.DB.prepare("SELECT id, actor, action, detail, created_at FROM activity_log WHERE project_id = ? AND visible = 1 ORDER BY created_at DESC LIMIT 20").bind(project.id).all(),
+    c.env.DB.prepare("SELECT id, actor, actor_name, action, detail, created_at FROM activity_log WHERE project_id = ? AND visible = 1 ORDER BY created_at DESC LIMIT 20").bind(project.id).all(),
     c.env.DB.prepare("SELECT rating, text, created_at FROM client_reviews WHERE project_id = ? LIMIT 1").bind(project.id).first(),
   ]);
 
@@ -86,6 +87,7 @@ async function advanceAfter(db: any, step: any) {
 app.post("/steps/:id/validate", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "decide")) return fail(c, RIGHT_ERRORS.decide, 403);
   const step = await ownedRow(c, r.client, "project_steps", c.req.param("id"));
   if (!step) return fail(c, "Étape introuvable", 404);
   if (step.status !== "review") return fail(c, "Cette étape n'attend pas votre validation.", 409);
@@ -100,7 +102,7 @@ app.post("/steps/:id/validate", async (c) => {
     .bind(now, now, ip, comment || null, step.id)
     .run();
   await advanceAfter(c.env.DB, step);
-  await logActivity(c.env.DB, { projectId: step.project_id, clientId: r.client.id, actor: "client", action: "step_validated", detail: step.title, ip });
+  await logActivity(c.env.DB, { projectId: step.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "step_validated", detail: step.title, ip });
   c.executionCtx.waitUntil(
     notifyAdmin({
       subject: `✅ ${r.client.name} a validé « ${step.title} »`,
@@ -114,6 +116,7 @@ app.post("/steps/:id/validate", async (c) => {
 app.post("/steps/:id/changes", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "decide")) return fail(c, RIGHT_ERRORS.decide, 403);
   const step = await ownedRow(c, r.client, "project_steps", c.req.param("id"));
   if (!step) return fail(c, "Étape introuvable", 404);
   if (step.status !== "review") return fail(c, "Cette étape n'attend pas votre avis.", 409);
@@ -126,7 +129,7 @@ app.post("/steps/:id/changes", async (c) => {
   await c.env.DB.prepare("INSERT INTO project_requests (project_id, kind, comment, round, status, created_at) VALUES (?, 'retour', ?, ?, 'nouveau', ?)")
     .bind(step.project_id, `[${step.title}] ${comment}`, (project?.revision_used || 0) + 1, nowIso())
     .run();
-  await logActivity(c.env.DB, { projectId: step.project_id, clientId: r.client.id, actor: "client", action: "step_changes_requested", detail: step.title, ip: clientIp(c) });
+  await logActivity(c.env.DB, { projectId: step.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "step_changes_requested", detail: step.title, ip: clientIp(c) });
   c.executionCtx.waitUntil(
     notifyAdmin({
       subject: `✏️ ${r.client.name} demande des changements (${step.title})`,
@@ -147,7 +150,7 @@ app.post("/steps/:id/satisfaction", async (c) => {
   if (!rating) return fail(c, "Note invalide");
   const comment = clampText(body?.comment, 1000);
   await c.env.DB.prepare("UPDATE project_steps SET satisfaction = ?, satisfaction_comment = ? WHERE id = ?").bind(rating, comment || null, step.id).run();
-  await logActivity(c.env.DB, { projectId: step.project_id, clientId: r.client.id, actor: "client", action: "satisfaction", detail: `${step.title} : ${rating}/5`, visible: false });
+  await logActivity(c.env.DB, { projectId: step.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "satisfaction", detail: `${step.title} : ${rating}/5`, visible: false });
   if (rating <= 2) {
     c.executionCtx.waitUntil(
       notifyAdmin({
@@ -177,7 +180,7 @@ app.post("/checklist/:id/answer", async (c) => {
     .bind(JSON.stringify(answers), status, status, nowIso(), item.id)
     .run();
   if (final) {
-    await logActivity(c.env.DB, { projectId: item.project_id, clientId: r.client.id, actor: "client", action: "checklist_sent", detail: item.label });
+    await logActivity(c.env.DB, { projectId: item.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "checklist_sent", detail: item.label });
     if (await shouldNotify(c.env.DB, item.project_id, `checklist-${item.id}`, 30)) {
       c.executionCtx.waitUntil(
         notifyAdmin({
@@ -201,7 +204,7 @@ app.post("/checklist/:id/done", async (c) => {
   await c.env.DB.prepare("UPDATE checklist_items SET status = 'sent', sent_at = ?, answer = COALESCE(?, answer) WHERE id = ? AND status != 'ok'")
     .bind(nowIso(), note ? JSON.stringify([note]) : null, item.id)
     .run();
-  await logActivity(c.env.DB, { projectId: item.project_id, clientId: r.client.id, actor: "client", action: "checklist_sent", detail: item.label });
+  await logActivity(c.env.DB, { projectId: item.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "checklist_sent", detail: item.label });
   if (await shouldNotify(c.env.DB, item.project_id, "checklist-done", 20)) {
     c.executionCtx.waitUntil(
       notifyAdmin({ subject: `📦 ${r.client.name} a envoyé : ${item.label}`, title: "Élément envoyé par le client", lines: [`Projet : ${item.project_title}`, item.label, note] })
@@ -215,6 +218,7 @@ app.post("/checklist/:id/done", async (c) => {
 app.get("/projects/:id/vault", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "vault")) return fail(c, RIGHT_ERRORS.vault, 403);
   const project = await ownedProject(c, r.client, c.req.param("id"));
   if (!project) return fail(c, "Projet introuvable", 404);
   const { results } = await c.env.DB.prepare("SELECT * FROM vault_entries WHERE project_id = ? ORDER BY created_at DESC").bind(project.id).all();
@@ -228,6 +232,7 @@ app.get("/projects/:id/vault", async (c) => {
 app.post("/projects/:id/vault", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "vault")) return fail(c, RIGHT_ERRORS.vault, 403);
   const project = await ownedProject(c, r.client, c.req.param("id"));
   if (!project) return fail(c, "Projet introuvable", 404);
   const body = await c.req.json().catch(() => null);
@@ -242,7 +247,7 @@ app.post("/projects/:id/vault", async (c) => {
       .bind(nowIso(), parseInt(body.checklistItemId, 10), project.id)
       .run();
   }
-  await logActivity(c.env.DB, { projectId: project.id, clientId: r.client.id, actor: "client", action: "vault_added", detail: label });
+  await logActivity(c.env.DB, { projectId: project.id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "vault_added", detail: label });
   if (await shouldNotify(c.env.DB, project.id, "vault", 20)) {
     c.executionCtx.waitUntil(notifyAdmin({ subject: `🔐 ${r.client.name} a ajouté un accès`, title: "Nouvel accès dans le coffre", lines: [`Projet : ${project.title}`, label] }));
   }
@@ -252,11 +257,12 @@ app.post("/projects/:id/vault", async (c) => {
 app.delete("/vault/:id", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "vault")) return fail(c, RIGHT_ERRORS.vault, 403);
   const entry = await ownedRow(c, r.client, "vault_entries", c.req.param("id"));
   if (!entry) return fail(c, "Accès introuvable", 404);
   if (entry.created_by !== "client") return fail(c, "Cet accès a été ajouté par Impact Tech.", 403);
   await c.env.DB.prepare("DELETE FROM vault_entries WHERE id = ?").bind(entry.id).run();
-  await logActivity(c.env.DB, { projectId: entry.project_id, clientId: r.client.id, actor: "client", action: "vault_removed", detail: entry.label, visible: false });
+  await logActivity(c.env.DB, { projectId: entry.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "vault_removed", detail: entry.label, visible: false });
   return c.json({ ok: true });
 });
 
@@ -279,7 +285,7 @@ app.post("/projects/:id/review", async (c) => {
       .bind(project.id, r.client.id, rating, text, body?.allowPublish ? 1 : 0, nowIso())
       .run();
   }
-  await logActivity(c.env.DB, { projectId: project.id, clientId: r.client.id, actor: "client", action: "review", detail: `${rating}/5` });
+  await logActivity(c.env.DB, { projectId: project.id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "review", detail: `${rating}/5` });
   c.executionCtx.waitUntil(
     notifyAdmin({ subject: `⭐ Avis ${rating}/5 de ${r.client.name}`, title: "Nouvel avis client", lines: [`Projet : ${project.title}`, text || "(sans commentaire)", body?.allowPublish ? "Le client accepte la publication." : "Publication non autorisée."] })
   );

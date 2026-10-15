@@ -3,13 +3,14 @@
    vocales, pièces jointes) et demandes (retours, support).
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
+import { RIGHT_ERRORS, actorName, can } from "../../lib/portal-auth";
 import { notifyAdmin } from "../../lib/portal/mail";
 import { clampText, clientIp, logActivity, nowIso, safeUrl } from "../../lib/portal/util";
 import { fail, ownedProject, shouldNotify, withClient } from "./common";
 
 const app = new Hono();
 
-const MESSAGE_FIELDS = `m.id, m.author, m.kind, m.body, m.file_id, m.created_at, m.read_by_client_at, m.read_by_admin_at,
+const MESSAGE_FIELDS = `m.id, m.author, m.author_name, m.kind, m.body, m.file_id, m.created_at, m.read_by_client_at, m.read_by_admin_at,
   f.name AS file_name, f.mime_type AS file_mime, f.size AS file_size`;
 
 app.get("/projects/:id/messages", async (c) => {
@@ -48,8 +49,8 @@ app.post("/projects/:id/messages", async (c) => {
   }
   if (!text && !fileId) return fail(c, "Message vide");
 
-  const res = await c.env.DB.prepare("INSERT INTO messages (project_id, author, kind, body, file_id, created_at) VALUES (?, 'client', ?, ?, ?, ?)")
-    .bind(project.id, kind, text || null, fileId, nowIso())
+  const res = await c.env.DB.prepare("INSERT INTO messages (project_id, author, kind, body, file_id, created_at, author_name) VALUES (?, 'client', ?, ?, ?, ?, ?)")
+    .bind(project.id, kind, text || null, fileId, nowIso(), actorName(r.client))
     .run();
   if (fileId) await c.env.DB.prepare("UPDATE client_files SET message_id = ? WHERE id = ?").bind(res.meta.last_row_id, fileId).run();
 
@@ -94,7 +95,7 @@ app.post("/projects/:id/requests", async (c) => {
   )
     .bind(project.id, kind, comment, safeUrl(body?.pageUrl), clampText(body?.device, 40) || null, kind === "retour" ? (project.revision_used || 0) + 1 : null, nowIso())
     .run();
-  await logActivity(c.env.DB, { projectId: project.id, clientId: r.client.id, actor: "client", action: kind === "support" ? "support_request" : "feedback", detail: comment.slice(0, 120), ip: clientIp(c) });
+  await logActivity(c.env.DB, { projectId: project.id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: kind === "support" ? "support_request" : "feedback", detail: comment.slice(0, 120), ip: clientIp(c) });
   if (await shouldNotify(c.env.DB, project.id, "request", 10)) {
     c.executionCtx.waitUntil(
       notifyAdmin({

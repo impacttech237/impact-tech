@@ -104,6 +104,7 @@ export interface ActivityInput {
   detail?: string;
   visible?: boolean;
   ip?: string;
+  actorName?: string | null; // membre du client qui a agi (null = client principal)
 }
 
 /* Journal d'activité : preuve horodatée + fil « Quoi de neuf » du client. */
@@ -111,9 +112,9 @@ export async function logActivity(db: any, a: ActivityInput) {
   try {
     await db
       .prepare(
-        "INSERT INTO activity_log (project_id, client_id, actor, action, detail, visible, ip, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+        "INSERT INTO activity_log (project_id, client_id, actor, action, detail, visible, ip, created_at, actor_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
       )
-      .bind(a.projectId ?? null, a.clientId ?? null, a.actor, a.action, a.detail ?? null, a.visible === false ? 0 : 1, a.ip ?? null, nowIso())
+      .bind(a.projectId ?? null, a.clientId ?? null, a.actor, a.action, a.detail ?? null, a.visible === false ? 0 : 1, a.ip ?? null, nowIso(), a.actorName ?? null)
       .run();
   } catch (e) {
     console.error("logActivity:", (e as Error).message);

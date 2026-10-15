@@ -40,7 +40,7 @@ export async function buildSignedPdf(env: any, docId: number): Promise<string | 
   if (sig) {
     signers.push({
       role: "client",
-      name: doc.client_name,
+      name: sig?.signer_name || doc.client_name,
       approval: sig.approval_text,
       signedAt: fmt(sig.signed_at),
       ip: sig.ip_address,

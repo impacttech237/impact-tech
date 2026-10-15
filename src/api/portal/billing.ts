@@ -5,6 +5,7 @@
 ------------------------------------------------------------------- */
 import { Hono } from "hono";
 import { generatePaymentExternalId, initGatewayPayment } from "../../lib/kpay";
+import { RIGHT_ERRORS, actorName, can } from "../../lib/portal-auth";
 import { renderInvoicePdf } from "../../lib/portal/billing";
 import { notifyAdmin } from "../../lib/portal/mail";
 import { clientIp, formatMoney, logActivity, nowIso, parseJson } from "../../lib/portal/util";
@@ -46,10 +47,11 @@ app.get("/invoices/:id/pdf", async (c) => {
 app.post("/invoices/:id/accept", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "decide")) return fail(c, RIGHT_ERRORS.decide, 403);
   const invoice = await ownedRow(c, r.client, "invoices", c.req.param("id"));
   if (!invoice || invoice.kind !== "devis" || invoice.status !== "envoye") return fail(c, "Ce devis n'attend pas de réponse.", 409);
   await c.env.DB.prepare("UPDATE invoices SET status = 'accepte', accepted_at = ?, updated_at = ? WHERE id = ?").bind(nowIso(), nowIso(), invoice.id).run();
-  await logActivity(c.env.DB, { projectId: invoice.project_id, clientId: r.client.id, actor: "client", action: "quote_accepted", detail: `${invoice.number} — ${invoice.title}`, ip: clientIp(c) });
+  await logActivity(c.env.DB, { projectId: invoice.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "quote_accepted", detail: `${invoice.number} — ${invoice.title}`, ip: clientIp(c) });
   c.executionCtx.waitUntil(
     notifyAdmin({ subject: `👍 Devis accepté — ${r.client.name}`, title: invoice.title, lines: [`Projet : ${invoice.project_title}`, `${invoice.number} — ${formatMoney(invoice.amount, invoice.currency)}`] })
   );
@@ -59,6 +61,7 @@ app.post("/invoices/:id/accept", async (c) => {
 app.post("/invoices/:id/refuse", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "decide")) return fail(c, RIGHT_ERRORS.decide, 403);
   const invoice = await ownedRow(c, r.client, "invoices", c.req.param("id"));
   if (!invoice || invoice.kind !== "devis" || invoice.status !== "envoye") return fail(c, "Ce devis n'attend pas de réponse.", 409);
   const body = await c.req.json().catch(() => null);
@@ -66,7 +69,7 @@ app.post("/invoices/:id/refuse", async (c) => {
   await c.env.DB.prepare("UPDATE invoices SET status = 'refuse', notes = COALESCE(notes || char(10), '') || ?, updated_at = ? WHERE id = ?")
     .bind(reason ? `Refus client : ${reason}` : "Refusé par le client", nowIso(), invoice.id)
     .run();
-  await logActivity(c.env.DB, { projectId: invoice.project_id, clientId: r.client.id, actor: "client", action: "quote_refused", detail: invoice.title });
+  await logActivity(c.env.DB, { projectId: invoice.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "quote_refused", detail: invoice.title });
   c.executionCtx.waitUntil(notifyAdmin({ subject: `Devis refusé — ${r.client.name}`, title: invoice.title, lines: [reason || "Pas de raison indiquée."] }));
   return c.json({ ok: true });
 });
@@ -75,6 +78,7 @@ app.post("/invoices/:id/refuse", async (c) => {
 app.post("/invoices/:id/pay", async (c) => {
   const r = await withClient(c);
   if ("denied" in r) return r.denied;
+  if (!can(r.client, "pay")) return fail(c, RIGHT_ERRORS.pay, 403);
   const invoice = await ownedRow(c, r.client, "invoices", c.req.param("id"));
   if (!invoice) return fail(c, "Facture introuvable", 404);
   const payable = (invoice.kind === "facture" && invoice.status === "envoye") || (invoice.kind === "devis" && invoice.status === "accepte");
@@ -101,7 +105,7 @@ app.post("/invoices/:id/pay", async (c) => {
     await c.env.DB.prepare("UPDATE payments SET kpay_id = ?, kpay_reference = ?, is_test = ? WHERE external_id = ?")
       .bind(payment.id, payment.reference, payment.isTest ? 1 : 0, externalId)
       .run();
-    await logActivity(c.env.DB, { projectId: invoice.project_id, clientId: r.client.id, actor: "client", action: "payment_started", detail: invoice.title, visible: false });
+    await logActivity(c.env.DB, { projectId: invoice.project_id, clientId: r.client.id, actor: "client", actorName: actorName(r.client), action: "payment_started", detail: invoice.title, visible: false });
     return c.json({ ok: true, gatewayUrl: payment.gatewayUrl });
   } catch (e: any) {
     console.error("portal pay:", e?.message, e?.kpayError);

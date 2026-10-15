@@ -44,22 +44,30 @@ export function generateAuthCode(): string {
   return String(arr[0] % 1000000).padStart(6, "0");
 }
 
-/* Le code est stocké haché (HMAC) : une fuite de la base ne le révèle pas. */
+/* Le code est stocké haché (HMAC) : une fuite de la base ne le révèle pas.
+   Un membre a son propre espace de hachage (member.<id>) : le code de l'un
+   ne peut jamais ouvrir la session de l'autre. */
 async function hashCode(env: any, clientId: number, code: string) {
   return hmacHex(env, `code.${clientId}.${code}`);
 }
+async function hashMemberCode(env: any, memberId: number, code: string) {
+  return hmacHex(env, `member.${memberId}.${code}`);
+}
 
-export async function createClientSession(env: any, clientId: number, accessToken: string): Promise<string> {
+/* Session : « client.<id>.<token>.<exp>.<sig> » pour le client principal,
+   « m<memberId>.<id>.<token>.<exp>.<sig> » pour un membre (signée de même). */
+export async function createClientSession(env: any, clientId: number, accessToken: string, memberId?: number | null): Promise<string> {
   const expires = Math.floor(Date.now() / 1000) + SESSION_DURATION;
-  const payload = `client.${clientId}.${accessToken}.${expires}`;
+  const payload = `${memberId ? `m${memberId}` : "client"}.${clientId}.${accessToken}.${expires}`;
   const sig = await hmacHex(env, payload);
   return `${payload}.${sig}`;
 }
 
-export async function verifyClientSession(env: any, token: string): Promise<{ clientId: number; accessToken: string } | null> {
+export async function verifyClientSession(env: any, token: string): Promise<{ clientId: number; accessToken: string; memberId: number | null } | null> {
   if (!token) return null;
   const parts = token.split(".");
-  if (parts.length !== 5 || parts[0] !== "client") return null;
+  if (parts.length !== 5 || !(parts[0] === "client" || /^m\d+$/.test(parts[0]))) return null;
+  const memberId = parts[0] === "client" ? null : parseInt(parts[0].slice(1), 10);
   const clientId = parseInt(parts[1], 10);
   const accessToken = parts[2];
   const expires = parseInt(parts[3], 10);
@@ -67,7 +75,7 @@ export async function verifyClientSession(env: any, token: string): Promise<{ cl
   if (expires < Math.floor(Date.now() / 1000)) return null;
   const expected = await hmacHex(env, `${parts[0]}.${parts[1]}.${parts[2]}.${parts[3]}`);
   if (!timingSafeEqual(expected, parts[4])) return null;
-  return { clientId, accessToken };
+  return { clientId, accessToken, memberId };
 }
 
 export function clientCookieHeader(token: string): string {
@@ -84,9 +92,82 @@ export async function currentClient(c: any): Promise<any | null> {
   if (!token) return null;
   const session = await verifyClientSession(c.env, token);
   if (!session) return null;
-  return c.env.DB.prepare("SELECT * FROM clients WHERE id = ? AND access_token = ? AND active = 1")
+  const client = await c.env.DB.prepare("SELECT * FROM clients WHERE id = ? AND access_token = ? AND active = 1")
     .bind(session.clientId, session.accessToken)
     .first();
+  if (!client || !session.memberId) return client;
+  // Membre retiré ou désactivé : la session tombe immédiatement.
+  const member = await c.env.DB.prepare("SELECT * FROM client_members WHERE id = ? AND client_id = ? AND active = 1").bind(session.memberId, client.id).first();
+  if (!member) return null;
+  return { ...client, _member: member };
+}
+
+/* ── Membres : qui agit, et avec quels droits ── */
+export type MemberRight = "decide" | "pay" | "vault";
+
+/* Nom à afficher pour l'auteur d'une action (null = le client principal). */
+export function actorName(client: any): string | null {
+  return client?._member ? client._member.name : null;
+}
+
+/* Le client principal a tous les droits ; un membre, ceux qu'on lui a donnés. */
+export function can(client: any, right: MemberRight): boolean {
+  const m = client?._member;
+  if (!m) return true;
+  return right === "decide" ? !!m.can_decide : right === "pay" ? !!m.can_pay : !!m.can_vault;
+}
+
+export const RIGHT_ERRORS: Record<MemberRight, string> = {
+  decide: "Seul le responsable du projet (ou une personne autorisée) peut signer ou valider. Demandez-lui de le faire, ou écrivez-nous.",
+  pay: "Seul le responsable du projet (ou une personne autorisée) peut régler les factures.",
+  vault: "Le coffre d'accès est réservé au responsable du projet (ou à une personne autorisée).",
+};
+
+/* Personne (client principal ou membre actif) dont le numéro ou l'email correspond. */
+export async function findPerson(db: any, client: any, by: { phone?: string; email?: string }): Promise<{ kind: "client" | "member"; row: any } | null> {
+  const email = String(by.email || "").trim().toLowerCase();
+  if (by.phone) {
+    if (client.phone && samePhone(by.phone, client.phone)) return { kind: "client", row: client };
+  } else if (email && String(client.email || "").toLowerCase() === email) {
+    return { kind: "client", row: client };
+  }
+  const { results } = await db.prepare("SELECT * FROM client_members WHERE client_id = ? AND active = 1").bind(client.id).all();
+  const m = (results || []).find((r: any) => (by.phone ? r.phone && samePhone(by.phone!, r.phone) : email && String(r.email || "").toLowerCase() === email));
+  return m ? { kind: "member", row: m } : null;
+}
+
+export async function storeMemberCode(env: any, memberId: number, validitySeconds = EMAIL_CODE_VALIDITY): Promise<string> {
+  const code = generateAuthCode();
+  const exp = new Date(Date.now() + validitySeconds * 1000).toISOString();
+  await env.DB.prepare("UPDATE client_members SET auth_code = ?, auth_code_exp = ?, auth_attempts = 0, code_sent_at = ? WHERE id = ?")
+    .bind(await hashMemberCode(env, memberId, code), exp, new Date().toISOString(), memberId)
+    .run();
+  return code;
+}
+
+/* Vérifie un code contre le client principal ET ses membres ayant un code en
+   cours (« J'ai déjà un code » ne dit pas qui on est). Les essais sont
+   comptés pour chaque code en cours ; 5 essais faux invalident le code. */
+export async function checkAnyCode(env: any, client: any, code: string): Promise<{ result: "ok" | "invalid" | "expired" | "locked"; memberId: number | null }> {
+  const clean = String(code || "").replace(/\D/g, "");
+  const now = Date.now();
+  const { results } = await env.DB.prepare("SELECT * FROM client_members WHERE client_id = ? AND active = 1 AND auth_code IS NOT NULL").bind(client.id).all();
+  const members = (results || []).filter((m: any) => m.auth_code_exp && now <= new Date(m.auth_code_exp).getTime() && (m.auth_attempts || 0) < MAX_CODE_ATTEMPTS);
+  for (const m of members) {
+    if (timingSafeEqual(await hashMemberCode(env, m.id, clean), m.auth_code)) {
+      await env.DB.prepare("UPDATE client_members SET auth_code = NULL, auth_code_exp = NULL, auth_attempts = 0, last_seen_at = ? WHERE id = ?").bind(new Date().toISOString(), m.id).run();
+      return { result: "ok", memberId: m.id };
+    }
+  }
+  const clientResult = await checkAuthCode(env, client, clean);
+  if (clientResult === "ok") return { result: "ok", memberId: null };
+  for (const m of members) {
+    const attempts = (m.auth_attempts || 0) + 1;
+    await env.DB.prepare(`UPDATE client_members SET auth_attempts = ?${attempts >= MAX_CODE_ATTEMPTS ? ", auth_code = NULL, auth_code_exp = NULL" : ""} WHERE id = ?`).bind(attempts, m.id).run();
+  }
+  // Un membre avait un code valable : « expiré » (code du client principal) serait trompeur.
+  if (clientResult === "expired" && members.length) return { result: "invalid", memberId: null };
+  return { result: clientResult, memberId: null };
 }
 
 export async function requireClient(c: any): Promise<any> {

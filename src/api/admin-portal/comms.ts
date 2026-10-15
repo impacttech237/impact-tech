@@ -24,7 +24,7 @@ registerUploadRoutes(app, async (c, projectId) => {
 
 app.get("/projects/:id/files", async (c) => {
   const { results } = await c.env.DB.prepare(
-    "SELECT id, name, size, mime_type, category, uploaded_by, checklist_item_id, message_id, created_at FROM client_files WHERE project_id = ? ORDER BY created_at DESC"
+    "SELECT id, name, size, mime_type, category, uploaded_by, uploaded_by_name, checklist_item_id, message_id, created_at FROM client_files WHERE project_id = ? ORDER BY created_at DESC"
   )
     .bind(parseInt(c.req.param("id"), 10))
     .all();

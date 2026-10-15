@@ -22,7 +22,7 @@ import { FILE_CATEGORIES, clientIp, guessCategory, logActivity, nowIso } from ".
 
 export const PART_SIZE = 8 * 1024 * 1024;
 
-export type ResolveProject = (c: any, projectId: string) => Promise<{ project: any; actor: "client" | "admin" } | Response>;
+export type ResolveProject = (c: any, projectId: string) => Promise<{ project: any; actor: "client" | "admin"; actorName?: string | null } | Response>;
 
 export function registerUploadRoutes(app: any, resolve: ResolveProject) {
   const guard = async (c: any) => {
@@ -100,10 +100,10 @@ export function registerUploadRoutes(app: any, resolve: ResolveProject) {
     }
 
     const res = await c.env.DB.prepare(
-      `INSERT INTO client_files (project_id, name, r2_key, size, mime_type, uploaded_by, category, checklist_item_id, created_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      `INSERT INTO client_files (project_id, name, r2_key, size, mime_type, uploaded_by, category, checklist_item_id, created_at, uploaded_by_name)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
     )
-      .bind(ctx.project.id, name, key, obj?.size ?? Number(body?.size || 0), mime, ctx.actor, category, checklistItemId, nowIso())
+      .bind(ctx.project.id, name, key, obj?.size ?? Number(body?.size || 0), mime, ctx.actor, category, checklistItemId, nowIso(), ctx.actorName ?? null)
       .run();
 
     await logActivity(c.env.DB, {
