@@ -91,7 +91,7 @@ export default function FilesTab({ project }) {
                     {fmtSize(f.size)} · {fmtAgo(f.created_at)}
                   </p>
                   <div className="mt-1 flex items-center justify-between">
-                    <Badge variant={f.uploaded_by === "client" ? "success" : "info"}>{f.uploaded_by === "client" ? "Client" : "Nous"}</Badge>
+                    <Badge variant={f.uploaded_by === "client" ? "success" : "info"}>{f.uploaded_by === "client" ? f.uploaded_by_name || "Client" : "Nous"}</Badge>
                     <div className="flex gap-1">
                       <a href={`${url}?download=1`} className="rounded p-1 text-adm-text-3 hover:text-adm-text" aria-label="Télécharger">
                         <Download size={14} />

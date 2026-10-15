@@ -67,7 +67,7 @@ export default function Overview({ openProject }) {
           <ul className="divide-y divide-adm-border text-sm">
             {data.activity.map((a) => (
               <li key={a.id} className="flex flex-wrap items-baseline gap-x-2 py-2">
-                <Badge variant={a.actor === "client" ? "success" : a.actor === "system" ? "default" : "info"}>{a.actor === "client" ? "Client" : a.actor === "system" ? "Auto" : "Nous"}</Badge>
+                <Badge variant={a.actor === "client" ? "success" : a.actor === "system" ? "default" : "info"}>{a.actor === "client" ? a.actor_name || "Client" : a.actor === "system" ? "Auto" : "Nous"}</Badge>
                 <span className="text-adm-text">{ACTION_LABEL[a.action] || a.action}</span>
                 {a.detail && <span className="text-adm-text-2">· {a.detail}</span>}
                 <button type="button" className="cursor-pointer text-adm-text-3 hover:text-adm-text" onClick={() => a.project_id && openProject(a.project_id)}>

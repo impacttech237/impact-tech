@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { Badge, Button, Card, EmptyState, Input, LoadingSpinner, Modal, Select, Textarea } from "../ui";
 import { ChevronDown, ChevronRight, Edit3, ExternalLink, Lock, Plus, Search, Send, Trash2, Users } from "../../lib/icons";
+import { ClientMembers } from "./Members";
 import { CopyButton, ErrorText, PROJECT_STATUS, fmtAgo, fmtMoney, papi, useLoad } from "./shared";
 
 export default function Clients({ openProject }) {
@@ -62,7 +63,12 @@ export default function Clients({ openProject }) {
                   />
                 </div>
               </div>
-              {open === c.id && <ClientProjects client={c} openProject={openProject} />}
+              {open === c.id && (
+                <>
+                  <ClientMembers client={c} />
+                  <ClientProjects client={c} openProject={openProject} />
+                </>
+              )}
             </Card>
           ))}
         </div>

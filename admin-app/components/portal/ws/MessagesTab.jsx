@@ -57,7 +57,7 @@ export default function MessagesTab({ project, onRead }) {
                 } ${m.kind === "update" ? "border-l-4 border-white/50" : ""}`}
               >
                 <p className="mb-0.5 text-[11px] opacity-70">
-                  {m.kind === "update" ? "Point de la semaine" : m.author === "client" ? project.client_name : m.author === "system" ? "Automatique" : "Nous"} · {fmtDateTime(m.created_at)}
+                  {m.kind === "update" ? "Point de la semaine" : m.author === "client" ? m.author_name || project.client_name : m.author === "system" ? "Automatique" : "Nous"} · {fmtDateTime(m.created_at)}
                   {m.author === "admin" && (m.read_by_client_at ? " · lu ✓" : " · non lu")}
                 </p>
                 {m.body && <p className="whitespace-pre-wrap">{m.body}</p>}
