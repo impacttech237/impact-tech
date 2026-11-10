@@ -41,6 +41,16 @@
     .section:not(.light) .section-head p{color:#cbd9cf}
     .hero .cover{border-radius:14px;filter:drop-shadow(14px 16px 0 #081e18)}.book-visual img{border-radius:8px}
     @media(max-width:800px){.pages{grid-template-columns:repeat(2,1fr)}.pages a:last-child{grid-column:span 2}}
+    /* Fenêtre de paiement Chariow : correctifs d'affichage (vh -> dvh, plein écran sur mobile, un seul défilement) */
+    .cw-modal-content{max-height:none!important;overflow:hidden!important}
+    .cw-modal-wrapper iframe{height:calc(100vh - 96px)!important;height:min(calc(100dvh - 96px),820px)!important;max-height:none!important;overscroll-behavior:contain}
+    @media(max-width:640px){
+      .cw-modal-wrapper{top:0!important;left:0!important;right:0!important;bottom:0!important;transform:none!important;width:100%!important;max-width:100%!important;height:100vh!important;height:100dvh!important}
+      .cw-modal-content{height:100%!important;border-radius:0!important}
+      .cw-modal-content>div{height:100%!important}
+      .cw-modal-wrapper iframe{height:100vh!important;height:100dvh!important}
+      .cw-modal-close-button{top:max(10px,env(safe-area-inset-top))!important;right:10px!important;width:40px!important;height:40px!important;box-shadow:0 2px 8px #0003!important}
+    }
   </style>
   <link rel="stylesheet" href="https://js.chariowcdn.com/v1/widget.min.css">
   <script src="https://js.chariowcdn.com/v1/widget.min.js" async></script>
@@ -112,15 +122,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const { reduce, desktop } = context.conditions;
     if (reduce) return;
     const intro = gsap.timeline({ defaults: { ease: "power3.out" } });
-    intro.from(".hero .eyebrow", { y: 14, autoAlpha: 0, duration: 0.45 })
-      .from(".hero h1", { y: 28, autoAlpha: 0, duration: 0.7 }, "-=0.2")
-      .from(".hero-copy", { y: 18, autoAlpha: 0, duration: 0.55 }, "-=0.32")
-      .from(".hero-actions, .proof-row", { y: 16, autoAlpha: 0, duration: 0.5, stagger: 0.1 }, "-=0.25")
-      .from(".cover", { y: 24, scale: 0.96, autoAlpha: 0, duration: 0.75 }, "-=0.65");
+    intro.from(".hero .eyebrow", { y: 14, autoAlpha: 0, clearProps: "transform", duration: 0.45 })
+      .from(".hero h1", { y: 28, autoAlpha: 0, clearProps: "transform", duration: 0.7 }, "-=0.2")
+      .from(".hero-copy", { y: 18, autoAlpha: 0, clearProps: "transform", duration: 0.55 }, "-=0.32")
+      .from(".hero-actions, .proof-row", { y: 16, autoAlpha: 0, clearProps: "transform", duration: 0.5, stagger: 0.1 }, "-=0.25")
+      .from(".cover", { y: 24, scale: 0.96, autoAlpha: 0, clearProps: "transform", duration: 0.75 }, "-=0.65");
     gsap.utils.toArray(".section-head, .book-visual, .book-copy, .sample > div, .annexe-shot, .audience-card, .faq-list details, .final-inner").forEach((el) => {
-      gsap.from(el, { y: 24, autoAlpha: 0, duration: 0.65, ease: "power2.out", scrollTrigger: { trigger: el, start: "top 88%", once: true } });
+      gsap.from(el, { y: 24, autoAlpha: 0, clearProps: "transform", duration: 0.65, ease: "power2.out", scrollTrigger: { trigger: el, start: "top 88%", once: true } });
     });
-    gsap.from(".showcase .shot", { y: 28, autoAlpha: 0, duration: 0.6, stagger: 0.12, ease: "power2.out", scrollTrigger: { trigger: ".showcase", start: "top 82%", once: true } });
+    gsap.from(".showcase .shot", { y: 28, autoAlpha: 0, clearProps: "transform", duration: 0.6, stagger: 0.12, ease: "power2.out", scrollTrigger: { trigger: ".showcase", start: "top 82%", once: true } });
   });
 });
 </script>
