@@ -41,6 +41,24 @@
     .section:not(.light) .section-head p{color:#cbd9cf}
     .hero .cover{border-radius:14px;filter:drop-shadow(14px 16px 0 #081e18)}.book-visual img{border-radius:8px}
     @media(max-width:800px){.pages{grid-template-columns:repeat(2,1fr)}.pages a:last-child{grid-column:span 2}}
+    /* Hero : une seule colonne de texte alignée à gauche, même largeur pour tous les blocs */
+    .hero-grid>div:first-child{max-width:560px}
+    .hero h1{text-wrap:balance}
+    .hero .sub-h1,.hero .hero-copy{max-width:100%}
+    .hero .sub-h1{text-wrap:balance}
+    .hero .hero-copy{text-wrap:pretty}
+    .hero .hero-actions{flex-direction:column;align-items:flex-start;gap:10px}
+    .hero .micro{max-width:none}
+    @media(min-width:801px){.hero h1{font-size:clamp(60px,5.8vw,82px)}}
+    /* Hero : vraie couverture du livre + pastille PDF */
+    .cover-frame{position:relative;width:min(400px,88%);justify-self:center}
+    .hero .cover{width:100%;border-radius:6px}
+    .pdf-badge{position:absolute;top:-22px;right:-26px;z-index:3;display:grid;place-content:center;text-align:center;width:104px;height:104px;border-radius:50%;background:var(--yellow);color:var(--ink);font:700 13px/1.15 'DM Sans',sans-serif;box-shadow:4px 5px 0 #081e18;transform:rotate(8deg);animation:badgein .5s .9s both}
+    .pdf-badge b{font:900 30px/1 'Barlow Condensed',sans-serif;letter-spacing:.02em}
+    @keyframes badgein{from{opacity:0;transform:rotate(8deg) scale(.6)}to{opacity:1;transform:rotate(8deg) scale(1)}}
+    @media(prefers-reduced-motion:reduce){.pdf-badge{animation:none}}
+    @media(max-width:800px){.cover-frame{width:min(300px,72%)}.pdf-badge{width:88px;height:88px;top:-16px;right:-18px;font-size:12px}.pdf-badge b{font-size:25px}}
+    @media(max-width:520px){.cover-frame{width:min(250px,66%)}}
     /* Fenêtre de paiement Chariow : correctifs d'affichage (vh -> dvh, plein écran sur mobile, un seul défilement) */
     .cw-modal-content{max-height:none!important;overflow:hidden!important}
     .cw-modal-wrapper iframe{height:calc(100vh - 96px)!important;height:min(calc(100dvh - 96px),820px)!important;max-height:none!important;overscroll-behavior:contain}
@@ -66,7 +84,7 @@
 <div class="price-line"><b>13 500 F</b><span>une seule fois · PDF à télécharger après paiement</span></div>
 <div class="hero-actions"><div class="buy-widget" id="chariow-widget" data-product-id="prd_k518lp13" data-store-domain="livkjgqy.mychariow.com" data-style="tap" data-border-style="rounded" data-cta-width="xl" data-background-color="#FFFFFF" data-cta-animation="shine" data-locale="fr" data-primary-color="#ffcc00"></div><span class="micro">PDF à télécharger tout de suite après le paiement.</span></div>
 <div class="proof-row"><span class="chip">ChatGPT + Claude</span><span class="chip">Affiches et sites</span><span class="chip">Prix, devis et clients</span></div>
-</div><div class="hero-art"><img class="cover" src="img/livre-3d.webp" alt="Couverture du livre Comment gagner tes premiers revenus avec l’IA en vendant des affiches et des sites"></div></div></section>
+</div><div class="hero-art"><div class="cover-frame"><img class="cover" src="img/couverture.webp" width="760" height="1072" alt="Couverture du livre Comment gagner tes premiers revenus avec l’IA en vendant des affiches et des sites"><span class="pdf-badge" aria-hidden="true"><b>PDF</b>132 pages</span></div></div></div></section>
 
 <section class="section"><div class="wrap problem-grid"><div class="paper-note"><h3>Ce que tu vis peut-être déjà</h3><p>Tu écris « fais-moi une affiche pour mon client ». Trente secondes plus tard, elle est là. Et elle ressemble à toutes les autres : mêmes dégradés, mêmes icônes, mêmes polices.</p><p>Ton client la regarde et dit : <b>« Je peux faire ça moi-même. »</b></p><p>Alors tu baisses ton prix. Ou il disparaît.</p></div><div class="problem-copy"><div class="eyebrow">Le vrai problème</div><h2>L’outil est le même pour tout le monde. Ce qui change, c’est la méthode.</h2><p>Une agence facture <strong>20 000 F une affiche</strong> et <strong>150 000 F un site</strong> avec les mêmes IA que toi. La différence : elle pose les bonnes questions au client, elle montre des images et des exemples à l’IA, et elle vérifie chaque détail avant de livrer.</p><p>Ce livre te montre exactement ça, avec des cas complets, du premier essai raté jusqu’au résultat livrable.</p></div></div></section>
 
