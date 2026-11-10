@@ -1,0 +1,17 @@
+# En-têtes de sécurité — uniquement pour la page de vente du livre (/livre).
+# Le reste du site n'est pas concerné.
+# Si le script inline de public/livre/index.html change, recalculer son empreinte sha256 dans la CSP.
+
+/livre
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), usb=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-T+LFZHRTrNDofD/8mIh8ASvV6QykVPfhqWQfC12Vofc=' 'sha256-+GBGNhh68LHy3w0MqxhBmYqFP4WP0LkIw9RpJxbsWDk=' https://cdn.jsdelivr.net https://js.chariowcdn.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://js.chariowcdn.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; frame-src https://*.mychariow.com https://*.chariow.com; connect-src 'self' https://cloudflareinsights.com https://*.mychariow.com https://*.chariow.com https://js.chariowcdn.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+
+/livre/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), usb=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-T+LFZHRTrNDofD/8mIh8ASvV6QykVPfhqWQfC12Vofc=' 'sha256-+GBGNhh68LHy3w0MqxhBmYqFP4WP0LkIw9RpJxbsWDk=' https://cdn.jsdelivr.net https://js.chariowcdn.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://js.chariowcdn.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; frame-src https://*.mychariow.com https://*.chariow.com; connect-src 'self' https://cloudflareinsights.com https://*.mychariow.com https://*.chariow.com https://js.chariowcdn.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
