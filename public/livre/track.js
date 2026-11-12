@@ -2,7 +2,7 @@
    Renseigner PIXEL_ID (Gestionnaire d'évènements Meta > Sources de données). Vide = aucun suivi chargé. */
 (function () {
   var PIXEL_ID = '4609157669302750';
-  var PRODUCT = { content_ids: ['prd_k518lp13'], content_name: 'Livre IA - premiers revenus', content_type: 'product', value: 13500, currency: 'XAF' };
+  var PRODUCT = { content_ids: ['prd_k518lp13'], content_name: 'Livre IA - premiers revenus', content_type: 'product', value: 4500, currency: 'XAF' };
   function fbqSafe() { if (window.fbq) window.fbq.apply(null, arguments); }
 
   if (PIXEL_ID) {
