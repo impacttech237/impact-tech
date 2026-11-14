@@ -14,6 +14,7 @@ import surveysApi from "./api/surveys";
 import appointmentsApi from "./api/appointments";
 import portalApi from "./api/portal";
 import feedbackApi from "./api/feedback";
+import { collectApi } from "./api/analytics";
 import questionnairesApi from "./api/questionnaires";
 import QuestionnairePage from "./pages/questionnaire";
 import { setEmailEnv } from "./lib/email";
@@ -526,6 +527,9 @@ app.get("/q/:token", (c) =>
 
 /* ---------- Widget de retours (sites en développement) ---------- */
 app.route("/api/feedback", feedbackApi);
+
+/* ---------- Suivi d'audience anonyme (page /livre) ---------- */
+app.route("/api/t", collectApi);
 
 /* ---------- API admin (protégée) ---------- */
 app.route("/api/admin", adminApi);

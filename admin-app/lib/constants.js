@@ -175,6 +175,7 @@ export const TABS = [
   { key: "dashboard", label: "Tableau de bord", icon: "Home", section: "PRINCIPAL" },
   { key: "requests", label: "Demandes", icon: "FileText", section: "PRINCIPAL" },
   { key: "payments", label: "Paiements", icon: "CreditCard", section: "PRINCIPAL" },
+  { key: "analytics", label: "Audience", icon: "Activity", section: "PRINCIPAL" },
   { key: "offers", label: "Offres (packs)", icon: "Briefcase", section: "CONTENU" },
   { key: "projects", label: "Réalisations", icon: "Building2", section: "CONTENU" },
   { key: "testimonials", label: "Avis clients", icon: "Star", section: "CONTENU" },

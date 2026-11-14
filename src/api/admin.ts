@@ -14,6 +14,7 @@ import { RESOURCES } from "../lib/admin-resources";
 import adminSurveysApi from "./admin-surveys";
 import adminAppointmentsApi from "./admin-appointments";
 import adminPortalApi from "./admin-portal";
+import { adminAnalyticsApi } from "./analytics";
 
 const app = new Hono();
 
@@ -122,6 +123,7 @@ app.route("/appointments", adminAppointmentsApi);
 
 /* ---------- Sous‑routeur portail client ---------- */
 app.route("/portal", adminPortalApi);
+app.route("/analytics", adminAnalyticsApi);
 
 /* ---------- Dashboard agrégé ---------- */
 app.get("/dashboard", async (c) => {

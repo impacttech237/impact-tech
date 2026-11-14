@@ -23,6 +23,8 @@ export async function runScheduled(env: any, cron?: string) {
     ["questionnaires", () => questionnaireReminders(env)],
     ["renewals", () => renewalReminders(env)],
     ["health", () => healthChecks(env)],
+    // Rétention du suivi d'audience : on ne garde que ~200 jours d'évènements.
+    ["analytics-purge", async () => { await env.DB.prepare("DELETE FROM page_events WHERE day < date('now','-200 day')").run(); }],
   ];
   if (new Date().getUTCDay() === 1) tasks.push(["digest", () => weeklyDigest(env)]);
   for (const [name, fn] of tasks) {

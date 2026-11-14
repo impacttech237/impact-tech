@@ -7,6 +7,7 @@ import DashboardPanel from "./components/DashboardPanel";
 import RequestsPanel from "./components/RequestsPanel";
 import ResourcePanel from "./components/ResourcePanel";
 import PaymentsPanel from "./components/PaymentsPanel";
+import AnalyticsPanel from "./components/AnalyticsPanel";
 import SubscribersPanel from "./components/SubscribersPanel";
 import SettingsPanel from "./components/SettingsPanel";
 import SurveyPanel from "./components/SurveyPanel";
@@ -84,6 +85,7 @@ export default function AdminPage() {
           {tab === "appointments" && <AppointmentsPanel onUnauthorized={onUnauthorized} />}
           {tab === "portal" && <PortalPanel />}
           {tab === "payments" && <PaymentsPanel onUnauthorized={onUnauthorized} />}
+          {tab === "analytics" && <AnalyticsPanel onUnauthorized={onUnauthorized} />}
           {tab === "subscribers" && <SubscribersPanel onUnauthorized={onUnauthorized} />}
           {tab === "settings" && <SettingsPanel onUnauthorized={onUnauthorized} />}
           {resource && <ResourcePanel resource={resource} onUnauthorized={onUnauthorized} />}
