@@ -72,7 +72,7 @@ const qs = o => { const p = new URLSearchParams(); for (const [k, v] of Object.e
 const options = (map, sel, tous) => `<option value="">${tous}</option>` + Object.entries(map).map(([k, v]) => `<option value="${esc(k)}" ${k === sel ? 'selected' : ''}>${esc(v)}</option>`).join('');
 
 /* ---------- cadre : en-tête, pied ---------- */
-const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
+const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/acteurs', 'Acteurs'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
 function cadre() {
   $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}<a href="#/compte" data-nav="/compte" class="acct" aria-label="Compte">${ic('user')}<i class="dot"></i></a></nav>`;
   majIconeCompte();
@@ -111,13 +111,13 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', olympiade: '#c2392f', planning: '#c9a46b', guide: '#2f7d4e', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', acteurs: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', olympiade: '#c2392f', planning: '#c9a46b', guide: '#2f7d4e', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
 
 views.accueil = async () => {
-  const gs = await chargerGuides().catch(() => []); await chargerCoursIdx();
+  const gs = await chargerGuides().catch(() => []); await chargerCoursIdx(); const ANN = await chargerAnnuaire().catch(() => []);
   const nbPdf = D.textes.filter(t => t.pdf).length, nbEnVigueur = D.textes.filter(t => t.statut === 'en_vigueur').length;
   const exemples = ['délai visa APE', 'capital minimum société de bourse', 'placement privé', 'agrément dirigeant'];
   const vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
@@ -162,6 +162,12 @@ views.accueil = async () => {
     <section class="land"><h2 class="sec"><span class="lbl l2">Pour qui ?</span></h2>
       <div class="aud">${public_.map(([h, i, quoi, t, d, cta]) => `<a class="card aud-c" href="${h}"><span class="ico">${ic(i)}</span><small>${quoi}</small><h3>${t}</h3><p>${d}</p><span class="btn sm">${cta} ${ic('arrow-right')}</span></a>`).join('')}</div>
     </section>
+
+    ${ANN.length ? `<section class="land"><h2 class="sec"><span class="lbl l5">Les acteurs du marché</span></h2>
+      <p class="lead">Le régulateur, la bourse, ${ANN.filter(a => a.type === 'societe-de-bourse').length} sociétés de bourse, ${ANN.filter(a => a.type === 'sgo').length} sociétés de gestion et leurs dirigeants : retrouvez qui fait quoi, avec les logos et les coordonnées officielles.</p>
+      <div class="vedettes" style="margin-top:20px">${ANN.filter(a => ['cosumaf', 'bvmac'].includes(a.id)).map(a => `<a class="card vedette" href="#/acteurs/${a.id}">${logoActeur(a, 'grand')}<div><small>${TYPE_ACTEUR[a.type]}</small><b>${esc(a.nomCourt)}</b>${a.dirigeants?.[0] ? `<span class="vdir">${photoDir(a.dirigeants[0])}<span>${esc(a.dirigeants[0].nom)}<small>${esc(a.dirigeants[0].titre)}</small></span></span>` : ''}</div></a>`).join('')}</div>
+      <div class="logos-ruban" aria-label="Quelques acteurs">${ANN.filter(a => a.logo && a.type === 'societe-de-bourse').slice(0, 12).map(a => `<a href="#/acteurs/${a.id}" title="${esc(a.nom)}">${logoActeur(a)}</a>`).join('')}</div>
+      <p style="margin-top:18px"><a class="btn" href="#/acteurs">${ic('users')} Voir tous les acteurs</a></p></section>` : ''}
 
     <section class="land"><h2 class="sec"><span class="lbl l6">Une réponse en quelques secondes</span></h2>
       <p class="lead">Voici ce que renvoie le site. Chaque ligne cite l'article et le texte d'origine.</p>
@@ -1023,6 +1029,70 @@ async function monEspace() {
   return { html, defs };
 }
 
+/* ---------- Annuaire des acteurs : institutions, organismes centraux, intermédiaires, intervenants, émetteurs ---------- */
+let annuaireCache = null;
+const chargerAnnuaire = async () => annuaireCache ||= await fetch('/data/annuaire.json').then(r => r.json());
+const GROUPES = [
+  ['institutions', 'Institutions', ['regulateur', 'organisme-central', 'cooperation'], 'Le régulateur, la bourse, le dépositaire central, la banque de règlement et les institutions partenaires.'],
+  ['societes-de-bourse', 'Sociétés de bourse', ['societe-de-bourse'], 'Les seules sociétés habilitées à négocier à la BVMAC : elles reçoivent vos ordres d\'achat et de vente. Chaque société est agréée par la COSUMAF.'],
+  ['gestion', 'Sociétés de gestion', ['sgo'], 'Elles créent et gèrent les fonds (OPC), choisissent les placements et publient les informations périodiques. Les actifs sont gardés par un dépositaire indépendant.'],
+  ['conseil', 'Conseil et autres intermédiaires', ['cif', 'psan', 'financement-participatif', 'etablissement-credit', 'intermediaire'], 'Conseillers en investissements financiers, établissements de crédit teneurs de comptes, prestataires sur actifs numériques et financement participatif.'],
+  ['intervenants', 'Intervenants', ['cac', 'analyste', 'agence-notation', 'organisme-garantie', 'listing-sponsor', 'intervenant'], 'Commissaires aux comptes, analystes, agences de notation, organismes de garantie : ils apportent expertise indépendante et contrôle de qualité.'],
+  ['emetteurs', 'Émetteurs', ['emetteur'], 'Les États, collectivités et sociétés qui lèvent des fonds sur le marché.'],
+];
+const TYPE_ACTEUR = { regulateur: 'Régulateur', 'organisme-central': 'Organisme central', cooperation: 'Institution partenaire', 'societe-de-bourse': 'Société de bourse', sgo: 'Société de gestion d\'OPC', cif: 'Conseiller en investissements financiers', psan: 'Prestataire sur actifs numériques', 'financement-participatif': 'Conseiller en financement participatif', 'etablissement-credit': 'Établissement de crédit agréé', intermediaire: 'Intermédiaire', cac: 'Commissaire aux comptes', analyste: 'Analyste financier', 'agence-notation': 'Agence de notation', 'organisme-garantie': 'Organisme de garantie', 'listing-sponsor': 'Listing sponsor', intervenant: 'Intervenant', emetteur: 'Émetteur' };
+const COURS_TYPE = { 'societe-de-bourse': ['p6-intermediaires', 'p5-ordre-denouement'], sgo: ['p7-fonds', 'p6-intermediaires'], cif: ['p6-intermediaires'], 'etablissement-credit': ['p5-ordre-denouement'], cac: ['p2-appel-public'], 'agence-notation': ['p2-appel-public'], 'organisme-garantie': ['p2-appel-public'], emetteur: ['p2-appel-public', 'p1-entrer-en-bourse'], regulateur: ['p0-cadre'], cooperation: ['p0-cadre'] };
+const initiales = n => String(n).replace(/[^A-Za-zÀ-ÿ ]/g, ' ').split(/\s+/).filter(w => w.length > 1 && !/^(de|du|des|la|le|les|et|sa|sarl|sas)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || '?';
+const teinte = n => ['#ffe14a', '#ffb8d1', '#a9f0d0', '#bcd7ff', '#ffd3a3', '#d9c8ff'][hashJ(n) % 6];
+const logoActeur = (a, cls = '') => a.logo ? `<img class="alogo ${cls}" src="${esc(a.logo)}" alt="Logo ${esc(a.nomCourt || a.nom)}" loading="lazy">` : `<span class="alogo ini ${cls}" style="background:${teinte(a.nom)}" aria-hidden="true">${esc(initiales(a.nomCourt || a.nom))}</span>`;
+const photoDir = d => d.photo ? `<img class="aphoto" src="${esc(d.photo)}" alt="${esc(d.nom)}" loading="lazy">` : `<span class="aphoto ini" style="background:${teinte(d.nom)}" aria-hidden="true">${esc(initiales(d.nom))}</span>`;
+const dateFr = d => d ? new Date(d).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+const carteActeur = a => `<li><a class="card acteur" href="#/acteurs/${a.id}">${logoActeur(a)}<span class="an"><b>${esc(a.nomCourt || a.nom)}</b>${a.nomCourt ? `<small>${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</small>` : ''}<small>${esc([a.ville, a.pays].filter(Boolean).join(', '))}</small>${a.dirigeants?.[0] ? `<small class="dg">${esc(a.dirigeants[0].titre)} : ${esc(a.dirigeants[0].nom)}</small>` : ''}</span></a></li>`;
+
+views.acteurs = async ([id], q) => {
+  const A = await chargerAnnuaire();
+  if (id) {
+    const a = A.find(x => x.id === id); if (!a) return views.introuvable();
+    const idxC = await chargerCoursIdx(), liens = a.liens || { cours: COURS_TYPE[a.type] || [], textes: [] };
+    const cours = (liens.cours || []).map(cid => idxC.find(c => c.id === cid)).filter(Boolean), textes = (liens.textes || []).map(T).filter(Boolean);
+    const ligne = (ic_, t, v) => v ? `<div class="ligne">${ic(ic_)}<span><small>${t}</small>${v}</span></div>` : '';
+    const groupe = GROUPES.find(g => g[2].includes(a.type));
+    return { title: `${a.nomCourt || a.nom} : ${TYPE_ACTEUR[a.type]}`, html: `
+      <div class="crumbs"><a href="#/acteurs">Acteurs</a> ${ic('chevron-right')} ${groupe ? `<a href="#/acteurs${qs({ g: groupe[0] })}">${groupe[1]}</a> ${ic('chevron-right')} ` : ''}<span>${esc(a.nomCourt || a.nom)}</span></div>
+      <header class="doc-head afiche"><div class="aentete">${logoActeur(a, 'grand')}<div><span class="badge">${TYPE_ACTEUR[a.type]}${a.categorie && a.categorie !== TYPE_ACTEUR[a.type] ? ' · ' + esc(a.categorie) : ''}</span><h1 class="h1" style="margin:10px 0 6px">${lbls(a.nomCourt || a.nom)}</h1>${a.nomCourt ? `<p class="full">${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</p>` : ''}</div></div></header>
+      ${a.description ? `<div class="sheet"><p>${esc(a.description)}</p></div>` : ''}
+      ${a.dirigeants?.length ? `<h2 class="sec"><span class="lbl l2">Direction</span></h2><div class="dirigeants">${a.dirigeants.map(d => `<div class="card dir">${photoDir(d)}<div><b>${esc(d.nom)}</b><small>${esc(d.titre)}${d.depuis ? ' · depuis ' + esc(d.depuis) : ''}</small>${d.note ? `<small class="note">${esc(d.note)}</small>` : ''}</div></div>`).join('')}</div>` : ''}
+      <h2 class="sec"><span class="lbl l6">Informations</span></h2>
+      <div class="sheet infos">${ligne('scale', 'Numéro d\'agrément', a.agrement ? `${esc(a.agrement.numero)}${a.agrement.date ? ' · ' + dateFr(a.agrement.date) : ''}` : '')}${ligne('library', 'Siège', esc([a.ville, a.pays].filter(Boolean).join(', ')))}${ligne('book-open', 'Adresse', esc(a.adresse || ''))}${ligne('message-circle', 'Téléphone', esc(a.tel || ''))}${ligne('link', 'E-mail', a.email ? `<a href="mailto:${esc(a.email)}">${esc(a.email)}</a>` : '')}${ligne('external-link', 'Site web', a.site ? `<a href="${esc(a.site)}" target="_blank" rel="noopener">${esc(a.site.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a>` : '')}${a.secteur ? ligne('activity', 'Secteur', esc(a.secteur)) : ''}${a.faits ? a.faits.map(f => `<div class="ligne">${ic('lightbulb')}<span>${esc(f)}</span></div>`).join('') : ''}</div>
+      ${cours.length || textes.length ? `<h2 class="sec"><span class="lbl l1">Pour comprendre</span></h2><div class="chips">${cours.map(c => `<a class="btn ghost sm" href="#/cours/${c.id}">${ic('graduation-cap')} Cours : ${esc(c.court)}</a>`).join('')}${textes.map(t => `<a class="btn ghost sm" href="#/texte/${t.id}">${ic('file-text')} ${esc(shortName(t))}</a>`).join('')}</div>` : ''}
+      ${a.agrement ? `<div class="banner info" style="margin-top:28px">${ic('shield-check')}<div>Avant de confier de l'argent, vérifiez l'agrément sur le site de la COSUMAF : <a href="https://cosumaf.org/verifier-un-agrement" target="_blank" rel="noopener">vérifier un agrément</a>.</div></div>` : ''}
+      <p class="small onmat" style="margin-top:26px">Source : <a href="${esc(a.source.url)}" target="_blank" rel="noopener" style="color:var(--y)">${esc(a.source.nom)}</a>. Logo${a.dirigeants?.some(d => d.photo) ? ' et photo' : ''} reproduits depuis les sites officiels, à des fins d'identification ; ils restent la propriété de leurs titulaires. Données relevées le 25 novembre 2026 : <button class="linkbtn" data-copy="${esc(`Erreur signalée sur l'acteur « ${a.nom} » : `)}">signaler une erreur</button>.</p>`,
+      after() { fond(MAT.acteurs); } };
+  }
+  const g = GROUPES.find(x => x[0] === q.g) ? q.g : '', pays_ = q.p || '', mot = q.q || '';
+  const filtre = mot => A.filter(a => (!g || GROUPES.find(x => x[0] === g)[2].includes(a.type)) && (!pays_ || a.pays === pays_) && (!mot || fold(a.nom + ' ' + (a.dirigeants || []).map(d => d.nom).join(' ') + ' ' + (a.ville || '')).includes(fold(mot))));
+  const paysListe = [...new Set(A.map(a => a.pays).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
+  const grp = GROUPES.find(x => x[0] === g);
+  const vedettes = A.filter(a => ['cosumaf', 'bvmac'].includes(a.id));
+  return { title: 'Les acteurs du marché financier de la CEMAC', html: `
+    <h1 class="h1">${lbls('Les acteurs')}</h1><span class="hand">Qui fait quoi sur le marché : institutions, intermédiaires, émetteurs</span>
+    <div class="vedettes">${vedettes.map(a => `<a class="card vedette" href="#/acteurs/${a.id}">${logoActeur(a, 'grand')}<div><small>${TYPE_ACTEUR[a.type]}</small><b>${esc(a.nomCourt)}</b>${a.dirigeants?.[0] ? `<span class="vdir">${photoDir(a.dirigeants[0])}<span>${esc(a.dirigeants[0].nom)}<small>${esc(a.dirigeants[0].titre)}</small></span></span>` : ''}</div></a>`).join('')}</div>
+    <form class="sbar shelfsearch" id="af" role="search" style="margin-bottom:26px"><span class="sico">${ic('search')}</span><input id="aq" type="search" value="${esc(mot)}" placeholder="Chercher un acteur, un dirigeant, une ville…" autocomplete="off" aria-label="Chercher un acteur"></form>
+    <nav class="tabsrow" aria-label="Catégories"><a class="chip" aria-pressed="${!g}" href="#/acteurs">Tous (${A.length})</a>${GROUPES.map(([k, n, ts]) => `<a class="chip" aria-pressed="${g === k}" href="#/acteurs${qs({ g: k, p: pays_ })}">${n} (${A.filter(a => ts.includes(a.type)).length})</a>`).join('')}</nav>
+    ${grp ? `<p class="onmat" style="max-width:760px;margin:-8px 0 18px">${esc(grp[3])}</p>` : ''}
+    <div class="mini" style="margin-bottom:20px"><label>Pays<select id="ap"><option value="">Tous</option>${paysListe.map(x => `<option ${x === pays_ ? 'selected' : ''}>${esc(x)}</option>`).join('')}</select></label></div>
+    <p class="count" id="ac" aria-live="polite"></p><ul class="list acteurs" id="al"></ul>
+    <div class="banner info" style="margin-top:34px">${ic('shield-check')}<div>Listes officielles de la COSUMAF et de la BVMAC, relevées le 25 novembre 2026. Pour vérifier l'agrément d'un acteur, utilisez le service de la COSUMAF : <a href="https://cosumaf.org/verifier-un-agrement" target="_blank" rel="noopener">vérifier un agrément</a>.</div></div>`,
+    after() {
+      fond(MAT.acteurs);
+      const maj = () => { const l = filtre($('#aq').value); $('#ac').textContent = `${l.length} acteur${l.length > 1 ? 's' : ''}`; $('#al').innerHTML = l.length ? l.map(carteActeur).join('') : '<li class="empty">Aucun acteur ne correspond.</li>'; };
+      $('#aq').addEventListener('input', e => { history.replaceState(null, '', '#/acteurs' + qs({ g, p: pays_, q: e.target.value })); maj(); });
+      $('#af').addEventListener('submit', e => e.preventDefault());
+      $('#ap').addEventListener('change', e => { location.hash = '#/acteurs' + qs({ g, p: e.target.value, q: $('#aq').value }); });
+      maj();
+    } };
+};
+
 /* ---------- Jeux (repris de la plateforme Excellence) ---------- */
 const GAMES = {
   memory: { ico: 'layers', nom: 'Memory', desc: 'Retrouve les paires terme ↔ définition le plus vite possible.', unit: 'coups', low: true },
@@ -1293,10 +1363,19 @@ const guideView = porte => async ([id]) => {
     after() { fond(P.mat); } };
   const i = gs.findIndex(g => g.id === id); if (i < 0) return views.introuvable();
   const g = gs[i], prec = gs[i - 1], suiv = gs[i + 1];
+  const A = await chargerAnnuaire(); const titreB = b => b.titre ? `<h2 class="sec"><span class="lbl l2">${esc(b.titre)}</span></h2>` : '';
   const corps = g.blocs.map(b => {
     if (b.p) return `<div class="sheet"><p>${md(b.p)}</p></div>`;
     if (b.note) return `<div class="banner info">${ic('lightbulb')}<div>${md(b.note)}</div></div>`;
     if (b.faits) return `<h2 class="sec"><span class="lbl l2">${esc(b.titre || 'Dans les textes')}</span></h2><div class="sheet"><div class="facts">${b.faits.map(x => D.parId.get(x)).filter(Boolean).map(x => factHtml(x, true)).join('')}</div></div>`;
+    if (b.liste) return `${titreB(b)}<div class="sheet"><ul class="gl">${b.liste.map(x => `<li>${md(x)}</li>`).join('')}</ul></div>`;
+    if (b.puces) return `${titreB(b)}<div class="sheet"><ul class="gl puces">${b.puces.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>`;
+    if (b.etapes) return `${titreB(b)}<ol class="etapes">${b.etapes.map((x, i) => `<li><span class="n">${i + 1}</span><div>${md(x)}</div></li>`).join('')}</ol>`;
+    if (b.chiffres) return `${titreB(b)}<div class="chiffres">${b.chiffres.map(x => `<div class="card chf"><b>${esc(x.v)}</b><span>${esc(x.l)}</span></div>`).join('')}</div>`;
+    if (b.chrono) return `${titreB(b)}<ol class="chrono">${b.chrono.map(x => `<li><b>${esc(x.an)}</b><span>${esc(x.t)}</span></li>`).join('')}</ol>`;
+    if (b.acteurs) return `${titreB(b)}<ul class="list acteurs">${b.acteurs.map(id => A.find(a => a.id === id)).filter(Boolean).map(carteActeur).join('')}</ul>`;
+    if (b.cta) return `<p style="margin:26px 0"><a class="btn" href="${esc(b.cta.href)}"${b.cta.externe ? ' target="_blank" rel="noopener"' : ''}>${ic(b.cta.externe ? 'external-link' : 'arrow-right')} ${esc(b.cta.label)}</a></p>`;
+    if (b.source) return `<p class="small onmat">Source : <a href="${esc(b.source.url)}" target="_blank" rel="noopener" style="color:var(--y)">${esc(b.source.nom)}</a></p>`;
     return '';
   }).join('');
   return { title: `${g.titre} : ${P.nom}`, html: `
@@ -1427,7 +1506,7 @@ views.apropos = async () => ({ title: 'À propos', html: `
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', acteurs: 'acteurs', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');
@@ -1452,7 +1531,7 @@ document.addEventListener('keydown', e => {
 window.addEventListener('hashchange', render);
 (async () => {
   try { await charger(); } catch (e) { $('#app').innerHTML = `<div class="empty"><h1>Données indisponibles</h1><p>Impossible de charger les données. Vérifiez votre connexion puis rechargez la page.</p></div>`; return; }
-  { const m = location.pathname.match(/^\/(textes|decouvrir|cours|comprendre)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : m[1] === 'cours' ? (m[2] ? '/#/cours/' + m[2] : '/#/bibliotheque') : m[1] === 'comprendre' ? '/#/bibliotheque' : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
+  { const m = location.pathname.match(/^\/(textes|decouvrir|cours|comprendre|acteurs)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'acteurs' ? '/#/acteurs' + (m[2] ? '/' + m[2] : '') : m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : m[1] === 'cours' ? (m[2] ? '/#/cours/' + m[2] : '/#/bibliotheque') : m[1] === 'comprendre' ? '/#/bibliotheque' : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
   cadre(); await render();
   if (compte()) synchroniser().then(r => { if (r.ok && /^#\/progres/.test(location.hash)) render(); });
   if ('serviceWorker' in navigator && /nosw/.test(location.search)) { // mode développement : pas de cache hors ligne

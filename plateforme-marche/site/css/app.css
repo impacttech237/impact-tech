@@ -337,3 +337,54 @@ main{padding-bottom:40px}
 .faq .qa div{font-family:var(--sans);padding:0 0 18px;line-height:1.6;color:var(--ink-soft)}
 .final{text-align:center;margin-bottom:30px}
 .final .lead{max-width:560px;margin:10px auto 24px}
+
+/* ---------- annuaire des acteurs ---------- */
+.alogo{width:68px;height:68px;object-fit:contain;background:#fff;border-radius:14px;padding:6px;border:2.5px solid var(--ink);box-shadow:2px 3px 0 var(--ink);flex:0 0 auto}
+.alogo.grand{width:104px;height:104px;padding:10px}
+.alogo.ini,.aphoto.ini{display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:1.5rem;color:var(--ink)}
+.aphoto{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--ink);box-shadow:2px 3px 0 var(--ink);flex:0 0 auto;background:#fff}
+.aphoto.ini{font-size:1.4rem}
+.acteurs{grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px}
+.acteur{display:flex;gap:16px;align-items:center;text-decoration:none;color:var(--ink);padding:18px 20px;transition:transform .15s}
+.acteur:hover{transform:translateY(-4px) rotate(-.5deg)}
+.acteur .an{display:grid;gap:3px;min-width:0}.acteur .an b{font-family:var(--display);font-weight:800;line-height:1.2}
+.acteur .an small{font-family:var(--sans);color:var(--ink-soft);font-size:.82rem;line-height:1.3}
+.acteur .dg{color:var(--ink)}
+.vedettes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;margin:28px 0 38px}
+.vedette{display:flex;gap:20px;align-items:center;text-decoration:none;color:var(--ink);padding:24px 26px;transition:transform .2s}
+.vedette:hover{transform:translateY(-5px) rotate(-.6deg)}
+.vedette b{display:block;font-family:var(--display);font-weight:800;font-size:1.6rem;line-height:1.1;margin:2px 0 10px}
+.vedette small{font-family:var(--sans);color:var(--ink-soft);text-transform:uppercase;letter-spacing:.07em;font-size:.75rem}
+.vdir{display:flex;align-items:center;gap:12px;font-family:var(--display);font-weight:700;line-height:1.2}
+.vdir small{display:block;text-transform:none;letter-spacing:0;font-size:.82rem;font-weight:500}
+.vdir .aphoto{width:58px;height:58px}
+.aentete{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.dirigeants{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.dir{display:flex;gap:18px;align-items:center;padding:20px 24px}
+.dir b{display:block;font-family:var(--display);font-weight:800;font-size:1.15rem}
+.dir small{display:block;font-family:var(--sans);color:var(--ink-soft)}
+.dir small.note{font-size:.8rem;margin-top:6px;font-style:italic}
+.infos{display:grid;gap:16px}
+.infos .ligne{display:flex;gap:14px;align-items:flex-start;color:var(--ink);font-family:var(--sans)}
+.infos .ligne .ic{margin-top:3px;width:1.2em;height:1.2em;flex:0 0 auto}
+.infos .ligne small{display:block;color:var(--ink-soft);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+.infos a{color:var(--ink);font-weight:700}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--y);text-decoration:underline;cursor:pointer}
+
+/* ---------- guides enrichis ---------- */
+.gl{margin:0;padding-left:24px;line-height:1.75;color:var(--ink)}.gl li{margin:0 0 12px}
+.gl.puces{columns:2;column-gap:36px}@media (max-width:640px){.gl.puces{columns:1}}
+.etapes{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:18px;counter-reset:e}
+.etapes li{display:flex;gap:18px;align-items:flex-start;background:var(--paper);color:var(--ink);border-radius:14px;padding:20px 24px;box-shadow:0 10px 18px -8px rgba(0,0,0,.4);line-height:1.6}
+.etapes .n{flex:0 0 42px;height:42px;border-radius:50%;background:var(--y);border:2.5px solid var(--ink);box-shadow:2px 3px 0 var(--ink);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:1.2rem}
+.etapes p{margin:0}
+.chiffres{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin:0 0 28px}
+.chf{text-align:center;padding:24px 20px;color:var(--ink)}
+.chf b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2rem,6vw,3rem);line-height:1.05}
+.chf span{font-family:var(--sans);font-size:.95rem;color:var(--ink-soft)}
+.chrono{list-style:none;margin:0 0 28px;padding:0 0 0 12px;border-left:4px solid var(--y);display:grid;gap:18px}
+.chrono li{position:relative;padding-left:22px;display:grid;gap:2px}
+.chrono li::before{content:"";position:absolute;left:-12px;top:6px;width:16px;height:16px;border-radius:50%;background:var(--y);border:2.5px solid var(--ink)}
+.chrono b{font-family:var(--display);font-weight:800;font-size:1.3rem;color:var(--y)}
+.chrono span{font-family:var(--sans);line-height:1.5}
+.logos-ruban{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}.logos-ruban .alogo{width:64px;height:64px}

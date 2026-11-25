@@ -1,0 +1,2916 @@
+[
+ {
+  "id": "cosumaf",
+  "type": "regulateur",
+  "nom": "COSUMAF : Commission de Surveillance du Marché Financier de l'Afrique Centrale",
+  "nomCourt": "COSUMAF",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "349, Rue Dr. Cureau, Place de l'Indépendance, B.P. 1724",
+  "tel": "+241 011 72 51 41",
+  "email": "infos@cosumaf.org",
+  "site": "https://cosumaf.org",
+  "description": "Le régulateur du marché financier de la zone CEMAC. Elle régule, contrôle et surveille le marché : elle délivre les agréments, les visas et les habilitations, enregistre les placements privés et peut sanctionner. Sa mission est de promouvoir la régulation et la protection de l'épargne investie en instruments financiers.",
+  "faits": [
+   "Le Président et le Secrétaire Général sont nommés par la Conférence des Chefs d'État de la CEMAC pour un mandat de 5 ans non renouvelable.",
+   "Elle est une institution spécialisée de l'UMAC."
+  ],
+  "dirigeants": [
+   {
+    "nom": "Jacqueline ADIABA-NKEMBE",
+    "titre": "Présidente",
+    "depuis": "2023",
+    "note": "Première femme à la présidence de la COSUMAF.",
+    "photo": "/img/acteurs/cosumaf-dirigeant.jpeg"
+   },
+   {
+    "nom": "Salvador MANGUE AYINGONO",
+    "titre": "Secrétaire Général",
+    "depuis": "2023",
+    "note": "Information relevée dans la presse (installation en 2023) ; la fiche de la COSUMAF ne cite pas son nom."
+   }
+  ],
+  "liens": {
+   "cours": [
+    "p0-cadre"
+   ],
+   "textes": [
+    "r01-22",
+    "aa06-17",
+    "conv-umac-08"
+   ]
+  },
+  "source": {
+   "nom": "COSUMAF : mot du Président, management",
+   "url": "https://cosumaf.org/mot-du-president"
+  },
+  "logo": "/img/acteurs/cosumaf.png"
+ },
+ {
+  "id": "bvmac",
+  "type": "organisme-central",
+  "nom": "BVMAC : Bourse des Valeurs Mobilières de l'Afrique Centrale",
+  "nomCourt": "BVMAC",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble de la Bourse, B.P. 442",
+  "tel": "(+237) 233 43 85 83",
+  "email": "bvmac@bvmac.cm",
+  "site": "https://www.bvm-ac.org",
+  "description": "La bourse régionale : une société anonyme constituée pour exercer, à titre exclusif, la mission de service public d'organisation, d'animation et de gestion des marchés réglementés du marché financier de l'Afrique Centrale. Elle est l'entreprise de marché et la plateforme unique de négociation des instruments financiers de la zone CEMAC.",
+  "faits": [
+   "Société anonyme avec conseil d'administration, au capital social de 9 582 900 000 FCFA.",
+   "Seules les sociétés de bourse peuvent négocier sur ses marchés."
+  ],
+  "dirigeants": [
+   {
+    "nom": "Louis BANGA NTOLO",
+    "titre": "Directeur Général",
+    "depuis": "2021",
+    "note": "Mandat renouvelé en août 2025 pour quatre ans (avis de la BVMAC et presse)."
+   }
+  ],
+  "liens": {
+   "cours": [
+    "p1-entrer-en-bourse",
+    "p5-ordre-denouement"
+   ],
+   "textes": [
+    "rbv-25"
+   ]
+  },
+  "source": {
+   "nom": "BVMAC : mot du Directeur Général",
+   "url": "https://www.bvm-ac.org/message-du-directeur-general/"
+  },
+  "logo": "/img/acteurs/bvmac.png"
+ },
+ {
+  "id": "depositaire-central",
+  "type": "organisme-central",
+  "nom": "Dépositaire Central",
+  "nomCourt": "Dépositaire Central",
+  "pays": "Zone CEMAC",
+  "description": "L'organisme central chargé de garantir l'intégrité physique et juridique des titres financiers, de réduire les risques liés aux titres physiques et de sécuriser le dénouement des transactions. Il tient les comptes courants de titres de ses adhérents.",
+  "faits": [
+   "Agréé et supervisé par la COSUMAF."
+  ],
+  "dirigeants": [],
+  "liens": {
+   "cours": [
+    "p5-ordre-denouement"
+   ],
+   "textes": [
+    "r04-25",
+    "i09-23"
+   ]
+  },
+  "source": {
+   "nom": "COSUMAF : organismes centraux",
+   "url": "https://cosumaf.org/organismes-centraux"
+  },
+  "logo": "/img/acteurs/depositaire-central.png"
+ },
+ {
+  "id": "banque-de-reglement-beac",
+  "type": "organisme-central",
+  "nom": "Banque de règlement : BEAC (Banque des États de l'Afrique Centrale)",
+  "nomCourt": "BEAC",
+  "pays": "Zone CEMAC",
+  "site": "https://www.beac.int",
+  "description": "La fonction de banque de règlement est assurée par la Banque des États de l'Afrique Centrale (BEAC) : elle règle en espèces les transactions du marché.",
+  "dirigeants": [],
+  "liens": {
+   "cours": [
+    "p5-ordre-denouement"
+   ],
+   "textes": [
+    "r01-22"
+   ]
+  },
+  "source": {
+   "nom": "COSUMAF : organismes centraux",
+   "url": "https://cosumaf.org/organismes-centraux"
+  },
+  "logo": "/img/acteurs/banque-de-reglement-beac.png"
+ },
+ {
+  "id": "chambre-de-compensation",
+  "type": "organisme-central",
+  "nom": "Chambre de compensation",
+  "nomCourt": "Chambre de compensation",
+  "pays": "Zone CEMAC",
+  "description": "L'infrastructure centrale chargée de sécuriser le fonctionnement du marché financier régional et de garantir la bonne fin des opérations. Selon la COSUMAF, elle n'est pas encore effective.",
+  "dirigeants": [],
+  "liens": {
+   "cours": [
+    "p5-ordre-denouement"
+   ],
+   "textes": [
+    "r01-22"
+   ]
+  },
+  "source": {
+   "nom": "COSUMAF : organismes centraux",
+   "url": "https://cosumaf.org/organismes-centraux"
+  },
+  "logo": "/img/acteurs/chambre-de-compensation.png"
+ },
+ {
+  "id": "afg-capital-central-africa-s-a-acca",
+  "type": "societe-de-bourse",
+  "nom": "AFG CAPITAL CENTRAL AFRICA S.A - (ACCA)",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Akwa, Boulevard de la Liberté, BP 1112",
+  "tel": "00237 651 114 444 / 651 47 27 27 / 656 114 444",
+  "email": null,
+  "site": "https://afgcapital-sa.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-03/2020",
+   "date": "2020-09-25"
+  },
+  "dirigeants": [
+   {
+    "nom": "MEPIAYE José",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/afg-capital-central-africa-s-a-acca.png"
+ },
+ {
+  "id": "africa-bright-asset-management",
+  "type": "sgo",
+  "nom": "AFRICA BRIGHT ASSET MANAGEMENT",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "316 Immeuble Victoria, 4è Etage, Immeuble Victori",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SGP-01/2020",
+   "date": "2020-07-18"
+  },
+  "dirigeants": [
+   {
+    "nom": "EKAMBI Sammy",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "africa-bright-securities-s-a-abs",
+  "type": "societe-de-bourse",
+  "nom": "AFRICA BRIGHT SECURITIES S.A (ABS)",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue Victoria, 316 Immeuble Victoria (5eme étage), Bonanjo, BP 15451",
+  "tel": "00237 697 58 05 73",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-02/2020",
+   "date": "2020-07-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "NTCHOUMOU Yves Martial",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/africa-bright-securities-s-a-abs.png"
+ },
+ {
+  "id": "afriland-bourse-investissement-s-a",
+  "type": "societe-de-bourse",
+  "nom": "AFRILAND BOURSE & INVESTISSEMENT S.A",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Avenue Charles de Gaulles, BP 11834",
+  "tel": "+237 222 22 51 11/ +237699779404/ +237222233068 / (+237) 222 22 58 37",
+  "email": null,
+  "site": "https://www.afrilandbourse.com/",
+  "agrement": {
+   "numero": "MFAC-SDB-01/2019",
+   "date": "2019-12-30"
+  },
+  "dirigeants": [
+   {
+    "nom": "MOUAHA Yekel",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/afriland-bourse-investissement-s-a.png"
+ },
+ {
+  "id": "afriland-first-bank",
+  "type": "etablissement-credit",
+  "nom": "AFRILAND FIRST BANK",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "1063 Place de l’Indépendance, BP 11834",
+  "tel": "(+237) 222 23 30 68",
+  "email": "contact@afrilandfirstbank.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-I. MFAC-01/215",
+   "date": "2015-12-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "GUELA SIMO Celestin",
+    "titre": "Administrateur Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "almasi-capital-and-advisory-s-a",
+  "type": "societe-de-bourse",
+  "nom": "ALMASI CAPITAL AND ADVISORY S.A",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "1er étage immeuble Hydrocarbures derrière la clinique soppo, Bonapriso, BP 4185",
+  "tel": "(+237) 640792319",
+  "email": null,
+  "site": "https://www.almasicapital.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-01/2024",
+   "date": "2024-10-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "OBOUH FEGUE Ingrid Laurence",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/almasi-capital-and-advisory-s-a.png"
+ },
+ {
+  "id": "aries-capital-s-a-s",
+  "type": "cif",
+  "nom": "ARIES CAPITAL S.A.S",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "9ème étage de l’immeuble de l’ARC, centre-ville",
+  "tel": "(+242) 06 972 45 76",
+  "email": null,
+  "site": "https://aries-investissements.com/",
+  "agrement": {
+   "numero": "COSUMAF-CIF-03/2023",
+   "date": "2023-07-20"
+  },
+  "dirigeants": [
+   {
+    "nom": "MATONDO BITOLO Régis",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/aries-capital-s-a-s.png"
+ },
+ {
+  "id": "asca-asset-management",
+  "type": "sgo",
+  "nom": "ASCA ASSET MANAGEMENT",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble du Phare, BONAPRISO, BP 255",
+  "tel": "(+237) 233 43 14 46",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SGP-01/2016",
+   "date": "2016-12-07"
+  },
+  "dirigeants": [
+   {
+    "nom": "EL BEY MOHAMED ZAKARIA",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "attijari-securities-central-africa-asca",
+  "type": "societe-de-bourse",
+  "nom": "ATTIJARI SECURITIES CENTRAL AFRICA (ASCA)",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue njo njo, Carrefour Soppo Priso, immeuble du phare, 3e étage, Bonapriso, BP 255",
+  "tel": "(+237) 233 43 53 08 - Tel: (+237) 678 43 87 19/ (+237) 233 43 14 46",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SB-01/2016",
+   "date": "2016-03-01"
+  },
+  "dirigeants": [
+   {
+    "nom": "POUHE Ernest",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/attijari-securities-central-africa-asca.jpg"
+ },
+ {
+  "id": "bamboo-securities",
+  "type": "societe-de-bourse",
+  "nom": "BAMBOO SECURITIES",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "Boulevard Triomphal",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-02/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "N’NA MBOMA Yvan",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "bange-sociedad-de-valores-s-a",
+  "type": "societe-de-bourse",
+  "nom": "BANGE SOCIEDAD DE VALORES S.A",
+  "pays": "Guinée Équatoriale",
+  "ville": "Malabo",
+  "adresse": "Avenida de las Naciones Unidas, 28 ZN, BP 430",
+  "tel": "(+240) 222 62 38 01 / 333 099 576",
+  "email": null,
+  "site": "https://bangesvalores.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-04/2021",
+   "date": "2021-07-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "OBIANG BIKIE Juan Pablo",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/bange-sociedad-de-valores-s-a.png"
+ },
+ {
+  "id": "beko-capital-advisory-s-a",
+  "type": "societe-de-bourse",
+  "nom": "BEKO CAPITAL ADVISORY S.A",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble Grassfields, Plateux Joss, 620 Rue du Gouverneur Carras, Bonanjo, BP 2684",
+  "tel": "(+237) 691 443 529 / 698 774 824",
+  "email": null,
+  "site": "https://bekocapital.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-03/2021",
+   "date": "2021-07-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "BEUMO JAZE Brice Patrick",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/beko-capital-advisory-s-a.png"
+ },
+ {
+  "id": "bgfi-bourse",
+  "type": "societe-de-bourse",
+  "nom": "BGFI BOURSE",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "2253, Boulevard de l'indépendance, 3e étage, Immeuble ODYSSEE, BP 2253",
+  "tel": "(+241) 077 50 71 10 / 011 79 60 08 / 074 43 00 51",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SB-002/2006",
+   "date": "2006-12-20"
+  },
+  "dirigeants": [
+   {
+    "nom": "GAMBIGHA Ulrich",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/bgfi-bourse.jpg"
+ },
+ {
+  "id": "bpc-bourse",
+  "type": "societe-de-bourse",
+  "nom": "BPC BOURSE",
+  "pays": "Congo",
+  "ville": null,
+  "adresse": null,
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-04/2026",
+   "date": "2026-06-25"
+  },
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/bpc-bourse.jpg"
+ },
+ {
+  "id": "bulding-emerging-markets-securities",
+  "type": "societe-de-bourse",
+  "nom": "BULDING EMERGING MARKETS SECURITIES",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "976, Rue Christian Tobie Kuoh, Bonanjo, BP 5758",
+  "tel": null,
+  "email": null,
+  "site": "https://www.bemsecurities.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-03/2023",
+   "date": "2023-10-02"
+  },
+  "dirigeants": [
+   {
+    "nom": "NJOH NSEKE Williams",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/bulding-emerging-markets-securities.png"
+ },
+ {
+  "id": "cbc-bourse",
+  "type": "societe-de-bourse",
+  "nom": "CBC BOURSE",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "148, Avenue de Gaulle, quartier Bonanjo, BP 4004",
+  "tel": "00237 233 420 202 / 372 744 912",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SB-01/2020",
+   "date": "2020-03-04"
+  },
+  "dirigeants": [
+   {
+    "nom": "TOGNIA Bertrand",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/cbc-bourse.png"
+ },
+ {
+  "id": "cbt-bourse",
+  "type": "societe-de-bourse",
+  "nom": "CBT BOURSE",
+  "pays": "Tchad",
+  "ville": "N'Djaména",
+  "adresse": "Avenue Maldom Bada Abbas, BP 19",
+  "tel": "(+235) 22 52 28 29",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SB-02/2016",
+   "date": "2016-06-14"
+  },
+  "dirigeants": [
+   {
+    "nom": "BEINGAR MOYENGAR Alfred",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/cbt-bourse.jpg"
+ },
+ {
+  "id": "contacturer-asset-management",
+  "type": "sgo",
+  "nom": "CONTACTURER ASSET MANAGEMENT",
+  "pays": "Cameroun",
+  "ville": null,
+  "adresse": "2e Etage de l’immeuble SAAR, Hippodrome, Rue Frédéric FOE",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGOPC-01/2025",
+   "date": "2025-03-05"
+  },
+  "dirigeants": [
+   {
+    "nom": "ETOUNDI ATENGA Eric Martial",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "contacturer-capital-s-a",
+  "type": "societe-de-bourse",
+  "nom": "CONTACTURER CAPITAL S.A",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "1077 Rue Frédéric Foe - Hippodrome, BP 13625",
+  "tel": "+237 655 10 80 09",
+  "email": null,
+  "site": "https://contacturer.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-02/2023",
+   "date": "2023-10-02"
+  },
+  "dirigeants": [
+   {
+    "nom": "ONONO ABOMO Paul",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/contacturer-capital-s-a.png"
+ },
+ {
+  "id": "continental-finance-sarl",
+  "type": "cif",
+  "nom": "CONTINENTAL FINANCE SARL",
+  "pays": "Centrafrique",
+  "ville": "Bangui",
+  "adresse": "Avenue Barthélemy BOGANDA, centre-ville à proximité de l’ex DIAS & FRERES, BP 3131",
+  "tel": "(+236) 75 50 19 14",
+  "email": "contact@continental-finance.net",
+  "site": "https://continental-finance.net/",
+  "agrement": {
+   "numero": "COSUMAF-CIF-01/2022",
+   "date": "2022-03-25"
+  },
+  "dirigeants": [
+   {
+    "nom": "DESSANDE Yves",
+    "titre": "Directeur Associé - Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "corridor-asset-management",
+  "type": "sgo",
+  "nom": "CORRIDOR ASSET MANAGEMENT",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "Avenue du Camp - Centre-Ville, 2ème étage Tour Bleue de l’ARC",
+  "tel": "(+242) (0)6 463 13 13 / (0)4 468 22 22",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SGP-01/2015",
+   "date": "2015-06-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "MAYANITH Thystère",
+    "titre": "Président Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "credit-communautaire-d-afrique-bourse-cca-bourse-s-a",
+  "type": "societe-de-bourse",
+  "nom": "CREDIT COMMUNAUTAIRE D'AFRIQUE BOURSE (CCA - BOURSE S.A)",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Boulevard de Liberté, Immeuble CCA BANK, Akwa",
+  "tel": "(+237) 699 918 999 / 690 984 316",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-01/2022",
+   "date": "2022-09-29"
+  },
+  "dirigeants": [
+   {
+    "nom": "MOUKALA Rodrigue",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/credit-communautaire-d-afrique-bourse-cca-bourse-s-a.png"
+ },
+ {
+  "id": "digicapital-asset-management-s-a",
+  "type": "sgo",
+  "nom": "DIGICAPITAL ASSET MANAGEMENT S.A",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Immeuble SACAMAT, Carrefour Intendance, BP 1727",
+  "tel": "(+237) 674 300 590",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-04/2021",
+   "date": "2021-12-16"
+  },
+  "dirigeants": [
+   {
+    "nom": "AZAMBOU DONGMO David Clay",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "digicapital-bourse-s-a",
+  "type": "societe-de-bourse",
+  "nom": "DIGICAPITAL BOURSE S.A",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Bastos, Immeuble Ambassade de Suisse, BP 6450",
+  "tel": null,
+  "email": null,
+  "site": "https://www.digicapitalafrica.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-02/2022",
+   "date": "2022-12-20"
+  },
+  "dirigeants": [
+   {
+    "nom": "GIHADA Richard",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/digicapital-bourse-s-a.png"
+ },
+ {
+  "id": "ecobank-cameroun-s-a",
+  "type": "etablissement-credit",
+  "nom": "ECOBANK CAMEROUN S.A",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble Champagne Plaza a la rue Ivy French Bonanjo, BP 582",
+  "tel": "(+237) 233 438 250 / 233 438 251",
+  "email": "ecobankcm@ecobank.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-BTTC-01/2024",
+   "date": "2024-10-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "ABUNAW NZO NGUTY Gwendoline",
+    "titre": "Administrateur Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "edc-asset-management",
+  "type": "sgo",
+  "nom": "EDC ASSET MANAGEMENT",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue Prince de Galles, AKWA, 2è étage immeuble Activa, BP 15385",
+  "tel": "(+237) 679 50 55 75",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SGP-01/2019",
+   "date": "2019-12-30"
+  },
+  "dirigeants": [
+   {
+    "nom": "KOUO NGAMBY Priscille Noëlle",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "edc-investment-corporation",
+  "type": "societe-de-bourse",
+  "nom": "EDC INVESTMENT CORPORATION",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble ACTIVA, 2ème étage, rue Prince de Galles, AKWA , BP 15385",
+  "tel": "(+237) 674 87 87 42 - 692 29 51 11 - 656 52 85 5",
+  "email": "edccesa@ecobank.com",
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SB-003/2007",
+   "date": "2007-12-13"
+  },
+  "dirigeants": [
+   {
+    "nom": "GBLA Guy Stéphane",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/edc-investment-corporation.jpg"
+ },
+ {
+  "id": "elite-capital-asset-management-s-a",
+  "type": "sgo",
+  "nom": "ELITE CAPITAL ASSET MANAGEMENT S.A",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Nouvelle route Bastos, 4e étage Immeuble FENA, BP 7376",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-02/2021",
+   "date": "2021-07-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "DALLE Cédric Paul",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "elite-capital-securities-central-africa-s-a-exca-s-a",
+  "type": "societe-de-bourse",
+  "nom": "ELITE CAPITAL SECURITIES CENTRAL AFRICA S.A (EXCA S.A)",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Quartier Bastos, 2ème étage immeuble ICON Residences & offices, BP 35303",
+  "tel": "(+237) 657 505 046 / 668 373 496 / 620 288 452",
+  "email": null,
+  "site": "https://elite-capitalgroup.com/exca/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-05/2021",
+   "date": "2021-12-16"
+  },
+  "dirigeants": [
+   {
+    "nom": "NGANI NZAKOU Christelle",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/elite-capital-securities-central-africa-s-a-exca-s-a.png"
+ },
+ {
+  "id": "emrald-securities-services-asset-management-s-a",
+  "type": "sgo",
+  "nom": "EMRALD SECURITIES SERVICES ASSET MANAGEMENT S.A",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue Victoria, Bonanjo, BP Douala",
+  "tel": null,
+  "email": "info@ess-capital.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-05/2021",
+   "date": "2021-12-16"
+  },
+  "dirigeants": [
+   {
+    "nom": "DIANGA POPESCU Marylene",
+    "titre": "Directeur Général Adjoint"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "emrald-securities-services-bourse-s-a-ess-bourse",
+  "type": "societe-de-bourse",
+  "nom": "EMRALD SECURITIES SERVICES BOURSE S.A (ESS Bourse)",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue Victoria, Immeuble Victoria, 2e et 3e étage, BP 5540",
+  "tel": "(+237) 678 43 70 68",
+  "email": null,
+  "site": "https://emraldsecuritiesservices.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-04/2020",
+   "date": "2020-12-08"
+  },
+  "dirigeants": [
+   {
+    "nom": "DIN DIKA Christian",
+    "titre": "Administrateur Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/emrald-securities-services-bourse-s-a-ess-bourse.png"
+ },
+ {
+  "id": "enko-capital-central-africa-s-a",
+  "type": "sgo",
+  "nom": "ENKO CAPITAL CENTRAL AFRICA S.A",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "5, Avenue Mvog Fouda Ada, Quartier intendance, AFRICA BUSINESS CENTER, BP 34296",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-01/2021",
+   "date": "2021-07-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "NKONTCHOU KAMDEM Cyrille Floriant",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "ermo-conseil-sarl",
+  "type": "cif",
+  "nom": "ERMO CONSEIL SARL",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue chefferie de Bonapriso, BP 4704",
+  "tel": "(+237) 233 43 05 98 / 699 89 09 78",
+  "email": "contact@ermoconseil.com",
+  "site": "https://www.ermoconseil.com/",
+  "agrement": {
+   "numero": "COSUMAF- CIF- 02/2024",
+   "date": "2024-10-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "BADANG Omer Bertin",
+    "titre": "Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "excell-finance-pro",
+  "type": "cif",
+  "nom": "EXCELL FINANCE PRO",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Avenue de Gaulle, Bonapriso, BP 3922",
+  "tel": "(+237) 674 834 049",
+  "email": "alvinetematio@yahoo.fr",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CIF-04/2024",
+   "date": "2020-12-08"
+  },
+  "dirigeants": [
+   {
+    "nom": "DOUNHAYA TEMATIO EPOUSE ZANGUE Alvine",
+    "titre": "Associé Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "fedhen-capital-sa",
+  "type": "societe-de-bourse",
+  "nom": "FEDHEN CAPITAL SA",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble INDIGO, 5e étage, Quartier Bonapriso",
+  "tel": null,
+  "email": null,
+  "site": "https://www.fedhencapital.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-01/2023",
+   "date": "2023-03-31"
+  },
+  "dirigeants": [
+   {
+    "nom": "SAMAIN Jules Rolland",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/fedhen-capital-sa.png"
+ },
+ {
+  "id": "financia-asset-management-s-a",
+  "type": "sgo",
+  "nom": "FINANCIA ASSET MANAGEMENT S.A.",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "BP 2745",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-02/2023",
+   "date": "2023-03-31"
+  },
+  "dirigeants": [
+   {
+    "nom": "HEUBO Willy Delort",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "financia-capital",
+  "type": "societe-de-bourse",
+  "nom": "FINANCIA CAPITAL",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "125, Rue de La Perousse, Bonanjo, BP 4593",
+  "tel": "(+237) 696 76 76 76 / 677 11 77 06 / 233420413 / 677 61 11 87",
+  "email": null,
+  "site": "https://financiacapital.net/",
+  "agrement": {
+   "numero": "MFAC-SB-004/2011",
+   "date": "2011-11-17"
+  },
+  "dirigeants": [
+   {
+    "nom": "NANA Serge Yanic",
+    "titre": "Président Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/financia-capital.png"
+ },
+ {
+  "id": "goodwill-consulting-ltd",
+  "type": "cif",
+  "nom": "GOODWILL CONSULTING LTD",
+  "pays": "Cameroun",
+  "ville": "Buéa",
+  "adresse": "Quartier Bomaka",
+  "tel": "(+237) 677 277 022 / 674 298 017",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CIF-02/2022",
+   "date": "2022-12-20"
+  },
+  "dirigeants": [
+   {
+    "nom": "NDIKOMBUI MINGOH Nigel",
+    "titre": "Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "guess-consulting-investment-capital",
+  "type": "cif",
+  "nom": "GUESS CONSULTING &INVESTMENT CAPITAL",
+  "pays": "Tchad",
+  "ville": "N'Djaména",
+  "adresse": "2ème Etage du Bloc C de l’Hôtel RADISSON Blu, Bureau n° 5, Quartier ATRONE, BP 593",
+  "tel": "(+235) 99420842/67313434",
+  "email": "info@guessconsulting.net",
+  "site": "http://www.guessconsulting.net/",
+  "agrement": {
+   "numero": "COSUMAF- CIF- 03/2024",
+   "date": "2024-11-29"
+  },
+  "dirigeants": [
+   {
+    "nom": "DJIKOLOU GUESSIMBAYE AIME",
+    "titre": "Associé - Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "harvest-asset-management",
+  "type": "sgo",
+  "nom": "HARVEST ASSET MANAGEMENT",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "2e Etage, Immeuble CEDAM, 1149 - Boulevard de la République, BP 661",
+  "tel": "+237 233 43 46 98",
+  "email": "info@hamgt.com",
+  "site": null,
+  "agrement": {
+   "numero": "MFAC-SGP-01/2017",
+   "date": "2017-12-14"
+  },
+  "dirigeants": [
+   {
+    "nom": "KAMGAING Marc",
+    "titre": "Administrateur Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "horus-investment-capital-s-a",
+  "type": "societe-de-bourse",
+  "nom": "HORUS INVESTMENT CAPITAL S.A",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Avenue Général de Gaulle, 2ème étage Immeuble ONYX, quartier Bonapriso \"Bonadoumbe\", BP 13207",
+  "tel": "(+237) 693 005 259 / 654 544 632",
+  "email": null,
+  "site": "https://www.horus-ic.com/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-02/2021",
+   "date": "2021-06-17"
+  },
+  "dirigeants": [
+   {
+    "nom": "AHANDA ETOUNDI Sylvain Bertrand",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/horus-investment-capital-s-a.png"
+ },
+ {
+  "id": "karma-alliance-sarl",
+  "type": "cif",
+  "nom": "KARMA ALLIANCE SARL",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "1030 avenue Douala Manga Bell à Bali, porte 1G, immeuble de la pharmacie de Koumassi",
+  "tel": "(+237) 693 865 950",
+  "email": null,
+  "site": "https://www.karma-alliance.com/",
+  "agrement": {
+   "numero": "COSUMAF-CIF-04/2023",
+   "date": "2023-10-02"
+  },
+  "dirigeants": [
+   {
+    "nom": "NYETAM NYETAM Chrys-Eve",
+    "titre": "Gérante"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "kori-asset-management-s-a",
+  "type": "sgo",
+  "nom": "KORI ASSET MANAGEMENT S.A.",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "19 Rue Dikoume Bell, Bali, BP 1245",
+  "tel": "+237 681 79 35 92",
+  "email": "info@koriassetmanagement.com",
+  "site": "https://koriassetmanagement.com/",
+  "agrement": {
+   "numero": "COSUMAF-SGP-01/2023",
+   "date": "2023-03-31"
+  },
+  "dirigeants": [
+   {
+    "nom": "FOMETHE MOMO Patrick",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/kori-asset-management-s-a.png"
+ },
+ {
+  "id": "l-archer-capital-guinee-equatoriale-s-a",
+  "type": "cif",
+  "nom": "L'ARCHER CAPITAL GUINEE EQUATORIALE S.A",
+  "pays": "Guinée Équatoriale",
+  "ville": "Malabo",
+  "adresse": "4e planta, Edifico ASCOMA, autovia, BP 924",
+  "tel": "(+240) 222 679 167 / 981 592 / 228 313",
+  "email": "contact@larchercapital.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CIF-01/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "TUNG EYANG Maria Dolores Mangué",
+    "titre": "Gérante"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "l-archer-securities-s-a-as",
+  "type": "societe-de-bourse",
+  "nom": "L'ARCHER SECURITIES S.A (AS)",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "Mpila, Talagai, 20ème étage, bureau 2002, Bloc A, Business Center, Tour jumelles",
+  "tel": "(+242) 06 661 68 08 / 05 761 68 08 /05 778 79 15",
+  "email": null,
+  "site": "https://larchergroup.com/larcher-securities/",
+  "agrement": {
+   "numero": "COSUMAF-SDB-01/2021",
+   "date": "2021-03-11"
+  },
+  "dirigeants": [
+   {
+    "nom": "MABIALA Marcelle",
+    "titre": "Directeur Général Adjoint"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/l-archer-securities-s-a-as.png"
+ },
+ {
+  "id": "l-archer-asset-management",
+  "type": "sgo",
+  "nom": "L’ARCHER ASSET MANAGEMENT",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "M’Pila, Talangaï, 20ᵉ étage, bureau 2002, Business Center, Tours Jumelles",
+  "tel": "(+242) 05 079 71 13 / 05 554 89 89",
+  "email": null,
+  "site": "https://larchergroup.com/larcher-asset-management/",
+  "agrement": {
+   "numero": "COSUMAF-SGP-03/2021",
+   "date": "2021-07-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "Maria Dolores Tung Eyang",
+    "titre": "Directrice générale"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/l-archer-asset-management.png"
+ },
+ {
+  "id": "lcb-capital",
+  "type": "societe-de-bourse",
+  "nom": "LCB CAPITAL",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "Avenue de l'Amitié, Immeuble DIAMOND 2ème étage",
+  "tel": "(+242) +242 06 700 48 48 / 05 310 11 32 / +242 067002375",
+  "email": null,
+  "site": "https://lcb-capital.com/",
+  "agrement": {
+   "numero": "MFAC-SB-01/2015",
+   "date": "2015-05-26"
+  },
+  "dirigeants": [
+   {
+    "nom": "GABOUMBA MOUKENGUE Fernand",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/lcb-capital.png"
+ },
+ {
+  "id": "ludine-legacy-capital-advisors-sarl",
+  "type": "cif",
+  "nom": "LUDINE LEGACY & CAPITAL ADVISORS SARL",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Yaoundé, au lieudit ANGUISSA (belle-mère)",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CIF-01/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "Claudine LIALO Epse NYASSA",
+    "titre": "Associé - Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "makeda-asset-management-s-a",
+  "type": "sgo",
+  "nom": "MAKEDA ASSET MANAGEMENT S.A",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue Castelnau Akwa, BP 15562",
+  "tel": null,
+  "email": "contact@makeda.capital",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-06/2021",
+   "date": "2021-12-16"
+  },
+  "dirigeants": [
+   {
+    "nom": "SAH NTAMACK Serge",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/makeda-asset-management-s-a.png"
+ },
+ {
+  "id": "malya-capital",
+  "type": "societe-de-bourse",
+  "nom": "MALYA CAPITAL",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble SPELT One, Bonadiwoto, En face du Grand Mall Aéroport, BP :956, Douala – République du Cameroun , BP BP : 956",
+  "tel": "+237 697 10 68 96 / +237 6 80 90 17 77",
+  "email": "e.cisse@malyacapital.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-05/2026",
+   "date": "2026-06-25"
+  },
+  "dirigeants": [
+   {
+    "nom": "Eugène CISSE KOUOH BOLLO",
+    "titre": "Administrateur Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/malya-capital.jpeg"
+ },
+ {
+  "id": "mercess",
+  "type": "cif",
+  "nom": "MERCESS",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "AKWA ,329 Rue Sylvani 5eme étage immeuble advn's",
+  "tel": "(+237) 677 741 415",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CIF-02/2021",
+   "date": "2021-03-11"
+  },
+  "dirigeants": [
+   {
+    "nom": "MBAYI Moise bienvenu",
+    "titre": "Président Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "okoume-capital-s-a",
+  "type": "sgo",
+  "nom": "OKOUME CAPITAL S.A",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "Zone Nord Baie des Rois - Immeuble FGIS et Filiales , BP 3873",
+  "tel": null,
+  "email": "contact@okoumecapital.ga",
+  "site": "https://www.okoumecapital.ga/",
+  "agrement": {
+   "numero": "COSUMAF-SGOPC-01/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "ASSOUMOU ESSONO Fabrice Ulric",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/okoume-capital-s-a.png"
+ },
+ {
+  "id": "omya-invest-s-a",
+  "type": "societe-de-bourse",
+  "nom": "OMYA INVEST S.A",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "57 Avenue pointe-Hollandaise Arr,5 Ouenzé",
+  "tel": "+242 06 518 01 18",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-01/2025",
+   "date": "2025-10-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "LETH BOUKA Karl",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/omya-invest-s-a.png"
+ },
+ {
+  "id": "purpose-capital",
+  "type": "societe-de-bourse",
+  "nom": "PURPOSE CAPITAL",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "507, rue Joseph Essono Balla",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-01/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "TCHOUAKO Christelle Laurence",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "sg-capital-securities-central-africa",
+  "type": "societe-de-bourse",
+  "nom": "SG CAPITAL SECURITIES - CENTRAL AFRICA",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Grassfield Building Plateau Joss, 6e étage, Bonanjo",
+  "tel": "(00237) 233 501 948 / 233 50 19 44 / 690 041 798 / 651 57 19 11 / 699 313 985",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "091/10/CMF/18",
+   "date": "2018-10-30"
+  },
+  "dirigeants": [
+   {
+    "nom": "MOUKOKO ELAME Jean - Jacques Loïc",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/sg-capital-securities-central-africa.jpg"
+ },
+ {
+  "id": "sicaf-capital-advisory-sa",
+  "type": "cif",
+  "nom": "SICAF CAPITAL ADVISORY SA",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Total Aéroport, BP 13254",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CIF-02/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "DOUANLA Ariel Nathan",
+    "titre": "Associé - Gérant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "smart-capital",
+  "type": "societe-de-bourse",
+  "nom": "SMART CAPITAL",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "Quartier Haut de Gué Gué, Impasse Mavanga – 3ème étage Immeuble NOUO, BP 18031",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SDB-03/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "BOUANZA Léandre",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/smart-capital.jpg"
+ },
+ {
+  "id": "societe-generale-cameroun",
+  "type": "etablissement-credit",
+  "nom": "SOCIETE GENERALE CAMEROUN",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "78, Rue Joss, Bonanjo, BP 4042",
+  "tel": "(+237) 2 33 01 25 61 / 233 50 18 18",
+  "email": null,
+  "site": "https://societegenerale.cm/",
+  "agrement": {
+   "numero": "N°10/02/CMF/19",
+   "date": "2019-02-21"
+  },
+  "dirigeants": [
+   {
+    "nom": "NOUMOUE Victor",
+    "titre": "Directeur Général Adjoint"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "societe-generale-capital-asset-management-cemac",
+  "type": "sgo",
+  "nom": "SOCIETE GENERALE CAPITAL ASSET MANAGEMENT CEMAC",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "L'immeuble Grassfields, Building, Plateau Joss? Bonanjo, BP 5905",
+  "tel": "+237 677 036 140",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-04/2023",
+   "date": "2023-10-02"
+  },
+  "dirigeants": [
+   {
+    "nom": "MBASSA BWINDI Samuel Roger",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/societe-generale-capital-asset-management-cemac.png"
+ },
+ {
+  "id": "stoneshed-asset-management",
+  "type": "sgo",
+  "nom": "STONESHED ASSET MANAGEMENT",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Bonapriso, BP 5905",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-SGP-03/2023",
+   "date": "2023-07-20"
+  },
+  "dirigeants": [
+   {
+    "nom": "NDI NDZAH Mokom",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": null
+ },
+ {
+  "id": "upline-securities-central-africa-usca",
+  "type": "societe-de-bourse",
+  "nom": "UPLINE SECURITIES CENTRAL AFRICA (USCA)",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "234, Av. de l'indépendance - Carrefour Hôtel de l'air, Bonapriso, BP 1925",
+  "tel": "(+237) 233 43 60 00",
+  "email": null,
+  "site": "https://www.bicec.com/",
+  "agrement": {
+   "numero": "MFAC-SDB-02/2019",
+   "date": "2019-12-30"
+  },
+  "dirigeants": [
+   {
+    "nom": "ATANGANA BIKIE Michele",
+    "titre": "Directeur Général"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intermédiaires",
+   "url": "https://cosumaf.org/liste-intermediaires"
+  },
+  "logo": "/img/acteurs/upline-securities-central-africa-usca.jpg"
+ },
+ {
+  "id": "audit-financial-consultants-sarl",
+  "type": "cac",
+  "nom": "AUDIT & FINANCIAL CONSULTANTS SARL",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Immeuble ADVANS, AKWA, BP 8475",
+  "tel": "(+237) 650 60 47 78 / 675 01 27 71 / 699 88 09 12",
+  "email": "info@afc-cm.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-02/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "NJOMNGANG Jean Calvin",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "auditec-foirier-consulting",
+  "type": "cac",
+  "nom": "AUDITEC FOIRIER CONSULTING",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue 1.215 Bonapriso, lieudit Hydrocarbures, BP 12134",
+  "tel": "(+237) 699 727 862 / 676 930 983 / 233 420 434",
+  "email": "info@auditec-foirier.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-03/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "LIBONG René",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "axys-sarl",
+  "type": "cac",
+  "nom": "AXYS SARL",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Centre commercial, Quartier BASTOS",
+  "tel": "(+237) 699 95 18 18 / 222 21 09 41",
+  "email": "axysaudit@axysaudit.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2023",
+   "date": "2023-03-31"
+  },
+  "dirigeants": [
+   {
+    "nom": "ATANGANA Jacques Patrice",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "bdo-audit-s-a",
+  "type": "cac",
+  "nom": "BDO AUDIT S.A",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Congo",
+  "ville": "Pointe-Noire",
+  "adresse": "Immeuble ARPCE 2eme étage ,centre ville, BP 5904",
+  "tel": "+242 06 133 00 60",
+  "email": "Congo-CG@bdo-ea.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-08/2025",
+   "date": "2025-10-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "NJUMBE Sylvester",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "cabinet-d-expertise-comptable-et-d-audit-ceca",
+  "type": "cac",
+  "nom": "CABINET D'EXPERTISE COMPTABLE ET D'AUDIT (CECA)",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "76, Boulevard de l'Indépendance (à coté de l'Agence Air France), BP 12704",
+  "tel": "+241 011 77 59 63/ 066 38 02 89",
+  "email": "contact@c-e-c-a.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2025",
+   "date": "2025-03-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "FUMANAL Yves Frédéric",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "cabinet-deloitte-touche-tohmatsu-gabon",
+  "type": "cac",
+  "nom": "CABINET DELOITTE TOUCHE TOHMATSU GABON",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "BP 5178",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2026",
+   "date": "2026-03-10"
+  },
+  "dirigeants": [
+   {
+    "nom": "BALESME Nicolas",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "cabinet-groupe-k-et-cie",
+  "type": "cac",
+  "nom": "CABINET GROUPE K ET Cie",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "558, rue des écoles – Akwa, BP 2007",
+  "tel": null,
+  "email": "groupek_cie@yahoo.fr",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-02/2021",
+   "date": "2021-10-25"
+  },
+  "dirigeants": [
+   {
+    "nom": "KAPSSU Daniel",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "cabinet-hubert-feze-associes-cameroun",
+  "type": "cac",
+  "nom": "CABINET HUBERT FEZE& ASSOCIES CAMEROUN",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Quartier Hippodrome",
+  "tel": "(+237) 699 94 42 01 / 22 22 55 41",
+  "email": "chfcameroun@yahoo.fr",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-03/2025",
+   "date": "2025-03-05"
+  },
+  "dirigeants": [
+   {
+    "nom": "FEZE Hubert",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "cameroun-audit-conseil",
+  "type": "cac",
+  "nom": "CAMEROUN AUDIT CONSEIL",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "942 Rue Njo-Njo, Quartier Bonanjo, BP 443",
+  "tel": "(+237) 233 43 01 71 / 233 06 23 01 / 233 06 23 02",
+  "email": "cacinternational@cac-international.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-06/2024",
+   "date": "2024-10-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "BELL BELL Jean- Marc",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "consortium-aa",
+  "type": "cac",
+  "nom": "CONSORTIUM AA",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "BP 5178",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-09/2025",
+   "date": "2025-12-15"
+  },
+  "dirigeants": [
+   {
+    "nom": "NGOUBELE AKOUMBOU Andy",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "deloitte-touche-central-africa",
+  "type": "cac",
+  "nom": "DELOITTE & TOUCHE CENTRAL AFRICA",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Tour CNPS 8ème étage, Rue de l’Hôpital 1043 Bonanjo",
+  "tel": null,
+  "email": "infocameroon@deloitte.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-02/2020",
+   "date": "2020-12-08"
+  },
+  "dirigeants": [
+   {
+    "nom": "MOUENDI Nemesius",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "eca-sa",
+  "type": "cac",
+  "nom": "ECA SA",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Boulevard de la liberté,akwa, BP 3340",
+  "tel": "(+237) 6 77 93 34 08",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF -CAC -04/2025",
+   "date": "2025-05-23"
+  },
+  "dirigeants": [
+   {
+    "nom": "SIMO Claudine",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "ernst-young-congo",
+  "type": "cac",
+  "nom": "ERNST & YOUNG Congo",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Congo",
+  "ville": "Brazzaville",
+  "adresse": "Immeuble Siège Ecobank 5ieme étage Avenue Amilcar Cabral, BP 84",
+  "tel": "+242 06 666 66 61 / 05 530 03 50",
+  "email": "ey.brazzaville@cg.ey.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-07/2025",
+   "date": "2025-10-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "OSSIBI Arsène -Didace",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "ernst-young-gabon",
+  "type": "cac",
+  "nom": "ERNST & YOUNG GABON",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "Immeuble PREMUIM Etages 2-3 Avenue du Colonel PARANT, BP 2278",
+  "tel": "+241 11 76 20 67",
+  "email": "eygabon@ga.ey.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-06/2025",
+   "date": "2025-10-28"
+  },
+  "dirigeants": [
+   {
+    "nom": "WATREMEZ Erick",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "exco-cacoges",
+  "type": "cac",
+  "nom": "EXCO CACOGES",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Congo",
+  "ville": null,
+  "adresse": "Avenue de la liberté, face hôpital des armées Pierre Mobengo. Résidence les Flamboyants, Immeuble Eucalyptus 7, BP 113",
+  "tel": "(+242) 06 989 06 06/06 510 37 63",
+  "email": "cacoges@excoafrique.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-02/2025",
+   "date": "2025-03-05"
+  },
+  "dirigeants": [
+   {
+    "nom": "ETOU OBAMI Brice Voltaire",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "experts-comptables-internationaux-maa-sarl-exci-maa",
+  "type": "cac",
+  "nom": "EXPERTS COMPTABLES INTERNATIONAUX - MAA SARL (EXCI-MAA)",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Congo",
+  "ville": "Pointe Noire",
+  "adresse": "1, Angle, Avenue Vommandant FODE et Benoît GANONGO, Immeuble Morija, 2e étage, BP 4018",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2022",
+   "date": "2022-08-07"
+  },
+  "dirigeants": [
+   {
+    "nom": "KEMENI Pierre",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "fonds-africain-de-garantie-et-de-cooperation-economique-fagace",
+  "type": "organisme-garantie",
+  "nom": "FONDS AFRICAIN DE GARANTIE ET DE COOPERATION ECONOMIQUE (FAGACE)",
+  "categorie": "Organismes de Garantie",
+  "pays": "Bénin",
+  "ville": "Cotonou",
+  "adresse": "01, Boulevard CEN/SAD, Rue 12044, BP 2045",
+  "tel": "(+229) 97 97 97 30 / 21 30 03 76 / 21 30 08 77",
+  "email": "courriel.fagace@fagace.org",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-FG-01/2020",
+   "date": "2020-03-04"
+  },
+  "dirigeants": [
+   {
+    "nom": "TIRAÏNA YAMBAYE NGUETO",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "fonds-de-solidarite-africain-fsa",
+  "type": "organisme-garantie",
+  "nom": "FONDS DE SOLIDARITE AFRICAIN (FSA)",
+  "categorie": "Organismes de Garantie",
+  "pays": "NIger",
+  "ville": "Niamey",
+  "adresse": "617, Avenue du Président KARL CARSTENS PL 005, Quartier Plateau - Commune I, BP 382",
+  "tel": "(+227) 20 72 26 32/33/34",
+  "email": "fsa@fondsolidariteafricain.org",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-I.MFAC-01/2019",
+   "date": "2019-06-12"
+  },
+  "dirigeants": [
+   {
+    "nom": "DIALLO Ahmadou Abdoulaye",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "hlb-audit-consult-plus-central-africa",
+  "type": "cac",
+  "nom": "HLB AUDIT CONSULT PLUS CENTRAL AFRICA",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "1149 Boulevard de la République à Bali, BP 5701",
+  "tel": null,
+  "email": "contact@hlbacp.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-03/2022",
+   "date": "2022-10-03"
+  },
+  "dirigeants": [
+   {
+    "nom": "MANG NYEBEL André",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "insight-gestion-sarl",
+  "type": "cac",
+  "nom": "INSIGHT GESTION SARL",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "9, AV. Mgr Vogt, Immeuble Librairie St Paul, BP 185 Casier 308",
+  "tel": "(+237) 694 21 91 74",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-07/2024",
+   "date": "2024-11-29"
+  },
+  "dirigeants": [
+   {
+    "nom": "AMBASSA Léonard",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "kpmg-afrique-centrale",
+  "type": "cac",
+  "nom": "KPMG AFRIQUE CENTRALE",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "620, Rue du Gouverneur Carras (1064), 5ème étage Immeuble Grassfield, Bonanjo, BP 15551",
+  "tel": "(+237) 679 52 46 34 / 699 50 94 97 / 699 30 15 05",
+  "email": "cm-contact@kpmg.cm",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "NDZANA Thérèse Odile Laura",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "m-dieudonne-mbadi",
+  "type": "cac",
+  "nom": "M. Dieudonné MBADI",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Congo",
+  "ville": "Pointe Noire",
+  "adresse": "Pointe Noire",
+  "tel": null,
+  "email": "dieudonne.mbadi@gmail.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-04/2021",
+   "date": "2021-12-16"
+  },
+  "dirigeants": [
+   {
+    "nom": "MBADI Dieudonné",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "magwell-consulting-sarl",
+  "type": "analyste",
+  "nom": "MAGWELL CONSULTING SARL",
+  "categorie": "Analystes Financiers Indépendants",
+  "pays": "Cameroun",
+  "ville": null,
+  "adresse": null,
+  "tel": "(+237) 699 62 98 48 / 697 80 02 86",
+  "email": "contact@magwellconsulting.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-RIAF-01/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "GWET Epse NKEMBE Sondia",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "mazars-cameroun",
+  "type": "cac",
+  "nom": "MAZARS CAMEROUN",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "Rue Boué de lapeyrére, Immeuble Ex AMACAM, BP 3791",
+  "tel": null,
+  "email": "info@mazars.cm",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2020",
+   "date": "2020-12-08"
+  },
+  "dirigeants": [
+   {
+    "nom": "NJALL BIKOK Jules-Alain",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "mazars-gabon",
+  "type": "cac",
+  "nom": "MAZARS GABON",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "1935, Boulevard de l'indépendance, Immeuble AXA Gabon, BP 6346",
+  "tel": "(+241) 77 42 61 15",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-04/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "MMAMDOA Fidèle Bienvenu",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "moore-stephens-ca",
+  "type": "cac",
+  "nom": "MOORE STEPHENS CA",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "172, Rue de l’hôtel de ville, Bonanjo",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-03/2023",
+   "date": "2023-10-02"
+  },
+  "dirigeants": [
+   {
+    "nom": "NKEN Robert Prosper",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "new-ace-baker-tilly",
+  "type": "cac",
+  "nom": "NEW ACE BAKER TILLY",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "Quartier Louis - Quaben, BP 3981",
+  "tel": "(+241) 01 44 53 28 / 30 / 06 21 41 09 / 66 20 83 41",
+  "email": "contact@bakertilly.ga",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-05/2024",
+   "date": "2024-05-09"
+  },
+  "dirigeants": [
+   {
+    "nom": "SIMA MBA Franck Ange",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "okalla-ahanda-associes",
+  "type": "cac",
+  "nom": "OKALLA AHANDA & ASSOCIES",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "691, Angle des Rues Boué de Lapeyrère et Princes de Galles, Akwa, BP 12 628",
+  "tel": null,
+  "email": "jpokalla@okallaahanda.com",
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-01/2021",
+   "date": "2021-06-17"
+  },
+  "dirigeants": [
+   {
+    "nom": "OKALLA AHANDA Jean Pierre",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "pricewaterhousecoopers-s-a-gabon",
+  "type": "cac",
+  "nom": "PRICEWATERHOUSECOOPERS S.A. GABON",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "adresse": "366, rue Alfred-Marché, BP 2164",
+  "tel": "00241 011 76 23 71",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-04/2022",
+   "date": "2022-12-20"
+  },
+  "dirigeants": [
+   {
+    "nom": "NGOUA Anaclet",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "rodec-conseils-cameroun",
+  "type": "cac",
+  "nom": "RODEC CONSEILS CAMEROUN",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "5ème Etage, Elite Offices Building – Akwa, rue Dubois de Saligny, BP 2058",
+  "tel": null,
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF -CAC -05/2025",
+   "date": "2025-07-24"
+  },
+  "dirigeants": [
+   {
+    "nom": "NGONO Bodo Rodrigue",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "uhy-bbi-advisory-audit",
+  "type": "cac",
+  "nom": "UHY BBI ADVISORY & AUDIT",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Yaoundé",
+  "adresse": "Centre Administratif, Immeuble CCA BANK, face pharmacie du soleil, 3e étage, office 303, BP 16 258",
+  "tel": "(+237) 697 54 60 99 / 222 23 13 90",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-02/2023",
+   "date": "2023-03-31"
+  },
+  "dirigeants": [
+   {
+    "nom": "BELA BELINGA Isaac Joel",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "vinka-audit-sarl-cameroun",
+  "type": "cac",
+  "nom": "VINKA AUDIT SARL Cameroun",
+  "categorie": "Commissaires aux Comptes",
+  "pays": "Cameroun",
+  "ville": "Douala",
+  "adresse": "59 rue Victoria, 9ème et 10ème étages immeuble CNPS, BP 5689",
+  "tel": "+237 33 43 24 43/44/45",
+  "email": null,
+  "site": null,
+  "agrement": {
+   "numero": "COSUMAF-CAC-03/2021",
+   "date": "2021-12-16"
+  },
+  "dirigeants": [
+   {
+    "nom": "KAMGA Geoffrey",
+    "titre": "Dirigeant"
+   }
+  ],
+  "source": {
+   "nom": "COSUMAF : liste des intervenants",
+   "url": "https://cosumaf.org/liste-intervenants"
+  },
+  "logo": null
+ },
+ {
+  "id": "agence-de-credit-pour-l-entreprise-privee-cameroun",
+  "type": "emetteur",
+  "nom": "Agence de Crédit pour l’Entreprise Privée CAMEROUN",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/agence-de-credit-pour-l-entreprise-privee-cameroun.png"
+ },
+ {
+  "id": "alios-finance-cameroun",
+  "type": "emetteur",
+  "nom": "ALIOS Finance Cameroun",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/alios-finance-cameroun.jpg"
+ },
+ {
+  "id": "banque-de-developpement-des-etats-de-l-afrique-centrale-bdeac",
+  "type": "emetteur",
+  "nom": "Banque de Développement des Etats de l’Afrique Centrale (BDEAC)",
+  "pays": null,
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/banque-de-developpement-des-etats-de-l-afrique-centrale-bdeac.jpg"
+ },
+ {
+  "id": "banque-nationale-de-guinee-equatoriale-bange",
+  "type": "emetteur",
+  "nom": "Banque Nationale de Guinée-Équatoriale (BANGE)",
+  "pays": "Guinée Équatoriale",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/banque-nationale-de-guinee-equatoriale-bange.jpg"
+ },
+ {
+  "id": "bgfi-holding-corporation",
+  "type": "emetteur",
+  "nom": "BGFI Holding Corporation",
+  "pays": "Gabon",
+  "ville": "Libreville",
+  "secteur": "Banque",
+  "forme": "Société Anonyme (SA)",
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/bgfi-holding-corporation.jpg"
+ },
+ {
+  "id": "la-regionale-d-epargne-et-de-credit-la-regionale",
+  "type": "emetteur",
+  "nom": "La Régionale d’Epargne et de Crédit (LA REGIONALE)",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/la-regionale-d-epargne-et-de-credit-la-regionale.jpg"
+ },
+ {
+  "id": "renaprov-finance-s-a",
+  "type": "emetteur",
+  "nom": "RENAPROV Finance S.A.",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": "MicroFinance",
+  "forme": "Société Anonyme (SA)",
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/renaprov-finance-s-a.jpg"
+ },
+ {
+  "id": "societe-africaine-forestiere-et-agricole-du-cameroun-safacam",
+  "type": "emetteur",
+  "nom": "Société Africaine Forestière et Agricole du Cameroun (SAFACAM)",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/societe-africaine-forestiere-et-agricole-du-cameroun-safacam.png"
+ },
+ {
+  "id": "societe-camerounaise-de-palmeraies-socapalm",
+  "type": "emetteur",
+  "nom": "Société Camerounaise de Palmeraies (SOCAPALM)",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/societe-camerounaise-de-palmeraies-socapalm.jpg"
+ },
+ {
+  "id": "societe-commerciale-gabonaise-de-reassurance-scg-re",
+  "type": "emetteur",
+  "nom": "Société Commerciale Gabonaise de Réassurance (SCG-Ré)",
+  "pays": "Gabon",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/societe-commerciale-gabonaise-de-reassurance-scg-re.png"
+ },
+ {
+  "id": "societe-d-investissement-pour-l-agriculture-tropicale-siat-gabon",
+  "type": "emetteur",
+  "nom": "Société d'Investissement pour l'Agriculture Tropicale (SIAT GABON)",
+  "pays": "Gabon",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/societe-d-investissement-pour-l-agriculture-tropicale-siat-gabon.jpg"
+ },
+ {
+  "id": "societe-des-eaux-minerales-du-cameroun-semc",
+  "type": "emetteur",
+  "nom": "Société des Eaux Minérales du Cameroun (SEMC)",
+  "pays": "Cameroun",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/societe-des-eaux-minerales-du-cameroun-semc.jpg"
+ },
+ {
+  "id": "societe-nationale-des-petroles-du-congo",
+  "type": "emetteur",
+  "nom": "Société Nationale des Pétroles du Congo",
+  "pays": "Congo",
+  "ville": null,
+  "secteur": null,
+  "forme": null,
+  "description": null,
+  "site": null,
+  "dirigeants": [],
+  "source": {
+   "nom": "COSUMAF : liste des émetteurs",
+   "url": "https://cosumaf.org/liste-emetteurs"
+  },
+  "logo": "/img/acteurs/societe-nationale-des-petroles-du-congo.jpg"
+ },
+ {
+  "id": "commission-bancaire-de-l-afrique-centrale-cobac",
+  "type": "cooperation",
+  "nom": "Commission Bancaire de l'Afrique Centrale (COBAC)",
+  "description": "Commission Bancaire de l'Afrique Centrale (COBAC)",
+  "site": "https://www.beac.int/supervision-bancaire/la-commission-bancaire/",
+  "depuis": "2025-08-26",
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/commission-bancaire-de-l-afrique-centrale-cobac.png"
+ },
+ {
+  "id": "banque-mondiale",
+  "type": "cooperation",
+  "nom": "Banque Mondiale",
+  "description": "Banque Mondiale",
+  "site": "https://www.banquemondiale.org/ext/fr/home",
+  "depuis": "2022-04-21",
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/banque-mondiale.jpg"
+ },
+ {
+  "id": "sustainable-banking-and-finance-network-sbfn",
+  "type": "cooperation",
+  "nom": "Sustainable Banking and Finance Network (SBFN)",
+  "description": "Sustainable Banking and Finance Network (SBFN)",
+  "site": "https://www.sbfnetwork.org/",
+  "depuis": "2022-04-21",
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/sustainable-banking-and-finance-network-sbfn.png"
+ },
+ {
+  "id": "oicv-iosco",
+  "type": "cooperation",
+  "nom": "OICV - IOSCO",
+  "description": "Organisation internationale des commissions de valeurs (OICV , IOSCO en anglais)",
+  "site": "https://www.iosco.org/",
+  "depuis": "2020-01-01",
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/oicv-iosco.webp"
+ },
+ {
+  "id": "comite-de-liaison-anti-blanchiment-clab",
+  "type": "cooperation",
+  "nom": "Comité de Liaison Anti-Blanchiment (CLAB)",
+  "description": "Comité de Liaison Anti-Blanchiment (CLAB)",
+  "site": "https://www.banque-france.fr/fr/clab",
+  "depuis": "2019-10-09",
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/comite-de-liaison-anti-blanchiment-clab.png"
+ },
+ {
+  "id": "ifrefi",
+  "type": "cooperation",
+  "nom": "IFREFI",
+  "description": "Institut Francophone de la. Régulation Financière",
+  "site": "https://www.ifrefi.org/",
+  "depuis": "2001-01-01",
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/ifrefi.jpg"
+ },
+ {
+  "id": "fonds-monetaire-international-fmi",
+  "type": "cooperation",
+  "nom": "Fonds Monétaire International (FMI)",
+  "description": "Fonds Monétaire International (FMI)",
+  "site": "https://www.imf.org/fr/home",
+  "depuis": null,
+  "source": {
+   "nom": "COSUMAF : coopérations",
+   "url": "https://cosumaf.org/cooperations"
+  },
+  "logo": "/img/acteurs/fonds-monetaire-international-fmi.png"
+ }
+]

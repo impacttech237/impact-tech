@@ -29,7 +29,8 @@ if (avertissements.length) {
 }
 // Guides « Découvrir » et « Comprendre » : chaque fait cité doit exister et venir d'un texte en vigueur
 const guides = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'guides.json'), 'utf8')).sort((a, b) => a.porte.localeCompare(b.porte) || a.ordre - b.ordre);
-{ const idsFaits = new Map(faits.map(f => [f.id, f])); const st = new Map(textes.map(t => [t.id, t.statut]));
+{ const idsActeurs = new Set(JSON.parse(fs.readFileSync(path.join(racine, 'data', 'annuaire.json'), 'utf8')).map(a => a.id)); for (const g of guides) for (const b of g.blocs) for (const id of b.acteurs || []) if (!idsActeurs.has(id)) erreurs.push({ code: 'G3', msg: `guide ${g.id} : acteur inconnu ${id}` });
+  const idsFaits = new Map(faits.map(f => [f.id, f])); const st = new Map(textes.map(t => [t.id, t.statut]));
   for (const g of guides) for (const b of g.blocs) for (const id of b.faits || []) {
     if (!idsFaits.has(id)) erreurs.push({ code: 'G1', msg: `guide ${g.id} : fait inconnu ${id}` });
     else if (st.get(idsFaits.get(id).texte) === 'abroge') erreurs.push({ code: 'G2', msg: `guide ${g.id} : ${id} vient d'un texte abrogé` }); } }
@@ -92,6 +93,7 @@ index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.f
 ecrire('data/index.json', index);
 ecrire('data/faits.json', compact);
 ecrire('data/guides.json', guides);
+fs.copyFileSync(path.join(racine, 'data', 'annuaire.json'), path.join(dist, 'data', 'annuaire.json'));
 ecrire('data/retenir.json', retenir);
 
 // Cours (repris d'Excellence COSUMAF) : data/cours/*.json -> dist/data/cours/<id>.json + dist/data/cours.json (index)
@@ -122,7 +124,7 @@ console.log(`Pages statiques : ${nbPages} (indexation ${process.env.LANCEMENT ==
 const liste = [];
 const parcourir = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) parcourir(p); else liste.push('/' + path.relative(dist, p).replace(/\\/g, '/')); } };
 parcourir(dist);
-const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/cours/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && f !== '/sitemap.xml').sort();
+const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/cours/') && !f.startsWith('/acteurs/') && !f.startsWith('/img/acteurs/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && f !== '/sitemap.xml').sort();
 const h = crypto.createHash('sha1');
 for (const f of fichiers) { h.update(f); h.update(fs.readFileSync(path.join(dist, f))); }
 const versionSw = h.digest('hex').slice(0, 10);

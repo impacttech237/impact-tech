@@ -38,6 +38,11 @@ Le code est prêt mais inactif tant que l'identifiant Google n'est pas fourni. I
 
 Mot de passe oublié : par code de récupération (affiché une fois à la création). Une réinitialisation par e-mail demanderait la clé Resend dans ce Worker.
 
+## 3 ter. Logos et photos des acteurs
+
+Les logos et les photos des dirigeants (118 acteurs, dossier `site/img/acteurs/`) viennent des sites officiels de la COSUMAF et de la BVMAC. Avant le lancement public, demander l'accord écrit de la COSUMAF et de la BVMAC pour les reproduire (droit d'auteur et droit à l'image), ou les retirer : `node scripts/annuaire.mjs` régénère l'annuaire ; sans image, des initiales s'affichent. Seule la photo de la Présidente de la COSUMAF est reprise (aucune photo officielle du DG de la BVMAC n'est publiée sur son site).
+L'annuaire est relevé à la main sur les listes officielles (`sources/annuaire/`) : à relancer régulièrement (nouveaux agréments, changements de dirigeants).
+
 ## 4. Les PDF
 
 Les PDF ne sont pas dans git (325 Mo). Ils sont pris dans les dossiers Téléchargements de l'équipe via `data/pdf-map.json`.

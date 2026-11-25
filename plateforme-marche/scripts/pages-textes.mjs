@@ -68,7 +68,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
     for (const g of gs) {
       const canon = `${siteUrl}/${porte}/${g.id}/`;
       const corps = `<article class="seo"><nav><a href="/">Accueil</a> › <a href="/${porte}/">${P.nom}</a></nav><h1>${esc(g.titre)}</h1><p><strong>${esc(g.accroche)}</strong></p>
-        ${g.blocs.map(b => b.p ? `<p>${md(b.p)}</p>` : b.note ? `<p><em>${md(b.note)}</em></p>` : b.faits ? `<section><h2>${esc(b.titre || 'Dans les textes')}</h2><dl>${b.faits.map(id => parId.get(id)).filter(Boolean).map(f => { const t = par.get(f.texte); return `<dt>${esc(f.enonce)}</dt><dd>${esc(valeur(f))}${f.article ? ` <small>(${esc(f.article)}, ${t ? lien(t.id) : ''})</small>` : ''}</dd>`; }).join('')}</dl></section>` : '').join('')}
+        ${g.blocs.map(b => b.p ? `<p>${md(b.p)}</p>` : b.note ? `<p><em>${md(b.note)}</em></p>` : b.liste || b.puces ? `${b.titre ? `<h2>${esc(b.titre)}</h2>` : ''}<ul>${(b.liste || b.puces).map(x => `<li>${md(x)}</li>`).join('')}</ul>` : b.etapes ? `${b.titre ? `<h2>${esc(b.titre)}</h2>` : ''}<ol>${b.etapes.map(x => `<li>${md(x)}</li>`).join('')}</ol>` : b.chiffres ? `<ul>${b.chiffres.map(x => `<li><strong>${esc(x.v)}</strong> ${esc(x.l)}</li>`).join('')}</ul>` : b.chrono ? `<h2>${esc(b.titre || 'Les grandes dates')}</h2><ul>${b.chrono.map(x => `<li><strong>${esc(x.an)}</strong> : ${esc(x.t)}</li>`).join('')}</ul>` : b.acteurs ? `<h2>${esc(b.titre || 'Acteurs')}</h2><ul>${b.acteurs.map(id => `<li><a href="/acteurs/${id}/">${esc(id)}</a></li>`).join('')}</ul>` : b.faits ? `<section><h2>${esc(b.titre || 'Dans les textes')}</h2><dl>${b.faits.map(id => parId.get(id)).filter(Boolean).map(f => { const t = par.get(f.texte); return `<dt>${esc(f.enonce)}</dt><dd>${esc(valeur(f))}${f.article ? ` <small>(${esc(f.article)}, ${t ? lien(t.id) : ''})</small>` : ''}</dd>`; }).join('')}</dl></section>` : '').join('')}
         <p><a href="/#/${porte}/${g.id}">Ouvrir la version interactive</a></p></article>`;
       const description = coupe(g.accroche + ' ' + (g.blocs.find(b => b.p)?.p || ''), 155), titre = `${g.titre} | ${P.nom}`;
       ecrire(`${porte}/${g.id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Article', headline: g.titre, description, inLanguage: 'fr', url: canon, isPartOf: { '@type': 'WebSite', name: 'Marché financier CEMAC', url: siteUrl + '/' } } }));
@@ -107,6 +107,26 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
   }
   ecrire('cours/index.html', page({ titre: 'Cours sur le marché financier de la CEMAC', description: 'Onze cours gratuits : cadre institutionnel, entrée en bourse, appel public à l\'épargne, placement privé, intermédiaires, fonds, conformité.', canon: `${siteUrl}/cours/`, corps: `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Cours sur le marché financier de la CEMAC</h1><ol>${listeCours.map(pk => `<li><a href="/cours/${pk.id}/">${esc(pk.titre)}</a> : ${esc(coupe(pk.description || '', 140))}</li>`).join('')}</ol></article>`, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Cours', inLanguage: 'fr', url: `${siteUrl}/cours/` } }));
   urls.push(`${siteUrl}/cours/`);
+
+  // Annuaire des acteurs : une page par acteur + index
+  const TYPE_A = { regulateur: 'Régulateur', 'organisme-central': 'Organisme central', cooperation: 'Institution partenaire', 'societe-de-bourse': 'Société de bourse', sgo: "Société de gestion d'OPC", cif: 'Conseiller en investissements financiers', psan: 'Prestataire sur actifs numériques', 'financement-participatif': 'Conseiller en financement participatif', 'etablissement-credit': 'Établissement de crédit agréé', intermediaire: 'Intermédiaire', cac: 'Commissaire aux comptes', analyste: 'Analyste financier', 'agence-notation': 'Agence de notation', 'organisme-garantie': 'Organisme de garantie', 'listing-sponsor': 'Listing sponsor', intervenant: 'Intervenant', emetteur: 'Émetteur' };
+  const annuaire = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'annuaire.json'), 'utf8'));
+  for (const a of annuaire) {
+    const canon = `${siteUrl}/acteurs/${a.id}/`, nomA = a.nomCourt || a.nom, lieu = [a.ville, a.pays].filter(Boolean).join(', ');
+    const corps = `<article class="seo"><nav><a href="/">Accueil</a> › <a href="/acteurs/">Acteurs</a></nav><h1>${esc(a.nom)}</h1>
+      <p><strong>${esc(TYPE_A[a.type] || '')}</strong>${lieu ? ' · ' + esc(lieu) : ''}</p>${a.description ? `<p>${esc(a.description)}</p>` : ''}
+      ${(a.dirigeants || []).length ? `<h2>Direction</h2><ul>${a.dirigeants.map(d => `<li>${esc(d.nom)} : ${esc(d.titre)}${d.depuis ? ' (depuis ' + esc(d.depuis) + ')' : ''}</li>`).join('')}</ul>` : ''}
+      <h2>Informations</h2><ul>${a.agrement ? `<li>Agrément : ${esc(a.agrement.numero)}${a.agrement.date ? ' (' + esc(a.agrement.date) + ')' : ''}</li>` : ''}${a.adresse ? `<li>Adresse : ${esc(a.adresse)}</li>` : ''}${a.tel ? `<li>Téléphone : ${esc(a.tel)}</li>` : ''}${a.email ? `<li>E-mail : ${esc(a.email)}</li>` : ''}${a.site ? `<li>Site : <a href="${esc(a.site)}" rel="noopener">${esc(a.site)}</a></li>` : ''}</ul>
+      <p><small>Source : <a href="${esc(a.source.url)}" rel="noopener">${esc(a.source.nom)}</a>. Outil d'aide à la lecture, non officiel.</small></p>
+      <p><a href="/#/acteurs/${a.id}">Ouvrir la fiche interactive</a></p></article>`;
+    const titre = `${nomA} : ${TYPE_A[a.type] || 'acteur du marché'}${lieu ? ', ' + lieu : ''}`;
+    const description = coupe(`${a.nom}, ${TYPE_A[a.type] || 'acteur du marché financier'}${lieu ? ' (' + lieu + ')' : ''}. ${a.description || ''}`, 155);
+    ecrire(`acteurs/${a.id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Organization', name: a.nom, url: a.site || canon, address: lieu ? { '@type': 'PostalAddress', addressLocality: a.ville || undefined, addressCountry: a.pays || undefined } : undefined, description } }));
+    urls.push(canon);
+  }
+  const parType = {}; for (const a of annuaire) (parType[TYPE_A[a.type] || 'Autres'] ||= []).push(a);
+  ecrire('acteurs/index.html', page({ titre: 'Les acteurs du marché financier de la CEMAC : COSUMAF, BVMAC, sociétés de bourse', description: `${annuaire.length} acteurs : institutions, sociétés de bourse agréées, sociétés de gestion, commissaires aux comptes, émetteurs.`, canon: `${siteUrl}/acteurs/`, corps: `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Les acteurs du marché financier de la CEMAC</h1>${Object.entries(parType).map(([n, l]) => `<section><h2>${esc(n)} (${l.length})</h2><ul>${l.map(a => `<li><a href="/acteurs/${a.id}/">${esc(a.nomCourt || a.nom)}</a>${a.ville || a.pays ? ' : ' + esc([a.ville, a.pays].filter(Boolean).join(', ')) : ''}</li>`).join('')}</ul></section>`).join('')}</article>`, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Acteurs du marché financier CEMAC', inLanguage: 'fr', url: `${siteUrl}/acteurs/` } }));
+  urls.push(`${siteUrl}/acteurs/`);
 
   // Index des textes (point d'entrée pour les moteurs de recherche)
   const groupes = {};

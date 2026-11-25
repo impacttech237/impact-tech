@@ -4,14 +4,39 @@
     "porte": "decouvrir",
     "ordre": 1,
     "titre": "La bourse d'Afrique centrale, en bref",
-    "accroche": "À quoi sert la bourse, qui la fait fonctionner, et comment les titres circulent.",
+    "accroche": "À quoi sert la bourse, qui la fait fonctionner, comment elle est née, et comment les titres circulent.",
     "theme": "cadre",
     "blocs": [
       {
         "p": "Une entreprise ou un État qui a besoin d'argent peut le chercher auprès du public en émettant des **titres**. Une **action** est une part du capital d'une entreprise ; une **obligation** est un prêt consenti à l'émetteur, qui s'engage à le rembourser avec des intérêts. Une fois émis, ces titres peuvent être revendus à d'autres épargnants sur un marché organisé : la **bourse**."
       },
       {
-        "p": "Dans la zone CEMAC, le marché financier est unifié depuis l'acte additionnel du 19 février 2018 : une seule autorité de régulation, une seule bourse et un dépositaire central des titres."
+        "p": "La bourse de l'Afrique Centrale, la **BVMAC**, est une place boursière commune aux six pays de la CEMAC : le Cameroun, le Congo, le Gabon, la Guinée équatoriale, la République centrafricaine et le Tchad. Sa mission est de contribuer au financement des économies de la zone."
+      },
+      {
+        "titre": "Les grandes dates",
+        "chrono": [
+          {
+            "an": "1994",
+            "t": "À la demande des pays de la sous-région, la BEAC est chargée de créer la bourse régionale."
+          },
+          {
+            "an": "2003",
+            "t": "La BVMAC est créée à Libreville (27 juin) ; le règlement CEMAC-UMAC organise le marché financier."
+          },
+          {
+            "an": "2008",
+            "t": "Lancement officiel des activités de cotation, le 13 août."
+          },
+          {
+            "an": "2017",
+            "t": "Les chefs d'État fixent le siège du régulateur à Libreville et celui de la bourse à Douala."
+          },
+          {
+            "an": "2018",
+            "t": "Un acte additionnel unifie le marché financier de la CEMAC (19 février) : une seule autorité de régulation, une seule bourse."
+          }
+        ]
       },
       {
         "faits": [
@@ -23,50 +48,291 @@
         "titre": "Les trois piliers, selon l'acte additionnel"
       },
       {
-        "note": "Pour acheter ou vendre un titre coté, un épargnant passe obligatoirement par une société de bourse (voir « Acheter ou vendre »)."
+        "note": "Pour acheter ou vendre un titre coté, un épargnant passe obligatoirement par une société de bourse (voir « Investir pas à pas »)."
+      },
+      {
+        "source": {
+          "nom": "BVMAC : notre histoire",
+          "url": "https://www.bvm-ac.org/histoire-de-la-bvmac/"
+        }
       }
     ]
   },
   {
-    "id": "qui-protege",
+    "id": "qui-est-qui",
     "porte": "decouvrir",
     "ordre": 2,
-    "titre": "Qui protège l'épargnant ?",
-    "accroche": "Le régulateur, les sanctions, la médiation et les réflexes à avoir avant de confier de l'argent.",
-    "theme": "conformite",
+    "theme": "cadre",
+    "titre": "Qui est qui sur le marché",
+    "accroche": "Le régulateur, la bourse, le dépositaire, la banque de règlement et les intermédiaires : qui fait quoi, avec leurs visages et leurs logos.",
     "blocs": [
       {
-        "p": "Le marché est surveillé par la **COSUMAF**, qui délivre les agréments, accorde les visas aux offres au public et peut sanctionner. Plusieurs mécanismes protègent l'épargnant : une instance chargée de juger les manquements, un médiateur pour les litiges, et une cellule qui reçoit les déclarations d'opérations suspectes."
+        "p": "Le marché financier de la CEMAC repose sur quelques institutions. La **COSUMAF** régule, contrôle et surveille. La **BVMAC** organise la bourse. Le **Dépositaire Central** garde et fait circuler les titres. La **BEAC** assure le règlement en espèces. Entre l'épargnant et le marché, les **sociétés de bourse** exécutent les ordres."
+      },
+      {
+        "titre": "Les institutions",
+        "acteurs": [
+          "cosumaf",
+          "bvmac",
+          "depositaire-central",
+          "banque-de-reglement-beac",
+          "chambre-de-compensation"
+        ]
+      },
+      {
+        "p": "La **COSUMAF** est dirigée par une Présidente, assistée d'un Secrétaire Général. Tous deux sont nommés par la Conférence des Chefs d'État de la CEMAC pour un mandat de cinq ans non renouvelable. La **BVMAC** est une société anonyme dirigée par un Directeur Général, sous le contrôle d'un conseil d'administration."
       },
       {
         "faits": [
           "r01-22.role.01",
-          "r01-22.role.05",
-          "r01-22.role.16",
-          "rg-23.role.03",
-          "r01-22.role.15"
+          "r01-22.role.08",
+          "r01-22.role.09",
+          "r01-22.role.10",
+          "r01-22.role.11"
         ],
-        "titre": "Qui fait quoi pour vous protéger"
+        "titre": "Ce que disent les textes"
       },
       {
-        "p": "Les personnes qui conseillent ou négocient pour le public doivent avoir été **habilitées** et recevoir une carte professionnelle."
+        "cta": {
+          "href": "#/acteurs",
+          "label": "Voir tous les acteurs : sociétés de bourse, sociétés de gestion, émetteurs…"
+        }
+      },
+      {
+        "source": {
+          "nom": "COSUMAF : organismes centraux",
+          "url": "https://cosumaf.org/organismes-centraux"
+        }
+      }
+    ]
+  },
+  {
+    "id": "actionnaire-ou-obligataire",
+    "porte": "decouvrir",
+    "ordre": 3,
+    "theme": "marche",
+    "titre": "Actionnaire ou obligataire : ce que rapporte un titre",
+    "accroche": "Dividendes, coupons, plus-values : comment un investisseur gagne (ou perd) de l'argent en bourse.",
+    "blocs": [
+      {
+        "p": "Il existe plusieurs sortes d'investisseurs : les particuliers, les banques, les compagnies d'assurances, les caisses de retraite, les fonds. Ils n'ont pas tous le même horizon de placement ni les mêmes objectifs de rendement."
+      },
+      {
+        "titre": "Deux façons d'investir",
+        "liste": [
+          "**L'actionnaire** achète une action : il devient propriétaire d'une part de l'entreprise. Il reçoit des **dividendes**, tirés des bénéfices de la société, proportionnellement à son apport dans le capital.",
+          "**L'obligataire** achète une obligation : il prête de l'argent à l'émetteur (une société, un État). Il reçoit des **coupons**, c'est-à-dire les intérêts, puis récupère son capital à l'échéance.",
+          "Dans les deux cas, l'investisseur peut aussi réaliser une **plus-value** s'il revend le titre plus cher qu'il ne l'a acheté."
+        ]
+      },
+      {
+        "note": "Un investissement en bourse comporte des risques : la valeur d'un titre peut baisser, un dividende peut ne pas être versé, un émetteur peut manquer à ses engagements. N'investissez que ce que vous pouvez vous permettre d'immobiliser."
+      },
+      {
+        "source": {
+          "nom": "BVMAC : accès des investisseurs au marché",
+          "url": "https://www.bvm-ac.org/espace-investisseurs-fr/investisseurs-acces-aux-produits-boursiers/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "investir-pas-a-pas",
+    "porte": "decouvrir",
+    "ordre": 4,
+    "theme": "marche",
+    "titre": "Investir pas à pas",
+    "accroche": "Les quatre étapes pour acheter votre première action ou obligation à la BVMAC.",
+    "blocs": [
+      {
+        "p": "Pour investir à la BVMAC, une personne (physique ou morale) passe par une **société de bourse**. Elle est la seule à pouvoir négocier sur le marché. Voici le chemin officiel décrit par la BVMAC."
+      },
+      {
+        "titre": "Les quatre étapes",
+        "etapes": [
+          "**Choisir une société de bourse.** Prenez attache avec la société de bourse de votre choix. Elles sont agréées par la COSUMAF et réparties dans cinq pays.",
+          "**Ouvrir un compte titres et espèces** pour gérer vos opérations boursières.",
+          "**Prendre connaissance des conditions tarifaires** appliquées par la société de bourse : ce sont elles qui facturent leurs services.",
+          "**Décider en toute transparence** d'acheter ou de vendre une valeur cotée à la BVMAC, puis donner votre ordre."
+        ]
+      },
+      {
+        "chiffres": [
+          {
+            "v": "0",
+            "l": "commission directe à payer à la BVMAC pour vos achats et ventes"
+          },
+          {
+            "v": "30",
+            "l": "sociétés de bourse agréées sur le marché régional"
+          },
+          {
+            "v": "5",
+            "l": "pays où elles sont implantées"
+          }
+        ]
+      },
+      {
+        "cta": {
+          "href": "#/acteurs?g=societes-de-bourse",
+          "label": "Voir les sociétés de bourse agréées"
+        }
       },
       {
         "faits": [
-          "i18-24.definition.01",
-          "i18-24.role.02"
+          "rbv-25.role.04",
+          "rbv-25.definition.07",
+          "rbv-25.definition.08"
         ],
-        "titre": "La carte professionnelle"
+        "titre": "Ce que disent les textes"
       },
       {
-        "note": "Réflexe simple : avant de confier de l'argent, demandez à voir la carte professionnelle de votre interlocuteur et vérifiez que l'intermédiaire est agréé auprès de la COSUMAF."
+        "note": "Avant de choisir, vérifiez que la société est bien agréée : la COSUMAF propose un service « vérifier un agrément » sur son site."
+      },
+      {
+        "source": {
+          "nom": "BVMAC : accès des investisseurs au marché",
+          "url": "https://www.bvm-ac.org/espace-investisseurs-fr/investisseurs-acces-aux-produits-boursiers/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ce-que-lon-peut-acheter",
+    "porte": "decouvrir",
+    "ordre": 5,
+    "theme": "marche",
+    "titre": "Ce que l'on peut acheter",
+    "accroche": "Actions, obligations, bons du Trésor, parts de fonds : les produits du marché et les sociétés cotées.",
+    "blocs": [
+      {
+        "titre": "Les produits de la BVMAC",
+        "liste": [
+          "Des **titres de capital et de créance** émis par une société anonyme (actions et obligations d'entreprises).",
+          "Des **bons du Trésor, obligations et autres effets** émis par la BEAC, par un État membre de la CEMAC ou l'un de ses démembrements.",
+          "Des **actions de sociétés d'investissement à capital variable** (SICAV) agréées par la COSUMAF.",
+          "Tout autre titre ou produit d'épargne agréé par la COSUMAF."
+        ]
+      },
+      {
+        "p": "Les titres sont admis à la **Cote Permanente**, le marché officiel de la BVMAC. Elle est organisée en compartiments selon la taille et la nature de l'émetteur ; les échanges de titres non cotés se font sur le **marché hors cote**."
+      },
+      {
+        "faits": [
+          "rbv-25.definition.01",
+          "rbv-25.definition.02"
+        ],
+        "titre": "Les marchés de la BVMAC"
+      },
+      {
+        "titre": "Les sociétés dont les actions sont cotées",
+        "puces": [
+          "SEMC (Société des Eaux Minérales du Cameroun)",
+          "SAFACAM",
+          "SOCAPALM",
+          "SIAT Gabon",
+          "La Régionale Bank",
+          "BANGE",
+          "SCG-Re",
+          "BGFI Holding Corporation"
+        ]
+      },
+      {
+        "p": "Cette liste est celle publiée par la BVMAC en novembre 2026 ; elle évolue au fil des introductions en bourse. Chaque société publie une fiche signalétique sur le site de la BVMAC."
+      },
+      {
+        "source": {
+          "nom": "BVMAC : produits et services, sociétés cotées",
+          "url": "https://www.bvm-ac.org/la-bvmac/nos-produits-et-services/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fiscalite-epargnant",
+    "porte": "decouvrir",
+    "ordre": 6,
+    "theme": "marche",
+    "titre": "Les impôts de l'investisseur",
+    "accroche": "Ce qui est exonéré, ce qui est prélevé : le régime fiscal spécifique des opérations cotées à la BVMAC.",
+    "blocs": [
+      {
+        "p": "Les États de la zone ont institué un **régime fiscal spécifique** pour encourager l'investissement en valeurs cotées à la BVMAC. Il prévoit des exonérations et deux taux de retenue à la source."
+      },
+      {
+        "titre": "Ce qui est exonéré",
+        "liste": [
+          "Les **droits d'enregistrement et de timbre** sur les cessions de valeurs mobilières cotées à la BVMAC.",
+          "Les **plus-values nettes** réalisées en cédant des valeurs mobilières, par des personnes physiques ou morales.",
+          "Les **intérêts des obligations** des collectivités locales et des États, pour les résidents de la CEMAC."
+        ]
+      },
+      {
+        "chiffres": [
+          {
+            "v": "10 %",
+            "l": "retenue à la source sur les dividendes et les obligations de moins de 5 ans"
+          },
+          {
+            "v": "5 %",
+            "l": "retenue à la source sur les obligations de 5 ans ou plus"
+          }
+        ]
+      },
+      {
+        "faits": [
+          "rfi-07.montant.01",
+          "rfi-07.montant.02",
+          "rfi-07.delai.04",
+          "rfi-07.role.01"
+        ],
+        "titre": "Dans le règlement UEAC"
+      },
+      {
+        "note": "Ces informations sont un résumé. Pour votre situation personnelle, renseignez-vous auprès de votre société de bourse ou de l'administration fiscale de votre pays."
+      },
+      {
+        "source": {
+          "nom": "BVMAC : bourse et fiscalité pour les investisseurs",
+          "url": "https://www.bvm-ac.org/espace-investisseurs-fr/bourse-et-fiscalite-pour-les-investisseurs/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "acheter-vendre",
+    "porte": "decouvrir",
+    "ordre": 7,
+    "titre": "Acheter ou vendre : passer par une société de bourse",
+    "accroche": "Comment un ordre est donné, à quel prix, et combien de temps il reste valable.",
+    "theme": "marche",
+    "blocs": [
+      {
+        "p": "À la BVMAC, seules les **sociétés de bourse** peuvent négocier. Vous leur donnez un **ordre de bourse** : une instruction d'achat ou de vente d'un titre. L'ordre peut préciser un prix limite, ou être passé « au marché », c'est-à-dire sans indication de prix."
+      },
+      {
+        "faits": [
+          "rbv-25.role.04",
+          "rbv-25.definition.07",
+          "rbv-25.definition.08",
+          "rbv-25.definition.09",
+          "rbv-25.definition.06"
+        ],
+        "titre": "Les notions de base"
+      },
+      {
+        "faits": [
+          "rbv-25.delai.13",
+          "rbv-25.delai.14"
+        ],
+        "titre": "Délais à connaître"
       }
     ]
   },
   {
     "id": "ou-sont-mes-titres",
     "porte": "decouvrir",
-    "ordre": 3,
+    "ordre": 8,
     "titre": "Où sont mes titres ?",
     "accroche": "Il n'y a plus de certificat en papier : vos titres sont inscrits dans un compte.",
     "theme": "titres",
@@ -96,39 +362,9 @@
     ]
   },
   {
-    "id": "acheter-vendre",
-    "porte": "decouvrir",
-    "ordre": 4,
-    "titre": "Acheter ou vendre : passer par une société de bourse",
-    "accroche": "Comment un ordre est donné, à quel prix, et combien de temps il reste valable.",
-    "theme": "marche",
-    "blocs": [
-      {
-        "p": "À la BVMAC, seules les **sociétés de bourse** peuvent négocier. Vous leur donnez un **ordre de bourse** : une instruction d'achat ou de vente d'un titre. L'ordre peut préciser un prix limite, ou être passé « au marché », c'est-à-dire sans indication de prix."
-      },
-      {
-        "faits": [
-          "rbv-25.role.04",
-          "rbv-25.definition.07",
-          "rbv-25.definition.08",
-          "rbv-25.definition.09",
-          "rbv-25.definition.06"
-        ],
-        "titre": "Les notions de base"
-      },
-      {
-        "faits": [
-          "rbv-25.delai.13",
-          "rbv-25.delai.14"
-        ],
-        "titre": "Délais à connaître"
-      }
-    ]
-  },
-  {
     "id": "epargner-par-un-fonds",
     "porte": "decouvrir",
-    "ordre": 5,
+    "ordre": 9,
     "titre": "Épargner par un fonds (OPC)",
     "accroche": "Confier son épargne à un fonds géré par des professionnels, sans choisir chaque titre.",
     "theme": "opc",
@@ -159,7 +395,7 @@
   {
     "id": "souscrire-offre-public",
     "porte": "decouvrir",
-    "ordre": 6,
+    "ordre": 10,
     "titre": "Souscrire à une offre au public",
     "accroche": "Quand une entreprise ou un État vous propose d'acheter ses titres : ce qui doit exister avant.",
     "theme": "ape",
@@ -177,6 +413,170 @@
       },
       {
         "note": "Une offre qui n'a pas reçu de visa alors qu'elle s'adresse au public est un signal d'alerte : renseignez-vous auprès de la COSUMAF avant de verser de l'argent."
+      }
+    ]
+  },
+  {
+    "id": "qui-protege",
+    "porte": "decouvrir",
+    "ordre": 11,
+    "titre": "Qui protège l'épargnant ?",
+    "accroche": "Le régulateur, les sanctions, la médiation et les réflexes à avoir avant de confier de l'argent.",
+    "theme": "conformite",
+    "blocs": [
+      {
+        "p": "Le marché est surveillé par la **COSUMAF**, qui délivre les agréments, accorde les visas aux offres au public et peut sanctionner. Plusieurs mécanismes protègent l'épargnant : une instance chargée de juger les manquements, un médiateur pour les litiges, et une cellule qui reçoit les déclarations d'opérations suspectes."
+      },
+      {
+        "faits": [
+          "r01-22.role.01",
+          "r01-22.role.05",
+          "r01-22.role.16",
+          "rg-23.role.03",
+          "r01-22.role.15"
+        ],
+        "titre": "Qui fait quoi pour vous protéger"
+      },
+      {
+        "p": "Les personnes qui conseillent ou négocient pour le public doivent avoir été **habilitées** et recevoir une carte professionnelle."
+      },
+      {
+        "faits": [
+          "i18-24.definition.01",
+          "i18-24.role.02"
+        ],
+        "titre": "La carte professionnelle"
+      },
+      {
+        "cta": {
+          "href": "https://cosumaf.org/verifier-un-agrement",
+          "label": "Vérifier un agrément sur cosumaf.org",
+          "externe": true
+        }
+      },
+      {
+        "note": "Réflexe simple : avant de confier de l'argent, demandez à voir la carte professionnelle de votre interlocuteur et vérifiez que l'intermédiaire est agréé auprès de la COSUMAF."
+      }
+    ]
+  },
+  {
+    "id": "entrer-en-bourse",
+    "porte": "decouvrir",
+    "ordre": 12,
+    "theme": "marche",
+    "titre": "Pour les entreprises : entrer en bourse",
+    "accroche": "Les compartiments de la cote, les conditions d'admission, les commissions et les avantages fiscaux.",
+    "blocs": [
+      {
+        "p": "Une entreprise qui veut lever des fonds en bourse fait admettre ses titres à la **Cote Permanente**. Selon sa taille, elle vise le compartiment **A Premium** (grandes entreprises), **B Medium** ou **E PME** (petites et moyennes entreprises). Les titres de créance, eux, sont cotés au compartiment obligataire."
+      },
+      {
+        "faits": [
+          "rbv-25.montant.01",
+          "rbv-25.montant.02",
+          "rbv-25.montant.03",
+          "rbv-25.montant.04"
+        ],
+        "titre": "Compartiment A Premium : conditions principales"
+      },
+      {
+        "faits": [
+          "rbv-25.montant.05",
+          "rbv-25.montant.06",
+          "rbv-25.montant.07",
+          "rbv-25.delai.02"
+        ],
+        "titre": "Compartiment B Medium"
+      },
+      {
+        "p": "Les sociétés candidates doivent aussi présenter des états financiers certifiés par des commissaires aux comptes agréés. Pour le compartiment A, deux commissaires aux comptes, un chiffre d'affaires supérieur à 15 milliards de FCFA, au moins deux exercices bénéficiaires sur les trois derniers et au moins un dividende distribué."
+      },
+      {
+        "titre": "Les commissions payées à la BVMAC",
+        "chiffres": [
+          {
+            "v": "0,08 %",
+            "l": "de la capitalisation boursière pour les actions (à l'introduction, puis chaque année)"
+          },
+          {
+            "v": "0,04 %",
+            "l": "de la capitalisation pour les obligations (à l'introduction, puis chaque année)"
+          }
+        ]
+      },
+      {
+        "titre": "Les avantages fiscaux pour les sociétés cotées",
+        "faits": [
+          "rfi-07.montant.03",
+          "rfi-07.montant.04",
+          "rfi-07.montant.05",
+          "rfi-07.delai.01",
+          "rfi-07.delai.02"
+        ]
+      },
+      {
+        "cta": {
+          "href": "#/cours/p1-entrer-en-bourse",
+          "label": "Le cours complet : Entrer en bourse"
+        }
+      },
+      {
+        "source": {
+          "nom": "BVMAC : conditions d'admission et commissions",
+          "url": "https://www.bvm-ac.org/espace-emetteurs/conditions-d-admission-au-marche-boursier/"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bons-reflexes",
+    "porte": "decouvrir",
+    "ordre": 13,
+    "theme": "conformite",
+    "titre": "Les bons réflexes pour ne pas se faire piéger",
+    "accroche": "Vérifier un agrément, repérer une offre suspecte, signaler un manquement.",
+    "blocs": [
+      {
+        "p": "Comme dans tout domaine où l'on confie de l'argent, des personnes malintentionnées profitent de la méconnaissance de la bourse. Quelques réflexes simples suffisent à écarter l'essentiel des risques."
+      },
+      {
+        "titre": "Avant de confier de l'argent",
+        "liste": [
+          "**Vérifiez l'agrément** de la société ou de la personne sur le site de la COSUMAF (« vérifier un agrément »).",
+          "**Demandez la carte professionnelle** de votre interlocuteur : les personnes qui conseillent ou négocient pour le public doivent être habilitées.",
+          "**Méfiez-vous des promesses de gains garantis** ou très élevés : aucun placement en bourse n'est sans risque.",
+          "**Vérifiez qu'une offre au public a reçu son visa** de la COSUMAF et lisez le document d'information avant de souscrire.",
+          "**Ne payez jamais sur un compte personnel** : les sociétés de bourse tiennent des comptes à votre nom, et les souscriptions sont centralisées par une société de bourse."
+        ]
+      },
+      {
+        "faits": [
+          "i18-24.definition.01",
+          "r01-22.montant.01",
+          "r01-22.delai.01"
+        ],
+        "titre": "Ce que disent les textes"
+      },
+      {
+        "titre": "En cas de doute",
+        "liste": [
+          "**Signalez** tout manquement aux règles du marché financier à la COSUMAF (service « déposer une plainte »).",
+          "**Posez votre question** aux experts de la COSUMAF (service « soumettre une requête »).",
+          "En cas de litige avec un acteur du marché, un **médiateur** peut proposer une résolution amiable."
+        ]
+      },
+      {
+        "cta": {
+          "href": "https://cosumaf.org/verifier-un-agrement",
+          "label": "Vérifier un agrément sur cosumaf.org",
+          "externe": true
+        }
+      },
+      {
+        "source": {
+          "nom": "COSUMAF : vérifier un agrément, signaler une fraude",
+          "url": "https://cosumaf.org/signaler-fraude"
+        }
       }
     ]
   }
