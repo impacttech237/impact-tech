@@ -1,0 +1,1919 @@
+{
+ "id": "p1-entrer-en-bourse",
+ "titre": "Entrer en bourse : compartiments, admission, première cotation",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "orange",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "Quel compartiment selon la taille, quel dossier déposer, quelle procédure de première cotation (prix ferme, prix minimal, prix ouvert, cotation directe), ce qu'on doit faire pendant le séjour à la cote et comment on est radié.",
+ "court": "Entrer en bourse",
+ "chapitres": [
+  {
+   "id": "b2-admission-cote",
+   "titre": "Essentiel · 02 · L'admission à la cote : compartiments A, B, E, D, C et critères chiffrés (art. 50 à 92)",
+   "resume": {
+    "court": "Cote Permanente en 5 compartiments : A Premium (capital ≥ 100 M, capitalisation ≥ 10 Md, diffusion 20/15/10 %, CA > 15 Md, 2 CAC), B Medium (capital ≥ 10 M, capitalisation ≥ 5 Md, 15 %, 1 CAC), E PME (2 critères sur 3), D OPC, C Obligataire (maturité ≥ 2 ans ; 200 M grandes entreprises, 50 M PME). Marché Hors-Cote pour les valeurs non cotées. La BVMAC statue sur l'admission en 10 jours de bourse via le Comité d'Admission.",
+    "moyen": "Marché Officiel = Cote Permanente (5 compartiments) + Marché Hors-Cote (gré à gré pour valeurs non cotées : effets publics de titrisation, TCN du guichet BEAC, titres de sociétés anonymes non admises/private equity, titres issus de ventes judiciaires). Instruments admissibles : valeurs mobilières, obligations du Trésor, parts d'OPC agréés, sukuks, tout autre instrument autorisé. Toute transaction sur valeur cotée doit être exécutée sur la plateforme sous peine de nullité. Dossier d'admission : PV d'organes, projet de document d'information, projet de convention de syndicat de placement, attestation du DC, statuts, liste des actionnaires, RCCM, lettre de mandataire, calendrier. Engagements de l'émetteur : PV d'AG, statuts sans clause restrictive de la libre circulation, états financiers en SYSCOHADA et en IFRS, accord de la BVMAC pour le calendrier des OST, états annuels certifiés, communiqués, information sur le capital, convention de services. La BVMAC statue dans les 10 jours de bourse (délai suspendu en cas de demande de complément), décision du Comité d'Admission, avis public ; refus motivé notifié et copié à la COSUMAF. Compartiment A (art. 74) : capital ≥ 100 M FCFA libéré ; capitalisation à l'introduction ≥ 10 Md ; diffusion ≥ 20 % (si capitalisation < 50 Md), 15 % (50-100 Md) ou 10 % (> 100 Md) ; montant diffusé ≥ 5 Md / 8 Md / 15 Md ; ≥ 2 millions de titres répartis entre ≥ 200 actionnaires ; états certifiés par 2 CAC des 3 derniers exercices, normes IFRS ; CA > 15 Md ; ≥ 2 exercices bénéficiaires sur 3 ; ≥ 1 dividende sur 3 ans. Compartiment B (art. 77) : capital ≥ 10 M ; capitalisation ≥ 5 Md ; diffusion ≥ 15 % ; ≥ 500 000 titres entre ≥ 100 actionnaires ; ≥ 500 M diffusés ; comptes de 3 ans certifiés par 1 CAC ; ≥ 1 exercice bénéficiaire sur 3 ; ≥ 1 dividende sur 3 ans. Compartiment E PME (art. 80) : au moins 2 critères sur 3 parmi (capital ≥ 10 M ; 10 à 100 salariés ; capitalisation 300 M) ; (total bilan ≤ 10 Md ; diffusion ≥ 15 % ; émission ≥ 200 M) ; (CA entre 250 M et 2 Md). Obligations (art. 88) : États : maturité ≥ 2 ans, dossier avec numéro d'enregistrement COSUMAF ; entreprises : grandes entreprises : 3 exercices, montant ≥ 200 M ; PME : 2 exercices, montant ≥ 50 M ; maturité ≥ 2 ans.",
+    "long": "Marché Officiel = Cote Permanente (5 compartiments) + Marché Hors-Cote (gré à gré pour valeurs non cotées : effets publics de titrisation, TCN du guichet BEAC, titres de sociétés anonymes non admises/private equity, titres issus de ventes judiciaires). Instruments admissibles : valeurs mobilières, obligations du Trésor, parts d'OPC agréés, sukuks, tout autre instrument autorisé. Toute transaction sur valeur cotée doit être exécutée sur la plateforme sous peine de nullité. Dossier d'admission : PV d'organes, projet de document d'information, projet de convention de syndicat de placement, attestation du DC, statuts, liste des actionnaires, RCCM, lettre de mandataire, calendrier. Engagements de l'émetteur : PV d'AG, statuts sans clause restrictive de la libre circulation, états financiers en SYSCOHADA et en IFRS, accord de la BVMAC pour le calendrier des OST, états annuels certifiés, communiqués, information sur le capital, convention de services. La BVMAC statue dans les 10 jours de bourse (délai suspendu en cas de demande de complément), décision du Comité d'Admission, avis public ; refus motivé notifié et copié à la COSUMAF. Compartiment A (art. 74) : capital ≥ 100 M FCFA libéré ; capitalisation à l'introduction ≥ 10 Md ; diffusion ≥ 20 % (si capitalisation < 50 Md), 15 % (50-100 Md) ou 10 % (> 100 Md) ; montant diffusé ≥ 5 Md / 8 Md / 15 Md ; ≥ 2 millions de titres répartis entre ≥ 200 actionnaires ; états certifiés par 2 CAC des 3 derniers exercices, normes IFRS ; CA > 15 Md ; ≥ 2 exercices bénéficiaires sur 3 ; ≥ 1 dividende sur 3 ans. Compartiment B (art. 77) : capital ≥ 10 M ; capitalisation ≥ 5 Md ; diffusion ≥ 15 % ; ≥ 500 000 titres entre ≥ 100 actionnaires ; ≥ 500 M diffusés ; comptes de 3 ans certifiés par 1 CAC ; ≥ 1 exercice bénéficiaire sur 3 ; ≥ 1 dividende sur 3 ans. Compartiment E PME (art. 80) : au moins 2 critères sur 3 parmi (capital ≥ 10 M ; 10 à 100 salariés ; capitalisation 300 M) ; (total bilan ≤ 10 Md ; diffusion ≥ 15 % ; émission ≥ 200 M) ; (CA entre 250 M et 2 Md). Obligations (art. 88) : États : maturité ≥ 2 ans, dossier avec numéro d'enregistrement COSUMAF ; entreprises : grandes entreprises : 3 exercices, montant ≥ 200 M ; PME : 2 exercices, montant ≥ 50 M ; maturité ≥ 2 ans."
+   },
+   "fiches": [
+    {
+     "titre": "Architecture du marché : cote permanente et hors-cote (art. 50 à 59)",
+     "contenu": "- **Marché Officiel = Cote Permanente** + **Marché Hors-Cote** (gré à gré)\n- **Cinq compartiments** de la Cote Permanente : **A — Premium** (grandes entreprises) · **B — Medium** · **E — PME** · **D — OPC** · **C — Obligataire** ; création/modification de compartiments avec autorisation préalable de la COSUMAF\n- Chaque compartiment a ses règles d'organisation (engagements, variation des cours) ; principes de **cotation, diffusion et dénouement communs**\n- **Titres admissibles** (art. 6 du Règlement 01/22) : valeurs mobilières (capital et créances de sociétés par actions, personnes morales de droit public, OPC) · **obligations du Trésor** · parts/actions d'**OPC agréés** · **sukuks** · tout autre instrument autorisé par la COSUMAF\n- **Admission** autorisée par le **Comité d'Admission** de la BVMAC (délégation du CA)\n- **Nullité** de toute transaction sur valeur cotée non exécutée sur la plateforme (art. 54)\n- **Hors-Cote** : effets publics issus de la titrisation de la dette intérieure, **TCN du Guichet de la BEAC**, titres de sociétés anonymes non cotées (**private equity**), titres de sociétés non cotées objet de vente judiciaire ; échanges par **carnet d'ordres central** ou **confrontation bilatérale**"
+    },
+    {
+     "titre": "Dossier et procédure d'admission (art. 60 à 73)",
+     "contenu": "- Demande par l'émetteur ou son **mandataire** ; dossier : **PV des organes** · **projet de document d'information** (art. 80 du Règlement 01/22) · projet de **convention du syndicat de placement** · **attestation d'admission aux opérations du Dépositaire Central** · statuts · liste des actionnaires · RCCM · lettre de désignation du mandataire · calendrier\n- **Engagements de l'émetteur** : envoyer les PV d'AG · **statuts sans clause restrictive** de la libre circulation · **états financiers en SYSCOHADA ET en IFRS** · informer des modifications statutaires · **accord de la BVMAC** pour le calendrier de toute OST · états annuels certifiés + rapport du CAC · communiqués · modifications du capital · **convention de services** avec la BVMAC\n- La BVMAC **statue dans les 10 jours de bourse** après réception du dossier complet (suspendus en cas de complément) ; **décision du Comité d'Admission** ; copie à la COSUMAF ; **Avis** précisant caractéristiques, diffusion, calendrier ; **refus motivé** notifié par écrit, copie à la COSUMAF\n- Émetteur déjà coté : **mesures allégées** possibles ; valeurs donnant accès au capital : admises seulement si les titres de capital le sont (sauf dérogation)\n- Titres de créance donnant accès au capital d'un émetteur non coté : engagement de demander l'admission du capital **12 mois avant** la prise d'effet du droit"
+    },
+    {
+     "titre": "Compartiment A — Premium (art. 74)",
+     "contenu": "| Critère | Seuil |\n|---|---|\n| Capital social | **≥ 100 000 000 FCFA** entièrement libéré |\n| Capitalisation à l'introduction | **≥ 10 milliards** |\n| Capital diffusé | **≥ 20 %** (capitalisation < 50 Md) · **≥ 15 %** (50 à 100 Md) · **≥ 10 %** (> 100 Md) |\n| Montant diffusé | **≥ 5 Md** (< 50 Md) · **≥ 8 Md** (50-100 Md) · **≥ 15 Md** (> 100 Md) |\n| Titres diffusés | **≥ 2 000 000 titres** entre **≥ 200 actionnaires** |\n| Comptes | **3 derniers exercices** certifiés par **2 CAC agréés**, normes comptables et **IFRS** |\n| Chiffre d'affaires | **> 15 milliards** |\n| Résultats | **2 exercices bénéficiaires** sur les 3 derniers |\n| Dividende | **≥ 1** sur les 3 derniers exercices |\n\nEn cas de refus, admission possible sur un autre compartiment si ses critères sont remplis (accord de l'émetteur)."
+    },
+    {
+     "titre": "Compartiments B — Medium, E — PME, D — OPC (art. 77 à 85)",
+     "contenu": "**B — Medium** (art. 77) : **capital ≥ 10 M** libéré · **capitalisation ≥ 5 Md** · **diffusion ≥ 15 %** · **≥ 500 000 titres** entre **≥ 100 actionnaires** · **≥ 500 M diffusés** · comptes de **3 ans** certifiés par **1 CAC** · **≥ 1 exercice bénéficiaire** sur 3 · **≥ 1 dividende** sur 3 ans.\n\n**E — PME** (art. 80) : **au moins 2 des 3** conditions :\n1. **capital ≥ 10 M** ; **10 à 100 salariés** sur les 6 derniers mois ; **capitalisation 300 M** à l'introduction\n2. **total bilan ≤ 10 Md** ; **diffusion ≥ 15 %** ; **émission ≥ 200 M**\n3. **CA HT > 250 M et ≤ 2 Md**\n→ admission possible pour une société en constitution par APE après visa, avec prévisionnels sur **3 ans**.\n\n**D — OPC** (art. 81 à 85) : parts ou actions d'**OPC agréés par la COSUMAF** (avis conforme du Comité d'Admission) ; dossier : états de synthèse du dernier exercice avec rapport du CAC, copie de la **décision d'agrément COSUMAF**, contrat de liquidité le cas échéant.\n\nPour A, B et D : si le dernier exercice est clos depuis **plus de 8 mois**, publier des **comptes du 1er semestre** avec avis du CAC.\n\n**Obligations de séjour** (art. 86) : site internet, information immédiate de tout fait influençant le cours, information périodique, **RSE**, suivi de la **liquidité** ; **Premium et Medium : contrat d'animation obligatoire**."
+    },
+    {
+     "titre": "Compartiment C — Obligataire (art. 87 à 92)",
+     "contenu": "- **Titres de créance** : obligations, sukuks, obligations convertibles, tout titre donnant une créance générale sur l'émetteur\n- **États et démembrements** : **maturité ≥ 2 ans** · dossier avec **numéro d'enregistrement COSUMAF** · constituer les garanties annoncées avant l'admission · **droits d'admission payés dans les 15 jours** après la première cotation ; admission **sur simple demande** de l'État (la bourse vérifie les engagements de sécurisation)\n- **Institutions financières régionales et internationales** et **entreprises publiques** : dossier avec **visa COSUMAF**, garanties, **maturité ≥ 2 ans**\n- **Grandes entreprises privées** : capital libéré · **états de synthèse des 3 derniers exercices** · comptes consolidés certifiés si contrôle d'autres sociétés · **emprunt ≥ 200 millions FCFA** · **maturité ≥ 2 ans**\n- **PME** : **états des 2 derniers exercices** · **emprunt ≥ 50 millions** · **maturité ≥ 2 ans**\n- La demande porte sur **tous les titres d'une même émission**\n- **Instruction BVMAC n° 1 (2008, ancienne)** : marché A grandes entreprises (20 % du capital dont 10 % diffusés, capitalisation > 10 Md, fonds propres 500 M, CA > 5 Md), marché B PME (fonds propres 200 M, CA > 1 Md), obligations (emprunt ≥ 250 M, ≥ 25 000 titres, ≥ 3 ans) : **antérieure au RG 2025**, donc à utiliser avec prudence"
+    }
+   ],
+   "mnemos": [
+    "A : 100 M · 10 Md · 20/15/10 % · 2 M titres / 200 actionnaires · CA 15 Md · 2 CAC. B : 10 M · 5 Md · 15 % · 500 000 titres / 100 actionnaires · 1 CAC. E : 2 sur 3. C : ≥ 2 ans ; 200 M (grande) / 50 M (PME). Décision en 10 jours de bourse."
+   ],
+   "definitions": [
+    {
+     "terme": "Cote Permanente",
+     "definition": "Marché officiel de la BVMAC organisé en 5 compartiments (A Premium, B Medium, E PME, D OPC, C Obligataire)."
+    },
+    {
+     "terme": "Sukuk",
+     "definition": "Titre financier islamique équivalent à une obligation ordinaire, soumis aux préceptes de la Charia, admissible à la cote."
+    },
+    {
+     "terme": "Capital diffusé",
+     "definition": "Part du capital détenue par le public, dont le minimum varie selon la capitalisation au compartiment A."
+    },
+    {
+     "terme": "Diffusion dans le public",
+     "definition": "Part du capital détenue par le public ; critère d'admission aux compartiments d'actions."
+    },
+    {
+     "terme": "Contrat d'animation",
+     "definition": "Contrat entre l'émetteur et une SDB spécialiste pour améliorer la liquidité ; obligatoire pour Premium et Medium."
+    },
+    {
+     "terme": "Marché Hors-Cote",
+     "definition": "Marché de gré à gré de la BVMAC pour les valeurs non inscrites à un compartiment de la Cote Permanente."
+    },
+    {
+     "terme": "Private equity (hors-cote)",
+     "definition": "Titres de capital et de créance de sociétés anonymes non admises à la cote, négociables sur le Hors-Cote."
+    },
+    {
+     "terme": "Comité d'Admission",
+     "definition": "Organe de la BVMAC qui décide l'admission à la cote par délégation du conseil d'administration."
+    },
+    {
+     "terme": "Capitalisation boursière",
+     "definition": "Valeur boursière d'une société : cours du titre multiplié par le nombre d'actions."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quels engagements de l'émetteur ?",
+     "verso": "PV d'AG, statuts sans clause restrictive, états en SYSCOHADA et IFRS, accord de la BVMAC pour toute OST, états certifiés annuels, convention de services."
+    },
+    {
+     "recto": "Comment s'apprécient les critères du compartiment E ?",
+     "verso": "Au moins 2 des 3 conditions : capital, effectif et capitalisation ; bilan, diffusion et émission ; chiffre d'affaires."
+    },
+    {
+     "recto": "Maturité minimale d'un titre de créance à la cote ?",
+     "verso": "2 ans."
+    },
+    {
+     "recto": "Comment s'apprécient les critères du compartiment E PME ?",
+     "verso": "Au moins 2 des 3 conditions principales doivent être remplies."
+    },
+    {
+     "recto": "Résultats et dividendes exigés : A ? B ?",
+     "verso": "A : 2 exercices bénéficiaires sur 3, 1 dividende ; B : 1 exercice bénéficiaire sur 3, 1 dividende."
+    },
+    {
+     "recto": "Quelle procédure d'admission ?",
+     "verso": "Demande par l'émetteur ou son mandataire, décision du Comité d'Admission sous 10 jours de bourse, Avis public, copie à la COSUMAF, refus motivé."
+    },
+    {
+     "recto": "Délai de la BVMAC pour statuer sur une demande d'admission ?",
+     "verso": "10 jours de bourse à compter du dossier complet."
+    },
+    {
+     "recto": "Que contient le Hors-Cote ?",
+     "verso": "Effets publics de titrisation, TCN du guichet BEAC, titres non cotés (private equity), titres de ventes judiciaires."
+    },
+    {
+     "recto": "Les cinq compartiments de la Cote Permanente ?",
+     "verso": "A Premium, B Medium, E PME, D OPC, C Obligataire."
+    },
+    {
+     "recto": "Montant minimal d'emprunt : grandes entreprises ? PME ?",
+     "verso": "200 millions FCFA ; 50 millions FCFA."
+    },
+    {
+     "recto": "Délai de paiement des droits d'admission d'un État émetteur ?",
+     "verso": "15 jours après la cérémonie de première cotation."
+    },
+    {
+     "recto": "Qu'est-ce que le Hors-Cote ?",
+     "verso": "Effets publics de titrisation, TCN du Guichet de la BEAC, titres de sociétés non cotées (private equity), titres de sociétés non cotées vendus judiciairement."
+    },
+    {
+     "recto": "Quels sont les cinq compartiments ?",
+     "verso": "A Premium, B Medium, E PME, D OPC, C Obligataire."
+    },
+    {
+     "recto": "Quelles normes comptables pour les émetteurs cotés ?",
+     "verso": "SYSCOHADA (ou référentiel spécifique) et IFRS."
+    },
+    {
+     "recto": "Capital minimum du compartiment A ? du compartiment B ?",
+     "verso": "100 millions FCFA ; 10 millions FCFA (entièrement libérés)."
+    },
+    {
+     "recto": "Quels critères pour le compartiment A ?",
+     "verso": "Capital 100 M, capitalisation ≥ 10 Md, diffusion 20 / 15 / 10 %, 2 M de titres et 200 actionnaires, 2 CAC, CA > 15 Md, 2 exercices bénéficiaires sur 3, 1 dividende."
+    },
+    {
+     "recto": "Quels critères pour le compartiment B ?",
+     "verso": "Capital 10 M, capitalisation ≥ 5 Md, diffusion 15 %, 500 000 titres et 100 actionnaires, 1 CAC, 1 exercice bénéficiaire et 1 dividende sur 3 ans."
+    },
+    {
+     "recto": "Nombre minimal de titres et d'actionnaires au compartiment A ? au B ?",
+     "verso": "2 millions de titres / 200 actionnaires ; 500 000 titres / 100 actionnaires."
+    },
+    {
+     "recto": "Nombre de commissaires aux comptes requis : A ? B ?",
+     "verso": "Deux CAC (A) ; un CAC (B)."
+    },
+    {
+     "recto": "Contrat d'animation : pour quels compartiments obligatoire ?",
+     "verso": "Premium (A) et Medium (B)."
+    },
+    {
+     "recto": "Que faire si le dernier exercice est clos depuis plus de 8 mois ?",
+     "verso": "Publier les comptes du 1er semestre avec l'avis du CAC."
+    },
+    {
+     "recto": "Quelles conditions pour le compartiment C ?",
+     "verso": "Maturité ≥ 2 ans ; grande entreprise : emprunt ≥ 200 M ; PME : emprunt ≥ 50 M ; États sur simple demande avec droits payés sous 15 jours."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Capital minimum du compartiment Premium ?",
+     "choix": [
+      "10 M",
+      "100 M",
+      "50 M",
+      "500 M"
+     ],
+     "bonne": 1,
+     "explication": "Art. 74."
+    },
+    {
+     "q": "Capitalisation minimale du Medium ?",
+     "choix": [
+      "300 M",
+      "5 Md",
+      "1 Md",
+      "10 Md"
+     ],
+     "bonne": 1,
+     "explication": "Art. 77."
+    },
+    {
+     "q": "Diffusion exigée au compartiment Premium (capitalisation de 30 Md) :",
+     "choix": [
+      "10 %",
+      "15 %",
+      "20 %",
+      "30 %"
+     ],
+     "bonne": 2,
+     "explication": "Art. 74 (3)."
+    },
+    {
+     "q": "Un titre de créance doit avoir une maturité d'au moins...",
+     "choix": [
+      "6 mois",
+      "2 ans",
+      "1 an",
+      "5 ans"
+     ],
+     "bonne": 1,
+     "explication": "Art. 88."
+    },
+    {
+     "q": "Délai de décision d'admission de la BVMAC :",
+     "choix": [
+      "5 jours de bourse",
+      "30 jours",
+      "10 jours de bourse",
+      "60 jours"
+     ],
+     "bonne": 2,
+     "explication": "Art. 65."
+    },
+    {
+     "q": "Emprunt minimal d'une PME à la cote obligataire :",
+     "choix": [
+      "10 M",
+      "50 M",
+      "200 M",
+      "500 M"
+     ],
+     "bonne": 1,
+     "explication": "Art. 88."
+    },
+    {
+     "q": "Le compartiment PME exige...",
+     "choix": [
+      "Tous les critères",
+      "1 critère",
+      "Un visa spécial",
+      "Au moins 2 des 3 conditions principales"
+     ],
+     "bonne": 3,
+     "explication": "Art. 80."
+    },
+    {
+     "q": "Le contrat d'animation est obligatoire pour...",
+     "choix": [
+      "PME et OPC",
+      "Obligataire",
+      "Tous",
+      "Premium et Medium"
+     ],
+     "bonne": 3,
+     "explication": "Art. 86."
+    },
+    {
+     "q": "Le Marché Officiel comprend :",
+     "choix": [
+      "le marché primaire et secondaire",
+      "la Cote Permanente et le Marché Hors-Cote",
+      "le marché à terme et au comptant",
+      "le marché A et B"
+     ],
+     "bonne": 1,
+     "explication": "Art. 50 à 59."
+    },
+    {
+     "q": "Combien de compartiments la Cote Permanente comprend-elle ?",
+     "choix": [
+      "5",
+      "3",
+      "4",
+      "6"
+     ],
+     "bonne": 0,
+     "explication": "A Premium, B Medium, E PME, D OPC, C Obligataire."
+    },
+    {
+     "q": "Le compartiment D accueille :",
+     "choix": [
+      "les obligations",
+      "les PME",
+      "les OPC",
+      "les grandes entreprises"
+     ],
+     "bonne": 2,
+     "explication": "Parts ou actions d'OPC agréés par la COSUMAF."
+    },
+    {
+     "q": "L'admission à la cote est autorisée par :",
+     "choix": [
+      "la COSUMAF",
+      "le Comité d'Admission de la BVMAC",
+      "la BEAC",
+      "le Dépositaire Central"
+     ],
+     "bonne": 1,
+     "explication": "Par délégation du CA."
+    },
+    {
+     "q": "Toute transaction sur valeur cotée non exécutée sur la plateforme est :",
+     "choix": [
+      "valable",
+      "sanctionnée seulement",
+      "nulle",
+      "régularisable"
+     ],
+     "bonne": 2,
+     "explication": "Art. 54."
+    },
+    {
+     "q": "Le Hors-Cote contient notamment :",
+     "choix": [
+      "les actions du compartiment Premium",
+      "les parts d'OPC agréés",
+      "les obligations du Trésor admises à la cote",
+      "les TCN du Guichet de la BEAC et les titres de sociétés non cotées (private equity)"
+     ],
+     "bonne": 3,
+     "explication": "Échange par carnet central ou confrontation bilatérale."
+    },
+    {
+     "q": "La BVMAC statue sur une demande d'admission dans les :",
+     "choix": [
+      "5 jours de bourse après dossier complet",
+      "30 jours calendaires après dossier complet",
+      "60 jours ouvrés après dossier complet",
+      "10 jours de bourse après dossier complet"
+     ],
+     "bonne": 3,
+     "explication": "Suspendus en cas de complément."
+    },
+    {
+     "q": "Les états financiers d'un émetteur coté sont établis en :",
+     "choix": [
+      "SYSCOHADA seulement",
+      "SYSCOHADA et IFRS",
+      "IFRS seulement",
+      "normes locales"
+     ],
+     "bonne": 1,
+     "explication": "Engagement de l'émetteur."
+    },
+    {
+     "q": "Le calendrier de toute OST requiert :",
+     "choix": [
+      "l'avis de la BEAC",
+      "un vote des actionnaires",
+      "l'accord de la BVMAC",
+      "un visa"
+     ],
+     "bonne": 2,
+     "explication": "Engagements de l'émetteur."
+    },
+    {
+     "q": "La capitalisation minimale à l'introduction au compartiment A est de :",
+     "choix": [
+      "1 Md",
+      "5 Md",
+      "20 Md",
+      "10 Md"
+     ],
+     "bonne": 3,
+     "explication": "B Medium : 5 Md."
+    },
+    {
+     "q": "Le compartiment A exige les comptes de 3 exercices certifiés par :",
+     "choix": [
+      "1 CAC",
+      "2 CAC agréés, en normes comptables et IFRS",
+      "3 CAC",
+      "aucun CAC"
+     ],
+     "bonne": 1,
+     "explication": "Le compartiment B : 1 CAC."
+    },
+    {
+     "q": "Résultats et dividendes exigés au compartiment A :",
+     "choix": [
+      "1 exercice bénéficiaire sur 3 et 1 dividende",
+      "3 exercices bénéficiaires",
+      "aucun dividende",
+      "2 exercices bénéficiaires sur 3 et 1 dividende sur 3"
+     ],
+     "bonne": 3,
+     "explication": "Art. 74."
+    },
+    {
+     "q": "Au compartiment B, on exige :",
+     "choix": [
+      "2 exercices bénéficiaires sur 3",
+      "aucune condition de résultat",
+      "un dividende versé chaque année",
+      "1 exercice bénéficiaire sur 3 et 1 dividende sur 3 ans"
+     ],
+     "bonne": 3,
+     "explication": "Art. 77."
+    },
+    {
+     "q": "Parmi les conditions du compartiment E : le CA HT doit être :",
+     "choix": [
+      "supérieur à 10 Md",
+      "inférieur à 100 M",
+      "supérieur à 5 Md",
+      "supérieur à 250 M et au plus 2 Md"
+     ],
+     "bonne": 3,
+     "explication": "Aussi capital ≥ 10 M, 10 à 100 salariés, capitalisation 300 M."
+    },
+    {
+     "q": "Pour A, B et D, si le dernier exercice est clos depuis plus de 8 mois :",
+     "choix": [
+      "on suspend l'admission jusqu'à l'exercice suivant",
+      "on refuse l'admission de la valeur",
+      "on demande un visa complémentaire à la COSUMAF",
+      "on publie des comptes du 1er semestre avec avis du CAC"
+     ],
+     "bonne": 3,
+     "explication": "Art. 85."
+    },
+    {
+     "q": "Pour les États émetteurs au compartiment C, les droits d'admission sont payés dans les :",
+     "choix": [
+      "5 jours",
+      "30 jours",
+      "60 jours",
+      "15 jours après la première cotation"
+     ],
+     "bonne": 3,
+     "explication": "Admission sur simple demande de l'État."
+    },
+    {
+     "q": "Au compartiment C, la demande porte sur :",
+     "choix": [
+      "tous les titres d'une même émission",
+      "une partie des titres",
+      "les titres choisis",
+      "un seul titre"
+     ],
+     "bonne": 0,
+     "explication": "Art. 92."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quel compartiment ?",
+     "buckets": [
+      "A — Premium",
+      "B — Medium",
+      "E — PME",
+      "C — Obligataire"
+     ],
+     "items": [
+      {
+       "t": "Capitalisation à l'introduction d'au moins 10 milliards et chiffre d'affaires supérieur à 15 milliards.",
+       "b": 0,
+       "why": "Art. 74."
+      },
+      {
+       "t": "Capitalisation d'au moins 5 milliards, 500 000 titres répartis entre 100 actionnaires.",
+       "b": 1,
+       "why": "Art. 77."
+      },
+      {
+       "t": "Au moins deux conditions parmi capital de 10 M, effectif de 10 à 100, capitalisation de 300 M.",
+       "b": 2,
+       "why": "Art. 80."
+      },
+      {
+       "t": "Emprunt d'au moins 200 M FCFA d'une grande entreprise, maturité de 2 ans.",
+       "b": 3,
+       "why": "Art. 88."
+      },
+      {
+       "t": "États : maturité minimale de 2 ans, dossier avec numéro d'enregistrement.",
+       "b": 3,
+       "why": "Art. 88."
+      },
+      {
+       "t": "Comptes certifiés par deux commissaires aux comptes.",
+       "b": 0,
+       "why": "Art. 74."
+      }
+     ]
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets le parcours d'admission à la cote dans l'ordre",
+     "items": [
+      "Demande d'admission déposée par l'émetteur ou son mandataire",
+      "Dossier avec projet de DI, attestation du DC, statuts",
+      "Examen de la BVMAC (10 jours de bourse)",
+      "Décision du Comité d'Admission",
+      "Avis d'admission publié",
+      "Première cotation (avis au moins 5 jours avant)"
+     ]
+    }
+   ],
+   "trous": [
+    "Le contrat d'animation est obligatoire pour les compartiments {{Premium}} et Medium.",
+    "Le compartiment Premium exige un capital de {{100}} M et une capitalisation d'au moins {{10}} milliards.",
+    "Le compartiment Premium exige un capital libéré d'au moins {{100}} millions FCFA et une capitalisation d'au moins {{10}} milliards.",
+    "Au compartiment obligataire, la maturité minimale est de {{2}} ans ; l'emprunt d'une PME est d'au moins {{50}} millions.",
+    "Le compartiment Medium exige une diffusion d'au moins {{15}} % du capital.",
+    "Un titre de créance doit avoir une maturité d'au moins {{2}} ans.",
+    "Les émetteurs des compartiments {{Premium}} et {{Medium}} doivent conclure un contrat d'animation."
+   ],
+   "schemas": [
+    {
+     "titre": "Les cinq compartiments de la Cote Permanente",
+     "type": "table",
+     "legende": "Qui peut entrer où ?",
+     "cols": [
+      "Compartiment",
+      "Pour qui ?",
+      "Critère clé",
+      "Comptes"
+     ],
+     "rows": [
+      [
+       {
+        "t": "A — Premium",
+        "b": true,
+        "c": "#ffe14a"
+       },
+       "Grandes entreprises (SA)",
+       "Capitalisation ≥ 10 Md ; CA > 15 Md ; 2 M titres / 200 actionnaires",
+       "2 CAC, 3 exercices, IFRS"
+      ],
+      [
+       {
+        "t": "B — Medium",
+        "b": true,
+        "c": "#8fd0ff"
+       },
+       "Entreprises moyennes",
+       "Capitalisation ≥ 5 Md ; 500 000 titres / 100 actionnaires",
+       "1 CAC, 3 exercices"
+      ],
+      [
+       {
+        "t": "E — PME",
+        "b": true,
+        "c": "#a9f0d0"
+       },
+       "Petites et moyennes entreprises",
+       "2 conditions sur 3 (capital, effectif, CA, bilan…)",
+       "Selon dossier"
+      ],
+      [
+       {
+        "t": "D — OPC",
+        "b": true,
+        "c": "#ffb8d1"
+       },
+       "Parts / actions d'OPC agréés",
+       "Décision d'agrément COSUMAF",
+       "États de synthèse + rapport CAC"
+      ],
+      [
+       {
+        "t": "C — Obligataire",
+        "b": true,
+        "c": "#d9c2ff"
+       },
+       "États, entreprises, institutions",
+       "Maturité ≥ 2 ans ; 200 M (grandes) / 50 M (PME)",
+       "3 ou 2 exercices"
+      ]
+     ]
+    },
+    {
+     "titre": "Premium : la diffusion selon la capitalisation",
+     "type": "table",
+     "legende": "Plus la société est grosse, moins on lui demande de diffusion en pourcentage, mais plus en montant.",
+     "cols": [
+      "Capitalisation à l'introduction",
+      "Diffusion minimale",
+      "Montant diffusé minimal"
+     ],
+     "rows": [
+      [
+       "< 50 Md",
+       {
+        "t": "20 %",
+        "b": true
+       },
+       "5 Md"
+      ],
+      [
+       "50 à 100 Md",
+       {
+        "t": "15 %",
+        "b": true
+       },
+       "8 Md"
+      ],
+      [
+       "> 100 Md",
+       {
+        "t": "10 %",
+        "b": true
+       },
+       "15 Md"
+      ]
+     ]
+    },
+    {
+     "titre": "Le chemin vers la cote",
+     "type": "flow",
+     "numero": true,
+     "legende": "De la demande à la décision d'admission.",
+     "steps": [
+      {
+       "t": "Demande",
+       "s": "émetteur ou mandataire",
+       "d": "Dossier : PV, projet de DI, convention de syndicat, attestation du DC, statuts, RCCM…"
+      },
+      {
+       "t": "Visa COSUMAF",
+       "s": "document d'information",
+       "d": "La copie du dossier de visa est jointe."
+      },
+      {
+       "t": "10 jours de bourse",
+       "s": "examen",
+       "d": "La BVMAC statue (délai suspendu en cas de complément)."
+      },
+      {
+       "t": "Comité d'Admission",
+       "s": "décision",
+       "d": "Copie à la COSUMAF ; refus motivé."
+      },
+      {
+       "t": "Avis",
+       "s": "caractéristiques et calendrier",
+       "d": "Publié ; première cotation ≥ 5 jours plus tard."
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "b3-introduction-sejour-radiation",
+   "titre": "Essentiel · 03 · Introduction en bourse, séjour à la cote et radiation (art. 93 à 124)",
+   "resume": {
+    "court": "Première cotation par OPF (prix ferme), OPM (prix minimal), OPO (prix ouvert, fourchette) ou cotation directe. Avis publié au moins 5 jours avant la première cotation. Changement de prix possible, publié au moins 3 jours de bourse avant la clôture. Séjour : responsable des relations investisseurs, examen annuel de conformité, reclassement annuel. Radiation : automatique à l'échéance, ou à l'initiative de la BVMAC, de l'émetteur ou de la COSUMAF ; la COSUMAF toujours informée ; radiation d'un titre de capital = radiation de tous les titres rattachés.",
+    "moyen": "Diffusion dans le public : le jour de la première cotation ou juste avant (placement garanti avec autorisation COSUMAF), ou juste après si la bourse l'accepte ; le prix de la première cotation ne peut être supérieur à celui du placement préalable ; la diffusion est réputée réalisée lorsqu'un nombre minimum de souscripteurs détient les titres. Avis d'introduction publié au BOC. Quatre procédures de première cotation : OPF (prix ferme : ordres au prix de l'offre, si l'offre est satisfaite le cours coté est le prix de l'offre, allocation selon le rapport offre/demande), OPM (prix minimal : seuls ordres à cours limité au prix minimal ou plus, cours unique = limite inférieure du dernier ordre servi, la bourse peut éliminer les limites anormales), OPO (fourchette de prix, bornes incluses), cotation directe (cours d'admission fixé dans le DI, titres diffusés ; Avis d'au moins 5 jours de bourse). Changement possible du prix ferme, minimal ou de la fourchette si prévu dans le DI visé et après accord de la BVMAC ; prix final publié au moins 3 jours de bourse avant la clôture. Report possible de l'introduction si le cours excède une marge ou réduction excessive des ordres. Avis du résultat. Séjour : conditions de séjour par compartiment, responsable des relations avec les investisseurs, examen systématique annuel, transfert vers un autre compartiment ou procédure de radiation, publication annuelle du reclassement. Radiation : automatique à l'échéance ou disparition de la collectivité ; à l'initiative de la BVMAC (non-respect des obligations ou règles, risque d'atteinte à la réputation), à la demande de l'émetteur (BVMAC informe la COSUMAF ; recours possible auprès de la COSUMAF), à la demande de la COSUMAF ; procédure : dossier, information de l'émetteur et délai de réponse, décision motivée, copie à la COSUMAF ; maintien possible sous engagement de mise en conformité ; Avis ; radiation d'un titre de capital → radiation de tous les titres rattachés (titres participatifs, obligations convertibles, bons, droits), éventuellement limitée à certaines lignes.",
+    "long": "Diffusion dans le public : le jour de la première cotation ou juste avant (placement garanti avec autorisation COSUMAF), ou juste après si la bourse l'accepte ; le prix de la première cotation ne peut être supérieur à celui du placement préalable ; la diffusion est réputée réalisée lorsqu'un nombre minimum de souscripteurs détient les titres. Avis d'introduction publié au BOC. Quatre procédures de première cotation : OPF (prix ferme : ordres au prix de l'offre, si l'offre est satisfaite le cours coté est le prix de l'offre, allocation selon le rapport offre/demande), OPM (prix minimal : seuls ordres à cours limité au prix minimal ou plus, cours unique = limite inférieure du dernier ordre servi, la bourse peut éliminer les limites anormales), OPO (fourchette de prix, bornes incluses), cotation directe (cours d'admission fixé dans le DI, titres diffusés ; Avis d'au moins 5 jours de bourse). Changement possible du prix ferme, minimal ou de la fourchette si prévu dans le DI visé et après accord de la BVMAC ; prix final publié au moins 3 jours de bourse avant la clôture. Report possible de l'introduction si le cours excède une marge ou réduction excessive des ordres. Avis du résultat. Séjour : conditions de séjour par compartiment, responsable des relations avec les investisseurs, examen systématique annuel, transfert vers un autre compartiment ou procédure de radiation, publication annuelle du reclassement. Radiation : automatique à l'échéance ou disparition de la collectivité ; à l'initiative de la BVMAC (non-respect des obligations ou règles, risque d'atteinte à la réputation), à la demande de l'émetteur (BVMAC informe la COSUMAF ; recours possible auprès de la COSUMAF), à la demande de la COSUMAF ; procédure : dossier, information de l'émetteur et délai de réponse, décision motivée, copie à la COSUMAF ; maintien possible sous engagement de mise en conformité ; Avis ; radiation d'un titre de capital → radiation de tous les titres rattachés (titres participatifs, obligations convertibles, bons, droits), éventuellement limitée à certaines lignes."
+   },
+   "fiches": [
+    {
+     "titre": "Diffusion dans le public (art. 93 à 95)",
+     "contenu": "- La diffusion des titres de capital admis peut se faire **le jour de la première cotation** ou **juste avant**, voire **juste après** (si la BVMAC l'accepte dans l'intérêt du marché)\n- Avant la cotation : **placement garanti** par une ou plusieurs structures habilitées, **avec autorisation de la COSUMAF** ; le chef de file adresse à la BVMAC un **état récapitulatif détaillé** du résultat\n- Diffusion mixte (partie à la cotation, partie en placement préalable) : la BVMAC apprécie l'adéquation ; **le prix de la première cotation ne peut excéder le prix du placement**\n- La diffusion est **réputée réalisée** lorsque les titres sont détenus par un **nombre minimum de souscripteurs** fixé par le RG"
+    },
+    {
+     "titre": "Les 4 procédures de première cotation (art. 99 à 110)",
+     "contenu": "| Procédure | Principe |\n|---|---|\n| **OPF — Offre à Prix Ferme** | quantité de titres à **prix ferme** ; ordres **obligatoirement à ce prix** ; si l'offre est satisfaite, **cours de première cotation = prix de l'offre** ; allocation selon le rapport offre/demande et une méthode annoncée |\n| **OPM — Offre à Prix Minimal** | **prix minimal de vente** ; ordres **à ce prix ou plus** ; **ordres à cours limité seulement** ; la bourse peut éliminer les limites anormalement élevées et diviser les titres en lots ; **cours unique = limite inférieure du dernier ordre servi** |\n| **OPO — Offre à Prix Ouvert** | **fourchette de prix** ; ordres à un cours **compris dans la fourchette, bornes incluses** ; le cours résulte de la confrontation offre/demande |\n| **Cotation directe** | admission directe selon les modalités habituelles, **au cours d'admission fixé dans le DI** ; pour les actions, seulement si le critère de diffusion est rempli ; possible pour une société déjà cotée (inscription directe) ou avec mise sur le marché de titres cédés le 1er jour |\n\n- **Modification du prix** (ferme, minimal, fourchette) : possible **après accord de la BVMAC**, si prévue dans le DI visé, prix final publié **au moins 3 jours de bourse avant la clôture** des souscriptions\n- **Avis de première cotation** au BOC **au moins 5 jours avant** (5 jours de bourse pour la cotation directe)\n- La BVMAC **centralise les ordres** du syndicat de placement le jour fixé"
+    },
+    {
+     "titre": "Report, résultat et séjour à la cote (art. 96 à 117)",
+     "contenu": "- **Report** de l'introduction si la procédure conduit à un cours excédant une marge par rapport au prix de l'offre ou à une réduction excessive des ordres retenus : information de la COSUMAF, avis au BOC, **tous les ordres d'achat doivent être renouvelés**\n- **Avis de résultat** : cours coté (ou prix indicatif en cas d'impossibilité de cotation), titres échangés, modalités de poursuite\n- **Séjour** : respect des limites fixées à l'admission (capital libéré, nombre d'actionnaires, diffusion) ; mesures pour un taux de rotation satisfaisant ; politique d'information cohérente ; information des aménagements financiers\n- Les émetteurs désignent un **Responsable des relations avec les investisseurs et le public** et communiquent ses coordonnées à la BVMAC\n- **Examen systématique annuel** de conformité aux conditions de séjour ; non-respect : **transfert vers un autre compartiment** ou **procédure de radiation** ; l'émetteur peut demander un transfert\n- **Une fois par an**, la BVMAC **publie le reclassement** des titres de capital (motivé)"
+    },
+    {
+     "titre": "La radiation (art. 118 à 124)",
+     "contenu": "- **Automatique** : à l'**échéance** du titre (remboursement de créances) ou **disparition de la collectivité émettrice**\n- **À l'initiative de la BVMAC** : non-respect des obligations ou des règles du marché, **risque d'atteinte à la réputation** du marché\n- **À la demande de l'émetteur** : demande écrite motivée ; la BVMAC **informe la COSUMAF** ; l'émetteur peut faire **recours auprès de la COSUMAF** contre la décision de radier ou non ; la BVMAC peut refuser si la radiation nuit au fonctionnement équitable, ordonné et efficace du marché\n- **À la demande de la COSUMAF**\n- **Dans tous les cas, la COSUMAF doit être informée**\n- **Procédure** : dossier sur la valeur · information préalable de l'émetteur · **délai de réponse** pour mettre fin à l'irrégularité ou prendre des engagements · décision motivée avec date de prise d'effet · copie immédiate à la COSUMAF · **Avis**\n- **Maintien** possible si l'émetteur s'engage à se mettre en conformité dans un délai fixé\n- Radiation d'un **titre de capital** ⇒ radiation de **tous les titres rattachés** (titres participatifs, obligations convertibles/échangeables/remboursables en capital, bons, droits) ; la BVMAC peut ne radier que certaines **lignes de cotation**"
+    }
+   ],
+   "mnemos": [
+    "OPF (ferme) · OPM (minimal) · OPO (ouvert, fourchette) · cotation directe. Avis : 5 jours avant. Prix modifié : 3 jours de bourse avant la clôture. Radiation : COSUMAF toujours informée."
+   ],
+   "definitions": [
+    {
+     "terme": "OPO (Offre à Prix Ouvert)",
+     "definition": "Procédure d'introduction avec fourchette de prix, bornes incluses."
+    },
+    {
+     "terme": "OPO",
+     "definition": "Offre à Prix Ouvert : ordres dans une fourchette de prix, cours issu de la confrontation offre-demande."
+    },
+    {
+     "terme": "OPM",
+     "definition": "Offre à Prix Minimal : ordres à cours limité au prix minimal ou plus, cours unique égal à la limite du dernier ordre servi."
+    },
+    {
+     "terme": "Reclassement annuel",
+     "definition": "Publication annuelle par la BVMAC du compartiment auquel chaque titre de capital appartient."
+    },
+    {
+     "terme": "Placement garanti",
+     "definition": "Diffusion préalable à la première cotation par une ou plusieurs structures habilitées, sous autorisation de la COSUMAF."
+    },
+    {
+     "terme": "Radiation",
+     "definition": "Retrait d'un instrument de la Cote Permanente, avec information de la COSUMAF et Avis motivé."
+    },
+    {
+     "terme": "OPM (Offre à Prix Minimal)",
+     "definition": "Procédure d'introduction avec prix minimal de vente ; seuls les ordres à cours limité sont acceptés et le cours unique est la limite du dernier ordre servi."
+    },
+    {
+     "terme": "Cotation directe",
+     "definition": "Admission directe à la cote sur la base du cours d'admission fixé dans le document d'information."
+    },
+    {
+     "terme": "OPF (Offre à Prix Ferme)",
+     "definition": "Procédure d'introduction où les titres sont offerts à un prix fixe ; si l'offre est satisfaite, la première cotation se fait à ce prix."
+    },
+    {
+     "terme": "OPF",
+     "definition": "Offre à Prix Ferme : prix unique, ordres obligatoirement à ce prix, cours de première cotation égal au prix de l'offre."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Comment fonctionne l'OPF ?",
+     "verso": "Prix ferme, ordres obligatoirement à ce prix, cours de première cotation = prix de l'offre si l'offre est satisfaite."
+    },
+    {
+     "recto": "Conséquence de la radiation d'un titre de capital ?",
+     "verso": "Radiation de tous les titres rattachés (obligations convertibles, bons, droits, titres participatifs)."
+    },
+    {
+     "recto": "Fréquence de l'examen de conformité aux conditions de séjour ?",
+     "verso": "Annuel, avec publication du reclassement des titres de capital."
+    },
+    {
+     "recto": "Qui autorise un placement garanti avant la première cotation ?",
+     "verso": "La COSUMAF."
+    },
+    {
+     "recto": "Qui doit toujours être informé d'une radiation ?",
+     "verso": "La COSUMAF."
+    },
+    {
+     "recto": "Quels sont les cas de radiation ?",
+     "verso": "Automatique (échéance ou disparition), à l'initiative de la BVMAC, à la demande de l'émetteur ou de la COSUMAF ; la COSUMAF est toujours informée."
+    },
+    {
+     "recto": "Délai de publication du prix final modifié ?",
+     "verso": "Au moins 3 jours de bourse avant la date de clôture des souscriptions."
+    },
+    {
+     "recto": "Comment fonctionne l'OPO ?",
+     "verso": "Fourchette de prix, ordres compris dans la fourchette bornes incluses, cours issu de la confrontation offre-demande."
+    },
+    {
+     "recto": "Quelle fonction chaque émetteur coté doit-il désigner ?",
+     "verso": "Un responsable des relations avec les investisseurs et le public."
+    },
+    {
+     "recto": "Quand la radiation est-elle automatique ?",
+     "verso": "À l'échéance du titre (remboursement) ou à la disparition de la collectivité émettrice."
+    },
+    {
+     "recto": "Délai de publication de l'avis de première cotation ?",
+     "verso": "Au moins 5 jours avant la date prévue (5 jours de bourse pour la cotation directe)."
+    },
+    {
+     "recto": "Quelles sont les quatre procédures de première cotation ?",
+     "verso": "OPF (prix ferme), OPM (prix minimal), OPO (prix ouvert, fourchette) et cotation directe."
+    },
+    {
+     "recto": "Quels délais de publicité ?",
+     "verso": "Avis de première cotation 5 jours avant (5 jours de bourse pour la cotation directe) ; prix modifié publié au moins 3 jours de bourse avant la clôture."
+    },
+    {
+     "recto": "Comment fonctionne l'OPM ?",
+     "verso": "Prix minimal de vente, ordres à cours limité au prix ou plus, cours unique = limite inférieure du dernier ordre servi."
+    },
+    {
+     "recto": "Quels effets de la radiation d'un titre de capital ?",
+     "verso": "Radiation de tous les titres rattachés (bons, droits, obligations convertibles…)."
+    },
+    {
+     "recto": "Un émetteur peut-il faire appel d'une décision de radiation ?",
+     "verso": "Oui, auprès de la COSUMAF."
+    },
+    {
+     "recto": "Qu'est-ce qu'une OPO ?",
+     "verso": "Offre avec fourchette de prix ; les ordres sont stipulés dans la fourchette, bornes incluses."
+    },
+    {
+     "recto": "Quel est le cours coté en OPM ?",
+     "verso": "La limite inférieure du dernier ordre servi (cours unique)."
+    },
+    {
+     "recto": "Que se passe-t-il en cas de report d'une introduction ?",
+     "verso": "Tous les ordres d'achat doivent être renouvelés ; la COSUMAF est informée."
+    },
+    {
+     "recto": "Que se passe-t-il en cas de report ?",
+     "verso": "Information de la COSUMAF, avis au BOC et renouvellement de tous les ordres d'achat."
+    },
+    {
+     "recto": "Cours de première cotation en OPF si l'offre est satisfaite ?",
+     "verso": "Le prix de l'offre."
+    },
+    {
+     "recto": "Quelles règles de séjour ?",
+     "verso": "Respect des limites d'admission, responsable des relations investisseurs, examen annuel, transfert de compartiment ou radiation en cas de manquement."
+    }
+   ],
+   "questions": [
+    {
+     "q": "En OPM, le cours coté correspond à...",
+     "choix": [
+      "Au prix minimal de vente fixé par l'initiateur",
+      "À la moyenne des ordres servis",
+      "Au prix ferme annoncé dans le DI",
+      "La limite inférieure du dernier ordre servi"
+     ],
+     "bonne": 3,
+     "explication": "Art. 101."
+    },
+    {
+     "q": "L'OPO est une offre avec...",
+     "choix": [
+      "Prix ferme",
+      "Fourchette de prix",
+      "Prix libre",
+      "Prix maximum"
+     ],
+     "bonne": 1,
+     "explication": "Art. 102."
+    },
+    {
+     "q": "Avis de première cotation : au moins...",
+     "choix": [
+      "5 jours",
+      "1 jour",
+      "3 jours",
+      "30 jours"
+     ],
+     "bonne": 0,
+     "explication": "Art. 106."
+    },
+    {
+     "q": "Prix modifié publié au moins...",
+     "choix": [
+      "1 jour",
+      "5 jours",
+      "3 jours de bourse avant la clôture",
+      "10 jours"
+     ],
+     "bonne": 2,
+     "explication": "Art. 103."
+    },
+    {
+     "q": "Qui est toujours informé d'une radiation ?",
+     "choix": [
+      "La COSUMAF",
+      "Le Trésor",
+      "La BEAC",
+      "L'ANIF"
+     ],
+     "bonne": 0,
+     "explication": "Art. 119."
+    },
+    {
+     "q": "La radiation d'un titre de capital entraîne...",
+     "choix": [
+      "Rien",
+      "Un simple avis",
+      "La suspension de 1 an",
+      "La radiation de tous les titres rattachés"
+     ],
+     "bonne": 3,
+     "explication": "Art. 124."
+    },
+    {
+     "q": "La diffusion des titres de capital peut se faire :",
+     "choix": [
+      "le jour de la première cotation, juste avant ou juste après",
+      "uniquement avant la première cotation",
+      "uniquement après la première cotation",
+      "à tout moment choisi par l'émetteur"
+     ],
+     "bonne": 0,
+     "explication": "Si la BVMAC l'accepte dans l'intérêt du marché."
+    },
+    {
+     "q": "Avant la cotation, le placement garanti est autorisé par :",
+     "choix": [
+      "la BVMAC",
+      "la BEAC",
+      "la COSUMAF",
+      "le DC"
+     ],
+     "bonne": 2,
+     "explication": "Le chef de file adresse à la BVMAC un état récapitulatif détaillé."
+    },
+    {
+     "q": "En diffusion mixte, le prix de la première cotation :",
+     "choix": [
+      "est libre, sans lien avec le placement",
+      "ne peut excéder le prix du placement",
+      "doit dépasser le prix du placement préalable",
+      "est fixé par la COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": "Art. 95."
+    },
+    {
+     "q": "Combien de procédures de première cotation y a-t-il ?",
+     "choix": [
+      "2",
+      "3",
+      "5",
+      "4"
+     ],
+     "bonne": 3,
+     "explication": "OPF, OPM, OPO et cotation directe."
+    },
+    {
+     "q": "L'OPF est une offre à :",
+     "choix": [
+      "prix minimal",
+      "prix ouvert",
+      "prix libre",
+      "prix ferme"
+     ],
+     "bonne": 3,
+     "explication": "Si l'offre est satisfaite, cours de première cotation = prix de l'offre."
+    },
+    {
+     "q": "En OPM, les ordres sont :",
+     "choix": [
+      "au marché",
+      "à prix ferme",
+      "libres",
+      "à cours limité, au prix minimal ou plus"
+     ],
+     "bonne": 3,
+     "explication": "Cours unique = limite inférieure du dernier ordre servi."
+    },
+    {
+     "q": "La cotation directe se fait :",
+     "choix": [
+      "à prix ferme, fixé par l'émetteur",
+      "dans une fourchette de prix",
+      "aux enchères organisées par la BVMAC",
+      "au cours d'admission fixé dans le DI, si le critère de diffusion est rempli"
+     ],
+     "bonne": 3,
+     "explication": "Possible aussi pour une société déjà cotée."
+    },
+    {
+     "q": "Une modification du prix (ferme, minimal, fourchette) est possible :",
+     "choix": [
+      "à tout moment, sans formalité",
+      "jamais, le prix étant définitif",
+      "après accord de la BVMAC, si prévue dans le DI visé",
+      "sur décision de la seule COSUMAF"
+     ],
+     "bonne": 2,
+     "explication": "Prix final publié au moins 3 jours de bourse avant la clôture."
+    },
+    {
+     "q": "L'avis de première cotation est publié au BOC au moins :",
+     "choix": [
+      "2 jours avant la première cotation",
+      "10 jours avant la première cotation",
+      "5 jours avant (5 jours de bourse pour la cotation directe)",
+      "30 jours avant la première cotation"
+     ],
+     "bonne": 2,
+     "explication": ""
+    },
+    {
+     "q": "En cas de report d'une introduction :",
+     "choix": [
+      "les ordres restent valables pour la nouvelle date",
+      "tous les ordres d'achat doivent être renouvelés",
+      "les fonds des souscripteurs sont perdus",
+      "l'introduction est définitivement annulée"
+     ],
+     "bonne": 1,
+     "explication": "Information de la COSUMAF et avis au BOC."
+    },
+    {
+     "q": "L'avis de résultat mentionne notamment :",
+     "choix": [
+      "le cours coté ou un prix indicatif, les titres échangés",
+      "les bénéfices de l'émetteur de l'exercice",
+      "le nom des acheteurs de la première séance",
+      "le calendrier des assemblées générales"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Chaque émetteur coté désigne :",
+     "choix": [
+      "un teneur de marché exclusif",
+      "un responsable des relations avec les investisseurs et le public",
+      "un commissaire aux comptes supplémentaire",
+      "un expert indépendant en évaluation"
+     ],
+     "bonne": 1,
+     "explication": "Coordonnées communiquées à la BVMAC."
+    },
+    {
+     "q": "L'examen de conformité aux conditions de séjour est :",
+     "choix": [
+      "triennal",
+      "ponctuel",
+      "systématique chaque année",
+      "à la demande"
+     ],
+     "bonne": 2,
+     "explication": "Non-respect : transfert de compartiment ou radiation."
+    },
+    {
+     "q": "La BVMAC publie une fois par an :",
+     "choix": [
+      "les bilans",
+      "les cours moyens",
+      "les dividendes",
+      "le reclassement des titres de capital"
+     ],
+     "bonne": 3,
+     "explication": "Motivé."
+    },
+    {
+     "q": "La radiation est automatique :",
+     "choix": [
+      "à l'échéance du titre ou à la disparition de la collectivité émettrice",
+      "à la baisse du cours sous le nominal",
+      "au changement de dirigeants de l'émetteur",
+      "à la suspension de la cotation"
+     ],
+     "bonne": 0,
+     "explication": "Art. 118."
+    },
+    {
+     "q": "La BVMAC peut radier de sa propre initiative en cas de :",
+     "choix": [
+      "baisse du cours de plus de 20 %",
+      "perte de bénéfice sur un exercice",
+      "non-respect des obligations ou risque d'atteinte à la réputation du marché",
+      "changement de l'actionnaire principal"
+     ],
+     "bonne": 2,
+     "explication": ""
+    },
+    {
+     "q": "Un émetteur qui demande sa radiation :",
+     "choix": [
+      "est radié aussitôt, sans examen",
+      "paie une amende à la BVMAC",
+      "est suspendu pendant l'examen de sa demande",
+      "fait une demande écrite motivée, la BVMAC informe la COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": "Recours possible auprès de la COSUMAF."
+    },
+    {
+     "q": "Dans tous les cas de radiation, qui doit être informée ?",
+     "choix": [
+      "la BEAC",
+      "la COSUMAF",
+      "le DC",
+      "les actionnaires"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Une radiation peut être évitée si l'émetteur :",
+     "choix": [
+      "paie une pénalité à la BVMAC",
+      "s'engage à se mettre en conformité dans un délai fixé",
+      "change de dirigeant principal",
+      "se cote aussi sur une bourse étrangère"
+     ],
+     "bonne": 1,
+     "explication": "Maintien possible."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "OPF, OPM, OPO ou cotation directe ?",
+     "buckets": [
+      "OPF",
+      "OPM",
+      "OPO",
+      "Cotation directe"
+     ],
+     "items": [
+      {
+       "t": "Les ordres sont obligatoirement stipulés au prix de l'offre.",
+       "b": 0,
+       "why": "Art. 100."
+      },
+      {
+       "t": "Seuls des ordres à cours limité sont acceptés, au prix minimal ou plus.",
+       "b": 1,
+       "why": "Art. 101."
+      },
+      {
+       "t": "Les ordres sont stipulés dans une fourchette de prix, bornes incluses.",
+       "b": 2,
+       "why": "Art. 102."
+      },
+      {
+       "t": "Admission au cours fixé dans le document d'information, sans phase d'offre.",
+       "b": 3,
+       "why": "Art. 107."
+      },
+      {
+       "t": "Le cours coté est la limite inférieure du dernier ordre servi.",
+       "b": 1,
+       "why": "Art. 101."
+      }
+     ]
+    },
+    {
+     "titre": "Quelle procédure de première cotation ?",
+     "buckets": [
+      "OPF",
+      "OPM",
+      "OPO",
+      "Cotation directe"
+     ],
+     "items": [
+      {
+       "t": "Ordres obligatoirement au prix fixé, cours égal au prix de l'offre.",
+       "b": 0,
+       "why": "Prix ferme."
+      },
+      {
+       "t": "Ordres à cours limité au prix minimal ou plus.",
+       "b": 1,
+       "why": "Prix minimal."
+      },
+      {
+       "t": "Ordres dans une fourchette de prix, bornes incluses.",
+       "b": 2,
+       "why": "Prix ouvert."
+      },
+      {
+       "t": "Admission directe au cours fixé dans le DI.",
+       "b": 3,
+       "why": "Cotation directe."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Les quatre procédures de première cotation sont l'{{OPF}}, l'{{OPM}}, l'OPO et la cotation {{directe}}.",
+    "En OPM, le cours unique est la limite {{inférieure}} du dernier ordre servi.",
+    "L'avis de première cotation est publié au moins {{5}} jours avant ; le prix modifié au moins {{3}} jours de bourse avant la clôture.",
+    "La radiation d'un titre de capital entraîne la radiation de {{tous les titres}} qui lui sont rattachés.",
+    "L'Avis de première cotation paraît au moins {{5}} jours avant la date prévue.",
+    "Un changement de prix doit être publié au moins {{3}} jours de bourse avant la clôture des souscriptions."
+   ],
+   "schemas": [
+    {
+     "titre": "Les trois offres de première cotation",
+     "type": "compare",
+     "legende": "Prix ferme, prix minimal, prix ouvert.",
+     "cols": [
+      {
+       "t": "OPF",
+       "s": "Offre à Prix Ferme",
+       "pts": [
+        "Prix fixe, ordres à ce prix",
+        "Si offre satisfaite : cours coté = prix d'offre",
+        "Allocation selon l'offre et la demande"
+       ]
+      },
+      {
+       "t": "OPM",
+       "s": "Offre à Prix Minimal",
+       "pts": [
+        "Prix minimal de vente",
+        "Ordres à cours limité, au prix minimal ou plus",
+        "Cours unique = limite du dernier ordre servi"
+       ]
+      },
+      {
+       "t": "OPO",
+       "s": "Offre à Prix Ouvert",
+       "pts": [
+        "Fourchette de prix, bornes incluses",
+        "Ordres stipulés dans la fourchette",
+        "Cours issu de la confrontation offre / demande"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "La radiation : quatre portes",
+     "type": "boxes",
+     "legende": "Qui peut radier un titre ?",
+     "titreBloc": "Radiation de la cote",
+     "sous": "la COSUMAF est toujours informée",
+     "fleche": "toutes les voies",
+     "blocs": [
+      {
+       "t": "Automatique",
+       "pts": [
+        "Échéance du titre (remboursement)",
+        "Disparition de la collectivité émettrice"
+       ]
+      },
+      {
+       "t": "Initiative BVMAC",
+       "pts": [
+        "Non-respect des obligations ou règles",
+        "Atteinte à la réputation du marché"
+       ]
+      },
+      {
+       "t": "Demande de l'émetteur",
+       "pts": [
+        "Demande écrite motivée",
+        "Recours possible auprès de la COSUMAF"
+       ]
+      },
+      {
+       "t": "Demande de la COSUMAF",
+       "pts": [
+        "Violation de la réglementation",
+        "Liquidation des biens de l'émetteur"
+       ]
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "m7-entreprise-marche",
+   "titre": "À connaître · 7 · L'Entreprise de Marché (BVMAC) : statut, capital, fonctions",
+   "resume": {
+    "court": "L'Entreprise de Marché est une société anonyme exerçant à titre exclusif la mission de service public d'organisation, d'animation et de gestion du marché ; elle doit être agréée par la COSUMAF, qui approuve ses règles et peut nommer un administrateur provisoire. Elle autorise l'admission à la cote, surveille le marché, suspend ou radie un titre.",
+    "moyen": "Société anonyme indépendante des pouvoirs publics et des institutions de la CEMAC, agréée par la COSUMAF. Ses règles de marché, instructions et toute modification sont approuvées par la COSUMAF. Son conseil comprend un représentant des intermédiaires, des émetteurs, des investisseurs et un administrateur indépendant. DG et DGA ne peuvent être PCA ni diriger une autre structure. Son capital est réparti entre sociétés de bourse, établissements de crédit, sociétés d'assurances, autres sociétés agréées et États (ou démembrements). Toute souscription (sauf SDB, actionnaires d'office) requiert agrément préalable. Fonctions : admission des valeurs à la cote, gestion et sécurité des plateformes, liaison sécurisée avec les SDB, contrôle des SDB, enregistrement des négociations et transmission au Dépositaire Central, publication des transactions après chaque séance, diffusion équitable de l'information, surveillance du marché, suspension (avec information de la COSUMAF et de l'émetteur) ou radiation d'un titre, signalement à la COSUMAF des manquements. Les contrats avec les membres prévoient des prix fermes et compétitifs (tenue de marché).",
+    "long": "Société anonyme indépendante des pouvoirs publics et des institutions de la CEMAC, agréée par la COSUMAF. Ses règles de marché, instructions et toute modification sont approuvées par la COSUMAF. Son conseil comprend un représentant des intermédiaires, des émetteurs, des investisseurs et un administrateur indépendant. DG et DGA ne peuvent être PCA ni diriger une autre structure. Son capital est réparti entre sociétés de bourse, établissements de crédit, sociétés d'assurances, autres sociétés agréées et États (ou démembrements). Toute souscription (sauf SDB, actionnaires d'office) requiert agrément préalable. Fonctions : admission des valeurs à la cote, gestion et sécurité des plateformes, liaison sécurisée avec les SDB, contrôle des SDB, enregistrement des négociations et transmission au Dépositaire Central, publication des transactions après chaque séance, diffusion équitable de l'information, surveillance du marché, suspension (avec information de la COSUMAF et de l'émetteur) ou radiation d'un titre, signalement à la COSUMAF des manquements. Les contrats avec les membres prévoient des prix fermes et compétitifs (tenue de marché)."
+   },
+   "fiches": [
+    {
+     "titre": "Statut et agrément (art. 100-103)",
+     "contenu": "- **Société anonyme** constituée pour remplir, **à titre exclusif**, la **mission de service public** d'**organisation, d'animation et de gestion** du marché financier de l'Afrique centrale\n- **Agrément préalable** de la COSUMAF avant d'exercer\n- La COSUMAF **approuve** son Règlement Général, ses instructions, ses règles de fonctionnement et règles de marché ; toute **modification** (règles, organisation, fonctionnement) exige son **autorisation préalable**\n- **Indépendante** des pouvoirs publics et des institutions de la CEMAC ; respecte le Règlement, son **cahier des charges** et les décisions de la COSUMAF"
+    },
+    {
+     "titre": "Administration et direction (art. 104-106)",
+     "contenu": "Le **conseil d'administration** comprend obligatoirement :\n- un représentant des **intermédiaires de marché**\n- un représentant des **émetteurs**\n- un représentant des **investisseurs**\n- un **administrateur indépendant**\n\n**DG et DGA** : incompatibles avec **PCA** et avec DG, DGA ou gérant de **toute autre structure**.\n\n**Administrateur provisoire** : la COSUMAF peut le désigner si organisation/gestion ne garantit plus le bon fonctionnement du marché, ou si la situation financière se dégrade fortement avec risque avéré pour les investisseurs ; ou **à la demande du CA** lui-même."
+    },
+    {
+     "titre": "Capital et actionnariat (art. 107-111)",
+     "contenu": "Capital réparti entre : **sociétés de bourse**, **établissements de crédit**, **sociétés d'assurances**, **autres sociétés commerciales agréées par la COSUMAF** et les **États membres** (ou leurs démembrements).\n\n- Toute souscription est soumise à **agrément préalable de la COSUMAF**, **sauf les sociétés de bourse** (actionnaires d'office)\n- Le **montant du capital**, ses conditions de souscription et de répartition sont soumis à **autorisation préalable** de la COSUMAF\n- La COSUMAF veille à ce que les décisions soient prises **dans l'intérêt du marché et de ses acteurs**"
+    },
+    {
+     "titre": "Règles de marché et membres (art. 112 à 115)",
+     "contenu": "- Fixe dans son Règlement Général les **conditions d'admission des membres** et les **règles de fonctionnement**\n- Vérifie que le membre a l'**agrément** correspondant à ses activités\n- Conclut des **contrats écrits** avec ses membres : **prix fermes et compétitifs à l'achat et à la vente** pour apporter de la **liquidité** de manière régulière et prévisible (**tenue de marché**) ; peut prévoir des **incitations** (rabais)\n- Règles **transparentes et non discrétionnaires**, négociation **équitable et ordonnée**, critères objectifs d'**exécution efficace des ordres**"
+    },
+    {
+     "titre": "Les 12 fonctions de l'Entreprise de Marché (art. 117)",
+     "contenu": "1. **Autoriser l'admission** des valeurs à la cote\n2. Gestion optimale, **sécurité et fiabilité** des plateformes\n3. **Liaison technique sécurisée** avec les sociétés de bourse\n4. **Contrôler les sociétés de bourse** dans leur activité de négociation\n5. **Enregistrer les négociations** et transmettre au **Dépositaire Central** (livraison des titres, paiement)\n6. **Publier** après chaque séance les informations sur les transactions\n7. **Diffusion équitable** de l'information\n8. **Surveiller le marché**\n9. **Suspendre** pour une durée déterminée la négociation d'un titre (après avoir informé la COSUMAF **et l'émetteur**)\n10. **Radier** un titre de la cote (mêmes informations préalables) s'il ne remplit plus les conditions, sans atteinte significative aux investisseurs\n11. **Communiquer sans délai** à la COSUMAF toute information affectant le bon fonctionnement du marché\n12. **Proposer** à la COSUMAF des mesures de **développement du marché**"
+    },
+    {
+     "titre": "Signalements et tarifs (art. 116 et 118)",
+     "contenu": "Elle **signale immédiatement** à la COSUMAF : tout **manquement significatif** aux règles des plateformes, toute condition de négociation perturbant le **bon ordre du marché**, toute conduite révélant un **comportement interdit**, tout dysfonctionnement lié à un instrument.\n\n**Tarifs** : structures tarifaires (frais d'exécution, frais accessoires, rabais) **transparentes, équitables et non discriminatoires**."
+    }
+   ],
+   "mnemos": [
+    "Suspendre ou radier : informer la COSUMAF ET l'émetteur."
+   ],
+   "definitions": [
+    {
+     "terme": "Entreprise de Marché",
+     "definition": "Société anonyme exerçant à titre exclusif la mission de service public d'organisation, d'animation et de gestion du marché financier (la BVMAC)."
+    },
+    {
+     "terme": "Non-opposition de la COSUMAF",
+     "definition": "Accord tacite que l'Entreprise de Marché sollicite avant certaines admissions à la cote."
+    },
+    {
+     "terme": "Liquidité",
+     "definition": "Facilité d'acheter ou de vendre un titre rapidement ; la tenue de marché l'apporte de manière régulière et prévisible."
+    },
+    {
+     "terme": "Tenue de marché",
+     "definition": "Obligation des membres d'afficher des prix fermes et compétitifs à l'achat et à la vente pour apporter de la liquidité."
+    },
+    {
+     "terme": "Cote",
+     "definition": "Liste des valeurs admises à la négociation sur la bourse régionale."
+    },
+    {
+     "terme": "Administrateur provisoire",
+     "definition": "Personne désignée par la COSUMAF, dotée de tous les pouvoirs d'administration, de direction et de représentation en cas de risque avéré pour les investisseurs ou le marché."
+    },
+    {
+     "terme": "Radiation",
+     "definition": "Retrait d'un titre de la cote lorsqu'il ne remplit plus les conditions d'admission."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que transmet l'Entreprise de Marché au Dépositaire Central ?",
+     "verso": "Les données des négociations entre sociétés de bourse, pour la livraison des titres et le paiement du prix."
+    },
+    {
+     "recto": "Quelle règle pour les DG et DGA de l'Entreprise de Marché ?",
+     "verso": "Incompatibles avec PCA et avec DG, DGA ou gérant de toute autre structure."
+    },
+    {
+     "recto": "Qui peut souscrire au capital de l'Entreprise de Marché ?",
+     "verso": "Sociétés de bourse (sans agrément), établissements de crédit, assureurs, sociétés agréées et États membres, avec agrément préalable de la COSUMAF sauf pour les SDB."
+    },
+    {
+     "recto": "Qui approuve les règles de marché de la BVMAC ?",
+     "verso": "La COSUMAF (et toute modification est soumise à son autorisation préalable)."
+    },
+    {
+     "recto": "Quelles qualités pour les tarifs de la BVMAC ?",
+     "verso": "Transparents, équitables et non discriminatoires."
+    },
+    {
+     "recto": "Que doit faire l'Entreprise de Marché avant de suspendre un titre ?",
+     "verso": "Informer la COSUMAF et l'émetteur."
+    },
+    {
+     "recto": "Cite quatre fonctions de l'Entreprise de Marché.",
+     "verso": "Autoriser l'admission à la cote, contrôler les SDB, enregistrer les négociations et les transmettre au DC, publier les transactions, surveiller le marché, suspendre ou radier un titre."
+    },
+    {
+     "recto": "Quelle est la composition obligatoire du CA de l'Entreprise de Marché ?",
+     "verso": "Un représentant des intermédiaires, un des émetteurs, un des investisseurs et un administrateur indépendant."
+    },
+    {
+     "recto": "Que signale l'Entreprise de Marché à la COSUMAF ?",
+     "verso": "Tout manquement significatif, toute perturbation du bon ordre du marché, tout comportement interdit et tout dysfonctionnement d'un instrument."
+    },
+    {
+     "recto": "Quelle est la forme juridique de l'Entreprise de Marché ?",
+     "verso": "Une société anonyme exerçant à titre exclusif une mission de service public."
+    },
+    {
+     "recto": "Qu'est-ce que l'Entreprise de Marché ?",
+     "verso": "Une société anonyme agréée par la COSUMAF, investie à titre exclusif de la mission de service public d'organisation, d'animation et de gestion du marché."
+    },
+    {
+     "recto": "Qu'est-ce que la tenue de marché ?",
+     "verso": "Contrat écrit avec les membres prévoyant des prix fermes et compétitifs à l'achat et à la vente pour apporter de la liquidité, avec incitations possibles (rabais)."
+    },
+    {
+     "recto": "Quels actionnaires n'ont pas besoin d'agrément préalable pour souscrire ?",
+     "verso": "Les sociétés de bourse, actionnaires d'office."
+    },
+    {
+     "recto": "Que doit faire l'Entreprise de Marché avant de suspendre ou radier un titre ?",
+     "verso": "Informer la COSUMAF et l'émetteur."
+    }
+   ],
+   "questions": [
+    {
+     "q": "L'Entreprise de Marché est une...",
+     "choix": [
+      "Association",
+      "SARL",
+      "Société anonyme",
+      "Administration publique"
+     ],
+     "bonne": 2,
+     "explication": "Société anonyme investie d'une mission de service public à titre exclusif."
+    },
+    {
+     "q": "Qui autorise l'admission des valeurs à la cote de la Bourse Régionale ?",
+     "choix": [
+      "La COSUMAF seule",
+      "La BEAC",
+      "Le Dépositaire Central",
+      "L'Entreprise de Marché"
+     ],
+     "bonne": 3,
+     "explication": "Art. 117 : l'Entreprise de Marché autorise l'admission (après règles COSUMAF)."
+    },
+    {
+     "q": "Avant de radier un titre, l'Entreprise de Marché informe...",
+     "choix": [
+      "Le public seulement",
+      "La COSUMAF et l'émetteur",
+      "La BEAC",
+      "Les investisseurs un par un"
+     ],
+     "bonne": 1,
+     "explication": "Art. 117, 9) et 10)."
+    },
+    {
+     "q": "Quels actionnaires sont dispensés d'agrément pour souscrire au capital de l'Entreprise de Marché ?",
+     "choix": [
+      "Les États",
+      "Les assureurs",
+      "Les banques",
+      "Les sociétés de bourse"
+     ],
+     "bonne": 3,
+     "explication": "Actionnaires d'office."
+    },
+    {
+     "q": "Quel représentant n'est PAS exigé au CA de l'Entreprise de Marché ?",
+     "choix": [
+      "Intermédiaires",
+      "Émetteurs",
+      "Investisseurs",
+      "BEAC"
+     ],
+     "bonne": 3,
+     "explication": "Le représentant de la BEAC est exigé au CA du Dépositaire Central, pas de l'Entreprise de Marché."
+    },
+    {
+     "q": "Les règles de marché doivent être...",
+     "choix": [
+      "Discrétionnaires",
+      "Secrètes",
+      "Variables selon le membre",
+      "Transparentes et non discrétionnaires"
+     ],
+     "bonne": 3,
+     "explication": "Art. 115."
+    },
+    {
+     "q": "La mission de l'Entreprise de Marché est :",
+     "choix": [
+      "une mission de service public d'organisation, d'animation et de gestion du marché",
+      "une mission de supervision prudentielle des banques",
+      "une mission de règlement en espèces des transactions",
+      "une mission de régulation et de sanction du marché"
+     ],
+     "bonne": 0,
+     "explication": "À titre exclusif."
+    },
+    {
+     "q": "Avant d'exercer, l'Entreprise de Marché doit obtenir :",
+     "choix": [
+      "l'agrément préalable de la COSUMAF",
+      "l'accord de la BEAC",
+      "l'autorisation de chaque État",
+      "l'avis de la BVMAC"
+     ],
+     "bonne": 0,
+     "explication": "Art. 100-103."
+    },
+    {
+     "q": "Toute modification des règles ou de l'organisation de l'Entreprise de Marché exige :",
+     "choix": [
+      "un simple avis",
+      "l'autorisation préalable de la COSUMAF",
+      "un vote de l'AG seul",
+      "une notification a posteriori"
+     ],
+     "bonne": 1,
+     "explication": "La COSUMAF approuve aussi son RG, ses instructions et ses règles de marché."
+    },
+    {
+     "q": "L'Entreprise de Marché est indépendante :",
+     "choix": [
+      "de la COSUMAF et de ses décisions",
+      "des pouvoirs publics et des institutions de la CEMAC",
+      "de la BEAC uniquement, mais pas des États",
+      "des sociétés de bourse uniquement"
+     ],
+     "bonne": 1,
+     "explication": "Mais elle respecte le Règlement, son cahier des charges et les décisions de la COSUMAF."
+    },
+    {
+     "q": "Parmi ces représentants, lequel siège obligatoirement au conseil d'administration de l'Entreprise de Marché ?",
+     "choix": [
+      "Un représentant de la COBAC",
+      "Un représentant de la BEAC",
+      "Un représentant du Dépositaire Central",
+      "Un administrateur indépendant"
+     ],
+     "bonne": 3,
+     "explication": "Intermédiaires, émetteurs, investisseurs + un administrateur indépendant."
+    },
+    {
+     "q": "Les DG et DGA de l'Entreprise de Marché sont incompatibles avec :",
+     "choix": [
+      "les fonctions de PCA et de DG, DGA ou gérant d'une autre structure",
+      "toute activité d'enseignement exercée à titre accessoire",
+      "la détention d'actions dans l'Entreprise de Marché",
+      "la participation à un comité d'audit de la structure"
+     ],
+     "bonne": 0,
+     "explication": "Art. 106."
+    },
+    {
+     "q": "La COSUMAF peut désigner un administrateur provisoire de l'Entreprise de Marché :",
+     "choix": [
+      "si la gestion ne garantit plus le bon fonctionnement du marché ou en cas de risque avéré pour les investisseurs",
+      "dès qu'un dirigeant démissionne ou qu'un administrateur est remplacé en cours d'exercice",
+      "chaque année, à l'issue du contrôle ordinaire, pour accompagner les dirigeants",
+      "à la demande des émetteurs cotés qui contestent une décision de l'entreprise de marché"
+     ],
+     "bonne": 0,
+     "explication": "Aussi à la demande du CA lui-même."
+    },
+    {
+     "q": "Le capital de l'Entreprise de Marché est réparti notamment entre :",
+     "choix": [
+      "particuliers résidant dans la CEMAC, à l'exclusion des personnes morales",
+      "États membres seulement, à l'exclusion des sociétés de bourse et des banques",
+      "sociétés de bourse, établissements de crédit, assurances, sociétés agréées et États membres",
+      "OPC et sociétés de gestion seulement, par apports de leurs porteurs"
+     ],
+     "bonne": 2,
+     "explication": "Art. 107."
+    },
+    {
+     "q": "Le montant du capital de l'Entreprise de Marché est soumis à :",
+     "choix": [
+      "autorisation préalable de la COSUMAF",
+      "simple déclaration à la BVMAC avant l'assemblée générale",
+      "décision de la BEAC après avis de la COBAC",
+      "approbation des États membres actionnaires"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Les contrats avec les membres de l'Entreprise de Marché peuvent prévoir :",
+     "choix": [
+      "des cours garantis aux investisseurs en cas de forte baisse du marché",
+      "des prix fermes et compétitifs à l'achat et à la vente (tenue de marché) avec incitations",
+      "des privilèges de négociation réservés aux seuls actionnaires de la BVMAC",
+      "la fixation des cours de clôture par la COSUMAF elle-même"
+     ],
+     "bonne": 1,
+     "explication": "Tenue de marché pour apporter de la liquidité."
+    },
+    {
+     "q": "Combien de fonctions l'art. 117 attribue-t-il à l'Entreprise de Marché ?",
+     "choix": [
+      "6",
+      "9",
+      "12",
+      "15"
+     ],
+     "bonne": 2,
+     "explication": "12 fonctions, de l'admission à la cote à la proposition de mesures de développement."
+    },
+    {
+     "q": "Après chaque séance, l'Entreprise de Marché :",
+     "choix": [
+      "publie les informations sur les transactions",
+      "publie les comptes annuels des sociétés de bourse",
+      "publie le budget annuel de la COSUMAF",
+      "publie le cours de change fixé par la BEAC"
+     ],
+     "bonne": 0,
+     "explication": "Fonction 6."
+    }
+   ],
+   "trous": [
+    "L'Entreprise de Marché est une société {{anonyme}} chargée, à titre exclusif, d'une mission de {{service public}}.",
+    "L'art. 117 confie à l'Entreprise de Marché {{12}} fonctions, dont l'autorisation d'{{admission}} à la cote.",
+    "Seules les sociétés de {{bourse}} peuvent souscrire au capital de l'Entreprise de Marché sans agrément préalable."
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "g23-entreprise-de-marche",
+   "titre": "À connaître · 23 · L'entreprise de marché (BVMAC) : agrément, gouvernance, cotation, suspension, radiation (art. 541 à 577)",
+   "resume": {
+    "court": "L'entreprise de marché obtient son agrément en 60 jours ouvrés ; statuts approuvés par la COSUMAF ; interdiction de cumul PCA/DG ; PCA autorisé en 15 jours ouvrés ; actions < 5 % librement cessibles entre personnes habilitées. Elle n'engage jamais ses capitaux ni ne négocie en s'interposant. Retrait d'agrément : 12 mois sans usage, 6 mois sans activité. Elle admet, suspend et radie les instruments (avec information immédiate de la COSUMAF). Administrateur provisoire en cas de défaillance grave.",
+    "moyen": "Agrément : dossier par lettre recommandée, récépissé, programme d'activités, règles de fonctionnement ; la COSUMAF vérifie droits, qualités des actionnaires, dispositifs de surveillance (transactions, membres, déontologie) ; 60 jours ouvrés ; frais d'agrément, redevance annuelle et commission de rétrocession. Principes : égalité de traitement, bon fonctionnement, transparence, sécurité, prévention des pratiques illicites, surveillance, protection des investisseurs ; mécanismes de sanction des membres. Retrait : 12 mois sans usage ou 6 mois sans activité, fausses déclarations, non-respect des conditions, infractions graves. Statuts : approuvés avant adoption et modification, noms des premiers souscripteurs, interdiction du cumul PCA/DG, PCA autorisé (15 jours ouvrés), DG et DGA agréés, administrateurs autorisés ; actions < 5 % librement cessibles ; expert indépendant pour le prix sur autorisation. Conduite : équité, impartialité ; aucun engagement de ses propres capitaux ni négociation par appariement avec interposition de son compte propre ; convention d'admission avec chaque membre. Admission : décidée par l'entreprise de marché, publique. Exécution : horodatage, priorité de ordres, publication immédiate des transactions. Suspension : seuils de fluctuation, ordres erronés, à la demande de l'émetteur ou de la COSUMAF ou en cas de liquidation des biens. Radiation : non-respect des conditions de séjour, insuffisance de liquidité, non-respect d'une résolution d'AGO sur les dividendes ; demande de l'émetteur ou de la COSUMAF. Administration provisoire : personne physique extérieure à l'entreprise, désignée à la demande des organes, d'actionnaires ou de la COSUMAF.",
+    "long": "Agrément : dossier par lettre recommandée, récépissé, programme d'activités, règles de fonctionnement ; la COSUMAF vérifie droits, qualités des actionnaires, dispositifs de surveillance (transactions, membres, déontologie) ; 60 jours ouvrés ; frais d'agrément, redevance annuelle et commission de rétrocession. Principes : égalité de traitement, bon fonctionnement, transparence, sécurité, prévention des pratiques illicites, surveillance, protection des investisseurs ; mécanismes de sanction des membres. Retrait : 12 mois sans usage ou 6 mois sans activité, fausses déclarations, non-respect des conditions, infractions graves. Statuts : approuvés avant adoption et modification, noms des premiers souscripteurs, interdiction du cumul PCA/DG, PCA autorisé (15 jours ouvrés), DG et DGA agréés, administrateurs autorisés ; actions < 5 % librement cessibles ; expert indépendant pour le prix sur autorisation. Conduite : équité, impartialité ; aucun engagement de ses propres capitaux ni négociation par appariement avec interposition de son compte propre ; convention d'admission avec chaque membre. Admission : décidée par l'entreprise de marché, publique. Exécution : horodatage, priorité de ordres, publication immédiate des transactions. Suspension : seuils de fluctuation, ordres erronés, à la demande de l'émetteur ou de la COSUMAF ou en cas de liquidation des biens. Radiation : non-respect des conditions de séjour, insuffisance de liquidité, non-respect d'une résolution d'AGO sur les dividendes ; demande de l'émetteur ou de la COSUMAF. Administration provisoire : personne physique extérieure à l'entreprise, désignée à la demande des organes, d'actionnaires ou de la COSUMAF."
+   },
+   "fiches": [
+    {
+     "titre": "Agrément (art. 541 à 548)",
+     "contenu": "- Dossier adressé à la COSUMAF par **lettre recommandée avec AR** ; **récépissé de dépôt** ; contient un **programme d'activités** (type d'activités, organisation structurelle, **règles de fonctionnement**)\n- La COSUMAF vérifie : droits d'exercer sur le **marché réglementé**, **qualités des actionnaires et dirigeants**, dispositifs de **surveillance des transactions**, **surveillance des membres**, **contrôle du respect des règles**, **contrôle déontologique** ; conséquences du non-respect prévues\n- **60 jours ouvrés** après réception du dossier complet (le délai ne court qu'à réception des compléments)\n- **Frais d'agrément**, **redevance annuelle** et **commission de rétrocession** (par instruction)\n- Moyens techniques, financiers, humains, matériels **suffisants en permanence**\n- Règles de fonctionnement conformes au Règlement 01/22 et au RG"
+    },
+    {
+     "titre": "Principes et retrait d'agrément (art. 544-545, 549-550)",
+     "contenu": "**Obligations permanentes** : égalité de traitement et d'information · bon fonctionnement du marché · transparence · sécurité des opérations · prévention des pratiques illicites · surveillance permanente · protection des investisseurs. Mécanismes de **sanction** des manquements des membres, SDB, dirigeants, employés.\n\n**Retrait** (décision motivée) si l'entreprise de marché : **n'a pas fait usage de l'agrément pendant 12 mois**, y renonce, ou **n'a exercé aucune activité pendant 6 mois** · a obtenu l'agrément par **fausses déclarations** · ne respecte plus les conditions et n'a pas pris les mesures correctives · a enfreint de manière **grave ou systématique** le RG."
+    },
+    {
+     "titre": "Statuts, organes, actionnariat (art. 551 à 557)",
+     "contenu": "- Statuts : **noms des premiers souscripteurs** et pourcentages\n- **Interdiction du cumul** des fonctions de **PCA et DG**\n- **PCA** : **autorisation préalable** de la COSUMAF avant d'entrer en fonction (y compris en cas de remplacement), notifiée dans les **15 jours ouvrés**\n- **DG et DGA** : **agrément** de la COSUMAF\n- **Administrateurs** : désignation soumise à **autorisation préalable** ; la COSUMAF peut enjoindre de les démettre\n- **Statuts approuvés** par la COSUMAF avant adoption, y compris modification\n- Honorabilité, connaissances, temps suffisant\n- Actions dont la détention par un actionnaire est **inférieure à 5 %** : **librement cessibles** entre personnes habilitées au prix convenu ; expert indépendant pour fixer le prix sur **autorisation préalable**"
+    },
+    {
+     "titre": "Règles de bonne conduite (art. 558 à 561)",
+     "contenu": "- Équité, diligence, impartialité, loyauté ; prévention des conflits d'intérêts ; intégrité du marché\n- **N'engage pas ses propres capitaux** et **ne négocie pas par appariement avec interposition de son compte propre** sur ses plateformes\n- **Stricte égalité d'accès** à l'information publiée\n- **Secret professionnel**\n- **Convention d'admission** avec chaque membre : respect du règlement général, réponse aux demandes d'information, contrôles sur place, régularisation\n- En cas d'agissements compromettant la sécurité ou l'intégrité du marché : **suspension temporaire** de l'intervenant, avec information immédiate de la COSUMAF et de l'association professionnelle"
+    },
+    {
+     "titre": "Admission et exécution des transactions (art. 562 à 566)",
+     "contenu": "- **Admission** décidée par l'entreprise de marché, garantissant une **négociation équitable, ordonnée et efficace** ; dispositions pour vérifier que les émetteurs respectent les **obligations d'information** (initiale, périodique, spécifique) ; décisions d'admission **rendues publiques**\n- Règlement général de l'entreprise de marché : **confrontation de l'offre et de la demande**, détermination des prix, intervention des SDB\n- **Horodatage** des ordres dès l'émission vers le marché et dès leur réception\n- **Priorités** pour les ordres de même sens et même prix\n- Règles : catégories d'ordres, **jours et horaires**, conditions de **suspension**, annulation des transactions irrégulières\n- **Publication immédiate** de chaque transaction (titre, cours, quantité) + synthèse après chaque séance ; communication immédiate à la COSUMAF\n- **Résilience** des systèmes de négociation et continuité d'activité"
+    },
+    {
+     "titre": "Suspension des cotations (art. 567 à 570)",
+     "contenu": "- Interruption technique en cas de **fluctuation importante** (seuils fixés) ; **rejet** des ordres dépassant des seuils de volume/prix ou **manifestement erronés** ; **annulation** de transactions dans des cas exceptionnels\n- **Paramètres** de suspension calibrés selon la liquidité ; **notifiés à la COSUMAF**\n- Suspension demandée par l'**émetteur** (pour informer le public), par la **COSUMAF**, ou **à la demande de la COSUMAF** si l'émetteur fait l'objet d'une **liquidation des biens** (Acte Uniforme OHADA)\n- Suspend aussi les **contrats financiers liés**\n- Obligation d'**informer immédiatement la COSUMAF** et de **rendre publique** la décision de suspension ou de reprise (avis motivé)"
+    },
+    {
+     "titre": "Radiation et administration provisoire (art. 571 à 574)",
+     "contenu": "**Radiation** de la cote, décidée par l'entreprise de marché notamment pour : **non-respect des conditions de séjour à la cote** · **insuffisance de liquidité** · **non-respect d'une résolution de l'AGO sur le paiement des dividendes**. Elle peut aussi être **demandée par l'émetteur** ou **par la COSUMAF** (violation de la réglementation, liquidation des biens). Information immédiate de la COSUMAF et **avis motivé** public.\n\n**Administrateur provisoire** : désigné par la COSUMAF quand le fonctionnement normal est **impossible** ou en cas de **risque grave** ; à la demande des organes de l'entreprise, d'actionnaires ou de la COSUMAF ; **personne physique** expérimentée et honorable, **jamais** un membre des organes d'administration/gestion/direction ; pouvoirs, durée et **rémunération** (à la charge de l'entreprise) fixés par la décision ; révocation possible (tout actionnaire peut saisir la COSUMAF)."
+    },
+    {
+     "titre": "Dispositions diverses (art. 575-577)",
+     "contenu": "- Justifier en permanence de sa **capacité opérationnelle** à assurer la sécurité et l'intégrité du marché\n- Modifications affectant le dossier d'agrément : **communication sans délai** ; la COSUMAF statue **dans le mois**\n- Le règlement général de l'entreprise de marché règle les **litiges** : entreprise ↔ SDB ; entre SDB ; SDB ↔ donneurs d'ordres ; entreprise ↔ autres institutions financières"
+    }
+   ],
+   "mnemos": [
+    "Entreprise de marché : 60 jours ouvrés · PCA 15 jours ouvrés · 5 % librement cessibles · 12 mois sans usage / 6 mois sans activité · jamais ses propres capitaux."
+   ],
+   "definitions": [
+    {
+     "terme": "Horodatage",
+     "definition": "Enregistrement de l'heure d'émission et de réception de chaque ordre."
+    },
+    {
+     "terme": "Suspension de cotation",
+     "definition": "Interruption temporaire des négociations d'un instrument, décidée en cas de fluctuation, à la demande de l'émetteur ou de la COSUMAF."
+    },
+    {
+     "terme": "Administrateur provisoire",
+     "definition": "Personne physique extérieure désignée par la COSUMAF pour reprendre tous les pouvoirs de l'entreprise de marché en cas de défaillance grave."
+    },
+    {
+     "terme": "Entreprise de marché",
+     "definition": "Structure agréée qui organise et gère un marché réglementé (la BVMAC) et en édicte les règles de fonctionnement."
+    },
+    {
+     "terme": "Appariement avec interposition du compte propre",
+     "definition": "Pratique interdite à l'entreprise de marché : s'interposer avec son compte propre entre acheteur et vendeur."
+    },
+    {
+     "terme": "Conditions de séjour à la cote",
+     "definition": "Exigences à respecter en permanence par un émetteur dont les titres sont cotés ; leur violation peut conduire à la radiation."
+    },
+    {
+     "terme": "Radiation",
+     "definition": "Retrait d'un instrument financier de la cote du marché réglementé."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "L'entreprise de marché peut-elle engager ses capitaux ?",
+     "verso": "Non, ni négocier par appariement avec interposition de son compte propre."
+    },
+    {
+     "recto": "Cumul PCA / DG dans une entreprise de marché ?",
+     "verso": "Interdit par les statuts."
+    },
+    {
+     "recto": "Qui peut être administrateur provisoire ?",
+     "verso": "Une personne physique expérimentée et honorable, jamais un membre des organes de l'entreprise."
+    },
+    {
+     "recto": "Quand retire-t-on l'agrément pour inactivité ?",
+     "verso": "12 mois sans usage de l'agrément, ou aucune activité depuis 6 mois."
+    },
+    {
+     "recto": "Trois causes de radiation à l'initiative de l'entreprise de marché ?",
+     "verso": "Non-respect des conditions de séjour, insuffisance de liquidité, non-respect d'une résolution d'AGO sur les dividendes."
+    },
+    {
+     "recto": "Délai d'agrément d'une entreprise de marché ?",
+     "verso": "60 jours ouvrés après réception du dossier complet."
+    },
+    {
+     "recto": "Que faire immédiatement en cas de suspension ou reprise ?",
+     "verso": "Informer la COSUMAF et publier un avis motivé."
+    },
+    {
+     "recto": "Délai de décision de la COSUMAF sur une modification du dossier d'agrément ?",
+     "verso": "1 mois."
+    },
+    {
+     "recto": "Qui agrée le DG et les DGA ?",
+     "verso": "La COSUMAF (conditions fixées par instruction)."
+    },
+    {
+     "recto": "Qui autorise le PCA d'une entreprise de marché ? Délai ?",
+     "verso": "La COSUMAF, dans un délai de 15 jours ouvrés."
+    },
+    {
+     "recto": "Quand radie-t-on un titre ?",
+     "verso": "Non-respect des conditions de séjour, manque de liquidité, non-respect d'une résolution de l'AGO sur les dividendes ; sur demande de l'émetteur ou de la COSUMAF."
+    },
+    {
+     "recto": "Comment s'exécutent les transactions ?",
+     "verso": "Horodatage, priorités à même prix, publication immédiate de chaque transaction et synthèse de séance, résilience des systèmes."
+    },
+    {
+     "recto": "Que publie l'entreprise de marché après chaque séance ?",
+     "verso": "Pour chaque valeur : nature du titre, cours et quantité négociée (et chaque transaction immédiatement)."
+    },
+    {
+     "recto": "Qui peut demander la suspension d'une cotation ?",
+     "verso": "L'émetteur et la COSUMAF (aussi en cas de liquidation des biens de l'émetteur)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Délai d'autorisation du PCA de l'entreprise de marché ?",
+     "choix": [
+      "8 jours ouvrés",
+      "30 jours",
+      "60 jours",
+      "15 jours ouvrés"
+     ],
+     "bonne": 3,
+     "explication": "Art. 552."
+    },
+    {
+     "q": "Libre cessibilité des actions de l'entreprise de marché si détention...",
+     "choix": [
+      "< 1 %",
+      "< 20 %",
+      "< 5 %",
+      "< 50 %"
+     ],
+     "bonne": 2,
+     "explication": "Art. 557."
+    },
+    {
+     "q": "Retrait d'agrément pour inactivité après...",
+     "choix": [
+      "3 mois",
+      "24 mois",
+      "6 mois sans activité ou 12 mois sans usage",
+      "5 ans"
+     ],
+     "bonne": 2,
+     "explication": "Art. 550."
+    },
+    {
+     "q": "L'entreprise de marché peut...",
+     "choix": [
+      "Négocier pour son compte sur ses plateformes",
+      "S'interposer comme contrepartie",
+      "Ne pas engager ses capitaux",
+      "Prendre des positions"
+     ],
+     "bonne": 2,
+     "explication": "Art. 558."
+    },
+    {
+     "q": "L'administrateur provisoire est...",
+     "choix": [
+      "Une personne physique extérieure",
+      "Un administrateur actuel",
+      "Le DG",
+      "Un actionnaire"
+     ],
+     "bonne": 0,
+     "explication": "Art. 572."
+    },
+    {
+     "q": "Qui décide de la radiation en général ?",
+     "choix": [
+      "Le DG de la COSUMAF seul",
+      "L'émetteur seul",
+      "Le Trésor",
+      "L'entreprise de marché"
+     ],
+     "bonne": 3,
+     "explication": "Art. 571."
+    },
+    {
+     "q": "Le dossier d'agrément d'une entreprise de marché est adressé par :",
+     "choix": [
+      "courriel",
+      "dépôt en bourse",
+      "lettre recommandée avec AR",
+      "télégramme"
+     ],
+     "bonne": 2,
+     "explication": "Avec récépissé de dépôt et programme d'activités."
+    },
+    {
+     "q": "La COSUMAF statue sur l'agrément d'une entreprise de marché dans les :",
+     "choix": [
+      "30 jours ouvrés",
+      "90 jours",
+      "6 mois",
+      "60 jours ouvrés après réception du dossier complet"
+     ],
+     "bonne": 3,
+     "explication": "Le délai ne court qu'à réception des compléments."
+    },
+    {
+     "q": "Parmi ces vérifications, laquelle fait la COSUMAF ?",
+     "choix": [
+      "Les dispositifs de surveillance des transactions et des membres",
+      "Le rendement moyen des titres négociés",
+      "Le nombre de clients de la bourse",
+      "Le cours moyen des valeurs cotées"
+     ],
+     "bonne": 0,
+     "explication": "Art. 541 à 548."
+    },
+    {
+     "q": "L'agrément d'une entreprise de marché est retiré si elle n'en fait pas usage pendant :",
+     "choix": [
+      "12 mois",
+      "3 mois",
+      "6 mois",
+      "24 mois"
+     ],
+     "bonne": 0,
+     "explication": "Ou aucune activité pendant 6 mois."
+    },
+    {
+     "q": "Le cumul des fonctions de PCA et de DG est :",
+     "choix": [
+      "autorisé",
+      "interdit",
+      "autorisé en SAS",
+      "autorisé sur demande"
+     ],
+     "bonne": 1,
+     "explication": "Art. 551."
+    },
+    {
+     "q": "Le PCA d'une entreprise de marché entre en fonction :",
+     "choix": [
+      "dès son élection par l'assemblée générale",
+      "après avis de la BEAC sur son profil",
+      "après autorisation préalable de la COSUMAF notifiée dans les 15 jours ouvrés",
+      "après un an d'exercice provisoire"
+     ],
+     "bonne": 2,
+     "explication": "Y compris en cas de remplacement."
+    },
+    {
+     "q": "Le DG et les DGA d'une entreprise de marché sont soumis à :",
+     "choix": [
+      "l'autorisation de la BEAC",
+      "l'élection par les actionnaires",
+      "l'enregistrement",
+      "l'agrément de la COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": ""
+    },
+    {
+     "q": "Les statuts de l'entreprise de marché sont :",
+     "choix": [
+      "libres, sans aucune approbation préalable",
+      "approuvés par la COSUMAF avant adoption, y compris leurs modifications",
+      "approuvés par la BEAC avant leur adoption",
+      "simplement déposés au tribunal de commerce"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Les actions dont la détention par un actionnaire est inférieure à 5 % sont :",
+     "choix": [
+      "incessibles pendant toute la durée de la société",
+      "librement cessibles entre personnes habilitées",
+      "soumises à l'agrément préalable de la COSUMAF",
+      "gelées jusqu'à la prochaine assemblée générale"
+     ],
+     "bonne": 1,
+     "explication": "Au prix convenu; expert indépendant sur autorisation préalable."
+    },
+    {
+     "q": "L'entreprise de marché conclut avec chaque membre :",
+     "choix": [
+      "une convention d'admission",
+      "un contrat de travail",
+      "un contrat de bail",
+      "un contrat de prêt"
+     ],
+     "bonne": 0,
+     "explication": "Respect du RG, réponse aux demandes d'information, contrôles sur place, régularisation."
+    },
+    {
+     "q": "En cas d'agissements compromettant l'intégrité du marché, l'entreprise de marché peut :",
+     "choix": [
+      "radier immédiatement le titre de l'émetteur concerné",
+      "fermer le marché pour une durée indéterminée",
+      "suspendre temporairement l'intervenant et informer immédiatement la COSUMAF et l'association professionnelle",
+      "exclure l'émetteur de la cote de la BVMAC"
+     ],
+     "bonne": 2,
+     "explication": "Art. 561."
+    },
+    {
+     "q": "Les ordres sont horodatés :",
+     "choix": [
+      "à la fin de la séance de cotation",
+      "au moment du règlement-livraison",
+      "lors de la compensation des opérations",
+      "dès leur émission vers le marché et dès leur réception"
+     ],
+     "bonne": 3,
+     "explication": ""
+    }
+   ],
+   "trous": [
+    "L'agrément est retiré après {{12}} mois sans usage ou {{6}} mois sans activité.",
+    "Le PCA d'une entreprise de marché est autorisé au préalable par la {{COSUMAF}}, avec notification sous {{15}} jours ouvrés.",
+    "Le président du conseil d'administration de l'entreprise de marché est autorisé par la COSUMAF dans un délai de {{15}} jours ouvrés.",
+    "Les actions détenues à moins de {{5}} % sont librement cessibles entre personnes habilitées.",
+    "La COSUMAF statue sur l'agrément d'une entreprise de marché dans les {{60}} jours ouvrés après le dossier complet."
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  }
+ ]
+}

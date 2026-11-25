@@ -1,0 +1,1828 @@
+{
+ "id": "p0-cadre",
+ "titre": "Le cadre : qui fait quoi sur le marché",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "navy",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "Les institutions et les textes : COSUMAF, BVMAC, dépositaire central, chambre de compensation, banque de règlement. Qui décide, qui agrée, qui contrôle. À lire en premier.",
+ "court": "Le cadre",
+ "chapitres": [
+  {
+   "id": "k5-qui-fait-quoi",
+   "titre": "Essentiel · 05 · Qui fait quoi : la carte des acteurs du marché",
+   "resume": {
+    "court": "COSUMAF : régulateur (Collège de 12 membres, Commission des sanctions de 5 membres). BVMAC : entreprise de marché (Douala). Dépositaire Central (conservation, règlement-livraison). Chambre de compensation (contrepartie centrale). BEAC : banque de règlement (espèces). SDB : négociation. SGO + dépositaire : OPC. Teneurs de compte. CIF : conseil. FOGAMAF : garantie du marché. ANIF : renseignement financier. Associations professionnelles : codes de bonne conduite.",
+    "moyen": "Régulateur : COSUMAF (siège Libreville) : réglementer, agréer, habiliter, contrôler, sanctionner, médier ; Collège (Président nommé par la Conférence des Chefs d'État + onze membres), Commission des sanctions (5 membres), Secrétaire général (5 ans non renouvelables). Organismes de marché : entreprise de marché BVMAC (SA, Douala, cotation, admission, surveillance), Dépositaire Central (inscription en compte, règlement-livraison, garant du montant des émissions), Chambre de compensation (établissement de crédit, contrepartie centrale), Banque de règlement (BEAC). Intermédiaires : SDB (négociation, exécution, arrangement), teneurs de compte (banques, SDB), CIF (conseil sans détention de fonds), SGO (gestion d'OPC), dépositaires d'OPC, Listing Sponsor, PSAN. OPC : OPCVM (FCP, SICAV), FIA (titrisation, OPCI, capital investissement, OPI), FCPE. Autres acteurs : agences de notation, organismes de garantie des émissions, FOGAMAF, CAC, experts en évaluation, analystes financiers, ANIF (déclarations de soupçon), associations professionnelles, COBAC (banques), BEAC, Comité Ministériel de l'UMAC.",
+    "long": "Régulateur : COSUMAF (siège Libreville) : réglementer, agréer, habiliter, contrôler, sanctionner, médier ; Collège (Président nommé par la Conférence des Chefs d'État + onze membres), Commission des sanctions (5 membres), Secrétaire général (5 ans non renouvelables). Organismes de marché : entreprise de marché BVMAC (SA, Douala, cotation, admission, surveillance), Dépositaire Central (inscription en compte, règlement-livraison, garant du montant des émissions), Chambre de compensation (établissement de crédit, contrepartie centrale), Banque de règlement (BEAC). Intermédiaires : SDB (négociation, exécution, arrangement), teneurs de compte (banques, SDB), CIF (conseil sans détention de fonds), SGO (gestion d'OPC), dépositaires d'OPC, Listing Sponsor, PSAN. OPC : OPCVM (FCP, SICAV), FIA (titrisation, OPCI, capital investissement, OPI), FCPE. Autres acteurs : agences de notation, organismes de garantie des émissions, FOGAMAF, CAC, experts en évaluation, analystes financiers, ANIF (déclarations de soupçon), associations professionnelles, COBAC (banques), BEAC, Comité Ministériel de l'UMAC."
+   },
+   "fiches": [
+    {
+     "titre": "Le circuit d'un ordre de bourse",
+     "contenu": "1. **Client** → ordre à sa **SDB** (convention de services, horodatage)\n2. **SDB** → saisie dans le **carnet central de la BVMAC** (ordre irrévocable après validation)\n3. **BVMAC** → confrontation (fixing / continu), **cours coté**, publication au **BOC**, transmission des négociations au **Dépositaire Central**\n4. **Dépositaire Central** → règlement-livraison : **titres** livrés, **espèces** réglées dans les livres de la **BEAC** (banque de règlement)\n5. **Teneur de compte** → inscription en compte de l'acquéreur : **le transfert de propriété** résulte de cette inscription\n6. **Chambre de compensation** (marché à terme) → contrepartie centrale, marges, liquidation d'office\n\nDéfaut de dénouement : le **DC** informe la **BVMAC**, qui peut déclarer la SDB défaillante et procéder à un **rachat d'office** ; le **Fonds de Garantie du Marché** intervient."
+    },
+    {
+     "titre": "Les autorités et organes",
+     "contenu": "| Acteur | Rôle | À retenir |\n|---|---|---|\n| **COSUMAF** | régulateur unique | Collège : Président + **11** membres ; **9** présents minimum ; Commission des sanctions : **5** membres, mandat **3 ans** renouvelable une fois ; SG : **5 ans** non renouvelables |\n| **Comité Ministériel de l'UMAC** | adopte les Règlements | homologue le RG |\n| **Conférence des Chefs d'État** | nomme le Président et le SG | Actes additionnels |\n| **BEAC** | banque centrale, **banque de règlement**, avis conforme | assimilée teneur de compte |\n| **COBAC** | supervise les banques | présente au Collège ; informée des sanctions aux établissements de crédit |\n| **ANIF** | cellule de renseignement financier | reçoit les **déclarations de soupçon** |\n| **FOGAMAF** | fonds de garantie du marché | alimenté notamment par **30 %** des pénalités de retard |"
+    },
+    {
+     "titre": "Les organismes de marché",
+     "contenu": "| Organisme | Forme | Missions |\n|---|---|---|\n| **BVMAC** (entreprise de marché) | SA avec CA, **Douala** | admission, cotation, surveillance, publication (BOC), indices ; mission exclusive de service public |\n| **Dépositaire Central** | SA agréée | **notarial** (enregistrement initial), **tenue centralisée de comptes**, **règlement-livraison**, dématérialisation ; garant du montant des émissions ; données **5 ans** |\n| **Chambre de compensation** | **établissement de crédit** agréé | **contrepartie centrale** des contrats financiers, marges, liquidation d'office ; données **10 ans** |\n| **Banque de règlement** | **BEAC** | règlement en espèces |"
+    },
+    {
+     "titre": "Les intermédiaires et prestataires",
+     "contenu": "| Acteur | Capital | Spécificité |\n|---|---|---|\n| **Société de bourse (SDB)** | 300 M | négociation (monopole), exécution, arrangement d'APE, tenue de compte, **membre de la BVMAC** (participation 40 M) |\n| **Teneur de compte** | 300 M | participation **20 M** au DC |\n| **SGO** | 300 M + fonds propres 300 M | gère **un seul type d'OPC** ; pas d'emprunt pour l'OPC |\n| **Dépositaire d'OPC** | **1 Md** | unique, indépendant, garde et contrôle |\n| **CIF** | — | personne morale ; ne détient **ni fonds ni titres** de clients ; assurance RCP |\n| **Listing Sponsor** | — | accompagne l'introduction ; rapport 3 mois ; registre 10 ans |\n| **PSAN** | — | monopole des jetons numériques |\n| **Spécialiste** | — | SDB pour une valeur, contrepartie en régularisation de marché |\n| **Association professionnelle** | — | **adhésion obligatoire** ; code de bonne conduite approuvé par la COSUMAF |"
+    },
+    {
+     "titre": "Les produits : qui est quoi ?",
+     "contenu": "| Famille | Sous-types |\n|---|---|\n| **OPCVM** | **FCP** (copropriété, sans personnalité morale), **SICAV** (SA à capital variable) |\n| **FCPE** | OPC de l'épargne salariale (dédié ou multi-entreprises) |\n| **FIA** | **OT** (FCT, ST), **OPCI** (SPI, FCPI), **capital investissement** (SPC, FPC), **OPI** (SPI, FPI) |\n| **Instruments financiers** | **titres financiers** (valeurs mobilières, effets publics de titrisation, TCN supervisés par la BEAC, sukuks) + **contrats financiers** |\n| **Jetons numériques** | placés par inscription dans un DEEP ; PSAN |\n| **Obligations vertes / sociales / durables** | expert indépendant agréé ; DI visé ou enregistrement (États) |"
+    }
+   ],
+   "mnemos": [
+    "SDB négocie · BVMAC cote · DC règle les titres · BEAC règle les espèces · teneur inscrit · chambre compense · COSUMAF régule · ANIF reçoit les soupçons."
+   ],
+   "definitions": [
+    {
+     "terme": "PSAN",
+     "definition": "Prestataire de services sur actifs numériques agréé, titulaire du monopole des jetons numériques."
+    },
+    {
+     "terme": "DEEP",
+     "definition": "Dispositif d'enregistrement électronique partagé dans lequel sont inscrits les jetons numériques."
+    },
+    {
+     "terme": "BOC",
+     "definition": "Bulletin Officiel de la Cote, publié par la BVMAC avec les cours et les avis."
+    },
+    {
+     "terme": "Contrepartie centrale",
+     "definition": "Rôle de la chambre de compensation qui s'interpose entre les adhérents compensateurs et garantit la bonne fin des opérations."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quatre FIA ?",
+     "verso": "Organismes de titrisation, OPCI, capital investissement, OPI."
+    },
+    {
+     "recto": "Quelles sont les missions de la BVMAC ?",
+     "verso": "Admission, cotation, surveillance, publication (BOC), indices ; mission exclusive de service public ; siège à Douala."
+    },
+    {
+     "recto": "Quels FIA connaît-on ?",
+     "verso": "OT (FCT, ST), OPCI (SPI, FCPI), capital investissement (SPC, FPC) et OPI (SPI, FPI)."
+    },
+    {
+     "recto": "Qu'est-ce qu'un instrument financier ?",
+     "verso": "Un titre financier (valeur mobilière, effet public de titrisation, TCN supervisé par la BEAC, sukuk) ou un contrat financier."
+    },
+    {
+     "recto": "Forme juridique de la chambre de compensation ?",
+     "verso": "Établissement de crédit agréé par la COSUMAF (avis BEAC et COBAC)."
+    },
+    {
+     "recto": "Qui livre les titres ?",
+     "verso": "Le Dépositaire Central, par virement de compte à compte."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Le règlement en espèces est assuré par...",
+     "choix": [
+      "La BEAC",
+      "La BVMAC",
+      "La COSUMAF",
+      "La chambre de compensation"
+     ],
+     "bonne": 0,
+     "explication": "Banque de règlement."
+    },
+    {
+     "q": "Le siège de la BVMAC est à...",
+     "choix": [
+      "Libreville",
+      "Yaoundé",
+      "N'Djamena",
+      "Douala"
+     ],
+     "bonne": 3,
+     "explication": "Acte 06/17 et RG BVMAC."
+    },
+    {
+     "q": "Qui reçoit les déclarations de soupçon ?",
+     "choix": [
+      "L'ANIF",
+      "La COSUMAF",
+      "La BEAC",
+      "Le FOGAMAF"
+     ],
+     "bonne": 0,
+     "explication": "RG et Règlement CEMAC."
+    },
+    {
+     "q": "Le Secrétaire général de la COSUMAF est nommé pour...",
+     "choix": [
+      "3 ans renouvelables",
+      "5 ans non renouvelables",
+      "6 ans",
+      "À vie"
+     ],
+     "bonne": 1,
+     "explication": "Règlement 01/22."
+    },
+    {
+     "q": "Un CIF peut...",
+     "choix": [
+      "Conseiller sans détenir de fonds ni de titres",
+      "Détenir les fonds de ses clients en dépôt",
+      "Recevoir en dépôt les titres de ses clients",
+      "Exécuter des ordres pour compte de tiers"
+     ],
+     "bonne": 0,
+     "explication": "Instruction 49-26."
+    },
+    {
+     "q": "Dans le circuit d'un ordre, qui reçoit l'ordre du client et le saisit dans le carnet central ?",
+     "choix": [
+      "La société de bourse",
+      "Le Dépositaire Central",
+      "La chambre de compensation",
+      "La BEAC"
+     ],
+     "bonne": 0,
+     "explication": "La SDB reçoit l'ordre (convention de services, horodatage) et le saisit à la BVMAC."
+    },
+    {
+     "q": "Qui assure le règlement-livraison des titres ?",
+     "choix": [
+      "Le Dépositaire Central",
+      "La BVMAC",
+      "La COSUMAF",
+      "Le teneur de compte"
+     ],
+     "bonne": 0,
+     "explication": "Le Dépositaire Central; les espèces sont réglées dans les livres de la BEAC."
+    },
+    {
+     "q": "Où sont réglées les espèces d'une négociation ?",
+     "choix": [
+      "Chez la SDB",
+      "Chez la BVMAC",
+      "Chez le teneur de compte",
+      "Dans les livres de la BEAC"
+     ],
+     "bonne": 3,
+     "explication": "La BEAC est la banque de règlement."
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets le circuit d'un ordre de bourse dans l'ordre",
+     "items": [
+      "Le client donne son ordre à la société de bourse",
+      "La SDB horodate et saisit l'ordre",
+      "La BVMAC confronte les ordres et publie le cours",
+      "Le Dépositaire Central livre les titres",
+      "La BEAC règle les espèces",
+      "Le teneur de compte inscrit les titres : la propriété est transférée"
+     ]
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Qui fait quoi ?",
+     "buckets": [
+      "BVMAC",
+      "Dépositaire Central",
+      "BEAC",
+      "Chambre de compensation"
+     ],
+     "items": [
+      {
+       "t": "Publie le Bulletin Officiel de la Cote.",
+       "b": 0,
+       "why": "Entreprise de marché."
+      },
+      {
+       "t": "Est garant du montant des émissions.",
+       "b": 1,
+       "why": "Règlement 25/CEMAC."
+      },
+      {
+       "t": "Règle les espèces des transactions.",
+       "b": 2,
+       "why": "Banque de règlement."
+      },
+      {
+       "t": "Appelle les marges et liquide d'office.",
+       "b": 3,
+       "why": "Contrepartie centrale."
+      },
+      {
+       "t": "Décide l'admission des titres à la cote.",
+       "b": 0,
+       "why": "Comité d'Admission."
+      },
+      {
+       "t": "Tient les comptes courants des teneurs de compte.",
+       "b": 1,
+       "why": "Adhérents du DC."
+      },
+      {
+       "t": "Est un établissement de crédit agréé par la COSUMAF.",
+       "b": 3,
+       "why": "Statut de la chambre."
+      }
+     ]
+    },
+    {
+     "titre": "Quel acteur ?",
+     "buckets": [
+      "BVMAC",
+      "Dépositaire Central",
+      "Chambre de compensation",
+      "BEAC"
+     ],
+     "items": [
+      {
+       "t": "Cote les titres et publie le BOC.",
+       "b": 0,
+       "why": "Entreprise de marché."
+      },
+      {
+       "t": "Assure le règlement-livraison des titres.",
+       "b": 1,
+       "why": "DC."
+      },
+      {
+       "t": "Sert de contrepartie centrale et appelle les marges.",
+       "b": 2,
+       "why": "Marché à terme."
+      },
+      {
+       "t": "Règle les espèces des négociations.",
+       "b": 3,
+       "why": "Banque de règlement."
+      },
+      {
+       "t": "Tient de façon centralisée les comptes de titres.",
+       "b": 1,
+       "why": "DC."
+      },
+      {
+       "t": "Procède à la liquidation d'office.",
+       "b": 2,
+       "why": "Chambre de compensation."
+      }
+     ]
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Le circuit d'un ordre de bourse",
+     "type": "flow",
+     "numero": true,
+     "legende": "Du client à la propriété.",
+     "steps": [
+      {
+       "t": "Client",
+       "s": "donne l'ordre",
+       "d": "Convention de services, ordre horodaté par la SDB."
+      },
+      {
+       "t": "SDB",
+       "s": "saisit l'ordre",
+       "d": "Seule habilitée à négocier ; ordre irrévocable après validation."
+      },
+      {
+       "t": "BVMAC",
+       "s": "cote",
+       "d": "Confrontation au fixing ou en continu, cours publié au BOC."
+      },
+      {
+       "t": "Dépositaire Central",
+       "s": "livre les titres",
+       "d": "Règlement-livraison par virement de compte à compte."
+      },
+      {
+       "t": "BEAC",
+       "s": "règle les espèces",
+       "d": "Banque de règlement du marché."
+      },
+      {
+       "t": "Teneur de compte",
+       "s": "inscrit",
+       "d": "L'inscription en compte transfère la propriété."
+      }
+     ]
+    },
+    {
+     "titre": "Le Collège de la COSUMAF",
+     "type": "stats",
+     "legende": "Une instance de 12 personnes.",
+     "items": [
+      {
+       "v": "1",
+       "l": "Président (Chefs d'État)"
+      },
+      {
+       "v": "11",
+       "l": "membres (Comité Ministériel)"
+      },
+      {
+       "v": "6",
+       "l": "représentants des États"
+      },
+      {
+       "v": "9",
+       "l": "membres pour le quorum"
+      },
+      {
+       "v": "5",
+       "l": "membres de la Commission des sanctions"
+      },
+      {
+       "v": "3 ans",
+       "l": "mandat de la Commission"
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le FOGAMAF est alimenté notamment par {{30}} % des pénalités de retard.",
+    "Le Secrétaire général est nommé pour {{5}} ans non renouvelables."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "m1-structure",
+   "titre": "Essentiel · 1 · Structure du marché, champ d'application et instruments financiers",
+   "resume": {
+    "court": "Le marché financier régional (au comptant et à terme) est placé sous la régulation, la tutelle et le contrôle de la COSUMAF ; quatre institutions l'organisent (BVMAC, Dépositaire central, Banque de règlement, Chambre de compensation) ; les instruments financiers sont les titres financiers et les contrats financiers.",
+    "moyen": "Le Règlement n°01/22 du 21 juillet 2022 s'applique à la COSUMAF, aux organismes de marché, aux intermédiaires, aux OPC, aux émetteurs, aux investisseurs, aux commissaires aux comptes, aux analystes, aux agences de notation et à toute personne impliquée dans le marché. Nul ne peut intervenir sans agrément, habilitation ou autorisation préalable. Dans les sociétés anonymes d'organismes de marché et d'intermédiaires, les fonctions de PCA et de DG sont obligatoirement séparées. Le marché comprend un marché au comptant (valeurs mobilières, titres financiers) et un marché à terme (contrats financiers). Les instruments financiers = titres financiers (valeurs mobilières, effets publics négociables issus de la titrisation de la dette intérieure, titres de créance négociables supervisés par la BEAC, sukuks) + contrats financiers (contrats à terme ferme, d'option, d'échange, accords de taux futurs).",
+    "long": "Le Règlement n°01/22 du 21 juillet 2022 s'applique à la COSUMAF, aux organismes de marché, aux intermédiaires, aux OPC, aux émetteurs, aux investisseurs, aux commissaires aux comptes, aux analystes, aux agences de notation et à toute personne impliquée dans le marché. Nul ne peut intervenir sans agrément, habilitation ou autorisation préalable. Dans les sociétés anonymes d'organismes de marché et d'intermédiaires, les fonctions de PCA et de DG sont obligatoirement séparées. Le marché comprend un marché au comptant (valeurs mobilières, titres financiers) et un marché à terme (contrats financiers). Les instruments financiers = titres financiers (valeurs mobilières, effets publics négociables issus de la titrisation de la dette intérieure, titres de créance négociables supervisés par la BEAC, sukuks) + contrats financiers (contrats à terme ferme, d'option, d'échange, accords de taux futurs)."
+   },
+   "fiches": [
+    {
+     "titre": "À qui s'applique le Règlement ?",
+     "contenu": "- La **COSUMAF**\n- Les **organismes de marché** et **intermédiaires de marché**\n- Les **OPC**, leurs **sociétés de gestion** et **dépositaires**\n- Les **émetteurs** d'instruments financiers et les **investisseurs**\n- Les **commissaires aux comptes**, **analystes financiers indépendants**, **organismes de garantie des émissions**, **Fonds de garantie du Marché**, **agences de notation**\n- Toute personne placée sous leur autorité ou impliquée dans le marché\n\nNul ne peut intervenir sans avoir obtenu **agrément, habilitation ou autorisation** de la COSUMAF."
+    },
+    {
+     "titre": "Gouvernance des organismes de marché et intermédiaires (art. 1)",
+     "contenu": "Quand ils sont des **sociétés anonymes avec conseil d'administration** :\n- Les fonctions de **Président du CA** et de **Directeur général** sont **obligatoirement séparées** (personnes distinctes)\n- Les fonctions de **PCA ou de DG** sont **incompatibles** avec celles de **contrôle interne** ou de **contrôle de la gestion opérationnelle**"
+    },
+    {
+     "titre": "Deux compartiments : au comptant et à terme (art. 2)",
+     "contenu": "- **Marché au comptant** : on négocie les **valeurs mobilières et autres titres financiers**\n- **Marché à terme** : on négocie les **contrats financiers** ou **instruments financiers à terme**\n\nLe tout est sous la **régulation, la tutelle et le contrôle de la COSUMAF** (art. 3)."
+    },
+    {
+     "titre": "Les 4 institutions qui animent le marché (art. 4)",
+     "contenu": "1. **BVMAC** : la Bourse Régionale (Bourse des Valeurs Mobilières de l'Afrique Centrale)\n2. **Dépositaire Central**\n3. **Banque de Règlement** : mission assurée par la **BEAC**\n4. **Chambre de compensation**\n\nChacune agit « dans la limite de ses compétences et de ses responsabilités »."
+    },
+    {
+     "titre": "Instruments financiers : la classification (art. 5 à 8)",
+     "contenu": "**Instruments financiers** = **titres financiers** + **contrats financiers**.\n\n**Titres financiers** (art. 6) : valeurs mobilières · effets publics négociables issus de la **titrisation de la dette intérieure** d'un ou plusieurs États · **titres de créance négociables supervisés par la BEAC** · **Sukuks** et titres assimilés.\n\n**Contrats financiers** (art. 8) : contrats à terme ferme, **contrats d'option**, **contrats d'échange**, **accords de taux futurs**, autres contrats à terme (livraison physique ou en espèces)."
+    },
+    {
+     "titre": "Valeurs mobilières et Sukuk (art. 6)",
+     "contenu": "**Valeurs mobilières** = **titres de capital** et **titres de créances** émis par les **sociétés par actions**, les **personnes morales de droit public** et les **OPC**. Elles donnent des **droits identiques par catégorie** et un accès à une quotité du capital ou un **droit de créance général** sur le patrimoine.\n\n**Sukuk** : titre financier **islamique**, **équivalent à une obligation ordinaire**, soumis aux préceptes de la **Charia**. Le Règlement Général de la COSUMAF fixe ses conditions d'émission."
+    },
+    {
+     "titre": "Inscription des titres (art. 7)",
+     "contenu": "Les titres financiers sont inscrits :\n- soit dans un **compte-titres** tenu par l'**émetteur** ou par un **intermédiaire agréé**\n- soit dans un **dispositif d'enregistrement électronique partagé** (blockchain ou équivalent) permettant d'identifier le propriétaire\n\nL'inscription dans ce dispositif **tient lieu d'inscription en compte**."
+    }
+   ],
+   "mnemos": [
+    "Les 4 institutions : B-D-B-C → Bourse, Dépositaire, Banque de règlement, Chambre de compensation.",
+    "Titres financiers : VM, Effets publics (titrisation), TCN (BEAC), Sukuk."
+   ],
+   "definitions": [
+    {
+     "terme": "Banque de Règlement",
+     "definition": "Institution du marché qui assure le règlement des opérations ; la mission est assurée par la BEAC."
+    },
+    {
+     "terme": "Titres financiers",
+     "definition": "Valeurs mobilières, effets publics issus de la titrisation de la dette intérieure, TCN supervisés par la BEAC, sukuks et titres assimilés."
+    },
+    {
+     "terme": "Séparation PCA / DG",
+     "definition": "Obligation, pour les SA avec conseil d'administration, de confier les fonctions de Président du CA et de Directeur général à deux personnes distinctes."
+    },
+    {
+     "terme": "Sukuk",
+     "definition": "Titre financier islamique équivalent à une obligation ordinaire, soumis aux préceptes de la Charia."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que remplace l'inscription dans un dispositif d'enregistrement électronique partagé ?",
+     "verso": "Elle tient lieu d'inscription en compte."
+    },
+    {
+     "recto": "Quelles sont les 4 institutions qui organisent et animent le marché ?",
+     "verso": "BVMAC, Dépositaire Central, Banque de Règlement (BEAC), Chambre de compensation."
+    },
+    {
+     "recto": "PCA ou DG peuvent-ils faire du contrôle interne ?",
+     "verso": "Non : leurs fonctions sont incompatibles avec celles de contrôle interne ou de contrôle de la gestion opérationnelle."
+    },
+    {
+     "recto": "Où sont inscrits les titres financiers ?",
+     "verso": "Dans un compte-titres (émetteur ou intermédiaire agréé) ou dans un dispositif d'enregistrement électronique partagé."
+    },
+    {
+     "recto": "Quelles sont les quatre institutions du marché ?",
+     "verso": "BVMAC, Dépositaire Central, Banque de Règlement (BEAC), Chambre de compensation."
+    },
+    {
+     "recto": "Quelle règle de gouvernance pour les SA d'intermédiaires de marché ?",
+     "verso": "PCA et DG sont séparés et incompatibles avec le contrôle interne ou le contrôle de la gestion opérationnelle."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Combien d'institutions organisent et animent le Marché Financier Régional ?",
+     "choix": [
+      "2",
+      "3",
+      "5",
+      "4"
+     ],
+     "bonne": 3,
+     "explication": "BVMAC, Dépositaire Central, Banque de Règlement, Chambre de compensation."
+    },
+    {
+     "q": "Quelle institution exerce la mission de Banque de Règlement ?",
+     "choix": [
+      "La COBAC",
+      "La BVMAC",
+      "La COSUMAF",
+      "La BEAC"
+     ],
+     "bonne": 3,
+     "explication": "Mission assurée par la Banque des États de l'Afrique Centrale."
+    },
+    {
+     "q": "Quel est le caractère d'un Sukuk ?",
+     "choix": [
+      "Un titre financier islamique équivalent à une obligation ordinaire",
+      "Un titre de capital classique donnant un droit de vote",
+      "Un contrat d'option sur actions cotées à la BVMAC",
+      "Une part d'OPC investie dans des actifs immobiliers"
+     ],
+     "bonne": 0,
+     "explication": "Il est soumis aux préceptes de la Charia."
+    },
+    {
+     "q": "Sur quel marché négocie-t-on les contrats financiers ?",
+     "choix": [
+      "Au comptant",
+      "De gré à gré uniquement",
+      "À terme",
+      "Primaire seulement"
+     ],
+     "bonne": 2,
+     "explication": "Le marché à terme est celui des contrats financiers."
+    },
+    {
+     "q": "Laquelle de ces fonctions est incompatible avec celle de Directeur général d'un intermédiaire ?",
+     "choix": [
+      "Administrateur",
+      "Actionnaire",
+      "Membre d'un comité d'audit sans fonction exécutive",
+      "Contrôle interne"
+     ],
+     "bonne": 3,
+     "explication": "PCA et DG ne peuvent exercer le contrôle interne ou le contrôle de la gestion opérationnelle."
+    },
+    {
+     "q": "L'inscription dans un dispositif d'enregistrement électronique partagé...",
+     "choix": [
+      "Tient lieu d'inscription en compte",
+      "N'a aucune valeur",
+      "Est interdite",
+      "Vaut cotation"
+     ],
+     "bonne": 0,
+     "explication": "Elle équivaut à l'inscription en compte-titres."
+    },
+    {
+     "q": "Les titres de créance négociables relèvent de la supervision de...",
+     "choix": [
+      "La BEAC",
+      "La COSUMAF",
+      "La COBAC",
+      "La BVMAC"
+     ],
+     "bonne": 0,
+     "explication": "Titres de créance négociables supervisés par la BEAC."
+    },
+    {
+     "q": "Dans une SA d'intermédiaire de marché avec conseil d'administration, les fonctions de PCA et de DG sont :",
+     "choix": [
+      "cumulables",
+      "séparées sur demande de la COSUMAF",
+      "séparées après 5 ans",
+      "obligatoirement séparées"
+     ],
+     "bonne": 3,
+     "explication": "Obligatoirement séparées (personnes distinctes)."
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Les instruments financiers",
+     "type": "tree",
+     "legende": "Titres financiers et contrats financiers.",
+     "racine": {
+      "t": "Instruments financiers",
+      "s": "art. 6 du Règlement 01/22",
+      "k": [
+       {
+        "t": "Titres financiers",
+        "k": [
+         {
+          "t": "Valeurs mobilières",
+          "d": "Titres de capital et de créance."
+         },
+         {
+          "t": "Effets publics",
+          "d": "Issus de la titrisation de la dette intérieure."
+         },
+         {
+          "t": "TCN",
+          "d": "Titres de créance négociables supervisés par la BEAC."
+         },
+         {
+          "t": "Sukuks",
+          "d": "Titres financiers islamiques."
+         }
+        ]
+       },
+       {
+        "t": "Contrats financiers",
+        "k": [
+         {
+          "t": "À terme ferme",
+          "d": "Contrats à terme."
+         },
+         {
+          "t": "D'option",
+          "d": "Contrats d'option."
+         },
+         {
+          "t": "D'échange",
+          "d": "Swaps."
+         },
+         {
+          "t": "Accords de taux futurs",
+          "d": "FRA."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "trous": [
+    "Quatre institutions animent le marché : la {{BVMAC}}, le Dépositaire Central, la Banque de Règlement et la chambre de {{compensation}}.",
+    "Les instruments financiers comprennent les {{titres financiers}} et les {{contrats financiers}}."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "m2-cosumaf-statut",
+   "titre": "À connaître · 2 · La COSUMAF : statut, missions, ressources et coopération",
+   "resume": {
+    "court": "Institution spécialisée de l'UMAC, dotée de la personnalité juridique et de l'autonomie financière, la COSUMAF protège l'épargne, informe les investisseurs et veille au bon fonctionnement du marché ; autorité indépendante, elle coopère avec ses homologues et lutte contre le blanchiment.",
+    "moyen": "Créée dans le cadre de l'UMAC (Acte additionnel n°03/01-CEMAC-CE-03 du 8 décembre 2001, siège à Libreville), la COSUMAF a trois missions : protection de l'épargne investie en instruments financiers, information des investisseurs, bon fonctionnement du marché, en tenant compte de la stabilité financière. Elle est indépendante. Ses ressources viennent des commissions (visas, enregistrements, agréments, habilitations), redevances, subventions (parts égales des six États, débitées d'office à la BEAC en début d'exercice), sanctions pécuniaires et pénalités de retard. Elle respecte la Convention UMAC, le Règlement, l'Acte uniforme OHADA (APE) et les législations nationales compatibles. Elle prévient le blanchiment, le financement du terrorisme et la prolifération des armes de destruction massive, participe aux instances internationales et peut conclure des accords de coopération (refus possibles dans cinq cas). Elle veille à l'égalité de traitement, à l'équité, la transparence, la loyauté, la sécurité, l'intégrité et la protection des investisseurs.",
+    "long": "Créée dans le cadre de l'UMAC (Acte additionnel n°03/01-CEMAC-CE-03 du 8 décembre 2001, siège à Libreville), la COSUMAF a trois missions : protection de l'épargne investie en instruments financiers, information des investisseurs, bon fonctionnement du marché, en tenant compte de la stabilité financière. Elle est indépendante. Ses ressources viennent des commissions (visas, enregistrements, agréments, habilitations), redevances, subventions (parts égales des six États, débitées d'office à la BEAC en début d'exercice), sanctions pécuniaires et pénalités de retard. Elle respecte la Convention UMAC, le Règlement, l'Acte uniforme OHADA (APE) et les législations nationales compatibles. Elle prévient le blanchiment, le financement du terrorisme et la prolifération des armes de destruction massive, participe aux instances internationales et peut conclure des accords de coopération (refus possibles dans cinq cas). Elle veille à l'égalité de traitement, à l'équité, la transparence, la loyauté, la sécurité, l'intégrité et la protection des investisseurs."
+   },
+   "fiches": [
+    {
+     "titre": "Statut de la COSUMAF",
+     "contenu": "- **Institution spécialisée** créée dans le cadre de l'**UMAC** (Union Monétaire de l'Afrique Centrale)\n- **Personnalité juridique** et **autonomie financière**\n- **Autorité indépendante** : décisions prises dans l'**intérêt exclusif du marché**, sans influence politique, commerciale ou autre\n- Créée par l'**Acte additionnel n°03/01-CEMAC-CE-03 du 8 décembre 2001** (adopté à Yaoundé) ; siège fixé à **Libreville** (Acte du 23 janvier 2003)\n- Elle est l'**organe de tutelle, de régulation et de contrôle** du marché financier régional\n- Ses organes, dirigeants et personnel bénéficient des **privilèges et immunités** des organisations internationales"
+    },
+    {
+     "titre": "Les 3 missions (art. 10)",
+     "contenu": "1. La **protection de l'épargne** investie en instruments financiers et autres produits de placement\n2. L'**information des investisseurs**\n3. Le **bon fonctionnement du Marché Financier Régional**\n\nElle prend en compte les objectifs de **stabilité financière** de l'ensemble du système monétaire, bancaire et financier de la CEMAC."
+    },
+    {
+     "titre": "Principes dont elle veille au respect (art. 17)",
+     "contenu": "- **Égalité de traitement** des actionnaires et investisseurs (en toutes circonstances)\n- **Équité, transparence, loyauté, sécurité, intégrité** du marché\n- **Protection des investisseurs**\n\nEn cas de manquement : **injonctions** et **sanctions** sans délai."
+    },
+    {
+     "titre": "Les ressources de la COSUMAF (art. 12)",
+     "contenu": "1. **Commissions de visa** (document d'information APE ou offres publiques)\n2. Commissions d'**enregistrement** (APE d'un État, placement privé)\n3. Commissions d'**agrément et d'habilitation**\n4. Commissions de **visa OPC** (dont documents simplifiés des OPC étrangers commercialisés en CEMAC)\n5. **Redevances et rétrocessions**\n6. **Subventions** décidées par le Comité Ministériel UMAC et versées par les États\n7. **Sanctions pécuniaires**\n8. **Pénalités de retard**\n9. **Frais de dossier**\n10. Autres revenus approuvés par le Comité Ministériel\n\nSubventions : **parts égales entre les 6 États**, versées **en début d'exercice** par **débit direct** de leurs comptes à la **BEAC**. Montants fixés par **instruction** approuvée par le Comité Ministériel."
+    },
+    {
+     "titre": "Cadre juridique d'exercice (art. 13)",
+     "contenu": "La COSUMAF agit dans le respect :\n1. de la **Convention UMAC** et du Règlement\n2. des dispositions de l'**Acte Uniforme OHADA** sur l'**appel public à l'épargne**, tant qu'elles ne sont pas contraires\n3. des **législations internes** des États membres, tant qu'elles sont compatibles"
+    },
+    {
+     "titre": "LBC/FT et coopération internationale (art. 14 à 16)",
+     "contenu": "**Art. 14** : elle prend des dispositions pour **prévenir, détecter et réprimer** le **blanchiment de capitaux**, le **financement du terrorisme** et la **prolifération des armes de destruction massive**.\n\n**Art. 15** : elle participe aux instances internationales et adapte la réglementation aux **meilleures pratiques**.\n\n**Art. 16** : elle peut conclure des **accords de coopération et d'échange d'informations** avec des autorités étrangères et même diligenter des enquêtes à leur demande.\n\nElle **peut refuser** son assistance si : 1) pas de **réciprocité** ; 2) l'autorité n'est pas soumise à un **secret professionnel** au moins équivalent ; 3) atteinte à la **souveraineté, l'ordre public, la sécurité** ou aux intérêts essentiels ; 4) **procédure pénale** pendante dans un État CEMAC ; 5) **décision définitive** déjà rendue pour les mêmes faits et personnes."
+    },
+    {
+     "titre": "Qui est sous le contrôle de la COSUMAF ? (art. 19)",
+     "contenu": "1. **Organismes centraux du marché** et leurs participants/adhérents\n2. **Émetteurs** faisant APE\n3. **Intermédiaires de marché**\n4. **Agences de notation**\n5. **Conseillers en investissements financiers** et en **financement participatif**\n6. **OPC**, sociétés de gestion et dépositaires\n7. **Fonds de garantie du marché**\n8. **Commissaires aux comptes** des sociétés faisant APE\n9. **Analystes financiers**\n10. **Organismes de garantie des émissions**\n11. Personnes placées sous leur autorité\n12. Toute autre personne intervenant sur le marché, **sauf l'Institut d'émission** (BEAC)"
+    }
+   ],
+   "mnemos": [
+    "Les 3 missions : P-I-B → Protection de l'épargne, Information des investisseurs, Bon fonctionnement du marché."
+   ],
+   "definitions": [
+    {
+     "terme": "Fonds de garantie du Marché",
+     "definition": "Structure placée sous le contrôle de la COSUMAF, garante de la sécurité des opérations."
+    },
+    {
+     "terme": "UMAC",
+     "definition": "Union Monétaire de l'Afrique Centrale, dans le cadre de laquelle la COSUMAF est créée."
+    },
+    {
+     "terme": "Autorité indépendante",
+     "definition": "Qualité de la COSUMAF : elle exerce ses fonctions sans influence extérieure, dans l'intérêt exclusif du marché et de ses acteurs."
+    },
+    {
+     "terme": "Réciprocité",
+     "definition": "Condition de la coopération internationale : la COSUMAF peut refuser son aide si l'autorité étrangère n'accorde pas la même coopération."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quelle législation extérieure la COSUMAF respecte-t-elle en matière d'APE ?",
+     "verso": "L'Acte Uniforme OHADA relatif au droit des sociétés commerciales et du GIE, si compatible."
+    },
+    {
+     "recto": "Que dit le texte sur l'indépendance de la COSUMAF ?",
+     "verso": "Autorité indépendante : décisions prises dans l'intérêt exclusif du marché, sans influence politique, commerciale ou autre."
+    },
+    {
+     "recto": "Que fait la COSUMAF contre le blanchiment ?",
+     "verso": "Elle prend des dispositions pour prévenir, détecter et réprimer le blanchiment, le financement du terrorisme et la prolifération des armes de destruction massive."
+    },
+    {
+     "recto": "Dans quels cas peut-elle refuser son assistance ?",
+     "verso": "Pas de réciprocité, secret non équivalent, atteinte à la souveraineté ou à l'ordre public, procédure pénale pendante, décision définitive déjà rendue."
+    },
+    {
+     "recto": "Quel acte a créé la COSUMAF et quand ?",
+     "verso": "L'Acte additionnel n°03/01-CEMAC-CE-03 du 8 décembre 2001."
+    },
+    {
+     "recto": "Comment les subventions sont-elles versées ?",
+     "verso": "À parts égales entre les 6 États, en début d'exercice, par débit direct de leurs comptes à la BEAC."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Quelle est la date de l'Acte additionnel créant la COSUMAF ?",
+     "choix": [
+      "14 décembre 2000",
+      "12 novembre 2003",
+      "21 juillet 2022",
+      "8 décembre 2001"
+     ],
+     "bonne": 3,
+     "explication": "Acte additionnel n°03/01-CEMAC-CE-03 du 8 décembre 2001."
+    },
+    {
+     "q": "Comment les subventions des États sont-elles réparties ?",
+     "choix": [
+      "Selon le PIB",
+      "Selon la population",
+      "Seul le Gabon paie",
+      "À parts égales entre les six États"
+     ],
+     "bonne": 3,
+     "explication": "Parts égales, débitées d'office à la BEAC en début d'exercice."
+    },
+    {
+     "q": "Lequel n'est pas une mission de la COSUMAF ?",
+     "choix": [
+      "Protection de l'épargne",
+      "Émission de la monnaie",
+      "Information des investisseurs",
+      "Bon fonctionnement du marché"
+     ],
+     "bonne": 1,
+     "explication": "L'émission monétaire relève de la BEAC."
+    },
+    {
+     "q": "Qui est exclu du contrôle de la COSUMAF ?",
+     "choix": [
+      "Les sociétés de bourse",
+      "Les agences de notation",
+      "L'Institut d'émission",
+      "Les analystes financiers"
+     ],
+     "bonne": 2,
+     "explication": "Art. 19 : toute autre personne, à l'exception de l'Institut d'émission."
+    },
+    {
+     "q": "Quel motif ne permet PAS à la COSUMAF de refuser la coopération ?",
+     "choix": [
+      "L'autorité étrangère est lointaine",
+      "Absence de réciprocité",
+      "Secret professionnel non équivalent",
+      "Décision définitive pour les mêmes faits"
+     ],
+     "bonne": 0,
+     "explication": "Les cinq motifs : réciprocité, secret, souveraineté, procédure pénale, décision définitive."
+    },
+    {
+     "q": "À quel organe la COSUMAF soumet-elle ses décisions de budget ?",
+     "choix": [
+      "La BVMAC",
+      "La Cour de justice",
+      "Le Comité Ministériel de l'UMAC",
+      "La Conférence des chefs d'État"
+     ],
+     "bonne": 2,
+     "explication": "Elle soumet son projet de budget au Comité Ministériel au plus tard le 30 novembre."
+    }
+   ],
+   "trous": [
+    "Les trois missions de la COSUMAF sont la protection de l'{{épargne}}, l'{{information}} des investisseurs et le bon fonctionnement du marché.",
+    "Les subventions sont réparties à parts égales entre les {{6}} États et versées par débit direct à la {{BEAC}}."
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "m3-pouvoirs",
+   "titre": "À connaître · 3 · Les 9 pouvoirs de la COSUMAF : agrément, injonction, contrôle, sanctions, médiation",
+   "resume": {
+    "court": "La COSUMAF dispose de neuf pouvoirs : réglementaire, d'approbation, d'agrément et d'enregistrement, d'habilitation, d'injonction, de contrôle et d'enquête, de médiation, de pénalités et de sanction. Les sanctions disciplinaires vont de l'avertissement au retrait d'agrément ; les décisions sont publiées et les recours vont à la Cour de justice de la CEMAC.",
+    "moyen": "Pouvoir réglementaire : le Règlement Général (adopté par le Collège, homologué par le Comité Ministériel) et des instructions, circulaires, communiqués, avis et recommandations. Agrément, autorisation, enregistrement : préalable obligatoire, retirable par décision motivée, liste publiée sur le site. Habilitation : pour les personnes physiques, après examen, avec carte professionnelle. Approbation des statuts et règlements. Pénalités de retard. Injonction : faire cesser les manquements, saisine du juge en urgence, séquestre. Contrôle et enquête : sur pièces ou sur place, secret professionnel inopposable, entrave sanctionnée. Sanctions disciplinaires : avertissement, blâme, suspension, révocation des dirigeants, retrait d'agrément (avec liquidation) ; sanctions pécuniaires. Médiation : un membre du Collège désigné médiateur. Recours devant la Cour de justice de la CEMAC, non suspensifs.",
+    "long": "Pouvoir réglementaire : le Règlement Général (adopté par le Collège, homologué par le Comité Ministériel) et des instructions, circulaires, communiqués, avis et recommandations. Agrément, autorisation, enregistrement : préalable obligatoire, retirable par décision motivée, liste publiée sur le site. Habilitation : pour les personnes physiques, après examen, avec carte professionnelle. Approbation des statuts et règlements. Pénalités de retard. Injonction : faire cesser les manquements, saisine du juge en urgence, séquestre. Contrôle et enquête : sur pièces ou sur place, secret professionnel inopposable, entrave sanctionnée. Sanctions disciplinaires : avertissement, blâme, suspension, révocation des dirigeants, retrait d'agrément (avec liquidation) ; sanctions pécuniaires. Médiation : un membre du Collège désigné médiateur. Recours devant la Cour de justice de la CEMAC, non suspensifs."
+   },
+   "fiches": [
+    {
+     "titre": "Les 9 pouvoirs (art. 20)",
+     "contenu": "1. **Réglementaire**\n2. **D'approbation**\n3. **D'agrément** et **d'enregistrement**\n4. **D'habilitation**\n5. **D'injonction**\n6. **De contrôle et d'enquête**\n7. **De médiation**\n8. **D'application de pénalités**\n9. **De sanction**"
+    },
+    {
+     "titre": "Pouvoir réglementaire (art. 21)",
+     "contenu": "La COSUMAF prend un **Règlement Général** qui précise droits et obligations des acteurs et l'organisation du marché. Adopté par le **Collège**, il est **homologué par le Comité Ministériel de l'UMAC** avant d'entrer en vigueur.\n\nElle précise les modalités d'application par voie d'**instructions, circulaires, communiqués, avis et recommandations**."
+    },
+    {
+     "titre": "Agrément, autorisation, enregistrement (art. 22 à 24)",
+     "contenu": "- Préalable **obligatoire** avant d'intervenir ou d'exercer\n- **Retrait** possible par **décision motivée** (violation des textes ou des obligations professionnelles et déontologiques)\n- La COSUMAF **tient et publie sur son site** la liste des agréments, autorisations et enregistrements\n- Le retrait d'agrément **entraîne la liquidation** de la structure (règles fixées par un Règlement CEMAC)"
+    },
+    {
+     "titre": "Habilitation (art. 25)",
+     "contenu": "Concerne les **personnes physiques** placées sous l'autorité ou exerçant certaines fonctions au sein des structures contrôlées.\n\n- Accordée à l'issue d'un **examen** organisé par la COSUMAF ou sous sa supervision\n- Donne lieu à la **carte professionnelle**\n- La COSUMAF tient et publie la **liste des personnes habilitées**\n- Le Règlement Général précise les fonctions, la périodicité des examens, la délivrance, la suspension, le retrait et le renouvellement"
+    },
+    {
+     "titre": "Approbation et pénalités de retard (art. 26-27)",
+     "contenu": "**Approbation** : la COSUMAF approuve les **statuts, règlements, textes et documents** des structures contrôlées, **y compris leurs modifications**.\n\n**Pénalités de retard** : applicables en cas de retard dans la **communication de documents ou informations** à la COSUMAF, dans la **diffusion d'une information au public**, ou dans le respect des **injonctions** et exigences."
+    },
+    {
+     "titre": "Injonction et séquestre (art. 28-29)",
+     "contenu": "**Injonction** : ordonner qu'il soit mis fin à un manquement ou comportement portant atteinte aux **intérêts des investisseurs** ou au **bon fonctionnement du marché** ; saisine de l'autorité judiciaire en **procédure d'urgence**.\n\n**Séquestre** : sur demande motivée à l'autorité judiciaire, mise sous séquestre de **fonds, valeurs, titres ou droits**, et consignation d'une somme d'argent."
+    },
+    {
+     "titre": "Contrôle et enquête (art. 30 à 32)",
+     "contenu": "- Sur **pièces** ou **sur place**\n- S'exerce aussi sur **toute opération portant sur des instruments financiers**\n- Inspecteurs : se faire communiquer **tout document**, **convoquer et entendre** toute personne, **accéder aux locaux** (professionnels ou personnels), si besoin avec la **force publique**\n- Le **secret professionnel n'est jamais opposable** aux inspecteurs\n- Elle peut recourir à des **agents de police judiciaire, experts judiciaires, commissaires aux comptes**, autres contrôleurs externes\n- **Entrave** = sanctions disciplinaires et pécuniaires, sans préjudice de poursuites\n- Les contrôleurs sont tenus au **secret professionnel**"
+    },
+    {
+     "titre": "Sanctions disciplinaires (art. 33 à 36)",
+     "contenu": "Visent les personnes, structures ou organismes **agréés** :\n1. **Avertissement**\n2. **Blâme**\n3. **Suspension** de tout ou partie des fonctions ou activités\n4. **Révocation** des dirigeants et administrateurs\n5. **Retrait d'agrément**\n\nSuspension et retrait d'agrément s'accompagnent d'une **interdiction d'usage des cartes professionnelles**. La révocation entraîne l'**interdiction d'exercer des fonctions d'administration ou de direction** pendant une durée fixée par le Règlement Général. Le retrait d'agrément entraîne la **liquidation**.\n\nLes **sanctions pécuniaires** visent les structures contrôlées et **toute personne intervenant sur le marché**. Les sanctions sont **rendues publiques** sur le site de la COSUMAF."
+    },
+    {
+     "titre": "Médiation et recours (art. 37 et 60)",
+     "contenu": "**Médiation** : la COSUMAF reçoit les **réclamations** de toute **association** de défense des porteurs d'instruments financiers ou de toute personne intéressée ; elle propose une **résolution amiable**. Elle désigne **un membre du Collège** comme **médiateur**.\n\n**Recours** contre ses décisions : devant la **Cour de Justice de la CEMAC** ; **non suspensifs**, mais la Cour peut ordonner **sursis à exécution**."
+    }
+   ],
+   "mnemos": [
+    "Sanctions disciplinaires, de la plus douce à la plus dure : A-B-S-R-R → Avertissement, Blâme, Suspension, Révocation, Retrait d'agrément."
+   ],
+   "definitions": [
+    {
+     "terme": "Décision de caractère général",
+     "definition": "Décision formulant des exigences réglementaires, exécutoire dès sa publication."
+    },
+    {
+     "terme": "Décision de caractère individuel",
+     "definition": "Injonction, habilitation, visa, autorisation, agrément, enregistrement ou sanction ; exécutoire dès sa notification."
+    },
+    {
+     "terme": "Injonction",
+     "definition": "Ordre de la COSUMAF de mettre fin à un manquement ou comportement portant atteinte aux investisseurs ou au marché."
+    },
+    {
+     "terme": "Médiation",
+     "definition": "Procédure amiable par laquelle un membre du Collège désigné médiateur traite les réclamations des investisseurs."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Comment obtient-on l'habilitation ?",
+     "verso": "À l'issue d'un examen organisé ou supervisé par la COSUMAF ; elle donne lieu à une carte professionnelle."
+    },
+    {
+     "recto": "Qu'est-ce que le séquestre ?",
+     "verso": "La mise sous séquestre de fonds, valeurs, titres ou droits, demandée à l'autorité judiciaire par demande motivée."
+    },
+    {
+     "recto": "Que provoque le retrait d'agrément ?",
+     "verso": "Interdiction d'usage des cartes professionnelles et liquidation de la structure."
+    },
+    {
+     "recto": "Comment le Règlement Général est-il adopté ?",
+     "verso": "Par le Collège, puis homologué par le Comité Ministériel de l'UMAC."
+    },
+    {
+     "recto": "Comment fonctionne la médiation ?",
+     "verso": "Un membre du Collège, médiateur, reçoit les réclamations et propose une résolution amiable."
+    },
+    {
+     "recto": "Qui reçoit l'habilitation ?",
+     "verso": "Les personnes physiques, après examen, avec délivrance d'une carte professionnelle."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Combien de pouvoirs la COSUMAF détient-elle selon l'art. 20 ?",
+     "choix": [
+      "5",
+      "7",
+      "11",
+      "9"
+     ],
+     "bonne": 3,
+     "explication": "Réglementaire, approbation, agrément/enregistrement, habilitation, injonction, contrôle/enquête, médiation, pénalités, sanction."
+    },
+    {
+     "q": "Quelle sanction entraîne obligatoirement la liquidation ?",
+     "choix": [
+      "Le blâme",
+      "Le retrait d'agrément",
+      "La suspension",
+      "L'avertissement"
+     ],
+     "bonne": 1,
+     "explication": "Le retrait d'agrément entraîne la liquidation, selon un Règlement CEMAC."
+    },
+    {
+     "q": "Qui peut accorder l'habilitation et délivrer les cartes professionnelles ?",
+     "choix": [
+      "Le Secrétaire général, sous l'autorité du Président",
+      "La BVMAC sur proposition des sociétés de bourse",
+      "Le Comité Ministériel de l'UMAC en séance",
+      "La Cour de Justice de la CEMAC"
+     ],
+     "bonne": 0,
+     "explication": "Art. 59 : le SG, sous l'autorité du Président."
+    },
+    {
+     "q": "Le recours contre une décision de la COSUMAF est...",
+     "choix": [
+      "Suspensif",
+      "Interdit",
+      "Non suspensif mais sursis possible",
+      "Porté devant la BEAC"
+     ],
+     "bonne": 2,
+     "explication": "Devant la Cour de Justice de la CEMAC ; la Cour peut ordonner un sursis."
+    },
+    {
+     "q": "Quelle sanction vise les dirigeants et administrateurs ?",
+     "choix": [
+      "Le retrait d'agrément",
+      "La suspension d'agrément",
+      "La révocation",
+      "La consignation"
+     ],
+     "bonne": 2,
+     "explication": "Avec interdiction d'exercer des fonctions d'administration ou de direction."
+    },
+    {
+     "q": "Le Règlement Général de la COSUMAF doit être...",
+     "choix": [
+      "Adopté par la BEAC puis publié par la BVMAC",
+      "Adopté par le Collège puis homologué par le Comité Ministériel",
+      "Voté par chaque Parlement national des États membres",
+      "Signé par le Président de la COSUMAF seul"
+     ],
+     "bonne": 1,
+     "explication": "Art. 21."
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Les pouvoirs de la COSUMAF",
+     "type": "boxes",
+     "legende": "Réglementer, autoriser, contrôler, sanctionner.",
+     "titreBloc": "Les 9 pouvoirs",
+     "sous": "du texte à la sanction",
+     "fleche": "du préventif au répressif",
+     "blocs": [
+      {
+       "t": "Normatif",
+       "pts": [
+        "Pouvoir réglementaire (RG, instructions, circulaires)",
+        "Approbation des statuts et règlements"
+       ]
+      },
+      {
+       "t": "Préventif",
+       "pts": [
+        "Agrément, autorisation, enregistrement",
+        "Habilitation des personnes physiques",
+        "Pénalités de retard"
+       ]
+      },
+      {
+       "t": "Contrôle",
+       "pts": [
+        "Injonction",
+        "Contrôle et enquête sur pièces et sur place"
+       ]
+      },
+      {
+       "t": "Répressif et amiable",
+       "pts": [
+        "Sanctions disciplinaires et pécuniaires",
+        "Médiation"
+       ]
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Les recours contre les décisions de la COSUMAF sont portés devant la {{Cour de Justice}} de la CEMAC et ne sont pas {{suspensifs}}.",
+    "La COSUMAF dispose de {{9}} pouvoirs, dont le pouvoir {{réglementaire}} et le pouvoir de sanction."
+   ],
+   "ordre": [
+    {
+     "titre": "Remets les sanctions disciplinaires de la plus légère à la plus lourde",
+     "consigne": "Du moins grave au plus grave.",
+     "items": [
+      "Avertissement",
+      "Blâme",
+      "Suspension de tout ou partie des activités",
+      "Révocation des dirigeants et administrateurs",
+      "Retrait d'agrément"
+     ]
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "g1-objet-definitions",
+   "titre": "À connaître · 1 · Règlement Général : objet, champ, définitions clés et approche par les risques",
+   "resume": {
+    "court": "Adopté le 23 mai 2023, le Règlement Général précise l'application du Règlement 01/22 (687 articles). Il définit les termes clés (APE, placement privé, offre publique, entreprise de marché, Sukuk, visa, prise ferme, jeton, DEEP, notation, PSAN, OPC, FIA, OPCVM) et impose une approche fondée sur les risques avec une cartographie des risques transmise avant le 31 mars de chaque année.",
+    "moyen": "Pris en vertu de l'art. 21 du Règlement 01/22, il précise les droits et obligations des acteurs, les modalités pratiques de l'organisation du marché et l'application du Règlement. Avant son adoption par le Collège (et toute modification), il fait l'objet d'une consultation publique dans les États membres ; il est publié au bulletin officiel de la COSUMAF et sur son site. Définitions : APE (offre de titres au public avec visa), placement privé (levée uniquement auprès d'investisseurs qualifiés), offre publique (prise de contrôle ou renforcement d'une participation dans une société cotée), entreprise de marché (SA avec CA), Sukuk (adossé à un actif tangible à échéance fixe, droit de propriété sur les actifs de l'émetteur), visa (n'implique ni approbation de l'opportunité de l'opération, ni authentification des éléments comptables), prise ferme (engagement ferme et irrévocable d'acquérir avant l'offre au public), jeton, DEEP, notation, PSAN, OPC (OPCVM et FIA). La COSUMAF applique une approche basée sur les risques ; les structures contrôlées établissent une cartographie des risques mise à jour et transmise au plus tard le 31 mars avec le rapport annuel de contrôle interne.",
+    "long": "Pris en vertu de l'art. 21 du Règlement 01/22, il précise les droits et obligations des acteurs, les modalités pratiques de l'organisation du marché et l'application du Règlement. Avant son adoption par le Collège (et toute modification), il fait l'objet d'une consultation publique dans les États membres ; il est publié au bulletin officiel de la COSUMAF et sur son site. Définitions : APE (offre de titres au public avec visa), placement privé (levée uniquement auprès d'investisseurs qualifiés), offre publique (prise de contrôle ou renforcement d'une participation dans une société cotée), entreprise de marché (SA avec CA), Sukuk (adossé à un actif tangible à échéance fixe, droit de propriété sur les actifs de l'émetteur), visa (n'implique ni approbation de l'opportunité de l'opération, ni authentification des éléments comptables), prise ferme (engagement ferme et irrévocable d'acquérir avant l'offre au public), jeton, DEEP, notation, PSAN, OPC (OPCVM et FIA). La COSUMAF applique une approche basée sur les risques ; les structures contrôlées établissent une cartographie des risques mise à jour et transmise au plus tard le 31 mars avec le rapport annuel de contrôle interne."
+   },
+   "fiches": [
+    {
+     "titre": "Objet et adoption (art. 2)",
+     "contenu": "Établi en vertu de l'**art. 21 du Règlement 01/22**. Il précise :\n- les **droits et obligations** des intervenants et acteurs du marché\n- les **modalités pratiques** d'organisation et de fonctionnement du marché\n- les **modalités d'application** du Règlement 01/22\n\n**Consultation publique** dans les États membres **avant adoption** par le Collège (y compris pour toute modification). Publié au **bulletin officiel** et sur le **site de la COSUMAF**. Adopté à **Libreville** le **23 mai 2023** (art. 687 : entre en vigueur le **premier jour suivant** son adoption ; abroge le **Règlement Général du 23 juillet 2008**)."
+    },
+    {
+     "titre": "Définitions : APE, placement privé, offre publique",
+     "contenu": "- **APE** : procédure par laquelle un émetteur (**État ou entreprise**) lève des capitaux par **offre de titres au public**, avec émission de titres financiers sous le contrôle du régulateur, qui doit apposer son **visa** sur le document d'information\n- **Placement privé** : levée de capitaux **uniquement auprès d'investisseurs qualifiés**\n- **Offre publique** : procédure permettant de **prendre le contrôle** d'une société cotée ou de **renforcer une participation** dans une société cotée déjà contrôlée\n- **Entreprise de marché** : **SA avec conseil d'administration** qui organise, anime, gère et assure le bon fonctionnement d'un ou plusieurs **marchés réglementés** ; fixe les règles d'admission à la cote, gère les plateformes de cotation, assure la promotion du marché"
+    },
+    {
+     "titre": "Définitions : Sukuk, visa, prise ferme",
+     "contenu": "- **Sukuk** : titre financier **islamique**, équivalent à une **obligation ordinaire**, soumis à la **Charia** ; **adossé à un actif tangible à échéance fixe**, confère un **droit de propriété sur les actifs** de l'émetteur ; le porteur reçoit une **partie du profit** de l'actif sous-jacent ; émis par **États et entreprises**\n- **Visa** : autorisation donnée à un émetteur **autre qu'un État membre** (APE) et à l'**initiateur d'une offre publique**. Le visa **n'implique ni approbation de l'opportunité de l'opération, ni authentification des éléments comptables et financiers**\n- **Prise ferme** : engagement **ferme et irrévocable** d'un intermédiaire ou d'un syndicat de placement d'**acquérir les titres avant** qu'ils soient proposés au public ; l'émetteur est ainsi assuré de placer la totalité ; l'intermédiaire revend ensuite sur le marché"
+    },
+    {
+     "titre": "Définitions : jeton, DEEP, notation, PSAN, OPC",
+     "contenu": "- **Jeton** : bien incorporel représentant sous forme numérique des droits, émis/inscrits/conservés/transférés via un **DEEP**\n- **DEEP** (dispositif d'enregistrement électronique partagé) : système garantissant l'**enregistrement et l'intégrité des inscriptions** et permettant d'identifier les propriétaires, la nature et le nombre de titres\n- **Notation** : **opinion** émise par une agence spécialisée agréée appréciant la **solvabilité financière** d'un émetteur ou d'une opération\n- **PSAN** : professionnel fournissant des services d'**achat-vente**, **conservation**, **plateforme de négociation** d'actifs numériques et autres services (réception-transmission d'ordres, gestion de portefeuille, conseil, placement)\n- **OPC** : véhicules d'investissement collectifs gérés par une **société de gestion agréée** ; = **OPCVM** + **FIA**\n- **FIA** : fonds recueillant des fonds de plusieurs investisseurs pour les investir dans des actifs divers **autres que des actions et des obligations**\n- **OPCVM** : portefeuilles de valeurs mobilières gérés par des professionnels, détenus collectivement sous forme de parts ou actions, **investissant principalement en actions et obligations**"
+    },
+    {
+     "titre": "À qui s'applique le Règlement Général (art. 3)",
+     "contenu": "Collège, Commission des sanctions, dirigeants et personnel de la COSUMAF · **investisseurs** · **émetteurs** · **organismes de marché** · **intermédiaires de marché** · **OPC**, sociétés de gestion, dépositaires · **commissaires aux comptes** · **organismes de notation** · **analystes financiers indépendants** · **organismes de garantie des émissions** · **Fonds de garantie du marché** · toute personne intervenant sur le marché."
+    },
+    {
+     "titre": "Approche basée sur les risques (art. 4-5)",
+     "contenu": "- **Régulateur** (art. 4) : contrôle fondé sur les **risques** : **identifier et évaluer** les risques de marché, prendre des mesures **proportionnées**\n- **Acteurs** (art. 5) : approche basée sur les risques pour allouer des moyens aux **clients et produits à risques plus élevés** ; ils établissent une **cartographie des risques**, **régulièrement mise à jour**, indiquant le niveau d'exposition\n- **Échéance : au plus tard le 31 mars de chaque année**, avec le **rapport annuel de contrôle interne**\n- Une **instruction** précise les modalités d'établissement de la cartographie"
+    }
+   ],
+   "mnemos": [
+    "31 mars : cartographie des risques + rapport annuel de contrôle interne + cartographie LBC/FT."
+   ],
+   "definitions": [
+    {
+     "terme": "Notation",
+     "definition": "Opinion d'une agence agréée sur la solvabilité financière d'un émetteur ou d'une opération."
+    },
+    {
+     "terme": "Approche basée sur les risques",
+     "definition": "Méthode où le régulateur et les acteurs concentrent leurs moyens sur les clients et produits à risques élevés."
+    },
+    {
+     "terme": "DEEP",
+     "definition": "Dispositif d'enregistrement électronique partagé garantissant l'enregistrement et l'intégrité des inscriptions et l'identification des propriétaires de titres."
+    },
+    {
+     "terme": "Prise ferme (RG)",
+     "definition": "Engagement ferme et irrévocable d'un intermédiaire ou syndicat d'acquérir les titres avant de les proposer au public."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Qu'est-ce qu'une offre publique ?",
+     "verso": "Procédure permettant de prendre le contrôle d'une société cotée ou de renforcer une participation dans une société cotée déjà contrôlée."
+    },
+    {
+     "recto": "Qu'est-ce qu'un OPCVM ?",
+     "verso": "Portefeuille de valeurs mobilières géré par des professionnels, détenu collectivement sous forme de parts ou actions, investissant principalement en actions et obligations."
+    },
+    {
+     "recto": "Qu'est-ce qu'un Sukuk ?",
+     "verso": "Un titre financier islamique équivalent à une obligation, adossé à un actif tangible à échéance fixe, soumis à la Charia."
+    },
+    {
+     "recto": "Que doit contenir la cartographie des risques ?",
+     "verso": "Les risques auxquels la structure est exposée et son niveau d'exposition ; mise à jour régulièrement."
+    },
+    {
+     "recto": "Quel est l'objet du Règlement Général ?",
+     "verso": "Préciser les droits et obligations des acteurs, les modalités d'organisation du marché et d'application du Règlement 01/22."
+    },
+    {
+     "recto": "Que contient la cartographie des risques ?",
+     "verso": "Le niveau d'exposition aux risques, mis à jour régulièrement, à transmettre au plus tard le 31 mars avec le rapport annuel de contrôle interne."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Date limite de transmission de la cartographie des risques ?",
+     "choix": [
+      "31 mars",
+      "31 janvier",
+      "30 juin",
+      "31 décembre"
+     ],
+     "bonne": 0,
+     "explication": "Au plus tard le 31 mars de chaque année."
+    },
+    {
+     "q": "Le visa de la COSUMAF implique...",
+     "choix": [
+      "L'approbation de l'opportunité de l'opération",
+      "La garantie du rendement pour les souscripteurs",
+      "L'authentification des comptes de l'émetteur",
+      "Aucune approbation de l'opportunité ni authentification des comptes"
+     ],
+     "bonne": 3,
+     "explication": "Art. 1 du RG."
+    },
+    {
+     "q": "Un Sukuk est adossé à...",
+     "choix": [
+      "Un actif tangible à échéance fixe",
+      "Une action",
+      "Un taux d'intérêt garanti",
+      "Aucun actif"
+     ],
+     "bonne": 0,
+     "explication": "Il confère un droit de propriété sur les actifs de l'émetteur."
+    },
+    {
+     "q": "Quel Règlement Général le texte de 2023 abroge-t-il ?",
+     "choix": [
+      "Celui du 11 avril 2016",
+      "Celui du 21 juillet 2022",
+      "Celui de 2019",
+      "Celui du 23 juillet 2008"
+     ],
+     "bonne": 3,
+     "explication": "Art. 686."
+    },
+    {
+     "q": "Un FIA investit principalement dans...",
+     "choix": [
+      "Des actions et obligations cotées principalement",
+      "Des actifs divers autres que actions et obligations",
+      "Uniquement de l'immobilier résidentiel de la zone",
+      "Uniquement des devises et des matières premières"
+     ],
+     "bonne": 1,
+     "explication": "Définition de l'art. 1."
+    },
+    {
+     "q": "Avant l'adoption d'une modification du Règlement Général...",
+     "choix": [
+      "Une consultation publique est organisée dans les États membres",
+      "Un référendum est organisé dans les États membres",
+      "Le vote du Parlement de chaque État est requis",
+      "L'avis conforme de la BEAC est recueilli"
+     ],
+     "bonne": 0,
+     "explication": "Art. 2."
+    }
+   ],
+   "trous": [
+    "Un Sukuk est adossé à un actif {{tangible}} à échéance fixe et soumis à la {{Charia}}.",
+    "La cartographie des risques est transmise au plus tard le {{31 mars}} de chaque année avec le rapport annuel de {{contrôle interne}}."
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "m0-histoire",
+   "titre": "Pour aller plus loin · 0 · Histoire et textes fondateurs : de la COSUMAF à l'unification du marché",
+   "resume": {
+    "court": "Acte additionnel du 8 décembre 2001 (création de la COSUMAF), siège à Libreville (23 janvier 2003), Règlement n°06/03 (12 novembre 2003), Acte additionnel n°06/17 du 19 février 2018 (unification du marché : COSUMAF unique à Libreville, BVMAC unique à Douala, Dépositaire Central unique), Règlement n°01/22 du 21 juillet 2022, Règlement Général du 23 mai 2023.",
+    "moyen": "Le marché financier régional repose sur une chaîne de textes. L'Acte additionnel n°11/00-CEMAC-CCE-02 du 14 décembre 2000 fixe le siège de la BVMAC à Libreville. L'Acte n°03/01-CEMAC-CE-03 du 8 décembre 2001 crée la COSUMAF, organe communautaire de tutelle, de régulation et de contrôle. L'Acte n°08/CEMAC-CE-04 du 23 janvier 2003 fixe son siège à Libreville. Le Règlement n°06/03-CEMAC-UMAC du 12 novembre 2003 (modifié le 9 juin 2008) organise le marché. L'Acte additionnel n°06/17-CEMAC-COSUMAF-CCE-SE du 19 février 2018, adopté en session du 31 octobre 2017 à N'Djamena, unifie le marché régional et le marché camerounais : un régulateur unique (COSUMAF, Libreville), une entreprise de marché unique (BVMAC, Douala), un dépositaire central unique (BEAC à titre transitoire). La BVMAC et la Bourse de Douala (DSX) fusionnent ; les États cèdent des participations en bourse et entrent à 30 % (5 % par État) au capital de la Bourse régionale. Le Règlement n°01/22 du 21 juillet 2022 remplace le Règlement 06/03 ; le Règlement Général de la COSUMAF du 23 mai 2023 remplace celui du 23 juillet 2008.",
+    "long": "Le marché financier régional repose sur une chaîne de textes. L'Acte additionnel n°11/00-CEMAC-CCE-02 du 14 décembre 2000 fixe le siège de la BVMAC à Libreville. L'Acte n°03/01-CEMAC-CE-03 du 8 décembre 2001 crée la COSUMAF, organe communautaire de tutelle, de régulation et de contrôle. L'Acte n°08/CEMAC-CE-04 du 23 janvier 2003 fixe son siège à Libreville. Le Règlement n°06/03-CEMAC-UMAC du 12 novembre 2003 (modifié le 9 juin 2008) organise le marché. L'Acte additionnel n°06/17-CEMAC-COSUMAF-CCE-SE du 19 février 2018, adopté en session du 31 octobre 2017 à N'Djamena, unifie le marché régional et le marché camerounais : un régulateur unique (COSUMAF, Libreville), une entreprise de marché unique (BVMAC, Douala), un dépositaire central unique (BEAC à titre transitoire). La BVMAC et la Bourse de Douala (DSX) fusionnent ; les États cèdent des participations en bourse et entrent à 30 % (5 % par État) au capital de la Bourse régionale. Le Règlement n°01/22 du 21 juillet 2022 remplace le Règlement 06/03 ; le Règlement Général de la COSUMAF du 23 mai 2023 remplace celui du 23 juillet 2008."
+   },
+   "fiches": [
+    {
+     "titre": "Chronologie des textes",
+     "contenu": "- **14 déc. 2000** : Acte additionnel n°11/00-CEMAC-CCE-02 : siège de la **BVMAC à Libreville**\n- **8 déc. 2001** : Acte additionnel n°03/01-CEMAC-CE-03 : **création de la COSUMAF** (organe communautaire doté de la personnalité juridique ; organe de **tutelle, de régulation et de contrôle**)\n- **23 janv. 2003** : Acte additionnel n°08/CEMAC-CE-04 : siège de la **COSUMAF à Libreville**\n- **12 nov. 2003** : Règlement n°06/03-CEMAC-UMAC (organisation, fonctionnement et surveillance du marché), **modifié le 9 juin 2008**\n- **23 juil. 2008** : premier Règlement Général de la COSUMAF\n- **31 oct. 2017 / 19 fév. 2018** : Acte additionnel n°06/17-CEMAC-COSUMAF-CCE-SE : **unification** du marché\n- **21 juil. 2022** : Règlement n°01/22/CEMAC/UMAC/CM/COSUMAF (remplace le 06/03)\n- **23 mai 2023** : **Règlement Général de la COSUMAF** (remplace celui de 2008)\n- **7 oct. 2026** : Règlement modifiant les art. 88 à 91 (placement privé), en vigueur le **1er nov. 2026**"
+    },
+    {
+     "titre": "L'unification du marché (Acte additionnel 06/17, art. 1 à 6)",
+     "contenu": "- **Structures unifiées** : marché régional + marché camerounais, au plus tard le **30 juin 2019**\n- **Autorité de régulation unique** : **COSUMAF**, à **Libreville** (tutelle, supervision, contrôle)\n- **Entreprise de marché unique** : **BVMAC**, à **Douala** (gestion et animation de la Bourse)\n- **Dépositaire Central unique** : la **BEAC**, à titre **transitoire** jusqu'à l'agrément d'une entité privée dédiée, au plus tard le **31 décembre 2022**\n- **Fusion BVMAC / Bourse de Douala (Douala Stock Exchange)** selon l'**Acte uniforme OHADA**, au plus tard le **30 juin 2019**\n- **Siège de la Bourse régionale** transféré de **Libreville à Douala**\n- BVMAC, **CAA** (Caisse Autonome d'Amortissement du Cameroun) et **CRCT** (Cellule de Règlement et de Conservation des Titres) : arrêt de leurs activités de conservation de titres avant le 30 juin 2019\n- Pendant la transition : **double cotation** et articulation des plateformes sous le contrôle de la COSUMAF et de la **CMF** (Commission des Marchés Financiers du Cameroun)"
+    },
+    {
+     "titre": "Mesures d'accompagnement (art. 7 à 9)",
+     "contenu": "- **Moyens de la COSUMAF** : États membres : subventions réparties **à parts égales entre les 6 États**, payées en début d'exercice par **débit direct** à la BEAC\n- **Dans un délai de 24 mois** à compter de la signature, les États procèdent à : **cession partielle ou totale en bourse** de leurs participations dans les entreprises publiques, parapubliques ou PPP · **cotation obligatoire** (loi) des entreprises gérant l'épargne publique (**banques, assurances**) · cotation des **multinationales ou filiales** · **mesures incitatives** pour les secteurs stratégiques · **entrée dans le capital de la Bourse régionale à hauteur de 30 %**, soit **5 % par État**\n- La **BEAC** supervise la mise en œuvre de l'Acte\n- Contexte : migration vers le **financement par les marchés de capitaux** en substitution aux financements directs de la Banque centrale"
+    },
+    {
+     "titre": "Acte additionnel de création de la COSUMAF (2001)",
+     "contenu": "- **Art. 1** : création, dans le cadre de l'**UMAC**, d'un organe communautaire : la **Commission de Surveillance du Marché Financier de l'Afrique Centrale**, doté de la **personnalité juridique**\n- **Art. 2** : elle est l'**organe de tutelle, de régulation et de contrôle du Marché Financier Régional**\n- **Art. 3** : les dispositions sur son **organisation et fonctionnement** sont adoptées par le **Comité Ministériel de l'UMAC**\n- **Art. 4** : entrée en vigueur à la **signature**, publication au **Bulletin Officiel de la Communauté**\n- Signé à **Yaoundé** (Comité Ministériel de l'UMAC du **8 décembre 2001**)\n- Justification : la **protection du public et des épargnants** exige un organe communautaire de régulation et de contrôle"
+    }
+   ],
+   "mnemos": [
+    "COSUMAF = Libreville (régulateur) · BVMAC = Douala (bourse) · BEAC = dépositaire central (transitoire) : le trio de l'unification."
+   ],
+   "definitions": [
+    {
+     "terme": "Unification du marché financier",
+     "definition": "Fusion des structures du marché régional et du marché camerounais autour de la COSUMAF, de la BVMAC et d'un Dépositaire Central unique."
+    },
+    {
+     "terme": "Acte additionnel",
+     "definition": "Texte adopté par la Conférence des Chefs d'État de la CEMAC, de portée communautaire (création de la COSUMAF, unification du marché)."
+    },
+    {
+     "terme": "CAA",
+     "definition": "Caisse Autonome d'Amortissement du Cameroun, dont l'activité de conservation de titres cesse avant le 30 juin 2019."
+    },
+    {
+     "terme": "Comité Ministériel de l'UMAC",
+     "definition": "Organe qui adopte les règlements du marché, homologue le Règlement Général de la COSUMAF et approuve son budget."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quel est le délai laissé aux États pour les mesures de l'art. 8 (cessions, cotations obligatoires) ?",
+     "verso": "24 mois à compter de la signature de l'Acte."
+    },
+    {
+     "recto": "Quelles dates retenir pour le dépositaire central transitoire ?",
+     "verso": "La BEAC l'est à titre transitoire jusqu'à l'agrément d'une entité privée, au plus tard le 31 décembre 2022."
+    },
+    {
+     "recto": "Quel règlement de 2003 le Règlement 01/22 a-t-il abrogé ?",
+     "verso": "Le Règlement n°06/03-CEMAC-UMAC du 12 novembre 2003 (modifié le 9 juin 2008)."
+    },
+    {
+     "recto": "Qui adopte l'organisation et le fonctionnement de la COSUMAF ?",
+     "verso": "Le Comité Ministériel de l'UMAC (art. 3)."
+    },
+    {
+     "recto": "Quelles entreprises devaient être soumises à une cotation obligatoire ?",
+     "verso": "Celles gérant ou conservant l'épargne publique (banques, assurances) et les multinationales ou filiales opérant dans la zone."
+    },
+    {
+     "recto": "Quand et comment la COSUMAF a-t-elle été créée ?",
+     "verso": "Acte additionnel n°03/01-CEMAC-CE-03 du 8 décembre 2001."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Quel acte a créé la COSUMAF ?",
+     "choix": [
+      "Acte du 14 décembre 2000",
+      "Règlement du 12 novembre 2003",
+      "Règlement du 21 juillet 2022",
+      "Acte du 8 décembre 2001"
+     ],
+     "bonne": 3,
+     "explication": "Acte additionnel n°03/01-CEMAC-CE-03."
+    },
+    {
+     "q": "Où est établie la BVMAC depuis l'unification ?",
+     "choix": [
+      "Libreville",
+      "Yaoundé",
+      "Douala",
+      "N'Djamena"
+     ],
+     "bonne": 2,
+     "explication": "Le siège a été transféré de Libreville à Douala."
+    },
+    {
+     "q": "Qui est dépositaire central à titre transitoire selon l'Acte d'unification ?",
+     "choix": [
+      "La COSUMAF",
+      "La BVMAC",
+      "La BEAC",
+      "La COBAC"
+     ],
+     "bonne": 2,
+     "explication": "Au plus tard jusqu'au 31 décembre 2022."
+    },
+    {
+     "q": "Date de l'Acte additionnel d'unification ?",
+     "choix": [
+      "31 octobre 2017",
+      "30 juin 2019",
+      "19 février 2018",
+      "21 juillet 2022"
+     ],
+     "bonne": 2,
+     "explication": "Adopté en session le 31 octobre 2017, daté du 19 février 2018."
+    },
+    {
+     "q": "L'Acte additionnel du 14 décembre 2000 (n° 11/00) fixe le siège de la BVMAC à :",
+     "choix": [
+      "Douala",
+      "Libreville",
+      "Yaoundé",
+      "N'Djamena"
+     ],
+     "bonne": 1,
+     "explication": "Libreville à l'origine; le siège a été transféré à Douala par l'unification."
+    },
+    {
+     "q": "La COSUMAF est un organe communautaire doté de :",
+     "choix": [
+      "la seule autonomie budgétaire",
+      "un pouvoir législatif",
+      "la personnalité juridique",
+      "un statut d'établissement bancaire"
+     ],
+     "bonne": 2,
+     "explication": "Art. 1 de l'Acte additionnel du 8 décembre 2001."
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets les textes dans l'ordre chronologique",
+     "items": [
+      "Acte additionnel n° 03/01 : création de la COSUMAF (2001)",
+      "Règlement 06/03 (2003)",
+      "Acte additionnel 06/17 : unification du marché (2018)",
+      "Règlement 01/22 (2022)",
+      "Règlement Général de la COSUMAF (2023)"
+     ]
+    }
+   ],
+   "trous": [
+    "L'Acte additionnel de création de la COSUMAF a été signé à {{Yaoundé}} le {{8 décembre 2001}}.",
+    "La COSUMAF a été créée par l'Acte additionnel n° {{03/01-CEMAC-CE-03}} du {{8 décembre 2001}}."
+   ],
+   "schemas": [
+    {
+     "titre": "Les textes fondateurs",
+     "type": "timeline",
+     "legende": "De 2000 à 2023.",
+     "events": [
+      {
+       "d": "14 déc. 2000",
+       "t": "Siège de la BVMAC",
+       "s": "Acte additionnel n° 11/00 : Libreville."
+      },
+      {
+       "d": "8 déc. 2001",
+       "t": "Création de la COSUMAF",
+       "s": "Acte additionnel n° 03/01-CEMAC-CE-03."
+      },
+      {
+       "d": "12 nov. 2003",
+       "t": "Règlement 06/03",
+       "s": "Organisation du marché ; modifié le 9 juin 2008."
+      },
+      {
+       "d": "19 févr. 2018",
+       "t": "Unification",
+       "s": "Acte 06/17 : COSUMAF, BVMAC (Douala), DC uniques ; fusion avec la Bourse de Douala."
+      },
+      {
+       "d": "21 juil. 2022",
+       "t": "Règlement 01/22",
+       "s": "Remplace le 06/03."
+      },
+      {
+       "d": "23 mai 2023",
+       "t": "RG COSUMAF",
+       "s": "Remplace celui du 23 juillet 2008."
+      }
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  },
+  {
+   "id": "m4-organes",
+   "titre": "Pour aller plus loin · 4 · Organisation de la COSUMAF : Collège, Commission des sanctions, budget",
+   "resume": {
+    "court": "La COSUMAF a deux organes : le Collège (1 Président + 11 membres, quorum de 9) et la Commission des sanctions (5 membres, instance de jugement). Le Président a un mandat de 5 ans non renouvelable ; les autres membres 3 ans renouvelables une fois.",
+    "moyen": "Le Collège comprend un Président nommé par la Conférence des Chefs d'État et onze membres nommés par le Comité Ministériel : six représentants des États, un de la BEAC, un juriste, un de la Commission de la CEMAC, un de la COBAC et un expert-comptable. Il se réunit au moins une fois par trimestre, délibère valablement si 9 membres au moins sont présents, à la majorité simple (voix prépondérante du Président). Le Secrétaire général est nommé par la Conférence des Chefs d'État pour 5 ans non renouvelables. La Commission des sanctions (5 membres, mandat de 3 ans renouvelable une fois) est l'instance de jugement et statue dans une procédure contradictoire. Le budget est soumis au Comité Ministériel au plus tard le 30 novembre et les comptes sont certifiés par un commissaire aux comptes (3 ans renouvelable une fois).",
+    "long": "Le Collège comprend un Président nommé par la Conférence des Chefs d'État et onze membres nommés par le Comité Ministériel : six représentants des États, un de la BEAC, un juriste, un de la Commission de la CEMAC, un de la COBAC et un expert-comptable. Il se réunit au moins une fois par trimestre, délibère valablement si 9 membres au moins sont présents, à la majorité simple (voix prépondérante du Président). Le Secrétaire général est nommé par la Conférence des Chefs d'État pour 5 ans non renouvelables. La Commission des sanctions (5 membres, mandat de 3 ans renouvelable une fois) est l'instance de jugement et statue dans une procédure contradictoire. Le budget est soumis au Comité Ministériel au plus tard le 30 novembre et les comptes sont certifiés par un commissaire aux comptes (3 ans renouvelable une fois)."
+   },
+   "fiches": [
+    {
+     "titre": "Les deux organes (art. 39)",
+     "contenu": "1. Le **Collège**\n2. La **Commission des sanctions**\n\nStructure de **contrôle interne et conformité** (art. 70) : audits réguliers, **rapport annuel** transmis au Collège."
+    },
+    {
+     "titre": "Composition du Collège (art. 40)",
+     "contenu": "**12 membres** :\n- **1 Président** nommé par la **Conférence des Chefs d'État** de la CEMAC\n- **11 membres** nommés par le **Comité Ministériel de l'UMAC** :\n  - **6** représentants des États membres (un par État, sur proposition de l'État)\n  - **1** représentant de la **BEAC** (sur proposition du Gouverneur)\n  - **1 juriste** (proposé par le Président de la COSUMAF)\n  - **1** représentant de la **Commission de la CEMAC**\n  - **1** représentant de la **COBAC** (sur proposition du Secrétaire général de la COBAC)\n  - **1 expert-comptable** (proposé par le Président de la COSUMAF)\n\nChaque membre nommé par le Comité a un **suppléant**."
+    },
+    {
+     "titre": "Mandats et conditions (art. 41 à 49)",
+     "contenu": "- **Président** : **5 ans, non renouvelable**\n- **Autres membres** : **3 ans, renouvelable une fois** ; révocables à tout instant par le Comité Ministériel pour motif légitime et sérieux\n- **Secrétaire général** : nommé par la Conférence des Chefs d'État pour **5 ans non renouvelables**\n- Compétence juridique, financière, économique + offres publiques, admission, placements\n- Pas de condamnation infamante, mise en débet, interdiction de gérer ; pas de condamnation pour infraction économique ou financière\n- **Serment** devant la **Cour de Justice de la CEMAC** avant l'entrée en fonction\n- Obligations : déclarer fonctions des **5 dernières années**, liste des titres détenus, **s'abstenir** de délibérer en cas d'intérêt\n- **Secret professionnel**"
+    },
+    {
+     "titre": "Fonctionnement du Collège (art. 51 à 53)",
+     "contenu": "- Session ordinaire **au moins une fois par trimestre** ; sessions extraordinaires possibles\n- Convocation par le **Président** ou à la demande d'**au moins 4 membres**\n- Séances possibles par **visioconférence**\n- **Quorum : 9 membres au moins**\n- Décisions à la **majorité simple** ; **voix du Président prépondérante** en cas d'égalité\n- Urgence : décision par **consultation écrite**\n- Affaires rapportées par le **Secrétaire général**"
+    },
+    {
+     "titre": "Commission des sanctions (art. 61 à 69)",
+     "contenu": "**5 membres** nommés par le **Comité Ministériel** :\n1. Un **juriste**, **Président** de la Commission\n2. Un membre proposé par le **Premier Président de la Cour des Comptes de la CEMAC**\n3. **Trois** membres proposés par les organisations représentatives des **émetteurs APE**, des **investisseurs** et des **structures agréées**\n\n- Mandat **3 ans renouvelable une fois**\n- **Incompatible** avec la fonction de membre du Collège\n- Siège **quand elle est saisie par le Président** de la COSUMAF\n- Instance de **jugement** : instruit les dossiers disciplinaires et pécuniaires et **prend les sanctions**\n- Procédure **contradictoire** : information complète, copie des pièces, observations, assistance d'un conseil"
+    },
+    {
+     "titre": "Budget et comptes (art. 72-73)",
+     "contenu": "- Projet de **budget** de l'année suivante soumis à l'**approbation préalable du Comité Ministériel** au plus tard le **30 novembre**\n- Comptes certifiés par un **commissaire aux comptes** nommé par le Collège pour **3 ans renouvelable une fois**, inscrit sur la liste des experts-comptables agréés CEMAC\n- Le Collège donne **quitus au Président** (qui ne participe pas au vote)\n- Rapport du commissaire communiqué au Comité Ministériel"
+    }
+   ],
+   "mnemos": [
+    "Chiffres du Collège : 1 + 11 = 12 membres ; quorum 9 ; 4 membres peuvent convoquer ; Président 5 ans (non renouvelable), autres 3 ans (une fois)."
+   ],
+   "definitions": [
+    {
+     "terme": "Voix prépondérante",
+     "definition": "Voix du Président qui l'emporte en cas d'égalité lors d'un vote du Collège."
+    },
+    {
+     "terme": "Quitus",
+     "definition": "Décharge donnée au Président de la COSUMAF par le Collège sur sa gestion, au vu du rapport du commissaire aux comptes."
+    },
+    {
+     "terme": "Consultation écrite",
+     "definition": "Mode de décision du Collège en cas d'urgence, sans réunion."
+    },
+    {
+     "terme": "Procédure contradictoire",
+     "definition": "Procédure où la personne mise en cause dispose de l'information complète, peut recevoir copie des pièces, présenter ses observations et se faire assister d'un conseil."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Comment est composée la Commission des sanctions ?",
+     "verso": "5 membres : un juriste président, un membre proposé par la Cour des Comptes de la CEMAC, trois membres proposés par les émetteurs APE, les investisseurs et les structures agréées."
+    },
+    {
+     "recto": "Quelles conditions d'honorabilité pour être membre du Collège ?",
+     "verso": "Pas de condamnation infamante, de mise en débet, d'interdiction de gérer, ni de condamnation pour infraction économique ou financière."
+    },
+    {
+     "recto": "Quelle est la durée du mandat des autres membres du Collège ?",
+     "verso": "3 ans, renouvelable une fois."
+    },
+    {
+     "recto": "Quels mandats pour le Président et les membres du Collège ?",
+     "verso": "Président : 5 ans non renouvelable ; membres : 3 ans renouvelables une fois."
+    },
+    {
+     "recto": "Quel est le quorum du Collège ?",
+     "verso": "9 membres au moins présents."
+    },
+    {
+     "recto": "À quelle fréquence le Collège se réunit-il ?",
+     "verso": "Au moins une fois par trimestre."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Combien de membres doivent être présents pour que le Collège délibère ?",
+     "choix": [
+      "6",
+      "7",
+      "9",
+      "12"
+     ],
+     "bonne": 2,
+     "explication": "Neuf membres au moins."
+    },
+    {
+     "q": "Qui nomme les 11 membres du Collège autres que le Président ?",
+     "choix": [
+      "La Conférence des Chefs d'État",
+      "La BEAC",
+      "Le Collège lui-même",
+      "Le Comité Ministériel de l'UMAC"
+     ],
+     "bonne": 3,
+     "explication": "Le Comité Ministériel de l'UMAC."
+    },
+    {
+     "q": "Mandat du Président de la COSUMAF ?",
+     "choix": [
+      "3 ans renouvelable",
+      "5 ans renouvelable une fois",
+      "5 ans non renouvelable",
+      "7 ans"
+     ],
+     "bonne": 2,
+     "explication": "Art. 42."
+    },
+    {
+     "q": "En cas d'égalité des voix au Collège ?",
+     "choix": [
+      "La voix du Président est prépondérante",
+      "Le vote est annulé",
+      "Le doyen décide",
+      "Le Comité Ministériel tranche"
+     ],
+     "bonne": 0,
+     "explication": "Art. 53."
+    },
+    {
+     "q": "Qui nomme le Secrétaire général de la COSUMAF ?",
+     "choix": [
+      "Le Collège",
+      "La Conférence des Chefs d'État",
+      "Le Comité Ministériel",
+      "Le Président"
+     ],
+     "bonne": 1,
+     "explication": "Pour 5 ans non renouvelables."
+    },
+    {
+     "q": "Parmi les membres du Collège, qui représente le secteur bancaire (supervision) ?",
+     "choix": [
+      "La COBAC",
+      "La BVMAC",
+      "Le Fonds de garantie",
+      "Les CIF"
+     ],
+     "bonne": 0,
+     "explication": "Un représentant de la COBAC."
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Le Collège de la COSUMAF",
+     "type": "stats",
+     "legende": "Qui siège ?",
+     "items": [
+      {
+       "v": "1",
+       "l": "Président (Chefs d'État)"
+      },
+      {
+       "v": "6",
+       "l": "représentants des États"
+      },
+      {
+       "v": "1",
+       "l": "BEAC"
+      },
+      {
+       "v": "1",
+       "l": "juriste"
+      },
+      {
+       "v": "1",
+       "l": "Commission de la CEMAC"
+      },
+      {
+       "v": "1",
+       "l": "COBAC"
+      },
+      {
+       "v": "1",
+       "l": "expert-comptable"
+      },
+      {
+       "v": "9",
+       "l": "quorum minimum"
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le budget de l'année suivante est soumis au Comité Ministériel au plus tard le {{30 novembre}}.",
+    "Le Président de la COSUMAF est nommé pour {{5}} ans non renouvelables ; les autres membres pour {{3}} ans renouvelables une fois."
+   ],
+   "classer": [
+    {
+     "titre": "Collège ou Commission des sanctions ?",
+     "buckets": [
+      "Collège",
+      "Commission des sanctions"
+     ],
+     "items": [
+      {
+       "t": "Compte 12 membres dont un Président nommé par la Conférence des Chefs d'État.",
+       "b": 0,
+       "why": "Art. 40."
+      },
+      {
+       "t": "Compte 5 membres dont un juriste président.",
+       "b": 1,
+       "why": "Art. 61."
+      },
+      {
+       "t": "Quorum de 9 membres.",
+       "b": 0,
+       "why": "Art. 51."
+      },
+      {
+       "t": "Siège quand elle est saisie par le Président de la COSUMAF.",
+       "b": 1,
+       "why": "Art. 61."
+      },
+      {
+       "t": "Délibère à la majorité simple, voix du Président prépondérante.",
+       "b": 0,
+       "why": "Art. 53."
+      },
+      {
+       "t": "Instruit les dossiers disciplinaires et pécuniaires et prend les sanctions.",
+       "b": 1,
+       "why": "Instance de jugement."
+      }
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  },
+  {
+   "id": "k4-textes-dates",
+   "titre": "Pour aller plus loin · 04 · Les textes et leurs dates : la frise du marché financier d'Afrique centrale",
+   "resume": {
+    "court": "2000 : siège de la BVMAC. 2001 : création de la COSUMAF. 2003 : Règlement 06/03. 2008 : RG COSUMAF et accord de tarification. 2014 : Règlement 01/14. 2016 : LBC/FT 01/16. 2018 : unification du marché et Règlement 02/18 sur les changes. 2022 : Règlement 01/22. 2023 : RG du 23 mai. 2024 : instructions 11-24 à 33-24 et Règlement LBC/FT du 20 décembre. 2025 : RG BVMAC (24 avril), instructions 35-25 à 47-25, Règlement 25/CEMAC (19 décembre). 2026 : LC 001-2026, 003-26, Instruction 49-26, nouveau placement privé (7 octobre, en vigueur le 1er novembre).",
+    "moyen": "Textes fondateurs : Acte additionnel n° 11/00 du 14 décembre 2000 (siège de la BVMAC à Libreville) ; Acte additionnel n° 03/01-CEMAC-CE-03 du 8 décembre 2001 (création de la COSUMAF) ; Acte n° 08/CEMAC-CE-04 du 23 janvier 2003 (siège de la COSUMAF à Libreville) ; Règlement 06/03 du 12 novembre 2003 (modifié le 9 juin 2008) ; RG COSUMAF du 23 juillet 2008 et communiqué 01/08 du 4 mars 2008 (tarification) ; Instructions BVMAC 1 et 2 (2008), 3 (2013) ; Règlement 01/14 du 25 avril 2014 ; Règlement UEAC du régime fiscal (adopté le 11 mars 2007) ; Règlement LBC/FT 01/16 du 11 avril 2016 ; Acte additionnel n° 06/17 du 19 février 2018 (unification du marché, BVMAC et DSX) ; Règlement 02/18 du 21 décembre 2018 (changes) ; Règlement 01/22 du 21 juillet 2022 ; Règlement Général du 23 mai 2023 (687 articles) ; Instructions 11-24 à 13-24 (20 février 2024), 16-24, 18-24, 21-24 (9 mai 2024), 22-24, 23-24 (18 juillet 2024), 24-24 à 33-24 (28 novembre 2024) ; Lettre circulaire du 15 novembre 2024 ; Règlement CEMAC LBC/FT du 20 décembre 2024 ; RG de la BVMAC adopté le 24 avril 2025 (décision COSUMAF 021-2025) ; Instructions 35-25 à 43-25 (23 mai et 15 décembre 2025), 44-25 à 47-25 (15 décembre 2025) ; Règlement 25/CEMAC du 19 décembre 2025 ; Lettre circulaire 001-2026 (19 février 2026) ; Lettre circulaire 003-26 (5 mai 2026) ; Instruction 49-26 (13 juillet 2026) ; Règlement modificatif du 7 octobre 2026 (placement privé).",
+    "long": "Textes fondateurs : Acte additionnel n° 11/00 du 14 décembre 2000 (siège de la BVMAC à Libreville) ; Acte additionnel n° 03/01-CEMAC-CE-03 du 8 décembre 2001 (création de la COSUMAF) ; Acte n° 08/CEMAC-CE-04 du 23 janvier 2003 (siège de la COSUMAF à Libreville) ; Règlement 06/03 du 12 novembre 2003 (modifié le 9 juin 2008) ; RG COSUMAF du 23 juillet 2008 et communiqué 01/08 du 4 mars 2008 (tarification) ; Instructions BVMAC 1 et 2 (2008), 3 (2013) ; Règlement 01/14 du 25 avril 2014 ; Règlement UEAC du régime fiscal (adopté le 11 mars 2007) ; Règlement LBC/FT 01/16 du 11 avril 2016 ; Acte additionnel n° 06/17 du 19 février 2018 (unification du marché, BVMAC et DSX) ; Règlement 02/18 du 21 décembre 2018 (changes) ; Règlement 01/22 du 21 juillet 2022 ; Règlement Général du 23 mai 2023 (687 articles) ; Instructions 11-24 à 13-24 (20 février 2024), 16-24, 18-24, 21-24 (9 mai 2024), 22-24, 23-24 (18 juillet 2024), 24-24 à 33-24 (28 novembre 2024) ; Lettre circulaire du 15 novembre 2024 ; Règlement CEMAC LBC/FT du 20 décembre 2024 ; RG de la BVMAC adopté le 24 avril 2025 (décision COSUMAF 021-2025) ; Instructions 35-25 à 43-25 (23 mai et 15 décembre 2025), 44-25 à 47-25 (15 décembre 2025) ; Règlement 25/CEMAC du 19 décembre 2025 ; Lettre circulaire 001-2026 (19 février 2026) ; Lettre circulaire 003-26 (5 mai 2026) ; Instruction 49-26 (13 juillet 2026) ; Règlement modificatif du 7 octobre 2026 (placement privé)."
+   },
+   "fiches": [
+    {
+     "titre": "La frise : de 2000 à 2026",
+     "contenu": "| Date | Texte | Retenir |\n|---|---|---|\n| **14 déc. 2000** | Acte additionnel n° 11/00 | **siège de la BVMAC** à Libreville |\n| **8 déc. 2001** | Acte additionnel n° 03/01-CEMAC-CE-03 | **création de la COSUMAF** |\n| **23 janv. 2003** | Acte n° 08/CEMAC-CE-04 | **siège de la COSUMAF** à Libreville |\n| **12 nov. 2003** | Règlement **06/03** (modifié le 9 juin 2008) | organise le marché |\n| **11 mars 2007** | Règlement **UEAC** n° 07-175-CM-15 | **régime fiscal** des opérations cotées |\n| **4 mars 2008** | Communiqué COSUMAF 01/08 | tarification (ancienne) |\n| **23 juil. 2008** | **RG COSUMAF** (ancien) | abrogé en 2023 |\n| **25 avr. 2014** | Règlement **01/14** | inscription en compte |\n| **11 avr. 2016** | Règlement **01-16** | LBC/FT (ancien) |\n| **19 févr. 2018** | Acte additionnel **06/17** | **unification** du marché (BVMAC + DSX) |\n| **21 déc. 2018** | Règlement **02/18** | **changes** |\n| **21 juil. 2022** | Règlement **01/22** | **loi-cadre** du marché |\n| **23 mai 2023** | **RG COSUMAF** (687 art.) | texte d'application |\n| **20 fév. 2024** | Instructions 11-24, 12-24, 13-24 | SGO, entreprise de marché, agrément OPC |\n| **9 mai 2024** | Instructions 16-24, 18-24, 21-24 | OPCI, habilitation, titrisation |\n| **18 juil. 2024** | Instructions 22-24, 23-24 | CAC, **tarification** |\n| **15 nov. 2024** | Lettre circulaire | reporting SDB / TC / CIF |\n| **28 nov. 2024** | Instructions 24 à 33-24 | DI type, **placement privé (26, 27)**, **LBC/FT (32)**, honorabilité (33) |\n| **20 déc. 2024** | Règlement CEMAC | **LBC/FT** (remplace 01/16) |\n| **24 avr. 2025** | **RG BVMAC** | décision COSUMAF 021-2025 |\n| **23 mai 2025** | Instructions 35 à 42-25 | FPC, SPC, FPI, SPI, contrôle interne, reporting, **CIF** |\n| **15 déc. 2025** | Instructions 43 à 47-25 + Règlement **25/CEMAC** (19 déc.) | experts OPCI, **émetteurs**, **modifications**, **dirigeants**, **mandat**, **inscription en compte** |\n| **19 févr. 2026** | LC 001-2026 | agrément des dirigeants sous 3 mois |\n| **5 mai 2026** | LC 003-26 | diligences post-agrément OPCVM |\n| **13 juil. 2026** | Instruction **49-26** | activités principales et connexes |\n| **7 oct. 2026** | Règlement modificatif | **nouveau placement privé**, en vigueur le **1er nov. 2026** |"
+    },
+    {
+     "titre": "Les 5 numéros d'instructions qu'on mélange",
+     "contenu": "| N° | Objet |\n|---|---|\n| **13-24** | **agrément des OPC** (150 M / 300 M, 30 jours) |\n| **16-24** | règlement type **OPCI (FCPI)** |\n| **18-24** | **habilitation** / carte professionnelle |\n| **21-24** | agrément des **organismes de titrisation** |\n| **22-24** | agrément des **commissaires aux comptes** |\n| **23-24** | **tarification** |\n| **24-24** | **DI type OPCVM** |\n| **25-24** | publication des **prix** des OPC |\n| **26-24 / 27-24** | **placement privé** : dossier / DIS (régime 2022) |\n| **30-24** | info périodique des émetteurs (remplacée par **44-25**) |\n| **31-24** | **cartographie des risques** |\n| **32-24** | **LBC/FT** (vigilance) |\n| **33-24** | **honorabilité, compétence** |\n| **35-25 à 38-25** | FPC / SPC / FPI / SPI |\n| **39-25 / 40-25** | rapport de **contrôle interne** SDB / SGO |\n| **41-25** | **reporting** OPCVM |\n| **42-25** | agrément des **CIF** |\n| **43-25** | rapport des **experts OPCI** |\n| **44-25** | **émetteurs** APE |\n| **45-25** | **modifications** |\n| **46-25** | **dirigeants** |\n| **47-25** | **gestion sous mandat** |\n| **49-26** | **activités principales et connexes** |"
+    }
+   ],
+   "mnemos": [
+    "2001 COSUMAF · 2003 (06/03) · 2008 (RG) · 2018 (unification) · 2022 (01/22) · 2023 (RG, 23 mai) · 2024 (instructions + LBC/FT) · 2025 (RG BVMAC, 25/CEMAC) · 2026 (49-26, placement privé)."
+   ],
+   "definitions": [
+    {
+     "terme": "Unification du marché",
+     "definition": "Fusion du marché de la CEMAC et du marché camerounais (Acte 06/17) : COSUMAF et BVMAC uniques."
+    },
+    {
+     "terme": "Loi-cadre du marché",
+     "definition": "Le Règlement 01/22 du 21 juillet 2022, qui organise le marché financier de la CEMAC."
+    },
+    {
+     "terme": "Acte additionnel",
+     "definition": "Texte de la Conférence des Chefs d'État de la CEMAC (création de la COSUMAF, unification du marché)."
+    },
+    {
+     "terme": "Instruction (COSUMAF)",
+     "definition": "Texte du Collège de la COSUMAF précisant l'application du Règlement et du RG."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quelle instruction fixe la tarification ?",
+     "verso": "L'Instruction 23-24 du 18 juillet 2024."
+    },
+    {
+     "recto": "Quel texte fixe le régime fiscal des opérations cotées ?",
+     "verso": "Règlement UEAC n° 07-175-CM-15 du 11 mars 2007."
+    },
+    {
+     "recto": "Quel texte adopte le RG BVMAC ?",
+     "verso": "Adopté le 24 avril 2025, décision COSUMAF n° 021-2025."
+    },
+    {
+     "recto": "Quel texte du 20 décembre 2024 traite de la LBC/FT ?",
+     "verso": "Règlement CEMAC (n° 02/24), qui remplace le Règlement 01/16."
+    },
+    {
+     "recto": "Quelle instruction organise l'agrément des OPC ?",
+     "verso": "L'Instruction 13-24 du 20 février 2024."
+    },
+    {
+     "recto": "Quand la COSUMAF a-t-elle été créée ?",
+     "verso": "Par l'Acte additionnel n° 03/01-CEMAC-CE-03 du 8 décembre 2001 (siège à Libreville)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "La COSUMAF a été créée en...",
+     "choix": [
+      "1994",
+      "2008",
+      "2001",
+      "2018"
+     ],
+     "bonne": 2,
+     "explication": "Acte du 8 décembre 2001."
+    },
+    {
+     "q": "L'unification du marché date de...",
+     "choix": [
+      "2003",
+      "2018",
+      "2008",
+      "2022"
+     ],
+     "bonne": 1,
+     "explication": "Acte additionnel du 19 février 2018."
+    },
+    {
+     "q": "Le communiqué 01/08 du 4 mars 2008 portait sur :",
+     "choix": [
+      "l'inscription en compte",
+      "les changes",
+      "la tarification",
+      "la LBC/FT"
+     ],
+     "bonne": 2,
+     "explication": "Tarification ancienne, remplacée par l'Instruction 23-24."
+    },
+    {
+     "q": "Le Règlement 01-16 du 11 avril 2016 traitait de :",
+     "choix": [
+      "la LBC/FT",
+      "l'inscription en compte",
+      "les changes",
+      "la tarification"
+     ],
+     "bonne": 0,
+     "explication": "LBC/FT (ancien), remplacé par le Règlement CEMAC du 20 décembre 2024."
+    },
+    {
+     "q": "Le Règlement 02/18 du 21 décembre 2018 concerne :",
+     "choix": [
+      "la LBC/FT",
+      "les changes",
+      "le placement privé",
+      "l'inscription en compte"
+     ],
+     "bonne": 1,
+     "explication": "Réglementation des changes."
+    },
+    {
+     "q": "Les Instructions 11-24, 12-24 et 13-24 du 20 février 2024 portent notamment sur :",
+     "choix": [
+      "tarification, LBC/FT, dirigeants",
+      "émetteurs, modifications, mandat",
+      "SGO, entreprise de marché, agrément des OPC",
+      "FPC, SPC, FPI, SPI"
+     ],
+     "bonne": 2,
+     "explication": "SGO, entreprise de marché, agrément OPC."
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "La frise du marché financier d'Afrique centrale",
+     "type": "timeline",
+     "legende": "Les dates qui reviennent.",
+     "events": [
+      {
+       "d": "2001",
+       "t": "COSUMAF",
+       "s": "Acte additionnel du 8 décembre 2001."
+      },
+      {
+       "d": "2003",
+       "t": "Règlement 06/03",
+       "s": "Organisation du marché (12 novembre 2003)."
+      },
+      {
+       "d": "2008",
+       "t": "RG COSUMAF",
+       "s": "23 juillet 2008 (abrogé en 2023) ; accord de tarification du 4 mars."
+      },
+      {
+       "d": "2014",
+       "t": "Règlement 01/14",
+       "s": "Inscription en compte."
+      },
+      {
+       "d": "2018",
+       "t": "Unification",
+       "s": "Acte 06/17 (19 février) ; Règlement 02/18 sur les changes."
+      },
+      {
+       "d": "2022",
+       "t": "Règlement 01/22",
+       "s": "21 juillet 2022 : la loi-cadre actuelle."
+      },
+      {
+       "d": "2023",
+       "t": "RG COSUMAF",
+       "s": "23 mai 2023, 687 articles."
+      },
+      {
+       "d": "2024",
+       "t": "Instructions",
+       "s": "11-24 à 33-24 ; Règlement CEMAC LBC/FT du 20 décembre."
+      },
+      {
+       "d": "2025",
+       "t": "RG BVMAC",
+       "s": "24 avril 2025 ; instructions 35 à 47-25 ; Règlement 25/CEMAC (19 décembre)."
+      },
+      {
+       "d": "2026",
+       "t": "Instruction 49-26 et placement privé",
+       "s": "13 juillet ; règlement du 7 octobre, en vigueur le 1er novembre."
+      }
+     ]
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets ces textes dans l'ordre chronologique",
+     "consigne": "Du plus ancien au plus récent.",
+     "items": [
+      "Création de la COSUMAF (Acte additionnel du 8 décembre 2001)",
+      "Règlement 06/03 (12 novembre 2003)",
+      "Unification du marché (Acte additionnel 06/17, 2018)",
+      "Règlement 01/22 (21 juillet 2022)",
+      "RG COSUMAF de 687 articles (23 mai 2023)",
+      "Règlement modificatif sur le placement privé (7 octobre 2026)"
+     ]
+    },
+    {
+     "titre": "Remets ces textes sur la LBC/FT et l'inscription en compte dans l'ordre",
+     "consigne": "Du plus ancien au plus récent.",
+     "items": [
+      "Règlement 01/14 sur l'inscription en compte (25 avril 2014)",
+      "Règlement 01/16 sur la LBC/FT (11 avril 2016)",
+      "Instruction 32-24 sur la LBC/FT (28 novembre 2024)",
+      "Règlement CEMAC sur la LBC/FT (20 décembre 2024)",
+      "Règlement 25/CEMAC sur l'inscription en compte (19 décembre 2025)"
+     ]
+    }
+   ],
+   "trous": [
+    "La COSUMAF a été créée en {{2001}} et son siège fixé à Libreville en {{2003}}.",
+    "Le Règlement {{02/18}} fixe le régime des changes."
+   ],
+   "classer": [
+    {
+     "titre": "Quelle instruction ?",
+     "buckets": [
+      "13-24",
+      "18-24",
+      "23-24",
+      "32-24"
+     ],
+     "items": [
+      {
+       "t": "Agrément des OPC.",
+       "b": 0,
+       "why": "13-24."
+      },
+      {
+       "t": "Habilitation et carte professionnelle.",
+       "b": 1,
+       "why": "18-24."
+      },
+      {
+       "t": "Tarification.",
+       "b": 2,
+       "why": "23-24."
+      },
+      {
+       "t": "Vigilance LBC/FT.",
+       "b": 3,
+       "why": "32-24."
+      }
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  }
+ ]
+}

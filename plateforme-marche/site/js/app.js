@@ -72,14 +72,14 @@ const qs = o => { const p = new URLSearchParams(); for (const [k, v] of Object.e
 const options = (map, sel, tous) => `<option value="">${tous}</option>` + Object.entries(map).map(([k, v]) => `<option value="${esc(k)}" ${k === sel ? 'selected' : ''}>${esc(v)}</option>`).join('');
 
 /* ---------- cadre : en-tête, pied ---------- */
-const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/comprendre', 'Comprendre'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
+const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
 function cadre() {
   $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}<a href="#/compte" data-nav="/compte" class="acct" aria-label="Compte">${ic('user')}<i class="dot"></i></a></nav>`;
   majIconeCompte();
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
     <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a></div></div>`;
 }
-const marquerNav = path => { $$('[data-nav]').forEach(a => { const h = a.dataset.nav; const on = h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && path.startsWith('/texte')); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); };
+const marquerNav = path => { $$('[data-nav]').forEach(a => { const h = a.dataset.nav; const on = h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && (path.startsWith('/texte') || path.startsWith('/cours'))); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); };
 
 /* ---------- recherche ---------- */
 const STOP = new Set('de du des la le les un une et au aux en d l a à ou pour par sur dans qui que est sont'.split(' '));
@@ -111,19 +111,19 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
 
 views.accueil = async () => {
-  const gs = await chargerGuides().catch(() => []);
+  const gs = await chargerGuides().catch(() => []); await chargerCoursIdx();
   const nbPdf = D.textes.filter(t => t.pdf).length, nbEnVigueur = D.textes.filter(t => t.statut === 'en_vigueur').length;
   const exemples = ['délai visa APE', 'capital minimum société de bourse', 'placement privé', 'agrément dirigeant'];
   const vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
   const public_ = [
     ['#/decouvrir', 'lightbulb', 'Grand public', 'Je veux comprendre la bourse', 'Épargner, acheter, vendre, se protéger : les bases expliquées simplement, chaque affirmation renvoyant à son article.', 'Découvrir'],
-    ['#/comprendre', 'graduation-cap', 'Étudiants', 'J\'étudie le marché financier', 'Institutions, acteurs, instruments, puis flashcards, quiz et jeux pour retenir ce qui compte.', 'Comprendre'],
+    ['#/bibliotheque', 'graduation-cap', 'Étudiants', 'J\'étudie le marché financier', 'Dix cours complets : résumés, fiches, schémas animés et glossaire, puis flashcards et quiz pour retenir.', 'Ouvrir les cours'],
     ['#/recherche', 'scale', 'Professionnels', 'Je travaille avec la réglementation', 'Un délai, un montant, un rôle ? Retrouvez-le en quelques secondes avec l\'article, le statut du texte et le PDF officiel.', 'Rechercher'],
   ];
   const outils = [
@@ -145,7 +145,7 @@ views.accueil = async () => {
     ['Puis-je l\'utiliser sans connexion ?', 'Oui, après une première visite, les pages et les données fonctionnent sans réseau. Les PDF demandent une connexion.'],
     ['Que devient ma vie privée ?', 'La mesure d\'audience est anonyme : ni cookie, ni adresse IP. Votre progression reste sur votre appareil, sauf si vous créez un compte.'],
   ];
-  const extraits = ['bourse-en-bref', 'institutions', 'lever-des-capitaux'].map(id => gs.find(g => g.id === id)).filter(Boolean);
+  const extraits = ['bourse-en-bref', 'qui-protege', 'ou-sont-mes-titres'].map(id => gs.find(g => g.id === id)).filter(Boolean);
   return { title: 'Marché financier CEMAC : textes, délais, montants', html: `
     <section class="hero">
       <h1 class="h1"><span class="lbl l6" style="--r:-2deg">Marché financier</span><br><span class="lbl l1" style="--r:1.2deg">CEMAC</span></h1>
@@ -156,7 +156,7 @@ views.accueil = async () => {
     </section>
 
     <div class="band" aria-label="Le site en chiffres">
-      <div><b>${D.textes.length}</b><span>textes</span></div><div><b>${D.stats.faits.toLocaleString('fr-FR')}</b><span>délais, montants, rôles</span></div><div><b>${nbPdf}</b><span>PDF officiels</span></div><div><b>${gs.length}</b><span>guides</span></div><div><b>0 €</b><span>sans compte</span></div>
+      <div><b>${D.textes.length}</b><span>textes</span></div><div><b>${D.stats.faits.toLocaleString('fr-FR')}</b><span>repères sourcés</span></div><div><b>${nbPdf}</b><span>PDF officiels</span></div><div><b>${coursIdx.length}</b><span>cours</span></div><div><b>${coursIdx.reduce((n, c) => n + c.n.fiches, 0)}</b><span>fiches</span></div><div><b>${coursIdx.reduce((n, c) => n + c.n.questions, 0)}</b><span>questions</span></div><div><b>0 €</b><span>sans compte</span></div>
     </div>
 
     <section class="land"><h2 class="sec"><span class="lbl l2">Pour qui ?</span></h2>
@@ -196,7 +196,7 @@ views.accueil = async () => {
     <section class="land final">
       <h2 class="h1">${lbls('Prêt à chercher ?')}</h2>
       <p class="lead">${nbEnVigueur} textes en vigueur, du règlement général aux lettres circulaires, à portée de clic.</p>
-      <p class="chips" style="justify-content:center"><a class="btn" href="#/recherche">${ic('search')} Rechercher</a><a class="btn ghost" href="#/decouvrir">${ic('lightbulb')} Découvrir la bourse</a></p>
+      <p class="chips" style="justify-content:center"><a class="btn" href="#/recherche">${ic('search')} Rechercher</a><a class="btn ghost" href="#/bibliotheque">${ic('library')} Ouvrir les cours</a></p>
     </section>`,
     after() { $('#hs').addEventListener('submit', e => { e.preventDefault(); location.hash = '#/recherche' + qs({ q: $('#hq').value.trim() }); }); } };
 };
@@ -206,64 +206,139 @@ const COULEURS = ['#e0703a', '#2f6f86', '#dfa93b', '#d4563a', '#3d6a80', '#8a5aa
 const rng = seed => () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
 const PLANTE = '<svg viewBox="0 0 60 80" width="64"><path d="M30 50 C30 30 18 22 8 20 C10 34 18 46 30 50Z" fill="#3fae6a" stroke="#1b1410" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 50 C30 26 40 14 54 12 C54 30 44 44 30 50Z" fill="#57c97f" stroke="#1b1410" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 50 C28 36 30 24 30 10 C36 20 36 38 30 50Z" fill="#2f8f55" stroke="#1b1410" stroke-width="2.5" stroke-linejoin="round"/><path d="M14 52 H46 L42 78 H18Z" fill="#e0703a" stroke="#1b1410" stroke-width="2.8" stroke-linejoin="round"/><path d="M12 52 H48" stroke="#1b1410" stroke-width="5" stroke-linecap="round"/></svg>';
 const TASSE = '<svg viewBox="0 0 60 60" width="54"><path d="M16 6 q-4 6 0 11 M26 4 q-4 6 0 12 M36 6 q-4 6 0 11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".85"/><path d="M10 22 H44 V44 a8 8 0 0 1 -8 8 H18 a8 8 0 0 1 -8 -8Z" fill="#fff" stroke="#1b1410" stroke-width="2.8" stroke-linejoin="round"/><path d="M44 28 h5 a6 6 0 0 1 0 14 h-5" fill="none" stroke="#1b1410" stroke-width="2.8"/><path d="M10 30 H44" stroke="#e0312b" stroke-width="6"/></svg>';
-function dessinerEtagere(box, rayons, actif) {
+function dessinerEtagere(box, cours) {
   const largeur = box.clientWidth - 24, rand = rng(7), lignes = [[], []];
-  rayons.forEach((r, i) => lignes[i % 2].push({ r, i }));
-  const html = lignes.map((cours, n) => {
-    const nb = Math.max(5, Math.floor((largeur - cours.length * 56 - 200) / 31)), total = nb + cours.length, items = [];
+  cours.forEach((r, i) => lignes[i % 2].push({ r, i }));
+  const html = lignes.map((cs, n) => {
+    const nb = Math.max(5, Math.floor((largeur - cs.length * 56 - 200) / 31)), total = nb + cs.length, items = [];
     for (let k = 0; k < total; k++) items.push({ h: 100 + Math.floor(rand() * 46), w: 18 + Math.floor(rand() * 18), c: COULEURS[Math.floor(rand() * COULEURS.length)], tilt: rand() < .06 });
-    cours.forEach((c, j) => { items[Math.floor(total * (j + 1) / (cours.length + 1))] = { cours: c }; });
+    cs.forEach((c, j) => { items[Math.floor(total * (j + 1) / (cs.length + 1))] = { cours: c }; });
     if (n === 1) items.splice(Math.floor(total / 2), 0, { pile: [0, 1, 2].map(() => COULEURS[Math.floor(rand() * COULEURS.length)]) });
     items.splice(n === 0 ? 1 : total - 1, 0, { objet: n === 0 ? PLANTE : TASSE });
     const livres = items.map(it => {
       if (it.objet) return `<div class="prop">${it.objet}</div>`;
       if (it.pile) return `<div class="flatstack">${it.pile.map(c => `<i style="background-color:${c}"></i>`).join('')}</div>`;
-      if (it.cours) { const { r, i } = it.cours; const c = COULEURS[i % COULEURS.length]; return `<a class="book course ${r.id === actif ? 'on' : ''}" data-theme="${esc(r.id)}" data-c="${c === '#dfa93b' ? 'mustard' : ''}" href="#/bibliotheque${qs({ theme: r.id })}" style="width:54px;height:156px;background-color:${c}" title="${esc(r.nom)}" aria-label="${esc(r.nom)} : ${r.n} textes"><span class="spine">${esc(SHORT[r.id] || r.nom)}</span></a>`; }
+      if (it.cours) { const { r } = it.cours; const c = COULEUR_COURS[r.couleur] || COULEURS[0]; return `<a class="book course" data-c="${r.couleur === 'mustard' ? 'mustard' : ''}" href="#/cours/${r.id}" style="width:54px;height:156px;background-color:${c}" title="${esc(r.titre)}" aria-label="${esc(r.titre)}"><span class="spine">${esc(r.court)}</span></a>`; }
       return `<div class="book${it.tilt ? ' tilt' : ''}" style="width:${it.w}px;height:${it.h}px;background-color:${it.c}"></div>`;
     }).join('');
     return `<div class="shelf"><div class="books">${livres}</div><div class="plank"></div></div>`;
   }).join('');
-  box.innerHTML = html + `<nav class="shelflegend" aria-label="Tous les thèmes">${rayons.map((r, i) => `<a href="#/bibliotheque${qs({ theme: r.id })}" data-theme="${esc(r.id)}" class="${r.id === actif ? 'on' : ''}"><i style="background-color:${COULEURS[i % COULEURS.length]}"></i>${esc(SHORT[r.id] || r.nom)}<small>${r.n}</small></a>`).join('')}</nav>`;
+  box.innerHTML = html + `<nav class="shelflegend" aria-label="Tous les cours">${cours.map(r => `<a href="#/cours/${r.id}"><i style="background-color:${COULEUR_COURS[r.couleur] || COULEURS[0]}"></i>${esc(r.court)}<small>${mastCours(r)}%</small></a>`).join('')}</nav>`;
 }
 
 views.bibliotheque = async (_a, q) => {
-  const st = { theme: D.themes.has(q.theme) ? q.theme : '', q: q.q || '', statut: q.statut || 'en_vigueur', org: q.org || '', tout: q.tout === '1' };
-  const rayons = [...D.themes.values()].map(th => ({ id: th.id, nom: th.nom, n: D.textes.filter(t => t.theme === th.id).length })).filter(r => r.n);
-  const filtrer = () => {
-    const ts = termes(st.q);
-    return D.textes.filter(t => (!st.theme || t.theme === st.theme) && (!st.org || t.organisme === st.org) && (st.statut === 'tous' || t.statut === st.statut) && tous(fold(shortName(t) + ' ' + t.titre + ' ' + t.numero + ' ' + (t.date_texte || '')), ts))
-      .sort((a, b) => (b.date_adoption || '').localeCompare(a.date_adoption || '') || a.ordre - b.ordre);
-  };
-  const carte = t => `<li><a class="card item" href="#/texte/${t.id}"><span class="t">${esc(shortName(t))}</span><span class="sub">${esc(t.titre)}</span><span class="meta">${badgeStatut(t)}<span>${ORG[t.organisme]}</span>${t.date_texte ? `<span>${esc(t.date_texte)}</span>` : ''}</span></a></li>`;
-  return { title: 'Bibliothèque des textes', html: `
+  const cours = await chargerCoursIdx();
+  const st = { q: q.q || '', statut: q.statut || 'en_vigueur', org: q.org || '', tout: q.tout === '1' };
+  const filtrer = () => { const ts = termes(st.q);
+    return D.textes.filter(t => (!st.org || t.organisme === st.org) && (st.statut === 'tous' || t.statut === st.statut) && tous(fold(shortName(t) + ' ' + t.titre + ' ' + t.numero + ' ' + (t.date_texte || '')), ts))
+      .sort((a, b) => (b.date_adoption || '').localeCompare(a.date_adoption || '') || a.ordre - b.ordre); };
+  const carte = t => `<li><a class="card item" href="#/texte/${t.id}"><span class="t">${esc(shortName(t))}</span><span class="sub">${esc(t.titre)}</span><span class="meta">${badgeStatut(t)}<span>${ORG[t.organisme]}</span>${t.date_texte ? `<span>${esc(t.date_texte)}</span>` : ''}${t.pdf ? `<span>${ic('download')} PDF</span>` : ''}</span></a></li>`;
+  return { title: 'Bibliothèque', html: `
     <h1 class="h1">${lbls('Bibliothèque')}</h1>
-    <form class="sbar shelfsearch" id="bf" role="search"><span class="sico">${ic('search')}</span><input id="bq" type="search" value="${esc(st.q)}" placeholder="Chercher un texte : numéro, titre…" autocomplete="off" aria-label="Chercher un texte"></form>
-    <section class="shelves" id="shelves" aria-label="Les thèmes"></section>
+    <form class="sbar shelfsearch" id="bf" role="search"><span class="sico">${ic('search')}</span><input id="bq" type="search" value="${esc(st.q)}" placeholder="Chercher un cours ou un texte : visa, règlement 01/22…" autocomplete="off" aria-label="Chercher"></form>
+    <section class="shelves" id="shelves" aria-label="Les cours"></section>
     <section id="liste" class="liste"></section>`,
     after() {
-      fond(MAT.bibliotheque);
-      const box = $('#shelves');
-      const maj = (defiler) => {
-        dessinerEtagere(box, rayons, st.theme);
-        const montre = st.theme || st.q || st.tout; const l = montre ? filtrer() : [];
-        const th = st.theme ? D.themes.get(st.theme) : null;
+      fond(MAT.bibliotheque); const box = $('#shelves');
+      const maj = defiler => {
+        dessinerEtagere(box, cours);
+        const montre = st.q || st.tout, l = montre ? filtrer() : [], cs = st.q ? cours.filter(c => fold(c.titre + ' ' + c.court + ' ' + c.description).includes(fold(st.q))) : [];
         $('#liste').innerHTML = !montre
-          ? `<div class="hint"><p>Choisissez un rayon, ou cherchez un texte.</p><button class="btn" id="all">${ic('library')} Voir les ${D.textes.length} textes</button></div>`
-          : `<div class="listhead"><h2 class="sec"><span class="lbl l2">${esc(th ? th.nom : 'Tous les textes')}</span></h2>
+          ? `<div class="hint"><p>Ouvrez un cours sur l'étagère, ou cherchez.</p><a class="btn" id="all" href="#/bibliotheque?tout=1">${ic('library')} Voir les ${D.textes.length} textes</a></div>`
+          : `${cs.length ? `<h2 class="sec"><span class="lbl l6">Cours</span></h2><ul class="list" style="margin-bottom:34px">${cs.map(c => `<li><a class="card item" href="#/cours/${c.id}"><span class="t">${esc(c.titre)}</span><span class="sub">${esc(c.description || '')}</span><span class="meta"><span>${c.n.fiches} fiches</span><span>${c.n.cartes} cartes</span><span>${c.n.questions} questions</span></span></a></li>`).join('')}</ul>` : ''}
+            <div class="listhead"><h2 class="sec"><span class="lbl l2">Les textes</span></h2>
               <div class="mini"><label>Statut<select id="fs"><option value="en_vigueur" ${st.statut === 'en_vigueur' ? 'selected' : ''}>En vigueur</option><option value="abroge" ${st.statut === 'abroge' ? 'selected' : ''}>Abrogés</option><option value="tous" ${st.statut === 'tous' ? 'selected' : ''}>Tous</option></select></label>
               <label>Organisme<select id="fo">${options(ORG, st.org, 'Tous')}</select></label></div></div>
               <p class="count" aria-live="polite">${l.length} texte${l.length > 1 ? 's' : ''}</p><ul class="list">${l.length ? l.map(carte).join('') : '<li class="empty">Aucun texte ne correspond.</li>'}</ul>`;
-        history.replaceState(null, '', '#/bibliotheque' + qs({ theme: st.theme, q: st.q, statut: st.statut === 'en_vigueur' ? '' : st.statut, org: st.org, tout: st.tout && !st.theme && !st.q }));
-        $('#all')?.addEventListener('click', () => { st.tout = true; maj(true); });
+        history.replaceState(null, '', '#/bibliotheque' + qs({ q: st.q, statut: st.statut === 'en_vigueur' ? '' : st.statut, org: st.org, tout: st.tout && !st.q }));
+        $('#all')?.addEventListener('click', e => { e.preventDefault(); st.tout = true; maj(true); });
         $('#fs')?.addEventListener('change', e => { st.statut = e.target.value; maj(); });
         $('#fo')?.addEventListener('change', e => { st.org = e.target.value; maj(); });
         if (defiler && montre) $('#liste').scrollIntoView({ behavior: 'smooth', block: 'start' });
       };
-      box.addEventListener('click', e => { const a = e.target.closest('[data-theme]'); if (!a) return; e.preventDefault(); st.theme = st.theme === a.dataset.theme ? '' : a.dataset.theme; st.tout = false; maj(true); });
       $('#bq').addEventListener('input', e => { st.q = e.target.value; maj(); });
       $('#bf').addEventListener('submit', e => e.preventDefault());
-      let t; window.onresize = () => { clearTimeout(t); t = setTimeout(() => $('#shelves') && dessinerEtagere($('#shelves'), rayons, st.theme), 150); };
+      let t; window.onresize = () => { clearTimeout(t); t = setTimeout(() => $('#shelves') && dessinerEtagere($('#shelves'), cours), 150); };
       maj(false);
+    } };
+};
+
+/* ---------- Cours (repris d'Excellence COSUMAF) ---------- */
+let coursIdx = null, tousCours = null; const coursCache = new Map();
+const chargerCoursIdx = async () => coursIdx ||= await fetch('/data/cours.json').then(r => r.json());
+const chargerCours = async id => { if (!coursCache.has(id)) coursCache.set(id, await fetch(`/data/cours/${id}.json`).then(r => r.json())); return coursCache.get(id); };
+const chargerTousCours = async () => tousCours ||= await Promise.all((await chargerCoursIdx()).map(c => chargerCours(c.id)));
+const nomChap = t => String(t).replace(/^[^·]*·\s*(\d+\s*·\s*)?/, '');
+const COULEUR_COURS = { orange: '#e0703a', teal: '#2f6f86', mustard: '#dfa93b', red: '#d4563a', navy: '#3d6a80', plum: '#8a5aa8' };
+const MAT_COURS = { orange: '#d9692f', teal: '#2c7a8f', mustard: '#c99a2e', red: '#c2392f', navy: '#35569e', plum: '#6b4fb0' };
+const mdBloc = t => String(t).split(/\n\n+/).map(b => {
+  const inline = x => esc(x).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'), lines = b.split('\n');
+  if (lines.every(l => l.startsWith('|'))) {
+    const rows = lines.filter(l => !/^\|[\s:|-]+\|?$/.test(l)).map(l => l.replace(/^\||\|$/g, '').split('|').map(c => inline(c.trim())));
+    return '<div class="mdtbl"><table><thead><tr>' + rows[0].map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>' + rows.slice(1).map(r => '<tr>' + r.map((c, i) => i ? `<td>${c}</td>` : `<th scope="row">${c}</th>`).join('') + '</tr>').join('') + '</tbody></table></div>';
+  }
+  if (lines.every(l => l.startsWith('- '))) return '<ul>' + lines.map(l => `<li>${inline(l.slice(2))}</li>`).join('') + '</ul>';
+  if (lines.every(l => /^\d+\.\s/.test(l))) return '<ol>' + lines.map(l => `<li>${inline(l.replace(/^\d+\.\s/, ''))}</li>`).join('') + '</ol>';
+  return '<p>' + lines.map(inline).join('<br>') + '</p>';
+}).join('');
+const mastCours = c => {
+  const pre = c.id + ':'; let ok = 0, total = c.n.cartes + c.n.questions;
+  for (const [k, v] of Object.entries(ET.cards)) if (k.startsWith(pre) && (v.ivl || 0) >= 3) ok++;
+  for (const [k, v] of Object.entries(ET.quiz)) if (k.startsWith(pre) && v === 1) ok++;
+  return total ? Math.round(ok / total * 100) : 0;
+};
+const PTYPE = { explication: ['compass', 'Explication'], exemple: ['lightbulb', 'Exemple du coach'], examen: ['star', 'Insiste : à l\'examen'], conseil: ['target', 'Conseil'], piege: ['triangle-alert', 'Piège'], consigne: ['clipboard-list', 'Consigne'], anecdote: ['message-circle', 'Anecdote'] };
+
+views.cours = async ([id], q) => {
+  const idx = await chargerCoursIdx(), meta = idx.find(c => c.id === id); if (!meta) return views.introuvable();
+  const p = await chargerCours(id);
+  const TABS = [['resume', 'Résumé'], ['fiches', 'Fiches'], ['schemas', 'Schémas'], ...(p.chapitres.some(c => (c.prof || []).length) ? [['prof', 'Le coach insiste']] : []), ['gloss', 'Glossaire'], ['textes', `Textes${meta.textes.length ? ' (' + meta.textes.length + ')' : ''}`]];
+  const tab = TABS.some(([k]) => k === q.t) ? q.t : 'resume', chFiltre = p.chapitres.some(c => c.id === q.ch) ? q.ch : '';
+  const chs = chFiltre ? p.chapitres.filter(c => c.id === chFiltre) : p.chapitres, base = `#/cours/${id}`, chq = chFiltre ? `&ch=${chFiltre}` : '';
+  const due = chs.flatMap(c => (c.cartes || []).map((_, i) => `${id}:${c.id}:${i}`)).filter(k => !ET.cards[k] || ET.cards[k].due <= Date.now()).length;
+  const m = mastCours(meta); let corps = '', schemas = [];
+  if (tab === 'fiches') {
+    corps = chs.map(c => `<h2><span class="lbl l2">${esc(nomChap(c.titre))}</span></h2>` + (c.fiches || []).map((f, i) => `<div class="fiche s${i % 5 + 1}"><h3>${esc(f.titre)}</h3>${mdBloc(f.contenu)}</div>`).join('') + (c.mnemos || []).map(t => `<div class="fiche mnemo"><small>Astuce mnémotechnique</small>${mdBloc(t)}</div>`).join('')).join('');
+  } else if (tab === 'schemas') {
+    const liste = chs.flatMap(c => (c.schemas || []).map(v => ({ ...v, ch: c.titre }))); schemas = liste;
+    corps = liste.length ? `<div class="vzbar" style="grid-column:1/-1"><span class="vzhint">Touche un élément : il s'anime et se détaille.</span><button class="chip" id="vzt" type="button">${ic('brain-circuit')} Mode test : cacher les légendes</button></div>` + chs.filter(c => (c.schemas || []).length).map(c => `<h2 class="vzchap"><span class="lbl l6">${esc(nomChap(c.titre))}</span></h2><div class="vzgrid">${c.schemas.map(v => B.viz.card(v, liste.findIndex(x => x.titre === v.titre && x.ch === c.titre))).join('')}</div>`).join('') : '<p class="muted">Pas encore de schéma pour ce cours.</p>';
+  } else if (tab === 'prof') {
+    corps = `<p class="vzhint" style="grid-column:1/-1">Ce que le coach te demande de retenir : les pièges et les points qui tombent.</p>` + chs.filter(c => (c.prof || []).length).map(c => `<h2 class="vzchap" style="grid-column:1/-1"><span class="lbl l1">${esc(nomChap(c.titre))}</span></h2><div class="profgrid" style="grid-column:1/-1">${c.prof.map((x, i) => { const [i2, lb] = PTYPE[x.type] || PTYPE.explication; return `<article class="profnote pn${i % 4 + 1} ${esc(x.type || 'explication')}"><small>${ic(i2)} ${lb}${x.date ? ` · ${esc(x.date)}` : ''}</small><h3>${esc(x.titre)}</h3>${mdBloc(x.texte)}</article>`; }).join('')}</div>`).join('');
+  } else if (tab === 'gloss') {
+    corps = `<input class="search" id="gs" style="grid-column:1/-1" placeholder="Rechercher un terme…" autocomplete="off"><dl class="gloss" id="gl" style="grid-column:1/-1"></dl>`;
+  } else if (tab === 'textes') {
+    const ts = meta.textes.map(T).filter(Boolean);
+    corps = ts.length ? `<p style="grid-column:1/-1" class="onmat">Les textes officiels sur lesquels s'appuie ce cours.</p><ul class="list" style="grid-column:1/-1">${ts.map(t => `<li><a class="card item" href="#/texte/${t.id}"><span class="t">${esc(shortName(t))}</span><span class="sub">${esc(t.titre)}</span><span class="meta">${badgeStatut(t)}<span>${ORG[t.organisme]}</span>${t.date_texte ? `<span>${esc(t.date_texte)}</span>` : ''}${t.pdf ? `<span>${ic('download')} PDF</span>` : ''}</span></a></li>`).join('')}</ul>` : `<p style="grid-column:1/-1" class="onmat">Ce cours rassemble des repères de tous les textes. <a href="#/bibliotheque?tout=1" style="color:var(--y)">Voir tous les textes</a>.</p>`;
+  } else {
+    const nivs = ['court', 'moyen']; if (p.chapitres.some(c => c.resume.long && c.resume.long !== c.resume.moyen)) nivs.push('long');
+    const lbl = { court: 'En 1 phrase', moyen: 'En 1 paragraphe', long: 'En 1 page' }, niv = nivs.includes(q.n) ? q.n : 'moyen';
+    corps = `<div class="chip-row" style="grid-column:1/-1">${nivs.map(k => `<a class="chip ${k === niv ? 'on' : ''}" href="${base}?t=resume&n=${k}${chq}">${lbl[k]}</a>`).join('')}</div>` + chs.map(c => `<h2><span class="lbl l1">${esc(nomChap(c.titre))}</span></h2>${mdBloc(c.resume[niv])}`).join('');
+  }
+  const stat = ['chapitre' + (p.chapitres.length > 1 ? 's' : ''), 'fiches', 'cartes', 'questions', 'schémas'];
+  return { title: `${p.titre} : cours`, html: `
+    <a class="back" href="#/bibliotheque">← Retour à la bibliothèque</a>
+    <div class="cover"><div class="bk" style="background-color:${COULEUR_COURS[p.couleur] || '#e0703a'}"></div>
+      <div><h1>${esc(p.titre)}</h1>
+        <p class="meta">${p.chapitres.length} chapitres · ${meta.n.fiches} fiches · ${meta.n.cartes} cartes · ${meta.n.questions} questions · ${meta.n.schemas} schémas</p>
+        <div class="bar" title="Maîtrise ${m}%"><i style="width:${m}%"></i></div><p class="meta" style="font-size:.9rem">Maîtrise : ${m} %</p></div></div>
+    <p class="onmat" style="max-width:760px">${esc(p.description || '')}</p>
+    <div class="cbtns"><a class="btn" href="#/flashcards/run${qs({ cours: id })}">${ic('layers')} Flashcards${due ? ` · ${due} à revoir` : ''}</a><a class="btn ghost" href="#/quiz/run${qs({ cours: id })}">${ic('circle-check')} Quiz</a><a class="btn ghost sm" href="#/jeux">${ic('gamepad-2')} Jeux</a></div>
+    ${p.chapitres.length > 1 ? (p.chapitres.length > 6 ? `<div class="chip-row"><select class="chsel" id="chsel" aria-label="Chapitre"><option value="">Tous les chapitres (${p.chapitres.length})</option>${p.chapitres.map(c => `<option value="${esc(c.id)}" ${chFiltre === c.id ? 'selected' : ''}>${esc(c.titre)}</option>`).join('')}</select></div>` : `<div class="chip-row"><a class="chip ${chFiltre ? '' : 'on'}" href="${base}?t=${tab}">Tous les chapitres</a>${p.chapitres.map(c => `<a class="chip ${chFiltre === c.id ? 'on' : ''}" href="${base}?t=${tab}&ch=${c.id}">${esc(nomChap(c.titre))}</a>`).join('')}</div>`) : ''}
+    <nav class="tabsrow" aria-label="Rubriques du cours">${TABS.map(([k, l]) => `<a class="chip" aria-pressed="${tab === k}" href="${base}?t=${k}${chq}">${l}</a>`).join('')}</nav>
+    <div class="panel ${tab === 'resume' ? 'resume' : ''}" id="panel">${corps}</div>`,
+    after() {
+      fond(MAT_COURS[p.couleur] || MAT.bibliotheque);
+      const sel = $('#chsel'); if (sel) sel.onchange = () => { location.hash = `${base}?t=${tab}${sel.value ? '&ch=' + sel.value : ''}`; };
+      if (tab === 'schemas' && schemas.length) {
+        B.viz.mount($('#app'), schemas); const pn = $('#panel'), tb = $('#vzt');
+        if (tb) tb.onclick = () => { const on = pn.classList.toggle('testmode'); tb.classList.toggle('on', on); pn.querySelectorAll('.rev').forEach(x => x.classList.remove('rev')); tb.lastChild.textContent = on ? ' Mode test actif : touche pour révéler' : ' Mode test : cacher les légendes'; E.sfx.pop(); };
+        pn.addEventListener('click', e => { if (!pn.classList.contains('testmode')) return; const el = e.target.closest('.vz-step,.vz-tn,.vz-term,.vz-stat,.vz-col,.bx,.vnode,.blk,.vz-ev button,.mk,.vz-tbl td,.vz-tbl tbody th,.vslice'); if (el) el.classList.toggle('rev'); }, true);
+      }
+      if (tab === 'gloss') {
+        const termes = chs.flatMap(c => (c.definitions || []).map(d => ({ ...d, ch: c.titre }))).sort((a, b) => a.terme.localeCompare(b.terme, 'fr'));
+        const dessiner = txt => { const f = termes.filter(t => fold(t.terme + ' ' + t.definition).includes(fold(txt))); $('#gl').innerHTML = f.length ? f.map(t => `<div class="gcard"><dt>${esc(t.terme)}</dt><dd>${esc(t.definition)}<span class="ch">${esc(nomChap(t.ch))}</span></dd></div>`).join('') : '<dd>Aucun terme trouvé.</dd>'; };
+        dessiner(''); $('#gs').oninput = e => dessiner(e.target.value);
+      }
     } };
 };
 
@@ -424,51 +499,61 @@ function planifier(st, r) {
 const ivlText = (st, r) => { const n = planifier(st, r); if (r === 0) return '10 min'; const d = Math.round(n.ivl); return d >= 30 ? `${Math.round(d / 30)} mois` : `${d} j`; };
 const serieJours = () => { let n = 0; const d = new Date(); if (!ET.days[d.toLocaleDateString('sv')]) d.setDate(d.getDate() - 1); while (ET.days[d.toLocaleDateString('sv')]) { n++; d.setDate(d.getDate() - 1); } return n; };
 
+const poolQuiz = () => D.faits.filter(f => (f.y === 'delai' || f.y === 'montant') && T(f.t).statut !== 'abroge' && f.v.length <= 70 && f.q.length <= 170 && f.v.length >= 2);
+const SOURCES = async () => ({ ...Object.fromEntries((await chargerCoursIdx()).map(c => [c.id, c.court + ' : ' + c.titre])), textes: 'Repères des textes (délais, montants, rôles)' });
+const SUJETS_T = { delai: 'Délais', montant: 'Montants', role: 'Rôles', definition: 'Définitions' };
+
+/* cartes : { id, q, v, small, voir } */
+const cartesDeCours = (packs, src) => packs.filter(p => !src || p.id === src).flatMap(p => p.chapitres.flatMap(c => (c.cartes || []).map((k, i) => ({ id: `${p.id}:${c.id}:${i}`, q: k.recto, v: k.verso, small: `${p.court} · ${nomChap(c.titre)}`, voir: `#/cours/${p.id}?t=fiches&ch=${c.id}` }))));
+const cartesDeTextes = sujet => poolCartes(sujet, '').map(f => ({ id: f.id, q: f.q, v: f.v, a: f.a, small: `${nomTheme(f.h)} · ${shortName(T(f.t))}`, voir: `#/texte/${f.t}${qs({ f: f.id })}` }));
+const cartes = async src => src === 'textes' ? cartesDeTextes('') : cartesDeCours(await chargerTousCours(), src);
+
 views.flashcards = async (a, q) => {
-  const st = { sujet: SUJETS[q.sujet] ? q.sujet : '', theme: D.themes.has(q.theme) ? q.theme : '' };
-  if (a[0] === 'run') return { title: 'Flashcards', html: '<div id="fl"></div>', after() { flash(st, !!q.cram); } };
-  const serie = serieJours();
+  const st = { src: q.cours === 'textes' || (coursIdx && coursIdx.some(c => c.id === q.cours)) ? q.cours : '', sujet: SUJETS_T[q.sujet] ? q.sujet : '' };
+  if (!st.src && q.cours) { await chargerCoursIdx(); st.src = coursIdx.some(c => c.id === q.cours) ? q.cours : ''; }
+  if (a[0] === 'run') return { title: 'Flashcards', html: '<div id="fl"></div>', async after() { E.coach.show(); const l = st.src === 'textes' ? cartesDeTextes(st.sujet) : await cartes(st.src); flash(l, q.cram === '1', st); } };
+  const serie = serieJours(), sources = await SOURCES();
   return { title: 'Flashcards', html: `
     <h1 class="h1">${lbls('Flashcards')}</h1><span class="hand">Retourne la carte, puis dis-toi si tu savais.</span>
-    <div class="card hub"><div class="filters"><label class="field" style="color:var(--ink);text-shadow:none">Sujet<select id="fs">${options(SUJETS, st.sujet, 'Tout')}</select></label>
-      <label class="field" style="color:var(--ink);text-shadow:none">Thème<select id="fth">${options(themesOpts(), st.theme, 'Tous les thèmes')}</select></label></div>
+    <div class="card hub"><div class="filters"><label class="field" style="color:var(--ink);text-shadow:none">Cours<select id="fs">${options(sources, st.src, 'Tous les cours')}</select></label>
+      <label class="field" id="fsj" style="color:var(--ink);text-shadow:none" hidden>Sujet<select id="fsu">${options(SUJETS_T, st.sujet, 'Tout')}</select></label></div>
       <p class="stat" id="fi"></p>
-      <div class="btns"><a class="btn" id="go" href="#/flashcards/run">${ic('layers')} Flashcards</a><a class="btn ghost" id="cram" href="#/flashcards/run?cram=1">Tout réviser quand même</a></div></div>
+      <div class="btns" style="justify-content:flex-start"><a class="btn" id="go" href="#/flashcards/run">${ic('layers')} Flashcards</a><a class="btn ghost" id="cram" href="#/flashcards/run?cram=1">Tout réviser quand même</a></div></div>
     <p class="small onmat" style="margin-top:22px">${serie ? `${ic('flame')} ${serie} jour${serie > 1 ? 's' : ''} de suite` : 'Révise un peu chaque jour pour lancer ta série.'}</p>`,
-    after() {
-      const maj = () => { const l = poolCartes(st.sujet, st.theme), due = l.filter(estDue).length;
-        $('#fi').innerHTML = due ? `<b>${due}</b> carte${due > 1 ? 's' : ''} à réviser aujourd'hui` : 'Rien à réviser pour le moment';
+    async after() {
+      const maj = async () => { const l = st.src === 'textes' ? cartesDeTextes(st.sujet) : await cartes(st.src), due = l.filter(estDue).length;
+        $('#fsj').hidden = st.src !== 'textes';
+        $('#fi').innerHTML = `<b>${l.length}</b> cartes · ` + (due ? `<b>${due}</b> à réviser aujourd'hui` : 'rien à réviser pour le moment');
         $('#go').innerHTML = `${ic('layers')} Flashcards${due ? ` · ${due} à revoir` : ''}`;
-        $('#go').href = '#/flashcards/run' + qs({ sujet: st.sujet, theme: st.theme }); $('#cram').href = '#/flashcards/run' + qs({ sujet: st.sujet, theme: st.theme, cram: 1 });
-        $('#cram').hidden = !due ? false : true; };
-      $('#fs').addEventListener('change', e => { st.sujet = e.target.value; maj(); });
-      $('#fth').addEventListener('change', e => { st.theme = e.target.value; maj(); });
+        const args = { cours: st.src, sujet: st.sujet }; $('#go').href = '#/flashcards/run' + qs(args); $('#cram').href = '#/flashcards/run' + qs({ ...args, cram: 1 }); $('#cram').hidden = due > 0; };
+      $('#fs').addEventListener('change', e => { st.src = e.target.value; maj(); });
+      $('#fsu').addEventListener('change', e => { st.sujet = e.target.value; maj(); });
       maj();
     } };
 };
 
-function flash(f, cram) {
+function flash(toutes, cram, f) {
   const app = $('#app'), back = '#/flashcards';
-  let list = poolCartes(f.sujet, f.theme); list = cram ? shuffle(list) : shuffle(list.filter(estDue)); list = list.slice(0, 30);
+  let list = cram ? shuffle(toutes) : shuffle(toutes.filter(estDue)); list = list.slice(0, 30);
   const total = list.length; let i = 0, flipped = false, done = 0, combo = 0;
   const RATE = [['À revoir', 'rotate-ccw'], ['Difficile', 'meh'], ['Bien', 'smile'], ['Facile', 'zap']];
   const finish = () => {
-    if (done) log('flash', { course: f.theme || '', n: done, xp: done * 2 });
+    if (done) log('flash', { course: f.src || '', n: done, xp: done * 2 });
     app.innerHTML = `<div class="done">${E.cheer(.9)}
       <h1>${total ? 'Session terminée' : 'Tout est à jour'}</h1>
       <p>${total ? `${done} carte${done > 1 ? 's' : ''} révisée${done > 1 ? 's' : ''}. Les prochaines reviendront au bon moment.` : 'Aucune carte n\'est à revoir pour le moment.'}</p>
-      <div class="btns"><a class="btn" href="${back}">Retour</a>${!total ? `<a class="btn ghost" href="#/flashcards/run${qs({ sujet: f.sujet, theme: f.theme, cram: 1 })}">Tout réviser quand même</a>` : ''}</div></div>`;
+      <div class="btns"><a class="btn" href="${back}">Retour</a>${!total ? `<a class="btn ghost" href="#/flashcards/run${qs({ cours: f.src, sujet: f.sujet, cram: 1 })}">Tout réviser quand même</a>` : ''}</div></div>`;
     E.touches = null; if (done) { E.coach.show(); E.coach.win('Session bouclée !'); E.confetti(); } else E.coach.hide();
   };
   const show = () => {
     if (i >= total) return finish();
-    const k = list[i], st = ET.cards[k.id], t = T(k.t); flipped = false;
+    const k = list[i], st = ET.cards[k.id]; flipped = false;
     const long = k.v.length > 70 ? ' style="font-size:clamp(20px,4vw,28px)"' : '';
     app.innerHTML = `<div class="flashpage">
       <div class="ex-head"><a href="${back}">← Quitter</a><span>${ic('layers')} ${i + 1} / ${total}${combo >= 3 ? ` <b class="combo">${ic('flame')} ×${combo}</b>` : ''}</span></div>
       <div class="chain">${list.map((_, n) => `<i class="${n < i ? 'ok' : n === i ? 'cur' : ''}"></i>`).join('')}</div>
       <div class="fcard" id="fc"><div class="in">
-        <div class="face front"><small>${esc(nomTheme(k.h))} · ${esc(shortName(t))}</small><div class="q">${esc(k.q)}</div><em class="hint">${ic('hand-heart')} touche pour retourner</em></div>
+        <div class="face front"><small>${esc(k.small)}</small><div class="q">${esc(k.q)}</div><em class="hint">${ic('hand-heart')} touche pour retourner</em></div>
         <div class="face back-face"><small>Réponse${k.a ? ' · ' + esc(k.a) : ''}</small><div class="q"${long}>${esc(k.v)}</div><em class="hint">${ic('hand-heart')} touche pour revoir la question</em></div></div></div>
       <div class="rates" id="rates" hidden>
         ${RATE.map(([l, icone], r) => `<button class="r${r}" data-r="${r}">${ic(icone)}<b>${l}</b><small>${ivlText(st, r)}</small></button>`).join('')}
@@ -487,51 +572,56 @@ function flash(f, cram) {
       else if (flipped && '1234'.includes(e.key) && e.key) rate(+e.key - 1);
     };
   };
-  E.coach.show(); show();
+  show();
 }
 
 /* ---------- Quiz ("Quiz Time!") ---------- */
 const REACTIONS = () => [ic('thumbs-up'), ic('heart', 'fill'), E.face('angry', 38), E.face('think', 38), E.face('wow', 38), E.face('laugh', 38)];
 const FLECHE = `<svg class="arrow" viewBox="0 0 64 64"><path d="M10 6 L10 50 L22 39 L31 58 L40 54 L31 36 L48 36 Z" fill="#ffc43a" stroke="#1e1b16" stroke-width="3" stroke-linejoin="round"/></svg>`;
-const poolQuiz = () => D.faits.filter(f => (f.y === 'delai' || f.y === 'montant') && T(f.t).statut !== 'abroge' && f.v.length <= 70 && f.q.length <= 170 && f.v.length >= 2);
-function questionsDe(f, max = 10) {
-  const base = poolQuiz(); const pool = f.faibles ? base.filter(x => ET.errors[x.id]) : base.filter(x => (!f.sujet || x.y === f.sujet) && (!f.theme || x.h === f.theme));
-  const out = [];
-  for (const x of shuffle(pool)) {
-    const memeType = base.filter(g => g.y === x.y && fold(g.v) !== fold(x.v));
-    const memeUnite = x.u ? memeType.filter(g => g.u === x.u) : [];
-    const dis = []; const vus = new Set([fold(x.v)]);
-    for (const g of shuffle(memeUnite.length >= 3 ? memeUnite : memeType)) { if (!vus.has(fold(g.v))) { vus.add(fold(g.v)); dis.push(g.v); } if (dis.length === 3) break; }
-    if (dis.length < 3) continue;
-    const choix = shuffle([x.v, ...dis]);
-    out.push({ x, choix, bonne: choix.indexOf(x.v), explication: `${x.a ? x.a + ' · ' : ''}${citation(T(x.t))}` });
-    if (out.length === max) break;
+/* questions : { id, enonce, choix, bonne, explication, meta, voir } ; les choix sont mélangés à la création */
+const melanger = o => { const ordre = shuffle(o.choix.map((_, i) => i)); return { ...o, choix: ordre.map(i => o.choix[i]), bonne: ordre.indexOf(o.bonne) }; };
+const questionsDeCours = (packs, src) => packs.filter(p => !src || p.id === src).flatMap(p => p.chapitres.flatMap(c => (c.questions || []).map((x, i) => ({ id: `${p.id}:${c.id}:q${i}`, enonce: x.q, choix: x.choix, bonne: x.bonne, explication: x.explication || ('Réponse : ' + x.choix[x.bonne]), meta: `${p.court} · ${nomChap(c.titre)}`, voir: `#/cours/${p.id}?t=fiches&ch=${c.id}` }))));
+function itemFait(x, base) {
+  const memeType = base.filter(g => g.y === x.y && fold(g.v) !== fold(x.v)), memeUnite = x.u ? memeType.filter(g => g.u === x.u) : [];
+  const dis = [], vus = new Set([fold(x.v)]);
+  for (const g of shuffle(memeUnite.length >= 3 ? memeUnite : memeType)) { if (!vus.has(fold(g.v))) { vus.add(fold(g.v)); dis.push(g.v); } if (dis.length === 3) break; }
+  if (dis.length < 3) return null;
+  return melanger({ id: x.id, enonce: x.q, choix: [x.v, ...dis], bonne: 0, explication: `${x.a ? x.a + ' · ' : ''}${citation(T(x.t))}`, meta: `${nomTheme(x.h)} · ${shortName(T(x.t))}`, voir: `#/texte/${x.t}${qs({ f: x.id })}` });
+}
+const questionsDeTextes = (sujet, max) => { const base = poolQuiz(), out = []; for (const x of shuffle(base.filter(x => !sujet || x.y === sujet))) { const it = itemFait(x, base); if (it) out.push(it); if (out.length >= max) break; } return out; };
+async function questionsDe(f, max = 10) {
+  const packs = await chargerTousCours();
+  if (f.faibles) {
+    const ids = Object.keys(ET.errors), tous_ = new Map(questionsDeCours(packs, '').map(x => [x.id, x]));
+    const base = poolQuiz(), parId = new Map(base.map(x => [x.id, x]));
+    return shuffle(ids.map(id => tous_.has(id) ? melanger(tous_.get(id)) : parId.has(id) ? itemFait(parId.get(id), base) : null).filter(Boolean)).slice(0, max);
   }
-  return out;
+  if (f.src === 'textes') return questionsDeTextes(f.sujet, max);
+  return shuffle(questionsDeCours(packs, f.src).map(melanger)).slice(0, max);
 }
 views.quiz = async (a, q) => {
-  const st = { sujet: SUJETS[q.sujet] && q.sujet !== 'role' && q.sujet !== 'definition' ? q.sujet : '', theme: D.themes.has(q.theme) ? q.theme : '' };
-  if (a[0] === 'run') return { title: 'Quiz', html: '<div id="qz"></div>', after() { quiz({ ...st, faibles: q.faibles === '1' }); } };
-  const faibles = poolQuiz().filter(x => ET.errors[x.id]).length;
+  await chargerCoursIdx();
+  const st = { src: q.cours === 'textes' || coursIdx.some(c => c.id === q.cours) ? q.cours : '', sujet: q.sujet === 'delai' || q.sujet === 'montant' ? q.sujet : '' };
+  if (a[0] === 'run') return { title: 'Quiz', html: '<div id="qz"></div>', async after() { quiz({ ...st, faibles: q.faibles === '1' }, await questionsDe({ ...st, faibles: q.faibles === '1' })); } };
+  const sources = await SOURCES(); const nf = Object.keys(ET.errors).length;
   const rep = Object.keys(ET.quiz).length, ok = Object.values(ET.quiz).filter(v => v === 1).length;
   return { title: 'Quiz', html: `
-    <h1 class="h1">${lbls('Quiz')}</h1><span class="hand">Dix questions sur les délais et les montants. Choisis la bonne réponse.</span>
-    <div class="card hub"><div class="filters"><label class="field" style="color:var(--ink);text-shadow:none">Sujet<select id="qs">${options({ delai: 'Délais', montant: 'Montants' }, st.sujet, 'Délais et montants')}</select></label>
-      <label class="field" style="color:var(--ink);text-shadow:none">Thème<select id="qt">${options(themesOpts(), st.theme, 'Tous les thèmes')}</select></label></div>
-      <div class="btns"><a class="btn" id="go" href="#/quiz/run">${ic('circle-check')} Quiz</a>${faibles ? `<a class="btn ghost" href="#/quiz/run?faibles=1">Mes points faibles (${faibles})</a>` : ''}</div></div>
-    <p class="small onmat" style="margin-top:22px">${rep ? `${rep} question${rep > 1 ? 's' : ''} répondue${rep > 1 ? 's' : ''} · ${Math.round(ok / rep * 100)} % de réussite.` : 'Chaque réponse renvoie à l\'article du texte.'} Ta progression reste sur cet appareil.</p>`,
+    <h1 class="h1">${lbls('Quiz')}</h1><span class="hand">Dix questions, quatre choix. Chaque réponse est expliquée.</span>
+    <div class="card hub"><div class="filters"><label class="field" style="color:var(--ink);text-shadow:none">Cours<select id="qs">${options(sources, st.src, 'Tous les cours')}</select></label>
+      <label class="field" id="qsj" style="color:var(--ink);text-shadow:none" hidden>Sujet<select id="qsu">${options({ delai: 'Délais', montant: 'Montants' }, st.sujet, 'Délais et montants')}</select></label></div>
+      <div class="btns" style="justify-content:flex-start"><a class="btn" id="go" href="#/quiz/run">${ic('circle-check')} Quiz</a>${nf ? `<a class="btn ghost" href="#/quiz/run?faibles=1">Mes points faibles (${nf})</a>` : ''}</div></div>
+    <p class="small onmat" style="margin-top:22px">${rep ? `${rep} question${rep > 1 ? 's' : ''} répondue${rep > 1 ? 's' : ''} · ${Math.round(ok / rep * 100)} % de réussite.` : 'Chaque réponse renvoie au cours ou à l\'article.'} Ta progression reste sur cet appareil.</p>`,
     after() {
-      const maj = () => { $('#go').href = '#/quiz/run' + qs({ sujet: st.sujet, theme: st.theme }); };
-      $('#qs').addEventListener('change', e => { st.sujet = e.target.value; maj(); });
-      $('#qt').addEventListener('change', e => { st.theme = e.target.value; maj(); });
+      const maj = () => { $('#qsj').hidden = st.src !== 'textes'; $('#go').href = '#/quiz/run' + qs({ cours: st.src, sujet: st.sujet }); };
+      $('#qs').addEventListener('change', e => { st.src = e.target.value; maj(); });
+      $('#qsu').addEventListener('change', e => { st.sujet = e.target.value; maj(); });
       maj();
     } };
 };
 views.maitriser = views.quiz;
 
-function quiz(f) {
-  const app = $('#app'), back = '#/quiz';
-  const picked = questionsDe(f), n = picked.length; let i = 0; const res = [];
+function quiz(f, picked) {
+  const app = $('#app'), back = '#/quiz'; const n = picked.length; let i = 0; const res = [];
   const shell = inner => {
     document.body.classList.add('quiz-mode');
     app.innerHTML = `<div class="qdeco"><div class="pill-s p1"></div><div class="pill-s p2"></div><div class="pill-s p3"></div><div class="star s1"></div><div class="star s2"></div></div>
@@ -539,12 +629,12 @@ function quiz(f) {
   };
   const ask = () => {
     if (i >= n) return end();
-    const q = picked[i], t = T(q.x.t);
+    const q = picked[i];
     shell(`<div class="qwrap"><div class="qstack"><div class="qcard">
       <div class="reactions">${REACTIONS().map((e, k) => `<span class="r r${k}">${e}</span>`).join('')}</div>
       <h1 class="qtitle">Quiz Time!${FLECHE}</h1>
-      <p class="qmeta">${esc(nomTheme(q.x.h))} · ${esc(shortName(t))} · Question ${i + 1}/${n}</p>
-      <p class="qtext">${esc(q.x.q)}</p>
+      <p class="qmeta">${esc(q.meta)} · Question ${i + 1}/${n}</p>
+      <p class="qtext">${esc(q.enonce)}</p>
       <div class="opts">${q.choix.map((c, k) => `<button class="opt" data-k="${k}"><span class="l">${'ABCD'[k]}</span><span class="t">${esc(c)}</span></button>`).join('')}</div>
       <div id="fb"></div>
     </div></div></div>
@@ -553,15 +643,15 @@ function quiz(f) {
     let answered = false;
     const pick = k => {
       if (answered) return; answered = true;
-      const ok = k === q.bonne; res[i] = ok; ET.quiz[q.x.id] = ok ? 1 : 0;
-      if (ok) { if (ET.errors[q.x.id] > 1) ET.errors[q.x.id]--; else delete ET.errors[q.x.id]; } else ET.errors[q.x.id] = (ET.errors[q.x.id] || 0) + 1;
+      const ok = k === q.bonne; res[i] = ok; ET.quiz[q.id] = ok ? 1 : 0;
+      if (ok) { if (ET.errors[q.id] > 1) ET.errors[q.id]--; else delete ET.errors[q.id]; } else ET.errors[q.id] = (ET.errors[q.id] || 0) + 1;
       touchDay(1); sauver();
       let serie = 0; for (let z = i; z >= 0 && res[z]; z--) serie++;
       E.coach.react(ok, ok ? serie : 0);
       $('.qcard').insertAdjacentHTML('beforeend', `<div class="stamp ${ok ? 'ok' : 'ko'}">${ok ? 'JUSTE !' : 'OUPS'}</div>`);
       $$('.opt').forEach((b, idx) => { b.disabled = true; if (idx === q.bonne) b.classList.add('ok'); else if (idx === k) b.classList.add('ko'); else b.classList.add('dim'); });
       $$('.reactions .r')[ok ? (Math.random() < .5 ? 0 : 1) : 3].classList.add('on');
-      $('#fb').innerHTML = `<div class="expl"><b>${ok ? 'Bonne réponse !' : 'Pas tout à fait…'}</b>${esc(q.explication)}<br><a href="#/texte/${q.x.t}${qs({ f: q.x.id })}" target="_blank">Voir dans le texte</a></div>
+      $('#fb').innerHTML = `<div class="expl"><b>${ok ? 'Bonne réponse !' : 'Pas tout à fait…'}</b>${esc(q.explication)}${q.voir ? `<br><a href="${q.voir}" target="_blank">Voir dans le cours</a>` : ''}</div>
         <button class="qnext" id="nx">${i + 1 < n ? 'Question suivante →' : 'Voir mon score →'}</button>`;
       $('#qf').textContent = ok ? 'Bien joué !' : 'Pas grave, on retient.';
       const next = () => { i++; ask(); };
@@ -573,16 +663,16 @@ function quiz(f) {
   };
   const end = () => {
     const good = res.filter(Boolean).length, wrong = picked.filter((_, k) => !res[k]), pct = Math.round(good / n * 100);
-    log('quiz', { course: f.theme || '', faibles: !!f.faibles, score: good, max: n, xp: good * 5 + (n - good) });
+    log('quiz', { course: f.src || '', faibles: !!f.faibles, score: good, max: n, xp: good * 5 + (n - good) });
     shell(`<div class="qwrap"><div class="qstack"><div class="qcard">
       <div class="reactions">${REACTIONS().map((e, k) => `<span class="r r${k} ${k === (pct >= 70 ? 0 : 3) ? 'on' : ''}">${e}</span>`).join('')}</div>
       <h1 class="qtitle">Terminé !</h1>
       <p class="score">${good}/${n}</p>
-      <p class="qtext" style="margin:6px 0 10px">${pct === 100 ? 'Sans faute, bravo !' : pct >= 70 ? 'Très bien, tu maîtrises !' : pct >= 40 ? 'Tu progresses, encore un effort.' : 'Relis les textes puis réessaie.'}</p>
-      ${wrong.length ? `<div class="review"><p style="font-weight:600;margin-bottom:8px">À retenir :</p>${wrong.map(q => `<div class="it"><b>${esc(q.x.q)}</b><em>${esc(q.choix[q.bonne])}</em><br>${esc(q.explication)}</div>`).join('')}</div>` : ''}
-      <div class="btns"><button class="qnext" id="again">Rejouer</button><a class="qnext" style="background:transparent;color:#1e1b16;border:2px solid #1e1b16" href="${back}">Retour</a></div>
+      <p class="qtext" style="margin:6px 0 10px">${pct === 100 ? 'Sans faute, bravo !' : pct >= 70 ? 'Très bien, tu maîtrises !' : pct >= 40 ? 'Tu progresses, encore un effort.' : 'Relis le cours puis réessaie.'}</p>
+      ${wrong.length ? `<div class="review"><p style="font-weight:600;margin-bottom:8px">À retenir :</p>${wrong.map(q => `<div class="it"><b>${esc(q.enonce)}</b><em>${esc(q.choix[q.bonne])}</em><br>${esc(q.explication)}</div>`).join('')}</div>` : ''}
+      <div class="btns"><a class="qnext" id="again" href="#/quiz/run${qs({ cours: f.src, sujet: f.sujet, faibles: f.faibles ? 1 : '', r: Date.now() })}">Rejouer</a><a class="qnext" style="background:transparent;color:#1e1b16;border:2px solid #1e1b16" href="${back}">Retour</a></div>
     </div></div></div>`);
-    $('#again').onclick = () => quiz(f); E.touches = null;
+    E.touches = null;
     if (pct >= 70) { E.confetti(130); E.coach.win(pct === 100 ? 'Sans faute !' : 'Quel score !'); } else { E.sfx.lose(); E.coach.say('sad', 'On y retourne ?', 4000); }
   };
   if (!n) {
@@ -612,6 +702,7 @@ const habiller = (inner, back, titre) => `<div class="gamewrap"><div class="ex-h
 const pasAssez = (app, back, titre) => { app.innerHTML = habiller('<p class="onmat">Pas assez de contenu pour ce choix. Essaie « Tous les thèmes ».</p>', back, titre); };
 
 views.jeux = async (a, q) => {
+  await chargerTousCours();
   const th = D.themes.has(q.theme) ? q.theme : '';
   const jeu = { memory, vf: vfGame, pendu, defi, ordre: ordreGame }[a[0]];
   if (jeu) return { title: GAMES[a[0]].nom, html: '<div id="gm"></div>', after() { jeu(th, $('#app')); } };
@@ -705,17 +796,17 @@ function pendu(th, app) {
 
 function defi(th, app) {
   const back = '#/jeux' + qs({ theme: th });
-  const pool = questionsDe({ theme: th }, 120); if (pool.length < 5) return pasAssez(app, back, 'Défi 60 secondes');
+  const pool = shuffle([...questionsDeCours(tousCours || [], ''), ...questionsDeTextes('', 60)].map(x => x.choix && x.bonne !== undefined ? melanger(x) : x)).slice(0, 150); if (pool.length < 5) return pasAssez(app, back, 'Défi 60 secondes');
   let i = 0, score = 0, combo = 0, left = 60, over = false, good = 0, bad = 0; E.coach.show();
   const pts = (txt, cls) => { const r = $('#host').getBoundingClientRect(), p = document.createElement('span'); p.className = 'pts ' + cls; p.textContent = txt; p.style.cssText = `position:fixed;left:${Math.max(10, r.right - 110)}px;top:${r.top - 6}px`; document.body.appendChild(p); setTimeout(() => p.remove(), 900); };
   app.innerHTML = habiller(`<div class="stats-row"><span class="ringwrap"><svg class="ring" viewBox="0 0 44 44"><circle cx="22" cy="22" r="19" class="bg"/><circle id="rg" cx="22" cy="22" r="19" class="fg"/></svg><b id="tl">60</b></span><span>${ic('flame')} Combo ×<b id="cb">1</b></span><span>Score : <b id="sc">0</b></span></div><div class="ex-card" id="host"></div><p id="fbk" class="flash-fb"></p><div id="end"></div>`, back, 'Défi 60 secondes');
   const show = () => { const it = pool[i % pool.length];
-    $('#host').innerHTML = `<p class="ex-q">${esc(it.x.q)}</p><div class="ex-opts">${it.choix.map((c, k) => `<button class="ex-opt" data-i="${k}"><span>${'ABCD'[k]}</span>${esc(c)}</button>`).join('')}</div>`;
+    $('#host').innerHTML = `<p class="ex-q">${esc(it.enonce)}</p><div class="ex-opts">${it.choix.map((c, k) => `<button class="ex-opt" data-i="${k}"><span>${'ABCD'[k]}</span>${esc(c)}</button>`).join('')}</div>`;
     $$('.ex-opt').forEach(b => b.onclick = () => pick(+b.dataset.i)); };
   const pick = k => { if (over) return; const it = pool[i % pool.length]; const ok = k === it.bonne; touchDay(1);
     E.coach.react(ok, ok ? combo + 1 : 0); { const h = $('#host'); h.classList.remove('shake'); if (!ok) { void h.offsetWidth; h.classList.add('shake'); } }
-    if (ok) { good++; combo++; const g = 10 * Math.min(4, 1 + Math.floor(combo / 3)); score += g; pts('+' + g, 'good'); $('#fbk').textContent = '+' + g; $('#fbk').className = 'flash-fb good'; ET.quiz[it.x.id] = 1; }
-    else { bad++; combo = 0; score = Math.max(0, score - 5); pts('−5', 'bad'); $('#fbk').textContent = '−5 · ' + it.choix[it.bonne]; $('#fbk').className = 'flash-fb bad'; ET.quiz[it.x.id] = 0; ET.errors[it.x.id] = (ET.errors[it.x.id] || 0) + 1; }
+    if (ok) { good++; combo++; const g = 10 * Math.min(4, 1 + Math.floor(combo / 3)); score += g; pts('+' + g, 'good'); $('#fbk').textContent = '+' + g; $('#fbk').className = 'flash-fb good'; ET.quiz[it.id] = 1; }
+    else { bad++; combo = 0; score = Math.max(0, score - 5); pts('−5', 'bad'); $('#fbk').textContent = '−5 · ' + it.choix[it.bonne]; $('#fbk').className = 'flash-fb bad'; ET.quiz[it.id] = 0; ET.errors[it.id] = (ET.errors[it.id] || 0) + 1; }
     $('#sc').textContent = score; $('#cb').textContent = Math.min(4, 1 + Math.floor(combo / 3)); i++; show(); };
   const finish = () => { over = true; clearInterval(timer); E.touches = null; sauver(); const rec = meilleur('defi:' + (th || 'all'), score); E.confetti(score >= 100 ? 140 : 60); E.coach.win(score + ' points !');
     $('#host').innerHTML = ''; $('#end').innerHTML = `<div class="done">${E.cheer(.9)}<h1>${score} points</h1><p>${good} bonnes réponses, ${bad} erreurs. ${rec ? ic('medal') + ' <b>Nouveau record !</b>' : ''}</p><div class="btns"><a class="btn" href="#/jeux/defi${qs({ theme: th, r: Date.now() })}">Rejouer</a><a class="btn ghost" href="${back}">Autres jeux</a></div></div>`; };
@@ -769,12 +860,8 @@ const jourCourt = t => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric',
 const ICONE_H = { quiz: 'circle-check', game: 'gamepad-2', flash: 'layers' };
 const titreH = h => h.type === 'game' ? (GAMES[h.game]?.nom || 'Jeu') : h.type === 'quiz' ? 'Quiz' : 'Flashcards';
 const scoreH = h => h.type === 'flash' ? `${h.n} cartes` : h.type === 'game' ? (h.game === 'memory' ? `${h.score} coups` : `${h.score} pts`) : `${h.score} / ${h.max}`;
-const coursH = id => id ? nomTheme(id) : 'Tous les thèmes';
+const coursH = id => id ? ((coursIdx || []).find(c => c.id === id)?.court || (id === 'textes' ? 'Repères des textes' : nomTheme(id))) : 'Tous les cours';
 const connue = k => (ET.cards[k.id]?.ivl || 0) >= 3;
-function maitriseTheme(th) {
-  const cs = poolCartes('', th), qz = poolQuiz().filter(x => x.h === th), total = cs.length + qz.length;
-  return total ? Math.round((cs.filter(connue).length + qz.filter(x => ET.quiz[x.id] === 1).length) / total * 100) : 0;
-}
 function graphBarres(pts) {
   if (!pts.length) return '<p class="muted">Aucun quiz pour l\'instant.</p>';
   const W = 640, H = 200, L = 34, T = 12, Bt = 26, bw = Math.min(34, (W - L - 10) / pts.length - 4), y = v => T + (H - T - Bt) * (1 - v / 100);
@@ -790,7 +877,7 @@ function calendrier() {
 }
 function trophees() {
   const H = ET.history, jeux = new Set(H.filter(h => h.type === 'game').map(h => h.game)), vues = Object.keys(ET.cards).length, jours = Object.keys(ET.days).length;
-  const serie = serieJours(), tm = [...D.themes.keys()].some(th => maitriseTheme(th) >= 50);
+  const serie = serieJours(), tm = (coursIdx || []).some(c => mastCours(c) >= 50);
   return [
     ['footprints', 'Premier pas', 'Faire une première activité', H.length > 0],
     ['flame', 'Série de 3 jours', 'Réviser 3 jours de suite', serie >= 3],
@@ -808,7 +895,7 @@ views.progres = async () => {
   const H = ET.history, xp = ET.xp || 0, lv = niveau(xp), serie = serieJours();
   const sess = H.filter(h => h.type === 'quiz' && h.max).slice(-20).map(h => ({ v: Math.round(h.score / h.max * 100), label: `${titreH(h)} · ${coursH(h.course)} · ${jourCourt(h.t)}` }));
   const rep = Object.keys(ET.quiz).length, ok = Object.values(ET.quiz).filter(v => v === 1).length;
-  const cs = poolCartes('', ''), sues = cs.filter(connue).length, semaine = H.filter(h => h.t > Date.now() - 7 * DAY).length;
+  await chargerCoursIdx(); const totalCartes = coursIdx.reduce((n, c) => n + c.n.cartes, 0), sues = Object.entries(ET.cards).filter(([k, v]) => k.startsWith('p') && k.includes(':') && (v.ivl || 0) >= 3).length, semaine = H.filter(h => h.t > Date.now() - 7 * DAY).length;
   const records = Object.entries(ET.scores).map(([k, v]) => { const [g, c] = k.split(':'); return { g, c, v }; }).filter(r => GAMES[r.g]).sort((a, b) => a.g.localeCompare(b.g));
   const tr = trophees(), obtenus = tr.filter(b => b[3]).length;
   return { title: 'Progrès', html: `
@@ -819,13 +906,13 @@ views.progres = async () => {
     ${compte() ? '' : `<div class="banner info">${ic('cloud')}<div><strong>Garde ta progression.</strong> Un compte facultatif la sauvegarde et la synchronise entre tes appareils. <a href="#/compte">Créer un compte</a></div></div>`}
     <div class="kgrid">
       <div class="kpi">${ic('flame')}<b>${serie}</b><span>jour${serie > 1 ? 's' : ''} de suite</span></div>
-      <div class="kpi">${ic('layers')}<b>${sues}<small>/${cs.length}</small></b><span>cartes bien retenues</span></div>
+      <div class="kpi">${ic('layers')}<b>${sues}<small>/${totalCartes}</small></b><span>cartes bien retenues</span></div>
       <div class="kpi">${ic('circle-check')}<b>${rep ? Math.round(ok / rep * 100) + '%' : '–'}</b><span>réussite aux quiz</span></div>
       <div class="kpi">${ic('activity')}<b>${semaine}</b><span>activités cette semaine</span></div>
       <div class="kpi">${ic('award')}<b>${obtenus}<small>/${tr.length}</small></b><span>badges obtenus</span></div></div>
     <h2 class="sec"><span class="lbl l2">Réussite aux derniers quiz</span></h2><div class="card chartcard">${graphBarres(sess)}</div>
     <h2 class="sec"><span class="lbl l6">Régularité, 12 semaines</span></h2><div class="card">${calendrier()}</div>
-    <h2 class="sec"><span class="lbl l1">Maîtrise par thème</span></h2><div class="card">${[...D.themes.keys()].map(th => `<div class="crow"><a class="nm" href="#/flashcards${qs({ theme: th })}">${esc(nomTheme(th))}</a><div class="bar"><i style="width:${maitriseTheme(th)}%"></i></div><span class="pc">${maitriseTheme(th)}%</span></div>`).join('')}</div>
+    <h2 class="sec"><span class="lbl l1">Maîtrise par cours</span></h2><div class="card">${coursIdx.map(c => `<div class="crow"><a class="nm" href="#/cours/${c.id}">${esc(c.court)}</a><div class="bar"><i style="width:${mastCours(c)}%"></i></div><span class="pc">${mastCours(c)}%</span></div>`).join('')}</div>
     <h2 class="sec"><span class="lbl l4">Records des jeux</span></h2>${records.length ? `<div class="kgrid recs">${records.map(r => `<div class="kpi">${ic(GAMES[r.g].ico)}<b>${r.v}</b><span>${GAMES[r.g].nom} · ${esc(coursH(r.c === 'all' ? '' : r.c))} (${GAMES[r.g].unit})</span></div>`).join('')}</div>` : '<p class="onmat">Aucun record pour l\'instant : lance un jeu !</p>'}
     <h2 class="sec"><span class="lbl l5">Badges</span></h2><div class="trophies">${tr.map(([i, n, d, o]) => `<div class="trophy ${o ? 'on' : ''}">${ic(i)}<b>${n}</b><small>${d}</small></div>`).join('')}</div>
     <h2 class="sec"><span class="lbl l2">Historique récent</span></h2>${H.length ? `<div class="card hist2">${[...H].reverse().slice(0, 25).map(h => `<div class="hrow">${ic(ICONE_H[h.type] || 'activity')}<span class="nm"><b>${esc(titreH(h))}</b> <small class="muted">${esc(coursH(h.course))}</small></span><b class="sc">${scoreH(h)}</b><small class="muted">${jourCourt(h.t)}</small></div>`).join('')}</div>` : '<p class="onmat">Ton historique apparaîtra ici.</p>'}
@@ -838,7 +925,6 @@ let guidesCache = null;
 const chargerGuides = async () => guidesCache ||= await fetch('/data/guides.json').then(r => r.json());
 const PORTES = {
   decouvrir: { nom: 'Découvrir', sous: 'La bourse expliquée simplement', mat: '#2f7d4e', perso: ['amina', 'joy'] },
-  comprendre: { nom: 'Comprendre', sous: 'Institutions, acteurs et instruments du marché', mat: '#35569e', perso: ['kofi', 'think'] },
 };
 const guideView = porte => async ([id]) => {
   const P = PORTES[porte], gs = (await chargerGuides()).filter(g => g.porte === porte);
@@ -868,7 +954,6 @@ const guideView = porte => async ([id]) => {
     after() { fond(P.mat); } };
 };
 views.decouvrir = guideView('decouvrir');
-views.comprendre = guideView('comprendre');
 
 /* ---------- Compte facultatif et synchronisation de la progression ---------- */
 const api = async (chemin, o = {}) => {
@@ -982,7 +1067,7 @@ views.apropos = async () => ({ title: 'À propos', html: `
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', decouvrir: 'decouvrir', comprendre: 'comprendre', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');
@@ -1007,7 +1092,7 @@ document.addEventListener('keydown', e => {
 window.addEventListener('hashchange', render);
 (async () => {
   try { await charger(); } catch (e) { $('#app').innerHTML = `<div class="empty"><h1>Données indisponibles</h1><p>Impossible de charger les données. Vérifiez votre connexion puis rechargez la page.</p></div>`; return; }
-  { const m = location.pathname.match(/^\/(textes|decouvrir|comprendre)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
+  { const m = location.pathname.match(/^\/(textes|decouvrir|cours|comprendre)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : m[1] === 'cours' ? (m[2] ? '/#/cours/' + m[2] : '/#/bibliotheque') : m[1] === 'comprendre' ? '/#/bibliotheque' : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
   cadre(); await render();
   if (compte()) synchroniser().then(r => { if (r.ok && /^#\/progres/.test(location.hash)) render(); });
   if ('serviceWorker' in navigator && /nosw/.test(location.search)) { // mode développement : pas de cache hors ligne

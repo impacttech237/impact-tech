@@ -1,0 +1,2519 @@
+{
+ "id": "p5-ordre-denouement",
+ "titre": "Passer un ordre et le dénouer",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "plum",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "De l'ordre de l'épargnant à l'inscription en compte : types et validité des ordres, fixing, cours, compensation, règlement-livraison, rôle du teneur de compte. Et les calculs de marché.",
+ "court": "Ordre et dénouement",
+ "chapitres": [
+  {
+   "id": "b4-ordres-cotation",
+   "titre": "Essentiel · 04 · La négociation : ordres de bourse, cotation, cours et règles de marché (art. 125 à 174, Instruction 2)",
+   "resume": {
+    "court": "Négociation obligatoirement sur la plateforme de la BVMAC via une SDB, sous peine de nullité ; comptant ; fixing (cours qui maximise le volume) ou continu. Deux types d'ordres : à cours limité et au marché (prioritaire). Validité : jour (défaut) ou durée déterminée (30 jours maximum). Ordre téléphonique : confirmation écrite sous 7 jours. Ordre irrévocable une fois validé. Seuils statiques ±10 % (actions) et ±6 % (obligations). Cours avec réduction : coefficient ≥ 25 %.",
+    "moyen": "Toute négociation sur valeur cotée doit être exécutée sur la plateforme, par une SDB (nullité sinon). Transactions au comptant : l'acheteur est redevable des capitaux, le vendeur des titres dès l'ordre ; propriété des droits financiers détachés dès l'exécution (titres de créance : après transfert de propriété). Fixing : cours d'équilibre qui maximise le volume échangé ; continu : exécution au fur et à mesure. Carnet d'ordres central et carnet de bloc. Suspension de cotation possible dans l'intérêt du marché (avec avis ; aucun ordre ne peut être saisi). Passage au continu : autorisation préalable de la COSUMAF ; modification du mode de cotation publiée au BOC au moins 5 jours de bourse avant. Animation de marché : SDB spécialiste désignée sur proposition de l'émetteur, contrat transmis à la bourse, régularisation par prises de positions propres ; apporteur de liquidité (contrat avec la BVMAC). Ordres : instruction d'achat ou de vente ; transmis par tout moyen probant ; responsabilité exclusive de la SDB dès la présentation ; ordres téléphoniques confirmés par écrit sous 7 jours et enregistrement obligatoire ; horodatage dès réception, transmission dès la séance suivante sans compensation ni globalisation ; modification ou annulation par le client jusqu'à l'ouverture de la prochaine séance ; ordres irrévocables après validation. Mentions obligatoires : sens, valeur, nombre de titres, prix ou limite, durée de validité, mention client / non-client / animation / rachat, références du compte et du donneur d'ordre. Types : ordre à prix limité, ordre au marché (prioritaire sur le limité). Validité : jour (par défaut) ou durée déterminée (≤ 30 jours selon le RG ; Instruction 2 : jusqu'à 1 an). Exécution : ordres meilleurs que le cours exécutés en totalité, ordres moins bons non exécutés, ordres à la limite exécutables partiellement ; ordres tout ou rien. Cours : cotation, indication non coté, prix offert ou demandé (déséquilibre > 4), cours avec réduction (coefficient ≥ 25 %), cours d'équilibre ; cours de référence = cours de clôture précédent ajusté ; la BVMAC propriétaire des cours ; annulation d'un cours ou d'une transaction avec communication à la COSUMAF. Instruction 2 : fixing, seuils statiques ±10 % actions / ±6 % obligations, phases horaires (consultation, pré-ouverture, ouverture, intervention surveillance, post-séance).",
+    "long": "Toute négociation sur valeur cotée doit être exécutée sur la plateforme, par une SDB (nullité sinon). Transactions au comptant : l'acheteur est redevable des capitaux, le vendeur des titres dès l'ordre ; propriété des droits financiers détachés dès l'exécution (titres de créance : après transfert de propriété). Fixing : cours d'équilibre qui maximise le volume échangé ; continu : exécution au fur et à mesure. Carnet d'ordres central et carnet de bloc. Suspension de cotation possible dans l'intérêt du marché (avec avis ; aucun ordre ne peut être saisi). Passage au continu : autorisation préalable de la COSUMAF ; modification du mode de cotation publiée au BOC au moins 5 jours de bourse avant. Animation de marché : SDB spécialiste désignée sur proposition de l'émetteur, contrat transmis à la bourse, régularisation par prises de positions propres ; apporteur de liquidité (contrat avec la BVMAC). Ordres : instruction d'achat ou de vente ; transmis par tout moyen probant ; responsabilité exclusive de la SDB dès la présentation ; ordres téléphoniques confirmés par écrit sous 7 jours et enregistrement obligatoire ; horodatage dès réception, transmission dès la séance suivante sans compensation ni globalisation ; modification ou annulation par le client jusqu'à l'ouverture de la prochaine séance ; ordres irrévocables après validation. Mentions obligatoires : sens, valeur, nombre de titres, prix ou limite, durée de validité, mention client / non-client / animation / rachat, références du compte et du donneur d'ordre. Types : ordre à prix limité, ordre au marché (prioritaire sur le limité). Validité : jour (par défaut) ou durée déterminée (≤ 30 jours selon le RG ; Instruction 2 : jusqu'à 1 an). Exécution : ordres meilleurs que le cours exécutés en totalité, ordres moins bons non exécutés, ordres à la limite exécutables partiellement ; ordres tout ou rien. Cours : cotation, indication non coté, prix offert ou demandé (déséquilibre > 4), cours avec réduction (coefficient ≥ 25 %), cours d'équilibre ; cours de référence = cours de clôture précédent ajusté ; la BVMAC propriétaire des cours ; annulation d'un cours ou d'une transaction avec communication à la COSUMAF. Instruction 2 : fixing, seuils statiques ±10 % actions / ±6 % obligations, phases horaires (consultation, pré-ouverture, ouverture, intervention surveillance, post-séance)."
+   },
+   "fiches": [
+    {
+     "titre": "Règles générales de négociation (art. 125 à 138)",
+     "contenu": "- Toute négociation sur valeur cotée est **exécutée sur la plateforme de la BVMAC par une SDB**, **sous peine de nullité**\n- La BVMAC (séances) : discipline, bonne marche, **mesures conservatoires**, arbitrage des litiges de séance, constat des cours, **statistiques et indices**, **procès-verbal** de chaque séance au BOC\n- **Comptant** : acheteur redevable des capitaux et vendeur des titres **dès la passation de l'ordre** ; l'acheteur est propriétaire des **droits financiers détachés** dès l'exécution (**titres de créance** : seulement après le transfert de propriété)\n- **Fixing** : cours d'équilibre appliqué à tous les ordres exécutés, **maximisant le volume échangé** ; **continu** : chaque ordre est confronté aux ordres du carnet, qui déterminent le cours\n- **Carnet d'ordres central** (accumulation ou confrontation continue) et **carnet de bloc** (entente directe ou appariement continu)\n- **Publicité** : BOC (physionomie par compartiment, premier/dernier cours, cours de référence, plus haut/plus bas, offert/demandé) ; rectification uniquement pour erreurs ou omissions, avec mention explicite\n- **Écarts de cours maximaux** entre deux séances fixés par la BVMAC (distincts titres de capital / créance et par compartiment) ; dérogation sur Instruction à durée limitée avec autorisation de la COSUMAF\n- **Suspension** de cotation à tout moment dans l'intérêt du marché (**Avis**) : pendant la suspension, **aucun ordre ne peut être saisi** ; à durée déterminée ou indéterminée\n- **Passage en continu** : volumétrie suffisante + **autorisation préalable de la COSUMAF** ; changement de mode publié au BOC **au moins 5 jours de bourse avant**\n- **Procédures de substitution** (site de secours, séance suspendue ou reportée) en cas de défaillance ; calendrier des jours non ouvrés publié avant la fin de l'année"
+    },
+    {
+     "titre": "Animation de marché (art. 139-140)",
+     "contenu": "- Pour chaque valeur, la BVMAC désigne une **SDB spécialiste** sur proposition de l'émetteur ; **contrat d'animation** transmis à la bourse pour information\n- But : améliorer la **liquidité naturelle**, assurer des **cotations régulières**, limiter les écarts de cours, favoriser l'inscription d'indications\n- Missions : suivre la cotation de la valeur et de ses **lignes secondaires** ; **régulariser le marché** par des prises de positions propres\n- Manquement grave : la BVMAC peut **retirer la qualification de spécialiste** (Avis, décision motivée, copie à la COSUMAF)\n- **Apporteur de liquidité** : contrat avec la BVMAC (à son initiative ou à la demande de l'apporteur) : présence minimale, ordres d'achat et de vente simultanés, volume minimum, fourchette de prix ; modalités publiées par Avis et communiquées à la COSUMAF"
+    },
+    {
+     "titre": "Transmission et modification des ordres (art. 148 à 154)",
+     "contenu": "- **Ordre de bourse** = instruction d'achat ou de vente donnée par un client ou initiée par la SDB (mandat, contrepartie, tenue de marché)\n- Transmission par tout moyen **probant** (auteur, authenticité, traçabilité) ; dès la présentation au marché, l'ordre est de la **responsabilité exclusive de la SDB**, qui le présente **à la première séance suivant la réception**\n- **Ordres téléphoniques** : **confirmation écrite au plus tard 7 jours** après (jour et heure de réception) ; acceptés seulement si la SDB a un **enregistreur**\n- **Horodatage dès la réception** ; transmission à la BVMAC dès la séance suivante, **sans compensation ni globalisation**\n- Le client peut **modifier ou annuler** son ordre **jusqu'à l'ouverture de la prochaine séance**\n- La SDB peut modifier/annuler tant que la **validation du système** n'a pas été enclenchée ; **après validation et prise en charge par la BVMAC : ordre irrévocable**"
+    },
+    {
+     "titre": "Libellé, types et validité des ordres (art. 155 à 164, Instruction 2)",
+     "contenu": "**Mentions obligatoires** : sens (achat/vente) · valeur · **nombre de titres** · **prix ou limite** · **durée de validité** · mention **ordre client, non-client, animation ou rachat** · références du **compte client** · références du **donneur d'ordre**. Nouvelles mentions publiées **10 jours de bourse** avant leur entrée en vigueur. Les ordres sur titres de capital sont **exprimés en monnaie locale et par titre unitaire**.\n\n**Types** : **ordre à prix limité** (acheteur : prix **maximal** ; vendeur : prix **minimal**) · **ordre au marché** (sans prix, exécuté aux prix successifs du carnet, **prioritaire** sur l'ordre limité ; reliquat éliminé à l'expiration).\n\n**Validité** : **« jour »** (par défaut, séance en cours) ou **« durée déterminée »** (**≤ 30 jours** selon le RG) ; l'Instruction n° 2 (2008) mentionne aussi « à date déterminée » et « à révocation » (jusqu'à 365 jours) : le RG 2025 prévaut. L'exécution partielle reste **opposable** après modification ; la validité expire avec le **démembrement d'un droit** (DPS, attribution).\n\n**Stipulations d'exécution** : ordres **sans stipulation** (quantité = maximum) et ordres **« tout ou rien »**."
+    },
+    {
+     "titre": "Exécution, cours cotés et annulation (art. 165 à 174)",
+     "contenu": "**Règles d'exécution** : ordre avec limite **meilleure** que le cours coté ⇒ exécuté **en totalité** ; limite **moins bonne** ⇒ **aucune exécution, même partielle** ; ordre d'achat à la **limite égale au cours** ⇒ exécution **partielle** possible.\n\n**États du carnet selon l'équilibre** (art. 170) :\n1. **« Non coté »** : aucune transaction\n2. **Prix « offert » ou « demandé »** : déséquilibre **supérieur à 4**, aucune transaction\n3. **Cours avec réduction** : ordres dans le sens du déséquilibre répondus **partiellement** ; **coefficient de réduction ≥ 25 %**\n4. **Cours d'équilibre** : ordres meilleurs que le cours répondus en totalité\n\n**Cours de référence** : cours de clôture de la séance précédente (cours de fixing de clôture ou dernier cours traité), **ajusté** en cas d'OST ou d'offres publiques. La BVMAC est **propriétaire des cours et statistiques**. **Annulation** d'un cours coté (et de toutes les transactions à ce cours) ou d'une transaction : décision communiquée à la COSUMAF et publiée par Avis."
+    },
+    {
+     "titre": "Instruction n° 2 (règles de marché, 2008) : mécanismes et horaires",
+     "contenu": "(Texte ancien, à lire avec prudence face au RG 2025.)\n- **Fixing** : cours qui **maximise le volume**, puis **minimise le solde non exécuté**, puis **sens du solde**, enfin le **prix de référence** (cours le plus proche) ; ordres au marché prioritaires\n- **Seuils statiques** autour du prix de référence statique : **±10 % pour les actions**, **±6 % pour les obligations** ; modifiables par la BVMAC après information des adhérents et de la COSUMAF\n- **États d'un titre** : **suspension** (reprise précédée d'un avis ; ordres enregistrés sans négociation), **gel** (franchissement d'un seuil de précaution : plus de négociation ni de passation d'ordres), **réservation** (franchissement d'un seuil de réservation), **interdiction de saisie**\n- **OST** : division, dividende, détachement de droits, fusion, regroupement, radiation… **annulent les ordres en carnet** ; coupons d'obligations et redénomination : **sans effet** ; introduction : création du carnet\n- **Diffusion** : marché résumé (meilleures limites), marché par ordres, marché par limites (**5 meilleures limites**), transactions\n- **Phases de la séance** : consultation début (aucun ordre), **pré-ouverture 10 h** (ordres saisis, cours théorique), **ouverture 11 h** (échanges au cours théorique), **intervention surveillance 11 h 30**, **post-séance 12 h 30** ; la séance a lieu le **mardi** (note de l'Instruction)"
+    }
+   ],
+   "mnemos": [
+    "Nullité hors plateforme · ordre irrévocable après validation · téléphone : 7 jours · validité durée déterminée : 30 jours · réduction ≥ 25 % · déséquilibre > 4 · seuils ±10 % / ±6 %."
+   ],
+   "definitions": [
+    {
+     "terme": "Ordre au marché",
+     "definition": "Ordre sans limite de prix, exécuté aux prix successifs du carnet ; prioritaire sur l'ordre à prix limité."
+    },
+    {
+     "terme": "Validité jour",
+     "definition": "Validité par défaut : l'ordre n'est valable que pour la séance en cours."
+    },
+    {
+     "terme": "Apporteur de liquidité",
+     "definition": "Intervenant lié à la BVMAC par un contrat qui l'oblige à une présence minimale d'ordres d'achat et de vente."
+    },
+    {
+     "terme": "Carnet de bloc",
+     "definition": "Carnet séparé où se concluent les blocs par entente directe ou appariement continu."
+    },
+    {
+     "terme": "Cours de référence",
+     "definition": "Cours de clôture de la séance précédente, ajusté en cas d'OST ou d'offre publique."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Seuils statiques d'après l'Instruction n° 2 ?",
+     "verso": "±10 % pour les actions, ±6 % pour les obligations."
+    },
+    {
+     "recto": "Que fait le spécialiste ?",
+     "verso": "SDB désignée par la BVMAC sur proposition de l'émetteur, avec contrat d'animation, qui régularise le marché par prises de positions propres."
+    },
+    {
+     "recto": "Quand un ordre devient-il irrévocable ?",
+     "verso": "Dès validation par la SDB et prise en charge par la BVMAC."
+    },
+    {
+     "recto": "Un ordre d'achat dont la limite est inférieure au cours coté ?",
+     "verso": "N'est pas exécuté, même partiellement."
+    },
+    {
+     "recto": "Quand un ordre est-il modifiable ou irrévocable ?",
+     "verso": "Le client modifie jusqu'à l'ouverture de la séance suivante ; irrévocable après validation du système et prise en charge par la BVMAC."
+    },
+    {
+     "recto": "Quel ordre est prioritaire ?",
+     "verso": "L'ordre au marché sur l'ordre à prix limité."
+    },
+    {
+     "recto": "Deux types d'ordres admis ?",
+     "verso": "Ordre à prix limité et ordre au marché."
+    },
+    {
+     "recto": "Que fait la BVMAC des ordres en carnet lors d'un dividende ou d'une division ?",
+     "verso": "Les ordres sont annulés (Instruction n° 2) ; selon le RG, les limites des ordres sont ajustées par chaque SDB (dividende, coupon, division)."
+    },
+    {
+     "recto": "Comment fonctionnent fixing et continu ?",
+     "verso": "Fixing : cours d'équilibre unique maximisant le volume ; continu : chaque ordre confronté au carnet, qui fixe le cours."
+    },
+    {
+     "recto": "Principe du fixing ?",
+     "verso": "Cours d'équilibre unique maximisant le volume échangé."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Un ordre téléphonique doit être confirmé par écrit dans les...",
+     "choix": [
+      "24 h",
+      "30 jours",
+      "3 mois",
+      "7 jours"
+     ],
+     "bonne": 3,
+     "explication": "Art. 149."
+    },
+    {
+     "q": "Un ordre est irrévocable...",
+     "choix": [
+      "Après validation par la SDB et prise en charge par la BVMAC",
+      "Dès sa saisie par le client auprès de sa SDB",
+      "À la clôture de la séance de cotation",
+      "Jamais, un ordre pouvant toujours être annulé"
+     ],
+     "bonne": 0,
+     "explication": "Art. 153."
+    },
+    {
+     "q": "L'ordre prioritaire est...",
+     "choix": [
+      "L'ordre à prix limité",
+      "L'ordre tout ou rien",
+      "L'ordre au marché",
+      "L'ordre de la SDB"
+     ],
+     "bonne": 2,
+     "explication": "Art. 159."
+    },
+    {
+     "q": "Coefficient de réduction minimal :",
+     "choix": [
+      "10 %",
+      "25 %",
+      "50 %",
+      "75 %"
+     ],
+     "bonne": 1,
+     "explication": "Art. 170."
+    },
+    {
+     "q": "Un ordre d'achat à une limite inférieure au cours coté :",
+     "choix": [
+      "Est exécuté en totalité",
+      "N'est pas exécuté",
+      "Est partiellement exécuté",
+      "Est reporté"
+     ],
+     "bonne": 1,
+     "explication": "Art. 165."
+    },
+    {
+     "q": "La cotation en continu exige l'autorisation préalable de...",
+     "choix": [
+      "La COSUMAF",
+      "La BEAC",
+      "L'émetteur",
+      "Le Dépositaire Central"
+     ],
+     "bonne": 0,
+     "explication": "Art. 136."
+    },
+    {
+     "q": "Validité maximale d'un ordre à durée déterminée (RG) ?",
+     "choix": [
+      "7 jours",
+      "30 jours",
+      "90 jours",
+      "1 an"
+     ],
+     "bonne": 1,
+     "explication": "Art. 162."
+    },
+    {
+     "q": "Toute négociation sur valeur cotée est exécutée :",
+     "choix": [
+      "de gré à gré entre deux SDB",
+      "sur la plateforme de la BVMAC par une SDB, sous peine de nullité",
+      "chez le teneur de compte du vendeur",
+      "à la BEAC, banque de règlement"
+     ],
+     "bonne": 1,
+     "explication": "Art. 125."
+    },
+    {
+     "q": "Au comptant, l'acheteur est redevable des capitaux et le vendeur des titres :",
+     "choix": [
+      "à la date de règlement",
+      "à la clôture de la séance",
+      "dès la passation de l'ordre",
+      "sous 3 jours"
+     ],
+     "bonne": 2,
+     "explication": "Droits financiers détachés acquis dès l'exécution (titres de créance : après le transfert de propriété)."
+    },
+    {
+     "q": "Le fixing applique à tous les ordres exécutés :",
+     "choix": [
+      "le cours le plus haut du carnet",
+      "le cours moyen des ordres",
+      "un cours d'équilibre qui maximise le volume échangé",
+      "le dernier cours de la séance précédente"
+     ],
+     "bonne": 2,
+     "explication": "En continu, chaque ordre est confronté au carnet."
+    },
+    {
+     "q": "Le carnet de bloc fonctionne par :",
+     "choix": [
+      "entente directe ou appariement continu",
+      "fixing",
+      "enchères",
+      "criée"
+     ],
+     "bonne": 0,
+     "explication": "Carnet central : accumulation ou confrontation continue."
+    },
+    {
+     "q": "Pendant une suspension de cotation :",
+     "choix": [
+      "aucun ordre ne peut être saisi",
+      "les ordres sont exécutés",
+      "les ordres sont annulés",
+      "les ordres sont reportés d'office"
+     ],
+     "bonne": 0,
+     "explication": "Suspension par Avis, durée déterminée ou indéterminée."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Ordre au marché ou ordre à prix limité ?",
+     "buckets": [
+      "Au marché",
+      "À prix limité"
+     ],
+     "items": [
+      {
+       "t": "Aucune indication de prix.",
+       "b": 0,
+       "why": "Art. 159."
+      },
+      {
+       "t": "L'acheteur fixe le prix maximal qu'il accepte de payer.",
+       "b": 1,
+       "why": "Art. 158."
+      },
+      {
+       "t": "Prioritaire dans le carnet.",
+       "b": 0,
+       "why": "Art. 159."
+      },
+      {
+       "t": "Le vendeur fixe le prix minimal de cession.",
+       "b": 1,
+       "why": "Art. 158."
+      },
+      {
+       "t": "Exécuté jusqu'à épuisement de la quantité aux différents prix du carnet.",
+       "b": 0,
+       "why": "Art. 159."
+      }
+     ]
+    },
+    {
+     "titre": "Quelle exécution ?",
+     "buckets": [
+      "Exécuté en totalité",
+      "Exécuté partiellement possible",
+      "Non exécuté"
+     ],
+     "items": [
+      {
+       "t": "Achat dont la limite est supérieure au cours coté.",
+       "b": 0,
+       "why": "Meilleure que le cours."
+      },
+      {
+       "t": "Achat dont la limite est égale au cours coté.",
+       "b": 1,
+       "why": "Exécution partielle possible."
+      },
+      {
+       "t": "Achat dont la limite est inférieure au cours coté.",
+       "b": 2,
+       "why": "Moins bonne que le cours."
+      },
+      {
+       "t": "Vente dont la limite est inférieure au cours coté.",
+       "b": 0,
+       "why": "Meilleure pour le marché : exécutée en totalité."
+      },
+      {
+       "t": "Vente dont la limite est supérieure au cours coté.",
+       "b": 2,
+       "why": "Moins bonne que le cours."
+      }
+     ]
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets les phases de la séance (Instruction n° 2) dans l'ordre",
+     "items": [
+      "Consultation (début)",
+      "Pré-ouverture (10 h)",
+      "Ouverture (11 h)",
+      "Intervention surveillance (11 h 30)",
+      "Post-séance (12 h 30)"
+     ]
+    }
+   ],
+   "trous": [
+    "Un ordre téléphonique est confirmé par écrit au plus tard {{7}} jours après sa réception.",
+    "Un ordre à durée déterminée ne peut excéder {{30}} jours selon le Règlement Général.",
+    "Un ordre téléphonique doit être confirmé par écrit au plus tard {{7}} jours après sa passation."
+   ],
+   "schemas": [
+    {
+     "titre": "Le cycle de vie d'un ordre",
+     "type": "flow",
+     "numero": true,
+     "legende": "De la réception à l'irrévocabilité.",
+     "steps": [
+      {
+       "t": "Réception",
+       "s": "horodatage",
+       "d": "La SDB horodate dès la réception ; téléphone : confirmation écrite sous 7 jours."
+      },
+      {
+       "t": "Modification possible",
+       "s": "par le client",
+       "d": "Jusqu'à l'ouverture de la prochaine séance."
+      },
+      {
+       "t": "Saisie",
+       "s": "par la SDB",
+       "d": "Mentions obligatoires, sans compensation ni globalisation."
+      },
+      {
+       "t": "Validation",
+       "s": "irrévocable",
+       "d": "Après validation et prise en charge par la BVMAC, plus de modification ni d'annulation."
+      },
+      {
+       "t": "Exécution",
+       "s": "fixing ou continu",
+       "d": "Ordres meilleurs que le cours : exécutés en totalité ; moins bons : jamais."
+      }
+     ]
+    },
+    {
+     "titre": "Les quatre issues d'un déséquilibre",
+     "type": "scale",
+     "legende": "Du plus équilibré au plus déséquilibré.",
+     "gauche": "Marché équilibré",
+     "droite": "Déséquilibre fort",
+     "marks": [
+      {
+       "t": "Cours d'équilibre",
+       "s": "ordres meilleurs servis en totalité"
+      },
+      {
+       "t": "Cours avec réduction",
+       "s": "coefficient ≥ 25 %"
+      },
+      {
+       "t": "Offert / demandé",
+       "s": "déséquilibre > 4, aucune transaction"
+      },
+      {
+       "t": "Non coté",
+       "s": "quantités insuffisantes, aucune transaction"
+      }
+     ]
+    },
+    {
+     "titre": "La séance d'après l'Instruction n° 2",
+     "type": "timeline",
+     "legende": "Les phases de la journée (texte de 2008).",
+     "events": [
+      {
+       "d": "Début",
+       "t": "Consultation",
+       "s": "Réservée aux surveillants ; aucun ordre."
+      },
+      {
+       "d": "10 h",
+       "t": "Pré-ouverture",
+       "s": "Saisie, modification, annulation ; cours théorique d'ouverture."
+      },
+      {
+       "d": "11 h",
+       "t": "Ouverture",
+       "s": "Échanges au cours théorique ; aucune saisie."
+      },
+      {
+       "d": "11 h 30",
+       "t": "Intervention surveillance",
+       "s": "Seule la surveillance peut agir sur les carnets."
+      },
+      {
+       "d": "12 h 30",
+       "t": "Post-séance",
+       "s": "Traitement des ordres, purge, réinitialisation."
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "m8-depositaire-chambre",
+   "titre": "Essentiel · 8 · Dépositaire Central, Chambre de Compensation et Banque de Règlement",
+   "resume": {
+    "court": "Le Dépositaire Central (société anonyme, mission de service public exclusive) assure les services notarial, de tenue centralisée de comptes, de règlement et de dématérialisation. La Chambre de Compensation, établissement de crédit, est la contrepartie centrale (marges, liquidation d'office). La Banque de Règlement (BEAC) règle les transactions en espèces.",
+    "moyen": "Dépositaire Central : SA agréée, ses règles approuvées par la COSUMAF ; services : notarial (enregistrement initial des titres), tenue centralisée de comptes, règlement (virement de compte à compte), gestion de la dématérialisation ; accessoires : prêt de titres, gestion des garanties, registres d'actionnaires, codes ISIN, etc. Capital réparti entre la BVMAC, sociétés de bourse, BEAC, établissements de crédit et autres sociétés commerciales ; son CA comprend des représentants de la BVMAC, des adhérents, des émetteurs, des investisseurs et de la BEAC. Chambre de Compensation : établissement de crédit, siège dans un État membre, agréée par la COSUMAF après avis de la BEAC et de la COBAC ; contrepartie centrale : surveillance des positions, appel des marges, liquidation d'office ; adhérents : établissements de crédit, sociétés de bourse, etc. ; adhérents compensateurs commissionnaires ducroire de leurs donneurs d'ordre ; insaisissabilité des dépôts de garantie ; en cas de défaillance, transfert des positions et dépôts. Banque de Règlement : organisme de marché chargé du règlement en espèces, assuré par la BEAC avec un système de traitement automatisé.",
+    "long": "Dépositaire Central : SA agréée, ses règles approuvées par la COSUMAF ; services : notarial (enregistrement initial des titres), tenue centralisée de comptes, règlement (virement de compte à compte), gestion de la dématérialisation ; accessoires : prêt de titres, gestion des garanties, registres d'actionnaires, codes ISIN, etc. Capital réparti entre la BVMAC, sociétés de bourse, BEAC, établissements de crédit et autres sociétés commerciales ; son CA comprend des représentants de la BVMAC, des adhérents, des émetteurs, des investisseurs et de la BEAC. Chambre de Compensation : établissement de crédit, siège dans un État membre, agréée par la COSUMAF après avis de la BEAC et de la COBAC ; contrepartie centrale : surveillance des positions, appel des marges, liquidation d'office ; adhérents : établissements de crédit, sociétés de bourse, etc. ; adhérents compensateurs commissionnaires ducroire de leurs donneurs d'ordre ; insaisissabilité des dépôts de garantie ; en cas de défaillance, transfert des positions et dépôts. Banque de Règlement : organisme de marché chargé du règlement en espèces, assuré par la BEAC avec un système de traitement automatisé."
+   },
+   "fiches": [
+    {
+     "titre": "Dépositaire Central : statut (art. 119-129)",
+     "contenu": "- **Société anonyme** investie à **titre exclusif** d'une **mission de service public**\n- **Agrément préalable** de la COSUMAF ; toute modification des éléments d'agrément : **autorisation préalable**\n- Ses **règles de fonctionnement** et celles des **systèmes de règlement-livraison** : **approuvées par la COSUMAF** et publiées\n- **Capital** réparti entre : **BVMAC**, **sociétés de bourse**, **BEAC**, **établissements de crédit**, autres sociétés commerciales (autorisation préalable pour toute souscription)\n- **CA** : un représentant de la **BVMAC**, des **adhérents** (SDB ou teneurs de compte), des **émetteurs**, des **investisseurs** (désigné par ses pairs) et de la **BEAC**\n- Le **DG** : fonctions incompatibles avec celles de DG, DGA ou gérant de toute autre structure\n- Possibilité d'**administrateur provisoire**"
+    },
+    {
+     "titre": "Les 4 services du Dépositaire Central (art. 121)",
+     "contenu": "1. **Service notarial** : enregistrement initial des titres dans un système d'inscription en compte\n2. **Tenue centralisée de comptes** de titres émis par les sociétés par actions ou toute personne établie en zone CEMAC\n3. **Service de règlement** : système de règlement de titres, **circulation par virement de compte à compte**\n4. **Gestion de la dématérialisation** des titres\n\n**Accessoires** : prêt de titres, gestion des garanties, appariement/confirmation de transactions, registres d'actionnaires, traitement des opérations sur titres (fiscalité, AG), attribution des **codes ISIN**, nantissement, liens avec d'autres dépositaires, rapports réglementaires, statistiques…"
+    },
+    {
+     "titre": "Chambre de Compensation : statut et rôle (art. 130-134)",
+     "contenu": "- **Établissement de crédit**, siège sur le territoire d'un État membre\n- **Contrepartie centrale** du marché : **surveille les positions**, **appelle les marges** et, si besoin, **liquide d'office** les positions de ses adhérents\n- **Agréée par la COSUMAF après avis de la BEAC et de la COBAC**\n- Règles de fonctionnement approuvées par la COSUMAF (et publiées)\n\n**Adhérents** (agréés par la COSUMAF) : établissements de crédit et sociétés de bourse siégeant en CEMAC ; personnes morales dont les associés sont indéfiniment et solidairement responsables (si ce sont des EC ou SDB) ; personnes morales de la CEMAC dont l'activité principale est la compensation ; certaines personnes morales hors CEMAC. Relations **contractuelles**."
+    },
+    {
+     "titre": "Relations avec les adhérents et défaillance (art. 135-138)",
+     "contenu": "- Les **adhérents compensateurs** répondent des engagements de leurs **donneurs d'ordre** : ils sont **commissionnaires ducroire** vis-à-vis de la Chambre\n- **Insaisissabilité** : aucun créancier (donneur d'ordre, prestataire, adhérent, la Chambre elle-même) ni mandataire de justice ne peut se prévaloir d'un droit sur les **dépôts de garantie financière** (même procédures étrangères)\n- **Secret professionnel** : la Chambre peut communiquer à un **référentiel central** ; les adhérents ne peuvent pas lui opposer le secret professionnel (identité, positions, solvabilité des donneurs d'ordre)\n- **Défaillance d'un adhérent** (procédure collective, etc.) : la Chambre peut **transférer** dépôts et positions chez un autre adhérent, **liquider** actifs et positions du défaillant ; l'**excédent** est restitué sans délai aux donneurs d'ordre"
+    },
+    {
+     "titre": "Banque de Règlement (art. 141-143)",
+     "contenu": "- **Organisme de marché** chargé du **règlement en espèces** des transactions\n- Fonctions **assurées par la BEAC**\n- Missions précisées dans le Règlement Général de la COSUMAF\n- Met en place un **système de traitement automatisé** des transactions\n\n**Chaîne d'une transaction** : BVMAC (négociation) → Chambre de compensation (contrepartie) → Dépositaire Central (livraison des titres) et Banque de Règlement (paiement en espèces)."
+    }
+   ],
+   "mnemos": [
+    "Dépositaire = TITRES (notarial, tenue de comptes, règlement-livraison, dématérialisation). Banque de règlement = ESPÈCES. Chambre = CONTREPARTIE (marges)."
+   ],
+   "definitions": [
+    {
+     "terme": "Référentiel central",
+     "definition": "Base à laquelle la Chambre peut communiquer des informations couvertes par le secret professionnel pour les contrats financiers."
+    },
+    {
+     "terme": "Commissionnaire ducroire",
+     "definition": "Intermédiaire qui garantit à son cocontractant l'exécution des engagements de son mandant."
+    },
+    {
+     "terme": "Dépositaire Central",
+     "definition": "Société anonyme investie à titre exclusif d'une mission de service public : services notarial, de tenue centralisée de comptes, de règlement et de dématérialisation des titres."
+    },
+    {
+     "terme": "Service notarial",
+     "definition": "Enregistrement initial des titres dans un système d'inscription en compte."
+    },
+    {
+     "terme": "Adhérent compensateur",
+     "definition": "Adhérent de la Chambre responsable envers elle des engagements de ses donneurs d'ordre (commissionnaire ducroire)."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Cite trois services accessoires du Dépositaire Central.",
+     "verso": "Prêt de titres, registres d'actionnaires, attribution des codes ISIN, nantissement, gestion des garanties…"
+    },
+    {
+     "recto": "Qui agrée la Chambre de Compensation ?",
+     "verso": "La COSUMAF, après avis de la BEAC et de la COBAC."
+    },
+    {
+     "recto": "Quels sont les quatre services du Dépositaire Central ?",
+     "verso": "Service notarial, tenue centralisée de comptes, service de règlement (virement de compte à compte) et gestion de la dématérialisation."
+    },
+    {
+     "recto": "Quels sont les 4 services principaux du Dépositaire Central ?",
+     "verso": "Notarial, tenue centralisée de comptes, règlement, gestion de la dématérialisation."
+    },
+    {
+     "recto": "Qui assure la mission de Banque de Règlement ?",
+     "verso": "La BEAC."
+    },
+    {
+     "recto": "Quel est le rôle de la Chambre de Compensation ?",
+     "verso": "Contrepartie centrale : surveillance des positions, appel des marges, liquidation d'office."
+    },
+    {
+     "recto": "Quel est le statut juridique de la Chambre de Compensation ?",
+     "verso": "Un établissement de crédit."
+    },
+    {
+     "recto": "Quelle est la forme du Dépositaire Central ?",
+     "verso": "Une société anonyme investie à titre exclusif d'une mission de service public, agréée par la COSUMAF."
+    },
+    {
+     "recto": "Qu'est-ce que le service notarial ?",
+     "verso": "L'enregistrement initial des titres dans un système d'inscription en compte."
+    },
+    {
+     "recto": "Que protège l'insaisissabilité ?",
+     "verso": "Les dépôts de garantie financière : aucun créancier ni mandataire de justice ne peut s'en prévaloir."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Qui est la contrepartie centrale du marché ?",
+     "choix": [
+      "La BVMAC",
+      "La Chambre de Compensation",
+      "Le Dépositaire Central",
+      "La COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": "Art. 132."
+    },
+    {
+     "q": "Quel est le statut de la Chambre de Compensation ?",
+     "choix": [
+      "Établissement de crédit",
+      "Société de bourse",
+      "Association",
+      "Service de la COSUMAF"
+     ],
+     "bonne": 0,
+     "explication": "Art. 131."
+    },
+    {
+     "q": "Qui assure le règlement en espèces ?",
+     "choix": [
+      "Le Dépositaire Central",
+      "La BEAC (Banque de Règlement)",
+      "La COBAC",
+      "Les sociétés de bourse"
+     ],
+     "bonne": 1,
+     "explication": "Banque de Règlement = BEAC."
+    },
+    {
+     "q": "Avis préalables à l'agrément de la Chambre de Compensation :",
+     "choix": [
+      "BVMAC et DCBC",
+      "CIMA et COBAC",
+      "BEAC et COBAC",
+      "Aucun"
+     ],
+     "bonne": 2,
+     "explication": "Agrément COSUMAF après avis BEAC + COBAC."
+    },
+    {
+     "q": "Qui n'est PAS actionnaire possible du Dépositaire Central ?",
+     "choix": [
+      "La BVMAC",
+      "La BEAC",
+      "Les sociétés de bourse",
+      "Les particuliers"
+     ],
+     "bonne": 3,
+     "explication": "Actionnaires : BVMAC, SDB, BEAC, établissements de crédit, autres sociétés commerciales."
+    },
+    {
+     "q": "Lequel est un service accessoire du Dépositaire Central ?",
+     "choix": [
+      "Attribution des codes ISIN",
+      "Négociation des titres",
+      "Agrément des SDB",
+      "Sanctions"
+     ],
+     "bonne": 0,
+     "explication": "Parmi les services liés à une nouvelle émission."
+    },
+    {
+     "q": "Que fait la Chambre d'un excédent après gestion d'une défaillance ?",
+     "choix": [
+      "Elle le conserve dans le fonds commun de défaut",
+      "Elle le reverse à la COSUMAF au titre des pénalités",
+      "Elle le restitue aux donneurs d'ordre (ou à l'adhérent compensateur)",
+      "Elle le transfère au Dépositaire Central"
+     ],
+     "bonne": 2,
+     "explication": "Restitution sans délai."
+    },
+    {
+     "q": "Le Dépositaire Central est :",
+     "choix": [
+      "une société anonyme investie à titre exclusif d'une mission de service public",
+      "un établissement de crédit agréé par la COBAC",
+      "un service rattaché à la BEAC et à son Gouverneur",
+      "une association professionnelle regroupant les SDB"
+     ],
+     "bonne": 0,
+     "explication": "Agrément préalable de la COSUMAF."
+    },
+    {
+     "q": "Le capital du Dépositaire Central est réparti notamment entre :",
+     "choix": [
+      "États membres seulement, à parts égales entre eux",
+      "émetteurs cotés seulement, selon leur capitalisation",
+      "OPC et sociétés de gestion seulement, par apports",
+      "BVMAC, sociétés de bourse, BEAC, établissements de crédit"
+     ],
+     "bonne": 3,
+     "explication": "Art. 119-129."
+    },
+    {
+     "q": "Combien de services principaux le Dépositaire Central assure-t-il (art. 121) ?",
+     "choix": [
+      "4",
+      "2",
+      "3",
+      "6"
+     ],
+     "bonne": 0,
+     "explication": "Notarial, tenue centralisée de comptes, règlement, dématérialisation."
+    },
+    {
+     "q": "Le service notarial du Dépositaire Central consiste à :",
+     "choix": [
+      "coter les titres admis et publier les cours au BOC",
+      "compenser les contrats financiers et appeler les marges",
+      "enregistrer initialement les titres dans un système d'inscription en compte",
+      "régler en espèces les transactions dans les livres de la BEAC"
+     ],
+     "bonne": 2,
+     "explication": "Enregistrement initial."
+    },
+    {
+     "q": "Les titres circulent chez le Dépositaire Central par :",
+     "choix": [
+      "remise physique",
+      "virement de compte à compte",
+      "ordre de bourse",
+      "chèque"
+     ],
+     "bonne": 1,
+     "explication": "Service de règlement."
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Trois piliers de l'après-marché",
+     "type": "boxes",
+     "legende": "Conserver, compenser, régler.",
+     "titreBloc": "Infrastructure post-marché",
+     "sous": "trois organismes",
+     "fleche": "du titre à l'espèce",
+     "blocs": [
+      {
+       "t": "Dépositaire Central",
+       "pts": [
+        "Notarial : enregistrement initial",
+        "Tenue centralisée de comptes",
+        "Règlement-livraison, dématérialisation"
+       ]
+      },
+      {
+       "t": "Chambre de compensation",
+       "pts": [
+        "Établissement de crédit agréé",
+        "Contrepartie centrale",
+        "Marges, liquidation d'office"
+       ]
+      },
+      {
+       "t": "Banque de règlement",
+       "pts": [
+        "BEAC",
+        "Règlement en espèces",
+        "Système de traitement automatisé"
+       ]
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le Dépositaire Central assure le service {{notarial}}, la tenue centralisée de comptes, le service de règlement et la gestion de la {{dématérialisation}}.",
+    "La Chambre de compensation est un établissement de {{crédit}}, agréé par la COSUMAF après avis de la {{BEAC}} et de la {{COBAC}}."
+   ],
+   "ordre": [
+    {
+     "titre": "Remets la chaîne d'une transaction dans l'ordre",
+     "consigne": "De la négociation au paiement.",
+     "items": [
+      "Négociation à la BVMAC",
+      "Contrepartie centrale de la Chambre de compensation",
+      "Livraison des titres par le Dépositaire Central",
+      "Paiement en espèces par la Banque de Règlement (BEAC)"
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "c1-marches-instruments",
+   "titre": "Essentiel · 01 · Marchés financiers et instruments : les bases",
+   "resume": {
+    "court": "Un marché financier met en relation ceux qui ont des capitaux (épargnants, investisseurs) et ceux qui en ont besoin (entreprises, États). Marché primaire : émission des titres. Marché secondaire : revente. Actions = parts de propriété (dividendes) ; obligations = prêts (intérêts, remboursement) ; OPC = paniers de titres gérés collectivement ; produits dérivés = contrats dont la valeur dépend d'un sous-jacent. Au comptant ou à terme.",
+    "moyen": "Rôle : financer l'économie, offrir un placement, fixer un prix. Marché primaire : l'émetteur lève des fonds (introduction en bourse, augmentation de capital, emprunt obligataire) ; marché secondaire : les investisseurs s'échangent les titres déjà émis (la BVMAC) ; marché réglementé ou de gré à gré. Intervenants : émetteurs, investisseurs (particuliers, institutionnels), intermédiaires (SDB, SGO, CIF), infrastructures (bourse, dépositaire central, chambre de compensation), régulateur. Instruments : actions (droit de vote, dividende, risque de perte du capital), obligations (créance, intérêts fixes ou variables, échéance), titres de créance négociables (court et moyen terme), parts d'OPC, sukuks (adossés à un actif), contrats financiers (à terme, options, échanges). Rendement et risque évoluent ensemble ; la diversification réduit le risque spécifique ; la liquidité mesure la facilité de revendre. Comptant : règlement-livraison rapide ; à terme : exécution à une date future. Marché réglementé : règles de transparence, de surveillance et de protection des investisseurs.",
+    "long": "Rôle : financer l'économie, offrir un placement, fixer un prix. Marché primaire : l'émetteur lève des fonds (introduction en bourse, augmentation de capital, emprunt obligataire) ; marché secondaire : les investisseurs s'échangent les titres déjà émis (la BVMAC) ; marché réglementé ou de gré à gré. Intervenants : émetteurs, investisseurs (particuliers, institutionnels), intermédiaires (SDB, SGO, CIF), infrastructures (bourse, dépositaire central, chambre de compensation), régulateur. Instruments : actions (droit de vote, dividende, risque de perte du capital), obligations (créance, intérêts fixes ou variables, échéance), titres de créance négociables (court et moyen terme), parts d'OPC, sukuks (adossés à un actif), contrats financiers (à terme, options, échanges). Rendement et risque évoluent ensemble ; la diversification réduit le risque spécifique ; la liquidité mesure la facilité de revendre. Comptant : règlement-livraison rapide ; à terme : exécution à une date future. Marché réglementé : règles de transparence, de surveillance et de protection des investisseurs."
+   },
+   "fiches": [
+    {
+     "titre": "À quoi sert un marché financier ?",
+     "contenu": "- **Financer** : les entreprises et les États lèvent des capitaux sans passer uniquement par les banques\n- **Placer** : les épargnants font fructifier leur épargne\n- **Fixer un prix** : la rencontre de l'offre et de la demande donne un cours\n- **Liquidité** : possibilité de revendre rapidement un titre\n- **Marché primaire** : **émission** de nouveaux titres (IPO, augmentation de capital, emprunt) — l'argent va à l'émetteur\n- **Marché secondaire** : **revente** entre investisseurs (cotation) — l'argent va au vendeur\n- **Réglementé** (bourse, règles de la COSUMAF et de la BVMAC) ou **de gré à gré** (négociation bilatérale)"
+    },
+    {
+     "titre": "Les grandes familles d'instruments",
+     "contenu": "| Instrument | Nature | Rémunération | Risque |\n|---|---|---|---|\n| **Action** | part du capital | **dividende**, plus-value | perte du capital, aucune garantie |\n| **Obligation** | **prêt** à l'émetteur | **intérêts** (coupon), remboursement à l'échéance | défaut de l'émetteur, variation de taux |\n| **TCN** | titre de créance court ou moyen terme | intérêts | émetteur |\n| **Part d'OPC** | panier de titres géré collectivement | performance de la VL | marché |\n| **Sukuk** | titre islamique adossé à un actif | revenu de l'actif | actif sous-jacent |\n| **Contrat financier** | contrat à terme, option, échange | gain/perte selon le sous-jacent | levier, perte possible supérieure à la mise |\n\n**Valeur mobilière** = titre de capital ou de créance qui donne des droits identiques par catégorie et est librement transmissible."
+    },
+    {
+     "titre": "Rendement, risque, diversification, liquidité",
+     "contenu": "- **Rendement** : gain rapporté à la mise (dividendes, intérêts, plus-values)\n- **Risque** : probabilité de perte ou de variation du résultat ; **plus le rendement espéré est élevé, plus le risque l'est**\n- **Diversification** : répartir sur plusieurs titres, secteurs, pays pour réduire le risque propre à un émetteur\n- **Liquidité** : facilité de vendre sans fort impact sur le prix\n- **Types de risques** (Instruction 31-24) : financiers (marché, crédit, contrepartie, liquidité), opérationnels, durabilité, cyber"
+    },
+    {
+     "titre": "Comptant et terme",
+     "contenu": "- **Marché au comptant** : paiement et livraison à la date de règlement-livraison rapprochée (à la BVMAC : **comptant**)\n- **Marché à terme** : **contrats financiers** (contrats à terme ferme, d'option, d'échange, accords de taux futurs) ; une **chambre de compensation** joue la **contrepartie centrale** et appelle des **marges** (dépôts de garantie)\n- **Ventes à découvert** : interdites sur le marché régional (il faut disposer des titres ou d'assurances raisonnables de livraison)"
+    }
+   ],
+   "mnemos": [
+    "Primaire = on émet (l'émetteur encaisse) · Secondaire = on revend (le vendeur encaisse) · Action = propriétaire · Obligation = créancier."
+   ],
+   "definitions": [
+    {
+     "terme": "Diversification",
+     "definition": "Répartition des placements pour réduire le risque propre à chaque émetteur."
+    },
+    {
+     "terme": "Marché primaire",
+     "definition": "Marché où les titres sont émis pour la première fois ; les fonds vont à l'émetteur."
+    },
+    {
+     "terme": "Obligation",
+     "definition": "Titre de créance représentant un prêt à l'émetteur, avec intérêts et remboursement."
+    },
+    {
+     "terme": "Dividende",
+     "definition": "Part du bénéfice distribuée aux actionnaires."
+    },
+    {
+     "terme": "Action",
+     "definition": "Titre de propriété représentant une fraction du capital d'une société par actions."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Rendement élevé et risque ?",
+     "verso": "Plus le rendement espéré est élevé, plus le risque est élevé."
+    },
+    {
+     "recto": "Un obligataire est...",
+     "verso": "Un créancier de l'émetteur."
+    },
+    {
+     "recto": "Les ventes à découvert sont-elles autorisées ?",
+     "verso": "Non sur le marché financier régional."
+    },
+    {
+     "recto": "Marché secondaire : à qui va l'argent ?",
+     "verso": "Au vendeur du titre, pas à l'émetteur."
+    },
+    {
+     "recto": "Qu'est-ce que la liquidité ?",
+     "verso": "La facilité de revendre un titre rapidement sans fort impact sur son prix."
+    },
+    {
+     "recto": "Comment fonctionne le marché à terme ?",
+     "verso": "Des contrats financiers sont négociés ; la chambre de compensation joue la contrepartie centrale et appelle des marges."
+    },
+    {
+     "recto": "Marché primaire : à qui va l'argent ?",
+     "verso": "À l'émetteur, lors de l'émission des titres."
+    },
+    {
+     "recto": "À quoi sert la diversification ?",
+     "verso": "Réduire le risque propre à un émetteur."
+    },
+    {
+     "recto": "Quelles sont les familles d'instruments ?",
+     "verso": "Actions, obligations, TCN, parts d'OPC, sukuks, contrats financiers."
+    },
+    {
+     "recto": "Qu'est-ce qu'un sukuk ?",
+     "verso": "Titre islamique équivalent à une obligation, adossé à un actif."
+    }
+   ],
+   "questions": [
+    {
+     "q": "L'émetteur encaisse l'argent sur le marché...",
+     "choix": [
+      "Secondaire",
+      "Hors-cote",
+      "À terme",
+      "Primaire"
+     ],
+     "bonne": 3,
+     "explication": "Émission de nouveaux titres."
+    },
+    {
+     "q": "Un obligataire est...",
+     "choix": [
+      "Un propriétaire",
+      "Un administrateur",
+      "Un garant",
+      "Un créancier"
+     ],
+     "bonne": 3,
+     "explication": "L'obligation est un prêt."
+    },
+    {
+     "q": "La diversification réduit...",
+     "choix": [
+      "Tous les risques",
+      "Les impôts",
+      "Le risque propre à un émetteur",
+      "Le dividende"
+     ],
+     "bonne": 2,
+     "explication": "Elle ne supprime pas le risque de marché."
+    },
+    {
+     "q": "Une vente à découvert consiste à...",
+     "choix": [
+      "Vendre des titres qu'on ne détient pas",
+      "Vendre des titres qu'on détient",
+      "Acheter à crédit",
+      "Racheter ses titres"
+     ],
+     "bonne": 0,
+     "explication": "Interdite sur le marché régional."
+    },
+    {
+     "q": "La liquidité mesure...",
+     "choix": [
+      "La richesse de l'émetteur",
+      "La facilité de revendre",
+      "Le dividende",
+      "Le taux d'intérêt"
+     ],
+     "bonne": 1,
+     "explication": "Définition de base."
+    },
+    {
+     "q": "Sur le marché secondaire, l'argent va :",
+     "choix": [
+      "au vendeur du titre",
+      "à l'émetteur",
+      "à la COSUMAF",
+      "à la BEAC"
+     ],
+     "bonne": 0,
+     "explication": "Revente entre investisseurs."
+    },
+    {
+     "q": "Un actionnaire est :",
+     "choix": [
+      "un prêteur",
+      "un garant",
+      "un salarié",
+      "un copropriétaire de l'entreprise"
+     ],
+     "bonne": 3,
+     "explication": "Il reçoit un dividende et peut réaliser une plus-value."
+    },
+    {
+     "q": "Un obligataire est :",
+     "choix": [
+      "un copropriétaire",
+      "un prêteur à l'émetteur",
+      "un associé",
+      "un garant"
+     ],
+     "bonne": 1,
+     "explication": "Il reçoit des intérêts (coupon) et le remboursement à l'échéance."
+    },
+    {
+     "q": "Un TCN est :",
+     "choix": [
+      "une action de capital à droit de vote",
+      "un titre de créance négociable à court ou moyen terme",
+      "une part d'OPC investi en obligations",
+      "un contrat à terme sur indice"
+     ],
+     "bonne": 1,
+     "explication": "Supervisé par la BEAC."
+    },
+    {
+     "q": "Plus le rendement espéré est élevé :",
+     "choix": [
+      "plus le risque est faible",
+      "le risque est nul",
+      "le risque est constant",
+      "plus le risque l'est"
+     ],
+     "bonne": 3,
+     "explication": "Lien rendement-risque."
+    },
+    {
+     "q": "La liquidité d'un titre est :",
+     "choix": [
+      "son rendement annuel moyen sur plusieurs exercices",
+      "son nominal inscrit dans les statuts",
+      "la facilité de le vendre sans fort impact sur le prix",
+      "son cours de clôture de la dernière séance"
+     ],
+     "bonne": 2,
+     "explication": "Définition."
+    },
+    {
+     "q": "Un contrat financier peut entraîner :",
+     "choix": [
+      "une perte limitée à la mise",
+      "aucune perte",
+      "un gain garanti",
+      "une perte supérieure à la mise"
+     ],
+     "bonne": 3,
+     "explication": "Effet de levier."
+    }
+   ],
+   "trous": [
+    "Sur le marché {{primaire}}, l'argent va à l'émetteur ; sur le marché {{secondaire}}, au vendeur du titre.",
+    "La {{diversification}} réduit le risque propre à un émetteur."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "c2-actions-indices",
+   "titre": "Essentiel · 02 · Actions, capitalisation, dividendes, PER et indices",
+   "resume": {
+    "court": "Capitalisation = cours × nombre d'actions. Rendement du dividende = dividende ÷ cours. PER = cours ÷ bénéfice par action. Indice pondéré par la capitalisation : suit la valeur globale du marché. Division d'action : le cours est divisé, la capitalisation ne change pas. Valeur nominale ≠ cours.",
+    "moyen": "Capitalisation boursière = cours × nombre d'actions ; la capitalisation d'un marché est la somme des capitalisations. Dividende par action = dividende total ÷ nombre d'actions ; rendement du dividende = dividende ÷ cours. BPA (bénéfice par action) = résultat net ÷ nombre d'actions ; PER = cours ÷ BPA (nombre d'années de bénéfice payées par le marché). Prix de revient moyen = somme des achats ÷ quantités. Plus-value = prix de vente − prix de revient. Indice boursier : agrégat des cours pondérés par la capitalisation ; la BVMAC calcule un indice général et peut calculer des indices sectoriels ; la variation en pourcentage traduit la tendance. Opérations sur titres : division (cours divisé, quantité multipliée), regroupement, distribution d'actions gratuites, détachement d'un droit préférentiel de souscription (DPS = (cours avant − prix d'émission) × nouvelles ÷ (anciennes + nouvelles)). Valeur nominale : valeur inscrite aux statuts, distincte du cours.",
+    "long": "Capitalisation boursière = cours × nombre d'actions ; la capitalisation d'un marché est la somme des capitalisations. Dividende par action = dividende total ÷ nombre d'actions ; rendement du dividende = dividende ÷ cours. BPA (bénéfice par action) = résultat net ÷ nombre d'actions ; PER = cours ÷ BPA (nombre d'années de bénéfice payées par le marché). Prix de revient moyen = somme des achats ÷ quantités. Plus-value = prix de vente − prix de revient. Indice boursier : agrégat des cours pondérés par la capitalisation ; la BVMAC calcule un indice général et peut calculer des indices sectoriels ; la variation en pourcentage traduit la tendance. Opérations sur titres : division (cours divisé, quantité multipliée), regroupement, distribution d'actions gratuites, détachement d'un droit préférentiel de souscription (DPS = (cours avant − prix d'émission) × nouvelles ÷ (anciennes + nouvelles)). Valeur nominale : valeur inscrite aux statuts, distincte du cours."
+   },
+   "fiches": [
+    {
+     "titre": "Les formules à connaître",
+     "contenu": "| Notion | Formule |\n|---|---|\n| **Capitalisation boursière** | cours × nombre d'actions |\n| **Dividende par action** | dividende total ÷ nombre d'actions |\n| **Rendement du dividende** | dividende par action ÷ cours |\n| **BPA** (bénéfice par action) | résultat net ÷ nombre d'actions |\n| **PER** | cours ÷ BPA |\n| **Prix de revient unitaire moyen** | Σ (quantité × prix) ÷ Σ quantités |\n| **Plus-value** | prix de vente − prix de revient |\n| **Performance** | (valeur finale − valeur initiale) ÷ valeur initiale |"
+    },
+    {
+     "titre": "Opérations sur titres : effets sur le cours",
+     "contenu": "- **Division de l'action par n** : le nombre d'actions est multiplié par n, le **cours divisé par n**, la **capitalisation inchangée**\n- **Regroupement** : l'inverse\n- **Attribution gratuite** : plus d'actions, cours ajusté\n- **Détachement du DPS** (augmentation de capital) : **DPS = (cours avant − prix d'émission) × nouvelles ÷ (anciennes + nouvelles)** ; le droit est négocié en **ligne secondaire**\n- **Dividende** : le cours baisse d'environ le montant du dividende au détachement\n- À la BVMAC, selon le RG : les limites des ordres en carnet sont **ajustées** pour un dividende, un coupon ou une division ; les autres opérations rendent les ordres caducs"
+    },
+    {
+     "titre": "Les indices",
+     "contenu": "- Un **indice** mesure l'évolution d'un panier de titres\n- **Pondéré par la capitalisation** (cas de l'indice général de la BVMAC) : plus une société est grosse, plus elle pèse\n- Base historique fixée (par exemple 1 000 à la création) ; calcul **après la séance** sur le **dernier cours connu**\n- Les opérations spécifiques (introduction, radiation, division…) modifient la **base** pour que la variation reflète les seuls mouvements de prix\n- Indices **sectoriels** et **obligataires** possibles ; **Comité de l'Indice** avec les SDB et les SGO"
+    },
+    {
+     "titre": "Nominal, cours, valeur comptable",
+     "contenu": "- **Valeur nominale** : montant fixé aux statuts (capital = nominal × nombre d'actions) ; ne varie pas avec le marché\n- **Cours** : prix de marché, qui varie à chaque séance\n- **Valeur comptable** : capitaux propres ÷ nombre d'actions\n- Une action peut coter **au-dessus** ou **en dessous** de son nominal\n- Nominal et **placement privé** : l'ancien régime imposait un **nominal de 50 M FCFA par titre** (régime 2022) ; le nouveau parle de **souscription minimale de 10 M**"
+    }
+   ],
+   "mnemos": [
+    "Capitalisation = cours × nombre d'actions · PER = cours ÷ BPA · Rendement = dividende ÷ cours · Division : capitalisation inchangée."
+   ],
+   "definitions": [
+    {
+     "terme": "Valeur nominale",
+     "definition": "Valeur d'une action inscrite aux statuts, indépendante du cours."
+    },
+    {
+     "terme": "Regroupement d'actions",
+     "definition": "Opération inverse de la division : moins d'actions, cours plus élevé, capitalisation inchangée."
+    },
+    {
+     "terme": "BPA",
+     "definition": "Bénéfice par action : résultat net divisé par le nombre d'actions."
+    },
+    {
+     "terme": "PER",
+     "definition": "Price earning ratio : cours divisé par le bénéfice par action ; nombre d'années de bénéfices payées."
+    },
+    {
+     "terme": "Rendement du dividende",
+     "definition": "Dividende par action divisé par le cours."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Formule du BPA ?",
+     "verso": "Résultat net ÷ nombre d'actions."
+    },
+    {
+     "recto": "Comment calcule-t-on la valeur du DPS ?",
+     "verso": "(cours avant − prix d'émission) × nouvelles ÷ (anciennes + nouvelles)."
+    },
+    {
+     "recto": "Formule du rendement du dividende ?",
+     "verso": "Dividende par action ÷ cours."
+    },
+    {
+     "recto": "Formule de la valeur du DPS ?",
+     "verso": "(Cours avant − prix d'émission) × nouvelles ÷ (anciennes + nouvelles)."
+    },
+    {
+     "recto": "Comment calcule-t-on le PRU ?",
+     "verso": "Somme des (quantité × prix) divisée par la somme des quantités."
+    },
+    {
+     "recto": "Nominal, cours, valeur comptable : différences ?",
+     "verso": "Nominal : fixé aux statuts ; cours : prix de marché variable ; valeur comptable : capitaux propres ÷ actions."
+    },
+    {
+     "recto": "Comment est pondéré l'indice général de la BVMAC ?",
+     "verso": "Par la capitalisation, sur tous les titres de capital."
+    },
+    {
+     "recto": "Prix de revient unitaire moyen ?",
+     "verso": "Somme (quantité × prix) ÷ somme des quantités."
+    },
+    {
+     "recto": "Valeur nominale ou cours : lequel varie à chaque séance ?",
+     "verso": "Le cours."
+    },
+    {
+     "recto": "Formule du PER ?",
+     "verso": "Cours ÷ bénéfice par action."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Une action cote 5 000 FCFA et il y a 200 000 actions. La capitalisation vaut...",
+     "choix": [
+      "10 M",
+      "100 M",
+      "1 Md",
+      "10 Md"
+     ],
+     "bonne": 2,
+     "explication": "5 000 × 200 000 = 1 000 000 000."
+    },
+    {
+     "q": "Après une division par 5, le cours passe de 10 000 à...",
+     "choix": [
+      "50 000",
+      "2 000",
+      "5 000",
+      "10 000"
+     ],
+     "bonne": 1,
+     "explication": "10 000 ÷ 5."
+    },
+    {
+     "q": "Un PER de 10 signifie...",
+     "choix": [
+      "10 % de rendement",
+      "10 actions",
+      "10 M de capitalisation",
+      "10 ans de bénéfices payés"
+     ],
+     "bonne": 3,
+     "explication": "Cours = 10 × BPA."
+    },
+    {
+     "q": "Un indice pondéré par la capitalisation...",
+     "choix": [
+      "Fait peser davantage les grosses sociétés",
+      "Donne le même poids à toutes les sociétés",
+      "Ignore les cours de bourse des sociétés",
+      "Est calculé une fois par an"
+     ],
+     "bonne": 0,
+     "explication": "Art. 182 RG BVMAC."
+    },
+    {
+     "q": "La capitalisation boursière est égale à :",
+     "choix": [
+      "cours × nombre d'actions",
+      "nominal × nombre d'actions",
+      "bénéfice × cours",
+      "dividende × nombre d'actions"
+     ],
+     "bonne": 0,
+     "explication": "Définition."
+    },
+    {
+     "q": "Une société a 500 000 actions cotées 8 000 FCFA. Sa capitalisation est de :",
+     "choix": [
+      "400 millions",
+      "4 milliards",
+      "40 milliards",
+      "4 millions"
+     ],
+     "bonne": 1,
+     "explication": "500 000 × 8 000 = 4 000 000 000."
+    },
+    {
+     "q": "Le dividende par action est égal à :",
+     "choix": [
+      "résultat net ÷ nombre d'actions",
+      "cours ÷ dividende",
+      "dividende total ÷ nombre d'actions",
+      "dividende × cours"
+     ],
+     "bonne": 2,
+     "explication": "Définition."
+    },
+    {
+     "q": "Le rendement du dividende est :",
+     "choix": [
+      "cours ÷ dividende",
+      "BPA ÷ cours",
+      "dividende total ÷ capital",
+      "dividende par action ÷ cours"
+     ],
+     "bonne": 3,
+     "explication": "Définition."
+    },
+    {
+     "q": "Le BPA est égal à :",
+     "choix": [
+      "dividende ÷ nombre d'actions",
+      "cours ÷ résultat",
+      "résultat net ÷ nombre d'actions",
+      "capitaux propres ÷ actions"
+     ],
+     "bonne": 2,
+     "explication": "Définition."
+    },
+    {
+     "q": "Un PER de 10 signifie que le cours vaut :",
+     "choix": [
+      "10 % du bénéfice",
+      "10 fois le dividende",
+      "10 % du nominal",
+      "10 fois le bénéfice par action"
+     ],
+     "bonne": 3,
+     "explication": "PER = cours ÷ BPA."
+    },
+    {
+     "q": "La plus-value est égale à :",
+     "choix": [
+      "prix de vente − prix de revient",
+      "prix de revient − prix de vente",
+      "cours − nominal",
+      "dividende − frais"
+     ],
+     "bonne": 0,
+     "explication": "Définition."
+    },
+    {
+     "q": "Après une division par n, la capitalisation :",
+     "choix": [
+      "est multipliée par n",
+      "est inchangée",
+      "est divisée par n",
+      "double"
+     ],
+     "bonne": 1,
+     "explication": "Le nombre d'actions est multiplié par n et le cours divisé par n."
+    }
+   ],
+   "trous": [
+    "Le PER est égal au cours divisé par le {{BPA}}.",
+    "La capitalisation boursière est égale au {{cours}} multiplié par le nombre d'{{actions}}.",
+    "Après une division par n, la {{capitalisation}} reste inchangée."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "c3-obligations",
+   "titre": "Essentiel · 03 · Obligations : coupon, coupon couru, cotation au pied de coupon",
+   "resume": {
+    "court": "Une obligation est un prêt : nominal, taux, échéance. Coupon annuel = nominal × taux. Cotation en pourcentage du nominal, au pied de coupon (sans le coupon couru) avec deux décimales ; coupon couru = nominal × taux × jours écoulés ÷ base. Prix de la transaction = prix + coupon couru. Un cours supérieur à 100 % = au-dessus du pair. Quand les taux montent, les cours des obligations à taux fixe baissent.",
+    "moyen": "Caractéristiques : émetteur, valeur nominale, prix d'émission, taux nominal (fixe ou variable), date de jouissance, échéance, mode d'amortissement (in fine ou par tranches), garantie ou notation. À la BVMAC (compartiment C) : cotation en pourcentage du nominal, au pied de coupon ; le coupon couru, calculé entre la date de jouissance et la date de dénouement théorique, est diffusé ; deux décimales pour les titres à taux fixe ; transactions exprimées en monnaie locale avec frais et fraction courue. Prix « au pair » : 100 % ; au-dessus du pair : prime ; en dessous : décote. Relation taux-cours : hausse des taux → baisse des prix. Obligations du Trésor, emprunts d'États, obligations d'entreprises ; maturité minimale de 2 ans à la cote ; obligations vertes, sociales, durables (suivi des projets) ; sukuks assimilés. Rendement actuariel = taux qui égalise prix et flux futurs (non calculé ici).",
+    "long": "Caractéristiques : émetteur, valeur nominale, prix d'émission, taux nominal (fixe ou variable), date de jouissance, échéance, mode d'amortissement (in fine ou par tranches), garantie ou notation. À la BVMAC (compartiment C) : cotation en pourcentage du nominal, au pied de coupon ; le coupon couru, calculé entre la date de jouissance et la date de dénouement théorique, est diffusé ; deux décimales pour les titres à taux fixe ; transactions exprimées en monnaie locale avec frais et fraction courue. Prix « au pair » : 100 % ; au-dessus du pair : prime ; en dessous : décote. Relation taux-cours : hausse des taux → baisse des prix. Obligations du Trésor, emprunts d'États, obligations d'entreprises ; maturité minimale de 2 ans à la cote ; obligations vertes, sociales, durables (suivi des projets) ; sukuks assimilés. Rendement actuariel = taux qui égalise prix et flux futurs (non calculé ici)."
+   },
+   "fiches": [
+    {
+     "titre": "Les caractéristiques d'une obligation",
+     "contenu": "| Élément | Sens |\n|---|---|\n| **Valeur nominale** | montant sur lequel les intérêts sont calculés (ex. 10 000 FCFA) |\n| **Taux nominal** | pourcentage du nominal versé chaque année |\n| **Coupon** | intérêt versé = nominal × taux |\n| **Prix d'émission** | prix payé à la souscription (au pair, avec prime ou décote) |\n| **Date de jouissance** | date à partir de laquelle courent les intérêts |\n| **Échéance** | date de remboursement ; **≥ 2 ans** pour la cote |\n| **Amortissement** | **in fine** (en une fois) ou par tranches |\n| **Sûreté** | garantie ou notation de l'émission |"
+    },
+    {
+     "titre": "Cotation au pied de coupon et coupon couru",
+     "contenu": "- À la BVMAC : **pourcentage du nominal**, **au pied de coupon** (sans la fraction courue), **deux décimales** pour un taux fixe\n- **Coupon couru** = nominal × taux × **jours écoulés** ÷ base (365 ou 360 selon la convention ; la BVMAC fixe ses modalités)\n- Jours : de la **date de jouissance** (ou du dernier coupon) à la **date de dénouement théorique**\n- **Montant de la transaction** = (nominal × cours % + coupon couru) × quantité, avec frais\n- **Au pair** : cours = 100 % ; **au-dessus du pair** : prime ; **sous le pair** : décote"
+    },
+    {
+     "titre": "Taux et prix",
+     "contenu": "- Quand les **taux de marché montent**, le prix des obligations à taux fixe **baisse**, et inversement\n- Plus l'échéance est **longue**, plus la sensibilité est forte\n- Le **risque de crédit** (défaut de l'émetteur) se traduit par une **prime** de taux ; la **notation** l'évalue (agences agréées par la COSUMAF)\n- **États de la CEMAC** : admission sur simple demande, maturité ≥ 2 ans ; **obligations vertes, sociales, durables** : rapport d'un expert indépendant"
+    }
+   ],
+   "mnemos": [
+    "Coupon = nominal × taux · Coupon couru = nominal × taux × jours/365 · Pied de coupon = prix sans le couru · Taux ↑ = prix ↓."
+   ],
+   "definitions": [
+    {
+     "terme": "Taux nominal",
+     "definition": "Pourcentage du nominal versé chaque année sous forme de coupon."
+    },
+    {
+     "terme": "Prime d'émission",
+     "definition": "Écart positif entre le prix d'émission et le nominal."
+    },
+    {
+     "terme": "Valeur nominale",
+     "definition": "Montant de référence d'une obligation, sur lequel sont calculés les intérêts."
+    },
+    {
+     "terme": "Coupon couru",
+     "definition": "Fraction du coupon acquise depuis la date de jouissance jusqu'au dénouement."
+    },
+    {
+     "terme": "Coupon",
+     "definition": "Intérêt périodique versé au porteur d'une obligation."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Hausse des taux : effet sur le prix d'une obligation ?",
+     "verso": "Baisse du prix."
+    },
+    {
+     "recto": "Que signifie « au pair » ?",
+     "verso": "Cours égal à 100 % du nominal."
+    },
+    {
+     "recto": "Qu'est-ce que l'amortissement in fine ?",
+     "verso": "Remboursement du capital en une seule fois à l'échéance."
+    },
+    {
+     "recto": "Quel effet de la hausse des taux ?",
+     "verso": "Le prix des obligations à taux fixe baisse, d'autant plus que l'échéance est longue."
+    },
+    {
+     "recto": "Formule du coupon couru ?",
+     "verso": "Nominal × taux × jours écoulés ÷ base (365 ou 360)."
+    },
+    {
+     "recto": "Quel est le prix d'une transaction obligataire ?",
+     "verso": "(nominal × cours % + coupon couru) × quantité, plus les frais."
+    },
+    {
+     "recto": "Maturité minimale pour la cote obligataire ?",
+     "verso": "2 ans."
+    },
+    {
+     "recto": "Prix d'une transaction obligataire ?",
+     "verso": "Prix au pied de coupon + coupon couru (plus frais)."
+    },
+    {
+     "recto": "Que signifient au pair, prime, décote ?",
+     "verso": "Au pair : 100 % ; au-dessus : prime ; en dessous : décote."
+    },
+    {
+     "recto": "Comment calcule-t-on le coupon annuel et le coupon couru ?",
+     "verso": "Coupon = nominal × taux ; coupon couru = nominal × taux × jours écoulés ÷ base (365 ou 360)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Une obligation de 10 000 FCFA à 6 % verse un coupon annuel de...",
+     "choix": [
+      "600",
+      "60",
+      "6 000",
+      "60 000"
+     ],
+     "bonne": 0,
+     "explication": "10 000 × 6 %."
+    },
+    {
+     "q": "Cotation au pied de coupon : le cours...",
+     "choix": [
+      "Inclut le coupon couru",
+      "Est en FCFA",
+      "Exclut le coupon couru",
+      "Est annuel"
+     ],
+     "bonne": 2,
+     "explication": "Art. 186 RG BVMAC."
+    },
+    {
+     "q": "Les taux montent : les obligations à taux fixe...",
+     "choix": [
+      "Montent",
+      "Ne bougent pas",
+      "Disparaissent",
+      "Baissent"
+     ],
+     "bonne": 3,
+     "explication": "Relation inverse taux-prix."
+    },
+    {
+     "q": "Le coupon annuel d'une obligation est égal à :",
+     "choix": [
+      "prix d'émission × taux",
+      "nominal × taux",
+      "cours × taux",
+      "nominal ÷ taux"
+     ],
+     "bonne": 1,
+     "explication": "Définition."
+    },
+    {
+     "q": "La date de jouissance est la date :",
+     "choix": [
+      "à partir de laquelle courent les intérêts",
+      "de remboursement du capital emprunté",
+      "d'émission des titres sur le marché",
+      "de première cotation à la BVMAC"
+     ],
+     "bonne": 0,
+     "explication": "Définition."
+    },
+    {
+     "q": "La maturité minimale pour la cote obligataire est de :",
+     "choix": [
+      "1 an",
+      "2 ans",
+      "5 ans",
+      "10 ans"
+     ],
+     "bonne": 1,
+     "explication": "Compartiment C."
+    },
+    {
+     "q": "L'amortissement in fine signifie un remboursement :",
+     "choix": [
+      "par tranches",
+      "en une seule fois à l'échéance",
+      "au début",
+      "chaque mois"
+     ],
+     "bonne": 1,
+     "explication": "Définition."
+    },
+    {
+     "q": "À la BVMAC, une obligation est cotée :",
+     "choix": [
+      "en valeur absolue, coupon couru inclus",
+      "en pourcentage du nominal, au pied de coupon",
+      "au prix d'émission, sans variation",
+      "en devise étrangère, au cours du jour"
+     ],
+     "bonne": 1,
+     "explication": "Deux décimales pour un taux fixe."
+    },
+    {
+     "q": "Le coupon couru est égal à :",
+     "choix": [
+      "nominal × taux",
+      "cours × jours",
+      "nominal ÷ jours",
+      "nominal × taux × jours écoulés ÷ base"
+     ],
+     "bonne": 3,
+     "explication": "Base 365 ou 360 selon la convention."
+    },
+    {
+     "q": "Obligation de 10 000 FCFA à 6 %, base 360. 90 jours ont couru. Le coupon couru est de :",
+     "choix": [
+      "100",
+      "150",
+      "180",
+      "600"
+     ],
+     "bonne": 1,
+     "explication": "10 000 × 0,06 × 90 ÷ 360 = 150."
+    },
+    {
+     "q": "Le montant d'une transaction obligataire est :",
+     "choix": [
+      "nominal × quantité, sans coupon couru",
+      "cours × quantité, sans frais",
+      "coupon × quantité, hors nominal",
+      "(nominal × cours % + coupon couru) × quantité, avec frais"
+     ],
+     "bonne": 3,
+     "explication": "Au pied de coupon."
+    },
+    {
+     "q": "50 obligations de 10 000 FCFA cotées 98 % avec 100 FCFA de coupon couru : le montant (hors frais) est de :",
+     "choix": [
+      "495 000",
+      "490 000",
+      "500 000",
+      "505 000"
+     ],
+     "bonne": 0,
+     "explication": "(9 800 + 100) × 50 = 495 000."
+    }
+   ],
+   "trous": [
+    "Le coupon annuel est égal au nominal multiplié par le {{taux}} ; le coupon couru dépend des {{jours}} écoulés.",
+    "La maturité minimale pour la cote obligataire est de {{2}} ans.",
+    "Une obligation cotée à 100 % est dite au {{pair}}."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "c5-ordres-fixing",
+   "titre": "Essentiel · 05 · Les ordres et la fixation du cours (fixing)",
+   "resume": {
+    "court": "Le fixing confronte tous les ordres accumulés et retient le cours qui maximise le volume échangé ; si plusieurs cours donnent le même volume, on minimise le solde non exécuté, puis on retient le plus proche du cours de référence. Demande cumulée = achats dont la limite ≥ prix ; offre cumulée = ventes dont la limite ≤ prix ; volume = minimum des deux. Ordre au marché prioritaire sur l'ordre à cours limité.",
+    "moyen": "Carnet d'ordres : liste des achats (par prix décroissants) et des ventes (par prix croissants). Ordre à cours limité : acheteur = prix maximal, vendeur = prix minimal. Ordre au marché : sans prix, exécuté au prix d'équilibre, prioritaire. Priorité : prix puis temps. Fixing : on calcule pour chaque prix la demande cumulée D(p) et l'offre cumulée S(p) ; volume = min(D, S) ; le cours retenu maximise le volume ; en cas d'égalité : solde minimal, puis sens du solde, puis prix de référence. Les ordres meilleurs que le cours sont exécutés en totalité, ceux à la limite partiellement, les autres pas du tout. En cas de déséquilibre : cours avec réduction (coefficient ≥ 25 %), offert/demandé (déséquilibre > 4) ou non coté. Cotation en continu : chaque ordre est exécuté dès qu'une contrepartie existe. Seuils de variation (±10 % actions, ±6 % obligations selon l'Instruction n° 2).",
+    "long": "Carnet d'ordres : liste des achats (par prix décroissants) et des ventes (par prix croissants). Ordre à cours limité : acheteur = prix maximal, vendeur = prix minimal. Ordre au marché : sans prix, exécuté au prix d'équilibre, prioritaire. Priorité : prix puis temps. Fixing : on calcule pour chaque prix la demande cumulée D(p) et l'offre cumulée S(p) ; volume = min(D, S) ; le cours retenu maximise le volume ; en cas d'égalité : solde minimal, puis sens du solde, puis prix de référence. Les ordres meilleurs que le cours sont exécutés en totalité, ceux à la limite partiellement, les autres pas du tout. En cas de déséquilibre : cours avec réduction (coefficient ≥ 25 %), offert/demandé (déséquilibre > 4) ou non coté. Cotation en continu : chaque ordre est exécuté dès qu'une contrepartie existe. Seuils de variation (±10 % actions, ±6 % obligations selon l'Instruction n° 2)."
+   },
+   "fiches": [
+    {
+     "titre": "Le carnet d'ordres et les types d'ordres",
+     "contenu": "- **Ordre à cours limité** : l'acheteur fixe le **prix maximal**, le vendeur le **prix minimal**\n- **Ordre au marché** : **sans prix**, exécuté aux prix du carnet, **prioritaire** sur l'ordre limité\n- **Priorité** : d'abord le **prix**, puis le **temps** (premier arrivé, premier servi à même limite)\n- **Validité** : jour (défaut) ou durée déterminée (≤ 30 jours selon le RG)\n- **Stipulations** : sans stipulation (quantité = maximum) ou « tout ou rien »"
+    },
+    {
+     "titre": "Calculer un cours de fixing",
+     "contenu": "**Méthode** (ordres à cours limité) :\n1. Lister les prix présents dans le carnet\n2. Pour chaque prix **p** : **demande cumulée D(p)** = quantité des **achats dont la limite ≥ p** ; **offre cumulée S(p)** = quantité des **ventes dont la limite ≤ p**\n3. **Volume V(p) = min(D(p), S(p))**\n4. **Cours du fixing** = prix qui **maximise V(p)**\n5. En cas d'égalité : on **minimise le solde** |D − S|, puis on regarde le **sens du solde**, puis le **prix de référence** (cours le plus proche)\n\n**Exemple** : achats 400 à 10 200, 600 à 10 000, 300 à 9 800 ; ventes 300 à 9 800, 500 à 10 000, 700 à 10 200.\n| Prix | D | S | V |\n|---|---|---|---|\n| 9 800 | 1 300 | 300 | 300 |\n| 10 000 | 1 000 | 800 | **800** |\n| 10 200 | 400 | 1 500 | 400 |\n→ **cours = 10 000**, volume **800**."
+    },
+    {
+     "titre": "Exécution et déséquilibres",
+     "contenu": "- Ordre avec une limite **meilleure** que le cours (achat plus haut, vente plus bas) : **exécuté en totalité**\n- Limite **moins bonne** : **aucune exécution**, même partielle\n- Limite **égale** au cours : **exécution partielle** possible\n- **Déséquilibre** : cours d'équilibre, **cours avec réduction** (coefficient **≥ 25 %**), prix **offert** ou **demandé** (déséquilibre **> 4**, aucune transaction), **non coté**\n- **Continu** : chaque ordre confronté immédiatement ; le **carnet** détermine le cours\n- **Seuils statiques** (Instruction n° 2) : **±10 %** actions, **±6 %** obligations autour du prix de référence statique"
+    }
+   ],
+   "mnemos": [
+    "Fixing = prix qui maximise le volume · D(p) : achats ≥ p · S(p) : ventes ≤ p · V = min(D, S) · ordre au marché prioritaire."
+   ],
+   "definitions": [
+    {
+     "terme": "Solde non exécuté",
+     "definition": "Différence entre demande et offre cumulées à un prix donné, minimisée pour départager deux prix de même volume."
+    },
+    {
+     "terme": "Prix de référence statique",
+     "definition": "Prix autour duquel s'appliquent les seuils de ±10 % (actions) et ±6 % (obligations)."
+    },
+    {
+     "terme": "Fixing",
+     "definition": "Mode de cotation confrontant tous les ordres accumulés pour déterminer un cours unique qui maximise le volume échangé."
+    },
+    {
+     "terme": "Cours avec réduction",
+     "definition": "Cours où les ordres du sens déséquilibré sont partiellement servis, avec un coefficient d'au moins 25 %."
+    },
+    {
+     "terme": "Demande cumulée",
+     "definition": "Quantité totale des ordres d'achat dont la limite est supérieure ou égale à un prix donné."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Volume échangé à un prix p ?",
+     "verso": "Le minimum entre demande cumulée et offre cumulée."
+    },
+    {
+     "recto": "Comment calculer un cours de fixing ?",
+     "verso": "Pour chaque prix, D(p) = achats avec limite ≥ p, S(p) = ventes avec limite ≤ p, V = min(D, S) ; on retient le prix qui maximise V."
+    },
+    {
+     "recto": "Comment calcule-t-on la demande cumulée à un prix p ?",
+     "verso": "Somme des achats dont la limite est supérieure ou égale à p."
+    },
+    {
+     "recto": "Un achat dont la limite est inférieure au cours coté ?",
+     "verso": "N'est pas exécuté, même partiellement."
+    },
+    {
+     "recto": "Fixing ou continu : quelle différence ?",
+     "verso": "Fixing : tous les ordres accumulés, cours unique maximisant le volume ; continu : confrontation immédiate, cours du carnet."
+    },
+    {
+     "recto": "Coefficient de réduction minimal ?",
+     "verso": "25 %."
+    },
+    {
+     "recto": "Si deux prix donnent le même volume maximal ?",
+     "verso": "On minimise le solde non exécuté, puis on regarde le sens du solde, puis le prix de référence."
+    },
+    {
+     "recto": "Quelles règles d'exécution ?",
+     "verso": "Limite meilleure : exécution totale ; moins bonne : aucune ; égale : partielle possible."
+    },
+    {
+     "recto": "Quel cours retient le fixing ?",
+     "verso": "Celui qui maximise le volume échangé."
+    },
+    {
+     "recto": "Quel ordre est prioritaire ?",
+     "verso": "L'ordre au marché."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Le cours du fixing maximise...",
+     "choix": [
+      "Le prix",
+      "Le nombre d'ordres",
+      "Le courtage",
+      "Le volume échangé"
+     ],
+     "bonne": 3,
+     "explication": "Art. 129 RG BVMAC."
+    },
+    {
+     "q": "La demande cumulée à 10 000 comprend...",
+     "choix": [
+      "Les achats dont la limite ≤ 10 000",
+      "Toutes les ventes",
+      "Les ordres au marché seulement",
+      "Les achats dont la limite ≥ 10 000"
+     ],
+     "bonne": 3,
+     "explication": "Un acheteur à 10 200 accepte 10 000."
+    },
+    {
+     "q": "Un carnet contient : achats 200 à 500, 300 à 480, 100 à 460 ; ventes 150 à 460, 250 à 480, 400 à 500. Le cours du fixing est de :",
+     "choix": [
+      "460",
+      "500",
+      "480",
+      "490"
+     ],
+     "bonne": 2,
+     "explication": "D(480) = 500, S(480) = 400, volume 400 : le maximum (460 : 150; 500 : 200)."
+    },
+    {
+     "q": "Dans le même carnet, le volume échangé au cours du fixing est de :",
+     "choix": [
+      "150",
+      "200",
+      "500",
+      "400"
+     ],
+     "bonne": 3,
+     "explication": "min(500; 400) = 400."
+    },
+    {
+     "q": "L'offre cumulée à un prix p comprend :",
+     "choix": [
+      "les ventes dont la limite ≤ p",
+      "les ventes dont la limite ≥ p",
+      "tous les achats",
+      "les ordres au marché"
+     ],
+     "bonne": 0,
+     "explication": "Un vendeur accepte tout prix supérieur à sa limite."
+    },
+    {
+     "q": "Le volume échangé à un prix p est :",
+     "choix": [
+      "le maximum",
+      "la somme",
+      "la différence",
+      "le minimum entre demande et offre cumulées"
+     ],
+     "bonne": 3,
+     "explication": "V(p) = min(D, S)."
+    },
+    {
+     "q": "Si deux prix donnent le même volume maximal, on minimise :",
+     "choix": [
+      "le prix",
+      "le nombre d'ordres",
+      "les frais",
+      "le solde non exécuté"
+     ],
+     "bonne": 3,
+     "explication": "Puis le sens du solde, puis le prix de référence."
+    },
+    {
+     "q": "La priorité entre ordres limités est d'abord :",
+     "choix": [
+      "le temps, puis le prix",
+      "le prix, puis le temps",
+      "la taille",
+      "l'ancienneté du client"
+     ],
+     "bonne": 1,
+     "explication": "Premier arrivé, premier servi à même limite."
+    },
+    {
+     "q": "Un achat à 10 200 alors que le cours coté est 10 000 :",
+     "choix": [
+      "est exécuté partiellement",
+      "n'est pas exécuté",
+      "est annulé",
+      "est exécuté en totalité"
+     ],
+     "bonne": 3,
+     "explication": "Limite meilleure que le cours."
+    },
+    {
+     "q": "Une vente à 9 800 alors que le cours coté est 10 000 :",
+     "choix": [
+      "n'est pas exécutée",
+      "est exécutée en totalité",
+      "est exécutée partiellement",
+      "est suspendue"
+     ],
+     "bonne": 1,
+     "explication": "Limite meilleure pour le marché."
+    },
+    {
+     "q": "Un ordre dont la limite est égale au cours coté :",
+     "choix": [
+      "est toujours exécuté",
+      "n'est jamais exécuté",
+      "est annulé",
+      "peut être exécuté partiellement"
+     ],
+     "bonne": 3,
+     "explication": "Selon le déséquilibre."
+    },
+    {
+     "q": "Le prix offert ou demandé correspond à un déséquilibre :",
+     "choix": [
+      "inférieur à 2",
+      "égal à 1",
+      "égal à 3",
+      "supérieur à 4, sans transaction"
+     ],
+     "bonne": 3,
+     "explication": ""
+    }
+   ],
+   "trous": [
+    "Le cours avec réduction suppose un coefficient d'au moins {{25}} %.",
+    "Le cours du fixing est celui qui {{maximise}} le volume échangé, avec V = min(D, S).",
+    "La demande cumulée à un prix p comprend les achats dont la limite est {{supérieure ou égale}} à p."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g24-depositaire-central-chambre",
+   "titre": "À connaître · 24 · Dépositaire Central et chambre de compensation (art. 578 à 652)",
+   "resume": {
+    "court": "Le Dépositaire Central (DC) : agrément en 60 jours ouvrés, fonction notariale, système de règlement-livraison avec la BEAC pour les espèces ; aucun découvert de comptes titres et aucune création de titres ; interdiction des ventes à découvert ; reporting quotidien à la COSUMAF ; conservation des données 5 ans ; rapport annuel au 31 mars. Chambre de compensation : agrément en 60 jours ouvrés, règles de fonctionnement, fonds de garantie, rapport de contrôle interne au 31 mars, conservation des données 10 ans.",
+    "moyen": "DC : dossier d'agrément, 60 jours ouvrés, retrait (12 mois sans usage, 6 mois sans activité…), règles de fonctionnement approuvées (modification : 1 mois). Fonction notariale (enregistrement dans un compte spécifique, certificats pour l'étranger). Intégrité des émissions : pas de découvert ni de création de titres ; rapprochement comptable. Règlement-livraison : titres livrés et espèces réglées en même temps dans les livres de la BEAC (banque de règlement) ; valeurs APE ou placement privé enregistrées chez le DC ; dispositif d'enregistrement électronique partagé possible ; transfert de propriété par inscription en compte ; ventes à découvert interdites. Reporting quotidien (soldes, livraisons, suspens). Gouvernance : responsable du contrôle interne = responsable de la conformité, rapport annuel au 31 mars. Risques : actifs financiers à la banque centrale, capital proportionnel au risque avec capacité de liquidation ordonnée sur 6 mois, plan de levée de capitaux ; défaut de livraison/règlement : Fonds de Garantie du Marché. Données : 5 ans. Accès : convention, critères non discriminatoires, admission d'un participant sauf opposition de la COSUMAF dans 45 jours ; accès transparent entre DC, chambre et BVMAC. LBC/FT : responsable membre de la direction. Publications : rapport semestriel et rapport annuel au 31 mars. Chambre de compensation : agrément (60 jours ouvrés), règles (garantie, adhésion, défaillance, fonds commun de défaut), adhésion (ressources financières minimales, informations annuelles), convention d'adhésion, contrôle quotidien, habilitation du responsable de la surveillance, du contrôle des compensateurs et du contrôle interne, rapport annuel au 31 mars, reporting quotidien, conservation des données 10 ans.",
+    "long": "DC : dossier d'agrément, 60 jours ouvrés, retrait (12 mois sans usage, 6 mois sans activité…), règles de fonctionnement approuvées (modification : 1 mois). Fonction notariale (enregistrement dans un compte spécifique, certificats pour l'étranger). Intégrité des émissions : pas de découvert ni de création de titres ; rapprochement comptable. Règlement-livraison : titres livrés et espèces réglées en même temps dans les livres de la BEAC (banque de règlement) ; valeurs APE ou placement privé enregistrées chez le DC ; dispositif d'enregistrement électronique partagé possible ; transfert de propriété par inscription en compte ; ventes à découvert interdites. Reporting quotidien (soldes, livraisons, suspens). Gouvernance : responsable du contrôle interne = responsable de la conformité, rapport annuel au 31 mars. Risques : actifs financiers à la banque centrale, capital proportionnel au risque avec capacité de liquidation ordonnée sur 6 mois, plan de levée de capitaux ; défaut de livraison/règlement : Fonds de Garantie du Marché. Données : 5 ans. Accès : convention, critères non discriminatoires, admission d'un participant sauf opposition de la COSUMAF dans 45 jours ; accès transparent entre DC, chambre et BVMAC. LBC/FT : responsable membre de la direction. Publications : rapport semestriel et rapport annuel au 31 mars. Chambre de compensation : agrément (60 jours ouvrés), règles (garantie, adhésion, défaillance, fonds commun de défaut), adhésion (ressources financières minimales, informations annuelles), convention d'adhésion, contrôle quotidien, habilitation du responsable de la surveillance, du contrôle des compensateurs et du contrôle interne, rapport annuel au 31 mars, reporting quotidien, conservation des données 10 ans."
+   },
+   "fiches": [
+    {
+     "titre": "DC : agrément et règles de fonctionnement (art. 578 à 586)",
+     "contenu": "- Dossier d'agrément adressé à la COSUMAF par **lettre recommandée avec AR** ; **récépissé** ; **programme d'activités** (organisation, règles de fonctionnement, **système(s) de règlement-livraison**)\n- **60 jours ouvrés** après dossier complet\n- **Frais d'agrément**, **redevance** et **commission de rétrocession** annuelles\n- **Règles de fonctionnement** conformes au RG : organisation, actionnariat, conditions d'accès/ouverture de comptes, catégories d'instruments, **prévention des défauts de règlement**, **rachat d'office**, moment d'introduction/**irrévocabilité** d'une instruction, **date de dénouement**, défaillance d'un participant, circulation des **titres nominatifs**, identification des porteurs, litiges ; la COSUMAF se prononce sur les modifications **dans le mois**\n- Obligations : intégrité, égalité de traitement des intervenants de la CEMAC, bon fonctionnement, stabilité financière, fiabilité des systèmes, transparence, sécurité, prévention des pratiques illicites, protection des investisseurs\n- **Retrait** : 12 mois sans usage, renonciation, 6 mois sans activité, fausses déclarations, conditions non respectées, infractions graves ; peut être **limité à un service/activité/instrument** ; procédure ordonnée de **transfert des actifs** vers un autre DC"
+    },
+    {
+     "titre": "DC : fonction notariale et intégrité (art. 587 à 590)",
+     "contenu": "- **Fonction notariale** : enregistre dans un **compte spécifique** les titres admis ; permet l'exercice des droits attachés (si l'agrément comprend le service d'opérations sur titres) ; transmet les informations nominatives entre participants et émetteurs ; **émet des certificats représentatifs d'instruments de droit CEMAC pour institutions hors zone CEMAC**\n- **Découverts ou soldes débiteurs de comptes de titres et création de titres : interdits** dans un système de règlement de titres exploité par le DC\n- **Rapprochement comptable** : nombre de titres de l'émission = somme des titres sur les comptes des participants (et des titulaires)\n- Admission d'instruments dont il ne tient pas le compte d'émission : **autorisation préalable** de la COSUMAF"
+    },
+    {
+     "titre": "DC : règlement-livraison, propriété, ventes à découvert (art. 591 à 597)",
+     "contenu": "- **Livraison des titres** + **règlement concomitant des espèces dans les livres de la BEAC** (banque de règlement du Marché Financier Régional)\n- Instruments issus d'un **APE ou d'un placement privé** : enregistrés chez le DC\n- Titres inscrits possiblement dans un **dispositif d'enregistrement électronique partagé** (blockchain, art. 593)\n- Acheteur et vendeur **définitivement engagés** dès l'exécution ; **transfert de propriété** par l'**inscription** en compte-titres de l'acquéreur chez son teneur de compte conservateur, à la date de dénouement ; sans dénouement dans le délai, l'enregistrement est **annulé** (au prorata en cas de dénouement partiel) ; **aucun créancier** du client défaillant ne peut opposer de droit\n- BVMAC : l'acheteur est propriétaire des **droits financiers détachés** dès le jour de l'exécution (dérogation possible pour les titres de créance)\n- **Ventes à découvert interdites** : pas d'ordre de vente sans les titres sur son compte ou sans assurances raisonnables de livraison au plus tard à la date prévue ; provision en espèces (achat) ou en titres (vente) exigible\n- **Reporting quotidien** à la COSUMAF : soldes des comptes de titres, livraisons et règlements, **suspens**"
+    },
+    {
+     "titre": "DC : gouvernance, risques, données (art. 598 à 614)",
+     "contenu": "- Gouvernance solide, structure claire, politiques de rémunération, contrôle interne ; dispositif **public**\n- **Responsable du contrôle interne = responsable de la conformité**, indépendant ; **rapport annuel** transmis aux organes exécutifs et à la COSUMAF **au plus tard le 31 mars** de l'année suivante\n- Prévention des **conflits d'intérêts** ; règles de traitement des **plaintes** ; égalité d'accès à l'information\n- **Risques** : cadre global (juridique, économique, opérationnel, fraude, négligence) ; outils informatiques sûrs\n- **Défaut de livraison ou de règlement** : procédures, notification à l'intermédiaire défaillant, sanctions et pénalités, **intervention du Fonds de Garantie du Marché**\n- **Actifs financiers détenus auprès de la banque centrale** ; ressources placées en espèces ou instruments très liquides à risque minimal\n- **Capital proportionnel au risque**, suffisant pour une **liquidation ou restructuration ordonnée sur au moins 6 mois** ; **plan** de levée de capitaux et de liquidation ordonnée, approuvé par l'organe de gestion et soumis à l'approbation préalable de la COSUMAF à chaque mise à jour\n- **Conservation des données : au moins 5 ans**"
+    },
+    {
+     "titre": "DC : accès, LBC/FT, publications (art. 615 à 624)",
+     "contenu": "- **Convention** avec les personnes ayant accès : réponse aux demandes, respect des règles, régularisation\n- Critères d'accès **transparents, objectifs et non discriminatoires** ; admission d'un participant : vérification de l'agrément et du dispositif LBC/FT ; **admission possible en l'absence d'opposition de la COSUMAF dans les 45 jours**\n- **Prix et frais publics**, par service\n- **Accès transparent et non discriminatoire** entre DC, chambre de compensation et BVMAC (rémunération sur prix de revient majoré)\n- **LBC/FT** : organisation, **responsable membre de la direction** (délégation possible), profil des mouvements, formation\n- **Publications** : rapport **semestriel** (états provisoires) et rapport **annuel** (états certifiés, comptes prévisionnels, rapport du CAC) au plus tard le **31 mars**\n- Le **CAC** informe sans délai la COSUMAF de tout acte affectant significativement la situation financière ou constituant une violation"
+    },
+    {
+     "titre": "Chambre de compensation : agrément et règles (art. 625 à 631)",
+     "contenu": "- Dossier d'agrément avec **règles de fonctionnement** et programme d'activités ; **60 jours ouvrés**\n- Retrait : mêmes cas que le DC (12 mois / 6 mois, fausses déclarations…), limitable ; procédure de **transfert des actifs des membres** à une autre chambre\n- **Règles de fonctionnement** : **nature et étendue de la garantie** accordée aux adhérents compensateurs, règles d'adhésion, **habilitation du personnel**, enregistrement des transactions, dépôts de garantie, **défaillance**, prix pour calculer les expositions, **ségrégation des comptes** (compte propre / clients), identité des donneurs d'ordre, **fonds commun de défaut/de garantie** ; la COSUMAF statue **dans le mois** sur les modifications\n- Règlement général disponible au siège"
+    },
+    {
+     "titre": "Chambre de compensation : adhésion et obligations (art. 632 à 652)",
+     "contenu": "- **Adhésion** : catégories de personnes admises, **ressources financières minimales**, capacité opérationnelle ; communication **au moins annuelle** des comptes et garanties ; information immédiate en cas de baisse sous le minimum\n- **Contrôle quotidien** des adhérents ; information immédiate de la COSUMAF de tout manquement\n- **Convention d'adhésion** : respect des règles, contrôles sur pièces et sur place, régularisation\n- Un adhérent peut **confier la compensation** à un autre adhérent ou à une personne qu'il contrôle, **sans être exonéré** de sa responsabilité\n- **Gouvernance** comme le DC : **responsable du contrôle interne = conformité**, rapport au **31 mars**\n- **Habilitation** requise : responsable de la **surveillance de la compensation**, responsable du **contrôle des adhérents compensateurs**, responsable du **contrôle interne et de la conformité**\n- **Rapport d'activité annuel** transmis à la COSUMAF au plus tard le **31 mars**\n- **Reporting quotidien** des transactions compensées et positions ouvertes ; suivi des risques (marchés à terme)\n- **Conservation des enregistrements : au moins 10 ans** (contre 5 ans pour le DC)"
+    }
+   ],
+   "mnemos": [
+    "DC : 5 ans (données) · 45 jours (admission participant) · 6 mois (liquidation ordonnée) · BEAC (espèces). Chambre : 10 ans · fonds commun de défaut. 31 mars : rapports."
+   ],
+   "definitions": [
+    {
+     "terme": "Fonds de Garantie du Marché",
+     "definition": "Mécanisme qui se substitue à l'intermédiaire défaillant en cas de défaut de livraison ou de règlement."
+    },
+    {
+     "terme": "Rachat d'office",
+     "definition": "Procédure du DC pour résoudre un défaut de livraison, à laquelle les participants doivent se soumettre."
+    },
+    {
+     "terme": "Règlement-livraison",
+     "definition": "Dénouement d'une transaction : livraison des titres et règlement concomitant des espèces dans les livres de la BEAC."
+    },
+    {
+     "terme": "Adhérent compensateur",
+     "definition": "Membre de la chambre admis à compenser pour son compte ou celui de clients, avec ressources financières minimales."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Qui accède aux flux de transaction ?",
+     "verso": "Le DC accède à la BVMAC et à la chambre, et inversement, de façon transparente et non discriminatoire."
+    },
+    {
+     "recto": "Quelles obligations de la chambre ?",
+     "verso": "Contrôle quotidien des adhérents, convention d'adhésion, reporting quotidien, rapport d'activité au 31 mars, conservation de 10 ans."
+    },
+    {
+     "recto": "Qu'est-ce qui est interdit au DC ?",
+     "verso": "Les découverts de comptes de titres, la création de titres et les ventes à découvert."
+    },
+    {
+     "recto": "Quelles règles de capital du DC ?",
+     "verso": "Capital proportionnel au risque, suffisant pour une liquidation ordonnée sur au moins 6 mois, avec plan approuvé par la COSUMAF."
+    },
+    {
+     "recto": "Que contient la fonction notariale ?",
+     "verso": "Enregistrement des titres admis dans un compte spécifique, exercice des droits attachés, transmission des informations nominatives, certificats pour institutions hors CEMAC."
+    },
+    {
+     "recto": "Quelles fonctions de la chambre exigent une habilitation ?",
+     "verso": "Responsable de la surveillance de la compensation, du contrôle des adhérents compensateurs, du contrôle interne et de la conformité."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Où le règlement espèces est-il effectué ?",
+     "choix": [
+      "Chez la COSUMAF",
+      "Dans les livres de la BEAC",
+      "Chez la BVMAC",
+      "Chez le teneur de compte"
+     ],
+     "bonne": 1,
+     "explication": "Art. 591."
+    },
+    {
+     "q": "Conservation des données du dépositaire central ?",
+     "choix": [
+      "3 ans",
+      "10 ans",
+      "5 ans",
+      "30 ans"
+     ],
+     "bonne": 2,
+     "explication": "Art. 614."
+    },
+    {
+     "q": "Conservation des données de la chambre de compensation ?",
+     "choix": [
+      "10 ans",
+      "5 ans",
+      "7 ans",
+      "20 ans"
+     ],
+     "bonne": 0,
+     "explication": "Art. 652."
+    },
+    {
+     "q": "Les ventes à découvert sont...",
+     "choix": [
+      "Libres",
+      "Autorisées pour les banques",
+      "Autorisées sur dérivés",
+      "Interdites"
+     ],
+     "bonne": 3,
+     "explication": "Art. 596."
+    },
+    {
+     "q": "Qui comble un défaut de livraison d'un intermédiaire ?",
+     "choix": [
+      "La COSUMAF",
+      "Le Fonds de Garantie du Marché",
+      "Le DC sur ses fonds",
+      "L'émetteur"
+     ],
+     "bonne": 1,
+     "explication": "Art. 611."
+    },
+    {
+     "q": "Transfert de propriété d'un titre ?",
+     "choix": [
+      "À l'inscription en compte de l'acquéreur",
+      "À la négociation sur la plateforme",
+      "À la publication du cours au BOC",
+      "Au paiement par chèque du prix"
+     ],
+     "bonne": 0,
+     "explication": "Art. 594."
+    },
+    {
+     "q": "Le dossier d'agrément du Dépositaire Central est instruit en :",
+     "choix": [
+      "30 jours ouvrés",
+      "60 jours ouvrés après dossier complet",
+      "90 jours",
+      "6 mois"
+     ],
+     "bonne": 1,
+     "explication": "Idem pour la chambre de compensation."
+    },
+    {
+     "q": "La COSUMAF se prononce sur les modifications des règles de fonctionnement du DC dans :",
+     "choix": [
+      "8 jours",
+      "15 jours",
+      "le mois",
+      "60 jours"
+     ],
+     "bonne": 2,
+     "explication": "Idem pour la chambre."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Dépositaire Central ou chambre de compensation ?",
+     "buckets": [
+      "Dépositaire Central",
+      "Chambre de compensation"
+     ],
+     "items": [
+      {
+       "t": "Fonction notariale et règlement-livraison.",
+       "b": 0,
+       "why": "Art. 587 et 591."
+      },
+      {
+       "t": "Fonds commun de défaut ou de garantie.",
+       "b": 1,
+       "why": "Art. 630."
+      },
+      {
+       "t": "Conservation des données pendant 5 ans.",
+       "b": 0,
+       "why": "Art. 614."
+      },
+      {
+       "t": "Conservation des données pendant 10 ans.",
+       "b": 1,
+       "why": "Art. 652."
+      },
+      {
+       "t": "Ventes à découvert interdites.",
+       "b": 0,
+       "why": "Art. 596."
+      },
+      {
+       "t": "Habilitation du responsable de la surveillance des opérations de compensation.",
+       "b": 1,
+       "why": "Art. 649."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le règlement des espèces se fait dans les livres de la {{BEAC}}.",
+    "L'admission d'un participant au Dépositaire Central est possible en l'absence d'opposition de la COSUMAF dans un délai de {{45}} jours."
+   ],
+   "schemas": [
+    {
+     "titre": "DC et chambre : comparer",
+     "type": "compare",
+     "legende": "Deux organismes, deux rôles.",
+     "cols": [
+      {
+       "t": "Dépositaire Central",
+       "s": "titres",
+       "pts": [
+        "Fonction notariale",
+        "Règlement-livraison (espèces à la BEAC)",
+        "Aucun découvert, aucune création de titres",
+        "Ventes à découvert interdites",
+        "Données conservées 5 ans"
+       ]
+      },
+      {
+       "t": "Chambre de compensation",
+       "s": "contrats financiers",
+       "pts": [
+        "Contrepartie centrale",
+        "Dépôts de garantie, marges",
+        "Fonds commun de défaut",
+        "Habilitation de 3 responsables",
+        "Données conservées 10 ans"
+       ]
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "DC et chambre : trois différences",
+     "texte": "Conservation des données : **5 ans** (DC) vs **10 ans** (chambre). Le DC est **garant du montant des émissions** ; la chambre est la **contrepartie centrale**. Règlement des espèces : **BEAC**."
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "t1-inscription-en-compte",
+   "titre": "À connaître · 01 · L'inscription en compte des titres : Règlement n° 25/CEMAC/UMAC (19 décembre 2025) et ancien Règlement 01/14",
+   "resume": {
+    "court": "Le Règlement 25/CEMAC/UMAC du 19 décembre 2025 abroge le Règlement 01/14 du 25 avril 2014 : toutes les valeurs mobilières et titres financiers émis dans la CEMAC (cotés ou non) sont obligatoirement inscrits en compte ; la propriété résulte de l'inscription ; transmission par virement de compte à compte ; dématérialisation totale. Transition de 36 mois (contre 24 mois en 2014) ; au bout de 3 ans, vente à la Bourse des droits non inscrits, produit consigné par le DC, 30 ans pour réclamer. Souches des titres au porteur conservées 20 ans.",
+    "moyen": "Objet : substituer aux certificats physiques l'inscription en compte électronique au nom des propriétaires, chez l'émetteur ou chez un teneur de compte agréé. Champ : toutes les valeurs mobilières et titres financiers (valeurs mobilières, effets publics de titrisation, TCN supervisés par la BEAC, sukuks) émis dans la CEMAC, admis ou non à la BVMAC (l'ancien règlement 2014 ne visait que les titres émis par APE). Dispositif d'enregistrement électronique partagé (type blockchain) = inscription en compte ; attestation d'inscription délivrée par le DC à l'émetteur. Compte-titre ouvert au nom d'un ou plusieurs titulaires, ou d'un OPC, ou d'un intermédiaire inscrit agissant pour compte de tiers (qui doit déclarer sa qualité). Transmission par virement de compte à compte ; propriété résultant de l'inscription (opposable à tous) ; titres nominatifs purs (registres de l'émetteur) et administrés (compte d'administration chez un intermédiaire, mandat notifié à l'émetteur) ; titres au porteur uniquement chez un intermédiaire agréé. Teneurs de comptes : émetteurs, intermédiaires agréés, BEAC, Trésors publics, chambre de compensation, organismes publics habilités ; ils ouvrent des comptes courants chez le DC (adhérents). Le DC est garant du montant de l'émission : le solde créditeur de ses comptes courants = total des titres inscrits chez les teneurs. Faillite du teneur de compte : le syndic informe le DC et la COSUMAF, qui désigne un autre teneur. Opposition sur titres perdus ou volés sans effet après dépôt au DC. Attestation d'inscription délivrée par le teneur au titulaire. Teneur seul responsable de ses livres, assurance RCP auprès d'une compagnie agréée CIMA. Souches des titres au porteur conservées 20 ans. Transitoire : information des titulaires, 36 mois pour inscrire en compte (émetteurs : titres nominatifs ; intermédiaires : comptes d'administration et titres au porteur), 3 ans avant la perte des droits des titres non déposés, puis vente des droits à la Bourse dans un délai de 24 mois, produit consigné par le DC, 30 ans pour réclamer, titres anciens nuls ; sanction pécuniaire d'un émetteur sans attestation d'inscription au bout de 36 mois. Ancien règlement 01/14 : mêmes principes, délais de 24 mois / 13e mois / 3 ans, champ limité aux émissions par APE.",
+    "long": "Objet : substituer aux certificats physiques l'inscription en compte électronique au nom des propriétaires, chez l'émetteur ou chez un teneur de compte agréé. Champ : toutes les valeurs mobilières et titres financiers (valeurs mobilières, effets publics de titrisation, TCN supervisés par la BEAC, sukuks) émis dans la CEMAC, admis ou non à la BVMAC (l'ancien règlement 2014 ne visait que les titres émis par APE). Dispositif d'enregistrement électronique partagé (type blockchain) = inscription en compte ; attestation d'inscription délivrée par le DC à l'émetteur. Compte-titre ouvert au nom d'un ou plusieurs titulaires, ou d'un OPC, ou d'un intermédiaire inscrit agissant pour compte de tiers (qui doit déclarer sa qualité). Transmission par virement de compte à compte ; propriété résultant de l'inscription (opposable à tous) ; titres nominatifs purs (registres de l'émetteur) et administrés (compte d'administration chez un intermédiaire, mandat notifié à l'émetteur) ; titres au porteur uniquement chez un intermédiaire agréé. Teneurs de comptes : émetteurs, intermédiaires agréés, BEAC, Trésors publics, chambre de compensation, organismes publics habilités ; ils ouvrent des comptes courants chez le DC (adhérents). Le DC est garant du montant de l'émission : le solde créditeur de ses comptes courants = total des titres inscrits chez les teneurs. Faillite du teneur de compte : le syndic informe le DC et la COSUMAF, qui désigne un autre teneur. Opposition sur titres perdus ou volés sans effet après dépôt au DC. Attestation d'inscription délivrée par le teneur au titulaire. Teneur seul responsable de ses livres, assurance RCP auprès d'une compagnie agréée CIMA. Souches des titres au porteur conservées 20 ans. Transitoire : information des titulaires, 36 mois pour inscrire en compte (émetteurs : titres nominatifs ; intermédiaires : comptes d'administration et titres au porteur), 3 ans avant la perte des droits des titres non déposés, puis vente des droits à la Bourse dans un délai de 24 mois, produit consigné par le DC, 30 ans pour réclamer, titres anciens nuls ; sanction pécuniaire d'un émetteur sans attestation d'inscription au bout de 36 mois. Ancien règlement 01/14 : mêmes principes, délais de 24 mois / 13e mois / 3 ans, champ limité aux émissions par APE."
+   },
+   "fiches": [
+    {
+     "titre": "Objet, champ et définitions (Règlement 25/CEMAC, art. 1 à 8)",
+     "contenu": "- **Inscription en compte** : substitution des certificats physiques par une **inscription électronique au nom du propriétaire**, chez l'émetteur ou chez un **teneur de compte agréé par la COSUMAF**\n- **Champ** : **toutes** les valeurs mobilières et autres titres financiers **émis sur le territoire des États de la CEMAC**, **qu'ils soient ou non admis à la BVMAC** (le Règlement 01/14 de 2014 ne visait que les titres émis par **APE**)\n- **Titres financiers** : valeurs mobilières · **effets publics négociables issus de la titrisation de la dette intérieure** · **TCN supervisés par la BEAC** · **sukuks**\n- **Dépositaire Central** : investi à **titre exclusif** d'une mission de service public : enregistrement initial, tenue centralisée de comptes, règlement, circulation par virement, gestion de l'inscription en compte, **dématérialisation**\n- Un **dispositif d'enregistrement électronique partagé** (blockchain ou équivalent) permettant d'identifier le propriétaire **tient lieu d'inscription en compte** ; le DC délivre une **attestation d'inscription en compte** à l'émetteur\n- Les titres inscrits en compte **ne peuvent plus être représentés sur papier**"
+    },
+    {
+     "titre": "Le compte-titre, la propriété et la transmission (art. 6 à 8)",
+     "contenu": "- **Représentation obligatoire** par une inscription en compte au nom du propriétaire\n- **Compte-titre** : ouvert au nom d'un ou de plusieurs titulaires ; **par dérogation** au nom d'un **OPC** (la désignation de l'OPC remplace celle des copropriétaires), d'un **intermédiaire inscrit** agissant pour compte de tiers, ou d'un intermédiaire agissant pour des porteurs d'OPC **non domiciliés dans la CEMAC** ; l'intermédiaire doit **déclarer sa qualité** à l'ouverture\n- **Transmission** : par **virement de compte à compte**\n- **Propriété** : résulte de l'**inscription au compte du titulaire** chez le teneur de compte (nominatifs administrés : registres de l'intermédiaire) ; elle est **opposable à tous**"
+    },
+    {
+     "titre": "Titres nominatifs, au porteur, teneurs de comptes et DC (art. 9 à 19)",
+     "contenu": "- **Nominatifs purs** : comptes ouverts par l'**émetteur** au nom des titulaires ; **nominatifs administrés** : **compte d'administration** chez un intermédiaire agréé, sur **mandat** du titulaire dont **copie est notifiée à l'émetteur** ; l'intermédiaire veille à la cohérence avec les livres de l'émetteur\n- **Au porteur** : exclusivement chez un **intermédiaire agréé par la COSUMAF**\n- **Teneurs de comptes** : émetteurs, intermédiaires agréés, **BEAC**, **Trésors publics**, **chambre de compensation**, organismes publics habilités ; ils ouvrent des **comptes courants chez le DC** (devenant adhérents)\n- **Le DC est garant du montant de l'émission** ; **solde créditeur de ses comptes courants = total des titres inscrits chez les teneurs** ; il contrôle les équilibres et la tenue des comptes\n- **Faillite du teneur de compte** : le syndic informe **sans délai le DC et la COSUMAF**, qui **désigne un autre teneur** ; les titulaires peuvent ensuite transférer ailleurs\n- **Opposition sur titres perdus ou volés** : **sans effet après le dépôt au DC**\n- **Attestation** délivrée au titulaire (nature et nombre de titres) ; le teneur est **seul responsable de ses livres** et souscrit une **assurance RCP auprès d'une compagnie agréée par la CIMA**\n- Les émetteurs conservent **20 ans** les **souches des titres au porteur**"
+    },
+    {
+     "titre": "Dispositions transitoires et sanctions (art. 20 à 27)",
+     "contenu": "- Dès l'entrée en vigueur : émetteurs et intermédiaires **informent les titulaires** par lettre recommandée ou remise contre décharge\n- **Délai de 36 mois** pour : émetteurs → inscrire en compte les titres nominatifs de leurs registres et **arrêter ces registres** ; intermédiaires → inscrire en compte d'administration les certificats nominatifs et inscrire en compte les titres au porteur déposés\n- Titres au porteur non déposés : remise à un intermédiaire (ou à l'émetteur en forme nominative) **jusqu'à la veille de la vente**\n- **3 ans** après l'entrée en vigueur : les titulaires ne peuvent plus **exercer leurs droits** sans avoir remis leurs titres ; puis l'émetteur **vend à la Bourse régionale, dans les 24 mois, les droits des titres non inscrits** (hors opposition) ; **produit net consigné par le DC** dans une institution financière de la CEMAC ; **30 ans** pour le réclamer, puis dévolu selon la loi de l'État de rattachement ; titres anciens **réputés nuls**\n- **Sanction pécuniaire** : émetteur sans attestation d'inscription en compte **après 36 mois**\n- **Convergence avec l'Acte uniforme OHADA du 30 janvier 2014** (droit des sociétés)\n- **Abroge** le Règlement **01/14/CEMAC-UMAC/CM du 25 avril 2014** ; adopté à **Bata** le **19 décembre 2025** (Collège COSUMAF le 21 novembre 2025, avis conforme du CA de la BEAC le 18 décembre) ; entre en vigueur le **1er jour du mois suivant** son adoption"
+    },
+    {
+     "titre": "Ancien Règlement 01/14 (25 avril 2014) : comparaison",
+     "contenu": "| Point | **01/14 (2014)** | **25/CEMAC (2025)** |\n|---|---|---|\n| Champ | titres émis par **APE** | **tous** titres financiers émis dans la CEMAC |\n| Délai d'inscription | **24 mois** | **36 mois** |\n| Perte d'exercice des droits | à partir du **13e mois** | après **3 ans** |\n| Vente des droits non inscrits | **3 ans** après, en **24 mois** | **3 ans** après, en **24 mois** |\n| Désignation du nouveau teneur après faillite | le **DC** désigne | la **COSUMAF** désigne |\n| Réclamation du produit | prescription trentenaire / droit commun | **30 ans** à compter de la consignation |\n| Blockchain | non prévue | **dispositif d'enregistrement électronique partagé** |\n| Teneurs assimilés | BEAC, Trésors publics | + **chambre de compensation** |"
+    }
+   ],
+   "mnemos": [
+    "25/CEMAC : 19 déc. 2025 · 36 mois · 3 ans · 24 mois (vente) · 30 ans · 20 ans (souches). 01/14 : 24 mois. DC garant = soldes égaux."
+   ],
+   "definitions": [
+    {
+     "terme": "Dispositif d'enregistrement électronique partagé",
+     "definition": "Registre distribué (blockchain ou équivalent) valant inscription en compte s'il identifie le propriétaire."
+    },
+    {
+     "terme": "Adhérent",
+     "definition": "Établissement disposant d'un compte courant chez le Dépositaire Central."
+    },
+    {
+     "terme": "Compte d'administration",
+     "definition": "Compte ouvert chez un intermédiaire pour des titres nominatifs administrés, sur mandat du titulaire."
+    },
+    {
+     "terme": "Attestation d'inscription en compte",
+     "definition": "Document délivré par le DC à l'émetteur, et par le teneur au titulaire, certifiant les titres inscrits."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Durée de conservation des souches des titres au porteur ?",
+     "verso": "20 ans."
+    },
+    {
+     "recto": "Quel règlement institue le régime général d'inscription en compte (2025) ? Qu'abroge-t-il ?",
+     "verso": "Le Règlement 25/CEMAC/UMAC du 19 décembre 2025 ; il abroge le Règlement 01/14 du 25 avril 2014."
+    },
+    {
+     "recto": "Champ du règlement de 2025 comparé à celui de 2014 ?",
+     "verso": "Tous les titres financiers émis dans la CEMAC (cotés ou non), au lieu des seuls titres émis par APE."
+    },
+    {
+     "recto": "Quelles dispositions transitoires ?",
+     "verso": "36 mois pour inscrire en compte, droits suspendus après 3 ans, vente des droits sous 24 mois, produit consigné 30 ans, anciens titres nuls."
+    },
+    {
+     "recto": "Délai de mise en conformité (2025) ?",
+     "verso": "36 mois à compter de l'entrée en vigueur (24 mois dans l'ancien règlement)."
+    },
+    {
+     "recto": "Quels teneurs de comptes sont assimilés ?",
+     "verso": "BEAC, Trésors publics, chambre de compensation, organismes publics habilités."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Le Règlement de 2025 abroge...",
+     "choix": [
+      "Le 06/03",
+      "Le 02/18",
+      "Le 01/14 (25 avril 2014)",
+      "Le 01/22"
+     ],
+     "bonne": 2,
+     "explication": "Art. 30."
+    },
+    {
+     "q": "Délai pour inscrire les titres en compte :",
+     "choix": [
+      "12 mois",
+      "24 mois",
+      "5 ans",
+      "36 mois"
+     ],
+     "bonne": 3,
+     "explication": "Art. 21."
+    },
+    {
+     "q": "La propriété d'un titre résulte...",
+     "choix": [
+      "De la remise du certificat papier",
+      "De la négociation sur la plateforme",
+      "De l'inscription au compte du titulaire",
+      "Du paiement du prix à la SDB"
+     ],
+     "bonne": 2,
+     "explication": "Art. 8."
+    },
+    {
+     "q": "Conservation des souches des titres au porteur :",
+     "choix": [
+      "20 ans",
+      "5 ans",
+      "10 ans",
+      "30 ans"
+     ],
+     "bonne": 0,
+     "explication": "Art. 19."
+    },
+    {
+     "q": "Qui désigne le nouveau teneur après faillite du teneur ?",
+     "choix": [
+      "Le syndic",
+      "La COSUMAF",
+      "L'émetteur",
+      "La BVMAC"
+     ],
+     "bonne": 1,
+     "explication": "Art. 15."
+    },
+    {
+     "q": "Le produit de la vente des droits est consigné par...",
+     "choix": [
+      "La BVMAC",
+      "Le Dépositaire Central",
+      "L'émetteur",
+      "La COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": "Art. 26."
+    },
+    {
+     "q": "Le Règlement 25/CEMAC/UMAC du 19 décembre 2025 a été adopté à :",
+     "choix": [
+      "Libreville",
+      "Bata",
+      "Douala",
+      "N'Djamena"
+     ],
+     "bonne": 1,
+     "explication": "Collège COSUMAF le 21 novembre 2025, avis conforme du CA de la BEAC le 18 décembre."
+    },
+    {
+     "q": "L'inscription en compte substitue aux certificats physiques :",
+     "choix": [
+      "un registre papier tenu par l'émetteur",
+      "une inscription électronique au nom du propriétaire",
+      "une attestation bancaire de détention",
+      "un contrat conclu avec le teneur de compte"
+     ],
+     "bonne": 1,
+     "explication": "Chez l'émetteur ou chez un teneur de compte agréé par la COSUMAF."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Règlement 01/14 ou Règlement 25/CEMAC ?",
+     "buckets": [
+      "01/14 (2014)",
+      "25/CEMAC (2025)"
+     ],
+     "items": [
+      {
+       "t": "Délai de mise en conformité de 24 mois.",
+       "b": 0,
+       "why": "Art. 19 du 01/14."
+      },
+      {
+       "t": "Délai de mise en conformité de 36 mois.",
+       "b": 1,
+       "why": "Art. 21 du 25/CEMAC."
+      },
+      {
+       "t": "Champ limité aux titres émis par appel public à l'épargne.",
+       "b": 0,
+       "why": "Art. 2 du 01/14."
+      },
+      {
+       "t": "S'applique à tous les titres émis dans la CEMAC, cotés ou non.",
+       "b": 1,
+       "why": "Art. 3 du 25/CEMAC."
+      },
+      {
+       "t": "Le Dépositaire Central désigne le nouveau teneur après faillite.",
+       "b": 0,
+       "why": "Art. 13 du 01/14."
+      },
+      {
+       "t": "La COSUMAF désigne le nouveau teneur après faillite.",
+       "b": 1,
+       "why": "Art. 15 du 25/CEMAC."
+      },
+      {
+       "t": "Un dispositif d'enregistrement électronique partagé vaut inscription en compte.",
+       "b": 1,
+       "why": "Art. 4 du 25/CEMAC."
+      }
+     ]
+    },
+    {
+     "titre": "Règlement 01/14 (2014) ou Règlement 25/CEMAC (2025) ?",
+     "buckets": [
+      "01/14 (2014)",
+      "25/CEMAC (2025)"
+     ],
+     "items": [
+      {
+       "t": "Délai de mise en conformité de 24 mois.",
+       "b": 0,
+       "why": "36 mois en 2025."
+      },
+      {
+       "t": "Champ étendu à tous les titres financiers émis dans la CEMAC.",
+       "b": 1,
+       "why": "2025."
+      },
+      {
+       "t": "Le DC désigne le nouveau teneur après faillite.",
+       "b": 0,
+       "why": "En 2025 : la COSUMAF."
+      },
+      {
+       "t": "Dispositif d'enregistrement électronique partagé reconnu.",
+       "b": 1,
+       "why": "Nouveauté 2025."
+      },
+      {
+       "t": "Perte d'exercice des droits à partir du 13e mois.",
+       "b": 0,
+       "why": "2014."
+      },
+      {
+       "t": "La chambre de compensation figure parmi les teneurs de comptes.",
+       "b": 1,
+       "why": "2025."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Les souches des titres au porteur sont conservées {{20}} ans.",
+    "Le Dépositaire Central est garant du montant de l'{{émission}}."
+   ],
+   "schemas": [
+    {
+     "titre": "Les trois formes de titres inscrits en compte",
+     "type": "compare",
+     "legende": "Qui tient le compte ?",
+     "cols": [
+      {
+       "t": "Nominatif pur",
+       "s": "chez l'émetteur",
+       "pts": [
+        "Comptes ouverts par l'émetteur",
+        "Au nom du titulaire",
+        "Compte courant de l'émetteur chez le DC"
+       ]
+      },
+      {
+       "t": "Nominatif administré",
+       "s": "chez un intermédiaire",
+       "pts": [
+        "Compte d'administration, sur mandat du titulaire",
+        "Mandat notifié à l'émetteur",
+        "Cohérence avec les livres de l'émetteur"
+       ]
+      },
+      {
+       "t": "Au porteur",
+       "s": "chez un intermédiaire agréé",
+       "pts": [
+        "Exclusivement chez un intermédiaire agréé COSUMAF",
+        "Compte courant de l'intermédiaire chez le DC",
+        "Souches conservées 20 ans par l'émetteur"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "La transition de 2025 en un coup d'œil",
+     "type": "timeline",
+     "legende": "Du règlement à la perte des droits.",
+     "events": [
+      {
+       "d": "19 déc. 2025",
+       "t": "Adoption",
+       "s": "Règlement 25/CEMAC à Bata ; abroge le 01/14."
+      },
+      {
+       "d": "Dès l'entrée en vigueur",
+       "t": "Information",
+       "s": "Lettre recommandée aux titulaires de titres nominatifs ou au porteur."
+      },
+      {
+       "d": "+36 mois",
+       "t": "Inscription en compte",
+       "s": "Émetteurs et intermédiaires inscrivent tous les titres ; sanction de l'émetteur sans attestation."
+      },
+      {
+       "d": "+3 ans",
+       "t": "Perte de l'exercice des droits",
+       "s": "Les droits ne s'exercent qu'après remise des titres."
+      },
+      {
+       "d": "+24 mois",
+       "t": "Vente des droits",
+       "s": "À la Bourse régionale ; produit consigné par le DC ; 30 ans pour le réclamer."
+      }
+     ]
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "t3-changes-valeurs-mobilieres",
+   "titre": "Pour aller plus loin · 03 · Réglementation des changes (Règlement 02/18) : valeurs mobilières, emprunts, investissements",
+   "resume": {
+    "court": "Les opérations financières et en capital avec l'extérieur sont libres sous réserve du règlement. Valeurs mobilières étrangères : déclaration préalable à la BEAC et à la COSUMAF sous 50 M FCFA ; autorisation préalable de la BEAC au-delà. Emprunts auprès de non-résidents : déclaration 30 jours avant. Prêts à des non-résidents : autorisation préalable de la BEAC. Investissements directs entrants : déclaration 30 jours avant. Acquisition de valeurs CEMAC par des non-résidents : libre ; transfert du produit de cession > 100 M FCFA : déclaration 30 jours avant.",
+    "moyen": "Principe : les opérations financières et en capital entre la CEMAC et l'extérieur sont libres sous réserve du règlement ; les établissements de crédit vérifient l'origine, la nature et la destination des fonds. Cession de valeurs mobilières étrangères et opérations en capital entre résidents : pas d'autorisation. Valeurs mobilières CEMAC : émises dans la CEMAC par une personne morale résidente et libellées en FCFA ; valeurs mobilières étrangères : en devises ou en FCFA par un non-résident. Fonds collectés dans la CEMAC par un non-résident : financer prioritairement les investissements dans la sous-région. Montants < 50 M FCFA : déclaration préalable à la BEAC et au régulateur ; > 50 M : autorisation préalable de la BEAC (sans préjudice de l'avis conforme de la COSUMAF) ; transfert à l'extérieur du produit : autorisation de la BEAC. Emprunts : résidents libres d'emprunter à des non-résidents ; émission de valeurs hors CEMAC = emprunt ; déclaration 30 jours avant (contrat, échéancier, comptes, acte d'autorisation) et justificatifs 30 jours après ; États : déclaration à la BEAC par le Ministère ; établissements de crédit : déclaration au plus tard 30 jours après. Prêts à des non-résidents : autorisation préalable de la BEAC (dossier : contrat, états financiers certifiés sur 3 exercices, échéancier, engagement de rapatriement). Investissements : directs et de portefeuille libres ; IDE entrants : déclaration 30 jours avant ; IDE sortants : autorisation préalable de la BEAC ; portefeuille entrant sous forme de participation : déclaration 30 jours avant ; acquisition de valeurs CEMAC par non-résidents : libre ; transfert du produit de cession de valeurs CEMAC > 100 M FCFA : déclaration 30 jours avant ; portefeuille sortant : autorisation au-delà d'un seuil fixé par la BEAC, déclaration 30 jours avant en deçà ; établissements de crédit : investissement à l'étranger pour compte propre déclaré au plus tard 30 jours après. Couverture du risque de change : durée ≤ celle du contrat sous-jacent ; règlement au plus tard 2 jours après l'échéance ; adossée à des transactions réelles ; position annulée si l'opération sous-jacente est annulée.",
+    "long": "Principe : les opérations financières et en capital entre la CEMAC et l'extérieur sont libres sous réserve du règlement ; les établissements de crédit vérifient l'origine, la nature et la destination des fonds. Cession de valeurs mobilières étrangères et opérations en capital entre résidents : pas d'autorisation. Valeurs mobilières CEMAC : émises dans la CEMAC par une personne morale résidente et libellées en FCFA ; valeurs mobilières étrangères : en devises ou en FCFA par un non-résident. Fonds collectés dans la CEMAC par un non-résident : financer prioritairement les investissements dans la sous-région. Montants < 50 M FCFA : déclaration préalable à la BEAC et au régulateur ; > 50 M : autorisation préalable de la BEAC (sans préjudice de l'avis conforme de la COSUMAF) ; transfert à l'extérieur du produit : autorisation de la BEAC. Emprunts : résidents libres d'emprunter à des non-résidents ; émission de valeurs hors CEMAC = emprunt ; déclaration 30 jours avant (contrat, échéancier, comptes, acte d'autorisation) et justificatifs 30 jours après ; États : déclaration à la BEAC par le Ministère ; établissements de crédit : déclaration au plus tard 30 jours après. Prêts à des non-résidents : autorisation préalable de la BEAC (dossier : contrat, états financiers certifiés sur 3 exercices, échéancier, engagement de rapatriement). Investissements : directs et de portefeuille libres ; IDE entrants : déclaration 30 jours avant ; IDE sortants : autorisation préalable de la BEAC ; portefeuille entrant sous forme de participation : déclaration 30 jours avant ; acquisition de valeurs CEMAC par non-résidents : libre ; transfert du produit de cession de valeurs CEMAC > 100 M FCFA : déclaration 30 jours avant ; portefeuille sortant : autorisation au-delà d'un seuil fixé par la BEAC, déclaration 30 jours avant en deçà ; établissements de crédit : investissement à l'étranger pour compte propre déclaré au plus tard 30 jours après. Couverture du risque de change : durée ≤ celle du contrat sous-jacent ; règlement au plus tard 2 jours après l'échéance ; adossée à des transactions réelles ; position annulée si l'opération sous-jacente est annulée."
+   },
+   "fiches": [
+    {
+     "titre": "Principe de liberté et définitions (art. 97-98, définitions)",
+     "contenu": "- **Opérations financières et en capital** entre la CEMAC et l'extérieur : **libres**, sous réserve du règlement ; les **établissements de crédit** vérifient **origine, nature et destination des fonds** et collectent les informations pour le Ministère et la BEAC\n- **Cession de valeurs mobilières étrangères** et opérations en capital **entre résidents** : **pas d'autorisation**\n- **Valeurs mobilières CEMAC** : émises dans un État CEMAC par une personne morale **résidente** et **libellées en FCFA**\n- **Valeurs mobilières étrangères** : en **monnaie étrangère**, ou en **FCFA par un non-résident**\n- **Investissement de portefeuille** : transactions et positions transfrontalières en titres de créance ou actions, hors investissement direct ou avoirs de réserve\n- **Régulateur du marché financier** = COSUMAF"
+    },
+    {
+     "titre": "Valeurs mobilières étrangères dans la CEMAC (art. 99 à 102)",
+     "contenu": "- Les fonds collectés dans la CEMAC lors d'une émission en devises ou en FCFA par un **non-résident** financent **prioritairement** les investissements dans la **sous-région**\n- **< 50 millions FCFA** : émission, publicité, mise en vente ou cession font l'objet d'une **déclaration préalable** à la **BEAC et à la COSUMAF**\n- **> 50 millions FCFA** : **autorisation préalable de la BEAC** (qui informe le Ministère), **sans préjudice de l'avis conforme de la COSUMAF**\n- **Transfert à l'extérieur** du produit de l'émission : **autorisation de la BEAC**"
+    },
+    {
+     "titre": "Emprunts et prêts (art. 103 à 115)",
+     "contenu": "- Les résidents sont **libres d'emprunter** auprès de non-résidents ; les **émissions de valeurs mobilières hors CEMAC** par des résidents sont **des emprunts**\n- **Déclaration 30 jours avant** la réalisation au Ministère de la monnaie et du crédit et à la BEAC (contrat, échéancier, comptes sociaux, acte d'autorisation) ; **30 jours après** : justificatifs de l'effectivité (rapatriement)\n- **États** : emprunts à l'étranger (et garantis) déclarés à la BEAC par le Ministère (montant, devise, échéancier) ; la BEAC ne transfère les échéances qu'avec les documents de rapatriement\n- **Établissements de crédit** : libres d'emprunter, avec déclaration **au plus tard 30 jours après**\n- **Prêts aux non-résidents** par des personnes morales résidentes : **autorisation préalable de la BEAC** (contrat, états financiers certifiés sur **3 exercices**, échéancier, engagement de **rapatriement** des revenus et du principal) ; déclaration **30 jours après** pour les établissements de crédit ; les remboursements encaissés sont **rapatriés et rétrocédés à la BEAC**"
+    },
+    {
+     "titre": "Investissements directs et de portefeuille (art. 116 à 138)",
+     "contenu": "- **Libres** ; les établissements de crédit exécutent selon les modalités fixées par **Instruction de la BEAC**\n- **IDE entrants** : déclaration **30 jours au moins avant** ; réinvestissement de bénéfices : déclaration **30 jours après** ; transfert du produit de liquidation/cession : déclaration **30 jours avant**\n- **IDE sortants** : **autorisation préalable de la BEAC** ; liquidation : déclaration **30 jours après** ; produit non réinvesti **rapatrié dans les 30 jours**\n- **Portefeuille entrant** : participation déclarée **30 jours avant** ; **acquisition de valeurs CEMAC par des non-résidents : libre** ; **transfert du produit de cession > 100 millions FCFA : déclaration 30 jours avant** ; dossier : preuve de propriété, montant, déclaration\n- **Portefeuille sortant** : **autorisation préalable** au-delà d'un **seuil fixé par la BEAC** ; en deçà : déclaration **30 jours avant**\n- **Établissements de crédit** : investissement à l'étranger pour compte propre : déclaration **au plus tard 30 jours après**"
+    },
+    {
+     "titre": "Couverture du risque de change (art. 139 à 143)",
+     "contenu": "- Couverture à terme dans la **monnaie de règlement du contrat** ; **durée ≤ celle du contrat sous-jacent** ; règlement **au plus tard 2 jours** après l'échéance\n- **Adossée à des transactions économiques et financières réelles**, justifiées\n- Exécutée par les **établissements de crédit**, avec compte rendu à la BEAC, sous surveillance de la **COBAC**\n- **Annulation immédiate** des positions devenues sans objet si l'opération sous-jacente est annulée\n- Chaque établissement tient un **répertoire** des opérations de couverture (contrat, déclaration d'importation domiciliée, statuts, documents de dénouement)"
+    }
+   ],
+   "mnemos": [
+    "50 M (valeurs étrangères : déclaration / autorisation BEAC) · 100 M (transfert du produit de cession par un non-résident) · 30 jours avant (emprunts, IDE entrants) · 30 jours après (justificatifs) · IDE sortants : autorisation BEAC."
+   ],
+   "definitions": [
+    {
+     "terme": "Couverture à terme du risque de change",
+     "definition": "Contrat de couverture adossé à une transaction réelle, de durée au plus égale à celle du contrat sous-jacent."
+    },
+    {
+     "terme": "Investissement direct",
+     "definition": "Prise de participation durable dans une entité ; entrant : déclaré 30 jours avant ; sortant : autorisé par la BEAC."
+    },
+    {
+     "terme": "Investissement de portefeuille",
+     "definition": "Transaction transfrontalière en titres de créance ou actions hors investissement direct et avoirs de réserve."
+    },
+    {
+     "terme": "Valeurs mobilières étrangères",
+     "definition": "Valeurs libellées en devises, ou émises en FCFA par un non-résident."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quel régime pour les IDE ?",
+     "verso": "Entrants : déclaration 30 jours avant ; sortants : autorisation préalable de la BEAC."
+    },
+    {
+     "recto": "Principe applicable aux opérations financières et en capital avec l'extérieur ?",
+     "verso": "Elles sont libres, sous réserve du règlement et du contrôle de l'origine, de la nature et de la destination des fonds."
+    },
+    {
+     "recto": "Qui autorise un prêt à un non-résident ?",
+     "verso": "La BEAC, préalablement."
+    },
+    {
+     "recto": "Quel régime pour les prêts à des non-résidents ?",
+     "verso": "Autorisation préalable de la BEAC avec états financiers de 3 exercices et engagement de rapatriement."
+    },
+    {
+     "recto": "Qu'est-ce qu'une émission de valeurs mobilières hors CEMAC par un résident ?",
+     "verso": "Un emprunt, soumis à déclaration."
+    },
+    {
+     "recto": "Transfert du produit d'une cession de valeurs CEMAC par un non-résident ?",
+     "verso": "Déclaration 30 jours avant si le montant dépasse 100 M FCFA."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Seuil de bascule déclaration / autorisation pour les valeurs mobilières étrangères :",
+     "choix": [
+      "10 M",
+      "100 M",
+      "500 M",
+      "50 M"
+     ],
+     "bonne": 3,
+     "explication": "Art. 100-101."
+    },
+    {
+     "q": "Un non-résident qui acquiert des valeurs CEMAC :",
+     "choix": [
+      "Doit être autorisé par la BEAC",
+      "Doit déclarer 30 jours avant",
+      "Est libre",
+      "Est interdit"
+     ],
+     "bonne": 2,
+     "explication": "Art. 133."
+    },
+    {
+     "q": "Transfert du produit de cession de valeurs CEMAC au-delà de...",
+     "choix": [
+      "10 M",
+      "50 M",
+      "100 M",
+      "1 Md"
+     ],
+     "bonne": 2,
+     "explication": "Art. 134."
+    },
+    {
+     "q": "Les investissements directs sortants sont...",
+     "choix": [
+      "Libres",
+      "Soumis à autorisation de la BEAC",
+      "Interdits",
+      "Déclarés après"
+     ],
+     "bonne": 1,
+     "explication": "Art. 123."
+    },
+    {
+     "q": "Les opérations financières et en capital entre la CEMAC et l'extérieur sont :",
+     "choix": [
+      "interdites",
+      "soumises à autorisation systématique",
+      "libres, sous réserve du règlement",
+      "réservées aux banques"
+     ],
+     "bonne": 2,
+     "explication": "Les établissements de crédit vérifient origine, nature et destination des fonds."
+    },
+    {
+     "q": "Les cessions de valeurs mobilières étrangères entre résidents sont :",
+     "choix": [
+      "soumises à autorisation de la BEAC",
+      "sans autorisation",
+      "interdites",
+      "déclarées à la COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": "Idem pour les opérations en capital entre résidents."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Libre, déclaration ou autorisation ?",
+     "buckets": [
+      "Libre",
+      "Déclaration",
+      "Autorisation BEAC"
+     ],
+     "items": [
+      {
+       "t": "Acquisition de valeurs mobilières CEMAC par un non-résident.",
+       "b": 0,
+       "why": "Art. 133."
+      },
+      {
+       "t": "Émission de valeurs étrangères dans la CEMAC pour moins de 50 M FCFA.",
+       "b": 1,
+       "why": "Art. 100."
+      },
+      {
+       "t": "Émission de valeurs étrangères dans la CEMAC au-delà de 50 M FCFA.",
+       "b": 2,
+       "why": "Art. 101."
+      },
+      {
+       "t": "Prêt accordé à un non-résident par une personne morale résidente.",
+       "b": 2,
+       "why": "Art. 112."
+      },
+      {
+       "t": "Investissement direct entrant.",
+       "b": 1,
+       "why": "Art. 118."
+      },
+      {
+       "t": "Investissement direct sortant.",
+       "b": 2,
+       "why": "Art. 123."
+      },
+      {
+       "t": "Cession de valeurs étrangères entre résidents de la CEMAC.",
+       "b": 0,
+       "why": "Art. 98."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Un emprunt auprès d'un non-résident est déclaré {{30}} jours avant sa réalisation.",
+    "Une émission étrangère de plus de {{50}} millions FCFA exige l'autorisation préalable de la {{BEAC}}."
+   ],
+   "schemas": [
+    {
+     "titre": "Valeurs mobilières étrangères : le seuil de 50 M",
+     "type": "compare",
+     "legende": "Déclaration ou autorisation ?",
+     "cols": [
+      {
+       "t": "Moins de 50 M FCFA",
+       "s": "déclaration préalable",
+       "pts": [
+        "À la BEAC",
+        "Et à la COSUMAF",
+        "Avant l'opération"
+       ]
+      },
+      {
+       "t": "Plus de 50 M FCFA",
+       "s": "autorisation préalable",
+       "pts": [
+        "De la BEAC",
+        "Qui informe le Ministère",
+        "Sans préjudice de l'avis conforme de la COSUMAF"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Libre, déclaré ou autorisé ?",
+     "type": "table",
+     "legende": "Les opérations avec l'extérieur.",
+     "cols": [
+      "Opération",
+      "Régime"
+     ],
+     "rows": [
+      [
+       "Acquisition de valeurs CEMAC par un non-résident",
+       {
+        "t": "Libre",
+        "b": true,
+        "c": "#a9f0d0"
+       }
+      ],
+      [
+       "Emprunt auprès d'un non-résident",
+       {
+        "t": "Déclaration 30 jours avant",
+        "b": true,
+        "c": "#ffe14a"
+       }
+      ],
+      [
+       "IDE entrant",
+       {
+        "t": "Déclaration 30 jours avant",
+        "b": true,
+        "c": "#ffe14a"
+       }
+      ],
+      [
+       "Transfert du produit de cession > 100 M par un non-résident",
+       {
+        "t": "Déclaration 30 jours avant",
+        "b": true,
+        "c": "#ffe14a"
+       }
+      ],
+      [
+       "Prêt à un non-résident",
+       {
+        "t": "Autorisation de la BEAC",
+        "b": true,
+        "c": "#ffb8d1"
+       }
+      ],
+      [
+       "IDE sortant",
+       {
+        "t": "Autorisation de la BEAC",
+        "b": true,
+        "c": "#ffb8d1"
+       }
+      ]
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  }
+ ]
+}

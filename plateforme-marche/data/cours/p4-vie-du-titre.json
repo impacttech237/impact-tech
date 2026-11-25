@@ -1,0 +1,1773 @@
+{
+ "id": "p4-vie-du-titre",
+ "titre": "La vie du titre : opérations sur titres, offres publiques, seuils",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "red",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "Dividendes et augmentations de capital, OPV, contrepartie, blocs, rachat d'office, OPA/OPE, offre au tiers, garantie de cours, franchissement de seuils, fiscalité des opérations cotées.",
+ "court": "Vie du titre",
+ "chapitres": [
+  {
+   "id": "b5-ost-information-indices",
+   "titre": "Essentiel · 05 · OST, information du marché, franchissements de seuils, indices et titres de créance (art. 141 à 147, 175 à 194)",
+   "resume": {
+    "court": "OST : dossier à la bourse et au Dépositaire Central 10 jours de bourse avant (20 jours si rompus), avis au moins 5 jours de bourse avant l'effet, DPS détaché 3 jours de bourse avant la souscription, programme de rachat annoncé 5 jours de bourse avant. Avis d'opération remis au client avant la séance suivant le règlement-livraison. Franchissement de seuils : 5 % déclaré sans délai ; 10, 15, 20, 25, 30 % avec objectifs sur 6 mois. Titres de créance cotés en pourcentage du nominal, au pied de coupon (2 décimales).",
+    "moyen": "OST (art. 141) : détachement de DPS ou d'attribution, dividende, coupon, regroupement, réduction de capital, radiation, division ou élévation de la valeur nominale, assimilation de lignes. Droit détaché le jour où commencent les opérations ; négocié en ligne secondaire. Coupon / dividende : seules les limites des ordres changent ; division : limites et nombre de titres changent ; changement de code ou de raison sociale : aucune conséquence ; autre opération : ordres caducs. Calendrier (art. 145) : dossier de l'émetteur à la bourse et au DC au plus tard 10 jours de bourse avant (20 jours en cas d'échange avec rompus) ; concertation BVMAC / DC ; Avis au moins 5 jours de bourse avant la date d'effet (et au moins 1 jour de bourse avant selon l'alinéa i) ; DPS ou attribution détaché 3 jours de bourse avant le démarrage de la période. Programme de rachat d'actions : information de la BVMAC au moins 5 jours de bourse avant, Avis public. Information des donneurs d'ordres : Avis d'opération (SDB, siège, client, date, nature, références, nombre, cours unitaire, montant total, courtage et frais, impôts), transmis avant la séance de cotation suivant la date de règlement-livraison ; Avis récapitulatif (cours moyen) pour un professionnel si prévu ; registre séquentiel sans numéro manquant. Informations permanentes des émetteurs : dates et conditions des AG, dividendes et opérations sur titres, modifications statutaires, décisions judiciaires, faits nouveaux importants. Franchissement de seuil : 5 % du capital ou des droits de vote (déclaration sans délai), puis 10, 15, 20, 25 et 30 % (objectifs sur les 6 prochains mois) ; hausse comme baisse ; contenu de la déclaration : titres détenus avant et après, seul ou de concert, objectifs sur les 12 mois à venir. Indices : un indice général pondéré par la capitalisation (tous les titres de capital) ; indices sectoriels et obligataires possibles ; calculés après la séance sur le dernier cours ; un Comité de l'Indice avec SDB et SGO. Titres de créance : cotation en pourcentage de la valeur nominale, au pied de coupon, avec le coupon couru calculé entre la date de jouissance et la date de dénouement théorique ; deux décimales. Lignes secondaires : droits de souscription, droits d'attribution, actions nouvelles de jouissance différente ; cours théorique ; suspension si la ligne principale n'est pas cotée (sauf DPS). Contrôle par la BVMAC (réalité et horodatage des ordres, non-globalisation, diligence, positions, livraison-règlement) ; documents des SDB (états de synthèse, statuts).",
+    "long": "OST (art. 141) : détachement de DPS ou d'attribution, dividende, coupon, regroupement, réduction de capital, radiation, division ou élévation de la valeur nominale, assimilation de lignes. Droit détaché le jour où commencent les opérations ; négocié en ligne secondaire. Coupon / dividende : seules les limites des ordres changent ; division : limites et nombre de titres changent ; changement de code ou de raison sociale : aucune conséquence ; autre opération : ordres caducs. Calendrier (art. 145) : dossier de l'émetteur à la bourse et au DC au plus tard 10 jours de bourse avant (20 jours en cas d'échange avec rompus) ; concertation BVMAC / DC ; Avis au moins 5 jours de bourse avant la date d'effet (et au moins 1 jour de bourse avant selon l'alinéa i) ; DPS ou attribution détaché 3 jours de bourse avant le démarrage de la période. Programme de rachat d'actions : information de la BVMAC au moins 5 jours de bourse avant, Avis public. Information des donneurs d'ordres : Avis d'opération (SDB, siège, client, date, nature, références, nombre, cours unitaire, montant total, courtage et frais, impôts), transmis avant la séance de cotation suivant la date de règlement-livraison ; Avis récapitulatif (cours moyen) pour un professionnel si prévu ; registre séquentiel sans numéro manquant. Informations permanentes des émetteurs : dates et conditions des AG, dividendes et opérations sur titres, modifications statutaires, décisions judiciaires, faits nouveaux importants. Franchissement de seuil : 5 % du capital ou des droits de vote (déclaration sans délai), puis 10, 15, 20, 25 et 30 % (objectifs sur les 6 prochains mois) ; hausse comme baisse ; contenu de la déclaration : titres détenus avant et après, seul ou de concert, objectifs sur les 12 mois à venir. Indices : un indice général pondéré par la capitalisation (tous les titres de capital) ; indices sectoriels et obligataires possibles ; calculés après la séance sur le dernier cours ; un Comité de l'Indice avec SDB et SGO. Titres de créance : cotation en pourcentage de la valeur nominale, au pied de coupon, avec le coupon couru calculé entre la date de jouissance et la date de dénouement théorique ; deux décimales. Lignes secondaires : droits de souscription, droits d'attribution, actions nouvelles de jouissance différente ; cours théorique ; suspension si la ligne principale n'est pas cotée (sauf DPS). Contrôle par la BVMAC (réalité et horodatage des ordres, non-globalisation, diligence, positions, livraison-règlement) ; documents des SDB (états de synthèse, statuts)."
+   },
+   "fiches": [
+    {
+     "titre": "Les OST et leur calendrier (art. 141 à 147)",
+     "contenu": "**OST** : détachement d'un **DPS** ou d'un **droit d'attribution** · **dividende** · **coupon** · **regroupement** · **réduction de capital** · **radiation** · **division** ou **élévation de la valeur nominale** · **assimilation de deux lignes**. Elles font l'objet d'un **Avis** de la bourse.\n\n**Effets sur les ordres en carnet** (art. 144) : coupon ou dividende → **seules les limites** sont modifiées (par chaque SDB) ; division → **limites et nombre de titres** modifiés ; changement de code, de raison sociale ou date de césure → **aucune conséquence** ; toute autre opération → ordres **caducs**.\n\n**Calendrier** (art. 145) :\n- Dossier de l'émetteur à la **BVMAC et au Dépositaire Central** au plus tard **10 jours de bourse avant** la mise en œuvre (**20 jours** si échange avec rompus)\n- BVMAC et DC se concertent pour coordonner leurs traitements\n- **Avis** de la BVMAC au moins **5 jours de bourse avant** la date d'effet\n- **DPS ou attribution détaché 3 jours de bourse avant** le début de la période de souscription/attribution (sauf dérogation validée par la COSUMAF) ; il est **détaché le jour où commencent les opérations** d'augmentation de capital et **négocié en ligne secondaire**\n- **Programme de rachat d'actions** : information de la BVMAC (modalités, SDB désignée) **au moins 5 jours de bourse avant** ; Avis public ; ordres introduits suivant une référence fixée par Instruction"
+    },
+    {
+     "titre": "Information des clients et des émetteurs (art. 175 à 179)",
+     "contenu": "**Avis d'opération** (SDB → client, pour chaque transaction) : dénomination et siège de la SDB · nom et adresse du client · **date** · **nature** · références, **nombre, description et cours unitaire** · **montant total** · **frais de courtage** et autres frais · **impôts et taxes** ; transmis **avant la séance de cotation suivant la date de règlement-livraison**. Un **Avis récapitulatif** (cours moyen) est possible pour un donneur d'ordres professionnel si le contrat d'ouverture de compte le prévoit. La SDB tient un **registre séquentiel, sans numéro manquant**.\n\n**Informations permanentes des émetteurs** à la BVMAC (publication au BOC aux frais de l'émetteur) : **date des AG** et conditions de participation · **dividendes, émissions, attributions, souscriptions, renonciations, conversions** · **modifications statutaires** · **décisions judiciaires** · **fait nouveau important**."
+    },
+    {
+     "titre": "Franchissement de seuils (art. 180-181)",
+     "contenu": "- Les actionnaires de sociétés cotées déclarent **sans délai** le franchissement du seuil de **5 %** du capital ou des droits de vote\n- Aux seuils de **10 %, 15 %, 20 %, 25 % et 30 %**, la déclaration précise en outre les **objectifs pour les 6 prochains mois**\n- Obligation valable **à la hausse comme à la baisse**\n- Contenu : **nombre et nature des titres détenus avant et après**, **seul ou de concert**, **objectifs sur les 12 mois à venir** (le texte mentionne 6 mois à l'art. 180 et 12 mois à l'art. 181)\n- À rapprocher du **seuil du tiers** (offre publique obligatoire) du Règlement 01/22"
+    },
+    {
+     "titre": "Indices boursiers (art. 182 à 185)",
+     "contenu": "- **Indice général** : tendance globale du marché des actions ; **tous les titres de capital** admis, **pondérés par la capitalisation** ; clause possible de plafonnement du poids d'une ou plusieurs lignes\n- **Indices sectoriels** et **indices sur les obligations** si utile\n- Base historique fixée par la BVMAC ; calcul **à la fin de la séance** sur le **dernier cours connu** ; une valeur suspendue longtemps peut être exclue ; les opérations spécifiques modifient la **base**\n- Publication au **BOC** ; **Comité de l'Indice** avec les SDB et les SGO"
+    },
+    {
+     "titre": "Titres de créance et lignes secondaires (art. 186 à 192)",
+     "contenu": "- **Titres de créance** cotés **en pourcentage de leur valeur nominale**, **au pied de coupon** ; **coupon couru** calculé entre la **date de jouissance** et la **date de dénouement théorique** et diffusé ; **taux fixe : pourcentage du nominal avec deux décimales** ; transactions exprimées en monnaie locale avec frais et coupon couru\n- **Lignes secondaires** : droits de souscription, droits d'attribution, actions nouvelles de jouissance différente ; **dérivent de la ligne principale** (valeur de référence) ; **cours théorique** = cours de référence ; mode de cotation fonction de la liquidité ; si la ligne principale n'est pas cotée, la BVMAC **suspend** les lignes secondaires (**sauf les droits de souscription**)"
+    },
+    {
+     "titre": "Contrôle des négociations et du dénouement (art. 193-194)",
+     "contenu": "- Fondé sur les art. 116 al. 2 et 117 al. 4 du Règlement 01/22\n- Du dépôt de l'ordre au dénouement, la BVMAC contrôle : **réalité**, **horodatage**, **non-globalisation**, **diligence**, règles d'introduction, bonne conduite, utilisation du système, **positions**, processus de **livraison-règlement**\n- Elle peut demander documents et explications, et **informe la COSUMAF** de toute infraction ou irrégularité\n- Les SDB transmettent pour l'évaluation des risques des positions non dénouées : **états de synthèse de l'exercice avec rapport du CAC**, **statuts mis à jour** ; sur demande : capital et part de chaque actionnaire, organigramme, moyens garantissant la bonne fin, contrôle interne et back-office, situation de risques généraux et financiers"
+    }
+   ],
+   "mnemos": [
+    "OST : 10 j (dossier) / 20 j (rompus) · Avis 5 j · DPS 3 j · rachat 5 j. Seuils : 5 % puis 10-15-20-25-30 %. Créances : % du nominal, pied de coupon, 2 décimales."
+   ],
+   "definitions": [
+    {
+     "terme": "Coupon couru",
+     "definition": "Intérêt couru entre la date de jouissance et la date de dénouement théorique."
+    },
+    {
+     "terme": "Pied de coupon",
+     "definition": "Cotation d'une obligation sans le coupon couru, ajouté séparément lors de la transaction."
+    },
+    {
+     "terme": "Droit préférentiel de souscription (DPS)",
+     "definition": "Droit détaché lors d'une augmentation de capital, négocié en ligne secondaire."
+    },
+    {
+     "terme": "Ligne secondaire",
+     "definition": "Ligne de cotation dérivée d'une ligne principale (droits, actions nouvelles)."
+    },
+    {
+     "terme": "Avis d'opération",
+     "definition": "Pièce comptable remise par la SDB à son client pour chaque transaction, avec montant, frais et taxes."
+    },
+    {
+     "terme": "Indice boursier général",
+     "definition": "Indicateur pondéré par la capitalisation reflétant la tendance globale du marché des actions."
+    },
+    {
+     "terme": "OST",
+     "definition": "Opération sur titres : action de l'émetteur affectant les droits attachés au titre (dividende, détachement de droit, division, regroupement…)."
+    },
+    {
+     "terme": "Franchissement de seuil",
+     "definition": "Passage, à la hausse ou à la baisse, d'un seuil de détention du capital ou des droits de vote qui doit être déclaré."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "La déclaration de franchissement vise-t-elle la baisse ?",
+     "verso": "Oui, comme la hausse."
+    },
+    {
+     "recto": "Premier seuil de franchissement à déclarer ?",
+     "verso": "5 % du capital ou des droits de vote, sans délai."
+    },
+    {
+     "recto": "Que devient un ordre en carnet lors d'une division ?",
+     "verso": "Limite et nombre de titres sont modifiés."
+    },
+    {
+     "recto": "Que contient l'avis d'opération ?",
+     "verso": "Date, nature, nombre et cours unitaire, montant total, courtage, impôts ; envoyé avant la séance suivant le règlement-livraison."
+    },
+    {
+     "recto": "Autres seuils avec déclaration des objectifs ?",
+     "verso": "10, 15, 20, 25 et 30 % (objectifs pour les 6 prochains mois)."
+    },
+    {
+     "recto": "Délai de dépôt du dossier d'une OST ?",
+     "verso": "Au plus tard 10 jours de bourse avant la mise en œuvre (20 jours en cas d'échange avec rompus)."
+    },
+    {
+     "recto": "Que deviennent les ordres en carnet lors d'une OST ?",
+     "verso": "Dividende ou coupon : limites modifiées ; division : limites et nombre de titres ; changement de code : aucun effet ; autres OST : ordres caducs."
+    },
+    {
+     "recto": "Délai d'information d'un programme de rachat d'actions ?",
+     "verso": "Au moins 5 jours de bourse avant son démarrage."
+    },
+    {
+     "recto": "Comment la SDB tient-elle le registre des avis d'opération ?",
+     "verso": "Par numéro séquentiel, sans numéro manquant."
+    },
+    {
+     "recto": "Qu'est-ce qu'une ligne secondaire ?",
+     "verso": "Un titre dérivé de la ligne principale : droits de souscription, droits d'attribution, actions nouvelles de jouissance différente."
+    },
+    {
+     "recto": "Pondération de l'indice général de la BVMAC ?",
+     "verso": "Par la capitalisation, sur tous les titres de capital admis."
+    },
+    {
+     "recto": "Délai de l'Avis de la BVMAC sur une OST ?",
+     "verso": "Au moins 5 jours de bourse avant la date d'effet."
+    },
+    {
+     "recto": "Quelle information pour un rachat d'actions ?",
+     "verso": "Notification à la BVMAC au moins 5 jours de bourse avant, avec Avis public."
+    },
+    {
+     "recto": "Que fait la BVMAC des lignes secondaires si la ligne principale n'est pas cotée ?",
+     "verso": "Elle les suspend, sauf les droits de souscription."
+    },
+    {
+     "recto": "Comment cote-t-on un titre de créance ?",
+     "verso": "En pourcentage du nominal, au pied de coupon, avec deux décimales."
+    }
+   ],
+   "questions": [
+    {
+     "q": "DPS détaché...",
+     "choix": [
+      "la veille de la période de souscription",
+      "10 jours de bourse avant la période de souscription",
+      "3 jours de bourse avant la période de souscription",
+      "le jour de l'assemblée générale extraordinaire"
+     ],
+     "bonne": 2,
+     "explication": "Art. 145 (v)."
+    },
+    {
+     "q": "Premier seuil de franchissement :",
+     "choix": [
+      "1 %",
+      "3 %",
+      "5 %",
+      "10 %"
+     ],
+     "bonne": 2,
+     "explication": "Art. 180."
+    },
+    {
+     "q": "Échange d'instruments avec rompus : dossier de l'OST dans les...",
+     "choix": [
+      "5 jours de bourse",
+      "10 jours de bourse",
+      "30 jours de bourse",
+      "20 jours de bourse"
+     ],
+     "bonne": 3,
+     "explication": "Art. 145."
+    },
+    {
+     "q": "Les obligations sont cotées...",
+     "choix": [
+      "En FCFA par titre, avec le coupon couru inclus",
+      "Au dividende versé chaque année",
+      "Au prix libre du marché de gré à gré",
+      "En pourcentage du nominal au pied de coupon"
+     ],
+     "bonne": 3,
+     "explication": "Art. 186."
+    },
+    {
+     "q": "L'indice général est pondéré par...",
+     "choix": [
+      "Le volume",
+      "Le dividende",
+      "La capitalisation",
+      "Le nombre d'actionnaires"
+     ],
+     "bonne": 2,
+     "explication": "Art. 182."
+    },
+    {
+     "q": "Programme de rachat : information de la BVMAC au moins...",
+     "choix": [
+      "1 jour",
+      "10 jours",
+      "5 jours de bourse",
+      "30 jours"
+     ],
+     "bonne": 2,
+     "explication": "Art. 146."
+    },
+    {
+     "q": "Parmi ces opérations, laquelle est une OST ?",
+     "choix": [
+      "Une offre d'achat",
+      "Le détachement d'un DPS",
+      "Une OPV",
+      "Une cotation directe"
+     ],
+     "bonne": 1,
+     "explication": "Aussi dividende, coupon, regroupement, réduction de capital, radiation, division."
+    },
+    {
+     "q": "Lors d'un coupon ou dividende, les ordres en carnet :",
+     "choix": [
+      "sont annulés",
+      "sont doublés",
+      "voient seules leurs limites modifiées",
+      "sont suspendus"
+     ],
+     "bonne": 2,
+     "explication": "Par chaque SDB."
+    },
+    {
+     "q": "Lors d'une division, sont modifiés :",
+     "choix": [
+      "seulement les limites",
+      "seulement le nombre de titres",
+      "rien",
+      "les limites et le nombre de titres"
+     ],
+     "bonne": 3,
+     "explication": "Changement de code ou de raison sociale : aucune conséquence; autres OST : ordres caducs."
+    },
+    {
+     "q": "Le dossier d'une OST est déposé à la BVMAC et au DC au plus tard :",
+     "choix": [
+      "5 jours de bourse avant",
+      "10 jours de bourse avant la mise en œuvre",
+      "30 jours",
+      "60 jours"
+     ],
+     "bonne": 1,
+     "explication": "20 jours si échange avec rompus."
+    },
+    {
+     "q": "L'Avis de la BVMAC sur une OST est publié au moins :",
+     "choix": [
+      "3 jours de bourse avant la date d'effet",
+      "5 jours de bourse avant la date d'effet",
+      "10 jours avant",
+      "30 jours avant"
+     ],
+     "bonne": 1,
+     "explication": "Art. 145."
+    },
+    {
+     "q": "L'avis d'opération est adressé par la SDB au client :",
+     "choix": [
+      "à la clôture annuelle des comptes",
+      "à la demande expresse du client",
+      "avant la séance de cotation suivant la date de règlement-livraison",
+      "chaque mois, avec le relevé de compte"
+     ],
+     "bonne": 2,
+     "explication": "Il mentionne date, nature, cours unitaire, montant total, courtage, impôts."
+    },
+    {
+     "q": "L'Avis récapitulatif (cours moyen) est possible pour :",
+     "choix": [
+      "tout client, particulier ou professionnel",
+      "les États, quel que soit leur contrat",
+      "un donneur d'ordres professionnel si le contrat d'ouverture de compte le prévoit",
+      "les particuliers qui en font la demande"
+     ],
+     "bonne": 2,
+     "explication": ""
+    },
+    {
+     "q": "Le registre des avis d'opération est :",
+     "choix": [
+      "séquentiel, sans numéro manquant",
+      "libre",
+      "mensuel",
+      "facultatif"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Les informations permanentes des émetteurs sont publiées au BOC :",
+     "choix": [
+      "aux frais de la BVMAC",
+      "aux frais de l'émetteur",
+      "gratuitement",
+      "aux frais de la COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Aux seuils de 10, 15, 20, 25 et 30 %, on précise aussi :",
+     "choix": [
+      "son identité fiscale",
+      "son patrimoine",
+      "sa banque",
+      "ses objectifs pour les 6 prochains mois"
+     ],
+     "bonne": 3,
+     "explication": "L'art. 181 évoque 12 mois : divergence interne."
+    },
+    {
+     "q": "La déclaration de franchissement vaut :",
+     "choix": [
+      "à la hausse seulement",
+      "à la baisse seulement",
+      "pour les États",
+      "à la hausse comme à la baisse"
+     ],
+     "bonne": 3,
+     "explication": "Art. 180."
+    },
+    {
+     "q": "La déclaration de franchissement mentionne :",
+     "choix": [
+      "le prix d'achat des titres acquis",
+      "les motifs personnels du déclarant",
+      "le nombre et la nature des titres avant et après, seul ou de concert",
+      "la nationalité du déclarant"
+     ],
+     "bonne": 2,
+     "explication": "Art. 181."
+    },
+    {
+     "q": "L'indice général de la BVMAC est :",
+     "choix": [
+      "équipondéré entre toutes les valeurs",
+      "pondéré par le volume échangé",
+      "basé sur dix valeurs sélectionnées",
+      "pondéré par la capitalisation de tous les titres de capital admis"
+     ],
+     "bonne": 3,
+     "explication": "Clause de plafonnement du poids possible."
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets le calendrier d'une OST dans l'ordre (du plus lointain au plus proche)",
+     "items": [
+      "Dépôt du dossier à la BVMAC et au DC (10 jours de bourse avant)",
+      "Avis de la BVMAC (au moins 5 jours de bourse avant)",
+      "Détachement du DPS (3 jours de bourse avant la souscription)",
+      "Date d'effet de l'OST"
+     ]
+    }
+   ],
+   "trous": [
+    "Le dossier d'une OST est déposé {{10}} jours de bourse avant, et l'Avis de la BVMAC est publié au moins {{5}} jours de bourse avant.",
+    "L'indice boursier général est pondéré par la {{capitalisation}}.",
+    "Le DPS est détaché {{3}} jours de bourse avant le début de la souscription.",
+    "Le premier seuil de franchissement est de {{5}} % ; les suivants sont 10, 15, 20, 25 et {{30}} %.",
+    "Les titres de créance sont cotés en pourcentage du {{nominal}}, au pied de {{coupon}}."
+   ],
+   "schemas": [
+    {
+     "titre": "Calendrier d'une OST (en jours de bourse)",
+     "type": "timeline",
+     "legende": "Du dossier à l'effet.",
+     "events": [
+      {
+       "d": "J − 10 (20)",
+       "t": "Dossier",
+       "s": "L'émetteur transmet à la BVMAC et au DC (20 jours si échange avec rompus)."
+      },
+      {
+       "d": "J − 5",
+       "t": "Avis",
+       "s": "La BVMAC annonce les caractéristiques et modalités de l'OST."
+      },
+      {
+       "d": "J − 3",
+       "t": "DPS",
+       "s": "Détachement du droit préférentiel de souscription avant la période de souscription."
+      },
+      {
+       "d": "J",
+       "t": "Date d'effet",
+       "s": "Mise en œuvre de l'OST ; ajustement des ordres en carnet."
+      }
+     ]
+    },
+    {
+     "titre": "Franchissements de seuils",
+     "type": "scale",
+     "legende": "Déclarer, puis expliquer ses intentions.",
+     "gauche": "Faible participation",
+     "droite": "Contrôle",
+     "marks": [
+      {
+       "t": "5 %",
+       "s": "déclaration sans délai"
+      },
+      {
+       "t": "10 – 15 – 20",
+       "s": "déclaration + objectifs"
+      },
+      {
+       "t": "25 – 30 %",
+       "s": "déclaration + objectifs"
+      },
+      {
+       "t": "Tiers",
+       "s": "offre obligatoire"
+      },
+      {
+       "t": "95 %",
+       "s": "retrait obligatoire"
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "b6-opv-negociations-controlees",
+   "titre": "Essentiel · 06 · OPV, contrepartie, transactions sur dossier, blocs, rachat d'office et tarification BVMAC (art. 195 à 237, Instruction 3)",
+   "resume": {
+    "court": "OPV : au moins 10 % des titres (ou 100 000 titres si > 5 %) ; COSUMAF se prononce sur la recevabilité en 5 jours de bourse ; offre aux investisseurs ≥ 3 jours de bourse ; extension limitée à 25 %. Contrepartie ordinaire : SDB pour compte propre ; spécialiste seul pour la régularisation de marché. Transaction sur dossier : prix à ±5 % du cours de clôture. Acheté-vendu : seuils de 500 M à 5 Md selon le cours. Bloc : ≥ 10 000 actions ou 100 000 obligations. Rachat d'office en cas de défaut de dénouement. Tarifs BVMAC : introduction 0,08 % (actions) / 0,04 % (obligations), courtage 0,3 %, redevance de siège 2 M FCFA.",
+    "moyen": "Offres publiques : l'offre publique (art. 195) désigne la proposition publique d'acquérir, vendre ou échanger des titres admis ; dès le dépôt du projet à la COSUMAF, la BVMAC suspend la cotation jusqu'à l'ouverture de l'offre. OPV : document d'information visé ; ordres répartis par catégories selon les normes de l'initiateur ; l'OPV porte sur au moins 10 % des titres de capital de même nature ou 100 000 titres (si > 5 %) sauf dérogation ; clauses de préemption et d'agrément réputées non écrites pendant l'offre pour les titres non cotés ; projet déposé par la SDB chef de file garantissant le caractère irrévocable des engagements ; la COSUMAF publie un avis de dépôt et se prononce sur la recevabilité dans les 5 jours de bourse ; communication au plus tard 4 jours de bourse avant l'offre ; période d'offre ≥ 3 jours de bourse ; avec autorisation, l'initiateur peut augmenter le nombre de titres cédés dans la limite de 25 % ; ordres à prix ferme, limités au prix d'offre, valables jour ; reprise de la cotation 2 jours de bourse après l'avis d'ouverture ou d'irrecevabilité ; placement garanti en parallèle possible (≥ 20 % du capital ou 500 M FCFA) ; compte rendu à la COSUMAF. Contrepartie ordinaire : SDB pour son compte, ordre de débouclement dès la séance suivante si achat d'un titre à un client ; seule une SDB peut contrepartir ; information du client ; avis d'opéré au prix net sans frais ; interdite sur valeur suspendue ou non cotée équilibrée sauf autorisation. Contrepartie en régularisation : seul le spécialiste, comptes spécifiques. Transactions sur dossier : négociation préalable non issue d'un ordre de marché ; cas : transfert de portefeuille lors de fusion, restructuration mère-filiale, actions de garantie d'administrateur, cession entre ascendants/descendants jusqu'au 3e degré ou entre époux, rétrocession dans un portage ; ordres écrits mentionnant « pour transaction sur dossier » ; prix dans un intervalle de ±5 % du cours de clôture de la veille ; attestation de la BVMAC. Acheté-vendu : SDB intermédiaire entre deux donneurs d'ordres sans présenter d'ordre ; montant dépassant les capacités habituelles du marché ; seuil : cours 1 à 1 000 FCFA → 500 M ; 1 005 à 20 000 → 1 Md ; 20 005 à 50 000 → 3 Md ; 50 005 à 100 000 → 4 Md ; > 100 000 → 5 Md. Bloc : au moins 10 000 actions ou 100 000 obligations ; hors carnet central ; interdit sur valeur suspendue (sauf autorisation) ; déclaré à la BVMAC qui informe la COSUMAF ; annulation en cas de défaillance. Défaut et rachat d'office : le DC informe la BVMAC ; la BVMAC peut déclarer la SDB défaillante ; une SDB défaillante ne peut faire que des opérations liquidatives pour ses clients après autorisation. Tarification : conditions incitatives pour PME et grandes opérations. Instruction 3 : commission d'introduction (0,08 % de la capitalisation pour les actions, 0,04 % pour les obligations, avant la première cotation), commission de capitalisation annuelle (0,08 % / 0,04 %), courtage 0,3 % du volume (SDB), redevance de siège 2 000 000 FCFA/an.",
+    "long": "Offres publiques : l'offre publique (art. 195) désigne la proposition publique d'acquérir, vendre ou échanger des titres admis ; dès le dépôt du projet à la COSUMAF, la BVMAC suspend la cotation jusqu'à l'ouverture de l'offre. OPV : document d'information visé ; ordres répartis par catégories selon les normes de l'initiateur ; l'OPV porte sur au moins 10 % des titres de capital de même nature ou 100 000 titres (si > 5 %) sauf dérogation ; clauses de préemption et d'agrément réputées non écrites pendant l'offre pour les titres non cotés ; projet déposé par la SDB chef de file garantissant le caractère irrévocable des engagements ; la COSUMAF publie un avis de dépôt et se prononce sur la recevabilité dans les 5 jours de bourse ; communication au plus tard 4 jours de bourse avant l'offre ; période d'offre ≥ 3 jours de bourse ; avec autorisation, l'initiateur peut augmenter le nombre de titres cédés dans la limite de 25 % ; ordres à prix ferme, limités au prix d'offre, valables jour ; reprise de la cotation 2 jours de bourse après l'avis d'ouverture ou d'irrecevabilité ; placement garanti en parallèle possible (≥ 20 % du capital ou 500 M FCFA) ; compte rendu à la COSUMAF. Contrepartie ordinaire : SDB pour son compte, ordre de débouclement dès la séance suivante si achat d'un titre à un client ; seule une SDB peut contrepartir ; information du client ; avis d'opéré au prix net sans frais ; interdite sur valeur suspendue ou non cotée équilibrée sauf autorisation. Contrepartie en régularisation : seul le spécialiste, comptes spécifiques. Transactions sur dossier : négociation préalable non issue d'un ordre de marché ; cas : transfert de portefeuille lors de fusion, restructuration mère-filiale, actions de garantie d'administrateur, cession entre ascendants/descendants jusqu'au 3e degré ou entre époux, rétrocession dans un portage ; ordres écrits mentionnant « pour transaction sur dossier » ; prix dans un intervalle de ±5 % du cours de clôture de la veille ; attestation de la BVMAC. Acheté-vendu : SDB intermédiaire entre deux donneurs d'ordres sans présenter d'ordre ; montant dépassant les capacités habituelles du marché ; seuil : cours 1 à 1 000 FCFA → 500 M ; 1 005 à 20 000 → 1 Md ; 20 005 à 50 000 → 3 Md ; 50 005 à 100 000 → 4 Md ; > 100 000 → 5 Md. Bloc : au moins 10 000 actions ou 100 000 obligations ; hors carnet central ; interdit sur valeur suspendue (sauf autorisation) ; déclaré à la BVMAC qui informe la COSUMAF ; annulation en cas de défaillance. Défaut et rachat d'office : le DC informe la BVMAC ; la BVMAC peut déclarer la SDB défaillante ; une SDB défaillante ne peut faire que des opérations liquidatives pour ses clients après autorisation. Tarification : conditions incitatives pour PME et grandes opérations. Instruction 3 : commission d'introduction (0,08 % de la capitalisation pour les actions, 0,04 % pour les obligations, avant la première cotation), commission de capitalisation annuelle (0,08 % / 0,04 %), courtage 0,3 % du volume (SDB), redevance de siège 2 000 000 FCFA/an."
+   },
+   "fiches": [
+    {
+     "titre": "Offres publiques : règles générales et OPV (art. 195 à 206)",
+     "contenu": "- **Offre publique** : toute procédure par laquelle une personne, seule ou de concert, **se propose publiquement d'acquérir, de vendre ou d'échanger** des titres admis à un marché réglementé de la CEMAC\n- Dès le **dépôt du projet à la COSUMAF**, la BVMAC **suspend la cotation** jusqu'à l'ouverture de la période d'offre\n- **OPV** : **document d'information visé par la COSUMAF** ; l'OPV porte sur **≥ 10 % des titres de capital de même nature** ou **≥ 100 000 titres** (à condition que ce soit **> 5 %**), sauf dérogation ; clauses statutaires de **préemption et d'agrément réputées non écrites** pendant l'offre (titres non cotés)\n- Projet déposé par la **SDB chef de file**, qui garantit le **caractère irrévocable** des engagements (effet à la parution de l'avis) ; la COSUMAF peut exiger une **caution** ou le **dépôt préalable des titres**\n- La COSUMAF publie un **avis de dépôt** et se prononce sur la **recevabilité dans les 5 jours de bourse** (principe de l'opération) ; communication **au plus tard 4 jours de bourse avant** l'offre ; **période d'offre ≥ 3 jours de bourse**\n- Avec autorisation et si annoncé : **quantité minimale** pour une suite positive, ou **augmentation du nombre de titres cédés jusqu'à 25 %**\n- Le jour de l'offre, la bourse centralise les ordres : seuls les **ordres à prix ferme, limités au prix d'offre, valables jour** sont acceptés\n- **Reprise de la cotation 2 jours de bourse** après l'avis d'ouverture ou d'irrecevabilité\n- Placement garanti parallèle possible si l'OPV porte sur **≥ 20 % du capital** ou **500 M FCFA**, à un prix **au moins égal** au prix de l'OPV\n- Résultat : état récapitulatif à la COSUMAF, Avis au BOC"
+    },
+    {
+     "titre": "Opérations de contrepartie (art. 207 à 214)",
+     "contenu": "- **Contrepartie ordinaire** : la SDB achète ou vend **pour son compte propre**, soit en passant un ordre sans ordre externe, soit en **achetant des titres à un client entre deux séances** (alors **ordre de débouclement dès la séance suivante**)\n- **Seules les SDB** peuvent contrepartir les ordres de la clientèle ; elles **informent le client** et émettent un **avis d'opéré au prix net, sans courtage ni commissions**\n- Tous les titres de la Cote Permanente sont éligibles ; **interdite** sur valeur **suspendue** ou dont le déséquilibre a empêché une cotation **équilibrée** (sans coefficient de réduction) lors de la dernière séance, sauf autorisation par Avis\n- La BVMAC reçoit les **déclarations** des contreparties et en contrôle la régularité\n- **Contrepartie en régularisation de marché** : **seule la SDB spécialiste** de la valeur y est habilitée, pour assurer la **continuité des cotations et la liquidité** ; opérations enregistrées dans des **comptes spécifiques valeur par valeur**"
+    },
+    {
+     "titre": "Transactions sur dossier et acheté-vendu (art. 215 à 223)",
+     "contenu": "**Transaction sur dossier** : négociation **préalablement convenue** (client–SDB ou SDB–SDB), enregistrée par la BVMAC, non issue d'un ordre de marché. Admise pour :\n1. transfert d'un portefeuille lors d'une **fusion, acquisition, absorption ou scission**\n2. **restructuration** mère–filiale\n3. actions de garantie transférées entre **administrateurs**\n4. **cession gratuite ou onéreuse entre ascendants et descendants jusqu'au 3e degré, ou entre époux**\n5. **rétrocession dans un portage**\n6. toute autre opération agréée\n\n- Demande par la SDB du cédant ; **ordres écrits, datés, signés** : mention **« pour transaction sur dossier »**, cédant et acquéreur, valeur, nombre, **prix proche du cours de clôture de la veille à ±5 %**, raisons, SDB représentantes ; **attestation de transaction sur dossier** délivrée par la BVMAC ; livraison selon les règles du DC\n\n**Acheté-vendu** : la SDB fait l'intermédiaire entre ses donneurs d'ordres **sans présenter d'ordre**, pour un montant **dépassant les capacités habituelles du marché** ; **seuils minimaux** :\n| Cours | Montant minimal |\n|---|---|\n| 1 à 1 000 FCFA | **500 millions** |\n| 1 005 à 20 000 | **1 milliard** |\n| 20 005 à 50 000 | **3 milliards** |\n| 50 005 à 100 000 | **4 milliards** |\n| > 100 000 | **5 milliards** |"
+    },
+    {
+     "titre": "Transactions de bloc, défaut et rachat d'office (art. 224 à 232)",
+     "contenu": "- **Transaction de bloc** : par **entente directe** entre SDB acheteuse et vendeuse, **hors du carnet central**, pour **au moins 10 000 actions ou 100 000 obligations**\n- **Interdite** sur valeur suspendue (sauf autorisation expresse par Avis) ; **déclarée à la BVMAC**, qui informe **sans délai la COSUMAF** ; **annulée** en cas de défaillance d'une partie au dénouement (COSUMAF informée) ; la bourse contrôle la régularité et intègre les blocs aux statistiques\n- **Défaut** : quand une SDB ne dénoue pas dans le délai du DC, le **DC informe la BVMAC**, qui peut **déclarer la SDB défaillante** et procéder à un **rachat d'office** (modalités par Instruction)\n- Une SDB défaillante ne peut faire **que des opérations liquidatives pour le compte de clients**, après **requête écrite motivée** à la BVMAC"
+    },
+    {
+     "titre": "Tarification et dispositions finales (art. 233 à 237, Instruction n° 3)",
+     "contenu": "- Les tarifs relèvent de la **tarification générale du marché financier régional** ; **conditions dérogatoires incitatives** pour les émetteurs d'une certaine taille ou du **compartiment PME** (Instruction)\n- **Instruction n° 3 (2013)** — tarification de l'entreprise de marché :\n  - **Commission d'introduction** (émetteur, une fois, **avant la première cotation**) : **0,08 %** de la capitalisation (actions), **0,04 %** (obligations)\n  - **Commission de capitalisation** (émetteur, annuelle, prorata temporis) : **0,08 %** (actions, facturée **trimestriellement** sur la capitalisation moyenne) / **0,04 %** (obligations, facturée globalement sur la durée de vie selon le tableau d'amortissement)\n  - **Commission de courtage** (SDB, après chaque séance) : **0,3 %** du volume négocié\n  - **Redevance de siège** (SDB, annuelle forfaitaire) : **2 000 000 FCFA**\n- Comparer avec la tarification COSUMAF 23-24 (cf. pack Instructions)\n- Le RG de la BVMAC peut être modifié avec **autorisation préalable de la COSUMAF** et publication ; notifications par tout moyen reproduisant l'écrit ; **entrée en vigueur 30 jours après l'approbation**"
+    }
+   ],
+   "mnemos": [
+    "OPV : 10 % (ou 100 000 titres si > 5 %) · 5 j de bourse (recevabilité) · 3 j (offre) · 25 % (extension). Dossier : ±5 %. Bloc : 10 000 actions / 100 000 obligations. Acheté-vendu : 500 M → 5 Md. 0,08 % / 0,04 % / 0,3 % / 2 M."
+   ],
+   "definitions": [
+    {
+     "terme": "Commission de capitalisation",
+     "definition": "Commission annuelle payée par l'émetteur sur la capitalisation de ses titres cotés."
+    },
+    {
+     "terme": "Portage",
+     "definition": "Opération où des actions sont détenues temporairement pour autrui puis rétrocédées ; rétrocession possible sur dossier."
+    },
+    {
+     "terme": "Transaction de bloc",
+     "definition": "Transaction par entente directe d'au moins 10 000 actions ou 100 000 obligations, hors carnet central."
+    },
+    {
+     "terme": "Rachat d'office",
+     "definition": "Mesure prise par la BVMAC lorsqu'une SDB ne dénoue pas une transaction dans le délai du Dépositaire Central."
+    },
+    {
+     "terme": "Avis d'opéré",
+     "definition": "Avis délivré au client en cas de contrepartie, au prix net, sans courtage ni commissions."
+    },
+    {
+     "terme": "Transaction sur dossier",
+     "definition": "Transaction préalablement convenue, enregistrée par la BVMAC sans passage par le carnet d'ordres, dans des cas limitativement prévus."
+    },
+    {
+     "terme": "OPV (offre publique de vente)",
+     "definition": "Offre publique par laquelle l'initiateur propose de céder des titres admis à la cote ou négociés hors cote, avec visa de la COSUMAF."
+    },
+    {
+     "terme": "Acheté-vendu",
+     "definition": "Négociation où une SDB sert d'intermédiaire entre deux donneurs d'ordres sans présenter d'ordre au marché."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Possibilité d'augmenter une OPV ?",
+     "verso": "Jusqu'à 25 % du nombre total de titres cédés, si prévu et autorisé."
+    },
+    {
+     "recto": "Intervalle de prix d'une transaction sur dossier ?",
+     "verso": "±5 % du cours de clôture de la veille."
+    },
+    {
+     "recto": "Quel est le régime de l'OPV ?",
+     "verso": "Document visé par la COSUMAF, ≥ 10 % des titres (ou 100 000 si > 5 %), SDB chef de file, recevabilité en 5 jours de bourse, période ≥ 3 jours de bourse, reprise de la cotation 2 jours après."
+    },
+    {
+     "recto": "Qui informe la BVMAC d'un défaut de dénouement ?",
+     "verso": "Le Dépositaire Central."
+    },
+    {
+     "recto": "Quels cas de transaction sur dossier ?",
+     "verso": "Fusion ou scission, restructuration mère-filiale, actions de garantie d'administrateurs, cession entre proches ou époux, rétrocession dans un portage."
+    },
+    {
+     "recto": "Qu'est-ce que la contrepartie ?",
+     "verso": "Opération où la SDB achète ou vend pour son compte propre ; seules les SDB y sont habilitées, avec avis d'opéré au prix net."
+    },
+    {
+     "recto": "Quel avis pour une contrepartie ?",
+     "verso": "Avis d'opéré au prix net, sans courtage ni commission."
+    },
+    {
+     "recto": "Qu'est-ce que la régularisation de marché ?",
+     "verso": "Contrepartie réservée à la SDB spécialiste de la valeur pour assurer la continuité des cotations, en comptes spécifiques."
+    },
+    {
+     "recto": "Courtage BVMAC et redevance de siège ?",
+     "verso": "0,3 % du volume de négociation ; 2 000 000 FCFA par an."
+    },
+    {
+     "recto": "Quand reprend la cotation après une OPV ?",
+     "verso": "2 jours de bourse après l'avis d'ouverture ou d'irrecevabilité."
+    },
+    {
+     "recto": "Qui peut contrepartir les ordres des clients ?",
+     "verso": "Uniquement les sociétés de bourse."
+    },
+    {
+     "recto": "Seuil d'une transaction de bloc ?",
+     "verso": "10 000 actions ou 100 000 obligations."
+    },
+    {
+     "recto": "Cessions éligibles à la transaction sur dossier entre proches ?",
+     "verso": "Entre ascendants et descendants jusqu'au 3e degré, ou entre époux."
+    },
+    {
+     "recto": "Commission d'introduction de la BVMAC ?",
+     "verso": "0,08 % de la capitalisation (actions) ; 0,04 % (obligations) ; payée avant la première cotation."
+    },
+    {
+     "recto": "Seuil d'acheté-vendu pour un cours entre 20 005 et 50 000 FCFA ?",
+     "verso": "3 milliards de FCFA."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Recevabilité d'une OPV : la COSUMAF se prononce dans les...",
+     "choix": [
+      "24 h",
+      "5 jours de bourse",
+      "30 jours",
+      "60 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 202."
+    },
+    {
+     "q": "Prix d'une transaction sur dossier :",
+     "choix": [
+      "±1 %",
+      "±10 %",
+      "±5 %",
+      "Libre"
+     ],
+     "bonne": 2,
+     "explication": "Art. 218."
+    },
+    {
+     "q": "Une transaction de bloc :",
+     "choix": [
+      "Passe par le carnet central comme les autres ordres",
+      "Est interdite en toutes circonstances",
+      "Se fait hors carnet central par entente directe",
+      "Est réservée aux seuls OPC agréés"
+     ],
+     "bonne": 2,
+     "explication": "Art. 224-225."
+    },
+    {
+     "q": "Seuil d'une transaction de bloc (actions) :",
+     "choix": [
+      "1 000",
+      "10 000",
+      "5 000",
+      "100 000"
+     ],
+     "bonne": 1,
+     "explication": "Art. 226."
+    },
+    {
+     "q": "L'avis d'opéré en contrepartie est libellé...",
+     "choix": [
+      "Avec courtage",
+      "Au prix net sans courtage ni commission",
+      "Au cours moyen",
+      "En pourcentage"
+     ],
+     "bonne": 1,
+     "explication": "Art. 208."
+    },
+    {
+     "q": "Commission d'introduction pour des actions :",
+     "choix": [
+      "0,08 %",
+      "0,04 %",
+      "0,3 %",
+      "1 %"
+     ],
+     "bonne": 0,
+     "explication": "Instruction n° 3."
+    },
+    {
+     "q": "Une SDB défaillante peut...",
+     "choix": [
+      "Tout faire, comme une SDB en situation normale",
+      "Rien du tout jusqu'à sa radiation",
+      "Négocier pour son compte propre",
+      "Faire seulement des opérations liquidatives pour ses clients"
+     ],
+     "bonne": 3,
+     "explication": "Art. 232."
+    },
+    {
+     "q": "Dès le dépôt d'un projet d'offre publique à la COSUMAF, la BVMAC :",
+     "choix": [
+      "continue la cotation jusqu'à la clôture de l'offre",
+      "radie immédiatement le titre de la cote",
+      "fixe elle-même le prix de l'offre",
+      "suspend la cotation jusqu'à l'ouverture de la période d'offre"
+     ],
+     "bonne": 3,
+     "explication": "Art. 195-196."
+    },
+    {
+     "q": "Le projet d'OPV est déposé par :",
+     "choix": [
+      "l'émetteur seul, sans intermédiaire",
+      "la COSUMAF, à titre exclusif",
+      "la BEAC, banque de règlement",
+      "la SDB chef de file, qui garantit le caractère irrévocable des engagements"
+     ],
+     "bonne": 3,
+     "explication": "La COSUMAF peut exiger une caution ou le dépôt préalable des titres."
+    },
+    {
+     "q": "La communication de l'OPV se fait au plus tard :",
+     "choix": [
+      "2 jours de bourse avant",
+      "10 jours de bourse avant",
+      "4 jours de bourse avant l'offre",
+      "30 jours avant"
+     ],
+     "bonne": 2,
+     "explication": "Période d'offre ≥ 3 jours de bourse."
+    },
+    {
+     "q": "La période d'offre d'une OPV est d'au moins :",
+     "choix": [
+      "3 jours de bourse",
+      "1 jour de bourse",
+      "5 jours de bourse",
+      "10 jours de bourse"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Avec autorisation et si annoncé, le nombre de titres cédés peut être augmenté jusqu'à :",
+     "choix": [
+      "10 %",
+      "15 %",
+      "50 %",
+      "25 %"
+     ],
+     "bonne": 3,
+     "explication": "Ou fixer une quantité minimale pour une suite positive."
+    },
+    {
+     "q": "Le jour de l'OPV, seuls sont acceptés les ordres :",
+     "choix": [
+      "au marché, sans limite de prix",
+      "à cours limité libre, sans prix d'offre",
+      "à prix ferme, limités au prix d'offre, valables jour",
+      "à durée déterminée de plusieurs séances"
+     ],
+     "bonne": 2,
+     "explication": ""
+    },
+    {
+     "q": "La cotation reprend après une OPV :",
+     "choix": [
+      "5 jours de bourse après l'avis",
+      "10 jours de bourse après l'avis",
+      "2 jours de bourse après l'avis d'ouverture ou d'irrecevabilité",
+      "le jour même de l'avis d'ouverture"
+     ],
+     "bonne": 2,
+     "explication": ""
+    },
+    {
+     "q": "Un placement garanti parallèle à l'OPV est possible si l'OPV porte sur :",
+     "choix": [
+      "au moins 5 %",
+      "au moins 20 % du capital ou 500 M FCFA",
+      "au moins 10 M",
+      "au moins 1 Md"
+     ],
+     "bonne": 1,
+     "explication": "À un prix au moins égal au prix de l'OPV."
+    },
+    {
+     "q": "Qui peut contrepartir les ordres de la clientèle ?",
+     "choix": [
+      "Les banques",
+      "Les SGO",
+      "Les CIF",
+      "Seules les SDB"
+     ],
+     "bonne": 3,
+     "explication": "Elles informent le client et émettent un avis d'opéré au prix net."
+    },
+    {
+     "q": "Lorsqu'une SDB achète des titres d'un client entre deux séances :",
+     "choix": [
+      "elle les conserve dans son portefeuille",
+      "elle les vend hors marché à un tiers",
+      "elle passe un ordre de débouclement dès la séance suivante",
+      "elle annule l'opération le jour même"
+     ],
+     "bonne": 2,
+     "explication": "Contrepartie ordinaire."
+    },
+    {
+     "q": "La contrepartie est interdite sur :",
+     "choix": [
+      "toute valeur cotée, sans exception",
+      "les obligations du compartiment C",
+      "une valeur suspendue ou ayant connu un déséquilibre empêchant une cotation équilibrée",
+      "les parts d'OPC du compartiment D"
+     ],
+     "bonne": 2,
+     "explication": "Sauf autorisation par Avis."
+    },
+    {
+     "q": "Qui peut faire de la contrepartie en régularisation de marché ?",
+     "choix": [
+      "toute SDB",
+      "La seule SDB spécialiste de la valeur",
+      "la BVMAC",
+      "un CIF"
+     ],
+     "bonne": 1,
+     "explication": "Comptes spécifiques valeur par valeur."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle négociation contrôlée ?",
+     "buckets": [
+      "Contrepartie",
+      "Transaction sur dossier",
+      "Acheté-vendu",
+      "Transaction de bloc"
+     ],
+     "items": [
+      {
+       "t": "La SDB achète des titres à un client entre deux séances et débouclera sa position à la séance suivante.",
+       "b": 0,
+       "why": "Art. 207."
+      },
+      {
+       "t": "Cession entre époux ou entre ascendants et descendants jusqu'au 3e degré.",
+       "b": 1,
+       "why": "Art. 216."
+      },
+      {
+       "t": "Montant dépassant les capacités habituelles du marché, seuil de 500 M à 5 Md selon le cours.",
+       "b": 2,
+       "why": "Art. 221-222."
+      },
+      {
+       "t": "Au moins 10 000 actions ou 100 000 obligations, par entente directe hors carnet central.",
+       "b": 3,
+       "why": "Art. 224-226."
+      },
+      {
+       "t": "Prix à ±5 % du cours de clôture de la veille.",
+       "b": 1,
+       "why": "Art. 218."
+      }
+     ]
+    },
+    {
+     "titre": "Quelle opération négociée ?",
+     "buckets": [
+      "Transaction sur dossier",
+      "Transaction de bloc",
+      "Acheté-vendu",
+      "Contrepartie"
+     ],
+     "items": [
+      {
+       "t": "Cession gratuite entre époux au prix proche du cours de clôture à ±5 %.",
+       "b": 0,
+       "why": "Sur dossier."
+      },
+      {
+       "t": "Entente directe entre deux SDB pour 100 000 obligations.",
+       "b": 1,
+       "why": "Bloc."
+      },
+      {
+       "t": "SDB intermédiaire entre ses clients sans présenter d'ordre, pour plus d'1 Md sur un cours de 15 000.",
+       "b": 2,
+       "why": "Acheté-vendu."
+      },
+      {
+       "t": "SDB qui achète les titres d'un client pour son compte propre.",
+       "b": 3,
+       "why": "Contrepartie."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "L'OPV porte sur au moins {{10}} % des titres de même nature, ou {{100 000}} titres si ce nombre dépasse 5 %.",
+    "La commission d'introduction de la BVMAC est de {{0,08}} % de la capitalisation pour les actions.",
+    "Une transaction sur dossier est conclue à ±{{5}} % du cours de clôture de la veille.",
+    "Une OPV porte sur au moins {{10}} % des titres de même nature ; la COSUMAF statue sur sa recevabilité dans les {{5}} jours de bourse.",
+    "La COSUMAF se prononce sur la recevabilité d'une OPV dans les {{5}} jours de bourse."
+   ],
+   "schemas": [
+    {
+     "titre": "Les négociations contrôlées",
+     "type": "table",
+     "legende": "Quatre procédures hors du carnet ordinaire.",
+     "cols": [
+      "Procédure",
+      "Principe",
+      "Seuil / condition"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Contrepartie",
+        "b": true,
+        "c": "#ffe14a"
+       },
+       "La SDB négocie pour son compte face à un client",
+       "Avis d'opéré au prix net ; spécialiste seul pour la régularisation"
+      ],
+      [
+       {
+        "t": "Transaction sur dossier",
+        "b": true,
+        "c": "#8fd0ff"
+       },
+       "Négociation préalablement convenue",
+       "Prix à ±5 % du cours de clôture ; cas limités (fusion, famille, portage…)"
+      ],
+      [
+       {
+        "t": "Acheté-vendu",
+        "b": true,
+        "c": "#a9f0d0"
+       },
+       "La SDB intermédie sans ordre",
+       "500 M à 5 Md selon le cours"
+      ],
+      [
+       {
+        "t": "Bloc",
+        "b": true,
+        "c": "#ffb8d1"
+       },
+       "Entente directe hors carnet central",
+       "10 000 actions ou 100 000 obligations"
+      ]
+     ]
+    },
+    {
+     "titre": "Calendrier d'une OPV",
+     "type": "timeline",
+     "legende": "Du dépôt à la reprise de la cotation.",
+     "events": [
+      {
+       "d": "Dépôt",
+       "t": "Projet à la COSUMAF",
+       "s": "Par la SDB chef de file ; la BVMAC suspend la cotation."
+      },
+      {
+       "d": "+5 j de bourse",
+       "t": "Recevabilité",
+       "s": "La COSUMAF se prononce sur le principe de l'opération."
+      },
+      {
+       "d": "≥ 4 j avant",
+       "t": "Communication",
+       "s": "Publication de l'offre au marché."
+      },
+      {
+       "d": "≥ 3 j de bourse",
+       "t": "Période d'offre",
+       "s": "Ordres à prix ferme, limités au prix d'offre, valables jour."
+      },
+      {
+       "d": "+2 j de bourse",
+       "t": "Reprise",
+       "s": "La cotation reprend après l'avis d'ouverture ou d'irrecevabilité."
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g12-offres-publiques",
+   "titre": "Essentiel · 12 · Les offres publiques : OPA/OPE, offre simplifiée, seuil du tiers, OPR, garantie de cours (art. 212 à 239)",
+   "resume": {
+    "court": "L'offre dure 45 jours calendaires au plus et vise la totalité des titres ; dépôt par une société de bourse, suspension de la cotation jusqu'à l'ouverture. Offre concurrente : meilleure et déposée au moins 10 jours avant la fin de l'offre initiale. Offre simplifiée dès 2/3 du capital. Au-delà du tiers du capital : dépôt obligatoire d'une offre. OPR à 95 %. Six mois d'interdiction après renonciation.",
+    "moyen": "Périodes : pré-offre (de la déclaration d'intention à l'offre), offre (de la publication des principales dispositions à la publication des résultats), durée de l'offre ≤ 45 jours calendaires sauf circonstances exceptionnelles. L'offre vise la totalité des titres de capital et de créance de la société visée ; les clauses d'accord ayant une incidence sont rendues publiques ; l'initiateur et la société visée préservent l'intérêt social et l'égalité de traitement ; aucune clause d'agrément statutaire n'est opposable à l'initiateur. La COSUMAF peut demander à qui prépare une offre d'informer le public ; la personne qui renonce ou ne dépose pas dans le délai ne peut déposer d'offre pendant 6 mois. OPA/OPE : dossier déposé par une SDB (lettre et projet de DI visé), suspension de la cotation jusqu'à l'ouverture ; offre hostile : DI en réponse visé ; offres concurrentes améliorant les conditions, déposées au moins 10 jours calendaires avant la fin de l'offre initiale ; procédure simplifiée : ≥ deux tiers du capital et engagement d'acquérir sans limitation (aussi rachat par la société de ses titres). Seuil du tiers : toute personne détenant plus du tiers du capital en informe sans délai la COSUMAF et dépose un projet d'offre sur la totalité du capital ; entre le tiers et la moitié : information des variations. Garantie de cours pour toute acquisition d'un bloc de contrôle ; OPR à 95 % pour acquérir le solde de 5 % ; OPV ou offre à prix ferme : règlement de la BVMAC, recevabilité appréciée par la BVMAC.",
+    "long": "Périodes : pré-offre (de la déclaration d'intention à l'offre), offre (de la publication des principales dispositions à la publication des résultats), durée de l'offre ≤ 45 jours calendaires sauf circonstances exceptionnelles. L'offre vise la totalité des titres de capital et de créance de la société visée ; les clauses d'accord ayant une incidence sont rendues publiques ; l'initiateur et la société visée préservent l'intérêt social et l'égalité de traitement ; aucune clause d'agrément statutaire n'est opposable à l'initiateur. La COSUMAF peut demander à qui prépare une offre d'informer le public ; la personne qui renonce ou ne dépose pas dans le délai ne peut déposer d'offre pendant 6 mois. OPA/OPE : dossier déposé par une SDB (lettre et projet de DI visé), suspension de la cotation jusqu'à l'ouverture ; offre hostile : DI en réponse visé ; offres concurrentes améliorant les conditions, déposées au moins 10 jours calendaires avant la fin de l'offre initiale ; procédure simplifiée : ≥ deux tiers du capital et engagement d'acquérir sans limitation (aussi rachat par la société de ses titres). Seuil du tiers : toute personne détenant plus du tiers du capital en informe sans délai la COSUMAF et dépose un projet d'offre sur la totalité du capital ; entre le tiers et la moitié : information des variations. Garantie de cours pour toute acquisition d'un bloc de contrôle ; OPR à 95 % pour acquérir le solde de 5 % ; OPV ou offre à prix ferme : règlement de la BVMAC, recevabilité appréciée par la BVMAC."
+   },
+   "fiches": [
+    {
+     "titre": "Les périodes et la durée (art. 212)",
+     "contenu": "1. **Période de pré-offre** : entre la publication de la **déclaration d'intention** et le **début de la période d'offre**\n2. **Période d'offre** : entre la publication des **principales dispositions du projet** (déposées à la COSUMAF) et la publication des **résultats** (ou de la réouverture)\n3. **Durée de l'offre** : entre la date d'**ouverture** et la date de **clôture** ; sauf circonstances exceptionnelles justifiées : **≤ 45 jours calendaires**"
+    },
+    {
+     "titre": "Principes à respecter (art. 213 à 216)",
+     "contenu": "- Dès le dépôt, toute **clause d'accord** pouvant influer sur l'offre ou son issue est portée à la connaissance des personnes concernées, de la COSUMAF et du public\n- L'offre vise la **totalité des titres de capital et de créance** de la société visée\n- Pendant l'offre, initiateur et société visée veillent à l'**intérêt social** et à l'**égalité de traitement ou d'information** ; si le CA décide d'une mesure pouvant **faire échouer l'offre**, il en **informe la COSUMAF**\n- **Aucune clause d'agrément statutaire** ne peut être opposée à l'initiateur"
+    },
+    {
+     "titre": "Déclarations, intentions et délai de 6 mois (art. 217 à 222)",
+     "contenu": "- **Communications promotionnelles** : transmises **préalablement** à la COSUMAF ; annoncent qu'une **note d'information** ou une **note en réponse** a été/sera publiée ; clairement reconnaissables ; non trompeuses ; cohérentes\n- La COSUMAF peut demander à ceux qui préparent une offre (seuls ou de concert) d'**informer le public de leurs intentions** dans un délai qu'elle fixe (ex. discussions entre émetteurs, désignation de conseils)\n- Si une personne **déclare ne pas avoir l'intention** de déposer une offre, ou est **réputée** ne pas l'avoir (non-dépôt dans le délai fixé), elle **ne peut déposer d'offre pendant 6 mois**, sauf **modifications importantes** de l'environnement, de la situation ou de l'actionnariat"
+    },
+    {
+     "titre": "Offre publique d'achat ou d'échange (art. 223 à 229)",
+     "contenu": "- **OPA/OPE** : offre d'**acheter ou d'échanger**, à un **prix indiqué**, les titres d'une société admise à la **cote de la BVMAC**\n- **Dossier** déposé par **une ou plusieurs sociétés de bourse** : lettre (objectifs et intentions) + **projet de DI soumis au visa**, envoyé le même jour à la société visée\n- Le **dépôt** entraîne la **suspension de la cotation** des titres visés jusqu'à l'ouverture de la période d'offre ; la COSUMAF publie les principales modalités\n- **Offre inamicale** : la société visée établit un **document en réponse**, soumis au visa\n- **Offres concurrentes** possibles : seulement si elles **améliorent le prix ou la parité** et sont déposées **au moins 10 jours calendaires avant l'expiration** du délai de réception des ordres de l'offre initiale ; DI visé comme l'offre initiale"
+    },
+    {
+     "titre": "Offre publique simplifiée (art. 230 à 232)",
+     "contenu": "La COSUMAF peut l'autoriser quand l'initiateur détient déjà, seul ou de concert, **au moins les deux tiers (2/3) du capital** de la société visée **et** s'engage à **acquérir sans limitation** les titres présentés. Également autorisée pour l'**offre de rachat de ses propres titres par une société**.\n\nL'initiateur s'engage **irrévocablement** auprès de la COSUMAF à acquérir sur le marché ou accepter en échange toute quantité de titres proposée ; documents d'information soumis au **visa préalable**."
+    },
+    {
+     "titre": "Seuil du tiers et dépôt obligatoire (art. 233 à 235)",
+     "contenu": "- Toute personne qui vient à détenir **plus du tiers du capital** d'une société admise à la négociation en informe **sans délai** la COSUMAF et doit **déposer un projet d'offre publique visant la totalité du capital**, à des conditions telles qu'il puisse être **déclaré recevable**\n- Entre **le tiers et la moitié** du capital : informer **sans délai** la COSUMAF des **variations** du nombre de titres ; ces informations sont **publiées** par la COSUMAF\n- Les **dérogations** à l'obligation de dépôt sont déterminées par la COSUMAF"
+    },
+    {
+     "titre": "Garantie de cours, OPR, OPV (art. 236 à 239)",
+     "contenu": "- **Garantie de cours** : applicable à tout acquéreur d'un **bloc de titres conférant une position de contrôle** ; projet de DI soumis au visa\n- **Offre publique de retrait** : actionnaire ou groupe détenant **95 %** du capital : acquisition de la totalité du **solde minoritaire de 5 %** ; DI visé et publié\n- **Offres publiques de vente (OPV) ou offres à prix ferme** : conditions définies par le **Règlement Général de la BVMAC** ; l'initiateur établit un DI soumis **au visa préalable** de la COSUMAF (éventuellement conjoint avec la société dont les titres sont offerts) ; la **recevabilité relève de la BVMAC**, qui apprécie le **prix** et sa cohérence avec les conditions du marché"
+    }
+   ],
+   "mnemos": [
+    "Offres : 45 jours (durée) · 10 jours (offre concurrente) · 6 mois (silence après renonciation) · 2/3 (simplifiée) · 1/3 (offre obligatoire) · 95 % / 5 % (OPR)."
+   ],
+   "definitions": [
+    {
+     "terme": "Période de pré-offre",
+     "definition": "Temps entre la publication de la déclaration d'intention et le début de la période d'offre."
+    },
+    {
+     "terme": "OPV / offre à prix ferme",
+     "definition": "Offre de vente de titres dont les conditions sont fixées par le Règlement Général de la BVMAC ; recevabilité appréciée par la BVMAC."
+    },
+    {
+     "terme": "Garantie de cours",
+     "definition": "Procédure applicable à l'acquéreur d'un bloc conférant le contrôle, permettant aux autres actionnaires de céder à un prix garanti."
+    },
+    {
+     "terme": "OPR",
+     "definition": "Offre publique de retrait visant à acquérir le solde minoritaire de 5 % lorsqu'un actionnaire détient 95 % du capital."
+    },
+    {
+     "terme": "Offre publique simplifiée",
+     "definition": "Procédure allégée autorisée quand l'initiateur détient déjà au moins les deux tiers du capital et s'engage à acquérir sans limitation les titres présentés."
+    },
+    {
+     "terme": "Offre concurrente",
+     "definition": "Offre déposée par un tiers, qui doit améliorer le prix ou la parité de la première et être déposée au moins 10 jours calendaires avant son expiration."
+    },
+    {
+     "terme": "Période de réception des ordres",
+     "definition": "Période pendant laquelle les actionnaires présentent leurs titres à l'offre ; une offre concurrente doit être déposée 10 jours calendaires avant son expiration."
+    },
+    {
+     "terme": "Offre à prix ferme",
+     "definition": "Offre de vente de titres à prix déterminé, régie par le RG de la BVMAC."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que déclare-t-on entre le tiers et la moitié du capital ?",
+     "verso": "Les variations du nombre de titres, sans délai ; la COSUMAF les publie."
+    },
+    {
+     "recto": "Qu'est-ce que la garantie de cours ?",
+     "verso": "L'offre due par l'acquéreur d'un bloc de titres conférant une position de contrôle, avec DI soumis au visa."
+    },
+    {
+     "recto": "Quand l'offre simplifiée est-elle possible ?",
+     "verso": "Quand l'initiateur détient au moins deux tiers du capital et s'engage à acquérir sans limitation les titres présentés."
+    },
+    {
+     "recto": "Quelle information entre le tiers et la moitié ?",
+     "verso": "Déclarer sans délai les variations du nombre de titres, publiées par la COSUMAF."
+    },
+    {
+     "recto": "À partir de quelle détention l'offre simplifiée est-elle autorisée ?",
+     "verso": "Au moins les deux tiers (2/3) du capital, avec engagement d'acquérir sans limitation."
+    },
+    {
+     "recto": "Quand une offre concurrente peut-elle être déposée ?",
+     "verso": "Si elle améliore les conditions et au moins 10 jours calendaires avant l'expiration du délai de réponse à l'offre initiale."
+    },
+    {
+     "recto": "Quels principes pendant l'offre ?",
+     "verso": "Intérêt social, égalité de traitement et d'information, information de la COSUMAF si le CA prend une mesure pouvant faire échouer l'offre."
+    },
+    {
+     "recto": "Que doit faire celui qui détient plus du tiers du capital ?",
+     "verso": "Informer sans délai la COSUMAF et déposer un projet d'offre visant la totalité du capital."
+    },
+    {
+     "recto": "Après renonciation à une offre, quelle interdiction ?",
+     "verso": "Pas de nouveau dépôt pendant 6 mois, sauf modifications importantes."
+    },
+    {
+     "recto": "Durée maximale d'une offre publique ?",
+     "verso": "45 jours calendaires (sauf circonstances exceptionnelles justifiées)."
+    },
+    {
+     "recto": "Comment se déroule une OPA ou OPE ?",
+     "verso": "Dépôt par des SDB d'une lettre et du projet de DI visé, suspension de la cotation, ouverture de la période d'offre ; document en réponse en cas d'offre inamicale."
+    },
+    {
+     "recto": "Une clause d'agrément statutaire est-elle opposable à l'initiateur ?",
+     "verso": "Non, jamais."
+    },
+    {
+     "recto": "Que vise l'OPR ?",
+     "verso": "Acquérir le solde minoritaire de 5 % quand un actionnaire ou groupe détient 95 %."
+    },
+    {
+     "recto": "Sur quoi doit porter l'offre publique ?",
+     "verso": "La totalité des titres de capital et de créance de la société visée."
+    },
+    {
+     "recto": "Qui apprécie la recevabilité d'une OPV ?",
+     "verso": "La BVMAC (prix et cohérence avec le marché), le DI étant visé par la COSUMAF."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Durée maximale d'une offre ?",
+     "choix": [
+      "15 jours",
+      "30 jours",
+      "45 jours calendaires",
+      "90 jours"
+     ],
+     "bonne": 2,
+     "explication": "Art. 212."
+    },
+    {
+     "q": "Seuil déclenchant le dépôt obligatoire d'une offre ?",
+     "choix": [
+      "10 %",
+      "Le tiers (33,33 %)",
+      "50 %",
+      "66 %"
+     ],
+     "bonne": 1,
+     "explication": "Art. 233."
+    },
+    {
+     "q": "Offre simplifiée : détention préalable minimale ?",
+     "choix": [
+      "Un tiers",
+      "Les deux tiers",
+      "La moitié",
+      "95 %"
+     ],
+     "bonne": 1,
+     "explication": "Art. 230."
+    },
+    {
+     "q": "Une offre concurrente doit être déposée au moins...",
+     "choix": [
+      "5 jours calendaires avant la fin de l'offre initiale",
+      "30 jours calendaires avant l'expiration de l'offre initiale",
+      "après la clôture de l'offre initiale",
+      "10 jours calendaires avant l'expiration de l'offre initiale"
+     ],
+     "bonne": 3,
+     "explication": "Art. 228."
+    },
+    {
+     "q": "Après avoir déclaré ne pas vouloir déposer d'offre, on attend...",
+     "choix": [
+      "1 mois",
+      "3 mois",
+      "1 an",
+      "6 mois"
+     ],
+     "bonne": 3,
+     "explication": "Art. 222."
+    },
+    {
+     "q": "Qui dépose le dossier d'offre à la COSUMAF ?",
+     "choix": [
+      "La société visée",
+      "La BEAC",
+      "Le Dépositaire Central",
+      "Une ou plusieurs sociétés de bourse"
+     ],
+     "bonne": 3,
+     "explication": "Art. 224."
+    },
+    {
+     "q": "La période de pré-offre se situe entre :",
+     "choix": [
+      "le dépôt du projet et la clôture de l'offre",
+      "le visa du document et l'ouverture de l'offre",
+      "l'ouverture et la clôture de l'offre",
+      "la déclaration d'intention et le début de la période d'offre"
+     ],
+     "bonne": 3,
+     "explication": "Art. 212."
+    },
+    {
+     "q": "La période d'offre court entre :",
+     "choix": [
+      "la publication des principales dispositions du projet et la publication des résultats",
+      "la déclaration d'intention et le visa du document",
+      "le visa du document et la clôture de l'offre",
+      "l'ouverture de l'offre et sa réouverture éventuelle"
+     ],
+     "bonne": 0,
+     "explication": "Art. 212."
+    },
+    {
+     "q": "L'offre publique vise :",
+     "choix": [
+      "la totalité des titres de capital et de créance de la société visée",
+      "uniquement les actions de la société visée",
+      "uniquement les obligations de la société visée",
+      "une partie des titres choisie par l'initiateur"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Si le CA décide d'une mesure pouvant faire échouer l'offre, il :",
+     "choix": [
+      "demande l'autorisation de la BEAC",
+      "en informe la COSUMAF",
+      "ne peut pas la décider",
+      "en informe les actionnaires seulement"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Une clause d'agrément statutaire est-elle opposable à l'initiateur ?",
+     "choix": [
+      "Non, aucune clause ne peut être opposée",
+      "Oui, toujours, car elle protège la société visée",
+      "Oui, si le conseil d'administration l'a décidée",
+      "Oui, pour les sociétés bancaires seulement"
+     ],
+     "bonne": 0,
+     "explication": "Art. 216."
+    },
+    {
+     "q": "Les communications promotionnelles d'une offre sont transmises :",
+     "choix": [
+      "après diffusion",
+      "à la BVMAC",
+      "préalablement à la COSUMAF",
+      "au CAC"
+     ],
+     "bonne": 2,
+     "explication": "Elles doivent être clairement reconnaissables et non trompeuses."
+    },
+    {
+     "q": "L'OPA ou l'OPE vise les titres d'une société admise :",
+     "choix": [
+      "à la cote de la BEAC",
+      "au marché libre",
+      "à un marché étranger",
+      "à la cote de la BVMAC"
+     ],
+     "bonne": 3,
+     "explication": "À un prix indiqué."
+    },
+    {
+     "q": "Le dépôt d'une OPA entraîne :",
+     "choix": [
+      "la radiation immédiate des titres visés",
+      "la suspension de la cotation des titres visés jusqu'à l'ouverture de la période d'offre",
+      "la fermeture de la bourse pendant toute l'offre",
+      "un blocage des fonds de l'initiateur chez le DC"
+     ],
+     "bonne": 1,
+     "explication": "La COSUMAF publie les principales modalités."
+    },
+    {
+     "q": "Dans une offre inamicale, la société visée :",
+     "choix": [
+      "ne répond pas, l'offre se poursuivant sans elle",
+      "dépose une offre concurrente obligatoire",
+      "est radiée de la cote jusqu'à la fin de l'offre",
+      "établit un document en réponse soumis au visa"
+     ],
+     "bonne": 3,
+     "explication": ""
+    },
+    {
+     "q": "Une offre concurrente est possible seulement si elle :",
+     "choix": [
+      "améliore le prix ou la parité et est déposée au moins 10 jours calendaires avant l'expiration de l'offre initiale",
+      "baisse le prix ou la parité proposés par l'offre initiale",
+      "est déposée le dernier jour de l'offre initiale",
+      "est identique à l'offre initiale mais émane d'un autre initiateur"
+     ],
+     "bonne": 0,
+     "explication": "Art. 229."
+    },
+    {
+     "q": "L'offre publique simplifiée est autorisée si l'initiateur détient déjà :",
+     "choix": [
+      "au moins un tiers du capital",
+      "au moins la moitié du capital",
+      "au moins les deux tiers du capital",
+      "95 % du capital"
+     ],
+     "bonne": 2,
+     "explication": "Et s'engage à acquérir sans limitation les titres présentés."
+    },
+    {
+     "q": "L'offre simplifiée peut aussi concerner :",
+     "choix": [
+      "une OPV de titres de capital de même nature",
+      "un placement privé auprès d'investisseurs qualifiés",
+      "une introduction en bourse par offre à prix ferme",
+      "l'offre de rachat de ses propres titres par une société"
+     ],
+     "bonne": 3,
+     "explication": "Art. 230."
+    },
+    {
+     "q": "Dans l'offre simplifiée, l'initiateur s'engage :",
+     "choix": [
+      "à acquérir seulement 50 % des titres présentés",
+      "irrévocablement auprès de la COSUMAF à acquérir ou échanger toute quantité de titres proposée",
+      "à retirer son offre en cas de baisse du cours",
+      "à vendre ses titres à la clôture de l'offre"
+     ],
+     "bonne": 1,
+     "explication": "Documents soumis au visa préalable."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle offre ?",
+     "buckets": [
+      "Offre obligatoire",
+      "Offre simplifiée",
+      "OPR / retrait obligatoire"
+     ],
+     "items": [
+      {
+       "t": "Une personne dépasse le tiers du capital.",
+       "b": 0,
+       "why": "Seuil du tiers."
+      },
+      {
+       "t": "L'initiateur détient déjà au moins les deux tiers et s'engage à acquérir sans limitation.",
+       "b": 1,
+       "why": "Procédure simplifiée."
+      },
+      {
+       "t": "L'initiateur détient 95 % et rachète le solde.",
+       "b": 2,
+       "why": "OPR."
+      },
+      {
+       "t": "Acquisition d'un bloc de contrôle : garantie de cours.",
+       "b": 0,
+       "why": "Protection des minoritaires."
+      }
+     ]
+    },
+    {
+     "titre": "Quel type d'offre ?",
+     "buckets": [
+      "OPA/OPE",
+      "Offre simplifiée",
+      "OPR",
+      "OPV"
+     ],
+     "items": [
+      {
+       "t": "Offre d'acheter ou d'échanger, à un prix indiqué, les titres d'une société cotée.",
+       "b": 0,
+       "why": "OPA ou OPE."
+      },
+      {
+       "t": "Initiateur détenant déjà au moins deux tiers du capital.",
+       "b": 1,
+       "why": "Offre simplifiée."
+      },
+      {
+       "t": "Actionnaire détenant 95 % qui rachète le solde minoritaire de 5 %.",
+       "b": 2,
+       "why": "OPR."
+      },
+      {
+       "t": "Recevabilité appréciée par la BVMAC, qui juge le prix.",
+       "b": 3,
+       "why": "OPV ou offre à prix ferme."
+      },
+      {
+       "t": "Offre de rachat de ses propres titres par une société.",
+       "b": 1,
+       "why": "Offre simplifiée."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "L'offre simplifiée suppose la détention d'au moins {{deux tiers}} du capital par l'initiateur.",
+    "Celui qui détient plus du {{tiers}} du capital doit déposer une offre visant la {{totalité}} du capital.",
+    "La durée d'une offre publique ne dépasse pas {{45}} jours calendaires.",
+    "Après une déclaration de non-intention, on ne peut déposer d'offre pendant {{6}} mois.",
+    "Celui qui renonce à son offre ou ne la dépose pas dans le délai ne peut déposer d'offre pendant {{6}} mois."
+   ],
+   "schemas": [
+    {
+     "titre": "Les offres publiques par seuil",
+     "type": "table",
+     "legende": "Qui doit déposer quoi ?",
+     "cols": [
+      "Situation",
+      "Offre",
+      "Seuil"
+     ],
+     "rows": [
+      [
+       "Détention de plus du tiers",
+       {
+        "t": "Offre obligatoire sur la totalité",
+        "b": true,
+        "c": "#ffe14a"
+       },
+       "> 1/3"
+      ],
+      [
+       "Initiateur avec deux tiers",
+       {
+        "t": "Offre simplifiée",
+        "b": true,
+        "c": "#8fd0ff"
+       },
+       "≥ 2/3"
+      ],
+      [
+       "Reliquat de 5 %",
+       {
+        "t": "OPR puis retrait obligatoire",
+        "b": true,
+        "c": "#a9f0d0"
+       },
+       "95 %"
+      ],
+      [
+       "Durée de l'offre",
+       {
+        "t": "45 jours calendaires maximum",
+        "b": true,
+        "c": "#ffb8d1"
+       },
+       "—"
+      ]
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "t2-regime-fiscal-bvmac",
+   "titre": "À connaître · 02 · Le régime fiscal des opérations cotées à la BVMAC (Règlement UEAC n° 07-UEAC-175-CM-15, 2007)",
+   "resume": {
+    "court": "Régime fiscal spécifique pour les valeurs cotées à la BVMAC. Retenue à la source de 10 % (dividendes et obligations < 5 ans) libératoire, 5 % pour les obligations à 5 ans ou plus. IS réduit pendant 3 ans : 20 % (augmentation de capital ≥ 20 %), 25 % (cession d'actions ≥ 20 %), 28 % sous 20 % ; maintien à la cote 4 ans minimum. Exonérations : intérêts des obligations d'États (résidents), plus-values de cession, droits d'enregistrement et timbre. CEVM : 70 % en valeurs BVMAC, 50 % en actions, blocage 4 ans, déduction jusqu'à 15 M FCFA/an. OPCVM à 70 % : transparence fiscale.",
+    "moyen": "Personnes concernées : sociétés dont tout ou partie du capital est admis à la cote et personnes physiques investissant en valeurs cotées. Produits : dividendes, intérêts et rémunérations d'obligations, titres introduits par augmentation de capital ou cession, CEVM, FEE, portefeuilles gérés collectivement par les OPCVM. Exonérations (IRVM ou impôt de même nature) : intérêts des obligations d'États pour les résidents CEMAC, intérêts des obligations des collectivités locales, plus-values de cession (prix de cession − prix d'acquisition − frais de gestion) ; cessions exemptées d'enregistrement et de timbre. Conditions : dividendes de valeurs privées à échéance < 5 ans ; obligations privées ou publiques à échéance ≥ 5 ans ; augmentation de capital ≥ 20 % du capital ; cession d'actions ≥ 20 % du capital. Retenue à la source : 10 % (dividendes, intérêts des obligations < 5 ans, autres rémunérations de valeurs privées cotées), opérée par le teneur de compte au profit du pays de résidence du titulaire, libératoire ; 5 % pour les obligations à 5 ans ou plus. IS des sociétés cotées : 20 % pendant 3 ans (augmentation de capital ≥ 20 %), 25 % pendant 3 ans (cession ≥ 20 %), 28 % pendant 3 ans sous 20 % ; si le seuil de 20 % est atteint pendant les 3 ans, les réductions s'appliquent pour la durée résiduelle ; maintien des titres à la cote au moins 4 ans, sinon remise en cause rétroactive avec pénalités ; délais à partir du début de l'exercice suivant l'introduction. CEVM : ouvert par une personne physique auprès d'un intermédiaire en bourse, au moins 70 % en valeurs BVMAC (reste en bons du Trésor ou OPCVM), sommes bloquées 4 ans minimum, portefeuille à 50 % minimum en actions, sommes déductibles de l'IRPP jusqu'à 15 M FCFA/an, un seul compte par personne ; produits non imposables ; retrait anticipé : impôt dû, paiement solidaire de l'intermédiaire. FEE : sommes investies par une personne morale dans un fonds salarial à hauteur de 70 % d'actions cotées ; déductibles de l'IS ; convention avec les représentants du personnel ; contribution d'au moins 25 % du montant des actions à souscrire ; participation non imposable pour les salariés avec quitus. OPCVM : objet exclusif de gestion collective ; investis à 70 % au moins en actions et obligations BVMAC : transparence fiscale (membres imposés au prorata). Transitoire : 2 ans aux États pour transposer ; attestation d'inscription à la cote requise ; commission permanente d'harmonisation fiscale élargie.",
+    "long": "Personnes concernées : sociétés dont tout ou partie du capital est admis à la cote et personnes physiques investissant en valeurs cotées. Produits : dividendes, intérêts et rémunérations d'obligations, titres introduits par augmentation de capital ou cession, CEVM, FEE, portefeuilles gérés collectivement par les OPCVM. Exonérations (IRVM ou impôt de même nature) : intérêts des obligations d'États pour les résidents CEMAC, intérêts des obligations des collectivités locales, plus-values de cession (prix de cession − prix d'acquisition − frais de gestion) ; cessions exemptées d'enregistrement et de timbre. Conditions : dividendes de valeurs privées à échéance < 5 ans ; obligations privées ou publiques à échéance ≥ 5 ans ; augmentation de capital ≥ 20 % du capital ; cession d'actions ≥ 20 % du capital. Retenue à la source : 10 % (dividendes, intérêts des obligations < 5 ans, autres rémunérations de valeurs privées cotées), opérée par le teneur de compte au profit du pays de résidence du titulaire, libératoire ; 5 % pour les obligations à 5 ans ou plus. IS des sociétés cotées : 20 % pendant 3 ans (augmentation de capital ≥ 20 %), 25 % pendant 3 ans (cession ≥ 20 %), 28 % pendant 3 ans sous 20 % ; si le seuil de 20 % est atteint pendant les 3 ans, les réductions s'appliquent pour la durée résiduelle ; maintien des titres à la cote au moins 4 ans, sinon remise en cause rétroactive avec pénalités ; délais à partir du début de l'exercice suivant l'introduction. CEVM : ouvert par une personne physique auprès d'un intermédiaire en bourse, au moins 70 % en valeurs BVMAC (reste en bons du Trésor ou OPCVM), sommes bloquées 4 ans minimum, portefeuille à 50 % minimum en actions, sommes déductibles de l'IRPP jusqu'à 15 M FCFA/an, un seul compte par personne ; produits non imposables ; retrait anticipé : impôt dû, paiement solidaire de l'intermédiaire. FEE : sommes investies par une personne morale dans un fonds salarial à hauteur de 70 % d'actions cotées ; déductibles de l'IS ; convention avec les représentants du personnel ; contribution d'au moins 25 % du montant des actions à souscrire ; participation non imposable pour les salariés avec quitus. OPCVM : objet exclusif de gestion collective ; investis à 70 % au moins en actions et obligations BVMAC : transparence fiscale (membres imposés au prorata). Transitoire : 2 ans aux États pour transposer ; attestation d'inscription à la cote requise ; commission permanente d'harmonisation fiscale élargie."
+   },
+   "fiches": [
+    {
+     "titre": "Champ d'application et exonérations (art. 2 à 5)",
+     "contenu": "- Régime fiscal **spécifique** aux **valeurs mobilières et instruments financiers admis à la cote de la BVMAC** : actions, obligations négociables, **droits, options, TCN**\n- **Personnes concernées** : **sociétés** dont tout ou partie du capital est admis à la cote ; **personnes physiques** investissant en valeurs cotées\n- **Produits imposables** : dividendes et intérêts, rémunérations d'obligations, titres introduits par augmentation de capital ou cession d'actions, **CEVM**, **FEE**, portefeuilles gérés par les **OPCVM**\n- **Exonérés d'IRVM** (ou impôt de même nature) : **intérêts des obligations d'États** (pour les résidents de la CEMAC) · **intérêts des obligations des collectivités locales** · **plus-values de cession** (prix de cession − prix d'acquisition − frais de gestion)\n- **Cessions exemptées de droit d'enregistrement et de timbre**"
+    },
+    {
+     "titre": "Conditions et retenue à la source (art. 6-7)",
+     "contenu": "**Conditions** :\n- Dividendes et rémunérations de valeurs privées cotées : **échéance inférieure à 5 ans**\n- Obligations de sociétés privées ou publiques : **échéance de 5 ans ou plus**\n- Augmentation de capital : titres nouveaux ≥ **20 % du capital**\n- Cession d'actions : actions cédées ≥ **20 % du capital**\n\n**Retenue à la source** :\n| Revenu | Taux |\n|---|---|\n| Dividendes, intérêts des obligations **< 5 ans**, autres rémunérations de valeurs privées cotées | **10 %** |\n| Rémunérations des obligations privées ou publiques à **5 ans ou plus** | **5 %** |\n\n- Opérée **par le teneur de compte** au profit du **pays de résidence du titulaire** ; **prélèvement libératoire** de toute autre imposition"
+    },
+    {
+     "titre": "Impôt sur les sociétés des sociétés cotées (art. 8)",
+     "contenu": "| Situation | Taux d'IS | Durée |\n|---|---|---|\n| **Augmentation de capital** ≥ **20 %** du capital | **20 %** | **3 ans** |\n| **Cession d'actions** ≥ **20 %** du capital | **25 %** | **3 ans** |\n| En deçà de **20 %** | **28 %** | **3 ans** à compter de l'admission |\n\n- Si le seuil de 20 % est atteint **pendant** les 3 ans, les réductions s'appliquent pour la **durée résiduelle**\n- **Obligation de maintenir les titres à la cote au moins 4 ans**, sinon **remise en cause rétroactive** des avantages, avec **pénalités** (code des impôts du pays de l'émetteur)\n- Les délais courent à partir du **début de l'exercice fiscal suivant** l'introduction"
+    },
+    {
+     "titre": "Compte Épargne en Valeurs Mobilières (CEVM) (art. 9-10)",
+     "contenu": "- Compte ouvert par une **personne physique** auprès d'un **intermédiaire en bourse** : **au moins 70 %** de **valeurs mobilières admises à la BVMAC** (le reliquat : **bons du Trésor** ou **OPCVM**)\n- Sommes **bloquées au moins 4 ans** ; portefeuille constitué à **50 % minimum d'actions**\n- Sommes investies dans l'année **déductibles de l'IRPP** dans la limite de **15 000 000 FCFA par an** ; **un seul compte par personne**\n- **Convention** entre l'intermédiaire et le client (pouvoirs délégués, rémunération)\n- Dividendes, intérêts, plus-values et produits du compte **non imposables**, sur production du **certificat de dépôt** de l'intermédiaire\n- **Retrait avant l'échéance** : **paiement solidaire par l'intermédiaire** de l'impôt non acquitté, majoré de pénalités"
+    },
+    {
+     "titre": "FEE et OPCVM (art. 11 à 14)",
+     "contenu": "**Fonds d'Épargne d'Entreprise (FEE)** : sommes investies par une **personne morale** dans un fonds salarial à hauteur de **70 % d'actions cotées** à la BVMAC ; **déductibles de l'IS** si : **convention avec les représentants du personnel** (abondements, sortie), contribution de l'entreprise **≥ 25 %** du montant des actions à souscrire, versée sur un compte chez un intermédiaire agréé domicilié dans la CEMAC ; la participation **n'est pas un revenu imposable** pour les salariés, sur présentation d'un **quitus de souscription**.\n\n**OPCVM** : objet exclusif de gestion collective ; **investis à ≥ 70 % en actions et obligations admises à la BVMAC**, quelle que soit leur forme juridique : **transparence fiscale** (membres imposés **au prorata** des parts).\n\n**Dispositions transitoires** : **2 ans** maximum aux États pour intégrer le règlement dans leur législation ; le bénéfice du régime exige une **attestation d'inscription à la cote** ; la Commission permanente d'harmonisation fiscale et comptable (élargie à la BVMAC et à la COSUMAF) évalue l'impact ; le régime peut être remis en cause ; adopté **le 11 mars 2007**, signé à **N'Djamena le 19 mars 2007**."
+    }
+   ],
+   "mnemos": [
+    "Retenue : 10 % / 5 % (≥ 5 ans). IS : 20 / 25 / 28 % pendant 3 ans, cote 4 ans, seuil 20 %. CEVM : 70 % · 50 % actions · 4 ans · 15 M. FEE : 70 % · 25 %. OPCVM : 70 % → transparence."
+   ],
+   "definitions": [
+    {
+     "terme": "Quitus de souscription",
+     "definition": "Document permettant au salarié de ne pas être imposé sur la participation de l'entreprise au FEE."
+    },
+    {
+     "terme": "Plus-value de cession",
+     "definition": "Prix de cession diminué du prix d'acquisition et des frais de gestion ; exonérée pour les valeurs cotées."
+    },
+    {
+     "terme": "IRVM",
+     "definition": "Impôt sur le revenu des valeurs mobilières, auquel échappent certains produits des titres cotés."
+    },
+    {
+     "terme": "FEE",
+     "definition": "Fonds d'Épargne d'Entreprise : sommes investies par une personne morale dans un fonds salarial, à 70 % en actions cotées."
+    },
+    {
+     "terme": "Retenue libératoire",
+     "definition": "Prélèvement à la source opéré par le teneur de compte et qui libère le titulaire de toute autre imposition sur le revenu concerné."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Taux de la retenue sur les obligations à 5 ans ou plus ?",
+     "verso": "5 %."
+    },
+    {
+     "recto": "Quel régime fiscal pour les OPCVM ?",
+     "verso": "Transparence fiscale si au moins 70 % en actions et obligations BVMAC : imposition des membres au prorata."
+    },
+    {
+     "recto": "Durée minimale de maintien à la cote pour conserver les avantages d'IS ?",
+     "verso": "4 ans, sinon remise en cause rétroactive avec pénalités."
+    },
+    {
+     "recto": "Contribution minimale d'une entreprise à un FEE ?",
+     "verso": "25 % du montant des actions à souscrire."
+    },
+    {
+     "recto": "Seuil d'investissement des OPCVM pour la transparence fiscale ?",
+     "verso": "70 % en actions et obligations admises à la BVMAC."
+    },
+    {
+     "recto": "Droits d'enregistrement et timbre sur les cessions cotées ?",
+     "verso": "Exemptés."
+    },
+    {
+     "recto": "Délai laissé aux États pour transposer le règlement ?",
+     "verso": "2 ans."
+    },
+    {
+     "recto": "Quelles dispositions transitoires ?",
+     "verso": "2 ans maximum pour transposition ; attestation d'inscription à la cote ; évaluation par la Commission permanente d'harmonisation fiscale et comptable."
+    },
+    {
+     "recto": "Quels produits sont exonérés d'IRVM ?",
+     "verso": "Intérêts des obligations d'États (résidents CEMAC) et des collectivités locales, plus-values de cession."
+    },
+    {
+     "recto": "Déduction annuelle maximale d'IRPP pour un CEVM ?",
+     "verso": "15 000 000 FCFA par an, un seul compte par personne."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Retenue à la source sur les dividendes :",
+     "choix": [
+      "10 %",
+      "5 %",
+      "15 %",
+      "20 %"
+     ],
+     "bonne": 0,
+     "explication": "Art. 7."
+    },
+    {
+     "q": "IS pour une augmentation de capital ≥ 20 % :",
+     "choix": [
+      "25 %",
+      "28 %",
+      "20 %",
+      "30 %"
+     ],
+     "bonne": 2,
+     "explication": "Art. 8 a)."
+    },
+    {
+     "q": "Un CEVM est bloqué...",
+     "choix": [
+      "1 an",
+      "4 ans",
+      "2 ans",
+      "10 ans"
+     ],
+     "bonne": 1,
+     "explication": "Art. 9."
+    },
+    {
+     "q": "Plafond annuel de déduction d'IRPP du CEVM :",
+     "choix": [
+      "15 M",
+      "1 M",
+      "5 M",
+      "50 M"
+     ],
+     "bonne": 0,
+     "explication": "Art. 9."
+    },
+    {
+     "q": "Plus-values de cession de valeurs cotées :",
+     "choix": [
+      "Imposées à 10 %",
+      "Exonérées",
+      "Imposées à 5 %",
+      "Imposées à l'IS"
+     ],
+     "bonne": 1,
+     "explication": "Art. 5 c)."
+    },
+    {
+     "q": "Un OPCVM investi à 70 % en valeurs BVMAC bénéficie de...",
+     "choix": [
+      "La retenue de 10 %",
+      "Rien",
+      "La transparence fiscale",
+      "L'exonération de TVA"
+     ],
+     "bonne": 2,
+     "explication": "Art. 14."
+    },
+    {
+     "q": "Le régime fiscal de 2007 s'applique aux valeurs :",
+     "choix": [
+      "admises à la cote de la BVMAC",
+      "toutes valeurs",
+      "non cotées",
+      "étrangères"
+     ],
+     "bonne": 0,
+     "explication": "Actions, obligations négociables, droits, options, TCN."
+    },
+    {
+     "q": "Les intérêts des obligations d'États sont :",
+     "choix": [
+      "imposés à 10 % pour les résidents de la CEMAC",
+      "imposés à 5 % pour les résidents de la CEMAC",
+      "imposés à 28 % pour les résidents de la CEMAC",
+      "exonérés d'IRVM pour les résidents de la CEMAC"
+     ],
+     "bonne": 3,
+     "explication": "Idem pour les obligations des collectivités locales."
+    },
+    {
+     "q": "Les cessions cotées sont exemptées de :",
+     "choix": [
+      "TVA seulement",
+      "IS",
+      "droit d'enregistrement et de timbre",
+      "IRPP"
+     ],
+     "bonne": 2,
+     "explication": "Art. 5."
+    },
+    {
+     "q": "La retenue à la source est opérée par :",
+     "choix": [
+      "la COSUMAF, au profit du Trésor",
+      "la BEAC, au profit des États membres",
+      "l'émetteur, au profit des actionnaires",
+      "le teneur de compte, au profit du pays de résidence du titulaire"
+     ],
+     "bonne": 3,
+     "explication": "Prélèvement libératoire de toute autre imposition."
+    },
+    {
+     "q": "En deçà de 20 % du capital, l'IS est de :",
+     "choix": [
+      "20 %",
+      "28 % pendant 3 ans à compter de l'admission",
+      "25 %",
+      "30 %"
+     ],
+     "bonne": 1,
+     "explication": "Art. 8."
+    },
+    {
+     "q": "Si le seuil de 20 % est atteint pendant les 3 ans :",
+     "choix": [
+      "les réductions s'appliquent pour la durée résiduelle",
+      "elles sont perdues définitivement",
+      "elles sont doublées pour la durée restante",
+      "elles s'appliquent rétroactivement depuis l'introduction"
+     ],
+     "bonne": 0,
+     "explication": "Art. 8."
+    },
+    {
+     "q": "Les délais courent à partir :",
+     "choix": [
+      "de l'introduction elle-même",
+      "du début de l'exercice fiscal suivant l'introduction",
+      "de la clôture de l'exercice précédent",
+      "du premier dividende versé"
+     ],
+     "bonne": 1,
+     "explication": "Art. 8."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quel taux ?",
+     "buckets": [
+      "5 %",
+      "10 %",
+      "20 %",
+      "25 %",
+      "28 %"
+     ],
+     "items": [
+      {
+       "t": "Retenue à la source sur les dividendes.",
+       "b": 1,
+       "why": "Art. 7."
+      },
+      {
+       "t": "Retenue sur les obligations à 5 ans ou plus.",
+       "b": 0,
+       "why": "Art. 7."
+      },
+      {
+       "t": "IS pendant 3 ans après une augmentation de capital de 20 % ou plus.",
+       "b": 2,
+       "why": "Art. 8 a)."
+      },
+      {
+       "t": "IS pendant 3 ans après une cession d'actions de 20 % ou plus.",
+       "b": 3,
+       "why": "Art. 8 b)."
+      },
+      {
+       "t": "IS pendant 3 ans quand moins de 20 % du capital est introduit.",
+       "b": 4,
+       "why": "Art. 8 c)."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "La retenue à la source est de {{10}} % pour les dividendes et de {{5}} % pour les obligations à 5 ans ou plus.",
+    "Les sociétés cotées doivent maintenir leurs titres à la cote au moins {{4}} ans pour garder l'avantage d'IS.",
+    "Un CEVM est investi à au moins {{70}} % en valeurs admises à la BVMAC et bloqué au moins {{4}} ans."
+   ],
+   "schemas": [
+    {
+     "titre": "IS réduit des sociétés qui entrent en bourse",
+     "type": "bars",
+     "unit": "% d'IS",
+     "legende": "Plus on met de capital en bourse, moins on paie d'impôt pendant 3 ans.",
+     "items": [
+      {
+       "l": "Augmentation de capital ≥ 20 %",
+       "v": 20
+      },
+      {
+       "l": "Cession d'actions ≥ 20 %",
+       "v": 25
+      },
+      {
+       "l": "Moins de 20 %",
+       "v": 28
+      }
+     ]
+    },
+    {
+     "titre": "Le CEVM en chiffres",
+     "type": "stats",
+     "legende": "Compte Épargne en Valeurs Mobilières.",
+     "items": [
+      {
+       "v": "70 %",
+       "l": "au moins en valeurs BVMAC"
+      },
+      {
+       "v": "50 %",
+       "l": "au moins en actions"
+      },
+      {
+       "v": "4 ans",
+       "l": "de blocage minimum"
+      },
+      {
+       "v": "15 M",
+       "l": "déduction annuelle d'IRPP"
+      },
+      {
+       "v": "1",
+       "l": "seul compte par personne"
+      }
+     ]
+    },
+    {
+     "titre": "Retenue à la source",
+     "type": "compare",
+     "legende": "10 % ou 5 % ?",
+     "cols": [
+      {
+       "t": "10 %",
+       "s": "retenue libératoire",
+       "pts": [
+        "Dividendes",
+        "Intérêts d'obligations à moins de 5 ans",
+        "Autres rémunérations de valeurs privées cotées"
+       ]
+      },
+      {
+       "t": "5 %",
+       "s": "retenue réduite",
+       "pts": [
+        "Rémunérations des obligations privées ou publiques",
+        "Échéance de 5 ans ou plus"
+       ]
+      }
+     ]
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  }
+ ]
+}

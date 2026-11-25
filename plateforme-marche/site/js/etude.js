@@ -3,6 +3,7 @@
 (() => {
 'use strict';
 const E = window.E = {};
+window.B = window.B || { routes: {} };
 const COULEURS = { kofi: '#8fa9ff', amina: '#ffcb52', leo: '#5fd3b3', nadia: '#b99cff', samir: '#ff7f7f', fatou: '#ff9f5a', jean: '#8fa9ff', lina: '#ffcb52' };
 E.noms = Object.keys(COULEURS);
 E.perso = (qui = 'kofi', humeur = 'joy', taille = 160, o = {}) => { const k = COULEURS[qui] ? qui : 'kofi';
@@ -75,6 +76,7 @@ const etincelle = (x, y) => { for (let i = 0; i < 7; i++) { const s = document.c
   document.body.appendChild(s); setTimeout(() => s.remove(), 760); } };
 document.addEventListener('pointerdown', e => { if (e.target.closest('.btn,.opt,.chip,.rates button,.fcard')) etincelle(e.clientX, e.clientY); });
 
+B.sfx = E.sfx;
 /* touches clavier de l'activité en cours (Espace, 1-4, A-D) */
 E.touches = null;
 document.addEventListener('keydown', e => { if (E.touches && !e.metaKey && !e.ctrlKey && !e.target.matches('input,select,textarea')) E.touches(e); });

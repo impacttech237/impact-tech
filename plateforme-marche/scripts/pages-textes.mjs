@@ -60,7 +60,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
   }
 
   // Guides « Découvrir » et « Comprendre » : une page par chapitre + une page par porte
-  const PORTES = { decouvrir: { nom: 'Découvrir', sous: 'La bourse expliquée simplement : épargner, acheter, vendre, se protéger.' }, comprendre: { nom: 'Comprendre', sous: 'Institutions, acteurs et instruments du marché financier de la CEMAC.' } };
+  const PORTES = { decouvrir: { nom: 'Découvrir', sous: 'La bourse expliquée simplement : épargner, acheter, vendre, se protéger.' } };
   const parId = new Map(faits.map(f => [f.id, f]));
   const valeur = f => f.type === 'liste' ? (f.items || []).join(' ; ') : f.valeur_texte;
   for (const [porte, P] of Object.entries(PORTES)) {
@@ -78,6 +78,35 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
     ecrire(`${porte}/index.html`, page({ titre: `${P.nom} : marché financier de la CEMAC`, description: P.sous, canon: `${siteUrl}/${porte}/`, corps: corpsPorte, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: P.nom, description: P.sous, inLanguage: 'fr', url: `${siteUrl}/${porte}/` } }));
     urls.push(`${siteUrl}/${porte}/`);
   }
+
+  // Cours : une page par cours (résumé, fiches, définitions) + index
+  const mdBloc = x => String(x).split(/\n\n+/).map(b => {
+    const lines = b.split('\n');
+    if (lines.every(l => l.startsWith('|'))) { const rows = lines.filter(l => !/^\|[\s:|-]+\|?$/.test(l)).map(l => l.replace(/^\||\|$/g, '').split('|').map(c => md(c.trim()))); return '<table><thead><tr>' + rows[0].map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>' + rows.slice(1).map(r => '<tr>' + r.map(c => `<td>${c}</td>`).join('') + '</tr>').join('') + '</tbody></table>'; }
+    if (lines.every(l => l.startsWith('- '))) return '<ul>' + lines.map(l => `<li>${md(l.slice(2))}</li>`).join('') + '</ul>';
+    if (lines.every(l => /^\d+\.\s/.test(l))) return '<ol>' + lines.map(l => `<li>${md(l.replace(/^\d+\.\s/, ''))}</li>`).join('') + '</ol>';
+    return '<p>' + lines.map(md).join('<br>') + '</p>';
+  }).join('');
+  const nomChap = x => String(x).replace(/^[^·]*·\s*(\d+\s*·\s*)?/, '');
+  const dossierCours = path.join(racine, 'data', 'cours'), listeCours = [];
+  const ordreCours = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes'];
+  const liensCours = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours-textes.json'), 'utf8'));
+  for (const id of ordreCours) {
+    const pk = JSON.parse(fs.readFileSync(path.join(dossierCours, id + '.json'), 'utf8')); listeCours.push(pk);
+    const canon = `${siteUrl}/cours/${id}/`, ts = textes.filter(x => (liensCours[id] || []).includes(x.theme));
+    const corps = `<article class="seo"><nav><a href="/">Accueil</a> › <a href="/cours/">Cours</a></nav><h1>${esc(pk.titre)}</h1><p><strong>${esc(pk.description || '')}</strong></p>
+      ${pk.chapitres.map(c => `<section><h2>${esc(nomChap(c.titre))}</h2>${mdBloc(c.resume?.moyen || '')}
+        ${(c.fiches || []).map(f => `<h3>${esc(f.titre)}</h3>${mdBloc(f.contenu)}`).join('')}
+        ${(c.mnemos || []).length ? `<h3>À retenir</h3>${c.mnemos.map(m => mdBloc(m)).join('')}` : ''}
+        ${(c.definitions || []).length ? `<h3>Définitions</h3><dl>${c.definitions.map(d => `<dt>${esc(d.terme)}</dt><dd>${esc(d.definition)}</dd>`).join('')}</dl>` : ''}</section>`).join('')}
+      ${ts.length ? `<section><h2>Textes officiels</h2><ul>${ts.map(x => `<li>${lien(x.id)}</li>`).join('')}</ul></section>` : ''}
+      <p><a href="/#/cours/${id}">Ouvrir le cours interactif (schémas, flashcards, quiz)</a></p></article>`;
+    const description = coupe(pk.description || pk.chapitres[0]?.resume?.court || pk.titre, 155), titre = `${pk.titre} : cours`;
+    ecrire(`cours/${id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Course', name: pk.titre, description, inLanguage: 'fr', url: canon, provider: { '@type': 'Organization', name: 'Marché financier CEMAC', url: siteUrl + '/' } } }));
+    urls.push(canon);
+  }
+  ecrire('cours/index.html', page({ titre: 'Cours sur le marché financier de la CEMAC', description: 'Dix cours gratuits : cadre institutionnel, entrée en bourse, appel public à l\'épargne, placement privé, intermédiaires, fonds, conformité.', canon: `${siteUrl}/cours/`, corps: `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Cours sur le marché financier de la CEMAC</h1><ol>${listeCours.map(pk => `<li><a href="/cours/${pk.id}/">${esc(pk.titre)}</a> : ${esc(coupe(pk.description || '', 140))}</li>`).join('')}</ol></article>`, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Cours', inLanguage: 'fr', url: `${siteUrl}/cours/` } }));
+  urls.push(`${siteUrl}/cours/`);
 
   // Index des textes (point d'entrée pour les moteurs de recherche)
   const groupes = {};

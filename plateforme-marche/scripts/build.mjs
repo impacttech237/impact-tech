@@ -42,7 +42,7 @@ if (erreurs.length) {
 }
 
 const dist = path.join(racine, 'dist');
-fs.rmSync(dist, { recursive: true, force: true });
+fs.rmSync(dist, { recursive: true, force: true, maxRetries: 20, retryDelay: 500 });
 fs.mkdirSync(path.join(dist, 'data', 'contenu'), { recursive: true });
 const ecrire = (f, o) => fs.writeFileSync(path.join(dist, f), typeof o === 'string' ? o : JSON.stringify(o));
 
@@ -94,6 +94,25 @@ ecrire('data/faits.json', compact);
 ecrire('data/guides.json', guides);
 ecrire('data/retenir.json', retenir);
 
+// Cours (repris d'Excellence COSUMAF) : data/cours/*.json -> dist/data/cours/<id>.json + dist/data/cours.json (index)
+{
+  const ordre = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes'];
+  const liens = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours-textes.json'), 'utf8'));
+  fs.mkdirSync(path.join(dist, 'data', 'cours'), { recursive: true });
+  const somme = (p, k) => p.chapitres.reduce((n, c) => n + (c[k] || []).length, 0);
+  const idx = ordre.map(id => {
+    const p = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours', id + '.json'), 'utf8'));
+    fs.writeFileSync(path.join(dist, 'data', 'cours', id + '.json'), JSON.stringify(p));
+    const themes = liens[id] || [];
+    return { id, titre: p.titre, court: p.court, couleur: p.couleur, description: p.description, themes,
+      textes: themes.length ? textes.filter(t => themes.includes(t.theme)).map(t => t.id) : [],
+      chapitres: p.chapitres.map(c => ({ id: c.id, titre: c.titre, niveau: c.niveau })),
+      n: { fiches: somme(p, 'fiches'), cartes: somme(p, 'cartes'), questions: somme(p, 'questions'), schemas: somme(p, 'schemas'), definitions: somme(p, 'definitions'), exercices: somme(p, 'trous') + somme(p, 'classer') + somme(p, 'ordre') } };
+  });
+  fs.writeFileSync(path.join(dist, 'data', 'cours.json'), JSON.stringify(idx));
+  console.log(`Cours : ${idx.length} (${idx.reduce((n, c) => n + c.n.fiches, 0)} fiches, ${idx.reduce((n, c) => n + c.n.cartes, 0)} cartes, ${idx.reduce((n, c) => n + c.n.questions, 0)} questions)`);
+}
+
 // 2 bis. Pages statiques par texte (référencement) ; LANCEMENT=1 et SITE_URL pour la mise en ligne publique
 const siteUrl = (process.env.SITE_URL || 'https://marche-cemac-preview.impacttech237.workers.dev').replace(/\/$/, '');
 const nbPages = genererPages({ dist, racine, textes, faits, siteUrl, lancement: process.env.LANCEMENT === '1', pdf: pdf.taille, guides });
@@ -103,7 +122,7 @@ console.log(`Pages statiques : ${nbPages} (indexation ${process.env.LANCEMENT ==
 const liste = [];
 const parcourir = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) parcourir(p); else liste.push('/' + path.relative(dist, p).replace(/\\/g, '/')); } };
 parcourir(dist);
-const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && f !== '/sitemap.xml').sort();
+const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/cours/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && f !== '/sitemap.xml').sort();
 const h = crypto.createHash('sha1');
 for (const f of fichiers) { h.update(f); h.update(fs.readFileSync(path.join(dist, f))); }
 const versionSw = h.digest('hex').slice(0, 10);

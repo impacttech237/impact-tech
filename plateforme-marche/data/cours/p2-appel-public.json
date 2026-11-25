@@ -1,0 +1,2140 @@
+{
+ "id": "p2-appel-public",
+ "titre": "Lever des fonds : l'appel public à l'épargne",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "teal",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "Qui peut faire appel public à l'épargne, le document d'information, le visa, le déroulement du placement (syndicat, souscriptions, clôture), l'information que l'émetteur doit ensuite au marché.",
+ "court": "Appel public",
+ "chapitres": [
+  {
+   "id": "m5-ape",
+   "titre": "Essentiel · 5 · L'appel public à l'épargne : définition, visa, exemptions, retrait",
+   "resume": {
+    "court": "Fait appel public à l'épargne toute société dont les titres sont admis en bourse ou qui offre des valeurs mobilières au public. Il faut un document d'information visé par la COSUMAF (visa valable dans toute la CEMAC), placement dans les 90 jours. Pas d'APE sous 50 millions FCFA sur 12 mois ou pour les seuls investisseurs qualifiés.",
+    "moyen": "Sont réputés faire APE les émetteurs dont les titres sont admis à la bourse régionale (dès l'admission) et ceux qui offrent des valeurs mobilières au public (communication suffisante pour décider d'acheter/souscrire, ou placement par intermédiaires). Le régime s'applique aussi aux jetons numériques. Ne sont pas un APE : l'offre inférieure à 50 millions FCFA sur 12 mois, ou adressée uniquement à des investisseurs qualifiés agissant pour compte propre. Tout APE exige un document d'information (avec résumé) soumis au visa avant diffusion. Le visa est délivré si les informations sont complètes, cohérentes et compréhensibles ; il est valable dans tous les États de la CEMAC ; diffusion et placement dans les 90 jours. Exemptions de document pour certaines opérations (actions gratuites, fusion, etc.) et, pour l'admission, les actions représentant moins de 10 % sur 12 mois. Le visa peut être retiré dans quatre cas, ce qui annule l'opération. Une commission de visa calculée sur le montant effectivement mobilisé est due. Émetteur non résident : document visé + autorisation préalable de la BEAC + société de bourse domiciliataire.",
+    "long": "Sont réputés faire APE les émetteurs dont les titres sont admis à la bourse régionale (dès l'admission) et ceux qui offrent des valeurs mobilières au public (communication suffisante pour décider d'acheter/souscrire, ou placement par intermédiaires). Le régime s'applique aussi aux jetons numériques. Ne sont pas un APE : l'offre inférieure à 50 millions FCFA sur 12 mois, ou adressée uniquement à des investisseurs qualifiés agissant pour compte propre. Tout APE exige un document d'information (avec résumé) soumis au visa avant diffusion. Le visa est délivré si les informations sont complètes, cohérentes et compréhensibles ; il est valable dans tous les États de la CEMAC ; diffusion et placement dans les 90 jours. Exemptions de document pour certaines opérations (actions gratuites, fusion, etc.) et, pour l'admission, les actions représentant moins de 10 % sur 12 mois. Le visa peut être retiré dans quatre cas, ce qui annule l'opération. Une commission de visa calculée sur le montant effectivement mobilisé est due. Émetteur non résident : document visé + autorisation préalable de la BEAC + société de bourse domiciliataire."
+   },
+   "fiches": [
+    {
+     "titre": "Qui fait appel public à l'épargne ? (art. 74-75)",
+     "contenu": "Sont réputés faire **publiquement appel à l'épargne** :\n1. Les sociétés, États ou personnes morales dont les **valeurs mobilières sont admises à la négociation** sur la bourse régionale, **à dater de l'admission**\n2. Les sociétés ou personnes qui **offrent au public** d'un État de la CEMAC des valeurs mobilières\n\n**Offre au public** = soit une **communication** (par tout moyen) présentant **assez d'informations** pour qu'un investisseur décide d'acheter ou souscrire ; soit un **placement par intermédiaires financiers** (émission ou cession).\n\nLe régime s'applique aussi aux **jetons numériques** (art. 76) : bien incorporel représentant sous forme numérique des droits enregistrés dans un dispositif électronique partagé."
+    },
+    {
+     "titre": "Ce qui n'est PAS un APE (art. 77)",
+     "contenu": "1. L'offre dont le **montant total est inférieur à 50 millions de FCFA**, calculé sur **12 mois**\n2. L'offre adressée **uniquement à des investisseurs qualifiés** agissant pour **compte propre**\n\n**Interdit** : de faire APE sans autorisation, et de céder par APE des titres d'une personne non autorisée. Toute opération en violation est **nulle** et sanctionnable (art. 79)."
+    },
+    {
+     "titre": "Le document d'information et le visa (art. 80-83)",
+     "contenu": "- **Obligatoire** avant tout APE ; soumis au **visa de la COSUMAF** avant diffusion ; accompagné d'un **résumé**\n- Pas de nouveau document pour une **revente ultérieure** ou un **placement final** si un document valide existe\n- Visa délivré si les informations sont **complètes, cohérentes et compréhensibles**\n- **Valable dans tous les États membres de la CEMAC**\n- Refus possible si les demandes complémentaires ne sont pas satisfaites ou si l'opération comporte des actes contraires aux intérêts des investisseurs\n- **Diffusion et placement dans les 90 jours** suivant la délivrance du visa"
+    },
+    {
+     "titre": "Exemptions de document d'information (art. 81-82)",
+     "contenu": "**Offre au public** : pas de document pour : actions de substitution sans augmentation de capital ; titres offerts dans une **OPE** ou une **fusion/scission/apport** (si un document équivalent visé existe) ; **actions gratuites** ou en paiement de dividendes ; titres offerts aux **mandataires sociaux et salariés** (émetteur siégeant en CEMAC).\n\n**Admission à la négociation** : pas de document pour : actions représentant, sur **12 mois**, **moins de 10 %** des actions de même catégorie déjà admises ; actions de substitution ; OPE ; fusion/scission/apport ; actions gratuites ou dividendes ; titres aux salariés/mandataires ; actions issues de conversion ou d'échange."
+    },
+    {
+     "titre": "Commission de visa et retrait du visa (art. 85-86)",
+     "contenu": "**Commission** : fixée par instruction de la COSUMAF, **calculée sur le montant effectivement mobilisé**.\n\n**Retrait du visa** dans 4 cas :\n1. Le document **ne correspond plus à la situation réelle** de l'émetteur\n2. Il comporte des **informations fausses ou trompeuses** ou des omissions\n3. Le document publié ou diffusé contient des informations **non conformes** au document visé\n4. **Aucune diligence de placement** à l'issue de la période de souscription, ou placement poursuivi **au-delà de la période** sans **prorogation validée**\n\nEffets : **annulation d'office de l'opération** ; interdiction de proposer des titres sans nouveau document visé. La décision motivée est notifiée à l'émetteur et à son intermédiaire / chef de file."
+    },
+    {
+     "titre": "Émetteurs non résidents (art. 87)",
+     "contenu": "Une personne morale **non résidente** (principal centre d'intérêt ou siège **hors de la zone UMAC**) qui veut faire APE doit :\n- établir un **document d'information visé par la COSUMAF**\n- obtenir l'**autorisation préalable de la BEAC** (réglementation des changes)\n- **désigner une société de bourse** établie dans un État de la CEMAC auprès de laquelle elle **élit domicile**"
+    }
+   ],
+   "mnemos": [
+    "Chiffres de l'APE : 50 M FCFA (seuil) sur 12 mois · 90 jours (visa → placement) · 10 % (admission sans document) · 4 cas de retrait du visa."
+   ],
+   "definitions": [
+    {
+     "terme": "Appel public à l'épargne (APE)",
+     "definition": "Fait pour une société d'avoir ses titres admis à la bourse régionale ou d'offrir au public des valeurs mobilières ; soumis à un document d'information visé par la COSUMAF."
+    },
+    {
+     "terme": "Prorogation",
+     "definition": "Prolongation de la période de placement, qui doit être validée par la COSUMAF pour éviter un retrait de visa."
+    },
+    {
+     "terme": "Jeton numérique",
+     "definition": "Bien incorporel représentant sous forme numérique des droits enregistrés dans un dispositif électronique partagé ; soumis au régime de l'APE."
+    },
+    {
+     "terme": "Offre au public",
+     "definition": "Communication suffisamment informative pour décider d'acheter ou souscrire, ou placement de valeurs mobilières par des intermédiaires financiers."
+    },
+    {
+     "terme": "Offre publique d'échange (OPE)",
+     "definition": "Offre dans laquelle des titres sont proposés en échange d'autres ; elle dispense de document d'information si un document équivalent visé existe."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Le régime de l'APE s'applique-t-il aux jetons numériques ?",
+     "verso": "Oui (art. 76), avec des dispositions spécifiques dans le Règlement Général."
+    },
+    {
+     "recto": "Quelle durée pour diffuser et placer après le visa ?",
+     "verso": "90 jours."
+    },
+    {
+     "recto": "Admission en bourse : quel seuil dispense de document d'information ?",
+     "verso": "Actions représentant moins de 10 % du nombre d'actions de même catégorie déjà admises, sur 12 mois."
+    },
+    {
+     "recto": "Quelles offres ne sont pas des APE ?",
+     "verso": "Moins de 50 M FCFA sur 12 mois, ou offre uniquement à des investisseurs qualifiés agissant pour compte propre."
+    },
+    {
+     "recto": "Que se passe-t-il pour une opération réalisée en violation de l'interdiction de faire APE ?",
+     "verso": "Elle est nulle, sanctionnable, sans préjudice de poursuites pénales."
+    },
+    {
+     "recto": "Sur quoi est calculée la commission de visa ?",
+     "verso": "Sur le montant effectivement mobilisé, fixée par instruction."
+    },
+    {
+     "recto": "Qu'est-ce qu'un jeton numérique ?",
+     "verso": "Un bien incorporel représentant sous forme numérique des droits enregistrés dans un dispositif électronique partagé ; il relève du régime de l'APE."
+    },
+    {
+     "recto": "Quelles exemptions de document pour une offre au public ?",
+     "verso": "Actions de substitution sans augmentation de capital, OPE, fusion/scission/apport, actions gratuites ou en paiement de dividendes, titres aux mandataires sociaux et salariés."
+    },
+    {
+     "recto": "À partir de quel montant une offre devient-elle un APE ?",
+     "verso": "À partir de 50 millions de FCFA (sur 12 mois) : en dessous, ce n'est pas un APE."
+    },
+    {
+     "recto": "Qu'impose l'APE avant la diffusion ?",
+     "verso": "Un document d'information visé par la COSUMAF, accompagné d'un résumé."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Seuil en dessous duquel une offre n'est pas un APE ?",
+     "choix": [
+      "10 millions FCFA",
+      "50 millions FCFA",
+      "500 millions FCFA",
+      "1 milliard FCFA"
+     ],
+     "bonne": 1,
+     "explication": "Offre totale inférieure à 50 millions FCFA sur 12 mois."
+    },
+    {
+     "q": "Délai pour diffuser le document et placer les titres après le visa ?",
+     "choix": [
+      "30 jours",
+      "60 jours",
+      "90 jours",
+      "180 jours"
+     ],
+     "bonne": 2,
+     "explication": "Quatre-vingt-dix jours à compter du visa."
+    },
+    {
+     "q": "Un APE nécessite...",
+     "choix": [
+      "Un simple communiqué diffusé à la presse",
+      "L'accord de la seule BVMAC, sans visa",
+      "Une autorisation de la BEAC uniquement",
+      "Un document d'information visé par la COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": "Document d'information avec résumé, visé avant diffusion."
+    },
+    {
+     "q": "Combien de cas de retrait du visa le Règlement prévoit-il ?",
+     "choix": [
+      "2",
+      "4",
+      "3",
+      "6"
+     ],
+     "bonne": 1,
+     "explication": "Quatre cas (art. 86)."
+    },
+    {
+     "q": "Qui doit autoriser préalablement l'APE d'un non-résident (changes) ?",
+     "choix": [
+      "La BEAC",
+      "La COBAC",
+      "La BVMAC",
+      "Le Comité Ministériel"
+     ],
+     "bonne": 0,
+     "explication": "Au titre de la réglementation des changes."
+    },
+    {
+     "q": "Dispense de document pour l'admission : actions représentant moins de...",
+     "choix": [
+      "5 % sur 12 mois",
+      "20 % sur 6 mois",
+      "25 % sur 24 mois",
+      "10 % sur 12 mois"
+     ],
+     "bonne": 3,
+     "explication": "Moins de 10 % des actions de même catégorie déjà admises."
+    },
+    {
+     "q": "La commission de visa est calculée sur...",
+     "choix": [
+      "Le capital social de l'émetteur",
+      "Le montant effectivement mobilisé",
+      "Le chiffre d'affaires de l'exercice",
+      "Le montant annoncé au lancement de l'opération"
+     ],
+     "bonne": 1,
+     "explication": "Art. 85."
+    },
+    {
+     "q": "Font publiquement appel à l'épargne les sociétés dont les valeurs mobilières sont admises à la négociation, à compter de :",
+     "choix": [
+      "l'ouverture des souscriptions",
+      "la date de l'assemblée générale",
+      "la date d'admission",
+      "la clôture de l'exercice"
+     ],
+     "bonne": 2,
+     "explication": "À dater de l'admission (art. 74)."
+    },
+    {
+     "q": "Une offre au public peut être :",
+     "choix": [
+      "seulement une publicité diffusée à la télévision",
+      "une communication ou un placement par intermédiaires financiers",
+      "seulement une offre faite directement en bourse",
+      "seulement un placement privé auprès de qualifiés"
+     ],
+     "bonne": 1,
+     "explication": "Communication avec assez d'informations pour décider, ou placement par intermédiaires."
+    },
+    {
+     "q": "Le régime de l'APE s'applique aussi :",
+     "choix": [
+      "aux dépôts bancaires",
+      "aux crédits immobiliers",
+      "aux cartes de paiement",
+      "aux jetons numériques"
+     ],
+     "bonne": 3,
+     "explication": "Art. 76 : bien incorporel représentant des droits enregistrés dans un dispositif électronique partagé."
+    },
+    {
+     "q": "Une offre adressée uniquement à des investisseurs qualifiés n'est pas un APE si ceux-ci agissent :",
+     "choix": [
+      "pour compte de tiers",
+      "par un mandataire",
+      "pour compte propre",
+      "par une SGO uniquement"
+     ],
+     "bonne": 2,
+     "explication": "Investisseurs qualifiés agissant pour compte propre."
+    },
+    {
+     "q": "Une opération réalisée en violation de l'interdiction de faire APE est :",
+     "choix": [
+      "valable mais sanctionnée",
+      "régularisable sous 30 jours",
+      "nulle et sanctionnable",
+      "suspendue"
+     ],
+     "bonne": 2,
+     "explication": "Art. 79 : nulle et sanctionnable."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "APE ou pas APE ?",
+     "buckets": [
+      "Appel public à l'épargne",
+      "Pas d'APE"
+     ],
+     "items": [
+      {
+       "t": "Émetteur dont les titres sont admis à la bourse régionale.",
+       "b": 0,
+       "why": "Dès l'admission."
+      },
+      {
+       "t": "Offre de 30 millions FCFA sur 12 mois.",
+       "b": 1,
+       "why": "Moins de 50 M."
+      },
+      {
+       "t": "Offre faite uniquement à des investisseurs qualifiés pour compte propre.",
+       "b": 1,
+       "why": "Exception."
+      },
+      {
+       "t": "Offre de valeurs mobilières au public avec communication suffisante pour décider.",
+       "b": 0,
+       "why": "Définition de l'APE."
+      },
+      {
+       "t": "Offre de jetons numériques au public.",
+       "b": 0,
+       "why": "Le régime s'applique aussi aux jetons."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le visa est valable dans {{tous}} les États membres de la CEMAC et l'opération se déroule dans les {{90}} jours suivant sa délivrance.",
+    "L'offre de moins de {{50}} millions FCFA sur {{12}} mois n'est pas un appel public à l'épargne.",
+    "Une offre dont le montant total est inférieur à {{50}} millions de FCFA sur {{12}} mois n'est pas un APE."
+   ],
+   "schemas": [
+    {
+     "titre": "Quand y a-t-il appel public à l'épargne ?",
+     "type": "compare",
+     "legende": "Deux portes d'entrée, deux exceptions.",
+     "cols": [
+      {
+       "t": "APE",
+       "s": "visa obligatoire",
+       "pts": [
+        "Titres admis à la bourse régionale",
+        "Offre de valeurs mobilières au public (communication suffisante ou intermédiaires)",
+        "Jetons numériques"
+       ]
+      },
+      {
+       "t": "Pas d'APE",
+       "s": "exceptions",
+       "pts": [
+        "Offre < 50 M FCFA sur 12 mois",
+        "Offre aux seuls investisseurs qualifiés agissant pour compte propre"
+       ]
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "Les deux portes de l'APE",
+     "texte": "Un émetteur fait **appel public à l'épargne** de deux manières : (1) ses titres sont **admis à la bourse régionale** (dès l'admission), (2) il **offre des valeurs mobilières au public**. Pas d'APE si l'offre est **inférieure à 50 M FCFA sur 12 mois** ou réservée à des **investisseurs qualifiés agissant pour compte propre**. Retiens : **document d'information + visa**, valable **90 jours**."
+    },
+    {
+     "type": "piege",
+     "titre": "Le visa n'est pas une garantie",
+     "texte": "Le visa de la COSUMAF **n'approuve pas l'opportunité** de l'opération et **n'authentifie pas les comptes**. Il dit seulement que l'information est **complète, cohérente et compréhensible**."
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g7-ape-document",
+   "titre": "Essentiel · 7 · APE : conditions de l'émetteur et document d'information (art. 125 à 149)",
+   "resume": {
+    "court": "L'émission par APE est interdite si le capital n'est pas intégralement libéré ; une SA de moins de 2 ans ou sans 2 bilans approuvés doit faire vérifier son actif et son passif. Le document d'information (résumé de 5 pages maximum) est exact, précis et sincère ; l'émetteur le met à jour dans les 15 jours (changement important) ou 7 jours (faits nouveaux, erreurs). Enregistrement du document d'un État en 60 jours ouvrés (+ 30).",
+    "moyen": "Les émetteurs APE sont soumis au Règlement 01/22, au RG et à l'Acte uniforme OHADA ; les émissions se font par voie de syndication ; obligations d'information périodique et permanente ; site internet obligatoire. Information exacte, précise et sincère. Interdiction d'émettre actions ou obligations si le capital n'est pas intégralement libéré. SA de moins de 2 ans d'existence et sans 2 bilans approuvés : vérification de l'actif et du passif par des commissaires aux comptes agréés (à peine de nullité). Contenu du DI : contexte et objectifs, montant, destination des fonds, titres, valeur nominale, prix d'émission justifié, risques, états financiers des 3 derniers exercices, syndicat de placement, arrangeurs, chefs de file, agence de notation (si notation dans les 3 ans), période de souscription, régime fiscal, admission en bourse. DI d'un État : examen et enregistrement dans 60 jours ouvrés (prorogeable de 30 jours ouvrés). Résumé : 5 pages maximum, avertissements obligatoires. Document de référence (visé depuis moins d'1 an) + note d'opération (visée dans 1 mois). Modifications : 15 jours calendaires (changement important) ou 7 jours (faits nouveaux, erreurs) ; opérations interrompues pendant l'examen. Responsabilité de l'émetteur et de ses dirigeants.",
+    "long": "Les émetteurs APE sont soumis au Règlement 01/22, au RG et à l'Acte uniforme OHADA ; les émissions se font par voie de syndication ; obligations d'information périodique et permanente ; site internet obligatoire. Information exacte, précise et sincère. Interdiction d'émettre actions ou obligations si le capital n'est pas intégralement libéré. SA de moins de 2 ans d'existence et sans 2 bilans approuvés : vérification de l'actif et du passif par des commissaires aux comptes agréés (à peine de nullité). Contenu du DI : contexte et objectifs, montant, destination des fonds, titres, valeur nominale, prix d'émission justifié, risques, états financiers des 3 derniers exercices, syndicat de placement, arrangeurs, chefs de file, agence de notation (si notation dans les 3 ans), période de souscription, régime fiscal, admission en bourse. DI d'un État : examen et enregistrement dans 60 jours ouvrés (prorogeable de 30 jours ouvrés). Résumé : 5 pages maximum, avertissements obligatoires. Document de référence (visé depuis moins d'1 an) + note d'opération (visée dans 1 mois). Modifications : 15 jours calendaires (changement important) ou 7 jours (faits nouveaux, erreurs) ; opérations interrompues pendant l'examen. Responsabilité de l'émetteur et de ses dirigeants."
+   },
+   "fiches": [
+    {
+     "titre": "Statut et obligations de l'émetteur APE (art. 125 à 127)",
+     "contenu": "- Soumis au **Règlement 01/22**, au **RG** et à l'**Acte uniforme OHADA** (droit des sociétés commerciales et GIE)\n- Émissions des États et autres émetteurs : **par voie de syndication**\n- **Obligations d'information périodiques et permanentes** + **document d'information** pour toute opération APE\n- **Site internet** obligatoire (documents d'information, données sur l'activité et les résultats)\n- L'information diffusée doit être **exacte, précise et sincère**"
+    },
+    {
+     "titre": "Conditions d'émission (art. 128-129)",
+     "contenu": "- **Interdite** aux sociétés dont le **capital n'est pas intégralement libéré**\n- Une **SA n'ayant pas 2 années d'existence** et n'ayant pas établi **2 bilans régulièrement approuvés** doit, **à peine de nullité des contrats ou des titres émis**, faire procéder à une **vérification de l'actif et du passif**\n- Vérification par un ou plusieurs **commissaires aux comptes agréés par la COSUMAF** désignés par l'organe qui décide l'opération ; **rapport** sur la valeur de l'actif et du passif, précisant la **situation financière réelle**, avant la décision"
+    },
+    {
+     "titre": "Contenu du document d'information (art. 130-131)",
+     "contenu": "Il doit permettre d'évaluer le **patrimoine, la situation financière, les résultats et les perspectives** de l'émetteur et des garants. Il précise notamment :\n- **contexte et objectifs** · **montant** · **destination des fonds**\n- **nature et nombre** des titres · **modalités d'émission** · **valeur nominale** · **prix d'émission et sa justification** · conditions de souscription\n- **engagements de l'émetteur** · **facteurs de risque**\n- **états financiers de synthèse des 3 derniers exercices**\n- **syndicat de placement** (composition), **intermédiaires**, **arrangeurs** (SDB), **chefs de file** (SDB ou établissement de crédit)\n- **agence de notation** si notation dans les **3 ans** précédant le dépôt\n- **durée de souscription**, modalités de placement, règlement des litiges, **régime fiscal**, modalités d'**admission en bourse**"
+    },
+    {
+     "titre": "Document d'information d'un État ou d'une collectivité (art. 132 à 135)",
+     "contenu": "**Émission d'un État membre** : le DI est transmis à la COSUMAF pour **examen et enregistrement** (contexte politique, économique et social ; titres et conditions ; prix unitaire ; objectif et destination des fonds ; plan de diffusion ; rémunération de l'emprunt ; garantie éventuelle ; notation éventuelle).\n- **Enregistrement dans les 60 jours ouvrés** à compter de la réception d'un dossier **complet** ; **prorogeable de 30 jours ouvrés** maximum\n\n**Collectivité locale ou démembrement d'un État** : DI transmis pour **examen et visa** (contexte économique et social, titres, prix, objectif, plan de diffusion, rémunération, garantie).\n\nUne **instruction** précise le format et le contenu selon l'émetteur ou le titre."
+    },
+    {
+     "titre": "Le résumé (art. 136-137)",
+     "contenu": "- Informations clés, formulation **simple et concise**, dans la **langue du document**, **forme standard**\n- Ne s'intitule « résumé » que s'il respecte l'art. 136\n- **5 pages maximum**\n- **Avertissement** obligatoire : à lire comme **introduction** ; toute décision d'investir doit reposer sur l'**examen exhaustif** du document d'information ; **engagent leur responsabilité civile** les personnes qui ont présenté le résumé s'il est trompeur, inexact ou contradictoire\n- Contenu et format précisés par instruction ; modifications repérables"
+    },
+    {
+     "titre": "Document de référence et note d'opération (art. 138-139)",
+     "contenu": "- Le DI peut faire référence à un autre DI **visé depuis moins d'un an**, pour des titres de **même catégorie**, intégrant les derniers **états financiers annuels approuvés**\n- Il est alors complété par une **note d'opération** : informations sur les titres offerts, éléments comptables publiés depuis le visa initial, **faits nouveaux significatifs**, tableau de correspondance\n- **Note d'opération visée dans un délai maximum d'1 mois** à compter du dépôt complet (le délai est **interrompu** en cas de demande d'informations complémentaires)"
+    },
+    {
+     "titre": "Modification du document et obligations diverses (art. 140 à 149)",
+     "contenu": "- **Changement important** après le visa ou l'enregistrement : informer **immédiatement** la COSUMAF et soumettre un nouveau DI **dans les 15 jours calendaires**\n- **Faits nouveaux significatifs, erreurs ou inexactitude substantielle** : nouveau DI **dans les 7 jours calendaires**\n- Pendant l'examen de la modification : **opérations (APE et placement privé) immédiatement interrompues**, reprise après nouveau visa/enregistrement\n- **Interdit** de diffuser toute information sur l'opération **entre le dépôt du DI et la délivrance du visa**\n- Information au public **conforme** au DI visé ; **documents publicitaires** soumis à **autorisation préalable**\n- Informations fournies à la COSUMAF **confidentielles** (sauf publicité obligatoire)\n- Personnes **démarchées** : copie du DI visé ou du document publicitaire approuvé\n- **Responsabilité** du DI : émetteur ou offreur, leur organe d'administration ou de direction et, le cas échéant, le **garant** ; personnes responsables identifiées, avec **déclaration** que les données sont conformes à la réalité et sans omission"
+    }
+   ],
+   "mnemos": [
+    "APE : capital libéré · 2 ans + 2 bilans (sinon vérification) · résumé ≤ 5 pages · DI modifié : 15 jours (important) / 7 jours (faits nouveaux) · État : 60 j ouvrés + 30."
+   ],
+   "definitions": [
+    {
+     "terme": "Arrangeur",
+     "definition": "Société de bourse chargée de structurer l'opération d'APE ou de placement privé."
+    },
+    {
+     "terme": "Vérification de l'actif et du passif",
+     "definition": "Contrôle par des commissaires aux comptes agréés exigé d'une SA de moins de deux ans sans deux bilans approuvés avant un APE."
+    },
+    {
+     "terme": "Résumé du document d'information",
+     "definition": "Document standard de 5 pages maximum présentant les informations clés avec avertissement obligatoire."
+    },
+    {
+     "terme": "Document de référence",
+     "definition": "Document d'information visé depuis moins d'un an, auquel un nouveau document peut faire référence."
+    },
+    {
+     "terme": "Capital intégralement libéré",
+     "definition": "Condition d'une émission APE : le capital souscrit doit être entièrement payé."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quels délais de mise à jour du DI ?",
+     "verso": "Changement important : 15 jours calendaires ; faits nouveaux, erreurs ou inexactitudes : 7 jours calendaires ; l'opération est interrompue pendant l'examen."
+    },
+    {
+     "recto": "Quel est le régime du DI d'un État ?",
+     "verso": "Examen et enregistrement par la COSUMAF en 60 jours ouvrés (prorogeables de 30) à partir d'un dossier complet."
+    },
+    {
+     "recto": "À quelle condition une notation figure-t-elle dans le DI ?",
+     "verso": "Si l'émetteur a été noté dans les 3 années précédant le dépôt du DI."
+    },
+    {
+     "recto": "Qu'est-ce que le document de référence et la note d'opération ?",
+     "verso": "Le DI peut renvoyer à un DI visé depuis moins d'un an, complété par une note d'opération visée dans le mois suivant son dépôt complet."
+    },
+    {
+     "recto": "Quelles règles pour le résumé ?",
+     "verso": "5 pages maximum, simple et concis, forme standard, avertissement obligatoire, responsabilité civile de ses auteurs s'il est trompeur."
+    },
+    {
+     "recto": "Quel est le régime du DI d'une collectivité locale ?",
+     "verso": "Examen et visa."
+    },
+    {
+     "recto": "Délai en cas de faits nouveaux significatifs, erreurs ou inexactitudes ?",
+     "verso": "7 jours calendaires."
+    },
+    {
+     "recto": "Délai pour déposer un nouveau DI en cas de changement important ?",
+     "verso": "15 jours calendaires."
+    },
+    {
+     "recto": "Peut-on communiquer sur l'opération entre le dépôt du DI et le visa ?",
+     "verso": "Non, toute diffusion d'information sur l'opération est interdite dans cet intervalle."
+    },
+    {
+     "recto": "Quelle est la durée du délai de visa de la note d'opération ?",
+     "verso": "1 mois maximum à compter du dépôt complet (interrompu par les demandes d'informations)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Longueur maximale du résumé ?",
+     "choix": [
+      "2 pages",
+      "5 pages",
+      "10 pages",
+      "Illimitée"
+     ],
+     "bonne": 1,
+     "explication": "Cinq pages."
+    },
+    {
+     "q": "Délai de mise à jour du DI pour un changement important ?",
+     "choix": [
+      "3 jours",
+      "15 jours calendaires",
+      "7 jours",
+      "30 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 140."
+    },
+    {
+     "q": "Délai de mise à jour pour faits nouveaux ou erreurs substantielles ?",
+     "choix": [
+      "7 jours calendaires",
+      "15 jours",
+      "30 jours",
+      "60 jours"
+     ],
+     "bonne": 0,
+     "explication": "Art. 141."
+    },
+    {
+     "q": "Une SA de 18 mois d'existence veut faire APE. Que faut-il ?",
+     "choix": [
+      "Rien, aucune condition particulière n'est exigée",
+      "Une vérification de l'actif et du passif par des CAC agréés",
+      "L'accord préalable de la BEAC sur l'opération",
+      "Un capital doublé avant le dépôt du dossier"
+     ],
+     "bonne": 1,
+     "explication": "Art. 129."
+    },
+    {
+     "q": "Délai d'enregistrement d'un DI d'État ?",
+     "choix": [
+      "60 jours ouvrés",
+      "30 jours ouvrés",
+      "90 jours calendaires",
+      "6 mois"
+     ],
+     "bonne": 0,
+     "explication": "Prorogeable de 30 jours ouvrés."
+    },
+    {
+     "q": "L'émetteur APE est soumis à :",
+     "choix": [
+      "le seul RG de la COSUMAF, sans l'OHADA",
+      "le droit français applicable aux marchés",
+      "la loi de l'État du siège uniquement",
+      "le Règlement 01/22, le RG et l'Acte uniforme OHADA"
+     ],
+     "bonne": 3,
+     "explication": "Droit des sociétés commerciales et GIE."
+    },
+    {
+     "q": "Les émissions des États et autres émetteurs se font :",
+     "choix": [
+      "par vente directe",
+      "par enchères",
+      "par voie de syndication",
+      "par tirage au sort"
+     ],
+     "bonne": 2,
+     "explication": "Art. 125 à 127."
+    },
+    {
+     "q": "L'émetteur APE doit avoir :",
+     "choix": [
+      "un site internet avec ses documents d'information et ses résultats",
+      "un bureau permanent à Douala près de la BVMAC",
+      "une filiale chargée des relations avec la bourse",
+      "un représentant de la BEAC dans son conseil"
+     ],
+     "bonne": 0,
+     "explication": "Site obligatoire."
+    },
+    {
+     "q": "L'information diffusée par l'émetteur doit être :",
+     "choix": [
+      "complète et promotionnelle",
+      "brève et confidentielle",
+      "approuvée par l'État",
+      "exacte, précise et sincère"
+     ],
+     "bonne": 3,
+     "explication": "Art. 127."
+    },
+    {
+     "q": "L'émission est interdite aux sociétés dont le capital :",
+     "choix": [
+      "dépasse 1 Md",
+      "est détenu par un État",
+      "n'est pas intégralement libéré",
+      "est inférieur à 100 M"
+     ],
+     "bonne": 2,
+     "explication": "Art. 128."
+    },
+    {
+     "q": "Une SA de moins de 2 années d'existence sans 2 bilans approuvés doit faire :",
+     "choix": [
+      "vérifier son actif et son passif par des CAC agréés par la COSUMAF",
+      "attendre deux années complètes avant toute émission",
+      "obtenir un avis préalable de la BEAC sur l'opération",
+      "lever des fonds à l'étranger pour renforcer son capital"
+     ],
+     "bonne": 0,
+     "explication": "À peine de nullité des contrats ou des titres émis."
+    },
+    {
+     "q": "Cette vérification de l'actif et du passif est confiée à :",
+     "choix": [
+      "la BEAC, qui désigne un inspecteur de ses services",
+      "un ou plusieurs CAC agréés par la COSUMAF, désignés par l'organe qui décide l'opération",
+      "la BVMAC, après audit de la comptabilité de l'émetteur",
+      "un expert de l'État choisi par le ministre des finances"
+     ],
+     "bonne": 1,
+     "explication": "Rapport avant la décision, précisant la situation financière réelle."
+    }
+   ],
+   "trous": [
+    "Le DI d'un État est enregistré dans les {{60}} jours ouvrés, prorogeables de {{30}} jours ouvrés.",
+    "Le résumé du document d'information ne dépasse pas {{5}} pages.",
+    "Après un changement important, un nouveau DI est déposé dans les {{15}} jours calendaires ; après une erreur, dans les {{7}} jours."
+   ],
+   "schemas": [
+    {
+     "titre": "Le document d'information d'un APE",
+     "type": "boxes",
+     "legende": "Ce qu'il doit contenir.",
+     "titreBloc": "Document d'information",
+     "sous": "visé par la COSUMAF",
+     "fleche": "de l'émetteur à l'opération",
+     "blocs": [
+      {
+       "t": "L'opération",
+       "pts": [
+        "Contexte et objectifs",
+        "Montant et destination des fonds",
+        "Titres, valeur nominale, prix justifié"
+       ]
+      },
+      {
+       "t": "L'émetteur",
+       "pts": [
+        "États financiers des 3 derniers exercices",
+        "Facteurs de risque",
+        "Notation (si dans les 3 ans)"
+       ]
+      },
+      {
+       "t": "Le placement",
+       "pts": [
+        "Syndicat, arrangeurs, chefs de file",
+        "Période de souscription",
+        "Régime fiscal, admission en bourse"
+       ]
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g8-visa-cac",
+   "titre": "Essentiel · 8 · Le visa de la COSUMAF et les commissaires aux comptes des émetteurs (art. 150 à 167)",
+   "resume": {
+    "court": "Le visa atteste que le document est complet, cohérent et compréhensible ; il ne garantit ni l'opportunité ni les comptes ni contre les risques de marché. Instruction en 60 jours ouvrés (+ 30). Refus en 5 cas. Tout émetteur APE désigne 2 CAC titulaires et 2 suppléants indépendants, agréés ; rapport annuel de contrôle interne sous 90 jours calendaires.",
+    "moyen": "La COSUMAF vérifie l'exhaustivité (conformité au type d'émetteur, d'émission, historique financier complexe), la compréhensibilité (table des matières, absence de répétitions, police lisible, langage clair, terminologie expliquée) et la cohérence (pas de discordances, risques repris dans la section facteurs de risque, concordance résumé/document, produit de l'émission cohérent avec la stratégie, fonds de roulement net). Dossier de demande de visa : statuts certifiés, DI, bulletin de souscription, extrait RCCM de moins de 3 mois, états financiers certifiés des 3 derniers exercices, PV d'AG, 3 derniers rapports de gestion et rapports des CAC, lettre de mandat de la SDB, rapport d'évaluation financière, prévisions sur 3 ans. Refus possible : dossier incomplet, non-conformité, infraction de l'émetteur, probité insuffisante, situation financière ne garantissant pas la viabilité. Instruction : 60 jours ouvrés, prorogeable de 30. La COSUMAF peut interrompre l'opération en cas de risque sérieux, ouvrir une enquête et annuler l'opération (remboursement). Le visa n'est pas une garantie. CAC : 2 titulaires et 2 suppléants, de structures différentes, agréés COSUMAF, inscrits à l'ordre ; ils certifient, certifient avec réserves ou refusent ; rapport annuel de contrôle interne du président sous 90 jours calendaires après la clôture ; alerte de la COSUMAF.",
+    "long": "La COSUMAF vérifie l'exhaustivité (conformité au type d'émetteur, d'émission, historique financier complexe), la compréhensibilité (table des matières, absence de répétitions, police lisible, langage clair, terminologie expliquée) et la cohérence (pas de discordances, risques repris dans la section facteurs de risque, concordance résumé/document, produit de l'émission cohérent avec la stratégie, fonds de roulement net). Dossier de demande de visa : statuts certifiés, DI, bulletin de souscription, extrait RCCM de moins de 3 mois, états financiers certifiés des 3 derniers exercices, PV d'AG, 3 derniers rapports de gestion et rapports des CAC, lettre de mandat de la SDB, rapport d'évaluation financière, prévisions sur 3 ans. Refus possible : dossier incomplet, non-conformité, infraction de l'émetteur, probité insuffisante, situation financière ne garantissant pas la viabilité. Instruction : 60 jours ouvrés, prorogeable de 30. La COSUMAF peut interrompre l'opération en cas de risque sérieux, ouvrir une enquête et annuler l'opération (remboursement). Le visa n'est pas une garantie. CAC : 2 titulaires et 2 suppléants, de structures différentes, agréés COSUMAF, inscrits à l'ordre ; ils certifient, certifient avec réserves ou refusent ; rapport annuel de contrôle interne du président sous 90 jours calendaires après la clôture ; alerte de la COSUMAF."
+   },
+   "fiches": [
+    {
+     "titre": "Les 3 contrôles avant le visa (art. 150 à 154)",
+     "contenu": "Le visa est délivré si le DI est **complet, cohérent et compréhensible**.\n\n- **Exhaustivité** : document conforme à la réglementation selon l'émetteur, l'émission, les valeurs et l'offre ; la COSUMAF vérifie si l'émetteur a un **historique financier complexe** ou un **engagement financier important** ; peut exiger d'ajouter, modifier ou supprimer des informations\n- **Compréhensibilité** : **table des matières** claire, pas de **répétitions** inutiles, informations liées **regroupées**, **police lisible**, structure claire, **formules mathématiques** définies, **langage clair**, nature des opérations et principales activités décrites, **terminologie** du secteur expliquée\n- **Cohérence** : pas de **discordances importantes** ; risques déclarés ailleurs repris dans la section **facteurs de risque** ; **résumé** concordant ; utilisation du produit cohérente avec le montant levé et la stratégie ; informations sur les résultats/situation/activité cohérentes ; **fonds de roulement net** cohérent\n- Elle peut ajouter des critères pour protéger les investisseurs"
+    },
+    {
+     "titre": "Le dossier de demande de visa (art. 155)",
+     "contenu": "1. **Copie certifiée conforme des statuts**\n2. Le **document d'information**\n3. Un **bulletin de souscription**\n4. Extrait du **RCCM** de moins de **3 mois**\n5. **États financiers certifiés des 3 derniers exercices** (ou rapport de vérification de l'actif/passif)\n6. **PV de l'AG** ayant autorisé l'opération\n7. **3 derniers rapports annuels de gestion**\n8. **3 derniers rapports généraux et spéciaux des CAC**\n9. **Lettre de mandat** de la société de bourse\n10. **Rapport d'évaluation financière** de l'émetteur\n11. **Documents prévisionnels sur 3 ans**\n12. Tout autre document exigé"
+    },
+    {
+     "titre": "Refus, délai, interruption (art. 156 à 158)",
+     "contenu": "**Refus du visa** si : dossier **incomplet** · DI **non conforme** · émetteur **contrevenant** aux règles APE · dirigeants, détenteurs d'une influence déterminante ou promoteur **sans la probité** nécessaire · situation financière ne garantissant pas la **viabilité**.\n\n**Délai** : **60 jours ouvrés** à compter du dossier complet, **prorogeable de 30 jours ouvrés**.\n\n**Interruption** à tout moment après le visa en cas de **risque sérieux d'atteinte aux intérêts des investisseurs** : effet immédiat, motifs publiés ; **enquête** ouverte ; reprise sur **autorisation** ; si **manquements graves** : **annulation** de l'opération, **remboursement des souscriptions**/restitution des titres."
+    },
+    {
+     "titre": "Ce que le visa n'est pas (art. 159-161)",
+     "contenu": "Le visa **n'implique ni approbation de l'opportunité** de l'opération, **ni authentification** des éléments comptables et financiers ; il atteste que le DI est **complet** et comporte des informations **pertinentes, cohérentes, claires et compréhensibles**. **Il ne garantit pas contre les risques de marché.** Le DI est établi sous la **seule responsabilité de l'émetteur** et doit **reprendre cet avertissement**.\n\nLes demandes de visa donnent lieu à des **droits** fixés par instruction ; une instruction précise le dépôt et l'examen."
+    },
+    {
+     "titre": "Les commissaires aux comptes des émetteurs (art. 162 à 165)",
+     "contenu": "- Contrôle des comptes selon les **actes uniformes OHADA**\n- **2 CAC titulaires et 2 suppléants**, **indépendants**, **ne relevant pas de structures ou cabinets identiques**\n- **Agrément préalable de la COSUMAF** et inscription sur la liste des **experts-comptables agréés CEMAC** et au **tableau de l'ordre national** d'un État CEMAC\n- La COSUMAF peut **interdire** l'intervention d'un CAC dont la **moralité ou crédibilité** paraît douteuse ou visé par des plaintes\n- Ils assurent la **fiabilité** de l'information financière du DI et des documents comptables\n- Ils **certifient** la régularité et la sincérité ; **certifient avec réserves** (justifiées) ; **refusent** la certification (motifs)\n- Information inexacte ou trompeuse : **responsabilité** et **sanction** possible"
+    },
+    {
+     "titre": "Rapport de contrôle interne et alerte (art. 166-167)",
+     "contenu": "- Les sociétés APE établissent un **rapport annuel de contrôle interne** : le **président** rend compte de l'organisation et des procédures de contrôle interne\n- Adressé à la COSUMAF **au plus tard 90 jours calendaires après la clôture** de l'exercice\n- Le **CAC** apprécie l'organisation et les procédures de contrôle interne et le **gouvernement d'entreprise** ; joint un **rapport** avec observations et améliorations ; se prononce sur les procédures d'élaboration et de traitement de l'**information comptable et financière**\n- Les CAC informent **sans délai** la COSUMAF de tout acte, omission ou irrégularité **affectant de manière significative la situation financière** ou **violant la réglementation**"
+    }
+   ],
+   "mnemos": [
+    "Visa : complet · cohérent · compréhensible. Pas d'approbation d'opportunité, pas de garantie. 60 j ouvrés + 30. Rapport de contrôle interne : 90 jours calendaires."
+   ],
+   "definitions": [
+    {
+     "terme": "Cohérence (visa)",
+     "definition": "Contrôle de l'absence de discordances entre les parties du document (résumé, risques, utilisation du produit, fonds de roulement)."
+    },
+    {
+     "terme": "Rapport annuel de contrôle interne",
+     "definition": "Rapport du président d'une société APE sur l'organisation et les procédures de contrôle interne, adressé à la COSUMAF sous 90 jours calendaires."
+    },
+    {
+     "terme": "Interruption de l'opération",
+     "definition": "Décision d'effet immédiat de la COSUMAF en cas de risque sérieux pour les investisseurs, suivie d'une enquête et d'une éventuelle annulation."
+    },
+    {
+     "terme": "Exhaustivité (visa)",
+     "definition": "Contrôle de la COSUMAF vérifiant que le document contient toutes les informations requises selon le type d'émetteur et d'opération."
+    },
+    {
+     "terme": "Fonds de roulement net",
+     "definition": "Indicateur dont la cohérence est vérifiée dans le document d'information."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quels motifs de refus du visa ?",
+     "verso": "Dossier incomplet, DI non conforme, émetteur contrevenant, dirigeants sans probité, situation financière ne garantissant pas la viabilité."
+    },
+    {
+     "recto": "Quelle règle sur les commissaires aux comptes de l'émetteur ?",
+     "verso": "2 titulaires et 2 suppléants indépendants, agréés par la COSUMAF, inscrits sur la liste CEMAC et au tableau de l'ordre national."
+    },
+    {
+     "recto": "Délai d'instruction d'une demande de visa ?",
+     "verso": "60 jours ouvrés après dossier complet, prorogeable de 30 jours ouvrés."
+    },
+    {
+     "recto": "Le visa garantit-il contre les risques de marché ?",
+     "verso": "Non, il ne constitue pas une garantie contre les risques de marché."
+    },
+    {
+     "recto": "Quel rapport de contrôle interne pour une société APE ?",
+     "verso": "Rapport annuel du président adressé à la COSUMAF au plus tard 90 jours calendaires après la clôture, avec rapport du CAC."
+    },
+    {
+     "recto": "Quels types de certification les CAC peuvent-ils émettre ?",
+     "verso": "Certifier, certifier avec réserves, refuser de certifier (en justifiant)."
+    },
+    {
+     "recto": "Que contrôle la cohérence ?",
+     "verso": "Absence de discordances importantes, reprise des risques, résumé concordant, utilisation du produit cohérente, fonds de roulement net cohérent."
+    },
+    {
+     "recto": "Quels sont les trois contrôles avant le visa ?",
+     "verso": "Exhaustivité, compréhensibilité et cohérence du document d'information."
+    },
+    {
+     "recto": "Quelles certifications un CAC peut-il émettre ?",
+     "verso": "Certification de la régularité et sincérité, certification avec réserves justifiées ou refus motivé."
+    },
+    {
+     "recto": "Que n'est pas le visa ?",
+     "verso": "Ce n'est ni une approbation de l'opportunité de l'opération, ni une authentification des comptes, ni une garantie contre les risques de marché."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Combien de CAC titulaires faut-il pour un émetteur APE ?",
+     "choix": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "bonne": 1,
+     "explication": "2 titulaires + 2 suppléants."
+    },
+    {
+     "q": "Le visa signifie...",
+     "choix": [
+      "La COSUMAF garantit le rendement de l'opération",
+      "Le DI est complet, cohérent et compréhensible",
+      "Les comptes de l'émetteur sont authentifiés par la COSUMAF",
+      "L'opération est jugée opportune par la COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": "Art. 159."
+    },
+    {
+     "q": "Rapport annuel de contrôle interne APE : délai ?",
+     "choix": [
+      "30 jours",
+      "90 jours calendaires",
+      "60 jours",
+      "6 mois"
+     ],
+     "bonne": 1,
+     "explication": "Art. 166."
+    },
+    {
+     "q": "Un extrait RCCM doit dater de moins de...",
+     "choix": [
+      "1 mois",
+      "6 mois",
+      "3 mois",
+      "1 an"
+     ],
+     "bonne": 2,
+     "explication": "Art. 155."
+    },
+    {
+     "q": "En cas de risque sérieux après visa, la COSUMAF peut...",
+     "choix": [
+      "Interrompre immédiatement l'opération",
+      "Rien",
+      "Attendre la fin du placement",
+      "Annuler sans enquête"
+     ],
+     "bonne": 0,
+     "explication": "Art. 158."
+    },
+    {
+     "q": "Le visa est délivré si le document d'information est :",
+     "choix": [
+      "rentable, sûr et rédigé en termes simples",
+      "court, public et validé par les États membres",
+      "approuvé par la BEAC et par la BVMAC",
+      "complet, cohérent et compréhensible"
+     ],
+     "bonne": 3,
+     "explication": "Les trois contrôles : exhaustivité, compréhensibilité, cohérence."
+    },
+    {
+     "q": "Le contrôle d'exhaustivité vérifie :",
+     "choix": [
+      "la lisibilité de la police et la clarté de la table des matières",
+      "la conformité du document à la réglementation selon l'émetteur, l'émission et l'offre",
+      "la concordance entre le résumé et le reste du document",
+      "la rentabilité attendue de l'opération pour les souscripteurs"
+     ],
+     "bonne": 1,
+     "explication": "La COSUMAF vérifie l'historique financier complexe et les engagements importants."
+    },
+    {
+     "q": "Le contrôle de compréhensibilité concerne notamment :",
+     "choix": [
+      "la table des matières, l'absence de répétitions, la police lisible, le langage clair",
+      "le cours de bourse et la volatilité de l'action",
+      "le nombre d'actionnaires et leur répartition géographique",
+      "le montant du capital et sa libération intégrale"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Le contrôle de cohérence porte notamment sur :",
+     "choix": [
+      "la police de caractères et la taille des titres",
+      "la concordance du résumé et le fonds de roulement net",
+      "la table des matières et le nombre de pages",
+      "la durée de la souscription et la langue du document"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Le dossier de visa comprend les états financiers certifiés des :",
+     "choix": [
+      "3 derniers exercices",
+      "2 derniers exercices",
+      "5 derniers exercices",
+      "10 derniers exercices"
+     ],
+     "bonne": 0,
+     "explication": "Ou le rapport de vérification de l'actif et du passif."
+    },
+    {
+     "q": "Parmi ces pièces, laquelle figure au dossier de visa ?",
+     "choix": [
+      "Un permis de construire du siège de l'émetteur",
+      "Un contrat de travail du président de la société",
+      "La lettre de mandat de la société de bourse",
+      "Un avis d'imposition personnel des actionnaires"
+     ],
+     "bonne": 2,
+     "explication": "Aussi : statuts, bulletin de souscription, PV d'AG, rapports annuels, rapport d'évaluation financière."
+    },
+    {
+     "q": "Le visa peut être refusé si :",
+     "choix": [
+      "le dossier est incomplet, le DI non conforme ou les dirigeants sans la probité nécessaire",
+      "l'émetteur est une société établie hors de l'État du siège",
+      "le capital de l'émetteur est supérieur à un milliard de FCFA",
+      "le document d'information est trop court pour être lisible"
+     ],
+     "bonne": 0,
+     "explication": "Aussi si la situation financière ne garantit pas la viabilité."
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Le visa : exhaustif, compréhensible, cohérent",
+     "type": "equation",
+     "legende": "Les trois qualités que vérifie la COSUMAF.",
+     "parts": [
+      {
+       "t": "Exhaustif",
+       "s": "toutes les informations requises"
+      },
+      {
+       "op": "+"
+      },
+      {
+       "t": "Compréhensible",
+       "s": "langage clair, glossaire"
+      },
+      {
+       "op": "+"
+      },
+      {
+       "t": "Cohérent",
+       "s": "pas de discordance"
+      },
+      {
+       "op": "="
+      },
+      {
+       "t": "Visa",
+       "s": "pas une garantie",
+       "c": 3
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le visa est délivré dans les {{60}} jours ouvrés, prorogeables de {{30}} jours ouvrés.",
+    "Le rapport annuel de contrôle interne est adressé à la COSUMAF au plus tard {{90}} jours calendaires après la clôture.",
+    "Un émetteur APE désigne {{2}} commissaires aux comptes titulaires et {{2}} suppléants."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g9-placement-sukuk",
+   "titre": "Essentiel · 9 · Le déroulement du placement, les non-résidents, les sukuks (art. 168 à 188)",
+   "resume": {
+    "court": "Le DI ne peut être diffusé avant le visa (diffusion dans le délai fixé, au plus 90 jours calendaires). Placement : pré-placement sans ordres fermes, chef de file qui envoie un rapport hebdomadaire chaque vendredi, compte centralisateur et virement du produit dans les 8 jours calendaires, prise ferme libérée dans les 3 jours, rapport de clôture sous 8 jours, admission à la cote sous 30 jours. Sukuks : certification de conformité à la finance islamique.",
+    "moyen": "Diffusion du DI en français (et autre langue de travail), conforme au document visé, avant la souscription ; moyens de diffusion : presse nationale dans chaque État, mise à disposition gratuite au siège et chez les intermédiaires, sites de l'émetteur, de la BVMAC, envoi sans frais. L'opération commence à la date de la décision de la COSUMAF ; période de pré-placement (déclarations d'intention, pas d'ordres fermes). L'émetteur désigne une ou deux SDB, qui peut former un syndicat ; le chef de file informe la COSUMAF, envoie un rapport hebdomadaire chaque vendredi, centralise les souscriptions sur un compte centralisateur dans un établissement de crédit de la CEMAC ; 8 jours calendaires après la clôture pour virer le produit à l'émetteur et transmettre le relevé. Contrats de placement transmis à la COSUMAF avant signature. Prise ferme : libérée au plus tard 3 jours calendaires après l'ouverture des souscriptions, sinon caducité. Placement ≤ 90 jours calendaires après l'ouverture. Suites en cas de non-réussite ou de sursouscription prévues et irrévocables. Publicités communiquées avant diffusion avec n° et date du visa. Rapport de clôture sous 8 jours. Admission à la cote sous 30 jours. Non-résidents : DI visé, autorisation de la BEAC, SDB correspondante, états certifiés aux normes COSUMAF. Sukuks : DI visé (émetteur non État) ou enregistrement (États) ; certification de conformité par un organisme agréé ; jetons : DI visé.",
+    "long": "Diffusion du DI en français (et autre langue de travail), conforme au document visé, avant la souscription ; moyens de diffusion : presse nationale dans chaque État, mise à disposition gratuite au siège et chez les intermédiaires, sites de l'émetteur, de la BVMAC, envoi sans frais. L'opération commence à la date de la décision de la COSUMAF ; période de pré-placement (déclarations d'intention, pas d'ordres fermes). L'émetteur désigne une ou deux SDB, qui peut former un syndicat ; le chef de file informe la COSUMAF, envoie un rapport hebdomadaire chaque vendredi, centralise les souscriptions sur un compte centralisateur dans un établissement de crédit de la CEMAC ; 8 jours calendaires après la clôture pour virer le produit à l'émetteur et transmettre le relevé. Contrats de placement transmis à la COSUMAF avant signature. Prise ferme : libérée au plus tard 3 jours calendaires après l'ouverture des souscriptions, sinon caducité. Placement ≤ 90 jours calendaires après l'ouverture. Suites en cas de non-réussite ou de sursouscription prévues et irrévocables. Publicités communiquées avant diffusion avec n° et date du visa. Rapport de clôture sous 8 jours. Admission à la cote sous 30 jours. Non-résidents : DI visé, autorisation de la BEAC, SDB correspondante, états certifiés aux normes COSUMAF. Sukuks : DI visé (émetteur non État) ou enregistrement (États) ; certification de conformité par un organisme agréé ; jetons : DI visé."
+   },
+   "fiches": [
+    {
+     "titre": "Diffusion du document d'information (art. 168-169)",
+     "contenu": "- Pas de diffusion **avant** le **visa** et le **dépôt** du DI visé à la COSUMAF (en **français** et, le cas échéant, une autre langue de travail de la CEMAC) ; DI diffusé **conforme** au DI visé\n- Délai de diffusion fixé par la **décision de visa** : **90 jours calendaires maximum**\n- **Formes de diffusion** (une ou plusieurs) : **publication dans la presse nationale** de **chaque État CEMAC** · **mise à disposition gratuite** au siège de l'émetteur, auprès des intermédiaires de placement ou du service financier · **mise en ligne** (émetteur, intermédiaires) · site de la **BVMAC** et mise à disposition à son siège si **admission envisagée** · **envoi sans frais** à toute personne qui le demande\n- **Avis** dans un journal national de chaque État indiquant où consulter/obtenir le DI"
+    },
+    {
+     "titre": "Ouverture, pré-placement, syndicat (art. 170-171)",
+     "contenu": "- Le placement ne débute **qu'à la date fixée** par la décision de la COSUMAF (ouverture des souscriptions)\n- **Pré-placement** possible : les intermédiaires **ne peuvent prendre d'ordres fermes**, mais peuvent recevoir des **déclarations d'intention**\n- L'émetteur désigne **une ou deux sociétés de bourse** pour superviser et exécuter le placement ; la SDB peut constituer un **syndicat de placement** (autres SDB et un ou plusieurs établissements de crédit)\n- Le **chef de file** informe la COSUMAF pour le compte de l'émetteur et établit un **rapport hebdomadaire adressé à la COSUMAF le vendredi de chaque semaine** pendant toute la durée du placement"
+    },
+    {
+     "titre": "Centralisation des souscriptions (art. 172)",
+     "contenu": "- Le **chef de file** centralise les souscriptions (si **2 co-chefs de file**, l'émetteur choisit celui qui centralise)\n- Il ouvre un **compte centralisateur** dans un **établissement de crédit agréé** établi en **CEMAC**\n- **Dans un délai de 8 jours calendaires** après la clôture de la période de souscription : l'établissement centralisateur **vire le produit global** sur le compte de l'émetteur et **transmet à la COSUMAF le relevé** du compte de centralisation ; la COSUMAF est informée dans le même délai"
+    },
+    {
+     "titre": "Contrats, demandes de souscription, prise ferme (art. 173 à 176)",
+     "contenu": "- **Contrat de placement** émetteur / SDB désignée ; avec un **syndicat** : le chef de file signe aussi un contrat avec les **agents placeurs** (contrat de mise en œuvre)\n- Contrats **transmis à la COSUMAF avant signature**, copies sans délai après signature ; une instruction fixe les mentions minimales\n- Avant d'accepter une souscription, la SDB s'assure que le demandeur a reçu un **exemplaire du DI** et de ses modifications\n- **Prise ferme** : le chef de file dépose le dossier de visa/enregistrement et la **liste des membres du syndicat** avec le **montant** pour chacun ; elle peut être libérée dès le visa ; **au plus tard 3 jours calendaires** après l'ouverture des souscriptions ; **caducité** de l'engagement en cas de non-respect (sans préjudice de sanctions) ; preuve par relevé de compte\n- **Fin du placement** à la date prévue au DI, **90 jours calendaires maximum** après l'ouverture"
+    },
+    {
+     "titre": "Suites de l'opération, publicités, rapport de clôture, cote (art. 177 à 180)",
+     "contenu": "- Le DI prévoit les **suites en cas de non-réussite** (titres non intégralement placés) et de **sursouscription** : engagements **irrévocables**\n- **Publicités** communiquées à la COSUMAF **avant diffusion**, avec référence au DI visé (**numéro et date du visa**)\n- **Rapport de clôture** : rendu public et adressé à l'émetteur et à la COSUMAF par le chef de file **dans les 8 jours calendaires** après la clôture des souscriptions\n- Si l'**admission à la cote** est envisagée : l'émetteur y procède, avec la Bourse régionale, **dans les 30 jours calendaires** après la clôture des souscriptions"
+    },
+    {
+     "titre": "Émetteurs non-résidents (art. 181-182)",
+     "contenu": "- **DI visé** par la COSUMAF avant diffusion\n- **Autorisation préalable de la BEAC** (changes) ; modalités : **Instruction n°012/GR/2019 du 10 juin 2019** du Gouverneur de la BEAC\n- **Non-résident** : personne morale dont le principal centre d'intérêt ou le siège est **hors de la zone UMAC**\n- Désigner une **société de bourse** établie en CEMAC, où il **élit domicile** : correspondante qui **reçoit les correspondances** de la COSUMAF et **transmet** documents et informations\n- États financiers établis et **certifiés selon les normes comptables fixées par la COSUMAF**"
+    },
+    {
+     "titre": "Finance islamique et jetons (art. 183 à 189)",
+     "contenu": "**Sukuks** :\n- **Émetteur autre qu'un État membre** : DI soumis au **visa** ; **États membres** : **enregistrement**\n- DI avec informations spécifiques sur les **caractéristiques financières** des sukuks et **compatibilité avec la loi islamique**, dont une **certification de conformité** aux principes de la finance islamique, délivrée par une **autorité ou un organisme qualifié et habilité**, lui-même **agréé par la COSUMAF**\n- Modalités d'émission, caractéristiques techniques et droits : **Instruction** de la COSUMAF\n\n**Jetons numériques** : les émetteurs établissent un **DI soumis au visa** de la COSUMAF avant de procéder au placement."
+    }
+   ],
+   "mnemos": [
+    "Placement : vendredi (rapport hebdo) · 8 jours (virement du produit + rapport de clôture) · 3 jours (prise ferme) · 30 jours (admission à la cote) · 90 jours (durée max)."
+   ],
+   "definitions": [
+    {
+     "terme": "Syndicat de placement",
+     "definition": "Groupe de SDB et d'établissements de crédit chargés du placement, mené par un chef de file."
+    },
+    {
+     "terme": "Organisme certificateur",
+     "definition": "Organisme agréé par la COSUMAF qui certifie la conformité d'un sukuk aux principes de la finance islamique."
+    },
+    {
+     "terme": "Sursouscription",
+     "definition": "Situation où les demandes dépassent l'offre ; le DI en précise les suites de façon irrévocable."
+    },
+    {
+     "terme": "Contrat de placement",
+     "definition": "Contrat entre l'émetteur et la SDB désignée, complété par un contrat de mise en œuvre avec les agents placeurs."
+    },
+    {
+     "terme": "Contrat de mise en œuvre",
+     "definition": "Contrat entre le chef de file et les agents placeurs d'un syndicat de placement."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Délai de publication du rapport de clôture ?",
+     "verso": "8 jours calendaires après la clôture des opérations de souscription."
+    },
+    {
+     "recto": "Qu'est-ce que le pré-placement ?",
+     "verso": "Phase où les intermédiaires reçoivent des déclarations d'intention mais ne peuvent prendre d'ordres fermes."
+    },
+    {
+     "recto": "Durée maximale du placement après l'ouverture des souscriptions ?",
+     "verso": "90 jours calendaires."
+    },
+    {
+     "recto": "Quand finit le placement ?",
+     "verso": "À la date prévue au DI, au plus tard 90 jours calendaires après l'ouverture."
+    },
+    {
+     "recto": "Quelle autorisation pour un émetteur non-résident ?",
+     "verso": "Celle de la BEAC (changes), en plus du visa, avec une société de bourse domiciliataire."
+    },
+    {
+     "recto": "Quelles règles pour un émetteur non-résident ?",
+     "verso": "DI visé, autorisation préalable de la BEAC (instruction du 10 juin 2019), société de bourse en CEMAC avec élection de domicile, états financiers aux normes COSUMAF."
+    },
+    {
+     "recto": "Quelles règles pour les sukuks ?",
+     "verso": "Visa du DI (enregistrement pour un État), caractéristiques financières, certification de conformité à la finance islamique par un organisme agréé."
+    },
+    {
+     "recto": "Quand et comment diffuser le document d'information ?",
+     "verso": "Après le visa et son dépôt, de façon conforme, pendant 90 jours calendaires au plus, par presse, mise à disposition gratuite, mise en ligne ou envoi sans frais."
+    },
+    {
+     "recto": "Délai d'admission à la cote après la clôture des souscriptions ?",
+     "verso": "30 jours calendaires."
+    },
+    {
+     "recto": "Que contiennent les publicités ?",
+     "verso": "La référence au DI visé : numéro et date du visa ; elles sont communiquées avant diffusion à la COSUMAF."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Rapport hebdomadaire du chef de file : quel jour ?",
+     "choix": [
+      "Lundi",
+      "Mercredi",
+      "Vendredi",
+      "Dimanche"
+     ],
+     "bonne": 2,
+     "explication": "Le vendredi de chaque semaine."
+    },
+    {
+     "q": "Délai de libération de la prise ferme ?",
+     "choix": [
+      "1 jour",
+      "3 jours calendaires",
+      "8 jours",
+      "30 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 175."
+    },
+    {
+     "q": "Admission à la cote : délai après la clôture des souscriptions ?",
+     "choix": [
+      "8 jours",
+      "30 jours calendaires",
+      "15 jours",
+      "90 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 180."
+    },
+    {
+     "q": "Durée maximale du placement ?",
+     "choix": [
+      "30 jours",
+      "60 jours",
+      "6 mois",
+      "90 jours calendaires"
+     ],
+     "bonne": 3,
+     "explication": "Art. 176."
+    },
+    {
+     "q": "Pendant le pré-placement, on peut recevoir...",
+     "choix": [
+      "Des ordres fermes",
+      "Des déclarations d'intention",
+      "Des paiements",
+      "Rien"
+     ],
+     "bonne": 1,
+     "explication": "Art. 170."
+    },
+    {
+     "q": "Quel organisme certifie un sukuk ?",
+     "choix": [
+      "La BEAC",
+      "La BVMAC",
+      "Le Dépositaire Central",
+      "Un organisme habilité agréé par la COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": "Art. 185."
+    },
+    {
+     "q": "Le DI peut être diffusé :",
+     "choix": [
+      "après le visa et son dépôt à la COSUMAF",
+      "dès sa rédaction",
+      "après approbation de la BVMAC",
+      "après l'AG"
+     ],
+     "bonne": 0,
+     "explication": "En français et, le cas échéant, une autre langue de travail de la CEMAC."
+    },
+    {
+     "q": "Le délai de diffusion fixé par la décision de visa est de :",
+     "choix": [
+      "90 jours calendaires maximum",
+      "30 jours calendaires maximum",
+      "60 jours calendaires maximum",
+      "6 mois maximum"
+     ],
+     "bonne": 0,
+     "explication": "Idem pour la durée du placement après l'ouverture."
+    },
+    {
+     "q": "Parmi ces formes de diffusion du DI, laquelle est prévue ?",
+     "choix": [
+      "La diffusion à la radio dans les États concernés",
+      "L'envoi payant à toute personne qui en fait la demande",
+      "La publication dans la presse nationale de chaque État CEMAC",
+      "L'affichage en salle de bourse uniquement"
+     ],
+     "bonne": 2,
+     "explication": "Aussi mise à disposition gratuite, mise en ligne, site de la BVMAC, envoi sans frais."
+    },
+    {
+     "q": "Le placement ne commence :",
+     "choix": [
+      "à la signature du contrat de placement",
+      "dès la délivrance du visa, sans autre formalité",
+      "à la date choisie librement par l'émetteur",
+      "qu'à la date fixée par la décision de la COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": "Ouverture des souscriptions."
+    },
+    {
+     "q": "Pendant le pré-placement, les intermédiaires peuvent :",
+     "choix": [
+      "prendre des ordres fermes de souscription des investisseurs",
+      "recevoir des déclarations d'intention mais pas d'ordres fermes",
+      "encaisser les fonds des souscripteurs sur un compte",
+      "livrer les titres aux investisseurs intéressés"
+     ],
+     "bonne": 1,
+     "explication": "Art. 170."
+    },
+    {
+     "q": "L'émetteur désigne pour le placement :",
+     "choix": [
+      "trois SDB",
+      "une banque",
+      "une ou deux sociétés de bourse",
+      "un CIF"
+     ],
+     "bonne": 2,
+     "explication": "La SDB peut constituer un syndicat de placement."
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets le déroulement du placement dans l'ordre",
+     "items": [
+      "Décision de la COSUMAF : début de l'opération",
+      "Pré-placement (déclarations d'intention)",
+      "Ouverture des souscriptions",
+      "Prise ferme libérée (3 jours maximum)",
+      "Clôture : virement du produit (8 jours)",
+      "Rapport de clôture",
+      "Admission à la cote (30 jours)"
+     ]
+    },
+    {
+     "titre": "Remets les étapes d'un placement APE dans l'ordre",
+     "consigne": "Du visa au rapport de clôture.",
+     "items": [
+      "Visa de la COSUMAF et dépôt du document d'information",
+      "Diffusion du document et pré-placement (déclarations d'intention)",
+      "Ouverture des souscriptions à la date fixée par la COSUMAF",
+      "Clôture des souscriptions et virement du produit sous 8 jours",
+      "Rapport de clôture publié sous 8 jours",
+      "Admission à la cote sous 30 jours"
+     ]
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Le déroulement d'un placement",
+     "type": "timeline",
+     "legende": "De la décision de la COSUMAF à l'admission.",
+     "events": [
+      {
+       "d": "Décision",
+       "t": "Début de l'opération",
+       "s": "Pré-placement : déclarations d'intention, pas d'ordres fermes."
+      },
+      {
+       "d": "Ouverture",
+       "t": "Souscriptions",
+       "s": "Rapport hebdomadaire du chef de file chaque vendredi."
+      },
+      {
+       "d": "+3 j",
+       "t": "Prise ferme libérée",
+       "s": "Sinon caducité."
+      },
+      {
+       "d": "≤ 90 j",
+       "t": "Fin du placement",
+       "s": "Jours calendaires après l'ouverture."
+      },
+      {
+       "d": "+8 j",
+       "t": "Clôture",
+       "s": "Virement du produit à l'émetteur ; rapport de clôture sous 8 jours."
+      },
+      {
+       "d": "+30 j",
+       "t": "Admission à la cote",
+       "s": "Si prévue."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le chef de file envoie un rapport hebdomadaire à la COSUMAF le {{vendredi}} de chaque semaine.",
+    "Le rapport de clôture est publié dans les {{8}} jours et l'admission à la cote a lieu dans les {{30}} jours après la clôture des souscriptions.",
+    "Le placement dure au plus {{90}} jours calendaires après l'ouverture des souscriptions."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g11-information-financiere",
+   "titre": "À connaître · 11 · Information financière des émetteurs et enregistrement du placement privé (art. 201 à 211)",
+   "resume": {
+    "court": "Les émetteurs APE informent le marché en permanence (AG, dividendes, faits nouveaux, communiqué de presse en cas de changement important). La COSUMAF a 10 jours ouvrés pour demander des modifications aux annonces presse. Placement privé : lettre de demande, document d'information simplifié, mise à jour sous 15 jours calendaires, instruction sous 10 jours.",
+    "moyen": "Information permanente ou occasionnelle : informer les actionnaires (AG, vote, dividendes, opérations sur titres), informer la COSUMAF (projets de modification des documents légaux, répartition du capital, décisions judiciaires), publier sans délai les modifications de droits des titres et les faits nouveaux importants, assurer l'égalité entre porteurs de même catégorie. Émetteur coté : communiqué de presse dès un changement important susceptible d'influencer notablement le cours (exemplaire transmis immédiatement à la COSUMAF) ; secret possible sous autorisation préalable de la COSUMAF en cas de risque de préjudice grave. Intentions publiques modifiées : à rendre publiques immédiatement. Opérations préparées susceptibles d'influencer les cours : porter sans délai les caractéristiques à la connaissance du public. La COSUMAF peut exiger une publication, ou publier aux frais de l'émetteur défaillant. Annonces presse communiquées préalablement : 10 jours ouvrés pour demander des modifications, à défaut autorisation réputée accordée. Information périodique selon instruction. Placement privé : lettre de demande d'enregistrement, dossier avec DI simplifié, mise à jour sous 15 jours calendaires en cas de changement important, instruction en 10 jours au plus après dossier complet.",
+    "long": "Information permanente ou occasionnelle : informer les actionnaires (AG, vote, dividendes, opérations sur titres), informer la COSUMAF (projets de modification des documents légaux, répartition du capital, décisions judiciaires), publier sans délai les modifications de droits des titres et les faits nouveaux importants, assurer l'égalité entre porteurs de même catégorie. Émetteur coté : communiqué de presse dès un changement important susceptible d'influencer notablement le cours (exemplaire transmis immédiatement à la COSUMAF) ; secret possible sous autorisation préalable de la COSUMAF en cas de risque de préjudice grave. Intentions publiques modifiées : à rendre publiques immédiatement. Opérations préparées susceptibles d'influencer les cours : porter sans délai les caractéristiques à la connaissance du public. La COSUMAF peut exiger une publication, ou publier aux frais de l'émetteur défaillant. Annonces presse communiquées préalablement : 10 jours ouvrés pour demander des modifications, à défaut autorisation réputée accordée. Information périodique selon instruction. Placement privé : lettre de demande d'enregistrement, dossier avec DI simplifié, mise à jour sous 15 jours calendaires en cas de changement important, instruction en 10 jours au plus après dossier complet."
+   },
+   "fiches": [
+    {
+     "titre": "Information permanente : obligations de l'émetteur APE (art. 201)",
+     "contenu": "- **Informer les actionnaires** de la tenue des **AG** et leur permettre de **voter**\n- Les informer du paiement des **dividendes** et des opérations sur titres (**émission, attribution, souscription, renonciation, conversion**)\n- Informer **en temps utile** la COSUMAF de tout **projet de modification** de ses documents légaux internes\n- Informer la COSUMAF des **modifications de la répartition de son capital**\n- **Publier sans délai** toute modification des **droits attachés aux catégories de titres**\n- Informer la COSUMAF de toute **décision judiciaire** l'affectant\n- **Publier dans les meilleurs délais** tout **fait nouveau important** du secteur d'activité affectant significativement l'activité\n- **Égalité de traitement** des porteurs de même catégorie\n- Fournir les informations nécessaires à l'**exercice des droits** des titulaires"
+    },
+    {
+     "titre": "Communiqué de presse et secret (art. 202-203)",
+     "contenu": "- L'émetteur **coté** à la Bourse régionale établit et diffuse un **communiqué de presse** **dès la survenance d'un changement important** susceptible d'exercer une **influence notable sur le cours ou la valeur** de ses titres ; **exemplaire transmis immédiatement** à la COSUMAF\n- Pas de communiqué si sa diffusion fait courir un **risque de préjudice grave** ou en cas de circonstance justifiant le **secret** : mais **autorisation préalable de la COSUMAF** obligatoire ; dès que les circonstances disparaissent, communiqué sous le contrôle de la COSUMAF"
+    },
+    {
+     "titre": "Intentions, opérations préparées, demandes de la COSUMAF (art. 204 à 206)",
+     "contenu": "- Une personne qui a **rendu publiques ses intentions** et les modifie doit **immédiatement** informer le public de ses nouvelles intentions\n- Toute personne qui prépare une **opération financière** susceptible d'avoir une **incidence significative sur le cours** ou les droits des porteurs doit, **sans délai**, porter ses caractéristiques à la connaissance du public\n- La COSUMAF peut **demander à un émetteur coté de publier** des informations utiles ; à défaut, elle les **publie elle-même aux frais de l'émetteur défaillant**, sans préjudice de sanctions"
+    },
+    {
+     "titre": "Annonces presse et information périodique (art. 207-208)",
+     "contenu": "- **Encarts, annonces publicitaires et supports destinés à la presse** : communiqués **préalablement** à la COSUMAF\n- La COSUMAF a **10 jours ouvrés** à compter de la communication pour demander une modification du contenu ou de la forme ; passé ce délai, **l'autorisation est réputée accordée**\n- **Information périodique** : modalités et fréquence précisées par **instruction**"
+    },
+    {
+     "titre": "Enregistrement du placement privé (art. 209 à 211)",
+     "contenu": "- L'émission ou la cession de titres en placement privé est soumise à l'**enregistrement par la COSUMAF** (art. 90 du Règlement 01/22)\n- Le **dossier** : **lettre de demande d'enregistrement** + **document d'information simplifié** (nature et modalités de l'opération avant son lancement) + éléments d'une instruction ; **frais d'enregistrement** par instruction\n- **Changement important** après enregistrement : informer **immédiatement** la COSUMAF et déposer un **nouveau DI simplifié** **dans les 15 jours calendaires** de la survenance\n- **Instruction du dossier** : **dix (10) jours maximum** à compter de la réception du dossier complet\n\nRappel : le **Règlement du 7 octobre 2026** (en vigueur le 1er novembre 2026) fait de cet enregistrement un **simple contrôle formel**."
+    }
+   ],
+   "mnemos": [
+    "10 jours ouvrés (annonces presse : silence = accord) · 15 jours calendaires (DIS modifié) · 10 jours (instruction du placement privé)."
+   ],
+   "definitions": [
+    {
+     "terme": "Information permanente",
+     "definition": "Information que l'émetteur APE fournit en continu : AG, dividendes, opérations sur titres, faits nouveaux importants."
+    },
+    {
+     "terme": "Silence de la COSUMAF",
+     "definition": "Après 10 jours ouvrés sans réponse sur une annonce presse, l'autorisation est réputée accordée."
+    },
+    {
+     "terme": "Fait nouveau important",
+     "definition": "Événement du secteur d'activité affectant significativement l'activité de l'émetteur : il doit être publié dans les meilleurs délais."
+    },
+    {
+     "terme": "Communiqué de presse (émetteur coté)",
+     "definition": "Document diffusé dès un changement important susceptible d'influencer notablement le cours, transmis immédiatement à la COSUMAF."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Délai de la COSUMAF pour demander la modification d'une annonce presse ?",
+     "verso": "10 jours ouvrés ; au-delà, l'autorisation est réputée accordée."
+    },
+    {
+     "recto": "Délai d'instruction d'une demande d'enregistrement de placement privé ?",
+     "verso": "10 jours maximum à compter de la réception du dossier complet."
+    },
+    {
+     "recto": "Délai de mise à jour du DI simplifié après changement important ?",
+     "verso": "15 jours calendaires."
+    },
+    {
+     "recto": "Quels délais pour le placement privé enregistré ?",
+     "verso": "Instruction en 10 jours maximum à compter du dossier complet ; nouveau DI simplifié sous 15 jours calendaires après un changement important."
+    },
+    {
+     "recto": "Qu'accompagne la demande d'enregistrement d'un placement privé ?",
+     "verso": "Un document d'information simplifié et les éléments précisés par instruction."
+    },
+    {
+     "recto": "Quand un émetteur coté publie-t-il un communiqué de presse ?",
+     "verso": "Dès un changement important susceptible d'influencer notablement le cours, avec exemplaire immédiat à la COSUMAF."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Silence de la COSUMAF pendant 10 jours ouvrés sur une annonce presse :",
+     "choix": [
+      "Autorisation réputée accordée",
+      "Refus",
+      "Retrait",
+      "Sanction"
+     ],
+     "bonne": 0,
+     "explication": "Art. 207."
+    },
+    {
+     "q": "Délai d'instruction d'un placement privé ?",
+     "choix": [
+      "30 jours",
+      "10 jours",
+      "60 jours",
+      "90 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 211."
+    },
+    {
+     "q": "Qui autorise le maintien du secret d'une information importante ?",
+     "choix": [
+      "La BVMAC",
+      "Le CA de l'émetteur",
+      "La COSUMAF",
+      "Le CAC"
+     ],
+     "bonne": 2,
+     "explication": "Art. 203."
+    },
+    {
+     "q": "Qui supporte les frais d'une publication faite par la COSUMAF à défaut de l'émetteur ?",
+     "choix": [
+      "La COSUMAF",
+      "La BVMAC",
+      "L'émetteur défaillant",
+      "L'État"
+     ],
+     "bonne": 2,
+     "explication": "Art. 206."
+    },
+    {
+     "q": "L'émetteur APE informe ses actionnaires de :",
+     "choix": [
+      "ses projets confidentiels de développement",
+      "ses contrats conclus avec ses clients",
+      "ses litiges personnels avec ses dirigeants",
+      "la tenue des AG et leur permet de voter"
+     ],
+     "bonne": 3,
+     "explication": "Art. 201."
+    },
+    {
+     "q": "L'émetteur informe la COSUMAF des projets de modification de ses :",
+     "choix": [
+      "prix de vente",
+      "contrats de travail",
+      "documents légaux internes",
+      "relations publiques"
+     ],
+     "bonne": 2,
+     "explication": "En temps utile."
+    },
+    {
+     "q": "Toute modification des droits attachés aux catégories de titres est publiée :",
+     "choix": [
+      "sous 15 jours",
+      "sous 30 jours",
+      "sans délai",
+      "à la clôture"
+     ],
+     "bonne": 2,
+     "explication": "Art. 201."
+    },
+    {
+     "q": "Une décision judiciaire affectant l'émetteur est portée à la connaissance de :",
+     "choix": [
+      "la COSUMAF",
+      "la BEAC",
+      "la COBAC",
+      "la BVMAC seule"
+     ],
+     "bonne": 0,
+     "explication": "Art. 201."
+    }
+   ],
+   "trous": [
+    "Le dossier de placement privé comprend une lettre de demande et un document d'information {{simplifié}}.",
+    "La COSUMAF a {{10}} jours ouvrés pour demander la modification d'une annonce presse ; passé ce délai, l'autorisation est {{réputée accordée}}."
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "i05-emetteurs-information-44-25",
+   "titre": "À connaître · 05 · Obligations d'information des émetteurs APE : Instruction 44-25 (remplace la 30-24)",
+   "resume": {
+    "court": "Instruction 44-25 du 15 décembre 2025 : rapport financier annuel au plus tard le 15 juillet N+1 (conservé 5 ans) ; rapports de contrôle interne et LBC/FT au plus tard le 30 mars ; rapport semestriel dans les 2 mois après le semestre ; déclarations intermédiaires de la direction (10 semaines après le début, 6 semaines avant la fin du semestre) ; communiqué de presse dès qu'un changement important influence le cours ; la COSUMAF a 10 jours ouvrés pour demander des modifications d'un encart publicitaire.",
+    "moyen": "Rapport financier annuel (art. 2) : publié sur le site de l'émetteur et déposé à la COSUMAF au plus tard le 15 juillet N+1, maintenu 5 ans ; contenu : états financiers certifiés par un CAC (bilan, compte de résultat, tableau financier des ressources et emplois), rapport général et rapport spécial du CAC, rapport annuel de gestion, PV de l'AG d'approbation, déclarations de responsabilité des dirigeants ; rapports annuels de contrôle interne et de contrôle LBC/FT au plus tard le 30 mars. Rapport semestriel (art. 3) pour les émetteurs d'actions ou de titres de créance : 2 mois au plus après la fin du semestre, conservé 5 ans ; états résumés, rapport de gestion intermédiaire (événements importants, risques des 6 mois restants, transactions avec les parties liées pour les actions), déclaration de responsabilité. Déclarations intermédiaires de la direction (art. 4) pour les émetteurs d'actions cotées : une par semestre, entre 10 semaines après le début du semestre et 6 semaines avant sa fin (non requises si rapports trimestriels). États et collectivités (art. 5-6) : exemptés des articles 2 à 4 mais notes annuelles pendant l'amortissement de l'emprunt (état d'avancement des projets, informations générales, plans de développement, conjoncture). Publication gratuite sur un espace dédié du site de l'émetteur et copie à informationsperiodique@cosumaf.org. Informations permanentes : à la COSUMAF (projets de modification des documents légaux, répartition du capital, décisions judiciaires), aux actionnaires (AG, dividendes, opérations sur titres), au public (modification des droits, faits nouveaux importants), obligations vertes, sociales et durables (procédure de suivi, sélection des projets, allocation des fonds, rapport d'évaluation externe). Communiqué de presse pour les émetteurs cotés dès qu'un changement important peut influencer le cours ; dérogation avec autorisation préalable de la COSUMAF si risque de préjudice grave ; la COSUMAF peut imposer une publication, sinon elle publie aux frais de l'émetteur. Délai de 10 jours ouvrés pour la COSUMAF sur les encarts publicitaires (silence = autorisation).",
+    "long": "Rapport financier annuel (art. 2) : publié sur le site de l'émetteur et déposé à la COSUMAF au plus tard le 15 juillet N+1, maintenu 5 ans ; contenu : états financiers certifiés par un CAC (bilan, compte de résultat, tableau financier des ressources et emplois), rapport général et rapport spécial du CAC, rapport annuel de gestion, PV de l'AG d'approbation, déclarations de responsabilité des dirigeants ; rapports annuels de contrôle interne et de contrôle LBC/FT au plus tard le 30 mars. Rapport semestriel (art. 3) pour les émetteurs d'actions ou de titres de créance : 2 mois au plus après la fin du semestre, conservé 5 ans ; états résumés, rapport de gestion intermédiaire (événements importants, risques des 6 mois restants, transactions avec les parties liées pour les actions), déclaration de responsabilité. Déclarations intermédiaires de la direction (art. 4) pour les émetteurs d'actions cotées : une par semestre, entre 10 semaines après le début du semestre et 6 semaines avant sa fin (non requises si rapports trimestriels). États et collectivités (art. 5-6) : exemptés des articles 2 à 4 mais notes annuelles pendant l'amortissement de l'emprunt (état d'avancement des projets, informations générales, plans de développement, conjoncture). Publication gratuite sur un espace dédié du site de l'émetteur et copie à informationsperiodique@cosumaf.org. Informations permanentes : à la COSUMAF (projets de modification des documents légaux, répartition du capital, décisions judiciaires), aux actionnaires (AG, dividendes, opérations sur titres), au public (modification des droits, faits nouveaux importants), obligations vertes, sociales et durables (procédure de suivi, sélection des projets, allocation des fonds, rapport d'évaluation externe). Communiqué de presse pour les émetteurs cotés dès qu'un changement important peut influencer le cours ; dérogation avec autorisation préalable de la COSUMAF si risque de préjudice grave ; la COSUMAF peut imposer une publication, sinon elle publie aux frais de l'émetteur. Délai de 10 jours ouvrés pour la COSUMAF sur les encarts publicitaires (silence = autorisation)."
+   },
+   "fiches": [
+    {
+     "titre": "Rapport financier annuel (art. 2)",
+     "contenu": "- Publié **sur le site internet de l'émetteur** et **déposé à la COSUMAF** au plus tard le **15 juillet N+1** ; maintenu en ligne **au moins 5 ans**\n- **Contenu** : états financiers **certifiés par un CAC** (bilan, compte de résultat, tableau financier des ressources et emplois, état annexé) · **rapport général et rapport spécial** du CAC · **rapport annuel de gestion** · **PV de l'AG** d'approbation des comptes · **déclarations des personnes responsables** (image fidèle, tableau fidèle de l'évolution des affaires, principaux risques)\n- **Comptes consolidés** si l'émetteur en établit ; rapport du CAC **intégralement communiqué au public**\n- **Rapport annuel de contrôle interne** et **rapport annuel de contrôle LBC/FT** : au plus tard le **30 mars** de chaque année"
+    },
+    {
+     "titre": "Rapports semestriels et déclarations de la direction (art. 3-4)",
+     "contenu": "**Rapport financier semestriel** (émetteurs d'**actions ou de titres de créance**) :\n- Couvre les **6 premiers mois** ; publié au plus tard **2 mois** après la fin du semestre ; conservé **5 ans**\n- Contient : **états financiers résumés**, **rapport de gestion intermédiaire** (événements importants, risques et incertitudes des 6 mois restants, transactions avec les **parties liées** pour les actions), **déclarations de responsabilité**\n- Si le rapport est audité ou examiné, le rapport de l'auditeur est reproduit ; sinon l'émetteur le déclare\n\n**Déclarations intermédiaires de la direction** (émetteurs dont les **actions sont cotées** à la Bourse régionale) :\n- Une au 1er semestre, une au 2nd\n- Établies dans la fenêtre **10 semaines après le début du semestre → 6 semaines avant la fin du semestre**\n- Contenu : événements et transactions importants, description générale de la situation financière et des résultats\n- **Non requises** pour les émetteurs qui publient des **rapports trimestriels**"
+    },
+    {
+     "titre": "États, collectivités et modalités de publication (art. 5 à 7)",
+     "contenu": "- Les **États et collectivités régionales ou locales** sont **exemptés** des articles 2, 3 et 4\n- Mais, pendant **toute la durée d'amortissement** de leurs emprunts obligataires, ils publient chaque année : **état d'avancement des projets financés**, **informations générales sur l'émetteur**, le cas échéant **évolution des plans nationaux de développement**, **conjoncture économique et perspectives**\n- Toutes ces informations : **gratuites** sur un **espace dédié du site** de l'émetteur ; copie par courriel à la COSUMAF (informationsperiodique@cosumaf.org)"
+    },
+    {
+     "titre": "Informations permanentes et occasionnelles (art. 8 à 11)",
+     "contenu": "**À la COSUMAF** : informer en temps utile de tout **projet de modification des documents légaux**, des **changements dans la répartition du capital**, de toute **décision judiciaire** l'affectant.\n\n**Aux actionnaires** : tenue des AG et exercice du vote, **paiement des dividendes**, émissions, attributions, souscription, renonciation, conversion.\n\n**Obligations vertes, sociales et durables** : mettre à disposition (site et siège) la **procédure de suivi et de contrôle des projets**, les **procédures d'évaluation et de sélection**, l'**allocation des fonds levés**, le **rapport d'évaluation externe**.\n\n**Au public** : publier **sans délai** toute modification des droits attachés aux titres ; publier **dans les meilleurs délais** tout fait nouveau important dans le secteur.\n\n**Émetteur coté** : **communiqué de presse** dès qu'un changement important peut influencer le cours ou la valeur de ses titres (copie immédiate à la COSUMAF) ; **dérogation** possible (risque de préjudice grave) mais **autorisation préalable de la COSUMAF** ; fin du secret → communiqué sous contrôle.\n\nLa COSUMAF peut **imposer une publication** ; en cas de défaut elle publie **aux frais de l'émetteur**, sans préjudice des sanctions."
+    },
+    {
+     "titre": "Encarts publicitaires et dispositions finales (art. 11-13)",
+     "contenu": "- Copies d'**encarts, annonces publicitaires** ou documents destinés à la presse : **communiquées préalablement** à la COSUMAF\n- La COSUMAF dispose de **10 jours ouvrés** pour demander une modification ; **passé ce délai, l'autorisation est réputée accordée**\n- L'Instruction 44-25 **abroge** l'Instruction 30-24 du 28 novembre 2024 (publiée « 30-34 » dans le texte)\n- Entrée en vigueur : à la signature (15 décembre 2025, séance à Douala)"
+    }
+   ],
+   "mnemos": [
+    "15 juillet (annuel) · 30 mars (contrôle interne, LBC/FT) · 2 mois (semestriel) · 10 semaines / 6 semaines (déclaration direction) · 5 ans (conservation) · 10 jours ouvrés (encarts)."
+   ],
+   "definitions": [
+    {
+     "terme": "Communiqué de presse (émetteur coté)",
+     "definition": "Communication obligatoire dès qu'un changement important est susceptible d'influencer notablement le cours ou la valeur des titres."
+    },
+    {
+     "terme": "Rapport financier annuel",
+     "definition": "Document publié et déposé à la COSUMAF au plus tard le 15 juillet N+1, avec états certifiés, rapports du CAC, rapport de gestion, PV d'AG et déclarations de responsabilité."
+    },
+    {
+     "terme": "Partie liée",
+     "definition": "Entité ou personne liée à l'émetteur ; leurs principales transactions figurent au rapport de gestion intermédiaire des émetteurs d'actions."
+    },
+    {
+     "terme": "Obligations vertes, sociales et durables",
+     "definition": "Emprunts dont l'émetteur doit publier la procédure de suivi des projets, leur sélection, l'allocation des fonds et un rapport d'évaluation externe."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quelles échéances de contrôle interne et LBC/FT ?",
+     "verso": "30 mars pour les émetteurs APE."
+    },
+    {
+     "recto": "Délai de publication du rapport semestriel ?",
+     "verso": "2 mois au plus après la fin du semestre."
+    },
+    {
+     "recto": "Quelle instruction est abrogée par la 44-25 ?",
+     "verso": "L'Instruction 30-24 du 28 novembre 2024."
+    },
+    {
+     "recto": "Que publie la COSUMAF si l'émetteur refuse de publier une information demandée ?",
+     "verso": "Elle la publie elle-même, aux frais de l'émetteur, sans préjudice de sanctions."
+    },
+    {
+     "recto": "Quand un émetteur coté doit-il publier un communiqué de presse ?",
+     "verso": "Dès qu'un changement important peut avoir une influence notable sur le cours ou la valeur de ses titres."
+    },
+    {
+     "recto": "Fenêtre de publication de la déclaration intermédiaire de la direction ?",
+     "verso": "Entre 10 semaines après le début du semestre et 6 semaines avant sa fin."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Date limite du rapport financier annuel ?",
+     "choix": [
+      "31 mars N+1",
+      "15 juillet N+1",
+      "30 juin N+1",
+      "31 décembre N"
+     ],
+     "bonne": 1,
+     "explication": "Art. 2 de l'Instruction 44-25."
+    },
+    {
+     "q": "Rapport semestriel : au plus tard...",
+     "choix": [
+      "1 mois",
+      "2 mois",
+      "3 mois",
+      "6 mois"
+     ],
+     "bonne": 1,
+     "explication": "Art. 3."
+    },
+    {
+     "q": "Rapports de contrôle interne et LBC/FT avant le...",
+     "choix": [
+      "31 janvier",
+      "30 mars",
+      "15 juillet",
+      "31 décembre"
+     ],
+     "bonne": 1,
+     "explication": "Art. 2 §5."
+    },
+    {
+     "q": "La déclaration de la direction est publiée...",
+     "choix": [
+      "Chaque mois",
+      "Une fois par an",
+      "Jamais",
+      "Une fois par semestre"
+     ],
+     "bonne": 3,
+     "explication": "Art. 4."
+    },
+    {
+     "q": "Les États émetteurs sont soumis à...",
+     "choix": [
+      "Des notes annuelles pendant l'amortissement de l'emprunt",
+      "Aucune obligation d'information après l'émission",
+      "Le même régime que celui des sociétés cotées",
+      "Un rapport trimestriel détaillé à la COSUMAF"
+     ],
+     "bonne": 0,
+     "explication": "Art. 5-6."
+    },
+    {
+     "q": "Le rapport financier annuel comprend notamment :",
+     "choix": [
+      "un plan marketing destiné aux investisseurs",
+      "les relevés bancaires de l'émetteur",
+      "les contrats conclus avec les principaux clients",
+      "les états financiers certifiés, le rapport général et spécial du CAC, le rapport de gestion, le PV de l'AG et les déclarations des responsables"
+     ],
+     "bonne": 3,
+     "explication": "Art. 2."
+    },
+    {
+     "q": "Si l'émetteur établit des comptes consolidés :",
+     "choix": [
+      "il les publie avec le rapport du CAC intégralement communiqué au public",
+      "il ne les publie pas, seuls les comptes sociaux le sont",
+      "il les envoie à la BEAC uniquement",
+      "il les garde confidentiels, sauf demande"
+     ],
+     "bonne": 0,
+     "explication": "Art. 2."
+    },
+    {
+     "q": "Le rapport financier semestriel contient :",
+     "choix": [
+      "les comptes annuels certifiés de l'exercice précédent",
+      "un plan stratégique à trois ans",
+      "des états financiers résumés, un rapport de gestion intermédiaire et des déclarations de responsabilité",
+      "la liste complète des actionnaires de l'émetteur"
+     ],
+     "bonne": 2,
+     "explication": "Aussi transactions avec les parties liées pour les actions."
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets les rendez-vous de l'émetteur APE dans l'année",
+     "items": [
+      "30 mars : rapports de contrôle interne et LBC/FT",
+      "15 juillet : rapport financier annuel",
+      "Semestre + 2 mois : rapport financier semestriel",
+      "Entre 10 et 6 semaines avant la fin du semestre : déclaration de la direction"
+     ]
+    }
+   ],
+   "trous": [
+    "Une annonce publicitaire communiquée à la COSUMAF est réputée autorisée si elle ne demande pas de modification sous {{10}} jours ouvrés.",
+    "Le rapport financier annuel est déposé au plus tard le {{15 juillet}} ; le rapport semestriel dans les {{2}} mois après la fin du semestre."
+   ],
+   "schemas": [
+    {
+     "titre": "Le calendrier d'un émetteur APE",
+     "type": "timeline",
+     "legende": "Les rendez-vous de l'année.",
+     "events": [
+      {
+       "d": "30 mars",
+       "t": "Contrôle interne et LBC/FT",
+       "s": "Rapports annuels."
+      },
+      {
+       "d": "15 juillet",
+       "t": "Rapport financier annuel",
+       "s": "Publié et déposé, conservé 5 ans."
+      },
+      {
+       "d": "Semestre + 2 mois",
+       "t": "Rapport semestriel",
+       "s": "États résumés et rapport de gestion intermédiaire."
+      },
+      {
+       "d": "10 sem. → 6 sem.",
+       "t": "Déclarations de la direction",
+       "s": "Une par semestre pour les émetteurs d'actions cotées."
+      },
+      {
+       "d": "Permanent",
+       "t": "Communiqués et faits nouveaux",
+       "s": "Communiqué de presse si changement influençant le cours."
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "Le calendrier de l'émetteur",
+     "texte": "**30 mars** : rapports de contrôle interne et LBC/FT. **15 juillet** : rapport financier annuel. **2 mois** après le semestre : rapport semestriel. **Déclarations de la direction** : fenêtre **10 semaines après le début, 6 semaines avant la fin** du semestre."
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "m12-autres-structures",
+   "titre": "À connaître · 12 · Agences de notation, Fonds de garantie (FOGAMAF) et organismes de garantie des émissions",
+   "resume": {
+    "court": "Trois autres structures sont sous le contrôle de la COSUMAF : les agences de notation (agrément, information de la COSUMAF sous 5 jours ouvrés de tout changement, absence de conflit d'intérêts), le Fonds de garantie du Marché (FOGAMAF) et les organismes de garantie des émissions (agrément).",
+    "moyen": "Les agences de notation apprécient le risque de solvabilité financière d'un émetteur ou d'une opération. Agrément préalable ; elles informent la COSUMAF au plus tard dans les 5 jours ouvrés de toute modification ayant une incidence sur leur agrément ; elles agissent avec intégrité, transparence, responsabilité, gouvernance et indépendance ; elles ont les moyens humains, financiers et techniques ; elles préviennent les conflits d'intérêts et se dotent d'un dispositif de gestion des informations privilégiées. Le Fonds de Garantie du Marché Financier de l'Afrique Centrale (FOGAMAF) est institué par le Règlement ; son objet, ses missions et son fonctionnement sont précisés par le Règlement Général. Les organismes de garantie des émissions sont des personnes morales qui couvrent le risque de défaillance et d'incapacité de l'émetteur à tenir ses engagements ; ils doivent être agréés par la COSUMAF avant d'exercer.",
+    "long": "Les agences de notation apprécient le risque de solvabilité financière d'un émetteur ou d'une opération. Agrément préalable ; elles informent la COSUMAF au plus tard dans les 5 jours ouvrés de toute modification ayant une incidence sur leur agrément ; elles agissent avec intégrité, transparence, responsabilité, gouvernance et indépendance ; elles ont les moyens humains, financiers et techniques ; elles préviennent les conflits d'intérêts et se dotent d'un dispositif de gestion des informations privilégiées. Le Fonds de Garantie du Marché Financier de l'Afrique Centrale (FOGAMAF) est institué par le Règlement ; son objet, ses missions et son fonctionnement sont précisés par le Règlement Général. Les organismes de garantie des émissions sont des personnes morales qui couvrent le risque de défaillance et d'incapacité de l'émetteur à tenir ses engagements ; ils doivent être agréés par la COSUMAF avant d'exercer."
+   },
+   "fiches": [
+    {
+     "titre": "Les 3 structures de l'art. 240",
+     "contenu": "1. Les **agences de notation**\n2. Le **Fonds de Garantie du Marché**\n3. Les **organismes de garantie** (des émissions)"
+    },
+    {
+     "titre": "Agences de notation (art. 241 à 247)",
+     "contenu": "- **Objet** : apprécier le **risque de solvabilité financière** d'un émetteur ou d'une opération sur instruments financiers ou autres actifs financiers\n- **Agrément préalable** de la COSUMAF avant toute intervention\n- Informent la COSUMAF **au plus tard dans les 5 jours ouvrés** de toute modification ayant une incidence sur le respect des conditions d'agrément\n- Agissent avec **intégrité, transparence, responsabilité** ; **bonne gouvernance** et **indépendance**\n- Moyens **humains, financiers et techniques** nécessaires\n- **Aucun conflit d'intérêts** (dirigeants, analystes, salariés, liés par contrôle) ; dispositif de gestion des **informations privilégiées** et de prévention des **abus de marché**\n- Le Règlement Général fixe les conditions d'émission et de publication des notations"
+    },
+    {
+     "titre": "Fonds de garantie du Marché : le FOGAMAF (art. 248)",
+     "contenu": "**Fonds de Garantie du Marché Financier de l'Afrique Centrale** (**FOGAMAF**) : institué par le Règlement. Son **objet, ses missions, ses règles de fonctionnement et de gestion** sont précisés dans le **Règlement Général de la COSUMAF**."
+    },
+    {
+     "titre": "Organismes de garantie des émissions (art. 249-251)",
+     "contenu": "- Un émetteur faisant **APE** peut recourir à un organisme de garantie : **personne morale** qui **couvre le risque de défaillance et d'incapacité de l'émetteur** à tenir ses engagements sur le marché\n- **Agrément préalable** de la COSUMAF\n- Conditions et procédure d'agrément précisées dans le Règlement Général"
+    }
+   ],
+   "mnemos": [
+    "Agence de notation : 5 jours ouvrés pour informer la COSUMAF."
+   ],
+   "definitions": [
+    {
+     "terme": "Solvabilité financière",
+     "definition": "Capacité d'un émetteur à honorer ses engagements ; son risque est apprécié par une agence de notation."
+    },
+    {
+     "terme": "Notation de crédit",
+     "definition": "Appréciation du risque de solvabilité financière d'un émetteur ou d'une opération."
+    },
+    {
+     "terme": "Agence de notation",
+     "definition": "Structure agréée qui apprécie le risque de solvabilité financière d'un émetteur ou d'une opération portant sur des instruments financiers."
+    },
+    {
+     "terme": "Conflit d'intérêts (notation)",
+     "definition": "Situation où une relation commerciale ou personnelle pourrait affecter l'émission d'une notation ; les agences doivent la prévenir."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que signifie FOGAMAF ?",
+     "verso": "Fonds de Garantie du Marché Financier de l'Afrique Centrale."
+    },
+    {
+     "recto": "Que signifie FOGAMAF et qui précise son rôle ?",
+     "verso": "Fonds de Garantie du Marché Financier de l'Afrique Centrale ; son objet et son fonctionnement sont précisés dans le RG."
+    },
+    {
+     "recto": "Quelles sont les trois structures de l'art. 240 ?",
+     "verso": "Agences de notation, Fonds de garantie du marché (FOGAMAF), organismes de garantie des émissions."
+    },
+    {
+     "recto": "Que fait une agence de notation ?",
+     "verso": "Elle apprécie le risque de solvabilité financière d'un émetteur ou d'une opération sur instruments financiers."
+    },
+    {
+     "recto": "Quelle formalité pour une agence de notation ?",
+     "verso": "Agrément préalable de la COSUMAF."
+    },
+    {
+     "recto": "Délai d'information de la COSUMAF par une agence de notation en cas de modification ?",
+     "verso": "Au plus tard dans les 5 jours ouvrés."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Délai d'information à la COSUMAF d'une agence de notation ?",
+     "choix": [
+      "5 jours ouvrés",
+      "24 heures",
+      "30 jours",
+      "3 mois"
+     ],
+     "bonne": 0,
+     "explication": "Cinq jours ouvrés."
+    },
+    {
+     "q": "FOGAMAF désigne...",
+     "choix": [
+      "Un fonds d'investissement privé",
+      "Une agence de notation",
+      "Un dépositaire",
+      "Le Fonds de garantie du marché"
+     ],
+     "bonne": 3,
+     "explication": "Fonds de Garantie du Marché Financier de l'Afrique Centrale."
+    },
+    {
+     "q": "Un émetteur APE peut faire appel à...",
+     "choix": [
+      "Un organisme de garantie des émissions",
+      "Un juge",
+      "La BEAC uniquement",
+      "Un CIF obligatoirement"
+     ],
+     "bonne": 0,
+     "explication": "Art. 249."
+    },
+    {
+     "q": "Une agence de notation doit prévenir...",
+     "choix": [
+      "Les conflits d'intérêts",
+      "Les dividendes",
+      "Les augmentations de capital",
+      "La cotation"
+     ],
+     "bonne": 0,
+     "explication": "Art. 245."
+    },
+    {
+     "q": "Combien de structures l'art. 240 présente-t-il dans ce chapitre ?",
+     "choix": [
+      "2",
+      "4",
+      "5",
+      "3"
+     ],
+     "bonne": 3,
+     "explication": "Agences de notation, Fonds de garantie du marché, organismes de garantie des émissions."
+    },
+    {
+     "q": "Une agence de notation apprécie :",
+     "choix": [
+      "le cours futur d'une action cotée à la BVMAC",
+      "la qualité de l'organisation d'une société de bourse",
+      "le risque de solvabilité financière d'un émetteur ou d'une opération",
+      "le niveau des frais de bourse pratiqués par les SDB"
+     ],
+     "bonne": 2,
+     "explication": "Art. 241."
+    },
+    {
+     "q": "Avant toute intervention, une agence de notation doit obtenir :",
+     "choix": [
+      "l'agrément préalable de la COSUMAF",
+      "l'accord de la BEAC",
+      "l'avis de la BVMAC",
+      "rien"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "Une agence de notation agit avec :",
+     "choix": [
+      "discrétion et confidentialité",
+      "intégrité, transparence, responsabilité",
+      "rapidité et efficacité",
+      "prudence et neutralité"
+     ],
+     "bonne": 1,
+     "explication": "avec bonne gouvernance et indépendance."
+    }
+   ],
+   "trous": [
+    "Une agence de notation informe la COSUMAF dans les {{5}} jours ouvrés de toute modification affectant son {{agrément}}.",
+    "Le FOGAMAF est le Fonds de Garantie du {{Marché}} Financier de l'Afrique Centrale."
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "g10-jetons-obligations-vertes",
+   "titre": "Pour aller plus loin · 10 · Jetons numériques et obligations vertes, sociales et durables (art. 188 à 200)",
+   "resume": {
+    "court": "Le placement de jetons passe par un DI visé et un dispositif d'enregistrement électronique partagé aux exigences strictes ; il relève du monopole des PSAN agréés. Les obligations vertes, sociales et durables exigent un expert indépendant agréé, un compte ou sous-compte dédié et une information renforcée (visa pour les émetteurs non-États, enregistrement pour les États).",
+    "moyen": "Jetons : DI visé (description du projet, de l'offre, de la plateforme de négociation, des droits et obligations, du nombre de jetons, du prix, du montant minimum et maximum, des modalités techniques, du suivi et de la sauvegarde des fonds, de l'émetteur et des risques). Le placement se traduit par une inscription dans un DEEP qui doit garantir l'enregistrement et l'intégrité des inscriptions, identifier les propriétaires, assurer la sauvegarde (plan de continuité avec unité externe de conservation), fournir des relevés et permettre la transmission. Monopole des PSAN agréés. La COSUMAF publie la liste des offres de jetons visées. Obligations vertes (impact environnemental positif), sociales (impact social positif), durables (combinaison). Expert indépendant agréé : revue des procédures de sélection et de suivi, assurances aux investisseurs, couverture du risque réputationnel, rapport. DI visé (non-États) ou enregistrement (États) avec descriptifs de projets, critères de sélection, procédures, gestion des fonds, engagement d'un compte ou sous-compte spécifique, informations publiées, rapport de l'expert. Pendant toute la durée de vie, l'émetteur publie les procédures, l'allocation des fonds et le rapport externe.",
+    "long": "Jetons : DI visé (description du projet, de l'offre, de la plateforme de négociation, des droits et obligations, du nombre de jetons, du prix, du montant minimum et maximum, des modalités techniques, du suivi et de la sauvegarde des fonds, de l'émetteur et des risques). Le placement se traduit par une inscription dans un DEEP qui doit garantir l'enregistrement et l'intégrité des inscriptions, identifier les propriétaires, assurer la sauvegarde (plan de continuité avec unité externe de conservation), fournir des relevés et permettre la transmission. Monopole des PSAN agréés. La COSUMAF publie la liste des offres de jetons visées. Obligations vertes (impact environnemental positif), sociales (impact social positif), durables (combinaison). Expert indépendant agréé : revue des procédures de sélection et de suivi, assurances aux investisseurs, couverture du risque réputationnel, rapport. DI visé (non-États) ou enregistrement (États) avec descriptifs de projets, critères de sélection, procédures, gestion des fonds, engagement d'un compte ou sous-compte spécifique, informations publiées, rapport de l'expert. Pendant toute la durée de vie, l'émetteur publie les procédures, l'allocation des fonds et le rapport externe."
+   },
+   "fiches": [
+    {
+     "titre": "Le document d'information des jetons (art. 188-189)",
+     "contenu": "DI **soumis au visa** de la COSUMAF. Il contient notamment :\n- description détaillée du **projet**, de l'**offre**, des **raisons** et de l'**utilisation prévue des fonds** et actifs numériques\n- description de la **plateforme de négociation** des jetons\n- **droits et obligations** attachés aux jetons et modalités d'exercice\n- **caractéristiques de l'offre** : nombre de jetons, **prix d'émission**, conditions de souscription, **montant minimum** permettant la réalisation du projet et **montant maximum** de l'offre\n- **modalités techniques** de l'émission\n- moyens de **suivi et de sauvegarde des fonds et actifs numériques** collectés\n- caractéristiques essentielles de l'**émetteur** et principaux intervenants\n- **risques** (émetteur, jetons, offre, projet)"
+    },
+    {
+     "titre": "Le DEEP : 5 exigences (art. 190)",
+     "contenu": "Le placement de jetons = inscription dans un **dispositif d'enregistrement électronique partagé** qui doit :\n1. garantir l'**enregistrement et l'intégrité** des inscriptions\n2. permettre d'**identifier les propriétaires**, la **nature et le nombre** de titres détenus\n3. assurer la **protection et la sauvegarde** des inscriptions via un **plan de continuité d'activité** avec une **unité ou structure externe de conservation des données**\n4. permettre aux propriétaires de disposer de **relevés** de leurs opérations\n5. permettre la **transmission** des titres ou jetons"
+    },
+    {
+     "titre": "Monopole et publication (art. 191 à 193)",
+     "contenu": "- Le **service de placement de jetons numériques** relève du **monopole des PSAN** (art. 145 du Règlement 01/22), **préalablement agréés** par la COSUMAF\n- DI diffusé effectivement\n- La COSUMAF **publie sur son site la liste des offres de jetons ayant obtenu son visa** et la **date d'obtention**"
+    },
+    {
+     "titre": "Définitions : obligations vertes, sociales, durables (art. 194-195)",
+     "contenu": "Soumises aux règles de l'**APE**.\n- **Obligations vertes** : produit destiné à financer ou refinancer des projets nouveaux ou existants à **impact positif sur l'environnement**\n- **Obligations sociales** : produit utilisé **exclusivement** pour des projets à **impact social positif**\n- **Obligations durables** : produit servant **exclusivement** à financer une **combinaison de projets verts et sociaux**"
+    },
+    {
+     "titre": "L'expert indépendant (art. 196)",
+     "contenu": "Tout émetteur recourt à un **expert indépendant** pour évaluer le projet. Missions : **revue des procédures de suivi et de contrôle** et de **sélection** des projets ; **assurances aux investisseurs** sur l'impact positif ; **couvrir l'émetteur contre le risque réputationnel** ; l'aider (procédures, identification des projets, documents d'émission, communication) ; établir un **rapport** sur les procédures de sélection et de suivi.\n\nL'expert est soumis à l'**agrément préalable** de la COSUMAF (conditions fixées par instruction)."
+    },
+    {
+     "titre": "DI et information des obligations vertes, sociales, durables (art. 197 à 200)",
+     "contenu": "- **Émetteur autre qu'un État ou groupe d'États CEMAC** : DI soumis au **visa** ; **États membres** : **enregistrement**\n- Informations spécifiques : **descriptif des projets** individuellement identifiés et impacts attendus (population cible pour les sociales) · **critères de sélection** · **procédure de sélection** · **critères d'évaluation** · **gestion et suivi des fonds** · **engagement de gérer le produit sur un compte ou sous-compte spécifique** · liste des informations à publier (fréquence, supports) · **rapport de l'expert indépendant**\n- **À l'émission et pendant toute la vie** des obligations : mise à disposition sur le site (et au siège sur demande) de la **procédure de suivi et de contrôle des projets**, des **procédures d'évaluation et de sélection**, de l'**allocation des fonds levés** et du **rapport d'évaluation externe**"
+    }
+   ],
+   "mnemos": [
+    "Obligations vertes = environnement · sociales = impact social · durables = vert + social. Toujours : expert indépendant agréé + compte dédié."
+   ],
+   "definitions": [
+    {
+     "terme": "Offre de jetons (ICO encadrée)",
+     "definition": "Placement de jetons numériques soumis à un document d'information visé et réservé aux PSAN agréés."
+    },
+    {
+     "terme": "Obligation durable",
+     "definition": "Obligation dont le produit finance exclusivement une combinaison de projets verts et sociaux."
+    },
+    {
+     "terme": "Plan de continuité d'activité (DEEP)",
+     "definition": "Dispositif de sauvegarde des inscriptions comprenant une unité ou structure externe de conservation des données."
+    },
+    {
+     "terme": "Obligation verte",
+     "definition": "Obligation dont le produit finance ou refinance des projets ayant un impact positif sur l'environnement."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Formalité pour une émission verte d'un État membre ?",
+     "verso": "L'enregistrement auprès de la COSUMAF (le visa vaut pour les autres émetteurs)."
+    },
+    {
+     "recto": "Qui peut placer des jetons numériques ?",
+     "verso": "Les prestataires de services sur actifs numériques (PSAN) agréés, en monopole."
+    },
+    {
+     "recto": "Que doit contenir le DI d'une offre de jetons sur le montant ?",
+     "verso": "Le montant minimum permettant la réalisation du projet et le montant maximum de l'offre."
+    },
+    {
+     "recto": "Quel rôle pour l'expert indépendant ?",
+     "verso": "Revue des procédures de sélection et de suivi, assurances aux investisseurs, couverture du risque réputationnel, rapport ; agrément préalable de la COSUMAF."
+    },
+    {
+     "recto": "Différence entre obligation verte, sociale et durable ?",
+     "verso": "Verte : impact environnemental positif ; sociale : impact social positif ; durable : combinaison de projets verts et sociaux."
+    },
+    {
+     "recto": "Que publie l'émetteur vert pendant toute la vie des obligations ?",
+     "verso": "Procédures de suivi/contrôle, d'évaluation/sélection, allocation des fonds et rapport d'évaluation externe."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Qui a le monopole du placement de jetons ?",
+     "choix": [
+      "Les PSAN agréés",
+      "Les SDB",
+      "Les banques",
+      "La BVMAC"
+     ],
+     "bonne": 0,
+     "explication": "Art. 191."
+    },
+    {
+     "q": "Une obligation durable finance...",
+     "choix": [
+      "Une combinaison de projets verts et sociaux",
+      "Des projets verts uniquement, à l'exclusion du social",
+      "Des projets sociaux uniquement, sans volet vert",
+      "Tout projet choisi librement par l'émetteur"
+     ],
+     "bonne": 0,
+     "explication": "Art. 195."
+    },
+    {
+     "q": "Pour émettre une obligation verte, il faut...",
+     "choix": [
+      "Une garantie de l'État",
+      "Un accord de la BEAC",
+      "Un expert indépendant agréé",
+      "Une notation AAA"
+     ],
+     "bonne": 2,
+     "explication": "Art. 196."
+    },
+    {
+     "q": "Le produit d'une obligation verte est géré sur...",
+     "choix": [
+      "Le compte courant de l'émetteur",
+      "Un compte de la COSUMAF",
+      "Un compte offshore",
+      "Un compte ou sous-compte spécifique"
+     ],
+     "bonne": 3,
+     "explication": "Art. 198."
+    },
+    {
+     "q": "Pour le placement de jetons, le DI est soumis...",
+     "choix": [
+      "À l'avis de la BVMAC",
+      "Au visa de la COSUMAF",
+      "À l'enregistrement de la BEAC",
+      "À aucun contrôle"
+     ],
+     "bonne": 1,
+     "explication": "Art. 188."
+    },
+    {
+     "q": "Le DI d'une offre de jetons décrit notamment :",
+     "choix": [
+      "la plateforme de négociation des jetons",
+      "le compte courant du dirigeant",
+      "le régime fiscal des États",
+      "la composition du Collège"
+     ],
+     "bonne": 0,
+     "explication": "Aussi projet, utilisation des fonds, droits attachés, prix d'émission, risques."
+    }
+   ],
+   "trous": [
+    "Le service de placement de jetons numériques est le monopole des {{PSAN}} agréés.",
+    "Le DEEP doit respecter {{5}} exigences, dont un plan de continuité d'activité."
+   ],
+   "classer": [
+    {
+     "titre": "Obligation verte, sociale ou durable ?",
+     "buckets": [
+      "Verte",
+      "Sociale",
+      "Durable"
+     ],
+     "items": [
+      {
+       "t": "Finance des panneaux solaires et la protection des forêts.",
+       "b": 0,
+       "why": "Impact environnemental."
+      },
+      {
+       "t": "Finance des écoles et des hôpitaux pour des populations vulnérables.",
+       "b": 1,
+       "why": "Impact social."
+      },
+      {
+       "t": "Finance à la fois une centrale solaire et un programme de logements sociaux.",
+       "b": 2,
+       "why": "Combinaison verte et sociale."
+      },
+      {
+       "t": "Refinance un projet de traitement des eaux déjà existant.",
+       "b": 0,
+       "why": "Projet existant à impact environnemental."
+      }
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  },
+  {
+   "id": "g25-notation-analyse-garantie-finales",
+   "titre": "Pour aller plus loin · 25 · Notation, analyse financière, états financiers, garantie des émissions et dispositions finales (art. 653 à 687)",
+   "resume": {
+    "court": "Notation : siège CEMAC, 60 jours ouvrés, rotation progressive des analystes, révision au moins annuelle, nouvelle notation sous 6 mois après changement de méthode, nom des entités générant plus de 5 % du chiffre d'affaires. États financiers : AG sous 6 mois après la clôture (prorogation max 60 jours), sanctions disciplinaires si aucune notification 3 mois après. Garantie des émissions : fonds propres suffisants, 60 jours ouvrés. RG du 23 mai 2023, abroge celui du 23 juillet 2008 ; mises en conformité (capital, CIF) avant le 31 décembre 2023.",
+    "moyen": "Organismes de notation : siège dans la CEMAC, contrôle interne, LBC/FT ; dossier (classes de notation, méthodes, conflits d'intérêts, rémunération, services auxiliaires) ; groupe ou consortium possible via un mandataire établi en CEMAC ; 60 jours ouvrés ; décision individuelle, inaliénable, intransmissible ; retrait possible à la demande de l'entité. Fonctionnement : la notation apprécie la solvabilité ; prévention des conflits ; publication du nom des entités générant plus de 5 % du chiffre d'affaires ; analystes sans négociation de commissions ; rotation progressive ; rémunération indépendante du chiffre d'affaires lié aux entités notées ; publication des méthodes ; suivi et réexamen au moins annuel ; changement de méthode : publication immédiate des notations affectées et réexamen sous 6 mois ; notations non sollicitées identifiées ; interdiction d'utiliser le nom de l'autorité. Analyse financière : exercée par les intermédiaires et des organismes agréés. États financiers : communication à la COSUMAF, AG dans les 6 mois, prorogation ≤ 60 jours, pénalités (art. 27 du Règlement 01/22), sanction après 3 mois sans notification. Garantie des émissions : fonds propres suffisants, contrôle interne, LBC/FT, expérience, 60 jours ouvrés. Finales : capital et CIF en personne morale avant le 31/12/2023 ; abrogation du RG du 23/07/2008 ; fait à Libreville le 23 mai 2023.",
+    "long": "Organismes de notation : siège dans la CEMAC, contrôle interne, LBC/FT ; dossier (classes de notation, méthodes, conflits d'intérêts, rémunération, services auxiliaires) ; groupe ou consortium possible via un mandataire établi en CEMAC ; 60 jours ouvrés ; décision individuelle, inaliénable, intransmissible ; retrait possible à la demande de l'entité. Fonctionnement : la notation apprécie la solvabilité ; prévention des conflits ; publication du nom des entités générant plus de 5 % du chiffre d'affaires ; analystes sans négociation de commissions ; rotation progressive ; rémunération indépendante du chiffre d'affaires lié aux entités notées ; publication des méthodes ; suivi et réexamen au moins annuel ; changement de méthode : publication immédiate des notations affectées et réexamen sous 6 mois ; notations non sollicitées identifiées ; interdiction d'utiliser le nom de l'autorité. Analyse financière : exercée par les intermédiaires et des organismes agréés. États financiers : communication à la COSUMAF, AG dans les 6 mois, prorogation ≤ 60 jours, pénalités (art. 27 du Règlement 01/22), sanction après 3 mois sans notification. Garantie des émissions : fonds propres suffisants, contrôle interne, LBC/FT, expérience, 60 jours ouvrés. Finales : capital et CIF en personne morale avant le 31/12/2023 ; abrogation du RG du 23/07/2008 ; fait à Libreville le 23 mai 2023."
+   },
+   "fiches": [
+    {
+     "titre": "Organismes de notation : agrément (art. 653 à 661)",
+     "contenu": "- Conditions : **siège social dans la CEMAC**, **contrôle interne** adéquat, **dispositif LBC/FT**\n- **Dossier** : nom et adresse du siège, représentant légal, forme juridique, **classes de notations** demandées, **méthodes et procédures**, **conflits d'intérêts**, informations sur les salariés, **régime de rémunération**, services auxiliaires, programme d'activités\n- **Groupe ou consortium** : demande commune par un **mandataire dont le siège est dans la zone CEMAC**\n- **Commission d'agrément** (par instruction)\n- **60 jours ouvrés** ; notification par lettre recommandée\n- Décision **individuelle, inaliénable, intransmissible**, avec avis publié ; **retrait** pour violation **ou à la demande de l'entité**"
+    },
+    {
+     "titre": "Notation : règles d'organisation et de fonctionnement (art. 662 à 675)",
+     "contenu": "- **Notation** = appréciation de la **solvabilité** d'un emprunteur/émetteur et des risques d'une dette ou d'actifs, selon un **système de classification** défini\n- **Aucun conflit d'intérêts** ; **publication du nom des entités notées ou tiers liés générant plus de 5 % du chiffre d'affaires annuel**\n- Dispositif de gestion des **informations privilégiées** et de prévention des abus de marché\n- Analystes compétents ; **interdits de négocier les commissions** avec l'entité notée\n- **Rotation progressive** des analystes et approbateurs (par étapes, individuelle)\n- **Rémunération** et évaluation **indépendantes du chiffre d'affaires** tiré des entités notées\n- **Publication** des méthodes, modèles et hypothèses principales\n- **Suivi continu et réexamen au moins chaque année**\n- **Changement de méthode** : publier immédiatement la gamme des notations affectées, **réexaminer dans les 6 mois** (notations placées sous observation entre-temps), **renotation** si l'effet global l'exige\n- Publication de toute notation (et de l'**interruption** avec motifs)\n- **Notations non sollicitées** : politique publique, mention visible de la participation (ou non) de l'entité et de l'accès aux documents internes\n- **Interdit** d'utiliser le nom d'une autorité pour laisser entendre qu'elle avalise la notation"
+    },
+    {
+     "titre": "Analyse financière (art. 676)",
+     "contenu": "- **Analyse financière / recommandation d'investissement** = information recommandant ou suggérant une stratégie d'investissement (explicitement ou implicitement) sur un ou plusieurs instruments ou émetteurs, y compris toute **opinion sur le cours ou la valeur** actuelle ou future, destinée aux canaux de distribution ou au public\n- Activité exercée **sous le contrôle de la COSUMAF** par :\n  - les **intermédiaires de marché** (art. 145 du Règlement 01/22)\n  - des **personnes morales dont l'objet porte sur la production d'analyses** et recommandations, **agréées** par la COSUMAF (conditions par instruction)"
+    },
+    {
+     "titre": "États financiers et assemblées (art. 677-678)",
+     "contenu": "- À la clôture de chaque exercice, les personnes et structures agréées établissent leurs **états financiers de synthèse** et les communiquent à la COSUMAF avec le **rapport de gestion** et les **rapports des CAC** (délais par instruction) ; retard = **pénalités** (art. 27 du Règlement 01/22)\n- **AG dans les 6 mois** suivant la clôture (états de synthèse, approbation, affectation du résultat)\n- **Prorogation** : demande avant l'expiration, **maximum 60 jours**\n- **Notification** à la COSUMAF de la tenue de l'AG\n- **3 mois** après l'expiration du délai (ou de la prorogation) sans notification : **pénalités + procédure de sanction disciplinaire**"
+    },
+    {
+     "titre": "Organismes de garantie des émissions (art. 679 à 684)",
+     "contenu": "- Conditions : **fonds propres suffisants** (étendue des services et risques), **dispositif de sécurité et de contrôle interne**, **LBC/FT**\n- **Expérience** : couverture d'opérations de levée de ressources, financement du secteur privé, mobilisation de l'épargne, accompagnement des entreprises, sécurisation des investissements\n- **Dossier** : organisation, programme d'activité, dirigeants, situation financière et fonds propres\n- **Commission d'agrément** ; **60 jours ouvrés**, notification par lettre recommandée"
+    },
+    {
+     "titre": "Dispositions transitoires et finales (art. 685 à 687)",
+     "contenu": "- **Avant le 31 décembre 2023** : intermédiaires soumis à une hausse de capital (art. 265 et 496) régularisent leurs statuts ; **CIF personnes physiques** exercent via une **personne morale** (société commerciale OHADA ou GIE)\n- Le RG **abroge** celui de la COSUMAF du **23 juillet 2008** et toute disposition contraire\n- **Entrée en vigueur** : le premier jour suivant son adoption par le Collège ; publié au **Bulletin officiel de la CEMAC**\n- **Fait à Libreville, le 23 mai 2023**"
+    }
+   ],
+   "mnemos": [
+    "Notation : 5 % (CA), 6 mois (renotation), 1 an (réexamen), 60 jours ouvrés. États : AG 6 mois, prorogation 60 jours, sanction à 3 mois. RG 23 mai 2023 · abroge 23/07/2008 · 31/12/2023."
+   ],
+   "definitions": [
+    {
+     "terme": "Notation",
+     "definition": "Appréciation de la solvabilité d'un emprunteur ou émetteur et des risques d'une dette, selon un système de classification défini."
+    },
+    {
+     "terme": "Organisme de garantie des émissions",
+     "definition": "Structure agréée qui garantit la bonne fin d'émissions de titres, avec fonds propres suffisants."
+    },
+    {
+     "terme": "Rotation progressive des analystes",
+     "definition": "Remplacement échelonné, individuel, des analystes pour préserver leur indépendance."
+    },
+    {
+     "terme": "Analyse financière",
+     "definition": "Information recommandant ou suggérant une stratégie d'investissement sur des instruments ou émetteurs."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Seuil de chiffre d'affaires imposant la publication du nom de l'entité notée ?",
+     "verso": "Plus de 5 % du chiffre d'affaires annuel."
+    },
+    {
+     "recto": "Échéance de mise en conformité des capitaux et statuts, et du statut des CIF ?",
+     "verso": "31 décembre 2023 (CIF désormais en personne morale)."
+    },
+    {
+     "recto": "Délai de tenue de l'AG des structures agréées après la clôture ?",
+     "verso": "6 mois ; prorogation maximale de 60 jours sur demande préalable."
+    },
+    {
+     "recto": "Que faut-il faire après un changement de méthode ?",
+     "verso": "Publier immédiatement les notations affectées, les réexaminer dans les 6 mois, renoter si nécessaire."
+    },
+    {
+     "recto": "Quand la COSUMAF ouvre-t-elle une procédure disciplinaire pour AG non notifiée ?",
+     "verso": "3 mois après l'expiration du délai (ou de la prorogation) sans notification."
+    },
+    {
+     "recto": "Quelles conditions pour un organisme de notation ?",
+     "verso": "Siège CEMAC, contrôle interne adéquat, dispositif LBC/FT ; agrément en 60 jours ouvrés, décision individuelle inaliénable et intransmissible."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Réexamen d'une notation ?",
+     "choix": [
+      "Au moins chaque année",
+      "Tous les 5 ans",
+      "À la demande de l'émetteur seulement",
+      "Jamais"
+     ],
+     "bonne": 0,
+     "explication": "Art. 670."
+    },
+    {
+     "q": "Délai maximal de prorogation pour tenir l'AG ?",
+     "choix": [
+      "60 jours",
+      "30 jours",
+      "90 jours",
+      "6 mois"
+     ],
+     "bonne": 0,
+     "explication": "Art. 678."
+    },
+    {
+     "q": "À partir de quel pourcentage du CA publie-t-on le nom d'une entité notée ?",
+     "choix": [
+      "1 %",
+      "3 %",
+      "5 %",
+      "10 %"
+     ],
+     "bonne": 2,
+     "explication": "Art. 663."
+    },
+    {
+     "q": "Un organisme de notation peut-il invoquer l'aval de la COSUMAF ?",
+     "choix": [
+      "Oui",
+      "Oui pour les notations sollicitées",
+      "Oui pour les États",
+      "Non"
+     ],
+     "bonne": 3,
+     "explication": "Art. 674."
+    },
+    {
+     "q": "Pour être agréé, un organisme de notation doit avoir :",
+     "choix": [
+      "son siège à l'étranger avec une filiale locale",
+      "un capital libéré d'un milliard de FCFA",
+      "son siège social dans la CEMAC, un contrôle interne adéquat et un dispositif LBC/FT",
+      "un agrément préalable de la BEAC"
+     ],
+     "bonne": 2,
+     "explication": "Art. 653."
+    },
+    {
+     "q": "Un groupe ou consortium de notation présente une demande commune par :",
+     "choix": [
+      "chacun de ses membres séparément auprès de la COSUMAF",
+      "la BEAC, qui transmet ensuite à la COSUMAF",
+      "un État membre de la CEMAC sur sa demande",
+      "un mandataire dont le siège est dans la zone CEMAC"
+     ],
+     "bonne": 3,
+     "explication": ""
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "Les agences de notation : indépendance",
+     "type": "stats",
+     "legende": "Les règles chiffrées.",
+     "items": [
+      {
+       "v": "5 %",
+       "l": "du CA : publication du nom du client"
+      },
+      {
+       "v": "1 an",
+       "l": "réexamen minimum des notations"
+      },
+      {
+       "v": "6 mois",
+       "l": "renotation après changement de méthode"
+      },
+      {
+       "v": "60 j",
+       "l": "ouvrés : instruction de l'agrément"
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "L'organisme de notation publie le nom des entités qui génèrent plus de {{5}} % de son chiffre d'affaires annuel.",
+    "Après un changement de méthode, on réexamine les notations dans les {{6}} mois."
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  }
+ ]
+}

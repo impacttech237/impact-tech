@@ -1,0 +1,2097 @@
+{
+ "id": "p8-conformite-sanctions",
+ "titre": "Conformité, abus de marché et sanctions",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "red",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "Délit d'initié, manipulation de cours, fausses informations ; vigilance LBC/FT (identifier, connaître, déclarer) ; contrôles, enquêtes, pénalités, procédure et barème des sanctions.",
+ "court": "Conformité",
+ "chapitres": [
+  {
+   "id": "m13-sanctions",
+   "titre": "Essentiel · 13 · Sanctions : abus de marché, manquements et barème des sanctions pécuniaires",
+   "resume": {
+    "court": "Délit d'initié, divulgation illicite et manipulation de marché : sanction ≥ 10 millions FCFA sans excéder le décuple de l'avantage retiré. APE sans visa : ≥ 25 millions. Défaut de déclaration de franchissement, obstacle au contrôle, absence de dispositif LBC/FT : ≥ 10 millions. Autres manquements : ≥ 5 millions. Prescription de 10 ans ; sanction pécuniaire exécutoire par provision.",
+    "moyen": "Pratiques illicites : fausser le marché, procurer un avantage injustifié, porter atteinte à l'égalité de traitement et d'information, faire bénéficier d'agissements contraires à la déontologie. Procédure contradictoire obligatoire. Montant fixé selon la gravité, la qualité de l'auteur, les avantages tirés et les préjudices. Prescription de 10 ans (occulte ou dissimulée : à compter de la découverte). Décision de sanction pécuniaire exécutoire par provision ; le recours devant le juge communautaire est subordonné au paiement préalable de la sanction sur un compte séquestre. Barème : ≥ 10 M FCFA (≤ 10 fois l'avantage) pour opération d'initié, divulgation illicite, manipulation ; ≥ 10 M pour défaut de déclaration de franchissement de seuil, publication de cours non extraits de la cote, obstacle au contrôle, absence de dispositif LBC/FT, exercice sans agrément, intermédiaire participant à un APE sans visa ; ≥ 25 M (≤ 10 fois l'avantage) pour un APE sans visa ; ≥ 5 M pour émetteur ne respectant pas l'information permanente et périodique et les listes d'initiés, dirigeants d'OPC, manquements des organismes centraux et intermédiaires, SDB sans listes de surveillance, d'initiés ou barrières à l'information, rapport de clôture non publié sous 8 jours.",
+    "long": "Pratiques illicites : fausser le marché, procurer un avantage injustifié, porter atteinte à l'égalité de traitement et d'information, faire bénéficier d'agissements contraires à la déontologie. Procédure contradictoire obligatoire. Montant fixé selon la gravité, la qualité de l'auteur, les avantages tirés et les préjudices. Prescription de 10 ans (occulte ou dissimulée : à compter de la découverte). Décision de sanction pécuniaire exécutoire par provision ; le recours devant le juge communautaire est subordonné au paiement préalable de la sanction sur un compte séquestre. Barème : ≥ 10 M FCFA (≤ 10 fois l'avantage) pour opération d'initié, divulgation illicite, manipulation ; ≥ 10 M pour défaut de déclaration de franchissement de seuil, publication de cours non extraits de la cote, obstacle au contrôle, absence de dispositif LBC/FT, exercice sans agrément, intermédiaire participant à un APE sans visa ; ≥ 25 M (≤ 10 fois l'avantage) pour un APE sans visa ; ≥ 5 M pour émetteur ne respectant pas l'information permanente et périodique et les listes d'initiés, dirigeants d'OPC, manquements des organismes centraux et intermédiaires, SDB sans listes de surveillance, d'initiés ou barrières à l'information, rapport de clôture non publié sous 8 jours."
+   },
+   "fiches": [
+    {
+     "titre": "Pratiques illicites (art. 253) et principes de procédure (art. 254-258)",
+     "contenu": "Sont **illicites** les pratiques qui : **faussent** le fonctionnement du marché ; procurent à leurs auteurs ou à des tiers un **avantage injustifié** ; portent atteinte à l'**égalité de traitement et d'information** des investisseurs ; font bénéficier quiconque d'agissements contraires à la **déontologie**.\n\n- **Procédure contradictoire** : observations sur les griefs, droit à copie du dossier, convocation et audition, assistance d'un conseil\n- Montant selon la **gravité**, la **qualité de l'auteur**, les **avantages ou profits tirés**, les **préjudices** causés aux épargnants\n- **Prescription : 10 ans** (infraction occulte ou dissimulée : à compter du jour où elle apparaît et peut être constatée)\n- La COSUMAF peut transmettre PV et rapports d'enquête au juge saisi d'une action en réparation\n- **Sanction pécuniaire exécutoire par provision** ; **recours au juge communautaire subordonné au paiement préalable** du montant, placé sur un **compte séquestre**"
+    },
+    {
+     "titre": "Abus de marché : opération d'initié (art. 259)",
+     "contenu": "**Sanction : ≥ 10 millions de FCFA, sans pouvoir excéder le décuple de l'avantage retiré.**\n\n**Opération d'initié** : pour toute personne détenant une **information privilégiée**, l'utiliser en **acquérant ou cédant** (pour soi ou autrui, directement ou indirectement) les instruments concernés ; ou l'utiliser pour **annuler ou modifier un ordre** passé avant de détenir l'information.\n\nSont aussi punis : **recommander** à autrui d'acquérir ou céder sur la base de cette information, ou l'y **inciter** ; utiliser une telle recommandation en sachant (ou devant savoir) qu'elle repose sur une information privilégiée.\n\n**Information privilégiée** : information à **caractère précis**, **non rendue publique**, concernant un ou plusieurs émetteurs ou instruments, qui, si elle était publique, serait susceptible d'**influencer de façon sensible le cours** des instruments (ou dérivés liés)."
+    },
+    {
+     "titre": "Divulgation illicite et manipulation de marché (art. 260-261)",
+     "contenu": "**Divulgation illicite d'information privilégiée** : **≥ 10 M FCFA** (≤ décuple de l'avantage). Divulguer à une autre personne, **sauf** dans le cadre normal d'un travail, d'une profession ou de fonctions.\n\n**Manipulation de marché** : **≥ 10 M FCFA** (≤ décuple de l'avantage).\n- **Diffuser** (médias, internet, rumeurs) des informations donnant des indications **fausses ou trompeuses** sur l'offre, la demande ou le cours, ou fixant un cours à un **niveau anormal ou artificiel**\n- **Transactions ou ordres** donnant des indications fausses/trompeuses ou fixant un cours artificiel\n- Recours à des **procédés fictifs** ou toute forme de **tromperie ou d'artifice**"
+    },
+    {
+     "titre": "Autres manquements à la transparence (art. 262-263)",
+     "contenu": "- **Omission de déclarer un franchissement de seuil** : **≥ 10 M FCFA**\n- **Communiquer au public un cours** qui n'est **pas extrait de la cote** ou d'un document des autorités boursières (ou sans mention de la référence et de la date) : **≥ 10 M FCFA**"
+    },
+    {
+     "titre": "Barème : APE et émetteurs (art. 264 à 266)",
+     "contenu": "- **APE sans document visé** : **≥ 25 M FCFA**, ≤ décuple de l'avantage ; la COSUMAF peut en outre faire **bloquer les comptes** ou **saisir les sommes**\n- **Intermédiaire ou établissement qui participe** au placement d'un APE sans visa : **≥ 10 M FCFA**\n- **Émetteur** qui viole ses obligations de publication de l'**information permanente et périodique** ou d'établissement des **listes d'initiés** : **≥ 5 M FCFA**"
+    },
+    {
+     "titre": "Barème : OPC (art. 267 à 270)",
+     "contenu": "- Faire croire par dénomination, publicité, sigles qu'on est **agréé comme OPC** : **≥ 5 M**\n- **Dirigeants d'OPC/gestionnaire/dépositaire** (instructions contraires, **emprunts d'espèces**, pas de CAC agréé, AG annuelle non convoquée **dans les 5 mois** après la clôture, suspension du rachat/émission non faite, entrave au CAC, règles d'évaluation, VL non établie à la fréquence requise, changements non déclarés, transformation/fusion/scission irrégulière) : **≥ 5 M**\n- **Placements collectifs sans agrément** : **≥ 10 M**\n- **Collecte auprès du public sans visa** du document d'information : **≥ 10 M**"
+    },
+    {
+     "titre": "Barème : COSUMAF, contrôle, organismes centraux (art. 271 à 276)",
+     "contenu": "- **Violation du secret professionnel** (membres, personnel, experts de la COSUMAF) : **≥ 5 M**\n- **Entrave à un contrôle ou une enquête** (refus d'accès aux locaux, refus de documents, refus d'audition, renseignements inexacts ou incomplets) : **≥ 10 M**\n- **Organismes centraux et intermédiaires** (état financiers non établis/publiés, CAC non désignés ou non convoqués, entrave aux CAC, changements non déclarés, informations non communiquées, **pas de responsable du contrôle interne** ou carte professionnelle, **vigilance LBC/FT et déclaration de soupçon**, tarification non respectée, rapport annuel de contrôle interne omis, **refus d'une injonction**, capital sans autorisation, agrément d'actionnaire non sollicité, irrégularité non signalée…) : **≥ 5 M**\n- **Bourse régionale** (transactions non publiées après chaque séance, diffusion non équitable, suspension/radiation irrégulières, non-opposition de la COSUMAF non sollicitée pour une admission) : **≥ 5 M**\n- **Pas de dispositif LBC/FT** ou diligences non faites : **≥ 10 M**\n- **Comptes annuels** non certifiés/approuvés/publiés : **≥ 5 M** et, **en cas de récidive**, **retrait d'agrément**"
+    },
+    {
+     "titre": "Barème : SDB, commissaires aux comptes, divers (art. 277 à 287)",
+     "contenu": "- **SDB ou chef de file** qui, **dans les 8 jours** après la clôture de la souscription, n'a pas rendu public et communiqué à l'émetteur et à la COSUMAF le **rapport de clôture**, ou n'a pas mis les **fonds levés** à la disposition de l'émetteur : **≥ 5 M** (récidive : retrait d'agrément)\n- **SDB** sans **listes de surveillance** (émetteurs/instruments sur lesquels elle détient une info privilégiée) ; sans **listes d'initiés** ; sans **barrières à l'information** : **≥ 5 M**\n- **Commissaire aux comptes** (informations mensongères, irrégularités non signalées, AG non convoquée, changement non déclaré, procédure d'alerte non signalée, obligations d'information) : **≥ 10 M**\n- **Exercer sans agrément** : **≥ 10 M**\n- Pas de **déclaration des transactions et opérations en bourse** : **≥ 5 M**\n- Pas de **déclaration de l'évolution importante** de l'organisation : **≥ 5 M**\n- **Conservation des informations** moins de **5 ans** : **≥ 5 M**\n- **Pas de déclaration de soupçon d'abus de marché** : **≥ 5 M**\n- Autre pratique portant atteinte à la protection des investisseurs : **≥ 10 M** et/ou sanctions disciplinaires"
+    },
+    {
+     "titre": "Publication, recours et dispositions finales (art. 288 à 293)",
+     "contenu": "- Sanctions prononcées par la **Commission des sanctions**, notifiées sans délai, **publiées** (site, journaux) ; frais de publication à la charge du sanctionné\n- Publication **reportée, anonyme ou supprimée** si préjudice grave et disproportionné, données personnelles, risque pour la stabilité financière ou une enquête\n- **Recours** : **Cour de Justice de la CEMAC**, non suspensif ; sursis possible si conséquences manifestement excessives\n- Modification du Règlement : par le **Comité Ministériel de l'UMAC** après **avis conforme du CA de la BEAC**\n- Le Règlement **abroge le Règlement n°06/03-CEMAC-UMAC du 12 novembre 2003** ; entre en vigueur le jour du mois suivant son adoption"
+    }
+   ],
+   "mnemos": [
+    "Barème : 25 M (APE sans visa) · 10 M (abus de marché, obstacle au contrôle, LBC/FT, sans agrément, CAC) · 5 M (le reste). Prescription 10 ans."
+   ],
+   "definitions": [
+    {
+     "terme": "Liste d'initiés",
+     "definition": "Liste, établie par l'émetteur, des personnes ayant accès à des informations privilégiées ; mise à jour et communiquée à la COSUMAF."
+    },
+    {
+     "terme": "Décuple de l'avantage",
+     "definition": "Plafond relatif de certaines sanctions : dix fois l'avantage retiré de l'infraction."
+    },
+    {
+     "terme": "Liste de surveillance",
+     "definition": "Liste établie par le responsable de la conformité d'une SDB recensant émetteurs et instruments sur lesquels elle détient une information privilégiée."
+    },
+    {
+     "terme": "Exécutoire par provision",
+     "definition": "Qualité d'une sanction pécuniaire exécutable malgré un recours ; le recours exige le paiement préalable en compte séquestre."
+    },
+    {
+     "terme": "Barrières à l'information",
+     "definition": "Procédures de contrôle de la circulation et de l'utilisation des informations privilégiées au sein d'une société de bourse (séparation des entités, interdictions de communiquer…)."
+    },
+    {
+     "terme": "Récidive",
+     "definition": "Réitération d'un manquement qui peut entraîner le retrait d'agrément (comptes annuels, rapport de clôture)."
+    },
+    {
+     "terme": "Opération d'initié",
+     "definition": "Fait pour un détenteur d'information privilégiée de l'utiliser en acquérant ou cédant des instruments, ou en annulant/modifiant un ordre."
+    },
+    {
+     "terme": "Manipulation de marché",
+     "definition": "Diffusion d'informations fausses ou trompeuses, ordres ou transactions fixant un cours artificiel, procédés fictifs ou artifices."
+    },
+    {
+     "terme": "Information privilégiée",
+     "definition": "Information précise, non publique, concernant des émetteurs ou instruments, susceptible d'influencer sensiblement leur cours si elle était rendue publique."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quel est le principe de la procédure de sanction ?",
+     "verso": "Procédure contradictoire : observations sur les griefs, copie du dossier, audition, assistance d'un conseil."
+    },
+    {
+     "recto": "Quelles sanctions pour les commissaires aux comptes et l'exercice sans agrément ?",
+     "verso": "CAC : au moins 10 M ; exercice sans agrément : au moins 10 M."
+    },
+    {
+     "recto": "Quelle est la prescription pour les sanctions ?",
+     "verso": "10 ans (à compter de la découverte pour une infraction occulte ou dissimulée)."
+    },
+    {
+     "recto": "Délai de la SDB pour rendre public le rapport de clôture de souscription ?",
+     "verso": "8 jours après la clôture des opérations de souscription."
+    },
+    {
+     "recto": "Comment contester une sanction pécuniaire ?",
+     "verso": "Recours devant la Cour de Justice de la CEMAC, non suspensif, après paiement préalable du montant placé sur un compte séquestre."
+    },
+    {
+     "recto": "Quel règlement le Règlement 01/22 abroge-t-il ?",
+     "verso": "Le Règlement n°06/03-CEMAC-UMAC du 12 novembre 2003."
+    },
+    {
+     "recto": "Délai de convocation de l'AG annuelle d'un OPC après la clôture ?",
+     "verso": "5 mois."
+    },
+    {
+     "recto": "Quelles listes la SDB doit-elle tenir à jour ?",
+     "verso": "Listes de surveillance, listes d'initiés et barrières à l'information."
+    },
+    {
+     "recto": "Qu'est-ce qu'une manipulation de marché ?",
+     "verso": "Diffuser des informations fausses ou trompeuses, passer des ordres ou transactions fixant un cours artificiel, recourir à des procédés fictifs ou à toute tromperie."
+    },
+    {
+     "recto": "Sanction minimale pour entrave à un contrôle ou une enquête ?",
+     "verso": "10 millions de FCFA."
+    },
+    {
+     "recto": "Quelles sanctions touchent la COSUMAF et son contrôle ?",
+     "verso": "Violation du secret professionnel : au moins 5 M ; entrave à un contrôle : au moins 10 M."
+    },
+    {
+     "recto": "Sanction pour comptes annuels d'un intermédiaire non certifiés, approuvés ou publiés ?",
+     "verso": "5 millions de FCFA au moins ; en cas de récidive, retrait d'agrément."
+    },
+    {
+     "recto": "Quelle sanction pour un APE sans visa et pour l'intermédiaire participant ?",
+     "verso": "APE sans visa : au moins 25 M ; intermédiaire qui y participe : au moins 10 M."
+    },
+    {
+     "recto": "Qu'est-ce qu'une information privilégiée ?",
+     "verso": "Information précise, non publique, susceptible d'influencer sensiblement le cours des instruments concernés."
+    },
+    {
+     "recto": "Sanction minimale pour opération d'initié ?",
+     "verso": "10 millions de FCFA, sans excéder le décuple de l'avantage retiré."
+    },
+    {
+     "recto": "Quelle sanction pour omission de déclaration de franchissement de seuil ?",
+     "verso": "Sanction pécuniaire d'au moins 10 millions de FCFA."
+    },
+    {
+     "recto": "Quelle sanction pour l'émetteur qui manque à l'information permanente ?",
+     "verso": "Au moins 5 M FCFA (idem pour les listes d'initiés)."
+    },
+    {
+     "recto": "Qu'est-ce qu'une opération d'initié ?",
+     "verso": "Utiliser une information privilégiée pour acquérir ou céder des instruments, ou pour annuler ou modifier un ordre ; recommander ou inciter est aussi puni."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Sanction minimale pour une manipulation de marché ?",
+     "choix": [
+      "5 millions",
+      "10 millions",
+      "25 millions",
+      "50 millions"
+     ],
+     "bonne": 1,
+     "explication": "≥ 10 M FCFA, ≤ décuple de l'avantage."
+    },
+    {
+     "q": "Sanction minimale pour un APE sans visa préalable ?",
+     "choix": [
+      "5 millions",
+      "10 millions",
+      "25 millions",
+      "100 millions"
+     ],
+     "bonne": 2,
+     "explication": "≥ 25 M FCFA."
+    },
+    {
+     "q": "Plafond relatif de certaines sanctions (abus de marché) ?",
+     "choix": [
+      "Le double de l'avantage",
+      "Le capital social",
+      "Aucun plafond",
+      "Le décuple de l'avantage"
+     ],
+     "bonne": 3,
+     "explication": "Sans excéder le décuple de l'avantage retiré."
+    },
+    {
+     "q": "Délai de prescription des faits sanctionnables ?",
+     "choix": [
+      "3 ans",
+      "5 ans",
+      "30 ans",
+      "10 ans"
+     ],
+     "bonne": 3,
+     "explication": "Dix ans."
+    },
+    {
+     "q": "Dans les 8 jours après la clôture de la souscription, la SDB doit...",
+     "choix": [
+      "Rendre public le rapport de clôture et mettre les fonds à disposition de l'émetteur",
+      "Rembourser les souscripteurs et demander le retrait du visa",
+      "Se faire radier de la liste des membres de la BVMAC",
+      "Attendre l'avis de la COSUMAF avant de publier quoi que ce soit"
+     ],
+     "bonne": 0,
+     "explication": "Art. 277."
+    },
+    {
+     "q": "Durée minimale de conservation des informations relatives aux prestations ?",
+     "choix": [
+      "1 an",
+      "5 ans",
+      "3 ans",
+      "10 ans"
+     ],
+     "bonne": 1,
+     "explication": "Au moins cinq ans (art. 285)."
+    },
+    {
+     "q": "Une information privilégiée est...",
+     "choix": [
+      "Précise et non publique, influençant sensiblement les cours",
+      "Publique et vague, sans effet sur les cours",
+      "Une rumeur de marché invérifiable et ancienne",
+      "Un communiqué de la BVMAC déjà publié au BOC"
+     ],
+     "bonne": 0,
+     "explication": "Art. 259."
+    },
+    {
+     "q": "Pour recourir devant la Cour de Justice contre une sanction pécuniaire, il faut...",
+     "choix": [
+      "Disposer d'un avocat inscrit près la juridiction communautaire",
+      "Obtenir l'accord préalable de la BEAC et de la COBAC",
+      "Payer d'abord la sanction (compte séquestre)",
+      "Attendre un délai d'un an après la notification"
+     ],
+     "bonne": 2,
+     "explication": "Art. 258."
+    },
+    {
+     "q": "Sont illicites les pratiques qui :",
+     "choix": [
+      "faussent le fonctionnement du marché ou procurent un avantage injustifié",
+      "génèrent un bénéfice important pour leurs auteurs",
+      "réduisent légèrement les cours d'une valeur cotée",
+      "augmentent le volume des échanges sur une valeur"
+     ],
+     "bonne": 0,
+     "explication": "Art. 253 : aussi l'atteinte à l'égalité de traitement et d'information, ou à la déontologie."
+    },
+    {
+     "q": "La procédure de sanction est :",
+     "choix": [
+      "secrète",
+      "contradictoire",
+      "orale uniquement",
+      "sans avocat"
+     ],
+     "bonne": 1,
+     "explication": "Observations, copie du dossier, audition, assistance d'un conseil."
+    },
+    {
+     "q": "Le montant d'une sanction dépend notamment de :",
+     "choix": [
+      "la nationalité de l'auteur et son pays de résidence",
+      "la durée de l'enquête menée par les inspecteurs",
+      "le cours de bourse de la valeur concernée",
+      "la gravité, la qualité de l'auteur, les profits tirés et les préjudices causés"
+     ],
+     "bonne": 3,
+     "explication": ""
+    },
+    {
+     "q": "Selon le Règlement 01/22, la prescription est de :",
+     "choix": [
+      "3 ans",
+      "5 ans",
+      "20 ans",
+      "10 ans"
+     ],
+     "bonne": 3,
+     "explication": "10 ans, à compter du jour où l'infraction occulte apparaît et peut être constatée."
+    },
+    {
+     "q": "La sanction pécuniaire est :",
+     "choix": [
+      "suspendue pendant le recours",
+      "annulée en cas de recours",
+      "exécutoire par provision",
+      "payable après 5 ans"
+     ],
+     "bonne": 2,
+     "explication": "Le recours exige le paiement préalable, placé sur un compte séquestre."
+    },
+    {
+     "q": "La sanction minimale pour opération d'initié est de :",
+     "choix": [
+      "10 millions FCFA",
+      "5 millions FCFA",
+      "25 millions FCFA",
+      "100 millions FCFA"
+     ],
+     "bonne": 0,
+     "explication": "≥ 10 M, sans excéder le décuple de l'avantage retiré."
+    },
+    {
+     "q": "Une sanction d'initié ne peut excéder :",
+     "choix": [
+      "le décuple de l'avantage",
+      "le double de l'avantage",
+      "le quintuple de l'avantage",
+      "100 M FCFA"
+     ],
+     "bonne": 0,
+     "explication": "Décuple de l'avantage retiré."
+    },
+    {
+     "q": "Parmi ces faits, lequel est une opération d'initié ?",
+     "choix": [
+      "Acheter après un communiqué public",
+      "Vendre pour des besoins personnels",
+      "Conseiller un ami sans information privilégiée",
+      "Acheter des titres en utilisant une information privilégiée"
+     ],
+     "bonne": 3,
+     "explication": "Aussi : annuler ou modifier un ordre, recommander ou inciter à acquérir ou céder."
+    },
+    {
+     "q": "Annuler ou modifier un ordre passé avant de détenir une information privilégiée est :",
+     "choix": [
+      "licite",
+      "une opération d'initié",
+      "une manipulation",
+      "un franchissement de seuil"
+     ],
+     "bonne": 1,
+     "explication": "Art. 259."
+    },
+    {
+     "q": "La divulgation illicite d'information privilégiée est licite :",
+     "choix": [
+      "à des amis, à titre de simple confidence",
+      "à la presse, pour informer le public",
+      "jamais, quelles que soient les circonstances",
+      "dans le cadre normal d'un travail, d'une profession ou de fonctions"
+     ],
+     "bonne": 3,
+     "explication": "Art. 260 : sanction ≥ 10 M sinon."
+    },
+    {
+     "q": "Parmi ces pratiques, laquelle est une manipulation de marché ?",
+     "choix": [
+      "Publier un communiqué exact sur ses résultats",
+      "Diffuser des informations fausses ou trompeuses fixant un cours artificiel",
+      "Vendre des titres à perte lors d'une séance",
+      "Coter une valeur à la clôture de la séance"
+     ],
+     "bonne": 1,
+     "explication": "Aussi : transactions fictives, procédés artificiels."
+    },
+    {
+     "q": "L'omission de déclarer un franchissement de seuil est sanctionnée d'au moins :",
+     "choix": [
+      "5 millions FCFA",
+      "25 millions FCFA",
+      "10 millions FCFA",
+      "50 millions FCFA"
+     ],
+     "bonne": 2,
+     "explication": "Art. 262."
+    },
+    {
+     "q": "L'AG annuelle d'un OPC doit être convoquée dans les :",
+     "choix": [
+      "5 mois après la clôture",
+      "2 mois après la clôture",
+      "3 mois après la clôture",
+      "6 mois après la clôture"
+     ],
+     "bonne": 0,
+     "explication": "5 mois; sinon sanction d'au moins 5 M pour les dirigeants."
+    },
+    {
+     "q": "Des comptes annuels non certifiés, non approuvés ou non publiés sont sanctionnés d'au moins 5 M et, en cas de récidive :",
+     "choix": [
+      "d'une interdiction de 1 an",
+      "du retrait d'agrément",
+      "d'un avertissement",
+      "d'une suspension de 3 mois"
+     ],
+     "bonne": 1,
+     "explication": "Art. 276."
+    }
+   ],
+   "trous": [
+    "Les sanctions pécuniaires se prescrivent par {{10}} ans selon le Règlement 01/22.",
+    "Pour contester une sanction pécuniaire devant le juge communautaire, la somme doit être consignée sur un compte {{séquestre}}.",
+    "Le recours devant la Cour de Justice de la CEMAC suppose le paiement préalable, placé sur un compte {{séquestre}}.",
+    "Un APE sans document visé est sanctionné d'au moins {{25}} millions FCFA.",
+    "La SDB rend public le rapport de clôture dans les {{8}} jours suivant la clôture de la souscription.",
+    "Une opération d'initié est sanctionnée d'au moins {{10}} millions FCFA, sans excéder le {{décuple}} de l'avantage retiré."
+   ],
+   "schemas": [
+    {
+     "titre": "Le barème des sanctions pécuniaires",
+     "type": "bars",
+     "unit": "M FCFA (minimum)",
+     "legende": "Trois paliers.",
+     "items": [
+      {
+       "l": "APE sans visa",
+       "v": 25
+      },
+      {
+       "l": "Initié, manipulation, absence de LBC/FT, exercice sans agrément",
+       "v": 10
+      },
+      {
+       "l": "Information permanente, listes d'initiés, organismes centraux",
+       "v": 5
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "piege",
+     "titre": "Prescription : 10 ans ou 5 ans ?",
+     "texte": "Le **Règlement 01/22** parle de **10 ans** (à compter de la découverte si l'infraction est occulte) ; le **RG** parle de **5 ans** pour saisir la Commission. Cite le texte dans ta réponse : le Règlement communautaire prime."
+    },
+    {
+     "type": "examen",
+     "titre": "Les paliers du barème",
+     "texte": "**5 M** (information, listes d'initiés, organismes centraux…), **10 M** (initié, manipulation, défaut de déclaration de seuil, pas de LBC/FT, exercice sans agrément), **25 M** (APE sans visa). Recours devant le juge communautaire : **paiement préalable sur compte séquestre**."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle sanction minimale ?",
+     "buckets": [
+      "5 M FCFA",
+      "10 M FCFA",
+      "25 M FCFA"
+     ],
+     "items": [
+      {
+       "t": "Manipulation de marché.",
+       "b": 1,
+       "why": "≥ 10 M."
+      },
+      {
+       "t": "APE sans document visé.",
+       "b": 2,
+       "why": "≥ 25 M."
+      },
+      {
+       "t": "Émetteur qui ne tient pas ses listes d'initiés.",
+       "b": 0,
+       "why": "≥ 5 M."
+      },
+      {
+       "t": "Entrave à un contrôle de la COSUMAF.",
+       "b": 1,
+       "why": "≥ 10 M."
+      },
+      {
+       "t": "Violation du secret professionnel par le personnel de la COSUMAF.",
+       "b": 0,
+       "why": "≥ 5 M."
+      },
+      {
+       "t": "Placement collectif sans agrément.",
+       "b": 1,
+       "why": "≥ 10 M."
+      },
+      {
+       "t": "SDB sans barrières à l'information.",
+       "b": 0,
+       "why": "≥ 5 M."
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g6-lbc-ft",
+   "titre": "Essentiel · 6 · Lutte contre le blanchiment et le financement du terrorisme (art. 89 à 124)",
+   "resume": {
+    "court": "Tous les acteurs du marché appliquent une approche par les risques, identifient le client et le bénéficiaire effectif, exercent une vigilance constante, déclarent immédiatement les opérations suspectes à l'ANIF, conservent les documents 10 ans, désignent un responsable LBC/FT, établissent une cartographie et un rapport annuel avant le 31 mars. Sanction minimale : 10 millions FCFA.",
+    "moyen": "Le titre III vise les organismes centraux, intermédiaires, agences de notation, OPC/SGO/dépositaires, FOGAMAF, analystes, organismes de garantie et toute structure agréée. La COSUMAF veille au respect des recommandations du GAFI et du Règlement n°01-16/CEMAC/UMAC/CM du 11 avril 2016 ; le secret professionnel ne peut les entraver. Tout demandeur d'agrément ou de visa fournit un engagement écrit de respecter la réglementation LBC/FT. Vigilance : classification des risques (produits, conditions, canaux, clients, pays), cartographie transmise avant le 31 mars ; identification du client, du bénéficiaire effectif et de l'objet de la relation d'affaires ; client occasionnel ; vigilance complémentaire (PPE, produit risqué, pays à risque), renforcée si risque élevé, allégée si faible ; examen renforcé des opérations complexes ; conservation de 10 ans. Déclaration d'opération suspecte immédiate à l'ANIF. PPE : autorisation de la haute direction, origine du patrimoine et des fonds, surveillance renforcée. Organisation : dispositif évalué au moins une fois par an, responsable qualifié (identité communiquée à la COSUMAF et à l'ANIF), procédures écrites, rapport annuel avant le 31 mars, formation du personnel, gel des avoirs sans délai.",
+    "long": "Le titre III vise les organismes centraux, intermédiaires, agences de notation, OPC/SGO/dépositaires, FOGAMAF, analystes, organismes de garantie et toute structure agréée. La COSUMAF veille au respect des recommandations du GAFI et du Règlement n°01-16/CEMAC/UMAC/CM du 11 avril 2016 ; le secret professionnel ne peut les entraver. Tout demandeur d'agrément ou de visa fournit un engagement écrit de respecter la réglementation LBC/FT. Vigilance : classification des risques (produits, conditions, canaux, clients, pays), cartographie transmise avant le 31 mars ; identification du client, du bénéficiaire effectif et de l'objet de la relation d'affaires ; client occasionnel ; vigilance complémentaire (PPE, produit risqué, pays à risque), renforcée si risque élevé, allégée si faible ; examen renforcé des opérations complexes ; conservation de 10 ans. Déclaration d'opération suspecte immédiate à l'ANIF. PPE : autorisation de la haute direction, origine du patrimoine et des fonds, surveillance renforcée. Organisation : dispositif évalué au moins une fois par an, responsable qualifié (identité communiquée à la COSUMAF et à l'ANIF), procédures écrites, rapport annuel avant le 31 mars, formation du personnel, gel des avoirs sans délai."
+   },
+   "fiches": [
+    {
+     "titre": "Champ et principes (art. 89 à 92)",
+     "contenu": "**Acteurs visés** : organismes centraux · intermédiaires de marché · agences de notation · OPC, sociétés de gestion et dépositaires · **FOGAMAF** · analystes financiers · organismes de garantie des émissions · toute autre structure agréée.\n\n- La COSUMAF veille au respect des **recommandations du GAFI**, du **Règlement n°01-16/CEMAC/UMAC/CM du 11 avril 2016**, du Règlement 01/22 et du RG ; **aucune loi sur le secret professionnel** ne peut en entraver la mise en œuvre\n- **Approche de la surveillance basée sur les risques** (y compris actifs virtuels)\n- Tout demandeur d'**agrément** et tout émetteur sollicitant un **visa** doit fournir un **engagement écrit et signé** de respecter la réglementation LBC/FT"
+    },
+    {
+     "titre": "Évaluation des risques et cartographie (art. 93)",
+     "contenu": "Les acteurs :\n- définissent des **procédures d'identification et d'évaluation** des risques et une **politique adaptée**\n- élaborent une **classification des risques** selon la **nature des produits ou services**, les **conditions de transaction**, les **canaux de distribution**, les **caractéristiques des clients**, le **lieu d'origine ou de destination des fonds**\n- transmettent à la COSUMAF leur **cartographie des risques LBC/FT** **au plus tard le 31 mars** de chaque année"
+    },
+    {
+     "titre": "Identification : client, bénéficiaire effectif, objet (art. 94 à 100)",
+     "contenu": "**Avant d'entrer en relation d'affaires** :\n- **identifier le client** et **vérifier son identité** (sources fiables et indépendantes)\n- **identifier le bénéficiaire effectif** et vérifier son identité ; comprendre la **structure de propriété et de contrôle** des personnes morales\n- comprendre l'**objet et la nature** de la relation d'affaires\n- **vigilance constante** pendant toute la relation : opérations **cohérentes** avec le **profil de risque**\n\n**Client occasionnel** : personne qui réalise une opération **ponctuelle** (une ou plusieurs opérations liées) ; identifié en cas de **soupçon** ou si l'opération est de **nature ou de montant** précisés par instruction.\n\n**Bénéficiaire effectif** : **personne physique** qui détient ou exerce en dernier ressort un **contrôle** sur le client, ou pour qui l'opération est réalisée ; pour une société : celle qui exerce un **contrôle effectif** sur les organes d'administration, de direction ou les AG.\n\n**Documents** : personnes physiques : pièce d'identité **officielle, originale, en cours de validité, avec photographie** (photocopie) ; personnes morales : **statuts** ou document officiel établissant l'existence légale. Vérification **à distance** : vigilance complémentaire.\n\nL'identification est une **obligation déontologique** : ne travailler que pour des clients dont l'**identité réelle** est établie."
+    },
+    {
+     "titre": "Vigilance complémentaire, renforcée ou allégée (art. 101 à 104)",
+     "contenu": "**Complémentaire** quand :\n1. Le client ou son bénéficiaire effectif est une **personne exposée** (fonctions politiques, juridictionnelles ou administratives, **ou leurs proches**)\n2. Le **produit ou l'opération** présente un risque particulier (**favorise l'anonymat**)\n3. Opération avec des personnes **domiciliées dans un État ou territoire dont les pratiques font obstacle à la LBC/FT**\n\n- **Risque faible** : vigilance **allégée**\n- **Risque élevé** : vigilance **renforcée**\n- **Examen renforcé** de toute opération **particulièrement complexe**, **d'un montant inhabituellement élevé** ou **sans justification économique ou objet licite** : se renseigner sur l'**origine et la destination des fonds**, l'objet et l'identité du bénéficiaire"
+    },
+    {
+     "titre": "Conservation et déclaration de soupçon (art. 105 à 108)",
+     "contenu": "**Conservation : 10 ans minimum** :\n- documents relatifs aux **relations d'affaires/clients occasionnels** et aux mesures de vigilance : à compter de la **clôture des comptes ou cessation de la relation**\n- documents relatifs aux **opérations** : à compter de leur **exécution**\n\n**Déclaration d'opération suspecte (DOS)** : **immédiatement à l'ANIF** (par écrit ; verbale possible selon instruction) quand on sait, soupçonne ou a de bonnes raisons de soupçonner un lien avec un **crime, un délit, des activités illicites**, du **blanchiment** ou du **financement du terrorisme**. À déclarer notamment : sommes liées à des trafics illicites ; opérations où l'**identité du donneur d'ordre ou du bénéficiaire effectif est inconnue ou douteuse** ; **tentatives** ; sommes pouvant provenir d'une **fraude fiscale**.\n\nToute information qui **infirme, conforte ou modifie** la déclaration : portée **sans délai** à l'ANIF.\n\n**Abstention** (art. 108) : ne pas effectuer d'opérations dont on soupçonne l'origine criminelle ou le lien avec le blanchiment/financement du terrorisme."
+    },
+    {
+     "titre": "Personnes politiquement exposées (art. 109-110)",
+     "contenu": "**PPE** : personne qui exerce ou a exercé d'**importantes fonctions publiques** dans un État CEMAC, un État tiers ou une organisation internationale, **ainsi que ses proches**.\n\nMesures :\n- **systèmes de gestion des risques** pour déterminer si le client est PPE\n- **autorisation de la haute direction** pour établir la relation\n- mesures pour établir l'**origine du patrimoine et des fonds**\n- **surveillance renforcée et constante**\n- examen renforcé de la relation et envisager une **DOS**"
+    },
+    {
+     "titre": "Organisation interne (art. 111 à 117)",
+     "contenu": "- **Dispositif interne** de contrôle et procédures, **évalué au moins une fois par an** (résultats consignés dans le rapport annuel)\n- **Responsable qualifié** LBC/FT désigné ; la fonction peut être cumulée avec la gestion des risques ou le contrôle interne/conformité si **justifié par la taille** ; son **identité est communiquée sans délai à la COSUMAF et à l'ANIF** (désignation initiale et changement)\n- **Missions du responsable** : veiller à la vigilance, enregistrer et centraliser les opérations suspectes, analyser les opérations inhabituelles ou complexes, mettre en œuvre la vigilance renforcée, tenir un **registre des opérations des personnes à haut risque**, informer les organes de direction, organiser **sensibilisation et formation**, transmettre les DOS à l'ANIF\n- **Cartographie** régulièrement mise à jour (services, clients, produits, territoire)\n- **Procédures écrites** : identification des risques, vigilance (nouveaux clients, occasionnels, actifs numériques…), détection des opérations suspectes, déclarations, **gel des avoirs**, PPE, conservation, contrôle interne ; échanges d'informations au sein d'un groupe\n- **Rapport annuel de contrôle LBC/FT** à la COSUMAF **au plus tard le 31 mars** (procédures, moyens, incidents et insuffisances, évaluation du dispositif)\n- **Recrutement et formation** : prise en compte des risques ; programme **validé par la haute direction** et documenté"
+    },
+    {
+     "titre": "Répression : gel, saisie, sanction (art. 118 à 124)",
+     "contenu": "- **Mesures conservatoires** (Règlement 01-16) : **gel, saisie ou confiscation** des biens blanchis, du produit, des instruments, des biens liés au financement du terrorisme\n- La COSUMAF **assiste** les autorités compétentes (identifier, dépister, geler, saisir, enquêter)\n- Les acteurs appliquent **sans délai** les mesures de **gel** et interdictions de mise à disposition de fonds ; ils se dotent d'une organisation pour cela\n- **Sanction** : disciplinaire et/ou pécuniaire **≥ 10 000 000 FCFA** pour : non-respect des prescriptions de **vigilance** ; non-respect des obligations de **déclaration** ; **absence d'évaluation** du dispositif interne ; **rapport annuel** non établi ou non communiqué\n- Sanctions applicables aux **structures ou personnes morales agréées et à leurs dirigeants**"
+    }
+   ],
+   "mnemos": [
+    "LBC/FT : 31 mars (cartographie + rapport) · 10 ans (conservation) · immédiat (DOS à l'ANIF) · ≥ 10 M (sanction) · évaluation au moins 1 fois par an."
+   ],
+   "definitions": [
+    {
+     "terme": "Client occasionnel",
+     "definition": "Personne réalisant une opération ponctuelle (ou plusieurs opérations liées) auprès d'un acteur du marché, sans recours régulier à ses services."
+    },
+    {
+     "terme": "KYC",
+     "definition": "Connaissance du client : identification et vérification de l'identité du client et du bénéficiaire effectif."
+    },
+    {
+     "terme": "KYC (connaissance du client)",
+     "definition": "Politique d'identification et de connaissance du client préalablement définie, obligation déontologique des acteurs du marché."
+    },
+    {
+     "terme": "Abstention",
+     "definition": "Obligation de ne pas exécuter une opération dont on soupçonne l'origine criminelle ou le lien avec le blanchiment ou le financement du terrorisme."
+    },
+    {
+     "terme": "GAFI",
+     "definition": "Groupe d'action financière : ses recommandations doivent être respectées par les acteurs du marché."
+    },
+    {
+     "terme": "Déclaration d'opération suspecte (DOS)",
+     "definition": "Déclaration écrite adressée immédiatement à l'ANIF lorsqu'on sait, soupçonne ou a de bonnes raisons de soupçonner un blanchiment ou un financement du terrorisme."
+    },
+    {
+     "terme": "ANIF",
+     "definition": "Agence Nationale d'Investigation Financière : destinataire des déclarations d'opérations suspectes."
+    },
+    {
+     "terme": "Vigilance renforcée",
+     "definition": "Mesures accrues appliquées en cas de risque élevé : examen approfondi, origine des fonds, surveillance constante."
+    },
+    {
+     "terme": "Personne politiquement exposée (PPE)",
+     "definition": "Personne exerçant ou ayant exercé d'importantes fonctions publiques (en CEMAC, dans un État tiers ou une organisation internationale), ainsi que ses proches."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Qu'est-ce qu'un client occasionnel ?",
+     "verso": "Une personne qui réalise une opération ponctuelle, identifiée en cas de soupçon ou selon la nature ou le montant."
+    },
+    {
+     "recto": "Que faut-il avant d'entrer en relation d'affaires ?",
+     "verso": "Identifier le client et le bénéficiaire effectif, vérifier leur identité, comprendre la structure de propriété et l'objet de la relation."
+    },
+    {
+     "recto": "Sanction minimale pour manquement LBC/FT ?",
+     "verso": "10 millions de FCFA."
+    },
+    {
+     "recto": "Le secret professionnel peut-il entraver la LBC/FT ?",
+     "verso": "Non : aucune loi nationale ou étrangère sur le secret professionnel ne peut entraver la mise en œuvre."
+    },
+    {
+     "recto": "Quand la vigilance complémentaire s'applique-t-elle ?",
+     "verso": "Client PPE, produit favorisant l'anonymat, opération avec un État aux pratiques faisant obstacle à la LBC/FT."
+    },
+    {
+     "recto": "Quelle sanction minimale pour un manquement LBC/FT ?",
+     "verso": "Disciplinaire et/ou pécuniaire d'au moins 10 millions FCFA : vigilance, déclaration, évaluation du dispositif, rapport annuel."
+    },
+    {
+     "recto": "Quel règlement CEMAC de 2016 régit la LBC/FT ?",
+     "verso": "Le Règlement n°01-16/CEMAC/UMAC/CM du 11 avril 2016."
+    },
+    {
+     "recto": "Quelle règle pour l'identité d'un client douteux ?",
+     "verso": "Ne pas intervenir : on exclut les clients dont l'identité est douteuse."
+    },
+    {
+     "recto": "Quelle organisation interne est exigée ?",
+     "verso": "Dispositif évalué au moins une fois par an, responsable qualifié communiqué à la COSUMAF et à l'ANIF, procédures écrites, formation validée par la haute direction."
+    },
+    {
+     "recto": "Combien de temps conserver les documents LBC/FT ?",
+     "verso": "10 ans minimum : à compter de la clôture des comptes ou de l'exécution des opérations."
+    },
+    {
+     "recto": "Quelles sont les échéances de la LBC/FT ?",
+     "verso": "31 mars : cartographie des risques LBC/FT et rapport annuel de contrôle LBC/FT."
+    },
+    {
+     "recto": "Quel examen renforcé et sur quoi ?",
+     "verso": "Toute opération complexe, inhabituellement élevée ou sans justification économique : origine et destination des fonds, objet et identité du bénéficiaire."
+    },
+    {
+     "recto": "Quels acteurs sont visés par la LBC/FT ?",
+     "verso": "Organismes centraux, intermédiaires, agences de notation, OPC, sociétés de gestion, dépositaires, FOGAMAF, analystes, organismes de garantie et toute structure agréée."
+    },
+    {
+     "recto": "Quels critères pour classifier les risques ?",
+     "verso": "Nature des produits, conditions de transaction, canaux de distribution, caractéristiques des clients, origine ou destination des fonds."
+    },
+    {
+     "recto": "Quelles mesures pour une PPE ?",
+     "verso": "Système de détection, autorisation de la haute direction, origine du patrimoine et des fonds, surveillance renforcée."
+    },
+    {
+     "recto": "Pièce d'identité d'une personne physique : conditions ?",
+     "verso": "Officielle, originale, en cours de validité, avec photographie, photocopiée."
+    },
+    {
+     "recto": "Fréquence minimale d'évaluation du dispositif interne LBC/FT ?",
+     "verso": "Au moins une fois par an."
+    },
+    {
+     "recto": "Qui reçoit l'identité du responsable LBC/FT ?",
+     "verso": "La COSUMAF et l'ANIF, sans délai, à la désignation et à chaque changement."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Durée minimale de conservation des documents LBC/FT ?",
+     "choix": [
+      "3 ans",
+      "10 ans",
+      "5 ans",
+      "30 ans"
+     ],
+     "bonne": 1,
+     "explication": "Art. 105."
+    },
+    {
+     "q": "Destinataire des DOS ?",
+     "choix": [
+      "COBAC",
+      "BEAC",
+      "BVMAC",
+      "ANIF"
+     ],
+     "bonne": 3,
+     "explication": "Immédiatement à l'ANIF."
+    },
+    {
+     "q": "Date de transmission de la cartographie LBC/FT ?",
+     "choix": [
+      "31 mars",
+      "31 janvier",
+      "30 juin",
+      "31 décembre"
+     ],
+     "bonne": 0,
+     "explication": "Au plus tard le 31 mars."
+    },
+    {
+     "q": "Pour une PPE, qui autorise la relation d'affaires ?",
+     "choix": [
+      "Le contrôleur interne",
+      "L'ANIF",
+      "La COSUMAF",
+      "La haute direction"
+     ],
+     "bonne": 3,
+     "explication": "Art. 110."
+    },
+    {
+     "q": "Le responsable LBC/FT peut être aussi responsable conformité si...",
+     "choix": [
+      "Le cumul est toujours possible, quelle que soit la taille",
+      "La COSUMAF l'ordonne pour chaque structure agréée",
+      "Le cumul est justifié par la taille de la structure",
+      "Le cumul est interdit dans tous les cas"
+     ],
+     "bonne": 2,
+     "explication": "Art. 112."
+    },
+    {
+     "q": "Sanction minimale pour omission d'évaluation du dispositif LBC/FT ?",
+     "choix": [
+      "10 M",
+      "1 M",
+      "5 M",
+      "25 M"
+     ],
+     "bonne": 0,
+     "explication": "Art. 124."
+    },
+    {
+     "q": "Le bénéficiaire effectif est...",
+     "choix": [
+      "Une personne physique",
+      "Toujours une société",
+      "La banque du client",
+      "Le dépositaire"
+     ],
+     "bonne": 0,
+     "explication": "Art. 97."
+    },
+    {
+     "q": "La COSUMAF veille au respect des recommandations du :",
+     "choix": [
+      "FMI",
+      "OCDE",
+      "GAFI",
+      "G20"
+     ],
+     "bonne": 2,
+     "explication": "Et du Règlement 01-16 de 2016, du Règlement 01/22 et du RG."
+    },
+    {
+     "q": "Une loi sur le secret professionnel peut-elle entraver la mise en œuvre de la LBC/FT ?",
+     "choix": [
+      "Oui, toujours",
+      "Oui, pour les banques",
+      "Oui, pour les avocats",
+      "Non, aucune loi ne le peut"
+     ],
+     "bonne": 3,
+     "explication": ""
+    },
+    {
+     "q": "Tout demandeur d'agrément ou émetteur sollicitant un visa doit fournir :",
+     "choix": [
+      "une garantie bancaire couvrant les risques LBC/FT",
+      "un rapport d'audit externe sur ses procédures",
+      "un engagement écrit et signé de respecter la réglementation LBC/FT",
+      "le casier judiciaire de chacun de ses clients"
+     ],
+     "bonne": 2,
+     "explication": "Art. 92."
+    },
+    {
+     "q": "La cartographie des risques LBC/FT est transmise à la COSUMAF au plus tard le :",
+     "choix": [
+      "31 janvier",
+      "15 juillet",
+      "31 mars de chaque année",
+      "30 novembre"
+     ],
+     "bonne": 2,
+     "explication": "Idem pour le rapport annuel de contrôle LBC/FT."
+    },
+    {
+     "q": "Parmi les critères de classification des risques figure :",
+     "choix": [
+      "la couleur et le type de la carte bancaire",
+      "le lieu d'origine ou de destination des fonds",
+      "l'âge du dirigeant de la structure",
+      "la langue dans laquelle le contrat est rédigé"
+     ],
+     "bonne": 1,
+     "explication": "Aussi nature des produits, conditions de transaction, canaux de distribution, caractéristiques des clients."
+    },
+    {
+     "q": "Avant d'entrer en relation d'affaires, l'acteur doit :",
+     "choix": [
+      "obtenir un cautionnement bancaire du client",
+      "demander une assurance couvrant le risque de blanchiment",
+      "identifier le client et le bénéficiaire effectif et vérifier leur identité",
+      "consulter la BEAC sur chaque nouveau client"
+     ],
+     "bonne": 2,
+     "explication": "Il comprend aussi l'objet et la nature de la relation."
+    },
+    {
+     "q": "Le bénéficiaire effectif est :",
+     "choix": [
+      "une personne physique qui détient ou exerce en dernier ressort un contrôle sur le client",
+      "toujours le dirigeant légal de la personne morale cliente",
+      "le commissaire aux comptes de la personne morale cliente",
+      "l'actionnaire principal, même s'il est une personne morale"
+     ],
+     "bonne": 0,
+     "explication": "Ou pour qui l'opération est réalisée."
+    },
+    {
+     "q": "Un client occasionnel est :",
+     "choix": [
+      "un client dont la relation dure depuis plus de 5 ans",
+      "une personne qui réalise une opération ponctuelle",
+      "un client institutionnel disposant d'un compte",
+      "un client de nationalité étrangère résidant à l'étranger"
+     ],
+     "bonne": 1,
+     "explication": "Identifié en cas de soupçon ou si l'opération est de nature ou de montant précisés par instruction."
+    },
+    {
+     "q": "La pièce d'identité d'une personne physique doit être :",
+     "choix": [
+      "un permis de conduire expiré depuis moins d'un an",
+      "une carte d'étudiant délivrée par un établissement privé",
+      "officielle, originale, en cours de validité, avec photographie",
+      "un extrait de naissance sans photographie du titulaire"
+     ],
+     "bonne": 2,
+     "explication": "Une photocopie en est conservée."
+    },
+    {
+     "q": "Pour une personne morale, on exige :",
+     "choix": [
+      "les statuts ou un document officiel établissant son existence légale",
+      "ses comptes annuels des deux derniers exercices uniquement",
+      "un extrait fiscal délivré par l'administration",
+      "un avis de la BEAC sur la société cliente"
+     ],
+     "bonne": 0,
+     "explication": ""
+    },
+    {
+     "q": "La vigilance complémentaire s'applique notamment si le client est :",
+     "choix": [
+      "un salarié",
+      "une personne exposée",
+      "un étudiant",
+      "une association"
+     ],
+     "bonne": 1,
+     "explication": "Aussi produit favorisant l'anonymat, ou personnes domiciliées dans un État faisant obstacle à la LBC/FT."
+    },
+    {
+     "q": "Pour un risque faible, la vigilance est :",
+     "choix": [
+      "renforcée",
+      "suspendue",
+      "complémentaire",
+      "allégée"
+     ],
+     "bonne": 3,
+     "explication": "Risque élevé : vigilance renforcée."
+    },
+    {
+     "q": "Un examen renforcé est exigé pour toute opération :",
+     "choix": [
+      "particulièrement complexe, d'un montant inhabituellement élevé ou sans justification économique",
+      "inférieure à 1 million de FCFA exécutée en bourse",
+      "réalisée sur le marché comptant de la BVMAC",
+      "passée par un salarié de l'intermédiaire"
+     ],
+     "bonne": 0,
+     "explication": "On se renseigne sur l'origine et la destination des fonds."
+    },
+    {
+     "q": "Les documents LBC/FT sont conservés au minimum :",
+     "choix": [
+      "5 ans",
+      "10 ans",
+      "15 ans",
+      "20 ans"
+     ],
+     "bonne": 1,
+     "explication": "10 ans : à compter de la clôture des comptes ou de l'exécution de l'opération."
+    },
+    {
+     "q": "Pour les documents relatifs aux opérations, la durée de 10 ans court :",
+     "choix": [
+      "à compter de leur exécution",
+      "à compter de la clôture du compte",
+      "à compter de la déclaration",
+      "à compter du contrôle"
+     ],
+     "bonne": 0,
+     "explication": "Pour les relations d'affaires : à compter de la clôture ou de la cessation."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle vigilance ?",
+     "buckets": [
+      "Allégée",
+      "Normale",
+      "Renforcée",
+      "Complémentaire"
+     ],
+     "items": [
+      {
+       "t": "Client à risque faible, intensité réduite de la vigilance permanente.",
+       "b": 0,
+       "why": "Art. 102."
+      },
+      {
+       "t": "Identification du client, du bénéficiaire effectif et de l'objet de la relation.",
+       "b": 1,
+       "why": "Art. 94."
+      },
+      {
+       "t": "Relation, produit ou opération à risque élevé.",
+       "b": 2,
+       "why": "Art. 103."
+      },
+      {
+       "t": "Client personne politiquement exposée.",
+       "b": 3,
+       "why": "Art. 101 et 110."
+      },
+      {
+       "t": "Opération avec une personne établie dans un pays faisant obstacle à la LBC/FT.",
+       "b": 3,
+       "why": "Art. 101."
+      }
+     ]
+    },
+    {
+     "titre": "Quel niveau de vigilance ?",
+     "buckets": [
+      "Allégée",
+      "Renforcée ou complémentaire"
+     ],
+     "items": [
+      {
+       "t": "Client à risque faible.",
+       "b": 0,
+       "why": "Vigilance allégée."
+      },
+      {
+       "t": "Client qui est une personne politiquement exposée.",
+       "b": 1,
+       "why": "Complémentaire."
+      },
+      {
+       "t": "Opération sans justification économique apparente.",
+       "b": 1,
+       "why": "Examen renforcé."
+      },
+      {
+       "t": "Opération avec une personne domiciliée dans un État faisant obstacle à la LBC/FT.",
+       "b": 1,
+       "why": "Complémentaire."
+      },
+      {
+       "t": "Produit qui favorise l'anonymat.",
+       "b": 1,
+       "why": "Complémentaire."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Pour une personne politiquement exposée, l'établissement de la relation d'affaires est soumis à l'autorisation de la {{haute direction}}.",
+    "Les documents LBC/FT sont conservés au moins {{10}} ans et la cartographie des risques est transmise avant le {{31 mars}}.",
+    "La déclaration d'opération suspecte est adressée immédiatement à l'{{ANIF}}.",
+    "Pour établir une relation avec une PPE, l'autorisation de la haute {{direction}} est requise.",
+    "La cartographie des risques est transmise avant le {{31 mars}} avec le rapport annuel de contrôle interne."
+   ],
+   "schemas": [
+    {
+     "titre": "Les niveaux de vigilance",
+     "type": "pyramid",
+     "legende": "Du plus léger au plus exigeant.",
+     "fleche": "vigilance croissante",
+     "levels": [
+      {
+       "t": "Complémentaire",
+       "s": "PPE, anonymat, pays à risque",
+       "d": "En plus des mesures normales ; autorisation de la haute direction pour une PPE."
+      },
+      {
+       "t": "Renforcée",
+       "s": "risque élevé",
+       "d": "Mesures d'identification, de vérification et de surveillance accrues."
+      },
+      {
+       "t": "Normale",
+       "s": "cas général",
+       "d": "Identification, bénéficiaire effectif, connaissance de la relation d'affaires."
+      },
+      {
+       "t": "Allégée",
+       "s": "risque faible",
+       "d": "Intensité réduite de la vigilance permanente."
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "i09-lbc-ft-instruction-32-24",
+   "titre": "À connaître · 09 · LBC/FT : Instruction 32-24, lignes directrices et Règlement CEMAC du 20 décembre 2024",
+   "resume": {
+    "court": "Instruction 32-24 : identification du client et du bénéficiaire effectif avant la relation, connaissance de la relation d'affaires, approche par les risques (vigilance simplifiée, renforcée, complémentaire), conservation 5 ans, recours à des tiers sous la responsabilité de l'assujetti. Règlement CEMAC du 20 décembre 2024 : déclaration des transports physiques d'espèces et de transactions en espèces à partir de 5 millions FCFA, conservation 10 ans (institutions financières), ANIF, déclaration de soupçon confidentielle. Lignes directrices COSUMAF : cartographie en 3 étapes, PPE, critères d'alerte.",
+    "moyen": "Assujettis (art. 89 RG) : organismes centraux, intermédiaires, agences de notation, OPC/SGO/dépositaires, fonds de garantie, analystes financiers, organismes de garantie, toute structure agréée. Instruction 32-24 : identification = recueil déclaratif de l'identité (nom, prénoms, date et lieu de naissance ; forme juridique, dénomination, immatriculation, adresse) ; vérification : original d'un document officiel en cours de validité avec photo (copie conservée) ; personne morale : acte ou extrait de registre de moins de 3 mois ; à distance : moyen d'identification électronique fiable ou au moins 2 mesures (copie certifiée, premier paiement depuis un compte au nom du client dans un établissement de crédit CEMAC, confirmation d'un tiers assujetti, signature électronique qualifiée) ; bénéficiaire effectif identifié et vérifié avant la relation (exemption : société cotée à la bourse régionale ou détenue à plus de 75 % par une telle société) ; vérification avant l'entrée en relation (exception si risque faible : pendant l'établissement de la relation) ; risque faible : l'identification seule suffit (organismes de marché, intermédiaires, OPC, CAC de sociétés APE, organismes de garantie, Fonds de garantie du Marché, sociétés cotées, autorités publiques, institutions internationales) ; risque élevé : mesures renforcées ; examen renforcé des opérations complexes ou inhabituelles (origine des fonds, destination, objet, bénéficiaire) ; vigilance complémentaire pour les PPE (décision par un membre de l'organe exécutif), les produits favorisant l'anonymat, les pays tiers à haut risque ; conservation 5 ans à compter de la clôture du compte ; tiers introducteur : contrat préalable, responsabilité maintenue. Facteurs de risque : clients, produits/services/transactions, canaux de distribution, pays ; évaluation de l'entreprise et individuelle, mise à jour. Règlement CEMAC (20/12/2024) : déclaration de transport physique transfrontalier ≥ 5 M FCFA, saisie possible 72 h ; déclaration à l'ANIF des transactions en espèces ≥ 5 M FCFA ; interdiction des comptes anonymes ; conservation 10 ans (institutions financières) après la clôture ; ANIF accuse réception des déclarations de soupçon et peut former opposition ; confidentialité de la déclaration de soupçon. Lignes directrices : dispositif interne = cartographie (identification, classification, mesures) + procédures ; relation d'affaires vs client occasionnel ; PPE étrangères, nationales et d'organisations internationales ; gel des avoirs : réévaluation du profil sans déclaration automatique ; rupture de la relation si l'identification est impossible.",
+    "long": "Assujettis (art. 89 RG) : organismes centraux, intermédiaires, agences de notation, OPC/SGO/dépositaires, fonds de garantie, analystes financiers, organismes de garantie, toute structure agréée. Instruction 32-24 : identification = recueil déclaratif de l'identité (nom, prénoms, date et lieu de naissance ; forme juridique, dénomination, immatriculation, adresse) ; vérification : original d'un document officiel en cours de validité avec photo (copie conservée) ; personne morale : acte ou extrait de registre de moins de 3 mois ; à distance : moyen d'identification électronique fiable ou au moins 2 mesures (copie certifiée, premier paiement depuis un compte au nom du client dans un établissement de crédit CEMAC, confirmation d'un tiers assujetti, signature électronique qualifiée) ; bénéficiaire effectif identifié et vérifié avant la relation (exemption : société cotée à la bourse régionale ou détenue à plus de 75 % par une telle société) ; vérification avant l'entrée en relation (exception si risque faible : pendant l'établissement de la relation) ; risque faible : l'identification seule suffit (organismes de marché, intermédiaires, OPC, CAC de sociétés APE, organismes de garantie, Fonds de garantie du Marché, sociétés cotées, autorités publiques, institutions internationales) ; risque élevé : mesures renforcées ; examen renforcé des opérations complexes ou inhabituelles (origine des fonds, destination, objet, bénéficiaire) ; vigilance complémentaire pour les PPE (décision par un membre de l'organe exécutif), les produits favorisant l'anonymat, les pays tiers à haut risque ; conservation 5 ans à compter de la clôture du compte ; tiers introducteur : contrat préalable, responsabilité maintenue. Facteurs de risque : clients, produits/services/transactions, canaux de distribution, pays ; évaluation de l'entreprise et individuelle, mise à jour. Règlement CEMAC (20/12/2024) : déclaration de transport physique transfrontalier ≥ 5 M FCFA, saisie possible 72 h ; déclaration à l'ANIF des transactions en espèces ≥ 5 M FCFA ; interdiction des comptes anonymes ; conservation 10 ans (institutions financières) après la clôture ; ANIF accuse réception des déclarations de soupçon et peut former opposition ; confidentialité de la déclaration de soupçon. Lignes directrices : dispositif interne = cartographie (identification, classification, mesures) + procédures ; relation d'affaires vs client occasionnel ; PPE étrangères, nationales et d'organisations internationales ; gel des avoirs : réévaluation du profil sans déclaration automatique ; rupture de la relation si l'identification est impossible."
+   },
+   "fiches": [
+    {
+     "titre": "Qui est assujetti et le dispositif interne (lignes directrices)",
+     "contenu": "**Assujettis (art. 89 RG)** : organismes centraux · intermédiaires · agences de notation · OPC, SGO et dépositaires · **Fonds de garantie du marché** · analystes financiers · organismes de garantie des émissions · toute autre structure agréée.\n\n**Dispositif interne** = clé de voûte : un volet **classification** des risques (activités, opérations, clients, implantations) + un volet **opérationnel** (procédures). Processus en **3 étapes** : **1. identification** des risques → **2. classification et évaluation** → **3. mise en œuvre des mesures**. La **cartographie des risques** est au cœur du dispositif. Un **responsable qualifié** est désigné ; document écrit diffusé à tout le personnel concerné ; le recrutement prend en compte les risques LBC/FT ; groupe : l'entreprise mère définit l'organisation au niveau du groupe.\n\nIdentification des risques : nature du client (personne physique / morale), nature des opérations. Exemples : incohérence profil/flux, profession à risque, pays du GAFI, **PPE**, entreprise récente, bénéficiaire difficile à identifier, espèces, paiements de tiers ou de l'étranger, montage complexe, **fonds non traçables (espèces, tontine)**, prêt non bancaire."
+    },
+    {
+     "titre": "Identification et vérification du client (Instruction 32-24, art. 2)",
+     "contenu": "- **Identification** (base déclarative) : personne physique → **nom, prénoms, date et lieu de naissance** ; personne morale → **forme juridique, dénomination, immatriculation, adresse** du siège (et du lieu de direction effective). Identifier aussi les **personnes agissant pour le compte du client** et vérifier leurs **pouvoirs**\n- **Vérification (présence physique)** : **original d'un document officiel d'identité en cours de validité avec photographie**, dont copie est prise ; documents en alphabet non latin → traduction\n- **Personne morale** : acte ou **extrait de registre officiel de moins de 3 mois** (dénomination, forme, siège, associés, dirigeants) ; trust : contrat de fiducie\n- **À distance** : moyen d'identification électronique présumé fiable, **ou au moins deux** des mesures : copie du document ; certification par un **tiers indépendant** (autorité publique, officier public, solution biométrique) ; **premier paiement** depuis/vers un compte au nom du client dans un **établissement de crédit de la CEMAC** ; confirmation par un tiers assujetti ; **signature électronique avancée ou qualifiée** / envoi recommandé électronique qualifié\n- **Moment** : **avant** l'entrée en relation ou l'opération ; **exception** si risque faible et nécessité de ne pas interrompre l'activité : pendant l'établissement de la relation, au plus tard à la conclusion du contrat"
+    },
+    {
+     "titre": "Bénéficiaire effectif et connaissance de la relation (art. 3-4)",
+     "contenu": "- Le **bénéficiaire effectif** est identifié (nom, prénoms, date et lieu de naissance, éventuellement oralement) et vérifié **avant l'entrée en relation** ; remonter la **chaîne de détention**\n- **Exemption** : client = société dont les titres sont **admis à la bourse régionale**, ou société **détenue à plus de 75 %** par une telle société\n- **Risque faible** : vérification sur déclaration signée du client (avec justification)\n- **Connaissance de la relation** proportionnée au risque : objet et nature, justification économique, profil de risque. Personne physique : situation financière et professionnelle, justification de l'adresse, **provenance des fonds**. Personne morale : **statuts, objet social, secteur, situation financière** (bilan prévisionnel pour une société nouvelle). Construction juridique : analyse du contrat et de la raison d'être\n- Mise à jour obligatoire des éléments d'identification (vigilance constante)"
+    },
+    {
+     "titre": "Approche par les risques (art. 6)",
+     "contenu": "| Niveau | Mesures |\n|---|---|\n| **Faible** (sans soupçon) | **identification seule suffit** ; ni vérification de l'identité ni recueil d'éléments de connaissance de la relation |\n| **Élevé** | mesures **renforcées** (identification, vérification, connaissance, vigilance constante) |\n| **Complexe, montant inhabituel, sans justification** | **examen renforcé** : **origine des fonds**, **destination des sommes**, **objet** de l'opération, **identité du bénéficiaire** |\n| **PPE, produit favorisant l'anonymat, pays tiers à haut risque** | **vigilance complémentaire** : décision de nouer/maintenir la relation par **un membre de l'organe exécutif**, informations supplémentaires (origine des fonds et du patrimoine), surveillance renforcée |\n\n**Personnes à risque faible** (établies dans la CEMAC) : organismes de marché · intermédiaires · OPC, SGO et dépositaires · CAC des sociétés APE ou des structures contrôlées · organismes de garantie · **Fonds de garantie du Marché** · sociétés cotées · autorités publiques · institutions internationales."
+    },
+    {
+     "titre": "Conservation, tiers introducteur, évaluation des risques (art. 7 à 16)",
+     "contenu": "- **Conservation : 5 ans** à compter de la clôture du compte / de la cessation de la relation (documents d'identité, mesures de vigilance) et **5 ans** à compter de l'exécution des opérations ; résultats de l'**examen renforcé** consignés par écrit et conservés 5 ans\n- **Recours à un tiers introducteur** : approche par les risques, analyse écrite, recherche de sanctions publiques ; **contrat avant la prestation** ; tiers assujetti en CEMAC ou dans un État aux règles équivalentes ; accès immédiat aux informations ; **l'assujetti reste pleinement responsable** envers la COSUMAF\n- **Évaluation des risques** en 2 étapes : identification des facteurs puis évaluation ; risque **résiduel** = risque inhérent + qualité des contrôles ; **documentée** ; mise à jour au moins annuelle à l'échelle de l'entreprise\n- **Facteurs** : liés au **client** (activité, réputation, comportement), aux **produits/services/transactions** (transparence, complexité, taille), aux **canaux de distribution** (relation à distance, apporteurs), aux **pays**\n- La notation ne doit pas être influencée par des considérations de profit ; possibilité d'annuler une note automatique (motivée)"
+    },
+    {
+     "titre": "Opérations à risque élevé par type d'acteur (art. 17 à 31)",
+     "contenu": "- **CIF et financement participatif** : espèces, montants très élevés, pays à risque, structures complexes (trusts), PPE ; plateformes : fonds collectés pour un projet indéterminé, remboursement anticipé, paiements en **monnaies virtuelles**, comptes multiples\n- **OPC, SGO, dépositaires** : fonds destinés à un nombre limité d'individus ou de *family offices* ; **souscription puis rachat rapide**; parts négociées sans information du gestionnaire ; surplus transféré puis remboursement du trop-payé ; tiers inattendus\n- **Autres intermédiaires** : trading miroir, conversion monétaire, règlement irrégulier, chaîne d'ordres complexe, membres de plateforme dans des pays à haut risque\n- **Secteurs à risque** : construction, pharmaceutique et santé, armement et défense, industries extractives, marchés publics, casinos, négociants de métaux précieux"
+    },
+    {
+     "titre": "Règlement CEMAC du 20 décembre 2024 : points chiffrés",
+     "contenu": "(Règlement n° 02/24/CEMAC/UMAC/CM portant prévention et répression du BC/FT/P — texte OCR peu lisible, valeurs à confirmer sur l'original.)\n- **Transport physique transfrontalier** d'espèces et instruments négociables au porteur **≥ 5 000 000 FCFA** : **déclaration** à l'autorité compétente ; **saisie possible pendant 72 heures**\n- **Transactions en espèces ≥ 5 000 000 FCFA** (une ou plusieurs opérations liées) : **déclaration à l'ANIF** ; dérogation pour certains secteurs (transport public, supermarchés, stations-service) mais vigilance renforcée ; non applicable aux guichets de la BEAC\n- **Conservation : 10 ans** par les institutions financières à compter de la clôture des comptes (identité) et après l'exécution des opérations ; 5 ans pour certaines informations de virement\n- **Interdiction** de tenir des comptes anonymes ou sous noms fictifs\n- **ANIF** (cellule de renseignement financier de chaque État) : reçoit les déclarations de soupçon, accuse réception, analyse, transmet au procureur ; peut s'opposer à l'exécution d'une opération (durée limitée)\n- **Déclaration de soupçon** (art. 105) : **confidentielle** (art. 110) ; interdiction d'en informer le client\n- **Sanctions** : peines d'emprisonnement et amendes (art. 132 s.), aggravation (récidive, bande organisée), confiscation obligatoire des produits ; amende de 1 à 3 millions pour déclaration tardive ou erronée au registre des bénéficiaires effectifs"
+    },
+    {
+     "titre": "Lignes directrices : PPE, gel d'avoirs, rupture, critères d'alerte",
+     "contenu": "**PPE** (art. 101 et 110 RG) : **étrangères**, **nationales**, **d'organisations internationales** : chefs d'État, ministres, parlementaires, hauts magistrats, dirigeants de banque centrale, ambassadeurs, officiers généraux, dirigeants d'entreprises publiques, leurs **conjoints, descendants, ascendants, collatéraux privilégiés** et proches. Mesures : **système de gestion des risques**, **autorisation de la haute direction**, établir l'**origine du patrimoine et des fonds**, **surveillance renforcée et constante**.\n\n**Gel des avoirs** : une mesure restrictive **n'impose pas automatiquement** une déclaration de soupçon, mais impose de **réévaluer le profil** ; en cas de soupçon, déclaration **sans délai** à l'ANIF.\n\n**Rupture** : si l'identification n'est pas garantie, **interrompre la relation** et **n'exécuter aucune opération**.\n\n**Relation d'affaires vs client occasionnel** : relation = lien professionnel censé s'inscrire dans la durée (même plusieurs souscriptions dans l'année ou mandat de placement privé) ; client occasionnel = opération ponctuelle (ou opérations liées). Les assujettis définissent des critères pour les distinguer.\n\n**Critères d'alerte** : opérations (complexité, absence de justification, achats-reventes rapides), fonds (espèces, tiers, pays à fiscalité privilégiée, origine inconnue, retour des fonds vers un autre compte), clients (société écran, bénéficiaire dissimulé, PPE, substitution de partie au dernier moment), vigilance (documents faux, refus de justifier)."
+    }
+   ],
+   "mnemos": [
+    "Identifier AVANT · risque faible = identification seule · PPE = direction + origine du patrimoine · conservation 5 ans (Instr. 32-24) / 10 ans (Règl. CEMAC) · espèces 5 M · 72 h · bénéficiaire effectif : société cotée ou > 75 % exemptée."
+   ],
+   "definitions": [
+    {
+     "terme": "Client occasionnel",
+     "definition": "Personne qui s'adresse à un assujetti pour une opération ponctuelle (ou plusieurs opérations liées)."
+    },
+    {
+     "terme": "Assujetti",
+     "definition": "Personne, structure ou organisme soumis aux obligations LBC/FT en vertu de l'art. 89 du RG."
+    },
+    {
+     "terme": "Risque résiduel",
+     "definition": "Risque inhérent corrigé par la qualité des contrôles, documenté et mis à jour au moins une fois par an."
+    },
+    {
+     "terme": "Vigilance complémentaire",
+     "definition": "Mesures en sus des mesures habituelles (PPE, anonymat, pays à haut risque)."
+    },
+    {
+     "terme": "ANIF",
+     "definition": "Agence nationale d'investigation financière : cellule de renseignement financier de chaque État de la CEMAC."
+    },
+    {
+     "terme": "PPE",
+     "definition": "Personne exposée à des risques particuliers en raison de fonctions politiques, juridictionnelles ou administratives exercées, ainsi que ses proches."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Qui décide de nouer ou maintenir une relation avec une PPE ?",
+     "verso": "Un membre de l'organe exécutif (haute direction)."
+    },
+    {
+     "recto": "Que faire si l'identification du client est impossible ?",
+     "verso": "Interrompre la relation d'affaires et n'exécuter aucune opération."
+    },
+    {
+     "recto": "Que dit le Règlement CEMAC du 20 décembre 2024 ?",
+     "verso": "Espèces et transports physiques à partir de 5 M, saisie de 72 h, comptes anonymes interdits, ANIF, DOS confidentielle."
+    },
+    {
+     "recto": "Durée de conservation selon le Règlement CEMAC de 2024 pour les institutions financières ?",
+     "verso": "10 ans (clôture des comptes / exécution de l'opération)."
+    },
+    {
+     "recto": "Quels critères d'alerte ?",
+     "verso": "Opérations complexes ou sans justification, achats-reventes rapides, espèces, tiers, pays à fiscalité privilégiée, société écran, documents faux, refus de justifier."
+    },
+    {
+     "recto": "Durée de conservation des documents selon l'Instruction 32-24 ?",
+     "verso": "5 ans à compter de la clôture du compte ou de l'exécution des opérations."
+    },
+    {
+     "recto": "Quelles sont les trois étapes du dispositif LBC/FT ?",
+     "verso": "Identification des risques, classification et évaluation, mise en œuvre des mesures."
+    },
+    {
+     "recto": "Quelles durées de conservation ?",
+     "verso": "Instruction 32-24 : 5 ans ; RG et Règlement CEMAC 2024 : 10 ans (5 ans pour certaines informations de virement)."
+    },
+    {
+     "recto": "Seuil de déclaration des transports physiques d'espèces et des transactions en espèces ?",
+     "verso": "5 000 000 FCFA."
+    },
+    {
+     "recto": "Une mesure de gel d'avoirs entraîne-t-elle toujours une déclaration de soupçon ?",
+     "verso": "Non : réévaluation du profil et vigilance adaptée ; déclaration à l'ANIF sans délai en cas de soupçon."
+    },
+    {
+     "recto": "Qui est exempté d'identification du bénéficiaire effectif ?",
+     "verso": "Les sociétés cotées à la bourse régionale et celles détenues à plus de 75 % par elles."
+    },
+    {
+     "recto": "Identification à distance : combien de mesures ?",
+     "verso": "Un moyen électronique fiable, ou au moins deux mesures parmi celles listées (copie, tiers indépendant, premier paiement bancaire CEMAC, confirmation, signature électronique qualifiée)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Une société cotée à la bourse régionale :",
+     "choix": [
+      "Est dispensée d'identification du bénéficiaire effectif",
+      "Doit toujours faire identifier son bénéficiaire effectif",
+      "Est interdite de relation",
+      "Est automatiquement PPE"
+     ],
+     "bonne": 0,
+     "explication": "Art. 3 §2 de l'Instruction 32-24."
+    },
+    {
+     "q": "Seuil de déclaration des espèces ?",
+     "choix": [
+      "5 M",
+      "500 000",
+      "1 M",
+      "10 M"
+     ],
+     "bonne": 0,
+     "explication": "Règlement CEMAC 2024, art. 16 et 18."
+    },
+    {
+     "q": "Durée de saisie conservatoire des espèces ?",
+     "choix": [
+      "24 h",
+      "72 h",
+      "48 h",
+      "7 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 16."
+    },
+    {
+     "q": "En cas de PPE, la relation est décidée par...",
+     "choix": [
+      "Un membre de l'organe exécutif",
+      "Le guichetier",
+      "Le client",
+      "La COSUMAF"
+     ],
+     "bonne": 0,
+     "explication": "Art. 6 §4."
+    },
+    {
+     "q": "Un tiers introducteur :",
+     "choix": [
+      "Assume seul la responsabilité",
+      "Laisse l'assujetti responsable",
+      "Remplace le contrat",
+      "Est interdit"
+     ],
+     "bonne": 1,
+     "explication": "Art. 8."
+    },
+    {
+     "q": "Risque faible : que faut-il ?",
+     "choix": [
+      "Tout vérifier",
+      "Rien",
+      "Une déclaration à l'ANIF",
+      "L'identification suffit"
+     ],
+     "bonne": 3,
+     "explication": "Art. 6."
+    },
+    {
+     "q": "Un gel d'avoirs impose...",
+     "choix": [
+      "Une réévaluation du profil et de la vigilance",
+      "Toujours une déclaration de soupçon à l'ANIF",
+      "Rien, la relation se poursuit comme avant",
+      "La fermeture immédiate du compte du client"
+     ],
+     "bonne": 0,
+     "explication": "Lignes directrices."
+    },
+    {
+     "q": "Le dispositif interne LBC/FT comprend un volet classification des risques et un volet :",
+     "choix": [
+      "opérationnel (procédures)",
+      "commercial",
+      "financier",
+      "juridique"
+     ],
+     "bonne": 0,
+     "explication": "Clé de voûte du dispositif."
+    },
+    {
+     "q": "Le processus de gestion des risques LBC/FT comporte combien d'étapes ?",
+     "choix": [
+      "2",
+      "4",
+      "5",
+      "3"
+     ],
+     "bonne": 3,
+     "explication": "Identification, classification et évaluation, mise en œuvre des mesures."
+    },
+    {
+     "q": "L'identification d'une personne physique (32-24) porte sur :",
+     "choix": [
+      "nom, prénoms, date et lieu de naissance",
+      "revenus et patrimoine du client",
+      "numéro de compte bancaire du client",
+      "adresse électronique du client"
+     ],
+     "bonne": 0,
+     "explication": "Base déclarative."
+    },
+    {
+     "q": "L'identification d'une personne morale porte sur :",
+     "choix": [
+      "ses comptes annuels de l'exercice",
+      "la liste de ses clients",
+      "ses seuls actionnaires",
+      "forme juridique, dénomination, immatriculation, adresse du siège"
+     ],
+     "bonne": 3,
+     "explication": "Art. 2."
+    },
+    {
+     "q": "La vérification de l'identité en présence physique se fait avec :",
+     "choix": [
+      "une photocopie du document d'identité",
+      "un permis de conduire expiré",
+      "l'original d'un document officiel en cours de validité avec photographie, dont copie est prise",
+      "une attestation orale du client"
+     ],
+     "bonne": 2,
+     "explication": "Traduction pour un alphabet non latin."
+    },
+    {
+     "q": "L'extrait de registre officiel d'une personne morale a moins de :",
+     "choix": [
+      "1 mois",
+      "6 mois",
+      "1 an",
+      "3 mois"
+     ],
+     "bonne": 3,
+     "explication": "Il précise dénomination, forme, siège, associés, dirigeants."
+    },
+    {
+     "q": "Pour une identification à distance, il faut :",
+     "choix": [
+      "une seule mesure, quelle qu'elle soit",
+      "un moyen électronique fiable ou au moins deux mesures parmi celles prévues",
+      "aucune mesure particulière",
+      "trois mesures obligatoires cumulées"
+     ],
+     "bonne": 1,
+     "explication": "Copie, tiers certificateur, premier paiement depuis la CEMAC, confirmation, signature électronique."
+    },
+    {
+     "q": "L'identification doit intervenir :",
+     "choix": [
+      "avant l'entrée en relation ou l'opération",
+      "après la première opération du client",
+      "dans les 30 jours de l'entrée en relation",
+      "à la clôture du compte"
+     ],
+     "bonne": 0,
+     "explication": "Exception si risque faible et nécessité de ne pas interrompre l'activité."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle vigilance ?",
+     "buckets": [
+      "Allégée (risque faible)",
+      "Renforcée / complémentaire"
+     ],
+     "items": [
+      {
+       "t": "Client : société cotée à la bourse régionale.",
+       "b": 0,
+       "why": "Liste de l'art. 6."
+      },
+      {
+       "t": "Client : personne politiquement exposée.",
+       "b": 1,
+       "why": "Décision de l'organe exécutif."
+      },
+      {
+       "t": "Client : intermédiaire de marché établi dans la CEMAC.",
+       "b": 0,
+       "why": "Art. 6 §2."
+      },
+      {
+       "t": "Opération impliquant un pays tiers à haut risque.",
+       "b": 1,
+       "why": "Art. 6 §4."
+      },
+      {
+       "t": "Produit favorisant l'anonymat.",
+       "b": 1,
+       "why": "Art. 6 §4."
+      },
+      {
+       "t": "Opération complexe, d'un montant inhabituel, sans justification économique.",
+       "b": 1,
+       "why": "Examen renforcé."
+      }
+     ]
+    },
+    {
+     "titre": "Quelle durée de conservation ?",
+     "buckets": [
+      "5 ans",
+      "10 ans"
+     ],
+     "items": [
+      {
+       "t": "Instruction 32-24, art. 7.",
+       "b": 0,
+       "why": "5 ans."
+      },
+      {
+       "t": "Règlement CEMAC du 20 décembre 2024 pour les institutions financières.",
+       "b": 1,
+       "why": "10 ans."
+      },
+      {
+       "t": "RG COSUMAF, titre LBC/FT.",
+       "b": 1,
+       "why": "10 ans."
+      },
+      {
+       "t": "Certaines informations de virement du Règlement CEMAC.",
+       "b": 0,
+       "why": "5 ans."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le seuil de déclaration des espèces est de {{5}} millions FCFA ; la saisie conservatoire dure {{72}} heures.",
+    "En risque {{faible}}, l'identification seule suffit ; pour une PPE, un membre de l'organe {{exécutif}} décide.",
+    "L'identification et la vérification de l'identité sont réalisées {{avant}} l'entrée en relation d'affaires.",
+    "L'Instruction 32-24 fixe la conservation à {{5}} ans alors que le RG et le Règlement CEMAC 2024 parlent de {{10}} ans."
+   ],
+   "schemas": [
+    {
+     "titre": "Approche par les risques : quelle vigilance ?",
+     "type": "scale",
+     "legende": "De la vigilance allégée à la vigilance complémentaire.",
+     "gauche": "Risque faible",
+     "droite": "Risque élevé",
+     "marks": [
+      {
+       "t": "Allégée",
+       "s": "identification seule"
+      },
+      {
+       "t": "Standard",
+       "s": "identification + vérification + connaissance"
+      },
+      {
+       "t": "Renforcée",
+       "s": "documents corroborant, surveillance accrue"
+      },
+      {
+       "t": "Complémentaire",
+       "s": "PPE, anonymat, pays à haut risque : décision de l'organe exécutif"
+      }
+     ]
+    },
+    {
+     "titre": "Conservation : qui dit quoi ?",
+     "type": "compare",
+     "legende": "5 ans ou 10 ans ?",
+     "cols": [
+      {
+       "t": "5 ans",
+       "s": "Instruction 32-24",
+       "pts": [
+        "Pièces d'identité et vigilance",
+        "Opérations",
+        "Examen renforcé consigné par écrit"
+       ]
+      },
+      {
+       "t": "10 ans",
+       "s": "RG et Règlement CEMAC 2024",
+       "pts": [
+        "Institutions financières (clôture des comptes / opération)",
+        "Rapport de surveillance particulière",
+        "Enregistrements téléphoniques (RG art. 291)"
+       ]
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "piege",
+     "titre": "5 ans ou 10 ans ?",
+     "texte": "L'**Instruction 32-24** fixe **5 ans** de conservation ; le **RG** et le **Règlement CEMAC de 2024** retiennent **10 ans** pour les institutions financières. Donne les deux et cite le texte."
+    },
+    {
+     "type": "examen",
+     "titre": "Risque faible = identification seule",
+     "texte": "Pour un risque faible (organismes de marché, intermédiaires, OPC, sociétés cotées, autorités publiques…), **l'identification suffit** : ni vérification d'identité ni connaissance de la relation. **PPE** : décision d'un **membre de l'organe exécutif**."
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "g3-penalites-controles",
+   "titre": "À connaître · 3 · Pénalités de retard, contrôles et enquêtes (art. 31 à 49)",
+   "resume": {
+    "court": "Pénalités par jour de retard : 500 000 FCFA (information au public), 250 000 (transmission à la COSUMAF), 500 000 (injonction) ; portées à 5 M, 750 000 ou 10 M pour le rapport de clôture d'un APE ou les fonds non remis. Répartition : 30 % Fonds de garantie, 30 % développement du marché, 40 % COSUMAF. Contrôles sur pièces et sur place, rapport contradictoire (15 jours).",
+    "moyen": "Pénalités de retard (obligatoires) : retard de diffusion d'une information au public : 500 000 FCFA/jour ; publication tardive du rapport de clôture d'un APE : 5 000 000/jour ; retard de transmission à la COSUMAF : 250 000/jour ; retard à respecter une injonction : 500 000/jour ; communication tardive à l'émetteur et à la COSUMAF du rapport de clôture : 750 000/jour ; fonds collectés non remis à l'émetteur dans les délais : 10 000 000/jour. Elles courent de la date où l'information aurait dû être communiquée jusqu'à la date effective ; réparties 30 % FOGAMAF, 30 % développement du marché, 40 % COSUMAF. Contrôles : ordre de mission signé par le Secrétaire Général, sur pièces et sur place, par des agents de la COSUMAF (ou corps extérieurs, CAC, experts) ; inhabilité en cas de condamnation (escroquerie, blanchiment, corruption…) ou si activité chez la personne contrôlée dans les 3 années précédentes ; secret professionnel inopposable ; rapport écrit ; 15 jours calendaires pour observations ; la COSUMAF peut déléguer le contrôle à l'entreprise de marché ou au Dépositaire Central.",
+    "long": "Pénalités de retard (obligatoires) : retard de diffusion d'une information au public : 500 000 FCFA/jour ; publication tardive du rapport de clôture d'un APE : 5 000 000/jour ; retard de transmission à la COSUMAF : 250 000/jour ; retard à respecter une injonction : 500 000/jour ; communication tardive à l'émetteur et à la COSUMAF du rapport de clôture : 750 000/jour ; fonds collectés non remis à l'émetteur dans les délais : 10 000 000/jour. Elles courent de la date où l'information aurait dû être communiquée jusqu'à la date effective ; réparties 30 % FOGAMAF, 30 % développement du marché, 40 % COSUMAF. Contrôles : ordre de mission signé par le Secrétaire Général, sur pièces et sur place, par des agents de la COSUMAF (ou corps extérieurs, CAC, experts) ; inhabilité en cas de condamnation (escroquerie, blanchiment, corruption…) ou si activité chez la personne contrôlée dans les 3 années précédentes ; secret professionnel inopposable ; rapport écrit ; 15 jours calendaires pour observations ; la COSUMAF peut déléguer le contrôle à l'entreprise de marché ou au Dépositaire Central."
+   },
+   "fiches": [
+    {
+     "titre": "Pénalités de retard : le barème (art. 31-32)",
+     "contenu": "| Retard | Pénalité par jour |\n|---|---|\n| Diffusion d'une information au public | **500 000 FCFA** |\n| Publication tardive du **rapport de clôture d'un APE** | **5 000 000 FCFA** |\n| Transmission à la COSUMAF d'un document ou d'une information | **250 000 FCFA** |\n| Respect d'une **injonction** de la COSUMAF | **500 000 FCFA** |\n| Communication tardive du **rapport de clôture** à l'émetteur et à la COSUMAF | **750 000 FCFA** |\n| **Fonds collectés (APE) non remis** à l'émetteur dans les délais | **10 000 000 FCFA** |\n\nLes pénalités sont **obligatoires** (« donne obligatoirement lieu »)."
+    },
+    {
+     "titre": "Calcul et affectation des pénalités (art. 33-34)",
+     "contenu": "- **Décompte** : à partir du jour où l'information ou le document **aurait dû** être communiqué, jusqu'à la date **effective** de publication ou de communication\n- **Affectation** :\n  - **30 %** au **Fonds de Garantie du Marché**\n  - **30 %** au **développement du marché financier régional**\n  - **40 %** à la **COSUMAF**"
+    },
+    {
+     "titre": "Cadre des contrôles et enquêtes (art. 35 à 38)",
+     "contenu": "- La COSUMAF a les **pouvoirs les plus étendus** ; ils s'exercent aussi sur toute opération d'**APE** et toute opération sur valeurs admises\n- **Sur pièces et sur place** ; **ordre de mission signé par le Secrétaire Général** (entité à contrôler, **chef de mission**, objet)\n- Menés par des **agents de la COSUMAF** ; recours possible à des **corps de contrôle extérieurs, CAC, experts** (rémunération à la charge de la COSUMAF)\n- **Nul ne peut être désigné** s'il a été condamné pour : escroquerie/abus de confiance, **blanchiment**, **corruption**/trafic d'influence/détournement, association de malfaiteurs, **banqueroute**, **fraude fiscale**, **trafic de stupéfiants**, **faux/falsification**\n- **Nul ne contrôle une entité où il a travaillé dans les 3 années précédentes**"
+    },
+    {
+     "titre": "Pouvoirs des inspecteurs (art. 39 à 42)",
+     "contenu": "- Se faire communiquer et copier **tout document**, même chez les **tiers** ou les **administrations publiques** de tous les États CEMAC\n- **Convoquer et entendre** toute personne utile\n- Accéder aux **locaux à usage professionnel**\n- Le **secret professionnel est inopposable** : ni par la personne contrôlée, ni par ses **commissaires aux comptes, conseils juridiques et fiscaux**, ni par tout tiers\n- Les obstacles sont **mentionnés dans le rapport**\n- Les **organismes de marché** communiquent sans délai à la COSUMAF toute information affectant le bon fonctionnement du marché, la régularité des transactions, la crédibilité d'un intervenant ou de leurs administrateurs/actionnaires"
+    },
+    {
+     "titre": "Le rapport de contrôle (art. 43 à 48)",
+     "contenu": "- **Rapport écrit** précisant les manquements et leur éventuelle **qualification pénale**\n- Si infractions pénales : transmis par le Président aux **autorités judiciaires nationales** ; faits hors compétence : transmis aux autorités compétentes (sous-régionales ou internationales)\n- Communiqué à la personne contrôlée (**lettre recommandée avec AR** ou remise en main propre contre récépissé) ; **synthèse** aux membres du Collège\n- **15 jours calendaires** pour faire part d'observations ; la COSUMAF adresse ensuite son **rapport final**\n- Mesures à prendre indiquées par lettre ; **décision d'application immédiate**, publiable ; possibilité d'**injonction**\n- **Délégation** possible du contrôle des émetteurs cotés et des intermédiaires à l'**entreprise de marché** ou au **Dépositaire Central** (retirable à tout moment)"
+    },
+    {
+     "titre": "Coopération internationale (art. 49)",
+     "contenu": "La COSUMAF assiste une autorité étrangère liée par un **accord de coopération**, mais peut **refuser** si : atteinte à la **souveraineté, sécurité, intérêts économiques essentiels, ordre public** d'un État CEMAC ; **procédure pénale** déjà engagée sur les mêmes faits et personnes ; personnes **déjà sanctionnées par décision définitive** pour les mêmes faits. Elle peut requérir l'assistance d'une autorité étrangère partenaire."
+    }
+   ],
+   "mnemos": [
+    "Pénalités/jour : 250 k (envoi COSUMAF) · 500 k (public ou injonction) · 750 k (rapport de clôture à l'émetteur) · 5 M (publication du rapport de clôture) · 10 M (fonds non remis). Partage 30-30-40."
+   ],
+   "definitions": [
+    {
+     "terme": "Pénalité de retard",
+     "definition": "Somme due par jour de retard dans la diffusion ou la transmission d'une information, ou dans le respect d'une injonction ; obligatoire."
+    },
+    {
+     "terme": "Rapport final",
+     "definition": "Rapport adressé par la COSUMAF à l'entité contrôlée après réception de ses observations."
+    },
+    {
+     "terme": "Contrôle sur pièces",
+     "definition": "Contrôle effectué à partir de documents transmis, par opposition au contrôle sur place."
+    },
+    {
+     "terme": "Rapport de clôture",
+     "definition": "Rapport rendu public et communiqué à l'émetteur et à la COSUMAF après la clôture d'une opération d'APE ; son retard est lourdement pénalisé."
+    },
+    {
+     "terme": "Contrôle sur place",
+     "definition": "Contrôle exercé dans les locaux de l'entité, par opposition au contrôle sur pièces."
+    },
+    {
+     "terme": "Chef de mission",
+     "definition": "Responsable désigné dans l'ordre de mission pour conduire un contrôle."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que peut déléguer la COSUMAF ?",
+     "verso": "Le contrôle des émetteurs cotés et des intermédiaires à l'entreprise de marché ou au Dépositaire Central."
+    },
+    {
+     "recto": "Comment sont réparties les pénalités ?",
+     "verso": "30 % Fonds de garantie du marché, 30 % développement du marché, 40 % COSUMAF."
+    },
+    {
+     "recto": "Pénalité par jour pour communication tardive du rapport de clôture à l'émetteur et à la COSUMAF ?",
+     "verso": "750 000 FCFA."
+    },
+    {
+     "recto": "Le secret professionnel est-il opposable aux enquêteurs ?",
+     "verso": "Non, ni par la personne contrôlée, ni par ses commissaires aux comptes, conseils ou tiers."
+    },
+    {
+     "recto": "Pénalité par jour pour fonds d'APE non remis à l'émetteur dans les délais ?",
+     "verso": "10 000 000 FCFA."
+    },
+    {
+     "recto": "Pénalité par jour de retard de transmission d'un document à la COSUMAF ?",
+     "verso": "250 000 FCFA."
+    },
+    {
+     "recto": "Qui ne peut pas contrôler ?",
+     "verso": "Une personne condamnée pour escroquerie, blanchiment, corruption, faux, etc., ou ayant travaillé dans l'entité dans les 3 années précédentes."
+    },
+    {
+     "recto": "Qui signe l'ordre de mission d'un contrôle ?",
+     "verso": "Le Secrétaire Général de la COSUMAF."
+    },
+    {
+     "recto": "Quel délai pour les observations sur un rapport de contrôle ?",
+     "verso": "15 jours calendaires, avant le rapport final de la COSUMAF."
+    },
+    {
+     "recto": "Comment se déroule un contrôle ?",
+     "verso": "Sur pièces et sur place, sur ordre de mission signé par le Secrétaire Général indiquant l'entité, le chef de mission et l'objet."
+    },
+    {
+     "recto": "Quels pouvoirs ont les inspecteurs ?",
+     "verso": "Obtenir et copier tout document (même chez des tiers), convoquer et entendre, accéder aux locaux professionnels ; secret professionnel inopposable."
+    },
+    {
+     "recto": "Que contient le rapport de contrôle ?",
+     "verso": "Les manquements et leur éventuelle qualification pénale ; si infractions pénales, transmission aux autorités judiciaires."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Pénalité quotidienne pour fonds d'APE non remis à l'émetteur ?",
+     "choix": [
+      "500 000",
+      "10 000 000",
+      "750 000",
+      "5 000 000"
+     ],
+     "bonne": 1,
+     "explication": "10 000 000 FCFA par jour."
+    },
+    {
+     "q": "Part des pénalités qui revient à la COSUMAF ?",
+     "choix": [
+      "30 %",
+      "40 %",
+      "50 %",
+      "100 %"
+     ],
+     "bonne": 1,
+     "explication": "40 % ; 30 % FOGAMAF ; 30 % développement du marché."
+    },
+    {
+     "q": "Pénalité par jour de retard de transmission d'un document à la COSUMAF ?",
+     "choix": [
+      "100 000",
+      "250 000",
+      "500 000",
+      "750 000"
+     ],
+     "bonne": 1,
+     "explication": "250 000 FCFA (art. 32)."
+    },
+    {
+     "q": "Qui signe l'ordre de mission d'un contrôle ?",
+     "choix": [
+      "Le Président",
+      "Le Collège",
+      "Le Secrétaire Général",
+      "La Commission des sanctions"
+     ],
+     "bonne": 2,
+     "explication": "Art. 36."
+    },
+    {
+     "q": "Délai d'observations après réception du rapport de contrôle ?",
+     "choix": [
+      "8 jours",
+      "30 jours",
+      "2 mois",
+      "15 jours calendaires"
+     ],
+     "bonne": 3,
+     "explication": "Art. 45."
+    },
+    {
+     "q": "Qui ne peut pas être chargé d'un contrôle ?",
+     "choix": [
+      "Une personne ayant exercé une activité chez l'entité contrôlée dans les 3 années précédentes",
+      "Un agent de la COSUMAF n'ayant aucun lien avec l'entité contrôlée",
+      "Un expert désigné par le Secrétaire Général pour la mission",
+      "Un commissaire aux comptes indépendant de l'entité contrôlée"
+     ],
+     "bonne": 0,
+     "explication": "Sont aussi exclues les personnes condamnées pour escroquerie, blanchiment, corruption… (art. 38)."
+    },
+    {
+     "q": "À qui la COSUMAF peut-elle déléguer le contrôle des intermédiaires ?",
+     "choix": [
+      "À la BEAC ou à la COBAC, selon le cas",
+      "À l'entreprise de marché ou au Dépositaire Central",
+      "Aux CIF et aux associations professionnelles",
+      "À personne, la COSUMAF contrôlant seule"
+     ],
+     "bonne": 1,
+     "explication": "Art. 48."
+    },
+    {
+     "q": "La pénalité de retard dans la diffusion d'une information au public est de :",
+     "choix": [
+      "250 000 FCFA par jour",
+      "750 000 FCFA par jour",
+      "500 000 FCFA par jour",
+      "5 000 000 FCFA par jour"
+     ],
+     "bonne": 2,
+     "explication": "500 000 FCFA par jour."
+    },
+    {
+     "q": "Les pénalités de retard sont :",
+     "choix": [
+      "facultatives",
+      "obligatoires",
+      "à la discrétion du Collège",
+      "supprimées en cas de bonne foi"
+     ],
+     "bonne": 1,
+     "explication": "Le texte dit qu'elles donnent obligatoirement lieu à pénalité."
+    },
+    {
+     "q": "Le décompte de la pénalité part :",
+     "choix": [
+      "du jour de la notification de la pénalité",
+      "du jour de l'assemblée générale",
+      "du jour où l'information aurait dû être communiquée",
+      "du jour de la sanction"
+     ],
+     "bonne": 2,
+     "explication": "Jusqu'à la date effective de communication ou de publication."
+    },
+    {
+     "q": "Un contrôle s'exerce :",
+     "choix": [
+      "uniquement sur place",
+      "uniquement sur pièces",
+      "uniquement sur plainte",
+      "sur pièces et sur place"
+     ],
+     "bonne": 3,
+     "explication": "Avec un ordre de mission."
+    },
+    {
+     "q": "Le contrôle est mené par :",
+     "choix": [
+      "la BEAC, qui désigne ses propres inspecteurs",
+      "la BVMAC, sur ordre du Président de la COSUMAF",
+      "des juges d'instruction nommés par le Collège",
+      "des agents de la COSUMAF, avec recours possible à des corps extérieurs, CAC ou experts"
+     ],
+     "bonne": 3,
+     "explication": "Rémunération à la charge de la COSUMAF."
+    },
+    {
+     "q": "Nul ne peut être désigné contrôleur s'il a été condamné notamment pour :",
+     "choix": [
+      "excès de vitesse et infractions au code de la route",
+      "dette civile non remboursée à un fournisseur",
+      "dépassement de budget dans une mission précédente",
+      "blanchiment, corruption, fraude fiscale, faux"
+     ],
+     "bonne": 3,
+     "explication": "Aussi escroquerie, banqueroute, trafic de stupéfiants."
+    },
+    {
+     "q": "Un ancien employé d'une entité peut la contrôler :",
+     "choix": [
+      "oui, toujours, sans aucun délai à respecter",
+      "non, s'il y a travaillé il y a moins de 1 an",
+      "oui, avec l'accord du Président de la COSUMAF",
+      "non, s'il y a travaillé dans les 3 années précédentes"
+     ],
+     "bonne": 3,
+     "explication": "Délai de 3 années."
+    },
+    {
+     "q": "Les inspecteurs peuvent se faire communiquer des documents :",
+     "choix": [
+      "uniquement chez la personne contrôlée elle-même",
+      "uniquement avec l'autorisation préalable d'un juge",
+      "uniquement chez les banques et les établissements de crédit",
+      "même chez les tiers ou les administrations publiques de tous les États CEMAC"
+     ],
+     "bonne": 3,
+     "explication": "Art. 39 à 42."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle pénalité par jour ?",
+     "buckets": [
+      "250 000",
+      "500 000",
+      "750 000",
+      "5 000 000",
+      "10 000 000"
+     ],
+     "items": [
+      {
+       "t": "Retard de transmission d'une information à la COSUMAF.",
+       "b": 0,
+       "why": "250 000 FCFA par jour."
+      },
+      {
+       "t": "Retard de diffusion d'une information au public.",
+       "b": 1,
+       "why": "500 000 FCFA par jour."
+      },
+      {
+       "t": "Retard à respecter une injonction.",
+       "b": 1,
+       "why": "500 000 FCFA par jour."
+      },
+      {
+       "t": "Communication tardive du rapport de clôture à l'émetteur et à la COSUMAF.",
+       "b": 2,
+       "why": "750 000 FCFA par jour."
+      },
+      {
+       "t": "Publication tardive du rapport de clôture d'un APE.",
+       "b": 3,
+       "why": "5 000 000 FCFA par jour."
+      },
+      {
+       "t": "Fonds collectés non remis à l'émetteur dans les délais.",
+       "b": 4,
+       "why": "10 000 000 FCFA par jour."
+      }
+     ]
+    },
+    {
+     "titre": "Quelle pénalité par jour de retard ?",
+     "buckets": [
+      "250 000",
+      "500 000",
+      "750 000",
+      "5 000 000",
+      "10 000 000"
+     ],
+     "items": [
+      {
+       "t": "Transmission tardive d'un document à la COSUMAF.",
+       "b": 0,
+       "why": "250 000 FCFA."
+      },
+      {
+       "t": "Retard dans la diffusion d'une information au public.",
+       "b": 1,
+       "why": "500 000 FCFA."
+      },
+      {
+       "t": "Communication tardive du rapport de clôture à l'émetteur et à la COSUMAF.",
+       "b": 2,
+       "why": "750 000 FCFA."
+      },
+      {
+       "t": "Publication tardive du rapport de clôture d'un APE.",
+       "b": 3,
+       "why": "5 000 000 FCFA."
+      },
+      {
+       "t": "Fonds collectés non remis à l'émetteur.",
+       "b": 4,
+       "why": "10 000 000 FCFA."
+      },
+      {
+       "t": "Retard à respecter une injonction.",
+       "b": 1,
+       "why": "500 000 FCFA."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Les pénalités sont réparties à {{30}} % au FOGAMAF, {{30}} % au développement du marché et {{40}} % à la COSUMAF.",
+    "Des fonds d'APE non remis à l'émetteur sont pénalisés de {{10 000 000}} FCFA par jour.",
+    "Les pénalités de retard sont réparties : {{30}} % FOGAMAF, {{30}} % développement du marché, {{40}} % COSUMAF.",
+    "La personne contrôlée dispose de {{15}} jours calendaires pour faire part d'observations sur le rapport de contrôle."
+   ],
+   "schemas": [
+    {
+     "titre": "Les pénalités de retard par jour",
+     "type": "bars",
+     "unit": "FCFA / jour",
+     "legende": "Du plus léger au plus lourd.",
+     "items": [
+      {
+       "l": "Transmission tardive à la COSUMAF",
+       "v": 250000
+      },
+      {
+       "l": "Information du public ; injonction non respectée",
+       "v": 500000
+      },
+      {
+       "l": "Rapport de clôture communiqué tardivement",
+       "v": 750000
+      },
+      {
+       "l": "Publication tardive du rapport de clôture",
+       "v": 5000000
+      },
+      {
+       "l": "Fonds collectés non remis",
+       "v": 10000000
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "L'échelle des pénalités de retard",
+     "texte": "250 000 / 500 000 / 750 000 / 5 000 000 / 10 000 000 FCFA **par jour**. Le plus lourd (**10 M**) vise les **fonds collectés non remis** à l'émetteur. Répartition : **30 %** FOGAMAF, **30 %** développement du marché, **40 %** COSUMAF."
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "g4-procedure-sanction",
+   "titre": "Pour aller plus loin · 4 · La procédure de sanction : délais, récusation, publication et recours (art. 50 à 75)",
+   "resume": {
+    "court": "Procédure ordinaire : notification des griefs (15 jours calendaires pour répondre), rapporteur (rapport d'instruction en 45 jours, prorogeable de 30), séance sous 30 jours calendaires. Procédure simplifiée : séance sous 21 jours ouvrés. Prescription de 5 ans, décision publiée sous 5 jours ouvrés, recours dans les 2 mois devant la Cour de Justice de la CEMAC.",
+    "moyen": "Le Collège décide l'ouverture d'une procédure de sanction lorsque des manquements portent atteinte à la protection des investisseurs ou au bon fonctionnement du marché. Elle doit être équitable et contradictoire ; présomption d'innocence. Commission des sanctions non saisie de faits de plus de 5 ans sans acte interruptif (le Règlement 01/22 mentionne 10 ans). Urgence exceptionnelle : sanction sans audition préalable, la personne peut s'expliquer dans les 10 jours suivant la publication. Procédure ordinaire : notification des griefs par le Président (lettre recommandée, remise contre récépissé ou huissier) avec 15 jours calendaires pour observations ; rapporteur désigné par le Président de la Commission ; rapport d'instruction sous 45 jours (prorogeable de 30 jours maximum) ; convocation à une séance dans les 30 jours calendaires, observations écrites 15 jours au moins avant la séance. Procédure simplifiée en cas de motif impérieux : séance dans les 21 jours ouvrés. Récusation : rapporteur sous 1 mois, autre membre sous 15 jours calendaires ; réponse du membre sous 8 jours ouvrés. Séances publiques, majorité des voix exprimées. Critères de sanction : gravité et durée, qualité, capacité financière, gains, pertes, coopération, récidive, mesures correctives. Décision publiée sous 5 jours ouvrés ; communiquée à la COBAC si établissement de crédit ; recours dans les 2 mois non suspensif.",
+    "long": "Le Collège décide l'ouverture d'une procédure de sanction lorsque des manquements portent atteinte à la protection des investisseurs ou au bon fonctionnement du marché. Elle doit être équitable et contradictoire ; présomption d'innocence. Commission des sanctions non saisie de faits de plus de 5 ans sans acte interruptif (le Règlement 01/22 mentionne 10 ans). Urgence exceptionnelle : sanction sans audition préalable, la personne peut s'expliquer dans les 10 jours suivant la publication. Procédure ordinaire : notification des griefs par le Président (lettre recommandée, remise contre récépissé ou huissier) avec 15 jours calendaires pour observations ; rapporteur désigné par le Président de la Commission ; rapport d'instruction sous 45 jours (prorogeable de 30 jours maximum) ; convocation à une séance dans les 30 jours calendaires, observations écrites 15 jours au moins avant la séance. Procédure simplifiée en cas de motif impérieux : séance dans les 21 jours ouvrés. Récusation : rapporteur sous 1 mois, autre membre sous 15 jours calendaires ; réponse du membre sous 8 jours ouvrés. Séances publiques, majorité des voix exprimées. Critères de sanction : gravité et durée, qualité, capacité financière, gains, pertes, coopération, récidive, mesures correctives. Décision publiée sous 5 jours ouvrés ; communiquée à la COBAC si établissement de crédit ; recours dans les 2 mois non suspensif."
+   },
+   "fiches": [
+    {
+     "titre": "Principes (art. 50 à 53)",
+     "contenu": "- **Ouverture** : le **Collège** peut décider l'ouverture d'une procédure de sanction en cas de manquements portant atteinte à la **protection des investisseurs** ou au **bon fonctionnement du marché**\n- Procédure **équitable, contradictoire**, équilibre des droits des parties ; **présomption d'innocence** jusqu'à ce que la **Commission des sanctions** établisse la culpabilité\n- **Prescription : 5 ans** (la Commission ne peut être saisie de faits remontant à plus de **5 ans** sans acte de recherche, constatation ou sanction). Attention : le **Règlement 01/22 (art. 256)** parle de **10 ans** : retiens les deux et la hiérarchie des textes\n- **Urgence avérée** (circonstances exceptionnelles) : **sanction sans audition préalable** ; la personne peut s'expliquer **dans les 10 jours** suivant la **publication**"
+    },
+    {
+     "titre": "Procédure ordinaire : les délais (art. 54 à 59)",
+     "contenu": "1. Le **Président de la COSUMAF** adresse la **notification des griefs** (lettre recommandée AR, remise en main propre contre récépissé ou **acte d'huissier**) et la transmet à la Commission\n2. La lettre invite à formuler des **observations écrites dans les 15 jours calendaires**, est accompagnée du **rapport de contrôle**, précise le droit de consulter le dossier et d'être assisté par un **conseil**\n3. Le Président de la Commission désigne un **rapporteur** dès réception de la notification\n4. **Rapport d'instruction** : **45 jours** à compter de la désignation, **prorogeable de 30 jours maximum** (motivé)\n5. Convocation par le Président de la Commission ; **séance sous 30 jours calendaires** à compter de la réception de la convocation ; observations écrites **15 jours calendaires au moins avant** la séance\n\nLe rapporteur peut entendre les personnes, compléter les griefs ou les notifier à d'autres personnes."
+    },
+    {
+     "titre": "Procédure simplifiée (art. 60 à 62)",
+     "contenu": "Quand un **motif impérieux** le requiert (manquements d'une **particulière gravité**), le Collège peut décider une **procédure simplifiée** :\n- notification des griefs identique\n- la séance de la Commission doit se tenir **dans les 21 jours ouvrés** à compter de la réception de la convocation"
+    },
+    {
+     "titre": "Récusation d'un membre (art. 63 à 67)",
+     "contenu": "- La notification des griefs **mentionne** la possibilité de récusation (**motif légitime et sérieux** mettant en doute l'impartialité)\n- Délais : **rapporteur** : **1 mois** à compter de sa désignation ; **autre membre** : **15 jours calendaires** à compter de la notification des griefs\n- Le Président communique la demande au membre, qui répond **dans les 8 jours ouvrés** (acquiescement ou opposition motivée) ; il **s'abstient** de siéger jusqu'à décision\n- La Commission statue **sans** le membre visé ; décision à la **majorité des voix exprimées**, consignée par PV ; recours **seulement avec la décision sur les griefs**"
+    },
+    {
+     "titre": "Délibération et mise en œuvre (art. 68 à 71)",
+     "contenu": "- **Séances publiques** ; huis clos possible (ordre public, sécurité nationale, secret des affaires ou autre secret protégé), d'office ou à la demande de la personne mise en cause\n- **Décision motivée** ; peut suspendre et demander un complément d'information ; **secrétariat de séance** assuré par le secrétariat général de la COSUMAF\n- **Aucune sanction sans audition** (ou convocation) de la personne ou son représentant ; majorité des voix exprimées\n- **Critères** : gravité et durée du manquement · qualité et degré d'implication · **capacité financière** (patrimoine, revenus annuels / chiffre d'affaires total) · **gains ou avantages obtenus, pertes évitées** · **pertes subies par des tiers** · degré de **coopération** · **manquements antérieurs (récidive)** · mesures prises pour **remédier et réparer**\n- PV signé par le Président et le secrétaire de séance ; décision signée, notifiée par lettre recommandée, remise contre récépissé ou **huissier**"
+    },
+    {
+     "titre": "Publication et recours (art. 72 à 75)",
+     "contenu": "- **Établissement de crédit** sanctionné : décision communiquée à la **COBAC**\n- **Publication sous 5 jours ouvrés** sur le site (et autre support), frais à la charge du sanctionné ; **anonymisation** possible si préjudice grave et disproportionné (données personnelles) ou risque pour la stabilité financière/une enquête\n- **Recours** dans un délai de **2 mois** à compter de la notification, devant la **Cour de Justice de la CEMAC** ; **non suspensif** (sursis possible si conséquences manifestement excessives)\n- La COSUMAF **publie** l'information sur le recours et son résultat ; toute décision **censurant** une sanction est publiée"
+    }
+   ],
+   "mnemos": [
+    "Délais : 15 j (observations) · 45 j + 30 j (rapport) · 30 j calendaires (séance) / 21 j ouvrés (simplifiée) · 5 ans (prescription RG) · 5 j ouvrés (publication) · 2 mois (recours)."
+   ],
+   "definitions": [
+    {
+     "terme": "Récusation",
+     "definition": "Demande d'écarter un membre de la Commission des sanctions pour motif légitime et sérieux mettant en doute son impartialité."
+    },
+    {
+     "terme": "Acte de recherche, constatation ou sanction",
+     "definition": "Acte qui interrompt la prescription de 5 ans devant la Commission des sanctions."
+    },
+    {
+     "terme": "Huis clos",
+     "definition": "Séance non publique, possible pour ordre public, sécurité nationale ou secret protégé."
+    },
+    {
+     "terme": "Urgence avérée",
+     "definition": "Circonstance exceptionnelle permettant de sanctionner sans audition préalable."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quels critères pour fixer une sanction ?",
+     "verso": "Gravité et durée, implication, capacité financière, gains obtenus, pertes de tiers, coopération, récidive, mesures de réparation."
+    },
+    {
+     "recto": "Quand peut-on sanctionner sans audition préalable ?",
+     "verso": "En cas de circonstances exceptionnelles d'urgence avérée ; la personne peut s'expliquer dans les 10 jours suivant la publication."
+    },
+    {
+     "recto": "Délai pour récuser le rapporteur ? un autre membre ?",
+     "verso": "Rapporteur : 1 mois à compter de sa désignation ; autre membre : 15 jours calendaires après la notification des griefs."
+    },
+    {
+     "recto": "Délai de publication d'une décision de sanction ?",
+     "verso": "5 jours ouvrés."
+    },
+    {
+     "recto": "Qu'est-ce que la procédure simplifiée ?",
+     "verso": "Procédure décidée par le Collège pour un motif impérieux, avec séance dans les 21 jours ouvrés."
+    },
+    {
+     "recto": "Quelles sont les étapes de la procédure ordinaire de sanction ?",
+     "verso": "Notification des griefs, observations sous 15 jours, désignation du rapporteur, rapport d'instruction en 45 jours (+30), convocation, séance sous 30 jours."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Délai de remise du rapport d'instruction ?",
+     "choix": [
+      "15 jours",
+      "30 jours",
+      "60 jours",
+      "45 jours"
+     ],
+     "bonne": 3,
+     "explication": "45 jours, prorogeables de 30 jours maximum."
+    },
+    {
+     "q": "Délai de recours contre une sanction ?",
+     "choix": [
+      "15 jours",
+      "1 mois",
+      "6 mois",
+      "2 mois"
+     ],
+     "bonne": 3,
+     "explication": "Art. 74."
+    },
+    {
+     "q": "Le recours devant la Cour de Justice est...",
+     "choix": [
+      "Suspensif",
+      "Non suspensif, avec sursis possible",
+      "Interdit",
+      "Obligatoire"
+     ],
+     "bonne": 1,
+     "explication": "Art. 74."
+    },
+    {
+     "q": "À qui communique-t-on la sanction d'un établissement de crédit ?",
+     "choix": [
+      "BEAC",
+      "BVMAC",
+      "Cour des comptes",
+      "COBAC"
+     ],
+     "bonne": 3,
+     "explication": "Art. 72."
+    },
+    {
+     "q": "Qui peut décider l'ouverture d'une procédure de sanction ?",
+     "choix": [
+      "La Commission des sanctions",
+      "La BEAC",
+      "Le rapporteur",
+      "Le Collège"
+     ],
+     "bonne": 3,
+     "explication": "En cas de manquement portant atteinte à la protection des investisseurs ou au bon fonctionnement du marché."
+    },
+    {
+     "q": "La personne mise en cause bénéficie de :",
+     "choix": [
+      "aucune présomption tant que l'enquête est ouverte",
+      "la présomption d'innocence jusqu'à décision de la Commission des sanctions",
+      "la présomption de culpabilité jusqu'à preuve contraire",
+      "une immunité totale pendant l'instruction"
+     ],
+     "bonne": 1,
+     "explication": "Procédure équitable et contradictoire."
+    },
+    {
+     "q": "En cas d'urgence avérée, une sanction peut être prononcée :",
+     "choix": [
+      "sans notification",
+      "sans motivation",
+      "sans audition préalable",
+      "sans publication"
+     ],
+     "bonne": 2,
+     "explication": "La personne peut s'expliquer dans les 10 jours suivant la publication."
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets la procédure ordinaire de sanction dans l'ordre",
+     "items": [
+      "Décision du Collège d'ouvrir la procédure",
+      "Notification des griefs par le Président",
+      "Observations de la personne mise en cause (15 jours)",
+      "Désignation d'un rapporteur",
+      "Rapport d'instruction (45 jours)",
+      "Séance de la Commission des sanctions",
+      "Décision publiée (5 jours ouvrés)",
+      "Recours (2 mois)"
+     ]
+    }
+   ],
+   "trous": [
+    "Le rapport d'instruction est remis dans les {{45}} jours, prorogeables de {{30}} jours maximum.",
+    "Le recours se fait dans les {{2}} mois devant la Cour de Justice de la {{CEMAC}}."
+   ],
+   "schemas": [
+    {
+     "titre": "La procédure ordinaire de sanction",
+     "type": "timeline",
+     "legende": "Les délais à connaître.",
+     "events": [
+      {
+       "d": "Ouverture",
+       "t": "Décision du Collège",
+       "s": "Atteinte à la protection des investisseurs ou au bon fonctionnement du marché."
+      },
+      {
+       "d": "Griefs",
+       "t": "Notification",
+       "s": "15 jours calendaires pour présenter des observations."
+      },
+      {
+       "d": "45 jours",
+       "t": "Rapport d'instruction",
+       "s": "Prorogeable de 30 jours maximum."
+      },
+      {
+       "d": "30 jours",
+       "t": "Séance",
+       "s": "Observations écrites 15 jours au moins avant."
+      },
+      {
+       "d": "5 j ouvrés",
+       "t": "Décision publiée",
+       "s": "Communiquée à la COBAC pour un établissement de crédit."
+      },
+      {
+       "d": "2 mois",
+       "t": "Recours",
+       "s": "Non suspensif."
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "La chaîne de délais à réciter",
+     "texte": "Griefs → **15 jours** d'observations → rapport d'instruction **45 jours** (+ 30 max) → séance dans les **30 jours** → décision publiée sous **5 jours ouvrés** → recours dans **2 mois** (non suspensif). Procédure simplifiée : séance dans les **21 jours ouvrés**."
+    },
+    {
+     "type": "piege",
+     "titre": "Récusation : trois délais différents",
+     "texte": "Rapporteur : **1 mois** ; autre membre : **15 jours calendaires** ; réponse du membre récusé : **8 jours ouvrés**."
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  }
+ ]
+}

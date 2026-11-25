@@ -1,0 +1,2770 @@
+{
+ "id": "p7-fonds",
+ "titre": "Créer et gérer un fonds",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "orange",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "OPCVM, SICAV et FCP : agrément, société de gestion, dépositaire, valeur liquidative, documents d'information, ratios d'investissement. Puis les autres véhicules : FCPE, titrisation, OPCI, capital-investissement.",
+ "court": "Fonds",
+ "chapitres": [
+  {
+   "id": "m10-opc",
+   "titre": "Essentiel · 10 · Les OPC : OPCVM, FIA, documents d'information, actifs",
+   "resume": {
+    "court": "Les OPC comprennent les OPCVM (FCP sans personnalité morale, SICAV société anonyme) et les FIA (titrisation, OPCI, capital investissement, OPILT). Agrément préalable de la COSUMAF avant toute commercialisation ; document d'information et document d'information simplifié ; jusqu'à 15 % d'actifs hors CEMAC sous autorisation.",
+    "moyen": "OPC = OPCVM + FIA + tout organisme agréé comme tel. OPCVM : Fonds Communs de Placement (copropriété de valeurs mobilières dépourvue de personnalité morale) et SICAV (société anonyme), qui émettent et rachètent des parts/actions à tout moment. FIA : organismes de titrisation, OPCI, organismes de capital investissement, organismes professionnels d'investissement à long terme (OPILT). Les OPC doivent être agréés avant toute commercialisation ; transformation, fusion, scission = agrément ; liquidation = autorisation préalable. Avant commercialisation : un document d'information (profil de risque, orientation, règles de valorisation et fréquence de publication de la VL, classification, durée de placement, frais d'entrée/sortie, frais de gestion, rémunération du dépositaire et du CAC) et un document d'information simplifié (informations clés pour l'investisseur, sans renvoi à d'autres documents). Classification selon la stratégie et la nature des actifs. Parts admissibles à la BVMAC sous autorisation. Actifs : jusqu'à 15 % de titres émis hors zone CEMAC, sous autorisation préalable.",
+    "long": "OPC = OPCVM + FIA + tout organisme agréé comme tel. OPCVM : Fonds Communs de Placement (copropriété de valeurs mobilières dépourvue de personnalité morale) et SICAV (société anonyme), qui émettent et rachètent des parts/actions à tout moment. FIA : organismes de titrisation, OPCI, organismes de capital investissement, organismes professionnels d'investissement à long terme (OPILT). Les OPC doivent être agréés avant toute commercialisation ; transformation, fusion, scission = agrément ; liquidation = autorisation préalable. Avant commercialisation : un document d'information (profil de risque, orientation, règles de valorisation et fréquence de publication de la VL, classification, durée de placement, frais d'entrée/sortie, frais de gestion, rémunération du dépositaire et du CAC) et un document d'information simplifié (informations clés pour l'investisseur, sans renvoi à d'autres documents). Classification selon la stratégie et la nature des actifs. Parts admissibles à la BVMAC sous autorisation. Actifs : jusqu'à 15 % de titres émis hors zone CEMAC, sous autorisation préalable."
+   },
+   "fiches": [
+    {
+     "titre": "La famille des OPC (art. 186 à 191)",
+     "contenu": "**OPC** = **OPCVM** + **FIA** + tout autre organisme agréé comme tel.\n\n**OPCVM** (émettent et rachètent des parts/actions **à tout moment** à la demande des porteurs) :\n1. **FCP** : **copropriété de valeurs mobilières dépourvue de la personnalité morale**\n2. **SICAV** : **société anonyme** à capital variable\n\n**FIA** (fonds d'investissement alternatifs) :\n1. **Organismes de titrisation**\n2. **OPCI** (placement collectif immobilier)\n3. **Organismes de capital investissement**\n4. **OPILT** (organismes professionnels d'investissement à long terme)\n\nUn FIA peut être une **société par actions** ou un **fonds sans personnalité morale**. La COSUMAF **publie la liste** des OPC et de leurs sociétés de gestion."
+    },
+    {
+     "titre": "Agrément, fusion, liquidation (art. 193-194)",
+     "contenu": "- Les OPC doivent être **agréés par la COSUMAF avant toute commercialisation** dans la CEMAC\n- **Transformation, fusion, scission** : soumises à **agrément**\n- **Liquidation** : soumise à **autorisation préalable**"
+    },
+    {
+     "titre": "Document d'information (DI) et DI simplifié (art. 195-197)",
+     "contenu": "Avant toute commercialisation, établis par la **société de gestion ou l'OPC** lors de la demande d'agrément.\n\n**Document d'information** : caractéristiques permettant une décision en connaissance de cause. Il contient : **orientation et risques** de la gestion · **règles de valorisation** et **fréquence de publication de la valeur liquidative** · **classification** · **durée de placement** adaptée · **frais d'entrée et de sortie** · **frais annuels de gestion** · **rémunération du dépositaire et du commissaire aux comptes**. Description claire du **profil de risque**.\n\n**DI simplifié** : document **sommaire** d'**informations clés** pour l'investisseur (caractéristiques essentielles, nature et risques), **compréhensibles sans renvoi à d'autres documents**."
+    },
+    {
+     "titre": "Classification, cote et actifs (art. 198 à 202)",
+     "contenu": "- Classification des OPC selon la **stratégie d'investissement**, la **composition** et la **nature des actifs**\n- Obligations d'information des OPC et des sociétés de gestion (contenu fixé par la COSUMAF)\n- **Admission à la cote** de la BVMAC : possible **sous réserve d'autorisation de la COSUMAF**\n- Composition des actifs fixée par le Règlement Général\n- Jusqu'à **15 %** des actifs en **titres émis hors zone CEMAC**, sous **autorisation préalable** de la COSUMAF"
+    }
+   ],
+   "mnemos": [
+    "OPCVM = FCP + SICAV (2). FIA = titrisation, OPCI, capital investissement, OPILT (4). Seuil hors CEMAC : 15 %."
+   ],
+   "definitions": [
+    {
+     "terme": "SICAV",
+     "definition": "Société d'investissement à capital variable : société anonyme collectant des fonds pour constituer un portefeuille diversifié."
+    },
+    {
+     "terme": "Document d'information simplifié",
+     "definition": "Document sommaire d'informations clés pour l'investisseur, compréhensible sans renvoi à d'autres documents."
+    },
+    {
+     "terme": "OPCVM",
+     "definition": "OPC en valeurs mobilières (FCP et SICAV) qui émettent et rachètent des parts ou actions à tout moment."
+    },
+    {
+     "terme": "FIA",
+     "definition": "Fonds d'investissement alternatif : organismes de titrisation, OPCI, capital investissement, OPILT."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Peut-on coter des parts d'OPC à la BVMAC ?",
+     "verso": "Oui, sous réserve d'autorisation de la COSUMAF."
+    },
+    {
+     "recto": "Quels documents avant commercialisation ?",
+     "verso": "Un document d'information et un document d'information simplifié."
+    },
+    {
+     "recto": "Que contient le document d'information ?",
+     "verso": "Orientation et risques, valorisation et fréquence de la VL, classification, durée de placement, frais, rémunérations du dépositaire et du CAC."
+    },
+    {
+     "recto": "Qu'est-ce qu'un OPC ?",
+     "verso": "Un organisme de placement collectif : OPCVM, FIA ou tout autre organisme agréé comme tel."
+    },
+    {
+     "recto": "FCP ou SICAV : quelle différence ?",
+     "verso": "FCP : copropriété de valeurs mobilières sans personnalité morale ; SICAV : société anonyme à capital variable."
+    },
+    {
+     "recto": "Quelle part d'un OPC peut être investie hors zone CEMAC ?",
+     "verso": "Jusqu'à 15 %, avec autorisation préalable de la COSUMAF."
+    },
+    {
+     "recto": "Que contient le document d'information d'un OPC ?",
+     "verso": "Orientation et risques, règles de valorisation, fréquence de la VL, classification, durée de placement, frais d'entrée et sortie, frais annuels, rémunérations du dépositaire et du CAC."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Quel OPCVM est dépourvu de personnalité morale ?",
+     "choix": [
+      "SICAV",
+      "SA",
+      "Société de gestion",
+      "FCP"
+     ],
+     "bonne": 3,
+     "explication": "Le FCP est une copropriété de valeurs mobilières."
+    },
+    {
+     "q": "Plafond d'actifs d'un OPC hors zone CEMAC ?",
+     "choix": [
+      "5 %",
+      "10 %",
+      "15 %",
+      "25 %"
+     ],
+     "bonne": 2,
+     "explication": "15 %, avec autorisation préalable."
+    },
+    {
+     "q": "Lequel n'est pas un FIA ?",
+     "choix": [
+      "OPCI",
+      "Organisme de titrisation",
+      "SICAV",
+      "Organisme de capital investissement"
+     ],
+     "bonne": 2,
+     "explication": "La SICAV est un OPCVM."
+    },
+    {
+     "q": "Combien de documents d'information doivent être établis avant commercialisation d'un OPC ?",
+     "choix": [
+      "1",
+      "3",
+      "2",
+      "Aucun"
+     ],
+     "bonne": 2,
+     "explication": "Le document d'information et le document d'information simplifié."
+    },
+    {
+     "q": "La liquidation d'un OPC agréé requiert...",
+     "choix": [
+      "Une autorisation préalable de la COSUMAF",
+      "Aucune formalité particulière si l'actif est faible",
+      "Un vote de la BVMAC réunie en comité",
+      "Un simple avis adressé au dépositaire"
+     ],
+     "bonne": 0,
+     "explication": "Art. 194."
+    },
+    {
+     "q": "Les OPC regroupent :",
+     "choix": [
+      "seulement les OPCVM, à l'exclusion des FIA",
+      "seulement les FIA, à l'exclusion des OPCVM",
+      "les OPCVM, les FIA et tout autre organisme agréé comme tel",
+      "les banques, les assureurs et les mutuelles"
+     ],
+     "bonne": 2,
+     "explication": "Art. 186."
+    },
+    {
+     "q": "Les OPCVM se caractérisent par :",
+     "choix": [
+      "des parts non remboursables avant la liquidation du fonds",
+      "l'émission et le rachat de parts ou actions à tout moment",
+      "une cotation unique par jour à la BVMAC",
+      "des souscriptions réservées aux seuls investisseurs qualifiés"
+     ],
+     "bonne": 1,
+     "explication": "À la demande des porteurs."
+    },
+    {
+     "q": "Un FCP est :",
+     "choix": [
+      "une société anonyme à capital variable cotée en bourse",
+      "une copropriété de valeurs mobilières dépourvue de personnalité morale",
+      "un établissement de crédit agréé par la COBAC",
+      "un fonds immobilier géré par une société de placement"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Une SICAV est :",
+     "choix": [
+      "une copropriété sans personnalité morale",
+      "une société anonyme à capital variable",
+      "une société civile",
+      "une association"
+     ],
+     "bonne": 1,
+     "explication": ""
+    }
+   ],
+   "classer": [
+    {
+     "titre": "OPCVM ou FIA ?",
+     "buckets": [
+      "OPCVM",
+      "FIA"
+     ],
+     "items": [
+      {
+       "t": "FCP.",
+       "b": 0,
+       "why": "OPCVM."
+      },
+      {
+       "t": "SICAV.",
+       "b": 0,
+       "why": "OPCVM."
+      },
+      {
+       "t": "OPCI.",
+       "b": 1,
+       "why": "FIA."
+      },
+      {
+       "t": "Organisme de titrisation.",
+       "b": 1,
+       "why": "FIA."
+      },
+      {
+       "t": "Organisme de capital investissement.",
+       "b": 1,
+       "why": "FIA."
+      },
+      {
+       "t": "OPI (investissement à long terme).",
+       "b": 1,
+       "why": "FIA."
+      }
+     ]
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "La famille des OPC",
+     "type": "tree",
+     "legende": "OPCVM + FIA.",
+     "racine": {
+      "t": "OPC",
+      "s": "agrément COSUMAF avant commercialisation",
+      "k": [
+       {
+        "t": "OPCVM",
+        "k": [
+         {
+          "t": "FCP",
+          "d": "Copropriété sans personnalité morale."
+         },
+         {
+          "t": "SICAV",
+          "d": "Société anonyme à capital variable."
+         }
+        ]
+       },
+       {
+        "t": "FIA",
+        "k": [
+         {
+          "t": "Titrisation",
+          "d": "FCT ou ST."
+         },
+         {
+          "t": "OPCI",
+          "d": "Immobilier locatif : SPI ou FCPI."
+         },
+         {
+          "t": "Capital investissement",
+          "d": "SPC ou FPC."
+         },
+         {
+          "t": "OPI",
+          "d": "Investissement à long terme : SPI ou FPI."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "trous": [
+    "Un OPC peut investir jusqu'à {{15}} % de ses actifs hors zone CEMAC avec l'autorisation préalable de la {{COSUMAF}}.",
+    "Le {{FCP}} est une copropriété sans personnalité morale et la {{SICAV}} une société anonyme à capital variable."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "m11-sgo-depositaire",
+   "titre": "Essentiel · 11 · Sociétés de gestion d'OPC, dépositaire d'OPC et OPC étrangers",
+   "resume": {
+    "court": "La société de gestion d'OPC est une SA avec conseil d'administration, siège en CEMAC, ne gère qu'un seul type d'OPC et ne peut emprunter pour le compte de l'OPC. Les actifs sont gardés par un dépositaire unique, indépendant, responsable de la perte des actifs ; un OPC étranger exige un correspondant local, un DI simplifié visé et ne peut dépasser 1/5 des actifs gérés.",
+    "moyen": "SGO : agrément COSUMAF ; société anonyme avec CA ; siège dans un État CEMAC ; ne gère qu'un seul des 5 types d'OPC (OPCVM, titrisation, OPCI, capital investissement, OPILT) ; ne contracte aucun emprunt pour le compte de l'OPC ; délégation et sous-délégation de fonctions à une autre SGO agréée sous autorisation préalable. Dépositaire : unique, indépendant et distinct de l'OPC et de la SGO ; siège en CEMAC ; contrat écrit ; peut être un établissement de crédit établi en zone CEMAC, une société de bourse, une caisse de dépôts et consignations ; agrément ; fonctions : conservation, contrôle de la régularité des décisions, intervention aux étapes de la vie de l'OPC ; compte-espèces et compte-titres par OPC ; contrôle (décisions d'investissement, VL, actif minimum, organisation comptable) ; anomalie : demande de régularisation puis mise en demeure à 10 jours calendaires ; responsabilité non excluable contractuellement. OPC étrangers : correspondant local (SGO agréée), DI simplifié visé, dépositaire équivalent, titres d'OPC étrangers ≤ 1/5 des actifs gérés.",
+    "long": "SGO : agrément COSUMAF ; société anonyme avec CA ; siège dans un État CEMAC ; ne gère qu'un seul des 5 types d'OPC (OPCVM, titrisation, OPCI, capital investissement, OPILT) ; ne contracte aucun emprunt pour le compte de l'OPC ; délégation et sous-délégation de fonctions à une autre SGO agréée sous autorisation préalable. Dépositaire : unique, indépendant et distinct de l'OPC et de la SGO ; siège en CEMAC ; contrat écrit ; peut être un établissement de crédit établi en zone CEMAC, une société de bourse, une caisse de dépôts et consignations ; agrément ; fonctions : conservation, contrôle de la régularité des décisions, intervention aux étapes de la vie de l'OPC ; compte-espèces et compte-titres par OPC ; contrôle (décisions d'investissement, VL, actif minimum, organisation comptable) ; anomalie : demande de régularisation puis mise en demeure à 10 jours calendaires ; responsabilité non excluable contractuellement. OPC étrangers : correspondant local (SGO agréée), DI simplifié visé, dépositaire équivalent, titres d'OPC étrangers ≤ 1/5 des actifs gérés."
+   },
+   "fiches": [
+    {
+     "titre": "La société de gestion d'OPC (art. 203 à 211)",
+     "contenu": "- **Agrément COSUMAF** obligatoire ; retrait dans les mêmes cas que les intermédiaires (art. 168)\n- **Société anonyme avec conseil d'administration**, siège **en CEMAC**\n- Un OPC peut se gérer lui-même ou confier sa gestion à une SGO agréée\n- Une SGO **ne peut gérer qu'un seul type d'OPC** parmi **5** : OPCVM, organismes de titrisation, OPCI, capital investissement, OPILT\n- Politiques de **gouvernance**, **gestion de la liquidité**, **gestion des risques**, **évaluation**\n- **Interdiction de contracter des emprunts** pour le compte de l'OPC (s'applique aussi à l'OPC qui se gère lui-même)\n- **Délégation / sous-délégation** de fonctions à une autre SGO agréée : **autorisation préalable**"
+    },
+    {
+     "titre": "Le dépositaire d'OPC : statut (art. 212 à 218)",
+     "contenu": "- Actifs conservés par un **dépositaire unique, indépendant et distinct** de l'OPC et de la SGO\n- **Siège en CEMAC**\n- **Contrat écrit** (précisé dans les statuts ou le règlement de gestion)\n- Peut être : **établissements de crédit** établis en zone CEMAC, **sociétés de bourse**, **caisses de dépôts et consignations**\n- **Agrément préalable** de la COSUMAF ; liste publiée"
+    },
+    {
+     "titre": "Fonctions du dépositaire (art. 219 à 227)",
+     "contenu": "**3 grandes fonctions** : **conservation des actifs** · **contrôle de la régularité des décisions** de l'OPC ou de la SGO · **intervention à certaines étapes de la vie de l'OPC**.\n\n- Ouvre un **compte-espèces** et un **compte-titres** au nom de chaque OPC\n- **Garde** et **restitution** ; ne peut **utiliser pour son compte** les titres\n- Reçoit les **souscriptions**, effectue les **rachats**, s'assure de l'exécution des ordres, assure **encaissements et paiements**\n- **Contrôles** : régularité des **décisions d'investissement** · établissement de la **valeur liquidative** · **actif minimum** · **organisation comptable**\n- **Anomalie** → demande de régularisation ; **sans réponse sous 10 jours calendaires** → **mise en demeure** ; il informe sans délai l'OPC, le **commissaire aux comptes** et la **COSUMAF**\n- **Vie de l'OPC** : à la **création** (règlement de gestion, attestation de dépôt des fonds), en **cours de vie** (informé des changements), à la **liquidation**"
+    },
+    {
+     "titre": "Responsabilité du dépositaire (art. 230-235)",
+     "contenu": "- Responsable envers l'OPC et les porteurs de la **perte des actifs conservés** (par lui ou son délégataire) : il restitue **sans délai** un actif identique ou un montant correspondant\n- Responsabilité **écartée** s'il prouve un **événement extérieur échappant à son contrôle**, inévitable malgré tous les efforts raisonnables\n- **Ne peut être exclue ou limitée par contrat** : toute clause contraire est **réputée non écrite**\n- Les porteurs peuvent invoquer sa responsabilité directement ou via l'OPC/SGO\n- Gérer et dépositaire agissent de façon **honnête, loyale, professionnelle, indépendante**, dans l'intérêt de l'OPC et des investisseurs ; **séparation fonctionnelle et hiérarchique** en cas de conflits d'intérêts\n- **Délégation** de fonctions à un autre dépositaire : autorisation préalable"
+    },
+    {
+     "titre": "OPC étrangers (art. 236 à 239)",
+     "contenu": "Pour commercialiser en CEMAC un OPC étranger :\n- **mandater un correspondant local** : une **SGO agréée**\n- produire un **document d'information simplifié** soumis au **visa préalable** de la COSUMAF\n- respecter la **réglementation des changes**\n- actifs conservés par un dépositaire aux exigences **au moins similaires**\n- Les titres d'OPC étrangers commercialisés par les SGO agréées ne peuvent représenter **plus du cinquième (1/5)** des actifs gérés"
+    }
+   ],
+   "mnemos": [
+    "Dépositaire : conserver + contrôler + intervenir. Régularisation → 10 jours → mise en demeure. OPC étrangers : ≤ 1/5."
+   ],
+   "definitions": [
+    {
+     "terme": "Obligation de garde",
+     "definition": "Obligation du dépositaire de veiller à la correspondance entre les avoirs conservés et les titres inscrits aux comptes des souscripteurs."
+    },
+    {
+     "terme": "Mise en demeure",
+     "definition": "Injonction que le dépositaire adresse au gestionnaire lorsqu'une anomalie n'est pas régularisée dans les 10 jours calendaires."
+    },
+    {
+     "terme": "Correspondant local",
+     "definition": "SGO agréée mandatée par un émetteur ou gestionnaire étranger pour commercialiser des OPC en zone CEMAC."
+    },
+    {
+     "terme": "Délégation de fonctions",
+     "definition": "Transfert d'une partie des fonctions d'une SGO ou d'un dépositaire à un autre acteur agréé, sous autorisation préalable de la COSUMAF."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quelles sont les trois fonctions du dépositaire ?",
+     "verso": "Conservation des actifs, contrôle de la régularité des décisions, intervention aux étapes de la vie de l'OPC."
+    },
+    {
+     "recto": "Que fait le dépositaire face à une anomalie ?",
+     "verso": "Il demande une régularisation ; sans réponse sous 10 jours calendaires, il met en demeure et informe l'OPC, le CAC et la COSUMAF."
+    },
+    {
+     "recto": "Une SGO peut-elle emprunter pour le compte d'un OPC ?",
+     "verso": "Non, en aucun cas."
+    },
+    {
+     "recto": "Quelle est la responsabilité du dépositaire ?",
+     "verso": "Responsable de la perte des actifs conservés, sauf événement extérieur inévitable ; ne peut être limitée par contrat."
+    },
+    {
+     "recto": "Quelle forme juridique pour une société de gestion d'OPC ?",
+     "verso": "Société anonyme avec conseil d'administration, siège dans un État membre de la CEMAC."
+    },
+    {
+     "recto": "Quelle part d'OPC étrangers dans les actifs gérés d'une SGO ?",
+     "verso": "Au plus un cinquième (1/5)."
+    },
+    {
+     "recto": "Part maximale d'OPC étrangers dans les actifs gérés d'une SGO ?",
+     "verso": "Le cinquième (1/5)."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Combien de jours avant la mise en demeure ?",
+     "choix": [
+      "10 calendaires",
+      "5",
+      "30",
+      "60"
+     ],
+     "bonne": 0,
+     "explication": "Dix jours calendaires."
+    },
+    {
+     "q": "Un OPC étranger : part maximale dans les actifs gérés d'une SGO ?",
+     "choix": [
+      "1/10",
+      "1/3",
+      "1/5",
+      "1/2"
+     ],
+     "bonne": 2,
+     "explication": "Le cinquième."
+    },
+    {
+     "q": "Combien de dépositaires un OPC a-t-il ?",
+     "choix": [
+      "Deux",
+      "Au choix",
+      "Aucun",
+      "Un seul"
+     ],
+     "bonne": 3,
+     "explication": "Dépositaire unique, indépendant et distinct."
+    },
+    {
+     "q": "Qui doit être le correspondant local d'un OPC étranger ?",
+     "choix": [
+      "Une SDB",
+      "La BEAC",
+      "Une SGO agréée",
+      "Un CIF"
+     ],
+     "bonne": 2,
+     "explication": "Désigné parmi les SGO agréées."
+    },
+    {
+     "q": "Une clause limitant la responsabilité du dépositaire est...",
+     "choix": [
+      "Valable",
+      "Réputée non écrite",
+      "Soumise au vote",
+      "Obligatoire"
+     ],
+     "bonne": 1,
+     "explication": "Art. 231."
+    },
+    {
+     "q": "Lequel n'est pas un des 5 types d'OPC géré par une SGO ?",
+     "choix": [
+      "Fonds d'amorçage informel",
+      "OPCVM",
+      "OPCI",
+      "Capital investissement"
+     ],
+     "bonne": 0,
+     "explication": "OPCVM, titrisation, OPCI, capital investissement, OPILT."
+    },
+    {
+     "q": "Une société de gestion d'OPC (SGO) est :",
+     "choix": [
+      "une SARL à capital variable avec siège dans la CEMAC",
+      "une association de gestionnaires agréée par la BVMAC",
+      "une société anonyme avec conseil d'administration, siège en CEMAC",
+      "un établissement de crédit spécialisé en gestion d'actifs"
+     ],
+     "bonne": 2,
+     "explication": "Agrément COSUMAF obligatoire."
+    },
+    {
+     "q": "Une SGO peut gérer :",
+     "choix": [
+      "tous les types d'OPC",
+      "deux types d'OPC",
+      "uniquement des OPCVM",
+      "un seul type d'OPC parmi cinq"
+     ],
+     "bonne": 3,
+     "explication": "OPCVM, titrisation, OPCI, capital investissement ou OPILT."
+    },
+    {
+     "q": "Parmi ces choix, lequel n'est pas un des cinq types d'OPC gérables par une SGO ?",
+     "choix": [
+      "Un OPCVM",
+      "Un OPCI",
+      "Un organisme de titrisation",
+      "Un FCPE"
+     ],
+     "bonne": 3,
+     "explication": "Les cinq : OPCVM, titrisation, OPCI, capital investissement, OPILT."
+    }
+   ],
+   "trous": [
+    "En cas d'anomalie sans réponse sous {{10}} jours calendaires, le dépositaire adresse une mise en {{demeure}}.",
+    "Les titres d'OPC étrangers ne peuvent dépasser le {{cinquième}} des actifs gérés par une SGO."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g17-opc-opcvm-sicav-fcp",
+   "titre": "Essentiel · 17 · OPC et OPCVM : agrément, rapports, SICAV et FCP (art. 350 à 393)",
+   "resume": {
+    "court": "Agrément des OPC en 60 jours ouvrés ; rapports : trimestriel (15 jours), annuel et semestriel (30 jours). SICAV : société anonyme à capital variable, actions nominatives ; dissolution si le capital reste 90 jours sous la moitié du minimum ou tombe à 25 % du minimum ; suspension des émissions et rachats à la moitié du minimum, AG sous 2 mois. FCP : copropriété sans personnalité morale ; préavis de 2 mois pour la société de gestion ou le dépositaire.",
+    "moyen": "OPC : agrément dans les 60 jours ouvrés du dépôt du dossier complet ; modification substantielle = nouvel agrément ; transformation, fusion, scission = nouveau dossier (avis dans un journal d'annonces légales, CAC informé 45 jours avant l'AGE, rapports des CAC 15 jours avant, opposition des créanciers dans les 30 jours pour les sociétés, au plus tard 15 jours avant l'opération pour les FCP) ; liquidation = autorisation préalable. En conditions exceptionnelles de marché et si le règlement le prévoit : frais de sortie supplémentaires, remboursements échelonnés, écart cours d'achat/vente. Rapports à la COSUMAF : trimestriel sous 15 jours calendaires, annuel et semestriel sous 30 jours. OPCVM : agrément en 60 jours ouvrés ; constitution effective sous 30 jours calendaires ; dépôt et publicité au RCCM et certificat de dépôt du capital sous 30 jours ; retrait d'agrément si aucun usage dans les 6 mois ou plus d'activité depuis 6 mois ; sommes distribuables mises en paiement au plus tard 5 mois après la clôture. SICAV : actions intégralement libérées à la constitution, nominatives, émises sans droit préférentiel de souscription, valeur liquidative = actif net / nombre d'actions ; capital variable sans AG ni modification des statuts ; dissolution si capital < 1/2 du minimum pendant 90 jours ; suspension à la moitié ; AG sous 2 mois pour statuer ; dissolution immédiate à 25 % ; cessation du dépositaire ou gestionnaire : préavis de 2 mois, sinon dissolution de plein droit. FCP : copropriété de valeurs mobilières, parts nominatives, représenté par la société de gestion ; mêmes règles de seuils d'actif net ; liquidation par retrait d'agrément ou cessation des fonctions sans remplacement ; les porteurs ne peuvent provoquer le partage.",
+    "long": "OPC : agrément dans les 60 jours ouvrés du dépôt du dossier complet ; modification substantielle = nouvel agrément ; transformation, fusion, scission = nouveau dossier (avis dans un journal d'annonces légales, CAC informé 45 jours avant l'AGE, rapports des CAC 15 jours avant, opposition des créanciers dans les 30 jours pour les sociétés, au plus tard 15 jours avant l'opération pour les FCP) ; liquidation = autorisation préalable. En conditions exceptionnelles de marché et si le règlement le prévoit : frais de sortie supplémentaires, remboursements échelonnés, écart cours d'achat/vente. Rapports à la COSUMAF : trimestriel sous 15 jours calendaires, annuel et semestriel sous 30 jours. OPCVM : agrément en 60 jours ouvrés ; constitution effective sous 30 jours calendaires ; dépôt et publicité au RCCM et certificat de dépôt du capital sous 30 jours ; retrait d'agrément si aucun usage dans les 6 mois ou plus d'activité depuis 6 mois ; sommes distribuables mises en paiement au plus tard 5 mois après la clôture. SICAV : actions intégralement libérées à la constitution, nominatives, émises sans droit préférentiel de souscription, valeur liquidative = actif net / nombre d'actions ; capital variable sans AG ni modification des statuts ; dissolution si capital < 1/2 du minimum pendant 90 jours ; suspension à la moitié ; AG sous 2 mois pour statuer ; dissolution immédiate à 25 % ; cessation du dépositaire ou gestionnaire : préavis de 2 mois, sinon dissolution de plein droit. FCP : copropriété de valeurs mobilières, parts nominatives, représenté par la société de gestion ; mêmes règles de seuils d'actif net ; liquidation par retrait d'agrément ou cessation des fonctions sans remplacement ; les porteurs ne peuvent provoquer le partage."
+   },
+   "fiches": [
+    {
+     "titre": "Agrément des OPC (art. 350 à 354)",
+     "contenu": "- **Délai maximum : 60 jours ouvrés** à compter du dépôt d'un **dossier complet**\n- **Modification substantielle** de l'agrément : **nouvel agrément**\n- **Transformation, fusion, scission** : **nouveau dossier** d'agrément ; **dépôt d'actes au RCCM** ; **avis dans un journal d'annonces légales** et sur le site ; **CA communique le projet au CAC au moins 45 jours calendaires avant l'AGE** (ou la date de l'opération pour un FCP) ; **rapports des CAC tenus à disposition au plus tard 15 jours calendaires avant** ; **opposition des créanciers** auprès de la COSUMAF **dans les 30 jours** de la publication (sociétés d'investissement) ou **au plus tard 15 jours calendaires avant l'opération** (FCP)\n- **Liquidation** d'un OPC : **autorisation préalable**"
+    },
+    {
+     "titre": "Rachats exceptionnels et rapports (art. 355 à 359)",
+     "contenu": "**Conditions exceptionnelles de marché**, si le règlement ou les documents constitutifs le prévoient : **frais de sortie supplémentaires**, **échelonnement des remboursements**, **écart entre cours d'achat et de vente**.\n\n**Rapports à la COSUMAF** (société de gestion ou OPC) :\n- **Trimestriel** : **15 jours calendaires** après la fin de chaque trimestre\n- **Annuel** : **30 jours calendaires** après la fin de l'année\n- **Semestriel** : **30 jours calendaires** après la fin de chaque semestre\n\nDiffusion des prix d'émission, de vente, de rachat ou de remboursement : par instruction."
+    },
+    {
+     "titre": "Constitution d'un OPCVM (art. 360 à 365)",
+     "contenu": "- OPCVM = **FCP + SICAV** ; **FCPE** soumis au régime des FCP + règles propres\n- **Agrément préalable** ; délivré par lettre **dans les 60 jours ouvrés** du dossier complet ; refus **motivé**\n- Constitution = signature des statuts/règlement par les premiers actionnaires ou fondateurs + **libération intégrale** des premières actions ou parts ; **effective dans les 30 jours calendaires** de la décision d'agrément\n- **30 jours calendaires** après la constitution : dépôt et publicité au **RCCM**, copie du **certificat de dépôt du capital initial** à la COSUMAF, **avis dans un journal** (dénomination, durée, dépositaire, gestionnaire, siège, administrateurs, 1er CAC, capital initial, **seuil en dessous duquel les rachats sont interdits**…)\n- **Retrait d'agrément** : après mise en garde, mise en demeure, avertissement ou blâme restés sans effet ; ou conditions non remplies ; ou **pas d'usage dans les 6 mois** de la notification ; ou **plus d'activité depuis 6 mois**\n- Constitution, transformation, fusion, scission : **agrément** ; liquidation : **approbation préalable** ; avis publié"
+    },
+    {
+     "titre": "Résultat, responsabilité, créanciers (art. 366 à 371)",
+     "contenu": "- **Résultat net** = intérêts, dividendes, jetons de présence et autres produits du portefeuille + produit des sommes momentanément disponibles − frais de gestion et charge des emprunts\n- **Sommes distribuables** mises en paiement **au plus tard 5 mois après la clôture** : résultat net + report bénéficiaire − pertes antérieures − sommes en réserve\n- **Créanciers** liés à la conservation ou gestion des actifs : action **uniquement sur ces actifs** ; les créanciers personnels de la SGO ou du dépositaire **ne peuvent pas** se servir sur les actifs de l'OPCVM\n- **Responsabilité** individuelle ou solidaire de la SICAV et son dépositaire, du gestionnaire et du dépositaire du FCP : infractions, violation des statuts/règlement, fautes\n- Les OPCVM communiquent les informations pour les **statistiques monétaires de la CEMAC**"
+    },
+    {
+     "titre": "La SICAV (art. 372 à 381)",
+     "contenu": "- **Société anonyme** ayant pour objet la gestion d'un portefeuille de valeurs mobilières ; actions **émises et rachetées à tout moment** à la **valeur liquidative** (actif net / nombre d'actions) ± frais et commissions ; cotation possible sous autorisation\n- **Capital minimum** fixé par instruction ; **dissolution** si le capital reste **90 jours** inférieur à la **moitié** du minimum ; **dissolution immédiate** si le capital, après être passé sous la moitié, tombe à **25 %** du minimum\n- **Émissions et rachats suspendus** quand le capital atteint la **moitié** du minimum ; **AG dans les 2 mois** pour statuer (dissolution, augmentation, **fusion** ou **scission avec apport**) ; **aucune commission** sur les fusions/scissions\n- Actions **intégralement libérées** à la constitution, **obligatoirement nominatives**, émises **sans droit préférentiel de souscription**\n- **Capital variable** sans AG ni modification des statuts\n- **Cessation des fonctions** du dépositaire ou gestionnaire : remplacement sans délai, **préavis de 2 mois**, à défaut **dissolution de plein droit**\n- Liquidation : AG, retrait d'agrément, cessation sans remplacement, cas statutaires"
+    },
+    {
+     "titre": "Le FCP (art. 382 à 393)",
+     "contenu": "- **Copropriété de valeurs mobilières**, **sans personnalité morale** ; parts émises et rachetées à tout moment à la valeur liquidative ; parts **obligatoirement nominatives** ; cotation possible sous autorisation\n- **Règlement de gestion** établi par la société de gestion et le dépositaire ; le FCP est représenté à l'égard des tiers par la **société de gestion** (siège en CEMAC), qui peut agir en justice\n- **Actif minimum** fixé par instruction ; **dissolution** si l'actif net reste **90 jours** sous la **moitié** du minimum ; **immédiate** à **25 %** ; **suspension** des émissions/rachats quand l'actif net atteint la moitié du minimum\n- Cessation de la SGO ou du dépositaire : remplacement sans délai, **préavis de 2 mois**, sinon **dissolution de plein droit**\n- **Apport** des actifs à un autre FCP géré par la même SGO sans commission\n- Les porteurs **ne peuvent provoquer le partage** du fonds"
+    }
+   ],
+   "mnemos": [
+    "OPC : 60 jours ouvrés (agrément) · rapports 15 j (trimestriel) / 30 j (annuel, semestriel) · SICAV et FCP : 90 jours sous la moitié, 25 % = dissolution immédiate · préavis 2 mois · 5 mois (distribution)."
+   ],
+   "definitions": [
+    {
+     "terme": "Écart cours d'achat / cours de vente",
+     "definition": "Mécanisme exceptionnel permettant à un OPC d'appliquer un écart entre cours d'achat et de vente, si prévu au règlement."
+    },
+    {
+     "terme": "Capital variable",
+     "definition": "Capital de la SICAV qui augmente ou diminue au gré des émissions et rachats d'actions sans AG ni modification des statuts."
+    },
+    {
+     "terme": "Suspension des rachats",
+     "definition": "Arrêt des émissions et rachats lorsque le capital ou l'actif net atteint la moitié du minimum exigé."
+    },
+    {
+     "terme": "Sommes distribuables",
+     "definition": "Résultat net de l'exercice augmenté du report bénéficiaire et diminué des pertes antérieures et des sommes mises en réserve ; à verser dans les 5 mois après la clôture."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Les actions de SICAV sont-elles nominatives ?",
+     "verso": "Oui, obligatoirement, intégralement libérées à la constitution."
+    },
+    {
+     "recto": "Quel est le délai d'agrément d'un OPC ?",
+     "verso": "60 jours ouvrés à compter d'un dossier complet."
+    },
+    {
+     "recto": "Quels seuils pour une SICAV ?",
+     "verso": "Suspension à la moitié du capital minimum, AG sous 2 mois ; dissolution si moins de la moitié pendant 90 jours ; dissolution immédiate à 25 %."
+    },
+    {
+     "recto": "Délai de paiement des sommes distribuables ?",
+     "verso": "Au plus tard 5 mois après la clôture de l'exercice."
+    },
+    {
+     "recto": "Quels rapports un OPC adresse-t-il à la COSUMAF ?",
+     "verso": "Trimestriel : 15 jours ; semestriel et annuel : 30 jours calendaires après la période."
+    },
+    {
+     "recto": "Quand dissout-on une SICAV pour capital insuffisant (autre seuil) ?",
+     "verso": "Si le capital reste 90 jours inférieur à la moitié du minimum."
+    },
+    {
+     "recto": "À quel seuil suspend-on émissions et rachats d'une SICAV ?",
+     "verso": "Quand le capital atteint la moitié du minimum initial ; AG sous 2 mois."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Délai du rapport trimestriel des OPC ?",
+     "choix": [
+      "30 jours",
+      "45 jours",
+      "15 jours",
+      "60 jours"
+     ],
+     "bonne": 2,
+     "explication": "15 jours calendaires."
+    },
+    {
+     "q": "Délai d'opposition des créanciers à une fusion de SICAV ?",
+     "choix": [
+      "30 jours",
+      "15 jours",
+      "45 jours",
+      "60 jours"
+     ],
+     "bonne": 0,
+     "explication": "30 jours à compter de la publication de l'avis."
+    },
+    {
+     "q": "Quand informe-t-on le CAC d'un projet de fusion (avant l'AGE) ?",
+     "choix": [
+      "15 jours",
+      "30 jours",
+      "45 jours calendaires",
+      "60 jours"
+     ],
+     "bonne": 2,
+     "explication": "Art. 352."
+    },
+    {
+     "q": "Les parts de FCP sont...",
+     "choix": [
+      "Au porteur",
+      "Libres",
+      "Interdites en bourse",
+      "Obligatoirement nominatives"
+     ],
+     "bonne": 3,
+     "explication": "Art. 383."
+    },
+    {
+     "q": "Le délai maximum d'agrément d'un OPC est de :",
+     "choix": [
+      "30 jours ouvrés",
+      "90 jours calendaires",
+      "60 jours ouvrés à compter du dossier complet",
+      "6 mois"
+     ],
+     "bonne": 2,
+     "explication": "Art. 350."
+    },
+    {
+     "q": "Une modification substantielle de l'agrément d'un OPC exige :",
+     "choix": [
+      "une simple information",
+      "un avis de la BEAC",
+      "une autorisation du dépositaire",
+      "un nouvel agrément"
+     ],
+     "bonne": 3,
+     "explication": ""
+    },
+    {
+     "q": "Pour un FCP, l'opposition des créanciers se fait :",
+     "choix": [
+      "dans les 30 jours de la publication de l'avis",
+      "au plus tard 15 jours calendaires avant l'opération",
+      "après l'opération, dans un délai de 60 jours",
+      "dans les 60 jours suivant la délivrance de l'agrément"
+     ],
+     "bonne": 1,
+     "explication": ""
+    },
+    {
+     "q": "Parmi les mesures en conditions exceptionnelles de marché, on trouve :",
+     "choix": [
+      "des frais de sortie supplémentaires et un échelonnement des remboursements",
+      "la suspension immédiate de l'agrément de l'OPC",
+      "la fermeture de l'OPC avec remboursement forcé",
+      "la conversion automatique de l'OPC en SICAV"
+     ],
+     "bonne": 0,
+     "explication": "Aussi un écart entre cours d'achat et de vente, si le règlement le prévoit."
+    },
+    {
+     "q": "Le rapport trimestriel d'un OPC est adressé à la COSUMAF :",
+     "choix": [
+      "15 jours calendaires après la fin de chaque trimestre",
+      "30 jours calendaires après la fin de chaque trimestre",
+      "45 jours calendaires après la fin de chaque trimestre",
+      "60 jours calendaires après la fin de chaque trimestre"
+     ],
+     "bonne": 0,
+     "explication": ""
+    }
+   ],
+   "classer": [
+    {
+     "titre": "SICAV ou FCP ?",
+     "buckets": [
+      "SICAV",
+      "FCP"
+     ],
+     "items": [
+      {
+       "t": "Société anonyme à capital variable.",
+       "b": 0,
+       "why": "Art. 372."
+      },
+      {
+       "t": "Copropriété sans personnalité morale.",
+       "b": 1,
+       "why": "Art. 382."
+      },
+      {
+       "t": "Représenté à l'égard des tiers par la société de gestion.",
+       "b": 1,
+       "why": "Art. 384."
+      },
+      {
+       "t": "Actions obligatoirement nominatives, intégralement libérées à la constitution.",
+       "b": 0,
+       "why": "Art. 376."
+      },
+      {
+       "t": "Les porteurs ne peuvent provoquer le partage.",
+       "b": 1,
+       "why": "Art. 393."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le rapport trimestriel d'un OPC est remis sous {{15}} jours calendaires, les rapports semestriel et annuel sous {{30}} jours.",
+    "Les sommes distribuables sont payées au plus tard {{5}} mois après la clôture."
+   ],
+   "schemas": [
+    {
+     "titre": "Les seuils de vie d'une SICAV / d'un FCP",
+     "type": "scale",
+     "legende": "Du minimum à la dissolution.",
+     "gauche": "Actif confortable",
+     "droite": "Dissolution",
+     "marks": [
+      {
+       "t": "Minimum",
+       "s": "capital ou actif initial"
+      },
+      {
+       "t": "1/2 du minimum",
+       "s": "suspension des émissions et rachats ; AG sous 2 mois"
+      },
+      {
+       "t": "90 jours sous 1/2",
+       "s": "dissolution"
+      },
+      {
+       "t": "25 % du minimum",
+       "s": "dissolution immédiate"
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "Le trio 90 jours – 50 % – 25 %",
+     "texte": "Un OPC dont le capital ou l'actif reste **90 jours** sous la **moitié** du minimum est dissous ; **à 25 %** du minimum, la dissolution est **immédiate** ; **à la moitié**, on **suspend** émissions et rachats (AG sous **2 mois** pour une SICAV)."
+    },
+    {
+     "type": "conseil",
+     "titre": "15 – 30 – 30",
+     "texte": "Rapports : **trimestriel 15 jours**, **annuel 30 jours**, **semestriel 30 jours**. Sommes distribuables : **5 mois**."
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g21-societes-gestion-opc",
+   "titre": "Essentiel · 21 · Les sociétés de gestion d'OPC : agrément, liquidité, évaluation, délégation (art. 495 à 517)",
+   "resume": {
+    "court": "SGO : société anonyme, objet unique (gérer des OPC), siège CEMAC, capital ≥ 300 M FCFA libéré et fonds propres nets ≥ 300 M. Agrément en 60 jours ouvrés (décision individuelle, inaliénable, intransmissible). Gestion de la liquidité : stress tests au moins annuels, politiques réexaminées au moins une fois par an. Évaluation : politiques écrites, expert externe possible, modèle validé par une personne indépendante. Délégation : accord écrit, pas de contournement des responsabilités.",
+    "moyen": "Conditions d'agrément : SA, objet unique de gestion d'OPC, siège CEMAC, capital 300 M FCFA entièrement libéré et fonds propres nets au moins égaux, dirigeants agréés. Procédure : récépissé de dépôt, 60 jours ouvrés (suspendus en cas de complément), décision motivée en cas de refus, individuelle/inaliénable/intransmissible, publication d'un avis ; retrait en cas de violation. Code de bonne conduite élaboré par une association professionnelle et approuvé par la COSUMAF ; frais d'agrément et redevance annuelle selon les encours. Gestion de la liquidité : système approprié, suivi du profil de liquidité, contrôle des OPC cibles, politiques consignées et réexaminées au moins annuellement, simulations de crise au moins annuelles. Évaluation : politiques et procédures écrites, sources indépendantes, réexamen annuel et avant toute nouvelle stratégie ou nouveau type d'actif, validation du modèle par une personne qui n'a pas participé à sa construction, approbation des instances dirigeantes, fonction de gestion des risques. Délégation (art. 211 du Règlement 01/22) : accord écrit, motivation objective, surveillance, sous-délégation avec accord préalable, plan d'urgence ; délégataire doté de ressources et de personnel compétent et honorable. Informations à la COSUMAF précisées par instruction (art. 199 du Règlement 01/22).",
+    "long": "Conditions d'agrément : SA, objet unique de gestion d'OPC, siège CEMAC, capital 300 M FCFA entièrement libéré et fonds propres nets au moins égaux, dirigeants agréés. Procédure : récépissé de dépôt, 60 jours ouvrés (suspendus en cas de complément), décision motivée en cas de refus, individuelle/inaliénable/intransmissible, publication d'un avis ; retrait en cas de violation. Code de bonne conduite élaboré par une association professionnelle et approuvé par la COSUMAF ; frais d'agrément et redevance annuelle selon les encours. Gestion de la liquidité : système approprié, suivi du profil de liquidité, contrôle des OPC cibles, politiques consignées et réexaminées au moins annuellement, simulations de crise au moins annuelles. Évaluation : politiques et procédures écrites, sources indépendantes, réexamen annuel et avant toute nouvelle stratégie ou nouveau type d'actif, validation du modèle par une personne qui n'a pas participé à sa construction, approbation des instances dirigeantes, fonction de gestion des risques. Délégation (art. 211 du Règlement 01/22) : accord écrit, motivation objective, surveillance, sous-délégation avec accord préalable, plan d'urgence ; délégataire doté de ressources et de personnel compétent et honorable. Informations à la COSUMAF précisées par instruction (art. 199 du Règlement 01/22)."
+   },
+   "fiches": [
+    {
+     "titre": "Conditions d'agrément d'une SGO (art. 495 à 497)",
+     "contenu": "- La COSUMAF vérifie **organisation, moyens humains, techniques et financiers, honorabilité, compétence et expérience des dirigeants**\n- **Société anonyme** avec **objet unique** : la gestion d'un ou plusieurs OPC\n- **Siège social dans la CEMAC**\n- **Capital minimum de 300 000 000 FCFA** **entièrement libéré à la constitution** et **fonds propres nets ≥ 300 M FCFA**\n- **Dirigeants agréés** selon les exigences de la COSUMAF\n- **Dossier** : programme d'activité détaillant chaque service, ses conditions, la nature des opérations et l'organisation"
+    },
+    {
+     "titre": "Procédure d'agrément (art. 498 à 504)",
+     "contenu": "- **Récépissé daté et signé** attestant le dépôt du dossier complet\n- **60 jours ouvrés** maximum, **suspendus** jusqu'à la production des compléments ; décision par **lettre avec accusé de réception** ; **refus motivé**\n- Décision **individuelle, inaliénable et intransmissible**, précisant l'**étendue des activités** ; **avis publié**\n- **Retrait à tout moment** en cas de violation ; décision **motivée**\n- **Code de bonne conduite** élaboré par une association professionnelle, **approuvé** par la COSUMAF\n- Contribution aux **frais d'agrément** et **redevance annuelle** selon les **encours sous gestion**"
+    },
+    {
+     "titre": "Gestion de la liquidité (art. 505 à 507)",
+     "contenu": "- Le gestionnaire **démontre** à la COSUMAF un **système de gestion de la liquidité** approprié (stratégie, profil de liquidité, politique de remboursement)\n- Il **suit** le profil de liquidité, tient compte du profil des investisseurs, **contrôle** l'approche des OPC cibles, mesure les risques quantitatifs et qualitatifs\n- Il **consigne par écrit** ses politiques et les **réexamine au moins une fois par an** ; prévoit des **mesures d'intervention par paliers**\n- **Limites** de liquidité/illiquidité adéquates ; contrôle de leur respect\n- **Simulations de crise** (conditions normales et exceptionnelles), sur données fiables et à jour, incluant manque de liquidité, remboursements atypiques, risques de marché, appels de marge ; **au moins une fois par an**"
+    },
+    {
+     "titre": "Évaluation des actifs (art. 508 à 512)",
+     "contenu": "- **Politiques et procédures écrites** pour chaque OPC ; **méthodes adéquates et transparentes** ; **pas de premier investissement** dans un type d'actif avant la détermination d'une méthode d'évaluation\n- **Prix obtenus de sources indépendantes** chaque fois que possible\n- Éléments à traiter : compétence et **indépendance** du personnel, contrôles des sources, **canaux d'intervention par paliers**, **ajustements de taille/liquidité**, clôture des livres, **fréquence**\n- **Expert externe** : échange d'informations ; **contrôle diligent** des tiers\n- **Modèle** : justification documentée ; **validé avant utilisation par une personne compétente qui n'a pas participé à sa construction** ; **approuvé par les instances dirigeantes** ; la COSUMAF peut exiger une vérification par un expert externe ou un CAC\n- **Réexamen au moins une fois par an** et avant toute **nouvelle stratégie ou nouveau type d'actif**\n- Les **fonctions de gestion des risques** examinent les politiques (art. 209 du Règlement 01/22)\n- **Risque d'évaluation incorrecte** : prix d'une seule contrepartie, prix non liquides, parties liées, intérêts financiers, prix de l'initiateur de l'instrument"
+    },
+    {
+     "titre": "Délégation de fonctions (art. 513 à 516)",
+     "contenu": "Principes (art. 211 du Règlement 01/22) :\n- La structure de délégation **ne contourne pas** les responsabilités du gestionnaire ; **pas de modification** de ses obligations envers l'OPC\n- **Accord écrit** ; droit d'information, d'inspection et d'accès, de donner des instructions, de **résilier**\n- **Sous-délégation** seulement avec le **consentement** du gestionnaire\n- Le gestionnaire **surveille** efficacement, dispose de l'expertise suffisante, veille à la **continuité**\n- Gestion de portefeuille déléguée : conforme à la **politique d'investissement**\n- Le délégataire protège les informations confidentielles et dispose d'un **plan d'urgence**\n\n**Raisons objectives** communiquées à la COSUMAF : optimisation des fonctions, **économies**, expertise du délégataire, accès aux capacités mondiales de négociation.\n\n**Délégataire** : ressources et personnel suffisants ; dirigeants **expérimentés et honorables** (antécédents : infraction, sanction, fraude, blanchiment, faillite). Les art. 513 à 515 s'appliquent aussi à la délégation de **gestion de portefeuille** ou de **gestion des risques**."
+    },
+    {
+     "titre": "Informations à la COSUMAF (art. 517)",
+     "contenu": "Les informations visées à l'**art. 199 du Règlement 01/22** (contenu et modalités de communication par les SGO) sont précisées dans une **instruction de la COSUMAF**."
+    }
+   ],
+   "mnemos": [
+    "SGO : SA · objet unique · 300 M (capital libéré + fonds propres nets) · 60 jours ouvrés · stress tests et politiques au moins annuels · modèle validé par un tiers indépendant."
+   ],
+   "definitions": [
+    {
+     "terme": "Intervention par paliers",
+     "definition": "Procédure graduée de remontée d'information et de correction en cas d'anomalie ou de problème de liquidité."
+    },
+    {
+     "terme": "Récépissé de dépôt",
+     "definition": "Document daté et signé de la COSUMAF attestant le dépôt d'un dossier complet."
+    },
+    {
+     "terme": "Simulation de crise",
+     "definition": "Test de résistance de la liquidité en conditions normales et exceptionnelles, réalisé au moins une fois par an."
+    },
+    {
+     "terme": "Délégataire",
+     "definition": "Entité à laquelle un gestionnaire confie une fonction ; il doit avoir ressources, personnel et dirigeants honorables."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Fréquence minimale des simulations de crise de liquidité ?",
+     "verso": "Une fois par an."
+    },
+    {
+     "recto": "Délai d'agrément d'une SGO ?",
+     "verso": "60 jours ouvrés, suspendus tant que les compléments demandés manquent."
+    },
+    {
+     "recto": "Condition d'une sous-délégation ?",
+     "verso": "Le consentement préalable du gestionnaire (prévu dans l'accord écrit)."
+    },
+    {
+     "recto": "Fréquence minimale de réexamen des politiques de liquidité ou d'évaluation ?",
+     "verso": "Une fois par an (et avant toute nouvelle stratégie ou nouveau type d'actif)."
+    },
+    {
+     "recto": "Quatre raisons objectives de la délégation ?",
+     "verso": "Optimisation des fonctions, économies, expertise du délégataire, accès aux capacités mondiales de négociation."
+    },
+    {
+     "recto": "Sur quoi repose la redevance de la SGO ?",
+     "verso": "Sur les encours sous gestion."
+    },
+    {
+     "recto": "Quelles conditions d'agrément pour une SGO ?",
+     "verso": "SA à objet unique de gestion d'OPC, siège CEMAC, capital de 300 M libéré, fonds propres nets de 300 M, dirigeants agréés, programme d'activité."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Capital minimum d'une SGO ?",
+     "choix": [
+      "300 M",
+      "100 M",
+      "500 M",
+      "1 Md"
+     ],
+     "bonne": 0,
+     "explication": "Art. 496."
+    },
+    {
+     "q": "Délai d'agrément d'une SGO ?",
+     "choix": [
+      "30 jours ouvrés",
+      "45 jours ouvrés",
+      "90 jours ouvrés",
+      "60 jours ouvrés"
+     ],
+     "bonne": 3,
+     "explication": "Art. 499."
+    },
+    {
+     "q": "La décision d'agrément est...",
+     "choix": [
+      "Transmissible",
+      "Cessible",
+      "Individuelle, inaliénable et intransmissible",
+      "Temporaire"
+     ],
+     "bonne": 2,
+     "explication": "Art. 500."
+    },
+    {
+     "q": "Les simulations de crise de liquidité sont réalisées...",
+     "choix": [
+      "Tous les 5 ans",
+      "Jamais obligatoire",
+      "Au moins une fois par an",
+      "Chaque jour"
+     ],
+     "bonne": 2,
+     "explication": "Art. 507."
+    },
+    {
+     "q": "Une sous-délégation est possible...",
+     "choix": [
+      "Librement",
+      "Avec le consentement du gestionnaire",
+      "Jamais",
+      "Avec l'accord du dépositaire seul"
+     ],
+     "bonne": 1,
+     "explication": "Art. 513 h)."
+    },
+    {
+     "q": "Sur quoi repose la redevance annuelle d'une SGO ?",
+     "choix": [
+      "Ses encours sous gestion",
+      "Son capital",
+      "Son chiffre d'affaires",
+      "Le nombre d'OPC"
+     ],
+     "bonne": 0,
+     "explication": "Art. 504."
+    },
+    {
+     "q": "Une SGO est une société anonyme avec :",
+     "choix": [
+      "un objet social large couvrant tous les services",
+      "un objet bancaire incluant le crédit aux clients",
+      "un objet unique : la gestion d'un ou plusieurs OPC",
+      "un objet de conseil financier et de démarchage"
+     ],
+     "bonne": 2,
+     "explication": "Siège social dans la CEMAC."
+    },
+    {
+     "q": "Le capital minimum d'une SGO est de :",
+     "choix": [
+      "100 millions FCFA libérés à la moitié",
+      "300 millions FCFA entièrement libérés à la constitution",
+      "500 millions FCFA libérés à la constitution",
+      "1 milliard FCFA libérés à la constitution"
+     ],
+     "bonne": 1,
+     "explication": "Et fonds propres nets d'au moins 300 M FCFA."
+    },
+    {
+     "q": "Les dirigeants d'une SGO doivent être :",
+     "choix": [
+      "choisis par la BEAC parmi ses cadres",
+      "agréés selon les exigences de la COSUMAF",
+      "élus par l'assemblée des porteurs de parts",
+      "nommés par l'État du siège de la société"
+     ],
+     "bonne": 1,
+     "explication": "Art. 497."
+    }
+   ],
+   "trous": [
+    "Une SGO est une société {{anonyme}} à objet unique, avec un capital d'au moins {{300}} millions FCFA.",
+    "La {{sous-délégation}} n'est possible qu'avec le consentement du gestionnaire."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g22-depositaire-opc",
+   "titre": "Essentiel · 22 · Le dépositaire d'OPC : contrat, garde, surveillance, perte, indépendance (art. 518 à 540)",
+   "resume": {
+    "court": "Le dépositaire est désigné par un contrat écrit (accord-cadre possible) ; il rapproche les flux de liquidités au moins quotidiennement, tient le registre des actifs, contrôle les souscriptions/rachats, l'évaluation, le respect des ratios et le calcul du résultat. Perte d'un instrument conservé = responsabilité du dépositaire, sauf preuve de l'absence de faute et d'évènement extérieur. Indépendance : aucun cumul de fonctions entre SGO et dépositaire ; au moins un tiers (ou deux) de membres indépendants en cas de lien de groupe. Société d'investissement : SA ou SAS ; gère uniquement son propre portefeuille.",
+    "moyen": "Contrat de désignation (art. 518) : services, garde et surveillance, responsabilité inchangée en cas de délégation, durée, résiliation, confidentialité, échanges d'informations, réemploi des actifs, LBC/FT, comptes de liquidités, intervention par paliers, ségrégation, droit d'accès aux livres ; accord-cadre possible pour plusieurs OPC. Flux de liquidités (art. 519-521) : rapprochement au moins quotidien, réexamen annuel du processus, information de la SGO et de la COSUMAF si l'irrégularité persiste. Conservation (art. 522-523) : instruments financiers enregistrables au nom du dépositaire ; ceux enregistrés seulement chez l'émetteur ne peuvent pas être conservés ; vérification de propriété, registre, inventaire. Surveillance (art. 525-530) : souscriptions/rachats, évaluation, respect des limites, contreparties, calcul du résultat net, dividendes. Délégation de la garde (art. 531-532) : diligence, ségrégation, plan d'urgence, réexamen au moins annuel. Perte (art. 533-534) : définition, preuve exonératoire (évènement externe, impossibilité raisonnable de prévenir). Indépendance (art. 535-538). Sociétés d'investissement (art. 539-540) : SA ou SAS, gestion du seul portefeuille propre.",
+    "long": "Contrat de désignation (art. 518) : services, garde et surveillance, responsabilité inchangée en cas de délégation, durée, résiliation, confidentialité, échanges d'informations, réemploi des actifs, LBC/FT, comptes de liquidités, intervention par paliers, ségrégation, droit d'accès aux livres ; accord-cadre possible pour plusieurs OPC. Flux de liquidités (art. 519-521) : rapprochement au moins quotidien, réexamen annuel du processus, information de la SGO et de la COSUMAF si l'irrégularité persiste. Conservation (art. 522-523) : instruments financiers enregistrables au nom du dépositaire ; ceux enregistrés seulement chez l'émetteur ne peuvent pas être conservés ; vérification de propriété, registre, inventaire. Surveillance (art. 525-530) : souscriptions/rachats, évaluation, respect des limites, contreparties, calcul du résultat net, dividendes. Délégation de la garde (art. 531-532) : diligence, ségrégation, plan d'urgence, réexamen au moins annuel. Perte (art. 533-534) : définition, preuve exonératoire (évènement externe, impossibilité raisonnable de prévenir). Indépendance (art. 535-538). Sociétés d'investissement (art. 539-540) : SA ou SAS, gestion du seul portefeuille propre."
+   },
+   "fiches": [
+    {
+     "titre": "Contrat de désignation (art. 518)",
+     "contenu": "Contrat **écrit** entre le dépositaire et la **SGO et/ou l'OPC** (accord-cadre possible, un seul accord pour plusieurs OPC). Éléments minimaux :\n- **Services** et procédures par type d'actifs ; exercice des fonctions de **garde et de surveillance**\n- **Responsabilité du dépositaire inchangée** en cas de **délégation** de la conservation\n- **Durée, modification, résiliation**, transmission au successeur\n- **Confidentialité** (sans empêcher l'accès de la COSUMAF)\n- **Échanges d'informations** : exercice des droits attachés aux actifs, souscriptions, rachats, émissions, annulations ; vue d'ensemble des comptes\n- **Réemploi** des actifs (autorisé ou non, conditions)\n- Modification du règlement de l'OPC : **information ou accord préalable**\n- **LBC/FT** : tâches des parties ; **comptes de liquidités** ouverts\n- **Intervention par paliers**, engagement d'informer en cas de **ségrégation insuffisante** chez un tiers\n- **Droit d'accès aux livres** et visites sur place ; examen des résultats du dépositaire"
+    },
+    {
+     "titre": "Liquidités et conservation (art. 519 à 524)",
+     "contenu": "**Liquidités**\n- La SGO donne au dépositaire **toutes les informations** sur les comptes de liquidités (existence, ouvertures, données des entités tierces)\n- **Rapprochement** de tous les mouvements **au moins quotidiennement** (ou à chaque mouvement si rares) ; détection des flux importants à la clôture du jour ouvrable ; **réexamen complet du processus au moins une fois par an**\n- Irrégularité non rectifiée : informer la SGO ; si elle ne peut être clarifiée, **informer la COSUMAF**\n- Paiements des souscripteurs : information du dépositaire **à la clôture de chaque jour ouvrable**\n\n**Conservation**\n- Entrent dans la **garde** : valeurs mobilières, instruments du marché monétaire, parts d'OPC **enregistrables** au nom (direct/indirect) du dépositaire, et tout instrument **livrable physiquement**\n- **Exclus** : instruments **seulement enregistrés** au nom de l'OPC chez l'émetteur ou son agent (teneur de registre, agent de transfert)\n- Le dépositaire veille à l'**enregistrement correct**, à la **ségrégation**, aux **rapprochements**, à la **vérification du droit de propriété**, au suivi des risques de conservation\n- Il tient un **registre des actifs** dont il a l'assurance qu'ils sont à l'OPC et fournit à tout moment un **inventaire complet**"
+    },
+    {
+     "titre": "Fonctions de surveillance (art. 525 à 530)",
+     "contenu": "Le dépositaire exerce **a posteriori** des contrôles et dispose d'une **procédure d'intervention par paliers** (information de la SGO, puis de la COSUMAF). Il vérifie :\n- **Souscriptions et rachats** : rapprochement ordres/montants/nombre de parts ; concordance entre le nombre de parts des comptes de l'OPC et le **registre** ; fréquence adaptée aux flux\n- **Évaluation** : procédures appropriées et réexaminées ; signale un **calcul de VL non conforme** et veille aux mesures correctrices\n- **Respect de la réglementation**, des ratios d'investissement et des limites d'**effet de levier** ; procédure en cas de dépassement\n- **Contreparties** : détecter les livraisons tardives, demander la restitution\n- **Résultat net** : calcul conforme au règlement ; mesures si le CAC émet des **réserves** ; **dividendes** complets et exacts"
+    },
+    {
+     "titre": "Délégation de la garde (art. 531-532)",
+     "contenu": "- **Procédure documentée** de sélection et de suivi du délégataire, **réexaminée au moins une fois par an**, à disposition de la COSUMAF\n- Sélection avec diligence : **cadre légal et risque-pays**, risque d'insolvabilité, pratiques et contrôles internes, solidité financière, capacités opérationnelles\n- Suivi permanent des performances ; fréquence **accrue** en cas de perturbation des marchés ; information de la SGO de toute modification de risque\n- **Plan d'urgence** pour chaque marché, avec prestataire de remplacement si possible\n- **Ségrégation** : registres et comptes permettant de distinguer les actifs des OPC de ceux du dépositaire et de ses autres clients ; rapprochements réguliers ; protection contre l'insolvabilité du délégataire ; mêmes règles en cas de **sous-délégation**"
+    },
+    {
+     "titre": "Perte d'instruments financiers (art. 533-534)",
+     "contenu": "**Perte réputée** si : droit de propriété **invalide** (inexistant ou éteint), OPC **privé définitivement** de son droit, ou **définitivement incapable** de céder. Peu importe la cause (fraude, négligence…). Constat par la SGO selon une procédure accessible à la COSUMAF ; **information immédiate des investisseurs sur support durable**. Non-perte si l'instrument est remplacé/converti.\n\n**Exonération du dépositaire** : il doit prouver **cumulativement** (1) l'évènement ne résulte pas d'un acte ou d'une omission de lui ou de son délégataire, (2) il n'aurait pas pu raisonnablement le prévenir, (3) malgré une diligence rigoureuse.\n\nConditions (a) et (b) réputées remplies : **phénomène naturel**, **mesure gouvernementale ou judiciaire** (loi, décret, décision, arrêt), **guerre, émeutes, troubles majeurs**.\n\nNe sont **jamais** réputées remplies : **erreur comptable, dysfonctionnement opérationnel, fraude, non-application de la ségrégation**."
+    },
+    {
+     "titre": "Indépendance SGO / dépositaire (art. 535 à 538)",
+     "contenu": "- **Aucun cumul** : membre de l'organe de direction de la SGO ET de celui du dépositaire ; membre de direction de la SGO ET salarié du dépositaire (et inversement)\n- **Procédure de choix** du dépositaire fondée sur des **critères objectifs** dans le seul intérêt de l'OPC et des investisseurs ; si le dépositaire a un **lien de groupe** : évaluation comparative + rapport justificatif conservés et justification aux investisseurs sur demande\n- Lien de groupe : politiques pour **identifier et éviter** les conflits d'intérêts, sinon **gérer, suivre, signaler**\n- **Administrateurs indépendants** : au moins **un tiers des membres ou deux personnes (le plus bas)** de l'organe de surveillance de la SGO et du dépositaire"
+    },
+    {
+     "titre": "Sociétés d'investissement (art. 539-540)",
+     "contenu": "- Forme : **société anonyme ou SAS**\n- Les règles applicables aux SGO s'appliquent (« société de gestion » = « société d'investissement »)\n- Elle **gère uniquement les actifs de son propre portefeuille** et ne peut **jamais** être mandatée pour gérer des actifs pour compte de tiers"
+    }
+   ],
+   "mnemos": [
+    "Dépositaire : rapprochement quotidien · réexamen annuel · perte = il prouve qu'il n'y est pour rien (nature, État, guerre) · jamais erreur comptable/fraude · indépendance : 1/3 ou 2 personnes."
+   ],
+   "definitions": [
+    {
+     "terme": "Ségrégation des actifs",
+     "definition": "Séparation des actifs des OPC de ceux du dépositaire et de ses autres clients, pour les protéger de l'insolvabilité."
+    },
+    {
+     "terme": "Lien de groupe",
+     "definition": "Relation entre SGO et dépositaire d'un même groupe, qui impose gestion des conflits et administrateurs indépendants."
+    },
+    {
+     "terme": "Accord-cadre",
+     "definition": "Contrat unique entre SGO et dépositaire énumérant les OPC auxquels il s'applique."
+    },
+    {
+     "terme": "Dépositaire d'OPC",
+     "definition": "Établissement chargé de la garde des actifs de l'OPC et de la surveillance de la régularité des décisions de la société de gestion."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que peut garder le dépositaire ?",
+     "verso": "Les valeurs mobilières, instruments monétaires et parts d'OPC enregistrables en son nom et tout instrument livrable physiquement ; pas les instruments seulement inscrits chez l'émetteur."
+    },
+    {
+     "recto": "Cas jamais exonératoires ?",
+     "verso": "Erreur comptable, dysfonctionnement opérationnel, fraude, non-application de la ségrégation."
+    },
+    {
+     "recto": "Quels évènements sont réputés extérieurs ou jamais exonératoires ?",
+     "verso": "Extérieurs : phénomène naturel, mesure gouvernementale ou judiciaire, guerre ; jamais : erreur comptable, dysfonctionnement, fraude, non-ségrégation."
+    },
+    {
+     "recto": "Réexamen de la procédure de sélection du délégataire de la garde ?",
+     "verso": "Au moins une fois par an."
+    },
+    {
+     "recto": "Quand le dépositaire informe-t-il la COSUMAF ?",
+     "verso": "Quand une irrégularité ou anomalie ne peut pas être clarifiée ou rectifiée."
+    },
+    {
+     "recto": "Trois cas de perte d'un instrument financier ?",
+     "verso": "Droit de propriété invalide, privation définitive du droit, incapacité définitive de céder."
+    },
+    {
+     "recto": "Forme d'une société d'investissement ?",
+     "verso": "SA ou SAS ; elle ne gère que son propre portefeuille."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Rapprochement des liquidités par le dépositaire ?",
+     "choix": [
+      "Annuel",
+      "Mensuel",
+      "Au moins quotidien",
+      "Hebdomadaire"
+     ],
+     "bonne": 2,
+     "explication": "Art. 520."
+    },
+    {
+     "q": "Quel élément n'exonère jamais le dépositaire en cas de perte ?",
+     "choix": [
+      "Guerre",
+      "Erreur comptable ou fraude",
+      "Phénomène naturel",
+      "Décision de justice"
+     ],
+     "bonne": 1,
+     "explication": "Art. 534 §2."
+    },
+    {
+     "q": "Peut-on cumuler direction de la SGO et salariat du dépositaire ?",
+     "choix": [
+      "Oui",
+      "Non",
+      "Oui avec accord COSUMAF",
+      "Oui si l'OPC est petit"
+     ],
+     "bonne": 1,
+     "explication": "Art. 535."
+    },
+    {
+     "q": "En cas de lien de groupe, indépendants requis ?",
+     "choix": [
+      "Au moins 1/3 ou 2 personnes (le plus bas)",
+      "Aucun",
+      "La moitié",
+      "La totalité"
+     ],
+     "bonne": 0,
+     "explication": "Art. 538."
+    },
+    {
+     "q": "Une société d'investissement peut-elle gérer pour des tiers ?",
+     "choix": [
+      "Oui",
+      "Oui avec mandat",
+      "Oui si SAS",
+      "Non, seulement son propre portefeuille"
+     ],
+     "bonne": 3,
+     "explication": "Art. 540."
+    },
+    {
+     "q": "Un instrument seulement inscrit au nom de l'OPC chez l'émetteur peut-il être conservé ?",
+     "choix": [
+      "Oui",
+      "Oui si l'émetteur est de la CEMAC",
+      "Non",
+      "Oui par la SGO"
+     ],
+     "bonne": 2,
+     "explication": "Art. 522 §2."
+    },
+    {
+     "q": "Les investisseurs sont informés d'une perte...",
+     "choix": [
+      "Dans l'année",
+      "Si elle dépasse 5 %",
+      "Immédiatement sur support durable",
+      "Jamais"
+     ],
+     "bonne": 2,
+     "explication": "Art. 533 §2."
+    },
+    {
+     "q": "Le contrat de désignation du dépositaire est :",
+     "choix": [
+      "oral",
+      "écrit, avec la SGO et/ou l'OPC",
+      "tacite",
+      "conclu avec la COSUMAF"
+     ],
+     "bonne": 1,
+     "explication": "Accord-cadre possible pour plusieurs OPC."
+    },
+    {
+     "q": "En cas de délégation de la conservation, la responsabilité du dépositaire est :",
+     "choix": [
+      "réduite",
+      "transférée au délégataire",
+      "inchangée",
+      "supprimée"
+     ],
+     "bonne": 2,
+     "explication": "Art. 518."
+    }
+   ],
+   "trous": [
+    "Le dépositaire rapproche les flux de liquidités au moins {{quotidiennement}} et réexamine le processus au moins une fois par {{an}}.",
+    "La perte d'un instrument financier est notamment réputée si le droit de {{propriété}} est invalide."
+   ],
+   "schemas": [
+    {
+     "titre": "Les fonctions du dépositaire d'OPC",
+     "type": "cycle",
+     "legende": "Garde, surveillance, contrôle.",
+     "centre": "Dépositaire",
+     "steps": [
+      {
+       "t": "Liquidités",
+       "d": "Rapprochement au moins quotidien."
+      },
+      {
+       "t": "Garde",
+       "d": "Registre des actifs, ségrégation, vérification de propriété."
+      },
+      {
+       "t": "Souscriptions / rachats",
+       "d": "Concordance parts et comptes."
+      },
+      {
+       "t": "Évaluation",
+       "d": "Procédures de valorisation contrôlées."
+      },
+      {
+       "t": "Ratios",
+       "d": "Respect des limites d'investissement."
+      },
+      {
+       "t": "Résultat",
+       "d": "Calcul du résultat net et des dividendes."
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "Perte d'un instrument : qui prouve ?",
+     "texte": "En cas de perte, c'est le **dépositaire qui doit prouver** qu'il n'y est pour rien (événement extérieur, impossibilité de prévenir malgré une diligence rigoureuse). **Jamais** exonérant : erreur comptable, dysfonctionnement opérationnel, fraude, non-ségrégation."
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "c4-opc-vl",
+   "titre": "Essentiel · 04 · Les OPC : valeur liquidative, frais, performance",
+   "resume": {
+    "court": "Un OPC met en commun l'épargne de nombreux investisseurs pour acheter un portefeuille de titres. Valeur liquidative = actif net ÷ nombre de parts. Souscription à la VL + droits d'entrée (≤ 1,5 %), rachat à la VL − droits de sortie (≤ 1,5 %). Frais de gestion : 2 % (actions) ou 1,5 % (autres) de l'actif net, au maximum. Performance = (VL finale − VL initiale) ÷ VL initiale. Le dépositaire garde les actifs et contrôle la SGO.",
+    "moyen": "Principe : mutualiser, diversifier, déléguer la gestion à un professionnel (SGO). Actif net = valeur des actifs (titres, liquidités) − dettes ; VL = actif net ÷ nombre de parts ou d'actions ; calculée à la fréquence prévue (hebdomadaire par exemple) ; première VL dès le dépôt des fonds. Souscription : à la VL augmentée des droits d'entrée ; rachat : à la VL diminuée des droits de sortie ; plafonds de l'Instruction 23-24 : 1,5 % HT chacun. Frais de gestion : maximum 2 % HT (OPC actions), 1,5 % HT (autres), 3 % HT (gestion sous mandat). Types : OPCVM (FCP, SICAV) classés en Actions, Obligations, Monétaire, Diversifié, Contractuel ; FIA (titrisation, OPCI, capital investissement, OPI). Acteurs : SGO (gestion), dépositaire (garde et contrôle), CAC, distributeurs. Documents : DI et DIS (informations clés pour l'investisseur). Les ratios d'investissement limitent la concentration (20 % par émetteur, etc.). Performance = (VL₁ − VL₀) ÷ VL₀, nette des frais de gestion déjà imputés à la VL.",
+    "long": "Principe : mutualiser, diversifier, déléguer la gestion à un professionnel (SGO). Actif net = valeur des actifs (titres, liquidités) − dettes ; VL = actif net ÷ nombre de parts ou d'actions ; calculée à la fréquence prévue (hebdomadaire par exemple) ; première VL dès le dépôt des fonds. Souscription : à la VL augmentée des droits d'entrée ; rachat : à la VL diminuée des droits de sortie ; plafonds de l'Instruction 23-24 : 1,5 % HT chacun. Frais de gestion : maximum 2 % HT (OPC actions), 1,5 % HT (autres), 3 % HT (gestion sous mandat). Types : OPCVM (FCP, SICAV) classés en Actions, Obligations, Monétaire, Diversifié, Contractuel ; FIA (titrisation, OPCI, capital investissement, OPI). Acteurs : SGO (gestion), dépositaire (garde et contrôle), CAC, distributeurs. Documents : DI et DIS (informations clés pour l'investisseur). Les ratios d'investissement limitent la concentration (20 % par émetteur, etc.). Performance = (VL₁ − VL₀) ÷ VL₀, nette des frais de gestion déjà imputés à la VL."
+   },
+   "fiches": [
+    {
+     "titre": "Du portefeuille à la valeur liquidative",
+     "contenu": "- **Actif net** = valeur de marché des titres + liquidités − dettes\n- **VL = actif net ÷ nombre de parts (ou d'actions)**\n- **Souscription** = VL + droits d'entrée (≤ **1,5 % HT**) ; **rachat** = VL − droits de sortie (≤ **1,5 % HT**)\n- La VL est **calculée et publiée** selon la fréquence du DI (et **affichée** ; publication des prix par au moins **2 moyens** dont le site internet, Instruction 25-24)\n- **Première VL** calculée dès le dépôt des fonds ; certificat de dépôt sous 30 jours\n- Les frais de gestion sont **déduits de l'actif**, donc de la VL"
+    },
+    {
+     "titre": "Frais maximum (Instruction 23-24)",
+     "contenu": "| Frais | Maximum |\n|---|---|\n| Gestion d'un OPC **Actions** | **2 % HT** de l'actif net |\n| Gestion des **autres OPC** | **1,5 % HT** |\n| **Gestion sous mandat** | **3 % HT** |\n| **Droits d'entrée** | **1,5 % HT** |\n| **Droits de sortie** | **1,5 % HT** |\n| Placement d'OPC étrangers | **1 % HT** du montant placé |\n| Commission de **surperformance** (mandat) | **20 %** de la performance nette excédentaire |"
+    },
+    {
+     "titre": "Les acteurs d'un OPC",
+     "contenu": "- **SGO** : conçoit et gère l'OPC (société anonyme, objet unique ; ne gère qu'un seul des 5 types d'OPC)\n- **Dépositaire** : **garde des actifs**, **contrôle de la régularité** des décisions, rapprochements quotidiens, calcul du résultat\n- **CAC** : certifie les comptes (3 exercices)\n- **Distributeurs** : SDB, banques, CIF ; **convention** et information du client\n- **Régulateur** : agrément (60 jours ouvrés), reporting (hebdomadaire, trimestriel, semestriel, annuel)"
+    },
+    {
+     "titre": "Lire la performance",
+     "contenu": "- **Performance** = (VL finale − VL initiale) ÷ VL initiale (en %)\n- Les **frais** réduisent la VL ; la performance **passée** n'est **pas une garantie**\n- Comparer à un **indicateur de référence** : la surperformance sert de base à la commission de gestion sous mandat\n- **Profil de risque et de rendement** : à lire dans le **DIS** (informations clés pour l'investisseur)"
+    }
+   ],
+   "mnemos": [
+    "VL = actif net ÷ parts · souscription = VL + droits d'entrée (1,5 %) · rachat = VL − droits de sortie (1,5 %) · 2 % / 1,5 % / 3 %."
+   ],
+   "definitions": [
+    {
+     "terme": "Actif net",
+     "definition": "Valeur des actifs de l'OPC diminuée de ses dettes."
+    },
+    {
+     "terme": "Performance",
+     "definition": "Variation relative de la VL sur une période."
+    },
+    {
+     "terme": "Droit de sortie",
+     "definition": "Commission retranchée de la VL lors d'un rachat (≤ 1,5 % HT)."
+    },
+    {
+     "terme": "DIS",
+     "definition": "Document d'information simplifié : informations clés pour l'investisseur."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Formule de la performance ?",
+     "verso": "(VL finale − VL initiale) ÷ VL initiale."
+    },
+    {
+     "recto": "Qui gère l'OPC ?",
+     "verso": "La société de gestion d'OPC (SGO)."
+    },
+    {
+     "recto": "Quels plafonds de frais ?",
+     "verso": "Gestion 2 % (actions), 1,5 % (autres), 3 % (mandat) ; entrée et sortie 1,5 % ; surperformance 20 %."
+    },
+    {
+     "recto": "Qui garde les actifs d'un OPC ?",
+     "verso": "Le dépositaire."
+    },
+    {
+     "recto": "Quels sont les acteurs d'un OPC ?",
+     "verso": "SGO (gestion), dépositaire (garde et contrôle), CAC (certification), distributeurs, COSUMAF (agrément et reporting)."
+    },
+    {
+     "recto": "Prix de rachat ?",
+     "verso": "VL − droits de sortie (≤ 1,5 % HT)."
+    },
+    {
+     "recto": "Comment lire une performance ?",
+     "verso": "(VL finale − VL initiale) ÷ VL initiale ; les frais la réduisent ; le passé ne garantit rien."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Actif net 600 M et 6 000 parts : la VL vaut...",
+     "choix": [
+      "100 000",
+      "10 000",
+      "1 000 000",
+      "3 600 000"
+     ],
+     "bonne": 0,
+     "explication": "600 000 000 ÷ 6 000 = 100 000."
+    },
+    {
+     "q": "Droit d'entrée maximum :",
+     "choix": [
+      "0,5 %",
+      "1,5 % HT",
+      "1 %",
+      "3 %"
+     ],
+     "bonne": 1,
+     "explication": "Instruction 23-24."
+    },
+    {
+     "q": "Les frais de gestion maximum d'un OPC Actions :",
+     "choix": [
+      "1 %",
+      "2 %",
+      "1,5 %",
+      "3 %"
+     ],
+     "bonne": 1,
+     "explication": "Instruction 23-24."
+    },
+    {
+     "q": "L'actif net d'un OPC est égal à :",
+     "choix": [
+      "le capital initial apporté par les porteurs",
+      "valeur de marché des titres + liquidités − dettes",
+      "la valeur des titres seuls, sans liquidités",
+      "la valeur des liquidités seules, sans titres"
+     ],
+     "bonne": 1,
+     "explication": "Définition."
+    },
+    {
+     "q": "La valeur liquidative est :",
+     "choix": [
+      "actif net ÷ nombre de parts",
+      "actif brut ÷ parts",
+      "nominal ÷ parts",
+      "capital ÷ parts"
+     ],
+     "bonne": 0,
+     "explication": "Définition."
+    },
+    {
+     "q": "Le prix de souscription d'une part est :",
+     "choix": [
+      "la VL augmentée des droits d'entrée",
+      "la VL diminuée des droits",
+      "le nominal",
+      "la VL"
+     ],
+     "bonne": 0,
+     "explication": "Droits d'entrée ≤ 1,5 % HT."
+    },
+    {
+     "q": "Le prix de rachat d'une part est :",
+     "choix": [
+      "la VL augmentée des droits",
+      "la VL diminuée des droits de sortie",
+      "le nominal",
+      "la VL plus 1 %"
+     ],
+     "bonne": 1,
+     "explication": "Droits de sortie ≤ 1,5 % HT."
+    },
+    {
+     "q": "Les frais de gestion sont :",
+     "choix": [
+      "payés à part par le porteur",
+      "payés par l'État",
+      "déduits de l'actif, donc de la VL",
+      "payés par le dépositaire"
+     ],
+     "bonne": 2,
+     "explication": "Ils réduisent la performance."
+    },
+    {
+     "q": "Le plafond des frais de gestion d'un OPC actions est de :",
+     "choix": [
+      "1 % HT",
+      "1,5 % HT",
+      "3 % HT",
+      "2 % HT de l'actif net"
+     ],
+     "bonne": 3,
+     "explication": "Instruction 23-24."
+    }
+   ],
+   "trous": [
+    "Les frais de gestion maximum d'un OPC actions sont de {{2}} % HT.",
+    "La VL est égale à l'actif {{net}} divisé par le nombre de {{parts}}."
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "g18-opcvm-classification-actifs",
+   "titre": "À connaître · 18 · OPCVM : documents d'information, classification et règles d'investissement (art. 402 à 416)",
+   "resume": {
+    "court": "Cinq catégories d'OPCVM (Actions, Obligations, Monétaire, Diversifié, Contractuel) avec des seuils de 60 %. Ratios d'investissement : 20 % par émetteur, 40 % sur un État CEMAC (60 % pour l'ensemble des États), 35 % en cas d'indice et par groupe, risque de contrepartie dérivés 10 % ou 5 %, 20 % par OPC cible et 30 % pour les OPC non OPCVM, liquidités accessoires 20 %, hors CEMAC 15 %, non cotés 10 %.",
+    "moyen": "Le document d'information comprend le DI détaillé, un document simplifié (« Informations clés pour l'investisseur ») et le règlement de gestion ou les statuts ; il précise la politique de rémunération, le profil de risque, les frais, les règles de valorisation, les catégories d'actifs et la volatilité élevée éventuelle ; mis à jour pendant la commercialisation (autorisation préalable). Le DIS : concis, non technique, format commun, comprend identification, objectifs et politique de placement, performances, coûts et frais, profil de risque. Classification : Actions (≥ 60 % en actions cotées à la BVMAC), Obligations et autres titres de créance (≥ 60 %), Monétaire (≥ 60 % en instruments du marché monétaire ou obligations d'État CEMAC de maturité < 2 ans), Contractuel (engagement de performance ou de garantie), Diversifié (aucun des autres, jamais plus de 60 % dans une même famille). Actifs éligibles : valeurs mobilières négociées à la BVMAC, instruments du marché monétaire, parts d'OPCVM agréés, dépôts ≤ 12 mois dans un établissement de crédit CEMAC, dérivés encadrés ; liquidités à titre accessoire ≤ 20 % ; hors CEMAC ≤ 15 % (autorisation) ; titres non cotés ≤ 10 % (autorisation). Règles : 20 % par émetteur ; contrepartie dérivé de gré à gré 10 % (établissement de crédit) ou 5 % ; 40 % État(s) CEMAC, 60 % ensemble des États ; cumul sur une même entité ≤ 20 %, groupe ≤ 35 % ; 35 % pour les OPCVM indiciels ; 20 % par OPC cible, 30 % pour les OPC non OPCVM ; dérogations pendant 6 mois après l'agrément.",
+    "long": "Le document d'information comprend le DI détaillé, un document simplifié (« Informations clés pour l'investisseur ») et le règlement de gestion ou les statuts ; il précise la politique de rémunération, le profil de risque, les frais, les règles de valorisation, les catégories d'actifs et la volatilité élevée éventuelle ; mis à jour pendant la commercialisation (autorisation préalable). Le DIS : concis, non technique, format commun, comprend identification, objectifs et politique de placement, performances, coûts et frais, profil de risque. Classification : Actions (≥ 60 % en actions cotées à la BVMAC), Obligations et autres titres de créance (≥ 60 %), Monétaire (≥ 60 % en instruments du marché monétaire ou obligations d'État CEMAC de maturité < 2 ans), Contractuel (engagement de performance ou de garantie), Diversifié (aucun des autres, jamais plus de 60 % dans une même famille). Actifs éligibles : valeurs mobilières négociées à la BVMAC, instruments du marché monétaire, parts d'OPCVM agréés, dépôts ≤ 12 mois dans un établissement de crédit CEMAC, dérivés encadrés ; liquidités à titre accessoire ≤ 20 % ; hors CEMAC ≤ 15 % (autorisation) ; titres non cotés ≤ 10 % (autorisation). Règles : 20 % par émetteur ; contrepartie dérivé de gré à gré 10 % (établissement de crédit) ou 5 % ; 40 % État(s) CEMAC, 60 % ensemble des États ; cumul sur une même entité ≤ 20 %, groupe ≤ 35 % ; 35 % pour les OPCVM indiciels ; 20 % par OPC cible, 30 % pour les OPC non OPCVM ; dérogations pendant 6 mois après l'agrément."
+   },
+   "fiches": [
+    {
+     "titre": "Le document d'information de l'OPCVM (art. 402 à 405)",
+     "contenu": "Il comprend obligatoirement : les éléments de l'art. 196 du Règlement 01/22 + un **document simplifié** (informations clés pour l'investisseur) + le **règlement de gestion ou les statuts**. Communication **sans frais**.\n\nContenu notamment : **politique de rémunération** (calcul, responsables, comité de rémunération) · **profil de risque** clair · **ensemble des frais** · règles de calcul des commissions · **règles de valorisation** · **catégories d'actifs** autorisées · **mention bien visible** si la VL peut connaître une **volatilité élevée**.\n\nTenu à jour pendant toute la commercialisation ; **toute mise à jour : autorisation préalable de la COSUMAF**."
+    },
+    {
+     "titre": "Le document d'information simplifié (art. 406 à 408)",
+     "contenu": "- Mention **« Informations clés pour l'investisseur »**\n- Informations **exactes, claires, cohérentes** avec le DI\n- Contenu essentiel : **identification de l'OPCVM et de l'autorité** · brève description des **objectifs et de la politique de placement** · **performances passées** ou scénarios · **coûts et frais** · **profil de risque**\n- Indique où obtenir d'autres documents ; déclaration sur la politique de rémunération (disponible gratuitement)\n- **Concis, langage non technique**, **format commun** permettant les comparaisons, compréhensible par les **clients non professionnels**\n- **Avertissement** : la responsabilité n'est engagée que sur des déclarations trompeuses, inexactes ou incohérentes avec le DI"
+    },
+    {
+     "titre": "Les 5 catégories d'OPCVM (art. 409)",
+     "contenu": "| Catégorie | Règle |\n|---|---|\n| **Actions** | en permanence **≥ 60 %** de ses actifs (hors liquidités) en **actions et droits cotés à la BVMAC** |\n| **Obligations et autres titres de créance** | **≥ 60 %** en emprunts obligataires APE, bons et obligations du Trésor assimilables, emprunts garantis par un État CEMAC, instruments du marché monétaire |\n| **Monétaire** | **≥ 60 %** en instruments du marché monétaire et/ou titres obligataires d'un État CEMAC de **maturité initiale ou résiduelle < 2 ans** |\n| **Contractuel** | **engagement contractuel** sur une performance, une garantie de restitution du capital ou une valeur de rachat garantie ; en contrepartie, engagements du souscripteur (montant, durée) |\n| **Diversifié** | ni Actions, ni Obligations, ni Monétaire, ni Contractuel ; **jamais plus de 60 %** dans l'une des familles |\n\nUn OPCVM investi **à 100 %** en parts d'OPCVM d'une catégorie relève de cette catégorie."
+    },
+    {
+     "titre": "Actifs éligibles (art. 410)",
+     "contenu": "1. **Valeurs mobilières négociées à la BVMAC**\n2. **Instruments du marché monétaire**\n3. **Parts d'OPCVM agréés** ou d'autres OPC (agréés et surveillés, protection équivalente)\n4. **Dépôts** remboursables sur demande ou **≤ 12 mois**, dans un établissement de crédit **ayant son siège en CEMAC**\n5. **Dérivés** : sous-jacents éligibles (indices, taux, devises), contreparties soumises à surveillance prudentielle, évaluation **journalière** fiable, liquidables à tout moment\n6. Autres instruments du marché monétaire émis/garantis par des administrations, la BEAC, des organismes publics internationaux, des entreprises cotées, des établissements prudentiellement surveillés\n\n**Liquidités accessoires ≤ 20 %** · **titres hors CEMAC ≤ 15 %** (autorisation préalable) · **titres non cotés ≤ 10 %** (autorisation préalable)"
+    },
+    {
+     "titre": "Les ratios d'investissement (art. 411 à 415)",
+     "contenu": "| Règle | Plafond |\n|---|---|\n| Valeurs mobilières ou instruments du marché monétaire d'**un même émetteur** | **20 %** des actifs |\n| **Risque de contrepartie** sur dérivés de gré à gré | **10 %** (établissement de crédit) ou **5 %** (autres cas) |\n| Titres émis/garantis par **un ou plusieurs États CEMAC** | **40 %** |\n| Titres émis par **l'ensemble des États CEMAC** | **60 %** |\n| **Cumul** (titres + dépôts + dérivés) sur une même entité | **20 %** ; **même groupe : 35 %** |\n| **OPCVM indiciel** : titres d'une même entité (indice diversifié, représentatif, publié) | **35 %** |\n| Parts d'**un même OPC** | **20 %** |\n| Parts d'OPC **autres qu'OPCVM** (total) | **30 %** |\n\nSi l'OPCVM investit dans des OPC de la même société de gestion : **aucun droit de souscription ou de remboursement** ; indication des frais de gestion cumulés."
+    },
+    {
+     "titre": "Dérogations aux limites (art. 416)",
+     "contenu": "- Pas de respect des limites lors de l'**exercice de droits de souscription**\n- **OPCVM nouvellement agréés** : dérogation possible pendant **6 mois** après l'agrément (en respectant la répartition des risques)\n- **Dépassement indépendant de la volonté** de l'OPCVM : objectif **prioritaire** de régularisation dans les ventes, en tenant compte de l'intérêt des porteurs"
+    }
+   ],
+   "mnemos": [
+    "60 % (seuil de catégorie) · 20 % (émetteur, OPC cible, liquidités) · 35 % (indice, groupe) · 40 % / 60 % (États CEMAC) · 15 % hors CEMAC · 10 % non cotés · contrepartie 10 / 5 · dérogation 6 mois."
+   ],
+   "definitions": [
+    {
+     "terme": "Instrument du marché monétaire",
+     "definition": "Titre de court terme (émis par un État, la BEAC, un établissement surveillé, une entreprise cotée…) éligible à l'actif des OPCVM."
+    },
+    {
+     "terme": "OPCVM Contractuel",
+     "definition": "OPCVM assorti d'un engagement contractuel de performance, de garantie de restitution du capital ou de valeur de rachat garantie."
+    },
+    {
+     "terme": "OPCVM Actions",
+     "definition": "OPCVM investi en permanence à 60 % au moins en actions et droits cotés à la BVMAC."
+    },
+    {
+     "terme": "OPCVM Diversifié",
+     "definition": "OPCVM qui n'appartient à aucune autre catégorie et ne dépasse jamais 60 % dans une même famille d'actifs."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quels actifs sont éligibles ?",
+     "verso": "Valeurs mobilières de la BVMAC, instruments monétaires, parts d'OPC agréés, dépôts à 12 mois au plus en CEMAC, dérivés encadrés."
+    },
+    {
+     "recto": "Quelle mention porte le document simplifié ?",
+     "verso": "« Informations clés pour l'investisseur » : objectifs, performances, coûts, profil de risque, format commun et non technique."
+    },
+    {
+     "recto": "Quelle règle pour un OPCVM monétaire ?",
+     "verso": "Au moins 60 % en instruments monétaires ou titres d'État CEMAC de maturité inférieure à 2 ans."
+    },
+    {
+     "recto": "Quels plafonds pour liquidités, hors CEMAC et non cotés ?",
+     "verso": "Liquidités accessoires 20 % ; hors CEMAC 15 % ; non cotés 10 % (avec autorisation)."
+    },
+    {
+     "recto": "Plafond de titres hors CEMAC ? de titres non cotés ?",
+     "verso": "15 % ; 10 % (autorisation préalable de la COSUMAF)."
+    },
+    {
+     "recto": "Que contient le document d'information d'un OPCVM ?",
+     "verso": "Les éléments de l'art. 196 du Règlement 01/22, un document simplifié et le règlement de gestion ou les statuts ; politique de rémunération, profil de risque, frais, valorisation, catégories d'actifs, mention de volatilité élevée."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Seuil minimal d'un OPCVM Actions ?",
+     "choix": [
+      "40 %",
+      "50 %",
+      "80 %",
+      "60 %"
+     ],
+     "bonne": 3,
+     "explication": "60 % en actions cotées à la BVMAC."
+    },
+    {
+     "q": "Plafond sur un même émetteur ?",
+     "choix": [
+      "10 %",
+      "35 %",
+      "50 %",
+      "20 %"
+     ],
+     "bonne": 3,
+     "explication": "Art. 411."
+    },
+    {
+     "q": "Le document d'information d'un OPCVM est communiqué :",
+     "choix": [
+      "contre paiement",
+      "sur demande écrite seulement",
+      "sans frais",
+      "aux seuls porteurs"
+     ],
+     "bonne": 2,
+     "explication": "Avec un document simplifié et le règlement de gestion ou les statuts."
+    },
+    {
+     "q": "Toute mise à jour du document d'information de l'OPCVM nécessite :",
+     "choix": [
+      "un simple avis",
+      "l'accord du dépositaire",
+      "rien",
+      "l'autorisation préalable de la COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": "Art. 405."
+    },
+    {
+     "q": "Le document simplifié porte la mention :",
+     "choix": [
+      "« Prospectus allégé de l'investisseur »",
+      "« Document de référence de l'OPCVM »",
+      "« Informations clés pour l'investisseur »",
+      "« Résumé du document d'information »"
+     ],
+     "bonne": 2,
+     "explication": "Art. 406."
+    },
+    {
+     "q": "Le document simplifié doit être :",
+     "choix": [
+      "concis, en langage non technique, avec un format commun permettant les comparaisons",
+      "technique et détaillé, avec des annexes juridiques",
+      "propre à chaque OPCVM, sans format commun",
+      "rédigé pour les seuls investisseurs professionnels"
+     ],
+     "bonne": 0,
+     "explication": "Compréhensible par les clients non professionnels."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle catégorie d'OPCVM ?",
+     "buckets": [
+      "Actions",
+      "Obligations",
+      "Monétaire",
+      "Contractuel",
+      "Diversifié"
+     ],
+     "items": [
+      {
+       "t": "Au moins 60 % en actions et droits cotés à la BVMAC.",
+       "b": 0,
+       "why": "Art. 409."
+      },
+      {
+       "t": "Au moins 60 % en titres d'États de maturité inférieure à 2 ans.",
+       "b": 2,
+       "why": "Art. 409."
+      },
+      {
+       "t": "Engagement contractuel de garantie de restitution du capital.",
+       "b": 3,
+       "why": "Art. 409."
+      },
+      {
+       "t": "Jamais plus de 60 % dans une même famille d'actifs.",
+       "b": 4,
+       "why": "Art. 409."
+      },
+      {
+       "t": "Au moins 60 % en emprunts obligataires et titres du Trésor.",
+       "b": 1,
+       "why": "Art. 409."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Un OPCVM Actions, Obligations ou Monétaire investit au moins {{60}} % dans sa famille d'actifs.",
+    "Un OPCVM investit au plus {{20}} % sur un même émetteur et {{40}} % sur un ou plusieurs États CEMAC."
+   ],
+   "schemas": [
+    {
+     "titre": "Les cinq catégories d'OPCVM",
+     "type": "table",
+     "legende": "Seuils de classification.",
+     "cols": [
+      "Catégorie",
+      "Règle"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Actions",
+        "b": true,
+        "c": "#ffe14a"
+       },
+       "≥ 60 % en actions et droits cotés à la BVMAC"
+      ],
+      [
+       {
+        "t": "Obligations",
+        "b": true,
+        "c": "#8fd0ff"
+       },
+       "≥ 60 % en obligations, titres du Trésor, instruments du marché monétaire"
+      ],
+      [
+       {
+        "t": "Monétaire",
+        "b": true,
+        "c": "#a9f0d0"
+       },
+       "≥ 60 % en instruments monétaires ou titres d'États de maturité < 2 ans"
+      ],
+      [
+       {
+        "t": "Contractuel",
+        "b": true,
+        "c": "#ffb8d1"
+       },
+       "Engagement de performance ou de garantie du capital"
+      ],
+      [
+       {
+        "t": "Diversifié",
+        "b": true,
+        "c": "#d9c2ff"
+       },
+       "Aucune autre ; jamais plus de 60 % dans une famille"
+      ]
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "Réciter les ratios dans l'ordre",
+     "texte": "**20 %** émetteur · **35 %** indice et groupe · **40 %** États (puis **60 %**) · **20 %** OPC cible, **30 %** OPC non OPCVM · liquidités **20 %** · hors CEMAC **15 %** · non cotés **10 %** · catégories **60 %** · dérogation **6 mois**."
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "i01-agrement-opc-13-24",
+   "titre": "À connaître · 01 · Agrément des OPC : Instruction 13-24 et diligences post-agrément (Lettre circulaire 003-26)",
+   "resume": {
+    "court": "Instruction 13-24 (20 février 2024) : dossier en 3 exemplaires, récépissé sous 10 jours ouvrés, instruction en 60 jours ouvrés. Capital minimum d'une société d'investissement : 300 M FCFA ; actif minimum d'un fonds sans personnalité morale : 150 M FCFA. Certificat de dépôt au plus tard 30 jours après la notification, sinon nullité de l'agrément. Dissolution : 90 jours sous la moitié, immédiate à 25 %. Lettre circulaire 003-26 : tableau des diligences post-agrément en 3 phases (constitution, publicité, émission).",
+    "moyen": "Dossier d'agrément : formulaire, pièces de l'Annexe I, attestation (Annexe III, lettre d'engagement signée par un dirigeant de la SGO) ; 3 exemplaires physiques + voie électronique ; récépissé daté et signé sous 10 jours ouvrés ; instruction 60 jours ouvrés, suspendue en cas de demande de compléments, rejet réputé à défaut de réponse dans le délai fixé ; décision individuelle, inaliénable, intransmissible, avec numéro d'agrément, motivée en cas de refus, publiée sur le site. Montants : 300 M FCFA (sociétés d'investissement), 150 M FCFA (fonds sans personnalité morale) à déposer chez le dépositaire avec certificat de dépôt adressé à la COSUMAF immédiatement et au plus tard dans les 30 jours de la notification ; à défaut, la COSUMAF constate la nullité de l'agrément ; prolongation possible sur demande motivée au moins 10 jours ouvrés avant la nullité, réponse en 10 jours ouvrés ; première VL dès le dépôt. Dissolution du fonds si l'actif net reste 90 jours consécutifs sous la moitié, immédiate à 25 %. Avant l'émission : version définitive du DI et du DIS avec règlement/statuts. Modification : agrément préalable ; fiches Annexes II (modification), IV (fusion), V (scission/transformation) ; liste VI des modifications imposant une information des porteurs avec sortie sans frais (changement de SGO, objectifs/politique d'investissement, dépositaire, classification, courtier principal, garant, outils de liquidité, augmentation des frais, centralisation…). LC 003-26 du 5 mai 2026 : phases Constitution (signature du règlement, libération des parts, justification de l'origine licite des fonds, original du certificat de dépôt), Publicité (RCCM, copie du certificat, journal d'annonces légales) et Émission (DI/DIS définitifs avant émission) ; délais courant à compter de la notification officielle d'agrément.",
+    "long": "Dossier d'agrément : formulaire, pièces de l'Annexe I, attestation (Annexe III, lettre d'engagement signée par un dirigeant de la SGO) ; 3 exemplaires physiques + voie électronique ; récépissé daté et signé sous 10 jours ouvrés ; instruction 60 jours ouvrés, suspendue en cas de demande de compléments, rejet réputé à défaut de réponse dans le délai fixé ; décision individuelle, inaliénable, intransmissible, avec numéro d'agrément, motivée en cas de refus, publiée sur le site. Montants : 300 M FCFA (sociétés d'investissement), 150 M FCFA (fonds sans personnalité morale) à déposer chez le dépositaire avec certificat de dépôt adressé à la COSUMAF immédiatement et au plus tard dans les 30 jours de la notification ; à défaut, la COSUMAF constate la nullité de l'agrément ; prolongation possible sur demande motivée au moins 10 jours ouvrés avant la nullité, réponse en 10 jours ouvrés ; première VL dès le dépôt. Dissolution du fonds si l'actif net reste 90 jours consécutifs sous la moitié, immédiate à 25 %. Avant l'émission : version définitive du DI et du DIS avec règlement/statuts. Modification : agrément préalable ; fiches Annexes II (modification), IV (fusion), V (scission/transformation) ; liste VI des modifications imposant une information des porteurs avec sortie sans frais (changement de SGO, objectifs/politique d'investissement, dépositaire, classification, courtier principal, garant, outils de liquidité, augmentation des frais, centralisation…). LC 003-26 du 5 mai 2026 : phases Constitution (signature du règlement, libération des parts, justification de l'origine licite des fonds, original du certificat de dépôt), Publicité (RCCM, copie du certificat, journal d'annonces légales) et Émission (DI/DIS définitifs avant émission) ; délais courant à compter de la notification officielle d'agrément."
+   },
+   "fiches": [
+    {
+     "titre": "Dossier et instruction (Instruction 13-24, art. 1 à 4)",
+     "contenu": "- S'applique aux OPC soumis à **agrément** (art. 193 du Règlement 01/22)\n- Dossier : **formulaire de demande**, **pièces de l'Annexe I**, **attestation (Annexe III)** — la **lettre d'engagement** signée par un dirigeant de la SGO qui atteste notamment organisation, agrément des délégataires, conformité du DI au modèle-type, cohérence DI/DIS, accord du dépositaire\n- **3 exemplaires physiques** + version électronique\n- **Récépissé** sous **10 jours ouvrés** ; **instruction : 60 jours ouvrés** à compter du dépôt du dossier complet\n- Compléments demandés : **suspendent** le délai ; **à défaut de réponse dans le délai fixé, la demande est réputée rejetée**\n- Décision **individuelle, inaliénable, intransmissible**, avec **numéro d'agrément** et date ; **refus motivé** ; avis publié sur le site de la COSUMAF"
+    },
+    {
+     "titre": "Montants minimaux et dépôt des fonds (art. 5)",
+     "contenu": "| Structure | Minimum |\n|---|---|\n| **Société d'investissement** (SICAV…) | **capital 300 000 000 FCFA** |\n| **Fonds sans personnalité morale** (FCP…) | **actif 150 000 000 FCFA** |\n\n- Les fonds sont **déposés chez le dépositaire** avec un **certificat de dépôt**\n- Le dépositaire adresse le certificat à la COSUMAF **immédiatement et au plus tard 30 jours** après la notification d'agrément\n- **À défaut : la COSUMAF constate la nullité de l'agrément**\n- **Prolongation** : demande motivée, parvenue **au moins 10 jours ouvrés avant** la date de constatation de la nullité ; réponse de la COSUMAF sous **10 jours ouvrés**\n- **Première VL** calculée dès le dépôt des fonds\n- **Dissolution du fonds** si l'actif net reste **90 jours consécutifs sous la moitié** du minimum ; **sans délai à 25 %**\n- La SGO s'engage par écrit à **maintenir l'actif net** dans ces proportions"
+    },
+    {
+     "titre": "Avant l'émission et modifications (art. 6-7, Annexes)",
+     "contenu": "- **Avant l'émission** de parts ou actions : transmission de la **version définitive du DI et du DIS** avec le **règlement de gestion ou les statuts**\n- **Modification** : effective **uniquement après approbation** de la COSUMAF ; fiches : **Annexe II** (modification), **Annexe IV** (fusion), **Annexe V** (scission/transformation) avec rubriques modifiées identifiées\n- Instruction de la demande de modification : mêmes conditions que l'agrément initial\n- **Annexe VI** : modifications imposant **information des porteurs et sortie sans frais** : changement de SGO, objectifs et politique d'investissement, lieu d'obtention d'information, dépositaire, classification, courtier principal, garant, mise en place d'outils de gestion de la liquidité, augmentation des frais, centralisation des ordres…\n- Frais et commissions d'agrément : tarification du marché ; décisions publiées à la date de signature ; **entrée en vigueur à la signature**"
+    },
+    {
+     "titre": "Lettre circulaire 003-26 : diligences post-agrément d'un OPCVM",
+     "contenu": "Lettre du **5 mai 2026**, fondée sur les **art. 361-362 du RG** et **art. 5-6 de l'Instruction 13-24**. **Point de départ : notification officielle de l'agrément.**\n\n**Phase 1 — Constitution**\n1. Signature du règlement de gestion ou des statuts : **30 jours calendaires** (SGO / fondateurs)\n2. Libération intégrale des parts initiales + preuve de virement sur le compte ouvert chez le dépositaire : **30 jours**\n3. Justification de l'**origine licite des fonds** (art. 90 et suivants du RG) : dès libération intégrale\n4. Original du **certificat de dépôt** à la COSUMAF (dépositaire) : immédiatement, au plus tard **30 jours**\n5. **Première VL** (SGO et dépositaire) : dès le dépôt des fonds\n\n**Phase 2 — Publicité** (30 jours calendaires à compter de la constitution effective)\n6. Immatriculation et publicité au **RCCM**\n7. Copie certifiée du certificat de dépôt\n8. **Journal d'annonces légales** (mentions de l'art. 362 RG)\n\n**Phase 3 — Émission**\n9. **DI et DIS définitifs** avant toute émission de parts\n10. Maintien permanent de l'**actif net** dans les proportions réglementaires"
+    }
+   ],
+   "mnemos": [
+    "13-24 : 10 j (récépissé) · 60 j ouvrés (instruction) · 30 j (certificat de dépôt) · 300 M (société) / 150 M (fonds) · 90 j / 25 %. LC 003-26 : 3 phases."
+   ],
+   "definitions": [
+    {
+     "terme": "Fonds sans personnalité morale",
+     "definition": "OPC de type FCP, avec actif minimum de 150 M FCFA (contre 300 M pour une société d'investissement)."
+    },
+    {
+     "terme": "Lettre d'engagement (Annexe III)",
+     "definition": "Attestation signée par un dirigeant de la SGO certifiant organisation, conformité du DI au modèle-type et accord du dépositaire."
+    },
+    {
+     "terme": "Nullité de l'agrément",
+     "definition": "Sanction constatée par la COSUMAF si le certificat de dépôt n'est pas reçu dans les 30 jours de la notification."
+    },
+    {
+     "terme": "Certificat de dépôt",
+     "definition": "Document établi par le dépositaire attestant le dépôt des fonds initiaux d'un OPC ; sa transmission à la COSUMAF dans les 30 jours conditionne la validité de l'agrément."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quand est calculée la première VL ?",
+     "verso": "Dès le dépôt des fonds."
+    },
+    {
+     "recto": "Actif minimum d'un fonds sans personnalité morale ?",
+     "verso": "150 000 000 FCFA."
+    },
+    {
+     "recto": "Quels minimums pour un OPC ?",
+     "verso": "Capital de 300 M pour une société d'investissement ; actif de 150 M pour un fonds sans personnalité morale."
+    },
+    {
+     "recto": "Que liste l'Annexe VI ?",
+     "verso": "Les modifications qui imposent l'information des porteurs et une sortie sans frais."
+    },
+    {
+     "recto": "Délai de demande de prolongation du dépôt des fonds ?",
+     "verso": "Au moins 10 jours ouvrés avant la date de constatation de la nullité ; réponse en 10 jours ouvrés."
+    },
+    {
+     "recto": "Durée de l'instruction du dossier d'agrément d'un OPC ?",
+     "verso": "60 jours ouvrés à compter du dépôt du dossier complet."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Actif minimum d'un FCP selon l'Instruction 13-24 ?",
+     "choix": [
+      "100 M",
+      "150 M",
+      "300 M",
+      "500 M"
+     ],
+     "bonne": 1,
+     "explication": "Art. 5."
+    },
+    {
+     "q": "Délai de dépôt du certificat de dépôt ?",
+     "choix": [
+      "10 jours",
+      "60 jours",
+      "30 jours",
+      "6 mois"
+     ],
+     "bonne": 2,
+     "explication": "Au plus tard 30 jours après la notification."
+    },
+    {
+     "q": "Sanction du défaut de réception du certificat dans les 30 jours ?",
+     "choix": [
+      "Amende",
+      "Blâme",
+      "Nullité de l'agrément",
+      "Rien"
+     ],
+     "bonne": 2,
+     "explication": "La COSUMAF constate la nullité."
+    },
+    {
+     "q": "L'Annexe VI liste...",
+     "choix": [
+      "Les pièces à joindre au dossier d'agrément de l'OPC",
+      "Les modifications imposant information des porteurs et sortie sans frais",
+      "Les sanctions applicables à la SGO en cas de manquement",
+      "Les tarifs perçus par la COSUMAF pour l'agrément"
+     ],
+     "bonne": 1,
+     "explication": "Art. 7."
+    },
+    {
+     "q": "L'attestation de l'Annexe III est :",
+     "choix": [
+      "une lettre d'engagement signée par un dirigeant de la SGO",
+      "un certificat de dépôt délivré par la BEAC",
+      "un avis du dépositaire sur le règlement",
+      "un visa de la COSUMAF sur le DI"
+     ],
+     "bonne": 0,
+     "explication": "Elle atteste notamment l'organisation, l'agrément des délégataires, la conformité du DI au modèle-type, l'accord du dépositaire."
+    },
+    {
+     "q": "Si la SGO ne répond pas dans le délai fixé à une demande de compléments :",
+     "choix": [
+      "la demande est réputée rejetée",
+      "le délai est prolongé",
+      "la demande est acceptée",
+      "le dossier est transmis à la BEAC"
+     ],
+     "bonne": 0,
+     "explication": "Les compléments suspendent le délai."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quel montant minimum ?",
+     "buckets": [
+      "150 M FCFA",
+      "300 M FCFA"
+     ],
+     "items": [
+      {
+       "t": "Actif d'un FCP.",
+       "b": 0,
+       "why": "Fonds sans personnalité morale."
+      },
+      {
+       "t": "Capital d'une SICAV.",
+       "b": 1,
+       "why": "Société d'investissement."
+      },
+      {
+       "t": "Actif minimal d'un fonds sans personnalité morale.",
+       "b": 0,
+       "why": "Art. 5."
+      },
+      {
+       "t": "Capital social d'une société d'investissement.",
+       "b": 1,
+       "why": "Art. 5."
+      }
+     ]
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets les diligences post-agrément d'un OPCVM dans l'ordre",
+     "items": [
+      "Notification de l'agrément",
+      "Signature du règlement de gestion ou des statuts",
+      "Libération intégrale des parts initiales",
+      "Certificat de dépôt transmis à la COSUMAF",
+      "Immatriculation et publicité au RCCM",
+      "Insertion dans un journal d'annonces légales",
+      "DI et DIS définitifs avant la première émission"
+     ]
+    }
+   ],
+   "trous": [
+    "Le dossier d'agrément d'un OPC est déposé en {{3}} exemplaires ; le récépissé est délivré sous {{10}} jours ouvrés et l'instruction dure {{60}} jours ouvrés.",
+    "Sans certificat de dépôt reçu dans les {{30}} jours, la COSUMAF constate la {{nullité}} de l'agrément."
+   ],
+   "schemas": [
+    {
+     "titre": "De l'agrément à la première émission d'un OPCVM",
+     "type": "flow",
+     "numero": true,
+     "legende": "Trois phases : constitution, publicité, émission.",
+     "steps": [
+      {
+       "t": "Dossier",
+       "s": "3 exemplaires",
+       "d": "Formulaire, Annexe I, lettre d'engagement (Annexe III)."
+      },
+      {
+       "t": "Récépissé",
+       "s": "10 jours ouvrés",
+       "d": "Dépôt du dossier complet attesté."
+      },
+      {
+       "t": "Agrément",
+       "s": "60 jours ouvrés",
+       "d": "Décision individuelle, inaliénable, intransmissible."
+      },
+      {
+       "t": "Constitution",
+       "s": "30 jours",
+       "d": "Règlement signé, parts libérées, fonds déposés, certificat de dépôt."
+      },
+      {
+       "t": "Publicité",
+       "s": "30 jours",
+       "d": "RCCM, journal d'annonces légales, copie du certificat."
+      },
+      {
+       "t": "Émission",
+       "s": "DI et DIS définitifs",
+       "d": "Avant toute émission de parts."
+      }
+     ]
+    },
+    {
+     "titre": "Les montants de l'Instruction 13-24",
+     "type": "stats",
+     "legende": "À ne pas inverser.",
+     "items": [
+      {
+       "v": "300 M",
+       "l": "capital d'une société d'investissement"
+      },
+      {
+       "v": "150 M",
+       "l": "actif d'un fonds sans personnalité morale"
+      },
+      {
+       "v": "90 j",
+       "l": "actif sous la moitié → dissolution"
+      },
+      {
+       "v": "25 %",
+       "l": "dissolution immédiate"
+      },
+      {
+       "v": "30 j",
+       "l": "certificat de dépôt (sinon nullité)"
+      },
+      {
+       "v": "10 j",
+       "l": "récépissé"
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "examen",
+     "titre": "Le certificat de dépôt qui annule l'agrément",
+     "texte": "Le dépositaire doit adresser le **certificat de dépôt** à la COSUMAF **au plus tard 30 jours** après la notification d'agrément ; sinon la COSUMAF **constate la nullité de l'agrément**. Prolongation : demande motivée **10 jours ouvrés avant** la date de nullité."
+    },
+    {
+     "type": "conseil",
+     "titre": "150 M / 300 M",
+     "texte": "**Fonds sans personnalité morale** : **150 M** ; **société d'investissement** : **300 M**. Ne les inverse pas."
+    }
+   ],
+   "niveau": "À connaître",
+   "niveauCode": "C"
+  },
+  {
+   "id": "g19-fcpe-titrisation-opci",
+   "titre": "Pour aller plus loin · 19 · FCPE, titrisation et OPCI (art. 394 à 469)",
+   "resume": {
+    "court": "FCPE : support de l'épargne salariale, versements annuels ≤ ¼ de la rémunération brute, conseil de surveillance (représentants de l'entreprise : moitié au plus), souscription sous 12 mois. FIA = titrisation, OPCI, capital investissement, OPI. OT : FCT (copropriété) ou ST (SA ou SAS). OPCI : SPI (SA à capital variable ou SAS) ou FCPI ; actif net minimum 300 M FCFA (liquidation après 24 mois en dessous) ; au moins 70 % en immobilier ; emprunt ≤ 30 % ; deux experts, évaluation au moins semestrielle ; VL au moins annuelle.",
+    "moyen": "FCPE : gère l'épargne salariale ; dédié (une entreprise ou un groupe) ou multi-entreprises ; destiné aux investisseurs non qualifiés ; agrément COSUMAF ; souscription dans les 12 mois de l'agrément ; seules les SGO d'OPCVM dont le programme prévoit les FCPE peuvent les gérer ; versements annuels des salariés ≤ ¼ de la rémunération annuelle brute ; conseil de surveillance (salariés porteurs de parts + représentants de l'entreprise pour moitié au plus), il décide des fusions, scissions, liquidations ; classification : investis en titres de l'entreprise (> ⅓ de l'actif net), investis à moins d'un tiers, investis en OPCVM ou FIA. FIA : organismes de titrisation, OPCI, organismes de capital investissement, OPI. OT : acquiert des créances et émet des titres négociables ; FCT sans personnalité morale ou ST (SA/SAS) ; créances douteuses : investisseurs qualifiés ; émet actions/parts, titres de créance, sukuk ; document d'information visé. OPCI : construction ou acquisition d'immeubles exclusivement en vue de leur location (jamais pour la seule revente) ; SPI ou FCPI ; compartiments possibles ; agrément en 60 jours ouvrés ; modification du règlement = nouvel agrément ; transformation/fusion/scission/liquidation : agrément en 8 jours ouvrés ; réservé aux qualifiés : 20 investisseurs maximum ; actif minimum 300 M FCFA ; ≥ 70 % en immeubles et titres assimilés ; deux experts, évaluation au moins une fois par semestre et expertise une fois par an ; VL au moins annuelle ; emprunt ≤ 30 % ; SPI suspend les rachats à la moitié du capital minimum, AGE sous 45 jours ; FCPI suspend à la moitié des apports, liquidation après 2 mois ; rapport semestriel sous 45 jours ; SGO d'OPCI SA ≥ 300 M FCFA.",
+    "long": "FCPE : gère l'épargne salariale ; dédié (une entreprise ou un groupe) ou multi-entreprises ; destiné aux investisseurs non qualifiés ; agrément COSUMAF ; souscription dans les 12 mois de l'agrément ; seules les SGO d'OPCVM dont le programme prévoit les FCPE peuvent les gérer ; versements annuels des salariés ≤ ¼ de la rémunération annuelle brute ; conseil de surveillance (salariés porteurs de parts + représentants de l'entreprise pour moitié au plus), il décide des fusions, scissions, liquidations ; classification : investis en titres de l'entreprise (> ⅓ de l'actif net), investis à moins d'un tiers, investis en OPCVM ou FIA. FIA : organismes de titrisation, OPCI, organismes de capital investissement, OPI. OT : acquiert des créances et émet des titres négociables ; FCT sans personnalité morale ou ST (SA/SAS) ; créances douteuses : investisseurs qualifiés ; émet actions/parts, titres de créance, sukuk ; document d'information visé. OPCI : construction ou acquisition d'immeubles exclusivement en vue de leur location (jamais pour la seule revente) ; SPI ou FCPI ; compartiments possibles ; agrément en 60 jours ouvrés ; modification du règlement = nouvel agrément ; transformation/fusion/scission/liquidation : agrément en 8 jours ouvrés ; réservé aux qualifiés : 20 investisseurs maximum ; actif minimum 300 M FCFA ; ≥ 70 % en immeubles et titres assimilés ; deux experts, évaluation au moins une fois par semestre et expertise une fois par an ; VL au moins annuelle ; emprunt ≤ 30 % ; SPI suspend les rachats à la moitié du capital minimum, AGE sous 45 jours ; FCPI suspend à la moitié des apports, liquidation après 2 mois ; rapport semestriel sous 45 jours ; SGO d'OPCI SA ≥ 300 M FCFA."
+   },
+   "fiches": [
+    {
+     "titre": "Le FCPE (art. 394 à 401)",
+     "contenu": "- **Objet** : gérer les sommes d'un **plan d'épargne salariale** ; parts détenues par les **salariés et anciens salariés**\n- **Deux types** : **dédié** (une entreprise ou un groupe) ou **multi-entreprises**\n- **OPC destiné aux investisseurs non qualifiés** ; **agrément** COSUMAF avant toute distribution ; **souscription dans les 12 mois** de l'agrément (dérogation possible)\n- Gérés **uniquement** par des SGO d'OPCVM dont le **programme d'activité prévoit les FCPE**\n- **Versements annuels ≤ ¼ de la rémunération annuelle brute**\n- **Conseil de surveillance** : salariés porteurs de parts + représentants de l'entreprise (**la moitié au plus**) ; contrôle la gestion ; **décide fusions, scissions, liquidations** ; peut agir en justice ; son président est choisi parmi les représentants des porteurs (voix prépondérante possible)\n- **Classification** : FCPE investis en **titres de l'entreprise** (plus du tiers de l'actif net), **à moins d'un tiers**, ou en OPCVM/FIA\n- **Rapport annuel et rapports de gestion** transmis à l'entreprise"
+    },
+    {
+     "titre": "Les FIA : liste (art. 417)",
+     "contenu": "Les **fonds d'investissement alternatifs** comprennent :\n1. Les **organismes de titrisation**\n2. Les **OPCI** (placement collectif immobilier)\n3. Les **organismes de capital investissement**\n4. Les **organismes professionnels d'investissement à long terme (OPI)**"
+    },
+    {
+     "titre": "Les organismes de titrisation (art. 418 à 429)",
+     "contenu": "- **OT** = FIA qui **acquiert des créances** et finance l'achat par l'émission de **titres négociables** représentatifs\n- Deux formes : **FCT** (copropriété **sans personnalité morale**, représenté par sa société de gestion) ou **ST** (**société anonyme ou SAS**, dotée de la personnalité morale)\n- Souscription ouverte aux personnes physiques ou morales ; **créances douteuses ou en souffrance** : **investisseurs qualifiés uniquement**\n- Constitué à l'initiative d'une **société de gestion** (éventuellement avec le dépositaire) ; les deux doivent être **agréés**\n- Peut émettre : **actions ou parts**, **titres de créance**, **certificats de sukuk**\n- Actif : créances (présentes ou futures), liquidités, actifs liés aux garanties des créances cédées\n- **Document d'information soumis au visa** de la COSUMAF avant toute diffusion\n- Seules les SGO dont le programme prévoit la titrisation peuvent gérer des OT"
+    },
+    {
+     "titre": "OPCI : objet, forme et agrément (art. 430 à 441)",
+     "contenu": "- **Objet principal** : construire ou acquérir des **immeubles exclusivement en vue de leur location** (détenus directement ou indirectement) ; instruments financiers à titre **accessoire** ; **jamais d'acquisition pour la seule revente**\n- **Formes** : **SPI** (société de placement immobilier : **SA à capital variable** ou **SAS**; titres de la SA admissibles à la Bourse Régionale) ou **FCPI** (copropriété sans personnalité morale ; porteurs tenus des dettes **à concurrence de l'actif**)\n- Constitué à l'initiative d'une **société de gestion** qui désigne un **dépositaire** et établit un règlement conforme au modèle-type\n- **Compartiments** possibles : actifs de chaque compartiment ne répondent que de ses dettes\n- **Agrément** (constitution ou compartiment) : **60 jours ouvrés** ; **modification du règlement de gestion = nouvel agrément**\n- **Transformation, fusion, scission, dissolution, liquidation** : agrément préalable délivré en **8 jours ouvrés**\n- **Réservé aux qualifiés** (règles simplifiées) : **20 investisseurs au maximum**\n- **Apports en nature** : seulement immobiliers ; **CAC** vérifie, **deux experts** évaluent ; pas de libération par **compensation** de créances"
+    },
+    {
+     "titre": "OPCI : actif, évaluation, financement (art. 442 à 455)",
+     "contenu": "- **Actif net minimum : 300 000 000 FCFA** ; si l'actif reste **24 mois consécutifs** sous ce montant : **liquidation**\n- **Au moins 70 %** de l'actif en immeubles, droits réels, crédit-bail, titres de sociétés à actif immobilier, parts d'OPCI\n- **Évaluation** : **deux experts** (l'un détermine la valeur, l'autre en apprécie la pertinence), **au moins une fois par semestre** ; **une expertise immobilière par an** ; experts **agréés** par la COSUMAF ; rapport annuel de synthèse\n- **Valeur liquidative** : **au moins une fois par an**, communiquée à la COSUMAF le jour de sa détermination\n- **Titres émis** : actions, parts, titres de créance (billets de trésorerie, obligations), sukuk ; parts émises ou rachetées à tout moment à la VL\n- **Emprunt ≤ 30 %** de la valeur des actifs (hors liquidités) ; non-respect : information immédiate, régularisation **sous 1 an**, sinon **retrait d'agrément**\n- **SPI** : suspension du rachat quand le capital atteint la **moitié du capital minimum** ; **AGE sous 45 jours calendaires** pour statuer sur la dissolution\n- **FCPI** : suspension à la **moitié des apports** ; si l'actif reste **2 mois** en dessous : liquidation"
+    },
+    {
+     "titre": "OPCI : information, gestion, contrôle (art. 456 à 469)",
+     "contenu": "- **Document d'information** soumis au **visa** de la COSUMAF, publié sur son site ; responsabilité de la société de gestion\n- **Rapport semestriel** publié au plus tard **45 jours calendaires** après la fin du 1er semestre\n- **Société de gestion d'OPCI** : spécialisée, **SA**, activité principale = gestion d'OPCI, siège CEMAC, **capital ≥ 300 M FCFA** libéré ; agrément préalable ; **interdit d'utiliser les actifs de l'OPCI pour ses besoins propres**\n- Affiche VL et prix de souscription/rachat ; publication dans un **journal d'annonces légales au moins une fois par semestre**\n- Documents adressés aux porteurs dans les **8 jours calendaires** de la demande\n- **CAC agréé** par la COSUMAF (expert-comptable agréé CEMAC) ; informe sans délai la société de gestion et la COSUMAF des irrégularités\n- Contrôle COSUMAF **sur pièces et sur place**"
+    }
+   ],
+   "mnemos": [
+    "OPCI : 300 M · 70 % · 30 % (emprunt) · 24 mois · 8 jours (restructuration) · 60 jours (agrément) · 45 jours · 20 investisseurs max. FCPE : ¼ de la rémunération, 12 mois."
+   ],
+   "definitions": [
+    {
+     "terme": "FCPI (fonds commun de placement immobilier)",
+     "definition": "OPCI en copropriété sans personnalité morale ; porteurs tenus des dettes à hauteur de l'actif du fonds."
+    },
+    {
+     "terme": "Plan d'épargne salariale",
+     "definition": "Dispositif d'épargne des salariés dont les sommes sont gérées par un FCPE."
+    },
+    {
+     "terme": "Expert en évaluation (OPCI)",
+     "definition": "Professionnel agréé par la COSUMAF qui évalue les immeubles de l'OPCI ; deux experts interviennent, l'un détermine la valeur, l'autre en apprécie la pertinence."
+    },
+    {
+     "terme": "ST",
+     "definition": "Société de titrisation : organisme de titrisation sous forme de SA ou de SAS, avec personnalité morale."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quels sont les seuils d'un OPCI ?",
+     "verso": "Actif net minimum 300 M ; au moins 70 % en immeubles ; emprunt ≤ 30 % ; 20 investisseurs maximum si règles simplifiées."
+    },
+    {
+     "recto": "Plafond d'emprunt d'un OPCI ?",
+     "verso": "30 % de la valeur des actifs (hors liquidités et avances en compte courant)."
+    },
+    {
+     "recto": "Délai d'agrément d'un OPCI ? d'une opération de fusion/scission/liquidation ?",
+     "verso": "60 jours ouvrés ; 8 jours ouvrés."
+    },
+    {
+     "recto": "Qui décide des fusions, scissions et liquidations d'un FCPE ?",
+     "verso": "Le conseil de surveillance."
+    },
+    {
+     "recto": "Quelles règles pour le FCPE ?",
+     "verso": "Versements ≤ ¼ de la rémunération annuelle brute, conseil de surveillance (représentants de l'entreprise : moitié au plus), agrément, souscription sous 12 mois."
+    },
+    {
+     "recto": "Délai de publication du rapport semestriel d'un OPCI ?",
+     "verso": "45 jours calendaires après la fin du 1er semestre."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Versements annuels maximaux dans un FCPE ?",
+     "choix": [
+      "10 % de la rémunération annuelle brute",
+      "Un quart de la rémunération annuelle brute",
+      "50 % du salaire net perçu dans l'année",
+      "Aucun plafond n'est prévu pour les versements"
+     ],
+     "bonne": 1,
+     "explication": "Art. 397."
+    },
+    {
+     "q": "Actif minimum d'un OPCI ?",
+     "choix": [
+      "300 M FCFA",
+      "100 M FCFA",
+      "500 M FCFA",
+      "1 Md FCFA"
+     ],
+     "bonne": 0,
+     "explication": "Art. 442."
+    },
+    {
+     "q": "Délai de liquidation si l'actif d'un OPCI reste sous le minimum ?",
+     "choix": [
+      "6 mois",
+      "12 mois",
+      "24 mois",
+      "36 mois"
+     ],
+     "bonne": 2,
+     "explication": "24 mois consécutifs."
+    },
+    {
+     "q": "Forme d'une société de titrisation ?",
+     "choix": [
+      "SARL",
+      "GIE",
+      "Société civile",
+      "SA ou SAS"
+     ],
+     "bonne": 3,
+     "explication": "Art. 423."
+    },
+    {
+     "q": "Qui souscrit une titrisation de créances douteuses ?",
+     "choix": [
+      "Tout public",
+      "Les salariés",
+      "Les banques uniquement",
+      "Les investisseurs qualifiés"
+     ],
+     "bonne": 3,
+     "explication": "Art. 418."
+    },
+    {
+     "q": "Expertise des immeubles d'un OPCI ?",
+     "choix": [
+      "Un seul expert, tous les cinq ans seulement",
+      "Deux experts, au moins par semestre, plus une expertise annuelle",
+      "Aucun expert, l'évaluation étant faite par la SGO",
+      "Le dépositaire seul, à la demande des porteurs"
+     ],
+     "bonne": 1,
+     "explication": "Art. 444."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "FCT ou ST ? SPI ou FCPI ?",
+     "buckets": [
+      "FCT",
+      "ST",
+      "SPI",
+      "FCPI"
+     ],
+     "items": [
+      {
+       "t": "Copropriété de titrisation, sans personnalité morale.",
+       "b": 0,
+       "why": "Art. 420."
+      },
+      {
+       "t": "Société anonyme ou SAS de titrisation.",
+       "b": 1,
+       "why": "Art. 423."
+      },
+      {
+       "t": "OPCI sous forme de société anonyme à capital variable ou de SAS.",
+       "b": 2,
+       "why": "Art. 431."
+      },
+      {
+       "t": "OPCI en copropriété, porteurs tenus à concurrence de l'actif.",
+       "b": 3,
+       "why": "Art. 431."
+      },
+      {
+       "t": "Suspension des rachats à la moitié du capital minimum, AGE sous 45 jours.",
+       "b": 2,
+       "why": "Art. 454."
+      },
+      {
+       "t": "Suspension à la moitié des apports ; liquidation après 2 mois.",
+       "b": 3,
+       "why": "Art. 455."
+      }
+     ]
+    },
+    {
+     "titre": "Quel FIA ?",
+     "buckets": [
+      "Titrisation",
+      "OPCI",
+      "Capital investissement",
+      "OPI"
+     ],
+     "items": [
+      {
+       "t": "Acquiert des créances et émet des titres négociables.",
+       "b": 0,
+       "why": "FCT ou ST."
+      },
+      {
+       "t": "Acquiert des immeubles pour les louer.",
+       "b": 1,
+       "why": "SPI ou FCPI."
+      },
+      {
+       "t": "Investit au moins 60 % dans des sociétés de la CEMAC.",
+       "b": 2,
+       "why": "SPC ou FPC."
+      },
+      {
+       "t": "Finance des infrastructures avec des investisseurs institutionnels.",
+       "b": 3,
+       "why": "SPI ou FPI."
+      }
+     ]
+    }
+   ],
+   "schemas": [
+    {
+     "titre": "OPCI : la structure financière",
+     "type": "stats",
+     "legende": "Les chiffres de l'OPCI.",
+     "items": [
+      {
+       "v": "300 M",
+       "l": "actif net minimal (RG)"
+      },
+      {
+       "v": "70 %",
+       "l": "immobilier minimum"
+      },
+      {
+       "v": "30 %",
+       "l": "emprunt maximum"
+      },
+      {
+       "v": "24 mois",
+       "l": "sous le minimum → liquidation"
+      },
+      {
+       "v": "20",
+       "l": "investisseurs qualifiés max (OPCI réservé)"
+      },
+      {
+       "v": "8 j",
+       "l": "agrément d'une restructuration"
+      }
+     ]
+    }
+   ],
+   "prof": [
+    {
+     "type": "piege",
+     "titre": "OPCI : 300 M ou 150 M ?",
+     "texte": "Le **RG** impose **300 M FCFA** d'actif net ; le **règlement type du FCPI** (Instruction 16-24) mentionne **150 M** avant liquidation après 24 mois. Cite l'article : RG art. 442."
+    }
+   ],
+   "trous": [
+    "L'actif net minimum d'un OPCI est de {{300}} millions FCFA, avec liquidation si l'actif reste {{24}} mois en dessous.",
+    "Un OPCI investit au moins {{70}} % de son actif en immobilier et emprunte au plus {{30}} % de la valeur de ses actifs."
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  },
+  {
+   "id": "g20-capital-investissement-opi",
+   "titre": "Pour aller plus loin · 20 · Capital investissement et OPI (art. 470 à 494)",
+   "resume": {
+    "court": "Capital investissement : SPC (SA ou SAS) ou FPC (copropriété) ; actif ≥ 60 % en titres de sociétés de la CEMAC ; actif net minimum 300 M FCFA (liquidation après 24 mois) ; emprunt avec situation nette positive et autorisation ; CAC pour 3 exercices. OPI : structures fermées d'investisseurs institutionnels financant l'infrastructure ; au moins 70 % en actifs éligibles ; 20 investisseurs qualifiés minimum.",
+    "moyen": "Organismes de capital investissement : SPC (SA ou SAS) ou FPC (copropriété sans personnalité morale) ; dossier d'agrément incluant le règlement de gestion ; actif : actions et parts de sociétés CEMAC, bons de souscription, titres donnant accès au capital, avances en compte courant d'associé (engagement irrévocable de conversion ou bloquées plus de 2 ans), créances subordonnées, liquidités ; au moins 60 % en titres de capital et assimilés de sociétés CEMAC ; actif net minimum 300 M FCFA (24 mois max en dessous) ; emprunt seulement avec situation nette positive et autorisation préalable ; SPC SA peut faire APE et être admise à la Bourse Régionale (document visé) ; SGO et dépositaire agréés ; SGO : activité principale, capital et fonds propres ≥ 300 M FCFA ; délégation possible à une autre SGO agréée ; CAC pour 3 exercices, agréé COSUMAF, expert-comptable agréé CEMAC. OPI : structures fermées, uniquement investisseurs institutionnels, financement long terme de projets d'infrastructure ; SPI (SA ou SAS) ou FPI ; agrément ; SGO + dépositaire agréés ; actifs éligibles (capitaux propres, quasi-fonds propres, dette de sociétés non cotées ou PME cotées non financières, infrastructures physiques) ; ≥ 70 % du capital en actifs éligibles ; diversification par instruction ; réservé à au moins 20 investisseurs qualifiés.",
+    "long": "Organismes de capital investissement : SPC (SA ou SAS) ou FPC (copropriété sans personnalité morale) ; dossier d'agrément incluant le règlement de gestion ; actif : actions et parts de sociétés CEMAC, bons de souscription, titres donnant accès au capital, avances en compte courant d'associé (engagement irrévocable de conversion ou bloquées plus de 2 ans), créances subordonnées, liquidités ; au moins 60 % en titres de capital et assimilés de sociétés CEMAC ; actif net minimum 300 M FCFA (24 mois max en dessous) ; emprunt seulement avec situation nette positive et autorisation préalable ; SPC SA peut faire APE et être admise à la Bourse Régionale (document visé) ; SGO et dépositaire agréés ; SGO : activité principale, capital et fonds propres ≥ 300 M FCFA ; délégation possible à une autre SGO agréée ; CAC pour 3 exercices, agréé COSUMAF, expert-comptable agréé CEMAC. OPI : structures fermées, uniquement investisseurs institutionnels, financement long terme de projets d'infrastructure ; SPI (SA ou SAS) ou FPI ; agrément ; SGO + dépositaire agréés ; actifs éligibles (capitaux propres, quasi-fonds propres, dette de sociétés non cotées ou PME cotées non financières, infrastructures physiques) ; ≥ 70 % du capital en actifs éligibles ; diversification par instruction ; réservé à au moins 20 investisseurs qualifiés."
+   },
+   "fiches": [
+    {
+     "titre": "Capital investissement : forme et agrément (art. 470-471)",
+     "contenu": "- Deux formes : **SPC** (société de placement en capital : **SA ou SAS**) ou **FPC** (fonds de placement en capital : **copropriété** sans personnalité morale)\n- **Dossier d'agrément** déposé avant exercice, avec le **règlement de gestion**\n- Les règles de l'indivision et des sociétés en participation **ne s'appliquent pas** au FPC"
+    },
+    {
+     "titre": "Capital investissement : actif et règles (art. 472 à 476)",
+     "contenu": "- **Actif** : actions et parts de sociétés CEMAC · bons de souscription · titres donnant accès au capital · titres d'autres organismes de capital investissement agréés · avances en compte courant d'associé (**engagement irrévocable de conversion** ou **bloquées plus de 2 ans**) · créances subordonnées · titres de créance · liquidités à vue · autres actifs autorisés\n- **Au moins 60 %** en titres de capital et assimilés de sociétés ayant leur **siège ou principal établissement dans la CEMAC**\n- **Actif net minimum : 300 M FCFA** ; **liquidation** si l'actif reste **24 mois consécutifs** en dessous\n- **Emprunts** : seulement avec **situation nette positive** et **autorisation préalable** de la COSUMAF\n- Une **SPC sous forme de SA** peut faire **appel public à l'épargne** et demander l'admission à la **Bourse Régionale** (document d'information **visé**)"
+    },
+    {
+     "titre": "Capital investissement : gestion et contrôle (art. 477 à 482)",
+     "contenu": "- **SGO et dépositaire** : agréés avant d'exercer\n- **Règlement de gestion** conforme à un règlement-type : politique d'investissement, souscription, valorisation\n- **SPC SA** : la SGO exerce la **direction générale** ; **SPC SAS** : la SGO exerce la **présidence**\n- **SGO** : activité principale = gestion d'organismes de capital investissement ; **capital ≥ 300 M FCFA** et **fonds propres ≥ 300 M FCFA** ; garanties d'organisation et de moralité des dirigeants\n- **Délégation** possible de la gestion financière à une autre SGO agréée\n- **CAC** désigné **pour 3 exercices**, **agréé** par la COSUMAF, **expert-comptable agréé CEMAC**"
+    },
+    {
+     "titre": "Les OPI (art. 483 à 494)",
+     "contenu": "- **OPI** = **structures fermées** regroupant **uniquement des investisseurs institutionnels** ; objet : **financements de longue durée** de projets d'**infrastructure**, au profit de sociétés **non cotées** ou de **PME cotées**\n- Formes : **SPI** (SA ou SAS) ou **FPI** ; **agrément** obligatoire\n- Constitués à l'initiative d'une **SGO** qui désigne un **dépositaire** (tous deux agréés) ; le règlement de gestion décrit statut et fonctionnement ; le dépositaire garde les actifs, contrôle l'inventaire, centralise les ordres et vérifie la qualité d'investisseur qualifié\n- **Actifs éligibles** : instruments de **capitaux propres ou quasi-capitaux propres** et de **dette** de sociétés non cotées ou PME cotées **non financières** ; **actifs physiques d'infrastructure** (transport, énergie durable, infrastructures sociales, communication, eau, déchets)\n- **Au moins 70 %** du capital en actifs éligibles\n- **Diversification** : plafonds par actif physique, par entreprise, par OPI (fixés par instruction)\n- Réservés à un nombre limité d'investisseurs qualifiés : **au moins 20**"
+    }
+   ],
+   "mnemos": [
+    "Capital invest : 60 % CEMAC · 300 M · 24 mois · CAC 3 exercices. OPI : 70 % éligibles · ≥ 20 qualifiés · institutionnels · infrastructures."
+   ],
+   "definitions": [
+    {
+     "terme": "Avance en compte courant d'associé",
+     "definition": "Prêt d'un associé à la société, éligible à l'actif du capital investissement si bloqué plus de 2 ans ou assorti d'un engagement irrévocable de conversion."
+    },
+    {
+     "terme": "OPI",
+     "definition": "Organisme professionnel d'investissement à long terme : structure fermée d'investisseurs institutionnels finançant des projets d'infrastructure."
+    },
+    {
+     "terme": "FPC",
+     "definition": "Fonds de placement en capital : organisme de capital investissement en copropriété, sans personnalité morale."
+    },
+    {
+     "terme": "Actifs physiques d'infrastructure",
+     "definition": "Ports, voies ferrées, aéroports, autoroutes, énergie durable, logements, hôpitaux, réseaux de communication, traitement des eaux, recyclage des déchets."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Part minimale d'actifs éligibles dans un OPI ?",
+     "verso": "70 % du capital."
+    },
+    {
+     "recto": "Actif net minimum d'un organisme de capital investissement ?",
+     "verso": "300 millions de FCFA ; liquidation après 24 mois consécutifs en dessous."
+    },
+    {
+     "recto": "Quels seuils pour le capital investissement ?",
+     "verso": "Au moins 60 % en titres de capital de sociétés CEMAC ; actif net minimum 300 M ; liquidation si sous le minimum pendant 24 mois."
+    },
+    {
+     "recto": "Quelles sont les formes du capital investissement ?",
+     "verso": "SPC (société de placement en capital, SA ou SAS) et FPC (fonds de placement en capital, copropriété sans personnalité morale)."
+    },
+    {
+     "recto": "Quels actifs sont éligibles pour un OPI ?",
+     "verso": "Capitaux propres, quasi-capitaux propres et dette de sociétés non cotées ou PME cotées non financières, et actifs physiques d'infrastructure."
+    },
+    {
+     "recto": "Que finance un OPI ?",
+     "verso": "Des projets d'infrastructure, au profit de sociétés non cotées ou de PME cotées."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Part minimale de titres CEMAC dans un organisme de capital investissement ?",
+     "choix": [
+      "60 %",
+      "40 %",
+      "50 %",
+      "70 %"
+     ],
+     "bonne": 0,
+     "explication": "Art. 473."
+    },
+    {
+     "q": "Un OPI est réservé à...",
+     "choix": [
+      "Tous les épargnants, y compris les particuliers",
+      "Des salariés détenteurs d'un plan d'épargne",
+      "Des investisseurs institutionnels/qualifiés (≥ 20)",
+      "Des États uniquement, à l'exclusion des institutions"
+     ],
+     "bonne": 2,
+     "explication": "Art. 483 et 493."
+    },
+    {
+     "q": "Part minimale d'actifs éligibles d'un OPI ?",
+     "choix": [
+      "50 %",
+      "60 %",
+      "70 %",
+      "90 %"
+     ],
+     "bonne": 2,
+     "explication": "Art. 491."
+    },
+    {
+     "q": "Un organisme de capital investissement peut emprunter si...",
+     "choix": [
+      "Toujours, sans condition particulière",
+      "Situation nette positive et autorisation COSUMAF",
+      "Jamais, l'emprunt étant interdit à ces organismes",
+      "Avec l'accord du seul dépositaire de l'organisme"
+     ],
+     "bonne": 1,
+     "explication": "Art. 475."
+    },
+    {
+     "q": "Les deux formes du capital investissement sont :",
+     "choix": [
+      "la SPI et le FPI",
+      "le FCT et la ST",
+      "la SICAV et le FCP",
+      "la SPC et le FPC"
+     ],
+     "bonne": 3,
+     "explication": "SPC : SA ou SAS; FPC : copropriété sans personnalité morale."
+    },
+    {
+     "q": "Pour un FPC, les règles de l'indivision et des sociétés en participation :",
+     "choix": [
+      "ne s'appliquent pas",
+      "s'appliquent",
+      "s'appliquent en partie",
+      "sont obligatoires"
+     ],
+     "bonne": 0,
+     "explication": "Art. 471."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Capital investissement ou OPI ?",
+     "buckets": [
+      "Capital investissement",
+      "OPI"
+     ],
+     "items": [
+      {
+       "t": "Au moins 60 % en titres de sociétés de la CEMAC.",
+       "b": 0,
+       "why": "Art. 473."
+      },
+      {
+       "t": "Au moins 70 % en actifs éligibles (capitaux propres, dette, infrastructures).",
+       "b": 1,
+       "why": "Art. 491."
+      },
+      {
+       "t": "Réservé à au moins 20 investisseurs qualifiés institutionnels.",
+       "b": 1,
+       "why": "Art. 483 et 493."
+      },
+      {
+       "t": "CAC désigné pour 3 exercices.",
+       "b": 0,
+       "why": "Art. 482."
+      },
+      {
+       "t": "SPC ou FPC.",
+       "b": 0,
+       "why": "Art. 470."
+      },
+      {
+       "t": "SPI ou FPI.",
+       "b": 1,
+       "why": "Art. 484."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Un OPI investit au moins {{70}} % de son capital en actifs éligibles.",
+    "Un organisme de capital investissement investit au moins {{60}} % dans des sociétés de la {{CEMAC}}."
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  },
+  {
+   "id": "i03-opci-titrisation-instructions",
+   "titre": "Pour aller plus loin · 03 · Règlement type d'OPCI et agrément des organismes de titrisation (Instructions 16-24 et 21-24)",
+   "resume": {
+    "court": "Instruction 16-24 : règlement type d'un FCPI en 25 articles (parts, souscription, rachat en numéraire, suspension, CAC pour 3 exercices, inventaire au moins semestriel, documents sous 45 jours, fusion/scission 30 jours après information, liquidation si l'actif reste 24 mois sous 150 M FCFA). Instruction 21-24 : titrisation ; parts minimum 100 000 FCFA ; accusé 10 jours ouvrés, instruction 60 jours ouvrés, visa du DI ; rapports trimestriel (15 jours), semestriel et annuel (30 jours).",
+    "moyen": "16-24 (9 mai 2024, art. 432 RG) : le règlement du FCPI contient 5 titres (actifs et parts, fonctionnement, conseil de surveillance, fusion-scission-dissolution-liquidation, contestation). Points clés : droits de copropriété exprimés en parts de même fraction de l'actif, émission à tout moment à la VL augmentée des commissions, rachat à la VL diminuée, rachats uniquement en numéraire (en nature seulement en cas de liquidation avec accord), suspension en circonstances exceptionnelles avec information immédiate de la COSUMAF et des porteurs, plafonnement des rachats, souscription limitée à 20 investisseurs maximum quand c'est prévu (vérifiée par le dépositaire), CAC agréé désigné pour 3 exercices par le conseil d'administration de la société de gestion, signalement à la COSUMAF des violations, inventaire des actifs au minimum semestriel sous contrôle du dépositaire, documents annuels à disposition dans les 45 jours, fusion/scission 30 jours calendaires après avis aux porteurs, liquidation si l'actif reste 24 mois consécutifs sous 150 M FCFA, prorogation décidée au moins 3 mois avant l'échéance. 21-24 (9 mai 2024, art. 420 et 426 RG) : définitions (liens étroits ≥ 20 %, participation qualifiée ≥ 10 %), part ou action minimale de 100 000 FCFA, gestion par société de gestion spécialisée, agrément préalable, commercialisation après agrément, dossier signé du représentant légal, confirmation écrite sous 10 jours ouvrés, vérification de complétude sous 10 jours ouvrés, instruction 60 jours ouvrés (prorogeable), demande de compléments au plus tard le 20e jour ouvré, suspension maximale de 30 jours ouvrés, notification de la décision dans les 10 jours ouvrés, visa du DI, contenu du dossier (demande, projet de DI, contrôle du dépositaire, modèle de rapport de gestion, note sur les actifs, contrats, commercialisation, note de notation, risques), rapports trimestriel (15 jours après le 1er et le 3e trimestre), semestriel et annuel (30 jours), CAC désigné par le CA de la société de gestion.",
+    "long": "16-24 (9 mai 2024, art. 432 RG) : le règlement du FCPI contient 5 titres (actifs et parts, fonctionnement, conseil de surveillance, fusion-scission-dissolution-liquidation, contestation). Points clés : droits de copropriété exprimés en parts de même fraction de l'actif, émission à tout moment à la VL augmentée des commissions, rachat à la VL diminuée, rachats uniquement en numéraire (en nature seulement en cas de liquidation avec accord), suspension en circonstances exceptionnelles avec information immédiate de la COSUMAF et des porteurs, plafonnement des rachats, souscription limitée à 20 investisseurs maximum quand c'est prévu (vérifiée par le dépositaire), CAC agréé désigné pour 3 exercices par le conseil d'administration de la société de gestion, signalement à la COSUMAF des violations, inventaire des actifs au minimum semestriel sous contrôle du dépositaire, documents annuels à disposition dans les 45 jours, fusion/scission 30 jours calendaires après avis aux porteurs, liquidation si l'actif reste 24 mois consécutifs sous 150 M FCFA, prorogation décidée au moins 3 mois avant l'échéance. 21-24 (9 mai 2024, art. 420 et 426 RG) : définitions (liens étroits ≥ 20 %, participation qualifiée ≥ 10 %), part ou action minimale de 100 000 FCFA, gestion par société de gestion spécialisée, agrément préalable, commercialisation après agrément, dossier signé du représentant légal, confirmation écrite sous 10 jours ouvrés, vérification de complétude sous 10 jours ouvrés, instruction 60 jours ouvrés (prorogeable), demande de compléments au plus tard le 20e jour ouvré, suspension maximale de 30 jours ouvrés, notification de la décision dans les 10 jours ouvrés, visa du DI, contenu du dossier (demande, projet de DI, contrôle du dépositaire, modèle de rapport de gestion, note sur les actifs, contrats, commercialisation, note de notation, risques), rapports trimestriel (15 jours après le 1er et le 3e trimestre), semestriel et annuel (30 jours), CAC désigné par le CA de la société de gestion."
+   },
+   "fiches": [
+    {
+     "titre": "Règlement type d'un FCPI (Instruction 16-24)",
+     "contenu": "Pris en application de l'**art. 432 du RG**, pour les OPCI sous forme de **FCPI**. Structure du règlement :\n- **Titre 1 — Actifs et parts** : compartiments, parts de copropriété, catégories de parts, émission, rachat, apport en nature, VL\n- **Titre 2 — Fonctionnement** : société de gestion, dépositaire, CAC, durée, exercice, comptes et rapport de gestion, sommes distribuables, **montant minimal de l'actif**\n- **Titre 3 — Conseil de surveillance**\n- **Titre 4 — Fusion, scission, dissolution, liquidation**\n- **Titre 5 — Contestation** (juridictions compétentes)"
+    },
+    {
+     "titre": "FCPI : émission, rachat, suspension",
+     "contenu": "- Parts émises **à tout moment** à la **VL augmentée des commissions de souscription** ; rachetées à la **VL diminuée des commissions de rachat**\n- Rachats **exclusivement en numéraire**, sauf **liquidation** avec accord des porteurs (en nature)\n- **Suspension des rachats** (circonstances exceptionnelles, intérêt des porteurs) : **information sans délai** de la COSUMAF et des porteurs (art. 452 RG) ; **plafonnement** des rachats possible\n- Si l'actif net est sous le minimum fixé : **aucun rachat**\n- **Souscription** : **20 investisseurs au plus** (ou catégorie), vérifiée par le **dépositaire**\n- **Apport en nature** : seulement les actifs admis à l'actif du fonds, évalués selon les règles de la VL\n- Société de gestion : peut changer la stratégie (**agrément COSUMAF** requis) ; **seule** à exercer les droits de vote"
+    },
+    {
+     "titre": "FCPI : CAC, comptes, fusion, dissolution",
+     "contenu": "- **CAC** agréé COSUMAF, désigné par le **conseil d'administration de la SGO** pour **3 exercices** (renouvelable) ; il **signale à la COSUMAF** toute violation, atteinte à la continuité d'exploitation, réserve ou refus de certification ; contrôle évaluations et parités d'échange ; apprécie les apports en nature\n- **Inventaire** des actifs au minimum **semestriel**, sous contrôle du dépositaire ; comptes et rapport de gestion certifiés ; documents à disposition **dans les 45 jours** suivant la clôture\n- **Fusion / scission** : **30 jours calendaires** après l'avis aux porteurs ; nouvelle attestation du nombre de parts\n- **Dissolution** : actif **inférieur à 150 000 000 FCFA pendant 24 mois consécutifs** → information de la COSUMAF et liquidation ; aussi en cas de demande de rachat de la totalité des parts, de cessation du dépositaire sans remplaçant, d'expiration de la durée\n- **Prorogation** : décision de la SGO avec le dépositaire **au moins 3 mois avant** l'échéance\n- **Liquidation** : la SGO liquidateur sous contrôle du dépositaire et de la COSUMAF"
+    },
+    {
+     "titre": "Titrisation : définitions et forme (Instruction 21-24)",
+     "contenu": "- Prise en application des **art. 420 et 426 du RG**\n- **Liens étroits** : participation d'au moins **20 %** du capital ou des droits de vote, ou liaison permanente à une même personne par contrôle\n- **Participation qualifiée** : au moins **10 %** du capital ou des droits de vote, ou influence notable\n- **FCT** (copropriété sans personnalité morale, géré par une société de gestion) ou **ST** (SA ou SAS)\n- **Montant minimal d'une part ou action : 100 000 FCFA**\n- Gestion par une **société de gestion spécialisée** qui représente le fonds en justice\n- **Agrément préalable** ; commercialisation **seulement après** agrément"
+    },
+    {
+     "titre": "Titrisation : procédure d'agrément et rapports",
+     "contenu": "- Dossier signé du **représentant légal** de la société de gestion\n- **Confirmation écrite** de réception : **10 jours ouvrés** ; vérification de complétude : **10 jours ouvrés**\n- **Instruction : 60 jours ouvrés** (prorogation possible : faits nouveaux, éléments remettant en cause l'opération) ; compléments demandés **au plus tard le 20e jour ouvré** ; suspension **≤ 30 jours ouvrés**\n- Décision notifiée à la SGO et au dépositaire dans les **10 jours ouvrés** ; la COSUMAF appose son **visa** sur le DI (numéro et date d'agrément) ; diffusion possible dès la notification\n- Dossier : demande formelle · projet de DI · contrôle du dépositaire · **modèle de rapport de gestion** · note sur les actifs susceptibles d'être acquis · relations contractuelles (projets de contrats) · commercialisation · **note de notation** (le cas échéant) · note sur les risques et couvertures\n- **Rapports** : trimestriel **15 jours** après le 1er et le 3e trimestre ; semestriel **30 jours** ; annuel **30 jours** après la fin de l'exercice ; investisseurs : comptes rendus **sans frais**\n- **CAC** désigné par le CA de la SGO ; **2 exemplaires** du DI et du règlement transmis ; communications promotionnelles transmises avant diffusion"
+    }
+   ],
+   "mnemos": [
+    "FCPI : 150 M / 24 mois · 20 investisseurs · 45 jours · 30 jours (fusion) · 3 mois (prorogation). Titrisation : 100 000 F · 20 % / 10 % · 10-10-60 · 15 / 30 jours."
+   ],
+   "definitions": [
+    {
+     "terme": "Participation qualifiée",
+     "definition": "Détention directe ou indirecte d'au moins 10 % du capital ou des droits de vote, ou influence notable sur la gestion."
+    },
+    {
+     "terme": "Règlement type",
+     "definition": "Modèle imposé par instruction que la SGO doit suivre pour rédiger le règlement de gestion d'un OPCI."
+    },
+    {
+     "terme": "Plafonnement des rachats",
+     "definition": "Mécanisme limitant le montant des rachats, prévu au règlement et décrit précisément."
+    },
+    {
+     "terme": "Rapport de gestion (titrisation)",
+     "definition": "Partie du rapport annuel présentant les activités, les résultats, les risques, les mouvements du portefeuille et le risque de liquidité."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Seuil de liquidation d'un FCPI et durée ?",
+     "verso": "Actif inférieur à 150 000 000 FCFA pendant 24 mois consécutifs."
+    },
+    {
+     "recto": "Qu'est-ce que des liens étroits et une participation qualifiée ?",
+     "verso": "Liens étroits : au moins 20 % du capital ou des droits de vote ; participation qualifiée : au moins 10 %."
+    },
+    {
+     "recto": "Rapport trimestriel d'un organisme de titrisation : quand ?",
+     "verso": "15 jours après la fin du 1er et du 3e trimestre."
+    },
+    {
+     "recto": "Quel est le montant minimal d'une part de titrisation ?",
+     "verso": "100 000 FCFA."
+    },
+    {
+     "recto": "Quelles règles de souscription pour un FCPI ?",
+     "verso": "20 investisseurs au plus, vérifiés par le dépositaire ; apport en nature limité aux actifs admis."
+    },
+    {
+     "recto": "Que vise la COSUMAF pour autoriser la diffusion du DI ?",
+     "verso": "Elle y appose son visa, avec le numéro et la date d'agrément."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Un FCPI est liquidé si son actif reste sous...",
+     "choix": [
+      "100 M pendant 12 mois",
+      "150 M pendant 24 mois",
+      "300 M pendant 24 mois",
+      "300 M pendant 6 mois"
+     ],
+     "bonne": 1,
+     "explication": "Instruction 16-24, art. 23."
+    },
+    {
+     "q": "Participation qualifiée = au moins...",
+     "choix": [
+      "10 %",
+      "5 %",
+      "20 %",
+      "33 %"
+     ],
+     "bonne": 0,
+     "explication": "Instruction 21-24, art. 1."
+    },
+    {
+     "q": "Les parts d'un FCPI sont émises à :",
+     "choix": [
+      "la VL diminuée des commissions de souscription",
+      "un prix fixe défini dans le règlement",
+      "la valeur nominale de la part à la création",
+      "la VL augmentée des commissions de souscription"
+     ],
+     "bonne": 3,
+     "explication": "Rachetées à la VL diminuée des commissions de rachat."
+    },
+    {
+     "q": "Les rachats d'un FCPI se font :",
+     "choix": [
+      "en nature, par remise d'immeubles du fonds",
+      "en titres de sociétés détenues par le fonds",
+      "exclusivement en numéraire, sauf liquidation avec accord des porteurs",
+      "en immeubles choisis par la société de gestion"
+     ],
+     "bonne": 2,
+     "explication": "Art. 452 RG pour la suspension."
+    },
+    {
+     "q": "La suspension des rachats d'un FCPI est notifiée :",
+     "choix": [
+      "sous 8 jours",
+      "sous 30 jours",
+      "sans délai à la COSUMAF et aux porteurs",
+      "à la clôture"
+     ],
+     "bonne": 2,
+     "explication": "Plafonnement des rachats possible."
+    },
+    {
+     "q": "La souscription d'un FCPI est limitée à :",
+     "choix": [
+      "10 investisseurs au plus, vérifiée par la SGO",
+      "40 investisseurs au plus, vérifiée par la COSUMAF",
+      "100 investisseurs au plus, sans vérification",
+      "20 investisseurs au plus, vérifiée par le dépositaire"
+     ],
+     "bonne": 3,
+     "explication": "Instruction 16-24."
+    }
+   ],
+   "trous": [
+    "Une participation qualifiée représente au moins {{10}} % du capital ; des liens étroits, au moins {{20}} %.",
+    "Une part ou action d'organisme de titrisation vaut au minimum {{100 000}} FCFA."
+   ],
+   "schemas": [
+    {
+     "titre": "FCPI : les repères du règlement type",
+     "type": "stats",
+     "legende": "Instruction 16-24.",
+     "items": [
+      {
+       "v": "20",
+       "l": "investisseurs au plus (OPCI réservé)"
+      },
+      {
+       "v": "150 M",
+       "l": "actif minimal (24 mois)"
+      },
+      {
+       "v": "45 j",
+       "l": "documents annuels"
+      },
+      {
+       "v": "30 j",
+       "l": "fusion ou scission après avis"
+      },
+      {
+       "v": "3 ex.",
+       "l": "mandat du CAC"
+      },
+      {
+       "v": "3 mois",
+       "l": "décision de prorogation avant l'échéance"
+      }
+     ]
+    },
+    {
+     "titre": "Agrément d'un organisme de titrisation (21-24)",
+     "type": "timeline",
+     "legende": "En jours ouvrés.",
+     "events": [
+      {
+       "d": "Dépôt",
+       "t": "Dossier signé du représentant légal",
+       "s": "Par la société de gestion."
+      },
+      {
+       "d": "10 j",
+       "t": "Confirmation de réception",
+       "s": "Puis vérification de complétude sous 10 jours."
+      },
+      {
+       "d": "20e j",
+       "t": "Compléments",
+       "s": "Demande au plus tard le 20e jour ouvré ; suspension ≤ 30 jours ouvrés."
+      },
+      {
+       "d": "60 j",
+       "t": "Décision",
+       "s": "Instruction de 60 jours ouvrés, prorogeable."
+      },
+      {
+       "d": "+10 j",
+       "t": "Notification et visa",
+       "s": "Visa du DI avec numéro et date d'agrément."
+      }
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  },
+  {
+   "id": "i10-reporting-modeles-types",
+   "titre": "Pour aller plus loin · 10 · Reporting des OPCVM, contrôle interne, modèles types (FPC, SPC, FPI, SPI), DI type et autres instructions",
+   "resume": {
+    "court": "Instruction 41-25 : reporting hebdomadaire des SGO/sociétés d'investissement, rapport trimestriel sous 15 jours, semestriel et annuel sous 30 jours ; dépositaires : trimestriel 15 jours, semestriel 30 jours. Rapports de contrôle interne des SDB et des SGO : 31 mars. Modèles types : FPC/SPC (actif minimal 24 mois, CAC 3 exercices, documents sous 30 jours), FPI (CAC 6 exercices, documents sous 45 jours, 30 jours pour fusionner ou dissoudre), SPI (3 à 12 administrateurs, mandat 6 ans max). Instruction 25-24 : publier les prix par au moins deux moyens dont le site internet. Instruction 24-24 : DI type d'un OPCVM ; nourricier ≥ 85 % dans le maître.",
+    "moyen": "Instruction 41-25 du 23 mai 2025 : SGO et sociétés d'investissement : reporting hebdomadaire de chaque OPCVM (Annexe I : portefeuille-titres par ISIN, disponibilités, règles d'investissement par émetteur privé, État et groupe, actif net) ; rapport trimestriel 15 jours calendaires après la fin du trimestre ; rapport semestriel et annuel 30 jours calendaires ; dépositaires : trimestriel 15 jours, semestriel 30 jours ; pénalités de retard (art. 31 s. RG) ; complète l'Instruction 11-24. Instruction 11-24 (20 février 2024) : informations semestrielles des SGO (marchés et instruments principaux, actifs gérés, profil de liquidité du portefeuille et des investisseurs, expositions, contreparties, effet de levier). Instructions 39-25 (SDB) et 40-25 (SGO et sociétés d'investissement) du 23 mai 2025 : rapport de contrôle interne transmis au plus tard le 31 mars de chaque année (méthodologie, présentation, dispositif, outils, niveaux de contrôle, points de contrôle cibles, gouvernance du système d'information, PSSI, RSSI, PCA/PRA). Instruction 43-25 du 15 décembre 2025 : contenu du rapport annuel des experts en évaluation des OPCI (mission, hypothèses, devise et conversion en FCFA). Modèles types du 23 mai 2025 : FPC (35-25), SPC (36-25), FPI (37-25), SPI (38-25). Instruction 25-24 du 28 novembre 2024 : publication des prix d'émission, de vente, de rachat ou de remboursement par au moins deux méthodes (site de la SGO ou de l'OPC, affichage, journal d'annonces légales, presse, site de la Bourse régionale…), un affichage minimum sur le site internet de la SGO ou de l'OPC étant requis. Instruction 24-24 du 28 novembre 2024 : modèle type du DI d'un OPCVM (nourricier : au moins 85 % dans un OPCVM maître ; actifs hors maître ≤ 15 % ; rapports annuels envoyés sous 8 jours ouvrés sur demande ; mention d'un horizon de placement recommandé). Instruction 12-24 du 20 février 2024 : informations à fournir par l'entreprise de marché (catégories d'actifs, règles d'accès, transparence pré et post-négociation, règlement des transactions, suspension et retrait d'instruments, description du système de négociation criée / électronique / hybride, conflits d'intérêts, sous-traitance, ressources financières).",
+    "long": "Instruction 41-25 du 23 mai 2025 : SGO et sociétés d'investissement : reporting hebdomadaire de chaque OPCVM (Annexe I : portefeuille-titres par ISIN, disponibilités, règles d'investissement par émetteur privé, État et groupe, actif net) ; rapport trimestriel 15 jours calendaires après la fin du trimestre ; rapport semestriel et annuel 30 jours calendaires ; dépositaires : trimestriel 15 jours, semestriel 30 jours ; pénalités de retard (art. 31 s. RG) ; complète l'Instruction 11-24. Instruction 11-24 (20 février 2024) : informations semestrielles des SGO (marchés et instruments principaux, actifs gérés, profil de liquidité du portefeuille et des investisseurs, expositions, contreparties, effet de levier). Instructions 39-25 (SDB) et 40-25 (SGO et sociétés d'investissement) du 23 mai 2025 : rapport de contrôle interne transmis au plus tard le 31 mars de chaque année (méthodologie, présentation, dispositif, outils, niveaux de contrôle, points de contrôle cibles, gouvernance du système d'information, PSSI, RSSI, PCA/PRA). Instruction 43-25 du 15 décembre 2025 : contenu du rapport annuel des experts en évaluation des OPCI (mission, hypothèses, devise et conversion en FCFA). Modèles types du 23 mai 2025 : FPC (35-25), SPC (36-25), FPI (37-25), SPI (38-25). Instruction 25-24 du 28 novembre 2024 : publication des prix d'émission, de vente, de rachat ou de remboursement par au moins deux méthodes (site de la SGO ou de l'OPC, affichage, journal d'annonces légales, presse, site de la Bourse régionale…), un affichage minimum sur le site internet de la SGO ou de l'OPC étant requis. Instruction 24-24 du 28 novembre 2024 : modèle type du DI d'un OPCVM (nourricier : au moins 85 % dans un OPCVM maître ; actifs hors maître ≤ 15 % ; rapports annuels envoyés sous 8 jours ouvrés sur demande ; mention d'un horizon de placement recommandé). Instruction 12-24 du 20 février 2024 : informations à fournir par l'entreprise de marché (catégories d'actifs, règles d'accès, transparence pré et post-négociation, règlement des transactions, suspension et retrait d'instruments, description du système de négociation criée / électronique / hybride, conflits d'intérêts, sous-traitance, ressources financières)."
+   },
+   "fiches": [
+    {
+     "titre": "Reporting des OPCVM (Instruction 41-25)",
+     "contenu": "| Document | Qui | Délai |\n|---|---|---|\n| **Reporting hebdomadaire** de chaque OPCVM | SGO et sociétés d'investissement | **au moins une fois par semaine** |\n| **Rapport trimestriel d'activité** | SGO / sociétés d'investissement **et** dépositaires | **15 jours calendaires** après la fin du trimestre |\n| **Rapport semestriel d'activité** | SGO / sociétés d'investissement **et** dépositaires | **30 jours calendaires** |\n| **Rapport annuel d'activité** | SGO / sociétés d'investissement | **30 jours calendaires** après la fin de l'année |\n\n- Formats : Annexe I (hebdo), Annexe II (trimestriel / semestriel), Annexe III (annuel), Annexe IV (dépositaires)\n- Contenu : portefeuille-titres par code ISIN (actions, obligations MFAC, titres publics BEAC, monétaire < 2 ans, parts d'OPCVM et de FIA, titres hors CEMAC, non cotés), disponibilités, **règles d'investissement par émetteur privé / État (Cameroun, Centrafrique, Congo, Gabon, Guinée équatoriale, Tchad) / groupe**, VL et performance, souscriptions et rachats, porteurs de parts par catégorie\n- Retard : **pénalités** (art. 31 s. RG) ; complète l'**Instruction 11-24** (informations semestrielles des SGO)"
+    },
+    {
+     "titre": "Rapports de contrôle interne (Instructions 39-25 et 40-25)",
+     "contenu": "- **SDB** (39-25) et **SGO + sociétés d'investissement** (40-25) : rapport de contrôle interne transmis à la COSUMAF **au plus tard le 31 mars de chaque année**\n- Contenu : **méthodologie** (objectifs, moyens, travaux), **présentation** de la structure (dénomination, capital, dirigeants, **contrôleur interne avec carte professionnelle**, actionnariat, CA), **dispositif de contrôle interne** (procédures administratives, comptables, financières, de gestion, SI, code de déontologie, charte de confidentialité, traitement des plaintes, logiciels métiers, LBC/FT, conflits d'intérêts, cartographie des risques, plan de contrôle interne, **PCA**), niveaux de contrôle et fréquence, **points de contrôle cibles** (gouvernance, organes sociaux, transactions primaire/secondaire, ségrégation des comptes, plaintes, ratios)\n- **Gouvernance du SI** : adoption de la **PSSI**, désignation du **RSSI**, validation des PCA / PRA et du plan d'audit SI"
+    },
+    {
+     "titre": "Modèles types de règlement et statuts (35-25 à 38-25)",
+     "contenu": "| Texte | Points clés |\n|---|---|\n| **FPC** (35-25) — règlement type du fonds de placement en capital | actif sous le minimum : liquidation dans les **24 mois** ; **CAC 3 exercices** désigné par la SGO (agréé) ; documents aux porteurs sous **30 jours** après la clôture ; prorogation décidée **3 mois avant** l'échéance |\n| **SPC** (36-25) — statuts types de la société de placement en capital | mêmes règles (24 mois, CAC 3 exercices, documents sous 30 jours) |\n| **FPI** (37-25) — règlement type du fonds professionnel d'investissement à long terme | **CAC pour 6 exercices** après accord de la COSUMAF ; documents sous **45 jours** ; si l'actif reste sous le minimum 24 mois : fusion ou dissolution sous **30 jours** |\n| **SPI** (38-25) — statuts types de la société professionnelle d'investissement à long terme | **3 à 12 administrateurs**, mandat **6 ans maximum** ; conseil convoqué à la demande du tiers de ses membres s'il ne s'est pas réuni depuis 2 mois |\n\nRappel : OPCI (16-24) : 150 M / 24 mois / 45 jours / CAC 3 exercices."
+    },
+    {
+     "titre": "Publication des prix d'un OPC (Instruction 25-24)",
+     "contenu": "- Prise en application de l'**art. 359 du RG**\n- Publication des **prix d'émission, de vente, de rachat ou de remboursement** selon **au moins deux** des méthodes : **site internet** de la SGO ou de l'OPC · **affichage** dans les locaux · **journal d'annonces légales** · **presse** · **site de la Bourse régionale** · tout autre moyen adapté aux investisseurs cibles\n- **Une information minimale sur le site internet** de la SGO ou de l'OPC est **obligatoire**"
+    },
+    {
+     "titre": "Document d'information type d'un OPCVM (Instruction 24-24)",
+     "contenu": "- **Modèle type** du DI : partie générale + rubriques par compartiment\n- **OPCVM nourricier** : investit **en permanence 85 % ou plus** de ses actifs dans un OPCVM **maître** ; actifs autres (≤ **15 %**) décrits ; le DI précise le pourcentage et l'accès aux marchés à terme\n- **Horizon de placement recommandé** : si un OPCVM « actions » recommande moins de **5 ans**, la COSUMAF peut interroger la SGO\n- **Rachats et règlements** : exemples de frais (2 % acquis à l'OPCVM pour un préavis inférieur à 35 jours) ; délai entre centralisation de l'ordre et règlement ≤ **60 jours** (maximum) ; VL calculée et publiée au plus tard 20 jours après son établissement, dépositaire règle au plus tard 5 jours après\n- Derniers documents annuels et composition des actifs envoyés sous **8 jours ouvrés** sur demande écrite\n- Mention si l'OPCVM place **plus de 40 %** de ses actifs en titres d'États, collectivités ou organismes internationaux publics"
+    },
+    {
+     "titre": "Entreprise de marché : dossier d'agrément (Instruction 12-24) et experts OPCI (43-25)",
+     "contenu": "**12-24 (20 février 2024)** : informations à fournir avant d'organiser, d'animer et de gérer le marché : catégories d'actifs négociés · règles de mise à disposition des instruments à la négociation · **accès objectif et non discriminatoire** · information du public · conformité au RG · **liquidité** · contrôle des transactions · **suspension et retrait** d'instruments · **transparence pré et post-négociation** · règlement des transactions · liste des **membres** ; description du **système de négociation** (criée, électronique ou hybride, algorithme d'appariement) ; **conflits d'intérêts** possibles ; accords de **sous-traitance** ; gestion des risques et **ressources financières** suffisantes ; modifications importantes communiquées ; tableau de références documentaires.\n\n**43-25 (15 décembre 2025)** : contenu du **rapport annuel des experts en évaluation des OPCI** (art. 447 RG) : mission, identité du mandant, date de valeur, de visite et de rédaction, hypothèses (valeur libre ou occupée), **devise et conversion en FCFA** (cours et date), note explicative pour les immeubles hors CEMAC, traduction supportée par l'OPCI."
+    }
+   ],
+   "mnemos": [
+    "41-25 : hebdo · 15 j (trimestriel) · 30 j (semestriel, annuel). Contrôle interne : 31 mars. FPI : CAC 6 exercices, 45 j. Nourricier : 85 %. 25-24 : 2 méthodes dont le site."
+   ],
+   "definitions": [
+    {
+     "terme": "Expert en évaluation (OPCI)",
+     "definition": "Professionnel qui évalue les immeubles de l'OPCI et rédige chaque année un rapport de synthèse."
+    },
+    {
+     "terme": "OPCVM nourricier",
+     "definition": "OPCVM qui investit en permanence au moins 85 % de ses actifs dans un OPCVM maître."
+    },
+    {
+     "terme": "PSSI",
+     "definition": "Politique de sécurité des systèmes d'information, adoptée formellement et diffusée par la structure."
+    },
+    {
+     "terme": "Transparence pré et post-négociation",
+     "definition": "Publication des prix et quantités avant et après les transactions sur le marché."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Que contient le rapport annuel des experts d'OPCI ?",
+     "verso": "Mission, hypothèses de valeur, date de valeur/visite, devise et conversion en FCFA, note pour les immeubles hors CEMAC."
+    },
+    {
+     "recto": "Délai du rapport trimestriel d'activité des SGO et des dépositaires d'OPCVM ?",
+     "verso": "15 jours calendaires après la fin du trimestre."
+    },
+    {
+     "recto": "Délai de liquidation d'un FPC dont l'actif reste sous le minimum ?",
+     "verso": "24 mois."
+    },
+    {
+     "recto": "Délai de mise à disposition des documents annuels d'un FPI ? d'un FPC ?",
+     "verso": "45 jours ; 30 jours après la clôture."
+    },
+    {
+     "recto": "Quel organe désigne le CAC d'un FPC ? pour combien d'exercices ?",
+     "verso": "La société de gestion ; 3 exercices, avec agrément préalable de la COSUMAF."
+    },
+    {
+     "recto": "Seuil d'investissement d'un OPCVM nourricier dans son maître ?",
+     "verso": "85 % ou plus de ses actifs ; 15 % maximum d'autres actifs."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Reporting hebdomadaire :",
+     "choix": [
+      "Facultatif pour les OPCVM de petite taille",
+      "Mensuel, le 15 du mois suivant pour chaque OPCVM",
+      "Au moins une fois par semaine pour chaque OPCVM",
+      "Annuel, avec le rapport de contrôle interne"
+     ],
+     "bonne": 2,
+     "explication": "Art. 2 de l'Instruction 41-25."
+    },
+    {
+     "q": "Rapport de contrôle interne des SDB :",
+     "choix": [
+      "31 janvier",
+      "31 mars",
+      "30 juin",
+      "31 décembre"
+     ],
+     "bonne": 1,
+     "explication": "Art. 2 de l'Instruction 39-25."
+    },
+    {
+     "q": "Durée de mandat du CAC d'un FPI :",
+     "choix": [
+      "1",
+      "6",
+      "3",
+      "9 exercices"
+     ],
+     "bonne": 1,
+     "explication": "Art. 10 de l'Instruction 37-25."
+    },
+    {
+     "q": "Publication des prix d'un OPC : minimum...",
+     "choix": [
+      "Une méthode",
+      "Trois méthodes",
+      "Deux méthodes",
+      "Aucune"
+     ],
+     "bonne": 2,
+     "explication": "Instruction 25-24."
+    },
+    {
+     "q": "L'Annexe IV de l'Instruction 41-25 concerne :",
+     "choix": [
+      "les dépositaires",
+      "les SGO",
+      "les émetteurs",
+      "les CIF"
+     ],
+     "bonne": 0,
+     "explication": "Format des rapports des dépositaires."
+    },
+    {
+     "q": "L'Instruction 39-25 concerne :",
+     "choix": [
+      "les SGO",
+      "les CIF",
+      "les OPCI",
+      "les SDB"
+     ],
+     "bonne": 3,
+     "explication": "40-25 : SGO et sociétés d'investissement."
+    }
+   ],
+   "trous": [
+    "Le rapport de contrôle interne des SDB est transmis au plus tard le {{31 mars}}.",
+    "Les SGO adressent un reporting {{hebdomadaire}} de chaque OPCVM, un rapport trimestriel sous {{15}} jours et un rapport annuel sous {{30}} jours."
+   ],
+   "schemas": [
+    {
+     "titre": "Le reporting des OPCVM (41-25)",
+     "type": "table",
+     "legende": "Qui envoie quoi, quand ?",
+     "cols": [
+      "Rapport",
+      "SGO / sociétés d'investissement",
+      "Dépositaires"
+     ],
+     "rows": [
+      [
+       {
+        "t": "Hebdomadaire",
+        "b": true,
+        "c": "#ffe14a"
+       },
+       "Chaque semaine, par OPCVM",
+       "—"
+      ],
+      [
+       {
+        "t": "Trimestriel",
+        "b": true,
+        "c": "#8fd0ff"
+       },
+       "15 jours",
+       "15 jours"
+      ],
+      [
+       {
+        "t": "Semestriel",
+        "b": true,
+        "c": "#a9f0d0"
+       },
+       "30 jours",
+       "30 jours"
+      ],
+      [
+       {
+        "t": "Annuel",
+        "b": true,
+        "c": "#ffb8d1"
+       },
+       "30 jours",
+       "—"
+      ]
+     ]
+    }
+   ],
+   "niveau": "Pour aller plus loin",
+   "niveauCode": "A"
+  }
+ ]
+}

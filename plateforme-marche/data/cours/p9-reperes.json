@@ -1,0 +1,1739 @@
+{
+ "id": "p9-reperes",
+ "titre": "Repères : délais, seuils et pièges",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "mustard",
+ "enseignant": "Règlement Général de la COSUMAF, règlement du marché financier, règlement de la BVMAC, instructions et lettres circulaires",
+ "description": "Les chiffres qui reviennent partout (le « 10 – 30 – 60 », les compartiments, les capitaux) et les pièges où deux textes se contredisent. À relire avant chaque épreuve.",
+ "court": "Repères",
+ "chapitres": [
+  {
+   "id": "k1-delais",
+   "titre": "Essentiel · 01 · Tous les délais à connaître (par thème)",
+   "resume": {
+    "court": "Le chiffre 60 jours ouvrés revient partout (agrément, visa, habilitation, dirigeants). Accusé de réception : 10 jours ouvrés. Compléments : 30 jours. Rapports de gestion d'OPC : 15 jours (trimestriel), 30 jours (annuel, semestriel). Rapports de contrôle interne et cartographie : 31 mars. Information périodique des émetteurs : 15 juillet (annuel), 2 mois (semestriel). Sanctions : griefs 15 jours calendaires, rapporteur 45 jours, séance 30 jours. Bourse : décision d'admission 10 jours de bourse, OST 10 / 5 / 3 jours de bourse.",
+    "moyen": "Agréments et autorisations : 60 jours ouvrés à compter du dossier complet (intermédiaires, entreprise de marché, DC, chambre, OPC, SGO, CIF, CAC, dirigeants, habilitations, notation, garantie des émissions), récépissé ou accusé de réception en 10 jours ouvrés, dossier incomplet retournable après 30 jours, compléments dans les 30 jours sinon rejet réputé. Modification d'agrément d'un OPCI : 8 jours ouvrés pour une restructuration. Visa : 60 jours ouvrés, prorogeable de 30. Placement : 90 jours calendaires, prise ferme libérée sous 3 jours, rapport de clôture sous 8 jours, admission à la cote sous 30 jours. Modifications : nouveau document 7 jours (erreur) ou 15 jours (fait nouveau), information préalable 30 jours (intermédiaires) ou 10 jours (émetteurs). Sanctions : griefs 15 jours calendaires, rapport d'instruction 45 jours (+ 30), séance dans 30 jours, décision publiée sous 5 jours ouvrés, recours dans 2 mois. OPC : agrément 60 jours ouvrés, certificat de dépôt 30 jours, constitution effective 30 jours, rapport trimestriel 15 jours, semestriel et annuel 30 jours, distribution 5 mois, préavis dépositaire/gestionnaire 2 mois, dissolution après 90 jours sous la moitié du minimum. Intermédiaires : rapport de conformité 3 mois, relevé trimestriel, enregistrements 10 ans. BVMAC : admission 10 jours de bourse, avis de première cotation 5 jours, OPV recevabilité 5 jours de bourse, offre ≥ 3 jours de bourse.",
+    "long": "Agréments et autorisations : 60 jours ouvrés à compter du dossier complet (intermédiaires, entreprise de marché, DC, chambre, OPC, SGO, CIF, CAC, dirigeants, habilitations, notation, garantie des émissions), récépissé ou accusé de réception en 10 jours ouvrés, dossier incomplet retournable après 30 jours, compléments dans les 30 jours sinon rejet réputé. Modification d'agrément d'un OPCI : 8 jours ouvrés pour une restructuration. Visa : 60 jours ouvrés, prorogeable de 30. Placement : 90 jours calendaires, prise ferme libérée sous 3 jours, rapport de clôture sous 8 jours, admission à la cote sous 30 jours. Modifications : nouveau document 7 jours (erreur) ou 15 jours (fait nouveau), information préalable 30 jours (intermédiaires) ou 10 jours (émetteurs). Sanctions : griefs 15 jours calendaires, rapport d'instruction 45 jours (+ 30), séance dans 30 jours, décision publiée sous 5 jours ouvrés, recours dans 2 mois. OPC : agrément 60 jours ouvrés, certificat de dépôt 30 jours, constitution effective 30 jours, rapport trimestriel 15 jours, semestriel et annuel 30 jours, distribution 5 mois, préavis dépositaire/gestionnaire 2 mois, dissolution après 90 jours sous la moitié du minimum. Intermédiaires : rapport de conformité 3 mois, relevé trimestriel, enregistrements 10 ans. BVMAC : admission 10 jours de bourse, avis de première cotation 5 jours, OPV recevabilité 5 jours de bourse, offre ≥ 3 jours de bourse."
+   },
+   "fiches": [
+    {
+     "titre": "Les délais d'instruction : le « 10 – 30 – 60 »",
+     "contenu": "| Étape | Délai | Texte |\n|---|---|---|\n| **Accusé de réception / récépissé** du dossier | **10 jours ouvrés** | Instructions 13-24, 18-24, 22-24, 42-25, 46-25… |\n| Dossier incomplet : retour possible après | **30 jours** | Instructions 18-24, 22-24, 46-25 |\n| Compléments à fournir | **30 jours** (sinon **rejet réputé**) | idem ; placement privé : 10 jours |\n| **Instruction** du dossier complet | **60 jours ouvrés** | RG art. 499, 548, 580, 627, 658, 684 ; instructions |\n| Visa d'un APE (non-État) | **60 jours ouvrés**, prorogeable de **30** | RG g8 |\n| Document d'information d'un **État** | **60 jours ouvrés** (+ 30) | RG g7 |\n| Placement privé (**ancien régime**) : instruction | **60 jours ouvrés** (RG art. 211 : 10 jours au plus après dossier complet) | Instruction 26-24 / RG |\n| Modification soumise à nouvel agrément | **15 jours** | Instruction 45-25 |\n| Modification soumise à nouveau visa | **10 jours** | Instruction 45-25 |\n| Autorisation préalable | **10 jours calendaires** | Instruction 45-25 |\n| Statuts de l'entreprise de marché, PCA | **PCA : 15 jours ouvrés** | RG art. 552 |\n| Modification du dossier d'agrément d'un organisme central | **1 mois** | RG art. 576, 583, 630 |\n| Admission d'un participant au DC : opposition COSUMAF | **45 jours** | RG art. 617 |"
+    },
+    {
+     "titre": "Le placement, l'APE et les modifications",
+     "contenu": "| Sujet | Délai |\n|---|---|\n| Placement, après l'ouverture des souscriptions | **≤ 90 jours calendaires** |\n| **Prise ferme** libérée après l'ouverture | **≤ 3 jours calendaires** (sinon caducité) |\n| Virement du produit à l'émetteur après la clôture | **8 jours calendaires** |\n| **Rapport de clôture** | **8 jours** |\n| **Admission à la cote** après l'opération | **30 jours** |\n| Rapport hebdomadaire du chef de file | **chaque vendredi** |\n| Validité du visa : diffusion et placement | **90 jours** |\n| Nouveau DI après **erreur ou inexactitude** | **7 jours calendaires** |\n| Nouveau DI après **fait nouveau significatif** | **15 jours calendaires** |\n| Information préalable : **intermédiaires** | **30 jours avant** |\n| Information préalable : **émetteurs** | **10 jours avant** |\n| Annonces presse : demande de modification de la COSUMAF | **10 jours ouvrés** (silence = accord) |\n| Résumé du DI | **5 pages** maximum |\n| Document de référence : visé depuis moins de | **1 an** (note d'opération visée dans **1 mois**) |"
+    },
+    {
+     "titre": "Offres publiques et franchissements de seuils",
+     "contenu": "| Sujet | Délai / seuil |\n|---|---|\n| Durée d'une offre publique | **≤ 45 jours calendaires** |\n| Offre concurrente (amélioration) | déposée **≥ 10 jours calendaires avant** la fin de l'offre initiale |\n| Renonciation / absence de dépôt | pas de nouvelle offre pendant **6 mois** |\n| Franchissement du **seuil de 5 %** | déclaration **sans délai** |\n| Seuils **10, 15, 20, 25, 30 %** | déclaration + **objectifs sur 6 mois** (art. 180 BVMAC ; 12 mois à l'art. 181) |\n| Seuil du **tiers** | information immédiate + offre sur la totalité |\n| OPV (BVMAC) : recevabilité par la COSUMAF | **5 jours de bourse** |\n| OPV : période d'offre | **≥ 3 jours de bourse** (publication ≥ 4 jours avant) |"
+    },
+    {
+     "titre": "Procédure de sanction",
+     "contenu": "| Étape | Délai |\n|---|---|\n| Notification des griefs → observations | **15 jours calendaires** |\n| Rapport d'instruction du rapporteur | **45 jours** (prorogeable de **30** au maximum) |\n| Convocation à la séance | dans les **30 jours calendaires** |\n| Observations écrites avant la séance | **15 jours au moins** avant |\n| Procédure simplifiée (motif impérieux) | séance dans les **21 jours ouvrés** |\n| Urgence exceptionnelle | explications dans les **10 jours** suivant la publication |\n| Récusation du rapporteur / d'un autre membre | **1 mois** / **15 jours calendaires** ; réponse du membre : **8 jours ouvrés** |\n| Décision **publiée** | **5 jours ouvrés** |\n| **Recours** (non suspensif) | **2 mois** |\n| Prescription | **5 ans** (RG art. 52) ou **10 ans** (Règlement 01/22 art. 256) : piège |\n| Médiation : avis motivé | **60 jours** (prolongeable) |\n| Contrôle : observations sur le rapport | **15 jours calendaires** |"
+    },
+    {
+     "titre": "Les délais des OPC",
+     "contenu": "| Sujet | Délai |\n|---|---|\n| Agrément | **60 jours ouvrés** ; récépissé **10 jours ouvrés** |\n| Constitution effective après agrément | **30 jours calendaires** |\n| Dépôt/publicité au RCCM, avis en journal | **30 jours** après la constitution |\n| **Certificat de dépôt** au plus tard | **30 jours** après la notification (sinon **nullité**) |\n| Retrait d'agrément si pas d'usage | **6 mois** |\n| **Rapport trimestriel** | **15 jours** |\n| **Rapport semestriel / annuel** | **30 jours** |\n| **Sommes distribuables** payées | **5 mois** après la clôture |\n| Dissolution si actif sous la moitié du minimum | **90 jours** (immédiate à **25 %**) |\n| Préavis dépositaire / gestionnaire | **2 mois** |\n| SICAV : AG après suspension | **2 mois** |\n| OPCI : liquidation si actif sous le minimum | **24 mois** ; SPI : AGE sous **45 jours** ; FCPI : **2 mois** |\n| OPCI : rapport semestriel | **45 jours** |\n| OPCI : modification restructurante (fusion, scission…) | **8 jours ouvrés** |\n| Fusion/scission FCPI : après avis aux porteurs | **30 jours calendaires** |\n| Opposition des créanciers : sociétés / FCP | **30 jours** / **15 jours avant** l'opération |\n| CAC informé avant l'AGE de fusion | **45 jours** |\n| Gestion sous mandat : relevé au client / avenant à la COSUMAF / convention à la COSUMAF | **trimestriel (envoi sous 7 jours)** / **5 jours ouvrés** / **8 jours** |"
+    },
+    {
+     "titre": "Reporting et rendez-vous annuels",
+     "contenu": "| Échéance | Quoi |\n|---|---|\n| **31 mars** | cartographie des risques, **rapport annuel de contrôle interne** (SDB, SGO, DC, chambre…), rapport LBC/FT, rapport d'activité de la chambre, rapport annuel du DC |\n| **30 mars** | rapports de contrôle interne et LBC/FT des **émetteurs APE** (Instruction 44-25) |\n| **15 juillet** | **rapport financier annuel** des émetteurs APE |\n| **2 mois** après le semestre | rapport semestriel des émetteurs |\n| **31 janvier** | programme d'activité annuel des CIF ; **redevances annuelles** de la COSUMAF |\n| **15 décembre** | liste des cartes professionnelles à renouveler |\n| **30 novembre** | budget de la COSUMAF soumis au Comité Ministériel |\n| **6 mois** après la clôture | AG des structures agréées (prorogation ≤ 60 jours ; sanction si pas de notification 3 mois après) |\n| **3 mois** | rapport de conformité d'un intermédiaire ; rapport du Listing Sponsor ; agrément des dirigeants (LC 001-2026) ; remplacement d'un dirigeant sanctionné |\n| **chaque semaine** | reporting des SGO sur chaque OPCVM (Instruction 41-25) |\n| **15 du mois suivant** | reporting mensuel des SDB, teneurs de compte et CIF |"
+    },
+    {
+     "titre": "La bourse : jours et jours de bourse",
+     "contenu": "| Sujet | Délai |\n|---|---|\n| Décision d'admission à la cote | **10 jours de bourse** |\n| Avis de première cotation | **≥ 5 jours** (5 jours de bourse pour la cotation directe) |\n| Modification du prix d'une offre | publiée **≥ 3 jours de bourse avant** la clôture |\n| Dossier d'une **OST** | **10 jours de bourse avant** (20 si rompus) |\n| Avis d'une OST | **≥ 5 jours de bourse avant** |\n| DPS détaché | **3 jours de bourse avant** la souscription |\n| Programme de rachat d'actions | **5 jours de bourse avant** |\n| Changement de mode de cotation | publié **≥ 5 jours de bourse avant** |\n| Ordre téléphonique : confirmation écrite | **7 jours** |\n| Ordre à durée déterminée | **≤ 30 jours** (RG) |\n| Renonciation d'un membre | préavis **≥ 30 jours** |\n| Inactivité d'une SDB | **12 mois** (démarrage) / **6 mois** (sans négocier) |\n| Reprise de cotation après OPV | **2 jours de bourse** |"
+    }
+   ],
+   "mnemos": [
+    "10 – 30 – 60 : accusé 10 jours ouvrés, compléments 30 jours, instruction 60 jours ouvrés. 31 mars (contrôle interne), 15 juillet (annuel des émetteurs), 15 jours / 30 jours (rapports OPC)."
+   ],
+   "definitions": [
+    {
+     "terme": "Procédure simplifiée",
+     "definition": "Procédure de sanction accélérée pour motif impérieux : séance dans les 21 jours ouvrés."
+    },
+    {
+     "terme": "Rejet réputé",
+     "definition": "Effet du défaut de réponse dans le délai de 30 jours à une demande de compléments."
+    },
+    {
+     "terme": "Acte interruptif",
+     "definition": "Acte qui interrompt la prescription et permet de poursuivre des faits anciens."
+    },
+    {
+     "terme": "Rapport de clôture",
+     "definition": "Rapport établi dans les 8 jours après la clôture d'un APE ; sa remise ou sa publication tardive est sanctionnée par des pénalités par jour de retard."
+    },
+    {
+     "terme": "Prorogation",
+     "definition": "Allongement d'un délai, par exemple de 30 jours pour le visa ou le rapport d'instruction."
+    },
+    {
+     "terme": "Jours de bourse",
+     "definition": "Jours de séance de la BVMAC : unité des délais d'admission, d'OST et d'offres."
+    },
+    {
+     "terme": "Jours calendaires",
+     "definition": "Tous les jours du calendrier : unité de nombreux délais de rapports et de placement."
+    },
+    {
+     "terme": "Jours ouvrés",
+     "definition": "Jours de travail ordinaires : unité des délais d'instruction de la COSUMAF (agrément, visa, habilitation)."
+    },
+    {
+     "terme": "Prise ferme",
+     "definition": "Engagement d'un intermédiaire de souscrire les titres non placés ; elle doit être libérée en 3 jours calendaires après l'ouverture, sinon elle devient caduque."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Dissolution d'un fonds sous la moitié de son minimum ?",
+     "verso": "Après 90 jours consécutifs ; immédiate à 25 %."
+    },
+    {
+     "recto": "Date des rapports de contrôle interne et de la cartographie ?",
+     "verso": "31 mars."
+    },
+    {
+     "recto": "Visa d'un APE hors État : délai d'instruction et prorogation ?",
+     "verso": "60 jours ouvrés, prorogeables de 30 jours."
+    },
+    {
+     "recto": "Délai des observations après notification des griefs ?",
+     "verso": "15 jours calendaires."
+    },
+    {
+     "recto": "Délai de publication d'une décision de sanction ?",
+     "verso": "5 jours ouvrés."
+    },
+    {
+     "recto": "Délai de la décision d'admission à la cote ?",
+     "verso": "10 jours de bourse."
+    },
+    {
+     "recto": "Confirmation écrite d'un ordre téléphonique ?",
+     "verso": "7 jours."
+    },
+    {
+     "recto": "Virement du produit à l'émetteur : quel délai ?",
+     "verso": "8 jours calendaires après la clôture."
+    },
+    {
+     "recto": "Nouveau DI après erreur ? après fait nouveau ?",
+     "verso": "7 jours calendaires ; 15 jours calendaires."
+    },
+    {
+     "recto": "Dossier d'une OST ?",
+     "verso": "10 jours de bourse avant (20 si échange avec rompus)."
+    },
+    {
+     "recto": "Préavis d'un membre de la BVMAC qui renonce à sa qualité ?",
+     "verso": "Au moins 30 jours, par lettre recommandée."
+    },
+    {
+     "recto": "Recours contre une sanction : délai ?",
+     "verso": "2 mois, non suspensif."
+    },
+    {
+     "recto": "Constitution effective d'un OPC après l'agrément : délai ?",
+     "verso": "30 jours calendaires."
+    },
+    {
+     "recto": "Dans quels délais refaire un DI après une erreur, puis après un fait nouveau significatif ?",
+     "verso": "7 jours calendaires (erreur), 15 jours calendaires (fait nouveau)."
+    },
+    {
+     "recto": "Offre concurrente : quand la déposer ?",
+     "verso": "Au moins 10 jours calendaires avant la fin de l'offre initiale."
+    },
+    {
+     "recto": "Que se passe-t-il si la prise ferme n'est pas libérée en 3 jours calendaires ?",
+     "verso": "Elle devient caduque."
+    },
+    {
+     "recto": "Quand dissoudre un OPC dont l'actif a trop baissé ?",
+     "verso": "Sous la moitié du minimum : 90 jours ; à 25 % du minimum : immédiatement."
+    },
+    {
+     "recto": "Quand remettre le reporting mensuel des SDB, teneurs de compte et CIF ?",
+     "verso": "Le 15 du mois suivant."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Dossier d'agrément complet : instruction en...",
+     "choix": [
+      "30 jours",
+      "45 jours ouvrés",
+      "6 mois",
+      "60 jours ouvrés"
+     ],
+     "bonne": 3,
+     "explication": "Délai quasi universel."
+    },
+    {
+     "q": "Rapport de contrôle interne des SDB : avant le...",
+     "choix": [
+      "31 janvier",
+      "15 juillet",
+      "31 mars",
+      "31 décembre"
+     ],
+     "bonne": 2,
+     "explication": "Instruction 39-25."
+    },
+    {
+     "q": "Rapport trimestriel d'un OPC :",
+     "choix": [
+      "8 jours",
+      "15 jours",
+      "30 jours",
+      "60 jours"
+     ],
+     "bonne": 1,
+     "explication": "Art. 357 RG ; Instruction 41-25."
+    },
+    {
+     "q": "Durée maximale d'une offre publique :",
+     "choix": [
+      "15 jours",
+      "30 jours",
+      "45 jours calendaires",
+      "90 jours"
+     ],
+     "bonne": 2,
+     "explication": "RG g12."
+    },
+    {
+     "q": "Délai d'observations après notification des griefs :",
+     "choix": [
+      "8 jours",
+      "15 jours calendaires",
+      "30 jours",
+      "2 mois"
+     ],
+     "bonne": 1,
+     "explication": "RG g4."
+    },
+    {
+     "q": "Recours contre une sanction de la COSUMAF dans...",
+     "choix": [
+      "2 mois",
+      "15 jours",
+      "1 mois",
+      "6 mois"
+     ],
+     "bonne": 0,
+     "explication": "RG g4."
+    },
+    {
+     "q": "Information préalable d'un émetteur avant une modification :",
+     "choix": [
+      "10 jours",
+      "5 jours",
+      "30 jours",
+      "60 jours"
+     ],
+     "bonne": 0,
+     "explication": "Instruction 45-25, art. 17."
+    },
+    {
+     "q": "Les sommes distribuables d'un OPC sont payées dans un délai de :",
+     "choix": [
+      "5 mois après la clôture",
+      "1 mois après la clôture",
+      "3 mois après la clôture",
+      "12 mois après la clôture"
+     ],
+     "bonne": 0,
+     "explication": "5 mois après la clôture de l'exercice."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quelle unité de jours ?",
+     "buckets": [
+      "Jours ouvrés",
+      "Jours calendaires",
+      "Jours de bourse"
+     ],
+     "items": [
+      {
+       "t": "Instruction d'un dossier d'agrément : 60 jours.",
+       "b": 0,
+       "why": "Délais d'instruction de la COSUMAF."
+      },
+      {
+       "t": "Rapport trimestriel d'un OPC : 15 jours.",
+       "b": 1,
+       "why": "Les rapports d'OPC sont en jours calendaires."
+      },
+      {
+       "t": "Décision d'admission à la cote de la BVMAC : 10 jours.",
+       "b": 2,
+       "why": "Tout ce qui concerne la bourse."
+      },
+      {
+       "t": "Prise ferme libérée 3 jours après l'ouverture.",
+       "b": 1,
+       "why": "Jours calendaires."
+      },
+      {
+       "t": "DPS détaché 3 jours avant la souscription.",
+       "b": 2,
+       "why": "Jours de bourse."
+      },
+      {
+       "t": "Autorisation du PCA de l'entreprise de marché : 15 jours.",
+       "b": 0,
+       "why": "Jours ouvrés (RG art. 552)."
+      }
+     ]
+    },
+    {
+     "titre": "Délai en jours de bourse, ouvrés ou calendaires ?",
+     "buckets": [
+      "Jours ouvrés",
+      "Jours calendaires",
+      "Jours de bourse"
+     ],
+     "items": [
+      {
+       "t": "Instruction d'un dossier d'agrément complet (60 jours).",
+       "b": 0,
+       "why": "Délais de la COSUMAF : jours ouvrés."
+      },
+      {
+       "t": "Prise ferme libérée sous 3 jours.",
+       "b": 1,
+       "why": "Placement : jours calendaires."
+      },
+      {
+       "t": "Décision d'admission à la cote (10 jours).",
+       "b": 2,
+       "why": "BVMAC : jours de bourse."
+      },
+      {
+       "t": "Durée maximale d'une offre publique (45 jours).",
+       "b": 1,
+       "why": "Offres publiques : jours calendaires."
+      },
+      {
+       "t": "Recevabilité d'une OPV par la COSUMAF (5 jours).",
+       "b": 2,
+       "why": "Jours de bourse."
+      },
+      {
+       "t": "Séance de la procédure simplifiée (21 jours).",
+       "b": 0,
+       "why": "Jours ouvrés."
+      }
+     ]
+    },
+    {
+     "titre": "Quel délai pour un OPC ?",
+     "buckets": [
+      "15 jours",
+      "30 jours",
+      "5 mois",
+      "90 jours"
+     ],
+     "items": [
+      {
+       "t": "Rapport trimestriel.",
+       "b": 0,
+       "why": "15 jours."
+      },
+      {
+       "t": "Rapports semestriel et annuel.",
+       "b": 1,
+       "why": "30 jours."
+      },
+      {
+       "t": "Paiement des sommes distribuables.",
+       "b": 2,
+       "why": "5 mois après la clôture."
+      },
+      {
+       "t": "Dissolution quand l'actif est sous la moitié du minimum.",
+       "b": 3,
+       "why": "90 jours."
+      }
+     ]
+    }
+   ],
+   "ordre": [
+    {
+     "titre": "Remets la procédure de sanction dans l'ordre",
+     "items": [
+      "Ouverture de la procédure par le Collège",
+      "Notification des griefs (15 jours pour répondre)",
+      "Désignation du rapporteur",
+      "Rapport d'instruction (45 jours)",
+      "Séance de la Commission des sanctions",
+      "Publication de la décision (5 jours ouvrés)",
+      "Recours (2 mois)"
+     ]
+    }
+   ],
+   "trous": [
+    "Une prise ferme doit être libérée au plus tard {{3}} jours calendaires après l'ouverture des souscriptions, sinon elle est {{caduque}}.",
+    "Une offre publique dure {{45}} jours calendaires au maximum.",
+    "Le rapport financier annuel d'un émetteur APE est publié au plus tard le {{15 juillet}} de l'exercice N+1.",
+    "Après une erreur dans le DI, un nouveau document est déposé en {{7}} jours ; après un fait nouveau significatif, en {{15}} jours.",
+    "La décision de sanction est publiée sous {{5}} jours ouvrés et le recours se fait dans les {{2}} mois.",
+    "Le résumé du document d'information ne dépasse pas {{5}} pages."
+   ],
+   "schemas": [
+    {
+     "titre": "Le « 10 – 30 – 60 » de l'instruction",
+     "type": "flow",
+     "numero": true,
+     "legende": "Le fil rouge de presque tous les dossiers COSUMAF.",
+     "steps": [
+      {
+       "t": "Dépôt",
+       "s": "dossier complet",
+       "d": "On dépose le dossier ; sans pièces, il peut être retourné après 30 jours."
+      },
+      {
+       "t": "10 jours ouvrés",
+       "s": "accusé de réception",
+       "d": "La COSUMAF délivre un récépissé ou un accusé de réception."
+      },
+      {
+       "t": "30 jours",
+       "s": "compléments",
+       "d": "Si elle demande des compléments, ils doivent parvenir en 30 jours, sinon la demande est réputée rejetée."
+      },
+      {
+       "t": "60 jours ouvrés",
+       "s": "instruction",
+       "d": "Délai d'instruction du dossier complet (suspendu pendant les demandes de compléments)."
+      },
+      {
+       "t": "Décision",
+       "s": "motivée si refus",
+       "d": "Décision notifiée ; l'agrément est individuel, inaliénable, intransmissible."
+      }
+     ]
+    },
+    {
+     "titre": "La procédure de sanction en un coup d'œil",
+     "type": "timeline",
+     "legende": "De la notification des griefs au recours.",
+     "events": [
+      {
+       "d": "J0",
+       "t": "Notification des griefs",
+       "s": "Par le Président, lettre recommandée, remise contre récépissé ou huissier."
+      },
+      {
+       "d": "+15 j",
+       "t": "Observations",
+       "s": "15 jours calendaires pour répondre aux griefs."
+      },
+      {
+       "d": "+45 j",
+       "t": "Rapport d'instruction",
+       "s": "Du rapporteur ; prorogeable de 30 jours au maximum."
+      },
+      {
+       "d": "+30 j",
+       "t": "Séance",
+       "s": "Convocation dans les 30 jours calendaires ; observations écrites 15 jours avant."
+      },
+      {
+       "d": "+5 j ouvrés",
+       "t": "Publication",
+       "s": "La décision est publiée sous 5 jours ouvrés."
+      },
+      {
+       "d": "+2 mois",
+       "t": "Recours",
+       "s": "Non suspensif."
+      }
+     ]
+    },
+    {
+     "titre": "Les délais des rapports d'OPC",
+     "type": "stats",
+     "legende": "Trimestriel 15 jours, tout le reste 30 jours.",
+     "items": [
+      {
+       "v": "15 j",
+       "l": "rapport trimestriel"
+      },
+      {
+       "v": "30 j",
+       "l": "rapport semestriel"
+      },
+      {
+       "v": "30 j",
+       "l": "rapport annuel"
+      },
+      {
+       "v": "5 mois",
+       "l": "paiement des sommes distribuables"
+      },
+      {
+       "v": "30 j",
+       "l": "certificat de dépôt (sinon nullité)"
+      },
+      {
+       "v": "90 j",
+       "l": "actif sous la moitié → dissolution"
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "k2-seuils-montants",
+   "titre": "Essentiel · 02 · Tous les seuils, montants et pourcentages",
+   "resume": {
+    "court": "Capital minimum : 300 M FCFA pour presque tous les acteurs (intermédiaires, SGO, OPCI, capital investissement), 1 Md pour dépositaire d'OPC / spécialiste en valeurs du Trésor, 150 M pour un FCP, 300 M pour une SICAV. Ratios OPCVM : 20 % par émetteur, 35 % indices et groupes, 40 %/60 % États, 60 % pour classer, 15 % hors CEMAC, 10 % non cotés. APE : exemption sous 50 M FCFA par an. Seuils de franchissement : 5, 10, 15, 20, 25, 30 %, tiers, 95 %. Espèces : 5 M FCFA. Gestion sous mandat : 10 M FCFA, surperformance 20 %.",
+    "moyen": "Capitaux : intermédiaires (RTO, exécution, compte propre, gestion, placement, arrangement, tenue de compte) 300 M FCFA ; dépositaire d'OPC / spécialiste en valeurs du Trésor 1 Md ; SDB participation à la BVMAC 40 M ; teneur de compte participation au DC 20 M ; SGO 300 M capital + fonds propres nets 300 M ; sociétés d'investissement 300 M ; fonds sans personnalité morale 150 M ; OPCI actif net 300 M (RG) ou 150 M (règlement type FCPI) ; capital investissement 300 M. Concours aux dirigeants ≤ 20 % des fonds propres. OPCVM : 20 % par émetteur ; risque de contrepartie 10 % / 5 % ; 40 % pour un ou plusieurs États, 60 % tous États CEMAC ; 20 % cumul ; groupe 35 % ; indiciel 35 % ; OPC cible 20 %, OPC non OPCVM 30 % ; liquidités 20 % ; hors CEMAC 15 % ; non cotés 10 % ; catégories : 60 % (Actions, Obligations, Monétaire), diversifié jamais plus de 60 % dans une famille ; monétaire < 2 ans ; nourricier ≥ 85 % ; OPCI ≥ 70 % en immobilier, emprunt ≤ 30 % ; capital investissement ≥ 60 % en titres CEMAC ; OPI ≥ 70 % en actifs éligibles, ≥ 20 investisseurs qualifiés. Marché : APE exempt si offre < 50 M FCFA sur 12 mois ; admission : actions < 10 % ; placement privé ancien 20 Md / 40 investisseurs / 50 M nominal ; nouveau < 100 investisseurs, 10 M souscription minimale ; seuils de franchissement ; offre : tiers, deux tiers (simplifiée), 95 % (OPR). Tarifs : visa 0,3 % ; placement privé 0,5 % ; courtage 0,5 % max ; frais de gestion 2 % / 1,5 % / 3 %. LBC/FT : espèces 5 M FCFA. Sanctions pécuniaires : à partir de 5 M, 10 M, 25 M FCFA. Pénalités de retard : 250 000 à 10 000 000 FCFA par jour.",
+    "long": "Capitaux : intermédiaires (RTO, exécution, compte propre, gestion, placement, arrangement, tenue de compte) 300 M FCFA ; dépositaire d'OPC / spécialiste en valeurs du Trésor 1 Md ; SDB participation à la BVMAC 40 M ; teneur de compte participation au DC 20 M ; SGO 300 M capital + fonds propres nets 300 M ; sociétés d'investissement 300 M ; fonds sans personnalité morale 150 M ; OPCI actif net 300 M (RG) ou 150 M (règlement type FCPI) ; capital investissement 300 M. Concours aux dirigeants ≤ 20 % des fonds propres. OPCVM : 20 % par émetteur ; risque de contrepartie 10 % / 5 % ; 40 % pour un ou plusieurs États, 60 % tous États CEMAC ; 20 % cumul ; groupe 35 % ; indiciel 35 % ; OPC cible 20 %, OPC non OPCVM 30 % ; liquidités 20 % ; hors CEMAC 15 % ; non cotés 10 % ; catégories : 60 % (Actions, Obligations, Monétaire), diversifié jamais plus de 60 % dans une famille ; monétaire < 2 ans ; nourricier ≥ 85 % ; OPCI ≥ 70 % en immobilier, emprunt ≤ 30 % ; capital investissement ≥ 60 % en titres CEMAC ; OPI ≥ 70 % en actifs éligibles, ≥ 20 investisseurs qualifiés. Marché : APE exempt si offre < 50 M FCFA sur 12 mois ; admission : actions < 10 % ; placement privé ancien 20 Md / 40 investisseurs / 50 M nominal ; nouveau < 100 investisseurs, 10 M souscription minimale ; seuils de franchissement ; offre : tiers, deux tiers (simplifiée), 95 % (OPR). Tarifs : visa 0,3 % ; placement privé 0,5 % ; courtage 0,5 % max ; frais de gestion 2 % / 1,5 % / 3 %. LBC/FT : espèces 5 M FCFA. Sanctions pécuniaires : à partir de 5 M, 10 M, 25 M FCFA. Pénalités de retard : 250 000 à 10 000 000 FCFA par jour."
+   },
+   "fiches": [
+    {
+     "titre": "Capitaux minimums et participations",
+     "contenu": "| Acteur | Montant |\n|---|---|\n| Intermédiaire (RTO, exécution, compte propre, gestion collective, placement, mandat, arrangement, tenue de compte) | **300 M FCFA** (libéré avant l'agrément) |\n| **SDB dépositaire d'OPC** ou **spécialiste en valeurs du Trésor** | **1 Md FCFA** |\n| Participation d'une **SDB au capital de la BVMAC** | **40 M FCFA** |\n| Participation d'un **teneur de compte** au **DC** | **20 M FCFA** |\n| **SGO** | capital **300 M** + fonds propres nets **≥ 300 M** |\n| **Société d'investissement** (SICAV…) | capital **300 M** |\n| **Fonds sans personnalité morale** (FCP…) | actif **150 M** |\n| **OPCI** | actif net **300 M** (RG) — règlement type FCPI : **150 M** (piège) |\n| **Capital investissement** (organisme et SGO) | **300 M** |\n| **Compartiment A Premium** : capital libéré | **100 M** ; **B Medium** : **10 M** |\n| Concours aux dirigeants, actionnaires, personnel | **≤ 20 % des fonds propres** |\n| **FPI** : CAC | **6 exercices** |"
+    },
+    {
+     "titre": "Les ratios d'investissement des OPCVM",
+     "contenu": "| Règle | Seuil |\n|---|---|\n| Un même émetteur | **20 %** |\n| Risque de contrepartie sur dérivé de gré à gré | **10 %** (établissement de crédit) / **5 %** |\n| Un ou plusieurs **États CEMAC** / **tous les États** | **40 %** / **60 %** |\n| **Cumul** titres + dépôts + dérivés sur une entité | **20 %** ; **même groupe 35 %** |\n| **OPCVM indiciel** | **35 %** par entité |\n| Parts d'un même OPC / d'OPC non OPCVM | **20 %** / **30 %** |\n| **Liquidités** accessoires | **20 %** |\n| Hors CEMAC | **15 %** (autorisation) |\n| **Non cotés** | **10 %** (autorisation) |\n| **Catégories** : Actions / Obligations / Monétaire | **≥ 60 %** ; monétaire : maturité **< 2 ans** |\n| **Diversifié** | **jamais > 60 %** dans une famille |\n| **Nourricier** | **≥ 85 %** dans l'OPCVM maître (15 % max autres actifs) |\n| **Dérogation** après agrément | **6 mois** |"
+    },
+    {
+     "titre": "Les seuils des FIA",
+     "contenu": "| Structure | Seuil |\n|---|---|\n| **OPCI** : immobilier | **≥ 70 %** de l'actif |\n| OPCI : emprunt | **≤ 30 %** de la valeur des actifs (régularisation sous **1 an**) |\n| OPCI réservé aux qualifiés | **20 investisseurs maximum** |\n| OPCI : expertise | **2 experts / semestre** + 1 expertise / an |\n| **Capital investissement** : titres de sociétés CEMAC | **≥ 60 %** |\n| **OPI** : actifs éligibles | **≥ 70 %** |\n| OPI : investisseurs qualifiés | **≥ 20** |\n| **Titrisation** : part minimale | **100 000 FCFA** |\n| FCPE : versements annuels | **≤ ¼ de la rémunération brute** |\n| FCPE : investi en titres de l'entreprise | **> ⅓** de l'actif net |\n| Titrisation : liens étroits / participation qualifiée | **20 % / 10 %** |"
+    },
+    {
+     "titre": "Seuils de marché : APE, placement privé, offres, franchissements",
+     "contenu": "| Sujet | Seuil |\n|---|---|\n| **Pas d'APE** si offre | **< 50 M FCFA** sur **12 mois** (ou aux seuls qualifiés pour compte propre) |\n| **Admission** exemptée de DI : actions | **< 10 %** sur 12 mois |\n| Placement privé **ancien** (2022) | **≤ 20 Md** sur 12 mois · **≤ 40 investisseurs** · nominal **50 M** |\n| Placement privé **nouveau** (7 oct. 2026, en vigueur 1er nov.) | **< 100 investisseurs** · souscription min **10 M** · sans plafond · **2 émissions / 24 mois** · qualifié sur demande : patrimoine **≥ 50 M** (PP) ou capitaux propres **≥ 250 M** (PM) |\n| Franchissements | **5 %** puis **10, 15, 20, 25, 30 %** |\n| **Offre obligatoire** | plus du **tiers** du capital |\n| **Offre simplifiée** | **≥ deux tiers** du capital |\n| **OPR / retrait obligatoire** | **95 %** (solde de **5 %**) |\n| **OPV** | **≥ 10 %** des titres (ou **100 000** titres si **> 5 %**) ; extension **25 %** |\n| **Transaction de bloc** | **10 000 actions** / **100 000 obligations** |\n| **Transaction sur dossier** | prix à **±5 %** du cours de clôture |\n| **Seuils statiques** (Instr. 2) | **±10 %** actions / **±6 %** obligations |\n| **Cours avec réduction** | coefficient **≥ 25 %** ; offert/demandé : déséquilibre **> 4** |"
+    },
+    {
+     "titre": "Compartiments BVMAC : le grand tableau",
+     "contenu": "| | **A Premium** | **B Medium** | **E PME** | **C Obligataire** |\n|---|---|---|---|---|\n| Capital | **100 M** | **10 M** | **10 M** (1 critère) | libéré |\n| Capitalisation | **≥ 10 Md** | **≥ 5 Md** | **300 M** (1 critère) | — |\n| Diffusion | **20 / 15 / 10 %** | **15 %** | **15 %** (1 critère) | — |\n| Titres / actionnaires | **2 M / 200** | **500 000 / 100** | — | — |\n| CA | **> 15 Md** | — | **250 M à 2 Md** | — |\n| CAC | **2** | **1** | — | — |\n| Exercices bénéficiaires | **2 sur 3** | **1 sur 3** | — | — |\n| Dividende | **1 sur 3 ans** | **1 sur 3 ans** | — | — |\n| Emprunt | — | — | — | **200 M (grande) / 50 M (PME)** ; maturité **≥ 2 ans** |\n\nPME : **2 critères sur 3** ; contrat d'animation **obligatoire** pour **A et B**."
+    },
+    {
+     "titre": "Montants financiers : sanctions, pénalités, tarifs, LBC/FT",
+     "contenu": "**Sanctions pécuniaires** : **≥ 10 M** (initié, manipulation, défaut de déclaration de seuil, absence de LBC/FT, exercice sans agrément…), **≥ 25 M** (APE sans visa), **≥ 5 M** (information permanente, listes d'initiés, manquements des organismes centraux…).\n\n**Pénalités de retard** (par jour) : **250 000** (transmission à la COSUMAF) · **500 000** (information du public, injonction) · **750 000** (rapport de clôture communiqué tardivement) · **5 000 000** (publication tardive du rapport de clôture) · **10 000 000** (fonds collectés non remis).\n\n**Tarifs (23-24)** : visa APE **0,3 %** · placement privé **0,5 %** · courtage max **0,5 %** · placement max **1,75 %** · prise ferme max **1 %** · gestion OPC **2 % / 1,5 %** · mandat **3 %** · droits d'entrée/sortie **1,5 %** · frais de dossier **500 000 / 250 000 FCFA** · habilitation **100 000**.\n\n**LBC/FT** : espèces et transport physique **≥ 5 M FCFA** ; saisie **72 h**.\n\n**Gestion sous mandat** : portefeuille **≥ 10 M** ; surperformance **≤ 20 %**.\n\n**Fiscalité BVMAC** : retenue **10 % / 5 %** ; IS **20 / 25 / 28 %** ; CEVM **15 M** ; **70 %**.\n\n**Changes** : **50 M** (valeurs étrangères) · **100 M** (transfert de produit de cession)."
+    }
+   ],
+   "mnemos": [
+    "300 M partout (1 Md : dépositaire d'OPC / spécialiste du Trésor) · 20 % émetteur · 35 % indice/groupe · 40/60 % États · 60 % catégories · 50 M (APE) · 5 M (espèces) · 10 M (mandat, souscription placement privé) · 20 % surperformance."
+   ],
+   "definitions": [
+    {
+     "terme": "OPR",
+     "definition": "Offre publique de retrait déposée à 95 %, pour acquérir le solde de 5 % ; débouche sur le retrait obligatoire."
+    },
+    {
+     "terme": "OPCVM nourricier",
+     "definition": "OPCVM investi à au moins 85 % dans un OPCVM maître."
+    },
+    {
+     "terme": "Fonds propres nets",
+     "definition": "Fonds propres d'une structure, qui ne doivent jamais être inférieurs au capital social minimum."
+    },
+    {
+     "terme": "OPCVM indiciel",
+     "definition": "OPCVM qui réplique un indice : limite de 35 % par entité au lieu de 20 %."
+    },
+    {
+     "terme": "Transaction sur dossier",
+     "definition": "Négociation à un prix compris à ±5 % du cours de clôture."
+    },
+    {
+     "terme": "Compartiment A Premium",
+     "definition": "Compartiment de la BVMAC pour les grandes sociétés : capital libéré 100 M, capitalisation d'au moins 10 Md, 2 CAC, contrat d'animation obligatoire."
+    },
+    {
+     "terme": "Offre obligatoire",
+     "definition": "Offre publique que doit lancer celui qui franchit le seuil du tiers du capital, portant sur la totalité des titres."
+    },
+    {
+     "terme": "Offre simplifiée",
+     "definition": "Offre publique à procédure allégée lorsque l'initiateur détient au moins les deux tiers du capital."
+    },
+    {
+     "terme": "Transaction de bloc",
+     "definition": "Négociation portant sur au moins 10 000 actions ou 100 000 obligations."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Dérogation à un ratio après agrément : combien de temps ?",
+     "verso": "6 mois."
+    },
+    {
+     "recto": "Capital et fonds propres d'une SGO ?",
+     "verso": "Capital 300 M FCFA et fonds propres nets d'au moins 300 M FCFA."
+    },
+    {
+     "recto": "Titrisation : part minimale, liens étroits, participation qualifiée ?",
+     "verso": "100 000 FCFA ; 20 % pour les liens étroits ; 10 % pour la participation qualifiée."
+    },
+    {
+     "recto": "Ratio de diversification d'un OPCVM : même émetteur, cumul, même groupe ?",
+     "verso": "20 % par émetteur ; 20 % en cumul sur une entité ; 35 % pour un même groupe."
+    },
+    {
+     "recto": "Capital d'une SDB dépositaire d'OPC ?",
+     "verso": "1 milliard de FCFA."
+    },
+    {
+     "recto": "Compartiment C obligataire : conditions ?",
+     "verso": "Emprunt de 200 M (grande entreprise) ou 50 M (PME), maturité d'au moins 2 ans."
+    },
+    {
+     "recto": "Nouveau placement privé : conditions de qualification sur demande ?",
+     "verso": "Patrimoine net d'au moins 50 M (personne physique) ou capitaux propres d'au moins 250 M (personne morale)."
+    },
+    {
+     "recto": "Pénalité de retard la plus lourde (par jour) ?",
+     "verso": "10 000 000 FCFA (fonds collectés non remis)."
+    },
+    {
+     "recto": "Seuil des espèces (LBC/FT) ?",
+     "verso": "5 millions de FCFA."
+    },
+    {
+     "recto": "Valeur minimale d'un portefeuille sous mandat ?",
+     "verso": "10 millions de FCFA."
+    },
+    {
+     "recto": "Capital investissement : part minimale en titres CEMAC ?",
+     "verso": "60 %."
+    },
+    {
+     "recto": "Changes : seuils de 50 M et de 100 M ?",
+     "verso": "50 M pour les valeurs étrangères ; 100 M pour le transfert du produit d'une cession."
+    },
+    {
+     "recto": "Quel capital pour une société d'investissement (SICAV) ? quel actif pour un FCP ?",
+     "verso": "SICAV : 300 M FCFA ; FCP : 150 M FCFA d'actif."
+    },
+    {
+     "recto": "Compartiment E PME : combien de critères à remplir ?",
+     "verso": "2 critères sur 3 (capital, capitalisation, diffusion, chiffre d'affaires selon les cas) ; contrat d'animation obligatoire seulement pour A et B."
+    },
+    {
+     "recto": "À partir de quand une offre est-elle un APE ?",
+     "verso": "À partir de 50 M FCFA sur 12 mois (en dessous, ou aux seuls qualifiés pour compte propre : pas d'APE)."
+    },
+    {
+     "recto": "Quelles sont les pénalités de retard par jour ?",
+     "verso": "250 000 (COSUMAF), 500 000 (public, injonction), 750 000 (rapport de clôture communiqué tard), 5 000 000 (rapport de clôture publié tard), 10 000 000 (fonds non remis)."
+    },
+    {
+     "recto": "Actif minimum d'un FCP ? capital d'une SICAV ?",
+     "verso": "150 M FCFA ; 300 M FCFA."
+    },
+    {
+     "recto": "Limite d'un OPCVM sur les États ?",
+     "verso": "40 % sur un ou plusieurs États CEMAC ; 60 % sur l'ensemble des États."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Capital minimum des SGO :",
+     "choix": [
+      "100 M",
+      "150 M",
+      "300 M",
+      "1 Md"
+     ],
+     "bonne": 2,
+     "explication": "RG art. 496."
+    },
+    {
+     "q": "Plafond par émetteur d'un OPCVM :",
+     "choix": [
+      "10 %",
+      "35 %",
+      "20 %",
+      "40 %"
+     ],
+     "bonne": 2,
+     "explication": "RG art. 411."
+    },
+    {
+     "q": "OPR à partir de...",
+     "choix": [
+      "50 %",
+      "95 %",
+      "66 %",
+      "90 %"
+     ],
+     "bonne": 1,
+     "explication": "RG g12."
+    },
+    {
+     "q": "Actif minimum d'un FCP :",
+     "choix": [
+      "50 M",
+      "150 M",
+      "100 M",
+      "300 M"
+     ],
+     "bonne": 1,
+     "explication": "Instruction 13-24."
+    },
+    {
+     "q": "Nouveau placement privé : souscription minimale ?",
+     "choix": [
+      "10 M",
+      "1 M",
+      "5 M",
+      "50 M"
+     ],
+     "bonne": 0,
+     "explication": "Règlement du 7 octobre 2026."
+    },
+    {
+     "q": "Un OPCI doit investir en immobilier au moins...",
+     "choix": [
+      "50 %",
+      "70 %",
+      "60 %",
+      "80 %"
+     ],
+     "bonne": 1,
+     "explication": "RG art. 443."
+    },
+    {
+     "q": "Le capital minimum d'un intermédiaire de marché (cas général) est de :",
+     "choix": [
+      "300 millions FCFA",
+      "100 millions FCFA",
+      "500 millions FCFA",
+      "1 milliard FCFA"
+     ],
+     "bonne": 0,
+     "explication": "300 M FCFA, libérés avant l'agrément."
+    },
+    {
+     "q": "Un OPCI doit être investi en immobilier à hauteur d'au moins :",
+     "choix": [
+      "50 % de l'actif",
+      "60 % de l'actif",
+      "85 % de l'actif",
+      "70 % de l'actif"
+     ],
+     "bonne": 3,
+     "explication": "70 % de l'actif; emprunt ≤ 30 % de la valeur des actifs."
+    },
+    {
+     "q": "L'emprunt d'un OPCI ne dépasse pas :",
+     "choix": [
+      "10 % de la valeur des actifs",
+      "20 % de la valeur des actifs",
+      "30 % de la valeur des actifs",
+      "50 % de la valeur des actifs"
+     ],
+     "bonne": 2,
+     "explication": "30 %, à régulariser sous 1 an en cas de dépassement."
+    },
+    {
+     "q": "Dans un FCPE, les versements annuels d'un salarié ne dépassent pas :",
+     "choix": [
+      "un dixième de la rémunération brute",
+      "un tiers de la rémunération brute",
+      "la moitié de la rémunération brute",
+      "un quart de la rémunération brute"
+     ],
+     "bonne": 3,
+     "explication": "Un quart (¼) de la rémunération brute annuelle."
+    },
+    {
+     "q": "L'offre publique obligatoire est déclenchée au-delà de :",
+     "choix": [
+      "10 % du capital",
+      "la moitié du capital",
+      "deux tiers du capital",
+      "le tiers du capital"
+     ],
+     "bonne": 3,
+     "explication": "Plus du tiers du capital; l'offre simplifiée à partir de deux tiers."
+    },
+    {
+     "q": "L'offre publique simplifiée s'applique à partir de :",
+     "choix": [
+      "un tiers du capital",
+      "la moitié du capital",
+      "deux tiers du capital",
+      "95 % du capital"
+     ],
+     "bonne": 2,
+     "explication": "Au moins deux tiers du capital."
+    },
+    {
+     "q": "Une transaction sur dossier est conclue à un prix situé à :",
+     "choix": [
+      "±1 % du cours de clôture",
+      "±5 % du cours de clôture",
+      "±10 % du cours de clôture",
+      "±20 % du cours de clôture"
+     ],
+     "bonne": 1,
+     "explication": "±5 % du cours de clôture."
+    },
+    {
+     "q": "Les seuils statiques de variation (Instruction n° 2) sont de :",
+     "choix": [
+      "±5 % actions, ±3 % obligations",
+      "±10 % actions, ±6 % obligations",
+      "±15 % actions, ±10 % obligations",
+      "±20 % actions, ±10 % obligations"
+     ],
+     "bonne": 1,
+     "explication": "±10 % pour les actions, ±6 % pour les obligations."
+    },
+    {
+     "q": "Une sanction pécuniaire minimale de 25 millions FCFA vise :",
+     "choix": [
+      "le délit d'initié",
+      "un APE réalisé sans visa",
+      "un défaut de déclaration de seuil",
+      "un manquement à l'information permanente"
+     ],
+     "bonne": 1,
+     "explication": "APE sans visa : ≥ 25 M. Initié, manipulation, seuil, LBC/FT : ≥ 10 M. Information permanente : ≥ 5 M."
+    },
+    {
+     "q": "La pénalité de retard la plus lourde (10 000 000 FCFA par jour) vise :",
+     "choix": [
+      "la transmission tardive à la COSUMAF",
+      "les fonds collectés non remis",
+      "la publication tardive du rapport de clôture",
+      "l'information tardive du public"
+     ],
+     "bonne": 1,
+     "explication": "Fonds collectés non remis : 10 M par jour. Publication tardive du rapport de clôture : 5 M."
+    },
+    {
+     "q": "La pénalité de 250 000 FCFA par jour de retard vise :",
+     "choix": [
+      "l'information tardive du public",
+      "la transmission tardive à la COSUMAF",
+      "un rapport de clôture communiqué tardivement",
+      "les fonds non remis"
+     ],
+     "bonne": 1,
+     "explication": "250 000 : transmission à la COSUMAF; 500 000 : information du public; 750 000 : rapport de clôture communiqué tardivement."
+    },
+    {
+     "q": "Au compartiment E (PME) de la BVMAC, il faut remplir :",
+     "choix": [
+      "tous les critères",
+      "2 critères sur 3",
+      "1 critère sur 3",
+      "4 critères sur 5"
+     ],
+     "bonne": 1,
+     "explication": "2 critères sur 3. Contrat d'animation obligatoire pour A et B."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Quel plafond pour un OPCVM ?",
+     "buckets": [
+      "20 %",
+      "35 %",
+      "40 % / 60 %",
+      "10 % ou 15 %"
+     ],
+     "items": [
+      {
+       "t": "Valeurs d'un même émetteur.",
+       "b": 0,
+       "why": "Art. 411."
+      },
+      {
+       "t": "Placements d'un OPCVM indiciel dans une même entité.",
+       "b": 1,
+       "why": "Art. 414."
+      },
+      {
+       "t": "Titres d'un ou plusieurs États de la CEMAC.",
+       "b": 2,
+       "why": "40 % (60 % pour l'ensemble des États)."
+      },
+      {
+       "t": "Titres non cotés.",
+       "b": 3,
+       "why": "10 % avec autorisation."
+      },
+      {
+       "t": "Titres émis hors CEMAC.",
+       "b": 3,
+       "why": "15 % avec autorisation."
+      },
+      {
+       "t": "Liquidités à titre accessoire.",
+       "b": 0,
+       "why": "20 %."
+      },
+      {
+       "t": "Cumul sur un même groupe.",
+       "b": 1,
+       "why": "35 %."
+      }
+     ]
+    },
+    {
+     "titre": "Quel capital minimum ?",
+     "buckets": [
+      "300 M FCFA",
+      "1 Md FCFA",
+      "150 M FCFA"
+     ],
+     "items": [
+      {
+       "t": "Société de gestion d'OPC.",
+       "b": 0,
+       "why": "Art. 496."
+      },
+      {
+       "t": "SDB exerçant comme dépositaire d'OPC.",
+       "b": 1,
+       "why": "Art. 265 II."
+      },
+      {
+       "t": "Actif d'un FCP (fonds sans personnalité morale).",
+       "b": 2,
+       "why": "Instruction 13-24."
+      },
+      {
+       "t": "Capital d'une SICAV.",
+       "b": 0,
+       "why": "Instruction 13-24."
+      },
+      {
+       "t": "SDB spécialiste en valeurs du Trésor.",
+       "b": 1,
+       "why": "Art. 265 II."
+      },
+      {
+       "t": "Intermédiaire de RTO / exécution d'ordres.",
+       "b": 0,
+       "why": "Art. 265 I."
+      }
+     ]
+    },
+    {
+     "titre": "Sanction pécuniaire minimale : quel montant ?",
+     "buckets": [
+      "5 M FCFA",
+      "10 M FCFA",
+      "25 M FCFA"
+     ],
+     "items": [
+      {
+       "t": "Délit d'initié.",
+       "b": 1,
+       "why": "≥ 10 M."
+      },
+      {
+       "t": "APE réalisé sans visa.",
+       "b": 2,
+       "why": "≥ 25 M."
+      },
+      {
+       "t": "Manquement à l'information permanente.",
+       "b": 0,
+       "why": "≥ 5 M."
+      },
+      {
+       "t": "Défaut de déclaration d'un franchissement de seuil.",
+       "b": 1,
+       "why": "≥ 10 M."
+      },
+      {
+       "t": "Liste d'initiés non tenue.",
+       "b": 0,
+       "why": "≥ 5 M."
+      },
+      {
+       "t": "Exercice d'une activité sans agrément.",
+       "b": 1,
+       "why": "≥ 10 M."
+      }
+     ]
+    },
+    {
+     "titre": "Quel compartiment de la BVMAC ?",
+     "buckets": [
+      "A Premium",
+      "B Medium",
+      "C Obligataire",
+      "E PME"
+     ],
+     "items": [
+      {
+       "t": "Capital libéré de 100 M et capitalisation d'au moins 10 Md.",
+       "b": 0,
+       "why": "Premium."
+      },
+      {
+       "t": "Capital libéré de 10 M, capitalisation d'au moins 5 Md, 1 CAC.",
+       "b": 1,
+       "why": "Medium."
+      },
+      {
+       "t": "Emprunt de 200 M avec une maturité d'au moins 2 ans.",
+       "b": 2,
+       "why": "Obligataire."
+      },
+      {
+       "t": "2 critères sur 3 à remplir, chiffre d'affaires de 250 M à 2 Md.",
+       "b": 3,
+       "why": "PME."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Une transaction sur dossier est conclue à ±{{5}} % du cours de clôture.",
+    "Le seuil de déclaration des espèces est de {{5}} millions de FCFA.",
+    "Une sanction pour APE sans visa est d'au moins {{25}} millions FCFA.",
+    "Un OPCVM investit au plus {{40}} % sur les États de la CEMAC et {{60}} % sur l'ensemble des États.",
+    "Une SGO a un capital de {{300}} M FCFA et des fonds propres nets d'au moins {{300}} M FCFA.",
+    "Un OPCVM ne peut pas employer plus de {{20}} % de ses actifs en valeurs d'un même émetteur."
+   ],
+   "schemas": [
+    {
+     "titre": "Les plafonds d'un OPCVM",
+     "type": "bars",
+     "horizontal": true,
+     "unit": "% de l'actif",
+     "legende": "Plus le plafond est haut, plus l'émetteur est « sûr » (États) ; plus il est bas, plus le risque est élevé.",
+     "items": [
+      {
+       "l": "Tous les États CEMAC",
+       "v": 60
+      },
+      {
+       "l": "Un ou plusieurs États",
+       "v": 40
+      },
+      {
+       "l": "Indice / groupe",
+       "v": 35
+      },
+      {
+       "l": "Émetteur, OPC cible, liquidités",
+       "v": 20
+      },
+      {
+       "l": "Hors CEMAC",
+       "v": 15
+      },
+      {
+       "l": "Titres non cotés",
+       "v": 10
+      }
+     ]
+    },
+    {
+     "titre": "Les compartiments de la BVMAC : capital et capitalisation",
+     "type": "table",
+     "legende": "Premium, Medium, PME, OPC, Obligataire.",
+     "cols": [
+      "Compartiment",
+      "Capital",
+      "Capitalisation",
+      "Diffusion",
+      "Comptes"
+     ],
+     "rows": [
+      [
+       {
+        "t": "A Premium",
+        "b": true,
+        "c": "#ffe14a"
+       },
+       "100 M",
+       "≥ 10 Md",
+       "20 / 15 / 10 %",
+       "2 CAC, 3 exercices"
+      ],
+      [
+       {
+        "t": "B Medium",
+        "b": true,
+        "c": "#8fd0ff"
+       },
+       "10 M",
+       "≥ 5 Md",
+       "15 %",
+       "1 CAC, 3 exercices"
+      ],
+      [
+       {
+        "t": "E PME",
+        "b": true,
+        "c": "#a9f0d0"
+       },
+       "10 M (ou autres critères)",
+       "300 M (ou autres)",
+       "15 %",
+       "2 critères sur 3"
+      ],
+      [
+       {
+        "t": "D OPC",
+        "b": true,
+        "c": "#ffb8d1"
+       },
+       "—",
+       "—",
+       "—",
+       "OPC agréé COSUMAF"
+      ],
+      [
+       {
+        "t": "C Obligataire",
+        "b": true,
+        "c": "#d9c2ff"
+       },
+       "—",
+       "—",
+       "—",
+       "maturité ≥ 2 ans ; 200 M / 50 M"
+      ]
+     ]
+    },
+    {
+     "titre": "Capital minimum : qui doit combien ?",
+     "type": "bars",
+     "horizontal": true,
+     "unit": "M FCFA",
+     "legende": "300 M est le chiffre le plus fréquent.",
+     "items": [
+      {
+       "l": "Dépositaire d'OPC / spécialiste du Trésor",
+       "v": 1000
+      },
+      {
+       "l": "Intermédiaires, SGO, SICAV, OPCI, capital investissement",
+       "v": 300
+      },
+      {
+       "l": "FCP (actif)",
+       "v": 150
+      },
+      {
+       "l": "Premium (capital libéré)",
+       "v": 100
+      },
+      {
+       "l": "SDB : participation BVMAC",
+       "v": 40
+      },
+      {
+       "l": "Teneur : participation DC",
+       "v": 20
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  },
+  {
+   "id": "k3-pieges",
+   "titre": "Essentiel · 03 · Les pièges : quand les textes changent ou se contredisent",
+   "resume": {
+    "court": "Les questions piégeuses viennent des changements de texte et des divergences entre documents : placement privé (2022 / 2026), prescription (5 ans / 10 ans), conservation LBC/FT (5 / 10 ans), inscription en compte (24 / 36 mois), FCPI (150 M / 300 M), tarification (2008 / 2024), validité des ordres (30 jours / 1 an), seuils de franchissement (6 / 12 mois), instructions BVMAC anciennes. Toujours demander : quel texte, de quelle date, pour quel acteur ?",
+    "moyen": "Pour chaque piège : l'ancien texte, le nouveau, et le réflexe. Placement privé : le Règlement du 7 octobre 2026 (en vigueur le 1er novembre 2026) remplace le régime 2022 (20 Md, 40 investisseurs, 50 M) par : moins de 100 qualifiés, 10 M de souscription minimale, pas de plafond, 2 émissions sur 24 mois, compartiment BVMAC dédié. Prescription des sanctions : 5 ans (RG art. 52) contre 10 ans (Règlement 01/22 art. 256) : retenir la hiérarchie des textes (le Règlement CEMAC l'emporte). Conservation des pièces LBC/FT : 10 ans (RG, Règlement CEMAC 2024 pour les institutions financières) ; 5 ans (Instruction 32-24). Inscription en compte : Règlement 25/CEMAC du 19 décembre 2025 abroge le 01/14 (36 mois au lieu de 24, tous les titres au lieu des seuls APE, la COSUMAF désigne le nouveau teneur). FCPI : le RG fixe 300 M d'actif net, le règlement type de l'Instruction 16-24 prévoit une liquidation sous 150 M après 24 mois. Tarification : l'Instruction 23-24 du 18 juillet 2024 remplace l'accord du 4 mars 2008 (Communiqué 01/08). Ordres : durée maximale 30 jours (RG BVMAC) contre 365 jours (Instruction n° 2 de 2008). Seuils : objectifs à 6 mois (art. 180) ou 12 mois (art. 181) de la BVMAC. Admission BVMAC : l'Instruction n° 1 de 2008 (A/B) est dépassée par le RG de 2025 (A Premium, B Medium, E PME, D OPC, C Obligataire). Reporting : Instruction 44-25 remplace la 30-24 ; Instruction 46-25 (dirigeants). Habilitation : BAC+3 ou 5 ans ; dirigeants : BAC+5 et 10 ans. Rapports de gestion : OPC 15 jours / 30 jours. CAC : OPCI, FPC, SPC : 3 exercices ; FPI : 6 exercices.",
+    "long": "Pour chaque piège : l'ancien texte, le nouveau, et le réflexe. Placement privé : le Règlement du 7 octobre 2026 (en vigueur le 1er novembre 2026) remplace le régime 2022 (20 Md, 40 investisseurs, 50 M) par : moins de 100 qualifiés, 10 M de souscription minimale, pas de plafond, 2 émissions sur 24 mois, compartiment BVMAC dédié. Prescription des sanctions : 5 ans (RG art. 52) contre 10 ans (Règlement 01/22 art. 256) : retenir la hiérarchie des textes (le Règlement CEMAC l'emporte). Conservation des pièces LBC/FT : 10 ans (RG, Règlement CEMAC 2024 pour les institutions financières) ; 5 ans (Instruction 32-24). Inscription en compte : Règlement 25/CEMAC du 19 décembre 2025 abroge le 01/14 (36 mois au lieu de 24, tous les titres au lieu des seuls APE, la COSUMAF désigne le nouveau teneur). FCPI : le RG fixe 300 M d'actif net, le règlement type de l'Instruction 16-24 prévoit une liquidation sous 150 M après 24 mois. Tarification : l'Instruction 23-24 du 18 juillet 2024 remplace l'accord du 4 mars 2008 (Communiqué 01/08). Ordres : durée maximale 30 jours (RG BVMAC) contre 365 jours (Instruction n° 2 de 2008). Seuils : objectifs à 6 mois (art. 180) ou 12 mois (art. 181) de la BVMAC. Admission BVMAC : l'Instruction n° 1 de 2008 (A/B) est dépassée par le RG de 2025 (A Premium, B Medium, E PME, D OPC, C Obligataire). Reporting : Instruction 44-25 remplace la 30-24 ; Instruction 46-25 (dirigeants). Habilitation : BAC+3 ou 5 ans ; dirigeants : BAC+5 et 10 ans. Rapports de gestion : OPC 15 jours / 30 jours. CAC : OPCI, FPC, SPC : 3 exercices ; FPI : 6 exercices."
+   },
+   "fiches": [
+    {
+     "titre": "Piège 1 : le placement privé (2022 → 2026)",
+     "contenu": "| | **Régime 2022** (Règlement 01/22, art. 88 s.) | **Régime 2026** (Règlement du 7 oct. 2026) |\n|---|---|---|\n| Plafond | **20 Md FCFA** sur 12 mois | **aucun** |\n| Investisseurs | **40 au plus** | **moins de 100** |\n| Souscription / nominal | nominal **50 M** par titre | souscription minimale **10 M** par investisseur |\n| Cession | entre investisseurs sélectionnés | entre **qualifiés** seulement, **compartiment dédié BVMAC** |\n| Émissions | — | **2 maximum sur 24 mois glissants** |\n| Enregistrement | obligatoire | **simple contrôle formel** |\n| Qualifiés | liste de l'art. 89 | élargie (**caisses de dépôts**, institutions financières régionales) ; **sur demande** : patrimoine net **≥ 50 M** (PP) ou capitaux propres **≥ 250 M** (PM) |\n| Entrée en vigueur | — | adopté le **7 octobre 2026** à N'Djamena, **en vigueur le 1er novembre 2026** |\n\n**Réflexe** : lire la date de la question. Avant le 1er novembre 2026 : ancien régime ; après : nouveau."
+    },
+    {
+     "titre": "Piège 2 : la prescription des sanctions",
+     "contenu": "- **Règlement 01/22, art. 256** : prescription de **10 ans** (à compter de la découverte si l'infraction est occulte ou dissimulée)\n- **RG COSUMAF, art. 52** : la Commission des sanctions ne peut être saisie de faits de plus de **5 ans** sans acte interruptif\n- **Réflexe** : **hiérarchie des normes** : le Règlement communautaire (01/22) l'emporte sur le RG ; en examen, **citer le texte** ; en cas de simple question de cours, retenir **10 ans** (barème de la section Sanctions)"
+    },
+    {
+     "titre": "Piège 3 : la conservation des documents (LBC/FT)",
+     "contenu": "| Texte | Durée |\n|---|---|\n| **RG COSUMAF** (titre LBC/FT, obligations de vigilance) | **10 ans** |\n| **Règlement CEMAC LBC/FT du 20/12/2024**, art. 39 (institutions financières) | **10 ans** après la clôture des comptes / l'opération (5 ans pour certaines informations de virement) |\n| **Instruction 32-24**, art. 7 | **5 ans** à compter de la clôture du compte / de l'exécution |\n| **Enregistrements téléphoniques** des intermédiaires (RG art. 291) | **10 ans** |\n| **DC** (données) | **5 ans** |\n| **Chambre de compensation** | **10 ans** |\n| **Souches de titres au porteur** | **20 ans** |\n| Registre du **Listing Sponsor** | **10 ans** |\n\n**Réflexe** : pour un intermédiaire, **10 ans** ; pour le DC, **5 ans** ; la chambre, **10 ans**."
+    },
+    {
+     "titre": "Piège 4 : les textes remplacés",
+     "contenu": "| Ancien | Remplacé par |\n|---|---|\n| Règlement **06/03** (2003) | Règlement **01/22** (21 juillet **2022**) |\n| RG COSUMAF du **23 juillet 2008** | RG du **23 mai 2023** |\n| Règlement **01/14** (inscription en compte, 25 avril 2014) | Règlement **25/CEMAC** (19 décembre 2025) |\n| Règlement LBC/FT **01/16** (11 avril 2016) | Règlement du **20 décembre 2024** (n° 02/24) |\n| Instruction **30-24** (info périodique) | Instruction **44-25** (15 décembre 2025) |\n| Communiqué **01/08** (tarification 2008) | Instruction **23-24** (18 juillet 2024) |\n| Instruction BVMAC **n° 1 / n° 2 / n° 3** (2008-2013) | **RG BVMAC** (24 avril 2025) pour ce qui est contraire |\n| Placement privé 2022 | Règlement modificatif du **7 octobre 2026** |\n\n**Réflexe** : à la date « aujourd'hui » (octobre 2026), le texte le plus récent s'applique ; mais l'examen peut porter sur l'ancien : **toujours connaître les deux**."
+    },
+    {
+     "titre": "Piège 5 : chiffres qui divergent entre deux textes",
+     "contenu": "| Sujet | Texte A | Texte B |\n|---|---|---|\n| **OPCI** : actif net minimal | RG art. 442 : **300 M** | Règlement type FCPI (16-24) : **150 M** |\n| **Validité d'un ordre** | RG BVMAC : **30 jours** | Instruction n° 2 : jusqu'à **365 jours** |\n| **Objectifs après franchissement** (BVMAC) | art. 180 : **6 mois** | art. 181 : **12 mois** |\n| **Accusé de réception** | **10 jours ouvrés** | CIF (42-25) : **10 jours ouvrables** |\n| **Capital du compartiment Premium** | **100 M** (RG 2025) | Instruction n° 1 (2008) : **fonds propres 500 M** |\n| **Dirigeant** | BAC+5 et 10 ans (46-25) | habilitation : BAC+3 ou 5 ans (18-24) |"
+    },
+    {
+     "titre": "Piège 6 : « ouvrés », « calendaires », « de bourse »",
+     "contenu": "- **Jours ouvrés** : instruction des dossiers de la COSUMAF (60), accusé (10), PCA (15), annonces presse (10)\n- **Jours calendaires** : rapports d'OPC (15, 30), placement (90), prise ferme (3), offres publiques (45), griefs (15)\n- **Jours de bourse** : tout ce qui concerne la BVMAC (10 pour l'admission, 5 / 3 pour les avis)\n- **Réflexe** : lire l'**unité** avant de répondre ; une même durée de **30 jours** n'a pas la même valeur selon l'unité"
+    },
+    {
+     "titre": "Piège 7 : qui a le monopole ?",
+     "contenu": "| Activité | Monopole |\n|---|---|\n| **Négociation pour compte propre** et **exécution d'ordres** | **SDB** |\n| **Tenue de compte** | **établissements de crédit et SDB** |\n| **Gestion individuelle sous mandat** | **SGO et SDB** |\n| **Arrangement d'APE et de placement privé** | **SDB** (les CIF doivent respecter ce monopole) |\n| **Contrepartie** des ordres de clients | **SDB** |\n| **Régularisation de marché** sur une valeur | **SDB spécialiste** |\n| **Jetons numériques** | **PSAN agréés** |\n| **Négociation à la BVMAC** | **SDB membres** |\n| **CIF** | **aucune détention de fonds ou de titres**, pas d'exécution, pas de compte propre |"
+    }
+   ],
+   "mnemos": [
+    "Quel texte ? Quelle date ? Quel acteur ? Quelle unité (ouvrés, calendaires, bourse) ? Les deux versions : placement privé 2022/2026 · prescription 5/10 · conservation 5/10 · inscription 24/36 mois."
+   ],
+   "definitions": [
+    {
+     "terme": "Hiérarchie des normes",
+     "definition": "Règle selon laquelle le Règlement communautaire prime sur le Règlement Général de la COSUMAF, lui-même au-dessus des instructions."
+    },
+    {
+     "terme": "Souches de titres au porteur",
+     "definition": "Documents attestant des titres au porteur, conservés 20 ans."
+    },
+    {
+     "terme": "Règlement type",
+     "definition": "Modèle de règlement de gestion imposé par instruction (ex. FCPI, FPC, FPI)."
+    },
+    {
+     "terme": "Acte interruptif",
+     "definition": "Acte qui interrompt la prescription d'une action de sanction."
+    },
+    {
+     "terme": "Jours ouvrables",
+     "definition": "Jours utilisés pour l'accusé de réception d'un dossier de CIF (42-25) : 10 jours ouvrables, à ne pas confondre avec les jours ouvrés."
+    },
+    {
+     "terme": "Régime 2022 / régime 2026",
+     "definition": "Deux régimes successifs du placement privé : l'ancien (Règlement 01/22) et le nouveau (règlement modificatif du 7 octobre 2026, en vigueur le 1er novembre 2026)."
+    },
+    {
+     "terme": "Texte abrogé",
+     "definition": "Texte remplacé par un texte plus récent, qu'il faut cependant connaître pour dater les situations passées."
+    },
+    {
+     "terme": "Entrée en vigueur",
+     "definition": "Date à partir de laquelle un texte s'applique (ex. 1er novembre 2026 pour le nouveau placement privé)."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Quel est le monopole des établissements de crédit et des SDB ?",
+     "verso": "La tenue de compte."
+    },
+    {
+     "recto": "Quelle instruction remplace la 30-24 et quel texte la tarification de 2008 ?",
+     "verso": "44-25 remplace 30-24 ; l'Instruction 23-24 remplace le communiqué 01/08."
+    },
+    {
+     "recto": "Nouveau placement privé : enregistrement et cession ?",
+     "verso": "Simple contrôle formel ; cession entre qualifiés seulement, sur un compartiment dédié de la BVMAC."
+    },
+    {
+     "recto": "Plafond du placement privé en 2022 ? en 2026 ?",
+     "verso": "20 Md FCFA sur 12 mois ; aucun plafond."
+    },
+    {
+     "recto": "Quel texte a remplacé l'accord de tarification de 2008 ?",
+     "verso": "L'Instruction 23-24 du 18 juillet 2024."
+    },
+    {
+     "recto": "Conservation LBC/FT : RG, Instruction 32-24, Règlement CEMAC 2024 ?",
+     "verso": "10 ans ; 5 ans ; 10 ans."
+    },
+    {
+     "recto": "Régime 2022 du placement privé : plafond, investisseurs, nominal ?",
+     "verso": "20 Md FCFA sur 12 mois, 40 investisseurs au plus, nominal de 50 M par titre."
+    },
+    {
+     "recto": "Prescription : 5 ans ou 10 ans ?",
+     "verso": "5 ans dans le RG (art. 52) ; 10 ans dans le Règlement 01/22 (art. 256), qui prime."
+    },
+    {
+     "recto": "Quelles exigences de diplôme pour un dirigeant (46-25) et pour l'habilitation (18-24) ?",
+     "verso": "46-25 : BAC+5 et 10 ans d'expérience ; 18-24 : BAC+3 ou 5 ans d'expérience."
+    },
+    {
+     "recto": "Validité d'un ordre : RG BVMAC et Instruction n° 2 ?",
+     "verso": "30 jours maximum ; jusqu'à 365 jours."
+    },
+    {
+     "recto": "Quelle instruction a remplacé la 30-24 ?",
+     "verso": "L'Instruction 44-25 du 15 décembre 2025."
+    },
+    {
+     "recto": "Régime 2026 du placement privé : investisseurs, souscription, émissions ?",
+     "verso": "Moins de 100 investisseurs, souscription minimale de 10 M, 2 émissions sur 24 mois glissants, sans plafond."
+    },
+    {
+     "recto": "Qui désigne le nouveau teneur de compte après faillite : 2014 et 2025 ?",
+     "verso": "Le Dépositaire Central ; la COSUMAF."
+    },
+    {
+     "recto": "Qui a le monopole de l'exécution d'ordres ? de l'arrangement d'APE ?",
+     "verso": "Les sociétés de bourse (les deux)."
+    },
+    {
+     "recto": "Que n'a pas le droit de faire un CIF ?",
+     "verso": "Détenir des fonds ou des titres de clients, exécuter des ordres, négocier pour compte propre."
+    },
+    {
+     "recto": "Nombre d'investisseurs : placement privé 2022 ? 2026 ?",
+     "verso": "40 au plus ; moins de 100."
+    },
+    {
+     "recto": "Qui est qualifié dans le nouveau placement privé ?",
+     "verso": "Liste élargie (caisses de dépôts, institutions financières régionales) et, sur demande, patrimoine net ≥ 50 M (personne physique) ou capitaux propres ≥ 250 M (personne morale)."
+    },
+    {
+     "recto": "Quel texte remplace le Règlement 06/03 ?",
+     "verso": "Le Règlement 01/22 du 21 juillet 2022."
+    }
+   ],
+   "questions": [
+    {
+     "q": "Le nouveau placement privé est en vigueur depuis le...",
+     "choix": [
+      "7 octobre 2026",
+      "1er janvier 2027",
+      "21 juillet 2022",
+      "1er novembre 2026"
+     ],
+     "bonne": 3,
+     "explication": "Règlement du 7 octobre 2026."
+    },
+    {
+     "q": "Ancien placement privé : nombre d'investisseurs maximum ?",
+     "choix": [
+      "20",
+      "50",
+      "40",
+      "100"
+     ],
+     "bonne": 2,
+     "explication": "Règlement 01/22 art. 88."
+    },
+    {
+     "q": "Le Règlement 25/CEMAC abroge...",
+     "choix": [
+      "Le 06/03",
+      "Le 01/14",
+      "Le 01/22",
+      "Le 02/18"
+     ],
+     "bonne": 1,
+     "explication": "Art. 30."
+    },
+    {
+     "q": "Conservation (Instruction 32-24) :",
+     "choix": [
+      "3 ans",
+      "10 ans",
+      "20 ans",
+      "5 ans"
+     ],
+     "bonne": 3,
+     "explication": "Art. 7."
+    },
+    {
+     "q": "Qui désigne le nouveau teneur après faillite (2025) ?",
+     "choix": [
+      "Le DC",
+      "Le syndic",
+      "La BEAC",
+      "La COSUMAF"
+     ],
+     "bonne": 3,
+     "explication": "Art. 15 du 25/CEMAC."
+    },
+    {
+     "q": "Le texte remplaçant la 30-24 est...",
+     "choix": [
+      "La 32-24",
+      "La 46-25",
+      "La 44-25",
+      "La 49-26"
+     ],
+     "bonne": 2,
+     "explication": "Art. 12 de l'Instruction 44-25."
+    },
+    {
+     "q": "Sous le régime 2022 du placement privé, le plafond de l'opération est de :",
+     "choix": [
+      "20 milliards FCFA sur 12 mois",
+      "Aucun plafond",
+      "10 milliards FCFA sur 12 mois",
+      "50 milliards FCFA sur 12 mois"
+     ],
+     "bonne": 0,
+     "explication": "20 Md sur 12 mois; le régime 2026 n'a aucun plafond."
+    },
+    {
+     "q": "Sous le régime 2022 du placement privé, le nominal minimum par titre est de :",
+     "choix": [
+      "50 millions FCFA",
+      "10 millions FCFA",
+      "100 millions FCFA",
+      "250 millions FCFA"
+     ],
+     "bonne": 0,
+     "explication": "50 M par titre (2022). En 2026 : souscription minimale de 10 M par investisseur."
+    },
+    {
+     "q": "Sous le nouveau régime, l'enregistrement du placement privé est remplacé par :",
+     "choix": [
+      "un visa de la COSUMAF",
+      "un simple contrôle formel",
+      "une autorisation du Comité ministériel",
+      "un agrément de la BVMAC"
+     ],
+     "bonne": 1,
+     "explication": "Simple contrôle formel."
+    },
+    {
+     "q": "Sous le nouveau régime, les titres d'un placement privé peuvent être cédés :",
+     "choix": [
+      "entre tous investisseurs, sur le compartiment Medium de la BVMAC",
+      "librement de gré à gré, avec une simple information de la COSUMAF",
+      "entre qualifiés seulement, sur un compartiment dédié de la BVMAC",
+      "uniquement à l'émetteur, après avis de la COSUMAF"
+     ],
+     "bonne": 2,
+     "explication": "Cession entre qualifiés, compartiment dédié BVMAC."
+    },
+    {
+     "q": "La prescription des sanctions est de 10 ans selon :",
+     "choix": [
+      "le RG COSUMAF, art. 52",
+      "l'Instruction 32-24",
+      "le RG BVMAC",
+      "le Règlement 01/22, art. 256"
+     ],
+     "bonne": 3,
+     "explication": "Règlement 01/22, art. 256 : 10 ans. Le RG, art. 52, parle de 5 ans."
+    },
+    {
+     "q": "Quel texte l'emporte en cas de contradiction entre le Règlement 01/22 et le RG COSUMAF ?",
+     "choix": [
+      "Le RG, car il est plus récent",
+      "Le plus favorable à la personne sanctionnée",
+      "Le Règlement 01/22, par hiérarchie des normes",
+      "L'Instruction applicable"
+     ],
+     "bonne": 2,
+     "explication": "Le Règlement communautaire l'emporte; en examen, citer le texte."
+    },
+    {
+     "q": "La conservation des documents de vigilance LBC/FT est de 5 ans selon :",
+     "choix": [
+      "le RG COSUMAF",
+      "l'Instruction 32-24",
+      "le Règlement CEMAC du 20/12/2024",
+      "le Règlement 01/22"
+     ],
+     "bonne": 1,
+     "explication": "Instruction 32-24, art. 7 : 5 ans. RG et Règlement CEMAC : 10 ans."
+    },
+    {
+     "q": "Le Règlement 06/03 de 2003 a été remplacé par :",
+     "choix": [
+      "le Règlement 01/14",
+      "le Règlement 01/22",
+      "le Règlement 02/18",
+      "le Règlement 25/CEMAC"
+     ],
+     "bonne": 1,
+     "explication": "Règlement 01/22 du 21 juillet 2022."
+    },
+    {
+     "q": "Le Règlement LBC/FT 01/16 du 11 avril 2016 est remplacé par :",
+     "choix": [
+      "le Règlement 02/18",
+      "l'Instruction 32-24",
+      "le Règlement 25/CEMAC",
+      "le Règlement du 20 décembre 2024"
+     ],
+     "bonne": 3,
+     "explication": "Règlement du 20 décembre 2024 (n° 02/24)."
+    },
+    {
+     "q": "L'Instruction 23-24 du 18 juillet 2024 remplace :",
+     "choix": [
+      "le communiqué 01/08 sur la tarification",
+      "la 30-24",
+      "le RG de 2008",
+      "le Règlement 06/03"
+     ],
+     "bonne": 0,
+     "explication": "Elle remplace le communiqué 01/08 (tarification 2008)."
+    },
+    {
+     "q": "Après un franchissement de seuil, les objectifs sont déclarés sur 6 mois à l'art. 180 du RG BVMAC et sur :",
+     "choix": [
+      "3 mois à l'art. 181",
+      "9 mois à l'art. 181",
+      "12 mois à l'art. 181",
+      "24 mois à l'art. 181"
+     ],
+     "bonne": 2,
+     "explication": "Divergence interne du RG BVMAC : 6 mois (art. 180) / 12 mois (art. 181)."
+    },
+    {
+     "q": "Une durée de 30 jours dans un texte BVMAC doit se lire d'abord selon :",
+     "choix": [
+      "la date de signature du texte qui la prévoit",
+      "le montant de l'opération concernée par le délai",
+      "le texte le plus ancien qui traite du même sujet",
+      "l'unité du délai (de bourse, ouvrés, calendaires)"
+     ],
+     "bonne": 3,
+     "explication": "Piège 6 : toujours lire l'unité avant de répondre."
+    },
+    {
+     "q": "Les délais de la BVMAC se comptent en :",
+     "choix": [
+      "jours calendaires",
+      "jours ouvrés",
+      "jours ouvrables",
+      "jours de bourse"
+     ],
+     "bonne": 3,
+     "explication": "Jours de bourse. COSUMAF : jours ouvrés pour l'instruction; offres et placement : jours calendaires."
+    },
+    {
+     "q": "Qui a le monopole de la négociation à la BVMAC ?",
+     "choix": [
+      "Les SDB membres",
+      "Les teneurs de compte",
+      "Les SGO",
+      "Les CIF"
+     ],
+     "bonne": 0,
+     "explication": "Les SDB membres de la BVMAC."
+    },
+    {
+     "q": "Qui a le monopole des jetons numériques ?",
+     "choix": [
+      "Les SDB",
+      "Les PSAN agréés",
+      "Les CIF",
+      "Les teneurs de compte"
+     ],
+     "bonne": 1,
+     "explication": "Prestataires de services sur actifs numériques agréés."
+    },
+    {
+     "q": "Qui a le monopole de la régularisation de marché sur une valeur ?",
+     "choix": [
+      "Un CIF",
+      "Une SDB spécialiste",
+      "Un SGO",
+      "Le Dépositaire Central"
+     ],
+     "bonne": 1,
+     "explication": "La SDB spécialiste."
+    },
+    {
+     "q": "La gestion individuelle sous mandat est exercée par :",
+     "choix": [
+      "les SGO et les SDB",
+      "les seules banques",
+      "les CIF",
+      "les teneurs de compte seuls"
+     ],
+     "bonne": 0,
+     "explication": "SGO et SDB."
+    }
+   ],
+   "classer": [
+    {
+     "titre": "Ancien (2022) ou nouveau (2026) placement privé ?",
+     "buckets": [
+      "Régime 2022",
+      "Régime 2026"
+     ],
+     "items": [
+      {
+       "t": "Plafond de 20 milliards de FCFA sur 12 mois.",
+       "b": 0,
+       "why": "Supprimé en 2026."
+      },
+      {
+       "t": "Moins de 100 investisseurs qualifiés.",
+       "b": 1,
+       "why": "Nouveau seuil."
+      },
+      {
+       "t": "Au plus 40 investisseurs.",
+       "b": 0,
+       "why": "Ancien seuil."
+      },
+      {
+       "t": "Souscription minimale de 10 millions par investisseur.",
+       "b": 1,
+       "why": "Nouveau critère."
+      },
+      {
+       "t": "Nominal de 50 millions de FCFA par titre.",
+       "b": 0,
+       "why": "Ancien critère."
+      },
+      {
+       "t": "Deux émissions maximum sur 24 mois glissants.",
+       "b": 1,
+       "why": "Nouveau."
+      },
+      {
+       "t": "Cession sur un compartiment dédié de la BVMAC.",
+       "b": 1,
+       "why": "Nouveau."
+      }
+     ]
+    },
+    {
+     "titre": "Quelle durée de conservation ?",
+     "buckets": [
+      "5 ans",
+      "10 ans",
+      "20 ans"
+     ],
+     "items": [
+      {
+       "t": "Données du Dépositaire Central.",
+       "b": 0,
+       "why": "Art. 614."
+      },
+      {
+       "t": "Données de la chambre de compensation.",
+       "b": 1,
+       "why": "Art. 652."
+      },
+      {
+       "t": "Souches des titres au porteur.",
+       "b": 2,
+       "why": "Règlement 25/CEMAC."
+      },
+      {
+       "t": "Enregistrements téléphoniques des intermédiaires.",
+       "b": 1,
+       "why": "Art. 291."
+      },
+      {
+       "t": "Pièces LBC/FT selon l'Instruction 32-24.",
+       "b": 0,
+       "why": "Art. 7."
+      },
+      {
+       "t": "Registre du Listing Sponsor.",
+       "b": 1,
+       "why": "RG."
+      }
+     ]
+    },
+    {
+     "titre": "Quel texte a été remplacé ?",
+     "buckets": [
+      "Règlement 06/03",
+      "RG COSUMAF 2008",
+      "Règlement 01/14",
+      "Règlement 01/16"
+     ],
+     "items": [
+      {
+       "t": "Remplacé par le Règlement 01/22 du 21 juillet 2022.",
+       "b": 0,
+       "why": "Piège 4."
+      },
+      {
+       "t": "Remplacé par le RG du 23 mai 2023.",
+       "b": 1,
+       "why": "Piège 4."
+      },
+      {
+       "t": "Remplacé par le Règlement 25/CEMAC du 19 décembre 2025.",
+       "b": 2,
+       "why": "Inscription en compte."
+      },
+      {
+       "t": "Remplacé par le Règlement CEMAC du 20 décembre 2024.",
+       "b": 3,
+       "why": "LBC/FT."
+      }
+     ]
+    }
+   ],
+   "trous": [
+    "Le nouveau placement privé est en vigueur depuis le {{1er novembre 2026}}.",
+    "Les délais de la BVMAC se comptent en jours de {{bourse}}.",
+    "La conservation des documents de vigilance est de {{10}} ans selon le RG et de {{5}} ans selon l'Instruction 32-24.",
+    "Le nouveau placement privé autorise {{2}} émissions sur {{24}} mois glissants.",
+    "Le Règlement 25/CEMAC du {{19 décembre 2025}} abroge le Règlement {{01/14}}.",
+    "Dans l'ancien régime, le placement privé était plafonné à {{20}} milliards FCFA sur 12 mois et à {{40}} investisseurs."
+   ],
+   "schemas": [
+    {
+     "titre": "Placement privé : avant / après le 1er novembre 2026",
+     "type": "compare",
+     "legende": "Le piège numéro un de l'Olympiade.",
+     "cols": [
+      {
+       "t": "Régime 2022",
+       "s": "Règlement 01/22 art. 88 s.",
+       "pts": [
+        "Plafond 20 Md FCFA sur 12 mois",
+        "40 investisseurs qualifiés au plus",
+        "Nominal de 50 M par titre",
+        "Enregistrement obligatoire"
+       ]
+      },
+      {
+       "t": "Régime 2026",
+       "s": "Règlement du 7 octobre 2026",
+       "pts": [
+        "Aucun plafond de montant",
+        "Moins de 100 investisseurs qualifiés",
+        "Souscription minimale de 10 M par investisseur",
+        "2 émissions maximum sur 24 mois",
+        "Compartiment dédié BVMAC",
+        "Enregistrement = contrôle formel"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Conservation des documents : qui garde combien ?",
+     "type": "bars",
+     "horizontal": true,
+     "unit": "ans",
+     "legende": "Du plus long au plus court.",
+     "items": [
+      {
+       "l": "Souches de titres au porteur",
+       "v": 20
+      },
+      {
+       "l": "Intermédiaires (RG), chambre, enregistrements, Listing Sponsor",
+       "v": 10
+      },
+      {
+       "l": "Dépositaire Central",
+       "v": 5
+      },
+      {
+       "l": "Instruction 32-24 (LBC/FT)",
+       "v": 5
+      }
+     ]
+    }
+   ],
+   "niveau": "Essentiel",
+   "niveauCode": "E"
+  }
+ ]
+}
