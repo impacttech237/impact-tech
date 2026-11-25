@@ -111,7 +111,7 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
@@ -322,12 +322,13 @@ views.cours = async ([id], q) => {
         <p class="meta">${p.chapitres.length} chapitres · ${meta.n.fiches} fiches · ${meta.n.cartes} cartes · ${meta.n.questions} questions · ${meta.n.schemas} schémas</p>
         <div class="bar" title="Maîtrise ${m}%"><i style="width:${m}%"></i></div><p class="meta" style="font-size:.9rem">Maîtrise : ${m} %</p></div></div>
     <p class="onmat" style="max-width:760px">${esc(p.description || '')}</p>
-    <div class="cbtns"><a class="btn" href="#/flashcards/run${qs({ cours: id })}">${ic('layers')} Flashcards${due ? ` · ${due} à revoir` : ''}</a><a class="btn ghost" href="#/quiz/run${qs({ cours: id })}">${ic('circle-check')} Quiz</a><a class="btn ghost sm" href="#/jeux">${ic('gamepad-2')} Jeux</a></div>
+    <div class="cbtns"><a class="btn" href="#/flashcards/run${qs({ cours: id })}">${ic('layers')} Flashcards${due ? ` · ${due} à revoir` : ''}</a><a class="btn ghost" href="#/quiz/run${qs({ cours: id })}">${ic('circle-check')} Quiz</a><a class="btn ghost sm" href="#/exercices/run${qs({ c: id })}">${ic('puzzle')} Exercices</a><a class="btn ghost sm" href="#/examen/run${qs({ c: id, n: 20 })}">${ic('clipboard-check')} Examen blanc</a><a class="btn ghost sm" href="#/carte/${id}${chFiltre ? '?ch=' + chFiltre : ''}">${ic('network')} Carte mentale</a><a class="btn ghost sm" href="#/jeux">${ic('gamepad-2')} Jeux</a></div>
     ${p.chapitres.length > 1 ? (p.chapitres.length > 6 ? `<div class="chip-row"><select class="chsel" id="chsel" aria-label="Chapitre"><option value="">Tous les chapitres (${p.chapitres.length})</option>${p.chapitres.map(c => `<option value="${esc(c.id)}" ${chFiltre === c.id ? 'selected' : ''}>${esc(c.titre)}</option>`).join('')}</select></div>` : `<div class="chip-row"><a class="chip ${chFiltre ? '' : 'on'}" href="${base}?t=${tab}">Tous les chapitres</a>${p.chapitres.map(c => `<a class="chip ${chFiltre === c.id ? 'on' : ''}" href="${base}?t=${tab}&ch=${c.id}">${esc(nomChap(c.titre))}</a>`).join('')}</div>`) : ''}
     <nav class="tabsrow" aria-label="Rubriques du cours">${TABS.map(([k, l]) => `<a class="chip" aria-pressed="${tab === k}" href="${base}?t=${k}${chq}">${l}</a>`).join('')}</nav>
     <div class="panel ${tab === 'resume' ? 'resume' : ''}" id="panel">${corps}</div>`,
     after() {
       fond(MAT_COURS[p.couleur] || MAT.bibliotheque);
+      if (q.hl && tab !== 'gloss') B.highlight($('#panel'), q.hl);
       const sel = $('#chsel'); if (sel) sel.onchange = () => { location.hash = `${base}?t=${tab}${sel.value ? '&ch=' + sel.value : ''}`; };
       if (tab === 'schemas' && schemas.length) {
         B.viz.mount($('#app'), schemas); const pn = $('#panel'), tb = $('#vzt');
@@ -454,17 +455,19 @@ views.pratiquer = async (_a, q) => {
 views.recherche = async (_a, q) => {
   const terme = (q.q || '').trim(); const ts = termes(terme);
   const retenir = ts.length ? await chargerRetenir() : [];
+  await chargerTousCours(); const rcours = ts.length ? B.rech.search(terme).hits : [];
   const rt = ts.length ? classer(D.textes, noteTexte, ts) : { liste: [] }, rf = ts.length ? classer(D.faits, noteFait, ts) : { liste: [] }, rp = ts.length ? classer(retenir, notePoint, ts) : { liste: [] };
-  const textes = rt.liste, faits = rf.liste, points = rp.liste, approx = rt.relaxe || rf.relaxe || rp.relaxe;
+  const cours_ = rcours, textes = rt.liste, faits = rf.liste, points = rp.liste, approx = rt.relaxe || rf.relaxe || rp.relaxe;
   const hitFait = f => { const t = T(f.t); return `<a class="hit" href="#/texte/${f.t}${qs({ f: f.id })}"><span class="h">${f.y === 'piege' ? hlFold(f.v.replace(/\*\*/g, ''), ts) : hlFold(f.q, ts)}</span><span class="s">${f.y === 'piege' ? '' : `<strong>${hlFold(f.v.length > 160 ? f.v.slice(0, 160) + '…' : f.v, ts)}</strong> · `}${f.a ? esc(f.a) + ' · ' : ''}${esc(shortName(t))}${t.statut === 'abroge' ? ' <span class="badge bad">abrogé</span>' : ''} <span class="badge">${ONGLETS[f.y]}</span></span></a>`; };
   let limFaits = 30;
   const html = !ts.length ? `<div class="empty">${perso('lina', 'think', 140)}<p>Saisissez un mot ou une expression : un délai, un montant, un acteur, un numéro de texte.</p></div>` : `
-    <p class="count" aria-live="polite">${textes.length} texte${textes.length > 1 ? 's' : ''}, ${faits.length} fait${faits.length > 1 ? 's' : ''}, ${points.length} point${points.length > 1 ? 's' : ''} à retenir pour « ${esc(terme)} »</p>
+    <p class="count" aria-live="polite">${textes.length} texte${textes.length > 1 ? 's' : ''}, ${faits.length} fait${faits.length > 1 ? 's' : ''}, ${points.length} point${points.length > 1 ? 's' : ''} à retenir, ${cours_.length} dans les cours pour « ${esc(terme)} »</p>
     ${approx ? `<div class="banner info">${ic('info')}<div>Aucun résultat ne contient tous les mots : voici les plus proches. Essayez moins de mots pour affiner.</div></div>` : ''}
     ${textes.length ? `<h2 class="sec"><span class="lbl l1">Textes</span></h2><div class="hits">${textes.slice(0, 8).map(t => `<a class="hit" href="#/texte/${t.id}"><span class="h">${hlFold(shortName(t), ts)}</span><span class="s">${hlFold(t.titre, ts)} ${badgeStatut(t)}</span></a>`).join('')}</div>${textes.length > 8 ? `<p class="small muted">… et ${textes.length - 8} autres : <a href="#/bibliotheque${qs({ q: terme, statut: 'tous' })}">voir dans la bibliothèque</a>.</p>` : ''}` : ''}
+    ${cours_.length ? `<h2 class="sec"><span class="lbl l1">Dans les cours</span></h2><div class="slist">${cours_.slice(0, 10).map(({ it }) => { const Ty = B.rech.TYPES[it.type]; return `<a class="sres" href="${B.rech.link(it, terme)}" style="--tc:${Ty.col}"><span class="stag">${ic(Ty.ic)} ${Ty.nom.replace(/s$/, '')}</span><h4>${B.rech.hlAccent(it.title, ts)}</h4><p>${B.rech.hlAccent(it.type === 'definition' ? it.text : B.rech.snippet(it.text, ts), ts)}</p><small>${esc(it.course)} · ${esc(it.chap)}</small></a>`; }).join('')}</div>${cours_.length > 10 ? `<p class="small onmat">… et ${cours_.length - 10} autres résultats dans les cours.</p>` : ''}` : ''}
     ${faits.length ? `<h2 class="sec"><span class="lbl l6">Délais, montants, rôles</span></h2><div class="hits" id="hf">${faits.slice(0, limFaits).map(hitFait).join('')}</div><p><button class="btn" id="mf" ${faits.length > limFaits ? '' : 'hidden'}>Afficher plus</button></p>` : ''}
     ${points.length ? `<h2 class="sec"><span class="lbl l2">Points à retenir</span></h2><div class="hits">${points.slice(0, 15).map(r => { const t = T(r.t); return `<a class="hit" href="#/texte/${r.t}${qs({ s: 'retenir' })}"><span class="h">${hlFold(r.x.replace(/\*\*/g, ''), ts)}</span><span class="s">${esc(shortName(t))}${t.statut === 'abroge' ? ' <span class="badge bad">abrogé</span>' : ''}</span></a>`; }).join('')}</div>` : ''}
-    ${!textes.length && !faits.length && !points.length ? `<div class="empty">${perso('samir', 'sad', 130)}<p>Aucun résultat pour « ${esc(terme)} ».</p><p class="small">Essayez un mot plus court, sans accent, ou un seul mot-clé (par exemple « visa » plutôt que « délai du visa APE »).</p></div>` : ''}`;
+    ${!textes.length && !faits.length && !points.length && !cours_.length ? `<div class="empty">${perso('samir', 'sad', 130)}<p>Aucun résultat pour « ${esc(terme)} ».</p><p class="small">Essayez un mot plus court, sans accent, ou un seul mot-clé (par exemple « visa » plutôt que « délai du visa APE »).</p></div>` : ''}`;
   if (terme) window.MF?.ev('search', { a: terme, n: textes.length + faits.length + points.length });
   return { title: terme ? `Recherche : ${terme}` : 'Recherche', html: `<h1 class="h1">${lbls('Chercher')}</h1><form class="bigsearch" id="rs" role="search"><label for="rq" class="sr">Rechercher</label><input id="rq" type="search" value="${esc(terme)}" placeholder="Délai, montant, acteur, numéro…" autocomplete="off"><button class="btn" type="submit">${ic('search')} Rechercher</button></form><div class="results">${html}</div>`,
     after() {
@@ -476,7 +479,7 @@ views.recherche = async (_a, q) => {
 
 /* ---------- Entraînement : flashcards et quiz, mécanique reprise de la plateforme Excellence ---------- */
 const DAY = 864e5;
-const ET = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }, store.get('etude', {}));
+const ET = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [] }, store.get('etude', {}));
 const log = (type, d = {}) => { window.MF?.ev('act', { a: type === 'game' ? 'jeu:' + d.game : type, n: d.score ?? d.n ?? null }); ET.history.push({ t: Date.now(), type, ...d }); if (ET.history.length > 600) ET.history.shift(); ET.xp = (ET.xp || 0) + (d.xp || 0); sauver(); };
 const sauver = () => { store.set('etude', ET); planifierSync(); };
 const touchDay = n => { const d = new Date().toLocaleDateString('sv'); ET.days[d] = (ET.days[d] || 0) + n; };
@@ -686,6 +689,151 @@ function quiz(f, picked) {
   E.coach.show(); ask();
 }
 
+/* ---------- Passerelle vers les moteurs d'Excellence : exercices, examen blanc, carte mentale, recherche ---------- */
+Object.assign(B, {
+  $, $$, esc, md: mdBloc, shuffle, ic, save: sauver, touchDay, log, sfx: E.sfx, coach: E.coach, confetti: E.confetti, cheer: E.cheer,
+  pick: E.choisir, perso: (qui, o = {}) => E.perso(qui, o.mood || 'joy', o.size || 160, { fixe: o.anim === false }),
+  S: { get packs() { return tousCours || []; }, get store() { return ET; } },
+  questions: (f = {}) => (tousCours || []).filter(p => !f.pack || p.id === f.pack).flatMap(p => p.chapitres.filter(c => !f.ch || c.id === f.ch).flatMap(c => (c.questions || []).map((q, i) => ({ id: `${p.id}:${c.id}:q${i}`, pack: p, chap: c, ...q })))),
+});
+window.EXO(B); window.MINDMAP(B); window.RECH(B);
+
+const selectCours = async (cur, id) => `<select class="chsel" id="${id}" aria-label="Cours"><option value="">Tous les cours</option>${(await chargerCoursIdx()).map(c => `<option value="${esc(c.id)}" ${cur === c.id ? 'selected' : ''}>${esc(c.court)}</option>`).join('')}</select>`;
+const EXO_TYPES = {
+  trous: { ico: 'puzzle', nom: 'Compléter les trous', desc: 'Phrases et définitions à compléter avec les bons mots.' },
+  qro: { ico: 'notebook-pen', nom: 'Réponses ouvertes (QRO)', desc: 'Réponds avec tes mots, comme à l\'écrit : les éléments clés sont vérifiés.' },
+  calcul: { ico: 'calculator', nom: 'Calculs', desc: 'Chiffres tirés au hasard, corrigé pas à pas.' },
+  classer: { ico: 'list-checks', nom: 'Classer', desc: 'Range chaque élément dans la bonne catégorie.' },
+  ordre: { ico: 'list-ordered', nom: 'Remettre dans l\'ordre', desc: 'Étapes, phases et chronologies à reconstituer.' },
+  vf: { ico: 'scale', nom: 'Vrai ou faux', desc: 'Définitions justes… ou piégées.' },
+  mix: { ico: 'dices', nom: 'Mélange surprise', desc: 'Un peu de tout, pour s\'entraîner en conditions variées.' },
+};
+const exoDispo = (type, f) => type === 'mix' ? ['trous', 'calcul', 'classer', 'ordre', 'vf', 'qro', 'qcm'].reduce((n, t) => n + B.gen[t](f, 99).length, 0) : B.gen[type](f, 99).length;
+
+views.exercices = async (a, q) => {
+  await chargerTousCours(); const idx = await chargerCoursIdx();
+  const c = idx.some(x => x.id === q.c) ? q.c : '', f = c ? { pack: c } : {};
+  if (a[0] === 'run') return { title: 'Exercices', html: '<div id="ex"></div>', after() { exoRun(q, f, c); } };
+  return { title: 'Exercices', html: `
+    <h1 class="h1">${lbls('Exercices')}</h1><span class="hand">Pour apprendre en faisant : complète, calcule, classe, ordonne.</span>
+    <div class="chip-row" style="margin:22px 0 10px">${await selectCours(c, 'csel')}</div>
+    <div class="tiles">${Object.entries(EXO_TYPES).map(([k, t]) => { const n = exoDispo(k, f); return `<a class="tile ${n ? '' : 'off'}" ${n ? `href="#/exercices/run${qs({ c, type: k })}"` : ''}><span class="ico">${ic(t.ico)}</span><h3>${t.nom}</h3><p>${t.desc}</p><small>${n ? (k === 'calcul' ? 'Illimité' : n + ' exercices') : 'Pas disponible pour ce cours'}</small></a>`; }).join('')}</div>`,
+    after() { $('#csel').onchange = e => { location.hash = '#/exercices' + qs({ c: e.target.value }); }; } };
+};
+
+function exoRun(q, f, c) {
+  const app = $('#app'), type = EXO_TYPES[q.type] ? q.type : 'mix', N = +q.n || 8, back = '#/exercices' + qs({ c });
+  const { gen, items: X } = B;
+  let items = type === 'mix' ? shuffle(['trous', 'calcul', 'classer', 'ordre', 'vf', 'qro', 'qcm'].flatMap(t => gen[t](f, 3))) : gen[type](f, N);
+  items = items.slice(0, N);
+  if (!items.length) { app.innerHTML = habiller('<p class="onmat">Pas d\'exercice disponible pour cette sélection.</p>', back, 'Exercices'); return; }
+  let i = 0, total = 0; const results = []; E.coach.show();
+  const show = () => {
+    if (i >= items.length) return end();
+    const it = items[i];
+    app.innerHTML = habiller(`<div class="bar" style="margin:0 0 10px;background:rgba(255,255,255,.25)"><i style="width:${i / items.length * 100}%;background:var(--y)"></i></div>
+      <small class="onmat src">${esc(it.src || '')} · ${i + 1} / ${items.length}</small>
+      <div class="ex-card" id="host"></div><div id="fb"></div>
+      <div class="btns" style="justify-content:flex-start"><button class="btn" id="go" style="margin-top:6px" disabled>Valider</button></div>`, back, `${EXO_TYPES[type] ? ic(EXO_TYPES[type].ico) : ''} ${EXO_TYPES[type].nom}`);
+    const host = $('#host'), go = $('#go'); let validated = false;
+    const validate = () => {
+      if (validated) return; const r = X.grade(it); if (!r.answered) return;
+      validated = true; X.reveal(it, host); total += r.score; results.push(r.ok);
+      { let sk = 0; for (let z = results.length - 1; z >= 0 && results[z]; z--) sk++; E.coach.react(r.ok, r.ok ? sk : 0);
+        host.insertAdjacentHTML('beforeend', `<div class="stamp ${r.ok ? 'ok' : r.score > 0 ? 'mid' : 'ko'}">${r.ok ? 'BRAVO !' : r.score > 0 ? 'PRESQUE' : 'OUPS'}</div>`); }
+      touchDay(1); X.recordQcm(it, r.ok); sauver();
+      $('#fb').innerHTML = `<div class="feedback ${r.ok ? 'good' : r.score > 0 ? 'mid' : 'bad'}"><b>${r.ok ? `${ic('circle-check')} Bravo !` : r.score > 0 ? `${ic('circle-dot')} Presque…` : `${ic('circle-x')} Pas tout à fait`}</b> <span>${r.good}</span>${r.html ? `<div class="why">${r.html}</div>` : ''}</div>`;
+      go.textContent = i + 1 < items.length ? 'Suivant →' : 'Voir mon score'; go.disabled = false; go.onclick = () => { i++; show(); };
+      E.touches = e => { if (e.key === 'Enter') { e.preventDefault(); i++; show(); } };
+    };
+    X.mount(it, host, { onChange: () => { go.disabled = !X.grade(it).answered; }, onEnter: validate });
+    go.onclick = validate;
+  };
+  const end = () => {
+    const pct = Math.round(total / items.length * 100);
+    log('exo', { course: c, kind: type, score: Math.round(total * 10) / 10, max: items.length, xp: Math.round(total * 8) });
+    app.innerHTML = habiller(`<div class="done">${E.cheer(pct / 100)}<h1>${pct >= 80 ? 'Excellent' : pct >= 50 ? 'Bien joué' : 'On s\'accroche'}</h1>
+      <p style="font-size:1.6rem;font-family:var(--display);font-weight:800">${Math.round(total * 10) / 10} / ${items.length}</p><p>${pct} % de réussite.</p>
+      <div class="btns"><a class="btn" href="#/exercices/run${qs({ c, type, r: Date.now() })}">Recommencer</a><a class="btn ghost" href="${back}">Autres exercices</a></div></div>`, back, 'Exercices');
+    E.touches = null; if (pct >= 60) { E.confetti(110); E.coach.win(pct >= 90 ? 'Quel score !' : 'Bien joué !'); } else { E.sfx.lose(); E.coach.say('sad', 'On réessaie ?', 4000); }
+  };
+  show();
+}
+
+/* ---------- Examen blanc ---------- */
+const fmtT = t => `${String(Math.floor(t / 60)).padStart(2, '0')}:${String(t % 60).padStart(2, '0')}`;
+const TYPE_EXAM = { qcm: 'QCM', trous: 'Texte à trous', vf: 'Vrai/Faux', calcul: 'Calcul', qro: 'Réponse ouverte', classer: 'Classement', ordre: 'Ordre' };
+function composerExamen(f, n) {
+  const want = { qcm: Math.round(n * 0.4), qro: Math.round(n * 0.2), trous: Math.round(n * 0.12), vf: Math.round(n * 0.08), calcul: Math.round(n * 0.12), classer: Math.round(n * 0.08) };
+  let items = []; for (const [k, v] of Object.entries(want)) items.push(...B.gen[k](f, v));
+  if (items.length < n) { const have = new Set(items.map(x => x.qid || x.q)); items.push(...B.gen.qcm(f, n * 2).filter(x => !have.has(x.qid)).slice(0, n - items.length)); }
+  return shuffle(items).slice(0, n);
+}
+views.examen = async (a, q) => {
+  await chargerTousCours(); const idx = await chargerCoursIdx(); const c = idx.some(x => x.id === q.c) ? q.c : '';
+  if (a[0] === 'run') return { title: 'Examen blanc', html: '<div id="exm"></div>', after() { examRun(q, c); } };
+  const hist = [...ET.exams].reverse().slice(0, 8);
+  return { title: 'Examen blanc', html: `
+    <h1 class="h1">${lbls('Examen blanc')}</h1><span class="hand">Conditions réelles : chrono, pas de correction avant la fin, note sur 20.</span>
+    <div class="card exam-cfg" style="margin-top:22px"><label>Cours<br>${await selectCours(c, 'csel')}</label>
+      <label>Nombre de questions<br><select class="chsel" id="nq"><option value="10">10 (≈ 13 min)</option><option value="20" selected>20 (≈ 26 min)</option><option value="30">30 (≈ 40 min)</option></select></label>
+      <button class="btn" id="go" style="margin-top:6px">Commencer l'examen</button></div>
+    ${hist.length ? `<h2 class="sec"><span class="lbl l1">Mes derniers examens</span></h2><div class="card hist">${hist.map(h => `<div class="hrow"><span>${jourCourt(h.date)}</span><span class="nm">${esc(h.titre)}</span><b>${h.note.toFixed(1)} / 20</b><small class="muted">${h.n} questions</small></div>`).join('')}</div>` : ''}`,
+    after() { $('#go').onclick = () => { location.hash = '#/examen/run' + qs({ c: $('#csel').value, n: $('#nq').value, r: Date.now() }); }; } };
+};
+function examRun(q, c) {
+  const app = $('#app'), f = c ? { pack: c } : {}, n = Math.min(40, +q.n || 20), X = B.items;
+  const items = composerExamen(f, n), titre = c ? ((coursIdx.find(x => x.id === c) || {}).court || 'Cours') : 'Tous les cours', back = '#/examen';
+  if (items.length < 3) { app.innerHTML = habiller('<p class="onmat">Pas assez de contenu pour composer un examen.</p>', back, 'Examen blanc'); return; }
+  const dur = Math.round(items.length * 1.3) * 60; let left = dur, i = 0, finished = false;
+  items.forEach(it => { it.state = undefined; it.locked = false; });
+  const draw = () => {
+    const it = items[i], rep = items.filter(x => X.grade(x).answered).length;
+    app.innerHTML = habiller(`<div class="exam-bar"><span class="timer" id="tm">${fmtT(left)}</span><span>Question ${i + 1} / ${items.length}</span><span>${rep} répondue${rep > 1 ? 's' : ''}</span></div>
+      <div class="edots">${items.map((x, k) => `<button class="edot ${k === i ? 'cur' : ''} ${X.grade(x).answered ? 'on' : ''}" data-k="${k}" aria-label="Question ${k + 1}">${k + 1}</button>`).join('')}</div>
+      <small class="onmat src">${TYPE_EXAM[it.kind] || ''}${(it.kind === 'calcul' || it.kind === 'qro') ? ' · compte double' : ''}</small>
+      <div class="ex-card examsheet" id="host"></div>
+      <div class="btns" style="justify-content:space-between"><button class="btn ghost" id="pv" ${i === 0 ? 'disabled' : ''}>← Précédente</button>
+        ${i + 1 < items.length ? '<button class="btn" id="nx">Suivante →</button>' : '<button class="btn" id="sub">Terminer l\'examen</button>'}</div>
+      ${i + 1 < items.length ? '<div class="btns" style="justify-content:center;margin-top:8px"><button class="btn ghost sm" id="sub">Terminer maintenant</button></div>' : ''}`, back, 'Examen blanc');
+    X.mount(it, $('#host'), { onChange: () => { const d = $$('.edot')[i]; if (d) d.classList.toggle('on', X.grade(it).answered); } });
+    $$('.edot').forEach(d => d.onclick = () => { i = +d.dataset.k; draw(); });
+    $('#pv')?.addEventListener('click', () => { i--; draw(); }); $('#nx')?.addEventListener('click', () => { i++; draw(); });
+    $('#sub')?.addEventListener('click', () => { const blank = items.filter(x => !X.grade(x).answered).length; if (!blank || confirm(`${blank} question(s) sans réponse. Terminer l'examen ?`)) finish(); });
+  };
+  const finish = () => {
+    if (finished) return; finished = true; clearInterval(timer); E.touches = null;
+    let got = 0, tot = 0; const byType = {}, bySrc = {};
+    const detail = items.map(it => { const r = X.grade(it), pts = r.score * r.w; got += pts; tot += r.w; touchDay(1); X.recordQcm(it, r.ok);
+      (byType[it.kind] ||= { g: 0, t: 0 }); byType[it.kind].g += pts; byType[it.kind].t += r.w; const sr = (it.src || '').split(' · ').pop() || '—'; (bySrc[sr] ||= { g: 0, t: 0 }); bySrc[sr].g += pts; bySrc[sr].t += r.w; return { it, r }; });
+    const note = Math.round(got / tot * 200) / 10; if (note >= 10) E.sfx.win(); else E.sfx.lose();
+    ET.exams.push({ date: Date.now(), titre, note, n: items.length, c }); log('exam', { course: c, score: note, max: 20, xp: 40 + Math.round(note * 3) });
+    const weak = Object.entries(bySrc).filter(([, v]) => v.t > 0 && v.g / v.t < 0.6).sort((x, y) => x[1].g / x[1].t - y[1].g / y[1].t).slice(0, 4);
+    app.innerHTML = habiller(`<div class="done">${E.cheer(note / 20)}<h1>${note >= 16 ? 'Excellent' : note >= 12 ? 'Bien' : note >= 10 ? 'Passable' : 'À retravailler'}</h1>
+      <p class="stampbig big ${note >= 10 ? 'ok' : 'ko'}" style="font-size:clamp(40px,9vw,64px);display:inline-block;font-family:var(--display);font-weight:800">${note.toFixed(1)} / 20</p><p>Temps utilisé : ${fmtT(dur - left)} sur ${fmtT(dur)}.</p></div>
+      <div class="kgrid">${Object.entries(byType).map(([k, v]) => `<div class="kpi"><b>${Math.round(v.g / v.t * 100)}%</b><span>${TYPE_EXAM[k]}</span></div>`).join('')}</div>
+      ${weak.length ? `<div class="card" style="margin-bottom:24px"><h3 style="margin:0 0 8px">À revoir en priorité</h3>${weak.map(([sr, v]) => `<p style="margin:4px 0">• ${esc(sr)} <small class="muted">(${Math.round(v.g / v.t * 100)}%)</small></p>`).join('')}</div>` : '<div class="card" style="margin-bottom:24px"><h3 style="margin:0">Aucun point faible majeur</h3></div>'}
+      <h2 class="sec"><span class="lbl l2">Correction détaillée</span></h2>
+      ${detail.map(({ it, r }, k) => `<div class="card corr ${r.ok ? 'good' : r.score > 0 ? 'mid' : 'bad'}" style="margin-bottom:16px"><small>${k + 1}. ${TYPE_EXAM[it.kind]} — ${r.ok ? ic('circle-check', 'good') : r.score > 0 ? ic('circle-dot', 'mid') : ic('circle-x', 'bad')} ${r.answered ? '' : '(sans réponse)'}</small><div class="host" id="c${k}"></div><div class="feedback ${r.ok ? 'good' : 'bad'}" style="margin-top:10px"><span>${r.good}</span>${r.html ? `<div class="why">${r.html}</div>` : ''}</div></div>`).join('')}
+      <div class="btns"><a class="btn" href="#/examen/run${qs({ c, n, r: Date.now() })}">Refaire un examen</a><a class="btn ghost" href="${back}">Retour</a></div>`, back, 'Examen blanc');
+    detail.forEach(({ it }, k) => { X.mount(it, $('#c' + k), {}); X.reveal(it, $('#c' + k)); });
+  };
+  const timer = setInterval(() => { if (!$('#tm')) { clearInterval(timer); return; } left--; $('#tm').textContent = fmtT(left); if (left <= 60) $('#tm').classList.add('warn'); if (left <= 0) { alert('Temps écoulé !'); finish(); } }, 1000);
+  draw();
+}
+
+/* ---------- Carte mentale ---------- */
+views.carte = async ([id], q) => {
+  const packs = await chargerTousCours(), p = packs.find(x => x.id === id); if (!p) return views.introuvable();
+  const c = p.chapitres.find(x => x.id === q.ch);
+  return { title: `Carte mentale : ${p.court}`, html: `
+    <a class="back" href="#/cours/${p.id}${c ? '?ch=' + c.id : ''}">← ${esc(p.titre)}</a>
+    <h1 class="h1">${lbls('Carte mentale')}</h1><p class="mmhint">Touche un post-it pour lire son détail · glisse pour te déplacer · molette pour zoomer</p>
+    <div class="chip-row" style="margin:10px 0 14px"><select class="chsel" id="msel"><option value="">Vue d'ensemble du cours</option>${p.chapitres.map(x => `<option value="${esc(x.id)}" ${c && c.id === x.id ? 'selected' : ''}>${esc(nomChap(x.titre))}</option>`).join('')}</select></div>
+    <div class="mmap" id="mmap"></div><div id="mpanel"></div>`,
+    after() { $('#msel').onchange = e => { location.hash = `#/carte/${p.id}${e.target.value ? '?ch=' + e.target.value : ''}`; }; B.mm.drawMap(c ? B.mm.chapterTree(p, c) : B.mm.courseTree(p), $('#mmap'), $('#mpanel')); } };
+};
+
 /* ---------- Jeux (repris de la plateforme Excellence) ---------- */
 const GAMES = {
   memory: { ico: 'layers', nom: 'Memory', desc: 'Retrouve les paires terme ↔ définition le plus vite possible.', unit: 'coups', low: true },
@@ -710,7 +858,9 @@ views.jeux = async (a, q) => {
     <h1 class="h1">${lbls('Jeux')}</h1><span class="hand">Apprendre sans s'en rendre compte. Choisis un thème puis un jeu.</span>
     <div class="filters" style="margin-top:22px;max-width:420px"><label class="field">Thème<select id="gt">${options(themesOpts(), th, 'Tous les thèmes')}</select></label></div>
     <div class="tiles">${Object.entries(GAMES).map(([k, g]) => { const sc = ET.scores[k + ':' + (th || 'all')];
-      return `<a class="tile" href="#/jeux/${k}${qs({ theme: th })}"><span class="ico">${ic(g.ico)}</span><h3>${g.nom}</h3><p>${g.desc}</p><small>${sc != null ? `Record : <b>${sc} ${g.unit}</b>` : 'Pas encore joué'}</small></a>`; }).join('')}</div>`,
+      return `<a class="tile" href="#/jeux/${k}${qs({ theme: th })}"><span class="ico">${ic(g.ico)}</span><h3>${g.nom}</h3><p>${g.desc}</p><small>${sc != null ? `Record : <b>${sc} ${g.unit}</b>` : 'Pas encore joué'}</small></a>`; }).join('')}
+      <a class="tile" href="#/exercices"><span class="ico">${ic('pencil-line')}</span><h3>Exercices</h3><p>Trous, calculs, classements : on s'entraîne pour de vrai.</p><small>Voir les exercices →</small></a>
+      <a class="tile" href="#/examen"><span class="ico">${ic('clipboard-check')}</span><h3>Examen blanc</h3><p>Chrono, note sur 20 et correction détaillée.</p><small>${ET.exams.length ? ET.exams.length + ' passé' + (ET.exams.length > 1 ? 's' : '') : 'Pas encore passé'}</small></a></div>`,
     after() { $('#gt').addEventListener('change', e => { location.hash = '#/jeux' + qs({ theme: e.target.value }); }); } };
 };
 
@@ -857,9 +1007,9 @@ function ordreGame(th, app) {
 const NIVEAUX = [[0, 'Curieux'], [100, 'Apprenti'], [300, 'Studieux'], [600, 'Assidu'], [1000, 'Confirmé'], [1600, 'Expert'], [2400, 'Maître'], [3500, 'Major de promo']];
 const niveau = xp => { let i = 0; NIVEAUX.forEach(([t], k) => { if (xp >= t) i = k; }); const cur = NIVEAUX[i][0], nxt = NIVEAUX[i + 1]?.[0]; return { n: i + 1, name: NIVEAUX[i][1], cur, nxt, pct: nxt ? (xp - cur) / (nxt - cur) * 100 : 100 }; };
 const jourCourt = t => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
-const ICONE_H = { quiz: 'circle-check', game: 'gamepad-2', flash: 'layers' };
-const titreH = h => h.type === 'game' ? (GAMES[h.game]?.nom || 'Jeu') : h.type === 'quiz' ? 'Quiz' : 'Flashcards';
-const scoreH = h => h.type === 'flash' ? `${h.n} cartes` : h.type === 'game' ? (h.game === 'memory' ? `${h.score} coups` : `${h.score} pts`) : `${h.score} / ${h.max}`;
+const ICONE_H = { quiz: 'circle-check', game: 'gamepad-2', flash: 'layers', exo: 'pencil-line', exam: 'clipboard-check' };
+const titreH = h => h.type === 'game' ? (GAMES[h.game]?.nom || 'Jeu') : h.type === 'quiz' ? 'Quiz' : h.type === 'exo' ? 'Exercices' : h.type === 'exam' ? 'Examen blanc' : 'Flashcards';
+const scoreH = h => h.type === 'exam' ? `${h.score.toFixed(1)} / 20` : h.type === 'flash' ? `${h.n} cartes` : h.type === 'game' ? (h.game === 'memory' ? `${h.score} coups` : `${h.score} pts`) : `${h.score} / ${h.max}`;
 const coursH = id => id ? ((coursIdx || []).find(c => c.id === id)?.court || (id === 'textes' ? 'Repères des textes' : nomTheme(id))) : 'Tous les cours';
 const connue = k => (ET.cards[k.id]?.ivl || 0) >= 3;
 function graphBarres(pts) {
@@ -867,6 +1017,16 @@ function graphBarres(pts) {
   const W = 640, H = 200, L = 34, T = 12, Bt = 26, bw = Math.min(34, (W - L - 10) / pts.length - 4), y = v => T + (H - T - Bt) * (1 - v / 100);
   return `<svg viewBox="0 0 ${W} ${H}" class="chart" role="img">${[0, 50, 100].map(v => `<line x1="${L}" x2="${W - 8}" y1="${y(v)}" y2="${y(v)}" stroke="rgba(74,47,29,.12)"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="#7a5c44">${v}%</text>`).join('')}
     ${pts.map((p, i) => { const x = L + 8 + i * (bw + 4); const c = p.v >= 70 ? '#4a8a3a' : p.v >= 40 ? '#dfa93b' : '#d4563a'; return `<rect x="${x}" y="${y(p.v)}" width="${bw}" height="${y(0) - y(p.v)}" rx="5" fill="${c}"><title>${esc(p.label)} : ${p.v}%</title></rect>`; }).join('')}</svg>`;
+}
+function graphLigne(pts) {
+  if (pts.length < 2) return `<p class="muted">Pas encore assez de données : passe au moins deux examens blancs pour voir ta courbe.</p>`;
+  const W = 640, H = 220, L = 34, R = 14, T = 14, Bt = 30, max = 20, x = i => L + (W - L - R) * i / (pts.length - 1), y = v => T + (H - T - Bt) * (1 - v / max);
+  const path = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)} ${y(p.v).toFixed(1)}`).join(' ');
+  return `<svg viewBox="0 0 ${W} ${H}" class="chart" role="img">${[0, .25, .5, .75, 1].map(f => `<line x1="${L}" x2="${W - R}" y1="${y(max * f)}" y2="${y(max * f)}" stroke="rgba(74,47,29,.12)"/><text x="${L - 6}" y="${y(max * f) + 4}" text-anchor="end" font-size="11" fill="#7a5c44">${Math.round(max * f)}</text>`).join('')}
+    <line x1="${L}" x2="${W - R}" y1="${y(10)}" y2="${y(10)}" stroke="#4a8a3a" stroke-dasharray="5 5"/><text x="${W - R}" y="${y(10) - 5}" text-anchor="end" font-size="11" fill="#4a8a3a">moyenne</text>
+    <path d="${path} L${x(pts.length - 1)} ${y(0)} L${x(0)} ${y(0)}Z" fill="rgba(47,111,134,.12)"/><path d="${path}" fill="none" stroke="#2f6f86" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    ${pts.map((p, i) => `<circle cx="${x(i)}" cy="${y(p.v)}" r="5" fill="#fff" stroke="#2f6f86" stroke-width="3"><title>${esc(p.label)} : ${p.v}</title></circle>`).join('')}
+    ${pts.map((p, i) => (pts.length <= 8 || i % Math.ceil(pts.length / 8) === 0) ? `<text x="${x(i)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="#7a5c44">${esc(p.d)}</text>` : '').join('')}</svg>`;
 }
 function calendrier() {
   const cells = [], t0 = new Date(); t0.setHours(0, 0, 0, 0); const start = new Date(t0.getTime() - 83 * DAY), offset = (start.getDay() + 6) % 7;
@@ -884,6 +1044,9 @@ function trophees() {
     ['flame', 'Série de 7 jours', 'Réviser 7 jours de suite', serie >= 7],
     ['layers', 'Cent cartes', 'Réviser 100 flashcards différentes', vues >= 100],
     ['layers', 'Cinq cents cartes', 'Réviser 500 flashcards différentes', vues >= 500],
+    ['clipboard-check', 'Premier examen', 'Passer un examen blanc', ET.exams.length >= 1],
+    ['badge-check', 'Note de passage', 'Obtenir 10/20 ou plus à un examen blanc', ET.exams.some(e => e.note >= 10)],
+    ['trophy', 'Excellence', 'Obtenir 14/20 ou plus à un examen blanc', ET.exams.some(e => e.note >= 14)],
     ['target', 'Quiz parfait', 'Réussir un quiz sans aucune erreur', H.some(h => h.type === 'quiz' && h.score === h.max && h.max >= 5)],
     ['gamepad-2', 'Touche-à-tout', 'Essayer 4 jeux différents', jeux.size >= 4],
     ['calendar-check', 'Régulier', 'Réviser pendant 10 jours différents', jours >= 10],
@@ -893,7 +1056,7 @@ function trophees() {
 }
 views.progres = async () => {
   const H = ET.history, xp = ET.xp || 0, lv = niveau(xp), serie = serieJours();
-  const sess = H.filter(h => h.type === 'quiz' && h.max).slice(-20).map(h => ({ v: Math.round(h.score / h.max * 100), label: `${titreH(h)} · ${coursH(h.course)} · ${jourCourt(h.t)}` }));
+  const sess = H.filter(h => (h.type === 'quiz' || h.type === 'exo') && h.max).slice(-20).map(h => ({ v: Math.round(h.score / h.max * 100), label: `${titreH(h)} · ${coursH(h.course)} · ${jourCourt(h.t)}` }));
   const rep = Object.keys(ET.quiz).length, ok = Object.values(ET.quiz).filter(v => v === 1).length;
   await chargerCoursIdx(); const totalCartes = coursIdx.reduce((n, c) => n + c.n.cartes, 0), sues = Object.entries(ET.cards).filter(([k, v]) => k.startsWith('p') && k.includes(':') && (v.ivl || 0) >= 3).length, semaine = H.filter(h => h.t > Date.now() - 7 * DAY).length;
   const records = Object.entries(ET.scores).map(([k, v]) => { const [g, c] = k.split(':'); return { g, c, v }; }).filter(r => GAMES[r.g]).sort((a, b) => a.g.localeCompare(b.g));
@@ -908,16 +1071,18 @@ views.progres = async () => {
       <div class="kpi">${ic('flame')}<b>${serie}</b><span>jour${serie > 1 ? 's' : ''} de suite</span></div>
       <div class="kpi">${ic('layers')}<b>${sues}<small>/${totalCartes}</small></b><span>cartes bien retenues</span></div>
       <div class="kpi">${ic('circle-check')}<b>${rep ? Math.round(ok / rep * 100) + '%' : '–'}</b><span>réussite aux quiz</span></div>
+      <div class="kpi">${ic('clipboard-check')}<b>${ET.exams.length ? (ET.exams.reduce((a, e) => a + e.note, 0) / ET.exams.length).toFixed(1) : '–'}</b><span>moyenne /20 (${ET.exams.length} examen${ET.exams.length > 1 ? 's' : ''})</span></div>
       <div class="kpi">${ic('activity')}<b>${semaine}</b><span>activités cette semaine</span></div>
       <div class="kpi">${ic('award')}<b>${obtenus}<small>/${tr.length}</small></b><span>badges obtenus</span></div></div>
     <h2 class="sec"><span class="lbl l2">Réussite aux derniers quiz</span></h2><div class="card chartcard">${graphBarres(sess)}</div>
+    <h2 class="sec"><span class="lbl l4">Tes notes d'examen blanc</span></h2><div class="card chartcard">${graphLigne(ET.exams.map(e => ({ v: e.note, d: jourCourt(e.date), label: e.titre })))}</div>
     <h2 class="sec"><span class="lbl l6">Régularité, 12 semaines</span></h2><div class="card">${calendrier()}</div>
     <h2 class="sec"><span class="lbl l1">Maîtrise par cours</span></h2><div class="card">${coursIdx.map(c => `<div class="crow"><a class="nm" href="#/cours/${c.id}">${esc(c.court)}</a><div class="bar"><i style="width:${mastCours(c)}%"></i></div><span class="pc">${mastCours(c)}%</span></div>`).join('')}</div>
     <h2 class="sec"><span class="lbl l4">Records des jeux</span></h2>${records.length ? `<div class="kgrid recs">${records.map(r => `<div class="kpi">${ic(GAMES[r.g].ico)}<b>${r.v}</b><span>${GAMES[r.g].nom} · ${esc(coursH(r.c === 'all' ? '' : r.c))} (${GAMES[r.g].unit})</span></div>`).join('')}</div>` : '<p class="onmat">Aucun record pour l\'instant : lance un jeu !</p>'}
     <h2 class="sec"><span class="lbl l5">Badges</span></h2><div class="trophies">${tr.map(([i, n, d, o]) => `<div class="trophy ${o ? 'on' : ''}">${ic(i)}<b>${n}</b><small>${d}</small></div>`).join('')}</div>
     <h2 class="sec"><span class="lbl l2">Historique récent</span></h2>${H.length ? `<div class="card hist2">${[...H].reverse().slice(0, 25).map(h => `<div class="hrow">${ic(ICONE_H[h.type] || 'activity')}<span class="nm"><b>${esc(titreH(h))}</b> <small class="muted">${esc(coursH(h.course))}</small></span><b class="sc">${scoreH(h)}</b><small class="muted">${jourCourt(h.t)}</small></div>`).join('')}</div>` : '<p class="onmat">Ton historique apparaîtra ici.</p>'}
     <div style="margin-top:34px"><button class="btn ghost" id="reset">Réinitialiser ma progression</button></div>`,
-    after() { $('#reset').onclick = () => { if (confirm('Effacer toute ta progression (scores, historique, niveau) ?')) { for (const k of Object.keys(ET)) delete ET[k]; Object.assign(ET, { cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }); sauver(); render(); } }; } };
+    after() { $('#reset').onclick = () => { if (confirm('Effacer toute ta progression (scores, historique, niveau) ?')) { for (const k of Object.keys(ET)) delete ET[k]; Object.assign(ET, { cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [] }); sauver(); render(); } }; } };
 };
 
 /* ---------- Découvrir et Comprendre : guides rédigés, chaque fait renvoie à son article ---------- */
@@ -965,7 +1130,7 @@ const api = async (chemin, o = {}) => {
 const compte = () => store.get('compte', null);
 function majIconeCompte() { const a = $('.acct'); if (!a) return; const c = compte(); a.classList.toggle('on', !!c); a.title = c ? 'Compte : ' + c.email : 'Compte (facultatif)'; }
 function fusionner(dist) {
-  const d = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }, dist || {});
+  const d = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [] }, dist || {});
   for (const [id, c] of Object.entries(d.cards || {})) { const l = ET.cards[id]; if (!l || (c.reps || 0) > (l.reps || 0) || ((c.reps || 0) === (l.reps || 0) && (c.due || 0) > (l.due || 0))) ET.cards[id] = c; }
   for (const [id, v] of Object.entries(d.quiz || {})) ET.quiz[id] = Math.max(ET.quiz[id] ?? 0, v);
   for (const [id, v] of Object.entries(d.errors || {})) ET.errors[id] = Math.max(ET.errors[id] || 0, v);
@@ -974,6 +1139,7 @@ function fusionner(dist) {
   for (const h of d.history || []) if (!vus.has(h.t + '|' + h.type)) ET.history.push(h);
   ET.history.sort((a, b) => a.t - b.t); ET.history = ET.history.slice(-600);
   ET.xp = Math.max(ET.xp || 0, d.xp || 0);
+  { const vd = new Set((ET.exams || []).map(e => e.date)); ET.exams = [...(ET.exams || []), ...(d.exams || []).filter(e => !vd.has(e.date))].sort((a, b) => a.date - b.date).slice(-60); }
   for (const [k, v] of Object.entries(d.scores || {})) { const bas = GAMES[k.split(':')[0]]?.low; const l = ET.scores[k]; if (l == null || (bas ? v < l : v > l)) ET.scores[k] = v; }
 }
 let timerSync = 0;
@@ -1067,7 +1233,7 @@ views.apropos = async () => ({ title: 'À propos', html: `
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', exercices: 'exercices', examen: 'examen', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');
