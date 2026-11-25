@@ -1,5 +1,7 @@
 // Worker : collecte d'audience anonyme (POST /api/t) et statistiques pour l'administration (GET /api/admin/stats).
 // Les pages statiques sont servies par la plateforme d'assets ; ce code ne reçoit que /api/*.
+import { gererAuth } from './auth.js';
+
 const TYPES = new Set(['pv', 'dur', 'search', 'act', 'pdf', 'out', 'cite']);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit|whatsapp|curl|wget/i;
 const nettoie = (s, n = 80) => (typeof s === 'string' ? s.slice(0, n).replace(/[\u0000-\u001f]/g, '') : null);
@@ -51,6 +53,7 @@ export default {
     const url = new URL(req.url);
     if (url.pathname === '/api/t' && req.method === 'POST') return collecter(req, env);
     if (url.pathname === '/api/admin/stats' && req.method === 'GET') return statistiques(req, env, url);
+    if (url.pathname.startsWith('/api/auth/') || url.pathname === '/api/sync') return gererAuth(req, env, url);
     return new Response('Introuvable', { status: 404 });
   },
 };

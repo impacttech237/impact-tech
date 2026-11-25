@@ -15,3 +15,28 @@ CREATE TABLE IF NOT EXISTS marche_events (
 );
 CREATE INDEX IF NOT EXISTS marche_ev_ts ON marche_events(ts);
 CREATE INDEX IF NOT EXISTS marche_ev_type_ts ON marche_events(type, ts);
+
+-- Comptes facultatifs (e-mail + mot de passe, ou Google) et progression synchronisée.
+CREATE TABLE IF NOT EXISTS marche_users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  email TEXT NOT NULL UNIQUE,
+  pwd_hash TEXT,                -- PBKDF2-SHA256, absent pour un compte Google seul
+  salt TEXT,
+  google_sub TEXT UNIQUE,
+  recovery_hash TEXT,           -- empreinte du code de récupération (affiché une seule fois)
+  recovery_salt TEXT,
+  fails INTEGER DEFAULT 0,
+  locked_until INTEGER DEFAULT 0,
+  created_at INTEGER
+);
+CREATE TABLE IF NOT EXISTS marche_sessions (
+  th TEXT PRIMARY KEY,          -- empreinte du jeton de session (le jeton n'est jamais stocké)
+  user_id INTEGER NOT NULL,
+  exp INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS marche_sess_user ON marche_sessions(user_id);
+CREATE TABLE IF NOT EXISTS marche_sync (
+  user_id INTEGER PRIMARY KEY,
+  data TEXT NOT NULL,
+  updated INTEGER NOT NULL
+);

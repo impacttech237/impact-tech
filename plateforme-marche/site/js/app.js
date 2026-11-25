@@ -74,7 +74,8 @@ const options = (map, sel, tous) => `<option value="">${tous}</option>` + Object
 /* ---------- cadre : en-tête, pied ---------- */
 const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/comprendre', 'Comprendre'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
 function cadre() {
-  $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}</nav>`;
+  $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}<a href="#/compte" data-nav="/compte" class="acct" aria-label="Compte">${ic('user')}<i class="dot"></i></a></nav>`;
+  majIconeCompte();
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
     <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a></div></div>`;
 }
@@ -110,7 +111,7 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
@@ -339,7 +340,7 @@ views.recherche = async (_a, q) => {
 const DAY = 864e5;
 const ET = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }, store.get('etude', {}));
 const log = (type, d = {}) => { window.MF?.ev('act', { a: type === 'game' ? 'jeu:' + d.game : type, n: d.score ?? d.n ?? null }); ET.history.push({ t: Date.now(), type, ...d }); if (ET.history.length > 600) ET.history.shift(); ET.xp = (ET.xp || 0) + (d.xp || 0); sauver(); };
-const sauver = () => store.set('etude', ET);
+const sauver = () => { store.set('etude', ET); planifierSync(); };
 const touchDay = n => { const d = new Date().toLocaleDateString('sv'); ET.days[d] = (ET.days[d] || 0) + n; };
 const SUJETS = { delai: 'Délais', montant: 'Montants', role: 'Rôles', definition: 'Définitions' };
 const nomTheme = id => SHORT[id] || themeNom(id);
@@ -752,6 +753,7 @@ views.progres = async () => {
     <div class="levelcard"><div class="who">${perso('kofi', lv.n >= 3 ? 'lol' : 'joy', 130)}</div>
       <div class="lv"><small>Niveau ${lv.n}</small><h2>${lv.name}</h2><div class="bar" style="max-width:none"><i style="width:${lv.pct}%"></i></div>
       <p class="muted">${xp} points d'expérience${lv.nxt ? ` · encore ${lv.nxt - xp} pour le niveau ${lv.n + 1}` : ' · niveau maximum atteint'}</p></div></div>
+    ${compte() ? '' : `<div class="banner info">${ic('cloud')}<div><strong>Garde ta progression.</strong> Un compte facultatif la sauvegarde et la synchronise entre tes appareils. <a href="#/compte">Créer un compte</a></div></div>`}
     <div class="kgrid">
       <div class="kpi">${ic('flame')}<b>${serie}</b><span>jour${serie > 1 ? 's' : ''} de suite</span></div>
       <div class="kpi">${ic('layers')}<b>${sues}<small>/${cs.length}</small></b><span>cartes bien retenues</span></div>
@@ -805,6 +807,102 @@ const guideView = porte => async ([id]) => {
 views.decouvrir = guideView('decouvrir');
 views.comprendre = guideView('comprendre');
 
+/* ---------- Compte facultatif et synchronisation de la progression ---------- */
+const api = async (chemin, o = {}) => {
+  try {
+    const r = await fetch('/api' + chemin, { method: o.method || 'GET', credentials: 'same-origin', headers: { 'content-type': 'application/json', 'x-mf': '1' }, body: o.body ? JSON.stringify(o.body) : undefined });
+    return { ok: r.ok, status: r.status, d: await r.json().catch(() => ({})) };
+  } catch { return { ok: false, status: 0, d: { erreur: 'Réseau indisponible.' } }; }
+};
+const compte = () => store.get('compte', null);
+function majIconeCompte() { const a = $('.acct'); if (!a) return; const c = compte(); a.classList.toggle('on', !!c); a.title = c ? 'Compte : ' + c.email : 'Compte (facultatif)'; }
+function fusionner(dist) {
+  const d = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }, dist || {});
+  for (const [id, c] of Object.entries(d.cards || {})) { const l = ET.cards[id]; if (!l || (c.reps || 0) > (l.reps || 0) || ((c.reps || 0) === (l.reps || 0) && (c.due || 0) > (l.due || 0))) ET.cards[id] = c; }
+  for (const [id, v] of Object.entries(d.quiz || {})) ET.quiz[id] = Math.max(ET.quiz[id] ?? 0, v);
+  for (const [id, v] of Object.entries(d.errors || {})) ET.errors[id] = Math.max(ET.errors[id] || 0, v);
+  for (const [j, v] of Object.entries(d.days || {})) ET.days[j] = Math.max(ET.days[j] || 0, v);
+  const vus = new Set(ET.history.map(h => h.t + '|' + h.type));
+  for (const h of d.history || []) if (!vus.has(h.t + '|' + h.type)) ET.history.push(h);
+  ET.history.sort((a, b) => a.t - b.t); ET.history = ET.history.slice(-600);
+  ET.xp = Math.max(ET.xp || 0, d.xp || 0);
+  for (const [k, v] of Object.entries(d.scores || {})) { const bas = GAMES[k.split(':')[0]]?.low; const l = ET.scores[k]; if (l == null || (bas ? v < l : v > l)) ET.scores[k] = v; }
+}
+let timerSync = 0;
+function planifierSync() { if (!compte()) return; clearTimeout(timerSync); timerSync = setTimeout(() => synchroniser(), 2500); }
+async function synchroniser() {
+  if (!compte()) return { ok: false };
+  const r = await api('/sync');
+  if (r.status === 401) { store.set('compte', null); majIconeCompte(); return { ok: false, expire: true }; }
+  if (!r.ok) return { ok: false };
+  if (r.d.data) fusionner(r.d.data);
+  store.set('etude', ET);
+  const p = await api('/sync', { method: 'PUT', body: { data: ET } });
+  if (p.ok) store.set('sync', Date.now());
+  return { ok: p.ok };
+}
+
+views.compte = async () => {
+  const cfg = await api('/auth/config'); const google = cfg.ok ? cfg.d.google : null; const c = compte();
+  const entete = `<h1 class="h1">${lbls('Compte')}</h1><span class="hand">Facultatif : tout marche sans compte.</span>`;
+  if (c) {
+    const t = store.get('sync', 0);
+    return { title: 'Compte', html: `${entete}
+      <div class="card hub"><p style="margin:0 0 6px"><b>${esc(c.email)}</b></p><p class="muted" id="ds" style="margin:0 0 22px">${t ? 'Dernière synchronisation : ' + new Date(t).toLocaleString('fr-FR') : 'Pas encore synchronisé.'}</p>
+        <div class="btns" style="justify-content:flex-start"><button class="btn" id="sy">${ic('refresh-cw')} Synchroniser maintenant</button><button class="btn ghost" id="out">${ic('log-out')} Se déconnecter</button></div>
+        <p id="msg" class="flash-fb" style="text-align:left"></p>
+        <p style="margin:18px 0 0"><button class="btn ghost sm" id="del">${ic('trash-2')} Supprimer mon compte et mes données</button></p></div>
+      <p class="small onmat" style="margin-top:22px">Ta progression (cartes, quiz, jeux, points) est sauvegardée sur nos serveurs et synchronisée entre tes appareils. Rien d'autre n'est enregistré.</p>`,
+      after() {
+        $('#sy').onclick = async () => { $('#msg').textContent = 'Synchronisation…'; const r = await synchroniser(); $('#msg').className = 'flash-fb ' + (r.ok ? 'good' : 'bad'); $('#msg').textContent = r.ok ? 'Progression à jour.' : r.expire ? 'Session expirée : reconnecte-toi.' : 'Échec de la synchronisation.'; if (r.expire) render(); else $('#ds').textContent = 'Dernière synchronisation : ' + new Date().toLocaleString('fr-FR'); };
+        $('#out').onclick = async () => { await api('/auth/logout', { method: 'POST' }); store.set('compte', null); majIconeCompte(); render(); };
+        $('#del').onclick = async () => { if (!confirm('Supprimer définitivement ton compte et ta progression sauvegardée ? (Ta progression sur cet appareil reste.)')) return; const r = await api('/auth/account', { method: 'DELETE' }); if (r.ok) { store.set('compte', null); majIconeCompte(); render(); } };
+      } };
+  }
+  return { title: 'Compte', html: `${entete}
+    <div class="card hub"><div class="tabsrow" id="modes" style="margin-bottom:22px"><button class="chip" data-m="login">Se connecter</button><button class="chip" data-m="register">Créer un compte</button><button class="chip" data-m="reset">Mot de passe oublié</button></div>
+      <div id="cpt"></div>${google ? '<div style="margin-top:22px"><div id="gbtn"></div></div>' : ''}</div>
+    <p class="small onmat" style="margin-top:22px">Un compte sert à sauvegarder ta progression et à la retrouver sur un autre appareil. Il faut seulement une adresse e-mail et un mot de passe. Aucune publicité, aucune revente de données.</p>`,
+    after() {
+      const champ = (id, lib, type = 'text', extra = '') => `<label class="field" style="color:var(--ink);text-shadow:none;margin-bottom:14px">${lib}<input id="${id}" type="${type}" ${extra} required></label>`;
+      const FORMS = {
+        login: () => champ('em', 'Adresse e-mail', 'email', 'autocomplete="email"') + champ('pw', 'Mot de passe', 'password', 'autocomplete="current-password"') + `<button class="btn" type="submit">${ic('log-in')} Se connecter</button>`,
+        register: () => champ('em', 'Adresse e-mail', 'email', 'autocomplete="email"') + champ('pw', 'Mot de passe (8 caractères minimum)', 'password', 'autocomplete="new-password" minlength="8"') + champ('pw2', 'Répéter le mot de passe', 'password', 'autocomplete="new-password"') + `<button class="btn" type="submit">${ic('user')} Créer mon compte</button>`,
+        reset: () => `<p class="small" style="margin:0 0 14px;color:var(--ink)">Utilise le code de récupération donné à la création du compte.</p>` + champ('em', 'Adresse e-mail', 'email', 'autocomplete="email"') + champ('cd', 'Code de récupération', 'text', 'autocomplete="off" placeholder="XXXX-XXXX-XXXX-XXXX"') + champ('pw', 'Nouveau mot de passe', 'password', 'autocomplete="new-password" minlength="8"') + `<button class="btn" type="submit">${ic('key-round')} Changer le mot de passe</button>`,
+      };
+      const montrerCode = (email, code) => {
+        $('#modes').hidden = true; if ($('#gbtn')) $('#gbtn').hidden = true;
+        $('#cpt').innerHTML = `<h2 style="margin:0 0 8px;color:var(--ink)">Note ton code de récupération</h2>
+          <p style="color:var(--ink);margin:0 0 14px">Il te permettra de changer ton mot de passe si tu l'oublies. <b>Il ne sera plus affiché.</b></p>
+          <div class="sheet" style="text-align:center;padding:18px;margin-bottom:14px"><span style="font-family:var(--display);font-weight:800;font-size:clamp(22px,5vw,32px);letter-spacing:.06em;color:var(--ink)">${esc(code)}</span></div>
+          <div class="btns" style="justify-content:flex-start;margin-bottom:16px"><button class="btn ghost sm" id="cp">${ic('copy')} Copier</button><button class="btn ghost sm" id="dl">${ic('download')} Télécharger</button></div>
+          <label class="check" style="color:var(--ink);text-shadow:none"><input type="checkbox" id="ok"> Je l'ai noté en lieu sûr</label>
+          <p style="margin-top:16px"><button class="btn" id="go" disabled>Continuer</button></p>`;
+        $('#cp').onclick = () => copier(code, 'Code copié');
+        $('#dl').onclick = () => telecharger('code-de-recuperation-marche-cemac.txt', `Code de récupération (${email}) : ${code}\n`, 'text/plain;charset=utf-8');
+        $('#ok').onchange = e => { $('#go').disabled = !e.target.checked; };
+        $('#go').onclick = async () => { await synchroniser(); render(); };
+      };
+      const apres = async (email, d) => { store.set('compte', { email }); majIconeCompte(); if (d.code_recuperation) { montrerCode(email, d.code_recuperation); await synchroniser(); } else { await synchroniser(); render(); } };
+      const afficher = m => {
+        $$('#modes [data-m]').forEach(b => b.setAttribute('aria-pressed', b.dataset.m === m));
+        $('#cpt').innerHTML = `<form id="f" novalidate>${FORMS[m]()}<p id="msg" class="flash-fb" style="text-align:left;margin-top:12px"></p></form>`;
+        $('#f').onsubmit = async e => {
+          e.preventDefault(); const v = id => ($('#' + id)?.value || '').trim(); const msg = t => { $('#msg').className = 'flash-fb bad'; $('#msg').textContent = t; };
+          if (m === 'register' && $('#pw').value !== $('#pw2').value) return msg('Les deux mots de passe sont différents.');
+          const corps = { email: v('em'), motdepasse: $('#pw').value, code: v('cd') };
+          $('#msg').className = 'flash-fb'; $('#msg').textContent = 'Un instant…';
+          const r = await api(m === 'login' ? '/auth/login' : m === 'register' ? '/auth/register' : '/auth/reset', { method: 'POST', body: corps });
+          if (!r.ok) return msg(r.d.erreur || 'Une erreur est survenue.');
+          apres(r.d.email, r.d);
+        };
+      };
+      $$('#modes [data-m]').forEach(b => b.addEventListener('click', () => afficher(b.dataset.m)));
+      afficher('login');
+      if (google) { const sc = document.createElement('script'); sc.src = 'https://accounts.google.com/gsi/client'; sc.async = true; sc.onload = () => { window.google.accounts.id.initialize({ client_id: google, callback: async r => { const g = await api('/auth/google', { method: 'POST', body: { credential: r.credential } }); if (g.ok) apres(g.d.email, g.d); else { $('#msg') && ($('#msg').textContent = g.d.erreur || 'Connexion Google refusée.'); } } }); window.google.accounts.id.renderButton($('#gbtn'), { theme: 'outline', size: 'large', text: 'continue_with', locale: 'fr' }); }; document.head.appendChild(sc); }
+    } };
+};
+
 views.apropos = async () => ({ title: 'À propos', html: `
   <h1 class="h1">${lbls('À propos')}</h1>
   <div class="banner">${ic('triangle-alert')}<div><strong>Outil d'aide, non officiel.</strong> Cette plateforme n'est ni la COSUMAF, ni la BVMAC. Elle ne remplace pas les textes officiels : citez toujours le texte publié.</div></div>
@@ -814,13 +912,14 @@ views.apropos = async () => ({ title: 'À propos', html: `
   <h2>Couverture</h2><ul><li><strong>${COUV.complete}</strong> : les dispositions sont reprises.</li><li><strong>${COUV.partielle}</strong> : points clés seulement (délais, montants, rôles, pièges).</li><li><strong>${COUV.contexte}</strong> : situe le texte sans détailler ses dispositions.</li></ul>
   <h2>Statut des textes</h2><p>Un texte « abrogé » est remplacé par un autre : la fiche indique par quel texte.</p>
   <h2>Sources officielles</h2><ul><li><a href="https://cosumaf.org/nos-documents" target="_blank" rel="noopener">COSUMAF : médiathèque</a></li><li><a href="https://www.bvm-ac.org/textes-reglementaires/" target="_blank" rel="noopener">BVMAC : textes réglementaires</a></li></ul>
+  <h2>Compte facultatif</h2><p>Tout fonctionne sans compte. Si vous en créez un (e-mail et mot de passe), votre progression est sauvegardée et synchronisée entre vos appareils. Aucune autre donnée personnelle n'est demandée, et vous pouvez supprimer votre compte à tout moment.</p>
   <h2>Hors connexion</h2><p>Après une première visite, le site fonctionne sans réseau.</p>
   <h2>Données</h2><p>Version ${esc(D.version)}, générée le ${esc(D.genere_le)}.</p></div>` });
 
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', decouvrir: 'decouvrir', comprendre: 'comprendre', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', decouvrir: 'decouvrir', comprendre: 'comprendre', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');
@@ -847,6 +946,7 @@ window.addEventListener('hashchange', render);
   try { await charger(); } catch (e) { $('#app').innerHTML = `<div class="empty"><h1>Données indisponibles</h1><p>Impossible de charger les données. Vérifiez votre connexion puis rechargez la page.</p></div>`; return; }
   { const m = location.pathname.match(/^\/(textes|decouvrir|comprendre)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
   cadre(); await render();
+  if (compte()) synchroniser().then(r => { if (r.ok && /^#\/progres/.test(location.hash)) render(); });
   if ('serviceWorker' in navigator && /nosw/.test(location.search)) { // mode développement : pas de cache hors ligne
     navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister())); caches?.keys().then(ks => ks.forEach(k => caches.delete(k)));
   } else if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) navigator.serviceWorker.register('/sw.js').catch(() => {});
