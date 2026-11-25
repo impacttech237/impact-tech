@@ -89,7 +89,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
   }).join('');
   const nomChap = x => String(x).replace(/^[^·]*·\s*(\d+\s*·\s*)?/, '');
   const dossierCours = path.join(racine, 'data', 'cours'), listeCours = [];
-  const ordreCours = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes'];
+  const ordreCours = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes', 'epreuves'];
   const liensCours = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours-textes.json'), 'utf8'));
   for (const id of ordreCours) {
     const pk = JSON.parse(fs.readFileSync(path.join(dossierCours, id + '.json'), 'utf8')); listeCours.push(pk);
@@ -105,7 +105,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
     ecrire(`cours/${id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Course', name: pk.titre, description, inLanguage: 'fr', url: canon, provider: { '@type': 'Organization', name: 'Marché financier CEMAC', url: siteUrl + '/' } } }));
     urls.push(canon);
   }
-  ecrire('cours/index.html', page({ titre: 'Cours sur le marché financier de la CEMAC', description: 'Dix cours gratuits : cadre institutionnel, entrée en bourse, appel public à l\'épargne, placement privé, intermédiaires, fonds, conformité.', canon: `${siteUrl}/cours/`, corps: `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Cours sur le marché financier de la CEMAC</h1><ol>${listeCours.map(pk => `<li><a href="/cours/${pk.id}/">${esc(pk.titre)}</a> : ${esc(coupe(pk.description || '', 140))}</li>`).join('')}</ol></article>`, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Cours', inLanguage: 'fr', url: `${siteUrl}/cours/` } }));
+  ecrire('cours/index.html', page({ titre: 'Cours sur le marché financier de la CEMAC', description: 'Onze cours gratuits : cadre institutionnel, entrée en bourse, appel public à l\'épargne, placement privé, intermédiaires, fonds, conformité.', canon: `${siteUrl}/cours/`, corps: `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Cours sur le marché financier de la CEMAC</h1><ol>${listeCours.map(pk => `<li><a href="/cours/${pk.id}/">${esc(pk.titre)}</a> : ${esc(coupe(pk.description || '', 140))}</li>`).join('')}</ol></article>`, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Cours', inLanguage: 'fr', url: `${siteUrl}/cours/` } }));
   urls.push(`${siteUrl}/cours/`);
 
   // Index des textes (point d'entrée pour les moteurs de recherche)

@@ -96,7 +96,7 @@ ecrire('data/retenir.json', retenir);
 
 // Cours (repris d'Excellence COSUMAF) : data/cours/*.json -> dist/data/cours/<id>.json + dist/data/cours.json (index)
 {
-  const ordre = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes'];
+  const ordre = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes', 'epreuves'];
   const liens = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours-textes.json'), 'utf8'));
   fs.mkdirSync(path.join(dist, 'data', 'cours'), { recursive: true });
   const somme = (p, k) => p.chapitres.reduce((n, c) => n + (c[k] || []).length, 0);

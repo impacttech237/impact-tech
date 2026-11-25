@@ -77,7 +77,7 @@ function cadre() {
   $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}<a href="#/compte" data-nav="/compte" class="acct" aria-label="Compte">${ic('user')}<i class="dot"></i></a></nav>`;
   majIconeCompte();
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
-    <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a></div></div>`;
+    <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a> · <a href="#/guide">Guide</a> · <a href="#/planning">Plan de révision</a> · <a href="#/olympiade">Olympiade blanche</a></div></div>`;
 }
 const marquerNav = path => { $$('[data-nav]').forEach(a => { const h = a.dataset.nav; const on = h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && (path.startsWith('/texte') || path.startsWith('/cours'))); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); };
 
@@ -111,7 +111,7 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', olympiade: '#c2392f', planning: '#c9a46b', guide: '#2f7d4e', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
@@ -123,7 +123,7 @@ views.accueil = async () => {
   const vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
   const public_ = [
     ['#/decouvrir', 'lightbulb', 'Grand public', 'Je veux comprendre la bourse', 'Épargner, acheter, vendre, se protéger : les bases expliquées simplement, chaque affirmation renvoyant à son article.', 'Découvrir'],
-    ['#/bibliotheque', 'graduation-cap', 'Étudiants', 'J\'étudie le marché financier', 'Dix cours complets : résumés, fiches, schémas animés et glossaire, puis flashcards et quiz pour retenir.', 'Ouvrir les cours'],
+    ['#/bibliotheque', 'graduation-cap', 'Étudiants', 'J\'étudie le marché financier', 'Onze cours complets : résumés, fiches, schémas animés et glossaire, puis flashcards et quiz pour retenir.', 'Ouvrir les cours'],
     ['#/recherche', 'scale', 'Professionnels', 'Je travaille avec la réglementation', 'Un délai, un montant, un rôle ? Retrouvez-le en quelques secondes avec l\'article, le statut du texte et le PDF officiel.', 'Rechercher'],
   ];
   const outils = [
@@ -292,7 +292,7 @@ const PTYPE = { explication: ['compass', 'Explication'], exemple: ['lightbulb', 
 views.cours = async ([id], q) => {
   const idx = await chargerCoursIdx(), meta = idx.find(c => c.id === id); if (!meta) return views.introuvable();
   const p = await chargerCours(id);
-  const TABS = [['resume', 'Résumé'], ['fiches', 'Fiches'], ['schemas', 'Schémas'], ...(p.chapitres.some(c => (c.prof || []).length) ? [['prof', 'Le coach insiste']] : []), ['gloss', 'Glossaire'], ['textes', `Textes${meta.textes.length ? ' (' + meta.textes.length + ')' : ''}`]];
+  const TABS = [['resume', 'Résumé'], ['fiches', 'Fiches'], ['schemas', 'Schémas'], ...(p.chapitres.some(c => (c.prof || []).length) ? [['prof', 'Le coach insiste']] : []), ...(p.chapitres.some(c => (c.exemples || []).length) ? [['exemples', 'Exemples']] : []), ['gloss', 'Glossaire'], ['textes', `Textes${meta.textes.length ? ' (' + meta.textes.length + ')' : ''}`]];
   const tab = TABS.some(([k]) => k === q.t) ? q.t : 'resume', chFiltre = p.chapitres.some(c => c.id === q.ch) ? q.ch : '';
   const chs = chFiltre ? p.chapitres.filter(c => c.id === chFiltre) : p.chapitres, base = `#/cours/${id}`, chq = chFiltre ? `&ch=${chFiltre}` : '';
   const due = chs.flatMap(c => (c.cartes || []).map((_, i) => `${id}:${c.id}:${i}`)).filter(k => !ET.cards[k] || ET.cards[k].due <= Date.now()).length;
@@ -302,6 +302,9 @@ views.cours = async ([id], q) => {
   } else if (tab === 'schemas') {
     const liste = chs.flatMap(c => (c.schemas || []).map(v => ({ ...v, ch: c.titre }))); schemas = liste;
     corps = liste.length ? `<div class="vzbar" style="grid-column:1/-1"><span class="vzhint">Touche un élément : il s'anime et se détaille.</span><button class="chip" id="vzt" type="button">${ic('brain-circuit')} Mode test : cacher les légendes</button></div>` + chs.filter(c => (c.schemas || []).length).map(c => `<h2 class="vzchap"><span class="lbl l6">${esc(nomChap(c.titre))}</span></h2><div class="vzgrid">${c.schemas.map(v => B.viz.card(v, liste.findIndex(x => x.titre === v.titre && x.ch === c.titre))).join('')}</div>`).join('') : '<p class="muted">Pas encore de schéma pour ce cours.</p>';
+  } else if (tab === 'exemples') {
+    const IC = { exemple: `${ic('lightbulb')} Exemple`, explication: `${ic('compass')} Explication`, piege: `${ic('triangle-alert')} Piège à éviter`, astuce: `${ic('target')} Astuce` };
+    corps = chs.map(c => `<h2><span class="lbl l4">${esc(nomChap(c.titre))}</span></h2>` + ((c.exemples || []).length ? c.exemples.map(x => `<div class="fiche ex ${esc(x.type || 'exemple')}"><small>${IC[x.type] || IC.exemple}</small><h3>${esc(x.titre)}</h3>${mdBloc(x.texte)}</div>`).join('') : '<p class="muted">Pas encore d\'exemple pour ce chapitre.</p>')).join('');
   } else if (tab === 'prof') {
     corps = `<p class="vzhint" style="grid-column:1/-1">Ce que le coach te demande de retenir : les pièges et les points qui tombent.</p>` + chs.filter(c => (c.prof || []).length).map(c => `<h2 class="vzchap" style="grid-column:1/-1"><span class="lbl l1">${esc(nomChap(c.titre))}</span></h2><div class="profgrid" style="grid-column:1/-1">${c.prof.map((x, i) => { const [i2, lb] = PTYPE[x.type] || PTYPE.explication; return `<article class="profnote pn${i % 4 + 1} ${esc(x.type || 'explication')}"><small>${ic(i2)} ${lb}${x.date ? ` · ${esc(x.date)}` : ''}</small><h3>${esc(x.titre)}</h3>${mdBloc(x.texte)}</article>`; }).join('')}</div>`).join('');
   } else if (tab === 'gloss') {
@@ -479,7 +482,7 @@ views.recherche = async (_a, q) => {
 
 /* ---------- Entraînement : flashcards et quiz, mécanique reprise de la plateforme Excellence ---------- */
 const DAY = 864e5;
-const ET = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [] }, store.get('etude', {}));
+const ET = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [], olymp: [], examDates: {}, planDone: {} }, store.get('etude', {}));
 const log = (type, d = {}) => { window.MF?.ev('act', { a: type === 'game' ? 'jeu:' + d.game : type, n: d.score ?? d.n ?? null }); ET.history.push({ t: Date.now(), type, ...d }); if (ET.history.length > 600) ET.history.shift(); ET.xp = (ET.xp || 0) + (d.xp || 0); sauver(); };
 const sauver = () => { store.set('etude', ET); planifierSync(); };
 const touchDay = n => { const d = new Date().toLocaleDateString('sv'); ET.days[d] = (ET.days[d] || 0) + n; };
@@ -834,6 +837,192 @@ views.carte = async ([id], q) => {
     after() { $('#msel').onchange = e => { location.hash = `#/carte/${p.id}${e.target.value ? '?ch=' + e.target.value : ''}`; }; B.mm.drawMap(c ? B.mm.chapterTree(p, c) : B.mm.courseTree(p), $('#mmap'), $('#mpanel')); } };
 };
 
+/* ---------- Olympiade blanche (reprise d'Excellence) ---------- */
+const MANCHES = [
+  { id: 'rapid', nom: 'Manche 1 · Rapidité', desc: 'QCM éclair : 15 secondes par question.', gen: 'qcm', n: 12, sec: 15 },
+  { id: 'vf', nom: 'Manche 2 · Vrai ou faux', desc: 'Une définition, vrai ou faux : 10 secondes.', gen: 'vf', n: 10, sec: 10 },
+  { id: 'chiffres', nom: 'Manche 3 · Les trous', desc: 'Complète le texte : 35 secondes par phrase.', gen: 'trous', n: 6, sec: 35 },
+  { id: 'qro', nom: 'Manche 4 · Réponses ouvertes', desc: 'Réponds par écrit, avec les termes et chiffres exacts : 60 secondes par question.', gen: 'qro', n: 5, sec: 60 },
+];
+views.olympiade = async (a, q) => {
+  await chargerTousCours(); const idx = await chargerCoursIdx(); const c = idx.some(x => x.id === q.c) ? q.c : '';
+  if (a[0] === 'run') return { title: 'Olympiade blanche', html: '<div id="ol"></div>', after() { olympRun(q, c); } };
+  const hist = [...ET.olymp].reverse().slice(0, 8), best = ET.olymp.reduce((m, h) => Math.max(m, h.score), 0);
+  return { title: 'Olympiade blanche', html: `
+    <h1 class="h1">${lbls('Olympiade blanche')}</h1><span class="hand">Quatre manches chronométrées, comme en concours.</span>
+    <p class="onmat" style="max-width:720px;margin-top:14px">QCM, vrai/faux, trous, réponses ouvertes : on gagne des points à chaque bonne réponse, plus un bonus de vitesse. Pas de retour en arrière.</p>
+    <div class="olp-manches" style="margin:22px 0">${MANCHES.map(m => `<div class="card olp-m"><h3>${m.nom}</h3><p>${m.desc}</p><small class="muted">${m.n} questions</small></div>`).join('')}</div>
+    <div class="card exam-cfg"><label>Cours<br>${await selectCours(c, 'csel')}</label><button class="btn" id="go" style="margin-top:6px">Lancer l'Olympiade blanche</button>
+      <p class="muted" style="margin-top:10px">${best ? `Meilleur score : <b>${best}</b> points.` : 'Aucun score pour le moment.'}</p></div>
+    <div class="btns" style="justify-content:flex-start;margin-top:20px"><a class="btn ghost" href="#/examen">Examen blanc classique (note sur 20)</a></div>
+    ${hist.length ? `<h2 class="sec"><span class="lbl l1">Mes dernières Olympiades</span></h2><div class="card hist">${hist.map(h => `<div class="hrow"><span>${jourCourt(h.date)}</span><span class="nm">${esc(h.titre)}</span><b>${h.score} / ${h.max}</b></div>`).join('')}</div>` : ''}`,
+    after() { $('#go').onclick = () => { location.hash = '#/olympiade/run' + qs({ c: $('#csel').value, r: Date.now() }); }; } };
+};
+function olympRun(q, c) {
+  const app = $('#app'), f = c ? { pack: c } : {}, X = B.items, back = '#/olympiade', titre = c ? ((coursIdx.find(x => x.id === c) || {}).court || 'Cours') : 'Tous les cours';
+  const rounds = MANCHES.map(m => ({ ...m, items: B.gen[m.gen](f, m.n * 2).slice(0, m.n), pts: 0, ok: 0 })).filter(r => r.items.length >= 3);
+  if (!rounds.length) { app.innerHTML = habiller('<p class="onmat">Pas assez de contenu pour composer une Olympiade.</p>', back, 'Olympiade blanche'); return; }
+  let ri = 0, qi = 0, left = 0, total = 0, closed = false, timer = null; const wrong = []; E.coach.show();
+  const intro = () => {
+    const r = rounds[ri]; clearInterval(timer);
+    app.innerHTML = habiller(`<div class="done olp-intro">${E.cheer(.8)}<h1>${r.nom}</h1><p>${r.desc}</p><p>${r.items.length} questions · score actuel : <b>${total}</b></p><div class="btns"><button class="btn" id="st">C'est parti</button></div></div>`, back, 'Olympiade blanche');
+    $('#st').onclick = () => { qi = 0; ask(); };
+  };
+  const ask = () => {
+    const r = rounds[ri], it = r.items[qi]; it.state = undefined; it.locked = false; left = r.sec; closed = false;
+    app.innerHTML = habiller(`<div class="exam-bar"><span class="timer" id="tm">${fmtT(left)}</span><span>${r.nom.replace(' · ', ' — ')}</span><span>Question ${qi + 1} / ${r.items.length}</span><span>Score : <b id="sc">${total}</b></span></div>
+      <div class="olp-track"><i id="tk" style="width:100%"></i></div>
+      <div class="ex-card examsheet" id="host"></div><p class="flash-fb" id="fb"></p><div class="btns" id="vb" style="justify-content:center"></div>`, back, 'Olympiade blanche');
+    const host = $('#host');
+    const nxt = () => { if (!$('#nx')) return; qi++; if (qi < r.items.length) ask(); else { ri++; if (ri < rounds.length) intro(); else finish(); } };
+    const settle = timedOut => {
+      if (closed) return; closed = true; clearInterval(timer);
+      const g = X.grade(it), ok = g.answered && g.ok; let gain = 0;
+      if (ok) { gain = 10 + Math.min(5, Math.floor(left / 3)); r.pts += gain; r.ok++; total += gain; } else wrong.push({ it, round: r.nom });
+      touchDay(1); X.recordQcm(it, ok); X.reveal(it, host);
+      const fb = $('#fb'); fb.textContent = ok ? `+${gain}` : (timedOut ? 'Temps écoulé' : 'Raté'); fb.className = 'flash-fb ' + (ok ? 'good' : 'bad'); $('#sc').textContent = total;
+      if (ok) E.sfx.win(); else E.sfx.lose();
+      $('#vb').innerHTML = '<button class="btn" id="nx">Suivant →</button>'; $('#nx').onclick = nxt; setTimeout(() => { if ($('#nx') && closed) nxt(); }, ok ? 1100 : 2600);
+    };
+    X.mount(it, host, { onChange: () => { if (it.kind !== 'trous' && it.kind !== 'qro' && X.grade(it).answered) settle(false); }, onEnter: () => { if (X.grade(it).answered) settle(false); } });
+    if (it.kind === 'trous' || it.kind === 'qro') { $('#vb').innerHTML = '<button class="btn" id="vl">Valider</button>'; $('#vl').onclick = () => { if (X.grade(it).answered) settle(false); }; }
+    timer = setInterval(() => { if (!$('#tm')) { clearInterval(timer); return; } left--; $('#tm').textContent = fmtT(left); $('#tk').style.width = (left / r.sec * 100) + '%'; if (left <= 5) $('#tm').classList.add('warn'); if (left <= 0) settle(true); }, 1000);
+  };
+  const finish = () => {
+    const max = rounds.reduce((n, r) => n + r.items.length * 15, 0);
+    ET.olymp.push({ date: Date.now(), titre, score: total, max, c }); log('olympiade', { course: c, score: total, max, xp: 30 + Math.round(total / 4) });
+    const ratio = total / max; if (ratio >= .5) E.confetti(ratio >= .75 ? 160 : 70);
+    const verdict = ratio >= .75 ? 'Niveau podium' : ratio >= .5 ? 'Solide' : ratio >= .3 ? 'En progression' : 'À retravailler';
+    const srcs = {}; wrong.forEach(w => { const sr = (w.it.src || '').split(' · ').pop() || '—'; srcs[sr] = (srcs[sr] || 0) + 1; });
+    const weak = Object.entries(srcs).sort((x, y) => y[1] - x[1]).slice(0, 5);
+    app.innerHTML = habiller(`<div class="done">${E.cheer(ratio)}<h1>${verdict}</h1><p class="stampbig big ${ratio >= .5 ? 'ok' : 'ko'}" style="font-size:clamp(40px,9vw,64px);display:inline-block;font-family:var(--display);font-weight:800">${total} points</p><p>sur ${max} possibles</p></div>
+      <div class="kgrid">${rounds.map(r => `<div class="kpi"><b>${r.ok} / ${r.items.length}</b><span>${r.nom.split(' · ')[1]} · ${r.pts} pts</span></div>`).join('')}</div>
+      ${weak.length ? `<div class="card" style="margin-bottom:24px"><h3 style="margin:0 0 8px">Le coach te conseille de revoir</h3>${weak.map(([sr, n]) => `<p style="margin:4px 0">• ${esc(sr)} <small class="muted">(${n} erreur${n > 1 ? 's' : ''})</small></p>`).join('')}</div>` : '<div class="card" style="margin-bottom:24px"><h3 style="margin:0">Sans faute : bravo</h3></div>'}
+      <h2 class="sec"><span class="lbl l2">Les erreurs, corrigées</span></h2>
+      ${wrong.length ? wrong.map((w, k) => `<div class="card corr bad" style="margin-bottom:16px"><small>${esc(w.round)} · ${esc(w.it.src || '')}</small><div id="w${k}"></div></div>`).join('') : '<p class="onmat">Aucune erreur.</p>'}
+      <div class="btns"><a class="btn" href="#/olympiade/run${qs({ c, r: Date.now() })}">Rejouer</a><a class="btn ghost" href="${back}">Retour</a></div>`, back, 'Olympiade blanche');
+    wrong.forEach((w, k) => { X.mount(w.it, $('#w' + k), {}); X.reveal(w.it, $('#w' + k)); });
+  };
+  intro();
+}
+
+/* ---------- Plan de révision ---------- */
+const DJ = 86400000;
+const minuit = d => { const x = new Date(d); x.setHours(0, 0, 0, 0); return x; };
+const parseJ = t => { const [y, m, d] = t.split('-').map(Number); return new Date(y, m - 1, d); };
+const isoJ = d => d.toLocaleDateString('sv');
+const ecartJ = (a, b) => Math.round((minuit(b) - minuit(a)) / DJ);
+function planCours(pk, dateStr) {
+  const exam = parseJ(dateStr), now = minuit(new Date()), D_ = ecartJ(now, exam); if (D_ < 0 || !pk.chapitres.length) return {};
+  const out = {}, add = (k, t) => { const d = isoJ(new Date(now.getTime() + k * DJ)); (out[d] ||= []).push({ ...t, course: pk.id, ctitle: pk.court || pk.titre }); };
+  const chs = pk.chapitres, N = chs.length, base = `#/cours/${pk.id}`;
+  add(D_, { kind: 'jourj', label: 'Jour J : relis les résumés en une phrase, une dernière passe de flashcards.', href: `${base}?t=resume&n=court` });
+  if (D_ >= 1) add(D_ - 1, { kind: 'veille', label: 'Veille : points faibles + flashcards à revoir. Couche-toi tôt.', href: '#/quiz/run?faibles=1' });
+  if (D_ >= 2) add(D_ - 2, { kind: 'blanc', label: 'Examen blanc complet (20 questions), puis corrige-le à fond.', href: `#/examen/run?c=${pk.id}&n=20` });
+  const R = Math.max(0, D_ - 2); if (!R) return out;
+  const L = Math.max(1, Math.min(N, Math.round(R * 0.55))), perDay = Math.ceil(N / L);
+  for (let j = 0; j < L; j++) {
+    const grp = chs.slice(j * perDay, (j + 1) * perDay); if (!grp.length) continue;
+    add(j, { kind: 'apprendre', label: `Apprendre : ${grp.map(c => nomChap(c.titre)).join(' ; ')}`, href: `${base}?t=fiches&ch=${grp[0].id}` });
+    add(j, { kind: 'cartes', label: `Flashcards : ${grp.length > 1 ? 'ces chapitres' : 'ce chapitre'}`, href: `#/flashcards/run?cours=${pk.id}` });
+  }
+  for (let k = 0; k < R - L; k++) {
+    const a = chs[(k * 2) % N], b = chs[(k * 2 + 1) % N];
+    add(L + k, { kind: 'quiz', label: `Quiz et exercices : ${nomChap(a.titre)}${b && b !== a ? ' + ' + nomChap(b.titre) : ''}`, href: `#/quiz/run?cours=${pk.id}` });
+    add(L + k, { kind: 'jeu', label: ['Un jeu pour fixer le vocabulaire (Memory, Mot mystère)', 'Des exercices à trous et de calcul', 'Vrai/Faux éclair + Défi 60 s'][k % 3], href: ['#/jeux', `#/exercices?c=${pk.id}`, '#/jeux/vf'][k % 3] });
+  }
+  return out;
+}
+const agendaComplet = () => { const ag = {}; Object.entries(ET.examDates).forEach(([id, ds]) => { const pk = (tousCours || []).find(x => x.id === id); if (!pk || !ds) return; Object.entries(planCours(pk, ds)).forEach(([d, ts]) => (ag[d] ||= []).push(...ts)); }); return ag; };
+const cleTache = (d, t, i) => `${d}|${t.course}|${t.kind}|${i}`;
+const libJour = d => { const n = ecartJ(new Date(), parseJ(d)), nm = parseJ(d).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }); return n === 0 ? `Aujourd'hui · ${nm}` : n === 1 ? `Demain · ${nm}` : nm; };
+const ICONE_PLAN = { jourj: 'flag', veille: 'moon', blanc: 'clipboard-check', apprendre: 'book-open', cartes: 'layers', quiz: 'circle-check', jeu: 'gamepad-2' };
+views.planning = async () => {
+  const packs = await chargerTousCours(); const ag = agendaComplet(), jours = Object.keys(ag).sort(), auj = isoJ(new Date());
+  const proches = packs.filter(pk => ET.examDates[pk.id] && ecartJ(new Date(), parseJ(ET.examDates[pk.id])) >= 0);
+  const toutes = jours.flatMap(d => ag[d].map((t, i) => cleTache(d, t, i))), faites = toutes.filter(k => ET.planDone[k]).length;
+  return { title: 'Plan de révision', html: `
+    <h1 class="h1">${lbls('Plan de révision')}</h1><span class="hand">Donne la date de ton examen : le plan répartit les jours.</span>
+    <div class="card" style="margin-top:22px"><h3 style="margin:0 0 8px">Mes échéances</h3>${packs.map(pk => { const ds = ET.examDates[pk.id] || '', n = ds ? ecartJ(new Date(), parseJ(ds)) : null;
+      return `<div class="exrow"><span class="nm">${esc(pk.court || pk.titre)}</span><input type="date" data-id="${esc(pk.id)}" value="${ds}" min="${auj}">${n != null ? `<b class="${n <= 7 ? 'ko' : ''}">${n < 0 ? 'passé' : n === 0 ? 'aujourd\'hui' : 'J−' + n}</b>` : '<span class="muted">date ?</span>'}</div>`; }).join('')}</div>
+    ${proches.length ? `<div class="bar" style="max-width:none;margin-top:22px;background:rgba(255,255,255,.25)"><i style="width:${toutes.length ? faites / toutes.length * 100 : 0}%;background:var(--y)"></i></div><p class="onmat" style="margin:6px 0 20px">${faites} / ${toutes.length} tâches faites</p>` : ''}
+    <div style="display:grid;gap:22px;margin-top:22px">${jours.length ? jours.slice(0, 21).map(d => `<div class="card day ${d === auj ? 'istoday' : ''}"><h3>${esc(libJour(d))}</h3>${ag[d].map((t, i) => { const k = cleTache(d, t, i); return `<label class="task ${ET.planDone[k] ? 'done' : ''}"><input type="checkbox" data-k="${esc(k)}" ${ET.planDone[k] ? 'checked' : ''}><span class="ico">${ic(ICONE_PLAN[t.kind])}</span><span class="tx"><b>${esc(t.ctitle)}</b> — ${esc(t.label)} <a href="${t.href}">Ouvrir →</a></span></label>`; }).join('')}</div>`).join('') + (jours.length > 21 ? '<p class="onmat">… la suite du plan apparaîtra au fil des jours.</p>' : '') : '<p class="onmat">Aucune date enregistrée (ou elles sont passées). Choisis une date ci-dessus pour générer ton plan.</p>'}</div>`,
+    after() {
+      $$('input[type=date]').forEach(i => i.onchange = () => { if (i.value) ET.examDates[i.dataset.id] = i.value; else delete ET.examDates[i.dataset.id]; sauver(); render(); });
+      $$('.task input').forEach(c => c.onchange = () => { if (c.checked) ET.planDone[c.dataset.k] = 1; else delete ET.planDone[c.dataset.k]; sauver(); c.closest('.task').classList.toggle('done', c.checked); });
+    } };
+};
+
+/* ---------- Guide de prise en main ---------- */
+const GUIDE = [
+  { ic: 'graduation-cap', t: 'Bienvenue', href: '#/', p: ['Cette plateforme est gratuite et sans compte. Elle réunit <b>10 cours</b> sur le marché financier de la CEMAC, les <b>textes officiels</b> avec leurs PDF, des exercices, des jeux et des examens blancs.', 'Ce guide prend deux minutes. Tu peux le revoir à tout moment depuis le pied de page.'] },
+  { ic: 'library', t: 'La bibliothèque : tes 11 livres', href: '#/bibliotheque', p: ['L\'étagère montre les cours : <b>Le cadre</b>, Entrer en bourse, Appel public, Placement privé, Vie du titre, Ordre et dénouement, Intermédiaires, Fonds, Conformité, Repères, Épreuves.', 'Commence par <b>Le cadre</b>. La barre de recherche trouve aussi bien un cours qu\'un texte.'] },
+  { ic: 'lightbulb', t: 'Apprendre un cours', href: '#/cours/p0-cadre', p: ['Les onglets se lisent dans cet ordre : <b>Résumé</b> (l\'essentiel) → <b>Fiches</b> (le détail, avec les articles) → <b>Schémas</b> animés → <b>Le coach insiste</b> (les pièges) → <b>Glossaire</b>.', 'L\'onglet <b>Textes</b> donne les textes officiels du thème, avec leur statut et leur PDF. Termine par le <b>Quiz</b> du cours : on retient mieux en répondant.'] },
+  { ic: 'clipboard-list', t: 'Retrouver un délai, un montant', href: '#/pratiquer', p: ['<b>Pratiquer</b> liste les délais, montants, rôles et définitions de tous les textes, avec l\'article. <b>Chercher</b> balaie les textes ET les cours, avec tolérance aux accents et aux fautes.', 'Chaque texte indique s\'il est <b>en vigueur</b> ou <b>abrogé</b>, et propose le PDF officiel.'] },
+  { ic: 'layers', t: 'Réviser avec les flashcards', href: '#/flashcards', p: ['Tu lis la question, tu réponds dans ta tête, tu retournes la carte et tu notes : À revoir, Difficile, Bien, Facile.', 'Les cartes ratées reviennent vite, les cartes sues de plus en plus tard. <b>10 minutes par jour</b> valent mieux que 2 heures la veille.'] },
+  { ic: 'pencil-line', t: 'Exercices, jeux et quiz', href: '#/exercices', p: ['<b>Exercices</b> : textes à trous, réponses ouvertes (QRO), calculs, classements, remises dans l\'ordre. <b>Jeux</b> : Memory, vrai/faux éclair, mot mystère, défi de 60 secondes.', 'Le quiz « points faibles » refait les questions que tu rates.'] },
+  { ic: 'trophy', t: 'Olympiade blanche et examen blanc', href: '#/olympiade', p: ['<b>Olympiade blanche</b> : quatre manches chronométrées avec des points et un bonus de vitesse.', '<b>Examen blanc</b> : une note sur 20 et une correction détaillée. Fais-en un par semaine, puis relis tes erreurs.'] },
+  { ic: 'calendar-days', t: 'Plan et progrès', href: '#/planning', p: ['Dans <b>Plan de révision</b>, indique la date de ton examen : la plateforme répartit chapitres, quiz et examen blanc jusqu\'au jour J.', '<b>Progrès</b> montre ton niveau, ta série de jours, tes badges et ta maîtrise par cours.'] },
+  { ic: 'cloud', t: 'Compte facultatif', href: '#/compte', p: ['Ta progression reste sur ton appareil. Pour la retrouver ailleurs, crée un <b>compte</b> (e-mail et mot de passe) : tout est sauvegardé et synchronisé.'] },
+  { ic: 'flag', t: 'Ta routine conseillée', href: '#/cours/p0-cadre', p: ['<b>Chaque jour</b> : 1) les flashcards à réviser, 2) un chapitre (résumé, fiches, quiz), 3) une série d\'exercices.', '<b>Chaque semaine</b> : une Olympiade blanche et un examen blanc, puis relire les erreurs.'] },
+];
+function tourGuide(from = 0) {
+  if ($('#gdtour')) return; let i = from;
+  const el = document.createElement('div'); el.id = 'gdtour'; el.className = 'gd-back'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', 'Guide de prise en main');
+  document.body.appendChild(el);
+  const onKey = e => { if (e.key === 'Escape') close(); }; const close = () => { document.removeEventListener('keydown', onKey); el.remove(); };
+  document.addEventListener('keydown', onKey);
+  const draw = () => { const st = GUIDE[i], last = i === GUIDE.length - 1;
+    el.innerHTML = `<div class="gd-card"><button class="gd-x" id="gdx" aria-label="Fermer le guide">${ic('x')}</button>
+      <div class="gd-head">${E.perso('kofi', i === 0 ? 'lol' : 'joy', 84, { fixe: true })}<div class="gd-hi">${i === 0 ? 'Salut !' : 'Le coach t\'explique'}</div></div>
+      <div class="gd-body"><div class="gd-ico">${ic(st.ic)}</div><small class="gd-n">Étape ${i + 1} sur ${GUIDE.length}</small><h2>${st.t}</h2>${st.p.map(x => `<p>${x}</p>`).join('')}</div>
+      <div class="gd-dots">${GUIDE.map((_, k) => `<button class="${k === i ? 'on' : ''}" data-k="${k}" aria-label="Étape ${k + 1}"></button>`).join('')}</div>
+      <div class="gd-btns">${i > 0 ? '<button class="btn ghost" id="gdp">← Précédent</button>' : '<button class="btn ghost" id="gdskip">Passer</button>'}${last ? '<button class="btn" id="gdgo">Commencer</button>' : '<button class="btn" id="gdn">Suivant →</button>'}</div></div>`;
+    $('#gdx', el).onclick = close; $$('.gd-dots button', el).forEach(b => b.onclick = () => { i = +b.dataset.k; draw(); });
+    $('#gdp', el)?.addEventListener('click', () => { i--; draw(); }); $('#gdn', el)?.addEventListener('click', () => { i++; draw(); }); $('#gdskip', el)?.addEventListener('click', close);
+    $('#gdgo', el)?.addEventListener('click', () => { close(); location.hash = st.href; }); $('.gd-btns .btn:last-child', el).focus(); };
+  draw();
+}
+views.guide = async () => ({ title: 'Guide', html: `
+  <h1 class="h1">${lbls('Guide de prise en main')}</h1><span class="hand">Comment utiliser la plateforme, pas à pas.</span>
+  <div class="btns" style="justify-content:flex-start;margin:22px 0"><button class="btn" id="gdstart">${ic('play')} Lancer le tutoriel</button></div>
+  <div class="gd-grid">${GUIDE.map((st, i) => `<article class="gd-step"><div class="gd-ico">${ic(st.ic)}</div><small class="gd-n">Étape ${i + 1}</small><h3>${st.t}</h3>${st.p.map(x => `<p>${x}</p>`).join('')}${st.href ? `<a class="btn ghost sm" href="${st.href}">Y aller →</a>` : ''}</article>`).join('')}</div>`,
+  after() { $('#gdstart').onclick = () => tourGuide(0); } });
+
+/* ---------- Mon espace : mission du jour, défis du jour, mot du jour (accueil d'Excellence) ---------- */
+const hashJ = t => { let h = 7; for (const c of String(t)) h = (h * 33 + c.charCodeAt(0)) >>> 0; return h; };
+const auj_ = () => new Date().toLocaleDateString('sv');
+const sommeJ = a => a.reduce((x, y) => x + y, 0);
+const DEFIS = [
+  { id: 'flash', ic: 'layers', txt: 'Réviser 10 flashcards', xp: 30, max: 10, href: '#/flashcards/run', prog: h => Math.min(10, sommeJ(h.filter(x => x.type === 'flash').map(x => x.n))) },
+  { id: 'quiz', ic: 'circle-check', txt: 'Réussir un quiz à 70 %', xp: 40, max: 1, href: '#/quiz/run', prog: h => h.some(x => x.type === 'quiz' && x.max && x.score / x.max >= .7) ? 1 : 0 },
+  { id: 'game', ic: 'gamepad-2', txt: 'Jouer à un jeu', xp: 25, max: 1, href: '#/jeux', prog: h => h.some(x => x.type === 'game') ? 1 : 0 },
+  { id: 'exo', ic: 'pencil-line', txt: 'Finir une série d\'exercices', xp: 30, max: 1, href: '#/exercices', prog: h => h.some(x => x.type === 'exo') ? 1 : 0 },
+  { id: 'weak', ic: 'target', txt: 'Refaire un quiz « points faibles »', xp: 40, max: 1, href: '#/quiz/run?faibles=1', prog: h => h.some(x => x.type === 'quiz' && x.faibles) ? 1 : 0 },
+  { id: 'defi', ic: 'rocket', txt: 'Marquer 60 points au Défi 60 s', xp: 40, max: 1, href: '#/jeux/defi', prog: h => h.some(x => x.type === 'game' && x.game === 'defi' && x.score >= 60) ? 1 : 0 },
+];
+function defisDuJour(weak) {
+  const d = auj_(), H = ET.history.filter(h => new Date(h.t).toLocaleDateString('sv') === d);
+  return DEFIS.filter(x => x.id !== 'weak' || weak).sort((a, b) => hashJ(d + a.id) - hashJ(d + b.id)).slice(0, 3).map(x => { const p = x.prog(H); return { ...x, p, done: p >= x.max }; });
+}
+const carteMot = d => d ? `<div class="wotd-in"><span class="lbl l2 wl">Mot du jour</span><h3 class="wterm"><span class="lbl l1">${esc(d.terme)}</span></h3><p>${esc(d.definition)}</p><small class="wsrc">${esc(d.pk.court || d.pk.titre)}</small></div>` : '';
+async function monEspace() {
+  const packs = await chargerTousCours(), toutes = cartesDeCours(packs, ''), due = toutes.filter(estDue).length, weak = Object.keys(ET.errors).length, serie = serieJours();
+  const defs = packs.flatMap(pk => pk.chapitres.flatMap(c => (c.definitions || []).map(d => ({ ...d, pk })))), defis = defisDuJour(weak > 0);
+  const prochain = packs.filter(pk => ET.examDates[pk.id]).map(pk => ({ pk, n: ecartJ(new Date(), parseJ(ET.examDates[pk.id])) })).filter(x => x.n >= 0).sort((a, b) => a.n - b.n)[0];
+  const html = `<section class="mission"><h2 class="sec"><span class="lbl l2">Ta mission du jour</span></h2>
+      <div class="notes"><a class="mnote n1" href="#/flashcards/run"><b>${due}</b><span>carte${due > 1 ? 's' : ''} à réviser</span><small>${due ? 'c\'est parti !' : 'tout est à jour'}</small></a>
+        <a class="mnote n2" href="#/progres">${ic('flame')}<b>${serie}</b><span>jour${serie > 1 ? 's' : ''} de suite</span><small>${serie ? 'ne casse pas la série' : 'lance ta série !'}</small></a>
+        <a class="mnote n3" href="#/planning">${ic('calendar-days')}<b>${prochain ? 'J−' + prochain.n : '?'}</b><span>${prochain ? esc(prochain.pk.court || prochain.pk.titre) : 'prochain examen'}</span><small>${prochain ? 'ouvre ton plan' : 'ajoute une date'}</small></a></div>
+      <div class="cta"><div class="coachbox">${E.perso('samir', 'cheeky', 150, { fixe: true })}<span class="say">On y va ?</span></div>
+        <div class="ctabtns"><a class="btn" href="#/flashcards/run">Lancer la session du jour</a>${weak ? `<a class="btn ghost" href="#/quiz/run?faibles=1">Mes points faibles (${weak})</a>` : ''}<a class="btn ghost" href="#/examen">Examen blanc</a><a class="btn ghost" href="#/olympiade">Olympiade blanche</a></div></div></section>
+    <section class="quests"><h2 class="sec"><span class="lbl l6">Défis du jour</span></h2><div class="qlist">${defis.map(x => `<a class="quest ${x.done ? 'done' : ''}" href="${x.href}"><span class="qi">${ic(x.done ? 'check' : x.ic)}</span><span class="qt"><b>${esc(x.txt)}</b><small>${x.max > 1 ? `${x.p} / ${x.max}` : (x.done ? 'fait !' : 'à faire')} · +${x.xp} pts</small></span>${x.done ? '<em class="qstamp">FAIT</em>' : ''}</a>`).join('')}</div></section>
+    <section class="duo"><div class="wotd" id="wotd">${carteMot(defs[hashJ(auj_()) % (defs.length || 1)])}<button class="btn ghost sm" id="nw">${ic('refresh-cw')} Un autre mot</button></div></section>`;
+  const bonus = (ET.bonus ||= {});
+  if (defis.length === 3 && defis.every(x => x.done) && !bonus[auj_()]) { bonus[auj_()] = 1; log('bonus', { xp: 50 }); setTimeout(() => { E.confetti(160); E.sfx.win(); }, 500); }
+  return { html, defs };
+}
+
 /* ---------- Jeux (repris de la plateforme Excellence) ---------- */
 const GAMES = {
   memory: { ico: 'layers', nom: 'Memory', desc: 'Retrouve les paires terme ↔ définition le plus vite possible.', unit: 'coups', low: true },
@@ -860,6 +1049,7 @@ views.jeux = async (a, q) => {
     <div class="tiles">${Object.entries(GAMES).map(([k, g]) => { const sc = ET.scores[k + ':' + (th || 'all')];
       return `<a class="tile" href="#/jeux/${k}${qs({ theme: th })}"><span class="ico">${ic(g.ico)}</span><h3>${g.nom}</h3><p>${g.desc}</p><small>${sc != null ? `Record : <b>${sc} ${g.unit}</b>` : 'Pas encore joué'}</small></a>`; }).join('')}
       <a class="tile" href="#/exercices"><span class="ico">${ic('pencil-line')}</span><h3>Exercices</h3><p>Trous, calculs, classements : on s'entraîne pour de vrai.</p><small>Voir les exercices →</small></a>
+      <a class="tile" href="#/olympiade"><span class="ico">${ic('trophy')}</span><h3>Olympiade blanche</h3><p>Quatre manches chronométrées, points et bonus de vitesse.</p><small>${ET.olymp.length ? ET.olymp.length + ' jouée' + (ET.olymp.length > 1 ? 's' : '') : 'Pas encore jouée'}</small></a>
       <a class="tile" href="#/examen"><span class="ico">${ic('clipboard-check')}</span><h3>Examen blanc</h3><p>Chrono, note sur 20 et correction détaillée.</p><small>${ET.exams.length ? ET.exams.length + ' passé' + (ET.exams.length > 1 ? 's' : '') : 'Pas encore passé'}</small></a></div>`,
     after() { $('#gt').addEventListener('change', e => { location.hash = '#/jeux' + qs({ theme: e.target.value }); }); } };
 };
@@ -1007,9 +1197,9 @@ function ordreGame(th, app) {
 const NIVEAUX = [[0, 'Curieux'], [100, 'Apprenti'], [300, 'Studieux'], [600, 'Assidu'], [1000, 'Confirmé'], [1600, 'Expert'], [2400, 'Maître'], [3500, 'Major de promo']];
 const niveau = xp => { let i = 0; NIVEAUX.forEach(([t], k) => { if (xp >= t) i = k; }); const cur = NIVEAUX[i][0], nxt = NIVEAUX[i + 1]?.[0]; return { n: i + 1, name: NIVEAUX[i][1], cur, nxt, pct: nxt ? (xp - cur) / (nxt - cur) * 100 : 100 }; };
 const jourCourt = t => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
-const ICONE_H = { quiz: 'circle-check', game: 'gamepad-2', flash: 'layers', exo: 'pencil-line', exam: 'clipboard-check' };
-const titreH = h => h.type === 'game' ? (GAMES[h.game]?.nom || 'Jeu') : h.type === 'quiz' ? 'Quiz' : h.type === 'exo' ? 'Exercices' : h.type === 'exam' ? 'Examen blanc' : 'Flashcards';
-const scoreH = h => h.type === 'exam' ? `${h.score.toFixed(1)} / 20` : h.type === 'flash' ? `${h.n} cartes` : h.type === 'game' ? (h.game === 'memory' ? `${h.score} coups` : `${h.score} pts`) : `${h.score} / ${h.max}`;
+const ICONE_H = { quiz: 'circle-check', game: 'gamepad-2', flash: 'layers', exo: 'pencil-line', exam: 'clipboard-check', olympiade: 'trophy', bonus: 'award' };
+const titreH = h => h.type === 'game' ? (GAMES[h.game]?.nom || 'Jeu') : h.type === 'quiz' ? 'Quiz' : h.type === 'exo' ? 'Exercices' : h.type === 'exam' ? 'Examen blanc' : h.type === 'olympiade' ? 'Olympiade blanche' : h.type === 'bonus' ? 'Défis du jour réussis' : 'Flashcards';
+const scoreH = h => h.type === 'bonus' ? '+50 pts' : h.type === 'olympiade' ? `${h.score} pts` : h.type === 'exam' ? `${h.score.toFixed(1)} / 20` : h.type === 'flash' ? `${h.n} cartes` : h.type === 'game' ? (h.game === 'memory' ? `${h.score} coups` : `${h.score} pts`) : `${h.score} / ${h.max}`;
 const coursH = id => id ? ((coursIdx || []).find(c => c.id === id)?.court || (id === 'textes' ? 'Repères des textes' : nomTheme(id))) : 'Tous les cours';
 const connue = k => (ET.cards[k.id]?.ivl || 0) >= 3;
 function graphBarres(pts) {
@@ -1058,7 +1248,7 @@ views.progres = async () => {
   const H = ET.history, xp = ET.xp || 0, lv = niveau(xp), serie = serieJours();
   const sess = H.filter(h => (h.type === 'quiz' || h.type === 'exo') && h.max).slice(-20).map(h => ({ v: Math.round(h.score / h.max * 100), label: `${titreH(h)} · ${coursH(h.course)} · ${jourCourt(h.t)}` }));
   const rep = Object.keys(ET.quiz).length, ok = Object.values(ET.quiz).filter(v => v === 1).length;
-  await chargerCoursIdx(); const totalCartes = coursIdx.reduce((n, c) => n + c.n.cartes, 0), sues = Object.entries(ET.cards).filter(([k, v]) => k.startsWith('p') && k.includes(':') && (v.ivl || 0) >= 3).length, semaine = H.filter(h => h.t > Date.now() - 7 * DAY).length;
+  const esp = await monEspace(); await chargerCoursIdx(); const totalCartes = coursIdx.reduce((n, c) => n + c.n.cartes, 0), sues = Object.entries(ET.cards).filter(([k, v]) => k.startsWith('p') && k.includes(':') && (v.ivl || 0) >= 3).length, semaine = H.filter(h => h.t > Date.now() - 7 * DAY).length;
   const records = Object.entries(ET.scores).map(([k, v]) => { const [g, c] = k.split(':'); return { g, c, v }; }).filter(r => GAMES[r.g]).sort((a, b) => a.g.localeCompare(b.g));
   const tr = trophees(), obtenus = tr.filter(b => b[3]).length;
   return { title: 'Progrès', html: `
@@ -1066,6 +1256,7 @@ views.progres = async () => {
     <div class="levelcard"><div class="who">${perso('kofi', lv.n >= 3 ? 'lol' : 'joy', 130)}</div>
       <div class="lv"><small>Niveau ${lv.n}</small><h2>${lv.name}</h2><div class="bar" style="max-width:none"><i style="width:${lv.pct}%"></i></div>
       <p class="muted">${xp} points d'expérience${lv.nxt ? ` · encore ${lv.nxt - xp} pour le niveau ${lv.n + 1}` : ' · niveau maximum atteint'}</p></div></div>
+    ${esp.html}
     ${compte() ? '' : `<div class="banner info">${ic('cloud')}<div><strong>Garde ta progression.</strong> Un compte facultatif la sauvegarde et la synchronise entre tes appareils. <a href="#/compte">Créer un compte</a></div></div>`}
     <div class="kgrid">
       <div class="kpi">${ic('flame')}<b>${serie}</b><span>jour${serie > 1 ? 's' : ''} de suite</span></div>
@@ -1082,7 +1273,8 @@ views.progres = async () => {
     <h2 class="sec"><span class="lbl l5">Badges</span></h2><div class="trophies">${tr.map(([i, n, d, o]) => `<div class="trophy ${o ? 'on' : ''}">${ic(i)}<b>${n}</b><small>${d}</small></div>`).join('')}</div>
     <h2 class="sec"><span class="lbl l2">Historique récent</span></h2>${H.length ? `<div class="card hist2">${[...H].reverse().slice(0, 25).map(h => `<div class="hrow">${ic(ICONE_H[h.type] || 'activity')}<span class="nm"><b>${esc(titreH(h))}</b> <small class="muted">${esc(coursH(h.course))}</small></span><b class="sc">${scoreH(h)}</b><small class="muted">${jourCourt(h.t)}</small></div>`).join('')}</div>` : '<p class="onmat">Ton historique apparaîtra ici.</p>'}
     <div style="margin-top:34px"><button class="btn ghost" id="reset">Réinitialiser ma progression</button></div>`,
-    after() { $('#reset').onclick = () => { if (confirm('Effacer toute ta progression (scores, historique, niveau) ?')) { for (const k of Object.keys(ET)) delete ET[k]; Object.assign(ET, { cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [] }); sauver(); render(); } }; } };
+    after() { $('#nw')?.addEventListener('click', () => { const d = esp.defs[Math.floor(Math.random() * esp.defs.length)]; $('#wotd .wotd-in').outerHTML = carteMot(d); E.sfx.pop(); $('#wotd .wotd-in')?.classList.add('flipin'); });
+      $('#reset').onclick = () => { if (confirm('Effacer toute ta progression (scores, historique, niveau) ?')) { for (const k of Object.keys(ET)) delete ET[k]; Object.assign(ET, { cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [], olymp: [], examDates: {}, planDone: {} }); sauver(); render(); } }; } };
 };
 
 /* ---------- Découvrir et Comprendre : guides rédigés, chaque fait renvoie à son article ---------- */
@@ -1130,7 +1322,7 @@ const api = async (chemin, o = {}) => {
 const compte = () => store.get('compte', null);
 function majIconeCompte() { const a = $('.acct'); if (!a) return; const c = compte(); a.classList.toggle('on', !!c); a.title = c ? 'Compte : ' + c.email : 'Compte (facultatif)'; }
 function fusionner(dist) {
-  const d = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [] }, dist || {});
+  const d = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {}, exams: [], olymp: [], examDates: {}, planDone: {} }, dist || {});
   for (const [id, c] of Object.entries(d.cards || {})) { const l = ET.cards[id]; if (!l || (c.reps || 0) > (l.reps || 0) || ((c.reps || 0) === (l.reps || 0) && (c.due || 0) > (l.due || 0))) ET.cards[id] = c; }
   for (const [id, v] of Object.entries(d.quiz || {})) ET.quiz[id] = Math.max(ET.quiz[id] ?? 0, v);
   for (const [id, v] of Object.entries(d.errors || {})) ET.errors[id] = Math.max(ET.errors[id] || 0, v);
@@ -1139,6 +1331,8 @@ function fusionner(dist) {
   for (const h of d.history || []) if (!vus.has(h.t + '|' + h.type)) ET.history.push(h);
   ET.history.sort((a, b) => a.t - b.t); ET.history = ET.history.slice(-600);
   ET.xp = Math.max(ET.xp || 0, d.xp || 0);
+  { const vo = new Set((ET.olymp || []).map(e => e.date)); ET.olymp = [...(ET.olymp || []), ...(d.olymp || []).filter(e => !vo.has(e.date))].sort((a, b) => a.date - b.date).slice(-60); }
+  ET.examDates = { ...(d.examDates || {}), ...(ET.examDates || {}) }; ET.planDone = { ...(d.planDone || {}), ...(ET.planDone || {}) };
   { const vd = new Set((ET.exams || []).map(e => e.date)); ET.exams = [...(ET.exams || []), ...(d.exams || []).filter(e => !vd.has(e.date))].sort((a, b) => a.date - b.date).slice(-60); }
   for (const [k, v] of Object.entries(d.scores || {})) { const bas = GAMES[k.split(':')[0]]?.low; const l = ET.scores[k]; if (l == null || (bas ? v < l : v > l)) ET.scores[k] = v; }
 }
@@ -1233,7 +1427,7 @@ views.apropos = async () => ({ title: 'À propos', html: `
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', exercices: 'exercices', examen: 'examen', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');

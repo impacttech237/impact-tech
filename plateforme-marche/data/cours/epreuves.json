@@ -1,0 +1,661 @@
+{
+ "id": "epreuves",
+ "titre": "Épreuves : cas pratiques et grand oral",
+ "matiere": "Olympiades COSUMAF",
+ "couleur": "navy",
+ "enseignant": "Cas rédigés par Claude à partir des parcours",
+ "court": "Épreuves",
+ "description": "Douze cas pratiques résolus, huit sujets de grand oral avec plan et questions de jury, et trente-sept questions de mise en situation.",
+ "chapitres": [
+  {
+   "id": "e1-cas-pratiques",
+   "titre": "Cas pratiques : la méthode et 12 cas résolus",
+   "resume": {
+    "court": "Raisonner en trois temps (base juridique, analyse, recommandation) et s'entraîner sur 12 cas concrets.",
+    "moyen": "L'épreuve de cas pratique se gagne par la méthode : qualifier, poser le cadre, analyser, comparer, recommander. Douze cas résolus couvrent les grandes opérations : choix du compartiment, première cotation, appel public, placement privé, offre publique, ordre de bourse, création d'une SDB, d'un FCP, abus de marché, LBC/FT, calendrier de conformité, radiation.",
+    "long": "Chaque cas suit le même schéma : situation, raisonnement en trois temps, recommandation et piège. L'objectif est de montrer au jury que tu relies un fait à une règle, que tu chiffres, que tu proposes une alternative et que tu signales ce qui reste à vérifier."
+   },
+   "fiches": [
+    {
+     "titre": "Le réflexe en trois temps",
+     "contenu": "Un cas pratique n'est pas un QCM : le jury veut voir **comment tu raisonnes**. Pour chaque cas, trois temps, toujours dans cet ordre :\n\n| Temps | Question à te poser | Exemple de phrase |\n|---|---|---|\n| **1. Base juridique** | Quelle règle s'applique, qui est compétent ? | « Selon le Règlement Général, c'est la COSUMAF qui délivre le visa… » |\n| **2. Analyse** | Les faits remplissent-ils les conditions ? Que se passe-t-il pour l'émetteur, l'investisseur, l'intermédiaire ? | « Avec 120 actionnaires, la société dépasse le minimum de 100 du compartiment B… » |\n| **3. Recommandation** | Que fait-on, dans quel ordre, avec quelles conditions ? | « Je recommande le compartiment B, sous réserve de… » |"
+    },
+    {
+     "titre": "Les cinq étapes d'un cas complexe",
+     "contenu": "1. **Qualifier** : qui sont les acteurs, quel est l'instrument, quelle est l'opération ? (une cession n'est pas une émission ; un placement privé n'est pas un APE)\n2. **Poser le cadre** : ce qui est certain, et ce qu'il faut vérifier au texte\n3. **Analyser** : effets sur les fonds propres, la dette, le contrôle, la liquidité\n4. **Comparer** : toujours au moins une alternative\n5. **Recommander** : une décision, ses conditions, ses risques résiduels"
+    },
+    {
+     "titre": "La règle d'or : signaler la réserve",
+     "contenu": "Quand tu n'es pas certain d'un seuil, d'un délai ou d'un numéro d'article, **dis-le** : « ce seuil est à vérifier dans le texte en vigueur ». Un chiffre inventé est une faute ; une réserve bien placée est un point.\n\nPièges où la réserve s'impose : le placement privé (ancien régime jusqu'au 31 octobre 2026, nouveau à partir du 1er novembre), la prescription (5 ou 10 ans selon le texte), la conservation LBC/FT (10 ans ou 5 ans selon le texte), jours ouvrés / calendaires / de bourse."
+    },
+    {
+     "titre": "Cas 1 · Quel compartiment pour Kribi Agro SA ?",
+     "contenu": "**Situation.** Kribi Agro SA a un capital libéré de 60 M FCFA, une capitalisation attendue de 6 Md à l'introduction, 15 % du capital diffusé (600 000 titres entre 120 actionnaires), un seul commissaire aux comptes, 1 exercice bénéficiaire sur les 3 derniers et 1 dividende versé. Chiffre d'affaires : 3 Md.\n\n**Raisonnement.**\n- *Base juridique* : Règlement Général de la BVMAC, conditions par compartiment.\n- *Analyse* : le compartiment **A Premium** exige 100 M de capital, 10 Md de capitalisation, 2 CAC, 2 exercices bénéficiaires sur 3 : **refusé**. Le **B Medium** demande 10 M de capital, 5 Md de capitalisation, 15 % de diffusion, 500 000 titres et 100 actionnaires, 1 CAC, 1 exercice bénéficiaire, 1 dividende : **tous les critères sont remplis**. Le compartiment E (PME) est réservé aux petites tailles (CA entre 250 M et 2 Md).\n- *Recommandation* : demander l'admission au **compartiment B Medium**. Prévoir le **contrat d'animation**, obligatoire pour A et B, et un dossier d'admission complet (décision de la BVMAC sous 10 jours de bourse).\n\n**Piège.** Le capital de 60 M dépasse largement le minimum du B : le critère bloquant pour A n'est pas le capital mais la capitalisation et le CA."
+    },
+    {
+     "titre": "Cas 2 · Choisir la procédure de première cotation",
+     "contenu": "**Situation.** Une brasserie régionale veut s'introduire en bourse. Son conseil hésite : fixer un prix unique, ou laisser le marché fixer le prix dans une fourchette.\n\n**Raisonnement.** Il existe 4 procédures de première cotation :\n\n| Procédure | À retenir | Quand la préférer |\n|---|---|---|\n| **OPF** (prix ferme) | prix annoncé, ordres obligatoirement à ce prix | prix déjà bien établi, opération simple |\n| **OPM** (prix minimal) | ordres à cours limité, à ce prix minimal ou plus | on veut un plancher et la possibilité de monter |\n| **OPO** (prix ouvert) | ordres dans une fourchette, le cours résulte de l'offre et de la demande | on veut laisser le marché révéler le prix |\n| **Cotation directe** | cours d'admission fixé dans le document d'information | société déjà connue, diffusion déjà réalisée |\n\n**Recommandation.** Si le conseil veut que la demande fixe le prix : **OPO**. Conditions à rappeler : prix modifiable seulement après accord de la BVMAC, si le document d'information visé le prévoit, avec publication **au moins 3 jours de bourse** avant la clôture des souscriptions ; avis de première cotation publié **au moins 5 jours** avant."
+    },
+    {
+     "titre": "Cas 3 · Le calendrier d'un emprunt obligataire par appel public",
+     "contenu": "**Situation.** Une société anonyme veut lever 4 Md FCFA en obligations auprès du public, en passant par une société de bourse.\n\n**Raisonnement (la chronologie).**\n1. Constituer le **document d'information** (comptes certifiés, utilisation des fonds, risques).\n2. Déposer la demande de **visa** : la COSUMAF instruit en **60 jours ouvrés**, prorogeables de 30.\n3. Diffuser le document ; le visa est valable **90 jours** pour la diffusion et le placement.\n4. Ouvrir les souscriptions : le placement dure **au plus 90 jours calendaires** ; la SDB centralise les souscriptions.\n5. Après la clôture : **virer le produit à l'émetteur sous 8 jours** et publier le **rapport de clôture sous 8 jours**.\n6. Faire admettre les titres à la cote **dans les 30 jours** après l'opération.\n\n**Piège.** Un nouveau document d'information est à diffuser **sous 7 jours** après une erreur ou une inexactitude, **sous 15 jours** après un fait nouveau significatif. Le retard à publier le rapport de clôture coûte jusqu'à 5 M FCFA **par jour**."
+    },
+    {
+     "titre": "Cas 4 · Placement privé ou appel public ? (1er novembre 2026)",
+     "contenu": "**Situation.** Le 15 novembre 2026, une société veut placer des obligations de 600 M FCFA auprès de 60 investisseurs identifiés, chacun souscrivant 15 M.\n\n**Raisonnement.**\n- *Qualifier* : pas de publicité auprès du public, investisseurs identifiés à l'avance : on est du côté du **placement privé**.\n- *Cadre* : à partir du **1er novembre 2026**, le placement privé suppose **moins de 100 investisseurs**, une souscription minimale de **10 M** par investisseur, sans plafond de montant, et pas plus de **2 émissions sur 24 mois**.\n- *Analyse* : 60 investisseurs, 15 M chacun : les conditions sont remplies. L'opération se fait avec un **document d'information simplifié** et un **enregistrement** auprès de la COSUMAF, et non avec un visa.\n- *Recommandation* : placement privé, après avoir vérifié le nombre d'émissions des 24 derniers mois.\n\n**Piège.** Le même projet lancé avant le 1er novembre aurait dépassé le plafond de **40 investisseurs** de l'ancien régime : il aurait fallu un appel public (document d'information visé). Toujours dater l'opération."
+    },
+    {
+     "titre": "Cas 5 · Un actionnaire monte de 28 % à 36 %",
+     "contenu": "**Situation.** Un fonds détient 28 % d'une société cotée. Il achète des titres en bourse et atteint 36 %.\n\n**Raisonnement.**\n- Les seuils de déclaration sont **5 %**, puis **10, 15, 20, 25 et 30 %** ; au passage de chacun, l'actionnaire déclare ses objectifs.\n- Le fonds a franchi **30 %** (déclaration, objectifs sur 6 mois) puis le **tiers** du capital.\n- Au-delà du **tiers**, il doit **informer immédiatement** et **déposer une offre publique portant sur la totalité** des titres restants.\n- Une offre dure **45 jours calendaires au plus** ; si l'initiateur y renonce, **aucune nouvelle offre pendant 6 mois**.\n\n**Recommandation.** Soit déposer l'offre dès le franchissement, soit (si c'est encore possible) ne pas franchir le tiers. Un franchissement non déclaré est une faute sanctionnée (au moins 10 M FCFA)."
+    },
+    {
+     "titre": "Cas 6 · Un ordre par téléphone, un défaut de livraison",
+     "contenu": "**Situation.** Une cliente passe par téléphone un ordre d'achat de 5 000 actions à sa société de bourse. Le jour du dénouement, la SDB ne livre pas les espèces.\n\n**Raisonnement (le circuit).**\n1. La cliente donne l'ordre ; l'ordre téléphonique doit être **confirmé par écrit sous 7 jours** ; un ordre à durée déterminée ne dépasse pas **30 jours**.\n2. La SDB saisit l'ordre dans le carnet de la BVMAC ; il est confronté (fixing ou continu), un cours est coté.\n3. Le **Dépositaire Central** organise le règlement-livraison ; les espèces transitent par la **BEAC**, banque de règlement.\n4. Le **teneur de compte** inscrit les titres au nom de la cliente : c'est cette **inscription en compte** qui transfère la propriété.\n\n**En cas de défaut.** Le Dépositaire Central informe la BVMAC, qui peut déclarer la SDB défaillante et procéder à un **rachat d'office** ; le **Fonds de Garantie du Marché** (FOGAMAF) intervient pour protéger la clientèle.\n\n**Piège.** La propriété ne se transfère pas à l'exécution de l'ordre en bourse, mais à l'inscription en compte."
+    },
+    {
+     "titre": "Cas 7 · Lancer une société de bourse",
+     "contenu": "**Situation.** Un groupe veut créer une SDB pour négocier des titres pour le compte de clients et tenir leurs comptes.\n\n**Raisonnement (ce qu'il faut réunir).**\n- **Capital** : 300 M FCFA, libéré avant l'agrément (1 Md si la SDB veut être dépositaire d'OPC ou spécialiste en valeurs du Trésor).\n- **Dossier d'agrément** à la COSUMAF : accusé de réception sous 10 jours ouvrés, instruction sous **60 jours ouvrés** après dossier complet ; dossier incomplet : compléments à fournir sous 30 jours, faute de quoi rejet.\n- **Membre de la BVMAC** : participation de **40 M** au capital de la bourse ; adhésion à l'association professionnelle (obligatoire) et à son code de bonne conduite.\n- **Personnel** : les personnes qui négocient ou conseillent doivent être **habilitées** et détenir une **carte professionnelle**.\n- **Organisation** : responsable de la conformité et du contrôle interne, traitement des plaintes et des conflits d'intérêts, enregistrement des transactions.\n\n**Après l'ouverture.** Reporting mensuel au plus tard le **15 du mois suivant** ; rapport annuel de contrôle interne et cartographie des risques au plus tard le **31 mars**."
+    },
+    {
+     "titre": "Cas 8 · Créer un FCP : les trois acteurs",
+     "contenu": "**Situation.** Une banque veut lancer un fonds commun de placement en obligations.\n\n**Raisonnement.** Trois acteurs distincts :\n- la **société de gestion (SGO)** : capital de 300 M **et** fonds propres nets d'au moins 300 M ; elle gère un seul type d'OPC ;\n- le **dépositaire** : garde les actifs et contrôle la SGO ; il doit être **unique** et **indépendant** de la SGO ; capital minimal 1 Md FCFA ;\n- l'**OPC lui-même** : un FCP est une copropriété sans personnalité morale, avec un actif minimal de **150 M** (une SICAV exige 300 M de capital).\n\n**Calendrier.** Agrément en **60 jours ouvrés** (récépissé sous 10 jours ouvrés) ; constitution effective dans les **30 jours** ; dépôt et publicité au RCCM sous 30 jours.\n\n**Règle de gestion.** Un OPCVM ne place pas plus de **20 %** sur un même émetteur. Pour une catégorie « obligations », au moins **60 %** de l'actif doit être en obligations."
+    },
+    {
+     "titre": "Cas 9 · Information privilégiée dans un cabinet d'audit",
+     "contenu": "**Situation.** Une assistante d'un cabinet d'audit apprend qu'un client prépare une offre publique d'achat sur une société cotée. Elle achète des titres de la cible la veille de l'annonce et en parle à une amie.\n\n**Raisonnement.**\n1. *Faits à établir* : l'information était-elle **précise**, **non publique**, **susceptible d'influencer le cours** ? Qui savait quoi, quand ? Quelles transactions ? Qu'a dit l'assistante à son amie ?\n2. *Qualification possible* : **opération d'initié** (utilisation de l'information) et **divulgation illicite** (communication à un tiers). L'amie, si elle a opéré, peut aussi être poursuivie.\n3. *Autorités* : la COSUMAF constate le manquement et sanctionne ; les juridictions traitent le volet pénal.\n4. *Conséquences* : sanction pécuniaire d'au moins **10 M FCFA** pour l'initié, procédure contradictoire : griefs notifiés, observations sous 15 jours, décision publiée sous 5 jours ouvrés, recours de 2 mois non suspensif.\n\n**Prévention.** Liste d'initiés, interdiction d'opérer sur les titres des clients, procédure de remontée au responsable de la conformité."
+    },
+    {
+     "titre": "Cas 10 · Un versement en espèces suspect",
+     "contenu": "**Situation.** Un client, sans historique, verse 7 M FCFA en espèces pour souscrire des parts d'OPC, puis demande le rachat deux semaines plus tard.\n\n**Raisonnement.**\n- *Identification* : avant l'entrée en relation, identifier le client **et le bénéficiaire effectif** (pièce officielle, originale, en cours de validité) ; connaître l'objet de la relation.\n- *Risque élevé* : espèces à partir de **5 M FCFA** et **souscription suivie d'un rachat rapide** sont des critères d'alerte. Vigilance renforcée.\n- *Déclaration* : si le soupçon persiste, **déclaration de soupçon à l'ANIF** ; elle est **confidentielle** : on ne prévient jamais le client.\n- *Conservation* : les documents se gardent **10 ans** au titre du Règlement Général et du Règlement CEMAC de décembre 2024 ; l'Instruction 32-24 parle de 5 ans. En cas de divergence, signaler la différence et retenir la règle la plus protectrice.\n\n**Recommandation.** Suspendre le traitement dans l'attente de la décision du responsable LBC/FT, documenter la décision, déclarer à l'ANIF."
+    },
+    {
+     "titre": "Cas 11 · Le calendrier de conformité d'une société de bourse",
+     "contenu": "**Situation.** Le nouveau responsable de la conformité d'une SDB doit établir son calendrier de l'année.\n\n| Échéance | À faire |\n|---|---|\n| **15 de chaque mois** | reporting mensuel à la COSUMAF |\n| **31 janvier** | redevances annuelles de la COSUMAF |\n| **31 mars** | cartographie des risques, rapport annuel de contrôle interne, rapport LBC/FT |\n| **6 mois après la clôture** | assemblée générale |\n| **15 décembre** | liste des cartes professionnelles à renouveler |\n| **au fil de l'eau** | modifications à déclarer : information préalable 30 jours avant pour un intermédiaire ; nouvel agrément ou autorisation préalable selon la nature |\n\n**Rappel.** Une pénalité de retard de **250 000 FCFA par jour** s'applique à la transmission tardive d'un document à la COSUMAF."
+    },
+    {
+     "titre": "Cas 12 · Quitter la cote",
+     "contenu": "**Situation.** Une société cotée au compartiment B veut se retirer de la bourse et reprendre tous les titres.\n\n**Raisonnement.**\n- *Procédure de radiation* : demande **écrite et motivée** de l'émetteur ; la BVMAC instruit et **informe toujours la COSUMAF**. La radiation d'un titre de capital entraîne celle de **tous les titres qui lui sont rattachés**.\n- *Protection des minoritaires* : pour reprendre 100 %, l'initiateur passe par une **offre publique de retrait** puis un **retrait obligatoire** si la barre de **95 %** du capital est atteinte.\n- *Alternatives* : rester coté mais passer d'un compartiment à un autre ; suspension temporaire de cotation à la demande de l'émetteur.\n\n**Piège.** La radiation peut aussi être décidée **par la BVMAC** si les conditions de séjour ne sont plus remplies (diffusion insuffisante, défaut d'information) : l'émetteur peut l'éviter en s'engageant à se mettre en conformité dans un délai fixé."
+    }
+   ],
+   "mnemos": [
+    "Base, Analyse, Recommandation : B-A-R, le « bar » de la réponse."
+   ],
+   "definitions": [
+    {
+     "terme": "Qualification",
+     "definition": "Étape qui consiste à identifier la nature juridique d'une opération (appel public, placement privé, cession, émission) avant d'appliquer une règle."
+    },
+    {
+     "terme": "Recommandation conditionnelle",
+     "definition": "Décision proposée avec ses conditions : sous réserve de vérifications, de prévisions de trésorerie ou d'un scénario dégradé."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Les trois temps de toute réponse à un cas",
+     "verso": "Base juridique, analyse (financière, économique), recommandation opérationnelle."
+    },
+    {
+     "recto": "Les cinq étapes d'un cas complexe",
+     "verso": "Qualifier, poser le cadre, analyser, comparer (au moins une alternative), recommander."
+    },
+    {
+     "recto": "Que faire quand on ne connaît pas un seuil ?",
+     "verso": "Le dire : « à vérifier dans le texte en vigueur », et poursuivre le raisonnement."
+    },
+    {
+     "recto": "Quatre dates qui changent la réponse",
+     "verso": "31 octobre 2026 (fin de l'ancien placement privé), 1er novembre 2026 (nouveau régime), 31 mars (rapports annuels), 15 du mois (reporting mensuel)."
+    }
+   ]
+  },
+  {
+   "id": "e2-grand-oral",
+   "titre": "Grand oral : 20 minutes de soutenance et 15 minutes de jury",
+   "resume": {
+    "court": "Structurer 20 minutes autour d'une problématique, 3 parties et 3 recommandations, puis tenir le jury.",
+    "moyen": "Un bon oral tient en un fil : une problématique, un plan en trois parties, un exemple chiffré par partie, trois recommandations et une limite assumée. Huit sujets préparés couvrent les thèmes probables : relance de l'appel public, introduction d'une PME, placement privé, protection de l'épargnant, dénouement, OPCVM, abus de marché, LBC/FT.",
+    "long": "Pour les questions du jury : reformuler, répondre en commençant par la conclusion, nuancer. Quinze questions types avec réponse courte servent de cartes de révision."
+   },
+   "fiches": [
+    {
+     "titre": "Les 20 minutes : le minutage qui marche",
+     "contenu": "| Durée | Contenu |\n|---|---|\n| **2 min** | accroche + problématique : « pourquoi ce sujet compte pour l'épargnant et l'entreprise ? » |\n| **1 min** | annonce du plan en 3 parties |\n| **12 min** | développement : 3 parties de 4 min, chacune = **règle → mécanisme → exemple chiffré** |\n| **3 min** | recommandations concrètes (3 maximum) et limites |\n| **2 min** | conclusion : réponse en une phrase + ouverture |\n\n**Règles.** Parler à voix posée, une idée par phrase, un chiffre par argument. Ne jamais lire. Regarder le jury, pas les notes."
+    },
+    {
+     "titre": "Répondre aux 15 minutes de questions",
+     "contenu": "Une méthode en **3 temps** pour toute question du jury :\n1. **Reformuler** en une phrase (cela donne 5 secondes de réflexion et montre que tu écoutes) ;\n2. **Répondre** en commençant par la conclusion, puis la règle, puis l'exemple ;\n3. **Nuancer** : « sous réserve de… », « à vérifier dans le texte en vigueur ».\n\n**Si tu ne sais pas** : ne bluffe pas. « Je ne retrouve pas le chiffre exact ; la logique est la suivante… ». Le jury juge le raisonnement.\n\n**Les relances classiques** : « Et dans la pratique ? », « Quel risque pour l'épargnant ? », « Quelle alternative ? », « Qui contrôle ? », « Quel texte ? »."
+    },
+    {
+     "titre": "Sujet 1 · Relancer l'appel public à l'épargne dans la CEMAC",
+     "contenu": "**Problématique.** Comment mobiliser davantage l'épargne locale quand peu de sociétés privées sont cotées ?\n\n**Plan.**\n1. *Diagnostic* : entreprises familiales peu transparentes, crédit bancaire court terme dominant, faible culture boursière, liquidité faible.\n2. *Leviers de l'offre* : compartiment **PME (E)** aux critères allégés, **listing sponsor** pour accompagner, **animation de marché**, document d'information simplifié, **placement privé** comme marche vers la cote.\n3. *Leviers de la demande* : OPCVM accessibles (FCP, SICAV), **fiscalité** incitative des opérations cotées, éducation financière, accès mobile via les teneurs de compte.\n\n**Recommandations.** 1) accompagner 10 PME vers le compartiment E ; 2) renforcer l'animation ; 3) mesurer la liquidité chaque trimestre.\n\n**Limite à citer.** Les mesures fiscales relèvent des États : la COSUMAF peut proposer, pas décider."
+    },
+    {
+     "titre": "Sujet 2 · Introduire une PME en bourse, de la décision à la cotation",
+     "contenu": "**Problématique.** Pourquoi une PME s'introduit-elle et par quelles étapes ?\n\n**Plan.**\n1. *Pourquoi* : financement en fonds propres, notoriété, gouvernance, sortie des fondateurs.\n2. *Conditions* : choisir le compartiment selon capital, capitalisation, diffusion, CAC ; préparer le dossier d'admission ; décision de la BVMAC sous **10 jours de bourse**.\n3. *Exécution* : choisir la procédure (**OPF, OPM, OPO** ou cotation directe) ; avis de première cotation au moins **5 jours** avant ; ensuite obligations d'information et séjour à la cote.\n\n**Exemple chiffré** : une société à 6 Md de capitalisation, diffusion 15 %, 120 actionnaires → compartiment B.\n\n**Limites.** Coûts d'accès, exigences d'information continue, risque de dilution du contrôle familial."
+    },
+    {
+     "titre": "Sujet 3 · Le placement privé nouvelle formule",
+     "contenu": "**Problématique.** Le nouveau régime du 1er novembre 2026 est-il une opportunité ou un risque ?\n\n**Plan.**\n1. *Ce qui change* : de 40 à moins de 100 investisseurs, plus de plafond de montant, souscription minimale de 10 M, 2 émissions sur 24 mois.\n2. *Intérêt* : lever vite et sans visa, avec un document d'information simplifié et un enregistrement ; passerelle vers l'appel public.\n3. *Risques* : confusion avec un appel public déguisé, protection des investisseurs moins forte, contrôle a posteriori.\n\n**Recommandation.** Accompagner le régime par une documentation claire et une liste d'investisseurs tenue à jour."
+    },
+    {
+     "titre": "Sujet 4 · Protéger l'épargnant",
+     "contenu": "**Problématique.** Quels dispositifs protègent concrètement l'épargnant dans la CEMAC ?\n\n**Plan.**\n1. *Avant l'investissement* : document d'information visé, intermédiaires agréés et habilités, convention écrite, information sur les frais.\n2. *Pendant* : ségrégation des actifs chez le teneur de compte et le dépositaire, règles de bonne conduite, traitement des conflits d'intérêts, information permanente de l'émetteur.\n3. *En cas de problème* : médiation de la COSUMAF, sanctions, **Fonds de Garantie du Marché**, rachat d'office en cas de défaut de dénouement.\n\n**Limite.** Aucune garantie contre le risque de marché : la protection porte sur la transparence et la conservation des actifs."
+    },
+    {
+     "titre": "Sujet 5 · De l'ordre au titre inscrit : la chaîne de dénouement",
+     "contenu": "**Problématique.** Comment le marché garantit-il que le titre acheté arrive bien à l'épargnant ?\n\n**Plan.**\n1. *Négociation* : l'ordre transmis par la SDB, la confrontation, le cours coté.\n2. *Dénouement* : Dépositaire Central (règlement-livraison), BEAC (espèces), chambre de compensation (marché à terme).\n3. *Propriété* : inscription en compte chez le teneur de compte (dématérialisation).\n\n**Exemple** : un achat de 5 000 actions suivi pas à pas.\n\n**Risques traités** : défaut de livraison, défaut de règlement, erreurs de saisie."
+    },
+    {
+     "titre": "Sujet 6 · Attirer l'épargne locale vers les OPCVM",
+     "contenu": "**Problématique.** Pourquoi les OPCVM sont-ils un levier pour les petits épargnants ?\n\n**Plan.**\n1. *Le mécanisme* : mutualisation, gestion professionnelle, valeur liquidative calculée régulièrement, ratios d'investissement (20 % maximum sur un émetteur).\n2. *La sécurité* : SGO agréée, dépositaire unique et indépendant, document d'information, reporting.\n3. *Les freins* : frais, méfiance, faible offre de produits, accès.\n\n**Recommandations.** Document d'information simplifié lisible, frais plafonnés, distribution via les teneurs de compte."
+    },
+    {
+     "titre": "Sujet 7 · Prévenir les abus de marché dans une société de bourse",
+     "contenu": "**Problématique.** Comment une SDB empêche-t-elle l'opération d'initié et la manipulation de cours ?\n\n**Plan.**\n1. *Comprendre* : opération d'initié, divulgation illicite, manipulation de cours, fausses informations.\n2. *Dispositif interne* : liste d'initiés, murailles de Chine, autorisation préalable des opérations personnelles, traçabilité des ordres, formation.\n3. *Détection et sanction* : surveillance des ordres, remontée au responsable de la conformité, sanctions de la COSUMAF (au moins 10 M FCFA).\n\n**Conclusion.** La meilleure sanction est celle qu'on évite par la procédure."
+    },
+    {
+     "titre": "Sujet 8 · Le dispositif LBC/FT d'un intermédiaire",
+     "contenu": "**Problématique.** Que doit mettre en place une SDB pour ne pas être le maillon faible ?\n\n**Plan.**\n1. *Connaître* : identification du client et du bénéficiaire effectif, objet de la relation, personnes politiquement exposées.\n2. *Surveiller* : approche par les risques, cartographie, critères d'alerte (espèces, rachat rapide).\n3. *Déclarer et conserver* : déclaration de soupçon à l'ANIF, confidentialité, conservation des documents (10 ans au titre du règlement CEMAC).\n\n**Organisation.** Un responsable LBC/FT, un rapport annuel pour le **31 mars**, des formations."
+    }
+   ],
+   "mnemos": [
+    "Reformuler, Répondre, Réserver : le « 3 R » face au jury."
+   ],
+   "definitions": [
+    {
+     "terme": "Problématique",
+     "definition": "La question à laquelle l'exposé répond, posée en début d'oral et reprise en conclusion."
+    }
+   ],
+   "cartes": [
+    {
+     "recto": "Jury : « Pourquoi si peu de sociétés cotées à la BVMAC ? »",
+     "verso": "Entreprises familiales peu transparentes, crédit bancaire dominant, culture boursière faible, liquidité faible. Leviers : compartiment PME, listing sponsor, animation, fiscalité, éducation financière."
+    },
+    {
+     "recto": "Jury : « Quelle différence entre un appel public et un placement privé ? »",
+     "verso": "APE : sollicitation du public, document d'information visé par la COSUMAF. Placement privé : investisseurs identifiés, document d'information simplifié et enregistrement. Depuis le 1er novembre 2026 : moins de 100 investisseurs, 10 M minimum."
+    },
+    {
+     "recto": "Jury : « Qui fait quoi dans la chaîne d'un ordre ? »",
+     "verso": "Client → SDB → carnet BVMAC → Dépositaire Central (règlement-livraison) avec la BEAC pour les espèces → teneur de compte (inscription = propriété)."
+    },
+    {
+     "recto": "Jury : « Un seuil que vous ne connaissez pas ? »",
+     "verso": "« Je ne retrouve pas le chiffre exact ; il est à vérifier dans le texte en vigueur. Voici la logique… » Ne jamais inventer."
+    },
+    {
+     "recto": "Jury : « Pourquoi un dépositaire d'OPC indépendant ? »",
+     "verso": "Pour contrôler la régularité des décisions de la société de gestion et garder les actifs : il protège le porteur de parts."
+    },
+    {
+     "recto": "Jury : « Comment choisir un compartiment ? »",
+     "verso": "Selon capital, capitalisation, diffusion (titres et actionnaires), nombre de CAC, résultats et dividendes : A Premium (grand), B Medium, E PME, C Obligataire."
+    },
+    {
+     "recto": "Jury : « Quels risques pour un épargnant en bourse ? »",
+     "verso": "Risque de marché, de liquidité, de crédit (obligations), de change. La réglementation protège la transparence et la conservation, pas contre la baisse du cours."
+    },
+    {
+     "recto": "Jury : « Comment prévenir le délit d'initié ? »",
+     "verso": "Listes d'initiés, confidentialité, autorisation préalable des opérations personnelles, traçabilité des ordres, formation et remontée au responsable de la conformité."
+    },
+    {
+     "recto": "Jury : « Qui sanctionne un manquement ? »",
+     "verso": "La COSUMAF (Collège puis Commission des sanctions) pour les sanctions administratives ; les juridictions pour le pénal. Procédure contradictoire, publication, recours de 2 mois."
+    },
+    {
+     "recto": "Jury : « Quelle est la différence entre un FCP et une SICAV ? »",
+     "verso": "FCP : copropriété sans personnalité morale ; SICAV : société anonyme à capital variable avec conseil d'administration."
+    },
+    {
+     "recto": "Jury : « Que fait la COSUMAF avant de délivrer un visa ? »",
+     "verso": "Elle contrôle la complétude, la cohérence et la compréhensibilité du document d'information, les comptes (CAC) et la conformité de l'émetteur. Le visa n'est pas une garantie du rendement."
+    },
+    {
+     "recto": "Jury : « Qui doit être habilité ? »",
+     "verso": "Les personnes qui exercent des fonctions sensibles chez les intermédiaires (négociation, conseil, gestion…) : examen, puis carte professionnelle à renouveler."
+    },
+    {
+     "recto": "Jury : « Pourquoi la dématérialisation ? »",
+     "verso": "Inscription en compte obligatoire : sécurité, traçabilité, rapidité du dénouement, fin des titres papier."
+    },
+    {
+     "recto": "Jury : « Une recommandation concrète en 20 secondes ? »",
+     "verso": "Une mesure, une cible, un indicateur : « Accompagner 10 PME vers le compartiment E d'ici deux ans, avec un listing sponsor, et suivre la liquidité chaque trimestre. »"
+    },
+    {
+     "recto": "Jury : « Quelle est la limite de votre analyse ? »",
+     "verso": "Dire ce qui dépend des États (fiscalité), ce qui est hypothétique (chiffres pédagogiques) et ce qui est à vérifier dans le texte en vigueur."
+    }
+   ]
+  },
+  {
+   "id": "e3-mises-en-situation",
+   "titre": "Questions de mise en situation (QCM et QRO pratiques)",
+   "resume": {
+    "court": "Trente-sept questions concrètes : on applique la règle à un fait, plutôt que de réciter.",
+    "moyen": "Ces questions reprennent les situations des cas résolus (compartiments, première cotation, appel public, placement privé, offres, ordre et dénouement, intermédiaires, fonds, abus de marché, LBC/FT) pour t'entraîner à qualifier et à décider.",
+    "long": "Chaque réponse est expliquée. En cas d'erreur, retourne à la fiche du cas correspondant."
+   },
+   "fiches": [
+    {
+     "titre": "Comment s'en servir",
+     "contenu": "Fais ces questions **après** avoir lu les cas : elles ne demandent pas de réciter, mais d'**appliquer**. Lis le fait, qualifie, puis cherche la règle. Les réponses ouvertes (QRO) se préparent avec les cartes du grand oral."
+    }
+   ],
+   "definitions": [],
+   "cartes": [],
+   "questions": [
+    {
+     "q": "Une société a 60 M de capital libéré, 6 Md de capitalisation, 15 % de diffusion (600 000 titres, 120 actionnaires), 1 CAC et 1 dividende. Quel compartiment vise-t-elle ?",
+     "choix": [
+      "Le compartiment B Medium",
+      "Le compartiment A Premium",
+      "Le compartiment E PME",
+      "Le compartiment C Obligataire"
+     ],
+     "bonne": 0,
+     "explication": "Le compartiment A exige 100 M de capital et 10 Md de capitalisation ; le B demande 10 M, 5 Md, 15 % de diffusion, 500 000 titres et 100 actionnaires."
+    },
+    {
+     "q": "Pour une société admise au compartiment B, le contrat d'animation est :",
+     "choix": [
+      "facultatif pour tous les compartiments",
+      "réservé au compartiment PME",
+      "obligatoire, comme au compartiment A",
+      "interdit avant la première cotation"
+     ],
+     "bonne": 2,
+     "explication": "Le contrat d'animation est obligatoire pour les compartiments A et B."
+    },
+    {
+     "q": "Un émetteur veut que le cours de première cotation résulte de la rencontre de l'offre et de la demande dans une fourchette annoncée. Il choisit :",
+     "choix": [
+      "l'offre à prix ferme (OPF)",
+      "l'offre à prix minimal (OPM)",
+      "l'offre à prix ouvert (OPO)",
+      "la cotation directe"
+     ],
+     "bonne": 2,
+     "explication": "En OPO, les ordres sont passés dans une fourchette, bornes incluses, et le cours résulte de la confrontation."
+    },
+    {
+     "q": "Dans une offre à prix ferme, si l'offre est satisfaite, le cours de première cotation est :",
+     "choix": [
+      "la limite inférieure du dernier ordre servi",
+      "la moyenne des ordres reçus",
+      "le prix de l'offre",
+      "fixé librement par la COSUMAF"
+     ],
+     "bonne": 2,
+     "explication": "En OPF, les ordres sont passés au prix de l'offre, qui devient le cours de première cotation."
+    },
+    {
+     "q": "L'avis de première cotation (hors cotation directe) est publié au BOC :",
+     "choix": [
+      "au moins 5 jours avant la première cotation",
+      "la veille de la première cotation",
+      "au moins 30 jours avant",
+      "le jour même de la première cotation"
+     ],
+     "bonne": 0,
+     "explication": "L'avis est publié au moins 5 jours avant ; 5 jours de bourse pour la cotation directe."
+    },
+    {
+     "q": "L'émetteur d'une offre à fourchette de prix veut modifier cette fourchette. Que faut-il ?",
+     "choix": [
+      "L'accord de la BVMAC, une prévoyance dans le document visé et une publication au moins 3 jours de bourse avant la clôture",
+      "Une simple décision du conseil d'administration, sans publication",
+      "L'accord de tous les souscripteurs déjà inscrits",
+      "Un nouveau visa de la COSUMAF dans tous les cas"
+     ],
+     "bonne": 0,
+     "explication": "Le prix est modifiable après accord de la BVMAC, s'il est prévu dans le DI visé, et publié au moins 3 jours de bourse avant la clôture."
+    },
+    {
+     "q": "Quel est le délai normal d'instruction d'une demande de visa pour un appel public à l'épargne d'un émetteur non État ?",
+     "choix": [
+      "10 jours ouvrés, non prorogeables",
+      "60 jours ouvrés, prorogeables de 30",
+      "30 jours calendaires, non prorogeables",
+      "6 mois, sans prolongation possible"
+     ],
+     "bonne": 1,
+     "explication": "Le délai est de 60 jours ouvrés, prorogeable de 30."
+    },
+    {
+     "q": "Après l'ouverture des souscriptions d'un appel public, le placement doit être terminé :",
+     "choix": [
+      "dans un délai de 8 jours",
+      "dans un délai de 12 mois",
+      "au plus tard dans les 90 jours calendaires",
+      "sans aucune limite de durée"
+     ],
+     "bonne": 2,
+     "explication": "Le placement dure au plus 90 jours calendaires après l'ouverture."
+    },
+    {
+     "q": "Après la clôture d'un placement, la SDB doit virer le produit à l'émetteur dans les :",
+     "choix": [
+      "48 heures",
+      "30 jours calendaires",
+      "8 jours calendaires",
+      "3 mois"
+     ],
+     "bonne": 2,
+     "explication": "Le virement et le rapport de clôture sont soumis au délai de 8 jours ; le retard est lourdement pénalisé."
+    },
+    {
+     "q": "Une société propose une offre de 30 M FCFA sur 12 mois, sans solliciter l'épargne publique de façon générale. Est-ce un appel public à l'épargne ?",
+     "choix": [
+      "Oui, toute offre de titres est un appel public",
+      "Oui, car le montant est supérieur à 10 M",
+      "Non, l'offre est inférieure à 50 M sur 12 mois",
+      "Oui, sauf si la société est une SARL"
+     ],
+     "bonne": 2,
+     "explication": "En dessous de 50 M FCFA sur 12 mois, l'offre n'est pas un appel public à l'épargne."
+    },
+    {
+     "q": "Le 15 novembre 2026, une société veut placer des obligations auprès de 60 investisseurs identifiés, chacun souscrivant 15 M. Qualification ?",
+     "choix": [
+      "Un appel public obligatoire, car le plafond est de 40 investisseurs",
+      "Une offre publique d'achat",
+      "Une opération impossible sans compartiment PME",
+      "Un placement privé, car le seuil est de moins de 100 investisseurs et 10 M minimum"
+     ],
+     "bonne": 3,
+     "explication": "Depuis le 1er novembre 2026 : moins de 100 investisseurs, souscription minimale de 10 M, 2 émissions sur 24 mois."
+    },
+    {
+     "q": "La même opération lancée le 15 octobre 2026 (60 investisseurs) relevait :",
+     "choix": [
+      "du nouveau régime, déjà en vigueur",
+      "de l'ancien régime, qui plafonne à 40 investisseurs : placement privé impossible",
+      "d'un régime sans plafond d'investisseurs",
+      "d'une simple formalité d'enregistrement"
+     ],
+     "bonne": 1,
+     "explication": "Avant le 1er novembre 2026, le plafond est de 40 investisseurs : il fallait un appel public."
+    },
+    {
+     "q": "Un actionnaire détenant 28 % veut atteindre 36 %. Qu'est-ce qui se déclenche au-delà du tiers ?",
+     "choix": [
+      "L'obligation d'informer immédiatement et de déposer une offre sur la totalité du capital",
+      "Une simple déclaration sans autre obligation",
+      "Un retrait automatique de la cote",
+      "Rien, tant que le seuil de 50 % n'est pas atteint"
+     ],
+     "bonne": 0,
+     "explication": "Le franchissement du tiers du capital impose l'information immédiate et une offre publique sur le reste des titres."
+    },
+    {
+     "q": "À partir de quel seuil de détention une déclaration de franchissement est-elle exigée ?",
+     "choix": [
+      "5 % du capital",
+      "1 % du capital",
+      "25 % du capital",
+      "50 % du capital"
+     ],
+     "bonne": 0,
+     "explication": "Premier seuil : 5 %, puis 10, 15, 20, 25 et 30 %."
+    },
+    {
+     "q": "Une offre publique peut durer au maximum :",
+     "choix": [
+      "8 jours",
+      "90 jours",
+      "45 jours calendaires",
+      "6 mois"
+     ],
+     "bonne": 2,
+     "explication": "La durée d'une offre publique ne dépasse pas 45 jours calendaires."
+    },
+    {
+     "q": "Un initiateur renonce à son offre publique. Peut-il redéposer immédiatement une nouvelle offre ?",
+     "choix": [
+      "Oui, sans délai",
+      "Oui, après 8 jours",
+      "Non, pas de nouvelle offre pendant 6 mois",
+      "Non, jamais"
+     ],
+     "bonne": 2,
+     "explication": "Après renonciation, aucune nouvelle offre pendant 6 mois."
+    },
+    {
+     "q": "À partir de quelle part de capital détenue peut-on procéder à un retrait obligatoire des minoritaires ?",
+     "choix": [
+      "95 %",
+      "50 %",
+      "66 %",
+      "75 %"
+     ],
+     "bonne": 0,
+     "explication": "Le retrait obligatoire s'ouvre à 95 % du capital (solde de 5 %)."
+    },
+    {
+     "q": "Un client passe un ordre par téléphone. Que doit faire la SDB ?",
+     "choix": [
+      "Rien, le téléphone suffit toujours",
+      "Exiger une confirmation notariée",
+      "Obtenir une confirmation écrite dans les 7 jours",
+      "Refuser tout ordre téléphonique"
+     ],
+     "bonne": 2,
+     "explication": "L'ordre téléphonique est confirmé par écrit dans les 7 jours."
+    },
+    {
+     "q": "Un titre acheté en bourse change de propriétaire :",
+     "choix": [
+      "à l'inscription en compte chez le teneur de compte",
+      "à l'exécution de l'ordre par la BVMAC",
+      "à la publication du cours coté",
+      "à la signature du contrat de courtage"
+     ],
+     "bonne": 0,
+     "explication": "La propriété résulte de l'inscription en compte."
+    },
+    {
+     "q": "Une SDB ne livre pas les espèces au dénouement. Que peut faire la BVMAC ?",
+     "choix": [
+      "Annuler définitivement toute la séance",
+      "Prélever directement sur le compte du client",
+      "Ne rien faire, la chambre de compensation s'en charge seule",
+      "La déclarer défaillante et procéder à un rachat d'office"
+     ],
+     "bonne": 3,
+     "explication": "Le Dépositaire Central informe la BVMAC, qui peut déclarer la SDB défaillante et racheter d'office ; le Fonds de Garantie du Marché intervient."
+    },
+    {
+     "q": "Une banque commerciale souhaite exécuter directement des ordres de bourse pour ses clients. Est-ce possible ?",
+     "choix": [
+      "Oui, toute banque peut négocier librement",
+      "Non, les sociétés de bourse ont le monopole de la négociation",
+      "Oui, après simple déclaration à la BEAC",
+      "Oui, si ses clients sont des entreprises"
+     ],
+     "bonne": 1,
+     "explication": "Seules les SDB agréées sont habilitées à négocier les valeurs mobilières pour le compte de tiers."
+    },
+    {
+     "q": "Quel est le capital minimal d'une société de bourse ordinaire, à libérer avant l'agrément ?",
+     "choix": [
+      "10 millions de FCFA",
+      "50 millions de FCFA",
+      "1 milliard de FCFA",
+      "300 millions de FCFA"
+     ],
+     "bonne": 3,
+     "explication": "300 M, et 1 Md pour une SDB dépositaire d'OPC ou spécialiste en valeurs du Trésor."
+    },
+    {
+     "q": "Quelle participation une SDB doit-elle prendre au capital de la BVMAC pour en être membre ?",
+     "choix": [
+      "40 millions de FCFA",
+      "4 millions de FCFA",
+      "20 millions de FCFA",
+      "100 millions de FCFA"
+     ],
+     "bonne": 0,
+     "explication": "Participation de 40 M ; 20 M pour un teneur de compte au Dépositaire Central."
+    },
+    {
+     "q": "Après un dossier d'agrément complet, la COSUMAF dispose généralement de :",
+     "choix": [
+      "5 jours ouvrés",
+      "60 jours ouvrés pour l'instruire",
+      "30 jours calendaires exactement",
+      "1 an"
+     ],
+     "bonne": 1,
+     "explication": "Accusé de réception en 10 jours ouvrés, instruction en 60 jours ouvrés."
+    },
+    {
+     "q": "Quelles exigences de capital pour une société de gestion d'OPC (SGO) ?",
+     "choix": [
+      "10 M de capital seulement",
+      "1 Md de capital et pas de fonds propres",
+      "300 M de capital et 300 M de fonds propres nets",
+      "Aucun minimum, seulement un agrément"
+     ],
+     "bonne": 2,
+     "explication": "La SGO justifie d'un capital de 300 M et de fonds propres nets d'au moins 300 M."
+    },
+    {
+     "q": "Le dépositaire d'un OPC doit être :",
+     "choix": [
+      "choisi librement par la SGO sans contrôle",
+      "un cabinet d'audit agréé",
+      "unique et indépendant de la société de gestion",
+      "la COSUMAF elle-même"
+     ],
+     "bonne": 2,
+     "explication": "Il garde les actifs et contrôle la régularité des décisions de la SGO."
+    },
+    {
+     "q": "Un OPCVM place 25 % de son actif sur un seul émetteur privé. Cette situation est :",
+     "choix": [
+      "régulière : il n'y a pas de limite",
+      "régulière si l'émetteur est coté",
+      "irrégulière : la limite est de 20 % pour un même émetteur",
+      "irrégulière : la limite est de 5 %"
+     ],
+     "bonne": 2,
+     "explication": "Le ratio général est de 20 % de l'actif par émetteur."
+    },
+    {
+     "q": "Quel document l'intermédiaire transmet-il à la COSUMAF au plus tard le 31 mars ?",
+     "choix": [
+      "Le reporting mensuel",
+      "Le rapport annuel de contrôle interne et la cartographie des risques",
+      "La liste des cartes professionnelles",
+      "Le rapport de clôture d'un placement"
+     ],
+     "bonne": 1,
+     "explication": "Le 31 mars : rapport de contrôle interne, cartographie des risques, rapport LBC/FT."
+    },
+    {
+     "q": "Une assistante d'un cabinet d'audit achète des titres en sachant qu'une OPA va être annoncée. Qualification ?",
+     "choix": [
+      "Une opération d'animation de marché",
+      "Un placement privé",
+      "Une transaction de bloc",
+      "Une opération d'initié"
+     ],
+     "bonne": 3,
+     "explication": "Information précise, non publique, susceptible d'influencer le cours, utilisée avant sa publication."
+    },
+    {
+     "q": "Quel est le montant minimal d'une sanction pécuniaire pour opération d'initié ou manipulation de cours ?",
+     "choix": [
+      "500 000 FCFA",
+      "10 millions de FCFA",
+      "5 millions de FCFA",
+      "25 millions de FCFA"
+     ],
+     "bonne": 1,
+     "explication": "Le plancher de 10 M s'applique aux abus de marché ; 25 M pour un appel public sans visa."
+    },
+    {
+     "q": "Après une décision de sanction de la Commission des sanctions, le recours est ouvert pendant :",
+     "choix": [
+      "8 jours, avec effet suspensif",
+      "1 an, avec effet suspensif",
+      "5 ans, sans effet suspensif",
+      "2 mois, sans effet suspensif"
+     ],
+     "bonne": 3,
+     "explication": "Le recours est non suspensif ; pour une sanction pécuniaire, la sanction est payée d'abord (compte séquestre)."
+    },
+    {
+     "q": "Un client dépose 7 M en espèces puis demande le rachat de ses parts très vite. Réaction adaptée ?",
+     "choix": [
+      "Exécuter l'opération puis informer le client du soupçon",
+      "Ignorer l'opération car elle est inférieure à 10 M",
+      "Informer le journal local pour alerter le public",
+      "Vigilance renforcée et, si le soupçon persiste, déclaration à l'ANIF sans prévenir le client"
+     ],
+     "bonne": 3,
+     "explication": "Les espèces au-dessus de 5 M et le rachat rapide sont des critères d'alerte ; la déclaration est confidentielle."
+    },
+    {
+     "q": "Les documents de LBC/FT sont à conserver 10 ans (règlement CEMAC) ou 5 ans (Instruction 32-24). Quelle est la bonne attitude ?",
+     "choix": [
+      "Signaler la divergence et retenir la règle la plus protectrice, soit 10 ans",
+      "Retenir 5 ans et ne rien dire",
+      "Choisir la durée la plus courte pour réduire les coûts",
+      "Détruire les documents après le dénouement"
+     ],
+     "bonne": 0,
+     "explication": "Règle d'or du candidat : signaler la réserve plutôt qu'inventer."
+    },
+    {
+     "q": "La radiation d'un titre de capital entraîne :",
+     "choix": [
+      "uniquement celle des actions ordinaires",
+      "la radiation de tous les titres qui lui sont rattachés",
+      "la suspension de la COSUMAF",
+      "aucune conséquence sur les autres titres"
+     ],
+     "bonne": 1,
+     "explication": "La COSUMAF est toujours informée d'une radiation."
+    },
+    {
+     "q": "Quel seuil de titres cédés caractérise une offre publique de vente (OPV) à la BVMAC ?",
+     "choix": [
+      "Au moins 1 % des titres",
+      "Au moins 50 % des titres",
+      "Exactement 100 000 titres",
+      "Au moins 10 % des titres"
+     ],
+     "bonne": 3,
+     "explication": "OPV : au moins 10 % des titres (ou 100 000 titres si plus de 5 %)."
+    },
+    {
+     "q": "Une transaction de bloc sur actions porte au minimum sur :",
+     "choix": [
+      "100 actions",
+      "1 000 actions",
+      "1 000 000 d'actions",
+      "10 000 actions"
+     ],
+     "bonne": 3,
+     "explication": "Seuil : 10 000 actions ou 100 000 obligations."
+    },
+    {
+     "q": "Qui nomme le Président de la COSUMAF ?",
+     "choix": [
+      "La Conférence des Chefs d'État",
+      "Le Collège de la COSUMAF",
+      "La BEAC",
+      "Le Comité Ministériel de l'UMAC"
+     ],
+     "bonne": 0,
+     "explication": "La Conférence des Chefs d'État nomme le Président et le Secrétaire Général."
+    }
+   ]
+  }
+ ]
+}

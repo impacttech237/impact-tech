@@ -1,12 +1,33 @@
 {
-  "p0-cadre": ["cadre", "change"],
-  "p1-entrer-en-bourse": ["marche"],
-  "p2-appel-public": ["ape"],
-  "p3-placement-prive": ["pp"],
-  "p4-vie-du-titre": ["vie"],
-  "p5-ordre-denouement": ["titres", "marche"],
-  "p6-intermediaires": ["agrement"],
-  "p7-fonds": ["opc"],
-  "p8-conformite-sanctions": ["conformite"],
-  "p9-reperes": []
+  "p0-cadre": [
+    "cadre",
+    "change"
+  ],
+  "p1-entrer-en-bourse": [
+    "marche"
+  ],
+  "p2-appel-public": [
+    "ape"
+  ],
+  "p3-placement-prive": [
+    "pp"
+  ],
+  "p4-vie-du-titre": [
+    "vie"
+  ],
+  "p5-ordre-denouement": [
+    "titres",
+    "marche"
+  ],
+  "p6-intermediaires": [
+    "agrement"
+  ],
+  "p7-fonds": [
+    "opc"
+  ],
+  "p8-conformite-sanctions": [
+    "conformite"
+  ],
+  "p9-reperes": [],
+  "epreuves": []
 }
