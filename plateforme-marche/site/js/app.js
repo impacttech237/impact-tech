@@ -117,24 +117,87 @@ const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
 
 views.accueil = async () => {
+  const gs = await chargerGuides().catch(() => []);
+  const nbPdf = D.textes.filter(t => t.pdf).length, nbEnVigueur = D.textes.filter(t => t.statut === 'en_vigueur').length;
   const exemples = ['délai visa APE', 'capital minimum société de bourse', 'placement privé', 'agrément dirigeant'];
-  const portes = [
-    ['#/decouvrir', 'lightbulb', 'Découvrir', 'La bourse expliquée simplement, pour tous.'],
-    ['#/comprendre', 'book-open', 'Comprendre', 'Institutions, acteurs et instruments du marché.'],
-    ['#/bibliotheque', 'library', 'Bibliothèque', 'Les ' + D.stats.textes + ' textes, rangés par thème.'],
-    ['#/flashcards', 'layers', 'Flashcards', 'Retenir les délais, montants et rôles.'],
-    ['#/quiz', 'circle-check', 'Quiz', 'Séries de 10 questions pour tester ses réponses.'],
-    ['#/pratiquer', 'clipboard-list', 'Pratiquer', 'Retrouver un délai ou un montant, avec son article.'],
+  const vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
+  const public_ = [
+    ['#/decouvrir', 'lightbulb', 'Grand public', 'Je veux comprendre la bourse', 'Épargner, acheter, vendre, se protéger : les bases expliquées simplement, chaque affirmation renvoyant à son article.', 'Découvrir'],
+    ['#/comprendre', 'graduation-cap', 'Étudiants', 'J\'étudie le marché financier', 'Institutions, acteurs, instruments, puis flashcards, quiz et jeux pour retenir ce qui compte.', 'Comprendre'],
+    ['#/recherche', 'scale', 'Professionnels', 'Je travaille avec la réglementation', 'Un délai, un montant, un rôle ? Retrouvez-le en quelques secondes avec l\'article, le statut du texte et le PDF officiel.', 'Rechercher'],
   ];
+  const outils = [
+    ['#/flashcards', 'layers', 'Flashcards', 'Retournez la carte, notez-vous : les cartes difficiles reviennent vite, les acquises de plus en plus tard.'],
+    ['#/quiz', 'circle-check', 'Quiz', 'Des séries de 10 questions sur les délais et les montants, avec l\'article de référence après chaque réponse.'],
+    ['#/jeux', 'gamepad-2', 'Jeux', 'Memory, vrai/faux éclair, mot mystère, défi de 60 secondes : réviser sans s\'en rendre compte.'],
+    ['#/progres', 'activity', 'Progrès', 'Niveau, points, série de jours, calendrier, badges : voyez ce que vous maîtrisez déjà.'],
+  ];
+  const sources = [
+    ['library', `${D.textes.length} textes, avec leur statut`, 'En vigueur ou abrogé, et par quel texte remplacé. Plus de doute sur la version à citer.'],
+    ['download', `${nbPdf} PDF officiels à télécharger`, 'Chaque fiche propose le document complet, et un lien vers le site de la COSUMAF ou de la BVMAC.'],
+    ['quote', 'Chaque repère cite son article', 'Copiez la référence en un clic : « Instruction 23-24 du 18 juillet 2024, art. 2 ».'],
+  ];
+  const faq = [
+    ['C\'est vraiment gratuit ?', 'Oui. Tout est gratuit, sans publicité, et il n\'y a rien à débloquer.'],
+    ['Faut-il créer un compte ?', 'Non. Tout fonctionne sans compte. Un compte facultatif (e-mail et mot de passe) sauvegarde votre progression et la synchronise entre vos appareils.'],
+    ['Ce site est-il officiel ?', 'Non. C\'est un outil d\'aide à la lecture : il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Citez toujours le texte publié.'],
+    ['D\'où viennent les textes ?', 'Ils ont été téléchargés sur les sites officiels de la COSUMAF et de la BVMAC. Chaque fiche renvoie vers eux.'],
+    ['Puis-je l\'utiliser sans connexion ?', 'Oui, après une première visite, les pages et les données fonctionnent sans réseau. Les PDF demandent une connexion.'],
+    ['Que devient ma vie privée ?', 'La mesure d\'audience est anonyme : ni cookie, ni adresse IP. Votre progression reste sur votre appareil, sauf si vous créez un compte.'],
+  ];
+  const extraits = ['bourse-en-bref', 'institutions', 'lever-des-capitaux'].map(id => gs.find(g => g.id === id)).filter(Boolean);
   return { title: 'Marché financier CEMAC : textes, délais, montants', html: `
-    <section class="hero"><div class="side l">${perso('kofi', 'lol', 200)}</div><div class="side r">${perso('amina', 'joy', 200, { flip: true })}</div>
+    <section class="hero">
       <h1 class="h1"><span class="lbl l6" style="--r:-2deg">Marché financier</span><br><span class="lbl l1" style="--r:1.2deg">CEMAC</span></h1>
       <span class="hand">Les textes, délais et montants du marché, en un clic</span>
-      <div class="persoline">${perso('kofi', 'lol', 130)}</div>
+      <p class="lead">Un délai, un montant, un rôle ? Retrouvez-le dans les textes de la COSUMAF et de la BVMAC, avec l'article cité. Gratuit, sans compte.</p>
       <form class="bigsearch" id="hs" role="search"><label for="hq" class="sr">Rechercher dans les textes</label><input id="hq" type="search" placeholder="Ex. : délai visa APE, capital minimum, conservation 10 ans" autocomplete="off"><button class="btn" type="submit">${ic('search')} Rechercher</button></form>
       <div class="chips" aria-label="Exemples de recherche">${exemples.map(e => `<a class="chip" href="#/recherche${qs({ q: e })}">${esc(e)}</a>`).join('')}</div>
     </section>
-    <div class="doors">${portes.map(([h, i, t, d]) => `<a class="card door" href="${h}"><h3><span class="ico">${ic(i)}</span>${t}</h3><p>${d}</p></a>`).join('')}</div>`,
+
+    <div class="band" aria-label="Le site en chiffres">
+      <div><b>${D.textes.length}</b><span>textes</span></div><div><b>${D.stats.faits.toLocaleString('fr-FR')}</b><span>délais, montants, rôles</span></div><div><b>${nbPdf}</b><span>PDF officiels</span></div><div><b>${gs.length}</b><span>guides</span></div><div><b>0 €</b><span>sans compte</span></div>
+    </div>
+
+    <section class="land"><h2 class="sec"><span class="lbl l2">Pour qui ?</span></h2>
+      <div class="aud">${public_.map(([h, i, quoi, t, d, cta]) => `<a class="card aud-c" href="${h}"><span class="ico">${ic(i)}</span><small>${quoi}</small><h3>${t}</h3><p>${d}</p><span class="btn sm">${cta} ${ic('arrow-right')}</span></a>`).join('')}</div>
+    </section>
+
+    <section class="land"><h2 class="sec"><span class="lbl l6">Une réponse en quelques secondes</span></h2>
+      <p class="lead">Voici ce que renvoie le site. Chaque ligne cite l'article et le texte d'origine.</p>
+      <div class="sheet"><div class="facts">${vedettes.map(f => factHtml(f, true)).join('')}</div></div>
+      <p><a class="btn" href="#/pratiquer">${ic('clipboard-list')} Voir tous les délais et montants</a></p>
+    </section>
+
+    <section class="land"><h2 class="sec"><span class="lbl l4">Comment ça marche</span></h2>
+      <ol class="steps">
+        <li><span class="n">1</span><h3>Cherchez</h3><p>Tapez un mot : « visa », « capital minimum », « 30 jours ». La recherche tolère les accents et les pluriels.</p></li>
+        <li><span class="n">2</span><h3>Lisez à la source</h3><p>Chaque résultat indique l'article, le texte, son statut et renvoie vers le PDF officiel.</p></li>
+        <li><span class="n">3</span><h3>Retenez</h3><p>Flashcards, quiz et jeux reprennent ce que vous venez de lire, pour qu'il en reste quelque chose.</p></li>
+      </ol>
+    </section>
+
+    <section class="land"><h2 class="sec"><span class="lbl l1">Pour retenir</span></h2>
+      <div class="doors">${outils.map(([h, i, t, d]) => `<a class="card door" href="${h}"><h3><span class="ico">${ic(i)}</span>${t}</h3><p>${d}</p></a>`).join('')}</div>
+    </section>
+
+    <section class="land"><h2 class="sec"><span class="lbl l5">Toujours à la source</span></h2>
+      <div class="srcgrid">${sources.map(([i, t, d]) => `<div class="sheet"><span class="ico2">${ic(i)}</span><h3>${esc(t)}</h3><p>${esc(d)}</p></div>`).join('')}</div>
+      <p class="chips" style="margin-top:6px"><a class="btn" href="#/bibliotheque">${ic('library')} Ouvrir la bibliothèque</a><a class="btn ghost" href="/textes/">${ic('file-text')} Liste des ${D.textes.length} textes</a></p>
+    </section>
+
+    ${extraits.length ? `<section class="land"><h2 class="sec"><span class="lbl l6">Pour commencer à lire</span></h2>
+      <ol class="list guides" style="margin-top:0">${extraits.map(g => `<li><a class="card item" href="#/${g.porte}/${g.id}"><span class="t">${esc(g.titre)}</span><span class="sub">${esc(g.accroche)}</span><span class="meta"><span>${g.porte === 'decouvrir' ? 'Découvrir' : 'Comprendre'}</span></span></a></li>`).join('')}</ol></section>` : ''}
+
+    <section class="land"><h2 class="sec"><span class="lbl l2">Questions fréquentes</span></h2>
+      <div class="faq">${faq.map(([q, r]) => `<details class="qa"><summary>${esc(q)}</summary><div>${esc(r)}</div></details>`).join('')}</div>
+    </section>
+
+    <section class="land final">
+      <h2 class="h1">${lbls('Prêt à chercher ?')}</h2>
+      <p class="lead">${nbEnVigueur} textes en vigueur, du règlement général aux lettres circulaires, à portée de clic.</p>
+      <p class="chips" style="justify-content:center"><a class="btn" href="#/recherche">${ic('search')} Rechercher</a><a class="btn ghost" href="#/decouvrir">${ic('lightbulb')} Découvrir la bourse</a></p>
+    </section>`,
     after() { $('#hs').addEventListener('submit', e => { e.preventDefault(); location.hash = '#/recherche' + qs({ q: $('#hq').value.trim() }); }); } };
 };
 
