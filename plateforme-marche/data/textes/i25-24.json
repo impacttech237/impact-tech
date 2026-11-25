@@ -1,0 +1,58 @@
+{
+  "id": "i25-24",
+  "ordre": 34,
+  "type": "instruction",
+  "numero": "25-24",
+  "titre": "Diffusion des prix d'émission, de vente, de rachat ou de remboursement des parts d'OPC",
+  "theme": "opc",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Comment les sociétés de gestion ou les OPC publient les prix d'émission, de vente, de rachat et de remboursement de leurs parts ou actions (art. 359 du Règlement général).",
+    "essentiel": "Les prix d'émission, de vente, de rachat ou de remboursement des parts d'OPC sont publiés selon **au moins deux méthodes** parmi : site internet de la SGO ou de l'OPC, affichage dans ses locaux, journal d'annonces légales, presse, **site de la bourse régionale**, autre moyen adapté. Le **site internet de la SGO ou de l'OPC est obligatoire**.",
+    "retenir": [
+      "Prise en application de l'**art. 359 du Règlement général** ; vise les SGO et les OPC qui publient les prix de leurs parts ou actions. Art. 1",
+      "Publication selon **au moins deux** méthodes parmi : **site internet** de la SGO ou de l'OPC ; **affichage** dans ses locaux ; **journal d'annonces légales** ; **presse** ; **site internet de la bourse régionale** ; tout autre moyen adapté aux investisseurs cibles. Art. 2.1",
+      "Une information **au minimum sur le site internet** de la SGO ou de l'OPC est **obligatoire**. Art. 2.2",
+      "Entrée en vigueur à la **date de signature** (28 novembre 2024). Art. 3"
+    ],
+    "listes": [
+      {
+        "titre": "Méthodes de publication des prix des parts d'OPC",
+        "a": "art. 2",
+        "items": [
+          "Site internet de la SGO ou de l'OPC (obligatoire)",
+          "Affichage dans les locaux",
+          "Journal d'annonces légales",
+          "Presse",
+          "Site internet de la bourse régionale",
+          "Tout autre moyen adapté"
+        ]
+      }
+    ],
+    "pieges": [
+      "**Deux** méthodes au minimum, dont **toujours** le site internet de la SGO ou de l'OPC."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

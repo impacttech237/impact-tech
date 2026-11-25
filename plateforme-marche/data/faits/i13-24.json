@@ -1,0 +1,362 @@
+[
+  {
+    "id": "i13-24.delai.01",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Récépissé du dossier complet d'agrément d'un OPC",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.delai.02",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Durée d'instruction de l'agrément d'un OPC",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": "Suspendue par une demande d'informations.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.delai.03",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Envoi du certificat de dépôt des fonds d'un OPC à la COSUMAF",
+    "valeur_texte": "30 jours après la notification d'agrément",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "À défaut : nullité de l'agrément.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.delai.04",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Demande de prorogation du délai de dépôt des fonds d'un OPC",
+    "valeur_texte": "10 jours ouvrés avant la date de nullité",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.delai.05",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Réponse de la COSUMAF à une demande de prorogation de dépôt des fonds",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.delai.06",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 5.3",
+    "enonce": "Durée pendant laquelle l'actif sous la moitié du minimum impose la dissolution",
+    "valeur_texte": "90 jours consécutifs",
+    "type_valeur": "nombre",
+    "valeur": 90,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.delai.07",
+    "texte": "i13-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Calcul de la première valeur liquidative d'un OPC",
+    "valeur_texte": "dès le dépôt des fonds",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.montant.01",
+    "texte": "i13-24",
+    "type": "montant",
+    "article": "art. 5.1",
+    "enonce": "Capital minimum d'une société d'investissement (OPC sous forme de société)",
+    "valeur_texte": "300 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 300000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.montant.02",
+    "texte": "i13-24",
+    "type": "montant",
+    "article": "art. 5.1",
+    "enonce": "Actif minimum d'un fonds dépourvu de personnalité morale",
+    "valeur_texte": "150 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 150000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.montant.03",
+    "texte": "i13-24",
+    "type": "montant",
+    "article": "art. 5.3",
+    "enonce": "Seuil d'actif net déclenchant la dissolution après 90 jours",
+    "valeur_texte": "moins de la moitié du minimum",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.montant.04",
+    "texte": "i13-24",
+    "type": "montant",
+    "article": "art. 5.3",
+    "enonce": "Seuil d'actif net imposant la dissolution sans délai",
+    "valeur_texte": "25 % du minimum",
+    "type_valeur": "nombre",
+    "valeur": 25,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.montant.05",
+    "texte": "i13-24",
+    "type": "montant",
+    "article": "art. 2",
+    "enonce": "Nombre d'exemplaires papier du dossier d'agrément d'un OPC",
+    "valeur_texte": "3 exemplaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.role.01",
+    "texte": "i13-24",
+    "type": "role",
+    "article": "art. 2, 5, 6",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Dépose le dossier, signe la lettre d'engagement, s'engage à maintenir l'actif net, transmet les documents définitifs avant l'émission.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.role.02",
+    "texte": "i13-24",
+    "type": "role",
+    "article": "art. 5",
+    "enonce": "Dépositaire d'OPC",
+    "valeur_texte": "Reçoit les fonds initiaux, établit le certificat de dépôt et l'envoie à la COSUMAF dans les 30 jours.",
+    "acteurs": [
+      "depositaire-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.role.03",
+    "texte": "i13-24",
+    "type": "role",
+    "article": "art. 2-5",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Délivre le récépissé, instruit en 60 jours ouvrés, agrée par décision publiée, constate la nullité faute de dépôt des fonds.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.definition.01",
+    "texte": "i13-24",
+    "type": "definition",
+    "article": "art. 5",
+    "enonce": "Certificat de dépôt (OPC)",
+    "valeur_texte": "Document établi par le dépositaire attestant le dépôt du capital initial d'une société d'investissement ou des fonds initiaux d'un fonds.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.definition.02",
+    "texte": "i13-24",
+    "type": "definition",
+    "article": "annexe III",
+    "enonce": "Lettre d'engagement de la SGO",
+    "valeur_texte": "Attestation signée par un dirigeant : la SGO a l'organisation, les procédures et les moyens pour gérer l'OPC conformément à la réglementation.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.liste.01",
+    "texte": "i13-24",
+    "type": "liste",
+    "article": "annexe I",
+    "enonce": "Pièces à fournir pour tous les OPC",
+    "valeur_texte": "Règlement ou statuts (et RCCM si forme sociétaire) ; Projet de document d'information simplifié ; Projet de document d'information ; Attestation de l'annexe III ; Communications promotionnelles éventuelles ; Acceptation du dépositaire et des délégataires ; Lettre d'acceptation du commissaire aux comptes",
+    "items": [
+      "Règlement ou statuts (et RCCM si forme sociétaire)",
+      "Projet de document d'information simplifié",
+      "Projet de document d'information",
+      "Attestation de l'annexe III",
+      "Communications promotionnelles éventuelles",
+      "Acceptation du dépositaire et des délégataires",
+      "Lettre d'acceptation du commissaire aux comptes"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.piege.01",
+    "texte": "i13-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "300 millions = société d'investissement (SICAV) ; 150 millions = fonds (FCP). Pour les OPC",
+    "valeur_texte": "**300 millions** = **société d'investissement** (SICAV) ; **150 millions** = **fonds** (FCP). Pour les OPCI, voir les Instructions 15-24 et 16-24.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.piege.02",
+    "texte": "i13-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Délais en jours ouvrés : 10 (récépissé) et 60 (instruction).",
+    "valeur_texte": "Délais en **jours ouvrés** : 10 (récépissé) et 60 (instruction).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i13-24.piege.03",
+    "texte": "i13-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Seuils de dissolution : moitié du minimum pendant 90 jours, ou 25 % immédiatement.",
+    "valeur_texte": "Seuils de dissolution : **moitié** du minimum pendant **90 jours**, ou **25 %** immédiatement.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

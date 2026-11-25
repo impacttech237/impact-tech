@@ -1,0 +1,130 @@
+[
+  {
+    "id": "i20-24.montant.01",
+    "texte": "i20-24",
+    "type": "montant",
+    "article": "art. 4",
+    "enonce": "Risque de perte en capital d'un titre de créance imposant de justifier sa structuration (publicité APE)",
+    "valeur_texte": "supérieur à 10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.role.01",
+    "texte": "i20-24",
+    "type": "role",
+    "article": "art. 3-4",
+    "enonce": "Émetteur ou offreur",
+    "valeur_texte": "Établit les communications promotionnelles cohérentes avec le document d'information et les transmet à la COSUMAF avant diffusion.",
+    "acteurs": [
+      "emetteur-ou-offreur"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.role.02",
+    "texte": "i20-24",
+    "type": "role",
+    "article": "art. 4-5",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Reçoit les publicités avant diffusion et peut exiger un avertissement ou des modifications.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.definition.01",
+    "texte": "i20-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Document publicitaire (APE)",
+    "valeur_texte": "Communication au public relative à une offre spécifique ou une admission à la bourse, et visant à promouvoir la souscription ou l'acquisition des titres.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.definition.02",
+    "texte": "i20-24",
+    "type": "definition",
+    "article": "art. 8",
+    "enonce": "Indicateurs alternatifs de performance",
+    "valeur_texte": "Indicateurs financiers (historiques ou prospectifs) autres que ceux définis par le référentiel comptable applicable ; interdits en publicité s'ils ne figurent pas dans le document d'information.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.liste.01",
+    "texte": "i20-24",
+    "type": "liste",
+    "article": "art. 6",
+    "enonce": "Mentions obligatoires d'une publicité d'APE",
+    "valeur_texte": "« Communication à caractère promotionnel » bien visible ; Le visa ou l'approbation n'est pas un avis favorable ; Invitation à lire le document d'information avant d'investir ; Où et comment obtenir le document d'information (site, lien, lieu)",
+    "items": [
+      "« Communication à caractère promotionnel » bien visible",
+      "Le visa ou l'approbation n'est pas un avis favorable",
+      "Invitation à lire le document d'information avant d'investir",
+      "Où et comment obtenir le document d'information (site, lien, lieu)"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.piege.01",
+    "texte": "i20-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "La publicité d'APE est transmise avant diffusion ; ce n'est pas un visa séparé, mais la CO",
+    "valeur_texte": "La publicité d'APE est **transmise avant diffusion** ; ce n'est pas un visa séparé, mais la COSUMAF peut imposer des **modifications**.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i20-24.piege.02",
+    "texte": "i20-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Après la clôture de l'offre, il n'y a plus d'obligation de corriger les anciennes publicit",
+    "valeur_texte": "Après la **clôture de l'offre**, il n'y a plus d'obligation de corriger les anciennes publicités.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

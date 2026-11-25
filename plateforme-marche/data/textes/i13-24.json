@@ -1,0 +1,80 @@
+{
+  "id": "i13-24",
+  "ordre": 22,
+  "type": "instruction",
+  "numero": "13-24",
+  "titre": "Agrément des organismes de placement collectif (OPC)",
+  "theme": "opc",
+  "date_texte": "20 février 2024, Yaoundé",
+  "date_adoption": "2024-02-20",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Procédure d'agrément d'un OPC (art. 193 du Règlement 01/22) : dossier, délais d'instruction, capital ou actif minimum, dépôt des fonds chez le dépositaire, dissolution, modifications, fusions, scissions et transformations.",
+    "essentiel": "Dossier en **3 exemplaires papier + électronique**. Récépissé en **10 jours ouvrés**, instruction en **60 jours ouvrés** (suspendue par une demande d'informations ; sans réponse, demande **réputée rejetée**). Minimum : **300 millions FCFA** de capital pour une **société d'investissement**, **150 millions FCFA** d'actif pour un **fonds**. Certificat de dépôt des fonds envoyé au plus tard **30 jours** après l'agrément, sinon **nullité** (prorogation demandée **10 jours ouvrés** avant). Dissolution si l'actif reste sous la **moitié** du minimum **90 jours consécutifs**, ou sans délai s'il tombe à **25 %**.",
+    "retenir": [
+      "Champ : OPC soumis à l'agrément de la COSUMAF (**art. 193 du Règlement 01/22**). Art. 1",
+      "Dossier : formulaire d'agrément, pièces de l'annexe I, **attestation (lettre d'engagement) de l'annexe III** ; transmis en **3 exemplaires physiques** et **par voie électronique**. Art. 2",
+      "Récépissé daté et signé dans les **10 jours ouvrés** après le dossier complet ; instruction de **60 jours ouvrés** à compter du dépôt du dossier complet. Art. 2",
+      "Une demande d'informations complémentaires **suspend** le délai ; sans réponse dans le délai fixé, la demande est **réputée rejetée**. Art. 3",
+      "La décision d'agrément porte le **numéro** et la **date** ; elle est **individuelle, inaliénable et intransmissible** et publiée sur le site de la COSUMAF ; un refus est **motivé**. Art. 4",
+      "Capital minimum d'une **société d'investissement** : **300 millions FCFA** ; actif minimum d'un **fonds sans personnalité morale** : **150 millions FCFA**. Art. 5.1",
+      "Les fonds initiaux sont déposés chez le **dépositaire**, qui établit un **certificat de dépôt** et l'envoie à la COSUMAF **au plus tard 30 jours** après la notification d'agrément ; sinon la COSUMAF **constate la nullité** de l'agrément. Art. 5.2",
+      "Prorogation : demande motivée **au moins 10 jours ouvrés** avant la date de nullité ; réponse de la COSUMAF en **10 jours ouvrés**. Art. 5",
+      "La **première valeur liquidative** est calculée **dès le dépôt des fonds** (ou du capital). Art. 5",
+      "**Dissolution** du fonds si l'actif net reste **inférieur à la moitié** du minimum pendant **90 jours consécutifs** ; dissolution **sans délai** s'il descend à **25 %** du minimum. Art. 5.3",
+      "La SGO s'engage **par écrit** à maintenir l'actif net dans ces proportions. Art. 5",
+      "Avant toute émission de parts, la SGO transmet la version **définitive** du **document d'information** et du **DIS**, avec le règlement ou les statuts. Art. 6",
+      "Modifications, **fusions**, **scissions** et **transformations** : nouvelle fiche (annexes II, IV, V) ; effectives **après approbation** de la COSUMAF ; information préalable des porteurs pour les cas de l'annexe VI. Art. 7",
+      "Les décisions sont publiées **à la date de leur signature** sur le site de la COSUMAF ; l'instruction entre en vigueur **à sa signature**. Art. 9-10"
+    ],
+    "listes": [
+      {
+        "titre": "Pièces à fournir pour tous les OPC",
+        "a": "annexe I",
+        "items": [
+          "Règlement ou statuts (et RCCM si forme sociétaire)",
+          "Projet de document d'information simplifié",
+          "Projet de document d'information",
+          "Attestation de l'annexe III",
+          "Communications promotionnelles éventuelles",
+          "Acceptation du dépositaire et des délégataires",
+          "Lettre d'acceptation du commissaire aux comptes"
+        ]
+      }
+    ],
+    "pieges": [
+      "**300 millions** = **société d'investissement** (SICAV) ; **150 millions** = **fonds** (FCP). Pour les OPCI, voir les Instructions 15-24 et 16-24.",
+      "Délais en **jours ouvrés** : 10 (récépissé) et 60 (instruction).",
+      "Seuils de dissolution : **moitié** du minimum pendant **90 jours**, ou **25 %** immédiatement."
+    ],
+    "qr": [
+      {
+        "q": "Que se passe-t-il si le dépositaire n'envoie pas le certificat de dépôt dans les 30 jours ?",
+        "r": "La COSUMAF constate la nullité de l'agrément de l'OPC, sauf prorogation demandée par écrit au moins 10 jours ouvrés avant."
+      },
+      {
+        "q": "Quand un fonds doit-il être dissous ?",
+        "r": "Si son actif net reste sous la moitié du minimum pendant 90 jours consécutifs, ou sans délai s'il tombe à 25 % du minimum."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

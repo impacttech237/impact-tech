@@ -1,0 +1,274 @@
+[
+  {
+    "id": "aa06-17.delai.01",
+    "texte": "aa06-17",
+    "type": "delai",
+    "article": "art. 1",
+    "enonce": "Date limite de mise en œuvre de l'unification des marchés",
+    "valeur_texte": "au plus tard le 30 juin 2019",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.delai.02",
+    "texte": "aa06-17",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Date limite de la fusion BVMAC / Douala Stock Exchange",
+    "valeur_texte": "au plus tard le 30 juin 2019",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.delai.03",
+    "texte": "aa06-17",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Fin de la fonction transitoire de dépositaire central unique de la BEAC",
+    "valeur_texte": "au plus tard le 31 décembre 2022",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.delai.04",
+    "texte": "aa06-17",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Date limite de transfert des avoirs de conservation (BVMAC, CAA, CRCT)",
+    "valeur_texte": "avant le 30 juin 2019",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.delai.05",
+    "texte": "aa06-17",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Délai laissé aux États pour les mesures d'accompagnement (cessions, cotation obligatoire, entrée au capital)",
+    "valeur_texte": "24 mois à compter de la signature",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.montant.01",
+    "texte": "aa06-17",
+    "type": "montant",
+    "article": "art. 8",
+    "enonce": "Part des États membres dans le capital de la Bourse régionale",
+    "valeur_texte": "30 % au total, soit 5 % par État membre",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.role.01",
+    "texte": "aa06-17",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "COSUMAF (autorité de régulation unique)",
+    "valeur_texte": "Assure les fonctions de tutelle, de supervision et de contrôle du marché et des acteurs ; siège à Libreville.",
+    "acteurs": [
+      "cosumaf-autorite-de-regulation-unique"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.role.02",
+    "texte": "aa06-17",
+    "type": "role",
+    "article": "art. 2, 4",
+    "enonce": "BVMAC (entreprise de marché unique)",
+    "valeur_texte": "Assure la gestion et l'animation de la Bourse régionale ; siège à Douala après transfert depuis Libreville.",
+    "acteurs": [
+      "bvmac-entreprise-de-marche-unique"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.role.03",
+    "texte": "aa06-17",
+    "type": "role",
+    "article": "art. 2, 5, 9",
+    "enonce": "BEAC (dépositaire central transitoire)",
+    "valeur_texte": "Conserve l'ensemble des titres circulant sur le marché de la CEMAC jusqu'à l'agrément d'une entité dédiée ; supervise la mise en œuvre de l'acte.",
+    "acteurs": [
+      "beac-depositaire-central-transitoire"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.role.04",
+    "texte": "aa06-17",
+    "type": "role",
+    "article": "art. 7, 8",
+    "enonce": "États membres",
+    "valeur_texte": "Financent la COSUMAF à parts égales, cèdent des participations en bourse, imposent la cotation de certaines entreprises et entrent au capital de la bourse à hauteur de 5 % chacun.",
+    "acteurs": [
+      "etats-membres"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.definition.01",
+    "texte": "aa06-17",
+    "type": "definition",
+    "article": "art. 1-2",
+    "enonce": "Unification du marché financier de la CEMAC",
+    "valeur_texte": "Réunion du marché financier régional et du marché financier du Cameroun autour d'une autorité de régulation, d'une entreprise de marché et d'un dépositaire central uniques.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.liste.01",
+    "texte": "aa06-17",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Institutions du marché financier unifié",
+    "valeur_texte": "Autorité de régulation unique : COSUMAF (Libreville) ; Entreprise de marché unique : BVMAC (Douala) ; Dépositaire central unique : BEAC (transitoire)",
+    "items": [
+      "Autorité de régulation unique : COSUMAF (Libreville)",
+      "Entreprise de marché unique : BVMAC (Douala)",
+      "Dépositaire central unique : BEAC (transitoire)"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.liste.02",
+    "texte": "aa06-17",
+    "type": "liste",
+    "article": "art. 8",
+    "enonce": "Mesures d'accompagnement demandées aux États sous 24 mois",
+    "valeur_texte": "Cession en bourse de participations dans des entreprises publiques ; Cotation obligatoire des entreprises gérant l'épargne publique (banques, assurances) ; Cotation obligatoire des multinationales et filiales ; Mesures incitatives pour les secteurs stratégiques ; Entrée dans le capital de la Bourse régionale à 30 % (5 % par État)",
+    "items": [
+      "Cession en bourse de participations dans des entreprises publiques",
+      "Cotation obligatoire des entreprises gérant l'épargne publique (banques, assurances)",
+      "Cotation obligatoire des multinationales et filiales",
+      "Mesures incitatives pour les secteurs stratégiques",
+      "Entrée dans le capital de la Bourse régionale à 30 % (5 % par État)"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.piege.01",
+    "texte": "aa06-17",
+    "type": "piege",
+    "article": null,
+    "enonce": "Siège de la BVMAC : Libreville avant l'acte (décembre 2000), Douala depuis (art. 4).",
+    "valeur_texte": "Siège de la BVMAC : **Libreville** avant l'acte (décembre 2000), **Douala** depuis (art. 4).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.piege.02",
+    "texte": "aa06-17",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le dépositaire central est la BEAC à titre transitoire (jusqu'au 31 décembre 2022) : ce n'",
+    "valeur_texte": "Le **dépositaire central** est la **BEAC à titre transitoire** (jusqu'au 31 décembre 2022) : ce n'est pas une fonction permanente.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa06-17.piege.03",
+    "texte": "aa06-17",
+    "type": "piege",
+    "article": null,
+    "enonce": "Part des États au capital de la bourse : 30 % au total, soit 5 % par État (six États), pas",
+    "valeur_texte": "Part des États au capital de la bourse : **30 % au total**, soit **5 % par État** (six États), pas 30 % chacun.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

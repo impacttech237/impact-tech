@@ -1,0 +1,107 @@
+{
+  "id": "ibv-02",
+  "ordre": 102,
+  "type": "instruction_bvmac",
+  "organisme": "bvmac",
+  "numero": "BVMAC n° 2",
+  "titre": "Instruction BVMAC n° 2 : règles de marché de la BVMAC (version de février 2008)",
+  "theme": "marche",
+  "date_texte": "février 2008",
+  "date_adoption": "2008-02",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-instruction-n2-relative-aux-regles-de-marche-de-bvmac.pdf",
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-instruction-n2-relative-aux-regles-de-marche-de-bvmac.pdf",
+    "origine": "PDF officiel de la BVMAC (texte lisible, 21 pages). Le document s'intitule « projet d'instruction »."
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Précise les règles de marché de la BVMAC : cycle de négociation, apporteur de liquidité, types et validité des ordres, modification et annulation, conséquences des opérations sur titres sur le carnet d'ordres, détermination du cours au fixing, état d'un titre, seuils de sécurité, diffusion des données et horaires de cotation. Texte ancien (version « projet » de février 2008), antérieur au Règlement général de la BVMAC de 2025.",
+    "essentiel": "Fixing : le cours **maximise le volume échangé**, puis **minimise le solde non exécuté**, puis tient compte du **sens du solde**, enfin du **prix de référence**. Validité d'un ordre : **jour** (par défaut), **à date déterminée** (**365 jours civils** au maximum) ou **à révocation** (365 jours) ; le Règlement général limite l'historisation à **30 jours**. Seuils statiques : **±10 %** pour les actions, **±6 %** pour les obligations. États d'un titre : **suspension, gel, réservation, interdiction de saisie**. Phases de la séance : **pré-ouverture 10 h**, **ouverture 11 h**, **intervention surveillance 11 h 30**, **post-séance 12 h 30**.",
+    "retenir": [
+      "Les titres sont négociés sur la **plateforme de négociation** de la BVMAC ; ils sont répartis en **groupes de cotation** soumis à des règles différentes. Art. 1.1",
+      "**Apporteur de liquidité** : client d'un membre habilité par la BVMAC à améliorer la liquidité d'un instrument ; il introduit régulièrement des ordres d'achat et de vente dans le carnet central. Art. 1.2",
+      "**Ordre au marché** : sans limite de prix, exécuté aux prix successifs, au maximum de la quantité disponible, solde en carnet. Art. 2.1.1",
+      "**Ordre à cours limité** : prix maximal pour l'acheteur, minimal pour le vendeur ; classement par **priorité de prix puis priorité de temps**. Art. 2.1.2",
+      "Le prix d'un ordre s'exprime **à la pièce ou en pourcentage du nominal** ; son volume en **quantité de titres ou en montant**. Art. 2.2-2.3",
+      "Validité : **jour** (défaut), **à date déterminée** (365 jours civils au maximum), **à révocation** (jusqu'à exécution, annulation ou 365 jours). Art. 2.4",
+      "Une modification qui change la limite ou augmente la quantité **fait perdre la priorité temporelle** ; une **diminution de la quantité** la conserve. Art. 2.5",
+      "**OST** : division, dividende, détachement de droits, fusion, regroupement, radiation **annulent les ordres en carnet** ; coupons d'obligations et redénomination **sans effet** ; introduction en bourse **crée le carnet**. Art. 2.5",
+      "Au **fixing**, le cours est celui qui **maximise le volume échangé**, puis **minimise le solde**, puis tient compte du **sens du solde** et du **prix de référence**. Art. 3.1",
+      "**Suspension** : la reprise est précédée d'un avis ; les ordres sont enregistrés sans négociation. **Gel** : franchissement d'un seuil de précaution, plus aucune négociation ni passation d'ordre. **Réservation** : franchissement d'un seuil de réservation. **Interdiction de saisie** : temporaire. Art. 3.2",
+      "Seuils de prix statiques à l'ouverture : prix de référence statique **±10 % pour les actions**, **±6 % pour les obligations** ; modifiables par la BVMAC après information des adhérents et de la COSUMAF. Art. 4.1.2",
+      "Diffusion des données : **marché résumé** (meilleures limites), **marché par ordres**, **marché par limites** (**5 meilleures limites** à l'achat et à la vente), **transactions**. Art. 5",
+      "Phases de la séance : consultation début, **pré-ouverture 10 h**, **ouverture 11 h**, **intervention surveillance 11 h 30**, **post-séance 12 h 30**. Art. 6",
+      "La séance de cotation a lieu **tous les mardis** (note de l'instruction). Art. 6"
+    ],
+    "listes": [
+      {
+        "titre": "Phases de la séance de cotation",
+        "a": "art. 6",
+        "items": [
+          "Consultation début (aucun ordre)",
+          "Pré-ouverture, 10 h (saisie d'ordres, cours théorique)",
+          "Ouverture, 11 h (échanges au cours théorique)",
+          "Intervention surveillance, 11 h 30",
+          "Post-séance, 12 h 30"
+        ]
+      },
+      {
+        "titre": "États possibles d'un titre",
+        "a": "art. 3.2",
+        "items": [
+          "Suspension",
+          "Gel",
+          "Réservation",
+          "Interdiction de saisie"
+        ]
+      },
+      {
+        "titre": "Critères successifs de détermination du cours de fixing",
+        "a": "art. 3.1",
+        "items": [
+          "Maximisation du volume échangé",
+          "Minimisation du solde non exécuté",
+          "Sens du solde de marché",
+          "Prix de référence (cours le plus proche)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Texte ancien (**février 2008**, version projet) : le **Règlement général de 2025** prévaut. Par exemple, un ordre « à date déterminée » est limité à **30 jours** par le règlement de 2025 (art. 162), alors que cette instruction parle de **365 jours**.",
+      "La phase de consultation début est annoncée **9 h** dans le corps du texte et **8 h** dans le sommaire : ne pas citer l'heure sans vérifier.",
+      "Un OST de type **coupon d'obligation** ou **redénomination** n'a **aucune conséquence** sur le carnet, alors que dividende, division, regroupement ou détachement de droits **annulent les ordres**.",
+      "Modifier un ordre en **diminuant la quantité** conserve la priorité de temps ; augmenter la quantité ou changer la limite la fait perdre."
+    ],
+    "qr": [
+      {
+        "q": "Comment le cours de fixing est-il déterminé ?",
+        "r": "Il maximise d'abord le volume échangé, puis minimise le solde non exécuté, puis tient compte du sens du solde et enfin du prix de référence."
+      },
+      {
+        "q": "Quels sont les seuils de prix statiques à l'ouverture ?",
+        "r": "Plus ou moins 10 % du prix de référence statique pour les actions et plus ou moins 6 % pour les obligations."
+      },
+      {
+        "q": "Quelle est la différence entre un titre gelé et un titre suspendu ?",
+        "r": "Le gel résulte du franchissement d'un seuil de précaution et interdit toute négociation et toute passation d'ordre ; la suspension enregistre les ordres sans les négocier."
+      },
+      {
+        "q": "Quelles OST annulent les ordres en carnet ?",
+        "r": "Division, dividende, détachement de droits, fusion ou offre, regroupement, radiation ; les coupons et la redénomination n'ont aucun effet."
+      }
+    ]
+  }
+}

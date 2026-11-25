@@ -1,0 +1,65 @@
+{
+  "id": "i41-25",
+  "ordre": 50,
+  "type": "instruction",
+  "numero": "41-25",
+  "titre": "Fréquence et formats des reportings des dépositaires d'OPCVM, SGO et sociétés d'investissement",
+  "theme": "opc",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Calendrier et formats des reportings à la COSUMAF : hebdomadaire par OPCVM, trimestriel, semestriel et annuel ; complète l'Instruction 11-24.",
+    "essentiel": "SGO et sociétés d'investissement : reporting **hebdomadaire** de **chaque OPCVM** (et des mandats), rapport **trimestriel** au plus tard **15 jours calendaires** après le trimestre, **semestriel** **30 jours calendaires**, **annuel** **30 jours calendaires** après l'année. Dépositaires d'OPCVM : **trimestriel 15 jours**, **semestriel 30 jours**. Retards : **pénalités** (art. 31 et suivants du RG). Complète l'**Instruction 11-24**.",
+    "retenir": [
+      "Fixe la fréquence et le format des reportings des **dépositaires d'OPCVM**, des **SGO** et des **sociétés d'investissement**. Art. 1",
+      "**Hebdomadaire** : au moins **une fois par semaine**, un reporting de **chaque OPCVM** (annexe I) : identification, état du patrimoine titre par titre (actions, obligations MFAC et BEAC, monétaire < 2 ans, OPCVM, FIA, titres **hors CEMAC**, **non cotés**), disponibilités, règles d'investissement par émetteur et par **État**, **valeur de l'actif net** ; chapitre distinct pour la **gestion sous mandat**. Art. 2",
+      "**Trimestriel** : SGO/SI et dépositaires, **au plus tard 15 jours calendaires** après la fin de chaque trimestre (annexes II et IV). Art. 3",
+      "**Semestriel** : **30 jours calendaires** après la fin du semestre (SGO/SI, annexe II ; dépositaires, annexe IV). Art. 4",
+      "**Annuel** (SGO et SI) : **30 jours calendaires** après la fin de l'année (annexe III). Art. 5",
+      "Non-respect : **pénalités de retard** des **art. 31 et suivants du Règlement général**. Art. 6",
+      "**Complète** l'Instruction **11-24** (reporting semestriel des SGO). Art. 7"
+    ],
+    "listes": [
+      {
+        "titre": "Calendrier des reportings (Instruction 41-25)",
+        "a": "art. 2-5",
+        "items": [
+          "Hebdomadaire : chaque OPCVM (SGO/SI)",
+          "Trimestriel : 15 jours calendaires (SGO/SI et dépositaires)",
+          "Semestriel : 30 jours calendaires (SGO/SI et dépositaires)",
+          "Annuel : 30 jours calendaires (SGO/SI)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Reporting **hebdomadaire** par OPCVM (41-25) ≠ tableaux **semestriels** de l'Instruction 11-24 : les deux s'appliquent.",
+      "Titrisation (Instruction 21-24) : trimestriel **15 jours** aussi, mais seulement aux 1er et 3e trimestres."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les échéances de reporting d'une SGO d'OPCVM ?",
+        "r": "Un reporting hebdomadaire de chaque OPCVM, un rapport trimestriel 15 jours calendaires après le trimestre, un semestriel et un annuel 30 jours calendaires après la période, sous peine de pénalités de retard."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

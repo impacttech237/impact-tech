@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ibv-03.delai.01",
+    "texte": "ibv-03",
+    "type": "delai",
+    "article": "art. 1.1",
+    "enonce": "Paiement de la commission d'introduction par l'émetteur",
+    "valeur_texte": "avant la date de première cotation",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.delai.02",
+    "texte": "ibv-03",
+    "type": "delai",
+    "article": "art. 1.1",
+    "enonce": "Facturation de la commission de capitalisation sur les actions cotées",
+    "valeur_texte": "chaque trimestre",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.delai.03",
+    "texte": "ibv-03",
+    "type": "delai",
+    "article": "art. 1.1",
+    "enonce": "Facturation de la commission de courtage aux sociétés de bourse",
+    "valeur_texte": "à l'issue de chaque séance de cotation",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.montant.01",
+    "texte": "ibv-03",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Commission d'introduction sur une émission d'actions",
+    "valeur_texte": "0,08 % de la capitalisation boursière",
+    "type_valeur": "nombre",
+    "valeur": 0.08,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.montant.02",
+    "texte": "ibv-03",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Commission d'introduction sur une émission d'obligations",
+    "valeur_texte": "0,04 % de la capitalisation boursière",
+    "type_valeur": "nombre",
+    "valeur": 0.04,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.montant.03",
+    "texte": "ibv-03",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Commission de capitalisation sur les actions cotées",
+    "valeur_texte": "0,08 % de la capitalisation des titres cotés par an",
+    "type_valeur": "nombre",
+    "valeur": 0.08,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.montant.04",
+    "texte": "ibv-03",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Commission de capitalisation sur les obligations cotées",
+    "valeur_texte": "0,04 % de la capitalisation des titres cotés par an",
+    "type_valeur": "nombre",
+    "valeur": 0.04,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.montant.05",
+    "texte": "ibv-03",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Commission de courtage (actions et obligations)",
+    "valeur_texte": "0,3 % du volume de négociation",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.montant.06",
+    "texte": "ibv-03",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Redevance de siège annuelle des sociétés de bourse",
+    "valeur_texte": "2 000 000 FCFA par an",
+    "type_valeur": "nombre",
+    "valeur": 2000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.role.01",
+    "texte": "ibv-03",
+    "type": "role",
+    "article": "art. 1",
+    "enonce": "Émetteur (frais BVMAC)",
+    "valeur_texte": "Paie la commission d'introduction une seule fois avant la première cotation et la commission de capitalisation chaque année.",
+    "acteurs": [
+      "emetteur-frais-bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.role.02",
+    "texte": "ibv-03",
+    "type": "role",
+    "article": "art. 1",
+    "enonce": "Société de bourse (frais BVMAC)",
+    "valeur_texte": "Paie la commission de courtage après chaque séance et la redevance de siège chaque année en sa qualité de membre.",
+    "acteurs": [
+      "societe-de-bourse-frais-bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.definition.01",
+    "texte": "ibv-03",
+    "type": "definition",
+    "article": "art. 1.1",
+    "enonce": "Commission d'introduction",
+    "valeur_texte": "Commission payée une seule fois par l'émetteur, lors de son introduction en bourse, calculée en pourcentage de la capitalisation boursière.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.definition.02",
+    "texte": "ibv-03",
+    "type": "definition",
+    "article": "art. 1.1",
+    "enonce": "Commission de capitalisation",
+    "valeur_texte": "Commission annuelle de l'émetteur, calculée et facturée au prorata temporis sur la capitalisation des titres cotés.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.definition.03",
+    "texte": "ibv-03",
+    "type": "definition",
+    "article": "art. 1.1",
+    "enonce": "Redevance de siège",
+    "valeur_texte": "Redevance forfaitaire annuelle facturée par la BVMAC aux sociétés de bourse en leur qualité de membre.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.piege.01",
+    "texte": "ibv-03",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ce sont les mêmes taux que ceux du communiqué COSUMAF 01/08 (2008) et du communiqué 03/20 ",
+    "valeur_texte": "Ce sont les **mêmes taux** que ceux du communiqué COSUMAF 01/08 (2008) et du communiqué 03/20 : ne pas les compter plusieurs fois.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.piege.02",
+    "texte": "ibv-03",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les commissions de la BVMAC sont dans cette instruction, pas dans le Règlement général de ",
+    "valeur_texte": "Les commissions de la BVMAC sont dans cette **instruction**, **pas dans le Règlement général de 2025** (qui renvoie à une instruction pour la tarification, art. 233).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-03.piege.03",
+    "texte": "ibv-03",
+    "type": "piege",
+    "article": null,
+    "enonce": "La tarification applicable sur le marché est aujourd'hui fixée par l'Instruction COSUMAF 2",
+    "valeur_texte": "La tarification applicable sur le marché est aujourd'hui fixée par l'**Instruction COSUMAF 23-24** (18 juillet 2024) : vérifier si ses taux diffèrent avant de citer ceux de 2013.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

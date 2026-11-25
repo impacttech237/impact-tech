@@ -1,0 +1,68 @@
+{
+  "id": "i26-24",
+  "ordre": 35,
+  "type": "instruction",
+  "numero": "26-24",
+  "titre": "Dossier de demande d'enregistrement des opérations de placement privé",
+  "theme": "pp",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Modalités de dépôt et contenu du dossier d'enregistrement d'un placement privé (art. 90 du Règlement 01/22) : document d'information simplifié, pièces complémentaires, délais, encart d'enregistrement.",
+    "essentiel": "Dépôt **au siège + par voie électronique**, papier en **2 exemplaires**. Le **document d'information simplifié** (selon l'Instruction 27-24) est en **français**, en **PDF ou XHTML** consultable (balises **XBRL/XHTML**). Pièces : statuts, RCCM, PV d'AG et d'organe de direction, calendrier, revue de presse, états financiers des **3 derniers exercices**. Accusé en **10 jours ouvrés**, instruction en **60 jours ouvrés** ; fiche complémentaire en **10 jours** (puis **30 jours** en cours d'instruction), sinon **rejet**. L'encart dit que la COSUMAF **n'a pas vérifié** que l'information est complète : protection **moindre**.",
+    "retenir": [
+      "Prise en application de l'**art. 90 du Règlement 01/22** ; vise les sociétés, **États et démembrements** et personnes morales de l'art. 74 qui font un **placement privé**. Art. 1",
+      "Le projet de **document d'information simplifié** (ou son supplément) est déposé **au siège** de la COSUMAF **et par voie électronique**. Art. 2.1",
+      "Le DIS suit l'**Instruction 27-24**, en langage simple, concis, avec méthodologie des calculs, description des activités et **glossaire** du secteur. Art. 2.1",
+      "Format **PDF ou XHTML** permettant les recherches, comptes balisés **XBRL ou XHTML** ; rédigé **en français**. Art. 2.1",
+      "La **société de bourse** ou le déposant indique un **responsable chez l'émetteur** (identité, e-mail, téléphone) pour les notifications. Art. 2.1",
+      "Pièces complémentaires (avec la lettre de demande de l'**art. 209 du RG**) : statuts, RCCM, PV de l'AG et de l'organe de direction ayant autorisé l'émission, PV des **3 derniers exercices** (titres de capital), pactes d'actionnaires, casier ou déclaration du dirigeant, **calendrier prévisionnel**, présentation de l'activité, **revue de presse**, états financiers des **3 derniers exercices** avec rapports des CAC (émetteurs privés). Art. 2.2",
+      "Envoi électronique **et** dépôt physique en **2 exemplaires** au siège à **Libreville**. Art. 3",
+      "Accusé de réception en **10 jours ouvrés** avec la date d'expiration du délai ; fiche complémentaire à fournir en **10 jours** (dossier incomplet), sinon demande **réputée rejetée** ; instruction en **60 jours ouvrés**. Art. 4",
+      "Pendant l'instruction, une fiche complémentaire doit arriver en **30 jours**, sinon **rejet** ; décision par **lettre recommandée**, refus **motivé**. Art. 5-6",
+      "Encart : « Le document a été **enregistré** par la COSUMAF. La COSUMAF **n'a pas vérifié** que les informations sont complètes, cohérentes et compréhensibles. S'agissant d'un placement privé, le niveau d'information et de protection est **moindre**. » Annexe II",
+      "Le logo de la COSUMAF ne s'utilise que dans les conditions de l'instruction ; un **supplément** est exigé en cas de fait nouveau significatif pendant la validité. Annexe II"
+    ],
+    "listes": [
+      {
+        "titre": "Les 3 déclarations types (annexe I)",
+        "a": "annexe I",
+        "items": [
+          "Déclaration générale de l'émetteur",
+          "Déclaration quand le document contient le rapport financier annuel (image fidèle)",
+          "Déclaration du cédant"
+        ]
+      }
+    ],
+    "pieges": [
+      "APE : la COSUMAF **vise** après avoir vérifié que l'information est complète, cohérente et compréhensible. Placement privé : elle **enregistre** **sans** cette vérification.",
+      "Placement privé : fiche complémentaire en **10 jours** si le dossier est incomplet, **30 jours** en cours d'instruction."
+    ],
+    "qr": [
+      {
+        "q": "Que dit l'encart d'un document de placement privé enregistré ?",
+        "r": "Que la COSUMAF l'a enregistré sans vérifier qu'il est complet, cohérent et compréhensible, que la protection de l'investisseur est moindre et qu'il doit faire sa propre évaluation."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

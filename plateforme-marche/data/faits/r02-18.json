@@ -1,0 +1,407 @@
+[
+  {
+    "id": "r02-18.delai.01",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 105",
+    "enonce": "Déclaration d'un emprunt auprès d'un non-résident avant sa réalisation",
+    "valeur_texte": "30 jours avant",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.02",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 106",
+    "enonce": "Transmission des justificatifs d'effectivité d'un emprunt auprès d'un non-résident",
+    "valeur_texte": "30 jours après la réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.03",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 110",
+    "enonce": "Déclaration par un établissement de crédit d'un emprunt contracté auprès d'un non-résident",
+    "valeur_texte": "au plus tard 30 jours après sa réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.04",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 111",
+    "enonce": "Déclaration des remboursements d'emprunts par les établissements de crédit",
+    "valeur_texte": "dans les 30 jours qui suivent leur réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.05",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 115",
+    "enonce": "Déclaration des remboursements encaissés sur des prêts aux non-résidents",
+    "valeur_texte": "au plus tard 30 jours après",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.06",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 120",
+    "enonce": "Déclaration d'un réinvestissement de bénéfices non distribués (investissement direct entrant)",
+    "valeur_texte": "dans les 30 jours suivant l'opération",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.07",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 128",
+    "enonce": "Rapatriement du produit de liquidation non réinvesti à l'étranger",
+    "valeur_texte": "dans un délai de 30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.08",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 129",
+    "enonce": "Déclaration d'un investissement de portefeuille entrant sous forme de prise de participation",
+    "valeur_texte": "30 jours au moins avant sa réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.09",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 134",
+    "enonce": "Déclaration d'un transfert de produit de cession de valeurs CEMAC supérieur à 100 millions FCFA",
+    "valeur_texte": "30 jours avant sa réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.10",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 136",
+    "enonce": "Déclaration d'un investissement de portefeuille sortant inférieur au seuil de la BEAC",
+    "valeur_texte": "30 jours avant la réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.delai.11",
+    "texte": "r02-18",
+    "type": "delai",
+    "article": "art. 138",
+    "enonce": "Déclaration d'un investissement pour compte propre d'un établissement de crédit en valeurs mobilières à l'étranger",
+    "valeur_texte": "au plus tard 30 jours après la réalisation",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.montant.01",
+    "texte": "r02-18",
+    "type": "montant",
+    "article": "art. 100-101",
+    "enonce": "Valeurs mobilières étrangères : seuil entre déclaration préalable et autorisation préalable de la BEAC",
+    "valeur_texte": "50 millions FCFA",
+    "type_valeur": "nombre",
+    "valeur": 50000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Moins de 50 M : déclaration ; au-delà : autorisation de la BEAC.",
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.montant.02",
+    "texte": "r02-18",
+    "type": "montant",
+    "article": "art. 134",
+    "enonce": "Transfert hors CEMAC du produit de cession de valeurs mobilières CEMAC par un non-résident : seuil de déclaration",
+    "valeur_texte": "plus de 100 millions FCFA",
+    "type_valeur": "nombre",
+    "valeur": 100000000,
+    "unite": "fcfa",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.role.01",
+    "texte": "r02-18",
+    "type": "role",
+    "article": "art. 101, 105, 112, 123, 136",
+    "enonce": "BEAC (réglementation des changes)",
+    "valeur_texte": "Autorise les émissions de valeurs étrangères au-delà de 50 M FCFA, les prêts et investissements directs sortants, reçoit les déclarations d'emprunts et d'investissements, fixe par instruction les seuils de portefeuille sortant.",
+    "acteurs": [
+      "beac-reglementation-des-changes"
+    ],
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.role.02",
+    "texte": "r02-18",
+    "type": "role",
+    "article": "art. 105, 134",
+    "enonce": "Ministère en charge de la monnaie et du crédit",
+    "valeur_texte": "Reçoit les déclarations d'emprunts, de remboursements et d'investissements avec la BEAC.",
+    "acteurs": [
+      "ministere-en-charge-de-la-monnaie-et-du-credit"
+    ],
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.role.03",
+    "texte": "r02-18",
+    "type": "role",
+    "article": "art. 100-101",
+    "enonce": "Régulateur du marché financier (COSUMAF)",
+    "valeur_texte": "Reçoit la déclaration préalable pour les valeurs étrangères inférieures à 50 M FCFA et donne un avis conforme au-delà de ce seuil.",
+    "acteurs": [
+      "regulateur-du-marche-financier-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.role.04",
+    "texte": "r02-18",
+    "type": "role",
+    "article": "art. 97, 107, 110, 138",
+    "enonce": "Établissements de crédit (intermédiaires agréés)",
+    "valeur_texte": "Vérifient l'origine, la nature et la destination des fonds, exécutent les transferts sur justificatifs et déclarent leurs propres opérations.",
+    "acteurs": [
+      "etablissements-de-credit-intermediaires-agrees"
+    ],
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.definition.01",
+    "texte": "r02-18",
+    "type": "definition",
+    "article": "art. 99-102",
+    "enonce": "Valeurs mobilières CEMAC / étrangères",
+    "valeur_texte": "Selon le règlement, les valeurs mobilières étrangères sont celles émises par des non-résidents ; leur émission, publicité, mise en vente et cession dans la CEMAC suivent les articles 99 à 102.",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.liste.01",
+    "texte": "r02-18",
+    "type": "liste",
+    "article": "art. 98, 103, 133",
+    "enonce": "Opérations en valeurs mobilières libres ou sans autorisation",
+    "valeur_texte": "Cession de valeurs mobilières étrangères entre résidents de la CEMAC ; Emprunts des résidents auprès d'entités non-résidentes (sous déclaration) ; Acquisition de valeurs mobilières CEMAC par des non-résidents",
+    "items": [
+      "Cession de valeurs mobilières étrangères entre résidents de la CEMAC",
+      "Emprunts des résidents auprès d'entités non-résidentes (sous déclaration)",
+      "Acquisition de valeurs mobilières CEMAC par des non-résidents"
+    ],
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.piege.01",
+    "texte": "r02-18",
+    "type": "piege",
+    "article": null,
+    "enonce": "Fiche partielle : seul le titre IV (articles 97 à 138) a été relu en entier. Les comptes, ",
+    "valeur_texte": "Fiche **partielle** : seul le **titre IV** (articles 97 à 138) a été relu en entier. Les comptes, les transactions courantes, la couverture du risque de change et les sanctions ne sont **pas détaillés** ici.",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.piege.02",
+    "texte": "r02-18",
+    "type": "piege",
+    "article": null,
+    "enonce": "50 millions : en dessous, simple déclaration (à la BEAC et au régulateur du marché financi",
+    "valeur_texte": "**50 millions** : en dessous, simple **déclaration** (à la BEAC et au régulateur du marché financier) ; au-dessus, **autorisation préalable** de la BEAC avec avis conforme du régulateur.",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.piege.03",
+    "texte": "r02-18",
+    "type": "piege",
+    "article": null,
+    "enonce": "100 millions : seuil du transfert à l'étranger du produit de cession de valeurs CEMAC par ",
+    "valeur_texte": "**100 millions** : seuil du **transfert à l'étranger du produit de cession** de valeurs CEMAC par un non-résident, qui est soumis à une **déclaration 30 jours avant** ; l'**acquisition** de valeurs CEMAC par des non-résidents reste **libre**.",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.piege.04",
+    "texte": "r02-18",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les délais de 30 jours sont avant pour les emprunts, les prises de participation entrantes",
+    "valeur_texte": "Les délais de **30 jours** sont **avant** pour les emprunts, les prises de participation entrantes et les transferts supérieurs à 100 M, et **après** pour les remboursements et les investissements en compte propre des établissements de crédit.",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-18.piege.05",
+    "texte": "r02-18",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le règlement vise l'ancien Règlement 01/CEMAC/UMAC/CM du 11 avril 2016 sur la prévention d",
+    "valeur_texte": "Le règlement vise l'ancien **Règlement 01/CEMAC/UMAC/CM du 11 avril 2016** sur la prévention du blanchiment ; l'**article 121** (transfert du produit de cession d'un investissement direct entrant) mentionne un délai de **30 jours** dont le sens (avant ou après) n'est pas lisible : vérifier dans le PDF.",
+    "note": null,
+    "themes": [
+      "change"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

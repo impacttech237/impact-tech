@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ld-vigilance.delai.01",
+    "texte": "ld-vigilance",
+    "type": "delai",
+    "article": "III",
+    "enonce": "Transmission d'une déclaration de soupçon à l'ANIF",
+    "valeur_texte": "sans délai",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.role.01",
+    "texte": "ld-vigilance",
+    "type": "role",
+    "article": "introduction, I à V",
+    "enonce": "Acteurs et intervenants du marché (assujettis LBC/FT)",
+    "valeur_texte": "Élaborent leur cartographie des risques, appliquent les mesures de vigilance et déclarent les soupçons à l'ANIF.",
+    "acteurs": [
+      "acteurs-et-intervenants-du-marche-assujettis-lbc-ft"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.role.02",
+    "texte": "ld-vigilance",
+    "type": "role",
+    "article": "introduction",
+    "enonce": "COSUMAF (LBC/FT)",
+    "valeur_texte": "Publie les lignes directrices pédagogiques prévues par son plan d'action.",
+    "acteurs": [
+      "cosumaf-lbc-ft"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.definition.01",
+    "texte": "ld-vigilance",
+    "type": "definition",
+    "article": "introduction",
+    "enonce": "Cartographie des risques",
+    "valeur_texte": "Évaluation, propre à chaque acteur du marché, des risques de blanchiment et de financement du terrorisme (clients, produits, canaux, opérations) qui sert de support aux mesures de vigilance.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.liste.01",
+    "texte": "ld-vigilance",
+    "type": "liste",
+    "article": "table des matières",
+    "enonce": "Parties des lignes directrices sur la vigilance",
+    "valeur_texte": "Acteurs et intervenants du marché soumis aux obligations LBC/FT ; Dispositif interne d'évaluation et de gestion des risques ; Identification des risques ; Évaluation et classification des risques ; Mesures de vigilance face aux risques ; Annexe : menaces et critères d'alerte",
+    "items": [
+      "Acteurs et intervenants du marché soumis aux obligations LBC/FT",
+      "Dispositif interne d'évaluation et de gestion des risques",
+      "Identification des risques",
+      "Évaluation et classification des risques",
+      "Mesures de vigilance face aux risques",
+      "Annexe : menaces et critères d'alerte"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.piege.01",
+    "texte": "ld-vigilance",
+    "type": "piege",
+    "article": null,
+    "enonce": "Fiche de contexte : ni les mesures de vigilance (standard, renforcées, simplifiées), ni le",
+    "valeur_texte": "Fiche de **contexte** : ni les mesures de vigilance (standard, renforcées, simplifiées), ni les critères d'alerte ne sont relevés ici ; lire le PDF.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.piege.02",
+    "texte": "ld-vigilance",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les lignes directrices n'ont pas de force obligatoire propre : les obligations viennent du",
+    "valeur_texte": "Les lignes directrices **n'ont pas de force obligatoire propre** : les obligations viennent du **Règlement CEMAC 02/24**, du **Règlement général COSUMAF** et de l'**Instruction 32-24**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-vigilance.piege.03",
+    "texte": "ld-vigilance",
+    "type": "piege",
+    "article": null,
+    "enonce": "La date du document n'est pas lue : la médiathèque de la COSUMAF les publie le 23 mars 202",
+    "valeur_texte": "La **date** du document n'est pas lue : la médiathèque de la COSUMAF les publie le **23 mars 2026**, avec les lignes directrices sur les déclarations d'opérations suspectes (15 décembre 2025).",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

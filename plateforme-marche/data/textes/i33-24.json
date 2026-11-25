@@ -1,0 +1,80 @@
+{
+  "id": "i33-24",
+  "ordre": 42,
+  "type": "instruction",
+  "numero": "33-24",
+  "titre": "Honorabilité, compétence et expérience des dirigeants et du personnel",
+  "theme": "conformite",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Exigences d'honorabilité, de compétence et d'expérience des dirigeants et du personnel des entités contrôlées (art. 126 et suivants du Règlement 01/22, art. 12 et suivants du RG), dont les responsables des fonctions clés.",
+    "essentiel": "Interdiction de diriger ou d'être employé si **condamnation définitive depuis moins de 10 ans** pour **crime** ou à **prison ferme ou au moins 6 mois avec sursis** pour vol, escroquerie, blanchiment, corruption, faux, association de malfaiteurs, stupéfiants, proxénétisme, banqueroute, usure, change, **fraude fiscale**, infraction boursière. La COSUMAF peut s'opposer même **sans condamnation**. Compétence **permanente**. Responsables **gestion des risques, audit interne, conformité** : environ **10 ans** d'expérience pour les grandes entités.",
+    "retenir": [
+      "Base : **art. 126 et suivants du Règlement 01/22** et **art. 12 et suivants du RG** ; vise dirigeants et personnel des entités de l'**art. 19** du Règlement 01/22. Art. 1",
+      "Nul ne peut **administrer, diriger ou être employé** par une entité contrôlée s'il a été **définitivement condamné depuis moins de 10 ans** pour **crime**, ou à une peine d'**emprisonnement ferme** ou **d'au moins 6 mois avec sursis** pour certaines infractions. Art. 2.2",
+      "Infractions visées : contre les biens (**vol, extorsion, escroquerie**), **recel**, **blanchiment**, **corruption**, trafic d'influence, détournement, **faux**, **association de malfaiteurs**, **stupéfiants**, **proxénétisme**, **banqueroute**, **prêt usuraire**, relations financières avec l'étranger, **fraude fiscale**, infractions à la réglementation du **marché financier**. Art. 2.2",
+      "La COSUMAF peut **s'opposer** à une nomination ou un renouvellement sur des **éléments matériellement établis**, **même sans procédure ni condamnation**. Art. 2.3",
+      "Toutes les procédures pénales, civiles ou administratives sont **déclarées** à la COSUMAF, **quelle que soit leur date** ; elle tient compte de l'**antériorité** et de la **gravité**. Art. 2.4",
+      "Les entités ont des **politiques écrites** garantissant la compétence de leurs dirigeants et responsables de fonctions clés ; l'exigence de compétence et d'honorabilité est **permanente**. Art. 3",
+      "Compétence = diplômes, qualifications, connaissances, **expérience pertinente** (assurance, finance, comptabilité, actuariat, droit, gestion). Art. 3.2",
+      "Dirigeant effectif : compétences minimales en **marchés financiers**, **stratégie et modèle économique**, **gouvernance et risques**, **analyse financière**, **réglementation** ; expérience de **direction** dans le secteur ; évaluation **individuelle** et **proportionnée**. Art. 4",
+      "Responsable de fonction clé : compétence sectorielle, **autorité**, organisation, communication, capacité de **synthèse** et de vulgarisation. Art. 5",
+      "**Gestion des risques** : vision **globale et transversale**, formation spécialisée et **10 ans** d'expérience environ (grandes entités) ; l'expérience de conseil, CAC ou contrôleur interne compte. Art. 6",
+      "**Audit interne** : méthodologie d'audit + connaissance des activités ; **10 ans** d'expérience pour les entités importantes ou complexes ; certification possible. Art. 7",
+      "**Conformité** : connaissances **juridiques** avérées, environ **10 ans** pour les grandes entités ; d'autres parcours (contrôle interne, audit, CAC, direction) sont admis. Art. 8"
+    ],
+    "listes": [
+      {
+        "titre": "Domaines de compétence minimaux d'un dirigeant effectif",
+        "a": "art. 4.3",
+        "items": [
+          "Marchés financiers",
+          "Stratégie et modèle économique",
+          "Gouvernance et gestion des risques",
+          "Analyse financière",
+          "Réglementation applicable"
+        ]
+      },
+      {
+        "titre": "Les 3 fonctions clés",
+        "a": "art. 6-8",
+        "items": [
+          "Gestion des risques",
+          "Audit interne",
+          "Vérification de la conformité"
+        ]
+      }
+    ],
+    "pieges": [
+      "La COSUMAF peut refuser un dirigeant **sans condamnation**, sur des **éléments matériellement établis**.",
+      "Le Règlement 01/22 (art. 171) interdit aussi les administrateurs ou dirigeants **condamnés pour crime ou délit** ou sur lesquels pèsent des **créances douteuses** du système bancaire CEMAC."
+    ],
+    "qr": [
+      {
+        "q": "Quelles condamnations interdisent de diriger une entité contrôlée par la COSUMAF ?",
+        "r": "Une condamnation définitive depuis moins de 10 ans pour crime, ou à une peine de prison ferme ou d'au moins 6 mois avec sursis pour des infractions comme vol, escroquerie, blanchiment, corruption, faux, banqueroute, fraude fiscale ou infraction boursière."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,485 @@
+[
+  {
+    "id": "i10-23.delai.01",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Publication du rapport de transparence d'une agence de notation",
+    "valeur_texte": "3 mois après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.02",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Durée de mise en ligne du rapport de transparence",
+    "valeur_texte": "5 ans au moins",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.03",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe A.2",
+    "enonce": "Mandat maximal d'un membre indépendant du conseil d'une agence de notation",
+    "valeur_texte": "5 ans non renouvelable",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.04",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe B.7",
+    "enonce": "Conservation des relevés et pistes d'audit d'une agence de notation",
+    "valeur_texte": "5 ans au moins",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.05",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe B.7",
+    "enonce": "Conservation supplémentaire des relevés après retrait d'agrément de l'agence",
+    "valeur_texte": "3 ans au moins",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.06",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe C.8",
+    "enonce": "Durée maximale d'un analyste de notation en chef sur la même entité",
+    "valeur_texte": "4 ans",
+    "type_valeur": "nombre",
+    "valeur": 4,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.07",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe C.8",
+    "enonce": "Durée maximale d'un analyste de notation sur la même entité",
+    "valeur_texte": "5 ans",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.08",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe C.8",
+    "enonce": "Durée maximale d'un approbateur de notations sur la même entité",
+    "valeur_texte": "7 ans",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.09",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe C.8",
+    "enonce": "Période d'écart après rotation d'un analyste ou approbateur",
+    "valeur_texte": "2 ans",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.10",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe C.6",
+    "enonce": "Travail vérifié d'un analyste parti chez l'entité notée",
+    "valeur_texte": "2 années précédant le départ",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.11",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe C.7",
+    "enonce": "Interdiction d'un poste de gestion clé chez l'entité notée après la notation",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.12",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe D",
+    "enonce": "Information de l'entité notée avant publication de sa notation",
+    "valeur_texte": "12 heures au moins",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "heures",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.delai.13",
+    "texte": "i10-23",
+    "type": "delai",
+    "article": "annexe E",
+    "enonce": "Publication des taux de défaut historiques par catégorie de notation",
+    "valeur_texte": "tous les 6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.montant.01",
+    "texte": "i10-23",
+    "type": "montant",
+    "article": "annexe A.2",
+    "enonce": "Part minimale de membres indépendants au conseil d'une agence de notation",
+    "valeur_texte": "1/3 (au moins 2 membres)",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.montant.02",
+    "texte": "i10-23",
+    "type": "montant",
+    "article": "annexe E",
+    "enonce": "Nombre de plus gros clients listés chaque année par l'agence de notation",
+    "valeur_texte": "20 clients",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.montant.03",
+    "texte": "i10-23",
+    "type": "montant",
+    "article": "annexe E",
+    "enonce": "Seuil de participation définissant les entités liées à un « client » d'agence",
+    "valeur_texte": "plus de 20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.role.01",
+    "texte": "i10-23",
+    "type": "role",
+    "article": "art. 2-8",
+    "enonce": "Agence de notation",
+    "valeur_texte": "Émet des notations indépendantes, gère les conflits d'intérêts, publie sa performance et un rapport de transparence annuel.",
+    "acteurs": [
+      "agence-de-notation"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.role.02",
+    "texte": "i10-23",
+    "type": "role",
+    "article": "annexe A.2",
+    "enonce": "Membres indépendants du conseil (agence)",
+    "valeur_texte": "Contrôlent la politique et les méthodes de notation, le contrôle qualité, la gestion des conflits et la conformité.",
+    "acteurs": [
+      "membres-independants-du-conseil-agence"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.role.03",
+    "texte": "i10-23",
+    "type": "role",
+    "article": "annexe A.6, C.5",
+    "enonce": "Responsable de la vérification de la conformité (agence)",
+    "valeur_texte": "Contrôle le respect de l'instruction, reçoit les signalements d'irrégularités, rend compte aux dirigeants et aux indépendants.",
+    "acteurs": [
+      "responsable-de-la-verification-de-la-conformite-agence"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.role.04",
+    "texte": "i10-23",
+    "type": "role",
+    "article": "annexe A.9",
+    "enonce": "Fonction de réexamen",
+    "valeur_texte": "Réexamine périodiquement méthodes, modèles et hypothèses, indépendamment des équipes de notation.",
+    "acteurs": [
+      "fonction-de-reexamen"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.role.05",
+    "texte": "i10-23",
+    "type": "role",
+    "article": "art. 7",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Tient le registre central des performances des notations et en publie un résumé annuel.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.definition.01",
+    "texte": "i10-23",
+    "type": "definition",
+    "article": "annexe B.3",
+    "enonce": "Services accessoires (notation)",
+    "valeur_texte": "Services autres que l'émission de notations : prévisions de marché, estimations économiques, analyses de prix, analyses de données générales.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.definition.02",
+    "texte": "i10-23",
+    "type": "definition",
+    "article": "art. 8",
+    "enonce": "Rapport de transparence",
+    "valeur_texte": "Rapport annuel de l'agence de notation sur sa gouvernance, son contrôle interne et sa conformité, publié 3 mois après la clôture.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.liste.01",
+    "texte": "i10-23",
+    "type": "liste",
+    "article": "annexe B.2",
+    "enonce": "Cas où l'agence s'abstient de noter",
+    "valeur_texte": "Détention de titres de l'entité notée (hors OPC diversifiés) ; Lien de contrôle entre l'agence et l'entité notée ; Personne de l'agence membre du conseil de l'entité notée ; Analyste ou approbateur lié à l'entité notée",
+    "items": [
+      "Détention de titres de l'entité notée (hors OPC diversifiés)",
+      "Lien de contrôle entre l'agence et l'entité notée",
+      "Personne de l'agence membre du conseil de l'entité notée",
+      "Analyste ou approbateur lié à l'entité notée"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.liste.02",
+    "texte": "i10-23",
+    "type": "liste",
+    "article": "annexe A.2",
+    "enonce": "Missions des membres indépendants du conseil",
+    "valeur_texte": "Politique et méthodes de notation ; Contrôle de la qualité ; Gestion des conflits d'intérêts ; Conformité et gouvernance, dont la fonction de réexamen",
+    "items": [
+      "Politique et méthodes de notation",
+      "Contrôle de la qualité",
+      "Gestion des conflits d'intérêts",
+      "Conformité et gouvernance, dont la fonction de réexamen"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.piege.01",
+    "texte": "i10-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Rotation : 4 / 5 / 7 ans (analyste en chef / analyste / approbateur) puis 2 ans de pause.",
+    "valeur_texte": "Rotation : **4 / 5 / 7 ans** (analyste en chef / analyste / approbateur) puis **2 ans** de pause.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.piege.02",
+    "texte": "i10-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "12 heures : préavis à l'entité notée ; 6 mois : interdiction d'un poste clé chez elle ; 2 ",
+    "valeur_texte": "**12 heures** : préavis à l'entité notée ; **6 mois** : interdiction d'un poste clé chez elle ; **2 ans** : vérification du travail de l'analyste qui part.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i10-23.piege.03",
+    "texte": "i10-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Conservation des relevés : 5 ans, plus 3 ans après un retrait d'agrément.",
+    "valeur_texte": "Conservation des relevés : **5 ans**, plus **3 ans** après un retrait d'agrément.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,448 @@
+[
+  {
+    "id": "i21-24.delai.01",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Confirmation écrite de réception d'une demande d'agrément d'organisme de titrisation",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.02",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Vérification de la complétude du dossier d'organisme de titrisation",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.03",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Décision sur l'agrément d'un organisme de titrisation",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.04",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Date limite pour demander des compléments sur un dossier d'OT",
+    "valeur_texte": "20e jour ouvré",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.05",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Durée maximale de suspension de l'examen d'un dossier d'OT",
+    "valeur_texte": "30 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.06",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Notification de la décision d'agrément d'un OT à la SG et au dépositaire",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.07",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 13",
+    "enonce": "Rapport d'activité trimestriel d'un organisme de titrisation",
+    "valeur_texte": "15 jours après la fin des 1er et 3e trimestres",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.08",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 13",
+    "enonce": "Rapport d'activité semestriel d'un organisme de titrisation",
+    "valeur_texte": "30 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.delai.09",
+    "texte": "i21-24",
+    "type": "delai",
+    "article": "art. 13",
+    "enonce": "Rapport d'activité annuel d'un organisme de titrisation",
+    "valeur_texte": "30 jours calendaires après l'exercice",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.montant.01",
+    "texte": "i21-24",
+    "type": "montant",
+    "article": "art. 3.4",
+    "enonce": "Montant minimal d'une part ou action d'organisme de titrisation",
+    "valeur_texte": "100 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 100000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.montant.02",
+    "texte": "i21-24",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Participation définissant des « liens étroits » (titrisation)",
+    "valeur_texte": "au moins 20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.montant.03",
+    "texte": "i21-24",
+    "type": "montant",
+    "article": "art. 1",
+    "enonce": "Participation qualifiée (titrisation)",
+    "valeur_texte": "au moins 10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.montant.04",
+    "texte": "i21-24",
+    "type": "montant",
+    "article": "art. 11",
+    "enonce": "Exemplaires du document d'information d'OT adressés à la COSUMAF",
+    "valeur_texte": "2 exemplaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.role.01",
+    "texte": "i21-24",
+    "type": "role",
+    "article": "art. 3, 5, 12-13, 18",
+    "enonce": "Société de gestion d'OT",
+    "valeur_texte": "Gère le FCT, le représente envers les tiers et en justice, dépose la demande, transmet rapports et publicités, liquide le fonds.",
+    "acteurs": [
+      "societe-de-gestion-d-ot"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.role.02",
+    "texte": "i21-24",
+    "type": "role",
+    "article": "art. 8, 9, 13, 17",
+    "enonce": "Dépositaire d'OT",
+    "valeur_texte": "Contrôle la régularité des décisions de la SG, reçoit la notification d'agrément et contrôle les rapports d'activité.",
+    "acteurs": [
+      "depositaire-d-ot"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.role.03",
+    "texte": "i21-24",
+    "type": "role",
+    "article": "art. 16",
+    "enonce": "Commissaire aux comptes d'OT",
+    "valeur_texte": "Désigné par le conseil d'administration de la SG ; informe les dirigeants et la COSUMAF des irrégularités.",
+    "acteurs": [
+      "commissaire-aux-comptes-d-ot"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.role.04",
+    "texte": "i21-24",
+    "type": "role",
+    "article": "art. 9",
+    "enonce": "Agence de notation",
+    "valeur_texte": "Peut délivrer une note sur l'opération de titrisation, jointe au dossier.",
+    "acteurs": [
+      "agence-de-notation"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.definition.01",
+    "texte": "i21-24",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Organisme de titrisation (OT)",
+    "valeur_texte": "FIA qui acquiert des créances et finance cette acquisition par l'émission de titres négociables représentatifs de ces créances.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.definition.02",
+    "texte": "i21-24",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Fonds d'investissement alternatif (FIA)",
+    "valeur_texte": "OPC qui lève des capitaux auprès d'investisseurs pour les investir selon une politique définie ; ce n'est pas un OPCVM.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.definition.03",
+    "texte": "i21-24",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Fonds commun de titrisation (FCT)",
+    "valeur_texte": "Copropriété sans personnalité morale, gérée par une société de gestion ; ni l'indivision ni la société en participation ne s'y appliquent.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.definition.04",
+    "texte": "i21-24",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Liens étroits",
+    "valeur_texte": "Participation d'au moins 20 % du capital ou des droits de vote, ou lien permanent avec une même personne par une relation de contrôle.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.definition.05",
+    "texte": "i21-24",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Participation qualifiée",
+    "valeur_texte": "Participation directe ou indirecte d'au moins 10 % du capital ou des droits de vote, ou permettant une influence notable.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.definition.06",
+    "texte": "i21-24",
+    "type": "definition",
+    "article": "art. 9",
+    "enonce": "Rapport de gestion (OT)",
+    "valeur_texte": "Partie du rapport annuel présentant activités, résultats, risques, mouvements du portefeuille et risque de liquidité.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.liste.01",
+    "texte": "i21-24",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Les 2 formes d'organisme de titrisation",
+    "valeur_texte": "Fonds commun de titrisation (FCT), géré par une société de gestion ; Société de titrisation (ST), SA ou SAS",
+    "items": [
+      "Fonds commun de titrisation (FCT), géré par une société de gestion",
+      "Société de titrisation (ST), SA ou SAS"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.piege.01",
+    "texte": "i21-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "20 % = liens étroits ; 10 % = participation qualifiée.",
+    "valeur_texte": "**20 %** = liens étroits ; **10 %** = participation qualifiée.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.piege.02",
+    "texte": "i21-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "OT : décision en 60 jours ouvrés, compléments demandés au plus tard le 20e jour ouvré, sus",
+    "valeur_texte": "OT : décision en **60 jours ouvrés**, compléments demandés au plus tard le **20e jour ouvré**, suspension **30 jours ouvrés** maximum.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i21-24.piege.03",
+    "texte": "i21-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Rapports trimestriels seulement pour les 1er et 3e trimestres (le 2e et le 4e sont couvert",
+    "valeur_texte": "Rapports trimestriels seulement pour les **1er et 3e trimestres** (le 2e et le 4e sont couverts par les rapports semestriel et annuel).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

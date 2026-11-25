@@ -1,0 +1,49 @@
+{
+  "id": "ld-vigilance",
+  "ordre": 122,
+  "type": "lignes_directrices",
+  "organisme": "cosumaf",
+  "num": "Lignes directrices vigilance LBC/FT",
+  "date": "mars 2026",
+  "titre": "Lignes directrices relatives aux modalités de mise en œuvre des obligations de vigilance en matière de LBC/FT sur le marché financier de l'Afrique centrale",
+  "theme": "conformite",
+  "couverture": "contexte",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\01KHB3EN3V74RTP0V0K4S06YR1.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 30 pages), lu par OCR ; date de publication sur le site : 23 mars 2026, la date du document n'est pas lue ; fiche de contexte (plan et introduction)"
+  },
+  "relations": {},
+  "objet": "Lignes directrices pédagogiques de la COSUMAF, prévues par son plan d'action, qui aident les acteurs du marché à mettre en œuvre leurs obligations de vigilance en matière de LBC/FT : acteurs soumis, dispositif interne d'évaluation et de gestion des risques, identification, évaluation et classification des risques, mesures de vigilance, et annexe des menaces et critères d'alerte. Fiche de contexte : plan et principes, sans les mesures détaillées.",
+  "trente": "Document **à caractère pédagogique**. La **cartographie des risques**, élaborée par chaque acteur selon son expertise, sa clientèle et ses opérations, est la **clé de voûte** du dispositif LBC/FT : elle sert de support aux **mesures de vigilance**, et c'est à l'issue de ce processus que le professionnel décide d'une **déclaration de soupçon** (transmise **sans délai** à l'ANIF). Plan : acteurs soumis, dispositif interne d'évaluation et de gestion des risques, identification, évaluation et classification des risques, mesures de vigilance, annexe sur les menaces et critères d'alerte.",
+  "retenir": [
+    "La LBC/FT est une **priorité partagée** entre les pouvoirs publics de la CEMAC, le régulateur et les acteurs et intervenants du marché. Introduction",
+    "Les lignes directrices sont **prévues dans le Plan d'action de la COSUMAF** et ont un **caractère pédagogique**. Introduction",
+    "Le **système d'évaluation et de gestion des risques** est la **clé de voûte** du dispositif LBC/FT. Introduction",
+    "La **cartographie des risques** est élaborée par **chaque acteur** selon son expertise, sa clientèle et la nature de ses opérations ; elle sert de support aux **mesures de vigilance**. Introduction",
+    "À l'issue de ce processus, le professionnel décide d'une **déclaration de soupçon** ; il la transmet **sans délai** à l'**ANIF**, avec les éléments d'analyse. Introduction et III",
+    "Plan : **acteurs et intervenants soumis** aux obligations LBC/FT ; **obligations de mise en place d'un dispositif interne d'évaluation et de gestion des risques** ; **identification** des risques ; **évaluation et classification** des risques ; **mesures de vigilance** à mettre en œuvre ; **annexe** : menaces pesant sur le marché financier et critères d'alerte (opération, fonds, clients ou bénéficiaires effectifs, mesures de vigilance). Table des matières"
+  ],
+  "delais": [
+    { "q": "Transmission d'une déclaration de soupçon à l'ANIF", "v": "sans délai", "a": "III" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "Acteurs et intervenants du marché (assujettis LBC/FT)", "r": "Élaborent leur cartographie des risques, appliquent les mesures de vigilance et déclarent les soupçons à l'ANIF.", "a": "introduction, I à V" },
+    { "acteur": "COSUMAF (LBC/FT)", "r": "Publie les lignes directrices pédagogiques prévues par son plan d'action.", "a": "introduction" }
+  ],
+  "definitions": [
+    { "t": "Cartographie des risques", "d": "Évaluation, propre à chaque acteur du marché, des risques de blanchiment et de financement du terrorisme (clients, produits, canaux, opérations) qui sert de support aux mesures de vigilance.", "a": "introduction" }
+  ],
+  "listes": [
+    { "titre": "Parties des lignes directrices sur la vigilance", "a": "table des matières", "items": ["Acteurs et intervenants du marché soumis aux obligations LBC/FT", "Dispositif interne d'évaluation et de gestion des risques", "Identification des risques", "Évaluation et classification des risques", "Mesures de vigilance face aux risques", "Annexe : menaces et critères d'alerte"] }
+  ],
+  "pieges": [
+    "Fiche de **contexte** : ni les mesures de vigilance (standard, renforcées, simplifiées), ni les critères d'alerte ne sont relevés ici ; lire le PDF.",
+    "Les lignes directrices **n'ont pas de force obligatoire propre** : les obligations viennent du **Règlement CEMAC 02/24**, du **Règlement général COSUMAF** et de l'**Instruction 32-24**.",
+    "La **date** du document n'est pas lue : la médiathèque de la COSUMAF les publie le **23 mars 2026**, avec les lignes directrices sur les déclarations d'opérations suspectes (15 décembre 2025)."
+  ],
+  "qr": [
+    { "q": "Quelle est la clé de voûte du dispositif LBC/FT selon les lignes directrices de vigilance ?", "r": "Le système d'évaluation et de gestion des risques, c'est-à-dire la cartographie des risques propre à chaque acteur." }
+  ]
+}

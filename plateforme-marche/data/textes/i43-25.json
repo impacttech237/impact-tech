@@ -1,0 +1,63 @@
+{
+  "id": "i43-25",
+  "ordre": 52,
+  "type": "instruction",
+  "numero": "43-25",
+  "titre": "Contenu du rapport annuel des experts en évaluation des OPCI",
+  "theme": "opc",
+  "date_texte": "15 décembre 2025",
+  "date_adoption": "2025-12-15",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Rubriques du rapport annuel d'expertise établi par les experts en évaluation des OPCI (art. 447 du Règlement général).",
+    "essentiel": "Le rapport d'expertise immobilière d'un OPCI comporte : la **mission** (client, objet précis, biens identifiés si possible par le **cadastre**, **date de valeur**, date de visite, hypothèses, réserves, documents reçus), une clause d'**utilisation intégrale** et de **non-publication** sans accord de l'expert, la situation **géographique**, **juridique**, **urbanistique**, la **description** du bien et la méthode d'évaluation. Immeuble hors CEMAC : rapport traduit (l'original seul fait foi), valeur en devise **convertie en FCFA** avec cours et date ; frais de traduction **à la charge de l'OPCI**.",
+    "retenir": [
+      "Prise en application de l'**art. 447 du Règlement général** ; précise le contenu du **rapport annuel** des experts en évaluation des **OPCI**. Art. 1-2",
+      "Immeuble **hors CEMAC** évalué par un confrère étranger : rapport traduit en indiquant la langue d'origine ; sauf traduction assermentée, la traduction est **approximative** et **l'original seul est opposable** ; frais de traduction **à la charge de l'OPCI**. Annexe",
+      "Valeur estimée en **devise** et **convertie en FCFA**, avec le **cours de change** et sa **date** ; note explicative de l'expert de la CEMAC si les critères étrangers diffèrent. Annexe",
+      "**Mission** : identité du client et lien avec l'immeuble, objet précis (état actuel ou futur, usage), identification des biens (cadastre, adresse, usage), **date de valeur**, date de rédaction, **date de visite** (accès partiel, échantillonnage), hypothèses (valeur libre ou occupée, vénale, locative…), réserves, documents utilisés. Annexe 1",
+      "**Clause** : le rapport ne peut être utilisé **partiellement** ni publié **sans l'accord écrit** de l'expert. Annexe 2",
+      "Situations **géographique**, **juridique** (pleine propriété, copropriété, indivision, crédit-bail…), **urbanistique et administrative** (zonage, servitudes, constructibilité). Annexe 3-5",
+      "**Description** : nature, affectation, **surfaces** (garanties seulement si mesurées par un professionnel assuré), état d'entretien ; l'expert ne fait pas de diagnostic technique détaillé ni de devis. Annexe 6",
+      "Le **régime fiscal** du mode de cession retenu (apport, cession de parts, vente directe…) est toujours mentionné. Annexe"
+    ],
+    "listes": [
+      {
+        "titre": "Plan du rapport d'expertise d'un OPCI",
+        "a": "annexe",
+        "items": [
+          "1. Mission",
+          "2. Clauses de non-publication et d'utilisation intégrale",
+          "3. Situation géographique",
+          "4. Situation juridique",
+          "5. Situation urbanistique et administrative",
+          "6. Description du bien",
+          "Méthodes et valeur retenue (avec régime fiscal de cession)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Hors CEMAC : la traduction non assermentée est **approximative**, seul l'**original** fait foi."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

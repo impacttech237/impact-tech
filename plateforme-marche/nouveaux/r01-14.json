@@ -1,0 +1,74 @@
+{
+  "id": "r01-14",
+  "ordre": 116,
+  "type": "reglement",
+  "organisme": "cemac",
+  "num": "01/14/CEMAC-UMAC-CM",
+  "date": "25 avril 2014, Douala",
+  "titre": "Règlement n° 01/14/CEMAC-UMAC-CM portant institution d'un régime d'inscription en compte des valeurs mobilières et autres instruments financiers dans la CEMAC",
+  "theme": "titres",
+  "couverture": "complete",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-reglement-n01-14-cemac-umac-cm-portant-institution-dun-regime-dinscription-en-compte-des-valeurs-mobiles-et-autres-instruments-financiers-dans-la-cemac.pdf",
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-reglement-n01-14-cemac-umac-cm-portant-institution-dun-regime-dinscription-en-compte-des-valeurs-mobiles-et-autres-instruments-financiers-dans-la-cemac.pdf",
+    "origine": "PDF officiel de la BVMAC (scan, 8 pages, 27 articles), lu par OCR"
+  },
+  "relations": {},
+  "objet": "Institue un régime général d'inscription en compte obligatoire pour les valeurs mobilières et autres instruments financiers émis dans le cadre d'un appel public à l'épargne : fin du support papier, transmission par virement de compte à compte, comptes nominatifs purs ou administrés, teneurs de comptes, rôle de garant du Dépositaire Central, dispositions transitoires de 24 mois. Adopté par le Comité ministériel le 25 avril 2014 à Douala. Ancien régime, remplacé par le Règlement 04/25 (19 décembre 2025).",
+  "trente": "**27 articles.** Inscription en compte **obligatoire** pour les titres émis par **appel public à l'épargne** ; plus de support **papier** ; transmission **par virement de compte à compte** ; propriété résultant de l'**inscription en compte** (art. 2 à 6). **24 mois** pour inscrire les titres (art. 19) ; à partir du **13e mois**, droits des titres non déposés suspendus (art. 22-23) ; **3 ans** après l'entrée en vigueur, **vente en bourse** des droits non inscrits, sur **24 mois** (art. 24). Souches des titres au porteur conservées **20 ans** (art. 17). Entrée en vigueur le **1er jour du mois suivant la signature** (art. 27).",
+  "retenir": [
+    "Régime général d'inscription en compte, **obligatoire**, pour les valeurs mobilières émises dans le cadre d'un **appel public à l'épargne** ; sont **exclus** les titres non émis par APE (art. 20 du RG COSUMAF). Art. 2",
+    "Valeurs concernées : titres de capital et de créance d'une **société anonyme**, **bons et obligations du Trésor**, instruments de la BEAC ou d'un État ou démembrement, **parts d'OPCVM**, parts de **fonds communs de créances**, tout instrument émis par APE. Art. 3",
+    "Les titres sont **représentés par une inscription en compte** au nom de leur propriétaire ; ils **ne peuvent plus être représentés sur support papier**. Art. 4",
+    "Transmission **par virement de compte à compte**. Art. 5",
+    "La **propriété** résulte de l'**inscription au compte** du titulaire chez un teneur de compte ; elle est établie à l'égard de tous. Art. 6",
+    "Titres **au porteur** (inscrits chez un intermédiaire agréé) ou **nominatifs** (**purs** : registres de l'émetteur ; **administrés** : compte d'administration chez un intermédiaire, sur mandat). Art. 7-9",
+    "**Teneurs de comptes** : émetteurs, intermédiaires financiers agréés, **BEAC**, **Trésors publics** des États, organismes habilités ; ils ouvrent des comptes courants chez le **Dépositaire Central** et deviennent **adhérents**. Art. 10-11",
+    "Le **Dépositaire Central garantit le montant de l'émission** et veille à ce que le solde de ses comptes courants corresponde au total des titres inscrits chez les teneurs. Art. 12",
+    "Redressement ou liquidation d'un teneur de compte : le **syndic informe sans délai** le Dépositaire Central, qui désigne un autre teneur. Art. 13",
+    "Le teneur de compte **délivre une attestation**, est **seul responsable** de ses livres et souscrit une **assurance responsabilité civile professionnelle** auprès d'une compagnie agréée **CIMA**. Art. 15-16",
+    "Les émetteurs **conservent 20 ans** les souches des titres au porteur à compter de la vente prévue à l'article 23 (24 dans le texte). Art. 17",
+    "Dispositions transitoires : **24 mois** à compter de l'entrée en vigueur pour inscrire en compte les titres nominatifs et au porteur. Art. 19",
+    "À partir du **13e mois**, les titulaires de titres au porteur ou de certificats nominatifs non déposés ne peuvent **plus exercer leurs droits** avant de les remettre. Art. 22-23",
+    "**Trois ans** après l'entrée en vigueur, les émetteurs **vendent en bourse** les droits correspondant aux titres non inscrits, dans un délai de **24 mois** ; le produit est **consigné** par le Dépositaire Central ; les titres anciens sont **réputés nuls** après la vente. Art. 24",
+    "Modification **uniquement** par règlement modificatif du **Comité ministériel**, à l'initiative de la COSUMAF et après **avis conforme du CA de la BEAC**. Art. 26",
+    "Entrée en vigueur le **1er jour du mois suivant la signature** du Président du Comité ministériel ; **abroge toutes les dispositions antérieures contraires**. Art. 27"
+  ],
+  "delais": [
+    { "q": "Délai de mise en conformité : inscription en compte des titres nominatifs et au porteur", "v": "24 mois à compter de l'entrée en vigueur", "a": "art. 19" },
+    { "q": "Point de départ de la suspension des droits des titres non déposés", "v": "à compter du 13e mois suivant l'entrée en vigueur", "a": "art. 22, 23" },
+    { "q": "Vente en bourse des droits correspondant aux titres non inscrits", "v": "3 ans après l'entrée en vigueur, sur une durée de 24 mois", "a": "art. 24" },
+    { "q": "Conservation des souches des titres au porteur par l'émetteur", "v": "20 ans à compter de la vente", "a": "art. 17" },
+    { "q": "Entrée en vigueur du Règlement 01/14", "v": "1er jour du mois suivant la signature du Président du Comité ministériel", "a": "art. 27" },
+    { "q": "Information du Dépositaire Central en cas de redressement ou de liquidation d'un teneur de compte", "v": "sans délai (par le syndic)", "a": "art. 13" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "Teneur de compte", "r": "Tient les comptes titres au nom des titulaires, délivre une attestation, est seul responsable de ses livres et assuré en responsabilité civile professionnelle.", "a": "art. 10-16" },
+    { "acteur": "Dépositaire Central (régime 01/14)", "r": "Garantit le montant des émissions admises à ses opérations, tient les comptes courants des adhérents et veille aux équilibres comptables.", "a": "art. 12" },
+    { "acteur": "Syndic (liquidation d'un teneur de compte)", "r": "Informe sans délai le Dépositaire Central de l'ouverture d'une procédure de redressement ou de liquidation du teneur de compte.", "a": "art. 13" },
+    { "acteur": "Comité ministériel de l'UMAC", "r": "Peut seul modifier le règlement, par règlement modificatif, après avis conforme du Conseil d'administration de la BEAC.", "a": "art. 26" }
+  ],
+  "definitions": [
+    { "t": "Titres nominatifs purs", "d": "Titres inscrits dans les registres de la société émettrice, qui ouvre des comptes au nom de leurs titulaires.", "a": "art. 1, 8" },
+    { "t": "Titres nominatifs administrés", "d": "Titres nominatifs inscrits dans un compte d'administration chez un intermédiaire financier agréé, sur mandat du titulaire.", "a": "art. 1, 8" },
+    { "t": "Titres au porteur", "d": "Titres conservés uniquement auprès d'un intermédiaire agréé, représentés exclusivement par une inscription en compte.", "a": "art. 1, 7" },
+    { "t": "Adhérent", "d": "Tout établissement disposant d'un compte courant auprès du Dépositaire Central des titres.", "a": "art. 1" },
+    { "t": "Dépositaire Central", "d": "Organisme agréé assurant la conservation centralisée des titres admis à ses opérations, leur circulation et leur administration pour le compte de ses adhérents.", "a": "art. 1" }
+  ],
+  "listes": [
+    { "titre": "Valeurs soumises à l'inscription en compte", "a": "art. 3", "items": ["Titres de capital et de créance d'une société anonyme", "Bons et obligations du Trésor", "Actions et parts d'OPCVM", "Parts de fonds communs de créances", "Tout autre instrument émis par appel public à l'épargne"] },
+    { "titre": "Teneurs de comptes", "a": "art. 10", "items": ["Personnes morales émettrices", "Intermédiaires financiers agréés", "BEAC", "Trésors publics des États membres", "Autres organismes habilités"] }
+  ],
+  "pieges": [
+    "**Régime ancien** : le Règlement **04/25** (19 décembre 2025) le remplace. L'abrogation n'a pas été lue dans le texte et est **déduite** (le 04/25 institue un régime général qui prévoit un délai de **36 mois**, contre **24 mois** ici).",
+    "Le régime ne concerne que les titres émis par **appel public à l'épargne** : les titres non émis par APE en sont **exclus**.",
+    "Les articles 17, 22, 23 et 24 renvoient à une « **vente prévue à l'article 23** » alors que la vente est organisée à l'**article 24** : renvoi à vérifier avant de citer.",
+    "Le règlement se réfère au Règlement **06/03** du 12 novembre 2003, lui-même abrogé par le Règlement **01/22**."
+  ],
+  "qr": [
+    { "q": "Que devient le support papier des titres sous le Règlement 01/14 ?", "r": "Les titres sont représentés par une inscription en compte au nom de leur propriétaire et ne peuvent plus être représentés sur papier (art. 4)." },
+    { "q": "Quel délai pour inscrire les titres en compte ?", "r": "24 mois à compter de l'entrée en vigueur (art. 19)." },
+    { "q": "Quel est le rôle du Dépositaire Central ?", "r": "Garantir le montant de l'émission et veiller à ce que le solde de ses comptes courants corresponde au total des titres inscrits chez les teneurs de comptes (art. 12)." }
+  ]
+}

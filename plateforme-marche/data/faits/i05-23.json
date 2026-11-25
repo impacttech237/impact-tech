@@ -1,0 +1,432 @@
+[
+  {
+    "id": "i05-23.delai.01",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe I, point 12",
+    "enonce": "États financiers certifiés à inclure dans le document d'information",
+    "valeur_texte": "3 derniers exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.02",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Période couverte si la date de référence comptable a changé",
+    "valeur_texte": "36 mois au moins",
+    "type_valeur": "nombre",
+    "valeur": 36,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.03",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Ancienneté des derniers comptes audités au-delà de laquelle des comptes intermédiaires sont exigés",
+    "valeur_texte": "9 mois",
+    "type_valeur": "nombre",
+    "valeur": 9,
+    "unite": "mois",
+    "borne": "exact",
+    "note": "Comptes intermédiaires couvrant au moins les 6 premiers mois.",
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.04",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Période minimale couverte par les procédures judiciaires et d'arbitrage déclarées",
+    "valeur_texte": "12 derniers mois",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.05",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Période des contrats importants à résumer dans le document d'information",
+    "valeur_texte": "2 années précédentes",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.06",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe II",
+    "enonce": "Date maximale de la déclaration sur les capitaux propres et l'endettement",
+    "valeur_texte": "90 jours avant le document",
+    "type_valeur": "nombre",
+    "valeur": 90,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.07",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe II",
+    "enonce": "Droit de retirer sa souscription si le prix définitif n'est pas connu",
+    "valeur_texte": "2 jours ouvrables après le dépôt du prix",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "jours ouvrables",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.08",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe III",
+    "enonce": "Publication du résultat d'une émission obligataire",
+    "valeur_texte": "7 jours ouvrés après la date de jouissance",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.delai.09",
+    "texte": "i05-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Historique du capital et de l'activité à présenter",
+    "valeur_texte": "5 dernières années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.montant.01",
+    "texte": "i05-23",
+    "type": "montant",
+    "article": "annexe I, point 4.1",
+    "enonce": "Seuil en dessous duquel les actionnaires peuvent être regroupés en « autres actionnaires »",
+    "valeur_texte": "moins de 3 %",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "%",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.montant.02",
+    "texte": "i05-23",
+    "type": "montant",
+    "article": "annexe I, point 4.1",
+    "enonce": "Seuil de détention au-delà duquel une société actionnaire doit être décrite",
+    "valeur_texte": "plus de 5 %",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.montant.03",
+    "texte": "i05-23",
+    "type": "montant",
+    "article": "annexe II",
+    "enonce": "Seuil d'intention de souscription à signaler dans la note d'actions",
+    "valeur_texte": "plus de 5 % de l'offre",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.montant.04",
+    "texte": "i05-23",
+    "type": "montant",
+    "article": "annexe I",
+    "enonce": "Part du capital libérée en nature (hors espèces) à signaler",
+    "valeur_texte": "plus de 10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.role.01",
+    "texte": "i05-23",
+    "type": "role",
+    "article": "annexe I",
+    "enonce": "Émetteur",
+    "valeur_texte": "Établit le document d'information, signe la déclaration de responsabilité, désigne un responsable de l'information financière.",
+    "acteurs": [
+      "emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.role.02",
+    "texte": "i05-23",
+    "type": "role",
+    "article": "annexe I",
+    "enonce": "Intermédiaire / arrangeur",
+    "valeur_texte": "Participe à l'établissement du document et atteste avoir accompli les diligences d'usage sur la sincérité des informations.",
+    "acteurs": [
+      "intermediaire-arrangeur"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.role.03",
+    "texte": "i05-23",
+    "type": "role",
+    "article": "annexe III",
+    "enonce": "Chef de file",
+    "valeur_texte": "Élabore le rapport sur l'émission obligataire transmis à l'émetteur et à la COSUMAF.",
+    "acteurs": [
+      "chef-de-file"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.role.04",
+    "texte": "i05-23",
+    "type": "role",
+    "article": "annexe I",
+    "enonce": "Commissaire aux comptes",
+    "valeur_texte": "Certifie les états financiers des 3 derniers exercices repris dans le document.",
+    "acteurs": [
+      "commissaire-aux-comptes"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.definition.01",
+    "texte": "i05-23",
+    "type": "definition",
+    "article": "annexe I",
+    "enonce": "Document d'information",
+    "valeur_texte": "Prospectus soumis au visa de la COSUMAF qui donne aux investisseurs les éléments pour juger le patrimoine, l'activité, la situation financière, les risques et perspectives de l'émetteur et les droits attachés aux titres.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.definition.02",
+    "texte": "i05-23",
+    "type": "definition",
+    "article": "annexe I",
+    "enonce": "Facteurs de risque",
+    "valeur_texte": "Section décrivant les risques importants propres à l'émetteur ou aux titres, classés par catégories, les plus importants d'abord.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.definition.03",
+    "texte": "i05-23",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "Déclaration sur le fonds de roulement net",
+    "valeur_texte": "Déclaration de l'émetteur attestant que son fonds de roulement net suffit à ses besoins actuels, ou expliquant comment il le complétera.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.liste.01",
+    "texte": "i05-23",
+    "type": "liste",
+    "article": "annexe I",
+    "enonce": "Mentions de la page de garde",
+    "valeur_texte": "Sigle ou logo et dénomination de l'émetteur ; Mention « document d'information » ; Nature et désignation de l'opération ; Montant global et période de souscription ; Sociétés de bourse, arrangeur, chef de file, syndicat de placement ; Référence et date du visa ou de l'enregistrement COSUMAF",
+    "items": [
+      "Sigle ou logo et dénomination de l'émetteur",
+      "Mention « document d'information »",
+      "Nature et désignation de l'opération",
+      "Montant global et période de souscription",
+      "Sociétés de bourse, arrangeur, chef de file, syndicat de placement",
+      "Référence et date du visa ou de l'enregistrement COSUMAF"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.liste.02",
+    "texte": "i05-23",
+    "type": "liste",
+    "article": "annexe I",
+    "enonce": "Lieux de mise à disposition du document visé",
+    "valeur_texte": "Siège de l'émetteur ; Siège des intermédiaires ; COSUMAF ; Dépositaire Central ; Agents placeurs ; Sites internet de la BVMAC et de l'émetteur",
+    "items": [
+      "Siège de l'émetteur",
+      "Siège des intermédiaires",
+      "COSUMAF",
+      "Dépositaire Central",
+      "Agents placeurs",
+      "Sites internet de la BVMAC et de l'émetteur"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.piege.01",
+    "texte": "i05-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le visa n'authentifie pas les comptes : c'est le rôle du commissaire aux comptes.",
+    "valeur_texte": "Le visa **n'authentifie pas** les comptes : c'est le rôle du **commissaire aux comptes**.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.piege.02",
+    "texte": "i05-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "3 % = seuil de regroupement en « autres actionnaires » ; 5 % = seuil au-delà duquel on déc",
+    "valeur_texte": "**3 %** = seuil de regroupement en « autres actionnaires » ; **5 %** = seuil au-delà duquel on décrit la société actionnaire.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i05-23.piege.03",
+    "texte": "i05-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ne pas confondre 7 jours ouvrés (publication du résultat d'une émission obligataire) et 8 ",
+    "valeur_texte": "Ne pas confondre **7 jours ouvrés** (publication du résultat d'une émission obligataire) et **8 jours** (rapport de clôture et mise à disposition des fonds, art. 277 du Règlement 01/22).",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

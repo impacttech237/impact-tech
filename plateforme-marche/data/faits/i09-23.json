@@ -1,0 +1,244 @@
+[
+  {
+    "id": "i09-23.delai.01",
+    "texte": "i09-23",
+    "type": "delai",
+    "article": "art. 30",
+    "enonce": "Accusé de réception de la demande d'agrément du Dépositaire Central",
+    "valeur_texte": "10 jours ouvrables",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrables",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.delai.02",
+    "texte": "i09-23",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "États financiers à fournir par le Dépositaire Central demandeur",
+    "valeur_texte": "3 exercices précédents",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.delai.03",
+    "texte": "i09-23",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Période de référence minimale du plan d'affaires du Dépositaire Central",
+    "valeur_texte": "3 ans",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.delai.04",
+    "texte": "i09-23",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Ressources financières à prouver si le DC n'a pas d'historique",
+    "valeur_texte": "2 ans après l'agrément",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.delai.05",
+    "texte": "i09-23",
+    "type": "delai",
+    "article": "art. 9",
+    "enonce": "Horizon du plan de travail de l'audit interne du Dépositaire Central",
+    "valeur_texte": "3 prochaines années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.delai.06",
+    "texte": "i09-23",
+    "type": "delai",
+    "article": "art. 10",
+    "enonce": "Ancienneté du lien avec une entreprise sanctionnée ou insolvable à déclarer (dirigeant du DC)",
+    "valeur_texte": "au moins 1 an",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.montant.01",
+    "texte": "i09-23",
+    "type": "montant",
+    "article": "art. 2 j",
+    "enonce": "Seuil de détention des actionnaires du DC à lister",
+    "valeur_texte": "10 % ou plus",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.montant.02",
+    "texte": "i09-23",
+    "type": "montant",
+    "article": "art. 2 k",
+    "enonce": "Seuil des participations détenues par le DC à déclarer",
+    "valeur_texte": "au moins 10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.role.01",
+    "texte": "i09-23",
+    "type": "role",
+    "article": "art. 17-22",
+    "enonce": "Dépositaire Central",
+    "valeur_texte": "Fournit les services de base (notarial, tenue centralisée, règlement), garantit l'intégrité des émissions et le caractère définitif du règlement, gère la défaillance d'un participant.",
+    "acteurs": [
+      "depositaire-central"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.role.02",
+    "texte": "i09-23",
+    "type": "role",
+    "article": "art. 30",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Instruit la demande d'agrément du DC, accuse réception en 10 jours ouvrables et peut demander des compléments.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.definition.01",
+    "texte": "i09-23",
+    "type": "definition",
+    "article": "art. 5.3",
+    "enonce": "Plan de redressement (DC)",
+    "valeur_texte": "Plan qui assure la continuité des opérations critiques du Dépositaire Central en cas de crise : scénarios, déclencheurs, outils, conséquences et caractère exécutoire.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.liste.01",
+    "texte": "i09-23",
+    "type": "liste",
+    "article": "art. 17-22",
+    "enonce": "Exigences liées aux services du DC",
+    "valeur_texte": "Inscription comptable ; Dates de règlement et défauts de règlement ; Intégrité de l'émission ; Protection des titres des participants et de leurs clients ; Caractère définitif du règlement ; Défaillance d'un participant",
+    "items": [
+      "Inscription comptable",
+      "Dates de règlement et défauts de règlement",
+      "Intégrité de l'émission",
+      "Protection des titres des participants et de leurs clients",
+      "Caractère définitif du règlement",
+      "Défaillance d'un participant"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.piege.01",
+    "texte": "i09-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Seuil 10 % pour l'actionnariat du DC ; 20 % pour les principaux actionnaires d'un candidat",
+    "valeur_texte": "Seuil **10 %** pour l'actionnariat du DC ; **20 %** pour les principaux actionnaires d'un candidat actionnaire de la BVMAC (Instruction 08-23) ; **10 %** pour la SGO (Instruction 06-23).",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i09-23.piege.02",
+    "texte": "i09-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "2 ans de ressources si pas d'historique, mais plan d'affaires sur 3 ans au moins.",
+    "valeur_texte": "**2 ans** de ressources si pas d'historique, mais plan d'affaires sur **3 ans au moins**.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

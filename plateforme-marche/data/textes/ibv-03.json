@@ -1,0 +1,62 @@
+{
+  "id": "ibv-03",
+  "ordre": 103,
+  "type": "instruction_bvmac",
+  "organisme": "bvmac",
+  "numero": "BVMAC n° 3",
+  "titre": "Instruction BVMAC n° 3 : grille tarifaire de l'entreprise de marché (version d'octobre 2013)",
+  "theme": "marche",
+  "date_texte": "octobre 2013",
+  "date_adoption": "2013-10",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-instruction-n3-relative-a-la-grille-tarifaire-de-lentreprise-de-marche.pdf",
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-instruction-n3-relative-a-la-grille-tarifaire-de-lentreprise-de-marche.pdf",
+    "origine": "PDF officiel de la BVMAC (texte lisible, 4 pages). Le document s'intitule « projet d'instruction »."
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Fixe les commissions que la BVMAC perçoit : commission d'introduction et commission de capitalisation (émetteurs), commission de courtage et redevance de siège (sociétés de bourse). Version « projet » d'octobre 2013, reprise des mêmes taux que le communiqué COSUMAF 01/08 puis 03/20.",
+    "essentiel": "**Commission d'introduction** (émetteur, une fois, avant la première cotation) : **0,08 %** de la capitalisation (actions), **0,04 %** (obligations). **Commission de capitalisation** (émetteur, annuelle) : **0,08 %** (actions, facturée **trimestriellement** sur la capitalisation moyenne) ou **0,04 %** (obligations, facturée **globalement sur la durée de vie** selon le tableau d'amortissement). **Courtage** (sociétés de bourse, après chaque séance) : **0,3 %** du volume négocié. **Redevance de siège** : **2 000 000 FCFA par an**.",
+    "retenir": [
+      "**Commission d'introduction** : payable par l'émetteur **uniquement à l'introduction**, **0,08 %** de la capitalisation boursière pour les actions, **0,04 %** pour les obligations ; elle doit être **intégralement payée avant la date de première cotation**. Art. 1",
+      "**Commission de capitalisation** : payable par l'émetteur **chaque année** (prorata temporis), **0,08 %** pour les actions, **0,04 %** pour les obligations. Art. 1",
+      "Actions cotées : commission de capitalisation **calculée et facturée chaque trimestre** sur la **capitalisation moyenne du trimestre écoulé**. Art. 1.1",
+      "Obligations cotées : commission de capitalisation **calculée et facturée globalement sur toute la durée de vie** du titre, selon le tableau d'amortissement, sur la base du **nominal** de l'emprunt. Art. 1.1",
+      "**Commission de courtage** : payée par les **sociétés de bourse** à l'issue de **chaque séance**, **0,3 %** du volume de négociation (actions et obligations). Art. 1",
+      "**Redevance de siège** : forfaitaire, annuelle, **2 000 000 FCFA** par société de bourse membre. Art. 1"
+    ],
+    "listes": [],
+    "pieges": [
+      "Ce sont les **mêmes taux** que ceux du communiqué COSUMAF 01/08 (2008) et du communiqué 03/20 : ne pas les compter plusieurs fois.",
+      "Les commissions de la BVMAC sont dans cette **instruction**, **pas dans le Règlement général de 2025** (qui renvoie à une instruction pour la tarification, art. 233).",
+      "La tarification applicable sur le marché est aujourd'hui fixée par l'**Instruction COSUMAF 23-24** (18 juillet 2024) : vérifier si ses taux diffèrent avant de citer ceux de 2013."
+    ],
+    "qr": [
+      {
+        "q": "Quelle commission l'émetteur d'actions paie-t-il à l'introduction à la BVMAC ?",
+        "r": "0,08 % de la capitalisation boursière, une seule fois, avant la première cotation (0,04 % pour des obligations)."
+      },
+      {
+        "q": "Quand est facturée la commission de capitalisation sur des actions cotées ?",
+        "r": "Chaque trimestre, sur la capitalisation moyenne du trimestre écoulé."
+      },
+      {
+        "q": "Combien coûtent la commission de courtage et la redevance de siège ?",
+        "r": "0,3 % du volume négocié (après chaque séance) et 2 000 000 FCFA par an."
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "i25-24.montant.01",
+    "texte": "i25-24",
+    "type": "montant",
+    "article": "art. 2",
+    "enonce": "Nombre minimal de méthodes de publication des prix des parts d'OPC",
+    "valeur_texte": "2 méthodes",
+    "type_valeur": "nombre",
+    "valeur": 2000000,
+    "unite": "FCFA",
+    "borne": "exact",
+    "note": "Dont obligatoirement le site internet de la SGO ou de l'OPC.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i25-24.role.01",
+    "texte": "i25-24",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Publie les prix d'émission, de vente, de rachat et de remboursement par au moins deux moyens, dont son site internet.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i25-24.liste.01",
+    "texte": "i25-24",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Méthodes de publication des prix des parts d'OPC",
+    "valeur_texte": "Site internet de la SGO ou de l'OPC (obligatoire) ; Affichage dans les locaux ; Journal d'annonces légales ; Presse ; Site internet de la bourse régionale ; Tout autre moyen adapté",
+    "items": [
+      "Site internet de la SGO ou de l'OPC (obligatoire)",
+      "Affichage dans les locaux",
+      "Journal d'annonces légales",
+      "Presse",
+      "Site internet de la bourse régionale",
+      "Tout autre moyen adapté"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i25-24.piege.01",
+    "texte": "i25-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Deux méthodes au minimum, dont toujours le site internet de la SGO ou de l'OPC.",
+    "valeur_texte": "**Deux** méthodes au minimum, dont **toujours** le site internet de la SGO ou de l'OPC.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "id": "i12-24",
+  "ordre": 21,
+  "type": "instruction",
+  "numero": "12-24",
+  "titre": "Conditions d'agrément de l'entreprise de marché",
+  "theme": "agrement",
+  "date_texte": "20 février 2024, Yaoundé",
+  "date_adoption": "2024-02-20",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Les documents et informations que l'entreprise de marché (BVMAC, art. 100 du Règlement 01/22) fournit à la COSUMAF pour être agréée : règles du marché, système de négociation, conflits, sous-traitance, gestion des risques, ressources financières.",
+    "essentiel": "Avant d'organiser, animer et gérer le marché, l'entreprise de marché fournit : **catégories d'actifs** négociés, règles d'**admission** et d'**accès non discriminatoire**, information du public, apport de **liquidité**, **contrôle des transactions**, **suspension et retrait** des titres, **transparence pré et post-négociation**, règlement des transactions, **liste des membres**. Elle décrit son système de négociation (**criée, électronique ou hybride**) et ses conflits d'intérêts. Tout est fourni **en format électronique** avec un **numéro de référence unique** par document.",
+    "retenir": [
+      "S'applique à l'**entreprise de marché** définie à l'**art. 100 du Règlement 01/22** (la BVMAC). Art. 1",
+      "Préalablement à ses activités d'**organisation, d'animation et de gestion** du marché, elle transmet à la COSUMAF : catégories d'actifs, règles pour rendre les instruments négociables, **accès objectif et non discriminatoire**, information suffisante du public, dispositifs de **liquidité**, contrôle des transactions, **suspension et retrait** des instruments, **transparence pré et post-négociation**, dénouement efficace, **liste des membres**. Art. 2.1",
+      "Description du système de négociation : **à la criée**, **électronique** ou **hybride** ; nature des **algorithmes** d'appariement (électronique) ou règles et protocoles (criée). Art. 2.2",
+      "Elle indique comment l'exploitation du marché peut créer un **conflit** entre les intérêts du marché, de son exploitant ou de son propriétaire. Art. 2.3",
+      "Sous-traitance : identification et contrôle des risques, **contrat** décrivant le service et l'engagement de service. Art. 2.4",
+      "Gestion des risques, dénouement en temps voulu des transactions et **ressources financières suffisantes** pour un fonctionnement ordonné. Art. 2.5",
+      "Règles différentes par catégorie d'actifs : informations fournies **séparément** pour chaque catégorie. Art. 3",
+      "Toute **modification importante** du dossier initial est décrite à la COSUMAF ; les changements mineurs ou purement techniques n'ont pas à être inclus. Art. 4",
+      "Format : **électronique**, un **numéro de référence unique** par document, tableau de correspondance de l'annexe, mention expresse des exigences non applicables ; une **seule demande** pour plusieurs services. Art. 5"
+    ],
+    "listes": [
+      {
+        "titre": "Les 3 types de systèmes de négociation",
+        "a": "art. 2.2",
+        "items": [
+          "À la criée",
+          "Électronique",
+          "Hybride"
+        ]
+      }
+    ],
+    "pieges": [
+      "L'**entreprise de marché** (BVMAC) est agréée par l'Instruction **12-24** ; ses **actionnaires** (autres que les sociétés de bourse) par l'Instruction **08-23** ; le **Dépositaire Central** par l'Instruction **09-23**."
+    ],
+    "qr": [
+      {
+        "q": "Quelles informations l'entreprise de marché doit-elle fournir sur son système de négociation ?",
+        "r": "S'il s'agit d'un système à la criée, électronique ou hybride ; la nature des algorithmes d'appariement pour un système électronique ou hybride ; les règles et protocoles pour un système à la criée."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

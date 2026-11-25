@@ -1,0 +1,94 @@
+{
+  "id": "i47-25",
+  "ordre": 56,
+  "type": "instruction",
+  "numero": "47-25",
+  "titre": "Modalités d'exercice de la gestion individuelle sous mandat",
+  "theme": "vie",
+  "date_texte": "15 décembre 2025",
+  "date_adoption": "2025-12-15",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Règles de la gestion individuelle sous mandat (art. 150 du Règlement 01/22) : définitions, connaissance et profil du client, convention, obligations et bonne conduite du gérant et du gestionnaire, commission de surperformance, conflits d'intérêts, informations à la COSUMAF ; avec un modèle de contrat (aussi fourni à part en version « à modifier »).",
+    "essentiel": "Gestion **discrétionnaire et individualisée** par une **SDB ou une SGO**, pour un portefeuille d'au moins **10 millions FCFA**. **Profil client** évalué **avant** la convention, fiche signée ; convention en **2 exemplaires**. Au moins **1 gestionnaire** et un **comité d'investissement** (sans le négociateur). Relevés au moins **chaque trimestre**, envoyés en **7 jours calendaires**. Avenant substantiel transmis à la COSUMAF en **5 jours ouvrés** ; convention en **8 jours**. Surperformance plafonnée à **20 %** de la surperformance nette. Code de déontologie et procédure envoyés **1 mois** avant ; rapport annuel avec les **10 plus gros clients**. Mise en conformité en **6 mois**.",
+    "retenir": [
+      "Prise en application de l'**art. 150 du Règlement 01/22**. Art. 1",
+      "**Gestion individuelle sous mandat** : service d'une **société de bourse** ou d'une **SGO** qui gère de façon **discrétionnaire et individualisée** un portefeuille d'**au moins 10 000 000 FCFA** sur mandat d'un tiers. Art. 2",
+      "Vocabulaire : **client** (mandant), **gérant / mandataire** (SDB ou SGO agréée), **gestionnaire** (personne physique qui gère), **mandat de gestion** (convention écrite), **profil du client**, **stratégie de gestion**. Art. 2",
+      "Avant le mandat : **identification LBC/FT** du client ; appréciation de son **profil** (connaissances, situation financière, expérience, objectifs risque/rentabilité/horizon, contraintes) ; documentation remise sur les formules de gestion, instruments, risques, frais, durée. Art. 3-5",
+      "Le gérant vérifie que la stratégie répond aux **objectifs** du client et que celui-ci **comprend les risques** ; profil rendement-risque présenté sur une échelle. Art. 6",
+      "**Fiche de profil** signée par le client **et** le gérant ; **convention** avec mentions obligatoires (parties, objet, stratégie, information, **frais**, validité, résiliation, confidentialité, juridiction), en **2 exemplaires**. Art. 7-8",
+      "Gestion sur le **compte espèces** et le **compte titres** du client. Organisation : **au moins un gestionnaire** et un **comité d'investissement** **sans le négociateur**. Art. 9-10",
+      "Contrôles : conformité au mandat, performance par stratégie, documents clients, **conflits d'intérêts**, absence d'**informations privilégiées**. Art. 12",
+      "**Modification substantielle** (objectifs, risque, instruments, frais) : **avenant écrit** signé par le client, transmis à la COSUMAF **dans les 5 jours ouvrés** ; modification mineure : information sur support durable. Art. 13",
+      "Information du client selon la périodicité convenue, **à défaut chaque trimestre** : journal des opérations, **relevé valorisé** (au dernier cours coté), résultats, frais, dividendes ; envoyé **dans les 7 jours calendaires**. Art. 14",
+      "Bonne conduite : intérêt **exclusif** du client, rotation justifiée, pas de souscription pour aider un émetteur à placer ses titres, aucune opération avec **information privilégiée**. Art. 16",
+      "**Commission de surperformance** : seulement avec une **clause expresse** (méthode, indicateur, seuil, **high water mark**, restitution, calcul **au moins annuel**) ; plafond **20 %** de la performance nette excédentaire ; au-delà, clause **réputée non écrite**. Art. 17",
+      "Conflits interdits : se porter **contrepartie** du client, opérations **entre clients**, hors marché avec des sociétés liées, rotation inutile, rémunération incitative, favoriser des clients dans une émission rare, acheter un titre d'un émetteur dont il conduit une opération **non publique**, affecter aux clients les **erreurs** de transaction. Art. 18-19",
+      "**Gestionnaire indépendant** : ne gère pas les comptes de la société ni ne reçoit d'ordres ; **ordres groupés** avec référence unique, clé de répartition **fixée avant**, allocation **au prorata** en cas d'exécution partielle, registre spécial ; dérogation exceptionnelle documentée. Art. 20-22",
+      "COSUMAF : copie de chaque **convention dans les 8 jours** ; **code de déontologie** et **procédure** (approuvés par le CA) **1 mois avant** application ; **rapport annuel** avec le rapport de contrôle interne (moyens, évolution des clients, **10 plus gros clients** et leurs performances, contrôles). Art. 24-26",
+      "Transition : **6 mois** pour se conformer ; mandats existants valables mais **avenant** de mise en conformité sous **6 mois**. Art. 27-28",
+      "Modèle de contrat : relevés au moins **trimestriels** sous **7 jours** ; réclamation si documents non reçus sous **21 jours** ; contestation sous **8 jours** ; dénonciation par le mandataire effective **5 jours** après réception de la lettre recommandée. Annexe"
+    ],
+    "listes": [
+      {
+        "titre": "Contenu de la fiche de profil du client",
+        "a": "art. 7",
+        "items": [
+          "Situation financière ou patrimoniale",
+          "Compétence et expérience en bourse",
+          "Objectifs de risque, rentabilité, horizon",
+          "Contraintes",
+          "Catégorisation"
+        ]
+      },
+      {
+        "titre": "Conditions de la commission de surperformance",
+        "a": "art. 17",
+        "items": [
+          "Clause expresse dans le mandat",
+          "Méthode, indicateur de référence et période",
+          "Seuil minimal de performance",
+          "Ne rémunérer que le dépassement des niveaux déjà atteints",
+          "Restitution ou report en cas de contre-performance",
+          "Calcul au moins annuel ; plafond 20 %"
+        ]
+      }
+    ],
+    "pieges": [
+      "Seules les **SDB** et les **SGO** peuvent faire de la gestion sous mandat (Règlement 01/22, art. 163).",
+      "**10 millions** = portefeuille minimal sous mandat (et aussi souscription minimale en placement privé : ne pas confondre les contextes).",
+      "Délais : avenant **5 jours ouvrés**, convention **8 jours**, relevés **7 jours**, code de déontologie **1 mois** avant.",
+      "Le fichier « 48_DOC à modifier » est le **modèle de contrat** de gestion sous mandat (annexe de l'Instruction 47-25), pas une instruction distincte."
+    ],
+    "qr": [
+      {
+        "q": "Quelles conditions encadrent la commission de surperformance en gestion sous mandat ?",
+        "r": "Une clause expresse précisant méthode, indicateur et période, un seuil minimal, un mécanisme ne rémunérant que le dépassement des niveaux déjà atteints, la restitution ou le report en cas de contre-performance, un calcul au moins annuel ; et un plafond de 20 % de la performance nette excédentaire."
+      },
+      {
+        "q": "Comment répartir un ordre groupé entre plusieurs clients sous mandat ?",
+        "r": "Avec une référence unique, une clé de répartition définie avant la transmission, une allocation au prorata en cas d'exécution partielle et un registre spécial auditable ; dérogation seulement en cas d'exécution très partielle, avec une note datée."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,294 @@
+[
+  {
+    "id": "i30-24.delai.01",
+    "texte": "i30-24",
+    "type": "delai",
+    "article": "art. 2.1",
+    "enonce": "Publication et dépôt du rapport financier annuel de l'exercice N (émetteur APE)",
+    "valeur_texte": "au plus tard le 15 juillet de N+1",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.delai.02",
+    "texte": "i30-24",
+    "type": "delai",
+    "article": "art. 2.1, 3.2",
+    "enonce": "Durée de maintien en ligne des rapports annuel et semestriel d'un émetteur",
+    "valeur_texte": "5 ans au moins",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.delai.03",
+    "texte": "i30-24",
+    "type": "delai",
+    "article": "art. 2.5",
+    "enonce": "Rapport annuel de contrôle interne et rapport LBC/FT d'un émetteur APE",
+    "valeur_texte": "au plus tard le 30 mars",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.delai.04",
+    "texte": "i30-24",
+    "type": "delai",
+    "article": "art. 3.1",
+    "enonce": "Publication du rapport financier semestriel d'un émetteur APE",
+    "valeur_texte": "2 mois après la fin du semestre",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.delai.05",
+    "texte": "i30-24",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Début de la fenêtre de la déclaration intermédiaire de la direction",
+    "valeur_texte": "10 semaines après le début du semestre",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "semaines",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.delai.06",
+    "texte": "i30-24",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Fin de la fenêtre de la déclaration intermédiaire de la direction",
+    "valeur_texte": "6 semaines avant la fin du semestre",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "semaines",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.montant.01",
+    "texte": "i30-24",
+    "type": "montant",
+    "article": "art. 4",
+    "enonce": "Nombre de déclarations intermédiaires de la direction par an (actions cotées)",
+    "valeur_texte": "2 déclarations (une par semestre)",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.montant.02",
+    "texte": "i30-24",
+    "type": "montant",
+    "article": "art. 6",
+    "enonce": "Nombre de notes annuelles dues par un État ou une collectivité émetteur d'obligations",
+    "valeur_texte": "4 notes",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.role.01",
+    "texte": "i30-24",
+    "type": "role",
+    "article": "art. 2-4",
+    "enonce": "Émetteur APE",
+    "valeur_texte": "Publie et dépose ses rapports annuel et semestriel, ses rapports de contrôle interne et LBC/FT et, s'il est coté en actions, ses déclarations intermédiaires.",
+    "acteurs": [
+      "emetteur-ape"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.role.02",
+    "texte": "i30-24",
+    "type": "role",
+    "article": "art. 5-6",
+    "enonce": "État ou collectivité émetteur",
+    "valeur_texte": "Exempté des rapports financiers, publie 4 notes annuelles pendant l'amortissement de ses emprunts obligataires.",
+    "acteurs": [
+      "etat-ou-collectivite-emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.role.03",
+    "texte": "i30-24",
+    "type": "role",
+    "article": "art. 2.4",
+    "enonce": "Commissaire aux comptes",
+    "valeur_texte": "Certifie les états financiers ; son rapport est publié intégralement avec le rapport annuel.",
+    "acteurs": [
+      "commissaire-aux-comptes"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.definition.01",
+    "texte": "i30-24",
+    "type": "definition",
+    "article": "art. 4",
+    "enonce": "Déclaration intermédiaire de la direction",
+    "valeur_texte": "Publication semestrielle d'un émetteur d'actions cotées expliquant les événements importants de la période et décrivant sa situation financière et ses résultats.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.liste.01",
+    "texte": "i30-24",
+    "type": "liste",
+    "article": "art. 2.2",
+    "enonce": "Contenu du rapport financier annuel",
+    "valeur_texte": "États financiers certifiés (bilan, résultat, TAFIRE, annexe) ; Rapports général et spécial du CAC ; Rapport annuel de gestion ; PV de l'AG d'approbation des comptes ; Déclarations des personnes responsables",
+    "items": [
+      "États financiers certifiés (bilan, résultat, TAFIRE, annexe)",
+      "Rapports général et spécial du CAC",
+      "Rapport annuel de gestion",
+      "PV de l'AG d'approbation des comptes",
+      "Déclarations des personnes responsables"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.liste.02",
+    "texte": "i30-24",
+    "type": "liste",
+    "article": "art. 6",
+    "enonce": "Notes annuelles des États et collectivités émetteurs",
+    "valeur_texte": "Avancement des projets financés par les emprunts ; Informations générales sur l'émetteur ; Évolution des plans nationaux de développement ; Conjoncture et perspectives économiques",
+    "items": [
+      "Avancement des projets financés par les emprunts",
+      "Informations générales sur l'émetteur",
+      "Évolution des plans nationaux de développement",
+      "Conjoncture et perspectives économiques"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.piege.01",
+    "texte": "i30-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'Instruction 30-24 est abrogée par l'Instruction 44-25 (15 décembre 2025), qui reprend se",
+    "valeur_texte": "L'Instruction 30-24 est **abrogée** par l'Instruction **44-25** (15 décembre 2025), qui reprend ses règles sur l'information périodique et ajoute l'information permanente et occasionnelle.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.piege.02",
+    "texte": "i30-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "15 juillet de N+1 : rapport annuel ; 30 mars : rapports de contrôle interne et LBC/FT ; 2 ",
+    "valeur_texte": "**15 juillet de N+1** : rapport annuel ; **30 mars** : rapports de contrôle interne et LBC/FT ; **2 mois** : rapport semestriel.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i30-24.piege.03",
+    "texte": "i30-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Déclaration intermédiaire : fenêtre 10 semaines après le début / 6 semaines avant la fin d",
+    "valeur_texte": "Déclaration intermédiaire : fenêtre **10 semaines après le début / 6 semaines avant la fin** du semestre ; inutile si rapports **trimestriels**.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

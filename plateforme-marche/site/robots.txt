@@ -1,0 +1,3 @@
+# Préversion : ne pas indexer. À retirer au lancement public.
+User-agent: *
+Disallow: /

@@ -1,0 +1,54 @@
+{
+  "id": "lc-001-26",
+  "ordre": 113,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "num": "Lettre circulaire n° 0001-2026",
+  "date": "19 février 2026, Libreville",
+  "titre": "Lettre circulaire n° 0001-2026 relative à l'agrément des dirigeants des organismes de marché, des intermédiaires de marché et des intervenants placés sous le contrôle de la COSUMAF",
+  "theme": "agrement",
+  "couverture": "complete",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\01KT43AWY3H8B83CABDEXNWSQ9.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 8 pages : la lettre et l'Instruction 46-25 en annexe), lu par OCR"
+  },
+  "relations": {},
+  "objet": "Transmet l'Instruction COSUMAF n° 46-25 du 15 décembre 2025 relative à l'agrément des dirigeants des structures agréées (adoptée par le Collège le 15 décembre 2025 à Douala, avec cinq autres instructions) et demande aux structures de procéder aux diligences d'agrément de leurs dirigeants dans un délai de trois mois à compter de la signature de la lettre.",
+  "trente": "Les structures (entreprise de marché, dépositaire central, chambre de compensation, sociétés de bourse, SGO, dépositaires d'OPC, teneurs de compte, CIF, commissaires aux comptes) doivent obtenir l'**agrément de leurs dirigeants** (PCA, administrateurs, DG, DGA, présidents, gérants) **dans un délai de 3 mois** à compter de la signature de la lettre (19 février 2026). L'**Instruction 46-25** jointe fixe : diplôme **BAC + 5** et expérience de **10 ans dont 5 en finance de marchés**, accusé de réception en **10 jours ouvrés**, instruction en **60 jours ouvrés**, frais de dossier de **250 000 FCFA**.",
+  "retenir": [
+    "Le **Collège de la COSUMAF** a adopté **six Instructions** le **15 décembre 2025 à Douala**, dont l'**Instruction n° 46-25** sur l'agrément des dirigeants. Lettre",
+    "Délai de mise en œuvre : **3 mois à compter de la date de signature** de la lettre circulaire, pour les PCA, administrateurs, DG, DGA, présidents et gérants. Lettre",
+    "Annexe (Instruction 46-25) : le « dirigeant » est le président du conseil d'administration, l'administrateur, le directeur général, le DGA, l'administrateur général, le gérant ou le président. Art. 2",
+    "Annexe : l'agrément **préalable** de la COSUMAF vérifie **compétence, honorabilité, expérience et disponibilité**. Art. 3",
+    "Annexe : diplôme **au moins BAC + 5** (droit, finance, économie) et expérience de **10 ans dont 5 en finance de marchés**. Art. 4",
+    "Annexe : casier judiciaire de **moins de 3 mois**, un par **pays de résidence des 10 dernières années** ; **frais d'instruction de 250 000 FCFA**. Art. 5",
+    "Annexe : la COSUMAF **accuse réception en 10 jours ouvrés**, peut **renvoyer** un dossier incomplet **30 jours** après notification, et **instruit en 60 jours ouvrés**. Art. 6",
+    "Annexe : la décision est prise par le **Collège** (motivée) ; le **retrait** entraîne le **remplacement du dirigeant sous 3 mois au plus**. Art. 7 et 11"
+  ],
+  "delais": [
+    { "q": "Diligences d'agrément des dirigeants après la lettre circulaire", "v": "3 mois à compter de la date de signature (19 février 2026)", "a": "lettre" },
+    { "q": "Accusé de réception d'une demande d'agrément de dirigeant", "v": "10 jours ouvrés", "a": "Instruction 46-25, art. 6" },
+    { "q": "Instruction d'un dossier complet d'agrément de dirigeant", "v": "60 jours ouvrés", "a": "Instruction 46-25, art. 6" },
+    { "q": "Remplacement d'un dirigeant dont l'agrément est retiré", "v": "3 mois au plus", "a": "Instruction 46-25, art. 11" }
+  ],
+  "montants": [
+    { "q": "Frais d'instruction d'un dossier d'agrément de dirigeant", "v": "250 000 FCFA", "a": "Instruction 46-25, art. 5" }
+  ],
+  "roles": [
+    { "acteur": "Collège de la COSUMAF (agrément des dirigeants)", "r": "Décide l'octroi ou le refus d'agrément, de façon motivée, après examen et éventuelle audition du dirigeant.", "a": "Instruction 46-25, art. 7" }
+  ],
+  "definitions": [],
+  "listes": [
+    { "titre": "Structures dont les dirigeants doivent être agréés", "a": "Instruction 46-25, art. 2", "items": ["Entreprise de marché", "Dépositaire central", "Chambre de compensation", "Sociétés de bourse", "Dépositaires d'OPC", "Teneurs de comptes", "Sociétés de gestion", "Conseillers en investissements financiers", "Conseillers en financement participatif", "Prestataires de services sur actifs numériques"] }
+  ],
+  "pieges": [
+    "La lettre est datée du **19 février 2026**, mais la médiathèque de la COSUMAF la publie sous la date du **2 juin 2026** : citer la date de la lettre.",
+    "Elle est numérotée **« N°0001-2026 »** dans le scan et **« N°001-2026 »** sur le site de la COSUMAF.",
+    "Le détail de l'agrément est dans l'**Instruction 46-25** (fiche **i46-25**) ; la lettre ne fixe que le **délai de 3 mois** pour s'y conformer."
+  ],
+  "qr": [
+    { "q": "Quel délai la lettre circulaire 0001-2026 donne-t-elle pour faire agréer les dirigeants ?", "r": "Trois mois à compter de la date de signature de la lettre (19 février 2026)." },
+    { "q": "Quel diplôme et quelle expérience pour un dirigeant selon l'Instruction 46-25 ?", "r": "Au moins BAC + 5 et 10 ans d'expérience dont 5 en finance de marchés." }
+  ]
+}

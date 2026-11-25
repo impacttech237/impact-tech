@@ -1,0 +1,68 @@
+{
+  "id": "i22-24",
+  "ordre": 31,
+  "type": "instruction",
+  "numero": "22-24",
+  "titre": "Agrément des commissaires aux comptes sur le marché financier",
+  "theme": "agrement",
+  "date_texte": "18 juillet 2024",
+  "date_adoption": "2024-07-18",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Conditions et procédure d'agrément des commissaires aux comptes qui interviennent auprès des entités contrôlées par la COSUMAF (art. 162 du Règlement général).",
+    "essentiel": "CAC = **société d'expertise comptable (SEC)** agréée par la **CEMAC** et inscrite à un **ordre national** ; au moins **2 experts-comptables** agréés CEMAC parmi les **associés dirigeants** ; associés **signataires** agréés nommément. Changement d'associé signalé en **30 jours ouvrés** ; l'acteur qui mandate un CAC déjà agréé informe la COSUMAF en **30 jours ouvrés**. Dossier par e-mail + **2 exemplaires** papier ; accusé en **10 jours ouvrés**, instruction en **60 jours ouvrés**, compléments en **30 jours** sinon **rejet**.",
+    "retenir": [
+      "Instruction prise en application de l'**art. 162 du Règlement général** ; vise les CAC des entités contrôlées par la COSUMAF. Art. 1",
+      "Le CAC est une **personne morale** : **société d'expertise comptable (SEC)** **agréée par la CEMAC** et inscrite au tableau d'un **ordre national des experts-comptables**. Art. 2.1",
+      "La SEC compte **au moins 2 experts-comptables agréés CEMAC** parmi ses **associés dirigeants**. Art. 2.2",
+      "Elle désigne un ou plusieurs **associés signataires**, eux-mêmes agréés (CV, agréments, états de service). Art. 2.3",
+      "Changement d'associé ou de signataire : information de la COSUMAF **au plus tard 30 jours ouvrés** après, avec dossier du nouveau signataire pour **autorisation préalable**. Art. 2.4",
+      "Une SEC **non encore agréée** qui reçoit un mandat demande l'agrément ; le mandat est accompagné d'une **lettre d'acceptation** désignant l'associé signataire. Art. 2.5",
+      "Un acteur qui mandate une SEC **déjà agréée** en informe la COSUMAF **au plus tard 30 jours ouvrés** après, avec le **mandat signé** et la **lettre d'acceptation**. Art. 2.6",
+      "La COSUMAF vérifie **compétence**, **indépendance** vis-à-vis de l'entité contrôlée et des personnes apparentées, absence d'**interdiction ou incompatibilité** ; elle peut convoquer à un **entretien**. Art. 3",
+      "Dossier envoyé par **e-mail** et déposé en **2 exemplaires** papier au siège de la COSUMAF à **Libreville**. Art. 5",
+      "Accusé de réception en **10 jours ouvrés** ; instruction en **60 jours ouvrés** ; fiche complémentaire à fournir en **30 jours**, sinon demande **réputée rejetée** ; décision par **lettre recommandée**, refus **motivé**. Art. 6-8",
+      "Pièces : PV d'AG de désignation (et lettre d'acceptation pour les OPC), RCCM, statuts, **agrément CEMAC**, inscription à l'ordre, états certifiés des **3 derniers exercices**, missions accomplies, déclarations (interdictions, liens avec les actionnaires d'**au moins 5 %**), attestations fiscale, sociale, de non-faillite, **RC professionnelle**, plan de localisation, engagement. Annexe 1"
+    ],
+    "listes": [
+      {
+        "titre": "Points vérifiés par la COSUMAF (CAC)",
+        "a": "art. 3",
+        "items": [
+          "Compétences adaptées à l'entité contrôlée",
+          "Indépendance envers l'entité et ses apparentés",
+          "Absence d'interdiction et d'incompatibilité"
+        ]
+      }
+    ],
+    "pieges": [
+      "CAC : **2 exemplaires** papier ; OPCI et experts immobiliers : **3 exemplaires**.",
+      "Le CAC d'un acteur du marché est **toujours une personne morale** (SEC) avec **2 experts-comptables** associés dirigeants."
+    ],
+    "qr": [
+      {
+        "q": "Quelles conditions doit remplir un CAC pour intervenir sur le marché financier de la CEMAC ?",
+        "r": "Être une société d'expertise comptable agréée par la CEMAC, inscrite à un ordre national, comptant au moins 2 experts-comptables agréés parmi ses associés dirigeants, avec des associés signataires agréés, compétente, indépendante et sans incompatibilité."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

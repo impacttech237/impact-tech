@@ -1,0 +1,249 @@
+[
+  {
+    "id": "i01-23.delai.01",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Accusé de réception d'une demande d'agrément d'intermédiaire de marché",
+    "valeur_texte": "10 jours ouvrables",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrables",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.delai.02",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Notification de la décision d'agrément d'un intermédiaire de marché",
+    "valeur_texte": "60 jours",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.delai.03",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Notification d'un changement dans l'organe de direction d'un intermédiaire",
+    "valeur_texte": "avant sa prise d'effet",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.delai.04",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Ancienneté maximale de l'extrait de casier judiciaire d'un dirigeant",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.delai.05",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Période couverte par le CV détaillé des dirigeants",
+    "valeur_texte": "10 années précédentes",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.delai.06",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "États financiers prévisionnels exigés d'un nouvel intermédiaire",
+    "valeur_texte": "3 premiers exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.delai.07",
+    "texte": "i01-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Durée du plan d'activités initial d'un intermédiaire",
+    "valeur_texte": "3 années suivantes",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.role.01",
+    "texte": "i01-23",
+    "type": "role",
+    "article": "art. 2-5",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Reçoit le dossier, accuse réception en 10 jours ouvrables, demande les compléments, notifie la décision en 60 jours.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.role.02",
+    "texte": "i01-23",
+    "type": "role",
+    "article": "art. 1, 4",
+    "enonce": "Intermédiaire de marché",
+    "valeur_texte": "Dépose le dossier et notifie à l'avance tout changement de son organe de direction.",
+    "acteurs": [
+      "intermediaire-de-marche"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.role.03",
+    "texte": "i01-23",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Point de contact (COSUMAF)",
+    "valeur_texte": "Agent désigné dans l'accusé de réception pour traiter le dossier.",
+    "acteurs": [
+      "point-de-contact-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.liste.01",
+    "texte": "i01-23",
+    "type": "liste",
+    "article": "annexe I",
+    "enonce": "Les 6 blocs du dossier d'agrément (annexe I)",
+    "valeur_texte": "a) Informations générales (statuts, RCCM, succursales, services) ; b) Capital social (origine des fonds, emprunts) ; c) Actionnaires (répartition, détenteur final, groupe) ; d) Organe de direction et dirigeants ; e) Informations financières (prévisions 3 exercices) ; f) Organisation (plan d'activités 3 ans, contrôle interne, LBC/FT, continuité)",
+    "items": [
+      "a) Informations générales (statuts, RCCM, succursales, services)",
+      "b) Capital social (origine des fonds, emprunts)",
+      "c) Actionnaires (répartition, détenteur final, groupe)",
+      "d) Organe de direction et dirigeants",
+      "e) Informations financières (prévisions 3 exercices)",
+      "f) Organisation (plan d'activités 3 ans, contrôle interne, LBC/FT, continuité)"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.liste.02",
+    "texte": "i01-23",
+    "type": "liste",
+    "article": "annexes",
+    "enonce": "Annexes de l'instruction",
+    "valeur_texte": "I : formulaire de demande d'agrément ; II : liste des membres de l'organe de direction ; III : notification des modifications du conseil d'administration ; IV : modèle de déclaration sur l'honneur",
+    "items": [
+      "I : formulaire de demande d'agrément",
+      "II : liste des membres de l'organe de direction",
+      "III : notification des modifications du conseil d'administration",
+      "IV : modèle de déclaration sur l'honneur"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.piege.01",
+    "texte": "i01-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "10 jours ouvrables pour l'accusé de réception, 60 jours pour la décision — à ne pas confon",
+    "valeur_texte": "**10 jours ouvrables** pour l'accusé de réception, **60 jours** pour la décision — à ne pas confondre avec les délais d'autres agréments (agences de notation, SGO…).",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i01-23.piege.02",
+    "texte": "i01-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le changement de dirigeants se notifie avant sa prise d'effet, pas après.",
+    "valeur_texte": "Le changement de dirigeants se notifie **avant** sa prise d'effet, pas après.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

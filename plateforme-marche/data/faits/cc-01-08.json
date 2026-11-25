@@ -1,0 +1,205 @@
+[
+  {
+    "id": "cc-01-08.montant.01",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif COSUMAF",
+    "enonce": "Commission de visa d'une opération d'APE inférieure à 10 milliards FCFA (émetteur autre qu'un État)",
+    "valeur_texte": "0,3 % du montant de l'opération",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.02",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif COSUMAF",
+    "enonce": "Commission de visa d'une opération d'APE de 10 à 20 milliards FCFA",
+    "valeur_texte": "0,25 % du montant de l'opération",
+    "type_valeur": "nombre",
+    "valeur": 0.25,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.03",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif COSUMAF",
+    "enonce": "Commission de visa d'une opération d'APE supérieure à 20 milliards FCFA",
+    "valeur_texte": "0,20 % du montant de l'opération",
+    "type_valeur": "nombre",
+    "valeur": 0.2,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.04",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif COSUMAF",
+    "enonce": "Commission d'appel public à l'épargne réalisé par un État",
+    "valeur_texte": "0,3 % du montant total de l'opération",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.05",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif COSUMAF",
+    "enonce": "Commission d'agrément de l'entreprise gestionnaire du marché",
+    "valeur_texte": "20 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 20000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.06",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif COSUMAF",
+    "enonce": "Commission d'agrément d'une société de bourse",
+    "valeur_texte": "5 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.07",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif BVMAC",
+    "enonce": "Redevance de siège annuelle des sociétés de bourse (BVMAC)",
+    "valeur_texte": "2 000 000 FCFA par an",
+    "type_valeur": "nombre",
+    "valeur": 2000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.montant.08",
+    "texte": "cc-01-08",
+    "type": "montant",
+    "article": "tarif BVMAC",
+    "enonce": "Commission de courtage de la BVMAC",
+    "valeur_texte": "0,3 % du volume de négociation",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.role.01",
+    "texte": "cc-01-08",
+    "type": "role",
+    "article": "chapeau",
+    "enonce": "COSUMAF (tarification)",
+    "valeur_texte": "Annonce l'accord de tarification et précise qu'aucune tarification différente ne peut s'appliquer jusqu'à nouvel avis.",
+    "acteurs": [
+      "cosumaf-tarification"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.piege.01",
+    "texte": "cc-01-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le scan est très dégradé : les fourchettes de commissions des sociétés de bourse (structur",
+    "valeur_texte": "Le scan est **très dégradé** : les fourchettes de commissions des sociétés de bourse (structuration, placement, prise ferme, courtage) ne sont pas reprises ici faute de lecture sûre ; utiliser le **communiqué 03/20**, qui fixe des **plafonds**.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.piege.02",
+    "texte": "cc-01-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ce communiqué est historique : le communiqué 03/20 (accord du 19 décembre 2019) reprend un",
+    "valeur_texte": "Ce communiqué est **historique** : le communiqué **03/20** (accord du 19 décembre 2019) reprend un barème comparable et la tarification actuelle est fixée par l'**Instruction COSUMAF 23-24** (18 juillet 2024).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "cc-01-08.piege.03",
+    "texte": "cc-01-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "Cartes professionnelles : le montant annuel diffère d'un barème à l'autre (250 000 FCFA pa",
+    "valeur_texte": "Cartes professionnelles : le montant annuel diffère d'un barème à l'autre (**250 000 FCFA** par an en 2008, **50 000 FCFA** par an en 2020) : citer le texte.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

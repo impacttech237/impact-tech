@@ -1,0 +1,56 @@
+{
+  "id": "aa03-01",
+  "ordre": 106,
+  "type": "acte_additionnel",
+  "organisme": "cemac",
+  "numero": "Acte additionnel n° 03/01-CEMAC-CE-03",
+  "titre": "Acte additionnel n° 03/01-CEMAC-CE-03 portant création de la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF)",
+  "theme": "cadre",
+  "date_texte": "8 décembre 2001, Yaoundé",
+  "date_adoption": "2001-12-08",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\Preparation COSUMAF\\01KQYPYNSS1NMHRNW7200JYNSC.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 2 pages, 4 articles), lu par OCR"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Crée la COSUMAF, organe communautaire de l'UMAC doté de la personnalité juridique, tutelle, régulation et contrôle du marché financier régional. Adopté par la Conférence des Chefs d'État sur proposition du Comité ministériel de l'UMAC du 8 décembre 2001 à Yaoundé. Texte fondateur de quatre articles.",
+    "essentiel": "**4 articles.** La COSUMAF est créée dans le cadre de l'**UMAC** (art. 1), dotée de la **personnalité juridique**, **organe de tutelle, de régulation et de contrôle** du marché financier régional (art. 2). Son organisation et son fonctionnement sont adoptés par le **Comité ministériel de l'UMAC** (art. 3). Entrée en vigueur **à la signature**, publication au **Bulletin Officiel de la Communauté** (art. 4).",
+    "retenir": [
+      "Il est créé, dans le cadre de l'**Union Monétaire de l'Afrique Centrale (UMAC)**, un **organe communautaire** : la Commission de Surveillance du Marché Financier, **dotée de la personnalité juridique**. Art. 1",
+      "La COSUMAF est l'**organe de tutelle, de régulation et de contrôle** du marché financier régional. Art. 2",
+      "Les dispositions sur son **organisation et son fonctionnement** sont adoptées par le **Comité ministériel de l'UMAC**. Art. 3",
+      "L'acte **entre en vigueur à la date de sa signature** et est **publié au Bulletin Officiel de la Communauté**. Art. 4",
+      "Il vise notamment l'Acte additionnel du **14 décembre 2000** qui fixait le siège de la BVMAC à **Libreville**."
+    ],
+    "listes": [],
+    "pieges": [
+      "La COSUMAF a été créée en **2001** : l'**Acte additionnel 06/17** (19 février 2018) a ensuite unifié le marché financier de la CEMAC autour d'une **autorité de régulation unique** (la COSUMAF, à Libreville).",
+      "Le siège de la **BVMAC** a d'abord été fixé à **Libreville** (acte de décembre 2000) ; l'acte de 2018 l'a transféré à **Douala**."
+    ],
+    "qr": [
+      {
+        "q": "Quel texte a créé la COSUMAF et quand ?",
+        "r": "L'Acte additionnel n° 03/01-CEMAC-CE-03, adopté à Yaoundé le 8 décembre 2001."
+      },
+      {
+        "q": "Quel est le rôle de la COSUMAF d'après l'acte de création ?",
+        "r": "Organe de tutelle, de régulation et de contrôle du marché financier régional, doté de la personnalité juridique."
+      }
+    ]
+  }
+}

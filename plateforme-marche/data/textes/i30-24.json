@@ -1,0 +1,82 @@
+{
+  "id": "i30-24",
+  "ordre": 39,
+  "type": "instruction",
+  "numero": "30-24",
+  "titre": "Fréquence et modalités de publication des informations périodiques des émetteurs APE",
+  "theme": "ape",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "abroge",
+  "statut_source": "deduit",
+  "abroge": [],
+  "abroge_par": [
+    "i44-25"
+  ],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "ABROGÉE par l'Instruction 44-25 du 15 décembre 2025 (qui reprend les mêmes règles). Informations périodiques des émetteurs faisant appel public à l'épargne (art. 208 du Règlement général) : rapport financier annuel, rapport semestriel, déclarations intermédiaires de la direction, cas des États et collectivités.",
+    "essentiel": "Rapport financier **annuel** de N publié et déposé **au plus tard le 15 juillet de N+1**, gardé en ligne **5 ans**. Rapport de **contrôle interne** et rapport **LBC/FT** au plus tard le **30 mars**. Rapport **semestriel** au plus tard **2 mois** après le semestre, en ligne **5 ans**. Émetteurs d'actions cotées : **déclaration intermédiaire de la direction** chaque semestre, entre **10 semaines** après le début et **6 semaines** avant la fin. **États et collectivités** exemptés, mais 4 notes annuelles pendant l'amortissement de leurs emprunts.",
+    "retenir": [
+      "Prise en application de l'**art. 208 du Règlement général** ; vise sociétés, **États et démembrements** et personnes morales de l'art. 74 du Règlement 01/22. Art. 1",
+      "**Rapport financier annuel** de l'exercice N : publié sur le site de l'émetteur et déposé à la COSUMAF **au plus tard le 15 juillet de N+1**, maintenu **au moins 5 ans**. Art. 2.1",
+      "Contenu : états financiers **certifiés** (bilan, compte de résultat, TAFIRE, annexe), **rapports général et spécial** du CAC, **rapport de gestion**, **PV de l'AG** d'approbation, **déclarations des responsables** (image fidèle). Comptes **consolidés** s'ils sont exigés. Art. 2.2-2.3",
+      "Le rapport du CAC est communiqué **intégralement** au public avec le rapport annuel. Art. 2.4",
+      "**Rapport annuel de contrôle interne** et **rapport de contrôle LBC/FT** : **au plus tard le 30 mars** de chaque année. Art. 2.5",
+      "**Rapport financier semestriel** (actions ou titres de créance) : 6 premiers mois, publié **au plus tard 2 mois** après la fin du semestre, disponible **5 ans** ; états financiers **résumés**, rapport de gestion intermédiaire (événements, risques des **6 mois restants**, transactions entre **parties liées** pour les actions), déclarations des responsables ; rapport d'audit reproduit ou mention d'absence d'audit. Art. 3",
+      "**Déclaration intermédiaire de la direction** (actions cotées), **une par semestre**, publiée entre **10 semaines** après le début et **6 semaines** avant la fin du semestre : événements importants et situation financière ; **dispense** si l'émetteur publie des rapports **trimestriels**. Art. 4",
+      "**Exemption** des art. 2 à 4 : **États et collectivités régionales ou locales**. Art. 5",
+      "États et collectivités ayant fait un emprunt obligataire publient pendant l'**amortissement** : note sur l'**avancement des projets financés**, note d'informations générales, note sur les **plans nationaux de développement**, note sur la **conjoncture**. Art. 6",
+      "Informations **gratuites** sur un **espace dédié** du site de l'émetteur et copie à la COSUMAF **par e-mail**. Art. 7"
+    ],
+    "listes": [
+      {
+        "titre": "Contenu du rapport financier annuel",
+        "a": "art. 2.2",
+        "items": [
+          "États financiers certifiés (bilan, résultat, TAFIRE, annexe)",
+          "Rapports général et spécial du CAC",
+          "Rapport annuel de gestion",
+          "PV de l'AG d'approbation des comptes",
+          "Déclarations des personnes responsables"
+        ]
+      },
+      {
+        "titre": "Notes annuelles des États et collectivités émetteurs",
+        "a": "art. 6",
+        "items": [
+          "Avancement des projets financés par les emprunts",
+          "Informations générales sur l'émetteur",
+          "Évolution des plans nationaux de développement",
+          "Conjoncture et perspectives économiques"
+        ]
+      }
+    ],
+    "pieges": [
+      "L'Instruction 30-24 est **abrogée** par l'Instruction **44-25** (15 décembre 2025), qui reprend ses règles sur l'information périodique et ajoute l'information permanente et occasionnelle.",
+      "**15 juillet de N+1** : rapport annuel ; **30 mars** : rapports de contrôle interne et LBC/FT ; **2 mois** : rapport semestriel.",
+      "Déclaration intermédiaire : fenêtre **10 semaines après le début / 6 semaines avant la fin** du semestre ; inutile si rapports **trimestriels**."
+    ],
+    "qr": [
+      {
+        "q": "Quand un émetteur APE publie-t-il ses rapports financiers ?",
+        "r": "Le rapport annuel de N au plus tard le 15 juillet de N+1, le rapport semestriel au plus tard 2 mois après la fin du semestre, les rapports de contrôle interne et LBC/FT au plus tard le 30 mars ; tous restent en ligne au moins 5 ans."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

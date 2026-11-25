@@ -1,0 +1,173 @@
+[
+  {
+    "id": "i08-23.delai.01",
+    "texte": "i08-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Accusé de réception du dossier d'agrément d'un actionnaire de la BVMAC",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.delai.02",
+    "texte": "i08-23",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Octroi de l'agrément d'un actionnaire de la BVMAC",
+    "valeur_texte": "60 jours après l'accusé de réception",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.delai.03",
+    "texte": "i08-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "Période d'antécédents des dirigeants d'un candidat actionnaire de la BVMAC",
+    "valeur_texte": "5 dernières années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.delai.04",
+    "texte": "i08-23",
+    "type": "delai",
+    "article": "annexe I",
+    "enonce": "États financiers certifiés exigés d'un candidat actionnaire de la BVMAC",
+    "valeur_texte": "3 derniers exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.montant.01",
+    "texte": "i08-23",
+    "type": "montant",
+    "article": "annexe I, point 9.1",
+    "enonce": "Seuil de détention des principaux actionnaires à déclarer (candidat actionnaire BVMAC)",
+    "valeur_texte": "plus de 20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.role.01",
+    "texte": "i08-23",
+    "type": "role",
+    "article": "art. 1",
+    "enonce": "Société de bourse",
+    "valeur_texte": "Actionnaire d'office de l'entreprise de marché : n'a pas besoin de l'agrément de cette instruction.",
+    "acteurs": [
+      "societe-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.role.02",
+    "texte": "i08-23",
+    "type": "role",
+    "article": "art. 4-5",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Agrée les autres actionnaires de la BVMAC après contrôle de leur honorabilité, compétence et capacité financière.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.liste.01",
+    "texte": "i08-23",
+    "type": "liste",
+    "article": "art. 4",
+    "enonce": "Critères d'agrément d'un actionnaire de la BVMAC",
+    "valeur_texte": "Honorabilité ; Compétences ; Capacités financières",
+    "items": [
+      "Honorabilité",
+      "Compétences",
+      "Capacités financières"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.piege.01",
+    "texte": "i08-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Délai d'agrément : 60 jours à compter de l'accusé de réception (et non de la réception du ",
+    "valeur_texte": "Délai d'agrément : **60 jours à compter de l'accusé de réception** (et non de la réception du dossier).",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i08-23.piege.02",
+    "texte": "i08-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les sociétés de bourse sont actionnaires d'office de l'entreprise de marché : pas d'agréme",
+    "valeur_texte": "Les **sociétés de bourse** sont actionnaires **d'office** de l'entreprise de marché : pas d'agrément préalable pour elles.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "r19-intro.delai.01",
+    "texte": "r19-intro",
+    "type": "delai",
+    "article": "art. 1",
+    "enonce": "Date limite de cession en bourse des participations des États",
+    "valeur_texte": "au plus tard fin février 2020",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.delai.02",
+    "texte": "r19-intro",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Mise à jour de la liste des entreprises dont les participations sont à céder",
+    "valeur_texte": "chaque année",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.role.01",
+    "texte": "r19-intro",
+    "type": "role",
+    "article": "art. 1-2",
+    "enonce": "États membres de la CEMAC (cession de participations)",
+    "valeur_texte": "Cèdent en bourse, par appel public à l'épargne, tout ou partie de leurs participations dans certaines entreprises.",
+    "acteurs": [
+      "etats-membres-de-la-cemac-cession-de-participations"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.role.02",
+    "texte": "r19-intro",
+    "type": "role",
+    "article": "art. 3",
+    "enonce": "Comité ministériel de l'UMAC (liste des participations)",
+    "valeur_texte": "Arrête la liste des entreprises et la part à céder, sur proposition du Gouverneur de la BEAC.",
+    "acteurs": [
+      "comite-ministeriel-de-l-umac-liste-des-participations"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.role.03",
+    "texte": "r19-intro",
+    "type": "role",
+    "article": "art. 4",
+    "enonce": "Président de la COSUMAF (introduction des États)",
+    "valeur_texte": "Est chargé, avec le Président du Comité ministériel et le Gouverneur de la BEAC, de l'application du règlement.",
+    "acteurs": [
+      "president-de-la-cosumaf-introduction-des-etats"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.liste.01",
+    "texte": "r19-intro",
+    "type": "liste",
+    "article": "art. 4",
+    "enonce": "Autorités chargées de l'application du règlement",
+    "valeur_texte": "Président du Comité ministériel de l'UMAC ; Gouverneur de la BEAC ; Président de la COSUMAF",
+    "items": [
+      "Président du Comité ministériel de l'UMAC",
+      "Gouverneur de la BEAC",
+      "Président de la COSUMAF"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.piege.01",
+    "texte": "r19-intro",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le numéro du règlement est laissé en blanc dans le scan (« …./…./CEMAC/UMAC ») mais le tex",
+    "valeur_texte": "Le numéro du règlement est **laissé en blanc** dans le scan (« …./…./CEMAC/UMAC ») mais le texte est **daté et signé** du **2 octobre 2019, à Yaoundé** : ce n'est pas un projet. Le citer par son titre et sa date.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.piege.02",
+    "texte": "r19-intro",
+    "type": "piege",
+    "article": null,
+    "enonce": "La date limite de fin février 2020 est passée : ce règlement est surtout utile pour compre",
+    "valeur_texte": "La date limite de **fin février 2020** est **passée** : ce règlement est surtout utile pour comprendre l'origine des introductions en bourse d'États.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r19-intro.piege.03",
+    "texte": "r19-intro",
+    "type": "piege",
+    "article": null,
+    "enonce": "La cession se fait uniquement par appel public à l'épargne, pas de gré à gré.",
+    "valeur_texte": "La cession se fait **uniquement par appel public à l'épargne**, pas de gré à gré.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

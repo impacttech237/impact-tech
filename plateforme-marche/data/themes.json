@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cadre",
+    "nom": "Cadre & institutions",
+    "court": "Cadre",
+    "couleur": "#3d5a80",
+    "desc": "Le Règlement du marché financier unifié, la COSUMAF, la BVMAC, la fiscalité."
+  },
+  {
+    "id": "titres",
+    "nom": "Titres & inscription en compte",
+    "court": "Titres",
+    "couleur": "#2f6f86",
+    "desc": "Dématérialisation, tenue de compte, Dépositaire Central."
+  },
+  {
+    "id": "agrement",
+    "nom": "Agrément des acteurs",
+    "court": "Agréments",
+    "couleur": "#2f7d5d",
+    "desc": "Qui peut exercer, à quelles conditions, avec quel dossier et dans quels délais."
+  },
+  {
+    "id": "ape",
+    "nom": "Appel public à l'épargne & émetteurs",
+    "court": "APE",
+    "couleur": "#c9503a",
+    "desc": "Dossier et document d'information, notation, publicité, information périodique."
+  },
+  {
+    "id": "pp",
+    "nom": "Placement privé",
+    "court": "Placement privé",
+    "couleur": "#8a5aa6",
+    "desc": "Le régime du placement privé, son dossier d'enregistrement et son document simplifié."
+  },
+  {
+    "id": "opc",
+    "nom": "OPC, OPCVM, OPCI & fonds",
+    "court": "OPC",
+    "couleur": "#d98a2b",
+    "desc": "Agrément des OPC, documents d'information, règlements et statuts types, commercialisation."
+  },
+  {
+    "id": "conformite",
+    "nom": "Contrôle, risques & LBC/FT",
+    "court": "Conformité",
+    "couleur": "#6b7a2f",
+    "desc": "Vigilance, cartographie des risques, contrôle interne, reporting, honorabilité."
+  },
+  {
+    "id": "vie",
+    "nom": "Vie des structures & clientèle",
+    "court": "Vie des structures",
+    "couleur": "#9a5b34",
+    "desc": "Information des clients, tarification, modifications, gestion sous mandat, liquidation, activités."
+  },
+  {
+    "id": "marche",
+    "nom": "Marché & négociation (BVMAC)",
+    "court": "Marché",
+    "couleur": "#4a6a8a",
+    "desc": "Les règles de la bourse : admission à la cote, ordres, cotation, règlement-livraison, tarification."
+  },
+  {
+    "id": "change",
+    "nom": "Changes et opérations avec l'extérieur",
+    "court": "Changes",
+    "couleur": "#7a6a3a",
+    "desc": "La réglementation des changes de la CEMAC : valeurs mobilières étrangères, emprunts, prêts, investissements directs et de portefeuille."
+  }
+]

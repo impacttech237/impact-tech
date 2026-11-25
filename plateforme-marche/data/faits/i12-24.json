@@ -1,0 +1,83 @@
+[
+  {
+    "id": "i12-24.role.01",
+    "texte": "i12-24",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Entreprise de marché (BVMAC)",
+    "valeur_texte": "Fournit à la COSUMAF les règles et procédures du marché, la description de son système de négociation, de ses conflits d'intérêts, de sa sous-traitance et de ses ressources financières.",
+    "acteurs": [
+      "entreprise-de-marche-bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i12-24.role.02",
+    "texte": "i12-24",
+    "type": "role",
+    "article": "art. 2, 4",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Agrée l'entreprise de marché au vu du dossier et reçoit la description de toute modification importante.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i12-24.definition.01",
+    "texte": "i12-24",
+    "type": "definition",
+    "article": "art. 2.1 h",
+    "enonce": "Transparence pré et post-négociation",
+    "valeur_texte": "Publication des prix et volumes avant (offres) et après (transactions) la négociation des instruments financiers.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i12-24.liste.01",
+    "texte": "i12-24",
+    "type": "liste",
+    "article": "art. 2.2",
+    "enonce": "Les 3 types de systèmes de négociation",
+    "valeur_texte": "À la criée ; Électronique ; Hybride",
+    "items": [
+      "À la criée",
+      "Électronique",
+      "Hybride"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i12-24.piege.01",
+    "texte": "i12-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'entreprise de marché (BVMAC) est agréée par l'Instruction 12-24 ; ses actionnaires (autr",
+    "valeur_texte": "L'**entreprise de marché** (BVMAC) est agréée par l'Instruction **12-24** ; ses **actionnaires** (autres que les sociétés de bourse) par l'Instruction **08-23** ; le **Dépositaire Central** par l'Instruction **09-23**.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

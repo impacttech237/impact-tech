@@ -1,0 +1,78 @@
+[
+  {
+    "id": "aa03-01.role.01",
+    "texte": "aa03-01",
+    "type": "role",
+    "article": "préambule",
+    "enonce": "Conférence des Chefs d'État de la CEMAC",
+    "valeur_texte": "Adopte l'Acte additionnel portant création de la COSUMAF, sur proposition du Comité ministériel de l'UMAC.",
+    "acteurs": [
+      "conference-des-chefs-d-etat-de-la-cemac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa03-01.role.02",
+    "texte": "aa03-01",
+    "type": "role",
+    "article": "préambule, art. 3",
+    "enonce": "Comité ministériel de l'UMAC",
+    "valeur_texte": "Propose l'acte et adopte les dispositions sur l'organisation et le fonctionnement de la COSUMAF.",
+    "acteurs": [
+      "comite-ministeriel-de-l-umac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa03-01.definition.01",
+    "texte": "aa03-01",
+    "type": "definition",
+    "article": "art. 1-2",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Commission de Surveillance du Marché Financier de l'Afrique Centrale : organe communautaire de l'UMAC, doté de la personnalité juridique, de tutelle, de régulation et de contrôle du marché financier régional.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa03-01.piege.01",
+    "texte": "aa03-01",
+    "type": "piege",
+    "article": null,
+    "enonce": "La COSUMAF a été créée en 2001 : l'Acte additionnel 06/17 (19 février 2018) a ensuite unif",
+    "valeur_texte": "La COSUMAF a été créée en **2001** : l'**Acte additionnel 06/17** (19 février 2018) a ensuite unifié le marché financier de la CEMAC autour d'une **autorité de régulation unique** (la COSUMAF, à Libreville).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "aa03-01.piege.02",
+    "texte": "aa03-01",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le siège de la BVMAC a d'abord été fixé à Libreville (acte de décembre 2000) ; l'acte de 2",
+    "valeur_texte": "Le siège de la **BVMAC** a d'abord été fixé à **Libreville** (acte de décembre 2000) ; l'acte de 2018 l'a transféré à **Douala**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

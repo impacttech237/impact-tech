@@ -1,0 +1,14 @@
+[
+  {
+    "type": "abroge",
+    "source": "r04-25",
+    "cible": "r01-14",
+    "retire_externe": "Règlement 01/14"
+  },
+  {
+    "type": "abroge",
+    "source": "r01-22",
+    "cible": "r06-03",
+    "retire_externe": "Règlement 06/03"
+  }
+]

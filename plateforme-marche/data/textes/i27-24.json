@@ -1,0 +1,66 @@
+{
+  "id": "i27-24",
+  "ordre": 36,
+  "type": "instruction",
+  "numero": "27-24",
+  "titre": "Contenu et format du document d'information simplifié d'un placement privé",
+  "theme": "pp",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Ce que contient le document d'information simplifié exigé pour un placement privé (art. 209 du Règlement général) : titres de capital (annexe I), titres de créance (annexe II), OPC de type fermé (annexe III), facteurs de risque, prix et nombre définitifs.",
+    "essentiel": "Le DIS d'un placement privé donne à un **investisseur qualifié** de quoi évaluer l'émetteur, les **droits** des titres et les **raisons** de l'émission. Document **unique** ou **plusieurs documents** (document d'enregistrement + note sur les valeurs mobilières). **3 annexes** : capital, créance, OPC fermé. Risques **spécifiques et importants**, classés par catégorie, les plus graves d'abord (échelle **faible / moyen / élevé** possible). Comptes audités des **2 derniers exercices** (contre 3 pour un APE). Prix et nombre définitifs **déposés** à la COSUMAF.",
+    "retenir": [
+      "Prise en application de l'**art. 209 du Règlement général** ; vise sociétés, États, démembrements et personnes morales qui font un **placement privé**. Art. 1",
+      "Le DIS contient l'information importante pour qu'un **investisseur qualifié** évalue : l'actif, le passif, les résultats, la situation et les perspectives de l'émetteur et des garants ; les **droits attachés** aux titres ; les **raisons de l'émission** et son incidence. Art. 2.1",
+      "Présenté de façon **facile à analyser, concise et compréhensible** ; document **unique** ou **plusieurs documents** (un **document d'enregistrement** sur l'émetteur + une **note relative aux valeurs mobilières**) ; il comporte une **table des matières**. Art. 2",
+      "Plans types à suivre **dans l'ordre** : **annexe I** titres donnant accès au capital ; **annexe II** titres de créance ; **annexe III** parts d'**OPC de type fermé**. Art. 3-5",
+      "**Facteurs de risque** : seulement les risques **spécifiques** à l'émetteur ou aux titres et **importants** ; importance évaluée selon **probabilité** et **impact** (échelle **faible, moyen, élevé** possible) ; classés en un nombre limité de catégories, les plus importants d'abord ; inclure la **subordination** et les risques liés au **garant**. Art. 6",
+      "Si le prix ou le nombre définitifs ne sont pas connus : indiquer le **prix ou nombre maximal** ou la **méthode** de fixation ; les chiffres définitifs sont ensuite **déposés auprès de la COSUMAF**. Art. 7",
+      "Informations financières : comptes audités des **2 derniers exercices** ; si la date de référence a changé, au moins **36 mois** ; comptes intermédiaires si le document est établi **plus de 9 mois** après les derniers comptes audités. Annexes",
+      "Dirigeants : mandats, condamnations pour fraude, faillites, sanctions sur les **5 dernières années** ; procédures judiciaires sur au moins **12 mois** ; contrats importants des **2 années** précédentes. Annexes",
+      "OPC fermé : informations supplémentaires si **plus de 20 %** de l'actif brut va dans d'autres OPC ou vers une même contrepartie, et si **plus de 40 %** de l'actif brut est investi dans un autre OPC. Annexe III"
+    ],
+    "listes": [
+      {
+        "titre": "Les 3 annexes (plans types) du DIS de placement privé",
+        "a": "art. 3-5",
+        "items": [
+          "Annexe I : titres donnant accès au capital",
+          "Annexe II : titres de créance",
+          "Annexe III : parts d'OPC de type fermé"
+        ]
+      }
+    ],
+    "pieges": [
+      "Placement privé : comptes audités sur **2 exercices** ; APE (Instruction 05-23) : **3 exercices**.",
+      "Le DIS de placement privé s'adresse à un **investisseur qualifié**, d'où un contenu allégé."
+    ],
+    "qr": [
+      {
+        "q": "Comment présenter les facteurs de risque dans le DIS d'un placement privé ?",
+        "r": "Seulement les risques spécifiques et importants, évalués selon leur probabilité et leur impact (éventuellement faible, moyen, élevé), regroupés en peu de catégories, les plus importants en premier, y compris subordination et risques du garant."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

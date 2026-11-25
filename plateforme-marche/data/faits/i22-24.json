@@ -1,0 +1,290 @@
+[
+  {
+    "id": "i22-24.delai.01",
+    "texte": "i22-24",
+    "type": "delai",
+    "article": "art. 2.4",
+    "enonce": "Information de la COSUMAF d'un changement d'associé ou de signataire d'un CAC",
+    "valeur_texte": "30 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.delai.02",
+    "texte": "i22-24",
+    "type": "delai",
+    "article": "art. 2.6",
+    "enonce": "Information de la COSUMAF par un acteur qui mandate un CAC déjà agréé",
+    "valeur_texte": "30 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.delai.03",
+    "texte": "i22-24",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Accusé de réception d'une demande d'agrément de CAC",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.delai.04",
+    "texte": "i22-24",
+    "type": "delai",
+    "article": "art. 6-7",
+    "enonce": "Instruction d'une demande d'agrément de CAC",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.delai.05",
+    "texte": "i22-24",
+    "type": "delai",
+    "article": "art. 6-7",
+    "enonce": "Délai de réponse à une fiche complémentaire (CAC), sinon rejet",
+    "valeur_texte": "30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.delai.06",
+    "texte": "i22-24",
+    "type": "delai",
+    "article": "annexe 1",
+    "enonce": "États financiers certifiés exigés d'une SEC candidate CAC",
+    "valeur_texte": "3 derniers exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.montant.01",
+    "texte": "i22-24",
+    "type": "montant",
+    "article": "art. 2.2",
+    "enonce": "Nombre minimal d'experts-comptables agréés CEMAC parmi les associés dirigeants d'un CAC",
+    "valeur_texte": "2 experts-comptables",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.montant.02",
+    "texte": "i22-24",
+    "type": "montant",
+    "article": "art. 5",
+    "enonce": "Nombre d'exemplaires papier du dossier d'agrément de CAC",
+    "valeur_texte": "2 exemplaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.montant.03",
+    "texte": "i22-24",
+    "type": "montant",
+    "article": "annexe 1",
+    "enonce": "Seuil des actionnaires de l'entité contrôlée dont les liens avec le CAC sont déclarés",
+    "valeur_texte": "au moins 5 %",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.role.01",
+    "texte": "i22-24",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Commissaire aux comptes (SEC)",
+    "valeur_texte": "Société d'expertise comptable agréée CEMAC qui certifie les comptes des entités du marché ; désigne ses associés signataires.",
+    "acteurs": [
+      "commissaire-aux-comptes-sec"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.role.02",
+    "texte": "i22-24",
+    "type": "role",
+    "article": "art. 2.6",
+    "enonce": "Acteur du marché (entité contrôlée)",
+    "valeur_texte": "Mandate le CAC et informe la COSUMAF dans les 30 jours ouvrés avec mandat et lettre d'acceptation.",
+    "acteurs": [
+      "acteur-du-marche-entite-controlee"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.role.03",
+    "texte": "i22-24",
+    "type": "role",
+    "article": "art. 3, 8",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Agrée la SEC et ses signataires après contrôle de compétence, d'indépendance et d'incompatibilités.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.definition.01",
+    "texte": "i22-24",
+    "type": "definition",
+    "article": "art. 2.1",
+    "enonce": "Société d'expertise comptable (SEC)",
+    "valeur_texte": "Personne morale agréée par la CEMAC comme société d'expertise comptable et inscrite à un ordre national, seule forme admise pour être CAC sur le marché.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.definition.02",
+    "texte": "i22-24",
+    "type": "definition",
+    "article": "art. 2.3",
+    "enonce": "Associé signataire",
+    "valeur_texte": "Expert-comptable associé de la SEC, agréé par la COSUMAF pour signer les rapports au nom de la société.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.liste.01",
+    "texte": "i22-24",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Points vérifiés par la COSUMAF (CAC)",
+    "valeur_texte": "Compétences adaptées à l'entité contrôlée ; Indépendance envers l'entité et ses apparentés ; Absence d'interdiction et d'incompatibilité",
+    "items": [
+      "Compétences adaptées à l'entité contrôlée",
+      "Indépendance envers l'entité et ses apparentés",
+      "Absence d'interdiction et d'incompatibilité"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.piege.01",
+    "texte": "i22-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "CAC : 2 exemplaires papier ; OPCI et experts immobiliers : 3 exemplaires.",
+    "valeur_texte": "CAC : **2 exemplaires** papier ; OPCI et experts immobiliers : **3 exemplaires**.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i22-24.piege.02",
+    "texte": "i22-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le CAC d'un acteur du marché est toujours une personne morale (SEC) avec 2 experts-comptab",
+    "valeur_texte": "Le CAC d'un acteur du marché est **toujours une personne morale** (SEC) avec **2 experts-comptables** associés dirigeants.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "lc-002-26",
+  "ordre": 114,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "num": "Lettre circulaire n° 002.26",
+  "date": "1er juin 2026, Libreville",
+  "titre": "Lettre circulaire n° 002.26 portant calendrier de transmission des informations périodiques des sociétés de gestion d'OPC et des dépositaires d'OPC",
+  "theme": "conformite",
+  "couverture": "partielle",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\01_Lettre-circulaire-002-26-calendrier-informations-periodiques-SGO-depositaires.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 3 pages), lu par OCR ; le tableau mélange libellés et dates : seules les dates dont la lecture est sûre sont reprises"
+  },
+  "relations": { "abroge": ["lc-003-24"] },
+  "objet": "Fixe, en application de l'article 311 du Règlement général de la COSUMAF, le calendrier de transmission des informations périodiques des sociétés de gestion d'OPC (SGO) et des dépositaires d'OPC. Elle « abroge dans toutes ses dispositions la Lettre Circulaire N°003 du 24 septembre 2024 portant calendrier de transmission des informations périodiques des sociétés de gestion d'OPC ».",
+  "trente": "**Calendrier 2026** pour les **SGO** (15 lignes) et les **dépositaires d'OPC** (9 lignes) : reporting hebdomadaire des fonds **tous les vendredis** ; rapports trimestriels aux **15 janvier, 15 avril, 15 juillet, 15 octobre** ; rapports semestriels aux **31 janvier et 31 juillet** ; contrôle interne et LBC/FT au **31 mars**. **Abroge la lettre circulaire 003 du 24 septembre 2024.**",
+  "retenir": [
+    "Fondement : **article 311 du Règlement général de la COSUMAF du 23 mai 2023**. Chapeau",
+    "Deux tableaux : **sociétés de gestion d'OPC** (I) et **dépositaires d'OPC** (II). Chapeau",
+    "SGO : **reporting hebdomadaire des fonds** suivant le modèle COSUMAF : **tous les vendredis**. I, ligne 1",
+    "SGO et dépositaires : rapports **trimestriels** (T4 au **15 janvier**, T1 au **15 avril**, T2 au **15 juillet**, T3 au **15 octobre**) et **semestriels** (S2 au **31 janvier**, S1 au **31 juillet**). I et II",
+    "SGO et dépositaires : **rapport annuel d'activités**, **rapport annuel de contrôle interne et cartographie des risques**, **cartographie des risques LBC/FT** et **rapport annuel de contrôle du respect des dispositions LBC/FT** (échéances de **janvier à mars**, voir le tableau). I et II",
+    "SGO : **états financiers de synthèse, rapport de gestion et rapports des CAC** et **procès-verbaux** du conseil et des assemblées (**31 juillet** pour les états de synthèse). I",
+    "**Abroge dans toutes ses dispositions** la **lettre circulaire n° 003 du 24 septembre 2024**. Dernier alinéa"
+  ],
+  "delais": [
+    { "q": "Reporting hebdomadaire des fonds par une SGO", "v": "tous les vendredis", "a": "I, ligne 1" },
+    { "q": "Rapports trimestriels d'activités : T4 de l'année N-1", "v": "15 janvier de l'année N", "a": "I et II" },
+    { "q": "Rapports trimestriels d'activités : T1", "v": "15 avril de l'année N", "a": "I et II" },
+    { "q": "Rapports trimestriels d'activités : T2", "v": "15 juillet de l'année N", "a": "I et II" },
+    { "q": "Rapports trimestriels d'activités : T3", "v": "15 octobre de l'année N", "a": "I et II" },
+    { "q": "Rapport semestriel d'activités S2 de l'année N-1", "v": "31 janvier de l'année N", "a": "I et II" },
+    { "q": "Rapport semestriel d'activités S1", "v": "31 juillet de l'année N", "a": "I et II" },
+    { "q": "États financiers de synthèse, rapport de gestion et rapports des commissaires aux comptes d'une SGO", "v": "31 juillet de l'année N", "a": "I" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "Société de gestion d'OPC (calendrier 2026)", "r": "Transmet hebdomadairement le reporting des fonds, puis les rapports trimestriels, semestriels et annuels selon le calendrier.", "a": "I" },
+    { "acteur": "Dépositaire d'OPC (calendrier 2026)", "r": "Transmet à la COSUMAF ses rapports périodiques, y compris le contrôle interne et le contrôle LBC/FT.", "a": "II" }
+  ],
+  "definitions": [],
+  "listes": [],
+  "pieges": [
+    "Cette lettre **remplace** la lettre circulaire **003/24** du 24 septembre 2024 : c'est elle qui fait foi en 2026.",
+    "Le scan **mélange libellés, exercices et dates** : les échéances des rapports annuels (activités, contrôle interne, cartographies, procès-verbaux) ne sont **pas reprises ligne à ligne** ici ; les lire dans le PDF avant de les citer.",
+    "Le calendrier des **dépositaires d'OPC** reprend la même logique que celui des SGO mais **sans** reporting hebdomadaire des fonds ni états financiers de synthèse."
+  ],
+  "qr": [
+    { "q": "Quelle lettre circulaire la circulaire 002.26 abroge-t-elle ?", "r": "La lettre circulaire n° 003 du 24 septembre 2024 portant calendrier de transmission des informations périodiques des SGO." },
+    { "q": "Quand une SGO transmet-elle le reporting hebdomadaire de ses fonds ?", "r": "Tous les vendredis, selon le modèle COSUMAF." }
+  ]
+}

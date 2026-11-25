@@ -1,0 +1,220 @@
+{
+  "id": "r01-22",
+  "ordre": 1,
+  "type": "reglement",
+  "numero": "01/22",
+  "titre": "Organisation et fonctionnement du marché financier de l'Afrique centrale",
+  "theme": "cadre",
+  "date_texte": "21 juillet 2022",
+  "date_adoption": "2022-07-21",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [
+    "r06-03"
+  ],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [
+    {
+      "texte": "r03-26",
+      "articles": "art. 88 à 91"
+    }
+  ],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le texte fondateur du marché unifié : missions et pouvoirs de la COSUMAF, appel public à l'épargne, placement privé, offres publiques, organismes centraux, intermédiaires, OPC, autres structures et sanctions. Il abroge le Règlement 06/03 du 12 novembre 2003.",
+    "essentiel": "La COSUMAF (Institution spécialisée de l'UMAC, indépendante) protège l'épargne, informe les investisseurs et veille au bon fonctionnement du marché. Elle a 2 organes : le **Collège** (1 Président + 11 membres, quorum 9) et la **Commission des sanctions** (5 membres). Quatre institutions font tourner le marché : BVMAC, Dépositaire Central, Banque de règlement (BEAC), Chambre de compensation. Pas d'APE sous **50 millions FCFA sur 12 mois** ; visa → placement dans les **90 jours** ; prescription **10 ans**.",
+    "retenir": [
+      "Le marché financier régional comprend un **marché au comptant** (valeurs mobilières et autres titres) et un **marché à terme** (contrats financiers). Art. 2",
+      "**4 institutions** organisent le marché : la **BVMAC** (bourse régionale), le **Dépositaire Central**, la **Banque de règlement** (mission confiée à la **BEAC**) et la **Chambre de compensation**. Art. 4",
+      "Missions de la COSUMAF (art. 10) : **protection de l'épargne**, **information des investisseurs**, **bon fonctionnement du marché**, en tenant compte de la stabilité financière de la CEMAC.",
+      "La COSUMAF est une **Institution spécialisée de l'UMAC**, dotée de la personnalité juridique et de l'autonomie financière (art. 9) ; c'est une **autorité indépendante** (art. 11).",
+      "**9 pouvoirs** (art. 20) : réglementaire ; approbation ; agrément et enregistrement ; habilitation ; injonction ; contrôle et enquête ; médiation ; pénalités ; sanction.",
+      "Dans les organismes de marché et intermédiaires en SA à conseil d'administration, **PCA et DG sont obligatoirement séparés** ; PCA et DG sont incompatibles avec les fonctions de contrôle interne. Art. 1",
+      "Le **Président de la COSUMAF** : nommé par la **Conférence des Chefs d'État** pour **5 ans non renouvelable** ; le **Secrétaire Général** aussi (5 ans non renouvelable, Conférence des Chefs d'État). Les **11 autres membres** du Collège : **3 ans renouvelable une fois**, nommés par le **Comité Ministériel de l'UMAC**.",
+      "Le Collège se réunit **au moins une fois par trimestre** ; convocation par le Président ou **au moins 4 membres** ; **quorum : 9 membres** ; majorité simple, **voix du Président prépondérante** ; consultation écrite en cas d'urgence.",
+      "Les recours contre les décisions de la COSUMAF vont devant la **Cour de Justice de la CEMAC** ; ils **ne sont pas suspensifs** (la Cour peut ordonner un sursis).",
+      "Ne constitue **pas** un APE : l'offre de **moins de 50 millions FCFA sur 12 mois**, ou l'offre réservée à des **investisseurs qualifiés** agissant pour compte propre. Art. 77",
+      "Visa délivré si l'information est **complète, cohérente et compréhensible** ; valable dans **tous les États** ; diffusion et placement dans les **90 jours** du visa. Art. 83",
+      "Franchissement de seuil : déclaration **sans délai** dès **5 %** ; aux seuils **10, 15, 20, 25 et 30 %**, l'actionnaire précise en plus ses **objectifs pour les 6 mois** suivants ; vaut aussi à la baisse. Art. 99",
+      "Offre publique de retrait : majoritaires détenant **au moins 95 %** ; retrait obligatoire si les titres non présentés ne dépassent **pas 5 %**. Art. 96",
+      "Monopoles : **sociétés de bourse** = négociation pour compte propre, exécution d'ordres, **arrangement** d'APE et de placement privé ; **tenue de compte** = établissements de crédit et sociétés de bourse ; **gestion sous mandat** = SGO et sociétés de bourse.",
+      "Une société de gestion d'OPC ne gère qu'**un seul type d'OPC** parmi **5** : OPCVM, titrisation, OPCI, capital investissement, OPI. Elle est obligatoirement **SA avec conseil d'administration**, siège en CEMAC, et ne peut **jamais emprunter** pour l'OPC.",
+      "Actifs d'OPC hors CEMAC : **15 % maximum** (autorisation préalable) ; OPC étrangers commercialisés par une SGO : **1/5 maximum** des actifs gérés.",
+      "Prescription : pas de poursuite de faits de **plus de 10 ans** sans acte d'enquête ; pour une infraction **occulte ou dissimulée**, le délai court du jour où elle est apparue. Art. 256",
+      "Sanction pécuniaire **exécutoire par provision** ; pour faire recours, il faut d'abord consigner **50 %** de la sanction sur un compte séquestre. Art. 258"
+    ],
+    "listes": [
+      {
+        "titre": "Composition du Collège (12 membres)",
+        "a": "art. 40",
+        "items": [
+          "1 Président nommé par la Conférence des Chefs d'État",
+          "6 représentants des États membres",
+          "1 représentant de la BEAC",
+          "1 juriste (proposé par le Président de la COSUMAF)",
+          "1 représentant de la Commission de la CEMAC",
+          "1 représentant de la COBAC",
+          "1 expert-comptable (proposé par le Président de la COSUMAF)",
+          "Chaque membre nommé a un suppléant"
+        ]
+      },
+      {
+        "titre": "Composition de la Commission des sanctions (5 membres)",
+        "a": "art. 61",
+        "items": [
+          "1 juriste, Président de la Commission",
+          "1 membre proposé par le Premier Président de la Cour des Comptes de la CEMAC",
+          "3 membres proposés par les organisations des émetteurs, des investisseurs et des structures agréées"
+        ]
+      },
+      {
+        "titre": "Les sanctions disciplinaires",
+        "a": "art. 33",
+        "items": [
+          "Avertissement",
+          "Blâme",
+          "Suspension de tout ou partie des fonctions ou activités",
+          "Révocation des dirigeants et administrateurs",
+          "Retrait d'agrément (entraîne la liquidation)"
+        ]
+      },
+      {
+        "titre": "Les 6 intermédiaires de marché",
+        "a": "art. 145",
+        "items": [
+          "Sociétés de bourse",
+          "Établissements de crédit",
+          "Sociétés de gestion",
+          "Conseillers en investissements financiers",
+          "Conseillers en financement participatif",
+          "Prestataires de services sur actifs numériques"
+        ]
+      },
+      {
+        "titre": "Les 13 services financiers",
+        "a": "art. 146",
+        "items": [
+          "Réception et transmission d'ordres (RTO)",
+          "Exécution d'ordres pour compte de tiers",
+          "Négociation pour compte propre",
+          "Gestion individuelle sous mandat",
+          "Gestion collective",
+          "Conseil en investissements financiers",
+          "Placement d'instruments financiers",
+          "Conseil en financement participatif",
+          "Listing sponsor",
+          "Démarchage financier",
+          "Tenue de compte d'instruments financiers",
+          "Arrangement d'APE et de placement privé",
+          "Services sur actifs numériques"
+        ]
+      },
+      {
+        "titre": "Les FIA",
+        "a": "art. 190",
+        "items": [
+          "Organismes de titrisation",
+          "OPCI",
+          "Organismes de capital investissement",
+          "OPI (organismes professionnels d'investissement à long terme)"
+        ]
+      },
+      {
+        "titre": "Cas de retrait d'agrément d'un intermédiaire",
+        "a": "art. 168",
+        "items": [
+          "Agrément non utilisé dans les 12 mois",
+          "Renonciation expresse",
+          "Aucune activité pendant 6 mois",
+          "Agrément obtenu par fausses déclarations",
+          "Conditions d'agrément plus remplies",
+          "Infraction à la réglementation"
+        ]
+      },
+      {
+        "titre": "Cas de retrait du visa APE",
+        "a": "art. 86",
+        "items": [
+          "Le document ne correspond plus à la situation réelle",
+          "Informations fausses, trompeuses ou omissions",
+          "Document diffusé non conforme au document visé",
+          "Aucune diligence de placement à l'issue de la souscription",
+          "Placement poursuivi au-delà de la période sans prorogation"
+        ]
+      },
+      {
+        "titre": "Conseil d'administration de la BVMAC : présences obligatoires",
+        "a": "art. 104",
+        "items": [
+          "1 représentant des intermédiaires de marché",
+          "1 représentant des émetteurs",
+          "1 représentant des investisseurs",
+          "1 administrateur indépendant"
+        ]
+      },
+      {
+        "titre": "Conseil d'administration du Dépositaire Central : présences obligatoires",
+        "a": "art. 126",
+        "items": [
+          "1 représentant de la BVMAC",
+          "1 représentant des adhérents",
+          "1 représentant des émetteurs",
+          "1 représentant des investisseurs",
+          "1 représentant de la BEAC"
+        ]
+      }
+    ],
+    "pieges": [
+      "Placement privé : ce règlement (2022) prévoit **20 milliards / 40 investisseurs / 50 millions de nominal**. Le **Règlement n° 03** (2026) a changé ces règles : ne pas mélanger.",
+      "Prescription : **10 ans** ici (art. 256). Ne pas confondre avec la conservation des documents, **5 ans au moins** (art. 285).",
+      "Président de la COSUMAF et Secrétaire Général : **5 ans NON renouvelable** ; membres du Collège et de la Commission des sanctions : **3 ans renouvelable une fois**.",
+      "Le Président de la COSUMAF est nommé par la **Conférence des Chefs d'État** ; les autres membres du Collège par le **Comité Ministériel de l'UMAC**.",
+      "Le recours devant la Cour de Justice de la CEMAC n'est **pas suspensif**, et il faut consigner **50 %** de la sanction pécuniaire avant de l'introduire.",
+      "Le plancher de sanction le plus élevé est **25 millions** (APE sans visa) ; la plupart des autres sont à **10 millions** ou **5 millions**."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les trois missions de la COSUMAF ?",
+        "r": "Protéger l'épargne investie en instruments financiers, veiller à l'information des investisseurs et au bon fonctionnement du marché financier régional (art. 10)."
+      },
+      {
+        "q": "Quels sont les deux organes de la COSUMAF ?",
+        "r": "Le Collège et la Commission des sanctions (art. 39)."
+      },
+      {
+        "q": "Quelles institutions assurent le fonctionnement du marché financier régional ?",
+        "r": "La BVMAC, le Dépositaire Central, la Banque de règlement (BEAC) et la Chambre de compensation (art. 4)."
+      },
+      {
+        "q": "Quelles offres ne constituent pas un appel public à l'épargne ?",
+        "r": "Celles de moins de 50 millions FCFA sur 12 mois et celles adressées uniquement à des investisseurs qualifiés agissant pour compte propre (art. 77)."
+      },
+      {
+        "q": "Qui peut désigner un administrateur provisoire de la BVMAC ou du Dépositaire Central, et quand ?",
+        "r": "La COSUMAF, si l'organisation ne garantit plus le bon fonctionnement du marché ou si la situation financière se dégrade fortement ; ou à la demande du conseil d'administration (art. 106, 129)."
+      },
+      {
+        "q": "Quelles conditions la COSUMAF peut-elle opposer pour refuser une coopération à une autorité étrangère ?",
+        "r": "Absence de réciprocité, secret professionnel moins exigeant, atteinte à la souveraineté ou à l'ordre public, procédure pénale pendante, décision définitive déjà rendue (art. 16)."
+      },
+      {
+        "q": "Quels droits a une personne mise en cause dans une procédure de sanction ?",
+        "r": "Faire des observations sur les griefs, obtenir copie du dossier, être convoquée et entendue, être assistée ou représentée par un conseil de son choix (art. 254)."
+      }
+    ]
+  },
+  "organisme": "cemac",
+  "couverture": "partielle"
+}

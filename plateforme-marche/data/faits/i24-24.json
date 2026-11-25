@@ -1,0 +1,193 @@
+[
+  {
+    "id": "i24-24.delai.01",
+    "texte": "i24-24",
+    "type": "delai",
+    "article": "annexe 1, I",
+    "enonce": "Envoi des documents annuels d'un OPCVM sur demande écrite du porteur",
+    "valeur_texte": "8 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.montant.01",
+    "texte": "i24-24",
+    "type": "montant",
+    "article": "annexe 1, III",
+    "enonce": "Part minimale des actifs d'un OPCVM nourricier investie dans l'OPCVM maître",
+    "valeur_texte": "85 % ou plus",
+    "type_valeur": "nombre",
+    "valeur": 85,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.role.01",
+    "texte": "i24-24",
+    "type": "role",
+    "article": "art. 3",
+    "enonce": "Société de gestion d'OPCVM",
+    "valeur_texte": "Établit le document d'information selon le plan type et présente l'ensemble des frais.",
+    "acteurs": [
+      "societe-de-gestion-d-opcvm"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.role.02",
+    "texte": "i24-24",
+    "type": "role",
+    "article": "annexe 1, II",
+    "enonce": "Dépositaire d'OPCVM",
+    "valeur_texte": "Présenté dans le document avec ses missions et ses conflits d'intérêts potentiels ; règle les parts rachetées.",
+    "acteurs": [
+      "depositaire-d-opcvm"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.role.03",
+    "texte": "i24-24",
+    "type": "role",
+    "article": "annexe 1",
+    "enonce": "Centralisateur",
+    "valeur_texte": "Reçoit et centralise les ordres de souscription et de rachat avant leur exécution sur la valeur liquidative.",
+    "acteurs": [
+      "centralisateur"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.definition.01",
+    "texte": "i24-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Compartiment",
+    "valeur_texte": "Technique qui juxtapose, dans un même OPCVM et sous une même dénomination, plusieurs portefeuilles aux actifs juridiquement séparés.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.definition.02",
+    "texte": "i24-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Catégorie de parts",
+    "valeur_texte": "Parts d'un même OPCVM donnant des droits différents (revenus, fiscalité, minimum, frais, couverture de change) à des sous-ensembles d'investisseurs.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.definition.03",
+    "texte": "i24-24",
+    "type": "definition",
+    "article": "annexe 1",
+    "enonce": "OPCVM nourricier",
+    "valeur_texte": "OPCVM qui investit en permanence au moins 85 % de ses actifs dans les parts d'un OPCVM maître.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.definition.04",
+    "texte": "i24-24",
+    "type": "definition",
+    "article": "annexe 1",
+    "enonce": "Gates (plafonnement des rachats)",
+    "valeur_texte": "Mécanisme qui étale les rachats au-delà d'un seuil, appliqué aux rachats centralisés à une même date sur l'ensemble de l'actif.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.liste.01",
+    "texte": "i24-24",
+    "type": "liste",
+    "article": "annexe 1",
+    "enonce": "Rubriques du document d'information d'un OPCVM",
+    "valeur_texte": "I. Caractéristiques générales ; II. Acteurs ; III. Modalités de fonctionnement et de gestion ; IV. Frais et commissions",
+    "items": [
+      "I. Caractéristiques générales",
+      "II. Acteurs",
+      "III. Modalités de fonctionnement et de gestion",
+      "IV. Frais et commissions"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.piege.01",
+    "texte": "i24-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Nourricier : 85 % dans le maître, pour les OPCVM (Instruction 24-24) comme pour les OPCI (",
+    "valeur_texte": "Nourricier : **85 %** dans le maître, pour les OPCVM (Instruction 24-24) comme pour les OPCI (Instruction 19-24).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i24-24.piege.02",
+    "texte": "i24-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les « gates » s'appliquent à tout l'actif, pas catégorie de parts par catégorie.",
+    "valeur_texte": "Les « gates » s'appliquent à **tout l'actif**, pas catégorie de parts par catégorie.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

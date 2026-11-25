@@ -1,0 +1,65 @@
+{
+  "id": "i17-24",
+  "ordre": 26,
+  "type": "instruction",
+  "numero": "17-24",
+  "titre": "Agrément des experts en évaluation des OPCI",
+  "theme": "agrement",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Conditions et procédure d'agrément des experts en évaluation immobilière assermentés qui évaluent les actifs des OPCI (art. 444 du Règlement général).",
+    "essentiel": "Expert = **personne morale agréée auprès d'une juridiction** d'un État de la CEMAC, avec **au moins 1 expert assermenté** parmi ses associés et un **dirigeant expert assermenté**. La COSUMAF vérifie **compétence, indépendance**, absence d'**interdiction**, et peut convoquer à un **entretien**. Dossier en **3 exemplaires + électronique** ; accusé en **10 jours** ; instruction en **60 jours ouvrés** ; dossier incomplet renvoyé après **30 jours**. Liens avec les actionnaires de **5 %** déclarés.",
+    "retenir": [
+      "Instruction prise en application de l'**art. 444 du Règlement général**. Art. 1",
+      "Les experts en évaluation immobilière assermentés sont des **personnes morales agréées auprès d'une juridiction** d'un État membre de la CEMAC. Art. 2",
+      "La société d'expertise compte **au moins un expert assermenté** parmi ses associés ; son **dirigeant** doit être un expert assermenté. Art. 2",
+      "La COSUMAF vérifie : **compétences** adaptées à la taille et à la nature des actifs, **indépendance** vis-à-vis des SGO et des OPCI, absence d'**interdictions et incompatibilités**. Elle peut convoquer les experts à un **entretien**. Art. 3",
+      "Dossier déposé **physiquement en 3 exemplaires** au siège et **par voie électronique**. Accusé de réception dans les **10 jours**, avec la date d'expiration du délai d'instruction. Art. 5",
+      "Instruction en **60 jours ouvrés** à compter du dossier complet, **suspendue** par les demandes de compléments ; décision par **lettre recommandée**, refus **motivé** ; dossier incomplet renvoyé **30 jours** après la notification. Art. 6",
+      "Personne morale : RCCM, statuts, états certifiés des **3 derniers exercices** (avec le chiffre d'affaires réalisé avec les SGO et OPC), opérations d'évaluation des **3 dernières années**, déclarations d'indépendance, attestations fiscale, sociale et de non-faillite, **RC professionnelle**. Annexe I",
+      "Évaluateur personne physique : pièce d'identité, **casier judiciaire de moins de 3 mois** (pays de nationalité et de résidence), **2 photos**, CV en français, opérations des **3 dernières années**, déclarations sur l'honneur. Annexe II",
+      "Déclaration des **liens** (sociaux, financiers, d'affaires) avec la SGO ou l'OPCI contrôlé, et des liens de parenté avec les dirigeants ou actionnaires détenant **au moins 5 %** du capital. Annexes"
+    ],
+    "listes": [
+      {
+        "titre": "Points vérifiés par la COSUMAF",
+        "a": "art. 3",
+        "items": [
+          "Compétences adaptées à la taille et à la nature des actifs",
+          "Indépendance vis-à-vis des SGO et OPCI",
+          "Absence d'interdiction et d'incompatibilité"
+        ]
+      }
+    ],
+    "pieges": [
+      "Accusé de réception : **10 jours** (calendaires) ici, alors que l'instruction se compte en **60 jours ouvrés**."
+    ],
+    "qr": [
+      {
+        "q": "Quelles conditions doit remplir une société d'expertise immobilière pour évaluer des OPCI ?",
+        "r": "Être une personne morale agréée auprès d'une juridiction d'un État CEMAC, compter au moins un expert assermenté parmi ses associés, être dirigée par un expert assermenté, être compétente, indépendante et sans incompatibilité."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

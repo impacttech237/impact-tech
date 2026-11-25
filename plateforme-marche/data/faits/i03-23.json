@@ -1,0 +1,198 @@
+[
+  {
+    "id": "i03-23.delai.01",
+    "texte": "i03-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Accusé de réception d'une demande d'agrément d'agence de notation",
+    "valeur_texte": "10 jours ouvrables",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrables",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.delai.02",
+    "texte": "i03-23",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Décision sur l'agrément d'une agence de notation",
+    "valeur_texte": "60 jours",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Délai interrompu par une demande d'informations complémentaires.",
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.delai.03",
+    "texte": "i03-23",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Notification tardive (motivée) d'un changement de dirigeants d'agence de notation",
+    "valeur_texte": "5 jours ouvrables après la modification",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours ouvrables",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.delai.04",
+    "texte": "i03-23",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Absence de notation entraînant le retrait possible de l'agrément d'une agence",
+    "valeur_texte": "12 derniers mois",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.role.01",
+    "texte": "i03-23",
+    "type": "role",
+    "article": "art. 2, 5",
+    "enonce": "Agence de notation",
+    "valeur_texte": "Personne morale établie en CEMAC qui apprécie le risque de solvabilité d'un émetteur ou d'une opération ; demande l'agrément et notifie ses changements de dirigeants.",
+    "acteurs": [
+      "agence-de-notation"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.role.02",
+    "texte": "i03-23",
+    "type": "role",
+    "article": "art. 3",
+    "enonce": "Agence mandatée (groupe)",
+    "valeur_texte": "Dépose toutes les demandes au nom du groupe et fournit les informations de l'annexe I pour chaque membre.",
+    "acteurs": [
+      "agence-mandatee-groupe"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.role.03",
+    "texte": "i03-23",
+    "type": "role",
+    "article": "art. 3-7",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Accuse réception, demande les compléments, décide en 60 jours et peut retirer l'agrément.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.liste.01",
+    "texte": "i03-23",
+    "type": "liste",
+    "article": "art. 7",
+    "enonce": "Cas de retrait de l'agrément d'une agence de notation",
+    "valeur_texte": "Renonciation expresse ou aucune notation depuis 12 mois ; Agrément obtenu par fausses déclarations ou moyen irrégulier ; Conditions d'agrément plus remplies ; Infraction grave ou répétée à l'instruction",
+    "items": [
+      "Renonciation expresse ou aucune notation depuis 12 mois",
+      "Agrément obtenu par fausses déclarations ou moyen irrégulier",
+      "Conditions d'agrément plus remplies",
+      "Infraction grave ou répétée à l'instruction"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.liste.02",
+    "texte": "i03-23",
+    "type": "liste",
+    "article": "annexe II",
+    "enonce": "Principales informations de la demande (annexe II)",
+    "valeur_texte": "Nom, siège en CEMAC, contact et responsable de la conformité ; Statut juridique et classe de notations visée ; Actionnariat, organisation et gouvernance ; Ressources financières et effectifs ; Méthodes et procédures de notation ; Politique de conflits d'intérêts ; Analystes, rémunération, évaluation des performances ; Autres services, programme d'activités, succursales ; Système d'aval et externalisation",
+    "items": [
+      "Nom, siège en CEMAC, contact et responsable de la conformité",
+      "Statut juridique et classe de notations visée",
+      "Actionnariat, organisation et gouvernance",
+      "Ressources financières et effectifs",
+      "Méthodes et procédures de notation",
+      "Politique de conflits d'intérêts",
+      "Analystes, rémunération, évaluation des performances",
+      "Autres services, programme d'activités, succursales",
+      "Système d'aval et externalisation"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.piege.01",
+    "texte": "i03-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Règlement 01/22 (art. 242) : l'agence informe la COSUMAF d'une modification de son agrémen",
+    "valeur_texte": "Règlement 01/22 (art. 242) : l'agence informe la COSUMAF d'une modification de son agrément **au plus tard 5 jours ouvrés** ; l'Instruction 03-23 reprend **5 jours ouvrables** pour une notification de dirigeants qui n'a pas pu être faite à l'avance.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i03-23.piege.02",
+    "texte": "i03-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Retrait pour inactivité : 12 mois sans notation (agence) ; pour un intermédiaire de marché",
+    "valeur_texte": "Retrait pour inactivité : **12 mois sans notation** (agence) ; pour un intermédiaire de marché, c'est **6 mois sans activité** ou **12 mois** sans usage de l'agrément.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

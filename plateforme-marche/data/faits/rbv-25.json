@@ -1,0 +1,1188 @@
+[
+  {
+    "id": "rbv-25.delai.01",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 237",
+    "enonce": "Entrée en vigueur du Règlement général de la BVMAC",
+    "valeur_texte": "30 jours à compter de l'approbation de la COSUMAF",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.02",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 65",
+    "enonce": "Délai de la BVMAC pour statuer sur un dossier d'admission complet",
+    "valeur_texte": "10 jours de bourse",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Le délai est suspendu quand la BVMAC demande un complément d'information.",
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.03",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 23",
+    "enonce": "Délai sans commencer l'activité de négociation avant demande de révocation de l'agrément",
+    "valeur_texte": "12 mois à compter de la notification de l'agrément",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.04",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 23",
+    "enonce": "Période sans activité de négociation avant demande de révocation de l'agrément",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.05",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 43",
+    "enonce": "Préavis de renonciation à la qualité de membre",
+    "valeur_texte": "au moins 30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "min",
+    "note": "Par lettre recommandée, copie à la COSUMAF.",
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.06",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 85",
+    "enonce": "Dernier exercice clos depuis plus de X mois : publication des comptes du 1er semestre",
+    "valeur_texte": "plus de 8 mois",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "mois",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.07",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 106, 110",
+    "enonce": "Avis de première cotation publié avant la date de cotation directe",
+    "valeur_texte": "au moins 5 jours de bourse",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.08",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 103",
+    "enonce": "Publication du prix final modifié avant la clôture des souscriptions",
+    "valeur_texte": "au moins 3 jours de bourse avant",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "jours",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.09",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 145",
+    "enonce": "Dossier d'une OST transmis à la BVMAC et au Dépositaire Central avant sa mise en œuvre",
+    "valeur_texte": "au plus tard 10 jours de bourse avant",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.10",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 145",
+    "enonce": "Avis de la BVMAC avant la date d'effet d'une OST",
+    "valeur_texte": "au moins 5 jours de bourse avant",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.11",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 145",
+    "enonce": "Détachement d'un droit de souscription ou d'attribution avant le début de la période",
+    "valeur_texte": "3 jours de bourse avant",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.12",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 146",
+    "enonce": "Information de la BVMAC avant le démarrage d'un programme de rachat d'actions",
+    "valeur_texte": "au moins 5 jours de bourse avant",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.13",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 149",
+    "enonce": "Confirmation écrite d'un ordre donné par téléphone",
+    "valeur_texte": "7 jours",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Délai lu dans le texte scanné (« sept (7) jours »).",
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.14",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 162",
+    "enonce": "Durée de validité maximale d'un ordre à durée déterminée",
+    "valeur_texte": "30 jours suivant son inscription dans le carnet d'ordres",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.15",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 155",
+    "enonce": "Publication d'une nouvelle mention obligatoire d'un ordre avant son entrée en vigueur",
+    "valeur_texte": "10 jours de bourse",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.16",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 138",
+    "enonce": "Calendrier des jours non ouvrés de l'année suivante",
+    "valeur_texte": "publié avant la fin de chaque année",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.17",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 176",
+    "enonce": "Transmission de l'avis d'opération au donneur d'ordre",
+    "valeur_texte": "avant la séance de cotation suivant la date de règlement-livraison",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.18",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 180",
+    "enonce": "Déclaration de franchissement du seuil de 5 %",
+    "valeur_texte": "sans délai",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.19",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 202",
+    "enonce": "Délai de la COSUMAF pour se prononcer sur le projet d'OPV",
+    "valeur_texte": "5 jours de bourse suivant le dépôt",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.delai.20",
+    "texte": "rbv-25",
+    "type": "delai",
+    "article": "art. 204",
+    "enonce": "Reprise de cotation après l'avis d'ouverture ou d'irrecevabilité de l'OPV",
+    "valeur_texte": "2 jours de bourse",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.01",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 74",
+    "enonce": "Capital social minimum, Compartiment A Premium",
+    "valeur_texte": "100 000 000 FCFA entièrement libéré",
+    "type_valeur": "nombre",
+    "valeur": 100000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.02",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 74",
+    "enonce": "Capitalisation boursière minimale à l'introduction, Compartiment A",
+    "valeur_texte": "10 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.03",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 74",
+    "enonce": "Titres à diffuser à l'introduction, Compartiment A",
+    "valeur_texte": "2 000 000 titres au minimum, entre au moins 200 actionnaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.04",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 74",
+    "enonce": "Montant minimal diffusé, Compartiment A, si la capitalisation dépasse 100 milliards",
+    "valeur_texte": "15 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 15000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.05",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 77",
+    "enonce": "Capital social minimum, Compartiment B Medium",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Chiffres issus du scan, à relire contre le PDF.",
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.06",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 77",
+    "enonce": "Capitalisation minimale, Compartiment B Medium",
+    "valeur_texte": "5 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.07",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 77",
+    "enonce": "Titres à diffuser, Compartiment B Medium",
+    "valeur_texte": "500 000 titres au minimum, entre au moins 100 actionnaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.08",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 200",
+    "enonce": "Offre publique de vente : quantité minimale de titres",
+    "valeur_texte": "10 % des titres de capital de même nature, ou 100 000 titres si plus de 5 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.09",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 205",
+    "enonce": "Placement garanti parallèle à une OPV : seuils",
+    "valeur_texte": "20 % du capital ou 500 millions FCFA",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.10",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 226",
+    "enonce": "Transaction de bloc : taille minimale",
+    "valeur_texte": "10 000 actions ou 100 000 obligations",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.11",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 222",
+    "enonce": "Acheté-vendu : montant minimal, cours de 1 à 1 000 FCFA",
+    "valeur_texte": "500 millions FCFA",
+    "type_valeur": "nombre",
+    "valeur": 500000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.12",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 222",
+    "enonce": "Acheté-vendu : montant minimal, cours de 1 005 à 20 000 FCFA",
+    "valeur_texte": "1 milliard FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.13",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 222",
+    "enonce": "Acheté-vendu : montant minimal, cours de 20 005 à 50 000 FCFA",
+    "valeur_texte": "3 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 3000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.14",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 222",
+    "enonce": "Acheté-vendu : montant minimal, cours de 50 005 à 100 000 FCFA",
+    "valeur_texte": "4 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 4000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.15",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 222",
+    "enonce": "Acheté-vendu : montant minimal, cours supérieur à 100 000 FCFA",
+    "valeur_texte": "5 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.montant.16",
+    "texte": "rbv-25",
+    "type": "montant",
+    "article": "art. 180",
+    "enonce": "Premier seuil de franchissement à déclarer",
+    "valeur_texte": "5 % du capital ou des droits de vote",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": "Puis 10, 15, 20, 25 et 30 %.",
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.01",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 7, 10, 37, 66",
+    "enonce": "BVMAC (entreprise de marché)",
+    "valeur_texte": "Organise, anime et gère le marché financier régional ; décide l'admission, publie le BOC, contrôle les sociétés de bourse, suspend la cotation, tient les cours et statistiques.",
+    "acteurs": [
+      "bvmac-entreprise-de-marche"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.02",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 1, 3, 19, 202",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Approuve le Règlement général et ses modifications, agrée les sociétés de bourse, reçoit copie des décisions d'admission et de refus, se prononce sur la recevabilité d'une OPV, autorise le passage en cotation continue.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.03",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 66",
+    "enonce": "Comité d'Admission",
+    "valeur_texte": "Décide l'admission des valeurs à la Cote Permanente avec les prérogatives du Conseil d'administration de la BVMAC.",
+    "acteurs": [
+      "comite-d-admission"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.04",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 24, 149, 207",
+    "enonce": "Société de bourse",
+    "valeur_texte": "Seule habilitée à négocier à la BVMAC (monopole), reçoit les ordres, en est responsable une fois présentés au marché, peut contrepartir.",
+    "acteurs": [
+      "societe-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.05",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 21, 37, 230",
+    "enonce": "Dépositaire Central",
+    "valeur_texte": "Reçoit les données de négociation pour la livraison des titres et le paiement ; attribue le numéro d'identification unique ; informe la BVMAC d'un défaut de dénouement.",
+    "acteurs": [
+      "depositaire-central"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.06",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 41-42",
+    "enonce": "Association Professionnelle des Sociétés de Bourse",
+    "valeur_texte": "Veille au respect des obligations professionnelles, informe la COSUMAF des manquements, représente et défend les membres, assure la médiation.",
+    "acteurs": [
+      "association-professionnelle-des-societes-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.07",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 139-140",
+    "enonce": "Société de bourse spécialiste",
+    "valeur_texte": "Désignée par la BVMAC pour une valeur ; améliore la liquidité et régularise le marché par des prises de position propres.",
+    "acteurs": [
+      "societe-de-bourse-specialiste"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.role.08",
+    "texte": "rbv-25",
+    "type": "role",
+    "article": "art. 201",
+    "enonce": "Société de bourse chef de file",
+    "valeur_texte": "Dépose le projet d'OPV à la COSUMAF et garantit le caractère irrévocable des engagements de l'initiateur.",
+    "acteurs": [
+      "societe-de-bourse-chef-de-file"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.01",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 50-51",
+    "enonce": "Cote Permanente",
+    "valeur_texte": "Marché officiel de la BVMAC, organisé en cinq compartiments (A Premium, B Medium, E PME, D OPC, C Obligataire).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.02",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 50, 55-59",
+    "enonce": "Marché Hors-Cote",
+    "valeur_texte": "Marché de gré à gré dédié aux instruments financiers non cotés ; échanges par carnet d'ordres central ou par confrontation bilatérale.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.03",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 14",
+    "enonce": "Fixing",
+    "valeur_texte": "Cotation par confrontation de tous les ordres introduits par les sociétés de bourse, avec détermination d'un cours unique.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.04",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 14",
+    "enonce": "Cotation en continu",
+    "valeur_texte": "Mode de cotation où chaque ordre est confronté aux ordres du carnet au fur et à mesure, ce qui donne un cours instantané.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.05",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 10",
+    "enonce": "Bulletin Officiel de la Cote (BOC)",
+    "valeur_texte": "Bulletin quotidien publié par la BVMAC, qui porte les avis, cours et informations de marché.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.06",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 128",
+    "enonce": "Comptant",
+    "valeur_texte": "Mode de règlement où l'acheteur doit les capitaux et le vendeur les titres dès la passation de l'ordre.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.07",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 148",
+    "enonce": "Ordre de bourse",
+    "valeur_texte": "Instruction d'achat ou de vente d'un instrument financier, donnée par un client à une société de bourse ou initiée par celle-ci (mandat, contrepartie, tenue de marché).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.08",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 159",
+    "enonce": "Ordre au marché",
+    "valeur_texte": "Ordre sans indication de prix, exécuté aux différents prix du carnet jusqu'à épuisement de sa quantité ; prioritaire sur l'ordre à prix limité.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.09",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 171",
+    "enonce": "Cours de référence",
+    "valeur_texte": "Cours de clôture de la séance précédente, ajusté en cas d'OST ou d'offre publique.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.10",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 221",
+    "enonce": "Acheté-vendu",
+    "valeur_texte": "Négociation où une société de bourse sert d'intermédiaire entre deux de ses donneurs d'ordres sans présenter d'ordre sur le marché, au-delà d'un montant minimal.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.11",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 224-226",
+    "enonce": "Transaction de bloc",
+    "valeur_texte": "Transaction par entente directe entre société de bourse acheteuse et vendeuse, hors du carnet central, d'au moins 10 000 actions ou 100 000 obligations.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.definition.12",
+    "texte": "rbv-25",
+    "type": "definition",
+    "article": "art. 4",
+    "enonce": "Instruction, Avis, Circulaire (BVMAC)",
+    "valeur_texte": "Instruction : modalités d'application des dispositions générales ; Avis : conditions d'une opération précise ; Circulaire : décision visant un groupe d'acteurs.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.liste.01",
+    "texte": "rbv-25",
+    "type": "liste",
+    "article": "art. 51",
+    "enonce": "Les cinq compartiments de la Cote Permanente",
+    "valeur_texte": "A Premium (grandes sociétés) ; B Medium ; E PME ; D OPC ; C Obligataire",
+    "items": [
+      "A Premium (grandes sociétés)",
+      "B Medium",
+      "E PME",
+      "D OPC",
+      "C Obligataire"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.liste.02",
+    "texte": "rbv-25",
+    "type": "liste",
+    "article": "art. 99",
+    "enonce": "Les quatre procédures de première cotation",
+    "valeur_texte": "Offre à Prix Ferme (OPF) ; Offre à Prix Minimal (OPM) ; Offre à Prix Ouvert (OPO) ; Cotation directe",
+    "items": [
+      "Offre à Prix Ferme (OPF)",
+      "Offre à Prix Minimal (OPM)",
+      "Offre à Prix Ouvert (OPO)",
+      "Cotation directe"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.liste.03",
+    "texte": "rbv-25",
+    "type": "liste",
+    "article": "art. 53",
+    "enonce": "Titres admissibles à la négociation",
+    "valeur_texte": "Valeurs mobilières (titres de capital et de créance) ; Obligations du Trésor des États membres ; Parts ou actions d'OPC agréés ; Sukuks ; Tout autre instrument autorisé par la COSUMAF",
+    "items": [
+      "Valeurs mobilières (titres de capital et de créance)",
+      "Obligations du Trésor des États membres",
+      "Parts ou actions d'OPC agréés",
+      "Sukuks",
+      "Tout autre instrument autorisé par la COSUMAF"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.liste.04",
+    "texte": "rbv-25",
+    "type": "liste",
+    "article": "art. 20",
+    "enonce": "Conditions pour acquérir la qualité de membre",
+    "valeur_texte": "Approbation de l'admission par la BVMAC ; Audit satisfaisant du système informatique ; Signature du contrat d'admission et de la convention d'accès aux services",
+    "items": [
+      "Approbation de l'admission par la BVMAC",
+      "Audit satisfaisant du système informatique",
+      "Signature du contrat d'admission et de la convention d'accès aux services"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.liste.05",
+    "texte": "rbv-25",
+    "type": "liste",
+    "article": "art. 4",
+    "enonce": "Instruments de la BVMAC",
+    "valeur_texte": "Instructions ; Avis ; Circulaires",
+    "items": [
+      "Instructions",
+      "Avis",
+      "Circulaires"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.liste.06",
+    "texte": "rbv-25",
+    "type": "liste",
+    "article": "art. 180",
+    "enonce": "Seuils successifs de franchissement à déclarer",
+    "valeur_texte": "5 % ; 10 % ; 15 % ; 20 % ; 25 % ; 30 %",
+    "items": [
+      "5 %",
+      "10 %",
+      "15 %",
+      "20 %",
+      "25 %",
+      "30 %"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.01",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le règlement de 2025 ne contient pas de clause d'abrogation explicite du Règlement général",
+    "valeur_texte": "Le règlement de 2025 **ne contient pas de clause d'abrogation explicite** du Règlement général de 2008 : l'abrogation est **déduite** (la BVMAC ne publie plus que celui de 2025 comme règlement général et la COSUMAF l'a approuvé par la décision 021-2025).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.02",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Validité d'un ordre : 30 jours maximum dans le RG 2025 (art. 162) ; l'ancienne Instruction",
+    "valeur_texte": "Validité d'un ordre : **30 jours maximum** dans le RG 2025 (art. 162) ; l'ancienne Instruction BVMAC n° 2 (2008) parlait de validité jusqu'à **365 jours**. Le RG de 2025 prévaut.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.03",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les commissions de la BVMAC (introduction, capitalisation, courtage, redevance de siège) n",
+    "valeur_texte": "Les **commissions de la BVMAC** (introduction, capitalisation, courtage, redevance de siège) ne sont **pas dans le Règlement général** : elles sont dans l'**Instruction BVMAC n° 3** (2013) et dans la tarification de la COSUMAF.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.04",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Franchissement de seuil : le texte parle d'objectifs sur les 6 prochains mois (art. 180) p",
+    "valeur_texte": "Franchissement de seuil : le texte parle d'**objectifs sur les 6 prochains mois** (art. 180) puis de **12 mois** (art. 181) : citer l'article.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.05",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Compartiment E (PME) : il faut remplir 2 des 3 groupes de conditions, pas toutes.",
+    "valeur_texte": "Compartiment E (PME) : il faut remplir **2 des 3 groupes de conditions**, pas toutes.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.06",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Transaction de bloc : 10 000 actions OU 100 000 obligations, pas un montant en FCFA ; l'ac",
+    "valeur_texte": "Transaction de bloc : **10 000 actions OU 100 000 obligations**, pas un montant en FCFA ; l'acheté-vendu, lui, se mesure en **montant** selon le cours.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.07",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Une transaction sur valeur admise faite hors plateforme est nulle (art. 54).",
+    "valeur_texte": "Une transaction sur valeur admise faite **hors plateforme** est **nulle** (art. 54).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-25.piege.08",
+    "texte": "rbv-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Après validation du système et prise en charge par la BVMAC, un ordre est irrévocable ; av",
+    "valeur_texte": "Après validation du système et prise en charge par la BVMAC, un ordre est **irrévocable** ; avant, la société de bourse peut le modifier ou l'annuler.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

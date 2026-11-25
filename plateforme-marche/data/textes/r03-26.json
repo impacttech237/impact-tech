@@ -1,0 +1,106 @@
+{
+  "id": "r03-26",
+  "ordre": 2,
+  "type": "reglement",
+  "numero": "03 (2026)",
+  "titre": "Le nouveau régime du placement privé (modifie les art. 88 à 91 du Règlement 01/22)",
+  "theme": "pp",
+  "date_texte": "7 octobre 2026, N'Djamena",
+  "date_adoption": "2026-10-07",
+  "lieu": "N'Djamena",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [
+    {
+      "texte": "r01-22",
+      "articles": "art. 88 à 91",
+      "preuve": "modifie les art. 88 à 91 du Règlement 01/22"
+    }
+  ],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Réécrit les articles 88, 89, 90 et 91 du Règlement 01/22 : nouvelle définition du placement privé, liste des investisseurs qualifiés de plein droit et sur demande, enregistrement, cession sur un compartiment dédié de la BVMAC, limite de 2 émissions sur 24 mois.",
+    "essentiel": "Placement privé = offre **sans publicité**, **par syndication**, à **moins de 100 investisseurs qualifiés**, souscription minimale **10 millions FCFA** par investisseur, **sans limite de montant**, avec un intermédiaire agréé. Enregistrement = **contrôle formel** (pas une approbation). Cession seulement entre investisseurs qualifiés, sur un **compartiment dédié de la BVMAC**. Maximum **2 émissions sur 24 mois glissants**. En vigueur le **1er novembre 2026**.",
+    "retenir": [
+      "Le placement privé est une offre de titres financiers **sans publicité**, **par voie de syndication**, auprès d'un public déterminé capable d'apprécier les risques, qui réunit **cumulativement** 4 caractéristiques. Art. 88 nouveau",
+      "Les 4 caractéristiques : investisseurs qualifiés **moins de 100** ; cession **seulement entre investisseurs qualifiés** ; investisseurs agissant **pour compte propre** (sauf sociétés de gestion d'OPC) ; souscription minimale **10 millions FCFA** par investisseur.",
+      "Le placement privé se fait avec **un ou plusieurs intermédiaires de marché agréés** et n'a **aucune limitation de montant**.",
+      "Deux catégories d'investisseurs qualifiés : **de plein droit** (art. 89) et **sur demande**, reconnus par la COSUMAF (art. 89-1).",
+      "Investisseur qualifié sur demande : **personne physique** avec compétences + **patrimoine net d'au moins 50 millions FCFA** ; **personne morale** avec compétences + **capitaux propres d'au moins 250 millions FCFA**.",
+      "La COSUMAF notifie la décision conférant la qualité d'investisseur qualifié et **publie la liste** sur son site.",
+      "L'**enregistrement** est un **contrôle formel de conformité du dossier** : il n'emporte **pas approbation** des conditions économiques et financières, qui relèvent de l'émetteur et des investisseurs. Art. 90 nouveau",
+      "Les titres ne se cèdent qu'entre investisseurs qualifiés (**ayant participé ou non** à l'opération initiale), **obligatoirement sur un compartiment dédié de la BVMAC**. Art. 91-1",
+      "Un émetteur ne peut faire **plus de 2 émissions par placement privé sur 24 mois glissants** ; la COSUMAF tient un **registre des émissions**. Art. 91-2",
+      "Émetteurs hors CEMAC : possible, sous réserve de la réglementation des changes ; procédure **accélérée** pour les États liés par des accords de coopération avec la BEAC ou la COSUMAF. Art. 91",
+      "L'émetteur et les investisseurs peuvent convenir de **conditions différenciées** (modalités fixées par instruction). Art. 91-3",
+      "Transitoire : les placements privés enregistrés **avant** l'entrée en vigueur restent régis par l'ancien texte jusqu'à leur terme."
+    ],
+    "listes": [
+      {
+        "titre": "Investisseurs qualifiés de plein droit",
+        "a": "art. 89 nouveau",
+        "items": [
+          "Établissements de crédit et autres établissements financiers agréés ou réglementés",
+          "Organismes de placement collectif",
+          "Entreprises d'assurance et de réassurance",
+          "Sociétés de groupe d'assurance",
+          "Institutions de prévoyance sociale",
+          "Caisses de retraite et organismes de dépôt et gestion de fonds",
+          "Caisses de dépôts et consignations",
+          "Institutions financières régionales et organismes de financement du développement",
+          "Sociétés de bourse, sociétés de gestion et intermédiaires agréés agissant pour compte propre",
+          "Fonds d'investissement"
+        ]
+      },
+      {
+        "titre": "Ce qui prouve les compétences d'un candidat investisseur qualifié",
+        "a": "art. 89-1",
+        "items": [
+          "Connaissances et expérience en investissement",
+          "Compétences professionnelles, techniques ou financières",
+          "Nature, importance et complexité des opérations envisagées",
+          "Régularité de la constitution et agrément éventuel",
+          "Organisation générale et qualité de la gouvernance",
+          "Procédures de gestion et de contrôle des risques",
+          "Ressources humaines, techniques et financières",
+          "Situation financière (états financiers)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Ancien régime (art. 88 de 2022) : **20 milliards max, 40 investisseurs max, nominal de 50 millions**. Nouveau : **moins de 100 investisseurs, 10 millions de souscription minimale, aucun plafond**.",
+      "**50 millions** = patrimoine net d'une **personne physique** ; **250 millions** = capitaux propres d'une **personne morale** (investisseur qualifié sur demande).",
+      "L'enregistrement **n'est pas un visa** : la COSUMAF ne valide pas les conditions économiques de l'opération.",
+      "Les mutuelles et unions de mutuelles figuraient dans l'ancienne liste ; la nouvelle liste ajoute les **caisses de dépôts** et les **institutions financières régionales**."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les caractéristiques cumulatives d'un placement privé depuis 2026 ?",
+        "r": "Offre sans publicité, par syndication, à moins de 100 investisseurs qualifiés, titres cessibles seulement entre investisseurs qualifiés, achat pour compte propre (sauf SGO), souscription minimale de 10 millions FCFA par investisseur."
+      },
+      {
+        "q": "Comment une personne physique peut-elle devenir investisseur qualifié ?",
+        "r": "Sur demande à la COSUMAF : prouver ses compétences et moyens et justifier d'un patrimoine net d'au moins 50 millions FCFA au moment de la souscription."
+      },
+      {
+        "q": "Où se négocient les titres issus d'un placement privé ?",
+        "r": "Uniquement entre investisseurs qualifiés, obligatoirement sur un compartiment dédié de la BVMAC."
+      }
+    ]
+  },
+  "organisme": "cemac",
+  "couverture": "partielle"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "i41-25.delai.01",
+    "texte": "i41-25",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Fréquence du reporting de chaque OPCVM par la SGO (Instruction 41-25)",
+    "valeur_texte": "au moins une fois par semaine",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.delai.02",
+    "texte": "i41-25",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Rapport trimestriel d'activité d'une SGO ou d'un dépositaire d'OPCVM",
+    "valeur_texte": "15 jours calendaires après le trimestre",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.delai.03",
+    "texte": "i41-25",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Rapport semestriel d'activité d'une SGO ou d'un dépositaire d'OPCVM",
+    "valeur_texte": "30 jours calendaires après le semestre",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.delai.04",
+    "texte": "i41-25",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Rapport annuel d'activité d'une SGO ou d'une société d'investissement",
+    "valeur_texte": "30 jours calendaires après l'année",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.role.01",
+    "texte": "i41-25",
+    "type": "role",
+    "article": "art. 2-5",
+    "enonce": "Société de gestion d'OPCVM / société d'investissement",
+    "valeur_texte": "Envoie le reporting hebdomadaire de chaque OPCVM et les rapports trimestriel, semestriel et annuel.",
+    "acteurs": [
+      "societe-de-gestion-d-opcvm-societe-d-investissement"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.role.02",
+    "texte": "i41-25",
+    "type": "role",
+    "article": "art. 3-4",
+    "enonce": "Dépositaire d'OPCVM",
+    "valeur_texte": "Envoie un rapport trimestriel et un rapport semestriel d'activité.",
+    "acteurs": [
+      "depositaire-d-opcvm"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.liste.01",
+    "texte": "i41-25",
+    "type": "liste",
+    "article": "art. 2-5",
+    "enonce": "Calendrier des reportings (Instruction 41-25)",
+    "valeur_texte": "Hebdomadaire : chaque OPCVM (SGO/SI) ; Trimestriel : 15 jours calendaires (SGO/SI et dépositaires) ; Semestriel : 30 jours calendaires (SGO/SI et dépositaires) ; Annuel : 30 jours calendaires (SGO/SI)",
+    "items": [
+      "Hebdomadaire : chaque OPCVM (SGO/SI)",
+      "Trimestriel : 15 jours calendaires (SGO/SI et dépositaires)",
+      "Semestriel : 30 jours calendaires (SGO/SI et dépositaires)",
+      "Annuel : 30 jours calendaires (SGO/SI)"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.piege.01",
+    "texte": "i41-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Reporting hebdomadaire par OPCVM (41-25) ≠ tableaux semestriels de l'Instruction 11-24 : l",
+    "valeur_texte": "Reporting **hebdomadaire** par OPCVM (41-25) ≠ tableaux **semestriels** de l'Instruction 11-24 : les deux s'appliquent.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i41-25.piege.02",
+    "texte": "i41-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Titrisation (Instruction 21-24) : trimestriel 15 jours aussi, mais seulement aux 1er et 3e",
+    "valeur_texte": "Titrisation (Instruction 21-24) : trimestriel **15 jours** aussi, mais seulement aux 1er et 3e trimestres.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "i34-25.montant.01",
+    "texte": "i34-25",
+    "type": "montant",
+    "article": "annexe",
+    "enonce": "Seuil d'investissement dans d'autres OPC imposant de mentionner les frais indirects (capital investissement)",
+    "valeur_texte": "plus de 20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i34-25.role.01",
+    "texte": "i34-25",
+    "type": "role",
+    "article": "art. 3",
+    "enonce": "Société de gestion de l'organisme de capital investissement",
+    "valeur_texte": "Établit le document d'information avec l'avertissement et toutes les rubriques du plan type.",
+    "acteurs": [
+      "societe-de-gestion-de-l-organisme-de-capital-investissement"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i34-25.definition.01",
+    "texte": "i34-25",
+    "type": "definition",
+    "article": "art. 1 ; Règl. 01/22 art. 190",
+    "enonce": "Organisme de capital investissement",
+    "valeur_texte": "FIA qui investit principalement dans des sociétés non cotées ou des projets, sous forme de société (SPC) ou de fonds (FPC).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i34-25.liste.01",
+    "texte": "i34-25",
+    "type": "liste",
+    "article": "art. 1",
+    "enonce": "Les 2 formes d'organisme de capital investissement",
+    "valeur_texte": "Société de placement en capital (SPC) ; Fonds de placement en capital (FPC)",
+    "items": [
+      "Société de placement en capital (SPC)",
+      "Fonds de placement en capital (FPC)"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i34-25.piege.01",
+    "texte": "i34-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "SPC/FPC = capital investissement ; SPI/FPI = investissement professionnel à long terme (OP",
+    "valeur_texte": "SPC/FPC = **capital investissement** ; SPI/FPI = **investissement professionnel à long terme** (OPI) ; ne pas confondre avec la **SPI** immobilière des OPCI (Instruction 15-24).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

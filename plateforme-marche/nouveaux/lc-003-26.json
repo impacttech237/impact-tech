@@ -1,0 +1,62 @@
+{
+  "id": "lc-003-26",
+  "ordre": 115,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "num": "Lettre circulaire n° 003.26",
+  "date": "5 mai 2026, Libreville",
+  "titre": "Lettre circulaire n° 003.26 portant diligences post-agrément à effectuer par les organismes de placement collectif en valeurs mobilières (OPCVM)",
+  "theme": "opc",
+  "couverture": "complete",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\01KT43HKHWCFWBCF43ZEHRTY6H.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 2 pages), lu par OCR"
+  },
+  "relations": {},
+  "objet": "En application des articles 361 et 362 du Règlement général de la COSUMAF et des articles 5 et 6 de l'Instruction 13-24 du 20 février 2024 relative à l'agrément des OPC, liste les dix diligences à accomplir après l'agrément d'un OPCVM, avec l'auteur responsable, la base légale, le délai et son point de départ, en trois phases : constitution, publicité, émission.",
+  "trente": "**10 diligences** en **3 phases**. **Phase 1, constitution** : signature du règlement de gestion ou des statuts et **libération intégrale des parts initiales** dans **30 jours calendaires** à compter de la notification d'agrément ; certificat de dépôt à la COSUMAF **au plus tard 30 jours** après la notification. **Phase 2, publicité** : RCCM, copie du certificat de dépôt et annonce légale dans **30 jours calendaires** à compter de la **constitution effective**. **Phase 3, émission** : version définitive du **DI et du DIS** **avant toute émission de parts**. Les délais courent à compter de la **notification officielle** de la décision d'agrément.",
+  "retenir": [
+    "Phase 1 : **signature du règlement de gestion ou des statuts** par la SGO et les fondateurs, **30 jours calendaires** à compter de la **notification d'agrément**. Diligence 1 (art. 361 RG)",
+    "Phase 1 : **libération intégrale des parts initiales** avec preuve de virement sur un compte ouvert au nom de l'OPCVM chez le dépositaire, **30 jours calendaires** à compter de la notification d'agrément. Diligence 2 (art. 361 RG, art. 5 Instr. 13-24)",
+    "Phase 1 : **justification de l'origine licite des fonds** de constitution par les premiers porteurs et la SGO, **dès la libération intégrale** des parts initiales. Diligence 3 (art. 90 et suivants RG)",
+    "Phase 1 : **original du certificat de dépôt** transmis à la COSUMAF par le dépositaire, **immédiatement après le dépôt** et **au plus tard 30 jours** à compter de la notification d'agrément. Diligence 4 (art. 5 Instr. 13-24)",
+    "Phase 1 : **calcul de la première valeur liquidative**, par la SGO et le dépositaire, **dès le dépôt des fonds**. Diligence 5 (art. 5 Instr. 13-24)",
+    "Phase 2 : **immatriculation et publicité au RCCM**, **30 jours calendaires** à compter de la **constitution effective** du fonds. Diligence 6 (art. 362 RG)",
+    "Phase 2 : **copie certifiée conforme du certificat de dépôt** à la COSUMAF, **30 jours calendaires** à compter de la constitution effective. Diligence 7 (art. 362 RG)",
+    "Phase 2 : **insertion dans un journal d'annonces légales** avec les mentions de l'article 362, **30 jours calendaires** à compter de la constitution effective. Diligence 8 (art. 362 RG)",
+    "Phase 3 (émission) : **version définitive du document d'information (DI) et du DIS** transmise **préalablement à toute émission de parts**. Diligence 9 (art. 6 Instr. 13-24)",
+    "**Maintien permanent de l'actif net** dans les **proportions réglementaires** : obligation prudentielle **permanente** après la constitution. Diligence 10 (art. 5 Instr. 13-24)",
+    "Les délais courent à compter de la **date de notification officielle** de la décision d'agrément, par tout moyen admis par la COSUMAF. Dernier alinéa"
+  ],
+  "delais": [
+    { "q": "Signature du règlement de gestion ou des statuts après l'agrément d'un OPCVM", "v": "30 jours calendaires à compter de la notification d'agrément", "a": "diligence 1 (art. 361 RG)" },
+    { "q": "Libération intégrale des parts initiales après l'agrément d'un OPCVM", "v": "30 jours calendaires à compter de la notification d'agrément", "a": "diligence 2 (art. 361 RG)" },
+    { "q": "Justification de l'origine licite des fonds de constitution", "v": "dès la libération intégrale des parts initiales", "a": "diligence 3" },
+    { "q": "Transmission à la COSUMAF de l'original du certificat de dépôt", "v": "immédiatement après le dépôt, au plus tard 30 jours à compter de la notification d'agrément", "a": "diligence 4" },
+    { "q": "Immatriculation au RCCM et publicité d'un OPCVM", "v": "30 jours calendaires à compter de la constitution effective du fonds", "a": "diligence 6 (art. 362 RG)" },
+    { "q": "Copie certifiée du certificat de dépôt transmise à la COSUMAF", "v": "30 jours calendaires à compter de la constitution effective du fonds", "a": "diligence 7 (art. 362 RG)" },
+    { "q": "Insertion de l'annonce légale d'un OPCVM", "v": "30 jours calendaires à compter de la constitution effective du fonds", "a": "diligence 8 (art. 362 RG)" },
+    { "q": "Transmission de la version définitive du DI et du DIS", "v": "préalablement à toute émission de parts", "a": "diligence 9 (art. 6 Instr. 13-24)" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "SGO et fondateurs (diligences post-agrément)", "r": "Signent le règlement de gestion ou les statuts de l'OPCVM.", "a": "diligence 1" },
+    { "acteur": "Premiers porteurs et SGO (diligences post-agrément)", "r": "Libèrent intégralement les parts initiales et justifient l'origine licite des fonds.", "a": "diligences 2-3" },
+    { "acteur": "Dépositaire d'OPC (diligences post-agrément)", "r": "Transmet à la COSUMAF l'original du certificat de dépôt ; calcule avec la SGO la première valeur liquidative.", "a": "diligences 4-5" }
+  ],
+  "definitions": [],
+  "listes": [
+    { "titre": "Les trois phases des diligences post-agrément d'un OPCVM", "a": "tableau", "items": ["Phase 1 : constitution (diligences 1 à 5)", "Phase 2 : publicité (diligences 6 à 8)", "Phase 3 : émission (diligence 9) ; maintien permanent de l'actif net (diligence 10)"] }
+  ],
+  "pieges": [
+    "Le délai de **30 jours calendaires** court de la **notification d'agrément** pour les diligences 1, 2 et 4, mais de la **constitution effective du fonds** pour les diligences 6, 7 et 8 (art. 362).",
+    "La **justification de l'origine des fonds** et le **calcul de la première VL** n'ont pas de délai en jours : ils interviennent **dès** la libération des parts, **dès** le dépôt des fonds.",
+    "L'insertion de **l'annonce légale** et l'**immatriculation au RCCM** sont distinctes de la transmission du **certificat de dépôt** à la COSUMAF."
+  ],
+  "qr": [
+    { "q": "Dans quel délai libérer intégralement les parts initiales d'un OPCVM après l'agrément ?", "r": "30 jours calendaires à compter de la notification d'agrément (art. 361 RG)." },
+    { "q": "À partir de quand court le délai de publicité d'un OPCVM ?", "r": "De la constitution effective du fonds : 30 jours calendaires pour le RCCM, le certificat de dépôt et l'annonce légale (art. 362 RG)." },
+    { "q": "Que doit-on transmettre avant toute émission de parts ?", "r": "La version définitive du document d'information (DI) et du DIS (art. 6 de l'Instruction 13-24)." }
+  ]
+}

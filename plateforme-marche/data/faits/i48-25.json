@@ -1,0 +1,291 @@
+[
+  {
+    "id": "i48-25.delai.01",
+    "texte": "i48-25",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Expérience minimale d'un liquidateur d'intermédiaire de marché",
+    "valeur_texte": "10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.delai.02",
+    "texte": "i48-25",
+    "type": "delai",
+    "article": "art. 3.5",
+    "enonce": "Période d'incompatibilité pour un ancien CAC, conseiller ou expert-comptable (liquidateur)",
+    "valeur_texte": "3 années précédant la désignation",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.delai.03",
+    "texte": "i48-25",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Notification individuelle des clients par le liquidateur",
+    "valeur_texte": "10 jours ouvrés après sa désignation",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.delai.04",
+    "texte": "i48-25",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Périodicité du rapport du liquidateur à la COSUMAF",
+    "valeur_texte": "fin de chaque trimestre civil",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.delai.05",
+    "texte": "i48-25",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Ancienneté maximale du casier judiciaire d'un candidat liquidateur",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.montant.01",
+    "texte": "i48-25",
+    "type": "montant",
+    "article": "art. 3.5",
+    "enonce": "Degré de parenté rendant incompatible la fonction de liquidateur",
+    "valeur_texte": "jusqu'au 4e degré inclus",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.role.01",
+    "texte": "i48-25",
+    "type": "role",
+    "article": "art. 2, 10",
+    "enonce": "Président de la COSUMAF",
+    "valeur_texte": "Désigne le liquidateur par délégation de la décision de retrait et fixe les modalités du transfert des portefeuilles clients.",
+    "acteurs": [
+      "president-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.role.02",
+    "texte": "i48-25",
+    "type": "role",
+    "article": "art. 2, 11-15",
+    "enonce": "Liquidateur",
+    "valeur_texte": "Dirige l'intermédiaire en liquidation, informe les clients en 10 jours ouvrés, réalise l'actif, apure le passif, rend compte chaque trimestre.",
+    "acteurs": [
+      "liquidateur"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.role.03",
+    "texte": "i48-25",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "COBAC",
+    "valeur_texte": "Reçoit la décision de retrait d'agrément d'un intermédiaire qui est un établissement de crédit.",
+    "acteurs": [
+      "cobac"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.role.04",
+    "texte": "i48-25",
+    "type": "role",
+    "article": "art. 10",
+    "enonce": "Intermédiaire repreneur",
+    "valeur_texte": "Reçoit d'office dans ses livres le portefeuille clients de l'intermédiaire liquidé.",
+    "acteurs": [
+      "intermediaire-repreneur"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.role.05",
+    "texte": "i48-25",
+    "type": "role",
+    "article": "art. 4",
+    "enonce": "Syndic ou administrateur judiciaire",
+    "valeur_texte": "Mène la procédure collective nationale en coordination avec le liquidateur désigné par la COSUMAF.",
+    "acteurs": [
+      "syndic-ou-administrateur-judiciaire"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.definition.01",
+    "texte": "i48-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Liquidateur (intermédiaire de marché)",
+    "valeur_texte": "Personne désignée par le Président de la COSUMAF, investie de tous les pouvoirs pour liquider un intermédiaire dont l'agrément a été retiré.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.liste.01",
+    "texte": "i48-25",
+    "type": "liste",
+    "article": "art. 14",
+    "enonce": "Ce que le liquidateur notifie à chaque client (10 jours ouvrés)",
+    "valeur_texte": "Le retrait d'agrément et l'état de liquidation ; Son identité et ses coordonnées ; La situation précise des avoirs (titres, espèces, opérations en cours) ; Les modalités et le calendrier du transfert ; Les voies de réclamation",
+    "items": [
+      "Le retrait d'agrément et l'état de liquidation",
+      "Son identité et ses coordonnées",
+      "La situation précise des avoirs (titres, espèces, opérations en cours)",
+      "Les modalités et le calendrier du transfert",
+      "Les voies de réclamation"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.liste.02",
+    "texte": "i48-25",
+    "type": "liste",
+    "article": "art. 12",
+    "enonce": "Ordre d'affectation des produits de la liquidation",
+    "valeur_texte": "Frais de la liquidation ; Créanciers selon leur rang ; Solde éventuel aux actionnaires ou associés",
+    "items": [
+      "Frais de la liquidation",
+      "Créanciers selon leur rang",
+      "Solde éventuel aux actionnaires ou associés"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.piege.01",
+    "texte": "i48-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Règlement 01/22 (art. 33) : le retrait d'agrément entraîne la liquidation ; l'Instruction ",
+    "valeur_texte": "Règlement 01/22 (art. 33) : le **retrait d'agrément entraîne la liquidation** ; l'Instruction 48-25 en fixe les modalités.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.piege.02",
+    "texte": "i48-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Liquidateur : 10 ans d'expérience, comme le dirigeant agréé (Instruction 46-25).",
+    "valeur_texte": "Liquidateur : **10 ans** d'expérience, comme le dirigeant agréé (Instruction 46-25).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i48-25.piege.03",
+    "texte": "i48-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Même en cas de procédure collective nationale, seule la COSUMAF décide du transfert des ac",
+    "valeur_texte": "Même en cas de procédure collective nationale, **seule la COSUMAF** décide du **transfert des actifs des clients**.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

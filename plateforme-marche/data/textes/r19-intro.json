@@ -1,0 +1,67 @@
+{
+  "id": "r19-intro",
+  "ordre": 117,
+  "type": "reglement",
+  "organisme": "cemac",
+  "numero": "…/…/CEMAC/UMAC (numéro non lisible)",
+  "titre": "Règlement CEMAC/UMAC relatif à l'introduction en bourse des participations des États et de leurs démembrements",
+  "theme": "cadre",
+  "date_texte": "2 octobre 2019, Yaoundé",
+  "date_adoption": "2019-10-02",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\cosumaf-manquants\\07_Reglement-CEMAC-UMAC-2019-introduction-en-bourse-participations-des-Etats.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 2 pages, 5 articles), lu par OCR ; le numéro du règlement est laissé en blanc (« …./…./CEMAC/UMAC ») dans le document"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "En application de l'article 8 de l'Acte additionnel 06/17, oblige les États membres à céder en bourse, au plus tard fin février 2020, tout ou partie de leurs participations dans certaines entreprises, exclusivement par appel public à l'épargne sur le marché financier sous-régional. Adopté à l'unanimité par le Comité ministériel de l'UMAC à Yaoundé le 2 octobre 2019, après avis conforme du Conseil d'administration de la BEAC (1er octobre 2019). 5 articles.",
+    "essentiel": "**5 articles.** Les États cèdent en bourse **tout ou partie** de leurs participations **au plus tard fin février 2020** (art. 1), **exclusivement par appel public à l'épargne** sur le marché financier sous-régional (art. 2). La **liste** des entreprises et la **part à céder** sont arrêtées par le **Comité ministériel de l'UMAC** sur proposition du **Gouverneur de la BEAC**, et **mises à jour chaque année** (art. 3). Entrée en vigueur **à la signature** (art. 5).",
+    "retenir": [
+      "En application de l'**article 8 de l'Acte additionnel 06/17** (19 février 2018), les États membres cèdent en bourse **tout ou partie** de leurs participations dans certaines entreprises **au plus tard fin février 2020**. Art. 1",
+      "La cession se fait **exclusivement par voie d'appel public à l'épargne** sur le **marché financier sous-régional**. Art. 2",
+      "La **liste des entreprises** et la **part à céder** sont arrêtées par le **Comité ministériel de l'UMAC**, sur proposition du **Gouverneur de la BEAC** ; la liste est **mise à jour chaque année**. Art. 3",
+      "Le **Président du Comité ministériel**, le **Gouverneur de la BEAC** et le **Président de la COSUMAF** sont chargés de l'application. Art. 4",
+      "Le règlement **entre en vigueur à la date de sa signature** et est publié au Bulletin officiel de la CEMAC. Art. 5"
+    ],
+    "listes": [
+      {
+        "titre": "Autorités chargées de l'application du règlement",
+        "a": "art. 4",
+        "items": [
+          "Président du Comité ministériel de l'UMAC",
+          "Gouverneur de la BEAC",
+          "Président de la COSUMAF"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le numéro du règlement est **laissé en blanc** dans le scan (« …./…./CEMAC/UMAC ») mais le texte est **daté et signé** du **2 octobre 2019, à Yaoundé** : ce n'est pas un projet. Le citer par son titre et sa date.",
+      "La date limite de **fin février 2020** est **passée** : ce règlement est surtout utile pour comprendre l'origine des introductions en bourse d'États.",
+      "La cession se fait **uniquement par appel public à l'épargne**, pas de gré à gré."
+    ],
+    "qr": [
+      {
+        "q": "Par quelle voie les États cèdent-ils leurs participations en bourse ?",
+        "r": "Exclusivement par appel public à l'épargne sur le marché financier sous-régional (art. 2)."
+      },
+      {
+        "q": "Qui arrête la liste des entreprises dont les participations sont cédées ?",
+        "r": "Le Comité ministériel de l'UMAC, sur proposition du Gouverneur de la BEAC ; la liste est mise à jour chaque année (art. 3)."
+      }
+    ]
+  }
+}

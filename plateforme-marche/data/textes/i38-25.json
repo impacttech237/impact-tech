@@ -1,0 +1,59 @@
+{
+  "id": "i38-25",
+  "ordre": 47,
+  "type": "instruction",
+  "numero": "38-25",
+  "titre": "Statuts types d'une société professionnelle d'investissement à long terme (SPI)",
+  "theme": "opc",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Statuts types d'une SPI, forme sociétaire des organismes professionnels d'investissement à long terme (art. 484 et 494 du Règlement général).",
+    "essentiel": "SPI : société (statuts types pour une **SA**, adaptables à une **SAS**) qui apporte des **financements de longue durée** à des **projets d'infrastructure**, des **sociétés non cotées** ou des **PME cotées**. Dénomination suivie de « Société professionnelle d'investissement à long terme » (ou « SPI »). Administrateurs : mandat de **6 ans au plus** ; conseil convoqué à la demande d'**un tiers** des membres s'il ne s'est pas réuni depuis **2 mois** ; AG annuelle dans les **5 mois** de la clôture.",
+    "retenir": [
+      "Prise en application de l'**art. 494 du RG** ; vise les **SPI** de l'**art. 484 du RG**. Art. 1",
+      "Statuts types pour une **SA** (OHADA) ; une **SAS** peut les adapter en respectant l'autonomie de la société de gestion et l'égalité des actionnaires. Art. 1",
+      "**Objet** : apporter des **financements de longue durée** à des **projets d'infrastructure**, à des **sociétés non cotées** ou à des **PME cotées**. Annexe, art. 2",
+      "Dénomination suivie de « **Société Professionnelle d'Investissement à Long Terme** », avec ou sans « SPI ». Annexe, art. 3",
+      "La SPI peut cesser d'émettre des actions dans des **situations objectives** (nombre maximum d'actions, actif maximum, fin de période de souscription). Annexe",
+      "Administrateurs : durée fixée par les statuts, **6 ans au plus**, renouvellement régulier par période de six ans. Annexe, art. 17",
+      "Conseil : s'il ne s'est pas réuni depuis **plus de 2 mois**, **un tiers** des membres peut demander sa convocation. Annexe",
+      "**AG annuelle** d'approbation des comptes dans les **5 mois** suivant la clôture. Annexe"
+    ],
+    "listes": [
+      {
+        "titre": "Cibles de financement d'une SPI",
+        "a": "annexe, art. 2",
+        "items": [
+          "Projets d'infrastructure",
+          "Sociétés non cotées",
+          "PME cotées"
+        ]
+      }
+    ],
+    "pieges": [
+      "Deux « SPI » : la **SPI immobilière** (société de placement immobilier, OPCI) et la **SPI à long terme** (OPI). Toujours préciser."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "i07-23",
+  "ordre": 16,
+  "type": "instruction",
+  "numero": "07-23",
+  "titre": "Agrément des dépositaires d'OPC",
+  "theme": "agrement",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Questionnaire d'agrément des entités qui veulent être dépositaires d'OPC : informations sur l'entité, types d'OPC visés, moyens humains et techniques, organisation de la garde, suivi des flux, délégation, plaintes, LBC/FT, contrat de dépositaire.",
+    "essentiel": "Peuvent être dépositaires : **établissements de crédit**, **sociétés de bourse**, **caisses de dépôts et consignations**. Le dossier couvre **5 types d'OPC** possibles (OPCVM, titrisation, OPCI, capital investissement, OPI), un **plan d'activités sur 3 ans**, les moyens humains et informatiques (revue des accès **au moins semestrielle**, BCP/DRP), la **garde des actifs**, le **suivi des liquidités**, la surveillance du gestionnaire et la chaîne de **délégués**. Le questionnaire est validé par **2 membres de la direction**.",
+    "retenir": [
+      "L'instruction s'applique à **toute entité qui veut exercer comme dépositaire d'OPC** ; les informations sont fournies à la demande initiale **et à tout changement significatif** ultérieur. Art. 1-2",
+      "Statut de l'entité : **établissement de crédit**, **société de bourse** ou **caisse de dépôts et consignations** (nouvelle ou existante). Art. 3",
+      "L'entité indique pour quels **types d'OPC** elle veut être dépositaire : OPCVM, titrisation, OPCI, capital investissement, OPI ; et fournit un **plan d'activités sur 3 ans**. Art. 4",
+      "Moyens humains : organigramme, effectifs dédiés, **responsable(s) de la fonction de dépositaire** (CV, honorabilité, déclaration sur l'honneur), comités éventuels. Art. 5",
+      "Moyens techniques : stratégie IT, sécurité physique et logique, chiffrement, authentification, accès à distance, **revue des droits d'accès au moins semestrielle** (principe « need-to-know »), sauvegardes, **accès permanent aux systèmes sous-traités**, **plan de reprise (DRP)** et **plan de continuité (BCP)**. Art. 6",
+      "Obligation de **garde** : ouverture des comptes, **ségrégation** des actifs, **vérification de propriété**, registre, **rapprochements** réguliers. Art. 8 A",
+      "**Suivi des flux de liquidités** : comptes de liquidités chez des entités éligibles, rapprochements, détection des flux inhabituels, vérification des paiements des souscripteurs. Art. 8 B",
+      "Obligations de **surveillance** : souscriptions et rachats, **évaluation** des parts, exécution des instructions du gestionnaire, règlement des transactions dans les délais, **affectation des produits**. Art. 8 C",
+      "Délégation de la garde : jamais pour échapper à ses obligations, justifiée par une **raison objective**, avec **due diligence initiale et continue** ; avis juridique indépendant si le délégué est **hors CEMAC**. Art. 10",
+      "Décharge de responsabilité possible seulement si la loi d'un **pays tiers** impose une entité locale non conforme, avec accord des statuts, information préalable des investisseurs et contrats écrits. Art. 10 D",
+      "Le dossier comprend aussi la **politique de traitement des plaintes**, les procédures **LBC/FT (AML/KYC)** et un **modèle de contrat de dépositaire**. Art. 13-15",
+      "Le questionnaire est revu et avalisé par une lettre signée de **2 membres de la direction** (et, le cas échéant, du responsable conformité). Art. 16"
+    ],
+    "listes": [
+      {
+        "titre": "Obligations spécifiques de surveillance du dépositaire",
+        "a": "art. 8 C",
+        "items": [
+          "Souscriptions et remboursements des parts ou actions",
+          "Évaluation des parts ou actions",
+          "Exécution des instructions de l'OPC ou de la SGO",
+          "Règlement des transactions dans les délais d'usage",
+          "Affectation des produits"
+        ]
+      },
+      {
+        "titre": "Entités pouvant être dépositaires d'OPC",
+        "a": "art. 3 ; Règl. 01/22 art. 215",
+        "items": [
+          "Établissements de crédit établis en CEMAC",
+          "Sociétés de bourse",
+          "Caisses de dépôts et consignations"
+        ]
+      }
+    ],
+    "pieges": [
+      "Les trois catégories de dépositaires (banque, société de bourse, caisse de dépôts) viennent de l'art. **215 du Règlement 01/22** ; le dépositaire doit avoir son siège en **CEMAC**.",
+      "La délégation de la garde **ne décharge pas** le dépositaire de sa responsabilité, sauf le cas très encadré d'une entité locale imposée par un pays tiers."
+    ],
+    "qr": [
+      {
+        "q": "À quelles conditions un dépositaire peut-il déléguer la garde des actifs ?",
+        "r": "Sans chercher à échapper à ses obligations, pour une raison objective, après une due diligence initiale et continue, à un délégué compétent, surveillé, qui sépare les actifs et ne les utilise pas sans accord ; avec avis juridique si le délégué est hors CEMAC."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

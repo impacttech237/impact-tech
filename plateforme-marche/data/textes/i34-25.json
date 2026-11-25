@@ -1,0 +1,56 @@
+{
+  "id": "i34-25",
+  "ordre": 43,
+  "type": "instruction",
+  "numero": "34-25",
+  "titre": "Modèle type du document d'information d'un organisme de capital investissement",
+  "theme": "opc",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Plan type du document d'information des organismes de capital investissement (SPC ou FPC, art. 470 et 476 du Règlement général).",
+    "essentiel": "S'applique aux organismes de **capital investissement** sous forme de **société de placement en capital (SPC)** ou de **fonds de placement en capital (FPC)**. Le document s'ouvre sur un **avertissement** : il faut comprendre la gestion et les **risques particuliers** du fonds. Mêmes rubriques que les autres OPC (caractéristiques, acteurs, gestion, fonctionnement, frais) ; frais indirects mentionnés si plus de **20 %** est investi dans d'autres placements collectifs.",
+    "retenir": [
+      "Prise en application de l'**art. 476 du Règlement général** ; vise les organismes de capital investissement sous forme de **SPC** ou de **FPC** (art. **470 du RG**). Art. 1",
+      "Mêmes définitions que pour les OPCVM : **compartiment** (actifs juridiquement séparés) et **catégorie de parts**. Art. 2",
+      "Le document débute par un **avertissement** : l'investisseur doit comprendre comment le fonds sera géré, ses **risques particuliers** et ses conditions de fonctionnement. Annexe",
+      "Caractéristiques : compartiments, catégories de parts, **souscripteurs concernés**, **montant minimum de souscription**, **ISIN**, affectation des sommes (capitalisation ou distribution). Annexe",
+      "Gestion : stratégie, **effet de levier maximum** autorisé et recherché (exemple du texte : exposition de 100 à 130 % = levier de 1,3), niveau maximal d'utilisation des instruments. Annexe",
+      "Frais en tableau ; si l'organisme investit **plus de 20 %** dans d'autres placements collectifs, niveau maximal des commissions indirectes ; un **taux maximum total** peut être indiqué. Annexe"
+    ],
+    "listes": [
+      {
+        "titre": "Les 2 formes d'organisme de capital investissement",
+        "a": "art. 1",
+        "items": [
+          "Société de placement en capital (SPC)",
+          "Fonds de placement en capital (FPC)"
+        ]
+      }
+    ],
+    "pieges": [
+      "SPC/FPC = **capital investissement** ; SPI/FPI = **investissement professionnel à long terme** (OPI) ; ne pas confondre avec la **SPI** immobilière des OPCI (Instruction 15-24)."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

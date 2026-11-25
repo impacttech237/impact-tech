@@ -1,0 +1,98 @@
+{
+  "id": "cc-03-20",
+  "ordre": 105,
+  "type": "communique",
+  "organisme": "cosumaf",
+  "num": "Communiqué COSUMAF 03/20",
+  "date": "4 mars 2020, Brazzaville",
+  "titre": "Communiqué COSUMAF 03/20 portant tarification du marché financier de l'Afrique centrale",
+  "theme": "marche",
+  "couverture": "partielle",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\08_Communique-COSUMAF-03-20-tarification.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (texte lisible, 10 pages, quelques chiffres dégradés signalés)"
+  },
+  "relations": { "abroge": ["cc-01-08"] },
+  "objet": "Annonce l'accord du 19 décembre 2019 entre la COSUMAF, la BVMAC, le Dépositaire Central, les sociétés de bourse et les sociétés de gestion de portefeuille sur la tarification du marché financier régional, validé par le Collège de la COSUMAF le 4 mars 2020 à Brazzaville. Grille : plafonds des sociétés de bourse, frais des sociétés de gestion, tarifs de la BVMAC et du Dépositaire Central, commissions, agréments, rétrocessions et redevances de la COSUMAF. Le Comité ministériel de l'UMAC a adopté la grille de la COSUMAF le 30 avril 2020. « Jusqu'à nouvel avis, aucune tarification différente ne saurait s'appliquer. »",
+  "trente": "Accord du **19 décembre 2019**, validé par le Collège le **4 mars 2020**, grille COSUMAF adoptée par le Comité ministériel de l'UMAC le **30 avril 2020**. **Plafonds** des sociétés de bourse : structuration **2 %**, placement **1,25 %**, prise ferme **0,75 %**, chef de file / introduction **0,3 %**, courtage **1 %** (actions) et **0,9 %** (obligations). Sociétés de gestion : frais de gestion **2 % HT** maximum (OPC actions), droits d'entrée et de sortie **2 % HT** maximum. BVMAC : introduction et capitalisation **0,08 % / 0,04 %**, courtage **0,3 %**, redevance de siège **2 M**. COSUMAF : visa **0,3 % / 0,25 % / 0,20 %** selon la taille, agréments de **0,5 M à 20 M**, redevances annuelles de **0,25 M à 15 M**.",
+  "retenir": [
+    "Accord de tarification du **19 décembre 2019**, validé par le Collège de la COSUMAF en session ordinaire le **4 mars 2020** à Brazzaville. Chapeau",
+    "« Jusqu'à nouvel avis, **aucune tarification différente** ne saurait s'appliquer. » Chapeau",
+    "Le **Comité ministériel de l'UMAC** (session du **30 avril 2020**) prend acte de la grille des intermédiaires et **adopte la grille tarifaire de la COSUMAF**. Résolution",
+    "Sociétés de bourse : tous les tarifs de marché sont des **plafonds** (« max »). Titre I",
+    "Sociétés de gestion de portefeuille : frais de gestion **2 % HT maximum de l'actif net** pour les OPC actions ; **commission de surperformance négociable**. Titre II",
+    "BVMAC : introduction et capitalisation **0,08 %** (actions) et **0,04 %** (obligations) ; courtage **0,3 %** ; redevance de siège **2 000 000 FCFA par an**. Titre III",
+    "Dépositaire Central : droit annuel d'adhésion des sociétés de bourse **2 000 000 FCFA par an** ; commission de gestion **0,025 %** (barème trimestriel) ; commission de mouvement **0,1 %** du montant de la transaction. Titre IV",
+    "COSUMAF : commission de **visa** **0,3 %** (opération < 10 milliards), **0,25 %** (10 à 20 milliards), **0,20 %** (> 20 milliards) ; commission d'**appel public à l'épargne d'un État** **0,3 %**. Titre V-A",
+    "Rétrocessions à la COSUMAF : **10 %** du total des commissions perçues par l'entreprise gestionnaire du marché et **10 %** de celles du Dépositaire Central. Titre V-B",
+    "Redevance annuelle des SGP et des SICAV : **0,025 % hors taxes** des encours gérés au **31 décembre**, minimum **1 500 000 FCFA**. Titre V-C"
+  ],
+  "delais": [
+    { "q": "Date de l'accord de tarification entre les acteurs du marché", "v": "19 décembre 2019", "a": "chapeau" },
+    { "q": "Date de validation de la grille par le Collège de la COSUMAF", "v": "4 mars 2020", "a": "chapeau" },
+    { "q": "Date d'adoption de la grille COSUMAF par le Comité ministériel de l'UMAC", "v": "30 avril 2020", "a": "résolution" },
+    { "q": "Base de calcul de la redevance annuelle des SGP et des SICAV", "v": "encours gérés au 31 décembre", "a": "titre V-C" }
+  ],
+  "montants": [
+    { "q": "Sociétés de bourse : commission de structuration / arrangement (plafond)", "v": "2 % du montant de l'opération", "a": "titre I", "n": "Chiffre lu sur un scan dégradé." },
+    { "q": "Sociétés de bourse : commission de placement (plafond)", "v": "1,25 % du montant de l'opération", "a": "titre I", "n": "Chiffre lu sur un scan dégradé." },
+    { "q": "Sociétés de bourse : commission de prise ferme (plafond)", "v": "0,75 % du montant brut garanti", "a": "titre I" },
+    { "q": "Sociétés de bourse : commission de chef de file / introduction en bourse (plafond)", "v": "0,3 % du montant de l'opération", "a": "titre I" },
+    { "q": "Sociétés de bourse : commission de service financier (plafond)", "v": "0,05 % de la capitalisation du portefeuille géré", "a": "titre I" },
+    { "q": "Sociétés de bourse : commission de courtage sur les actions (plafond)", "v": "1 % du montant brut de la transaction", "a": "titre I" },
+    { "q": "Sociétés de bourse : commission de courtage sur les obligations (plafond)", "v": "0,9 % du montant brut de la transaction", "a": "titre I" },
+    { "q": "Sociétés de bourse : commission de gestion assistée (plafond)", "v": "0,15 % de la valeur du portefeuille géré", "a": "titre I" },
+    { "q": "Sociétés de bourse : commission de conservation / droit de garde (plafond)", "v": "0,2 % de la valeur du portefeuille géré", "a": "titre I" },
+    { "q": "SGP : frais de gestion des OPC actions (plafond)", "v": "2 % HT de l'actif net", "a": "titre II" },
+    { "q": "SGP : commission de placement d'OPC étrangers", "v": "1 % HT du montant placé", "a": "titre II" },
+    { "q": "SGP : droits d'entrée (plafond)", "v": "2 % HT", "a": "titre II" },
+    { "q": "SGP : droits de sortie (plafond)", "v": "2 % HT", "a": "titre II" },
+    { "q": "BVMAC : commission d'introduction sur une émission d'actions", "v": "0,08 % de la capitalisation boursière", "a": "titre III" },
+    { "q": "BVMAC : commission d'introduction sur une émission d'obligations", "v": "0,04 % de la capitalisation boursière", "a": "titre III" },
+    { "q": "BVMAC : commission de courtage", "v": "0,3 % du volume de négociation", "a": "titre III" },
+    { "q": "BVMAC : redevance de siège des sociétés de bourse", "v": "2 000 000 FCFA par an", "a": "titre III" },
+    { "q": "Dépositaire Central : droit annuel d'adhésion d'une société de bourse", "v": "2 000 000 FCFA par an", "a": "titre IV" },
+    { "q": "Dépositaire Central : droit annuel d'adhésion d'un émetteur d'actions", "v": "0,05 % du montant de l'émission, minimum 2 000 000 FCFA", "a": "titre IV" },
+    { "q": "Dépositaire Central : droit annuel d'adhésion d'un émetteur d'obligations", "v": "0,02 % du montant de l'émission, minimum 2 000 000 FCFA", "a": "titre IV" },
+    { "q": "Dépositaire Central : commission de mouvement", "v": "0,1 % du montant de la transaction", "a": "titre IV" },
+    { "q": "COSUMAF : commission de visa, opération inférieure à 10 milliards FCFA", "v": "0,3 % du montant de l'opération", "a": "titre V-A" },
+    { "q": "COSUMAF : commission de visa, opération de 10 à 20 milliards FCFA", "v": "0,25 % du montant de l'opération", "a": "titre V-A" },
+    { "q": "COSUMAF : commission de visa, opération supérieure à 20 milliards FCFA", "v": "0,20 % du montant de l'opération", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'appel public à l'épargne réalisé par un État", "v": "0,3 % du montant total de l'opération", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément de l'entreprise gestionnaire du marché", "v": "20 000 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément du Dépositaire Central constitué en société anonyme", "v": "15 000 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément du Dépositaire Central constitué en département autonome", "v": "5 000 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément d'une société de bourse", "v": "5 000 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément d'une société de gestion d'OPC", "v": "1 500 000 FCFA", "a": "titre V-A", "n": "Chiffre lu sur un scan dégradé." },
+    { "q": "COSUMAF : commission d'agrément d'un dépositaire d'OPC", "v": "2 000 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément d'une SICAV", "v": "2 000 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément d'un FCP", "v": "1 500 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : commission d'agrément d'un dirigeant de structure agréée", "v": "500 000 FCFA", "a": "titre V-A" },
+    { "q": "COSUMAF : redevance annuelle de la BVMAC", "v": "15 000 000 FCFA par an", "a": "titre V-C" },
+    { "q": "COSUMAF : redevance annuelle du Dépositaire Central", "v": "10 000 000 FCFA par an", "a": "titre V-C" },
+    { "q": "COSUMAF : redevance annuelle d'une société de bourse", "v": "1 500 000 FCFA par an", "a": "titre V-C" },
+    { "q": "COSUMAF : redevance annuelle d'un garant sur le marché financier", "v": "5 000 000 FCFA par an", "a": "titre V-C" },
+    { "q": "COSUMAF : redevance annuelle des SGP et SICAV", "v": "0,025 % hors taxes des encours, minimum 1 500 000 FCFA", "a": "titre V-C" },
+    { "q": "COSUMAF : rétrocession sur les commissions de l'entreprise gestionnaire du marché et du Dépositaire Central", "v": "10 % du montant total des commissions perçues", "a": "titre V-B" }
+  ],
+  "roles": [
+    { "acteur": "Collège de la COSUMAF (tarification)", "r": "Valide l'accord de tarification en session ordinaire (4 mars 2020, Brazzaville).", "a": "chapeau" },
+    { "acteur": "Comité ministériel de l'UMAC", "r": "Prend acte de la grille des intermédiaires et adopte la grille tarifaire de la COSUMAF (30 avril 2020).", "a": "résolution" }
+  ],
+  "definitions": [],
+  "listes": [
+    { "titre": "Parties à l'accord de tarification de 2019", "a": "chapeau", "items": ["COSUMAF", "BVMAC", "Dépositaire Central", "Sociétés de bourse", "Sociétés de gestion de portefeuille"] }
+  ],
+  "pieges": [
+    "Le communiqué fixe des **plafonds** pour les sociétés de bourse, pas des taux uniques.",
+    "Le communiqué **03/20** ne remplace pas à lui seul la tarification actuelle : l'**Instruction COSUMAF 23-24** (18 juillet 2024) fixe la grille en vigueur avec des montants différents (par exemple l'agrément du Dépositaire Central : **15 M** en 2020, **30 M** dans la fiche de l'Instruction 23-24). Aucune abrogation expresse n'a été constatée : vérifier.",
+    "Certains chiffres des scans sont **dégradés** (plafonds de structuration et de placement, frais de gestion des autres OPC, quelques redevances) et ont été relus à la loupe : à confirmer contre le PDF.",
+    "Cartes professionnelles : **50 000 FCFA par an** ici, contre 250 000 dans le communiqué 01/08."
+  ],
+  "qr": [
+    { "q": "Qui a validé l'accord de tarification du 19 décembre 2019 ?", "r": "Le Collège de la COSUMAF, en session ordinaire du 4 mars 2020 à Brazzaville ; le Comité ministériel de l'UMAC a adopté la grille de la COSUMAF le 30 avril 2020." },
+    { "q": "Quelles sont les commissions de visa d'une opération d'APE selon la taille ?", "r": "0,3 % sous 10 milliards FCFA, 0,25 % de 10 à 20 milliards et 0,20 % au-delà de 20 milliards." },
+    { "q": "Quel est le plafond de la commission de courtage d'une société de bourse ?", "r": "1 % du montant brut pour les actions et 0,9 % pour les obligations." }
+  ]
+}

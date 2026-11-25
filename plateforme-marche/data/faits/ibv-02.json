@@ -1,0 +1,420 @@
+[
+  {
+    "id": "ibv-02.delai.01",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 2.4",
+    "enonce": "Date d'expiration maximale d'un ordre « à date déterminée »",
+    "valeur_texte": "365 jours civils après la saisie",
+    "type_valeur": "nombre",
+    "valeur": 365,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.delai.02",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 2.4",
+    "enonce": "Historisation maximale d'un ordre selon le Règlement général (rappel)",
+    "valeur_texte": "30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.delai.03",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 6.2",
+    "enonce": "Phase de pré-ouverture : heure de début",
+    "valeur_texte": "10 h 00",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.delai.04",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 6.3",
+    "enonce": "Phase d'ouverture : heure de début",
+    "valeur_texte": "11 h 00",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.delai.05",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 6.4",
+    "enonce": "Phase d'intervention surveillance : heure de début",
+    "valeur_texte": "11 h 30",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.delai.06",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 6.5",
+    "enonce": "Phase de post-séance : heure de début",
+    "valeur_texte": "12 h 30",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.delai.07",
+    "texte": "ibv-02",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Jour de la séance de cotation",
+    "valeur_texte": "tous les mardis",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.montant.01",
+    "texte": "ibv-02",
+    "type": "montant",
+    "article": "art. 4.1.2",
+    "enonce": "Intervalle statique de prix à l'ouverture pour les actions",
+    "valeur_texte": "±10 % autour du prix de référence statique",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.montant.02",
+    "texte": "ibv-02",
+    "type": "montant",
+    "article": "art. 4.1.2",
+    "enonce": "Intervalle statique de prix à l'ouverture pour les obligations",
+    "valeur_texte": "±6 % autour du prix de référence statique",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.montant.03",
+    "texte": "ibv-02",
+    "type": "montant",
+    "article": "art. 5.3",
+    "enonce": "Nombre de meilleures limites diffusées dans le marché par limites",
+    "valeur_texte": "5 meilleures limites à l'achat et 5 à la vente",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.role.01",
+    "texte": "ibv-02",
+    "type": "role",
+    "article": "art. 2.5, 3.2, 4.1.2, 6.4",
+    "enonce": "BVMAC (surveillance de marché)",
+    "valeur_texte": "Modifie les seuils de variation après information des adhérents et de la COSUMAF ; intervient en phase d'intervention surveillance ; suspend, gèle ou réserve un titre ; annonce par avis les conséquences d'une OST.",
+    "acteurs": [
+      "bvmac-surveillance-de-marche"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.role.02",
+    "texte": "ibv-02",
+    "type": "role",
+    "article": "art. 1.2",
+    "enonce": "Apporteur de liquidité",
+    "valeur_texte": "Introduit régulièrement des ordres d'achat et de vente pour améliorer la liquidité d'un instrument, sur habilitation de la BVMAC.",
+    "acteurs": [
+      "apporteur-de-liquidite"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.role.03",
+    "texte": "ibv-02",
+    "type": "role",
+    "article": "art. 2.5, 3",
+    "enonce": "Membre de la BVMAC",
+    "valeur_texte": "Saisit, modifie et annule les ordres pendant les phases d'accumulation ; reçoit un message d'acquittement et un numéro d'ordre séquentiel par titre.",
+    "acteurs": [
+      "membre-de-la-bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.definition.01",
+    "texte": "ibv-02",
+    "type": "definition",
+    "article": "art. 2.5",
+    "enonce": "Opération sur titres (OST)",
+    "valeur_texte": "Action d'un émetteur, ou d'un tiers en relation avec lui, affectant les droits attachés au titre ; elle peut annuler les ordres en carnet et ajuster le prix de référence statique.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.definition.02",
+    "texte": "ibv-02",
+    "type": "definition",
+    "article": "art. 2.5, 4.1.1",
+    "enonce": "Prix de référence statique",
+    "valeur_texte": "Dernier cours traité (en général le cours de clôture de la veille) ou dernier prix indicatif ; devient le cours d'ouverture quand il est coté.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.definition.03",
+    "texte": "ibv-02",
+    "type": "definition",
+    "article": "art. 3.2.2",
+    "enonce": "Gel d'un titre",
+    "valeur_texte": "État où le franchissement d'un seuil de précaution ferme le marché du titre à la négociation et à la passation, modification ou annulation d'ordres.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.definition.04",
+    "texte": "ibv-02",
+    "type": "definition",
+    "article": "art. 3.2.3",
+    "enonce": "Réservation d'un titre",
+    "valeur_texte": "État où le déroulement normal des négociations a abouti au franchissement d'un seuil de réservation.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.definition.05",
+    "texte": "ibv-02",
+    "type": "definition",
+    "article": "art. 5.1",
+    "enonce": "Marché résumé",
+    "valeur_texte": "Meilleure demande et meilleure offre d'un titre (quantité et prix correspondants).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.liste.01",
+    "texte": "ibv-02",
+    "type": "liste",
+    "article": "art. 6",
+    "enonce": "Phases de la séance de cotation",
+    "valeur_texte": "Consultation début (aucun ordre) ; Pré-ouverture, 10 h (saisie d'ordres, cours théorique) ; Ouverture, 11 h (échanges au cours théorique) ; Intervention surveillance, 11 h 30 ; Post-séance, 12 h 30",
+    "items": [
+      "Consultation début (aucun ordre)",
+      "Pré-ouverture, 10 h (saisie d'ordres, cours théorique)",
+      "Ouverture, 11 h (échanges au cours théorique)",
+      "Intervention surveillance, 11 h 30",
+      "Post-séance, 12 h 30"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.liste.02",
+    "texte": "ibv-02",
+    "type": "liste",
+    "article": "art. 3.2",
+    "enonce": "États possibles d'un titre",
+    "valeur_texte": "Suspension ; Gel ; Réservation ; Interdiction de saisie",
+    "items": [
+      "Suspension",
+      "Gel",
+      "Réservation",
+      "Interdiction de saisie"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.liste.03",
+    "texte": "ibv-02",
+    "type": "liste",
+    "article": "art. 3.1",
+    "enonce": "Critères successifs de détermination du cours de fixing",
+    "valeur_texte": "Maximisation du volume échangé ; Minimisation du solde non exécuté ; Sens du solde de marché ; Prix de référence (cours le plus proche)",
+    "items": [
+      "Maximisation du volume échangé",
+      "Minimisation du solde non exécuté",
+      "Sens du solde de marché",
+      "Prix de référence (cours le plus proche)"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.piege.01",
+    "texte": "ibv-02",
+    "type": "piege",
+    "article": null,
+    "enonce": "Texte ancien (février 2008, version projet) : le Règlement général de 2025 prévaut. Par ex",
+    "valeur_texte": "Texte ancien (**février 2008**, version projet) : le **Règlement général de 2025** prévaut. Par exemple, un ordre « à date déterminée » est limité à **30 jours** par le règlement de 2025 (art. 162), alors que cette instruction parle de **365 jours**.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.piege.02",
+    "texte": "ibv-02",
+    "type": "piege",
+    "article": null,
+    "enonce": "La phase de consultation début est annoncée 9 h dans le corps du texte et 8 h dans le somm",
+    "valeur_texte": "La phase de consultation début est annoncée **9 h** dans le corps du texte et **8 h** dans le sommaire : ne pas citer l'heure sans vérifier.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.piege.03",
+    "texte": "ibv-02",
+    "type": "piege",
+    "article": null,
+    "enonce": "Un OST de type coupon d'obligation ou redénomination n'a aucune conséquence sur le carnet,",
+    "valeur_texte": "Un OST de type **coupon d'obligation** ou **redénomination** n'a **aucune conséquence** sur le carnet, alors que dividende, division, regroupement ou détachement de droits **annulent les ordres**.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-02.piege.04",
+    "texte": "ibv-02",
+    "type": "piege",
+    "article": null,
+    "enonce": "Modifier un ordre en diminuant la quantité conserve la priorité de temps ; augmenter la qu",
+    "valeur_texte": "Modifier un ordre en **diminuant la quantité** conserve la priorité de temps ; augmenter la quantité ou changer la limite la fait perdre.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

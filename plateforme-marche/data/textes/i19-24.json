@@ -1,0 +1,68 @@
+{
+  "id": "i19-24",
+  "ordre": 28,
+  "type": "instruction",
+  "numero": "19-24",
+  "titre": "Modèle type du document d'information d'un OPCI",
+  "theme": "opc",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le plan obligatoire (et dans le même ordre) du document d'information d'un OPCI (art. 456 du Règlement général) : avertissement de liquidité, caractéristiques, acteurs, politique de gestion, modalités de fonctionnement, frais et commissions.",
+    "essentiel": "En tête, un **avertissement obligatoire** : l'OPCI détient des **immeubles** dont la vente prend du temps ; le rachat peut n'être payé qu'après un **délai de plusieurs mois** ; la somme récupérée peut être **inférieure** à l'investissement ; durée de placement recommandée. Puis 5 rubriques : **caractéristiques générales**, **acteurs**, **politique de gestion**, **fonctionnement** (valeur liquidative, souscriptions, rachats), **frais et commissions**. Documents annuels envoyés en **8 jours ouvrés** sur demande. OPCI **nourricier** si plus de **85 %** dans un OPCI maître.",
+    "retenir": [
+      "Instruction prise en application de l'**art. 456 du Règlement général** ; les rubriques de l'annexe 1 sont reprises **dans le même ordre**. Art. 1-2",
+      "**Avertissement obligatoire** en tête : immeubles dont la vente dépend du marché, éventuelle **période d'interdiction** des rachats, **délai de rachat** maximum en mois, risque de récupérer **moins** que la mise, **durée de placement recommandée**. Annexe 1",
+      "Caractéristiques générales : forme juridique (**FCPI** ou **SPI**), dénomination, date de création et durée, offre de gestion (compartiments, catégories de parts, souscripteurs, **montant minimum de souscription**, **ISIN**) en tableau. Annexe 1, I",
+      "Les derniers documents annuels et la composition des actifs sont envoyés **sous 8 jours ouvrés** sur demande écrite du porteur. Annexe 1, I",
+      "OPCI investissant **plus de 85 %** dans un autre OPCI (**OPCI maître**) : mention de l'endroit où obtenir les documents du maître. Annexe 1, I",
+      "Acteurs : **société de gestion**, **dépositaire et conservateurs**, teneur de registre, **commissaire aux comptes**, distributeurs, personne qui vérifie la **capacité des souscripteurs**, **délégataires**, **centralisateur**, **experts externes en évaluation**, conseillers (qui ne décident jamais à la place de la SGO). Annexe 1, II",
+      "Politique de gestion : objectifs, indicateur de référence, **stratégie d'allocation** entre actifs immobiliers et instruments financiers, **politique d'endettement**, niveau maximal d'utilisation des instruments. Annexe 1, III",
+      "Frais : commissions de souscription et de rachat **acquises ou non** à l'OPCI, frais de fonctionnement et de gestion, frais d'exploitation immobilière, commissions de mouvement, commission de **surperformance** ; frais indirects inclus si l'OPCI investit **plus de 20 %** indirectement. Annexe 1, V"
+    ],
+    "listes": [
+      {
+        "titre": "Rubriques du document d'information d'un OPCI",
+        "a": "annexe 1",
+        "items": [
+          "Avertissement obligatoire",
+          "I. Caractéristiques générales",
+          "II. Acteurs de l'OPCI",
+          "III. Politique de gestion",
+          "IV. Modalités de fonctionnement (VL, souscriptions, rachats)",
+          "V. Frais et commissions"
+        ]
+      }
+    ],
+    "pieges": [
+      "**85 %** dans un maître = nourricier (OPCI) ; **20 %** d'investissement indirect = frais indirects à inclure.",
+      "Les documents annuels sont envoyés en **8 jours ouvrés** sur demande."
+    ],
+    "qr": [
+      {
+        "q": "Que dit l'avertissement obligatoire en tête du document d'information d'un OPCI ?",
+        "r": "Que l'OPCI détient des immeubles dont la vente exige des délais, que le rachat peut n'être payé qu'après un certain nombre de mois, que l'investisseur peut récupérer moins que sa mise, et quelle est la durée de placement recommandée."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

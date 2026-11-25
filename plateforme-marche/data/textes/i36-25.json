@@ -1,0 +1,47 @@
+{
+  "id": "i36-25",
+  "ordre": 45,
+  "type": "instruction",
+  "numero": "36-25",
+  "titre": "Statuts types d'une société de placement en capital (SPC)",
+  "theme": "opc",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Rubriques obligatoires des statuts d'une SPC (art. 470 du Règlement général), élaborés pour une SA et adaptables à une SAS.",
+    "essentiel": "SPC : capital investissement sous forme de **société** (statuts types pour une **SA**, adaptables à une **SAS** en respectant l'**autonomie de la société de gestion** et l'**égalité des actionnaires**). Pas de rachat d'actions si l'actif passe sous le **capital social**. CAC **3 exercices** (agréé par la COSUMAF). Inventaire **semestriel**, documents **30 jours** après la clôture, fusion **1 mois** après l'avis et autorisation COSUMAF, dissolution après **24 mois** sous le minimum, prorogation **3 mois** avant.",
+    "retenir": [
+      "Vise les **SPC** de l'**art. 470 du RG**. Statuts types pour une **société anonyme** ; une **SAS** peut les adapter en respectant l'**autonomie de la société de gestion** et l'**équité entre actionnaires**. Art. 1",
+      "Droits exprimés en **actions**, chacune une même fraction de l'actif ; compartiments et catégories d'actions possibles. Annexe, art. 1",
+      "**Aucun rachat** d'actions si l'actif devient **inférieur au capital social**. Annexe, art. 2",
+      "CAC désigné pour **3 exercices** par la société de gestion ou la SPC, après **agrément** de la COSUMAF. Annexe, art. 7",
+      "Inventaire **semestriel** sous contrôle du dépositaire ; documents aux actionnaires **30 jours** après la clôture ; fusion/scission **1 mois** après l'avis et **autorisation** de la COSUMAF. Annexe",
+      "Dissolution si l'actif reste **24 mois** sous le minimum ; prorogation avec le dépositaire **3 mois** avant l'échéance. Annexe, art. 11"
+    ],
+    "listes": [],
+    "pieges": [
+      "SPC = société de **capital investissement** ; SPI = société **professionnelle d'investissement à long terme** (Instruction 38-25)."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "cc-01-08",
+  "ordre": 104,
+  "type": "communique",
+  "organisme": "cosumaf",
+  "num": "Communiqué COSUMAF 01/08",
+  "date": "4 mars 2008, Libreville",
+  "titre": "Communiqué COSUMAF 01/08 relatif à la tarification du marché financier de l'Afrique centrale",
+  "theme": "marche",
+  "couverture": "contexte",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-communique-cosumaf-o1-08-relatif-a-la-tarification-du-marche-financier-de-lafrique-centrale.pdf",
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-communique-cosumaf-o1-08-relatif-a-la-tarification-du-marche-financier-de-lafrique-centrale.pdf",
+    "origine": "PDF officiel (texte lisible mais très dégradé, 6 pages). Seuls les chiffres lisibles sans ambiguïté sont repris."
+  },
+  "relations": {},
+  "objet": "Annonce l'accord du 4 mars 2008 entre la COSUMAF, la BVMAC, le Dépositaire Central et les sociétés de bourse sur la tarification du marché financier régional : tarifs des sociétés de bourse, de l'entreprise gestionnaire du marché, du Dépositaire Central et de la COSUMAF. « Jusqu'à nouvel avis, aucune tarification différente ne saurait s'appliquer. » Premier barème, repris puis remplacé par le communiqué 03/20 (2020).",
+  "trente": "Accord du **4 mars 2008**. Tarifs de l'entreprise de marché : introduction **0,08 %** (actions) / **0,04 %** (obligations), capitalisation **0,08 % / 0,04 %**, courtage **0,3 %**, redevance de siège **2 000 000 FCFA par an**. Commission de **visa** de la COSUMAF : **0,3 %** (opération < 10 milliards), **0,25 %** (10 à 20 milliards), **0,20 %** (> 20 milliards). Agrément de l'entreprise gestionnaire du marché : **20 M** ; de la société de bourse : **5 M**.",
+  "retenir": [
+    "L'accord de tarification est intervenu le **4 mars 2008** entre la COSUMAF, la **BVMAC**, le **Dépositaire Central** et les **sociétés de bourse**. Chapeau",
+    "« Jusqu'à nouvel avis, **aucune tarification différente** ne saurait s'appliquer. » Chapeau",
+    "Entreprise gestionnaire du marché : commission d'**introduction** 0,08 % (actions) / 0,04 % (obligations) ; commission de **capitalisation** 0,08 % / 0,04 % ; commission de **courtage** 0,3 % du volume ; redevance de siège **2 000 000 FCFA par an**. Tarif BVMAC",
+    "Commission de **visa** (émetteur autre qu'un État) : **0,3 %** si l'opération est inférieure à 10 milliards, **0,25 %** de 10 à 20 milliards, **0,20 %** au-delà de 20 milliards. Tarif COSUMAF",
+    "Commission d'**appel public à l'épargne** d'un **État** : **0,3 %** du montant total de l'opération. Tarif COSUMAF",
+    "Commission d'agrément : **entreprise gestionnaire du marché 20 000 000 FCFA** ; **société de bourse 5 000 000 FCFA**. Tarif COSUMAF"
+  ],
+  "delais": [],
+  "montants": [
+    { "q": "Commission de visa d'une opération d'APE inférieure à 10 milliards FCFA (émetteur autre qu'un État)", "v": "0,3 % du montant de l'opération", "a": "tarif COSUMAF" },
+    { "q": "Commission de visa d'une opération d'APE de 10 à 20 milliards FCFA", "v": "0,25 % du montant de l'opération", "a": "tarif COSUMAF" },
+    { "q": "Commission de visa d'une opération d'APE supérieure à 20 milliards FCFA", "v": "0,20 % du montant de l'opération", "a": "tarif COSUMAF" },
+    { "q": "Commission d'appel public à l'épargne réalisé par un État", "v": "0,3 % du montant total de l'opération", "a": "tarif COSUMAF" },
+    { "q": "Commission d'agrément de l'entreprise gestionnaire du marché", "v": "20 000 000 FCFA", "a": "tarif COSUMAF" },
+    { "q": "Commission d'agrément d'une société de bourse", "v": "5 000 000 FCFA", "a": "tarif COSUMAF" },
+    { "q": "Redevance de siège annuelle des sociétés de bourse (BVMAC)", "v": "2 000 000 FCFA par an", "a": "tarif BVMAC" },
+    { "q": "Commission de courtage de la BVMAC", "v": "0,3 % du volume de négociation", "a": "tarif BVMAC" }
+  ],
+  "roles": [
+    { "acteur": "COSUMAF (tarification)", "r": "Annonce l'accord de tarification et précise qu'aucune tarification différente ne peut s'appliquer jusqu'à nouvel avis.", "a": "chapeau" }
+  ],
+  "definitions": [],
+  "listes": [],
+  "pieges": [
+    "Le scan est **très dégradé** : les fourchettes de commissions des sociétés de bourse (structuration, placement, prise ferme, courtage) ne sont pas reprises ici faute de lecture sûre ; utiliser le **communiqué 03/20**, qui fixe des **plafonds**.",
+    "Ce communiqué est **historique** : le communiqué **03/20** (accord du 19 décembre 2019) reprend un barème comparable et la tarification actuelle est fixée par l'**Instruction COSUMAF 23-24** (18 juillet 2024).",
+    "Cartes professionnelles : le montant annuel diffère d'un barème à l'autre (**250 000 FCFA** par an en 2008, **50 000 FCFA** par an en 2020) : citer le texte."
+  ],
+  "qr": [
+    { "q": "Qui a conclu l'accord de tarification du 4 mars 2008 ?", "r": "La COSUMAF, la BVMAC, le Dépositaire Central et les sociétés de bourse." },
+    { "q": "Quelle est la commission de visa pour une opération d'APE de 15 milliards FCFA selon le communiqué 01/08 ?", "r": "0,25 % du montant de l'opération (tranche de 10 à 20 milliards)." }
+  ]
+}

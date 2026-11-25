@@ -1,0 +1,75 @@
+{
+  "id": "rfi-07",
+  "ordre": 5,
+  "type": "reglement_ueac",
+  "numero": "07-UEAC-175-CM-15",
+  "titre": "Régime fiscal spécifique des opérations cotées à la BVMAC",
+  "theme": "cadre",
+  "date_texte": "19 mars 2007, N'Djamena",
+  "date_adoption": "2007-03-19",
+  "lieu": "N'Djamena",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Avantages fiscaux pour les sociétés qui s'introduisent à la BVMAC et pour les investisseurs : retenue à la source réduite, impôt sur les sociétés réduit pendant 3 ans, exonération des plus-values, comptes d'épargne en valeurs mobilières, fonds d'épargne d'entreprise, transparence fiscale des OPCVM.",
+    "essentiel": "Retenue à la source (IRVM) libératoire : **10 %** sur dividendes et obligations de **moins de 5 ans**, **5 %** sur obligations de **5 ans ou plus**. Plus-values **exonérées** ; cessions de titres cotés exemptées de droits d'enregistrement et de timbre. IS réduit pendant **3 ans** : **20 %** (augmentation de capital ≥ 20 %), **25 %** (cession ≥ 20 %), **28 %** (moins de 20 %), à condition de rester coté **4 ans**. CEVM : **70 %** en titres BVMAC, bloqué **4 ans**, déduction IRPP jusqu'à **15 millions/an**.",
+    "retenir": [
+      "Régime adopté par le **Conseil des Ministres de l'UEAC** (pas par la COSUMAF) ; il s'applique aux actions, obligations, droits, options et TCN **admis à la cote de la BVMAC**.",
+      "Sont concernés : les **personnes morales** dont tout ou partie du capital est coté, et les **personnes physiques** qui investissent en titres cotés. Art. 3",
+      "Exonérés d'IRVM : intérêts des **obligations d'État** (pour les résidents CEMAC), intérêts des obligations des **collectivités locales**, et **plus-values** de cession (prix de cession − prix d'acquisition − frais). Art. 5",
+      "Les **cessions** de titres cotés sont **exemptées des droits d'enregistrement et du timbre**. Art. 5",
+      "Retenue à la source **libératoire**, opérée par le **teneur de compte** au profit du **pays de résidence** du titulaire : **10 %** (dividendes, obligations < 5 ans), **5 %** (obligations ≥ 5 ans). Art. 7",
+      "IS des sociétés qui s'introduisent, pendant **3 ans** : **20 %** si augmentation de capital ≥ **20 %** du capital ; **25 %** si cession d'actions ≥ **20 %** ; **28 %** en deçà de 20 %. Art. 8",
+      "Condition : garder les titres **cotés au moins 4 ans**, sinon avantages repris **rétroactivement** avec pénalités. Les délais courent du **début de l'exercice fiscal suivant** l'introduction. Art. 8",
+      "**Compte épargne en valeurs mobilières (CEVM)** : personne physique, **70 % minimum** en titres cotés BVMAC (reste en bons du Trésor ou OPCVM), dont **50 % minimum en actions**, bloqué **4 ans**, déductible de l'IRPP jusqu'à **15 millions FCFA par an**, **un seul compte par personne** ; produits non imposables. Art. 9-10",
+      "Retrait anticipé du CEVM : l'**intermédiaire en bourse paie solidairement** l'impôt non acquitté, majoré de pénalités. Art. 10",
+      "**Fonds d'épargne d'entreprise (FEE)** : fonds salarial investi à **70 % en actions cotées** ; l'entreprise contribue à **25 % minimum** des actions à souscrire ; déductible de l'IS ; pas un revenu imposable pour les salariés. Art. 11-12",
+      "**OPCVM** investis à **70 % minimum** en actions et obligations cotées : **transparence fiscale** (les porteurs sont imposés au prorata). Art. 14",
+      "Les États avaient **2 ans** pour intégrer ce régime ; le bénéfice exige une **attestation d'inscription à la cote**. Art. 15-16"
+    ],
+    "listes": [
+      {
+        "titre": "Produits exonérés d'IRVM",
+        "a": "art. 5",
+        "items": [
+          "Intérêts des obligations d'État (résidents CEMAC)",
+          "Intérêts des obligations des collectivités locales de la CEMAC",
+          "Plus-values de cession de valeurs mobilières cotées"
+        ]
+      }
+    ],
+    "pieges": [
+      "**10 %** pour les dividendes et obligations courtes, **5 %** pour les obligations de **5 ans ou plus** : la retenue est plus faible pour le long terme.",
+      "IS : **20 %** (augmentation de capital), **25 %** (cession), **28 %** (moins de 20 % coté) — pendant **3 ans**, mais il faut rester coté **4 ans**.",
+      "Trois « 70 % » : CEVM (titres cotés), FEE (actions cotées), OPCVM (transparence fiscale). Et **50 %** d'actions dans le CEVM.",
+      "Texte de l'**UEAC** (Conseil des Ministres), non de l'UMAC ni de la COSUMAF."
+    ],
+    "qr": [
+      {
+        "q": "Quels taux d'impôt sur les sociétés s'appliquent à une société qui s'introduit à la BVMAC ?",
+        "r": "Pendant 3 ans : 20 % si l'augmentation de capital représente au moins 20 % du capital, 25 % pour une cession d'au moins 20 %, 28 % en deçà de 20 % ; à condition de rester coté au moins 4 ans."
+      },
+      {
+        "q": "Quels sont les avantages du compte épargne en valeurs mobilières ?",
+        "r": "Déduction de l'IRPP jusqu'à 15 millions FCFA par an et produits (dividendes, intérêts, plus-values) non imposables, en contrepartie d'un blocage de 4 ans et d'un investissement à 70 % en titres cotés dont 50 % en actions."
+      }
+    ]
+  },
+  "organisme": "ueac",
+  "couverture": "partielle"
+}

@@ -1,0 +1,295 @@
+[
+  {
+    "id": "lc-003-24.delai.01",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 1",
+    "enonce": "Reporting hebdomadaire des fonds par une SGO",
+    "valeur_texte": "tous les vendredis",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.02",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 2",
+    "enonce": "Rapport annuel d'activités d'une SGO (exercice N-1)",
+    "valeur_texte": "31 janvier de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.03",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 3",
+    "enonce": "Rapport trimestriel d'activités T4 (année N-1)",
+    "valeur_texte": "15 janvier de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.04",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 4",
+    "enonce": "Rapport semestriel d'activités S2 (année N-1)",
+    "valeur_texte": "31 janvier de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.05",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 5",
+    "enonce": "Rapport annuel de contrôle interne d'une SGO",
+    "valeur_texte": "31 mars de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.06",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 6",
+    "enonce": "Cartographie des risques LBC/FT d'une SGO",
+    "valeur_texte": "31 mars de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.07",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 7",
+    "enonce": "Rapport annuel de contrôle du respect des dispositions LBC/FT d'une SGO",
+    "valeur_texte": "31 mars de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.08",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 9",
+    "enonce": "Rapport trimestriel d'activités T1 (année N)",
+    "valeur_texte": "15 avril de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.09",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 10",
+    "enonce": "Rapport trimestriel d'activités T2 (année N)",
+    "valeur_texte": "15 juillet de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.10",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 11",
+    "enonce": "Reporting annuel des SGO selon le modèle COSUMAF",
+    "valeur_texte": "30 juin de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.11",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 12",
+    "enonce": "Rapport semestriel d'activités S1 (année N)",
+    "valeur_texte": "31 juillet de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.12",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 13",
+    "enonce": "États financiers de synthèse, rapport de gestion et rapports des commissaires aux comptes d'une SGO",
+    "valeur_texte": "31 juillet de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.delai.13",
+    "texte": "lc-003-24",
+    "type": "delai",
+    "article": "ligne 14",
+    "enonce": "Rapport trimestriel d'activités T3 (année N)",
+    "valeur_texte": "15 octobre de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.role.01",
+    "texte": "lc-003-24",
+    "type": "role",
+    "article": "chapeau",
+    "enonce": "Société de gestion d'OPC (calendrier de reporting)",
+    "valeur_texte": "Transmet à la COSUMAF les rapports et informations périodiques selon le calendrier de la circulaire.",
+    "acteurs": [
+      "societe-de-gestion-d-opc-calendrier-de-reporting"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.piege.01",
+    "texte": "lc-003-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Texte abrogé : la lettre circulaire 002.26 (1er juin 2026) « abroge dans toutes ses dispos",
+    "valeur_texte": "Texte **abrogé** : la **lettre circulaire 002.26** (1er juin 2026) « abroge dans toutes ses dispositions la Lettre Circulaire N°003 du 24 septembre 2024 ». Utiliser le calendrier de 2026.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.piege.02",
+    "texte": "lc-003-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le scan d'origine mélange les colonnes (libellé, exercice, date) : les dates ci-dessus sui",
+    "valeur_texte": "Le scan d'origine mélange les colonnes (libellé, exercice, date) : les dates ci-dessus suivent l'ordre des lignes du tableau et sont **à confirmer contre le PDF**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-24.piege.03",
+    "texte": "lc-003-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les dates de transmission du rapport annuel d'activités et du rapport semestriel S2 tomben",
+    "valeur_texte": "Les dates de transmission du **rapport annuel d'activités** et du **rapport semestriel S2** tombent toutes deux le **31 janvier** ; le **T4** est le seul au **15 janvier**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

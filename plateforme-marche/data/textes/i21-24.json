@@ -1,0 +1,71 @@
+{
+  "id": "i21-24",
+  "ordre": 30,
+  "type": "instruction",
+  "numero": "21-24",
+  "titre": "Agrément des organismes de titrisation (OT)",
+  "theme": "opc",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Formes, agrément, document d'information, publicité, rapports d'activité, commissaire aux comptes, dépositaire et liquidation des organismes de titrisation (art. 420 et 426 du Règlement général).",
+    "essentiel": "OT = **FIA** qui achète des **créances** et se finance en émettant des titres. Deux formes : **FCT** (copropriété sans personnalité morale, géré par une SG) ou **société de titrisation** (**SA ou SAS**). Part ou action d'au moins **100 000 FCFA**. Accusé en **10 jours ouvrés**, complétude vérifiée en **10 jours ouvrés**, décision en **60 jours ouvrés** ; demandes d'informations au plus tard le **20e jour ouvré**, suspension **30 jours ouvrés** maximum ; notification en **10 jours ouvrés**. Rapports : trimestriels **15 jours**, semestriel et annuel **30 jours**.",
+    "retenir": [
+      "Prise en application des **art. 420 et 426 du Règlement général** ; vise les organismes de titrisation, sous-catégorie des **FIA**. Art. 2",
+      "Deux formes : **fonds commun de titrisation (FCT)**, copropriété **sans personnalité morale** géré par une **société de gestion** ; **société de titrisation (ST)**, **SA ou SAS**. Art. 3",
+      "Montant minimal d'une part ou action d'OT : **100 000 FCFA**. Art. 3.4",
+      "La gestion est assurée par une **société de gestion spécialisée** (art. 423 du RG), qui **représente le fonds** à l'égard des tiers et en justice. Art. 3.6",
+      "Agrément **préalable** de la COSUMAF ; **aucune commercialisation** avant l'agrément. Art. 4",
+      "Demande soumise et **signée par le représentant légal** de la SG ; confirmation écrite de réception en **10 jours ouvrés** ; vérification de complétude en **10 jours ouvrés**. Art. 5-6",
+      "Décision en **60 jours ouvrés** après le dossier complet ; prorogation possible (fait nouveau significatif, opération remise en cause) ; demande de compléments **au plus tard le 20e jour ouvré**, suspension **30 jours ouvrés** au maximum. Art. 7",
+      "Décision notifiée à la SG **et au dépositaire** dans les **10 jours ouvrés** ; refus **motivé** ; la COSUMAF **vise** le document d'information (numéro et date d'agrément), qui peut alors être diffusé. Art. 8",
+      "Dossier : demande, projet de **document d'information**, contrôle du **dépositaire**, modèle de **rapport de gestion**, actifs susceptibles d'être acquis, contrats entre parties, commercialisation, **note de l'agence de notation** éventuelle, risques et **mécanismes de couverture**. Art. 9",
+      "Fait nouveau significatif ou erreur : **note complémentaire** approuvée par la COSUMAF avant diffusion. Art. 10",
+      "La SG adresse à la COSUMAF **2 exemplaires** du document d'information et **2 exemplaires** du règlement ou des statuts. Art. 11",
+      "Rapports d'activité (sous le contrôle du dépositaire) : **trimestriel** au plus tard **15 jours** après les **1er et 3e trimestres** ; **semestriel** **30 jours calendaires** après le 1er semestre ; **annuel** **30 jours calendaires** après l'exercice. Art. 13",
+      "Les comptes rendus d'activité sont obtenus **sans frais** par tout investisseur. Le **CAC** est désigné par le conseil d'administration de la SG et signale les irrégularités à la COSUMAF. Art. 14, 16",
+      "Le dépositaire d'OT respecte les **art. 212 et suivants du Règlement 01/22** ; la SG liquide le fonds selon son règlement. Art. 17-18"
+    ],
+    "listes": [
+      {
+        "titre": "Les 2 formes d'organisme de titrisation",
+        "a": "art. 3",
+        "items": [
+          "Fonds commun de titrisation (FCT), géré par une société de gestion",
+          "Société de titrisation (ST), SA ou SAS"
+        ]
+      }
+    ],
+    "pieges": [
+      "**20 %** = liens étroits ; **10 %** = participation qualifiée.",
+      "OT : décision en **60 jours ouvrés**, compléments demandés au plus tard le **20e jour ouvré**, suspension **30 jours ouvrés** maximum.",
+      "Rapports trimestriels seulement pour les **1er et 3e trimestres** (le 2e et le 4e sont couverts par les rapports semestriel et annuel)."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les deux formes d'organisme de titrisation ?",
+        "r": "Le fonds commun de titrisation (copropriété sans personnalité morale gérée par une société de gestion) et la société de titrisation (SA ou SAS)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

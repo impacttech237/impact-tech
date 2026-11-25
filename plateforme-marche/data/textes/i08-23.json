@@ -1,0 +1,59 @@
+{
+  "id": "i08-23",
+  "ordre": 17,
+  "type": "instruction",
+  "numero": "08-23",
+  "titre": "Agrément des actionnaires de la BVMAC (entreprise de marché)",
+  "theme": "agrement",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Conditions et dossier d'agrément des actionnaires ou futurs actionnaires de l'entreprise de marché autres que les sociétés de bourse (qui sont actionnaires d'office).",
+    "essentiel": "Concerne les actionnaires de la BVMAC **autres que les sociétés de bourse**. Dossier **avant** l'acquisition, en **papier et en électronique**. Accusé de réception en **10 jours ouvrés** après le dossier complet, agrément au plus tard **60 jours** après l'accusé. La COSUMAF contrôle **honorabilité, compétences, capacités financières**. Dossier : comptes certifiés des **3 derniers exercices**, dirigeants sur **5 ans**, actionnaires de plus de **20 %**.",
+    "retenir": [
+      "S'applique aux actionnaires de l'entreprise de marché **autres que les sociétés de bourse** (celles-ci sont actionnaires d'office, art. 108 du Règlement 01/22). Art. 1",
+      "Le futur actionnaire communique les informations de l'annexe I **préalablement à l'acquisition** du capital ou des droits de vote. Art. 2",
+      "Dépôt en **version papier au siège** de la COSUMAF et en **version électronique**. Art. 3",
+      "Accusé de réception dans un délai maximum de **10 jours ouvrés** à compter du dossier complet. Art. 3",
+      "La COSUMAF vérifie l'**honorabilité**, les **compétences** et les **capacités financières** ; tout refus est **motivé**. Art. 4",
+      "Agrément octroyé **au plus tard 60 jours** après l'accusé de réception. Art. 5",
+      "Le dossier (annexe I) décrit l'entité, ses activités et marchés sur **3 exercices**, son groupe, sa situation financière, ses dirigeants (mandats, condamnations pour fraude, faillites, sanctions sur **5 ans**), ses actionnaires de **plus de 20 %**, et contient des états **certifiés** des **3 derniers exercices**."
+    ],
+    "listes": [
+      {
+        "titre": "Critères d'agrément d'un actionnaire de la BVMAC",
+        "a": "art. 4",
+        "items": [
+          "Honorabilité",
+          "Compétences",
+          "Capacités financières"
+        ]
+      }
+    ],
+    "pieges": [
+      "Délai d'agrément : **60 jours à compter de l'accusé de réception** (et non de la réception du dossier).",
+      "Les **sociétés de bourse** sont actionnaires **d'office** de l'entreprise de marché : pas d'agrément préalable pour elles."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

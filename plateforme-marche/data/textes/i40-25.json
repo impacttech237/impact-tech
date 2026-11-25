@@ -1,0 +1,59 @@
+{
+  "id": "i40-25",
+  "ordre": 49,
+  "type": "instruction",
+  "numero": "40-25",
+  "titre": "Contenu du rapport de contrôle interne des SGO et des sociétés d'investissement",
+  "theme": "conformite",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le rapport annuel de contrôle interne des sociétés de gestion d'OPC et des sociétés d'investissement (SICAV) : plan, points de contrôle et cartographie des risques.",
+    "essentiel": "Les **SGO** et **sociétés d'investissement** transmettent leur **rapport de contrôle interne au plus tard le 31 mars**. Même plan que pour les sociétés de bourse (méthodologie, présentation avec le contrôleur interne et sa carte, dispositif, points de contrôle, cartographie, mesures correctives, conclusion RCCI), avec des contrôles propres à la gestion : **respect des mandats et stratégies**, exécution des ordres, **valeurs liquidatives**, **ratios** de diversification et de liquidité, **séparation** OPC/mandats/compte propre, **activités principales et connexes**.",
+    "retenir": [
+      "S'applique aux **SGO** et aux **sociétés d'investissement** agréées. Art. 1",
+      "Rapport de contrôle interne transmis **au plus tard le 31 mars** de chaque année. Art. 2",
+      "Présentation : activités **principales** et **connexes**, dirigeants, **contrôleur interne** (avec copie de la **carte professionnelle**), agréments, actionnariat, conseil. Annexe",
+      "Organisation des **fonctions de contrôle** : conformité, audit interne, risques, contrôle interne ; niveaux et fréquences. Annexe",
+      "Contrôles sur les transactions : respect des **mandats d'investissement** et des **stratégies**, **bonne exécution** des ordres, valorisation et **valeurs liquidatives**, **ratios réglementaires**, souscriptions et rachats (KYC, délais), séparation comptable **OPC / mandats / compte propre**. Annexe",
+      "Gouvernance : réunions régulières du CA et de l'AG, registres des PV, respect des mandats des administrateurs et des **CAC**, délais de clôture et de transmission à la COSUMAF. Annexe",
+      "Risques opérationnels : incidents, **LBC/FT** (responsable dédié, rapport annuel LBC/FT, déclarations de soupçon à l'**ANIF**), sauvegarde informatique, **plan de continuité**. Annexe"
+    ],
+    "listes": [
+      {
+        "titre": "Fonctions de contrôle d'une SGO",
+        "a": "annexe",
+        "items": [
+          "Conformité",
+          "Audit interne",
+          "Gestion des risques",
+          "Contrôle interne"
+        ]
+      }
+    ],
+    "pieges": [
+      "**31 mars** pour le rapport de contrôle interne des SGO (Instruction 40-25), alors que l'Instruction 06-23 disait **3 mois** après la clôture : le texte de 2025 est plus récent."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "i11-24",
+  "ordre": 20,
+  "type": "instruction",
+  "numero": "11-24",
+  "titre": "Informations adressées par les sociétés de gestion d'OPC à la COSUMAF",
+  "theme": "opc",
+  "date_texte": "20 février 2024, Yaoundé",
+  "date_adoption": "2024-02-20",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Tableaux de reporting des SGO sur leur activité et sur chaque OPC géré (expositions, risques de marché, de contrepartie, de liquidité, emprunts, levier, rendements), avec les méthodes de calcul des actifs gérés et de l'effet de levier.",
+    "essentiel": "Reporting **semestriel** des SGO à la COSUMAF : marchés et instruments, **valeur totale des actifs gérés**, puis pour chaque OPC : expositions par classe d'actifs, profils de risque (marché, **contrepartie** avec les **3 plus grosses** contreparties, **liquidité** par tranches de 1 jour à plus de 365 jours), emprunts, **levier** (méthode **brute** et méthode **de l'engagement**), rendements mensuels et **simulations de crise**. Actifs gérés calculés **au moins une fois par an**.",
+    "retenir": [
+      "S'applique à **toutes les SGO**, quel que soit le type d'OPC géré. Art. 1",
+      "Les informations sur l'activité des SGO (tableaux) sont transmises sur une base **semestrielle** ; les autres obligations (hebdomadaires, mensuelles, trimestrielles…) restent en vigueur. Art. 2",
+      "Activité de la SGO : principaux **marchés** et **instruments** (jusqu'à 4), **valeur totale des actifs gérés** en FCFA. Art. 2",
+      "Par OPC : identification (nom, code, date de création, devise **ISO 4217**, courtiers principaux), **VNI**, expositions par classe d'actifs (trésorerie, actions cotées et non cotées, obligations investment grade ou spéculatives, CEMAC ou non, dérivés, actifs physiques, OPC). Art. 3",
+      "Profil de **contrepartie** : part négociée sur marché réglementé ou de gré à gré, collatéraux fournis, **3 contreparties** les plus exposées (en % de la VNI), compensation via une **CCP** (2 principales). Art. 3",
+      "Profil de **liquidité** : part du portefeuille liquidable et des parts remboursables en **1 jour ou moins, 2-7, 8-30, 31-90, 91-180, 181-365 jours, plus de 365 jours** ; fréquence des remboursements, préavis, **lock-up**, traitements spéciaux (cantonnement, échelonnement, suspension) et préférentiels.",
+      "Risques d'emprunt : emprunts de liquidités garantis ou non, via courtier principal ou pension, dérivés, titres empruntés ; **levier** selon la méthode **brute** et la méthode **de l'engagement**.",
+      "Profil historique : rendements brut et net, variation de la VNI, souscriptions et remboursements **mois par mois**, résultats des **simulations de crise**.",
+      "Valeur totale des actifs gérés : somme des actifs de tous les OPC gérés (y compris l'effet de levier, les dérivés convertis en équivalent sous-jacent), calculée **au moins une fois par an** à une date fixe ; les OPC gérés **par délégation** sont exclus. Annexe",
+      "Effet de **levier** = **exposition / VNI**. Méthode brute : somme des valeurs absolues hors trésorerie (rendement ≤ emprunt d'État à **3 mois**). Méthode de l'engagement : dérivés convertis, compensations et couvertures admises. Annexes"
+    ],
+    "listes": [
+      {
+        "titre": "Les profils de risque déclarés par OPC",
+        "a": "art. 3",
+        "items": [
+          "Risque de marché (rendement attendu)",
+          "Risque de contrepartie",
+          "Profil de liquidité",
+          "Risques liés aux emprunts et levier",
+          "Risques opérationnels et profil historique",
+          "Simulations de crise"
+        ]
+      }
+    ],
+    "pieges": [
+      "Instruction 11-24 : reporting **semestriel** ; l'Instruction **41-25** fixe d'autres fréquences de reporting pour les dépositaires, SGO et SI : vérifier le texte cité.",
+      "Les OPC gérés **par délégation pour un autre** sont **exclus** du calcul des actifs gérés ; ceux que la SGO a délégués sont **inclus**."
+    ],
+    "qr": [
+      {
+        "q": "Comment une SGO calcule-t-elle l'effet de levier d'un OPC ?",
+        "r": "Par le ratio exposition / VNI, l'exposition étant calculée selon la méthode brute (somme des valeurs absolues hors trésorerie) et selon la méthode de l'engagement (dérivés convertis, compensations et couvertures prises en compte)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

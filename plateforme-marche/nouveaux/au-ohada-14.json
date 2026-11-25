@@ -1,0 +1,44 @@
+{
+  "id": "au-ohada-14",
+  "ordre": 125,
+  "type": "acte_uniforme",
+  "organisme": "ohada",
+  "num": "Acte uniforme révisé OHADA sur les sociétés commerciales et le GIE",
+  "date": "30 janvier 2014, Ouagadougou",
+  "titre": "Acte uniforme révisé de l'OHADA relatif au droit des sociétés commerciales et du groupement d'intérêt économique",
+  "theme": "cadre",
+  "couverture": "contexte",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\11_Acte-uniforme-OHADA-societes-commerciales-2014.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de l'OHADA publié sur le site de la COSUMAF (texte lisible, 217 pages, 920 articles) ; fiche de contexte : le titre 4 sur l'appel public à l'épargne n'a été relu que sur quelques articles (80 à 87)"
+  },
+  "relations": {},
+  "objet": "Droit commun des sociétés commerciales et des groupements d'intérêt économique dans les États parties à l'OHADA (dont les six États de la CEMAC). Il encadre notamment la société anonyme et le recours à l'appel public à l'épargne (titre 4). Il est cité par l'Acte additionnel 06/17 pour la fusion de la BVMAC et de la Bourse de Douala. Texte très long : fiche de contexte limitée au repérage.",
+  "trente": "**920 articles**, adoptés le **30 janvier 2014 à Ouagadougou**. **Titre 4 : appel public à l'épargne** : il est **interdit** aux sociétés qui n'y sont pas autorisées de faire publiquement appel à l'épargne (art. 82) ; une société qui fait appel public à l'épargne **dans un autre État partie** que celui de son siège doit faire **garantir la bonne fin** de l'opération par un ou plusieurs **établissements de crédit** de cet État si l'offre **dépasse 50 millions FCFA** (art. 85). La fusion de la BVMAC et de la Bourse de Douala devait respecter cet acte (Acte additionnel 06/17, art. 3).",
+  "retenir": [
+    "L'Acte uniforme révisé a été **adopté le 30 janvier 2014 à Ouagadougou** par le Conseil des Ministres de l'OHADA. Préambule",
+    "**Titre 4 : appel public à l'épargne**. Art. 80 et suivants",
+    "Il est **interdit** aux sociétés non autorisées par l'Acte uniforme de faire **publiquement appel à l'épargne** ; il est aussi interdit de **céder par appel public à l'épargne** les titres d'une société non autorisée. Art. 82",
+    "Société dont le siège est dans un État partie et qui fait **appel public à l'épargne dans un autre État partie** : **garantie de bonne fin** par un ou plusieurs **établissements de crédit** de cet autre État si le montant global de l'offre **dépasse 50 000 000 FCFA**. Art. 85",
+    "Dans ce cas, le **document d'information** soumis aux autorités comporte des renseignements spécifiques au marché de l'autre État (régime fiscal des revenus, établissements assurant le service financier, etc.). Art. 87",
+    "L'Acte additionnel 06/17 exige que la **fusion de la BVMAC et de la Bourse de Douala** respecte les dispositions de l'Acte uniforme sur les sociétés commerciales. Acte additionnel 06/17, art. 3"
+  ],
+  "delais": [],
+  "montants": [
+    { "q": "Appel public à l'épargne dans un autre État partie : montant de l'offre à partir duquel la bonne fin doit être garantie par un établissement de crédit", "v": "plus de 50 000 000 FCFA", "a": "art. 85" }
+  ],
+  "roles": [
+    { "acteur": "Établissement de crédit (appel public à l'épargne transfrontalier)", "r": "Garantit la bonne fin de l'opération d'une société faisant appel public à l'épargne dans un autre État partie quand l'offre dépasse 50 millions FCFA.", "a": "art. 85" }
+  ],
+  "definitions": [],
+  "listes": [],
+  "pieges": [
+    "Fiche de **contexte** : l'Acte uniforme compte **920 articles** et seuls les **articles 80 à 87** ont été lus ici ; ne pas l'utiliser pour citer la société anonyme, les valeurs mobilières ou les assemblées.",
+    "Pour l'**appel public à l'épargne** dans la CEMAC, ce sont d'abord le **Règlement 01/22** et le **Règlement général de la COSUMAF** qui s'appliquent ; l'Acte uniforme fournit le **droit commun des sociétés**.",
+    "Le **seuil de 50 millions FCFA** de l'article 85 (garantie de bonne fin) n'a **rien à voir** avec le seuil de **50 millions FCFA** du Règlement des changes 02/18 (valeurs mobilières étrangères)."
+  ],
+  "qr": [
+    { "q": "Quand l'OHADA exige-t-elle la garantie de bonne fin d'un appel public à l'épargne transfrontalier ?", "r": "Quand une société fait appel public à l'épargne dans un autre État partie et que l'offre dépasse 50 millions de FCFA (art. 85)." }
+  ]
+}

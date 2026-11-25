@@ -1,0 +1,68 @@
+{
+  "id": "i20-24",
+  "ordre": 29,
+  "type": "instruction",
+  "numero": "20-24",
+  "titre": "Diffusion d'informations publicitaires dans le cadre d'un appel public à l'épargne",
+  "theme": "ape",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Règles des communications à caractère promotionnel d'une offre au public ou d'une admission à la bourse : principes, transmission préalable à la COSUMAF, mentions obligatoires, mise à jour, cohérence avec le document d'information.",
+    "essentiel": "Une publicité d'APE : porte la mention « **communication à caractère promotionnel** », renvoie au **document d'information visé** (site ou lien), rappelle que le **visa n'est pas un avis favorable** et invite à **lire le document** avant d'investir. Elle est **transmise à la COSUMAF avant diffusion** (papier + e-mail). La COSUMAF peut imposer un **avertissement** ou des **modifications**. Titre de créance à risque de perte en capital de plus de **10 %** : structuration à justifier. Aucune information ne contredit le document d'information.",
+    "retenir": [
+      "Vise toute personne qui veut diffuser des **documents publicitaires** dans le cadre d'un **APE**. Art. 1",
+      "Document publicitaire = communication au public (a) relative à une **offre spécifique** ou à une **admission** à la bourse et (b) visant à **promouvoir** la souscription ou l'acquisition. Art. 2",
+      "Principes : mentionner l'**existence du document d'information visé** et comment se le procurer ; être **reconnaissable** comme publicité ; ne pas être inexacte ou trompeuse ; être **cohérente** avec le document d'information. Art. 3",
+      "Une information importante donnée à des **investisseurs sélectionnés** doit être communiquée à **tous** les investisseurs (offre sans document) ou **incluse dans le document d'information**. Art. 3.4",
+      "Transmission à la COSUMAF **avant diffusion**, par courrier **électronique et physique**, avec la version finale, un contact, le **montant de l'émission**, la date prévue de publication et, si le titre de créance présente un **risque de perte en capital supérieur à 10 %**, la structuration utilisée. Art. 4",
+      "La COSUMAF peut exiger un **avertissement** sur certaines caractéristiques ou des **modifications**. Art. 5",
+      "Mentions obligatoires : « **communication à caractère promotionnel** » bien visible (finalité dite **au début** si message oral) ; le visa **n'est pas un avis favorable** ; invitation à **lire le document d'information**. Art. 6.1",
+      "Identifier le document : site internet (support écrit non électronique), **lien hypertexte** (support électronique), lieu d'obtention précis (autres supports). Art. 6.2",
+      "Si le document d'information est **modifié** ou si un **supplément** rend la publicité inexacte, elle est corrigée et rediffusée **au moins par les mêmes voies**, avec référence à l'ancienne version et description des différences — sauf après la **clôture de l'offre** ou le début de la négociation. Art. 7",
+      "Aucune information ne **contredit** le document d'information, ne le présente de façon **biaisée** (négatif moins visible que positif) ni n'utilise d'**indicateurs alternatifs de performance** absents du document. Art. 8"
+    ],
+    "listes": [
+      {
+        "titre": "Mentions obligatoires d'une publicité d'APE",
+        "a": "art. 6",
+        "items": [
+          "« Communication à caractère promotionnel » bien visible",
+          "Le visa ou l'approbation n'est pas un avis favorable",
+          "Invitation à lire le document d'information avant d'investir",
+          "Où et comment obtenir le document d'information (site, lien, lieu)"
+        ]
+      }
+    ],
+    "pieges": [
+      "La publicité d'APE est **transmise avant diffusion** ; ce n'est pas un visa séparé, mais la COSUMAF peut imposer des **modifications**.",
+      "Après la **clôture de l'offre**, il n'y a plus d'obligation de corriger les anciennes publicités."
+    ],
+    "qr": [
+      {
+        "q": "Que doit faire l'émetteur si un supplément rend sa publicité trompeuse ?",
+        "r": "Modifier la publicité et la rediffuser dans les meilleurs délais, au moins par les mêmes voies, avec référence à l'ancienne version, explication de la correction et description des différences."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

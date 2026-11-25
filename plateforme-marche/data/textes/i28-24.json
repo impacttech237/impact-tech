@@ -1,0 +1,75 @@
+{
+  "id": "i28-24",
+  "ordre": 37,
+  "type": "instruction",
+  "numero": "28-24",
+  "titre": "Commercialisation, publicité et démarchage des OPC",
+  "theme": "opc",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Règles des communications publicitaires sur les OPCVM et FIA : interdiction avant agrément, usage du nom de la COSUMAF, identification, équilibre risques/avantages, clarté, performances passées et anticipées, transmission préalable à la COSUMAF.",
+    "essentiel": "Aucune publicité sur un OPC **avant son agrément**, ni article qui le **préjuge**. Mention « **communication publicitaire** » + renvoi au **document d'information** et au **DIS** ; avertissement **intégré** dans une vidéo (pas seulement à la fin). Risques et avantages **au même niveau**, police des risques **au moins aussi grande**. Interdits : « **OPC non garanti en capital** » à la place de « **risque de perte en capital** », associer **performance et sécurité**. Performances passées sur **5 ans**, par **12 mois**, jamais simulées. Toute publicité est **transmise à la COSUMAF avant diffusion**.",
+    "retenir": [
+      "S'applique aux **sociétés de gestion d'OPC** et à toute entité habilitée à diffuser des publicités pour commercialiser un OPC. Art. 1",
+      "Publicités visées : tout support (presse, interviews, web, vidéo, radio), **réseaux sociaux** citant l'OPC ou ses caractéristiques, documents individuels, publicités vers des investisseurs en CEMAC, communications de **tiers** reprises par la SGO. Art. 2",
+      "**Aucune** référence publicitaire à un OPC **avant son agrément** ; interdit de publier un article qui **préjuge** de l'agrément en cours. Art. 3",
+      "Ne pas laisser entendre que la COSUMAF **cautionne** l'OPC ; l'agrément peut être mentionné mais **pas comme argument de vente**. Art. 4",
+      "Mention « **communication publicitaire** » et avertissement renvoyant au **document d'information** et au **DIS** ; version courte seulement pour **bannières ou vidéos de quelques secondes** ; dans une vidéo, avertissement **intégré**, pas seulement **à la fin**. Art. 5",
+      "Les informations relayées depuis un **tiers sur un réseau social** engagent la SGO **comme si elle en était l'auteur**. Art. 5",
+      "Jamais d'avantages **sans les risques** ; risques et avantages **au même niveau** ou **l'un après l'autre** ; police des risques **au moins égale** à la police dominante, jamais en **note de bas de page**. Art. 5-6",
+      "Même **classification des risques** que le DIS ; un **FIA ouvert aux non-qualifiés** mentionne le caractère **non liquide** ; classement fondé sur des fonds similaires, sur **au moins 12 mois**. Art. 6",
+      "Interdits : accroche ne citant qu'**une** qualité ; rendement élevé mis en avant avec risque en capital **en second plan** ; associer simplement « **performance** » et « **sécurité** » ; écrire « **OPC non garanti en capital** » au lieu de « **le placement collectif présente un risque de perte en capital** ». Art. 6-7",
+      "Information **trompeuse** : présentation déformée ou incomplète pour favoriser la vente, ou montrant surtout les caractéristiques favorables. Art. 8",
+      "Préciser que l'on souscrit des **parts de l'OPC** et non l'actif sous-jacent (immeuble, actions) ; expliquer l'**effet de levier**. Art. 9",
+      "Performances passées : jamais l'élément principal ; **5 ans** (ou depuis la création), périodes complètes de **12 mois**, mention « **les performances passées ne préjugent pas des performances futures** », **jamais simulées** ; performances cumulées détaillées **année par année**. Art. 11",
+      "Performances anticipées : hypothèses raisonnables, **par OPC** (pas de chiffres agrégés), horizon cohérent, avertissements sur la fiscalité et le **risque de perte**. Art. 11",
+      "Transmission **à la COSUMAF avant diffusion** (physique et/ou électronique) : version finale, contact, **durée de la campagne**, **canaux**, type d'OPC, date de publication ; la COSUMAF peut exiger un **avertissement** ou des **modifications**. Art. 12-13"
+    ],
+    "listes": [
+      {
+        "titre": "Pratiques publicitaires interdites",
+        "a": "art. 3-8",
+        "items": [
+          "Publicité avant l'agrément de l'OPC",
+          "Présenter l'agrément COSUMAF comme argument de vente",
+          "Avantages sans risques ou risques en petits caractères",
+          "Associer simplement « performance » et « sécurité »",
+          "« OPC non garanti en capital » au lieu de « risque de perte en capital »",
+          "Performances passées simulées",
+          "Formules trop optimistes (« le meilleur », « sans risque »)"
+        ]
+      }
+    ],
+    "pieges": [
+      "La bonne formule : « **le placement collectif présente un risque de perte en capital** », pas « OPC non garanti en capital ».",
+      "Dans une vidéo, l'avertissement affiché **seulement à la fin** n'est **pas** suffisant."
+    ],
+    "qr": [
+      {
+        "q": "Peut-on faire la publicité d'un OPC dont l'agrément est en cours ?",
+        "r": "Non : aucune référence publicitaire avant l'agrément de la COSUMAF, et aucun article ne doit préjuger de l'agrément en cours."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

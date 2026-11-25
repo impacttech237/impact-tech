@@ -1,0 +1,203 @@
+[
+  {
+    "id": "i07-23.delai.01",
+    "texte": "i07-23",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Horizon du plan d'activités d'un candidat dépositaire d'OPC",
+    "valeur_texte": "3 prochaines années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.delai.02",
+    "texte": "i07-23",
+    "type": "delai",
+    "article": "art. 6 H",
+    "enonce": "Fréquence minimale de revue des droits d'accès informatiques (dépositaire d'OPC)",
+    "valeur_texte": "semestrielle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.montant.01",
+    "texte": "i07-23",
+    "type": "montant",
+    "article": "art. 16",
+    "enonce": "Nombre de membres de la direction qui signent la lettre de validation du questionnaire dépositaire",
+    "valeur_texte": "2 membres",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.role.01",
+    "texte": "i07-23",
+    "type": "role",
+    "article": "art. 8",
+    "enonce": "Dépositaire d'OPC",
+    "valeur_texte": "Garde les actifs (ségrégation, vérification de propriété, rapprochements), suit les flux de liquidités et surveille souscriptions, rachats, évaluation et instructions du gestionnaire.",
+    "acteurs": [
+      "depositaire-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.role.02",
+    "texte": "i07-23",
+    "type": "role",
+    "article": "art. 10",
+    "enonce": "Délégué dans la chaîne de conservation",
+    "valeur_texte": "Conserve une partie des actifs par délégation ; doit séparer les actifs des OPC des siens et ne pas les utiliser sans accord.",
+    "acteurs": [
+      "delegue-dans-la-chaine-de-conservation"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.role.03",
+    "texte": "i07-23",
+    "type": "role",
+    "article": "art. 5",
+    "enonce": "Responsable de la fonction de dépositaire",
+    "valeur_texte": "Désigné nommément, doit justifier de son honorabilité et de son expérience pour les types d'OPC visés.",
+    "acteurs": [
+      "responsable-de-la-fonction-de-depositaire"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.definition.01",
+    "texte": "i07-23",
+    "type": "definition",
+    "article": "art. 6 L",
+    "enonce": "BCP / DRP",
+    "valeur_texte": "Plan de continuité d'activité (Business Continuity Plan) et plan de reprise après sinistre (Disaster Recovery Plan) exigés du dépositaire.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.definition.02",
+    "texte": "i07-23",
+    "type": "definition",
+    "article": "art. 6 H",
+    "enonce": "Principe « need-to-know »",
+    "valeur_texte": "Un utilisateur n'a accès qu'aux informations nécessaires à sa fonction.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.liste.01",
+    "texte": "i07-23",
+    "type": "liste",
+    "article": "art. 8 C",
+    "enonce": "Obligations spécifiques de surveillance du dépositaire",
+    "valeur_texte": "Souscriptions et remboursements des parts ou actions ; Évaluation des parts ou actions ; Exécution des instructions de l'OPC ou de la SGO ; Règlement des transactions dans les délais d'usage ; Affectation des produits",
+    "items": [
+      "Souscriptions et remboursements des parts ou actions",
+      "Évaluation des parts ou actions",
+      "Exécution des instructions de l'OPC ou de la SGO",
+      "Règlement des transactions dans les délais d'usage",
+      "Affectation des produits"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.liste.02",
+    "texte": "i07-23",
+    "type": "liste",
+    "article": "art. 3 ; Règl. 01/22 art. 215",
+    "enonce": "Entités pouvant être dépositaires d'OPC",
+    "valeur_texte": "Établissements de crédit établis en CEMAC ; Sociétés de bourse ; Caisses de dépôts et consignations",
+    "items": [
+      "Établissements de crédit établis en CEMAC",
+      "Sociétés de bourse",
+      "Caisses de dépôts et consignations"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.piege.01",
+    "texte": "i07-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les trois catégories de dépositaires (banque, société de bourse, caisse de dépôts) viennen",
+    "valeur_texte": "Les trois catégories de dépositaires (banque, société de bourse, caisse de dépôts) viennent de l'art. **215 du Règlement 01/22** ; le dépositaire doit avoir son siège en **CEMAC**.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i07-23.piege.02",
+    "texte": "i07-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "La délégation de la garde ne décharge pas le dépositaire de sa responsabilité, sauf le cas",
+    "valeur_texte": "La délégation de la garde **ne décharge pas** le dépositaire de sa responsabilité, sauf le cas très encadré d'une entité locale imposée par un pays tiers.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

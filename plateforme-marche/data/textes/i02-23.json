@@ -1,0 +1,90 @@
+{
+  "id": "i02-23",
+  "ordre": 11,
+  "type": "instruction",
+  "numero": "02-23",
+  "titre": "Contenu et format des informations adressées par les intermédiaires à leur clientèle",
+  "theme": "vie",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Ce que les intermédiaires de marché doivent dire à leurs clients et au public : informations exactes, catégorisation des clients, coûts et frais, avis d'exécution, relevés de gestion sous mandat et d'actifs, communications publicitaires.",
+    "essentiel": "L'information doit être **exacte, claire, non trompeuse**, en **français** (ou autre langue de travail CEMAC), avec les risques écrits **au moins aussi gros** que le reste. Performances passées : **5 dernières années**, par tranches de **12 mois**, avec l'avertissement « les performances passées ne préjugent pas des performances futures ». Clients **qualifiés (avertis)** ou **non qualifiés (non avertis)**. Avis d'exécution au plus tard le **1er jour ouvrable** suivant. Relevés **mensuels** (gestion sous mandat, actifs des clients). Toute publicité sur un produit précis exige l'**approbation de la COSUMAF**.",
+    "retenir": [
+      "L'instruction couvre les **informations réglementaires** et les **communications publicitaires** des intermédiaires aux clients, clients potentiels et public. Art. 1",
+      "Toute information comporte le **nom de l'intermédiaire**, est exacte, indique les **risques** quand elle évoque un avantage, dans une police **au moins égale** à la police dominante, en **français** (et le cas échéant une autre langue de travail de la CEMAC). Art. 2",
+      "Comparaisons : pertinentes, équilibrées, **sources** et **hypothèses** indiquées. Art. 2.3",
+      "Performances passées : jamais l'élément principal ; **5 dernières années** (ou depuis la création si moins), en **tranches complètes de 12 mois**, source et période indiquées, avertissement bien visible ; si performances brutes, préciser l'effet des frais et impôts. Art. 2.4",
+      "Performances futures : hypothèses raisonnables, **scénarios positifs et négatifs**, avertissement visible ; jamais de référence aux simulations passées. Art. 2.6",
+      "Interdit d'utiliser le **nom de la COSUMAF** comme une caution des produits ; l'agrément peut être mentionné mais **pas comme argument de vente**. Art. 2.8, 18.3",
+      "Deux catégories de clients : **qualifiés (avertis)** — correspondant à l'investisseur qualifié de l'art. 89 du Règlement 01/22 — et **non qualifiés (non avertis)** ; le client est informé de son droit à changer de catégorie. Art. 3",
+      "Les informations précontractuelles sont fournies **avant** la prestation, sur un **support durable**. Art. 4",
+      "Coûts et frais : **agrégés** (frais de l'intermédiaire + frais des instruments), en **montant absolu et en pourcentage** ; les paiements reçus de tiers sont présentés **séparément**. Art. 8",
+      "Exécution d'ordre (hors gestion sous mandat) : informations essentielles **sans délai**, avis de confirmation **au plus tard le 1er jour ouvrable** suivant l'exécution (ou la réception de la confirmation d'un tiers). Ordres périodiques sur actions ou parts d'OPC : information au moins **une fois par semestre**. Art. 12",
+      "Gestion sous mandat : relevé périodique **mensuel** sur support durable, sauf accès en ligne consulté **au moins une fois par trimestre**. Art. 13",
+      "Détention d'actifs de clients : relevé **mensuel** des instruments et fonds (plus fréquent à la demande, au coût commercial). Art. 14",
+      "Publicité : tout document commercial portant sur un service ou instrument **précis** ne peut être diffusé **qu'après approbation de la COSUMAF** ; il porte la mention « **communication publicitaire** » (ou « #Communication publicitaire » sur les réseaux sociaux). Art. 16",
+      "Risques et avantages présentés **au même niveau** ou l'un **immédiatement après** l'autre ; jamais en note de bas de page ; bannir « le meilleur », « investissement sûr », « rendements sans effort ». Art. 17-18",
+      "Un classement publicitaire ne compare que des produits similaires, sur une période d'au moins **12 mois** (ou un multiple). Art. 19"
+    ],
+    "listes": [
+      {
+        "titre": "Ce qui n'est pas une communication publicitaire",
+        "a": "art. 15",
+        "items": [
+          "Documents juridiques et réglementaires (prospectus, DIS, rapports d'OPC, statuts, avis d'AG)",
+          "Communications d'entreprise sans référence à un produit précis (résultats, dividendes, nominations)",
+          "Messages courts en ligne contenant seulement un lien vers une publicité"
+        ]
+      },
+      {
+        "titre": "Informations générales dues aux clients",
+        "a": "art. 5",
+        "items": [
+          "Raison sociale, adresse, coordonnées",
+          "Langues de communication",
+          "Modes de communication et de transmission des ordres",
+          "Mention de l'agrément et nom et adresse de la COSUMAF",
+          "Nature et fréquence des rapports de performance",
+          "Protection des actifs des clients et dispositifs de garantie",
+          "Politique de conflits d'intérêts"
+        ]
+      }
+    ],
+    "pieges": [
+      "La COSUMAF **approuve** les publicités sur un produit précis, mais son agrément ne doit **jamais** servir d'argument de vente.",
+      "Performances passées : **5 ans** et tranches de **12 mois** ; classement : au moins **12 mois**.",
+      "Relevés **mensuels** sauf accès en ligne consulté **au moins une fois par trimestre**."
+    ],
+    "qr": [
+      {
+        "q": "Comment une communication publicitaire doit-elle présenter les risques ?",
+        "r": "Au même niveau que les avantages ou immédiatement après, dans une police au moins égale à la police dominante, jamais en note de bas de page, avec la même classification de risque que les documents réglementaires."
+      },
+      {
+        "q": "Quelle mention doit précéder la présentation de performances passées ?",
+        "r": "« Les performances passées ne préjugent pas des performances futures »."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "i46-25.delai.01",
+    "texte": "i46-25",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Expérience professionnelle exigée d'un dirigeant de structure agréée",
+    "valeur_texte": "10 ans, dont 5 ans en finance de marché",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.delai.02",
+    "texte": "i46-25",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Période couverte par les casiers judiciaires d'un dirigeant (pays de résidence)",
+    "valeur_texte": "10 dernières années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.delai.03",
+    "texte": "i46-25",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Ancienneté maximale du casier judiciaire et des diplômes certifiés d'un dirigeant",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.delai.04",
+    "texte": "i46-25",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Accusé de réception d'une demande d'agrément de dirigeant",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.delai.05",
+    "texte": "i46-25",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Instruction d'une demande d'agrément de dirigeant",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.delai.06",
+    "texte": "i46-25",
+    "type": "delai",
+    "article": "art. 11",
+    "enonce": "Remplacement d'un dirigeant dont l'agrément est retiré",
+    "valeur_texte": "3 mois au plus",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.montant.01",
+    "texte": "i46-25",
+    "type": "montant",
+    "article": "art. 5",
+    "enonce": "Frais d'instruction du dossier d'agrément d'un dirigeant (Instruction 46-25)",
+    "valeur_texte": "250 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 250000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.montant.02",
+    "texte": "i46-25",
+    "type": "montant",
+    "article": "art. 4",
+    "enonce": "Diplôme minimal d'un dirigeant de structure agréée",
+    "valeur_texte": "Bac+5",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.role.01",
+    "texte": "i46-25",
+    "type": "role",
+    "article": "art. 7",
+    "enonce": "Collège de la COSUMAF",
+    "valeur_texte": "Accorde ou refuse l'agrément des dirigeants par décision motivée, après audition éventuelle.",
+    "acteurs": [
+      "college-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.role.02",
+    "texte": "i46-25",
+    "type": "role",
+    "article": "art. 5, 11",
+    "enonce": "Structure agréée",
+    "valeur_texte": "Dépose la demande d'agrément de son dirigeant et remplace en 3 mois un dirigeant dont l'agrément est retiré.",
+    "acteurs": [
+      "structure-agreee"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.role.03",
+    "texte": "i46-25",
+    "type": "role",
+    "article": "art. 11",
+    "enonce": "Commission des sanctions",
+    "valeur_texte": "Entend les observations du dirigeant avant un retrait d'agrément pour manquement.",
+    "acteurs": [
+      "commission-des-sanctions"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.definition.01",
+    "texte": "i46-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Dirigeant (structure agréée)",
+    "valeur_texte": "Personne physique nommée PCA, administrateur, DG, DGA, administrateur général, gérant ou président d'un organisme de marché, d'un intermédiaire ou d'un intervenant agréé.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.liste.01",
+    "texte": "i46-25",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "Pièces du dossier d'agrément d'un dirigeant",
+    "valeur_texte": "Pièce d'identité certifiée ; CV détaillé ; Diplômes certifiés de moins de 3 mois ; Acte de désignation ; Casiers de moins de 3 mois (pays de résidence sur 10 ans) ; Déclaration de non-condamnation signée par le PCA ; Déclaration de non-inscription à la Centrale des risques et aux listes de sanctions ; Engagement du dirigeant ; Paiement de 250 000 FCFA",
+    "items": [
+      "Pièce d'identité certifiée",
+      "CV détaillé",
+      "Diplômes certifiés de moins de 3 mois",
+      "Acte de désignation",
+      "Casiers de moins de 3 mois (pays de résidence sur 10 ans)",
+      "Déclaration de non-condamnation signée par le PCA",
+      "Déclaration de non-inscription à la Centrale des risques et aux listes de sanctions",
+      "Engagement du dirigeant",
+      "Paiement de 250 000 FCFA"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.piege.01",
+    "texte": "i46-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "250 000 FCFA = frais d'instruction (dossier) ; 1 000 000 FCFA = commission d'agrément du d",
+    "valeur_texte": "**250 000 FCFA** = frais d'instruction (dossier) ; **1 000 000 FCFA** = commission d'agrément du dirigeant (Instruction 23-24).",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.piege.02",
+    "texte": "i46-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Dirigeant : Bac+5 + 10 ans (dont 5 en marché) ; habilitation carte professionnelle (Instru",
+    "valeur_texte": "Dirigeant : **Bac+5 + 10 ans** (dont 5 en marché) ; habilitation carte professionnelle (Instruction 18-24) : **Bac+3 ou 5 ans**.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i46-25.piege.03",
+    "texte": "i46-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Démission, révocation ou décès : retrait d'office, sans passage devant la Commission des s",
+    "valeur_texte": "Démission, révocation ou décès : **retrait d'office**, sans passage devant la Commission des sanctions.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

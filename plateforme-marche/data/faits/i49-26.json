@@ -1,0 +1,263 @@
+[
+  {
+    "id": "i49-26.montant.01",
+    "texte": "i49-26",
+    "type": "montant",
+    "article": "art. 3",
+    "enonce": "Nombre d'activités principales d'une société de bourse (Instruction 49-26)",
+    "valeur_texte": "7 activités",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.montant.02",
+    "texte": "i49-26",
+    "type": "montant",
+    "article": "art. 3",
+    "enonce": "Nombre d'activités connexes d'une société de bourse (Instruction 49-26)",
+    "valeur_texte": "8 activités",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.montant.03",
+    "texte": "i49-26",
+    "type": "montant",
+    "article": "art. 4",
+    "enonce": "Nombre d'activités principales d'une SGO (Instruction 49-26)",
+    "valeur_texte": "3 activités",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.montant.04",
+    "texte": "i49-26",
+    "type": "montant",
+    "article": "art. 5",
+    "enonce": "Nombre d'activités autorisées à un CIF (Instruction 49-26)",
+    "valeur_texte": "5 activités",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.role.01",
+    "texte": "i49-26",
+    "type": "role",
+    "article": "art. 3",
+    "enonce": "Société de bourse",
+    "valeur_texte": "Exerce 7 activités principales (dont l'arrangement, en monopole) et peut exercer 8 activités connexes dont dépositaire d'OPC et gestion sous mandat.",
+    "acteurs": [
+      "societe-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.role.02",
+    "texte": "i49-26",
+    "type": "role",
+    "article": "art. 4",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Gère et distribue des OPC, fait du démarchage ; peut aussi faire de la gestion sous mandat et du conseil.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.role.03",
+    "texte": "i49-26",
+    "type": "role",
+    "article": "art. 5",
+    "enonce": "Conseiller en investissements financiers (CIF)",
+    "valeur_texte": "Ne fait que du conseil (financier, portefeuille, patrimoine, levée de capitaux) et du démarchage, sans jamais détenir les avoirs des clients.",
+    "acteurs": [
+      "conseiller-en-investissements-financiers-cif"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.definition.01",
+    "texte": "i49-26",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Activité principale",
+    "valeur_texte": "Activité de l'art. 146 du Règlement 01/22 pour laquelle l'intermédiaire de marché a été agréé.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.definition.02",
+    "texte": "i49-26",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Activité connexe",
+    "valeur_texte": "Activité distincte de l'activité principale, expressément visée par l'Instruction 49-26 et autorisée par la COSUMAF, qui contribue à l'objet social.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.liste.01",
+    "texte": "i49-26",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Société de bourse : 7 activités principales",
+    "valeur_texte": "Exécution d'ordres pour compte de tiers ; Négociation pour compte propre ; Arrangement des APE et placements privés ; Placement d'instruments financiers ; Réception et transmission d'ordres ; Tenue de comptes d'instruments financiers ; Démarchage financier",
+    "items": [
+      "Exécution d'ordres pour compte de tiers",
+      "Négociation pour compte propre",
+      "Arrangement des APE et placements privés",
+      "Placement d'instruments financiers",
+      "Réception et transmission d'ordres",
+      "Tenue de comptes d'instruments financiers",
+      "Démarchage financier"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.liste.02",
+    "texte": "i49-26",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Société de bourse : 8 activités connexes",
+    "valeur_texte": "Listing sponsor ; Dépositaire d'OPC ; Conseil en investissements financiers ; Gestion individuelle sous mandat ; Distribution d'OPC ; Financements structurés ; Structuration et placement sur d'autres marchés ; Activités sur d'autres marchés réglementés",
+    "items": [
+      "Listing sponsor",
+      "Dépositaire d'OPC",
+      "Conseil en investissements financiers",
+      "Gestion individuelle sous mandat",
+      "Distribution d'OPC",
+      "Financements structurés",
+      "Structuration et placement sur d'autres marchés",
+      "Activités sur d'autres marchés réglementés"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.liste.03",
+    "texte": "i49-26",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "CIF : 5 activités autorisées",
+    "valeur_texte": "Conseil en gestion et ingénierie financière aux émetteurs APE ; Conseil en gestion de portefeuille ; Conseil en gestion de patrimoine et placements ; Conseil en levée de capitaux ; Démarchage financier",
+    "items": [
+      "Conseil en gestion et ingénierie financière aux émetteurs APE",
+      "Conseil en gestion de portefeuille",
+      "Conseil en gestion de patrimoine et placements",
+      "Conseil en levée de capitaux",
+      "Démarchage financier"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.piege.01",
+    "texte": "i49-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Pour une SDB, la gestion sous mandat et le rôle de dépositaire d'OPC sont des activités co",
+    "valeur_texte": "Pour une **SDB**, la gestion sous mandat et le rôle de dépositaire d'OPC sont des activités **connexes**, pas principales.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.piege.02",
+    "texte": "i49-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le CIF ne détient jamais les fonds ni les titres de ses clients.",
+    "valeur_texte": "Le **CIF** ne détient **jamais** les fonds ni les titres de ses clients.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i49-26.piege.03",
+    "texte": "i49-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'arrangement d'APE et de placement privé reste un monopole des SDB (Règlement 01/22, art.",
+    "valeur_texte": "L'**arrangement** d'APE et de placement privé reste un **monopole des SDB** (Règlement 01/22, art. 159).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

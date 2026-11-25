@@ -1,0 +1,427 @@
+[
+  {
+    "id": "r04-25.delai.01",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 21",
+    "enonce": "Inscription en compte des titres existants par émetteurs et intermédiaires",
+    "valeur_texte": "36 mois",
+    "type_valeur": "nombre",
+    "valeur": 36,
+    "unite": "mois",
+    "borne": "exact",
+    "note": "L'ancien Règlement 01/14 prévoyait 24 mois.",
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.02",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 27",
+    "enonce": "Délai au-delà duquel l'émetteur sans attestation d'inscription en compte est sanctionné",
+    "valeur_texte": "36 mois",
+    "type_valeur": "nombre",
+    "valeur": 36,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.03",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 24",
+    "enonce": "Période pendant laquelle les droits des titres au porteur ne s'exercent qu'après dépôt",
+    "valeur_texte": "3 ans",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.04",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 26",
+    "enonce": "Point de départ de la vente des droits des titres non inscrits",
+    "valeur_texte": "3 ans après l'entrée en vigueur",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.05",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 26",
+    "enonce": "Durée de la vente en bourse des droits des titres non inscrits",
+    "valeur_texte": "24 mois",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.06",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 26",
+    "enonce": "Délai pour réclamer le produit de la vente consigné",
+    "valeur_texte": "30 ans",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "ans",
+    "borne": "exact",
+    "note": "À compter de la consignation ; ensuite les sommes reviennent à l'État de rattachement.",
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.07",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 19",
+    "enonce": "Conservation des souches des titres au porteur par l'émetteur",
+    "valeur_texte": "20 ans",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "ans",
+    "borne": "exact",
+    "note": "À compter de la vente de l'art. 26.",
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.delai.08",
+    "texte": "r04-25",
+    "type": "delai",
+    "article": "art. 30",
+    "enonce": "Entrée en vigueur du Règlement 04/25",
+    "valeur_texte": "1er jour du mois suivant l'adoption",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.role.01",
+    "texte": "r04-25",
+    "type": "role",
+    "article": "art. 4, 14, 26",
+    "enonce": "Dépositaire Central",
+    "valeur_texte": "Enregistre l'émission, tient les comptes courants des adhérents, délivre l'attestation d'inscription en compte, garantit le montant de l'émission et consigne le produit de la vente des titres non inscrits.",
+    "acteurs": [
+      "depositaire-central"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.role.02",
+    "texte": "r04-25",
+    "type": "role",
+    "article": "art. 12, 17, 18",
+    "enonce": "Teneur de compte",
+    "valeur_texte": "Ouvre les comptes-titres, délivre une attestation au titulaire, est seul responsable de ses livres et souscrit une RC professionnelle (assureur agréé CIMA).",
+    "acteurs": [
+      "teneur-de-compte"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.role.03",
+    "texte": "r04-25",
+    "type": "role",
+    "article": "art. 10, 19, 21, 26",
+    "enonce": "Émetteur",
+    "valeur_texte": "Tient les comptes des titres nominatifs purs, inscrit son registre en compte en 36 mois, conserve les souches 20 ans, vend en bourse les droits non inscrits.",
+    "acteurs": [
+      "emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.role.04",
+    "texte": "r04-25",
+    "type": "role",
+    "article": "art. 15, 28",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Agrée les teneurs de comptes, désigne un nouveau teneur de compte en cas de faillite et précise les modalités par instruction.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.role.05",
+    "texte": "r04-25",
+    "type": "role",
+    "article": "art. 15",
+    "enonce": "Syndic",
+    "valeur_texte": "Informe sans délai le Dépositaire Central et la COSUMAF de la procédure collective ouverte contre un teneur de compte.",
+    "acteurs": [
+      "syndic"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.01",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Inscription en compte",
+    "valeur_texte": "Substitution des certificats physiques par l'inscription électronique des titres au nom de leurs propriétaires, chez l'émetteur ou chez un teneur de compte agréé.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.02",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Adhérent",
+    "valeur_texte": "Établissement ou organisme disposant d'un compte courant auprès du Dépositaire Central.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.03",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Comptes courants de titres",
+    "valeur_texte": "Comptes ouverts chez le Dépositaire Central au nom des adhérents, retraçant leurs avoirs propres et ceux de leur clientèle.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.04",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Comptes titres",
+    "valeur_texte": "Comptes ouverts par les teneurs de comptes au nom des titulaires de titres.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.05",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Titres au porteur",
+    "valeur_texte": "Titres conservés uniquement auprès d'un intermédiaire agréé.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.06",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2, 10",
+    "enonce": "Titres nominatifs purs",
+    "valeur_texte": "Titres inscrits et conservés dans les registres de la société émettrice.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.07",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2, 10",
+    "enonce": "Titres nominatifs administrés",
+    "valeur_texte": "Titres nominatifs inscrits dans un compte d'administration tenu par un intermédiaire habilité sur mandat du titulaire.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.definition.08",
+    "texte": "r04-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Valeurs admises aux opérations du Dépositaire Central",
+    "valeur_texte": "Titres faisant l'objet d'une ouverture de compte courant dans les livres du Dépositaire Central.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.liste.01",
+    "texte": "r04-25",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Missions du Dépositaire Central (rappel)",
+    "valeur_texte": "Enregistrement initial des titres ; Tenue centralisée des comptes ; Règlement (système de règlement de titres) ; Circulation par virement de compte à compte ; Gestion de l'inscription en compte ; Dématérialisation",
+    "items": [
+      "Enregistrement initial des titres",
+      "Tenue centralisée des comptes",
+      "Règlement (système de règlement de titres)",
+      "Circulation par virement de compte à compte",
+      "Gestion de l'inscription en compte",
+      "Dématérialisation"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.liste.02",
+    "texte": "r04-25",
+    "type": "liste",
+    "article": "art. 12",
+    "enonce": "Teneurs de comptes assimilés",
+    "valeur_texte": "BEAC ; Trésors publics des États membres ; Chambre de compensation ; Tout organisme public habilité par la COSUMAF",
+    "items": [
+      "BEAC",
+      "Trésors publics des États membres",
+      "Chambre de compensation",
+      "Tout organisme public habilité par la COSUMAF"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.piege.01",
+    "texte": "r04-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Règlement 04/25 : 36 mois pour l'inscription en compte ; l'ancien Règlement 01/14 (limité ",
+    "valeur_texte": "Règlement 04/25 : **36 mois** pour l'inscription en compte ; l'ancien Règlement **01/14** (limité aux titres d'APE) donnait **24 mois**.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.piege.02",
+    "texte": "r04-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ne pas confondre 20 ans (conservation des souches) et 30 ans (réclamation du produit consi",
+    "valeur_texte": "Ne pas confondre **20 ans** (conservation des souches) et **30 ans** (réclamation du produit consigné).",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r04-25.piege.03",
+    "texte": "r04-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le nouveau régime couvre tous les titres émis en CEMAC, même non cotés — pas seulement ceu",
+    "valeur_texte": "Le nouveau régime couvre **tous les titres émis en CEMAC**, même **non cotés** — pas seulement ceux d'un appel public à l'épargne.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

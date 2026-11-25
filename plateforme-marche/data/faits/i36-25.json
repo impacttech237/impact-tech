@@ -1,0 +1,101 @@
+[
+  {
+    "id": "i36-25.delai.01",
+    "texte": "i36-25",
+    "type": "delai",
+    "article": "annexe, art. 7",
+    "enonce": "Mandat du commissaire aux comptes d'une SPC",
+    "valeur_texte": "3 exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i36-25.delai.02",
+    "texte": "i36-25",
+    "type": "delai",
+    "article": "annexe, art. 11",
+    "enonce": "Durée d'actif sous le minimum entraînant la dissolution d'une SPC",
+    "valeur_texte": "24 mois",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i36-25.montant.01",
+    "texte": "i36-25",
+    "type": "montant",
+    "article": "annexe, art. 2",
+    "enonce": "Seuil d'actif en dessous duquel une SPC ne peut plus racheter ses actions",
+    "valeur_texte": "le montant du capital social",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i36-25.role.01",
+    "texte": "i36-25",
+    "type": "role",
+    "article": "art. 1",
+    "enonce": "Société de placement en capital (SPC)",
+    "valeur_texte": "Société (SA ou SAS) de capital investissement, gérée en respectant l'autonomie de sa société de gestion.",
+    "acteurs": [
+      "societe-de-placement-en-capital-spc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i36-25.definition.01",
+    "texte": "i36-25",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Société de placement en capital (SPC)",
+    "valeur_texte": "Organisme de capital investissement constitué en société (SA ou SAS), dont les droits sont exprimés en actions.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i36-25.piege.01",
+    "texte": "i36-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "SPC = société de capital investissement ; SPI = société professionnelle d'investissement à",
+    "valeur_texte": "SPC = société de **capital investissement** ; SPI = société **professionnelle d'investissement à long terme** (Instruction 38-25).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

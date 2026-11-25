@@ -1,0 +1,70 @@
+{
+  "id": "tr-cemac-09",
+  "ordre": 118,
+  "type": "traite",
+  "organisme": "cemac",
+  "numero": "Traité révisé de la CEMAC",
+  "titre": "Traité révisé de la Communauté Économique et Monétaire de l'Afrique Centrale (CEMAC)",
+  "theme": "cadre",
+  "date_texte": "30 janvier 2009, Libreville",
+  "date_adoption": "2009-01-30",
+  "lieu": "Libreville",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "contexte",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\cosumaf-manquants\\09_Traite-revise-CEMAC-2009.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 21 pages), lu par OCR ; fiche de contexte : seuls les articles 1 à 13 ont été relus"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Traité fondateur de la CEMAC (six États : Cameroun, Centrafrique, Congo, Gabon, Guinée équatoriale, Tchad). Définit la mission de la Communauté, ses institutions et ses organes. Il ne traite pas directement du marché financier : celui-ci relève de la Convention UMAC (art. 31) et de l'Acte additionnel 03/01. Fiche de contexte.",
+    "essentiel": "**Mission** : promouvoir la paix et le développement harmonieux des États membres, par une **Union économique** (UEAC) et une **Union monétaire** (UMAC) (art. 2). **Cinq institutions** : UEAC, UMAC, Parlement communautaire, Cour de justice, Cour des comptes (art. 10). La **Conférence des Chefs d'État** détermine la politique de la Communauté, fixe le siège des institutions et nomme leurs dirigeants (art. 12) ; elle se réunit **au moins une fois par an** (art. 13). La COSUMAF dépend de l'**UMAC**.",
+    "retenir": [
+      "Les États membres sont le **Cameroun**, la **République centrafricaine**, le **Congo**, le **Gabon**, la **Guinée équatoriale** et le **Tchad**. Préambule",
+      "Mission essentielle : promouvoir la **paix** et le **développement harmonieux** des États, par l'institution de **deux unions** : **Union économique** et **Union monétaire**. Art. 2",
+      "La Communauté a la **personnalité juridique** ; elle est représentée par le **Président de la Commission**. Art. 3",
+      "**Cinq institutions** : l'**Union Économique de l'Afrique Centrale (UEAC)**, l'**Union Monétaire de l'Afrique Centrale (UMAC)**, le **Parlement communautaire**, la **Cour de justice**, la **Cour des comptes**. Art. 10",
+      "Organes de la Communauté : notamment la **Conférence des Chefs d'État**, le **Conseil des Ministres** et le **Comité ministériel** (liste complète à lire dans le texte). Art. 10",
+      "La **Conférence des Chefs d'État** détermine la politique de la Communauté, **fixe le siège** des institutions, organes et institutions spécialisées et **nomme et révoque leurs dirigeants**. Art. 12",
+      "La Conférence se réunit en **session ordinaire au moins une fois par an**, et en session extraordinaire à l'initiative de son Président ou à la demande d'**au moins deux de ses membres**. Art. 13"
+    ],
+    "listes": [
+      {
+        "titre": "Les cinq institutions de la CEMAC",
+        "a": "art. 10",
+        "items": [
+          "Union Économique de l'Afrique Centrale (UEAC)",
+          "Union Monétaire de l'Afrique Centrale (UMAC)",
+          "Parlement communautaire",
+          "Cour de justice",
+          "Cour des comptes"
+        ]
+      }
+    ],
+    "pieges": [
+      "La COSUMAF n'est **pas** une institution de la CEMAC citée à l'article 10 : elle est une **institution spécialisée de l'UMAC** (Convention UMAC, art. 10).",
+      "Fiche de **contexte** : seuls les articles 1 à 13 ont été relus ; ne pas s'y fier pour les autres dispositions (Parlement, Cour de justice, finances de la Communauté, etc.)."
+    ],
+    "qr": [
+      {
+        "q": "Combien d'institutions compte la CEMAC et lesquelles ?",
+        "r": "Cinq : l'UEAC, l'UMAC, le Parlement communautaire, la Cour de justice et la Cour des comptes (art. 10)."
+      },
+      {
+        "q": "Qui fixe le siège des institutions de la Communauté ?",
+        "r": "La Conférence des Chefs d'État (art. 12)."
+      }
+    ]
+  }
+}

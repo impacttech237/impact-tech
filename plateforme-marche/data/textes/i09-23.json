@@ -1,0 +1,73 @@
+{
+  "id": "i09-23",
+  "ordre": 18,
+  "type": "instruction",
+  "numero": "09-23",
+  "titre": "Conditions et procédure d'agrément du Dépositaire Central",
+  "theme": "titres",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Contenu de la demande d'agrément du Dépositaire Central (DC) défini à l'art. 119 du Règlement 01/22 : identité, services, ressources financières, plan de redressement, organisation, gouvernance, conflits, confidentialité, règlement-livraison, risques, capital, liens entre DC, règles d'accès.",
+    "essentiel": "Le DC demandeur décrit ses **services de base** (art. 121 du Règlement 01/22) et les **monnaies** traitées. Il liste les détenteurs d'**au moins 10 %** de son capital et ses participations de **10 %**. Finances : états des **3 exercices** précédents, **plan d'affaires sur 3 ans au moins**, à défaut des ressources suffisantes pour **2 ans** après l'agrément, et un **plan de redressement**. Audit interne : plan sur **3 ans**. Accusé de réception en **10 jours ouvrables**.",
+    "retenir": [
+      "S'applique au **Dépositaire Central** défini à l'**art. 119 du Règlement 01/22**. Art. 1",
+      "La demande identifie le DC, ses **activités et services**, ses responsables du **contrôle interne et de la conformité**, son **siège en zone CEMAC**, ses statuts, un **RCCM valide**, les **systèmes de règlement de titres** exploités, le PV de l'organe de direction et l'organigramme du groupe. Art. 2",
+      "Le DC liste les personnes détenant **10 % ou plus** de son capital ou de ses droits de vote, et les entités dont **il détient au moins 10 %**. Art. 2 j-k",
+      "Il précise les **services de base** de l'art. 121 du Règlement 01/22, les **monnaies** traitées (règlement sur compte de banque centrale, de DC ou d'établissement de crédit désigné) et les **États** où il veut opérer. Art. 2 l-o",
+      "Ressources financières : états financiers complets et rapports de contrôle légal des **3 exercices** précédents ; **plan d'affaires** avec scénarios sur **au moins 3 ans** ; sinon, preuve de ressources suffisantes pour **2 ans** après l'agrément. Art. 5",
+      "**Plan de redressement** : opérations critiques, scénarios de crise, déclencheurs, outils de redressement, conséquences pour les parties, caractère exécutoire. Art. 5.3",
+      "Organisation : organigramme, **politique de rémunération** (fixe et variable), gouvernance (art. 599 du RG), comités de contrôle des risques, **audit interne** avec **plan de travail sur 3 ans**, fonction de **conformité indépendante**. Art. 6-9",
+      "Honorabilité des dirigeants : déclaration solennelle (condamnations, sanctions, retrait d'agrément ou insolvabilité d'une entreprise dirigée depuis **au moins 1 an**, révocation pour inconduite…). Art. 10",
+      "Conflits d'intérêts : registre à jour, exclusion des personnes en conflit permanent du processus de décision. Art. 11",
+      "Exigences de service : **inscription comptable**, prévention et traitement des **défauts de règlement**, **intégrité de l'émission**, protection des titres des participants, **caractère définitif du règlement**, défaillance d'un participant. Art. 17-22",
+      "Risques : juridique, économique général, **opérationnel**, politique d'investissement (art. 613 du RG), **exigences de capital** (art. 122 du Règlement 01/22). Art. 23-27",
+      "La demande décrit aussi les **tarifs** (prix, rabais), la **comptabilité séparée** des coûts et recettes, les **liens avec d'autres DC** et les **règles d'accès**. Art. 15, 28-29",
+      "Accusé de réception dans les **10 jours ouvrables** ; la COSUMAF peut demander des compléments. Art. 30"
+    ],
+    "listes": [
+      {
+        "titre": "Exigences liées aux services du DC",
+        "a": "art. 17-22",
+        "items": [
+          "Inscription comptable",
+          "Dates de règlement et défauts de règlement",
+          "Intégrité de l'émission",
+          "Protection des titres des participants et de leurs clients",
+          "Caractère définitif du règlement",
+          "Défaillance d'un participant"
+        ]
+      }
+    ],
+    "pieges": [
+      "Seuil **10 %** pour l'actionnariat du DC ; **20 %** pour les principaux actionnaires d'un candidat actionnaire de la BVMAC (Instruction 08-23) ; **10 %** pour la SGO (Instruction 06-23).",
+      "**2 ans** de ressources si pas d'historique, mais plan d'affaires sur **3 ans au moins**."
+    ],
+    "qr": [
+      {
+        "q": "Que doit contenir le plan de redressement du Dépositaire Central ?",
+        "r": "Une vue d'ensemble, l'identification des opérations critiques, des scénarios de crise et des déclencheurs, les outils de redressement, l'évaluation des conséquences pour les parties et du caractère exécutoire du plan."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

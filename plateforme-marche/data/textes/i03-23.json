@@ -1,0 +1,81 @@
+{
+  "id": "i03-23",
+  "ordre": 12,
+  "type": "instruction",
+  "numero": "03-23",
+  "titre": "Agrément des agences de notation",
+  "theme": "agrement",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Procédure d'agrément des agences de notation établies en CEMAC (art. 242 du Règlement 01/22), contenu de la demande, notification des changements de dirigeants et cas de retrait d'agrément.",
+    "essentiel": "Seule une **personne morale établie en CEMAC** demande l'agrément ; il vaut dans **toute la CEMAC**. Accusé de réception en **10 jours ouvrables**, décision en **60 jours** (délai **interrompu** par une demande d'informations). Changement de dirigeants notifié **avant**, ou au plus tard **5 jours ouvrables** après si c'est impossible. Retrait si **aucune notation pendant 12 mois**.",
+    "retenir": [
+      "L'agence de notation demande l'agrément au titre de l'**article 242 du Règlement 01/22** si elle est une **personne morale établie en CEMAC**. Art. 2",
+      "L'agrément est **effectif sur tout le territoire de la CEMAC** dès son octroi ; l'agence respecte en permanence ses conditions. Art. 2",
+      "Un **groupe d'agences** mandate l'une d'elles pour déposer toutes les demandes au nom du groupe. Art. 3",
+      "Accusé de réception dans les **10 jours ouvrables**. Art. 3",
+      "Changement de l'organe de direction notifié **avant sa prise d'effet** ; si c'est impossible pour des raisons motivées, **dans les 5 jours ouvrables** qui suivent. Art. 5",
+      "Décision notifiée sur papier et électroniquement dans les **60 jours** ; le délai est **interrompu** en cas de demande d'informations complémentaires. Art. 6",
+      "Retrait d'agrément si l'agence : **renonce** ou **n'a émis aucune notation pendant 12 mois** ; a obtenu l'agrément par **fausses déclarations** ; ne remplit plus les conditions ; a enfreint **gravement ou à plusieurs reprises** l'instruction. Art. 7",
+      "La demande précise notamment la **classe de notations** visée, l'actionnariat, la gouvernance, les **méthodes de notation**, la gestion des **conflits d'intérêts**, les analystes, la rémunération, l'externalisation et le **système d'aval**. Annexe II"
+    ],
+    "listes": [
+      {
+        "titre": "Cas de retrait de l'agrément d'une agence de notation",
+        "a": "art. 7",
+        "items": [
+          "Renonciation expresse ou aucune notation depuis 12 mois",
+          "Agrément obtenu par fausses déclarations ou moyen irrégulier",
+          "Conditions d'agrément plus remplies",
+          "Infraction grave ou répétée à l'instruction"
+        ]
+      },
+      {
+        "titre": "Principales informations de la demande (annexe II)",
+        "a": "annexe II",
+        "items": [
+          "Nom, siège en CEMAC, contact et responsable de la conformité",
+          "Statut juridique et classe de notations visée",
+          "Actionnariat, organisation et gouvernance",
+          "Ressources financières et effectifs",
+          "Méthodes et procédures de notation",
+          "Politique de conflits d'intérêts",
+          "Analystes, rémunération, évaluation des performances",
+          "Autres services, programme d'activités, succursales",
+          "Système d'aval et externalisation"
+        ]
+      }
+    ],
+    "pieges": [
+      "Règlement 01/22 (art. 242) : l'agence informe la COSUMAF d'une modification de son agrément **au plus tard 5 jours ouvrés** ; l'Instruction 03-23 reprend **5 jours ouvrables** pour une notification de dirigeants qui n'a pas pu être faite à l'avance.",
+      "Retrait pour inactivité : **12 mois sans notation** (agence) ; pour un intermédiaire de marché, c'est **6 mois sans activité** ou **12 mois** sans usage de l'agrément."
+    ],
+    "qr": [
+      {
+        "q": "Dans quels cas la COSUMAF peut-elle retirer l'agrément d'une agence de notation ?",
+        "r": "Renonciation ou absence de notation pendant 12 mois, agrément obtenu par fausses déclarations, conditions plus remplies, infractions graves ou répétées (art. 7)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

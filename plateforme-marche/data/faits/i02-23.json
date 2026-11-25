@@ -1,0 +1,298 @@
+[
+  {
+    "id": "i02-23.delai.01",
+    "texte": "i02-23",
+    "type": "delai",
+    "article": "art. 2.4, 21.1",
+    "enonce": "Période de performances passées à présenter dans une information ou une publicité",
+    "valeur_texte": "5 dernières années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Ou depuis la création si moins de 5 ans, par tranches complètes de 12 mois.",
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.delai.02",
+    "texte": "i02-23",
+    "type": "delai",
+    "article": "art. 12",
+    "enonce": "Avis de confirmation de l'exécution d'un ordre (hors gestion sous mandat)",
+    "valeur_texte": "au plus tard le 1er jour ouvrable suivant",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.delai.03",
+    "texte": "i02-23",
+    "type": "delai",
+    "article": "art. 12",
+    "enonce": "Information sur les ordres périodiques sur actions ou parts d'OPC",
+    "valeur_texte": "au moins une fois par semestre",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.delai.04",
+    "texte": "i02-23",
+    "type": "delai",
+    "article": "art. 13",
+    "enonce": "Périodicité du relevé de gestion sous mandat",
+    "valeur_texte": "mensuelle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Sauf accès en ligne consulté au moins une fois par trimestre.",
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.delai.05",
+    "texte": "i02-23",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Périodicité du relevé des instruments et fonds des clients détenus",
+    "valeur_texte": "mensuelle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.delai.06",
+    "texte": "i02-23",
+    "type": "delai",
+    "article": "art. 19",
+    "enonce": "Période minimale d'un classement présenté dans une publicité",
+    "valeur_texte": "12 mois (ou un multiple)",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.role.01",
+    "texte": "i02-23",
+    "type": "role",
+    "article": "art. 2-16",
+    "enonce": "Intermédiaire de marché",
+    "valeur_texte": "Informe clients et public de façon exacte et non trompeuse, catégorise ses clients, communique coûts, avis d'exécution et relevés, fait approuver ses publicités.",
+    "acteurs": [
+      "intermediaire-de-marche"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.role.02",
+    "texte": "i02-23",
+    "type": "role",
+    "article": "art. 16, 18.3",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Approuve préalablement les documents commerciaux portant sur un service ou instrument financier précis ; ne doit jamais être présentée comme caution d'un produit.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.definition.01",
+    "texte": "i02-23",
+    "type": "definition",
+    "article": "art. 4",
+    "enonce": "Support durable",
+    "valeur_texte": "Tout instrument permettant au client de stocker les informations qui lui sont adressées, de les consulter ultérieurement et de les reproduire à l'identique.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.definition.02",
+    "texte": "i02-23",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Client qualifié (averti)",
+    "valeur_texte": "Client qui répond aux caractéristiques de l'investisseur qualifié (art. 89 du Règlement 01/22) : compétences et moyens pour comprendre les risques.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.definition.03",
+    "texte": "i02-23",
+    "type": "definition",
+    "article": "art. 15",
+    "enonce": "Communication publicitaire",
+    "valeur_texte": "Tout message promotionnel sur un service ou instrument financier, quel que soit le support (presse, internet, vidéo, réseaux sociaux, documents individuels, communications de tiers).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.definition.04",
+    "texte": "i02-23",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "Coûts de transfert",
+    "valeur_texte": "Coûts supportés par l'investisseur s'il change d'intermédiaire de marché.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.definition.05",
+    "texte": "i02-23",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "Commission de courtage",
+    "valeur_texte": "Coûts facturés par les intermédiaires pour l'exécution des ordres.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.liste.01",
+    "texte": "i02-23",
+    "type": "liste",
+    "article": "art. 15",
+    "enonce": "Ce qui n'est pas une communication publicitaire",
+    "valeur_texte": "Documents juridiques et réglementaires (prospectus, DIS, rapports d'OPC, statuts, avis d'AG) ; Communications d'entreprise sans référence à un produit précis (résultats, dividendes, nominations) ; Messages courts en ligne contenant seulement un lien vers une publicité",
+    "items": [
+      "Documents juridiques et réglementaires (prospectus, DIS, rapports d'OPC, statuts, avis d'AG)",
+      "Communications d'entreprise sans référence à un produit précis (résultats, dividendes, nominations)",
+      "Messages courts en ligne contenant seulement un lien vers une publicité"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.liste.02",
+    "texte": "i02-23",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "Informations générales dues aux clients",
+    "valeur_texte": "Raison sociale, adresse, coordonnées ; Langues de communication ; Modes de communication et de transmission des ordres ; Mention de l'agrément et nom et adresse de la COSUMAF ; Nature et fréquence des rapports de performance ; Protection des actifs des clients et dispositifs de garantie ; Politique de conflits d'intérêts",
+    "items": [
+      "Raison sociale, adresse, coordonnées",
+      "Langues de communication",
+      "Modes de communication et de transmission des ordres",
+      "Mention de l'agrément et nom et adresse de la COSUMAF",
+      "Nature et fréquence des rapports de performance",
+      "Protection des actifs des clients et dispositifs de garantie",
+      "Politique de conflits d'intérêts"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.piege.01",
+    "texte": "i02-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "La COSUMAF approuve les publicités sur un produit précis, mais son agrément ne doit jamais",
+    "valeur_texte": "La COSUMAF **approuve** les publicités sur un produit précis, mais son agrément ne doit **jamais** servir d'argument de vente.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.piege.02",
+    "texte": "i02-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Performances passées : 5 ans et tranches de 12 mois ; classement : au moins 12 mois.",
+    "valeur_texte": "Performances passées : **5 ans** et tranches de **12 mois** ; classement : au moins **12 mois**.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i02-23.piege.03",
+    "texte": "i02-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Relevés mensuels sauf accès en ligne consulté au moins une fois par trimestre.",
+    "valeur_texte": "Relevés **mensuels** sauf accès en ligne consulté **au moins une fois par trimestre**.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

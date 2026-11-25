@@ -1,0 +1,83 @@
+{
+  "id": "i44-25",
+  "ordre": 53,
+  "type": "instruction",
+  "numero": "44-25",
+  "titre": "Obligations d'information des émetteurs faisant appel public à l'épargne",
+  "theme": "ape",
+  "date_texte": "15 décembre 2025",
+  "date_adoption": "2025-12-15",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [
+    "i30-24"
+  ],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Informations périodiques, permanentes et occasionnelles des émetteurs APE (art. 201 et suivants du Règlement général). Abroge l'Instruction 30-24.",
+    "essentiel": "Reprend l'Instruction 30-24 qu'elle **abroge** : rapport **annuel** au plus tard le **15 juillet N+1** (en ligne **5 ans**), rapports **contrôle interne et LBC/FT** au **30 mars**, **semestriel** à **2 mois**, **déclarations intermédiaires** (fenêtre **10 semaines / 6 semaines**). Ajoute : informer la COSUMAF des projets de modification des statuts, de la **répartition du capital**, des **décisions judiciaires** ; informer les actionnaires ; obligations **vertes, sociales et durables** ; **communiqué** immédiat en cas de changement important (secret possible avec **autorisation** de la COSUMAF) ; encarts de presse soumis à la COSUMAF, **10 jours ouvrés** pour réagir, sinon **réputés autorisés**.",
+    "retenir": [
+      "Prise en application des **art. 201 et suivants du RG** ; vise sociétés, **États et démembrements** et personnes morales de l'art. 74 du Règlement 01/22. Art. 1",
+      "**Rapport financier annuel** de N au plus tard le **15 juillet de N+1**, en ligne **5 ans** au moins (états certifiés, rapports du CAC, rapport de gestion, PV d'AG, déclarations des responsables). Art. 2",
+      "**Rapports de contrôle interne** et de **contrôle LBC/FT** au plus tard le **30 mars**. Art. 2.5",
+      "**Rapport semestriel** au plus tard **2 mois** après le semestre, disponible **5 ans**. Art. 3",
+      "**Déclarations intermédiaires de la direction** (actions cotées) : une par semestre, entre **10 semaines** après le début et **6 semaines** avant la fin ; dispense si rapports **trimestriels**. Art. 4",
+      "**États et collectivités** : exemptés des art. 2 à 4, mais **4 notes annuelles** pendant l'amortissement de leurs emprunts. Art. 5-6",
+      "Publication **gratuite** sur un espace dédié du site de l'émetteur ; copie à la COSUMAF par e-mail. Art. 7",
+      "Information de la **COSUMAF** : projets de modification des documents légaux, changements dans la **répartition du capital**, **décisions judiciaires** affectant l'émetteur. Art. 8",
+      "Information des **actionnaires** : assemblées et droit de vote, **dividendes**, émissions, attributions, souscriptions, conversions. Art. 9",
+      "**Obligations vertes, sociales et durables** : pendant toute leur vie, l'émetteur publie la procédure de **suivi** des projets, de **sélection**, l'**allocation des fonds** et le **rapport d'évaluation externe**. Art. 10",
+      "Public : publier **sans délai** toute modification des droits attachés aux titres et tout **fait nouveau important** ; émetteur coté : **communiqué de presse** dès un changement susceptible d'influencer le cours, copie immédiate à la COSUMAF. Art. 11",
+      "Le communiqué peut être différé (risque de **préjudice grave**, secret justifié) seulement avec l'**autorisation préalable** de la COSUMAF ; la COSUMAF peut **publier elle-même** aux frais de l'émetteur défaillant. Art. 11",
+      "Encarts et annonces de presse communiqués **préalablement** à la COSUMAF, qui a **10 jours ouvrés** pour demander des modifications ; passé ce délai, l'autorisation est **réputée accordée**. Art. 11",
+      "**Abroge** l'Instruction **30-24** du 28 novembre 2024. Art. 12"
+    ],
+    "listes": [
+      {
+        "titre": "Informations spécifiques aux obligations vertes, sociales et durables",
+        "a": "art. 10",
+        "items": [
+          "Procédure de suivi et de contrôle des projets",
+          "Procédures d'évaluation et de sélection des projets",
+          "Allocation des fonds levés",
+          "Rapport d'évaluation externe"
+        ]
+      },
+      {
+        "titre": "Ce que l'émetteur signale à la COSUMAF (information permanente)",
+        "a": "art. 8",
+        "items": [
+          "Projets de modification des documents légaux internes",
+          "Modifications de la répartition du capital",
+          "Décisions judiciaires l'affectant"
+        ]
+      }
+    ],
+    "pieges": [
+      "L'Instruction **44-25 abroge la 30-24** : citer 44-25 pour l'information des émetteurs.",
+      "Encart de presse : silence de la COSUMAF pendant **10 jours ouvrés** = **autorisation**."
+    ],
+    "qr": [
+      {
+        "q": "Un émetteur coté peut-il retarder un communiqué sur un événement important ?",
+        "r": "Oui, si la diffusion ferait courir un risque de préjudice grave ou si le secret est justifié, mais seulement avec l'autorisation préalable de la COSUMAF ; dès que le secret n'est plus justifié, il publie sous son contrôle."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

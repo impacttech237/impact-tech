@@ -1,0 +1,177 @@
+[
+  {
+    "id": "lc-001-26.delai.01",
+    "texte": "lc-001-26",
+    "type": "delai",
+    "article": "lettre",
+    "enonce": "Diligences d'agrément des dirigeants après la lettre circulaire",
+    "valeur_texte": "3 mois à compter de la date de signature (19 février 2026)",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.delai.02",
+    "texte": "lc-001-26",
+    "type": "delai",
+    "article": "Instruction 46-25, art. 6",
+    "enonce": "Accusé de réception d'une demande d'agrément de dirigeant",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.delai.03",
+    "texte": "lc-001-26",
+    "type": "delai",
+    "article": "Instruction 46-25, art. 6",
+    "enonce": "Instruction d'un dossier complet d'agrément de dirigeant",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.delai.04",
+    "texte": "lc-001-26",
+    "type": "delai",
+    "article": "Instruction 46-25, art. 11",
+    "enonce": "Remplacement d'un dirigeant dont l'agrément est retiré",
+    "valeur_texte": "3 mois au plus",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.montant.01",
+    "texte": "lc-001-26",
+    "type": "montant",
+    "article": "Instruction 46-25, art. 5",
+    "enonce": "Frais d'instruction d'un dossier d'agrément de dirigeant",
+    "valeur_texte": "250 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 250000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.role.01",
+    "texte": "lc-001-26",
+    "type": "role",
+    "article": "Instruction 46-25, art. 7",
+    "enonce": "Collège de la COSUMAF (agrément des dirigeants)",
+    "valeur_texte": "Décide l'octroi ou le refus d'agrément, de façon motivée, après examen et éventuelle audition du dirigeant.",
+    "acteurs": [
+      "college-de-la-cosumaf-agrement-des-dirigeants"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.liste.01",
+    "texte": "lc-001-26",
+    "type": "liste",
+    "article": "Instruction 46-25, art. 2",
+    "enonce": "Structures dont les dirigeants doivent être agréés",
+    "valeur_texte": "Entreprise de marché ; Dépositaire central ; Chambre de compensation ; Sociétés de bourse ; Dépositaires d'OPC ; Teneurs de comptes ; Sociétés de gestion ; Conseillers en investissements financiers ; Conseillers en financement participatif ; Prestataires de services sur actifs numériques",
+    "items": [
+      "Entreprise de marché",
+      "Dépositaire central",
+      "Chambre de compensation",
+      "Sociétés de bourse",
+      "Dépositaires d'OPC",
+      "Teneurs de comptes",
+      "Sociétés de gestion",
+      "Conseillers en investissements financiers",
+      "Conseillers en financement participatif",
+      "Prestataires de services sur actifs numériques"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.piege.01",
+    "texte": "lc-001-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "La lettre est datée du 19 février 2026, mais la médiathèque de la COSUMAF la publie sous l",
+    "valeur_texte": "La lettre est datée du **19 février 2026**, mais la médiathèque de la COSUMAF la publie sous la date du **2 juin 2026** : citer la date de la lettre.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.piege.02",
+    "texte": "lc-001-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Elle est numérotée « N°0001-2026 » dans le scan et « N°001-2026 » sur le site de la COSUMA",
+    "valeur_texte": "Elle est numérotée **« N°0001-2026 »** dans le scan et **« N°001-2026 »** sur le site de la COSUMAF.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-26.piege.03",
+    "texte": "lc-001-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le détail de l'agrément est dans l'Instruction 46-25 (fiche i46-25) ; la lettre ne fixe qu",
+    "valeur_texte": "Le détail de l'agrément est dans l'**Instruction 46-25** (fiche **i46-25**) ; la lettre ne fixe que le **délai de 3 mois** pour s'y conformer.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

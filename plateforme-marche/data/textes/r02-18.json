@@ -1,0 +1,84 @@
+{
+  "id": "r02-18",
+  "ordre": 123,
+  "type": "reglement",
+  "organisme": "cemac",
+  "numero": "02/18/CEMAC/UMAC/CM",
+  "titre": "Règlement n° 02/18/CEMAC/UMAC/CM portant réglementation des changes dans la CEMAC",
+  "theme": "change",
+  "date_texte": "21 décembre 2018, Yaoundé",
+  "date_adoption": "2018-12-21",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "partielle",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-reglement-n02-18-cemac-umac-cm-portant-reglementation-des-changes-dans-la-cemac.pdf",
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-reglement-n02-18-cemac-umac-cm-portant-reglementation-des-changes-dans-la-cemac.pdf",
+    "origine": "PDF officiel de la BVMAC (texte lisible, 42 pages, plus de 180 articles) ; fiche partielle : le titre IV (opérations financières et en capital, articles 97 à 138) a été relu en entier, le reste n'est que résumé d'après le plan"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Règlement du Comité ministériel de l'UMAC, adopté le 21 décembre 2018 à Yaoundé après avis conforme du Conseil d'administration de la BEAC (19 décembre 2018), sur proposition du Gouverneur de la BEAC. Fixe la réglementation des changes dans la CEMAC : organisation administrative (BEAC, ministère en charge de la monnaie et du crédit, COBAC, intermédiaires agréés), comptes de résidents et de non-résidents, transactions courantes, opérations financières et en capital (valeurs mobilières étrangères, emprunts, prêts, investissements directs et de portefeuille), couverture du risque de change, contrôles et sanctions. La fiche détaille surtout les opérations touchant les valeurs mobilières (titre IV).",
+    "essentiel": "Opérations financières et en capital avec l'extérieur **libres sous réserve du règlement** (art. 97). **Valeurs mobilières étrangères** : moins de **50 millions FCFA** : **déclaration préalable** à la BEAC et au régulateur du marché financier ; au-delà : **autorisation préalable de la BEAC** (art. 100-101). **Emprunts auprès de non-résidents** : déclaration **30 jours avant** (art. 105). **Prêts aux non-résidents** : autorisation préalable de la BEAC (art. 112). **Acquisition de valeurs mobilières CEMAC par des non-résidents** : **libre** (art. 133) ; transfert à l'étranger du produit d'une cession **supérieure à 100 millions FCFA** : déclaration **30 jours avant** (art. 134).",
+    "retenir": [
+      "Les opérations financières et en capital entre la CEMAC et l'extérieur sont **libres**, sous réserve du règlement ; les **établissements de crédit vérifient l'origine, la nature et la destination des fonds**. Art. 97",
+      "La **cession de valeurs mobilières étrangères** et les autres opérations en capital **entre résidents de la CEMAC** ne sont **pas soumises à autorisation**. Art. 98",
+      "Les fonds collectés dans la CEMAC par une **émission de valeurs mobilières d'un non-résident** doivent financer **prioritairement les investissements dans la sous-région**. Art. 99",
+      "Valeurs mobilières étrangères **inférieures à 50 millions FCFA** : émission, publicité, mise en vente ou cession font l'objet d'une **déclaration préalable** à la Banque centrale et au **régulateur du marché financier**. Art. 100",
+      "Valeurs mobilières étrangères **au-delà de 50 millions FCFA** : **autorisation préalable de la BEAC**, qui informe le ministère, **sans préjudice de l'avis conforme du régulateur** du marché financier. Art. 101",
+      "Le **transfert à l'extérieur du produit** d'une émission de valeurs étrangères faite dans la CEMAC exige l'**autorisation de la BEAC**. Art. 102",
+      "Les résidents sont **libres d'emprunter** auprès de non-résidents ; les **émissions de valeurs mobilières hors CEMAC** par des résidents sont des **emprunts**. Art. 103-104",
+      "Emprunts auprès de non-résidents : **déclaration 30 jours avant** la réalisation au ministère en charge de la monnaie et du crédit et à la BEAC ; **30 jours après**, transmission des justificatifs d'effectivité. Art. 105-106",
+      "Les **prêts aux non-résidents** par des personnes morales résidentes sont soumis à **autorisation préalable de la BEAC** ; les remboursements encaissés sont déclarés **dans les 30 jours**, rapatriés et rétrocédés à la Banque centrale. Art. 112 et 115",
+      "**Investissements directs entrants** : les réinvestissements de bénéfices non distribués sont déclarés **dans les 30 jours** suivant l'opération. Art. 120",
+      "**Investissements directs sortants** des résidents : **autorisation préalable de la BEAC** ; produit de liquidation non réinvesti **rapatrié sous 30 jours** par un intermédiaire agréé. Art. 123 et 128",
+      "**Investissements de portefeuille entrants** sous forme de prise de participation : déclarés **30 jours au moins avant** leur réalisation. Art. 129",
+      "**Acquisition de valeurs mobilières CEMAC par des non-résidents : libre**. Art. 133",
+      "**Transfert hors CEMAC par un non-résident du produit de cession de valeurs mobilières CEMAC supérieur à 100 millions FCFA** : **déclaration 30 jours avant** à la Banque centrale et au ministère. Art. 134",
+      "**Investissements de portefeuille sortants** au-dessus d'un seuil fixé par Instruction de la BEAC : **autorisation préalable** ; en dessous : déclaration **30 jours avant**. Art. 136",
+      "Les **établissements de crédit** peuvent investir pour compte propre en valeurs mobilières à l'étranger, sous **déclaration au plus tard 30 jours après**. Art. 138"
+    ],
+    "listes": [
+      {
+        "titre": "Opérations en valeurs mobilières libres ou sans autorisation",
+        "a": "art. 98, 103, 133",
+        "items": [
+          "Cession de valeurs mobilières étrangères entre résidents de la CEMAC",
+          "Emprunts des résidents auprès d'entités non-résidentes (sous déclaration)",
+          "Acquisition de valeurs mobilières CEMAC par des non-résidents"
+        ]
+      }
+    ],
+    "pieges": [
+      "Fiche **partielle** : seul le **titre IV** (articles 97 à 138) a été relu en entier. Les comptes, les transactions courantes, la couverture du risque de change et les sanctions ne sont **pas détaillés** ici.",
+      "**50 millions** : en dessous, simple **déclaration** (à la BEAC et au régulateur du marché financier) ; au-dessus, **autorisation préalable** de la BEAC avec avis conforme du régulateur.",
+      "**100 millions** : seuil du **transfert à l'étranger du produit de cession** de valeurs CEMAC par un non-résident, qui est soumis à une **déclaration 30 jours avant** ; l'**acquisition** de valeurs CEMAC par des non-résidents reste **libre**.",
+      "Les délais de **30 jours** sont **avant** pour les emprunts, les prises de participation entrantes et les transferts supérieurs à 100 M, et **après** pour les remboursements et les investissements en compte propre des établissements de crédit.",
+      "Le règlement vise l'ancien **Règlement 01/CEMAC/UMAC/CM du 11 avril 2016** sur la prévention du blanchiment ; l'**article 121** (transfert du produit de cession d'un investissement direct entrant) mentionne un délai de **30 jours** dont le sens (avant ou après) n'est pas lisible : vérifier dans le PDF."
+    ],
+    "qr": [
+      {
+        "q": "Quel seuil sépare déclaration et autorisation pour une valeur mobilière étrangère ?",
+        "r": "50 millions de FCFA : en dessous, déclaration préalable à la BEAC et au régulateur du marché financier ; au-dessus, autorisation préalable de la BEAC (art. 100-101)."
+      },
+      {
+        "q": "Un non-résident peut-il acheter des valeurs mobilières CEMAC ?",
+        "r": "Oui, c'est libre (art. 133). Le transfert à l'étranger du produit d'une cession supérieure à 100 millions de FCFA doit être déclaré 30 jours avant (art. 134)."
+      },
+      {
+        "q": "Quelle formalité pour un emprunt auprès d'un non-résident ?",
+        "r": "Une déclaration 30 jours avant la réalisation au ministère en charge de la monnaie et du crédit et à la BEAC (art. 105)."
+      }
+    ]
+  }
+}

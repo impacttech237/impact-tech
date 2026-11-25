@@ -1,0 +1,113 @@
+{
+  "id": "rg-23",
+  "ordre": 6,
+  "type": "reglement_general",
+  "numero": "COSUMAF (2023)",
+  "titre": "Règlement général de la COSUMAF : habilitation, pénalités, intermédiaires, OPC, ratios",
+  "theme": "cadre",
+  "date_texte": "23 mai 2023",
+  "date_adoption": "2023-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le texte d'application du Règlement 01/22 qui contient les règles de fonctionnement au quotidien : habilitation et cartes professionnelles, pénalités de retard, LBC/FT, déroulement d'un APE, offres publiques, capital et règles prudentielles des intermédiaires, organisation et contrôle interne, OPCVM et leurs ratios d'investissement, FIA (OPCI, capital investissement, OPI), sociétés de gestion, dépositaires, organismes centraux. (Source : dossier « Preparation COSUMAF ».)",
+    "essentiel": "Les **chiffres du quotidien** : intermédiaire **300 M** de capital (**1 Md** s'il est dépositaire d'OPC), fonds propres jamais **sous le capital**, **70 %** de l'activité dans les services agréés, prêts aux dirigeants **≤ 20 %** des fonds propres. OPCVM : **20 %** par émetteur, **35 %** par groupe, **40 %** par État, **60 %** tous États CEMAC, **20 %** de liquidités, **15 %** hors CEMAC, **10 %** non coté, **20 %** par OPC. Pénalités : **250 000 FCFA/jour** de retard à la COSUMAF, **500 000/jour** au public. Habilitation **3 ans**, à obtenir dans les **6 mois** (examen dans les **12 mois**).",
+    "retenir": [
+      "**Habilitation** : fonctions de contrôleur interne/conformité, négociateur, CIF, analyste, gérant, responsable back office, responsable de la fonction dépositaire, responsable des risques. Examen **au moins 2 fois par an** ; habilitation de **3 ans**, renouvelée **par examen**. Art. 12-28",
+      "La structure fait habiliter son personnel dans les **6 mois** de sa prise de fonctions ; un nouvel embauché a **12 mois** pour passer l'examen ; vérification des compétences **au moins une fois par an**. Art. 15, 22",
+      "Retrait d'habilitation si cessation de fonctions **≥ 6 mois** (pas si maladie ou formation de moins de **12 mois**) ; un **licenciement** fait perdre l'habilitation. Art. 30",
+      "**Pénalités de retard** (par jour) : information au public **500 000** ; rapport de clôture d'APE au public **5 000 000** ; document à la COSUMAF **250 000** ; injonction **500 000** ; rapport de clôture à l'émetteur et à la COSUMAF **750 000** ; fonds d'APE non remis à l'émetteur **10 000 000**. Répartition : **30 %** Fonds de garantie, **30 %** développement du marché, **40 %** COSUMAF. Art. 31-34",
+      "LBC/FT : déclaration de soupçon **immédiate à l'ANIF** (écrite, ou verbale selon instruction) ; conservation **10 ans** ; PPE : autorisation de la **haute direction**, origine du patrimoine et des fonds, surveillance renforcée. Art. 105-110",
+      "APE : instruction du visa en **60 jours ouvrés** (+**30** si investigations) ; diffusion dans les **90 jours** ; prise ferme libérée au plus tard **3 jours calendaires** après l'ouverture ; placement terminé **90 jours** au plus après l'ouverture ; fonds virés et rapport de clôture en **8 jours calendaires** ; admission à la cote dans les **30 jours**. Art. 157-180",
+      "Offres publiques : durée **≤ 45 jours calendaires** ; offre concurrente au moins **10 jours** avant la fin de l'offre initiale et à meilleur prix ; franchir **1/3** du capital oblige à déposer une **OPA sur la totalité** ; entre **1/3 et 1/2**, toute variation est déclarée ; retrait à **95 %** ; renoncer à une offre interdit d'en déposer une pendant **6 mois**. Art. 212-237",
+      "**Intermédiaires** : agrément en **60 jours ouvrés** (avis préalable de la **BVMAC** pour une SDB, du **Dépositaire Central** pour la tenue de compte) ; **2 dirigeants** effectifs au moins ; **70 %** de l'activité consacrée aux services agréés. Art. 242-250",
+      "**Capital minimum** d'un intermédiaire : **300 millions FCFA** libérés ; **1 milliard** pour une SDB **dépositaire d'OPC** ou **spécialiste en valeurs du Trésor** ; fonds propres **≥ capital** ; reconstitution avant la **clôture de l'exercice** ; prêts aux dirigeants, actionnaires et personnel **≤ 20 %** des fonds propres, entièrement garantis. Art. 265-270",
+      "Participations obligatoires : SDB **≥ 40 millions** dans le capital de la **BVMAC** ; teneurs de compte **≥ 20 millions** dans le capital du **Dépositaire Central**. Art. 272-273",
+      "Administrateur provisoire : mission **18 mois** maximum ; rapport **hebdomadaire** à la COSUMAF. Art. 252-254",
+      "**RCCI** : indépendant, carte professionnelle, recommandations contraignantes, rapport annuel **3 mois** après la clôture, veille à la **priorité des ordres clients** sur le compte propre. Art. 287-288",
+      "**Enregistrement** des conversations et messages liés aux transactions, conservé **10 ans** ; client prévenu ; pas d'équipement privé. Art. 291-294",
+      "**Clients** : convention écrite avant tout service ; relevé **au moins trimestriel** ; profil (connaissances, capacité à subir des pertes…) ; ordre groupé partiellement exécuté servi **d'abord au client** ; interdiction d'utiliser les titres des clients. Art. 298-310",
+      "**OPCVM** : agrément **60 jours ouvrés**, constitution dans les **30 jours** ; résultat net et **sommes distribuables payées 5 mois** au plus tard après la clôture ; suspension des émissions/rachats quand l'actif atteint la **moitié du minimum** ; remplacement du gestionnaire ou du dépositaire après préavis de **2 mois**. Art. 361-389",
+      "**Classification OPCVM** : Actions (**≥ 60 %** actions cotées BVMAC), Obligations (**≥ 60 %** titres de créance), Monétaire (**≥ 60 %** maturité < **2 ans**), Diversifié (aucune classe **> 60 %**), Contractuel (garantie ou protection). Art. 409",
+      "**Ratios OPCVM** : **20 %** par émetteur (**35 %** si indiciel) ; **35 %** par groupe ; **40 %** titres d'un État CEMAC, **60 %** pour l'ensemble des États ; contrepartie dérivés **10 %** (banque) ou **5 %** ; **20 %** par OPC détenu, **30 %** en OPC non-OPCVM ; liquidités **20 %** ; hors CEMAC **15 %** ; non cotés **10 %** ; dépôts à **12 mois** maximum ; dérogation de **6 mois** après l'agrément. Art. 410-416",
+      "**OPCI** : actif minimum **300 M** (liquidation après **24 mois** en dessous) ; **70 %** d'immobilier ; emprunts **≤ 30 %** des actifs (régularisation en **1 an**) ; VL **au moins annuelle** ; rapport semestriel en **45 jours** ; OPCI réservé : **20 investisseurs** au plus ; SG d'OPCI : capital **300 M**. Art. 435-461",
+      "**Capital investissement** : **60 %** en titres de sociétés CEMAC ; actif minimum **300 M** (liquidation après **24 mois**) ; emprunt seulement si situation nette positive et **autorisation** ; SG : capital et fonds propres **300 M** ; CAC pour **3 exercices**. Art. 472-482",
+      "**OPI** : fonds fermés d'**investisseurs institutionnels** finançant à long terme infrastructures, sociétés non cotées et PME cotées ; **70 %** en actifs éligibles. Art. 483-491",
+      "**Société de gestion d'OPC** : siège en CEMAC, capital **300 M** libéré et fonds propres nets **≥ 300 M** ; agrément **60 jours ouvrés** ; politique de liquidité revue **au moins une fois par an** ; **simulations de crise** au moins **annuelles** ; politique d'évaluation revue chaque année. Art. 496-511",
+      "**Dépositaire** : rapprochement des mouvements de liquidités **au moins quotidien**. Art. 520",
+      "**Règlement-livraison** : dès l'exécution, l'acheteur doit **payer** et le vendeur **livrer** ; interdiction de vendre à découvert (titres non disponibles) ; compte-titres jamais **débiteur** à la date de règlement. Art. 331, 594-596",
+      "**Conservation des enregistrements** : Dépositaire Central **5 ans** ; chambre de compensation **10 ans**. Art. 614, 652"
+    ],
+    "listes": [
+      {
+        "titre": "Fonctions soumises à carte professionnelle",
+        "a": "art. 14",
+        "items": [
+          "Contrôleur interne et conformité",
+          "Négociateur pour compte propre et de tiers",
+          "Conseiller en investissement financier",
+          "Analyste financier",
+          "Gérant de portefeuille",
+          "Responsable back office ou post-marché",
+          "Responsable de la fonction dépositaire",
+          "Responsable de la gestion des risques"
+        ]
+      },
+      {
+        "titre": "Les 5 catégories d'OPCVM",
+        "a": "art. 409",
+        "items": [
+          "Actions (≥ 60 % actions cotées)",
+          "Obligations et autres titres de créance (≥ 60 %)",
+          "Monétaire (≥ 60 % à moins de 2 ans)",
+          "Diversifié (aucune classe au-delà de 60 %)",
+          "Contractuel (garantie ou protection)"
+        ]
+      },
+      {
+        "titre": "Outils de liquidité en conditions exceptionnelles",
+        "a": "art. 355",
+        "items": [
+          "Frais de sortie supplémentaires",
+          "Échelonnement des remboursements (gates)",
+          "Écart entre cours d'achat et de vente"
+        ]
+      }
+    ],
+    "pieges": [
+      "Conservation LBC/FT : **10 ans** dans le Règlement général, **5 ans** dans l'Instruction 32-24 — citer la source.",
+      "Capital : **300 M** pour un intermédiaire, mais **1 milliard** pour une SDB **dépositaire d'OPC** ou **SVT**.",
+      "Un OPCVM « Actions » exige **60 %** d'actions **cotées à la BVMAC** (hors liquidités), pas 50 %.",
+      "OPCI : **300 M** minimum dans le **Règlement général** (art. 442) contre **150 M** dans le règlement type du FCPI (Instruction 16-24).",
+      "**1/3** du capital = OPA obligatoire ; **95 %** = offre publique de retrait."
+    ],
+    "qr": [
+      {
+        "q": "Quels ratios de diversification s'imposent à un OPCVM ?",
+        "r": "20 % maximum par émetteur (35 % si indiciel), 35 % par groupe, 40 % sur les titres d'un même État CEMAC et 60 % sur l'ensemble des États, 20 % par OPC détenu et 30 % en OPC non-OPCVM, 20 % de liquidités, 15 % hors CEMAC et 10 % de non cotés (avec autorisation)."
+      },
+      {
+        "q": "Que se passe-t-il quand les fonds propres d'un intermédiaire passent sous son capital minimum ?",
+        "r": "Il doit les reconstituer au plus tard à la clôture de l'exercice au cours duquel les pertes ont été constatées (art. 269)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

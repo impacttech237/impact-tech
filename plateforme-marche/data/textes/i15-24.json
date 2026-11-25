@@ -1,0 +1,78 @@
+{
+  "id": "i15-24",
+  "ordre": 24,
+  "type": "instruction",
+  "numero": "15-24",
+  "titre": "Dossier de demande d'agrément des OPCI (organismes de placement collectif immobilier)",
+  "theme": "opc",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Procédure d'agrément d'un OPCI (FCPI ou SPI) en application de l'art. 438 du Règlement général : dossier, instruction, commissaire aux comptes, experts en évaluation immobilière, dépôt des fonds, modifications en cours de vie et information des porteurs.",
+    "essentiel": "Dossier en **3 exemplaires + électronique**, signé par une personne habilitée. Accusé de réception en **10 jours ouvrés**, instruction en **60 jours ouvrés** (suspendue par les demandes) ; dossier incomplet renvoyé après **30 jours**. Attestation de dépôt des fonds (FCPI) ou certificat de dépôt du capital (SPI) au plus tard **30 jours calendaires** après la constitution, sinon **nullité** (réponse à une prorogation en **8 jours ouvrés**). Modification : entrée en vigueur **3 jours ouvrés** après l'information ; fusion : **30 jours calendaires + 5 jours ouvrables** ; sortie sans frais pendant **6 mois** (ramenable à 2 ou 3 mois).",
+    "retenir": [
+      "Instruction prise en application de l'**art. 438 du Règlement général** de la COSUMAF. Art. 1",
+      "La constitution d'un OPCI ou d'un **compartiment** est soumise à l'**agrément** ; la commercialisation n'intervient qu'**après** l'agrément. Art. 3",
+      "Dossier : **fiche d'agrément** (annexe I), pièces jointes, **lettre d'engagement** (annexe II) ; **3 exemplaires** papier + version électronique ; signé par un dirigeant de la SPI ou de la société de gestion, ou une personne habilitée. Art. 3-4",
+      "Accusé de réception en **10 jours ouvrés** précisant la date d'expiration du délai ; instruction en **60 jours ouvrés** à compter du dossier complet, **suspendue** jusqu'à la production des pièces demandées ; décision par **lettre recommandée**, refus **motivé**. Art. 2, 5, 6",
+      "Dossier incomplet : les informations demandées doivent arriver dans les **30 jours** ; à défaut, la COSUMAF peut **renvoyer** le dossier. Art. 2, 6",
+      "**Commissaire aux comptes** pressenti : programme de travail en **heures** par rubrique, honoraires et taux horaire communiqués. Art. 6-1",
+      "**Experts en évaluation immobilière** pressentis : garanties professionnelles et engagement signé (annexe III) ; la COSUMAF peut exiger un autre expert ; honoraires communiqués. Art. 6-3",
+      "Attestation de dépôt des fonds (**FCPI**) ou certificat de dépôt du capital initial (**SPI**) envoyé **au plus tard 30 jours calendaires** après la constitution ; sinon la COSUMAF constate la **nullité** de l'agrément. Art. 7-1",
+      "OPCI à compartiments : **30 jours ouvrés** pour au moins un compartiment, **60 jours ouvrés** pour les autres ; la nullité peut être limitée aux compartiments défaillants. Art. 7-1",
+      "Prorogation : demande motivée électronique **avant** la date de nullité ; décision de la COSUMAF en **8 jours ouvrés**. La première valeur liquidative est calculée **dès le dépôt des fonds**. Art. 7-1",
+      "Toute **modification** du dossier après l'agrément exige l'**autorisation préalable** de la COSUMAF et l'**accord sans réserve du dépositaire** ; elle est portée à la connaissance du CAC. Art. 8",
+      "Modification d'une exposition de risque **de plus de 20 %** de l'actif net : information particulière et sortie sans frais ; **moins de 20 %** : information par tout moyen. Art. 8",
+      "Demande de modification : **3 exemplaires** + électronique ; accusé de réception en **10 jours ouvrés** ; instruction en **60 jours ouvrés**. Art. 9-11",
+      "L'information des porteurs n'intervient qu'**après autorisation** de la COSUMAF ; entrée en vigueur **immédiate 3 jours ouvrés** après l'information ; pour une **fusion**, **30 jours calendaires + 5 jours ouvrables** ; pour les autres, entre **3 jours ouvrés et 90 jours calendaires**. Art. 13",
+      "Sortie sans frais : **6 mois**, ramenés à **2 mois** si l'OPCI peut établir **3 valeurs liquidatives** (ou fusion votée à l'unanimité) ; commission de rachat non acquise : **6 mois**, ramenables à **3 mois**. Art. 13, 16",
+      "Copie de toute information des porteurs adressée à la COSUMAF ; l'instruction entre en vigueur **à sa signature**. Art. 17-18"
+    ],
+    "listes": [
+      {
+        "titre": "Étapes de l'agrément d'un OPCI",
+        "a": "art. 2",
+        "items": [
+          "Dépôt de la demande",
+          "Compléments éventuels dans les 30 jours",
+          "Accusé de réception en 10 jours ouvrés",
+          "Instruction en 60 jours ouvrés",
+          "Notification de l'agrément ou du refus",
+          "Attestation de dépôt des fonds (FCPI) ou certificat (SPI)",
+          "Envoi des documents définitifs et mise en ligne"
+        ]
+      }
+    ],
+    "pieges": [
+      "Dépôt des fonds : **30 jours calendaires** (OPCI) mais **30 / 60 jours ouvrés** pour les compartiments.",
+      "Prorogation : réponse en **8 jours ouvrés** pour un OPCI, **10 jours ouvrés** pour un OPC classique (Instruction 13-24).",
+      "Sortie sans frais : **6 mois**, ramenable à **2 mois** (3 VL) ; commission de rachat non acquise : ramenable à **3 mois**."
+    ],
+    "qr": [
+      {
+        "q": "Quand une modification d'OPCI entre-t-elle en vigueur ?",
+        "r": "Après autorisation de la COSUMAF et information des porteurs : immédiatement 3 jours ouvrés après l'information, sauf délais plus longs (fusion : 30 jours calendaires + 5 jours ouvrables ; autres : 3 jours ouvrés à 90 jours calendaires)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

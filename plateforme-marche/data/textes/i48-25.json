@@ -1,0 +1,82 @@
+{
+  "id": "i48-25",
+  "ordre": 57,
+  "type": "instruction",
+  "numero": "48-25",
+  "titre": "Désignation des liquidateurs et liquidation des intermédiaires de marché",
+  "theme": "vie",
+  "date_texte": "15 décembre 2025",
+  "date_adoption": "2025-12-15",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Ce qui se passe après un retrait d'agrément d'un intermédiaire de marché (art. 256 et suivants du Règlement général) : dissolution, désignation et conditions du liquidateur, opérations pendant la liquidation, transfert des portefeuilles clients, apurement du passif, rapports, clôture.",
+    "essentiel": "Retrait d'agrément = **dissolution de plein droit** et **liquidation immédiate** (sauf **établissement de crédit**, dossier transmis à la **COBAC**). Le **Président de la COSUMAF** désigne le liquidateur : conditions d'un dirigeant + **10 ans** d'expérience en restructuration/liquidation, **exclusivité**, **indépendance** (pas de parent jusqu'au **4e degré**, aucun lien depuis **3 ans**), assurance RC. Portefeuilles clients **transférés d'office** à un autre intermédiaire. Clients avisés **individuellement en 10 jours ouvrés**. Rapport **trimestriel**, rapport final. La clôture entraîne la **radiation** de la liste.",
+    "retenir": [
+      "Prise en application des **art. 256 et suivants du RG** ; ne s'applique pas, sauf exception, aux intermédiaires **établissements de crédit**. Art. 1",
+      "Le retrait d'agrément entraîne la **dissolution de plein droit** et l'**entrée immédiate en liquidation** ; pour un **établissement de crédit**, la décision est communiquée à la **COBAC**. Art. 2",
+      "La décision de retrait **délègue au Président de la COSUMAF** la désignation du **liquidateur**, investi de **tous les pouvoirs** d'administration, de direction et de représentation ; elle fixe la date de cessation des opérations. Art. 2",
+      "Liquidateur : mêmes conditions qu'un **dirigeant agréé** + **10 ans** d'expérience (restructuration, liquidation, marchés, droit, procédures collectives) + connaissance des règles prudentielles et de protection des clients ; aucune interdiction de gérer ; fonctions **exclusives** de toute autre activité rémunérée. Art. 3",
+      "Incompatibilités : **parent ou allié jusqu'au 4e degré** de l'intermédiaire ou de ses dirigeants ; ancien **expert-comptable, conseiller juridique ou CAC** de l'intermédiaire ou d'un grand créancier dans les **3 ans** ; différend ou rémunération dans les **3 ans** ; subordination ou liens économiques. Art. 3.5",
+      "Avant d'entrer en fonction : **déclaration d'indépendance, de neutralité et d'impartialité** (annexe 1) et, si la loi l'exige, **serment**. Possible choix sur une **liste nationale de mandataires judiciaires**. Art. 3",
+      "En cas de procédure collective nationale, le liquidateur **coordonne** avec le syndic (Acte uniforme OHADA) ; la COSUMAF garde la **compétence exclusive** sur le **transfert des actifs des clients**. Art. 4",
+      "Dossier du liquidateur : pièce d'identité, CV, diplômes certifiés, **casier de moins de 3 mois**, déclaration de non-condamnation. Responsabilité civile et **assurance** auprès d'un assureur établi en CEMAC. Art. 5-6",
+      "Pendant la liquidation : contrôle de la COSUMAF ; mention « **en liquidation** » sur tous les documents ; **interdiction de toute nouvelle opération** sur les portefeuilles clients ; **transfert d'office** du portefeuille clients chez un autre intermédiaire agréé. Art. 7-10",
+      "Le liquidateur inventorie, évalue et vend les actifs ; vérifie les créances (OHADA) ; paie d'abord les **frais de liquidation**, puis les créanciers selon leur rang ; soumet le **projet de répartition** à l'approbation de la COSUMAF ; le surplus éventuel revient aux **actionnaires**. **Comptabilité distincte** par liquidation. Art. 11-13",
+      "**Clients** : notification individuelle **dans les 10 jours ouvrés** suivant sa désignation (retrait, identité du liquidateur, avoirs, calendrier du transfert, voies de réclamation) ; **réconciliation** titres/espèces approuvée par la COSUMAF avant tout transfert ; **registre des réclamations**. Art. 14",
+      "Rapport **à la fin de chaque trimestre civil** (annexe 2) puis **rapport final** avec les états de clôture. Art. 15",
+      "Retrait d'agrément et clôture publiés (journal d'annonces légales, site COSUMAF) ; la clôture entraîne la **radiation immédiate** de la liste des intermédiaires agréés. Art. 16"
+    ],
+    "listes": [
+      {
+        "titre": "Ce que le liquidateur notifie à chaque client (10 jours ouvrés)",
+        "a": "art. 14",
+        "items": [
+          "Le retrait d'agrément et l'état de liquidation",
+          "Son identité et ses coordonnées",
+          "La situation précise des avoirs (titres, espèces, opérations en cours)",
+          "Les modalités et le calendrier du transfert",
+          "Les voies de réclamation"
+        ]
+      },
+      {
+        "titre": "Ordre d'affectation des produits de la liquidation",
+        "a": "art. 12",
+        "items": [
+          "Frais de la liquidation",
+          "Créanciers selon leur rang",
+          "Solde éventuel aux actionnaires ou associés"
+        ]
+      }
+    ],
+    "pieges": [
+      "Règlement 01/22 (art. 33) : le **retrait d'agrément entraîne la liquidation** ; l'Instruction 48-25 en fixe les modalités.",
+      "Liquidateur : **10 ans** d'expérience, comme le dirigeant agréé (Instruction 46-25).",
+      "Même en cas de procédure collective nationale, **seule la COSUMAF** décide du **transfert des actifs des clients**."
+    ],
+    "qr": [
+      {
+        "q": "Que devient le portefeuille des clients d'un intermédiaire dont l'agrément est retiré ?",
+        "r": "Il est transféré d'office, sous le contrôle de la COSUMAF, dans les livres d'un autre intermédiaire agréé, après réconciliation des positions ; les clients sont informés individuellement dans les 10 jours ouvrés."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

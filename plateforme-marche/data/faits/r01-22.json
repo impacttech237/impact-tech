@@ -1,0 +1,1673 @@
+[
+  {
+    "id": "r01-22.delai.01",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 83",
+    "enonce": "Diffusion du document d'information et placement des titres après le visa APE",
+    "valeur_texte": "90 jours",
+    "type_valeur": "nombre",
+    "valeur": 90,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.02",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 77",
+    "enonce": "Période de calcul du seuil de 50 millions FCFA en deçà duquel l'offre n'est pas un APE",
+    "valeur_texte": "12 mois",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.03",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 42",
+    "enonce": "Mandat du Président de la COSUMAF",
+    "valeur_texte": "5 ans non renouvelable",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.04",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 54",
+    "enonce": "Mandat du Secrétaire Général de la COSUMAF",
+    "valeur_texte": "5 ans non renouvelable",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.05",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 43",
+    "enonce": "Mandat des membres du Collège (hors Président)",
+    "valeur_texte": "3 ans renouvelable une fois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.06",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 65",
+    "enonce": "Mandat des membres de la Commission des sanctions",
+    "valeur_texte": "3 ans renouvelable une fois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": "Court à compter de la nomination.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.07",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 51",
+    "enonce": "Périodicité minimale des sessions ordinaires du Collège",
+    "valeur_texte": "1 fois par trimestre",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.08",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 44",
+    "enonce": "Fonctions et mandats à déclarer par un membre du Collège",
+    "valeur_texte": "5 années précédant la désignation",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.09",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 72",
+    "enonce": "Dépôt du projet de budget de la COSUMAF au Comité Ministériel",
+    "valeur_texte": "au plus tard le 30 novembre",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Pour l'année suivante.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.10",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 73",
+    "enonce": "Mandat du commissaire aux comptes de la COSUMAF",
+    "valeur_texte": "3 ans renouvelable une fois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": "Nommé par le Collège.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.11",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 99",
+    "enonce": "Objectifs à préciser lors du franchissement des seuils de 10 à 30 %",
+    "valeur_texte": "6 prochains mois",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.12",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 168",
+    "enonce": "Retrait d'agrément d'un intermédiaire qui n'a pas utilisé son agrément",
+    "valeur_texte": "12 mois après la délivrance",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.13",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 168",
+    "enonce": "Retrait d'agrément d'un intermédiaire inactif (aucun service fourni)",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.14",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 226",
+    "enonce": "Mise en demeure du gestionnaire par le dépositaire d'OPC sans réponse à la demande de régularisation",
+    "valeur_texte": "10 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.15",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 242",
+    "enonce": "Agence de notation : information de la COSUMAF d'une modification touchant son agrément",
+    "valeur_texte": "5 jours ouvrés au plus tard",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.16",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 256",
+    "enonce": "Prescription des faits devant la Commission des sanctions et les juridictions pénales",
+    "valeur_texte": "10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.17",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 268",
+    "enonce": "Convocation de l'AG annuelle d'un OPC ou de son gestionnaire après la clôture",
+    "valeur_texte": "5 mois",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.18",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 277",
+    "enonce": "Rapport de clôture d'une souscription et mise à disposition des fonds à l'émetteur",
+    "valeur_texte": "8 jours après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Société de bourse ou chef de file du syndicat de placement.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.19",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 285",
+    "enonce": "Conservation des informations sur prestations, transactions et opérations d'APE",
+    "valeur_texte": "au moins 5 ans",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.20",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 121",
+    "enonce": "Remboursement des lignes de crédit ouvertes par le Dépositaire Central",
+    "valeur_texte": "au plus tard le jour ouvrable suivant",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.delai.21",
+    "texte": "r01-22",
+    "type": "delai",
+    "article": "art. 293",
+    "enonce": "Entrée en vigueur du Règlement 01/22",
+    "valeur_texte": "1er jour du mois suivant son adoption",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.01",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 77",
+    "enonce": "Seuil en dessous duquel une offre n'est pas un appel public à l'épargne",
+    "valeur_texte": "50 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 50000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Calculé sur 12 mois.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.02",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 88",
+    "enonce": "Placement privé (version 2022) : montant total maximum sur 12 mois",
+    "valeur_texte": "20 000 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 20000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Remplacé par le Règlement n° 03 sur le placement privé (plus de plafond).",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.03",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 88",
+    "enonce": "Placement privé (version 2022) : nombre maximum d'investisseurs qualifiés",
+    "valeur_texte": "40 investisseurs",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.04",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 88",
+    "enonce": "Placement privé (version 2022) : valeur nominale de chaque titre",
+    "valeur_texte": "50 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 50000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.05",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 99",
+    "enonce": "Seuil de première déclaration de franchissement de participation",
+    "valeur_texte": "5 %",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.06",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 96",
+    "enonce": "Seuil de détention des majoritaires pour une offre publique de retrait",
+    "valeur_texte": "95 %",
+    "type_valeur": "nombre",
+    "valeur": 95,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.07",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 96",
+    "enonce": "Part maximale des titres non présentés permettant le retrait obligatoire",
+    "valeur_texte": "5 %",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.08",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 82",
+    "enonce": "Admission sans document d'information : actions nouvelles sur 12 mois",
+    "valeur_texte": "moins de 10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "max",
+    "note": "Du nombre d'actions de même catégorie déjà admises.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.09",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 202",
+    "enonce": "Part maximale d'actifs d'un OPC investis hors zone CEMAC",
+    "valeur_texte": "15 %",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "%",
+    "borne": "exact",
+    "note": "Sous autorisation préalable.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.10",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 239",
+    "enonce": "Part maximale des OPC étrangers dans les actifs gérés par une SGO agréée",
+    "valeur_texte": "1/5 (20 %)",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.11",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 258",
+    "enonce": "Consignation exigée pour former un recours contre une sanction pécuniaire",
+    "valeur_texte": "50 % de la sanction",
+    "type_valeur": "nombre",
+    "valeur": 50,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.12",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 259-261",
+    "enonce": "Sanction minimale : opération d'initié, divulgation illicite, manipulation de cours",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Sans excéder 10 fois l'avantage retiré.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.13",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 264",
+    "enonce": "Sanction minimale : APE sans visa préalable du document d'information",
+    "valeur_texte": "25 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 25000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Le plus élevé des planchers du règlement.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.14",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 265",
+    "enonce": "Sanction minimale : intermédiaire qui place des titres d'un APE non visé",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.15",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 266",
+    "enonce": "Sanction minimale : émetteur APE qui viole l'information permanente et périodique",
+    "valeur_texte": "5 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.16",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 262",
+    "enonce": "Sanction minimale : défaut de déclaration de franchissement de seuil",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.17",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 282",
+    "enonce": "Sanction minimale : exercer sans agrément",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.18",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 272",
+    "enonce": "Sanction minimale : entrave à un contrôle ou une enquête de la COSUMAF",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.19",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 271",
+    "enonce": "Sanction minimale : violation du secret professionnel par un membre ou agent de la COSUMAF",
+    "valeur_texte": "5 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.20",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 275",
+    "enonce": "Sanction minimale : absence de dispositif LBC/FT d'un organisme central ou intermédiaire",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.21",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 269",
+    "enonce": "Sanction minimale : placement collectif par un OPC non agréé",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.montant.22",
+    "texte": "r01-22",
+    "type": "montant",
+    "article": "art. 281",
+    "enonce": "Sanction minimale : commissaire aux comptes (informations mensongères, irrégularités non signalées)",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.01",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 3, 20",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Régule, contrôle et surveille le marché ; délivre agréments, visas, habilitations ; enregistre les placements privés ; sanctionne.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.02",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 55-57",
+    "enonce": "Collège de la COSUMAF",
+    "valeur_texte": "Exerce les attributions de la COSUMAF sauf disposition contraire ; prend des décisions générales ou individuelles, motivées et exécutoires dans tous les États.",
+    "acteurs": [
+      "college-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.03",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 58",
+    "enonce": "Président de la COSUMAF",
+    "valeur_texte": "Autorise les modifications des dossiers d'agrément, enregistre les placements privés, prononce des injonctions, saisit la justice ; rend compte au Collège.",
+    "acteurs": [
+      "president-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.04",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 52, 59",
+    "enonce": "Secrétaire Général de la COSUMAF",
+    "valeur_texte": "Sous l'autorité du Président : contrôles sur place et enquêtes, habilitations et cartes professionnelles ; rapporte les affaires du Collège.",
+    "acteurs": [
+      "secretaire-general-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.05",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 67-68",
+    "enonce": "Commission des sanctions",
+    "valeur_texte": "Instance de jugement : instruit les dossiers transmis par le Président et prononce les sanctions disciplinaires et pécuniaires, en procédure contradictoire.",
+    "acteurs": [
+      "commission-des-sanctions"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.06",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 21, 40, 61, 291",
+    "enonce": "Comité Ministériel de l'UMAC",
+    "valeur_texte": "Homologue le Règlement Général, nomme les 11 membres du Collège et les 5 de la Commission des sanctions, approuve le budget, modifie le règlement (avis conforme de la BEAC).",
+    "acteurs": [
+      "comite-ministeriel-de-l-umac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.07",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 45, 60, 289",
+    "enonce": "Cour de Justice de la CEMAC",
+    "valeur_texte": "Reçoit le serment des membres du Collège et juge les recours contre les décisions de la COSUMAF.",
+    "acteurs": [
+      "cour-de-justice-de-la-cemac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.08",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 100, 116-117",
+    "enonce": "Entreprise de marché (BVMAC)",
+    "valeur_texte": "SA de service public exclusif : organise, anime et gère le marché ; admet les valeurs à la cote, contrôle les sociétés de bourse, publie les transactions après chaque séance, suspend ou radie un titre.",
+    "acteurs": [
+      "entreprise-de-marche-bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.09",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 119-121",
+    "enonce": "Dépositaire Central",
+    "valeur_texte": "SA de service public : service notarial (enregistrement initial), tenue centralisée des comptes, règlement-livraison, virement de compte à compte, dématérialisation ; attribue les codes ISIN.",
+    "acteurs": [
+      "depositaire-central"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.10",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 131-133",
+    "enonce": "Chambre de compensation",
+    "valeur_texte": "Établissement de crédit, contrepartie centrale du marché : surveille les positions, appelle les marges, liquide d'office les positions ; agréée après avis BEAC et COBAC.",
+    "acteurs": [
+      "chambre-de-compensation"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.11",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 141-143",
+    "enonce": "Banque de règlement (BEAC)",
+    "valeur_texte": "Assure le règlement en espèces des transactions du marché via un système automatisé.",
+    "acteurs": [
+      "banque-de-reglement-beac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.12",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 219-227",
+    "enonce": "Dépositaire d'OPC",
+    "valeur_texte": "Conserve les actifs, contrôle la régularité des décisions du gestionnaire (investissements, valeur liquidative, actif minimum, comptabilité) et intervient à la création, en cours de vie et à la liquidation.",
+    "acteurs": [
+      "depositaire-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.13",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 153-154",
+    "enonce": "Agent placeur",
+    "valeur_texte": "Recherche des souscripteurs pour un émetteur ; peut offrir un placement garanti ou une prise ferme (il souscrit alors lui-même).",
+    "acteurs": [
+      "agent-placeur"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.14",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 156",
+    "enonce": "Listing sponsor",
+    "valeur_texte": "Assiste et conseille les PME pour leur introduction sur le compartiment PME de la BVMAC et leur retrait de la cote.",
+    "acteurs": [
+      "listing-sponsor"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.15",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 249-250",
+    "enonce": "Organisme de garantie",
+    "valeur_texte": "Couvre le risque de défaillance de l'émetteur APE ; doit être agréé.",
+    "acteurs": [
+      "organisme-de-garantie"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.role.16",
+    "texte": "r01-22",
+    "type": "role",
+    "article": "art. 37",
+    "enonce": "Médiateur",
+    "valeur_texte": "Membre du Collège désigné pour proposer une résolution amiable des litiges.",
+    "acteurs": [
+      "mediateur"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.01",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 6",
+    "enonce": "Valeurs mobilières",
+    "valeur_texte": "Titres de capital et titres de créance émis par les sociétés par actions, les personnes morales de droit public et les OPC, conférant des droits identiques par catégorie.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.02",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 6",
+    "enonce": "Sukuk",
+    "valeur_texte": "Titre financier islamique équivalent à une obligation ordinaire et soumis aux préceptes de la Charia.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.03",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 76",
+    "enonce": "Jeton numérique",
+    "valeur_texte": "Bien incorporel représentant sous forme numérique des droits pouvant être émis, inscrits, conservés ou transférés au moyen d'un dispositif d'enregistrement électronique partagé.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.04",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 75",
+    "enonce": "Offre au public de valeurs mobilières",
+    "valeur_texte": "Communication présentant une information suffisante sur l'offre pour permettre de décider d'acheter ou souscrire, ou placement de titres par des intermédiaires financiers.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.05",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 89",
+    "enonce": "Investisseur qualifié",
+    "valeur_texte": "Personne ou entité disposant des compétences et des moyens pour appréhender les risques des opérations sur instruments financiers (banques, OPC, assureurs, caisses de retraite, sociétés de bourse, fonds d'investissement…).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.06",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 92",
+    "enonce": "Offre publique",
+    "valeur_texte": "Procédure par laquelle une personne, seule ou de concert, fait connaître publiquement qu'elle se propose d'acquérir, vendre ou échanger des titres admis sur le marché réglementé.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.07",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 92",
+    "enonce": "Action de concert",
+    "valeur_texte": "Accord entre personnes pour acquérir, céder ou exercer des droits de vote en vue d'une politique commune ou du contrôle d'une société ; présumée entre sociétés d'un même groupe.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.08",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 93",
+    "enonce": "Initiateur",
+    "valeur_texte": "Personne qui dépose, ou pour le compte de laquelle des intermédiaires déposent, un projet d'offre publique.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.09",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 150",
+    "enonce": "Gestion individuelle sous mandat",
+    "valeur_texte": "Gestion discrétionnaire et individualisée de portefeuilles d'instruments financiers dans le cadre d'un mandat donné par un tiers.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.10",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 154",
+    "enonce": "Prise ferme",
+    "valeur_texte": "L'agent placeur souscrit ou acquiert directement les titres auprès de l'émetteur pour les placer ensuite, en son nom et pour son compte.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.11",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 153",
+    "enonce": "Placement garanti",
+    "valeur_texte": "L'agent placeur garantit à l'émetteur un montant minimal de souscription en s'engageant à prendre lui-même les titres non placés.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.12",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 157",
+    "enonce": "Démarchage financier",
+    "valeur_texte": "Se rendre habituellement au domicile, au travail ou dans des lieux publics (ou solliciter par tout moyen de communication) pour proposer des opérations sur instruments financiers.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.13",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 188",
+    "enonce": "Fonds commun de placement (FCP)",
+    "valeur_texte": "Copropriété de valeurs mobilières dépourvue de la personnalité morale, qui collecte les fonds des souscripteurs pour constituer un portefeuille diversifié.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.14",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 189",
+    "enonce": "SICAV",
+    "valeur_texte": "Société anonyme qui collecte les fonds des souscripteurs pour constituer un portefeuille de valeurs mobilières diversifiées.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.15",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 259",
+    "enonce": "Information privilégiée",
+    "valeur_texte": "Information précise, non publique, concernant un émetteur ou un instrument financier, qui rendue publique influencerait sensiblement le cours.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.16",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 259",
+    "enonce": "Opération d'initié",
+    "valeur_texte": "Faire usage d'une information privilégiée en achetant ou cédant les instruments concernés, ou en annulant ou modifiant un ordre.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.17",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 261",
+    "enonce": "Manipulation de marché",
+    "valeur_texte": "Diffuser des informations fausses ou trompeuses, ou passer des ordres, qui faussent l'offre, la demande ou fixent le cours à un niveau anormal ou artificiel.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.18",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 278",
+    "enonce": "Liste de surveillance",
+    "valeur_texte": "Liste établie par le responsable de la conformité d'une société de bourse recensant les émetteurs et instruments sur lesquels elle détient une information privilégiée.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.19",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 279",
+    "enonce": "Liste d'initiés",
+    "valeur_texte": "Liste établie par l'émetteur recensant toutes les personnes ayant accès aux informations privilégiées (salariés, conseillers, comptables, agences de notation…), communiquée à la COSUMAF.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.20",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 280",
+    "enonce": "Barrières à l'information",
+    "valeur_texte": "Procédures d'une société de bourse qui contrôlent la circulation et l'utilisation des informations privilégiées entre ses entités.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.21",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 256",
+    "enonce": "Infraction occulte",
+    "valeur_texte": "Infraction qui, par ses éléments constitutifs, ne peut être connue ni de la COSUMAF ni de l'autorité judiciaire.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.22",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 256",
+    "enonce": "Infraction dissimulée",
+    "valeur_texte": "Infraction dont l'auteur accomplit délibérément une manœuvre caractérisée pour en empêcher la découverte.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.definition.23",
+    "texte": "r01-22",
+    "type": "definition",
+    "article": "art. 87",
+    "enonce": "Non-résident",
+    "valeur_texte": "Personne morale ayant son principal centre d'intérêt ou son siège hors de la zone UMAC ; doit élire domicile auprès d'une société de bourse de la CEMAC.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.01",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 40",
+    "enonce": "Composition du Collège (12 membres)",
+    "valeur_texte": "1 Président nommé par la Conférence des Chefs d'État ; 6 représentants des États membres ; 1 représentant de la BEAC ; 1 juriste (proposé par le Président de la COSUMAF) ; 1 représentant de la Commission de la CEMAC ; 1 représentant de la COBAC ; 1 expert-comptable (proposé par le Président de la COSUMAF) ; Chaque membre nommé a un suppléant",
+    "items": [
+      "1 Président nommé par la Conférence des Chefs d'État",
+      "6 représentants des États membres",
+      "1 représentant de la BEAC",
+      "1 juriste (proposé par le Président de la COSUMAF)",
+      "1 représentant de la Commission de la CEMAC",
+      "1 représentant de la COBAC",
+      "1 expert-comptable (proposé par le Président de la COSUMAF)",
+      "Chaque membre nommé a un suppléant"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.02",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 61",
+    "enonce": "Composition de la Commission des sanctions (5 membres)",
+    "valeur_texte": "1 juriste, Président de la Commission ; 1 membre proposé par le Premier Président de la Cour des Comptes de la CEMAC ; 3 membres proposés par les organisations des émetteurs, des investisseurs et des structures agréées",
+    "items": [
+      "1 juriste, Président de la Commission",
+      "1 membre proposé par le Premier Président de la Cour des Comptes de la CEMAC",
+      "3 membres proposés par les organisations des émetteurs, des investisseurs et des structures agréées"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.03",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 33",
+    "enonce": "Les sanctions disciplinaires",
+    "valeur_texte": "Avertissement ; Blâme ; Suspension de tout ou partie des fonctions ou activités ; Révocation des dirigeants et administrateurs ; Retrait d'agrément (entraîne la liquidation)",
+    "items": [
+      "Avertissement",
+      "Blâme",
+      "Suspension de tout ou partie des fonctions ou activités",
+      "Révocation des dirigeants et administrateurs",
+      "Retrait d'agrément (entraîne la liquidation)"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.04",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 145",
+    "enonce": "Les 6 intermédiaires de marché",
+    "valeur_texte": "Sociétés de bourse ; Établissements de crédit ; Sociétés de gestion ; Conseillers en investissements financiers ; Conseillers en financement participatif ; Prestataires de services sur actifs numériques",
+    "items": [
+      "Sociétés de bourse",
+      "Établissements de crédit",
+      "Sociétés de gestion",
+      "Conseillers en investissements financiers",
+      "Conseillers en financement participatif",
+      "Prestataires de services sur actifs numériques"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.05",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 146",
+    "enonce": "Les 13 services financiers",
+    "valeur_texte": "Réception et transmission d'ordres (RTO) ; Exécution d'ordres pour compte de tiers ; Négociation pour compte propre ; Gestion individuelle sous mandat ; Gestion collective ; Conseil en investissements financiers ; Placement d'instruments financiers ; Conseil en financement participatif ; Listing sponsor ; Démarchage financier ; Tenue de compte d'instruments financiers ; Arrangement d'APE et de placement privé ; Services sur actifs numériques",
+    "items": [
+      "Réception et transmission d'ordres (RTO)",
+      "Exécution d'ordres pour compte de tiers",
+      "Négociation pour compte propre",
+      "Gestion individuelle sous mandat",
+      "Gestion collective",
+      "Conseil en investissements financiers",
+      "Placement d'instruments financiers",
+      "Conseil en financement participatif",
+      "Listing sponsor",
+      "Démarchage financier",
+      "Tenue de compte d'instruments financiers",
+      "Arrangement d'APE et de placement privé",
+      "Services sur actifs numériques"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.06",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 190",
+    "enonce": "Les FIA",
+    "valeur_texte": "Organismes de titrisation ; OPCI ; Organismes de capital investissement ; OPI (organismes professionnels d'investissement à long terme)",
+    "items": [
+      "Organismes de titrisation",
+      "OPCI",
+      "Organismes de capital investissement",
+      "OPI (organismes professionnels d'investissement à long terme)"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.07",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 168",
+    "enonce": "Cas de retrait d'agrément d'un intermédiaire",
+    "valeur_texte": "Agrément non utilisé dans les 12 mois ; Renonciation expresse ; Aucune activité pendant 6 mois ; Agrément obtenu par fausses déclarations ; Conditions d'agrément plus remplies ; Infraction à la réglementation",
+    "items": [
+      "Agrément non utilisé dans les 12 mois",
+      "Renonciation expresse",
+      "Aucune activité pendant 6 mois",
+      "Agrément obtenu par fausses déclarations",
+      "Conditions d'agrément plus remplies",
+      "Infraction à la réglementation"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.08",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 86",
+    "enonce": "Cas de retrait du visa APE",
+    "valeur_texte": "Le document ne correspond plus à la situation réelle ; Informations fausses, trompeuses ou omissions ; Document diffusé non conforme au document visé ; Aucune diligence de placement à l'issue de la souscription ; Placement poursuivi au-delà de la période sans prorogation",
+    "items": [
+      "Le document ne correspond plus à la situation réelle",
+      "Informations fausses, trompeuses ou omissions",
+      "Document diffusé non conforme au document visé",
+      "Aucune diligence de placement à l'issue de la souscription",
+      "Placement poursuivi au-delà de la période sans prorogation"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.09",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 104",
+    "enonce": "Conseil d'administration de la BVMAC : présences obligatoires",
+    "valeur_texte": "1 représentant des intermédiaires de marché ; 1 représentant des émetteurs ; 1 représentant des investisseurs ; 1 administrateur indépendant",
+    "items": [
+      "1 représentant des intermédiaires de marché",
+      "1 représentant des émetteurs",
+      "1 représentant des investisseurs",
+      "1 administrateur indépendant"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.liste.10",
+    "texte": "r01-22",
+    "type": "liste",
+    "article": "art. 126",
+    "enonce": "Conseil d'administration du Dépositaire Central : présences obligatoires",
+    "valeur_texte": "1 représentant de la BVMAC ; 1 représentant des adhérents ; 1 représentant des émetteurs ; 1 représentant des investisseurs ; 1 représentant de la BEAC",
+    "items": [
+      "1 représentant de la BVMAC",
+      "1 représentant des adhérents",
+      "1 représentant des émetteurs",
+      "1 représentant des investisseurs",
+      "1 représentant de la BEAC"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.piege.01",
+    "texte": "r01-22",
+    "type": "piege",
+    "article": null,
+    "enonce": "Placement privé : ce règlement (2022) prévoit 20 milliards / 40 investisseurs / 50 million",
+    "valeur_texte": "Placement privé : ce règlement (2022) prévoit **20 milliards / 40 investisseurs / 50 millions de nominal**. Le **Règlement n° 03** (2026) a changé ces règles : ne pas mélanger.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.piege.02",
+    "texte": "r01-22",
+    "type": "piege",
+    "article": null,
+    "enonce": "Prescription : 10 ans ici (art. 256). Ne pas confondre avec la conservation des documents,",
+    "valeur_texte": "Prescription : **10 ans** ici (art. 256). Ne pas confondre avec la conservation des documents, **5 ans au moins** (art. 285).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.piege.03",
+    "texte": "r01-22",
+    "type": "piege",
+    "article": null,
+    "enonce": "Président de la COSUMAF et Secrétaire Général : 5 ans NON renouvelable ; membres du Collèg",
+    "valeur_texte": "Président de la COSUMAF et Secrétaire Général : **5 ans NON renouvelable** ; membres du Collège et de la Commission des sanctions : **3 ans renouvelable une fois**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.piege.04",
+    "texte": "r01-22",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le Président de la COSUMAF est nommé par la Conférence des Chefs d'État ; les autres membr",
+    "valeur_texte": "Le Président de la COSUMAF est nommé par la **Conférence des Chefs d'État** ; les autres membres du Collège par le **Comité Ministériel de l'UMAC**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.piege.05",
+    "texte": "r01-22",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le recours devant la Cour de Justice de la CEMAC n'est pas suspensif, et il faut consigner",
+    "valeur_texte": "Le recours devant la Cour de Justice de la CEMAC n'est **pas suspensif**, et il faut consigner **50 %** de la sanction pécuniaire avant de l'introduire.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-22.piege.06",
+    "texte": "r01-22",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le plancher de sanction le plus élevé est 25 millions (APE sans visa) ; la plupart des aut",
+    "valeur_texte": "Le plancher de sanction le plus élevé est **25 millions** (APE sans visa) ; la plupart des autres sont à **10 millions** ou **5 millions**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

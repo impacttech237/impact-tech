@@ -1,0 +1,96 @@
+{
+  "id": "i06-23",
+  "ordre": 15,
+  "type": "instruction",
+  "numero": "06-23",
+  "titre": "Agrément des sociétés de gestion d'OPC (SGO)",
+  "theme": "agrement",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Processus d'agrément des sociétés de gestion d'OPC, quel que soit le type d'OPC géré : prise de contact, dossier type et programme d'activité, extension d'agrément, informations à transmettre à la COSUMAF, retrait d'agrément.",
+    "essentiel": "Toujours une **prise de contact préalable** avec la COSUMAF. Dossier déposé **physiquement + en version électronique** par le représentant légal ou une personne habilitée. Accusé de réception du dossier complet en **10 jours**, décision en **60 jours** ; dossier incomplet renvoyé après **30 jours**. Rapport de gestion **7 mois** après la clôture, rapport de contrôle interne **3 mois**, compte rendu trimestriel **1 mois** après chaque trimestre. Rémunération variable : **50 %** en parts d'OPC, **40 %** reportés sur **3 ans** au moins.",
+    "retenir": [
+      "S'applique à **toutes les sociétés de gestion d'OPC**, quel que soit le type d'OPC (et aux OPC autogérés pour le dossier type). Art. 1, annexe I",
+      "Tout premier dépôt est **précédé d'une prise de contact** avec les services de la COSUMAF. Art. 2",
+      "Dépôt **physique** d'une demande précisant l'**étendue de l'agrément** et le **type d'OPC**, avec le dossier type (annexe I) et un exemplaire **électronique** ; déposé par le **représentant légal** ou une personne **habilitée** (pouvoir à justifier). Art. 2",
+      "Le dossier contient un **programme d'activité** détaillant chaque service, les opérations envisagées et l'organisation. Art. 2, 6",
+      "Accusé de réception du **dossier complet** en **10 jours** ; il indique la date d'expiration du délai d'agrément de **60 jours**. Dossier incomplet : si rien n'est fourni **30 jours** après la notification des pièces manquantes, la COSUMAF peut le **renvoyer**. Art. 3",
+      "La notification d'agrément comporte le **numéro** et la **date** d'agrément ; ce numéro figure sur les documents publics mais **jamais comme label de qualité ou garantie** de bonne gestion. Art. 4",
+      "**Extension d'agrément** : nouveau service, nouveaux instruments, levée d'une restriction ; même format que la demande initiale ; délai de **60 jours** après le dossier complet. Art. 9-10",
+      "Informations annuelles à la COSUMAF : bilan, compte de résultat, annexes, rapports du CAC, **rapport de gestion au plus tard 7 mois** après la clôture (actifs gérés, nombre de comptes sous mandat), **rapport de contrôle interne au plus tard 3 mois** après la clôture. Art. 11",
+      "Compte rendu des **indemnisations** et des **non-respects de restrictions d'investissement** : au plus tard **1 mois calendaire** après chaque trimestre civil. Art. 11",
+      "Les **valeurs liquidatives** sont transmises selon la périodicité prévue dans les documents d'information ; documents réglementaires et promotionnels envoyés **avant publication**. Art. 11",
+      "Retrait d'agrément : sur demande (dissolution, fusion, cessation) avec les PV, ou décidé par la COSUMAF si conditions plus remplies, **agrément non utilisé dans les 12 mois**, **inactivité depuis 6 mois**, fausses déclarations ; effet à la **date de notification**. Art. 12",
+      "Dossier type : seuls les actionnaires de **plus de 10 %** du capital ou des droits de vote sont mentionnés ; organigramme jusqu'à l'actionnaire de tête. Annexe I",
+      "Politique de rémunération (rappels) : au moins **50 %** du variable en parts ou actions de l'OPC, au moins **40 %** du variable **reporté**, report d'au moins **3 ans** ; variable réduit en cas de mauvaises performances. Annexe III, section K",
+      "Titrisation : le prêteur initial ou sponsor garde un **intérêt économique de 5 %** dans l'opération. Annexe III",
+      "Prévisions financières sur **3 exercices** ; casier judiciaire des dirigeants de **moins de 3 mois** ; CV des gérants (ou des responsables de gestion s'il y a **plus de 5 gérants**). Annexes II-III"
+    ],
+    "listes": [
+      {
+        "titre": "Étapes de l'agrément d'une SGO",
+        "a": "art. 5",
+        "items": [
+          "Prise de contact avec la COSUMAF",
+          "Dépôt de la demande et du dossier",
+          "Vérification de complétude et accusé de réception (10 jours) ou renvoi",
+          "Instruction et demandes complémentaires",
+          "Prolongation éventuelle du délai",
+          "Notification de l'agrément ou du refus",
+          "Début d'activité"
+        ]
+      },
+      {
+        "titre": "Sections du programme d'activité",
+        "a": "annexe III",
+        "items": [
+          "A Activités",
+          "B Activités accessoires",
+          "C Moyens techniques",
+          "D Investissement et désinvestissement",
+          "E Meilleure exécution et passation des ordres",
+          "F Dispositif de contrôle",
+          "G Évaluation des instruments",
+          "H Externalisation et délégation",
+          "I Conflits d'intérêts",
+          "J LBC/FT et fraude fiscale",
+          "K Politique de rémunération",
+          "L Commercialisation",
+          "M Fonds propres"
+        ]
+      }
+    ],
+    "pieges": [
+      "SGO : rapport de **gestion** à **7 mois**, rapport de **contrôle interne** à **3 mois**.",
+      "Le numéro d'agrément doit figurer sur les documents, mais **ne peut pas servir de label de qualité**.",
+      "Rémunération variable : **50 %** en instruments, **40 %** reportés, **3 ans** de report."
+    ],
+    "qr": [
+      {
+        "q": "Dans quels cas une SGO demande-t-elle une extension d'agrément ?",
+        "r": "Pour fournir un nouveau service d'investissement, utiliser de nouveaux instruments ou revenir sur une restriction de son agrément initial (art. 9)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

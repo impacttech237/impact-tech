@@ -1,0 +1,172 @@
+[
+  {
+    "id": "i28-24.delai.01",
+    "texte": "i28-24",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Période minimale d'un classement présenté dans une publicité d'OPC",
+    "valeur_texte": "12 mois (ou un multiple)",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.delai.02",
+    "texte": "i28-24",
+    "type": "delai",
+    "article": "art. 11",
+    "enonce": "Période de performances passées présentée dans une publicité d'OPC",
+    "valeur_texte": "5 années précédentes",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": "Ou depuis la commercialisation, par périodes complètes de 12 mois.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.delai.03",
+    "texte": "i28-24",
+    "type": "delai",
+    "article": "art. 12",
+    "enonce": "Moment de transmission d'une publicité d'OPC à la COSUMAF",
+    "valeur_texte": "avant sa diffusion",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.role.01",
+    "texte": "i28-24",
+    "type": "role",
+    "article": "art. 5, 12",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Conçoit des publicités exactes et équilibrées, en répond même quand elle relaie un tiers, et les transmet à la COSUMAF avant diffusion.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.role.02",
+    "texte": "i28-24",
+    "type": "role",
+    "article": "art. 2, 5",
+    "enonce": "Distributeur",
+    "valeur_texte": "Relaie les publicités auprès de ses clients ; soumis aux mêmes exigences de clarté.",
+    "acteurs": [
+      "distributeur"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.role.03",
+    "texte": "i28-24",
+    "type": "role",
+    "article": "art. 4, 12-13",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Reçoit les publicités avant diffusion, peut imposer avertissements et modifications ; son nom ne doit jamais servir de caution.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.definition.01",
+    "texte": "i28-24",
+    "type": "definition",
+    "article": "art. 8",
+    "enonce": "Information trompeuse (OPC)",
+    "valeur_texte": "Information qui induit l'investisseur en erreur par une présentation déformée ou incomplète de l'OPC, ou qui le présente surtout sous ses aspects favorables.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.liste.01",
+    "texte": "i28-24",
+    "type": "liste",
+    "article": "art. 3-8",
+    "enonce": "Pratiques publicitaires interdites",
+    "valeur_texte": "Publicité avant l'agrément de l'OPC ; Présenter l'agrément COSUMAF comme argument de vente ; Avantages sans risques ou risques en petits caractères ; Associer simplement « performance » et « sécurité » ; « OPC non garanti en capital » au lieu de « risque de perte en capital » ; Performances passées simulées ; Formules trop optimistes (« le meilleur », « sans risque »)",
+    "items": [
+      "Publicité avant l'agrément de l'OPC",
+      "Présenter l'agrément COSUMAF comme argument de vente",
+      "Avantages sans risques ou risques en petits caractères",
+      "Associer simplement « performance » et « sécurité »",
+      "« OPC non garanti en capital » au lieu de « risque de perte en capital »",
+      "Performances passées simulées",
+      "Formules trop optimistes (« le meilleur », « sans risque »)"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.piege.01",
+    "texte": "i28-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "La bonne formule : « le placement collectif présente un risque de perte en capital », pas ",
+    "valeur_texte": "La bonne formule : « **le placement collectif présente un risque de perte en capital** », pas « OPC non garanti en capital ».",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i28-24.piege.02",
+    "texte": "i28-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Dans une vidéo, l'avertissement affiché seulement à la fin n'est pas suffisant.",
+    "valeur_texte": "Dans une vidéo, l'avertissement affiché **seulement à la fin** n'est **pas** suffisant.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "id": "i16-24.delai.01",
+    "texte": "i16-24",
+    "type": "delai",
+    "article": "art. 11 du modèle",
+    "enonce": "Durée du mandat du commissaire aux comptes d'un FCPI",
+    "valeur_texte": "3 exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.delai.02",
+    "texte": "i16-24",
+    "type": "delai",
+    "article": "art. 14 du modèle",
+    "enonce": "Fréquence minimale de l'inventaire des actifs d'un FCPI",
+    "valeur_texte": "semestrielle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.delai.03",
+    "texte": "i16-24",
+    "type": "delai",
+    "article": "art. 14 du modèle",
+    "enonce": "Mise à disposition des documents de fin d'exercice aux porteurs de FCPI",
+    "valeur_texte": "45 jours après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 45,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.delai.04",
+    "texte": "i16-24",
+    "type": "delai",
+    "article": "art. 22 du modèle",
+    "enonce": "Délai entre l'avis aux porteurs et la fusion ou scission d'un FCPI",
+    "valeur_texte": "30 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.delai.05",
+    "texte": "i16-24",
+    "type": "delai",
+    "article": "art. 23 du modèle",
+    "enonce": "Durée d'actif sous 150 millions entraînant la liquidation d'un FCPI",
+    "valeur_texte": "24 mois consécutifs",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.delai.06",
+    "texte": "i16-24",
+    "type": "delai",
+    "article": "art. 23 du modèle",
+    "enonce": "Décision de prorogation d'un FCPI avant l'échéance",
+    "valeur_texte": "3 mois au moins",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.montant.01",
+    "texte": "i16-24",
+    "type": "montant",
+    "article": "art. 23 du modèle",
+    "enonce": "Seuil d'actif d'un FCPI en dessous duquel la liquidation s'impose après 24 mois",
+    "valeur_texte": "150 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 150000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.montant.02",
+    "texte": "i16-24",
+    "type": "montant",
+    "article": "art. 3 du modèle",
+    "enonce": "Nombre maximal d'investisseurs d'un FCPI réservé",
+    "valeur_texte": "20 investisseurs",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.role.01",
+    "texte": "i16-24",
+    "type": "role",
+    "article": "art. 4, 9, 24 du modèle",
+    "enonce": "Société de gestion d'OPCI",
+    "valeur_texte": "Gère le fonds dans l'intérêt exclusif des porteurs, exerce seule les droits de vote, peut suspendre ou plafonner les rachats, devient liquidateur.",
+    "acteurs": [
+      "societe-de-gestion-d-opci"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.role.02",
+    "texte": "i16-24",
+    "type": "role",
+    "article": "art. 10, 14, 23 du modèle",
+    "enonce": "Dépositaire du FCPI",
+    "valeur_texte": "Contrôle la régularité des décisions de la SGO, l'inventaire semestriel et la liquidation ; décide la prorogation avec la SGO.",
+    "acteurs": [
+      "depositaire-du-fcpi"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.role.03",
+    "texte": "i16-24",
+    "type": "role",
+    "article": "art. 11 du modèle",
+    "enonce": "Commissaire aux comptes du FCPI",
+    "valeur_texte": "Certifie les comptes, contrôle les évaluations et parités de fusion, apprécie les apports en nature, alerte la COSUMAF.",
+    "acteurs": [
+      "commissaire-aux-comptes-du-fcpi"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.role.04",
+    "texte": "i16-24",
+    "type": "role",
+    "article": "titre 3 du modèle",
+    "enonce": "Conseil de surveillance du FCPI",
+    "valeur_texte": "Organe prévu au titre 3 du règlement (nomination, réunions, procès-verbaux, pouvoirs, rémunérations).",
+    "acteurs": [
+      "conseil-de-surveillance-du-fcpi"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.definition.01",
+    "texte": "i16-24",
+    "type": "definition",
+    "article": "art. 2 du modèle",
+    "enonce": "Fractions de parts",
+    "valeur_texte": "Subdivisions des parts (dixièmes à dix-millièmes) dont la valeur reste proportionnelle à la part.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.liste.01",
+    "texte": "i16-24",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Les 5 titres du règlement d'un FCPI",
+    "valeur_texte": "Titre 1 : actifs et parts ; Titre 2 : fonctionnement du fonds ; Titre 3 : conseil de surveillance ; Titre 4 : fusion, scission, dissolution, liquidation ; Titre 5 : contestations",
+    "items": [
+      "Titre 1 : actifs et parts",
+      "Titre 2 : fonctionnement du fonds",
+      "Titre 3 : conseil de surveillance",
+      "Titre 4 : fusion, scission, dissolution, liquidation",
+      "Titre 5 : contestations"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.liste.02",
+    "texte": "i16-24",
+    "type": "liste",
+    "article": "art. 23 du modèle",
+    "enonce": "Cas de dissolution d'un FCPI",
+    "valeur_texte": "Actif sous 150 millions FCFA pendant 24 mois ; Dissolution anticipée décidée par la SGO ; Rachat de la totalité des parts ; Départ du dépositaire sans remplaçant ; Expiration de la durée non prorogée",
+    "items": [
+      "Actif sous 150 millions FCFA pendant 24 mois",
+      "Dissolution anticipée décidée par la SGO",
+      "Rachat de la totalité des parts",
+      "Départ du dépositaire sans remplaçant",
+      "Expiration de la durée non prorogée"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.piege.01",
+    "texte": "i16-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Liquidation du FCPI : 150 millions pendant 24 mois (modèle de règlement) ; à ne pas confon",
+    "valeur_texte": "Liquidation du FCPI : **150 millions** pendant **24 mois** (modèle de règlement) ; à ne pas confondre avec la règle générale des OPC (Instruction 13-24) : **moitié du minimum pendant 90 jours**.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i16-24.piege.02",
+    "texte": "i16-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Montant minimum d'un OPCI : vérifier le texte cité — le Règlement général peut prévoir un ",
+    "valeur_texte": "Montant minimum d'un OPCI : vérifier le texte cité — le **Règlement général** peut prévoir un autre seuil (300 millions) que le **règlement type du FCPI** (150 millions).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

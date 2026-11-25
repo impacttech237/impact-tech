@@ -1,0 +1,80 @@
+{
+  "id": "i42-25",
+  "ordre": 51,
+  "type": "instruction",
+  "numero": "42-25",
+  "titre": "Agrément des conseillers en investissements financiers (CIF)",
+  "theme": "agrement",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Procédure et conditions d'agrément des conseillers en investissements financiers (art. 145 et 152 du Règlement 01/22, art. 312 et suivants du RG) : dossier, délais, honorabilité, domiciliation, compétence, assurance, programme d'activité annuel.",
+    "essentiel": "Dossier en **3 exemplaires** au siège + par e-mail. Accusé en **10 jours ouvrables**, décision en **60 jours** (dossier complet), fiche complémentaire en **30 jours** sinon **rejet**. CIF et dirigeants **établis en CEMAC** ; aucun condamné pour crime ou délit financier. Compétence : **Bac+5** (dirigeants) / **Bac+3** (collaborateurs), ou **2 ans** de formation, ou **5 ans** / **3 ans** d'expérience acquise dans les **5 dernières années**. **RC professionnelle** obligatoire. **Programme d'activité** envoyé chaque année **au plus tard le 31 janvier**.",
+    "retenir": [
+      "Vise les CIF de l'**art. 145 du Règlement 01/22** et des **art. 312 et suivants du RG** ; activité définie à l'**art. 152** (conseil personnalisé). Art. 1-2",
+      "Agrément **préalable** obligatoire de la COSUMAF. Art. 2",
+      "Dossier déposé **physiquement en 3 exemplaires** au siège et **par voie électronique**. Art. 3",
+      "Société : formulaire, **programme d'activité**, RCCM, **assurance RC professionnelle**, projet de **convention écrite avec les clients**, capital et répartition, comptes certifiés des **3 derniers exercices** (sociétés existantes), dispositifs **LBC/FT** et de **contrôle interne**, moyens, fonds propres, statuts. Art. 4",
+      "Dirigeants : diplômes, déclarations de **non-condamnation** et de **non-interdiction bancaire**, **casier de moins de 3 mois** ; engagement du représentant légal (respect de la réglementation, contrôles, mises à jour, **contribution au Fonds de garantie**). Art. 4",
+      "Accusé de réception en **10 jours ouvrables** avec un point de contact ; décision papier et électronique en **60 jours** à compter du **dossier complet** ; délai suspendu par les demandes ; fiche complémentaire en **30 jours** sinon **rejet** ; refus **motivé** par lettre recommandée. Art. 5-8",
+      "**Honorabilité** et **domiciliation** : le CIF et ses dirigeants sont **établis ou domiciliés en CEMAC** ; aucun administrateur, dirigeant, actionnaire, associé ou contrôleur interne condamné pour **crime** ou **délit financier**. Art. 9",
+      "**Compétence** (collaborateurs et au moins un dirigeant), au choix : diplôme **5 ans** d'études (dirigeants) ou **3 ans** (collaborateurs) en droit, économie, gestion ; ou **formation professionnelle de 2 ans** ; ou **expérience de 5 ans** (dirigeants) / **3 ans** (collaborateurs) acquise dans les **5 années** précédentes chez une SDB, SGO, banque ou autre CIF. Art. 10",
+      "**Assurance RC professionnelle** permanente ; toute suspension, dénonciation ou résiliation est signalée **sans délai** à la COSUMAF. Art. 11",
+      "**Programme d'activité** transmis **au plus tard le 31 janvier** de chaque année (activités, organisation, actionnaires détenant une **participation qualifiée**), en **français**, sous forme physique et électronique, tenu à jour. Art. 12",
+      "Modifications du dossier : nouvel agrément, autorisation ou information préalable ; commission d'agrément fixée par instruction (**1 500 000 FCFA**, Instruction 23-24). Art. 13-14"
+    ],
+    "listes": [
+      {
+        "titre": "Les 3 voies pour prouver sa compétence (CIF)",
+        "a": "art. 10",
+        "items": [
+          "Diplôme : 5 ans d'études (dirigeant) / 3 ans (collaborateur) en droit, économie ou gestion",
+          "Formation professionnelle d'au moins 2 ans",
+          "Expérience : 5 ans (dirigeant) / 3 ans (collaborateur) dans les 5 dernières années"
+        ]
+      },
+      {
+        "titre": "Activités que le formulaire CIF permet de cocher",
+        "a": "annexe I",
+        "items": [
+          "Conseil en investissements financiers",
+          "Réception et transmission d'ordres",
+          "Listing sponsor",
+          "Démarchage financier",
+          "Commercialisation d'instruments financiers"
+        ]
+      }
+    ],
+    "pieges": [
+      "CIF : **10 jours ouvrables** / **60 jours** comme pour les intermédiaires (Instruction 01-23).",
+      "Compétence CIF : **5 ans / 3 ans** (dirigeant / collaborateur) pour le diplôme **et** pour l'expérience ; la formation, elle, dure **2 ans** pour tous.",
+      "**31 janvier** : programme d'activité du CIF **et** date de paiement des redevances annuelles (Instruction 23-24)."
+    ],
+    "qr": [
+      {
+        "q": "Comment un dirigeant de CIF prouve-t-il sa compétence ?",
+        "r": "Par un diplôme de 5 années d'études supérieures juridiques, économiques ou de gestion, ou par une formation professionnelle d'au moins 2 ans, ou par 5 ans d'expérience dans le conseil acquise au cours des 5 dernières années chez une SDB, SGO, banque ou CIF."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

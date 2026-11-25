@@ -1,0 +1,83 @@
+{
+  "id": "i14-24",
+  "ordre": 23,
+  "type": "instruction",
+  "numero": "14-24",
+  "titre": "Contenu et format du document d'information simplifié (DIS) des OPC",
+  "theme": "opc",
+  "date_texte": "20 février 2024, Yaoundé",
+  "date_adoption": "2024-02-20",
+  "lieu": "Yaoundé",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le modèle du document d'information simplifié des OPC (informations clés pour l'investisseur) : rubriques en questions, indicateur synthétique de risque de 1 à 7, trois scénarios de performance, frais, période de détention, réclamations, performances passées.",
+    "essentiel": "Le DIS suit un **modèle unique** (annexe I) en rubriques-questions : « En quoi consiste cet OPC ? », « Quels sont les risques… ? », « Que se passe-t-il si… ? », « Que va me coûter cet investissement ? », « Combien de temps dois-je le conserver ? », « Comment formuler une réclamation ? ». **Indicateur synthétique de risque (ISR) de 1 à 7**, sans couleur, calculé **chaque trimestre**, traces gardées **10 ans**. **3 scénarios** : défavorable, intermédiaire, favorable. Performances passées en bâtons sur **10 ans** (**5 ans** si l'OPC est plus jeune).",
+    "retenir": [
+      "Informations générales : nom de l'OPC et code **ISIN** (ou identifiant), catégorie de parts, OPC maître (pour un nourricier), SGO, site web et téléphone, **numéro et date d'agrément**, **numéro et date de visa** COSUMAF, date de production ou de dernière révision. Art. 1",
+      "« **En quoi consiste cet OPC ?** » : forme juridique, objectifs, facteurs de rendement, **investisseurs cibles** (capacité à supporter des pertes, horizon…), durée de vie, droit de résiliation unilatérale. Art. 2",
+      "« **Quels sont les risques et qu'est-ce que cela pourrait me rapporter ?** » : **indicateur synthétique de risque** de **1 à 7**, avertissement de liquidité, risque de change, **perte maximale possible**, et **3 scénarios** : **défavorable, intermédiaire, favorable**. Art. 3",
+      "« **Que se passe-t-il si la SGO n'est pas en mesure d'effectuer les versements ?** » : risque de perte et existence d'un **système d'indemnisation ou de garantie**. Art. 4",
+      "« **Que va me coûter cet investissement ?** » : frais **ponctuels** (entrée, sortie), frais **récurrents** (gestion, transactions), frais **accessoires** (commission de surperformance), **en pourcentage**. Art. 5",
+      "« **Combien de temps dois-je le conserver ?** » : **période de détention recommandée** et motifs, conditions et frais de sortie anticipée. Art. 6",
+      "« **Comment puis-je formuler une réclamation ?** » : étapes, lien internet, adresses postale et électronique. Art. 7",
+      "Le DIS n'est **pas un document commercial** : il est fourni en vertu d'une obligation légale pour comprendre et **comparer** les produits. Annexe I",
+      "ISR : échelle de **1 à 7** fondée sur la **volatilité passée**, **aucune couleur**, la classe 1 n'est **pas sans risque** ; calcul **trimestriel** (dernier jour du trimestre) sur un historique d'**1 mois** ; méthode **approuvée par la COSUMAF** ; traces conservées **10 ans** (+**5 ans** après l'échéance pour un fonds structuré). Annexe II",
+      "Risques à expliquer en texte s'ils sont importants : **crédit**, **liquidité**, **contrepartie**, **opérationnel et garde**, effet des **dérivés**. Annexe II",
+      "OPC **illiquide** : pas de marché secondaire ni de dispositif de liquidité, ou sortie soumise à de fortes pénalités, ou aucune sortie anticipée. Annexe II",
+      "Performances passées : **diagramme en bâtons** sur **10 ans** (**5 ans** si moins de 5 années civiles), **une demi-page maximum**, échelle **linéaire**, axe X à **0 %**, arrondi à **1 décimale**, **pas d'année en cours**, revenus supposés **réinvestis**. Annexe performances"
+    ],
+    "listes": [
+      {
+        "titre": "Les rubriques-questions du DIS",
+        "a": "annexe I",
+        "items": [
+          "En quoi consiste ce produit ?",
+          "Quels sont les risques et qu'est-ce que cela pourrait me rapporter ?",
+          "Que se passe-t-il si la SGO n'est pas en mesure d'effectuer les versements ?",
+          "Que va me coûter cet investissement ?",
+          "Combien de temps dois-je le conserver, et puis-je retirer de l'argent de façon anticipée ?",
+          "Comment puis-je formuler une réclamation ?",
+          "Autres informations pertinentes"
+        ]
+      },
+      {
+        "titre": "Les 3 familles de frais",
+        "a": "art. 5",
+        "items": [
+          "Ponctuels : entrée, sortie",
+          "Récurrents : gestion, transactions de portefeuille",
+          "Accessoires : commission de surperformance, intéressement"
+        ]
+      }
+    ],
+    "pieges": [
+      "ISR : **1 à 7**, **sans couleur**, calculé **chaque trimestre** ; traces **10 ans**.",
+      "Performances passées : **10 ans** (ou **5 ans**), jamais l'**année en cours**.",
+      "Le DIS **n'est pas** une publicité : il est imposé par la loi."
+    ],
+    "qr": [
+      {
+        "q": "Quels scénarios de performance le DIS doit-il présenter ?",
+        "r": "Trois : un scénario défavorable, un scénario intermédiaire et un scénario favorable, avec les montants que l'investisseur pourrait obtenir après coûts."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

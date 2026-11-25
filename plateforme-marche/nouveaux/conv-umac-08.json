@@ -1,0 +1,51 @@
+{
+  "id": "conv-umac-08",
+  "ordre": 119,
+  "type": "convention",
+  "organisme": "umac",
+  "num": "Convention régissant l'UMAC",
+  "date": "25 juin 2008, Yaoundé",
+  "titre": "Convention régissant l'Union Monétaire de l'Afrique Centrale (UMAC)",
+  "theme": "cadre",
+  "couverture": "contexte",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\10_Convention-UMAC-2008.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 15 pages), lu par OCR ; fiche de contexte : articles 7 à 17, 31 et 32 relus"
+  },
+  "relations": {},
+  "objet": "Convention qui régit l'Union Monétaire de l'Afrique Centrale : organes (Conférence des Chefs d'État, Comité ministériel, Institut d'émission), institutions spécialisées dont la COSUMAF et le GABAC. Son article 31 confie à la COSUMAF la régulation et le contrôle des opérations d'appel public à l'épargne. Fiche de contexte.",
+  "trente": "La **COSUMAF** et le **GABAC** sont les **institutions spécialisées** de l'UMAC (art. 10). La **Conférence des Chefs d'État** est l'**autorité suprême** de l'Union monétaire : elle décide des adhésions, fixe le siège des organes et institutions spécialisées, nomme et révoque leurs responsables (art. 11). **Article 31** : la **COBAC** contrôle l'activité bancaire et la microfinance, la **COSUMAF** régule et contrôle les **opérations d'appel public à l'épargne**, le **GABAC** coordonne la lutte contre le blanchiment. Les organes et institutions spécialisées établissent un **rapport annuel d'activité public** (art. 32).",
+  "retenir": [
+    "Les **organes** de l'UMAC : la **Conférence des Chefs d'État**, le **Comité ministériel**, l'**Institut d'émission** (BEAC), etc. ; les **institutions spécialisées** sont la **COSUMAF**, le **GABAC** et toute autre institution créée par la Conférence. Art. 10",
+    "La **Conférence des Chefs d'État** est l'**autorité suprême** : elle décide de l'adhésion de tout nouveau membre, prend acte d'un retrait, **fixe le siège** des organes et institutions spécialisées et **nomme et révoque** leurs responsables sur proposition du Comité ministériel. Art. 11",
+    "Le **Comité ministériel** veille à l'application de la convention, décide des augmentations ou réductions du **capital de la BEAC**, donne un **avis conforme** sur les modifications de ses statuts et ratifie ses comptes annuels. Art. 13",
+    "Les responsables des organes et institutions spécialisées assistent au Comité ministériel **avec voix consultative**. Art. 17",
+    "**Régulation de l'appel public à l'épargne** : elle relève de la **COSUMAF** ; le contrôle de l'activité bancaire relève de la **COBAC** ; la coordination de la lutte contre le blanchiment relève du **GABAC**. Art. 31",
+    "Chaque organe et institution spécialisée établit un **rapport annuel d'activité**, adressé au Comité ministériel, à la Conférence des Chefs d'État et au Parlement communautaire, et **rendu public**. Art. 32",
+    "Les **actes** des organes et institutions spécialisées sont **applicables dans chaque État membre**. Art. 7"
+  ],
+  "delais": [
+    { "q": "Rapport annuel d'activité des organes et institutions spécialisées de l'UMAC", "v": "chaque année, rendu public", "a": "art. 32" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "COSUMAF (institution spécialisée de l'UMAC)", "r": "Assure la régulation et le contrôle des opérations d'appel public à l'épargne.", "a": "art. 10, 31" },
+    { "acteur": "COBAC (Commission Bancaire de l'Afrique Centrale)", "r": "Harmonise les réglementations et contrôle l'activité bancaire et la microfinance.", "a": "art. 31" },
+    { "acteur": "GABAC", "r": "Coordonne les politiques de lutte contre le blanchiment des capitaux et le financement du terrorisme.", "a": "art. 10, 31" },
+    { "acteur": "Comité ministériel de l'UMAC", "r": "Veille à l'application de la convention, décide du capital de la BEAC et donne un avis conforme sur ses statuts.", "a": "art. 13" }
+  ],
+  "definitions": [],
+  "listes": [
+    { "titre": "Institutions spécialisées de l'UMAC", "a": "art. 10", "items": ["COSUMAF", "GABAC", "Toute autre institution créée par la Conférence des Chefs d'État"] }
+  ],
+  "pieges": [
+    "L'article des institutions spécialisées est transcrit **« Article IO »** dans le scan : lire **article 10**.",
+    "La COSUMAF régule l'**appel public à l'épargne** ; l'**activité bancaire** relève de la **COBAC** : ne pas les confondre.",
+    "Fiche de **contexte** : seuls les articles 7 à 17, 31 et 32 ont été relus ; ne pas s'y fier pour le reste (BEAC, politique monétaire)."
+  ],
+  "qr": [
+    { "q": "Quelles sont les institutions spécialisées de l'UMAC ?", "r": "La COSUMAF, le GABAC et toute autre institution créée par la Conférence des Chefs d'État (art. 10)." },
+    { "q": "Quel article de la Convention UMAC fonde le rôle de la COSUMAF ?", "r": "L'article 31 : la régulation et le contrôle des opérations d'appel public à l'épargne relèvent de la COSUMAF." }
+  ]
+}

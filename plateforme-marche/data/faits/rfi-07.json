@@ -1,0 +1,525 @@
+[
+  {
+    "id": "rfi-07.delai.01",
+    "texte": "rfi-07",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Durée de l'IS réduit pour une société qui s'introduit à la BVMAC",
+    "valeur_texte": "3 ans",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.delai.02",
+    "texte": "rfi-07",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Durée minimale de maintien à la cote pour garder les avantages fiscaux",
+    "valeur_texte": "4 ans",
+    "type_valeur": "nombre",
+    "valeur": 4,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.delai.03",
+    "texte": "rfi-07",
+    "type": "delai",
+    "article": "art. 9",
+    "enonce": "Blocage des sommes d'un compte épargne en valeurs mobilières",
+    "valeur_texte": "4 ans minimum",
+    "type_valeur": "nombre",
+    "valeur": 4,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.delai.04",
+    "texte": "rfi-07",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Échéance des obligations ouvrant droit à la retenue réduite de 5 %",
+    "valeur_texte": "5 ans ou plus",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.delai.05",
+    "texte": "rfi-07",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Délai des États pour intégrer le régime fiscal BVMAC dans leur droit",
+    "valeur_texte": "2 ans",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.delai.06",
+    "texte": "rfi-07",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Point de départ des délais d'IS réduit",
+    "valeur_texte": "début de l'exercice fiscal suivant l'introduction",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.01",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 7",
+    "enonce": "Retenue à la source sur dividendes et obligations de moins de 5 ans (titres cotés BVMAC)",
+    "valeur_texte": "10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.02",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 7",
+    "enonce": "Retenue à la source sur obligations de 5 ans ou plus (titres cotés BVMAC)",
+    "valeur_texte": "5 %",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.03",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 8",
+    "enonce": "Taux d'IS pendant 3 ans après une augmentation de capital d'au moins 20 %",
+    "valeur_texte": "20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.04",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 8",
+    "enonce": "Taux d'IS pendant 3 ans après une cession d'actions d'au moins 20 %",
+    "valeur_texte": "25 %",
+    "type_valeur": "nombre",
+    "valeur": 25,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.05",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 8",
+    "enonce": "Taux d'IS pendant 3 ans si moins de 20 % du capital est coté",
+    "valeur_texte": "28 %",
+    "type_valeur": "nombre",
+    "valeur": 28,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.06",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 6, 8",
+    "enonce": "Part minimale du capital à introduire pour l'IS réduit à 20 % ou 25 %",
+    "valeur_texte": "20 % du capital",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.07",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 9",
+    "enonce": "Part minimale de titres cotés BVMAC dans un CEVM",
+    "valeur_texte": "70 %",
+    "type_valeur": "nombre",
+    "valeur": 70,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.08",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 9",
+    "enonce": "Part minimale d'actions dans le portefeuille d'un CEVM",
+    "valeur_texte": "50 %",
+    "type_valeur": "nombre",
+    "valeur": 50,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.09",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 9",
+    "enonce": "Plafond annuel de déduction IRPP des sommes versées sur un CEVM",
+    "valeur_texte": "15 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 15000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.10",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 11",
+    "enonce": "Part d'actions cotées dans un fonds d'épargne d'entreprise",
+    "valeur_texte": "70 %",
+    "type_valeur": "nombre",
+    "valeur": 70,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.11",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 12",
+    "enonce": "Contribution minimale de l'entreprise à son fonds d'épargne d'entreprise",
+    "valeur_texte": "25 % des actions à souscrire",
+    "type_valeur": "nombre",
+    "valeur": 25,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.montant.12",
+    "texte": "rfi-07",
+    "type": "montant",
+    "article": "art. 14",
+    "enonce": "Part minimale d'actifs cotés pour la transparence fiscale d'un OPCVM",
+    "valeur_texte": "70 %",
+    "type_valeur": "nombre",
+    "valeur": 70,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.role.01",
+    "texte": "rfi-07",
+    "type": "role",
+    "article": "art. 7",
+    "enonce": "Teneur de compte",
+    "valeur_texte": "Opère la retenue à la source libératoire au profit du pays de résidence du titulaire.",
+    "acteurs": [
+      "teneur-de-compte"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.role.02",
+    "texte": "rfi-07",
+    "type": "role",
+    "article": "art. 9-10",
+    "enonce": "Intermédiaire en bourse",
+    "valeur_texte": "Ouvre le CEVM par convention, délivre le certificat de dépôt, bloque les sommes 4 ans et paie solidairement l'impôt en cas de retrait anticipé.",
+    "acteurs": [
+      "intermediaire-en-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.role.03",
+    "texte": "rfi-07",
+    "type": "role",
+    "article": "art. 16",
+    "enonce": "Commission permanente de l'harmonisation fiscale et comptable",
+    "valeur_texte": "Élargie à la BVMAC et à la COSUMAF, évalue l'impact du régime et peut le remettre en cause.",
+    "acteurs": [
+      "commission-permanente-de-l-harmonisation-fiscale-et-comptable"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.role.04",
+    "texte": "rfi-07",
+    "type": "role",
+    "article": "préambule",
+    "enonce": "Conseil des Ministres de l'UEAC",
+    "valeur_texte": "Adopte le régime fiscal spécifique des opérations cotées.",
+    "acteurs": [
+      "conseil-des-ministres-de-l-ueac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.definition.01",
+    "texte": "rfi-07",
+    "type": "definition",
+    "article": "art. 9",
+    "enonce": "Compte épargne en valeurs mobilières (CEVM)",
+    "valeur_texte": "Compte ouvert par une personne physique chez un intermédiaire en bourse, investi à au moins 70 % en valeurs cotées à la BVMAC, bloqué au moins 4 ans.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.definition.02",
+    "texte": "rfi-07",
+    "type": "definition",
+    "article": "art. 11",
+    "enonce": "Fonds d'épargne d'entreprise (FEE)",
+    "valeur_texte": "Sommes investies par une personne morale dans un fonds salarial à hauteur de 70 % en actions cotées à la BVMAC.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.definition.03",
+    "texte": "rfi-07",
+    "type": "definition",
+    "article": "art. 5",
+    "enonce": "Plus-value (régime BVMAC)",
+    "valeur_texte": "Prix de cession diminué du prix d'acquisition et des frais de gestion des titres cédés.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.definition.04",
+    "texte": "rfi-07",
+    "type": "definition",
+    "article": "art. 14",
+    "enonce": "Transparence fiscale (OPCVM)",
+    "valeur_texte": "L'OPCVM n'est pas imposé lui-même : ses membres le sont au prorata de leurs parts.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.liste.01",
+    "texte": "rfi-07",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "Produits exonérés d'IRVM",
+    "valeur_texte": "Intérêts des obligations d'État (résidents CEMAC) ; Intérêts des obligations des collectivités locales de la CEMAC ; Plus-values de cession de valeurs mobilières cotées",
+    "items": [
+      "Intérêts des obligations d'État (résidents CEMAC)",
+      "Intérêts des obligations des collectivités locales de la CEMAC",
+      "Plus-values de cession de valeurs mobilières cotées"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.piege.01",
+    "texte": "rfi-07",
+    "type": "piege",
+    "article": null,
+    "enonce": "10 % pour les dividendes et obligations courtes, 5 % pour les obligations de 5 ans ou plus",
+    "valeur_texte": "**10 %** pour les dividendes et obligations courtes, **5 %** pour les obligations de **5 ans ou plus** : la retenue est plus faible pour le long terme.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.piege.02",
+    "texte": "rfi-07",
+    "type": "piege",
+    "article": null,
+    "enonce": "IS : 20 % (augmentation de capital), 25 % (cession), 28 % (moins de 20 % coté) — pendant 3",
+    "valeur_texte": "IS : **20 %** (augmentation de capital), **25 %** (cession), **28 %** (moins de 20 % coté) — pendant **3 ans**, mais il faut rester coté **4 ans**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.piege.03",
+    "texte": "rfi-07",
+    "type": "piege",
+    "article": null,
+    "enonce": "Trois « 70 % » : CEVM (titres cotés), FEE (actions cotées), OPCVM (transparence fiscale). ",
+    "valeur_texte": "Trois « 70 % » : CEVM (titres cotés), FEE (actions cotées), OPCVM (transparence fiscale). Et **50 %** d'actions dans le CEVM.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rfi-07.piege.04",
+    "texte": "rfi-07",
+    "type": "piege",
+    "article": null,
+    "enonce": "Texte de l'UEAC (Conseil des Ministres), non de l'UMAC ni de la COSUMAF.",
+    "valeur_texte": "Texte de l'**UEAC** (Conseil des Ministres), non de l'UMAC ni de la COSUMAF.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

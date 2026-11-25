@@ -1,0 +1,45 @@
+{
+  "id": "r06-03",
+  "ordre": 124,
+  "type": "reglement",
+  "organisme": "cemac",
+  "num": "06/03-CEMAC-UMAC",
+  "date": "12 novembre 2003",
+  "titre": "Règlement n° 06/03-CEMAC-UMAC portant organisation, fonctionnement et surveillance du marché financier de l'Afrique centrale",
+  "theme": "cadre",
+  "couverture": "contexte",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-reglement-portant-organisation-fonctionnement-et-surveillance-du-marche-financier-de-lafrique-centrale.pdf",
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-reglement-portant-organisation-fonctionnement-et-surveillance-du-marche-financier-de-lafrique-centrale.pdf",
+    "origine": "PDF officiel de la BVMAC (scan, 23 pages, 74 articles), lu par OCR. La BVMAC le présente comme « du 14 mars 2002 » ; le document porte le n° 06/03, vise des actes de 2003 et un avis conforme de la BEAC du 14 mars 2002 ; la date du 12 novembre 2003 vient de l'Acte additionnel 06/17 et du Règlement 01/22 (le scan ne porte pas de date de signature)"
+  },
+  "relations": {},
+  "objet": "Premier règlement communautaire qui organise le marché financier régional : définition du marché, tutelle et contrôle de la COSUMAF, entreprises du marché, règles de négociation, conditions d'exécution des opérations boursières, pratiques illicites et sanctions. 74 articles et un modèle de serment en annexe. Abrogé par le Règlement 01/22 du 21 juillet 2022.",
+  "trente": "**74 articles.** Le marché financier régional comprend les produits de placement et services financiers non bancaires offerts par **appel public à l'épargne** (art. 1) ; il est placé sous la **tutelle et le contrôle de la COSUMAF** (art. 2). Plan : définition et organisation (titre I), autorité de contrôle (II), entreprises du marché (III), règles de négociation (IV), exécution des opérations boursières (V), **pratiques illicites, sanctions, interdictions** (VII), dispositions finales (VIII). Entrée en vigueur le **1er jour du mois suivant l'adoption** (art. 74). **Abrogé par le Règlement 01/22.**",
+  "retenir": [
+    "Le **Marché Financier Régional** s'entend de tous les produits de placement et services financiers **non bancaires** offerts au public et faisant **appel public à l'épargne** dans les États membres de la CEMAC, des transactions sur ces produits et des personnes qui animent ou régulent le marché. Art. 1",
+    "Le marché est placé sous la **tutelle et le contrôle de la COSUMAF**. Art. 2",
+    "Plan : **titre I** définition et organisation ; **II** autorité de contrôle et de surveillance ; **III** entreprises du marché ; **IV** règles de négociation des valeurs (art. 52) ; **V** conditions d'exécution des opérations boursières (art. 54) ; **VII** pratiques illicites, sanctions, interdictions (art. 60) ; **VIII** dispositions finales (art. 72). Plan",
+    "Entrée en vigueur **le 1er jour du mois suivant son adoption** par le Comité ministériel de l'UMAC ; publication au Bulletin officiel de la Communauté. Art. 74",
+    "Annexe : **modèle de serment** que prêtent les personnes de la COSUMAF, de la BVMAC et du Comité d'admission (indépendance, confidentialité). Annexe"
+  ],
+  "delais": [
+    { "q": "Entrée en vigueur du Règlement 06/03", "v": "le 1er jour du mois suivant son adoption", "a": "art. 74" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "COSUMAF (Règlement 06/03)", "r": "Exerce la tutelle et le contrôle du marché financier régional.", "a": "art. 2" }
+  ],
+  "definitions": [
+    { "t": "Marché Financier Régional (Règlement 06/03)", "d": "Ensemble des produits de placement et services financiers non bancaires offerts au public et faisant appel public à l'épargne dans les États membres de la CEMAC, des transactions et des personnes chargées de les animer ou de les réguler.", "a": "art. 1" }
+  ],
+  "listes": [],
+  "pieges": [
+    "**Texte abrogé** par le Règlement **01/22** du 21 juillet 2022 : ne pas le citer comme droit en vigueur. Il reste cité dans d'anciens textes (Règlement 01/14, Règlement général de la BVMAC de 2008).",
+    "**Date** : la BVMAC l'intitule « du **14 mars 2002** » ; le document est le règlement **n° 06/03**, dont les textes de référence datent de 2003 ; l'Acte additionnel 06/17 le cite « du **12 novembre 2003**, **modifié le 9 juin 2008** ».",
+    "Fiche de **contexte** : seuls l'objet, le plan et les articles 1, 2 et 74 ont été relus."
+  ],
+  "qr": [
+    { "q": "Quel texte le Règlement 01/22 a-t-il remplacé ?", "r": "Le Règlement n° 06/03-CEMAC-UMAC du 12 novembre 2003 portant organisation, fonctionnement et surveillance du marché financier de l'Afrique centrale." }
+  ]
+}

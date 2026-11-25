@@ -1,0 +1,138 @@
+[
+  {
+    "id": "i38-25.delai.01",
+    "texte": "i38-25",
+    "type": "delai",
+    "article": "annexe, art. 17",
+    "enonce": "Durée maximale du mandat d'administrateur d'une SPI",
+    "valeur_texte": "6 ans",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.delai.02",
+    "texte": "i38-25",
+    "type": "delai",
+    "article": "annexe",
+    "enonce": "Absence de réunion du conseil d'une SPI permettant sa convocation par un tiers des membres",
+    "valeur_texte": "plus de 2 mois",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "mois",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.delai.03",
+    "texte": "i38-25",
+    "type": "delai",
+    "article": "annexe",
+    "enonce": "Réunion de l'AG annuelle d'une SPI après la clôture",
+    "valeur_texte": "5 mois",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.montant.01",
+    "texte": "i38-25",
+    "type": "montant",
+    "article": "annexe",
+    "enonce": "Fraction des administrateurs d'une SPI pouvant demander la convocation du conseil",
+    "valeur_texte": "1/3 des membres",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.role.01",
+    "texte": "i38-25",
+    "type": "role",
+    "article": "annexe, art. 2",
+    "enonce": "Société professionnelle d'investissement à long terme (SPI)",
+    "valeur_texte": "Finance à long terme des infrastructures, des sociétés non cotées et des PME cotées.",
+    "acteurs": [
+      "societe-professionnelle-d-investissement-a-long-terme-spi"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.definition.01",
+    "texte": "i38-25",
+    "type": "definition",
+    "article": "annexe, art. 2",
+    "enonce": "Société professionnelle d'investissement à long terme (SPI)",
+    "valeur_texte": "OPI sous forme de société (SA ou SAS) apportant des financements de longue durée à des infrastructures, sociétés non cotées ou PME cotées.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.liste.01",
+    "texte": "i38-25",
+    "type": "liste",
+    "article": "annexe, art. 2",
+    "enonce": "Cibles de financement d'une SPI",
+    "valeur_texte": "Projets d'infrastructure ; Sociétés non cotées ; PME cotées",
+    "items": [
+      "Projets d'infrastructure",
+      "Sociétés non cotées",
+      "PME cotées"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i38-25.piege.01",
+    "texte": "i38-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Deux « SPI » : la SPI immobilière (société de placement immobilier, OPCI) et la SPI à long",
+    "valeur_texte": "Deux « SPI » : la **SPI immobilière** (société de placement immobilier, OPCI) et la **SPI à long terme** (OPI). Toujours préciser.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

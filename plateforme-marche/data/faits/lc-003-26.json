@@ -1,0 +1,258 @@
+[
+  {
+    "id": "lc-003-26.delai.01",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 1 (art. 361 RG)",
+    "enonce": "Signature du règlement de gestion ou des statuts après l'agrément d'un OPCVM",
+    "valeur_texte": "30 jours calendaires à compter de la notification d'agrément",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.02",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 2 (art. 361 RG)",
+    "enonce": "Libération intégrale des parts initiales après l'agrément d'un OPCVM",
+    "valeur_texte": "30 jours calendaires à compter de la notification d'agrément",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.03",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 3",
+    "enonce": "Justification de l'origine licite des fonds de constitution",
+    "valeur_texte": "dès la libération intégrale des parts initiales",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.04",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 4",
+    "enonce": "Transmission à la COSUMAF de l'original du certificat de dépôt",
+    "valeur_texte": "immédiatement après le dépôt, au plus tard 30 jours à compter de la notification d'agrément",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.05",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 6 (art. 362 RG)",
+    "enonce": "Immatriculation au RCCM et publicité d'un OPCVM",
+    "valeur_texte": "30 jours calendaires à compter de la constitution effective du fonds",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.06",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 7 (art. 362 RG)",
+    "enonce": "Copie certifiée du certificat de dépôt transmise à la COSUMAF",
+    "valeur_texte": "30 jours calendaires à compter de la constitution effective du fonds",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.07",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 8 (art. 362 RG)",
+    "enonce": "Insertion de l'annonce légale d'un OPCVM",
+    "valeur_texte": "30 jours calendaires à compter de la constitution effective du fonds",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.delai.08",
+    "texte": "lc-003-26",
+    "type": "delai",
+    "article": "diligence 9 (art. 6 Instr. 13-24)",
+    "enonce": "Transmission de la version définitive du DI et du DIS",
+    "valeur_texte": "préalablement à toute émission de parts",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.role.01",
+    "texte": "lc-003-26",
+    "type": "role",
+    "article": "diligence 1",
+    "enonce": "SGO et fondateurs (diligences post-agrément)",
+    "valeur_texte": "Signent le règlement de gestion ou les statuts de l'OPCVM.",
+    "acteurs": [
+      "sgo-et-fondateurs-diligences-post-agrement"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.role.02",
+    "texte": "lc-003-26",
+    "type": "role",
+    "article": "diligences 2-3",
+    "enonce": "Premiers porteurs et SGO (diligences post-agrément)",
+    "valeur_texte": "Libèrent intégralement les parts initiales et justifient l'origine licite des fonds.",
+    "acteurs": [
+      "premiers-porteurs-et-sgo-diligences-post-agrement"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.role.03",
+    "texte": "lc-003-26",
+    "type": "role",
+    "article": "diligences 4-5",
+    "enonce": "Dépositaire d'OPC (diligences post-agrément)",
+    "valeur_texte": "Transmet à la COSUMAF l'original du certificat de dépôt ; calcule avec la SGO la première valeur liquidative.",
+    "acteurs": [
+      "depositaire-d-opc-diligences-post-agrement"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.liste.01",
+    "texte": "lc-003-26",
+    "type": "liste",
+    "article": "tableau",
+    "enonce": "Les trois phases des diligences post-agrément d'un OPCVM",
+    "valeur_texte": "Phase 1 : constitution (diligences 1 à 5) ; Phase 2 : publicité (diligences 6 à 8) ; Phase 3 : émission (diligence 9) ; maintien permanent de l'actif net (diligence 10)",
+    "items": [
+      "Phase 1 : constitution (diligences 1 à 5)",
+      "Phase 2 : publicité (diligences 6 à 8)",
+      "Phase 3 : émission (diligence 9) ; maintien permanent de l'actif net (diligence 10)"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.piege.01",
+    "texte": "lc-003-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le délai de 30 jours calendaires court de la notification d'agrément pour les diligences 1",
+    "valeur_texte": "Le délai de **30 jours calendaires** court de la **notification d'agrément** pour les diligences 1, 2 et 4, mais de la **constitution effective du fonds** pour les diligences 6, 7 et 8 (art. 362).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.piege.02",
+    "texte": "lc-003-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "La justification de l'origine des fonds et le calcul de la première VL n'ont pas de délai ",
+    "valeur_texte": "La **justification de l'origine des fonds** et le **calcul de la première VL** n'ont pas de délai en jours : ils interviennent **dès** la libération des parts, **dès** le dépôt des fonds.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-003-26.piege.03",
+    "texte": "lc-003-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'insertion de l'annonce légale et l'immatriculation au RCCM sont distinctes de la transmi",
+    "valeur_texte": "L'insertion de **l'annonce légale** et l'**immatriculation au RCCM** sont distinctes de la transmission du **certificat de dépôt** à la COSUMAF.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

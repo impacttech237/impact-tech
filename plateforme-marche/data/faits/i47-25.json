@@ -1,0 +1,491 @@
+[
+  {
+    "id": "i47-25.delai.01",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 13",
+    "enonce": "Transmission à la COSUMAF d'un avenant substantiel de mandat de gestion",
+    "valeur_texte": "5 jours ouvrés après la signature",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.02",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Périodicité minimale d'information du client sous mandat (à défaut d'accord)",
+    "valeur_texte": "chaque trimestre",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.03",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Délai d'envoi des relevés au client sous mandat",
+    "valeur_texte": "7 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.04",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 24",
+    "enonce": "Transmission à la COSUMAF d'une convention de gestion sous mandat",
+    "valeur_texte": "8 jours après sa conclusion",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.05",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 25",
+    "enonce": "Transmission du code de déontologie et de la procédure de gestion sous mandat",
+    "valeur_texte": "1 mois avant leur application",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.06",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 27-28",
+    "enonce": "Mise en conformité des SDB et SGO avec l'Instruction 47-25",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.07",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "art. 17",
+    "enonce": "Fréquence minimale de calcul de la commission de surperformance",
+    "valeur_texte": "annuelle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.08",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "annexe, art. 10",
+    "enonce": "Réclamation du client qui n'a pas reçu ses documents (modèle de contrat)",
+    "valeur_texte": "21 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 21,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.09",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "annexe, art. 10",
+    "enonce": "Contestation du contenu des documents reçus (modèle de contrat)",
+    "valeur_texte": "8 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.delai.10",
+    "texte": "i47-25",
+    "type": "delai",
+    "article": "annexe, art. 12",
+    "enonce": "Prise d'effet de la dénonciation du mandat par le mandataire",
+    "valeur_texte": "5 jours calendaires après réception",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.montant.01",
+    "texte": "i47-25",
+    "type": "montant",
+    "article": "art. 2",
+    "enonce": "Valeur minimale d'un portefeuille en gestion individuelle sous mandat",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.montant.02",
+    "texte": "i47-25",
+    "type": "montant",
+    "article": "art. 17",
+    "enonce": "Plafond de la commission de surperformance en gestion sous mandat",
+    "valeur_texte": "20 % de la performance nette excédentaire",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.montant.03",
+    "texte": "i47-25",
+    "type": "montant",
+    "article": "art. 8",
+    "enonce": "Nombre d'exemplaires de la convention de gestion sous mandat",
+    "valeur_texte": "2 exemplaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.montant.04",
+    "texte": "i47-25",
+    "type": "montant",
+    "article": "art. 26",
+    "enonce": "Nombre de plus gros clients listés dans le rapport annuel de gestion sous mandat",
+    "valeur_texte": "10 clients",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.role.01",
+    "texte": "i47-25",
+    "type": "role",
+    "article": "art. 2-26",
+    "enonce": "Gérant / mandataire (SDB ou SGO)",
+    "valeur_texte": "Évalue le profil du client, signe la convention, gère dans son intérêt exclusif, contrôle, informe le client et la COSUMAF.",
+    "acteurs": [
+      "gerant-mandataire-sdb-ou-sgo"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.role.02",
+    "texte": "i47-25",
+    "type": "role",
+    "article": "art. 2, 20-23",
+    "enonce": "Gestionnaire",
+    "valeur_texte": "Personne physique qui gère les portefeuilles, indépendante des autres fonctions ; passe et répartit équitablement les ordres groupés.",
+    "acteurs": [
+      "gestionnaire"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.role.03",
+    "texte": "i47-25",
+    "type": "role",
+    "article": "art. 10",
+    "enonce": "Comité d'investissement",
+    "valeur_texte": "Organe du personnel de la société de gestion, sans le négociateur, qui encadre la gestion sous mandat.",
+    "acteurs": [
+      "comite-d-investissement"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.role.04",
+    "texte": "i47-25",
+    "type": "role",
+    "article": "art. 2, 7, 13",
+    "enonce": "Client (mandant)",
+    "valeur_texte": "Donne mandat écrit, signe la fiche de profil et les avenants substantiels.",
+    "acteurs": [
+      "client-mandant"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.definition.01",
+    "texte": "i47-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Gestion individuelle sous mandat",
+    "valeur_texte": "Gestion discrétionnaire et individualisée, par une SDB ou une SGO, d'un portefeuille d'au moins 10 millions FCFA sur mandat d'un tiers.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.definition.02",
+    "texte": "i47-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Mandat de gestion",
+    "valeur_texte": "Convention écrite par laquelle le client donne pouvoir à un gérant agréé de gérer son portefeuille, après évaluation de son profil.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.definition.03",
+    "texte": "i47-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Profil du client",
+    "valeur_texte": "Catégorisation du client selon sa situation financière, ses connaissances, son expérience, ses projets, son attitude face au risque et ses attentes de rendement.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.definition.04",
+    "texte": "i47-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Stratégie de gestion",
+    "valeur_texte": "Orientation du portefeuille selon le profil : répartition par classe d'actifs, pondérations et critères de performance.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.definition.05",
+    "texte": "i47-25",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Gestionnaire",
+    "valeur_texte": "Membre du personnel de la SDB ou de la SGO chargé de gérer les portefeuilles des clients.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.liste.01",
+    "texte": "i47-25",
+    "type": "liste",
+    "article": "art. 7",
+    "enonce": "Contenu de la fiche de profil du client",
+    "valeur_texte": "Situation financière ou patrimoniale ; Compétence et expérience en bourse ; Objectifs de risque, rentabilité, horizon ; Contraintes ; Catégorisation",
+    "items": [
+      "Situation financière ou patrimoniale",
+      "Compétence et expérience en bourse",
+      "Objectifs de risque, rentabilité, horizon",
+      "Contraintes",
+      "Catégorisation"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.liste.02",
+    "texte": "i47-25",
+    "type": "liste",
+    "article": "art. 17",
+    "enonce": "Conditions de la commission de surperformance",
+    "valeur_texte": "Clause expresse dans le mandat ; Méthode, indicateur de référence et période ; Seuil minimal de performance ; Ne rémunérer que le dépassement des niveaux déjà atteints ; Restitution ou report en cas de contre-performance ; Calcul au moins annuel ; plafond 20 %",
+    "items": [
+      "Clause expresse dans le mandat",
+      "Méthode, indicateur de référence et période",
+      "Seuil minimal de performance",
+      "Ne rémunérer que le dépassement des niveaux déjà atteints",
+      "Restitution ou report en cas de contre-performance",
+      "Calcul au moins annuel ; plafond 20 %"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.piege.01",
+    "texte": "i47-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Seules les SDB et les SGO peuvent faire de la gestion sous mandat (Règlement 01/22, art. 1",
+    "valeur_texte": "Seules les **SDB** et les **SGO** peuvent faire de la gestion sous mandat (Règlement 01/22, art. 163).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.piege.02",
+    "texte": "i47-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "10 millions = portefeuille minimal sous mandat (et aussi souscription minimale en placemen",
+    "valeur_texte": "**10 millions** = portefeuille minimal sous mandat (et aussi souscription minimale en placement privé : ne pas confondre les contextes).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.piege.03",
+    "texte": "i47-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Délais : avenant 5 jours ouvrés, convention 8 jours, relevés 7 jours, code de déontologie ",
+    "valeur_texte": "Délais : avenant **5 jours ouvrés**, convention **8 jours**, relevés **7 jours**, code de déontologie **1 mois** avant.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i47-25.piege.04",
+    "texte": "i47-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le fichier « 48_DOC à modifier » est le modèle de contrat de gestion sous mandat (annexe d",
+    "valeur_texte": "Le fichier « 48_DOC à modifier » est le **modèle de contrat** de gestion sous mandat (annexe de l'Instruction 47-25), pas une instruction distincte.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

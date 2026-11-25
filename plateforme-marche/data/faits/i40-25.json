@@ -1,0 +1,71 @@
+[
+  {
+    "id": "i40-25.delai.01",
+    "texte": "i40-25",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Transmission du rapport de contrôle interne d'une SGO ou d'une société d'investissement",
+    "valeur_texte": "au plus tard le 31 mars",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i40-25.role.01",
+    "texte": "i40-25",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Société de gestion d'OPC / société d'investissement",
+    "valeur_texte": "Transmet chaque année son rapport de contrôle interne, incluant contrôles des mandats, des VL et des ratios.",
+    "acteurs": [
+      "societe-de-gestion-d-opc-societe-d-investissement"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i40-25.liste.01",
+    "texte": "i40-25",
+    "type": "liste",
+    "article": "annexe",
+    "enonce": "Fonctions de contrôle d'une SGO",
+    "valeur_texte": "Conformité ; Audit interne ; Gestion des risques ; Contrôle interne",
+    "items": [
+      "Conformité",
+      "Audit interne",
+      "Gestion des risques",
+      "Contrôle interne"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i40-25.piege.01",
+    "texte": "i40-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "31 mars pour le rapport de contrôle interne des SGO (Instruction 40-25), alors que l'Instr",
+    "valeur_texte": "**31 mars** pour le rapport de contrôle interne des SGO (Instruction 40-25), alors que l'Instruction 06-23 disait **3 mois** après la clôture : le texte de 2025 est plus récent.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

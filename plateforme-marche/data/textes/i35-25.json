@@ -1,0 +1,49 @@
+{
+  "id": "i35-25",
+  "ordre": 44,
+  "type": "instruction",
+  "numero": "35-25",
+  "titre": "Modèle type du règlement de gestion d'un fonds de placement en capital (FPC)",
+  "theme": "opc",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Rubriques obligatoires du règlement de gestion d'un FPC (art. 470 et 478 du Règlement général).",
+    "essentiel": "FPC : copropriété exprimée en **parts**. Aucun rachat si l'actif tombe sous **300 millions FCFA** ; dissolution si l'actif reste **24 mois** sous ce seuil. CAC désigné pour **3 exercices** par la SGO, après **agrément** de la COSUMAF. Inventaire **au moins semestriel** ; documents aux porteurs **30 jours** après la clôture. Fusion ou scission **1 mois** après l'avis aux porteurs et **autorisation** de la COSUMAF. Prorogation décidée **3 mois** avant l'échéance avec le dépositaire.",
+    "retenir": [
+      "Prise en application de l'**art. 478 du RG** ; vise les **FPC** de l'**art. 470 du RG**. Art. 1",
+      "Parts de **copropriété** ; compartiments **non solidaires** sauf mention ; catégories de parts possibles (distribution ou capitalisation, devises, frais, commissions, nominal, couverture). Annexe, art. 1",
+      "**Montant minimal de l'actif : 300 000 000 FCFA** ; en dessous, **aucun rachat** de parts. Annexe, art. 2",
+      "**Commissaire aux comptes** désigné pour **3 exercices** par la société de gestion, sous réserve d'**agrément préalable** de la COSUMAF. Annexe, art. 7",
+      "Inventaire des actifs **au moins semestriel** sous le contrôle du dépositaire ; documents à disposition des porteurs **dans les 30 jours** suivant la clôture. Annexe",
+      "Fusion ou scission **un mois** après l'avis aux porteurs et **après autorisation** de la COSUMAF. Annexe",
+      "Dissolution si l'actif reste **24 mois** sous le minimum ; **prorogation** décidée avec le dépositaire **au moins 3 mois** avant l'échéance. Annexe, art. 11"
+    ],
+    "listes": [],
+    "pieges": [
+      "FPC : **300 millions** et **24 mois** ; FCPI (Instruction 16-24) : **150 millions** et **24 mois**.",
+      "CAC : **3 exercices** pour le FPC et la SPC, mais **6 exercices** pour le FPI (Instruction 37-25)."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "i39-25",
+  "ordre": 48,
+  "type": "instruction",
+  "numero": "39-25",
+  "titre": "Contenu du rapport de contrôle interne des sociétés de bourse",
+  "theme": "conformite",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le rapport annuel de contrôle interne que chaque société de bourse adresse à la COSUMAF : méthodologie, présentation de la société, dispositif de contrôle, points de contrôle, cartographie des risques, mesures correctives.",
+    "essentiel": "Chaque **société de bourse** transmet à la COSUMAF son **rapport de contrôle interne au plus tard le 31 mars** de chaque année. Plan : **méthodologie**, **présentation** (dirigeants, **contrôleur interne avec sa carte professionnelle**, actionnaires, conseil), **dispositif** (procédures, niveaux de contrôle), **points de contrôle** (gouvernance, transactions, clients, plaintes, conformité, ratios, **LBC/FT**, système d'information : PSSI, RSSI, PCA/PRA, MFA), **cartographie des risques**, **mesures correctives**, suivi des observations du **CAC**, conclusion signée par la direction et le **RCCI**.",
+    "retenir": [
+      "S'applique aux **sociétés de bourse agréées** sur le marché financier de l'Afrique centrale. Art. 1",
+      "Rapport de contrôle interne transmis à la COSUMAF **au plus tard le 31 mars** de chaque année, selon l'annexe. Art. 2",
+      "I. **Méthodologie** : objectifs, moyens, travaux réalisés, changements de méthode. Annexe",
+      "II. **Présentation** : dénomination, capital, PCA, DG, **contrôleur interne** (coordonnées, **copie et références de la carte professionnelle**), références d'agrément de la structure et des dirigeants, actionnariat, conseil d'administration. Annexe",
+      "III. **Dispositif** : outils (procédures administratives, comptables, financières, de gestion, SI ; code de déontologie ; charte de confidentialité ; traitement des plaintes ; dispositif **LBC/FT** ; gestion des conflits ; **cartographie des risques** ; plan de contrôle ; **plan de continuité**), niveaux et fréquence des contrôles. Annexe",
+      "Points de contrôle : gouvernance, organes sociaux, transactions primaires et secondaires, activités connexes, **nantissements**, dossiers clients, plaintes, conformité, comptabilité, **ségrégation des comptes**, conflits d'intérêts, **LBC/FT**, **ratios réglementaires**. Annexe",
+      "Système d'information : **PSSI** adoptée, **RSSI** désigné, cartographie du SI, environnement de test, **MFA** et moindre privilège, journaux d'audit inviolables, **PCA/PRA** testés, sauvegardes (**RTO/RPO**). Annexe",
+      "Cartographie des risques : **gouvernance** (réunions, PV, mandats des administrateurs et CAC, délais de clôture), **financier** (capital, fonds propres, liquidité, solvabilité, rentabilité), **réglementaire** (reporting, injonctions COSUMAF, ségrégation activités principales/connexes, habilitation du **négociateur** et du **contrôleur interne**), **opérationnel** (incidents, déclarations de soupçon à l'**ANIF**, connexion à la plateforme BVMAC). Annexe",
+      "Conclusion : mesures correctives, suivi des recommandations et des observations du **CAC**, **avis global** sur l'efficacité, signature de la **direction** et du **RCCI**. Annexe"
+    ],
+    "listes": [
+      {
+        "titre": "Plan du rapport de contrôle interne",
+        "a": "annexe",
+        "items": [
+          "I. Méthodologie de contrôle",
+          "II. Présentation de la société",
+          "III. Dispositif de contrôle interne (outils, niveaux, points de contrôle)",
+          "Cartographie des risques",
+          "Mesures correctives et recommandations",
+          "Suivi des observations du CAC",
+          "Conclusions signées (direction et RCCI)"
+        ]
+      },
+      {
+        "titre": "Les 4 catégories de la cartographie des risques",
+        "a": "annexe",
+        "items": [
+          "Gouvernance",
+          "Risque financier (ratios prudentiels)",
+          "Risques réglementaires et juridiques",
+          "Risques opérationnels"
+        ]
+      }
+    ],
+    "pieges": [
+      "Rapport de contrôle interne : **31 mars** pour les SDB et les SGO (Instructions 39-25 et 40-25) ; l'Instruction 30-24 fixe **30 mars** pour les émetteurs APE ; l'Instruction 06-23 fixait **3 mois** après la clôture pour les SGO."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

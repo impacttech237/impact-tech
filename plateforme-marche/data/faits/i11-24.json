@@ -1,0 +1,264 @@
+[
+  {
+    "id": "i11-24.delai.01",
+    "texte": "i11-24",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Périodicité du reporting d'activité des SGO à la COSUMAF (Instruction 11-24)",
+    "valeur_texte": "semestrielle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.delai.02",
+    "texte": "i11-24",
+    "type": "delai",
+    "article": "annexe, point 5",
+    "enonce": "Périodicité minimale du calcul de la valeur totale des actifs gérés",
+    "valeur_texte": "au moins une fois par an",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.delai.03",
+    "texte": "i11-24",
+    "type": "delai",
+    "article": "annexe, point 5",
+    "enonce": "Ancienneté maximale de la valeur d'actif utilisée pour le calcul des actifs gérés",
+    "valeur_texte": "12 mois",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.delai.04",
+    "texte": "i11-24",
+    "type": "delai",
+    "article": "annexe, méthode brute",
+    "enonce": "Référence de rendement pour qualifier un équivalent de trésorerie (méthode brute)",
+    "valeur_texte": "emprunt d'État à 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.montant.01",
+    "texte": "i11-24",
+    "type": "montant",
+    "article": "art. 3",
+    "enonce": "Nombre de contreparties les plus exposées à déclarer pour un OPC",
+    "valeur_texte": "3 contreparties",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.montant.02",
+    "texte": "i11-24",
+    "type": "montant",
+    "article": "art. 3",
+    "enonce": "Nombre de CCP principales à indiquer en cas de compensation centrale",
+    "valeur_texte": "2 CCP",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.role.01",
+    "texte": "i11-24",
+    "type": "role",
+    "article": "art. 2-3, annexes",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Remplit les tableaux de reporting de son activité et de chaque OPC, calcule les actifs gérés et le levier selon des procédures documentées.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.role.02",
+    "texte": "i11-24",
+    "type": "role",
+    "article": "art. 2, annexes",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Reçoit le reporting semestriel et précise par circulaire les méthodes de conversion des dérivés.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.definition.01",
+    "texte": "i11-24",
+    "type": "definition",
+    "article": "annexe levier",
+    "enonce": "Effet de levier (OPC)",
+    "valeur_texte": "Ratio entre l'exposition de l'OPC et sa valeur nette d'inventaire.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.definition.02",
+    "texte": "i11-24",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "Méthode brute",
+    "valeur_texte": "Exposition égale à la somme des valeurs absolues de toutes les positions, hors trésorerie et équivalents, dérivés convertis en équivalent sous-jacent.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.definition.03",
+    "texte": "i11-24",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "Méthode de l'engagement",
+    "valeur_texte": "Exposition calculée en convertissant les dérivés en positions équivalentes, en tenant compte des accords de compensation et de couverture.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.definition.04",
+    "texte": "i11-24",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "Valeur totale des actifs gérés",
+    "valeur_texte": "Somme des valeurs des actifs de tous les OPC gérés par la SGO, y compris ceux acquis par effet de levier.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.definition.05",
+    "texte": "i11-24",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Lock-up (période de verrouillage)",
+    "valeur_texte": "Période pendant laquelle l'investisseur ne peut pas demander le remboursement de ses parts.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.liste.01",
+    "texte": "i11-24",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Les profils de risque déclarés par OPC",
+    "valeur_texte": "Risque de marché (rendement attendu) ; Risque de contrepartie ; Profil de liquidité ; Risques liés aux emprunts et levier ; Risques opérationnels et profil historique ; Simulations de crise",
+    "items": [
+      "Risque de marché (rendement attendu)",
+      "Risque de contrepartie",
+      "Profil de liquidité",
+      "Risques liés aux emprunts et levier",
+      "Risques opérationnels et profil historique",
+      "Simulations de crise"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.piege.01",
+    "texte": "i11-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Instruction 11-24 : reporting semestriel ; l'Instruction 41-25 fixe d'autres fréquences de",
+    "valeur_texte": "Instruction 11-24 : reporting **semestriel** ; l'Instruction **41-25** fixe d'autres fréquences de reporting pour les dépositaires, SGO et SI : vérifier le texte cité.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i11-24.piege.02",
+    "texte": "i11-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les OPC gérés par délégation pour un autre sont exclus du calcul des actifs gérés ; ceux q",
+    "valeur_texte": "Les OPC gérés **par délégation pour un autre** sont **exclus** du calcul des actifs gérés ; ceux que la SGO a délégués sont **inclus**.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

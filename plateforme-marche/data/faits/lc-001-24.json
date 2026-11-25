@@ -1,0 +1,138 @@
+[
+  {
+    "id": "lc-001-24.delai.01",
+    "texte": "lc-001-24",
+    "type": "delai",
+    "article": "rubrique 6",
+    "enonce": "Casier judiciaire d'un nouvel actionnaire : ancienneté maximale",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.delai.02",
+    "texte": "lc-001-24",
+    "type": "delai",
+    "article": "dernier alinéa",
+    "enonce": "Transmission des statuts modifiés et de l'extrait du RCCM après l'opération de modification du capital",
+    "valeur_texte": "au plus tard 30 jours calendaires après la fin de l'opération",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.role.01",
+    "texte": "lc-001-24",
+    "type": "role",
+    "article": "chapeau, dernier alinéa",
+    "enonce": "Intermédiaire de marché (modification du capital)",
+    "valeur_texte": "Soumet à la COSUMAF le dossier d'autorisation préalable et transmet ses statuts modifiés dans les 30 jours après l'opération.",
+    "acteurs": [
+      "intermediaire-de-marche-modification-du-capital"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.role.02",
+    "texte": "lc-001-24",
+    "type": "role",
+    "article": "rubriques 1-2",
+    "enonce": "Commissaire aux comptes (modification du capital)",
+    "valeur_texte": "Établit le rapport à l'AG sur le projet et certifie le caractère certain, liquide et exigible des créances en cas de compensation.",
+    "acteurs": [
+      "commissaire-aux-comptes-modification-du-capital"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.role.03",
+    "texte": "lc-001-24",
+    "type": "role",
+    "article": "chapeau",
+    "enonce": "COSUMAF (modification du capital)",
+    "valeur_texte": "Autorise au préalable la modification du capital social d'un intermédiaire.",
+    "acteurs": [
+      "cosumaf-modification-du-capital"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.liste.01",
+    "texte": "lc-001-24",
+    "type": "liste",
+    "article": "rubrique 6",
+    "enonce": "Pièces à fournir pour un nouvel actionnaire personne physique",
+    "valeur_texte": "Identité et coordonnées ; Casier judiciaire de moins de trois mois ; CV et mention éventuelle de personne politiquement exposée ; Situation financière ; Engagement de respecter la réglementation (LBC/FT)",
+    "items": [
+      "Identité et coordonnées",
+      "Casier judiciaire de moins de trois mois",
+      "CV et mention éventuelle de personne politiquement exposée",
+      "Situation financière",
+      "Engagement de respecter la réglementation (LBC/FT)"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.piege.01",
+    "texte": "lc-001-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "La circulaire est numérotée « 001/COS/PR/SG/DME/24 » dans la médiathèque de la COSUMAF ; l",
+    "valeur_texte": "La circulaire est numérotée « 001/COS/PR/SG/DME/24 » dans la médiathèque de la COSUMAF ; le scan est moins lisible : vérifier la référence avant de la citer.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-001-24.piege.02",
+    "texte": "lc-001-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ne pas confondre autorisation préalable (avant l'opération, ce texte) et transmission aprè",
+    "valeur_texte": "Ne pas confondre **autorisation préalable** (avant l'opération, ce texte) et **transmission après l'opération** des statuts modifiés (30 jours calendaires).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

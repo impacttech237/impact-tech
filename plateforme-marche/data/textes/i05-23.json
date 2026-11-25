@@ -1,0 +1,85 @@
+{
+  "id": "i05-23",
+  "ordre": 14,
+  "type": "instruction",
+  "numero": "05-23",
+  "titre": "Contenu du document d'information d'un appel public à l'épargne",
+  "theme": "ape",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le plan type du document d'information (prospectus) d'APE : une partie « émetteur » (annexe I) et une note sur les valeurs mobilières, différente pour les titres de capital (annexe II) et les titres de créance (annexes III et IV).",
+    "essentiel": "Document d'information = **partie émetteur** + **note sur les valeurs mobilières** (capital ou créance). Page de garde en **gras** avec la mention « document d'information » et la **référence du visa**. Le visa **n'approuve pas l'opportunité** et **n'authentifie pas** les chiffres (art. 159 du RG). Repères : états financiers certifiés des **3 derniers exercices**, historique sur **5 ans**, actionnaires de moins de **3 %** regroupés, sociétés actionnaires de plus de **5 %** décrites, capitaux propres et endettement datant de **90 jours** au plus, résultat d'une émission obligataire publié en **7 jours ouvrés**.",
+    "retenir": [
+      "Titres de **capital** : document = **annexe I** (émetteur) + **annexe II** (note sur les actions). Titres **autres que de capital** : **annexe I** + **annexe III** (note sur les titres de créance). Art. 2-3",
+      "Page de garde **claire, précise et en caractères gras** : sigle/logo, dénomination, mention « **document d'information** », nature et montant de l'opération, période de souscription, sociétés de bourse/arrangeur/chef de file, **référence et date du visa** ou de l'enregistrement.",
+      "Avertissement obligatoire : le visa n'implique **ni approbation de l'opportunité** de l'opération, **ni authentification** des informations comptables et financières (**art. 159 du Règlement général** de la COSUMAF) ; il atteste que l'information est **complète, pertinente, cohérente, claire et compréhensible** ; il ne **garantit pas** contre les risques de marché.",
+      "Le document visé est **diffusé dans tous les États de la CEMAC**, disponible aux sièges de l'émetteur, des intermédiaires, de la **COSUMAF**, du **Dépositaire Central**, chez les agents placeurs, et **téléchargeable** sur les sites de la **BVMAC** et de l'émetteur.",
+      "Les signataires déclarent : « À notre connaissance, les données du présent document sont conformes à la réalité… elles ne comportent pas d'omission de nature à en altérer la portée ». Les intermédiaires attestent avoir accompli les **diligences d'usage**.",
+      "Section « **facteurs de risque** » : risques propres à l'émetteur classés en un nombre limité de catégories, **les plus importants en premier**.",
+      "Capital : évolution sur **5 ans** ; liste des actionnaires (ceux de **moins de 3 %** peuvent être regroupés en « autres actionnaires ») ; description des sociétés actionnaires détenant **plus de 5 %**.",
+      "Informations financières : états **certifiés par un commissaire aux comptes** sur les **3 derniers exercices** ; si la date de référence comptable a changé, au moins **36 mois** couverts ; comptes de résultats et activité présentés sur **5 exercices**.",
+      "Si le document est établi **plus de 9 mois** après les derniers comptes audités, il contient des comptes intermédiaires couvrant au moins les **6 premiers mois** de l'exercice.",
+      "Procédures judiciaires sur au moins les **12 derniers mois** ; contrats importants des **2 années** précédentes ; capitaux propres et endettement à une date de **90 jours** au plus avant le document.",
+      "Si le prix ou le montant final n'est pas connu, l'investisseur peut **retirer son acceptation** pendant au moins **2 jours ouvrables** après le dépôt officiel du prix ou du montant.",
+      "Titres de créance : garanties, rang de la créance, **notation**, cotation prévue, service financier ; le **chef de file** remet un rapport à l'émetteur et à la COSUMAF et le résultat est publié dans les **7 jours ouvrés** à compter de la date de jouissance."
+    ],
+    "listes": [
+      {
+        "titre": "Mentions de la page de garde",
+        "a": "annexe I",
+        "items": [
+          "Sigle ou logo et dénomination de l'émetteur",
+          "Mention « document d'information »",
+          "Nature et désignation de l'opération",
+          "Montant global et période de souscription",
+          "Sociétés de bourse, arrangeur, chef de file, syndicat de placement",
+          "Référence et date du visa ou de l'enregistrement COSUMAF"
+        ]
+      },
+      {
+        "titre": "Lieux de mise à disposition du document visé",
+        "a": "annexe I",
+        "items": [
+          "Siège de l'émetteur",
+          "Siège des intermédiaires",
+          "COSUMAF",
+          "Dépositaire Central",
+          "Agents placeurs",
+          "Sites internet de la BVMAC et de l'émetteur"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le visa **n'authentifie pas** les comptes : c'est le rôle du **commissaire aux comptes**.",
+      "**3 %** = seuil de regroupement en « autres actionnaires » ; **5 %** = seuil au-delà duquel on décrit la société actionnaire.",
+      "Ne pas confondre **7 jours ouvrés** (publication du résultat d'une émission obligataire) et **8 jours** (rapport de clôture et mise à disposition des fonds, art. 277 du Règlement 01/22)."
+    ],
+    "qr": [
+      {
+        "q": "Que signifie le visa de la COSUMAF sur un document d'information ?",
+        "r": "Que le document est complet et contient une information pertinente, cohérente, claire et compréhensible ; il n'approuve pas l'opportunité de l'opération, n'authentifie pas les chiffres et ne garantit pas contre les risques de marché."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "i37-25",
+  "ordre": 46,
+  "type": "instruction",
+  "numero": "37-25",
+  "titre": "Modèle type du règlement de gestion d'un fonds professionnel d'investissement à long terme (FPI)",
+  "theme": "opc",
+  "date_texte": "23 mai 2025",
+  "date_adoption": "2025-05-23",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Rubriques obligatoires du règlement de gestion d'un FPI, forme de fonds des organismes professionnels d'investissement à long terme (art. 484 du Règlement général).",
+    "essentiel": "FPI : fonds en **parts de copropriété**, catégories de parts possibles. Minimum d'actif fixé par le règlement : pas de rachat en dessous, dissolution après **24 mois consécutifs** sous ce seuil. **CAC pour 6 exercices** après accord de la COSUMAF, désigné par le conseil d'administration ou le directoire de la SG. Inventaire **semestriel**. Fusion **1 mois** après l'avis aux porteurs. Prorogation **3 mois** avant l'échéance.",
+    "retenir": [
+      "Vise les **FPI** de l'**art. 484 du RG** (organismes professionnels d'investissement à long terme, OPI). Art. 1",
+      "Durée du fonds fixée ; **parts de copropriété** proportionnelles à l'actif ; compartiments et catégories de parts possibles. Annexe, art. 1",
+      "Montant minimal de l'actif fixé dans le règlement : **aucun rachat** en dessous. Annexe, art. 2",
+      "**Commissaire aux comptes** désigné pour **6 exercices**, après **accord** de la COSUMAF, par le **conseil d'administration ou le directoire** de la société de gestion. Annexe, art. 10",
+      "Inventaire **au moins semestriel** sous le contrôle du dépositaire. Annexe",
+      "Fusion ou scission **un mois** après l'avis aux porteurs. Annexe",
+      "Dissolution si l'actif reste **24 mois consécutifs** sous le minimum (la SG informe la COSUMAF) ; prorogation décidée **au moins 3 mois** avant l'échéance. Annexe, art. 14"
+    ],
+    "listes": [],
+    "pieges": [
+      "CAC d'un FPI : **6 exercices** (contre **3** pour les FPC, SPC et FCPI)."
+    ],
+    "qr": []
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

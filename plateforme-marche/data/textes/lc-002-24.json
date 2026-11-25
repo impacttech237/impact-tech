@@ -1,0 +1,67 @@
+{
+  "id": "lc-002-24",
+  "ordre": 109,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "numero": "Lettre circulaire n° 002/COS/PR/SG/DGCE/24",
+  "titre": "Lettre circulaire n° 002/24 portant mise en place d'un modèle et format de reporting des sociétés de gestion d'OPC",
+  "theme": "conformite",
+  "date_texte": "16 septembre 2024, Libreville",
+  "date_adoption": "2024-09-16",
+  "lieu": "Libreville",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\cosumaf-manquants\\04_Lettre-circulaire-002-24-modele-format-reporting-SGO.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 5 pages dont 3 pages de modèles), lu par OCR"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Rend obligatoire, à compter de la signature, un modèle et un format de reporting des obligations d'information des sociétés de gestion d'OPC (SGO) : états financiers de la SGO, fonds (reporting hebdomadaire d'OPCVM), mandats sous gestion. Les SGO doivent renseigner les fichiers pour 2022, 2023 et 2024.",
+    "essentiel": "Modèles **obligatoires à compter de la date de signature** (16 septembre 2024) : **états financiers de la SGO**, **fonds** (reporting hebdomadaire d'OPCVM), **mandats sous gestion**. **Usage exclusif** du modèle et du format imposés. Fichiers à transmettre **sous quinzaine** pour **2022, 2023 et 2024**. Tout manquement expose à des **sanctions administratives et pécuniaires** (Règlement 01/22).",
+    "retenir": [
+      "Trois modèles de reporting : **états financiers** des sociétés de gestion d'OPC, **fonds**, **mandats sous gestion**. Chapeau",
+      "Le modèle est **obligatoire à compter de la date de signature** de la lettre circulaire. Chapeau",
+      "Les SGO doivent **utiliser exclusivement** le modèle et le format imposés pour toutes les déclarations futures. Chapeau",
+      "Les fichiers sont à renseigner et à transmettre **sous quinzaine** pour les années **2022, 2023 et 2024**. Chapeau",
+      "Tout manquement aux obligations de reporting expose à des **sanctions administratives et pécuniaires** (Règlement 01/22). Chapeau",
+      "Annexes : modèle de reporting de la SGO (bilan, compte de résultat, fonds propres), **reporting hebdomadaire de l'OPCVM** (actions, obligations, monétaire, parts d'OPCVM, FIA, titres hors CEMAC, titres non cotés, **règles d'investissement**), **reporting hebdomadaire du mandat**. Annexes"
+    ],
+    "listes": [
+      {
+        "titre": "Modèles de reporting obligatoires",
+        "a": "chapeau",
+        "items": [
+          "États financiers des sociétés de gestion d'OPC",
+          "Fonds (reporting hebdomadaire de l'OPCVM)",
+          "Mandats sous gestion"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le calendrier des transmissions périodiques est fixé par d'autres circulaires : la **lettre circulaire 003/24** (24 septembre 2024), **abrogée** depuis par la **lettre circulaire 002.26** (1er juin 2026).",
+      "Le délai « **sous quinzaine** » vaut pour la **transmission rétroactive** (2022 à 2024), pas pour le reporting courant."
+    ],
+    "qr": [
+      {
+        "q": "Quels reportings la circulaire 002/24 rend-elle obligatoires pour les SGO ?",
+        "r": "États financiers de la SGO, reporting des fonds et reporting des mandats sous gestion, selon le modèle et le format imposés par la COSUMAF."
+      },
+      {
+        "q": "Quelles années les SGO devaient-elles transmettre sous quinzaine ?",
+        "r": "2022, 2023 et 2024."
+      }
+    ]
+  }
+}

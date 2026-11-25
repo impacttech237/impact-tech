@@ -1,0 +1,85 @@
+{
+  "id": "i10-23",
+  "ordre": 19,
+  "type": "instruction",
+  "numero": "10-23",
+  "titre": "Conditions d'émission des notations",
+  "theme": "ape",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Règles de fond des agences de notation agréées : indépendance et gouvernance, conflits d'intérêts, rotation des analystes, présentation des notations, informations à publier, rapport de transparence.",
+    "essentiel": "Au conseil d'une agence : **au moins 1/3 de membres indépendants**, jamais moins de **2**, mandat **5 ans maximum non renouvelable**. Rotation : analyste en chef **4 ans** max, analyste **5 ans**, approbateur **7 ans**, puis **2 ans** d'écart. Pas de poste clé chez l'entité notée dans les **6 mois** ; vérification du travail des **2 dernières années** d'un analyste qui part chez un client. Entité notée prévenue **12 heures** avant publication. Relevés gardés **5 ans** (+**3 ans** après retrait). Rapport de transparence publié **3 mois** après la clôture, en ligne **5 ans**.",
+    "retenir": [
+      "S'applique aux notations émises par des agences **agréées par la COSUMAF** et **communiquées au public**. Art. 1",
+      "Rotation progressive des **analystes** et des **approbateurs** de notations. Art. 3",
+      "Une agence ne refuse pas de noter une entité au motif qu'une partie a déjà été notée par une autre agence ; elle **justifie** tout écart avec une notation existante. Art. 4",
+      "Les instruments financiers **structurés** reçoivent un **symbole supplémentaire** qui distingue leurs notes. Art. 6",
+      "Données de **performance passée** (fréquence de transition des notes) transmises à un **registre central** de la COSUMAF, qui publie un résumé annuel. Art. 7",
+      "**Rapport de transparence** annuel publié **au plus tard 3 mois** après la clôture, disponible **5 ans au moins** sur le site. Art. 8",
+      "Gouvernance : conseil d'administration ou de surveillance avec **au moins un tiers** de membres **indépendants** (minimum **2**), rémunération non liée aux résultats commerciaux, mandat de **5 ans maximum, non renouvelable**, révocation seulement pour faute. Annexe A.2",
+      "Fonction de **vérification de la conformité** permanente et indépendante, et **fonction de réexamen** des méthodes, modèles et hypothèses. Annexe A",
+      "L'agence **s'abstient de noter** (ou signale la note) si elle ou ses analystes détiennent des titres de l'entité notée, ont un lien de contrôle, siègent à son conseil, ou ont eu un lien créant un conflit. Annexe B.2",
+      "**Interdit** de conseiller l'entité notée sur sa structure, ses actifs, son passif ou ses activités ; les **services accessoires** (prévisions, analyses de prix) sont permis s'ils ne créent pas de conflit. Annexe B.3",
+      "Relevés et pistes d'audit conservés **5 ans au moins** ; **3 ans de plus** en cas de retrait d'agrément. Annexe B.7",
+      "Analystes : pas de transaction sur les titres des entités qu'ils notent (sauf OPC diversifiés), pas de cadeaux, signalement des irrégularités au **responsable de la conformité**. Annexe C",
+      "Rotation : **analyste en chef 4 ans**, **analyste 5 ans**, **approbateur 7 ans** au maximum sur la même entité, puis **2 ans** d'écart. Annexe C.8",
+      "Un analyste qui part chez l'entité notée : vérification de son travail des **2 années** précédentes ; pas de **poste de gestion clé** chez l'entité notée dans les **6 mois** suivant la notation. Annexe C.6-7",
+      "Présentation : nom de l'**analyste en chef** et de l'approbateur, sources, méthode utilisée ; l'entité notée est informée **au moins 12 heures** avant publication pour signaler une erreur matérielle. Annexe D",
+      "Publications : taux de défaut historiques **tous les 6 mois** ; chaque année, liste des **20 plus gros clients** à la COSUMAF."
+    ],
+    "listes": [
+      {
+        "titre": "Cas où l'agence s'abstient de noter",
+        "a": "annexe B.2",
+        "items": [
+          "Détention de titres de l'entité notée (hors OPC diversifiés)",
+          "Lien de contrôle entre l'agence et l'entité notée",
+          "Personne de l'agence membre du conseil de l'entité notée",
+          "Analyste ou approbateur lié à l'entité notée"
+        ]
+      },
+      {
+        "titre": "Missions des membres indépendants du conseil",
+        "a": "annexe A.2",
+        "items": [
+          "Politique et méthodes de notation",
+          "Contrôle de la qualité",
+          "Gestion des conflits d'intérêts",
+          "Conformité et gouvernance, dont la fonction de réexamen"
+        ]
+      }
+    ],
+    "pieges": [
+      "Rotation : **4 / 5 / 7 ans** (analyste en chef / analyste / approbateur) puis **2 ans** de pause.",
+      "**12 heures** : préavis à l'entité notée ; **6 mois** : interdiction d'un poste clé chez elle ; **2 ans** : vérification du travail de l'analyste qui part.",
+      "Conservation des relevés : **5 ans**, plus **3 ans** après un retrait d'agrément."
+    ],
+    "qr": [
+      {
+        "q": "Quelles règles de rotation s'appliquent aux analystes de notation ?",
+        "r": "Un analyste en chef ne suit pas la même entité plus de 4 ans, un analyste plus de 5 ans, un approbateur plus de 7 ans ; ensuite ils restent 2 ans à l'écart de cette entité."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

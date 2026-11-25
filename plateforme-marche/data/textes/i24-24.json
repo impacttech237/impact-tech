@@ -1,0 +1,69 @@
+{
+  "id": "i24-24",
+  "ordre": 33,
+  "type": "instruction",
+  "numero": "24-24",
+  "titre": "Modèle type du document d'information des OPCVM",
+  "theme": "opc",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Plan obligatoire (et dans l'ordre) du document d'information des OPCVM (FCP et SICAV, art. 360 et 402 et suivants du Règlement général) : caractéristiques, acteurs, modalités de fonctionnement et de gestion, frais.",
+    "essentiel": "Le document d'information d'un OPCVM reprend **dans l'ordre** les rubriques de l'annexe 1 : **caractéristiques générales** (forme FCP ou SICAV, offre de gestion en tableau, ISIN, minimum de souscription), **acteurs** (SGO, dépositaire, CAC, commercialisateurs, délégataires, centralisateur), **modalités de fonctionnement et de gestion** (stratégie, profil de risque, souscripteurs, durée recommandée, VL, souscriptions/rachats, « gates »), **frais** en tableau. Documents annuels envoyés en **8 jours ouvrés**. OPCVM **nourricier** : **85 % ou plus** dans un OPCVM maître.",
+    "retenir": [
+      "Prise en application des **art. 402 et suivants du Règlement général** ; vise les OPCVM de l'**art. 360 du RG** ; rubriques reprises **dans l'ordre** de l'annexe 1. Art. 1, 3",
+      "**Compartiment** : segmentation d'un même OPCVM en portefeuilles distincts, aux actifs **juridiquement séparés**. Art. 2",
+      "**Catégorie (classe) de parts** : parts d'un même OPCVM donnant des droits différents (distribution, fiscalité, minimum d'investissement, frais, couverture de change). Art. 2",
+      "Caractéristiques générales : forme (**FCP ou SICAV**), dénomination, forme juridique, **État membre** de constitution, date de création et durée, offre de gestion en **tableau** (compartiments, catégories, souscripteurs, **montant minimum**, **ISIN**, capitalisation ou distribution, devise). Annexe 1, I",
+      "Les derniers documents annuels et la composition des actifs sont envoyés **sous 8 jours ouvrés** sur demande écrite du porteur ; un **point de contact** est désigné. Annexe 1, I",
+      "Acteurs : **société de gestion** (dirigeants, activités extérieures), **dépositaire et conservateurs** (missions, conflits d'intérêts), **CAC**, commercialisateurs, délégataires, conseillers, **centralisateur**. Annexe 1, II",
+      "Gestion : objectif, indicateur de référence, **stratégie d'investissement**, niveau maximal d'utilisation des instruments, **effet de levier maximum**, profil de risque, garantie, souscripteurs concernés, **durée de placement recommandée** cohérente avec l'objectif. Annexe 1, III",
+      "OPCVM **nourricier** : investit en permanence **85 % ou plus** de ses actifs dans un **OPCVM maître** ; il précise ce pourcentage et l'objectif du maître. Annexe 1, III",
+      "Fonctionnement : calcul et publication de la **valeur liquidative**, centralisation des ordres, délai entre centralisation et règlement, éventuel **plafonnement des rachats (« gates »)** appliqué à l'ensemble de l'actif et non par catégorie de parts. Annexe 1",
+      "Frais en tableau : commissions de souscription et de rachat **acquises ou non** à l'OPCVM ; frais de **gestion financière**, de **fonctionnement**, **frais indirects maximum**, **commissions de mouvement**, commission de surperformance. Annexe 1",
+      "Mention particulière si l'OPCVM use de la **dérogation aux ratios de l'art. 411 du RG** pour des titres garantis par des États, collectivités ou organismes internationaux publics. Annexe 1"
+    ],
+    "listes": [
+      {
+        "titre": "Rubriques du document d'information d'un OPCVM",
+        "a": "annexe 1",
+        "items": [
+          "I. Caractéristiques générales",
+          "II. Acteurs",
+          "III. Modalités de fonctionnement et de gestion",
+          "IV. Frais et commissions"
+        ]
+      }
+    ],
+    "pieges": [
+      "Nourricier : **85 %** dans le maître, pour les OPCVM (Instruction 24-24) comme pour les OPCI (Instruction 19-24).",
+      "Les « gates » s'appliquent à **tout l'actif**, pas catégorie de parts par catégorie."
+    ],
+    "qr": [
+      {
+        "q": "Qu'est-ce qu'un compartiment d'OPCVM ?",
+        "r": "Un portefeuille distinct à l'intérieur d'un même OPCVM, sous une même dénomination, dont les actifs sont séparés juridiquement de ceux des autres compartiments."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

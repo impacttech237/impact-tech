@@ -1,0 +1,149 @@
+[
+  {
+    "id": "conv-umac-08.delai.01",
+    "texte": "conv-umac-08",
+    "type": "delai",
+    "article": "art. 32",
+    "enonce": "Rapport annuel d'activité des organes et institutions spécialisées de l'UMAC",
+    "valeur_texte": "chaque année, rendu public",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.role.01",
+    "texte": "conv-umac-08",
+    "type": "role",
+    "article": "art. 10, 31",
+    "enonce": "COSUMAF (institution spécialisée de l'UMAC)",
+    "valeur_texte": "Assure la régulation et le contrôle des opérations d'appel public à l'épargne.",
+    "acteurs": [
+      "cosumaf-institution-specialisee-de-l-umac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.role.02",
+    "texte": "conv-umac-08",
+    "type": "role",
+    "article": "art. 31",
+    "enonce": "COBAC (Commission Bancaire de l'Afrique Centrale)",
+    "valeur_texte": "Harmonise les réglementations et contrôle l'activité bancaire et la microfinance.",
+    "acteurs": [
+      "cobac-commission-bancaire-de-l-afrique-centrale"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.role.03",
+    "texte": "conv-umac-08",
+    "type": "role",
+    "article": "art. 10, 31",
+    "enonce": "GABAC",
+    "valeur_texte": "Coordonne les politiques de lutte contre le blanchiment des capitaux et le financement du terrorisme.",
+    "acteurs": [
+      "gabac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.role.04",
+    "texte": "conv-umac-08",
+    "type": "role",
+    "article": "art. 13",
+    "enonce": "Comité ministériel de l'UMAC",
+    "valeur_texte": "Veille à l'application de la convention, décide du capital de la BEAC et donne un avis conforme sur ses statuts.",
+    "acteurs": [
+      "comite-ministeriel-de-l-umac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.liste.01",
+    "texte": "conv-umac-08",
+    "type": "liste",
+    "article": "art. 10",
+    "enonce": "Institutions spécialisées de l'UMAC",
+    "valeur_texte": "COSUMAF ; GABAC ; Toute autre institution créée par la Conférence des Chefs d'État",
+    "items": [
+      "COSUMAF",
+      "GABAC",
+      "Toute autre institution créée par la Conférence des Chefs d'État"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.piege.01",
+    "texte": "conv-umac-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'article des institutions spécialisées est transcrit « Article IO » dans le scan : lire a",
+    "valeur_texte": "L'article des institutions spécialisées est transcrit **« Article IO »** dans le scan : lire **article 10**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.piege.02",
+    "texte": "conv-umac-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "La COSUMAF régule l'appel public à l'épargne ; l'activité bancaire relève de la COBAC : ne",
+    "valeur_texte": "La COSUMAF régule l'**appel public à l'épargne** ; l'**activité bancaire** relève de la **COBAC** : ne pas les confondre.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "conv-umac-08.piege.03",
+    "texte": "conv-umac-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "Fiche de contexte : seuls les articles 7 à 17, 31 et 32 ont été relus ; ne pas s'y fier po",
+    "valeur_texte": "Fiche de **contexte** : seuls les articles 7 à 17, 31 et 32 ont été relus ; ne pas s'y fier pour le reste (BEAC, politique monétaire).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

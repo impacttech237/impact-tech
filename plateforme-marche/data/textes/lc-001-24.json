@@ -1,0 +1,72 @@
+{
+  "id": "lc-001-24",
+  "ordre": 108,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "numero": "Lettre circulaire n° 001/COS/PR/SG/DME/24",
+  "titre": "Lettre circulaire n° 001/24 portant modalités de modification du capital social des intermédiaires de marché",
+  "theme": "vie",
+  "date_texte": "24 juillet 2024, Libreville",
+  "date_adoption": "2024-07-24",
+  "lieu": "Libreville",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\cosumaf-manquants\\05_Lettre-circulaire-001-24-modifications-capital-social.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 2 pages), lu par OCR"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Liste les informations et documents à soumettre à la COSUMAF pour une demande d'autorisation préalable de modification du capital social d'un intermédiaire de marché (article 76, alinéa 3, du Règlement général de la COSUMAF). Adressée aux directeurs généraux des intermédiaires de marché.",
+    "essentiel": "Toute modification du capital d'un intermédiaire exige l'**autorisation préalable** de la COSUMAF (art. 76 al. 3 du RG). Le dossier comprend **13 rubriques** : rapport du CAC à l'AG, rapport du CA, PV d'AG, pièces sur chaque **nouvel actionnaire** (casier judiciaire de **moins de 3 mois**, CV, situation financière, engagement LBC/FT), pièces de libération du capital et **projet de statuts modifiés**. Après l'opération : statuts modifiés et extrait du RCCM à transmettre **au plus tard 30 jours calendaires** après la fin de l'opération.",
+    "retenir": [
+      "Base légale : **article 76, alinéa 3, du Règlement général de la COSUMAF** : demande d'**autorisation préalable** de modification du capital social. Chapeau",
+      "Pièces de gouvernance : **rapport du Commissaire aux comptes** à l'AG sur le projet (capital avant et après) ; **rapport du Conseil d'administration** à l'AG ; **PV de l'AG** qui décide ou autorise l'opération et, le cas échéant, qui délègue au conseil. Rubriques 1, 3, 4, 5",
+      "Libération par **compensation de créances** : **certification par le CAC** du caractère certain, liquide et exigible des créances. Rubrique 2",
+      "Nouvel actionnaire **personne physique** : identité et coordonnées, **casier judiciaire de moins de trois mois**, CV (préciser si **personne politiquement exposée**), situation financière, engagement de respecter la réglementation (LBC/FT). Rubrique 6",
+      "Nouvel actionnaire **personne morale** : statuts et RCCM, dirigeants et actionnaires principaux (casier et CV), pourcentage de détention, liens capitalistiques, **rapports annuels et états financiers des 3 derniers exercices**, engagement. Rubrique 7",
+      "Augmentation de capital : **renonciations au droit préférentiel de souscription**, **bulletins de souscription**. Rubriques 8-9",
+      "Libération du capital : **certificat du dépositaire des fonds** avec extrait de compte, **certificat de libération** constaté par le notaire en cas de compensation, **déclaration notariée de souscription et de versement**, **justification de l'origine des fonds** (augmentation en numéraire). Rubriques 10-12",
+      "**Projet de statuts modifiés**. Rubrique 13",
+      "Après l'opération : transmettre les **statuts modifiés** et l'**extrait du RCCM** mis à jour **au plus tard 30 jours calendaires** après la fin de l'opération. Dernier alinéa"
+    ],
+    "listes": [
+      {
+        "titre": "Pièces à fournir pour un nouvel actionnaire personne physique",
+        "a": "rubrique 6",
+        "items": [
+          "Identité et coordonnées",
+          "Casier judiciaire de moins de trois mois",
+          "CV et mention éventuelle de personne politiquement exposée",
+          "Situation financière",
+          "Engagement de respecter la réglementation (LBC/FT)"
+        ]
+      }
+    ],
+    "pieges": [
+      "La circulaire est numérotée « 001/COS/PR/SG/DME/24 » dans la médiathèque de la COSUMAF ; le scan est moins lisible : vérifier la référence avant de la citer.",
+      "Ne pas confondre **autorisation préalable** (avant l'opération, ce texte) et **transmission après l'opération** des statuts modifiés (30 jours calendaires)."
+    ],
+    "qr": [
+      {
+        "q": "Quelle autorisation faut-il avant de modifier le capital d'un intermédiaire de marché ?",
+        "r": "L'autorisation préalable de la COSUMAF (art. 76 al. 3 du Règlement général)."
+      },
+      {
+        "q": "Sous quel délai transmettre les statuts modifiés après l'opération ?",
+        "r": "Au plus tard 30 jours calendaires après la fin de l'opération, avec l'extrait du RCCM mis à jour."
+      }
+    ]
+  }
+}

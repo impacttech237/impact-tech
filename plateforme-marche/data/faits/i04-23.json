@@ -1,0 +1,313 @@
+[
+  {
+    "id": "i04-23.delai.01",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 2, 5",
+    "enonce": "Accusé de réception d'un dossier de visa d'APE",
+    "valeur_texte": "10 jours ouvrables",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrables",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.delai.02",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Transmission de la version finale visée du document d'information",
+    "valeur_texte": "5 jours avant le début de l'offre",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Au plus tard au début de l'offre ou de l'admission.",
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.delai.03",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Ancienneté maximale de l'extrait RCCM du dossier d'APE",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.delai.04",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Ancienneté maximale du casier judiciaire des dirigeants (dossier APE)",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.delai.05",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "États financiers certifiés à fournir dans le dossier d'APE",
+    "valeur_texte": "3 derniers exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.delai.06",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Horizon des documents prévisionnels du dossier d'APE",
+    "valeur_texte": "3 années à venir",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.delai.07",
+    "texte": "i04-23",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Dépôt des documents promotionnels d'un APE",
+    "valeur_texte": "avec le projet initial, sinon avant le visa",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.role.01",
+    "texte": "i04-23",
+    "type": "role",
+    "article": "art. 3",
+    "enonce": "Société de bourse mandatée",
+    "valeur_texte": "Assiste l'émetteur et assure le suivi de l'opération (lettre de mandat au dossier).",
+    "acteurs": [
+      "societe-de-bourse-mandatee"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.role.02",
+    "texte": "i04-23",
+    "type": "role",
+    "article": "art. 2, 6",
+    "enonce": "Émetteur",
+    "valeur_texte": "Dépose le projet de document d'information, signe la déclaration de responsabilité, transmet la version finale 5 jours avant l'offre.",
+    "acteurs": [
+      "emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.role.03",
+    "texte": "i04-23",
+    "type": "role",
+    "article": "art. 5, annexe II",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Accuse réception, signale les lacunes, vise ou enregistre le document après vérification qu'il est complet, cohérent et compréhensible.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.role.04",
+    "texte": "i04-23",
+    "type": "role",
+    "article": "art. 6",
+    "enonce": "Contrôleurs légaux (CAC)",
+    "valeur_texte": "Remettent la lettre de fin de travaux jointe à la version finale.",
+    "acteurs": [
+      "controleurs-legaux-cac"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.definition.01",
+    "texte": "i04-23",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "Fait nouveau significatif",
+    "valeur_texte": "Tout événement de nature à influer sur la valeur des titres d'un émetteur ou sur sa situation financière.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.definition.02",
+    "texte": "i04-23",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "Erreur ou inexactitude substantielle",
+    "valeur_texte": "Erreur portant sur les caractéristiques essentielles d'une opération d'appel public à l'épargne.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.definition.03",
+    "texte": "i04-23",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "Supplément au document d'information",
+    "valeur_texte": "Complément obligatoire pendant la validité du document en cas de fait nouveau significatif ou d'erreur substantielle.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.liste.01",
+    "texte": "i04-23",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Pièces du dossier de demande de visa",
+    "valeur_texte": "Demande d'autorisation ou lettre d'intention d'APE ; Statuts certifiés conformes ; Document d'information à viser ; Projet de bulletin de souscription ; Extrait RCCM de moins de 3 mois ; États financiers certifiés des 3 derniers exercices ; PV de l'AG ayant autorisé l'opération ; 3 derniers rapports de gestion ; 3 derniers rapports généraux et spéciaux des CAC ; Lettre de mandat de la société de bourse ; Rapport d'évaluation financière ; Prévisions d'activité sur 3 ans",
+    "items": [
+      "Demande d'autorisation ou lettre d'intention d'APE",
+      "Statuts certifiés conformes",
+      "Document d'information à viser",
+      "Projet de bulletin de souscription",
+      "Extrait RCCM de moins de 3 mois",
+      "États financiers certifiés des 3 derniers exercices",
+      "PV de l'AG ayant autorisé l'opération",
+      "3 derniers rapports de gestion",
+      "3 derniers rapports généraux et spéciaux des CAC",
+      "Lettre de mandat de la société de bourse",
+      "Rapport d'évaluation financière",
+      "Prévisions d'activité sur 3 ans"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.liste.02",
+    "texte": "i04-23",
+    "type": "liste",
+    "article": "art. 6",
+    "enonce": "Pièces jointes à la version finale",
+    "valeur_texte": "Déclaration signée des personnes responsables ; Lettre de fin de travaux des contrôleurs légaux ; Attestation des intermédiaires qui dirigent le placement",
+    "items": [
+      "Déclaration signée des personnes responsables",
+      "Lettre de fin de travaux des contrôleurs légaux",
+      "Attestation des intermédiaires qui dirigent le placement"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.piege.01",
+    "texte": "i04-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le visa ou l'enregistrement n'est pas un avis favorable : la COSUMAF vérifie seulement que",
+    "valeur_texte": "Le visa ou l'enregistrement **n'est pas un avis favorable** : la COSUMAF vérifie seulement que l'information est **complète, cohérente et compréhensible**.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i04-23.piege.02",
+    "texte": "i04-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le document d'information est toujours disponible en français, même s'il est rédigé dans u",
+    "valeur_texte": "Le document d'information est **toujours** disponible en **français**, même s'il est rédigé dans une autre langue de travail.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

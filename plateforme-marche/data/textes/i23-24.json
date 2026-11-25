@@ -1,0 +1,82 @@
+{
+  "id": "i23-24",
+  "ordre": 32,
+  "type": "instruction",
+  "numero": "23-24",
+  "titre": "Tarification applicable sur le marché financier de l'Afrique centrale",
+  "theme": "vie",
+  "date_texte": "18 juillet 2024",
+  "date_adoption": "2024-07-18",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "La grille tarifaire du marché (art. 12 du Règlement 01/22) : plafonds des sociétés de bourse, banques teneurs de comptes, SGO, tarifs de la BVMAC et du Dépositaire Central, commissions, frais de dossier, rétrocessions et redevances dues à la COSUMAF.",
+    "essentiel": "COSUMAF : visa APE **0,3 %** du montant levé (**0,25 %** dès la 2e tranche d'un programme), placement privé **0,5 %** ; frais de dossier **500 000** (acteur) / **250 000** (produit d'OPC, dirigeant) ; habilitation **100 000** ; modification **250 000**. Commissions d'agrément : DC **30 M**, conservateur national **25 M**, entreprise de marché **20 M**, SDB et SGO **7,5 M**, OPC **2 M**, CIF **1,5 M**, dirigeant **1 M**. Rétrocessions facturées **chaque trimestre**, redevances payées le **31 janvier**. Plafonds SDB : placement **1,75 %**, courtage **0,5 %** ; SGO : frais de gestion **2 %** (OPC actions).",
+    "retenir": [
+      "Adoptée en application de l'**art. 12 du Règlement 01/22** (ressources de la COSUMAF) ; fixe la tarification de la COSUMAF et des entités contrôlées.",
+      "**Sociétés de bourse — marché primaire** (plafonds) : placement **1,75 %** du montant levé ; prise ferme **1 %** ; chef de file / introduction en bourse **1 %** ; structuration/arrangement **0,30 %** ; animation de marché **5 %** du contrat d'animation.",
+      "**Sociétés de bourse — marché secondaire et comptes** : courtage **0,5 %** du montant brut ; gestion assistée et gestion sous mandat **0,10 %** du portefeuille ; conservation/droit de garde **0,2 %** ; ouverture de compte-titres **gratuite** ; petits services (relevés, attestations, reproductions) **2 500 FCFA** maximum.",
+      "**Banques teneurs de comptes** : conservation **0,30 %** maximum de la valeur conservée ; recherches sur opérations **10 000** (6 mois à 1 an) et **25 000 FCFA** (au-delà d'1 an).",
+      "**SGO** : frais de gestion **2 % HT** max de l'actif net (OPC actions), **1,5 % HT** (autres OPC), **3 % HT** (gestion sous mandat) ; placement d'OPC étrangers **1 % HT** ; droits d'entrée et de sortie **1,5 % HT** maximum.",
+      "**Entreprise de marché (BVMAC)** : introduction et capitalisation **0,08 %** (actions) / **0,04 %** (obligations) ; courtage **0,3 %** du volume ; redevance de siège des SDB **2 000 000 FCFA par an**.",
+      "**Dépositaire Central** : adhésion SDB **2 000 000 FCFA/an** ; émetteurs actions **0,05 %** et obligations **0,02 %** du montant émis (minimum **2 M**) ; barème trimestriel **0,025 %** ; mouvements **0,1 %** ; paiement de dividendes ou d'intérêts **0,1 %** du montant distribué.",
+      "**COSUMAF — opérations** : visa APE **0,3 %** du montant levé ; programme d'émission **0,25 %** à partir de la **2e tranche** ; placement privé **0,5 %**.",
+      "**Frais de dossier** (payés au dépôt, **non remboursables**) : **500 000 FCFA** par acteur, **250 000** par produit d'OPC, **250 000** par dirigeant.",
+      "**Commissions d'agrément** (payées **après** l'agrément) : DC **30 M** ; conservateur national de titres **25 M** ; entreprise de marché **20 M** ; banque teneur de comptes, organisme de garantie, agence de notation, dépositaire d'OPC, PSAN **10 M** ; SDB et SGO **7,5 M** ; CAC, actionnaires du DC ou de la BVMAC, plateforme digitale **5 M** ; OPC **2 M** ; CIF, CIP, listing sponsor, évaluateur d'OPCI, analyste financier **1,5 M** ; dirigeant **1 M**.",
+      "**Habilitation** du personnel : **100 000 FCFA**, payable **après avis favorable** ; modification des conditions d'agrément ou de visa : **250 000 FCFA** chacune.",
+      "**Rétrocessions** : entreprise de marché et DC **10 %** du CA ; conservateur national **10 %** du CA délégué ; SDB **2 %** du CA principal et **3,5 %** du CA connexe ; banque teneur **0,03 %** des commissions ; SGO **0,03 %** de l'encours moyen mensuel, **minimum 2 500 000 FCFA** ; facturation **trimestrielle**.",
+      "**Redevances annuelles** payées le **31 janvier** : entreprise de marché et DC **20 M** ; conservateur national **15 M** ; organisme de garantie **10 M** ; SDB, banque teneur, agence de notation, SGO, dépositaire d'OPC, PSAN **5 M** ; CIF, CIP, listing sponsor, analyste, CAC **1 M**.",
+      "Paiement des services **dès leur réalisation** ; la COSUMAF peut **recouvrer immédiatement** et **débiter d'office** les comptes bancaires. Art. 3-8",
+      "Seul le **Collège** modifie l'instruction ; les organismes centraux et intermédiaires font **homologuer leurs tarifs** par la COSUMAF avant de les appliquer. Art. 9-10"
+    ],
+    "listes": [
+      {
+        "titre": "Ce que la COSUMAF perçoit",
+        "a": "art. 2",
+        "items": [
+          "Commissions d'APE et de placement privé",
+          "Frais de dossier (non remboursables)",
+          "Commissions d'agrément (après agrément)",
+          "Frais d'habilitation",
+          "Commissions de modification",
+          "Rétrocessions trimestrielles",
+          "Redevances annuelles (31 janvier)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Visa **APE 0,3 %** contre **placement privé 0,5 %** : le placement privé coûte plus cher en pourcentage.",
+      "Frais de **dossier** (au dépôt, non remboursables) ≠ commission d'**agrément** (après obtention).",
+      "Commissions d'agrément les plus élevées : **DC 30 M** > **conservateur national 25 M** > **entreprise de marché 20 M**.",
+      "Frais de gestion d'OPC « autres que actions » : lu **1,5 % HT** (chiffre partiellement illisible dans le scan) ; actions **2 %**, mandat **3 %**."
+    ],
+    "qr": [
+      {
+        "q": "Quand sont payées les redevances annuelles et facturées les rétrocessions ?",
+        "r": "Les redevances annuelles le 31 janvier de chaque année ; les rétrocessions sont facturées chaque trimestre."
+      },
+      {
+        "q": "Quelle est la différence entre frais de dossier et commission d'agrément ?",
+        "r": "Les frais de dossier (500 000 FCFA par acteur, 250 000 par OPC ou dirigeant) sont payés au dépôt et non remboursables ; la commission d'agrément est payée après l'obtention de l'agrément."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,320 @@
+[
+  {
+    "id": "i14-24.delai.01",
+    "texte": "i14-24",
+    "type": "delai",
+    "article": "annexe II",
+    "enonce": "Fréquence de calcul de l'indicateur synthétique de risque (ISR)",
+    "valeur_texte": "trimestrielle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Dernier jour du trimestre, sur un historique d'1 mois.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.delai.02",
+    "texte": "i14-24",
+    "type": "delai",
+    "article": "annexe II",
+    "enonce": "Conservation des calculs de l'indicateur synthétique de risque",
+    "valeur_texte": "10 ans au moins",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": "+5 ans après l'échéance pour un fonds structuré.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.delai.03",
+    "texte": "i14-24",
+    "type": "delai",
+    "article": "annexe performances",
+    "enonce": "Période des performances passées présentées dans le DIS",
+    "valeur_texte": "10 dernières années",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "5 ans si l'OPC a moins de 5 années civiles complètes.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.delai.04",
+    "texte": "i14-24",
+    "type": "delai",
+    "article": "annexe II",
+    "enonce": "Historique de référence pour le calcul trimestriel de l'ISR",
+    "valeur_texte": "1 mois",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.montant.01",
+    "texte": "i14-24",
+    "type": "montant",
+    "article": "art. 3, annexe II",
+    "enonce": "Échelle de l'indicateur synthétique de risque d'un OPC",
+    "valeur_texte": "de 1 à 7",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.montant.02",
+    "texte": "i14-24",
+    "type": "montant",
+    "article": "art. 3",
+    "enonce": "Nombre de scénarios de performance dans le DIS",
+    "valeur_texte": "3 scénarios",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Défavorable, intermédiaire, favorable.",
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.montant.03",
+    "texte": "i14-24",
+    "type": "montant",
+    "article": "annexe performances",
+    "enonce": "Place maximale du diagramme des performances passées dans le DIS",
+    "valeur_texte": "une demi-page",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.montant.04",
+    "texte": "i14-24",
+    "type": "montant",
+    "article": "annexe performances",
+    "enonce": "Précision d'arrondi des performances passées",
+    "valeur_texte": "1 décimale",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.role.01",
+    "texte": "i14-24",
+    "type": "role",
+    "article": "art. 1-9, annexe II",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Établit le DIS selon le modèle, calcule l'ISR sous le contrôle de la COSUMAF et documente ses calculs.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.role.02",
+    "texte": "i14-24",
+    "type": "role",
+    "article": "annexe II",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Approuve préalablement la méthode de calcul de l'ISR et contrôle son calcul ; est l'autorité compétente pour le DIS.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.definition.01",
+    "texte": "i14-24",
+    "type": "definition",
+    "article": "annexe I ; Règl. 01/22 art. 197",
+    "enonce": "Document d'information simplifié (DIS)",
+    "valeur_texte": "Document sommaire non commercial donnant les informations clés de l'OPC pour comprendre ses risques, coûts, gains et pertes et le comparer à d'autres produits.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.definition.02",
+    "texte": "i14-24",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "Indicateur synthétique de risque (ISR)",
+    "valeur_texte": "Classe de risque de l'OPC sur une échelle de 1 à 7 fondée sur la volatilité passée.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.definition.03",
+    "texte": "i14-24",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "OPC illiquide",
+    "valeur_texte": "OPC sans marché secondaire ni dispositif de liquidité, ou dont la sortie anticipée est fortement limitée ou impossible.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.definition.04",
+    "texte": "i14-24",
+    "type": "definition",
+    "article": "annexe II",
+    "enonce": "Risque de liquidité matériellement pertinent",
+    "valeur_texte": "Cas où la liquidité dépend seulement d'acheteurs et vendeurs, où les actifs sont moins liquides que la fréquence de remboursement, ou où la sortie serait difficile en temps et en coût.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.liste.01",
+    "texte": "i14-24",
+    "type": "liste",
+    "article": "annexe I",
+    "enonce": "Les rubriques-questions du DIS",
+    "valeur_texte": "En quoi consiste ce produit ? ; Quels sont les risques et qu'est-ce que cela pourrait me rapporter ? ; Que se passe-t-il si la SGO n'est pas en mesure d'effectuer les versements ? ; Que va me coûter cet investissement ? ; Combien de temps dois-je le conserver, et puis-je retirer de l'argent de façon anticipée ? ; Comment puis-je formuler une réclamation ? ; Autres informations pertinentes",
+    "items": [
+      "En quoi consiste ce produit ?",
+      "Quels sont les risques et qu'est-ce que cela pourrait me rapporter ?",
+      "Que se passe-t-il si la SGO n'est pas en mesure d'effectuer les versements ?",
+      "Que va me coûter cet investissement ?",
+      "Combien de temps dois-je le conserver, et puis-je retirer de l'argent de façon anticipée ?",
+      "Comment puis-je formuler une réclamation ?",
+      "Autres informations pertinentes"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.liste.02",
+    "texte": "i14-24",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "Les 3 familles de frais",
+    "valeur_texte": "Ponctuels : entrée, sortie ; Récurrents : gestion, transactions de portefeuille ; Accessoires : commission de surperformance, intéressement",
+    "items": [
+      "Ponctuels : entrée, sortie",
+      "Récurrents : gestion, transactions de portefeuille",
+      "Accessoires : commission de surperformance, intéressement"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.piege.01",
+    "texte": "i14-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "ISR : 1 à 7, sans couleur, calculé chaque trimestre ; traces 10 ans.",
+    "valeur_texte": "ISR : **1 à 7**, **sans couleur**, calculé **chaque trimestre** ; traces **10 ans**.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.piege.02",
+    "texte": "i14-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Performances passées : 10 ans (ou 5 ans), jamais l'année en cours.",
+    "valeur_texte": "Performances passées : **10 ans** (ou **5 ans**), jamais l'**année en cours**.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i14-24.piege.03",
+    "texte": "i14-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le DIS n'est pas une publicité : il est imposé par la loi.",
+    "valeur_texte": "Le DIS **n'est pas** une publicité : il est imposé par la loi.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

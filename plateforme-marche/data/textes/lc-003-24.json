@@ -1,0 +1,63 @@
+{
+  "id": "lc-003-24",
+  "ordre": 110,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "numero": "Lettre circulaire n° 003/COS/PR/SG/DGCE/24",
+  "titre": "Lettre circulaire n° 003/24 portant calendrier de transmission des informations périodiques des sociétés de gestion d'OPC",
+  "theme": "conformite",
+  "date_texte": "24 septembre 2024, Libreville",
+  "date_adoption": "2024-09-24",
+  "lieu": "Libreville",
+  "entree_en_vigueur": null,
+  "statut": "abroge",
+  "statut_source": "deduit",
+  "abroge": [],
+  "abroge_par": [
+    "lc-002-26"
+  ],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\cosumaf-manquants\\03_Lettre-circulaire-003-24-calendrier-informations-periodiques-SGO.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 2 pages), lu par OCR"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Fixe, en application de l'article 311 du Règlement général de la COSUMAF (obligation de reporting), le calendrier de transmission à la COSUMAF des informations périodiques des sociétés de gestion d'OPC : reporting hebdomadaire, rapports trimestriels, semestriels et annuels, contrôle interne, LBC/FT, états financiers. Texte abrogé par la lettre circulaire 002.26 du 1er juin 2026.",
+    "essentiel": "**14 transmissions** : reporting des fonds **chaque vendredi** ; rapports trimestriels **15 janvier, 15 avril, 15 juillet, 15 octobre** ; rapports semestriels **31 janvier et 31 juillet** ; rapport annuel d'activités **31 janvier** ; contrôle interne, cartographie LBC/FT et contrôle LBC/FT **31 mars** ; reporting annuel des SGO **30 juin** ; états financiers de synthèse **31 juillet**. **Abrogée** par la lettre circulaire 002.26 (1er juin 2026).",
+    "retenir": [
+      "Fondement : **article 311 du Règlement général de la COSUMAF du 23 mai 2023** (obligation de reporting des intermédiaires). Chapeau",
+      "**Reporting hebdomadaire des fonds** (modèle COSUMAF) : **tous les vendredis**. Ligne 1",
+      "**Rapport annuel d'activités** (exercice N-1) : **31 janvier** de l'année N. Ligne 2",
+      "**Rapport trimestriel T4** (année N-1) : **15 janvier** ; **T1** : **15 avril** ; **T2** : **15 juillet** ; **T3** : **15 octobre**. Lignes 3, 9, 10, 14",
+      "**Rapport semestriel S2** (année N-1) : **31 janvier** ; **S1** (année N) : **31 juillet**. Lignes 4, 12",
+      "**Rapport annuel de contrôle interne**, **cartographie des risques LBC/FT** et **rapport annuel de contrôle du respect des dispositions LBC/FT** : **31 mars**. Lignes 5 à 8",
+      "**Reporting annuel des SGO** selon le modèle COSUMAF : **30 juin**. Ligne 11",
+      "**États financiers de synthèse, rapport de gestion et rapports des commissaires aux comptes** : **31 juillet**. Ligne 13",
+      "Cette lettre est **abrogée** dans toutes ses dispositions par la **lettre circulaire 002.26** du 1er juin 2026."
+    ],
+    "listes": [],
+    "pieges": [
+      "Texte **abrogé** : la **lettre circulaire 002.26** (1er juin 2026) « abroge dans toutes ses dispositions la Lettre Circulaire N°003 du 24 septembre 2024 ». Utiliser le calendrier de 2026.",
+      "Le scan d'origine mélange les colonnes (libellé, exercice, date) : les dates ci-dessus suivent l'ordre des lignes du tableau et sont **à confirmer contre le PDF**.",
+      "Les dates de transmission du **rapport annuel d'activités** et du **rapport semestriel S2** tombent toutes deux le **31 janvier** ; le **T4** est le seul au **15 janvier**."
+    ],
+    "qr": [
+      {
+        "q": "À quelle date une SGO transmet-elle son rapport annuel de contrôle interne selon la circulaire 003/24 ?",
+        "r": "Au 31 mars de l'année N pour l'exercice N-1, comme la cartographie LBC/FT et le rapport de contrôle LBC/FT."
+      },
+      {
+        "q": "Quelles lettres circulaires remplacent la circulaire 003/24 ?",
+        "r": "La lettre circulaire 002.26 du 1er juin 2026, qui l'abroge dans toutes ses dispositions."
+      }
+    ]
+  }
+}

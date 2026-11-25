@@ -1,0 +1,69 @@
+{
+  "id": "ibv-01",
+  "ordre": 101,
+  "type": "instruction_bvmac",
+  "organisme": "bvmac",
+  "num": "BVMAC n° 1",
+  "date": "novembre 2008",
+  "titre": "Instruction BVMAC n° 1 : conditions d'admission à la BVMAC (version de novembre 2008)",
+  "theme": "marche",
+  "couverture": "complete",
+  "source": {
+    "fichier_local": "Downloads\\Preparation COSUMAF\\BVMAC-instruction-n1-relative-aux-conditions-dadmission-a-la-bvmac.pdf",
+    "url_officielle": "https://www.bvm-ac.org/wp-content/uploads/2019/11/BVMAC-instruction-n1-relative-aux-conditions-dadmission-a-la-bvmac.pdf",
+    "origine": "PDF officiel de la BVMAC (texte lisible, 9 pages). Le document s'intitule « projet d'instruction »."
+  },
+  "relations": {},
+  "objet": "Fixe les critères d'admission à la cote de la BVMAC pour les actions (marché A grandes entreprises, marché B PME/PMI) et les obligations (compartiment C), et le dossier à fournir. Texte ancien : le document est une version « projet » de novembre 2008, antérieure au Règlement général de la BVMAC de 2025 qui fixe désormais les critères par compartiment (A, B, E, D, C).",
+  "trente": "Marché A (grandes entreprises) : **20 %** du capital introduit dont **10 %** diffusé, capitalisation **> 10 milliards**, fonds propres **500 M**, chiffre d'affaires **> 5 milliards**, **2 années bénéficiaires**, **2 commissaires aux comptes**. Marché B (PME/PMI) : **20 %** dont **10 %** diffusé, fonds propres **200 M**, chiffre d'affaires **> 1 milliard**, **1 commissaire aux comptes**. Obligations (compartiment C) : emprunt **≥ 250 M**, **≥ 25 000 titres** diffusés, durée **≥ 3 ans**, garantie ou notation. Titres diffusés dans le public : détention individuelle **≤ 2 %** (personnes physiques) et **≤ 5 %** (personnes morales).",
+  "retenir": [
+    "Deux compartiments d'actions : **marché A** (grandes entreprises) et **marché B** (PME/PMI) ; un compartiment **obligataire C**. Titre 2",
+    "Marché A : **20 % minimum** du capital introduit, dont **10 % minimum** diffusé dans le public (sauf dérogation). Art. 1.1",
+    "Marché A : capitalisation boursière **supérieure à 10 milliards FCFA**, fonds propres **500 M**, chiffre d'affaires **supérieur à 5 milliards**. Art. 1.1",
+    "Marché A et B : **2 années bénéficiaires consécutives** (sauf dérogation exceptionnelle) et comptes annuels **certifiés des deux dernières années**. Art. 1.1 et 2.1",
+    "Marché A : **deux commissaires aux comptes** et deux suppléants ; marché B : **un commissaire aux comptes** et un suppléant. Art. 1.1 et 2.1",
+    "Marché A : contrat de liquidité **facultatif** ; marché B : contrat de liquidité **exigé**. Art. 1.1 et 2.1",
+    "Marché B : fonds propres **200 M**, chiffre d'affaires **supérieur à 1 milliard**. Art. 2.1",
+    "Compartiment obligataire C : émetteurs = sociétés privées, États, collectivités publiques ; emprunt **≥ 250 M**, **≥ 25 000 titres** diffusés, durée **≥ 3 ans**, **garantie ou notation**. Art. 3.1",
+    "Titres **diffusés dans le public** : détenus individuellement à **2 % au plus** (personnes physiques) et **5 % au plus** (personnes morales). Titre 1",
+    "Dossier d'admission : demande, **copie intégrale du dossier de visa COSUMAF**, lettre de désignation du mandataire, répartition du capital avant et après, projet de convention de placement, lettre d'engagement, note d'information définitive, états financiers certifiés. Art. 4",
+    "Émetteur dont le siège est **hors de la CEMAC** : **accord préalable de chaque État de la CEMAC**. Art. 4"
+  ],
+  "delais": [],
+  "montants": [
+    { "q": "Marché A : part minimale du capital introduit en bourse", "v": "20 % dont 10 % diffusé dans le public", "a": "art. 1.1" },
+    { "q": "Marché A : capitalisation boursière minimale", "v": "plus de 10 milliards FCFA", "a": "art. 1.1" },
+    { "q": "Marché A : fonds propres minimum", "v": "500 millions FCFA", "a": "art. 1.1" },
+    { "q": "Marché A : chiffre d'affaires", "v": "plus de 5 milliards FCFA", "a": "art. 1.1" },
+    { "q": "Marché B (PME/PMI) : part minimale du capital introduit en bourse", "v": "20 % dont 10 % diffusé dans le public", "a": "art. 2.1" },
+    { "q": "Marché B (PME/PMI) : fonds propres minimum", "v": "200 millions FCFA", "a": "art. 2.1" },
+    { "q": "Marché B (PME/PMI) : chiffre d'affaires", "v": "plus de 1 milliard FCFA", "a": "art. 2.1" },
+    { "q": "Compartiment obligataire C : montant minimum de l'emprunt", "v": "250 millions FCFA au minimum", "a": "art. 3.1" },
+    { "q": "Compartiment obligataire C : nombre minimum de titres diffusés", "v": "25 000 titres au minimum", "a": "art. 3.1" },
+    { "q": "Compartiment obligataire C : durée minimum de l'emprunt", "v": "3 ans au minimum", "a": "art. 3.1" }
+  ],
+  "roles": [
+    { "acteur": "BVMAC", "r": "Instruit le dossier d'admission à la cote et vérifie les critères du compartiment visé.", "a": "titres 2 et 3" },
+    { "acteur": "Émetteur", "r": "Dépose la demande d'admission avec la copie du dossier de visa COSUMAF, la note d'information et les états financiers certifiés.", "a": "art. 4" }
+  ],
+  "definitions": [
+    { "t": "Titres diffusés dans le public", "d": "Titres détenus individuellement dans le capital à 2 % au plus pour les personnes physiques et 5 % au plus pour les personnes morales.", "a": "titre 1" },
+    { "t": "Capitalisation boursière", "d": "Valeur boursière d'une société : cours du titre multiplié par le nombre d'actions composant le capital.", "a": "titre 1" },
+    { "t": "Flottant", "d": "Nombre de titres admis à la négociation sur le marché central de la BVMAC.", "a": "titre 1" },
+    { "t": "Hors cote", "d": "Compartiment de gré à gré où se négocient les valeurs non admises au premier ou au second marché.", "a": "titre 1" },
+    { "t": "Marché primaire / marché secondaire", "d": "Marché primaire : émissions d'actions ou d'obligations pour lever des capitaux. Marché secondaire : négociation des valeurs mobilières une fois l'émission terminée.", "a": "titre 1" }
+  ],
+  "listes": [
+    { "titre": "Pièces du dossier d'admission", "a": "art. 4", "items": ["Demande d'admission à la cote de la BVMAC", "Copie intégrale du dossier transmis à la COSUMAF pour le visa", "Lettre de désignation du mandataire", "Répartition du capital avant et après l'admission", "Projet de convention de placement", "Lettre d'engagement de l'émetteur", "Note d'information définitive", "États financiers certifiés"] }
+  ],
+  "pieges": [
+    "Ce texte est une **version « projet » de novembre 2008** : ses compartiments (A et B pour les actions) et ses seuils (par exemple 500 M de fonds propres) ne sont **plus ceux du Règlement général de 2025** (A Premium, B Medium, E PME, D OPC, C Obligataire ; capital de 100 M pour le compartiment A, art. 74).",
+    "Le seuil de capitalisation de **10 milliards** apparaît aussi pour le marché B dans le scan : lecture à vérifier avant de le citer.",
+    "Compartiment C : emprunt **≥ 250 M** et **≥ 25 000 titres** ici ; le règlement de 2025 fixe d'autres minima selon l'émetteur (200 M pour les grandes entreprises, 50 M pour les PME)."
+  ],
+  "qr": [
+    { "q": "Quelles conditions de diffusion dans le public l'Instruction n° 1 fixe-t-elle pour le marché A ?", "r": "Au moins 20 % du capital introduit en bourse, dont au moins 10 % diffusé dans le public, sauf dérogation." },
+    { "q": "Combien de commissaires aux comptes pour le marché A et pour le marché B ?", "r": "Deux commissaires aux comptes (et deux suppléants) pour le marché A ; un seul (et un suppléant) pour le marché B." },
+    { "q": "Que doit prévoir un émetteur dont le siège est hors de la CEMAC ?", "r": "L'accord préalable de chaque État de la CEMAC." }
+  ]
+}

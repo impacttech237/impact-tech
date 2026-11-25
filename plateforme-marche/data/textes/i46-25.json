@@ -1,0 +1,76 @@
+{
+  "id": "i46-25",
+  "ordre": 55,
+  "type": "instruction",
+  "numero": "46-25",
+  "titre": "Agrément des dirigeants des structures agréées",
+  "theme": "agrement",
+  "date_texte": "15 décembre 2025",
+  "date_adoption": "2025-12-15",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Conditions et procédure d'agrément des dirigeants (PCA, administrateurs, DG, DGA, administrateur général, gérant, président) des organismes de marché, intermédiaires et intervenants agréés (art. 1, 19 et 22 du Règlement 01/22).",
+    "essentiel": "Tout **dirigeant** (PCA, administrateur, DG, DGA, AG, gérant, président) d'une structure agréée doit être **agréé avant d'exercer**. Conditions : honorabilité de l'Instruction 33-24, **Bac+5** (droit, finance, économie) et **10 ans** d'expérience dont **5 ans** en finance de marché. Casier de **moins de 3 mois** pour chaque pays de résidence des **10 dernières années** ; frais d'instruction **250 000 FCFA**. Accusé en **10 jours ouvrés**, instruction en **60 jours ouvrés**, décision du **Collège**. Retrait : remplacement en **3 mois** au plus.",
+    "retenir": [
+      "Base : **art. 1, 19 et 22 du Règlement 01/22**. Art. 1",
+      "**Dirigeant** = personne physique nommée **PCA, administrateur, DG, DGA, administrateur général, gérant ou président** de : entreprise de marché, Dépositaire Central, chambre de compensation, sociétés de bourse, dépositaires d'OPC, teneurs de comptes, SGO, CIF, CIP, PSAN, tout intervenant agréé. Art. 2",
+      "Agrément **préalable** à l'exercice, pour vérifier **compétence, honorabilité, expérience et disponibilité**. Art. 3",
+      "Conditions : celles de l'**Instruction 33-24** + diplôme **au moins Bac+5** (droit, finance, économie) ou certifications équivalentes + **10 ans** d'expérience dont **5 ans en finance de marché**. Art. 4",
+      "Dossier (déposé par la **structure**) : pièce d'identité certifiée, CV détaillé, diplômes certifiés de **moins de 3 mois**, acte de désignation, **casier judiciaire de moins de 3 mois** pour **chaque pays de résidence des 10 dernières années**, déclaration de non-condamnation (signée par le PCA), déclaration de **non-inscription** à la **Centrale des risques** et sur les listes de sanctions, engagement du dirigeant, preuve de paiement de **250 000 FCFA** de frais d'instruction ; traduction certifiée en français pour les étrangers. Art. 5",
+      "Accusé de réception en **10 jours ouvrés** ; dossier incomplet renvoyé après **30 jours** ; instruction en **60 jours ouvrés** (suspensible). Art. 6",
+      "Décision **motivée** du **Collège** de la COSUMAF, après audition éventuelle du dirigeant ; notifiée au PCA (ou à l'organe ayant désigné) et au dirigeant. Art. 7",
+      "Après l'agrément : la COSUMAF peut exiger tout document ; le dirigeant notifie **sans délai** tout changement de sa situation. Art. 8-9",
+      "**Commission d'agrément** d'un dirigeant : fixée par la tarification (**1 000 000 FCFA**, Instruction 23-24). Art. 10",
+      "Suspension ou **retrait** en cas de manquement ou si les conditions ne sont plus remplies ; retrait **immédiat** ; remplacement du dirigeant en **3 mois** au plus ; griefs notifiés et observations possibles devant la **Commission des sanctions**. Art. 11",
+      "**Retrait d'office** (sans griefs ni convocation) en cas de **démission, révocation ou décès**. Art. 11",
+      "Agrément publié sur le site de la COSUMAF et dans un **journal d'annonces légales** ; suspension et retrait notifiés aux organismes centraux, associations professionnelles et institutions partenaires. Art. 12"
+    ],
+    "listes": [
+      {
+        "titre": "Pièces du dossier d'agrément d'un dirigeant",
+        "a": "art. 5",
+        "items": [
+          "Pièce d'identité certifiée",
+          "CV détaillé",
+          "Diplômes certifiés de moins de 3 mois",
+          "Acte de désignation",
+          "Casiers de moins de 3 mois (pays de résidence sur 10 ans)",
+          "Déclaration de non-condamnation signée par le PCA",
+          "Déclaration de non-inscription à la Centrale des risques et aux listes de sanctions",
+          "Engagement du dirigeant",
+          "Paiement de 250 000 FCFA"
+        ]
+      }
+    ],
+    "pieges": [
+      "**250 000 FCFA** = frais d'instruction (dossier) ; **1 000 000 FCFA** = commission d'agrément du dirigeant (Instruction 23-24).",
+      "Dirigeant : **Bac+5 + 10 ans** (dont 5 en marché) ; habilitation carte professionnelle (Instruction 18-24) : **Bac+3 ou 5 ans**.",
+      "Démission, révocation ou décès : **retrait d'office**, sans passage devant la Commission des sanctions."
+    ],
+    "qr": [
+      {
+        "q": "Quelles conditions de diplôme et d'expérience doit remplir un dirigeant de structure agréée ?",
+        "r": "Un diplôme au moins Bac+5 en droit, finance ou économie (ou certifications équivalentes) et au moins 10 ans d'expérience professionnelle dont 5 ans en finance de marché, en plus de l'honorabilité de l'Instruction 33-24."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

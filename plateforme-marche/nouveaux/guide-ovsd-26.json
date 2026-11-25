@@ -1,0 +1,50 @@
+{
+  "id": "guide-ovsd-26",
+  "ordre": 126,
+  "type": "guide",
+  "organisme": "cosumaf",
+  "num": "Guide obligations GSS",
+  "date": "février 2026",
+  "titre": "Guide relatif à l'émission d'obligations vertes, socialement responsables et durables en Afrique centrale",
+  "theme": "ape",
+  "couverture": "partielle",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\12_Guide-obligations-vertes-sociales-durables-2026.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (texte lisible, 32 pages) ; fiche partielle : préambule et plan relus, recommandations non détaillées"
+  },
+  "relations": {},
+  "objet": "Guide de bonnes pratiques de la COSUMAF, établi avec le Groupe de la Banque mondiale, pour l'émission d'obligations vertes, socialement responsables et durables (obligations GSS) dans la zone CEMAC. Il suit les principes de l'ICMA (Association internationale des marchés de capitaux), s'adresse en particulier aux émetteurs par appel public à l'épargne et décrit les recommandations (allocation des fonds, sélection des projets, gestion des fonds, reporting, revue indépendante) puis la procédure d'émission. Document d'orientation, publié en février 2026.",
+  "trente": "**Obligations GSS** : vertes, **socialement responsables** et **durables** (Green, Social and Sustainability Bonds). Le guide s'appuie sur les **principes de l'ICMA** et vise l'**intégrité du marché** (transparence, information, reporting). **Recommandations** : allocation des fonds levés, **évaluation et sélection des projets**, **gestion des fonds**, **communication et reporting**, **revue indépendante**. **Procédure** : avant l'émission (identification des projets, **revue indépendante**), **visa de l'opération** (dépôt du projet de prospectus ou de note d'opération, instruction du dossier), puis pendant la vie de l'émission (**information périodique** et **permanente**).",
+  "retenir": [
+    "Le guide est **élaboré en collaboration avec le Groupe de la Banque mondiale** ; il promeut le rôle du marché financier dans le financement de projets environnementaux et sociaux. Préambule",
+    "Il suit les **Principes de l'ICMA** (Association internationale des marchés de capitaux), qui prônent la **transparence**, la **diffusion d'informations** et un **reporting** adéquat. Préambule",
+    "Aucun standard ne caractérise précisément la dimension environnementale ou sociale des projets financés : la COSUMAF donne des **orientations précises** pour la zone CEMAC. Préambule",
+    "Le guide s'adresse **en particulier aux émetteurs d'obligations** lorsque l'émission est faite par **appel public à l'épargne**. À qui s'adresse ce guide",
+    "Trois types d'obligations : **vertes**, **socialement responsables** (sociales) et **durables**. Types d'obligations GSS",
+    "Recommandations : **allocation des fonds levés** (vertes, sociales, durables), **évaluation et sélection des projets**, **gestion des fonds levés**, **communication et reporting**, **revue indépendante**. Partie I",
+    "Réaliser une émission : **avant l'émission** (identification des projets, **revue indépendante**), **visa** (dépôt du **projet de prospectus ou de note d'opération**, instruction du dossier), **vie de l'émission** (**information périodique** et **permanente**). Partie II"
+  ],
+  "delais": [],
+  "montants": [],
+  "roles": [
+    { "acteur": "COSUMAF (obligations GSS)", "r": "Élabore le guide, vise l'opération d'émission et instruit le dossier de prospectus ou de note d'opération.", "a": "préambule, partie II-B" },
+    { "acteur": "Émetteur d'obligations GSS", "r": "Alloue les fonds aux projets éligibles, les gère séparément, assure le reporting et fait réaliser une revue indépendante.", "a": "partie I" },
+    { "acteur": "Réviseur indépendant (obligations GSS)", "r": "Réalise la revue indépendante avant l'émission puis pendant la vie de l'émission.", "a": "partie I-E, II-A" }
+  ],
+  "definitions": [
+    { "t": "Obligations GSS", "d": "Obligations vertes, sociales et durables (Green, Social and Sustainability Bonds) : titres de créance dont les fonds levés financent des projets à impact environnemental et/ou social positif.", "a": "préambule" }
+  ],
+  "listes": [
+    { "titre": "Les trois types d'obligations GSS", "a": "partie I-A", "items": ["Obligations vertes", "Obligations socialement responsables", "Obligations durables"] },
+    { "titre": "Étapes d'une émission d'obligations GSS", "a": "partie II", "items": ["Identification des projets", "Revue indépendante", "Dépôt du projet de prospectus ou de note d'opération", "Instruction du dossier et visa", "Information périodique", "Information permanente"] }
+  ],
+  "pieges": [
+    "Ce guide est un document d'**orientation** (bonnes pratiques) : les obligations juridiques sur les obligations vertes sont dans le **Règlement général de la COSUMAF** (art. 188 à 200) et l'**Instruction 44-25** (information des émetteurs).",
+    "Fiche **partielle** : seuls le préambule, le public visé et le plan ont été relus ; les recommandations détaillées ne sont pas reprises."
+  ],
+  "qr": [
+    { "q": "Sur quels principes internationaux le guide de la COSUMAF s'appuie-t-il ?", "r": "Sur les Principes de l'ICMA (Association internationale des marchés de capitaux), et il a été élaboré avec le Groupe de la Banque mondiale." },
+    { "q": "Quelles sont les trois catégories d'obligations GSS ?", "r": "Vertes, socialement responsables et durables." }
+  ]
+}

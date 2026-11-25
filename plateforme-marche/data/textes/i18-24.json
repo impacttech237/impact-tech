@@ -1,0 +1,85 @@
+{
+  "id": "i18-24",
+  "ordre": 27,
+  "type": "instruction",
+  "numero": "18-24",
+  "titre": "Habilitation et carte professionnelle",
+  "theme": "agrement",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Dépôt des demandes d'habilitation ou de renouvellement pour les fonctions soumises à carte professionnelle (art. 14 du Règlement général), instruction et mentions de la carte.",
+    "essentiel": "Une demande **par fonction**, en dépôt physique + électronique. Pièces : CV, **casier de moins de 3 mois**, diplôme **Bac+3** (juridique, financier ou comptable) **ou 5 ans** d'expérience dans le secteur financier, photo, acte de désignation, **attestation d'employeur de moins d'1 mois**, **réussite à l'examen d'habilitation**, preuve de paiement de l'inscription. Renouvellement : liste envoyée **au plus tard le 15 décembre**, nouvel examen obligatoire. Accusé en **10 jours ouvrés**, instruction en **60 jours ouvrés**.",
+    "retenir": [
+      "S'applique aux personnes exerçant des fonctions soumises à **habilitation** et à **carte professionnelle** (art. **14 du Règlement général**), y compris pour un **renouvellement**. Art. 1",
+      "Un dossier **par fonction**, déposé **physiquement et par voie électronique**. Art. 2",
+      "Pièces : **CV** à jour, **casier judiciaire de moins de 3 mois**, diplôme **Bac+3 minimum** (juridique, financier ou comptable) **ou** **5 ans** d'expérience dans le secteur financier, **photo**, téléphone ou e-mail, **acte de désignation**, **attestation d'employeur** de **1 mois** au plus, **preuve de réussite à l'examen d'habilitation** (art. 15 du RG), **justificatif de paiement** de l'inscription à l'examen. Art. 2",
+      "Renouvellement : les structures envoient à la COSUMAF, **au plus tard le 15 décembre** de l'année, la liste des personnes à renouveler ; il faut une **habilitation antérieure expirée** et **repasser l'examen**. Art. 3",
+      "Accusé de réception dans les **10 jours ouvrés** ; dossier incomplet renvoyé **30 jours** après la notification ; instruction en **60 jours ouvrés** à partir du dossier complet. Art. 4",
+      "Délai **suspendu** par les demandes de compléments ; si une fiche complémentaire n'arrive pas dans les **30 jours**, la demande est **réputée rejetée**. Art. 5",
+      "Décision par **lettre recommandée** ; refus **motivé**. Art. 6",
+      "La **carte professionnelle** mentionne : nom et prénom, **photo**, **numéro d'enregistrement**, **date de délivrance**, **date d'expiration**, **fonction(s)** habilitée(s), nom et signature de l'autorité ; elle peut être **dématérialisée**. Art. 7",
+      "Rappel (Règlement 01/22, art. 25 et 59) : l'habilitation est accordée **après un examen** ; les habilitations et cartes peuvent être délivrées par le **Secrétaire Général** sous l'autorité du Président."
+    ],
+    "listes": [
+      {
+        "titre": "Pièces du dossier d'habilitation",
+        "a": "art. 2",
+        "items": [
+          "CV actualisé",
+          "Casier judiciaire de moins de 3 mois",
+          "Diplôme Bac+3 ou 5 ans d'expérience",
+          "Photo d'identité récente",
+          "Téléphone ou e-mail",
+          "Acte de désignation",
+          "Attestation d'employeur de moins d'1 mois",
+          "Preuve de réussite à l'examen",
+          "Justificatif de paiement de l'inscription"
+        ]
+      },
+      {
+        "titre": "Mentions de la carte professionnelle",
+        "a": "art. 7",
+        "items": [
+          "Nom et prénom",
+          "Photo",
+          "Numéro d'enregistrement",
+          "Date de délivrance",
+          "Date d'expiration",
+          "Fonction(s) habilitée(s)",
+          "Nom et signature de l'autorité"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le renouvellement **n'est pas automatique** : il faut **repasser l'examen** d'habilitation.",
+      "**15 décembre** : date limite de la liste des renouvellements."
+    ],
+    "qr": [
+      {
+        "q": "Quelles mentions figurent sur la carte professionnelle ?",
+        "r": "Nom et prénom, photo, numéro d'enregistrement, date de délivrance et d'expiration, fonction(s) habilitée(s), nom et signature de l'autorité ; elle peut être dématérialisée."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

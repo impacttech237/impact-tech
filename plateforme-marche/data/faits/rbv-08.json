@@ -1,0 +1,683 @@
+[
+  {
+    "id": "rbv-08.delai.01",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 9",
+    "enonce": "Réponse de la BVMAC à une demande d'admission ou d'autorisation",
+    "valeur_texte": "21 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 21,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": "Le silence vaut refus.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.02",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Introduction des titres après notification de la décision d'admission",
+    "valeur_texte": "90 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 90,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.03",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Prorogation possible du délai d'introduction en bourse",
+    "valeur_texte": "30 jours maximum",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.04",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 17",
+    "enonce": "Publication préalable d'une nouvelle procédure d'introduction fixée par instruction",
+    "valeur_texte": "15 jours francs",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.05",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 24",
+    "enonce": "Confirmation écrite d'un ordre de bourse passé par téléphone",
+    "valeur_texte": "7 jours au plus tard",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Bande enregistreuse obligatoire.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.06",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 25",
+    "enonce": "Validité maximale d'un ordre à durée déterminée (Règlement général BVMAC)",
+    "valeur_texte": "30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Sans indication : validité « jour ».",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.07",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 28",
+    "enonce": "Transmission des ordres horodatés par la société de bourse à la BVMAC",
+    "valeur_texte": "dès la séance qui suit la réception",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.08",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 45",
+    "enonce": "Délai d'exécution de l'ordre de débouclement avant annulation de la transaction",
+    "valeur_texte": "30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.09",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 59",
+    "enonce": "Recevabilité d'une offre publique de vente par la BVMAC",
+    "valeur_texte": "15 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.10",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 60",
+    "enonce": "Publication de l'avis BVMAC avant la réalisation d'une OPV",
+    "valeur_texte": "15 jours au moins",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.11",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 61",
+    "enonce": "Dernier moment pour modifier le prix d'une OPV",
+    "valeur_texte": "2 jours de bourse avant la réalisation",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.12",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 71",
+    "enonce": "Communication à la BVMAC des états financiers et résolutions d'AG d'un émetteur coté",
+    "valeur_texte": "60 jours maximum",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.delai.13",
+    "texte": "rbv-08",
+    "type": "delai",
+    "article": "art. 76",
+    "enonce": "Envoi à la BVMAC des états financiers d'une société de bourse",
+    "valeur_texte": "3 mois après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.montant.01",
+    "texte": "rbv-08",
+    "type": "montant",
+    "article": "art. 57",
+    "enonce": "Quantité minimale de titres d'une offre publique de vente",
+    "valeur_texte": "10 % de l'émission",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": "Sauf dérogation de la COSUMAF.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.montant.02",
+    "texte": "rbv-08",
+    "type": "montant",
+    "article": "art. 61",
+    "enonce": "Variation minimale pour modifier le prix d'une offre publique de vente",
+    "valeur_texte": "5 % du prix initial",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.montant.03",
+    "texte": "rbv-08",
+    "type": "montant",
+    "article": "art. 47",
+    "enonce": "Degré de parenté pour une cession familiale en transaction sur dossier",
+    "valeur_texte": "3e degré",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.01",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 1, 10, 38-41",
+    "enonce": "BVMAC",
+    "valeur_texte": "Organise le marché, admet les titres par son Comité d'admission, fixe les règles de cotation, publie les cours dont elle est propriétaire, peut annuler un cours ou suspendre une cotation.",
+    "acteurs": [
+      "bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.02",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 8, 10",
+    "enonce": "Comité d'admission (BVMAC)",
+    "valeur_texte": "Prononce la décision d'admission à la cote ; sans décision favorable, aucune cotation.",
+    "acteurs": [
+      "comite-d-admission-bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.03",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 7, 29, 40, 79",
+    "enonce": "Société de bourse",
+    "valeur_texte": "Intermédiaire obligatoire pour l'introduction, la négociation et les offres publiques ; remet au client une pièce justificative ; doit avoir un compte espèces dédié au règlement.",
+    "acteurs": [
+      "societe-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.04",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 87",
+    "enonce": "Responsable du contrôle interne (société de bourse)",
+    "valeur_texte": "Veille au respect des règles professionnelles et déontologiques et à l'information des clients.",
+    "acteurs": [
+      "responsable-du-controle-interne-societe-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.05",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 21",
+    "enonce": "Responsable des relations avec les investisseurs",
+    "valeur_texte": "Désigné par chaque émetteur coté, interlocuteur des investisseurs et du public.",
+    "acteurs": [
+      "responsable-des-relations-avec-les-investisseurs"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.06",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 65",
+    "enonce": "Huissier de justice",
+    "valeur_texte": "Transmet à la société de bourse chargée de la vente judiciaire la décision exécutoire et les caractéristiques des titres saisis.",
+    "acteurs": [
+      "huissier-de-justice"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.role.07",
+    "texte": "rbv-08",
+    "type": "role",
+    "article": "art. 42, 45",
+    "enonce": "Dépositaire Central",
+    "valeur_texte": "Assure la livraison des titres et le règlement selon son propre Règlement général ; fixe avec la BVMAC l'indemnisation en cas d'annulation pour défaillance.",
+    "acteurs": [
+      "depositaire-central"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.01",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Flottant",
+    "valeur_texte": "Partie du capital réellement négociable sur le marché, comparée au nombre total de titres de l'émetteur.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.02",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Liquidité",
+    "valeur_texte": "Facilité et rapidité avec lesquelles une valeur peut être convertie en numéraire sans écart anormal de cours ni blocage du marché.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.03",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Cotation",
+    "valeur_texte": "Séance où la confrontation de tous les ordres d'achat et de vente fixe un prix d'équilibre.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.04",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Cours de bourse",
+    "valeur_texte": "Prix atteint par une valeur mobilière au cours d'une séance de cotation, fonction de l'offre et de la demande.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.05",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Offre publique d'achat (OPA)",
+    "valeur_texte": "Proposition publique de racheter en numéraire les titres d'un émetteur coté, généralement au-dessus du cours.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.06",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Offre publique d'échange (OPE)",
+    "valeur_texte": "Proposition publique d'échanger les titres d'un émetteur coté contre d'autres titres selon une parité fixée à l'avance.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.07",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Offre à prix ferme (OPF)",
+    "valeur_texte": "Mise à disposition du public d'une quantité de titres à un prix fixe ; allocation selon le rapport offre/demande.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.08",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 23",
+    "enonce": "Ordre de bourse",
+    "valeur_texte": "Instruction donnée par un client à une société de bourse (sens, valeur, nombre, limite, validité, compte).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.09",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 46",
+    "enonce": "Transaction sur dossier",
+    "valeur_texte": "Enregistrement d'une négociation convenue à l'avance, sans présentation d'un ordre sur le marché.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.10",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Autorisation (BVMAC)",
+    "valeur_texte": "Accord donné à un émetteur déjà coté pour une nouvelle émission par augmentation de capital ou la mise sur le marché de titres déjà émis.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.definition.11",
+    "texte": "rbv-08",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Avis / Circulaire / Instruction (BVMAC)",
+    "valeur_texte": "Avis : conditions d'application pour une opération ; circulaire : texte adressé à tous les membres ; instruction : modalités d'application du Règlement général.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.liste.01",
+    "texte": "rbv-08",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "Les 5 compartiments de la cote",
+    "valeur_texte": "A : titres de capital de SA (taille, performance, liquidité, transparence) ; B-PME : titres de capital de PME ; C-Obligataire : emprunts obligataires par APE ; D-Capital-investissement (hors cote, private equity) : projets et entreprises en création ; E-TCN : titres de créance négociables à court terme",
+    "items": [
+      "A : titres de capital de SA (taille, performance, liquidité, transparence)",
+      "B-PME : titres de capital de PME",
+      "C-Obligataire : emprunts obligataires par APE",
+      "D-Capital-investissement (hors cote, private equity) : projets et entreprises en création",
+      "E-TCN : titres de créance négociables à court terme"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.liste.02",
+    "texte": "rbv-08",
+    "type": "liste",
+    "article": "art. 69",
+    "enonce": "Informations importantes à publier par un émetteur coté",
+    "valeur_texte": "Changement important de la direction ; Fusion, absorption ou réorganisation ; Emprunt d'une somme importante ; Procédure judiciaire importante ; Changement des projets d'investissement ; Offre publique d'achat ou de rachat ; Événement économique ou technologique touchant les actifs",
+    "items": [
+      "Changement important de la direction",
+      "Fusion, absorption ou réorganisation",
+      "Emprunt d'une somme importante",
+      "Procédure judiciaire importante",
+      "Changement des projets d'investissement",
+      "Offre publique d'achat ou de rachat",
+      "Événement économique ou technologique touchant les actifs"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.liste.03",
+    "texte": "rbv-08",
+    "type": "liste",
+    "article": "art. 63",
+    "enonce": "Mentions de l'avis de résultat d'OPV",
+    "valeur_texte": "Cours coté (égal au prix de l'offre si suite positive) ; Nombre de titres négociés ; Ordres retenus ; Réduction éventuelle des ordres d'achat",
+    "items": [
+      "Cours coté (égal au prix de l'offre si suite positive)",
+      "Nombre de titres négociés",
+      "Ordres retenus",
+      "Réduction éventuelle des ordres d'achat"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.piege.01",
+    "texte": "rbv-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "Validité d'un ordre à durée déterminée : 30 jours maximum selon le Règlement général BVMAC",
+    "valeur_texte": "Validité d'un ordre à durée déterminée : **30 jours maximum** selon le Règlement général BVMAC ; sans indication, l'ordre vaut pour la seule séance (« validité jour »).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.piege.02",
+    "texte": "rbv-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "21 jours ouvrés pour la réponse d'admission (silence = refus), 90 jours ouvrés pour s'intr",
+    "valeur_texte": "**21 jours ouvrés** pour la réponse d'admission (silence = refus), **90 jours ouvrés** pour s'introduire, prorogation **30 jours**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.piege.03",
+    "texte": "rbv-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le Règlement général BVMAC date de 2008 et renvoie encore au Règlement 06/03, abrogé par l",
+    "valeur_texte": "Le Règlement général BVMAC date de **2008** et renvoie encore au **Règlement 06/03**, abrogé par le Règlement **01/22**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rbv-08.piege.04",
+    "texte": "rbv-08",
+    "type": "piege",
+    "article": null,
+    "enonce": "OPV : 10 % minimum de l'émission ; le prix ne se modifie que d'au moins 5 %.",
+    "valeur_texte": "OPV : **10 %** minimum de l'émission ; le prix ne se modifie que d'au moins **5 %**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

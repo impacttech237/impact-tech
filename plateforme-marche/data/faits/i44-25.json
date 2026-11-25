@@ -1,0 +1,238 @@
+[
+  {
+    "id": "i44-25.delai.01",
+    "texte": "i44-25",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Rapport financier annuel de N d'un émetteur APE (Instruction 44-25)",
+    "valeur_texte": "au plus tard le 15 juillet de N+1",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.delai.02",
+    "texte": "i44-25",
+    "type": "delai",
+    "article": "art. 2.5",
+    "enonce": "Rapports de contrôle interne et LBC/FT d'un émetteur APE (Instruction 44-25)",
+    "valeur_texte": "au plus tard le 30 mars",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.delai.03",
+    "texte": "i44-25",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Rapport financier semestriel d'un émetteur APE (Instruction 44-25)",
+    "valeur_texte": "2 mois après le semestre",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.delai.04",
+    "texte": "i44-25",
+    "type": "delai",
+    "article": "art. 11",
+    "enonce": "Délai de la COSUMAF pour demander de modifier un encart de presse d'un émetteur",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": "Passé ce délai, la publication est réputée autorisée.",
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.delai.05",
+    "texte": "i44-25",
+    "type": "delai",
+    "article": "art. 2-3",
+    "enonce": "Durée de mise en ligne des rapports d'un émetteur APE",
+    "valeur_texte": "5 ans au moins",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.role.01",
+    "texte": "i44-25",
+    "type": "role",
+    "article": "art. 2-11",
+    "enonce": "Émetteur APE",
+    "valeur_texte": "Publie ses informations périodiques, informe la COSUMAF, les actionnaires et le public, diffuse un communiqué en cas de changement important.",
+    "acteurs": [
+      "emetteur-ape"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.role.02",
+    "texte": "i44-25",
+    "type": "role",
+    "article": "art. 11",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Autorise le maintien du secret, peut publier à la place de l'émetteur défaillant, a 10 jours ouvrés pour faire modifier un encart.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.role.03",
+    "texte": "i44-25",
+    "type": "role",
+    "article": "art. 10",
+    "enonce": "Évaluateur externe (obligations vertes)",
+    "valeur_texte": "Établit le rapport d'évaluation des procédures de sélection et de suivi des projets verts, sociaux ou durables.",
+    "acteurs": [
+      "evaluateur-externe-obligations-vertes"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.definition.01",
+    "texte": "i44-25",
+    "type": "definition",
+    "article": "art. 10",
+    "enonce": "Obligations vertes, sociales et durables",
+    "valeur_texte": "Titres de créance dont les fonds financent des projets environnementaux, sociaux ou durables, avec une information spécifique sur la sélection, le suivi et l'allocation des fonds.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.definition.02",
+    "texte": "i44-25",
+    "type": "definition",
+    "article": "art. 11",
+    "enonce": "Fait nouveau important",
+    "valeur_texte": "Événement survenu dans le secteur de l'émetteur et de nature à affecter son activité de façon significative, à publier dans les meilleurs délais.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.liste.01",
+    "texte": "i44-25",
+    "type": "liste",
+    "article": "art. 10",
+    "enonce": "Informations spécifiques aux obligations vertes, sociales et durables",
+    "valeur_texte": "Procédure de suivi et de contrôle des projets ; Procédures d'évaluation et de sélection des projets ; Allocation des fonds levés ; Rapport d'évaluation externe",
+    "items": [
+      "Procédure de suivi et de contrôle des projets",
+      "Procédures d'évaluation et de sélection des projets",
+      "Allocation des fonds levés",
+      "Rapport d'évaluation externe"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.liste.02",
+    "texte": "i44-25",
+    "type": "liste",
+    "article": "art. 8",
+    "enonce": "Ce que l'émetteur signale à la COSUMAF (information permanente)",
+    "valeur_texte": "Projets de modification des documents légaux internes ; Modifications de la répartition du capital ; Décisions judiciaires l'affectant",
+    "items": [
+      "Projets de modification des documents légaux internes",
+      "Modifications de la répartition du capital",
+      "Décisions judiciaires l'affectant"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.piege.01",
+    "texte": "i44-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'Instruction 44-25 abroge la 30-24 : citer 44-25 pour l'information des émetteurs.",
+    "valeur_texte": "L'Instruction **44-25 abroge la 30-24** : citer 44-25 pour l'information des émetteurs.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i44-25.piege.02",
+    "texte": "i44-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Encart de presse : silence de la COSUMAF pendant 10 jours ouvrés = autorisation.",
+    "valeur_texte": "Encart de presse : silence de la COSUMAF pendant **10 jours ouvrés** = **autorisation**.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

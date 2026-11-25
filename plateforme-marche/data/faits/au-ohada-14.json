@@ -1,0 +1,79 @@
+[
+  {
+    "id": "au-ohada-14.montant.01",
+    "texte": "au-ohada-14",
+    "type": "montant",
+    "article": "art. 85",
+    "enonce": "Appel public à l'épargne dans un autre État partie : montant de l'offre à partir duquel la bonne fin doit être garantie par un établissement de crédit",
+    "valeur_texte": "plus de 50 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 50000000,
+    "unite": "fcfa",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "au-ohada-14.role.01",
+    "texte": "au-ohada-14",
+    "type": "role",
+    "article": "art. 85",
+    "enonce": "Établissement de crédit (appel public à l'épargne transfrontalier)",
+    "valeur_texte": "Garantit la bonne fin de l'opération d'une société faisant appel public à l'épargne dans un autre État partie quand l'offre dépasse 50 millions FCFA.",
+    "acteurs": [
+      "etablissement-de-credit-appel-public-a-l-epargne-transfrontalier"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "au-ohada-14.piege.01",
+    "texte": "au-ohada-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Fiche de contexte : l'Acte uniforme compte 920 articles et seuls les articles 80 à 87 ont ",
+    "valeur_texte": "Fiche de **contexte** : l'Acte uniforme compte **920 articles** et seuls les **articles 80 à 87** ont été lus ici ; ne pas l'utiliser pour citer la société anonyme, les valeurs mobilières ou les assemblées.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "au-ohada-14.piege.02",
+    "texte": "au-ohada-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Pour l'appel public à l'épargne dans la CEMAC, ce sont d'abord le Règlement 01/22 et le Rè",
+    "valeur_texte": "Pour l'**appel public à l'épargne** dans la CEMAC, ce sont d'abord le **Règlement 01/22** et le **Règlement général de la COSUMAF** qui s'appliquent ; l'Acte uniforme fournit le **droit commun des sociétés**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "au-ohada-14.piege.03",
+    "texte": "au-ohada-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le seuil de 50 millions FCFA de l'article 85 (garantie de bonne fin) n'a rien à voir avec ",
+    "valeur_texte": "Le **seuil de 50 millions FCFA** de l'article 85 (garantie de bonne fin) n'a **rien à voir** avec le seuil de **50 millions FCFA** du Règlement des changes 02/18 (valeurs mobilières étrangères).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

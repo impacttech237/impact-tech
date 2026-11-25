@@ -1,0 +1,83 @@
+{
+  "id": "i45-25",
+  "ordre": 54,
+  "type": "instruction",
+  "numero": "45-25",
+  "titre": "Régime des modifications des dossiers d'agrément, de visa et d'enregistrement",
+  "theme": "vie",
+  "date_texte": "15 décembre 2025",
+  "date_adoption": "2025-12-15",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Classement de toute modification d'un dossier déjà agréé, visé ou enregistré (art. 76-77 du Règlement général) en trois régimes : nouvel agrément/visa, autorisation préalable, ou information préalable — pour les OPC, les intermédiaires et organismes centraux, et les émetteurs.",
+    "essentiel": "3 régimes : **nouvel agrément / visa / enregistrement**, **autorisation préalable**, **information préalable**. OPC : changement de **catégorie** ou de **classification** et fusion/scission/transformation = **nouvel agrément** ; changement de SGO, dépositaire, objectif, fréquence de VL, profil de risque, liquidation, CAC… = **autorisation**. Intermédiaires : **cession de contrôle**, capital, actionnariat, gouvernance, **logiciel métier** = autorisation ; le reste = information **30 jours** avant. Émetteurs : erreur substantielle → nouveau document en **7 jours calendaires** ; fait nouveau significatif → **15 jours calendaires** ; autre changement = information **10 jours** avant. Décision COSUMAF : **15 jours** (nouvel agrément), **10 jours** (nouveau visa), **10 jours calendaires** (autorisation).",
+    "retenir": [
+      "Prise en application des **art. 76 et 77 du Règlement général** ; s'applique aux émetteurs, organismes de marché, intermédiaires, OPC et leurs SGO et dépositaires, CAC, agences de notation, analystes, organismes de garantie et tout intervenant agréé. Art. 1",
+      "Trois régimes selon la nature de la modification : **nouvel agrément / visa / enregistrement** ; **autorisation préalable** ; **information préalable**. Art. 2",
+      "OPC — **nouvel agrément** pour une modification **substantielle** : changement de **catégorie** d'OPC (un **OPCVM ne peut pas être transformé** en un autre type) ou de **classification** d'un OPCVM. Art. 3",
+      "OPC — **transformation, fusion ou scission** : nouveau dossier (convention, document d'information, DIS, règlement ou statuts). Art. 4",
+      "OPC — **autorisation préalable** : toute modification du **document d'information** ; changement de **SGO**, de **dépositaire**, d'**objectif** et de politique d'investissement, de **fréquence de VL**, de **profil de risque** ; **liquidation** ; délégations ; changement du **gérant** ou du **RCCI** ; **extension d'agrément** ; ouverture à la clientèle de détail ; changement de **CAC**. Art. 5-6",
+      "OPC — autre modification : **information préalable**. Art. 7",
+      "Organismes centraux et intermédiaires — **nouvel agrément** : transformation, fusion, scission. Art. 8",
+      "Organismes centraux et intermédiaires — **autorisation préalable** : **cession de contrôle** (nouvel actionnaire majoritaire), changement des **services principaux**, modification du **capital**, de l'**actionnariat**, de la **gouvernance**, ouverture de **filiale, succursale ou bureau**, changement du dispositif de **conformité** ou de **gestion des risques**, des engagements, changement **non substantiel** du programme d'activité, changement de **logiciel métier**. Art. 9-13",
+      "Organismes centraux et intermédiaires — autre modification : **information préalable 30 jours** avant. Art. 14",
+      "Émetteurs — **erreur ou inexactitude substantielle** : informer **immédiatement** la COSUMAF et soumettre un nouveau document **dans les 7 jours calendaires** de la constatation. Art. 15",
+      "Émetteurs — **fait nouveau significatif** ou **changement important** (dégradation financière, **cession de contrôle**, modification des **droits** attachés aux titres, engagements, changement du **prix** ou de la **durée**…) : nouveau document **dans les 15 jours calendaires**. Art. 15",
+      "Émetteurs — autres modifications du document : **autorisation préalable** et information du public ; modification de la situation sans incidence : **information préalable 10 jours** avant. Art. 16-17",
+      "Délais de décision : **15 jours** (nouvel agrément), **10 jours** (nouveau visa ou enregistrement), **10 jours calendaires** (autorisation préalable). Art. 18",
+      "En cas de doute sur le régime, on peut **consulter la COSUMAF** au préalable. Art. 19"
+    ],
+    "listes": [
+      {
+        "titre": "Les 3 régimes de modification",
+        "a": "art. 2",
+        "items": [
+          "Nouvel agrément, nouveau visa ou nouvel enregistrement",
+          "Autorisation préalable de la COSUMAF",
+          "Information préalable de la COSUMAF"
+        ]
+      },
+      {
+        "titre": "Faits nouveaux significatifs pour un émetteur",
+        "a": "art. 15",
+        "items": [
+          "Dégradation substantielle de la situation économique ou financière",
+          "Cession de contrôle de l'émetteur",
+          "Modification des droits attachés aux titres",
+          "Engagements souscrits",
+          "Modification des caractéristiques de l'opération (prix, durée de remboursement…)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Émetteur : **7 jours** (erreur substantielle) contre **15 jours** (fait nouveau significatif), en jours **calendaires**.",
+      "Information préalable : **30 jours** avant pour un intermédiaire, **10 jours** avant pour un émetteur.",
+      "Un **OPCVM** ne peut **jamais** être transformé en un autre type d'OPC."
+    ],
+    "qr": [
+      {
+        "q": "Que doit faire un émetteur qui découvre une erreur substantielle dans son document visé ?",
+        "r": "Informer immédiatement la COSUMAF et soumettre un nouveau document d'information à son visa ou enregistrement dans les 7 jours calendaires suivant la constatation."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

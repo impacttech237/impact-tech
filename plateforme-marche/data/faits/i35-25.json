@@ -1,0 +1,186 @@
+[
+  {
+    "id": "i35-25.delai.01",
+    "texte": "i35-25",
+    "type": "delai",
+    "article": "annexe, art. 7",
+    "enonce": "Mandat du commissaire aux comptes d'un FPC",
+    "valeur_texte": "3 exercices",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.delai.02",
+    "texte": "i35-25",
+    "type": "delai",
+    "article": "annexe",
+    "enonce": "Mise à disposition des documents annuels aux porteurs d'un FPC",
+    "valeur_texte": "30 jours après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.delai.03",
+    "texte": "i35-25",
+    "type": "delai",
+    "article": "annexe",
+    "enonce": "Délai entre l'avis aux porteurs et la fusion ou scission d'un FPC",
+    "valeur_texte": "1 mois",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.delai.04",
+    "texte": "i35-25",
+    "type": "delai",
+    "article": "annexe, art. 11",
+    "enonce": "Durée d'actif sous le minimum entraînant la dissolution d'un FPC",
+    "valeur_texte": "24 mois",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.delai.05",
+    "texte": "i35-25",
+    "type": "delai",
+    "article": "annexe, art. 11",
+    "enonce": "Décision de prorogation d'un FPC avant l'échéance",
+    "valeur_texte": "3 mois au moins",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.montant.01",
+    "texte": "i35-25",
+    "type": "montant",
+    "article": "annexe, art. 2",
+    "enonce": "Montant minimal de l'actif d'un fonds de placement en capital (FPC)",
+    "valeur_texte": "300 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 300000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.role.01",
+    "texte": "i35-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "Société de gestion du FPC",
+    "valeur_texte": "Gère le fonds, désigne le CAC, établit l'inventaire semestriel, décide fusion, dissolution ou prorogation.",
+    "acteurs": [
+      "societe-de-gestion-du-fpc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.role.02",
+    "texte": "i35-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "Dépositaire du FPC",
+    "valeur_texte": "Contrôle l'inventaire et décide la prorogation avec la société de gestion.",
+    "acteurs": [
+      "depositaire-du-fpc"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.definition.01",
+    "texte": "i35-25",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Fonds de placement en capital (FPC)",
+    "valeur_texte": "Organisme de capital investissement sans personnalité morale, copropriété dont les droits sont exprimés en parts.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.piege.01",
+    "texte": "i35-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "FPC : 300 millions et 24 mois ; FCPI (Instruction 16-24) : 150 millions et 24 mois.",
+    "valeur_texte": "FPC : **300 millions** et **24 mois** ; FCPI (Instruction 16-24) : **150 millions** et **24 mois**.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i35-25.piege.02",
+    "texte": "i35-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "CAC : 3 exercices pour le FPC et la SPC, mais 6 exercices pour le FPI (Instruction 37-25).",
+    "valeur_texte": "CAC : **3 exercices** pour le FPC et la SPC, mais **6 exercices** pour le FPI (Instruction 37-25).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,273 @@
+[
+  {
+    "id": "i33-24.delai.01",
+    "texte": "i33-24",
+    "type": "delai",
+    "article": "art. 2.2",
+    "enonce": "Ancienneté d'une condamnation définitive interdisant de diriger ou travailler dans une entité contrôlée",
+    "valeur_texte": "moins de 10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.delai.02",
+    "texte": "i33-24",
+    "type": "delai",
+    "article": "art. 2.2",
+    "enonce": "Peine minimale avec sursis rendant inapte (honorabilité)",
+    "valeur_texte": "au moins 6 mois avec sursis",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.delai.03",
+    "texte": "i33-24",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Expérience attendue du responsable de la gestion des risques (grande entité)",
+    "valeur_texte": "10 ans environ",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.delai.04",
+    "texte": "i33-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Expérience attendue du responsable de l'audit interne (entité importante ou complexe)",
+    "valeur_texte": "10 ans minimum",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.delai.05",
+    "texte": "i33-24",
+    "type": "delai",
+    "article": "art. 8",
+    "enonce": "Expérience juridique attendue du responsable de la conformité (grande entité)",
+    "valeur_texte": "10 ans minimum",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.role.01",
+    "texte": "i33-24",
+    "type": "role",
+    "article": "art. 2-3",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Évalue l'honorabilité et la compétence, peut s'opposer à une nomination même sans condamnation et vérifie les procédures lors de ses contrôles.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.role.02",
+    "texte": "i33-24",
+    "type": "role",
+    "article": "art. 4",
+    "enonce": "Dirigeant effectif",
+    "valeur_texte": "Doit maîtriser marchés financiers, stratégie, gouvernance et risques, analyse financière et réglementation, et avoir une expérience de direction.",
+    "acteurs": [
+      "dirigeant-effectif"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.role.03",
+    "texte": "i33-24",
+    "type": "role",
+    "article": "art. 6",
+    "enonce": "Responsable de la gestion des risques",
+    "valeur_texte": "A une vision globale et prospective de tous les risques de l'entité et de leurs interactions.",
+    "acteurs": [
+      "responsable-de-la-gestion-des-risques"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.role.04",
+    "texte": "i33-24",
+    "type": "role",
+    "article": "art. 7",
+    "enonce": "Responsable de l'audit interne",
+    "valeur_texte": "Maîtrise la méthodologie d'audit et comprend les activités pour apprécier les constats des auditeurs.",
+    "acteurs": [
+      "responsable-de-l-audit-interne"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.role.05",
+    "texte": "i33-24",
+    "type": "role",
+    "article": "art. 8",
+    "enonce": "Responsable de la conformité",
+    "valeur_texte": "Évalue l'impact des changements juridiques et identifie le risque de non-conformité.",
+    "acteurs": [
+      "responsable-de-la-conformite"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.definition.01",
+    "texte": "i33-24",
+    "type": "definition",
+    "article": "art. 5-8",
+    "enonce": "Fonctions clés",
+    "valeur_texte": "Gestion des risques, audit interne et vérification de la conformité, dont les responsables doivent justifier d'une compétence spécifique.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.definition.02",
+    "texte": "i33-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Honorabilité",
+    "valeur_texte": "Absence de condamnation et de faits établis incompatibles avec la direction ou l'emploi dans une entité contrôlée, appréciée en permanence par la COSUMAF.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.liste.01",
+    "texte": "i33-24",
+    "type": "liste",
+    "article": "art. 4.3",
+    "enonce": "Domaines de compétence minimaux d'un dirigeant effectif",
+    "valeur_texte": "Marchés financiers ; Stratégie et modèle économique ; Gouvernance et gestion des risques ; Analyse financière ; Réglementation applicable",
+    "items": [
+      "Marchés financiers",
+      "Stratégie et modèle économique",
+      "Gouvernance et gestion des risques",
+      "Analyse financière",
+      "Réglementation applicable"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.liste.02",
+    "texte": "i33-24",
+    "type": "liste",
+    "article": "art. 6-8",
+    "enonce": "Les 3 fonctions clés",
+    "valeur_texte": "Gestion des risques ; Audit interne ; Vérification de la conformité",
+    "items": [
+      "Gestion des risques",
+      "Audit interne",
+      "Vérification de la conformité"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.piege.01",
+    "texte": "i33-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "La COSUMAF peut refuser un dirigeant sans condamnation, sur des éléments matériellement ét",
+    "valeur_texte": "La COSUMAF peut refuser un dirigeant **sans condamnation**, sur des **éléments matériellement établis**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i33-24.piege.02",
+    "texte": "i33-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le Règlement 01/22 (art. 171) interdit aussi les administrateurs ou dirigeants condamnés p",
+    "valeur_texte": "Le Règlement 01/22 (art. 171) interdit aussi les administrateurs ou dirigeants **condamnés pour crime ou délit** ou sur lesquels pèsent des **créances douteuses** du système bancaire CEMAC.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "rg-23.delai.01",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 24",
+    "enonce": "Durée de validité d'une habilitation (carte professionnelle)",
+    "valeur_texte": "3 ans",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.02",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Délai pour qu'un collaborateur obtienne son habilitation après sa prise de fonctions",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.03",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 22",
+    "enonce": "Délai d'un nouvel embauché pour se présenter à l'examen d'habilitation",
+    "valeur_texte": "12 mois",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.04",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 21",
+    "enonce": "Fréquence minimale de l'examen d'habilitation",
+    "valeur_texte": "2 fois par an",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.05",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 30",
+    "enonce": "Cessation de fonctions entraînant le retrait possible de l'habilitation",
+    "valeur_texte": "6 mois ininterrompus",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": "Sauf maladie ou formation de moins de 12 mois.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.06",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 105",
+    "enonce": "Conservation des documents LBC/FT (Règlement général)",
+    "valeur_texte": "10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.07",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 157",
+    "enonce": "Instruction d'une demande de visa APE",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": "Prorogeable de 30 jours ouvrés.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.08",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 175",
+    "enonce": "Libération de la prise ferme après l'ouverture des souscriptions",
+    "valeur_texte": "3 jours calendaires au plus tard",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": "Sinon l'engagement devient caduc.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.09",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 176",
+    "enonce": "Durée maximale du placement après l'ouverture des souscriptions",
+    "valeur_texte": "90 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 90,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.10",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 172",
+    "enonce": "Virement des souscriptions à l'émetteur par le centralisateur",
+    "valeur_texte": "8 jours calendaires après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.11",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 211",
+    "enonce": "Instruction d'un dossier d'enregistrement de placement privé (Règlement général)",
+    "valeur_texte": "10 jours au plus",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Après réception du dossier complet.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.12",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 180",
+    "enonce": "Admission à la cote après la clôture des souscriptions",
+    "valeur_texte": "30 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.13",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 212",
+    "enonce": "Durée maximale d'une offre publique",
+    "valeur_texte": "45 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 45,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.14",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 228",
+    "enonce": "Dépôt d'une offre publique concurrente avant la fin de l'offre initiale",
+    "valeur_texte": "10 jours calendaires au moins",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.15",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 222",
+    "enonce": "Interdiction de déposer une offre après avoir déclaré y renoncer",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.16",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 242",
+    "enonce": "Délai d'agrément d'un intermédiaire de marché (Règlement général)",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.17",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 252",
+    "enonce": "Durée maximale de la mission d'un administrateur provisoire",
+    "valeur_texte": "18 mois (renouvellement inclus)",
+    "type_valeur": "nombre",
+    "valeur": 18,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.18",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 254",
+    "enonce": "Périodicité du rapport de l'administrateur provisoire",
+    "valeur_texte": "hebdomadaire",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.19",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 288",
+    "enonce": "Rapport de contrôle interne du RCCI à la COSUMAF",
+    "valeur_texte": "3 mois après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.20",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 291",
+    "enonce": "Conservation des enregistrements téléphoniques et électroniques des transactions",
+    "valeur_texte": "10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.21",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 305",
+    "enonce": "Relevé des titres et fonds des clients par l'intermédiaire",
+    "valeur_texte": "au moins une fois par trimestre",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.22",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 361",
+    "enonce": "Constitution effective d'un OPCVM après l'agrément",
+    "valeur_texte": "30 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.23",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 367",
+    "enonce": "Mise en paiement des sommes distribuables d'un OPCVM",
+    "valeur_texte": "5 mois après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.24",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 380, 389",
+    "enonce": "Préavis de cessation des fonctions du gestionnaire ou du dépositaire d'un OPCVM",
+    "valeur_texte": "2 mois",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.25",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 374",
+    "enonce": "Réunion de l'AG d'une SICAV après la suspension des émissions et rachats",
+    "valeur_texte": "2 mois",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.26",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 352, 365",
+    "enonce": "Communication du projet de fusion d'OPC au CAC avant l'AGE ou l'opération",
+    "valeur_texte": "45 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 45,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.27",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 416",
+    "enonce": "Dérogation aux ratios pour un OPCVM nouvellement agréé",
+    "valeur_texte": "6 mois",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.28",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 410",
+    "enonce": "Échéance maximale des dépôts bancaires détenus par un OPCVM",
+    "valeur_texte": "12 mois",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.29",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 356",
+    "enonce": "Rapport trimestriel d'activité d'une SGO à la COSUMAF",
+    "valeur_texte": "15 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.30",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 357-358",
+    "enonce": "Rapports semestriel et annuel d'activité d'une SGO",
+    "valeur_texte": "30 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.31",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 442, 474",
+    "enonce": "Durée sous le minimum entraînant la liquidation d'un OPCI ou d'un organisme de capital investissement",
+    "valeur_texte": "24 mois consécutifs",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.32",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 453",
+    "enonce": "Régularisation d'un OPCI qui dépasse sa limite d'emprunt",
+    "valeur_texte": "1 an",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.33",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 448",
+    "enonce": "Fréquence minimale de la valeur liquidative d'un OPCI",
+    "valeur_texte": "1 fois par an",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.34",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 459",
+    "enonce": "Publication du rapport semestriel d'un OPCI",
+    "valeur_texte": "45 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 45,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.35",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 506-507",
+    "enonce": "Réexamen de la politique de liquidité et des simulations de crise d'une SGO",
+    "valeur_texte": "au moins une fois par an",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.36",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 520",
+    "enonce": "Rapprochement des mouvements de liquidités par le dépositaire d'OPC",
+    "valeur_texte": "au moins quotidien",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.37",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 614",
+    "enonce": "Conservation des enregistrements du Dépositaire Central",
+    "valeur_texte": "5 ans",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.delai.38",
+    "texte": "rg-23",
+    "type": "delai",
+    "article": "art. 652",
+    "enonce": "Conservation des enregistrements de la chambre de compensation",
+    "valeur_texte": "10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.01",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 31",
+    "enonce": "Pénalité de retard d'une information au public",
+    "valeur_texte": "500 000 FCFA par jour",
+    "type_valeur": "nombre",
+    "valeur": 500000,
+    "unite": "fcfa par jour",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.02",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 31",
+    "enonce": "Pénalité de retard de publication du rapport de clôture d'un APE",
+    "valeur_texte": "5 000 000 FCFA par jour",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa par jour",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.03",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 32",
+    "enonce": "Pénalité de retard de transmission d'un document à la COSUMAF",
+    "valeur_texte": "250 000 FCFA par jour",
+    "type_valeur": "nombre",
+    "valeur": 250000,
+    "unite": "fcfa par jour",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.04",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 32",
+    "enonce": "Pénalité de retard dans le respect d'une injonction",
+    "valeur_texte": "500 000 FCFA par jour",
+    "type_valeur": "nombre",
+    "valeur": 500000,
+    "unite": "fcfa par jour",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.05",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 32",
+    "enonce": "Pénalité pour remise tardive des fonds d'un APE à l'émetteur",
+    "valeur_texte": "10 000 000 FCFA par jour",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa par jour",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.06",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 34",
+    "enonce": "Part des pénalités de retard reversée à la COSUMAF",
+    "valeur_texte": "40 %",
+    "type_valeur": "nombre",
+    "valeur": 40,
+    "unite": "%",
+    "borne": "exact",
+    "note": "30 % au Fonds de garantie, 30 % au développement du marché.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.07",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 265",
+    "enonce": "Capital minimum d'un intermédiaire de marché",
+    "valeur_texte": "300 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 300000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.08",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 265",
+    "enonce": "Capital minimum d'une SDB dépositaire d'OPC ou spécialiste en valeurs du Trésor",
+    "valeur_texte": "1 000 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1000000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.09",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 250",
+    "enonce": "Part minimale de l'activité d'un intermédiaire consacrée aux services agréés",
+    "valeur_texte": "70 %",
+    "type_valeur": "nombre",
+    "valeur": 70,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.10",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 270",
+    "enonce": "Plafond des prêts aux dirigeants, actionnaires et personnel d'un intermédiaire",
+    "valeur_texte": "20 % des fonds propres",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.11",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 272",
+    "enonce": "Participation minimale d'une SDB au capital de la BVMAC",
+    "valeur_texte": "40 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 40000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.12",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 273",
+    "enonce": "Participation minimale d'un teneur de compte au capital du Dépositaire Central",
+    "valeur_texte": "20 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 20000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.13",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 233",
+    "enonce": "Seuil de détention imposant une OPA sur la totalité du capital",
+    "valeur_texte": "plus du tiers (1/3)",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.14",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 409",
+    "enonce": "Seuil d'un OPCVM Actions / Obligations / Monétaire",
+    "valeur_texte": "60 % au moins",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.15",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 411",
+    "enonce": "Limite d'investissement d'un OPCVM sur un même émetteur",
+    "valeur_texte": "20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": "35 % pour un OPCVM indiciel.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.16",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 413",
+    "enonce": "Limite d'investissement d'un OPCVM dans un même groupe",
+    "valeur_texte": "35 %",
+    "type_valeur": "nombre",
+    "valeur": 35,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.17",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 412",
+    "enonce": "Limite d'un OPCVM sur les titres émis ou garantis par un État CEMAC",
+    "valeur_texte": "40 %",
+    "type_valeur": "nombre",
+    "valeur": 40,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.18",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 412",
+    "enonce": "Limite d'un OPCVM sur l'ensemble des États de la CEMAC",
+    "valeur_texte": "60 %",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.19",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 411",
+    "enonce": "Risque de contrepartie maximal sur dérivés de gré à gré avec une banque",
+    "valeur_texte": "10 % des actifs",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": "5 % pour une autre contrepartie.",
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.20",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 415",
+    "enonce": "Limite d'un OPCVM sur les parts d'un même OPC",
+    "valeur_texte": "20 %",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.21",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 415",
+    "enonce": "Limite totale d'un OPCVM en OPC autres que des OPCVM",
+    "valeur_texte": "30 %",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.22",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 410",
+    "enonce": "Liquidités détenues à titre accessoire par un OPCVM",
+    "valeur_texte": "20 % maximum",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.23",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 410",
+    "enonce": "Titres non cotés dans un OPCVM (autorisation préalable)",
+    "valeur_texte": "10 % maximum",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.24",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 410",
+    "enonce": "Titres émis hors CEMAC dans un OPCVM (autorisation préalable)",
+    "valeur_texte": "15 % maximum",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.25",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 397",
+    "enonce": "Versements annuels maximaux d'un salarié dans un FCPE",
+    "valeur_texte": "1/4 de sa rémunération brute",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.26",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 400",
+    "enonce": "Seuil de « FCPE investi en titres de l'entreprise »",
+    "valeur_texte": "plus d'1/3 de l'actif net",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.27",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 442",
+    "enonce": "Actif net minimum d'un OPCI (Règlement général)",
+    "valeur_texte": "300 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 300000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.28",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 443",
+    "enonce": "Part minimale d'actifs immobiliers dans un OPCI",
+    "valeur_texte": "70 %",
+    "type_valeur": "nombre",
+    "valeur": 70,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.29",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 453",
+    "enonce": "Plafond d'emprunt d'un OPCI",
+    "valeur_texte": "30 % de la valeur des actifs",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.30",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 435",
+    "enonce": "Nombre maximal d'investisseurs d'un OPCI réservé",
+    "valeur_texte": "20 investisseurs",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.31",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 473",
+    "enonce": "Part minimale de titres de sociétés CEMAC dans un organisme de capital investissement",
+    "valeur_texte": "60 %",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.32",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 474",
+    "enonce": "Actif net minimum d'un organisme de capital investissement",
+    "valeur_texte": "300 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 300000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.33",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 491",
+    "enonce": "Part minimale d'actifs éligibles dans un OPI",
+    "valeur_texte": "70 %",
+    "type_valeur": "nombre",
+    "valeur": 70,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.montant.34",
+    "texte": "rg-23",
+    "type": "montant",
+    "article": "art. 461, 480, 496",
+    "enonce": "Capital minimum d'une société de gestion d'OPC (ou d'OPCI)",
+    "valeur_texte": "300 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 300000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.01",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 12, 273",
+    "enonce": "Président de la COSUMAF",
+    "valeur_texte": "Prononce l'habilitation après l'examen ; enregistre les placements privés.",
+    "acteurs": [
+      "president-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.02",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 22-25",
+    "enonce": "Secrétaire Général de la COSUMAF",
+    "valeur_texte": "Reçoit les candidatures à l'habilitation et adresse résultats, décisions et cartes professionnelles.",
+    "acteurs": [
+      "secretaire-general-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.03",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 106",
+    "enonce": "ANIF",
+    "valeur_texte": "Reçoit immédiatement les déclarations d'opérations suspectes des acteurs du marché.",
+    "acteurs": [
+      "anif"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.04",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 172",
+    "enonce": "Établissement centralisateur (APE)",
+    "valeur_texte": "Société de bourse qui centralise les souscriptions sur un compte bancaire et vire les fonds à l'émetteur en 8 jours.",
+    "acteurs": [
+      "etablissement-centralisateur-ape"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.05",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 251-255",
+    "enonce": "Administrateur provisoire",
+    "valeur_texte": "Dirige temporairement un intermédiaire en difficulté (18 mois max), rend compte chaque semaine à la COSUMAF.",
+    "acteurs": [
+      "administrateur-provisoire"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.06",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 307-308",
+    "enonce": "Association professionnelle",
+    "valeur_texte": "Adhésion obligatoire des intermédiaires ; élabore un code de bonne conduite et signale les manquements à la COSUMAF.",
+    "acteurs": [
+      "association-professionnelle"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.role.07",
+    "texte": "rg-23",
+    "type": "role",
+    "article": "art. 399",
+    "enonce": "Conseil de surveillance d'un FCPE",
+    "valeur_texte": "Contrôle la gestion financière, administrative et comptable du FCPE et décide fusions, scissions et liquidations.",
+    "acteurs": [
+      "conseil-de-surveillance-d-un-fcpe"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.01",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 372, 383",
+    "enonce": "Valeur liquidative",
+    "valeur_texte": "Actif net de l'OPCVM divisé par le nombre de parts ou d'actions en circulation.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.02",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 367",
+    "enonce": "Sommes distribuables",
+    "valeur_texte": "Résultat net de l'exercice augmenté du report bénéficiaire et diminué des pertes antérieures et des sommes mises en réserve.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.03",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 366",
+    "enonce": "Résultat net d'un OPCVM",
+    "valeur_texte": "Intérêts, dividendes et autres produits du portefeuille, plus le produit des sommes disponibles, moins les frais de gestion et la charge des emprunts.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.04",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 409",
+    "enonce": "OPCVM contractuel",
+    "valeur_texte": "OPCVM assorti d'un engagement contractuel de performance, de garantie du capital ou de valeur de rachat protégée.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.05",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 394",
+    "enonce": "FCPE",
+    "valeur_texte": "Fonds commun de placement d'entreprise : support des plans d'épargne salariale, détenu par les salariés et anciens salariés (dédié ou multi-entreprises).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.06",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 109",
+    "enonce": "Personne politiquement exposée",
+    "valeur_texte": "Personne qui exerce ou a exercé d'importantes fonctions publiques dans un État CEMAC, un État tiers ou une organisation internationale, ainsi que ses proches.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.definition.07",
+    "texte": "rg-23",
+    "type": "definition",
+    "article": "art. 96",
+    "enonce": "Client occasionnel",
+    "valeur_texte": "Personne qui réalise une opération ponctuelle (une ou plusieurs opérations liées) auprès d'un acteur du marché.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.liste.01",
+    "texte": "rg-23",
+    "type": "liste",
+    "article": "art. 14",
+    "enonce": "Fonctions soumises à carte professionnelle",
+    "valeur_texte": "Contrôleur interne et conformité ; Négociateur pour compte propre et de tiers ; Conseiller en investissement financier ; Analyste financier ; Gérant de portefeuille ; Responsable back office ou post-marché ; Responsable de la fonction dépositaire ; Responsable de la gestion des risques",
+    "items": [
+      "Contrôleur interne et conformité",
+      "Négociateur pour compte propre et de tiers",
+      "Conseiller en investissement financier",
+      "Analyste financier",
+      "Gérant de portefeuille",
+      "Responsable back office ou post-marché",
+      "Responsable de la fonction dépositaire",
+      "Responsable de la gestion des risques"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.liste.02",
+    "texte": "rg-23",
+    "type": "liste",
+    "article": "art. 409",
+    "enonce": "Les 5 catégories d'OPCVM",
+    "valeur_texte": "Actions (≥ 60 % actions cotées) ; Obligations et autres titres de créance (≥ 60 %) ; Monétaire (≥ 60 % à moins de 2 ans) ; Diversifié (aucune classe au-delà de 60 %) ; Contractuel (garantie ou protection)",
+    "items": [
+      "Actions (≥ 60 % actions cotées)",
+      "Obligations et autres titres de créance (≥ 60 %)",
+      "Monétaire (≥ 60 % à moins de 2 ans)",
+      "Diversifié (aucune classe au-delà de 60 %)",
+      "Contractuel (garantie ou protection)"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.liste.03",
+    "texte": "rg-23",
+    "type": "liste",
+    "article": "art. 355",
+    "enonce": "Outils de liquidité en conditions exceptionnelles",
+    "valeur_texte": "Frais de sortie supplémentaires ; Échelonnement des remboursements (gates) ; Écart entre cours d'achat et de vente",
+    "items": [
+      "Frais de sortie supplémentaires",
+      "Échelonnement des remboursements (gates)",
+      "Écart entre cours d'achat et de vente"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.piege.01",
+    "texte": "rg-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Conservation LBC/FT : 10 ans dans le Règlement général, 5 ans dans l'Instruction 32-24 — c",
+    "valeur_texte": "Conservation LBC/FT : **10 ans** dans le Règlement général, **5 ans** dans l'Instruction 32-24 — citer la source.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.piege.02",
+    "texte": "rg-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Capital : 300 M pour un intermédiaire, mais 1 milliard pour une SDB dépositaire d'OPC ou S",
+    "valeur_texte": "Capital : **300 M** pour un intermédiaire, mais **1 milliard** pour une SDB **dépositaire d'OPC** ou **SVT**.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.piege.03",
+    "texte": "rg-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Un OPCVM « Actions » exige 60 % d'actions cotées à la BVMAC (hors liquidités), pas 50 %.",
+    "valeur_texte": "Un OPCVM « Actions » exige **60 %** d'actions **cotées à la BVMAC** (hors liquidités), pas 50 %.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.piege.04",
+    "texte": "rg-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "OPCI : 300 M minimum dans le Règlement général (art. 442) contre 150 M dans le règlement t",
+    "valeur_texte": "OPCI : **300 M** minimum dans le **Règlement général** (art. 442) contre **150 M** dans le règlement type du FCPI (Instruction 16-24).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "rg-23.piege.05",
+    "texte": "rg-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "1/3 du capital = OPA obligatoire ; 95 % = offre publique de retrait.",
+    "valeur_texte": "**1/3** du capital = OPA obligatoire ; **95 %** = offre publique de retrait.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

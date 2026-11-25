@@ -1,0 +1,69 @@
+{
+  "id": "i31-24",
+  "ordre": 40,
+  "type": "instruction",
+  "numero": "31-24",
+  "titre": "Cartographie des risques des entités contrôlées par la COSUMAF",
+  "theme": "conformite",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Comment les personnes, structures et organismes contrôlés par la COSUMAF identifient, mesurent et cartographient leurs risques (art. 5 du Règlement général).",
+    "essentiel": "Identifier **tous les risques**, fixer un **niveau acceptable** (limites), puis dresser une **cartographie** couvrant **tous les processus** pour comparer l'exposition aux limites, mesurer la **probabilité** et la **criticité**, corriger et prioriser les contrôles. **4 familles minimum** : risques **financiers** (liquidité, marché, contrepartie, crédit), **opérationnels** (systèmes, personnes, juridique et documentation), **de durabilité** (ESG), **cyber/informatique**.",
+    "retenir": [
+      "Prise en application de l'**art. 5 du Règlement général** ; vise **toutes les entités contrôlées** par la COSUMAF. Art. 1",
+      "Étapes : **identifier** les risques potentiels ou existants → **quantifier** le niveau de risque acceptable (**limites**) → établir la **cartographie** → comparer l'exposition aux limites → **procédures** de gestion. Art. 2",
+      "Risques minimum : **financiers**, **opérationnels**, **de durabilité**, **cyber informatique**. Art. 2.3",
+      "La cartographie couvre **tous les processus**, mesure la **probabilité de survenance** et le caractère **critique** de chaque facteur ; elle sert à **corriger** le dispositif et à **prioriser les contrôles**. Art. 2.4-2.5",
+      "Risques financiers : **liquidité**, **marché**, **contrepartie**, **crédit**. Art. 3",
+      "**Risque de contrepartie** : la contrepartie peut faillir **avant le règlement définitif** de l'opération. Art. 3",
+      "**Risque de liquidité** : impossibilité de céder ou clôturer une position **à coût limité et rapidement**. Art. 3",
+      "**Risque de marché** : perte due aux variations de **taux, changes, actions, matières premières** ou de la qualité de crédit d'un émetteur. Art. 3",
+      "Risques opérationnels : **défaillance des systèmes**, **des personnes**, **juridique et documentation** ; inclut les risques de négociation, règlement et évaluation. Art. 4",
+      "**Risque de durabilité** : événement **environnemental, social ou de gouvernance** pouvant nuire sensiblement à la valeur du produit ou service. Art. 4 (bis)",
+      "**Risque cybersécurité** : circonstance liée aux réseaux et systèmes d'information pouvant compromettre leur sécurité et produire des effets préjudiciables numériques ou physiques. Art. 5"
+    ],
+    "listes": [
+      {
+        "titre": "Les 4 familles de risques et leurs composantes",
+        "a": "art. 2-5",
+        "items": [
+          "Financiers : liquidité, marché, contrepartie, crédit",
+          "Opérationnels : systèmes, personnes, juridique et documentation",
+          "Durabilité : environnement, social, gouvernance",
+          "Cybersécurité / informatique"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le **risque de crédit** et le **risque de contrepartie** sont **deux** risques financiers distincts.",
+      "Le **risque juridique** est un risque **opérationnel**, pas un risque financier."
+    ],
+    "qr": [
+      {
+        "q": "Quelles familles de risques une entité contrôlée doit-elle au minimum cartographier ?",
+        "r": "Les risques financiers (liquidité, marché, contrepartie, crédit), opérationnels (systèmes, personnes, juridique et documentation), de durabilité (ESG) et cyber informatiques."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

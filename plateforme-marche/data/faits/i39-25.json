@@ -1,0 +1,187 @@
+[
+  {
+    "id": "i39-25.delai.01",
+    "texte": "i39-25",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Transmission du rapport de contrôle interne d'une société de bourse à la COSUMAF",
+    "valeur_texte": "au plus tard le 31 mars",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.role.01",
+    "texte": "i39-25",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Société de bourse",
+    "valeur_texte": "Établit et transmet chaque année son rapport de contrôle interne selon le plan de l'instruction.",
+    "acteurs": [
+      "societe-de-bourse"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.role.02",
+    "texte": "i39-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "RCCI (responsable conformité et contrôle interne)",
+    "valeur_texte": "Signe avec la direction la conclusion du rapport et donne un avis global sur l'efficacité du contrôle interne.",
+    "acteurs": [
+      "rcci-responsable-conformite-et-controle-interne"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.role.03",
+    "texte": "i39-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "ANIF",
+    "valeur_texte": "Reçoit les déclarations d'opérations suspectes des sociétés de bourse.",
+    "acteurs": [
+      "anif"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.role.04",
+    "texte": "i39-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "RSSI",
+    "valeur_texte": "Responsable de la sécurité des systèmes d'information, désigné et rattaché hiérarchiquement.",
+    "acteurs": [
+      "rssi"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.definition.01",
+    "texte": "i39-25",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "PSSI",
+    "valeur_texte": "Politique de sécurité des systèmes d'information, adoptée formellement et diffusée.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.definition.02",
+    "texte": "i39-25",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "PCA / PRA",
+    "valeur_texte": "Plan de continuité d'activité et plan de reprise d'activité, validés, diffusés et testés.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.definition.03",
+    "texte": "i39-25",
+    "type": "definition",
+    "article": "annexe",
+    "enonce": "RTO / RPO",
+    "valeur_texte": "Durée maximale d'interruption admissible et perte de données maximale admissible, validées pour les sauvegardes.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.liste.01",
+    "texte": "i39-25",
+    "type": "liste",
+    "article": "annexe",
+    "enonce": "Plan du rapport de contrôle interne",
+    "valeur_texte": "I. Méthodologie de contrôle ; II. Présentation de la société ; III. Dispositif de contrôle interne (outils, niveaux, points de contrôle) ; Cartographie des risques ; Mesures correctives et recommandations ; Suivi des observations du CAC ; Conclusions signées (direction et RCCI)",
+    "items": [
+      "I. Méthodologie de contrôle",
+      "II. Présentation de la société",
+      "III. Dispositif de contrôle interne (outils, niveaux, points de contrôle)",
+      "Cartographie des risques",
+      "Mesures correctives et recommandations",
+      "Suivi des observations du CAC",
+      "Conclusions signées (direction et RCCI)"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.liste.02",
+    "texte": "i39-25",
+    "type": "liste",
+    "article": "annexe",
+    "enonce": "Les 4 catégories de la cartographie des risques",
+    "valeur_texte": "Gouvernance ; Risque financier (ratios prudentiels) ; Risques réglementaires et juridiques ; Risques opérationnels",
+    "items": [
+      "Gouvernance",
+      "Risque financier (ratios prudentiels)",
+      "Risques réglementaires et juridiques",
+      "Risques opérationnels"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i39-25.piege.01",
+    "texte": "i39-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Rapport de contrôle interne : 31 mars pour les SDB et les SGO (Instructions 39-25 et 40-25",
+    "valeur_texte": "Rapport de contrôle interne : **31 mars** pour les SDB et les SGO (Instructions 39-25 et 40-25) ; l'Instruction 30-24 fixe **30 mars** pour les émetteurs APE ; l'Instruction 06-23 fixait **3 mois** après la clôture pour les SGO.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

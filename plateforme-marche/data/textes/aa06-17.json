@@ -1,0 +1,87 @@
+{
+  "id": "aa06-17",
+  "ordre": 107,
+  "type": "acte_additionnel",
+  "organisme": "cemac",
+  "numero": "Acte additionnel n° 06/17-CEMAC-COSUMAF-CCE-SE",
+  "titre": "Acte additionnel n° 06/17-CEMAC-COSUMAF-CCE-SE portant unification du marché financier de la CEMAC et mesures d'accompagnement",
+  "theme": "cadre",
+  "date_texte": "19 février 2018, N'Djamena",
+  "date_adoption": "2018-02-19",
+  "lieu": "N'Djamena",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "complete",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\Preparation COSUMAF\\01KQYQ1DWG15CN3EHS8CXWW2XQ.pdf",
+    "origine": "PDF officiel de la COSUMAF (texte lisible, 3 pages, 10 articles). Session de la Conférence des Chefs d'État du 31 octobre 2017 ; la date du 19 février 2018 est celle du titre officiel."
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Unifie les structures du marché financier régional et celui du Cameroun : une autorité de régulation unique (COSUMAF, Libreville), une entreprise de marché unique (BVMAC, Douala), un dépositaire central unique (BEAC à titre transitoire). Prévoit la fusion de la BVMAC et de la Bourse de Douala (Douala Stock Exchange), le transfert du siège de la bourse à Douala et des mesures d'accompagnement (cessions de participations d'États, cotation obligatoire de certaines entreprises, entrée des États au capital de la bourse). 10 articles.",
+    "essentiel": "**10 articles.** Unification **au plus tard le 30 juin 2019** (art. 1). Trois institutions : **COSUMAF** (régulateur, Libreville), **BVMAC** (entreprise de marché, **Douala**), **dépositaire central unique** (**BEAC**, à titre transitoire, jusqu'au **31 décembre 2022** au plus tard) (art. 2 et 5). **Fusion BVMAC / Douala Stock Exchange** au plus tard le **30 juin 2019** (art. 3). Les États disposent de **24 mois** pour céder des participations, rendre la cotation obligatoire pour certaines entreprises et entrer à **30 %** (5 % par État) dans le capital de la bourse (art. 8).",
+    "retenir": [
+      "Les structures du marché financier régional et du marché camerounais sont **unifiées** ; mise en œuvre **au plus tard le 30 juin 2019**. Art. 1",
+      "Trois piliers : **COSUMAF** (autorité de régulation unique, Libreville), **BVMAC** (entreprise de marché unique, Douala), **dépositaire central unique** (BEAC). Art. 2",
+      "La **BVMAC et la Bourse de Douala (DSX)** fusionnent, dans le respect de l'**Acte uniforme OHADA**, **au plus tard le 30 juin 2019**. Art. 3",
+      "Le **siège de la Bourse régionale** est transféré de **Libreville à Douala**. Art. 4",
+      "La **BEAC** est **dépositaire central unique à titre transitoire**, **jusqu'au 31 décembre 2022 au plus tard**, en attendant l'agrément d'une entité privée dédiée ; la BVMAC, la Caisse Autonome d'Amortissement du Cameroun et la CRCT cessent leurs activités de conservation **avant le 30 juin 2019**. Art. 5",
+      "En attendant la fusion, les deux bourses articulent leurs plateformes pour la **double cotation** des valeurs, sous le contrôle de la COSUMAF et de la CMF. Art. 6",
+      "Les **subventions** de la COSUMAF sont réparties **à parts égales entre les six États membres**, payées en début d'exercice par débit direct des comptes à la BEAC. Art. 7",
+      "Sous **24 mois**, les États cèdent en bourse leurs participations dans des entreprises publiques ou parapubliques, rendent la **cotation obligatoire** pour les entreprises gérant l'épargne publique (banques, assurances) et pour les multinationales, adoptent des mesures incitatives et **entrent au capital de la bourse à 30 % (5 % par État)**. Art. 8",
+      "La **BEAC supervise** la mise en œuvre de l'acte. Art. 9",
+      "Entrée en vigueur **à la date de signature**. Art. 10"
+    ],
+    "listes": [
+      {
+        "titre": "Institutions du marché financier unifié",
+        "a": "art. 2",
+        "items": [
+          "Autorité de régulation unique : COSUMAF (Libreville)",
+          "Entreprise de marché unique : BVMAC (Douala)",
+          "Dépositaire central unique : BEAC (transitoire)"
+        ]
+      },
+      {
+        "titre": "Mesures d'accompagnement demandées aux États sous 24 mois",
+        "a": "art. 8",
+        "items": [
+          "Cession en bourse de participations dans des entreprises publiques",
+          "Cotation obligatoire des entreprises gérant l'épargne publique (banques, assurances)",
+          "Cotation obligatoire des multinationales et filiales",
+          "Mesures incitatives pour les secteurs stratégiques",
+          "Entrée dans le capital de la Bourse régionale à 30 % (5 % par État)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Siège de la BVMAC : **Libreville** avant l'acte (décembre 2000), **Douala** depuis (art. 4).",
+      "Le **dépositaire central** est la **BEAC à titre transitoire** (jusqu'au 31 décembre 2022) : ce n'est pas une fonction permanente.",
+      "Part des États au capital de la bourse : **30 % au total**, soit **5 % par État** (six États), pas 30 % chacun."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les trois institutions du marché financier unifié ?",
+        "r": "La COSUMAF (régulateur unique, Libreville), la BVMAC (entreprise de marché unique, Douala) et un dépositaire central unique, la BEAC à titre transitoire."
+      },
+      {
+        "q": "Que prévoit l'acte pour la Bourse de Douala ?",
+        "r": "Sa fusion avec la BVMAC au plus tard le 30 juin 2019, dans le respect de l'Acte uniforme OHADA."
+      },
+      {
+        "q": "Quelle part du capital de la bourse les États doivent-ils détenir ?",
+        "r": "30 % au total, soit 5 % par État membre, dans un délai de 24 mois (art. 8)."
+      }
+    ]
+  }
+}

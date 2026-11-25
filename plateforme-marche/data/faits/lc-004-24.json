@@ -1,0 +1,65 @@
+[
+  {
+    "id": "lc-004-24.delai.01",
+    "texte": "lc-004-24",
+    "type": "delai",
+    "article": "chapeau",
+    "enonce": "Communication à la COSUMAF du plan de mise en conformité d'une SGO",
+    "valeur_texte": "3 mois à compter de la notification de la lettre circulaire",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-004-24.role.01",
+    "texte": "lc-004-24",
+    "type": "role",
+    "article": "chapeau",
+    "enonce": "Société de gestion d'OPC (mise en conformité)",
+    "valeur_texte": "Établit et communique à la COSUMAF un plan de mise en conformité de son organisation aux nouveaux textes.",
+    "acteurs": [
+      "societe-de-gestion-d-opc-mise-en-conformite"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-004-24.piege.01",
+    "texte": "lc-004-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le délai de 3 mois court à partir de la notification de la lettre, pas de la date de la le",
+    "valeur_texte": "Le délai de **3 mois** court à partir de la **notification** de la lettre, pas de la date de la lettre (1er octobre 2024).",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-004-24.piege.02",
+    "texte": "lc-004-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "La lettre ne vise que les sociétés de gestion d'OPC ; les autres intermédiaires ont reçu d",
+    "valeur_texte": "La lettre ne vise que les **sociétés de gestion d'OPC** ; les autres intermédiaires ont reçu d'autres courriers.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

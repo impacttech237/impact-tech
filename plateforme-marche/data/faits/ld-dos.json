@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ld-dos.delai.01",
+    "texte": "ld-dos",
+    "type": "delai",
+    "article": "III-G-1",
+    "enonce": "Moment de la déclaration d'opération suspecte (principe)",
+    "valeur_texte": "avant l'exécution de l'opération",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.delai.02",
+    "texte": "ld-dos",
+    "type": "delai",
+    "article": "III-G-2",
+    "enonce": "Déclaration d'opération suspecte après exécution de l'opération",
+    "valeur_texte": "sans délai",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.role.01",
+    "texte": "ld-dos",
+    "type": "role",
+    "article": "III-G, III-H",
+    "enonce": "ANIF (déclarations de soupçon)",
+    "valeur_texte": "Reçoit les DOS, peut exercer un droit d'opposition à l'exécution de l'opération et informe la COSUMAF.",
+    "acteurs": [
+      "anif-declarations-de-soupcon"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.role.02",
+    "texte": "ld-dos",
+    "type": "role",
+    "article": "III-A",
+    "enonce": "Déclarant et correspondant ANIF",
+    "valeur_texte": "Personnes désignées par l'assujetti pour transmettre les déclarations à l'ANIF et assurer la liaison ; tout changement est porté sans délai à la connaissance de l'ANIF.",
+    "acteurs": [
+      "declarant-et-correspondant-anif"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.role.03",
+    "texte": "ld-dos",
+    "type": "role",
+    "article": "III-H",
+    "enonce": "COSUMAF (lignes directrices DOS)",
+    "valeur_texte": "Émet les lignes directrices ; le secret professionnel relatif aux DOS ne lui est pas opposable.",
+    "acteurs": [
+      "cosumaf-lignes-directrices-dos"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.definition.01",
+    "texte": "ld-dos",
+    "type": "definition",
+    "article": "III",
+    "enonce": "Déclaration d'opération suspecte (DOS)",
+    "valeur_texte": "Déclaration que l'assujetti adresse à l'ANIF lorsqu'il soupçonne qu'une opération ou des fonds sont liés au blanchiment de capitaux ou au financement du terrorisme.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.liste.01",
+    "texte": "ld-dos",
+    "type": "liste",
+    "article": "III-G-2",
+    "enonce": "Cas où la DOS peut être faite après l'exécution de l'opération",
+    "valeur_texte": "Impossible de surseoir à l'exécution ; Le report aurait fait obstacle à des investigations ; Le soupçon est apparu après la réalisation de l'opération",
+    "items": [
+      "Impossible de surseoir à l'exécution",
+      "Le report aurait fait obstacle à des investigations",
+      "Le soupçon est apparu après la réalisation de l'opération"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.piege.01",
+    "texte": "ld-dos",
+    "type": "piege",
+    "article": null,
+    "enonce": "La DOS est faite avant l'exécution en principe ; la déclaration après exécution est l'exce",
+    "valeur_texte": "La DOS est faite **avant** l'exécution **en principe** ; la déclaration **après** exécution est l'**exception** et doit alors être faite **sans délai**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.piege.02",
+    "texte": "ld-dos",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les lignes directrices sont un document pédagogique : les obligations elles-mêmes viennent",
+    "valeur_texte": "Les lignes directrices sont un document **pédagogique** : les obligations elles-mêmes viennent du **Règlement CEMAC 02/24**, du Règlement général COSUMAF et des instructions (par exemple la **32-24**).",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ld-dos.piege.03",
+    "texte": "ld-dos",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le scan est partiel dans cette fiche : le contenu minimal du rapport de suspicion, le form",
+    "valeur_texte": "Le scan est **partiel dans cette fiche** : le contenu minimal du rapport de suspicion, le format des déclarations et les procédures de gel ne sont pas détaillés ici.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

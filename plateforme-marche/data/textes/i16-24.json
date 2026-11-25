@@ -1,0 +1,83 @@
+{
+  "id": "i16-24",
+  "ordre": 25,
+  "type": "instruction",
+  "numero": "16-24",
+  "titre": "Modèle type du règlement de gestion d'un OPCI sous forme de FCPI",
+  "theme": "opc",
+  "date_texte": "9 mai 2024",
+  "date_adoption": "2024-05-09",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Le plan obligatoire du règlement de gestion d'un fonds commun de placement immobilier (FCPI, art. 431-432 du Règlement général) : parts, émission et rachat, valeur liquidative, société de gestion, dépositaire, CAC, comptes, conseil de surveillance, fusion, dissolution, liquidation.",
+    "essentiel": "Règlement en **5 titres** : actifs et parts ; fonctionnement ; conseil de surveillance ; fusion-scission-dissolution-liquidation ; contestations. Parts émises et rachetées **à tout moment** sur la valeur liquidative, rachats **en numéraire**. CAC désigné pour **3 exercices**. Inventaire **au moins semestriel**, documents mis à disposition **45 jours** après la clôture. Fusion **30 jours calendaires** après l'avis aux porteurs. Liquidation si l'actif reste **24 mois consécutifs** sous **150 millions FCFA** ; prorogation décidée **3 mois** avant l'échéance.",
+    "retenir": [
+      "S'applique aux OPCI sous forme de **FCPI** (art. 431 du RG), en application de l'**art. 432 du Règlement général**. Art. 1",
+      "Chaque **part** représente une même fraction de l'actif ; le porteur a un **droit de copropriété** proportionnel. Catégories de parts possibles (devises, frais, commissions, nominal, couverture, réseaux) ; fractionnement en dixièmes à dix-millièmes sur décision du **conseil d'administration** de la société de gestion.",
+      "Émission **à tout moment** à la valeur liquidative **plus** commissions de souscription ; rachat **à tout moment** à la valeur liquidative **moins** commissions de rachat, **en numéraire** (en nature seulement à la liquidation, avec accord des porteurs). Art. 3-4 du modèle",
+      "Suspension des souscriptions ou rachats possible (art. **452 du RG**) dans des situations objectives ou exceptionnelles ; la SGO informe **sans délai** la COSUMAF et les porteurs. **Aucun rachat** si l'actif net est sous le minimum fixé par la COSUMAF.",
+      "Fonds réservé : souscription limitée à **20 investisseurs au plus** ou à une catégorie d'investisseurs (mention optionnelle).",
+      "La société de gestion agit dans l'**intérêt exclusif** des porteurs et **seule** exerce les droits de vote ; tout changement de stratégie est soumis à l'**agrément** de la COSUMAF. Art. 9",
+      "Le **dépositaire** s'assure de la régularité des décisions de la SGO, prend des mesures conservatoires et informe la COSUMAF en cas de litige. Art. 10",
+      "**Commissaire aux comptes** agréé par la COSUMAF, désigné pour **3 exercices** par le conseil d'administration de la SGO, renouvelable ; il signale à la COSUMAF les violations, menaces sur la continuité, réserves ou refus de certification ; contrôle les évaluations et parités de fusion ; atteste les acomptes. Art. 11",
+      "Inventaire des actifs **au moins semestriel** sous contrôle du dépositaire ; documents tenus à disposition des porteurs dans les **45 jours** après la clôture. Art. 14",
+      "Fusion ou scission seulement **30 jours calendaires** après l'avis aux porteurs, avec nouvelle attestation de parts. Art. 22",
+      "**Liquidation** si l'actif reste **24 mois consécutifs** sous **150 millions FCFA** ; dissolution aussi si rachat de toutes les parts, départ du dépositaire sans remplaçant, ou expiration de la durée. Art. 23",
+      "**Prorogation** décidée par la SGO **avec le dépositaire**, au moins **3 mois** avant l'échéance, portée à la connaissance des porteurs et de la COSUMAF. Art. 23",
+      "En liquidation, la **SGO est liquidateur** sous le contrôle du **dépositaire** et de la **COSUMAF** ; CAC et dépositaire restent en fonction jusqu'à la fin. Art. 24"
+    ],
+    "listes": [
+      {
+        "titre": "Les 5 titres du règlement d'un FCPI",
+        "a": "art. 2",
+        "items": [
+          "Titre 1 : actifs et parts",
+          "Titre 2 : fonctionnement du fonds",
+          "Titre 3 : conseil de surveillance",
+          "Titre 4 : fusion, scission, dissolution, liquidation",
+          "Titre 5 : contestations"
+        ]
+      },
+      {
+        "titre": "Cas de dissolution d'un FCPI",
+        "a": "art. 23 du modèle",
+        "items": [
+          "Actif sous 150 millions FCFA pendant 24 mois",
+          "Dissolution anticipée décidée par la SGO",
+          "Rachat de la totalité des parts",
+          "Départ du dépositaire sans remplaçant",
+          "Expiration de la durée non prorogée"
+        ]
+      }
+    ],
+    "pieges": [
+      "Liquidation du FCPI : **150 millions** pendant **24 mois** (modèle de règlement) ; à ne pas confondre avec la règle générale des OPC (Instruction 13-24) : **moitié du minimum pendant 90 jours**.",
+      "Montant minimum d'un OPCI : vérifier le texte cité — le **Règlement général** peut prévoir un autre seuil (300 millions) que le **règlement type du FCPI** (150 millions)."
+    ],
+    "qr": [
+      {
+        "q": "Qui liquide un FCPI dissous ?",
+        "r": "La société de gestion, comme liquidateur, sous le contrôle du dépositaire et de la COSUMAF ; le CAC et le dépositaire restent en fonction jusqu'à la fin."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

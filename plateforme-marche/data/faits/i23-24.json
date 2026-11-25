@@ -1,0 +1,863 @@
+[
+  {
+    "id": "i23-24.delai.01",
+    "texte": "i23-24",
+    "type": "delai",
+    "article": "art. 6",
+    "enonce": "Facturation des commissions de rétrocession dues à la COSUMAF",
+    "valeur_texte": "trimestrielle",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.delai.02",
+    "texte": "i23-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Date de paiement des redevances annuelles dues à la COSUMAF",
+    "valeur_texte": "31 janvier de chaque année",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.delai.03",
+    "texte": "i23-24",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Paiement des commissions COSUMAF sur les opérations du marché",
+    "valeur_texte": "dès la réalisation de l'opération",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.delai.04",
+    "texte": "i23-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Paiement des commissions de modification d'agrément ou de visa",
+    "valeur_texte": "dès réception du dossier par la COSUMAF",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.01",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-A",
+    "enonce": "Commission de visa d'un appel public à l'épargne",
+    "valeur_texte": "0,3 % du montant levé",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.02",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-A",
+    "enonce": "Commission sur un programme d'émission à partir de la 2e tranche",
+    "valeur_texte": "0,25 %",
+    "type_valeur": "nombre",
+    "valeur": 0.25,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.03",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-A",
+    "enonce": "Commission d'enregistrement d'un placement privé",
+    "valeur_texte": "0,5 % du montant levé",
+    "type_valeur": "nombre",
+    "valeur": 0.5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.04",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-B",
+    "enonce": "Frais de dossier d'agrément d'un acteur du marché",
+    "valeur_texte": "500 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 500000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Non remboursables, payés au dépôt.",
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.05",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-B",
+    "enonce": "Frais de dossier d'agrément d'un produit d'OPC",
+    "valeur_texte": "250 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 250000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.06",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-B",
+    "enonce": "Frais de dossier d'agrément d'un dirigeant",
+    "valeur_texte": "250 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 250000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.07",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément du Dépositaire Central",
+    "valeur_texte": "30 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 30000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.08",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément du conservateur national de titres",
+    "valeur_texte": "25 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 25000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.09",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément de l'entreprise gestionnaire du marché",
+    "valeur_texte": "20 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 20000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.10",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'une société de bourse",
+    "valeur_texte": "7 500 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 7500000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.11",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'une société de gestion d'OPC",
+    "valeur_texte": "7 500 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 7500000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.12",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'une agence de notation",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.13",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'un dépositaire d'OPC",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.14",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'une banque teneur de comptes",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.15",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'un commissaire aux comptes",
+    "valeur_texte": "5 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.16",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'un OPC",
+    "valeur_texte": "2 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 2000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.17",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'un conseiller en investissements financiers (CIF)",
+    "valeur_texte": "1 500 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1500000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.18",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-C",
+    "enonce": "Commission d'agrément d'un dirigeant de structure agréée",
+    "valeur_texte": "1 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.19",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-D",
+    "enonce": "Frais d'habilitation du personnel",
+    "valeur_texte": "100 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 100000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": "Payables après avis favorable.",
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.20",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-E",
+    "enonce": "Commission de modification des conditions initiales d'agrément",
+    "valeur_texte": "250 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 250000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.21",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, I",
+    "enonce": "Plafond de la commission de placement d'une société de bourse",
+    "valeur_texte": "1,75 % du montant levé",
+    "type_valeur": "nombre",
+    "valeur": 1.75,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.22",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, I",
+    "enonce": "Plafond de la commission de prise ferme",
+    "valeur_texte": "1 % du montant levé",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.23",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, I",
+    "enonce": "Plafond de la commission de courtage d'une société de bourse",
+    "valeur_texte": "0,5 % du montant brut",
+    "type_valeur": "nombre",
+    "valeur": 0.5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.24",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, I",
+    "enonce": "Plafond de la commission d'animation de marché",
+    "valeur_texte": "5 % du contrat d'animation",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.25",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, II",
+    "enonce": "Plafond du droit de garde d'une banque teneur de comptes",
+    "valeur_texte": "0,30 % de la valeur conservée",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.26",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, III",
+    "enonce": "Plafond des frais de gestion d'un OPC actions",
+    "valeur_texte": "2 % HT de l'actif net",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.27",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, III",
+    "enonce": "Plafond des frais de gestion sous mandat d'une SGO",
+    "valeur_texte": "3 % HT",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.28",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, III",
+    "enonce": "Plafond des droits d'entrée et de sortie d'un OPC",
+    "valeur_texte": "1,5 % HT",
+    "type_valeur": "nombre",
+    "valeur": 1.5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.29",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, IV",
+    "enonce": "Commission de courtage de la BVMAC",
+    "valeur_texte": "0,3 % du volume",
+    "type_valeur": "nombre",
+    "valeur": 0.3,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.30",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, IV",
+    "enonce": "Redevance de siège annuelle d'une SDB à la BVMAC",
+    "valeur_texte": "2 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 2000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.31",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-G",
+    "enonce": "Rétrocession d'une SDB sur son chiffre d'affaires principal",
+    "valeur_texte": "2 %",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "%",
+    "borne": "exact",
+    "note": "3,5 % sur les activités connexes.",
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.32",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-G",
+    "enonce": "Rétrocession d'une SGO à la COSUMAF",
+    "valeur_texte": "0,03 % de l'encours moyen mensuel",
+    "type_valeur": "nombre",
+    "valeur": 0.03,
+    "unite": "%",
+    "borne": "exact",
+    "note": "Minimum 2 500 000 FCFA.",
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.33",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-G",
+    "enonce": "Rétrocession de l'entreprise de marché et du DC",
+    "valeur_texte": "10 % du chiffre d'affaires",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.34",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-H",
+    "enonce": "Redevance annuelle de l'entreprise de marché et du DC",
+    "valeur_texte": "20 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 20000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.35",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-H",
+    "enonce": "Redevance annuelle d'une société de bourse ou d'une SGO",
+    "valeur_texte": "5 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.montant.36",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, VI-H",
+    "enonce": "Redevance annuelle d'un CIF ou d'un CAC",
+    "valeur_texte": "1 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.role.01",
+    "texte": "i23-24",
+    "type": "role",
+    "article": "art. 4-10",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Perçoit commissions, frais, rétrocessions et redevances, homologue les tarifs des organismes et intermédiaires, peut débiter d'office.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.role.02",
+    "texte": "i23-24",
+    "type": "role",
+    "article": "art. 9",
+    "enonce": "Collège de la COSUMAF",
+    "valeur_texte": "Seul habilité à modifier la tarification.",
+    "acteurs": [
+      "college-de-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.definition.01",
+    "texte": "i23-24",
+    "type": "definition",
+    "article": "art. 2, 6",
+    "enonce": "Rétrocession",
+    "valeur_texte": "Part du chiffre d'affaires ou de l'encours des entités contrôlées reversée à la COSUMAF, facturée chaque trimestre.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.definition.02",
+    "texte": "i23-24",
+    "type": "definition",
+    "article": "art. 10",
+    "enonce": "Homologation des tarifs",
+    "valeur_texte": "Approbation préalable par la COSUMAF des tarifs des organismes centraux et des intermédiaires avant leur application.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.liste.01",
+    "texte": "i23-24",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Ce que la COSUMAF perçoit",
+    "valeur_texte": "Commissions d'APE et de placement privé ; Frais de dossier (non remboursables) ; Commissions d'agrément (après agrément) ; Frais d'habilitation ; Commissions de modification ; Rétrocessions trimestrielles ; Redevances annuelles (31 janvier)",
+    "items": [
+      "Commissions d'APE et de placement privé",
+      "Frais de dossier (non remboursables)",
+      "Commissions d'agrément (après agrément)",
+      "Frais d'habilitation",
+      "Commissions de modification",
+      "Rétrocessions trimestrielles",
+      "Redevances annuelles (31 janvier)"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.piege.01",
+    "texte": "i23-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Visa APE 0,3 % contre placement privé 0,5 % : le placement privé coûte plus cher en pource",
+    "valeur_texte": "Visa **APE 0,3 %** contre **placement privé 0,5 %** : le placement privé coûte plus cher en pourcentage.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.piege.02",
+    "texte": "i23-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Frais de dossier (au dépôt, non remboursables) ≠ commission d'agrément (après obtention).",
+    "valeur_texte": "Frais de **dossier** (au dépôt, non remboursables) ≠ commission d'**agrément** (après obtention).",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.piege.03",
+    "texte": "i23-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Commissions d'agrément les plus élevées : DC 30 M > conservateur national 25 M > entrepris",
+    "valeur_texte": "Commissions d'agrément les plus élevées : **DC 30 M** > **conservateur national 25 M** > **entreprise de marché 20 M**.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i23-24.piege.04",
+    "texte": "i23-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Frais de gestion d'OPC « autres que actions » : lu 1,5 % HT (chiffre partiellement illisib",
+    "valeur_texte": "Frais de gestion d'OPC « autres que actions » : lu **1,5 % HT** (chiffre partiellement illisible dans le scan) ; actions **2 %**, mandat **3 %**.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "r06-03.delai.01",
+    "texte": "r06-03",
+    "type": "delai",
+    "article": "art. 74",
+    "enonce": "Entrée en vigueur du Règlement 06/03",
+    "valeur_texte": "le 1er jour du mois suivant son adoption",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r06-03.role.01",
+    "texte": "r06-03",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "COSUMAF (Règlement 06/03)",
+    "valeur_texte": "Exerce la tutelle et le contrôle du marché financier régional.",
+    "acteurs": [
+      "cosumaf-reglement-06-03"
+    ],
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r06-03.definition.01",
+    "texte": "r06-03",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Marché Financier Régional (Règlement 06/03)",
+    "valeur_texte": "Ensemble des produits de placement et services financiers non bancaires offerts au public et faisant appel public à l'épargne dans les États membres de la CEMAC, des transactions et des personnes chargées de les animer ou de les réguler.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r06-03.piege.01",
+    "texte": "r06-03",
+    "type": "piege",
+    "article": null,
+    "enonce": "Texte abrogé par le Règlement 01/22 du 21 juillet 2022 : ne pas le citer comme droit en vi",
+    "valeur_texte": "**Texte abrogé** par le Règlement **01/22** du 21 juillet 2022 : ne pas le citer comme droit en vigueur. Il reste cité dans d'anciens textes (Règlement 01/14, Règlement général de la BVMAC de 2008).",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r06-03.piege.02",
+    "texte": "r06-03",
+    "type": "piege",
+    "article": null,
+    "enonce": "Date : la BVMAC l'intitule « du 14 mars 2002 » ; le document est le règlement n° 06/03, do",
+    "valeur_texte": "**Date** : la BVMAC l'intitule « du **14 mars 2002** » ; le document est le règlement **n° 06/03**, dont les textes de référence datent de 2003 ; l'Acte additionnel 06/17 le cite « du **12 novembre 2003**, **modifié le 9 juin 2008** ».",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r06-03.piege.03",
+    "texte": "r06-03",
+    "type": "piege",
+    "article": null,
+    "enonce": "Fiche de contexte : seuls l'objet, le plan et les articles 1, 2 et 74 ont été relus.",
+    "valeur_texte": "Fiche de **contexte** : seuls l'objet, le plan et les articles 1, 2 et 74 ont été relus.",
+    "note": null,
+    "themes": [
+      "cadre"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

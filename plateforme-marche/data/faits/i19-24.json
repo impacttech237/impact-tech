@@ -1,0 +1,171 @@
+[
+  {
+    "id": "i19-24.delai.01",
+    "texte": "i19-24",
+    "type": "delai",
+    "article": "annexe 1, I",
+    "enonce": "Envoi des documents annuels d'un OPCI sur demande écrite du porteur",
+    "valeur_texte": "8 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 8,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.montant.01",
+    "texte": "i19-24",
+    "type": "montant",
+    "article": "annexe 1, I",
+    "enonce": "Seuil d'investissement dans un OPCI maître qui fait d'un OPCI un nourricier",
+    "valeur_texte": "plus de 85 %",
+    "type_valeur": "nombre",
+    "valeur": 85,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.montant.02",
+    "texte": "i19-24",
+    "type": "montant",
+    "article": "annexe 1, V",
+    "enonce": "Investissement indirect au-delà duquel les frais indirects sont inclus (OPCI)",
+    "valeur_texte": "plus de 20 % de l'actif",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.role.01",
+    "texte": "i19-24",
+    "type": "role",
+    "article": "annexe 1, II",
+    "enonce": "Centralisateur",
+    "valeur_texte": "Établissement qui centralise les ordres de souscription et de rachat des parts de l'OPCI.",
+    "acteurs": [
+      "centralisateur"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.role.02",
+    "texte": "i19-24",
+    "type": "role",
+    "article": "annexe 1, II",
+    "enonce": "Conseiller (OPCI)",
+    "valeur_texte": "Conseille l'OPCI par contrat mais ne prend aucune décision, qui reste de la responsabilité de la SGO.",
+    "acteurs": [
+      "conseiller-opci"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.role.03",
+    "texte": "i19-24",
+    "type": "role",
+    "article": "annexe 1, I-II",
+    "enonce": "Expert externe en évaluation",
+    "valeur_texte": "Évalue les actifs immobiliers ; un rapport de synthèse des évaluateurs est mis à disposition.",
+    "acteurs": [
+      "expert-externe-en-evaluation"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.definition.01",
+    "texte": "i19-24",
+    "type": "definition",
+    "article": "annexe 1, I",
+    "enonce": "OPCI maître / nourricier",
+    "valeur_texte": "Un OPCI nourricier investit plus de 85 % de son actif dans un autre OPCI, dit maître.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.liste.01",
+    "texte": "i19-24",
+    "type": "liste",
+    "article": "annexe 1",
+    "enonce": "Rubriques du document d'information d'un OPCI",
+    "valeur_texte": "Avertissement obligatoire ; I. Caractéristiques générales ; II. Acteurs de l'OPCI ; III. Politique de gestion ; IV. Modalités de fonctionnement (VL, souscriptions, rachats) ; V. Frais et commissions",
+    "items": [
+      "Avertissement obligatoire",
+      "I. Caractéristiques générales",
+      "II. Acteurs de l'OPCI",
+      "III. Politique de gestion",
+      "IV. Modalités de fonctionnement (VL, souscriptions, rachats)",
+      "V. Frais et commissions"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.piege.01",
+    "texte": "i19-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "85 % dans un maître = nourricier (OPCI) ; 20 % d'investissement indirect = frais indirects",
+    "valeur_texte": "**85 %** dans un maître = nourricier (OPCI) ; **20 %** d'investissement indirect = frais indirects à inclure.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i19-24.piege.02",
+    "texte": "i19-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les documents annuels sont envoyés en 8 jours ouvrés sur demande.",
+    "valeur_texte": "Les documents annuels sont envoyés en **8 jours ouvrés** sur demande.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

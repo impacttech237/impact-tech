@@ -1,0 +1,346 @@
+[
+  {
+    "id": "r01-14.delai.01",
+    "texte": "r01-14",
+    "type": "delai",
+    "article": "art. 19",
+    "enonce": "Délai de mise en conformité : inscription en compte des titres nominatifs et au porteur",
+    "valeur_texte": "24 mois à compter de l'entrée en vigueur",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.delai.02",
+    "texte": "r01-14",
+    "type": "delai",
+    "article": "art. 22, 23",
+    "enonce": "Point de départ de la suspension des droits des titres non déposés",
+    "valeur_texte": "à compter du 13e mois suivant l'entrée en vigueur",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.delai.03",
+    "texte": "r01-14",
+    "type": "delai",
+    "article": "art. 24",
+    "enonce": "Vente en bourse des droits correspondant aux titres non inscrits",
+    "valeur_texte": "3 ans après l'entrée en vigueur, sur une durée de 24 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.delai.04",
+    "texte": "r01-14",
+    "type": "delai",
+    "article": "art. 17",
+    "enonce": "Conservation des souches des titres au porteur par l'émetteur",
+    "valeur_texte": "20 ans à compter de la vente",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.delai.05",
+    "texte": "r01-14",
+    "type": "delai",
+    "article": "art. 27",
+    "enonce": "Entrée en vigueur du Règlement 01/14",
+    "valeur_texte": "1er jour du mois suivant la signature du Président du Comité ministériel",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.delai.06",
+    "texte": "r01-14",
+    "type": "delai",
+    "article": "art. 13",
+    "enonce": "Information du Dépositaire Central en cas de redressement ou de liquidation d'un teneur de compte",
+    "valeur_texte": "sans délai (par le syndic)",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.role.01",
+    "texte": "r01-14",
+    "type": "role",
+    "article": "art. 10-16",
+    "enonce": "Teneur de compte",
+    "valeur_texte": "Tient les comptes titres au nom des titulaires, délivre une attestation, est seul responsable de ses livres et assuré en responsabilité civile professionnelle.",
+    "acteurs": [
+      "teneur-de-compte"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.role.02",
+    "texte": "r01-14",
+    "type": "role",
+    "article": "art. 12",
+    "enonce": "Dépositaire Central (régime 01/14)",
+    "valeur_texte": "Garantit le montant des émissions admises à ses opérations, tient les comptes courants des adhérents et veille aux équilibres comptables.",
+    "acteurs": [
+      "depositaire-central-regime-01-14"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.role.03",
+    "texte": "r01-14",
+    "type": "role",
+    "article": "art. 13",
+    "enonce": "Syndic (liquidation d'un teneur de compte)",
+    "valeur_texte": "Informe sans délai le Dépositaire Central de l'ouverture d'une procédure de redressement ou de liquidation du teneur de compte.",
+    "acteurs": [
+      "syndic-liquidation-d-un-teneur-de-compte"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.role.04",
+    "texte": "r01-14",
+    "type": "role",
+    "article": "art. 26",
+    "enonce": "Comité ministériel de l'UMAC",
+    "valeur_texte": "Peut seul modifier le règlement, par règlement modificatif, après avis conforme du Conseil d'administration de la BEAC.",
+    "acteurs": [
+      "comite-ministeriel-de-l-umac"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.definition.01",
+    "texte": "r01-14",
+    "type": "definition",
+    "article": "art. 1, 8",
+    "enonce": "Titres nominatifs purs",
+    "valeur_texte": "Titres inscrits dans les registres de la société émettrice, qui ouvre des comptes au nom de leurs titulaires.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.definition.02",
+    "texte": "r01-14",
+    "type": "definition",
+    "article": "art. 1, 8",
+    "enonce": "Titres nominatifs administrés",
+    "valeur_texte": "Titres nominatifs inscrits dans un compte d'administration chez un intermédiaire financier agréé, sur mandat du titulaire.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.definition.03",
+    "texte": "r01-14",
+    "type": "definition",
+    "article": "art. 1, 7",
+    "enonce": "Titres au porteur",
+    "valeur_texte": "Titres conservés uniquement auprès d'un intermédiaire agréé, représentés exclusivement par une inscription en compte.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.definition.04",
+    "texte": "r01-14",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Adhérent",
+    "valeur_texte": "Tout établissement disposant d'un compte courant auprès du Dépositaire Central des titres.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.definition.05",
+    "texte": "r01-14",
+    "type": "definition",
+    "article": "art. 1",
+    "enonce": "Dépositaire Central",
+    "valeur_texte": "Organisme agréé assurant la conservation centralisée des titres admis à ses opérations, leur circulation et leur administration pour le compte de ses adhérents.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.liste.01",
+    "texte": "r01-14",
+    "type": "liste",
+    "article": "art. 3",
+    "enonce": "Valeurs soumises à l'inscription en compte",
+    "valeur_texte": "Titres de capital et de créance d'une société anonyme ; Bons et obligations du Trésor ; Actions et parts d'OPCVM ; Parts de fonds communs de créances ; Tout autre instrument émis par appel public à l'épargne",
+    "items": [
+      "Titres de capital et de créance d'une société anonyme",
+      "Bons et obligations du Trésor",
+      "Actions et parts d'OPCVM",
+      "Parts de fonds communs de créances",
+      "Tout autre instrument émis par appel public à l'épargne"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.liste.02",
+    "texte": "r01-14",
+    "type": "liste",
+    "article": "art. 10",
+    "enonce": "Teneurs de comptes",
+    "valeur_texte": "Personnes morales émettrices ; Intermédiaires financiers agréés ; BEAC ; Trésors publics des États membres ; Autres organismes habilités",
+    "items": [
+      "Personnes morales émettrices",
+      "Intermédiaires financiers agréés",
+      "BEAC",
+      "Trésors publics des États membres",
+      "Autres organismes habilités"
+    ],
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.piege.01",
+    "texte": "r01-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Régime ancien : le Règlement 04/25 (19 décembre 2025) le remplace. L'abrogation n'a pas ét",
+    "valeur_texte": "**Régime ancien** : le Règlement **04/25** (19 décembre 2025) le remplace. L'abrogation n'a pas été lue dans le texte et est **déduite** (le 04/25 institue un régime général qui prévoit un délai de **36 mois**, contre **24 mois** ici).",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.piege.02",
+    "texte": "r01-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le régime ne concerne que les titres émis par appel public à l'épargne : les titres non ém",
+    "valeur_texte": "Le régime ne concerne que les titres émis par **appel public à l'épargne** : les titres non émis par APE en sont **exclus**.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.piege.03",
+    "texte": "r01-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les articles 17, 22, 23 et 24 renvoient à une « vente prévue à l'article 23 » alors que la",
+    "valeur_texte": "Les articles 17, 22, 23 et 24 renvoient à une « **vente prévue à l'article 23** » alors que la vente est organisée à l'**article 24** : renvoi à vérifier avant de citer.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r01-14.piege.04",
+    "texte": "r01-14",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le règlement se réfère au Règlement 06/03 du 12 novembre 2003, lui-même abrogé par le Règl",
+    "valeur_texte": "Le règlement se réfère au Règlement **06/03** du 12 novembre 2003, lui-même abrogé par le Règlement **01/22**.",
+    "note": null,
+    "themes": [
+      "titres"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "lc-002-24.delai.01",
+    "texte": "lc-002-24",
+    "type": "delai",
+    "article": "chapeau",
+    "enonce": "Transmission des fichiers de reporting renseignés pour 2022, 2023 et 2024",
+    "valeur_texte": "sous quinzaine",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-24.delai.02",
+    "texte": "lc-002-24",
+    "type": "delai",
+    "article": "chapeau",
+    "enonce": "Entrée en vigueur obligatoire du modèle et du format de reporting",
+    "valeur_texte": "à compter de la date de signature (16 septembre 2024)",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-24.role.01",
+    "texte": "lc-002-24",
+    "type": "role",
+    "article": "chapeau",
+    "enonce": "Société de gestion d'OPC (reporting)",
+    "valeur_texte": "Utilise exclusivement le modèle et le format de reporting et transmet les fichiers 2022, 2023 et 2024 sous quinzaine.",
+    "acteurs": [
+      "societe-de-gestion-d-opc-reporting"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-24.role.02",
+    "texte": "lc-002-24",
+    "type": "role",
+    "article": "chapeau",
+    "enonce": "COSUMAF (reporting des SGO)",
+    "valeur_texte": "Impose le modèle, contrôle la transmission et peut sanctionner les manquements.",
+    "acteurs": [
+      "cosumaf-reporting-des-sgo"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-24.liste.01",
+    "texte": "lc-002-24",
+    "type": "liste",
+    "article": "chapeau",
+    "enonce": "Modèles de reporting obligatoires",
+    "valeur_texte": "États financiers des sociétés de gestion d'OPC ; Fonds (reporting hebdomadaire de l'OPCVM) ; Mandats sous gestion",
+    "items": [
+      "États financiers des sociétés de gestion d'OPC",
+      "Fonds (reporting hebdomadaire de l'OPCVM)",
+      "Mandats sous gestion"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-24.piege.01",
+    "texte": "lc-002-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le calendrier des transmissions périodiques est fixé par d'autres circulaires : la lettre ",
+    "valeur_texte": "Le calendrier des transmissions périodiques est fixé par d'autres circulaires : la **lettre circulaire 003/24** (24 septembre 2024), **abrogée** depuis par la **lettre circulaire 002.26** (1er juin 2026).",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-24.piege.02",
+    "texte": "lc-002-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le délai « sous quinzaine » vaut pour la transmission rétroactive (2022 à 2024), pas pour ",
+    "valeur_texte": "Le délai « **sous quinzaine** » vaut pour la **transmission rétroactive** (2022 à 2024), pas pour le reporting courant.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

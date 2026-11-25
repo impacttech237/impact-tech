@@ -1,0 +1,89 @@
+{
+  "id": "r04-25",
+  "ordre": 3,
+  "type": "reglement",
+  "numero": "04/25",
+  "titre": "Régime général d'inscription en compte des valeurs mobilières et autres titres financiers",
+  "theme": "titres",
+  "date_texte": "19 décembre 2025, Bata",
+  "date_adoption": "2025-12-19",
+  "lieu": "Bata",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [
+    "r01-14"
+  ],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Remplace les certificats papier par une inscription en compte électronique au nom du propriétaire, pour tous les titres émis en CEMAC (cotés ou non). Abroge le Règlement 01/14 du 25 avril 2014.",
+    "essentiel": "Tous les titres émis en CEMAC sont **obligatoirement inscrits en compte** au nom de leur propriétaire ; ils circulent **par virement de compte à compte** ; la **propriété résulte de l'inscription**. Titres **au porteur** = seulement chez un intermédiaire agréé ; **nominatifs purs** = chez l'émetteur ; **nominatifs administrés** = chez un intermédiaire mandaté. Délais clés : **36 mois** pour tout inscrire, **3 ans** puis vente des titres non inscrits dans les **24 mois**, réclamation du produit pendant **30 ans**, souches gardées **20 ans**.",
+    "retenir": [
+      "Le régime s'applique à **toutes les valeurs mobilières et titres financiers émis en CEMAC**, quelle que soit leur forme, **admis ou non** à la BVMAC. Art. 3",
+      "L'inscription dans un **dispositif d'enregistrement électronique partagé** (type blockchain) **tient lieu d'inscription en compte**. Art. 4",
+      "Le **Dépositaire Central** délivre à l'émetteur une **attestation d'inscription en compte**. Art. 4",
+      "Les titres se transmettent **par virement de compte à compte** ; la **propriété résulte de l'inscription** au compte du titulaire ; les titres ne peuvent plus exister sur papier. Art. 7-8",
+      "Compte-titres ouvert au nom du propriétaire ; par dérogation au nom d'un **OPC**, d'un **intermédiaire inscrit** agissant pour le propriétaire, ou pour des porteurs d'OPC non domiciliés en CEMAC. Art. 6",
+      "Titres **au porteur** : uniquement chez un **intermédiaire agréé** par la COSUMAF. Titres **nominatifs purs** : comptes tenus par l'**émetteur**. Titres **nominatifs administrés** : compte d'administration chez un **intermédiaire mandaté** (copie du mandat notifiée sans délai à l'émetteur). Art. 9-10",
+      "Teneurs de comptes : émetteurs, intermédiaires et organismes agréés ; **assimilés** : BEAC, Trésors publics, Chambre de compensation, organismes publics habilités. Ils deviennent **adhérents** du Dépositaire Central. Art. 12-13",
+      "Le Dépositaire Central est **garant du montant de l'émission** : le solde de ses comptes courants doit toujours égaler le total des titres inscrits chez les teneurs de comptes. Art. 14",
+      "Faillite d'un teneur de compte : le syndic informe le Dépositaire Central et la COSUMAF ; la **COSUMAF désigne un autre teneur de compte**. Art. 15",
+      "Le teneur de compte est **seul responsable** de ses livres et doit s'assurer en **RC professionnelle** auprès d'un assureur **agréé par la CIMA**. Art. 18",
+      "Une opposition sur titres perdus ou volés est **sans effet** si elle intervient **après le dépôt** des titres au Dépositaire Central. Art. 16",
+      "Calendrier : inscription de tout le stock en **36 mois** ; après **3 ans**, droits exercés seulement après dépôt ; puis vente en bourse en **24 mois** des titres non inscrits ; produit consigné, réclamable **30 ans** ; souches au porteur conservées **20 ans**."
+    ],
+    "listes": [
+      {
+        "titre": "Missions du Dépositaire Central (rappel)",
+        "a": "art. 2",
+        "items": [
+          "Enregistrement initial des titres",
+          "Tenue centralisée des comptes",
+          "Règlement (système de règlement de titres)",
+          "Circulation par virement de compte à compte",
+          "Gestion de l'inscription en compte",
+          "Dématérialisation"
+        ]
+      },
+      {
+        "titre": "Teneurs de comptes assimilés",
+        "a": "art. 12",
+        "items": [
+          "BEAC",
+          "Trésors publics des États membres",
+          "Chambre de compensation",
+          "Tout organisme public habilité par la COSUMAF"
+        ]
+      }
+    ],
+    "pieges": [
+      "Règlement 04/25 : **36 mois** pour l'inscription en compte ; l'ancien Règlement **01/14** (limité aux titres d'APE) donnait **24 mois**.",
+      "Ne pas confondre **20 ans** (conservation des souches) et **30 ans** (réclamation du produit consigné).",
+      "Le nouveau régime couvre **tous les titres émis en CEMAC**, même **non cotés** — pas seulement ceux d'un appel public à l'épargne."
+    ],
+    "qr": [
+      {
+        "q": "Quelle est la différence entre titres nominatifs purs et nominatifs administrés ?",
+        "r": "Les nominatifs purs sont inscrits dans les registres de l'émetteur ; les nominatifs administrés sont inscrits chez un intermédiaire agréé mandaté par le titulaire, qui notifie le mandat à l'émetteur."
+      },
+      {
+        "q": "Que deviennent les titres non inscrits en compte ?",
+        "r": "Trois ans après l'entrée en vigueur, l'émetteur vend en bourse (en 24 mois) les droits correspondants ; le produit est consigné par le Dépositaire Central et réclamable pendant 30 ans ; les anciens titres sont nuls."
+      }
+    ]
+  },
+  "organisme": "cemac",
+  "couverture": "partielle"
+}

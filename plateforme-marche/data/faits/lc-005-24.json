@@ -1,0 +1,225 @@
+[
+  {
+    "id": "lc-005-24.delai.01",
+    "texte": "lc-005-24",
+    "type": "delai",
+    "article": "I",
+    "enonce": "Informations périodiques mensuelles des sociétés de bourse, teneurs de comptes et CIF",
+    "valeur_texte": "le 15 du mois suivant",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.delai.02",
+    "texte": "lc-005-24",
+    "type": "delai",
+    "article": "I",
+    "enonce": "Informations sur la maison mère",
+    "valeur_texte": "une fois par an, le 15 avril N+1",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.delai.03",
+    "texte": "lc-005-24",
+    "type": "delai",
+    "article": "II-a",
+    "enonce": "Compte rendu des ordres reçus et des transactions réalisées par une société de bourse",
+    "valeur_texte": "jour de cotation + 1 jour ouvrable",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.delai.04",
+    "texte": "lc-005-24",
+    "type": "delai",
+    "article": "II-b",
+    "enonce": "Copie des contrats signés par un CIF avec ses intervenants commerciaux",
+    "valeur_texte": "le 30 du mois suivant",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.delai.05",
+    "texte": "lc-005-24",
+    "type": "delai",
+    "article": "II-b",
+    "enonce": "Liste des contrats ou conventions d'un CIF",
+    "valeur_texte": "le 30 du mois suivant",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.delai.06",
+    "texte": "lc-005-24",
+    "type": "delai",
+    "article": "dernier alinéa",
+    "enonce": "Premier envoi des informations (situation au 30 septembre 2024)",
+    "valeur_texte": "au plus tard le 30 novembre 2024",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.role.01",
+    "texte": "lc-005-24",
+    "type": "role",
+    "article": "I, II-a",
+    "enonce": "Société de bourse (reporting)",
+    "valeur_texte": "Transmet les suivis mensuels, affiche et communique ses tarifs, et rend compte des ordres et transactions à J+1 ouvrable.",
+    "acteurs": [
+      "societe-de-bourse-reporting"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.role.02",
+    "texte": "lc-005-24",
+    "type": "role",
+    "article": "II-b",
+    "enonce": "Conseiller en investissements financiers (reporting)",
+    "valeur_texte": "Transmet les contrats signés avec ses intervenants commerciaux et leur liste, le 30 du mois suivant.",
+    "acteurs": [
+      "conseiller-en-investissements-financiers-reporting"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.role.03",
+    "texte": "lc-005-24",
+    "type": "role",
+    "article": "I",
+    "enonce": "Teneur de comptes (reporting)",
+    "valeur_texte": "Transmet les informations périodiques et la situation des avoirs (nombre de comptes titres, avoirs en titres et en espèces).",
+    "acteurs": [
+      "teneur-de-comptes-reporting"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.liste.01",
+    "texte": "lc-005-24",
+    "type": "liste",
+    "article": "I",
+    "enonce": "Suivis mensuels à transmettre le 15 du mois suivant",
+    "valeur_texte": "Suivi du chiffre d'affaires ; Transactions boursières ; Activités connexes ; Activités de levée de fonds ; Situation de portefeuille (dirigeants, personnel, clientèle) ; Situation des avoirs (CIF non concernés)",
+    "items": [
+      "Suivi du chiffre d'affaires",
+      "Transactions boursières",
+      "Activités connexes",
+      "Activités de levée de fonds",
+      "Situation de portefeuille (dirigeants, personnel, clientèle)",
+      "Situation des avoirs (CIF non concernés)"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.piege.01",
+    "texte": "lc-005-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le tableau des informations périodiques annuelles et semestrielles (fiche de présentation,",
+    "valeur_texte": "Le tableau des informations périodiques **annuelles et semestrielles** (fiche de présentation, rapport annuel, états financiers, rapport du contrôleur interne…) mélange libellés et dates dans le scan : les échéances ne sont pas reprises ici, **les lire dans le PDF**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.piege.02",
+    "texte": "lc-005-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Jour de cotation + 1 jour ouvrable vaut pour les comptes rendus des ordres et des transact",
+    "valeur_texte": "**Jour de cotation + 1 jour ouvrable** vaut pour les comptes rendus des ordres et des transactions, pas pour les suivis mensuels (**15 du mois suivant**) ni pour les contrats de CIF (**30 du mois suivant**).",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-005-24.piege.03",
+    "texte": "lc-005-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "La situation des avoirs ne concerne pas les CIF.",
+    "valeur_texte": "La **situation des avoirs** ne concerne **pas les CIF**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

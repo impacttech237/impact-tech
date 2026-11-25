@@ -1,0 +1,113 @@
+{
+  "id": "rbv-08",
+  "ordre": 4,
+  "type": "reglement_general",
+  "numero": "BVMAC (2008)",
+  "titre": "Règlement général de la Bourse des Valeurs Mobilières de l'Afrique Centrale (BVMAC)",
+  "theme": "cadre",
+  "date_texte": "14 septembre 2008, Libreville",
+  "date_adoption": "2008-09-14",
+  "lieu": "Libreville",
+  "entree_en_vigueur": null,
+  "statut": "abroge",
+  "statut_source": "deduit",
+  "abroge": [],
+  "abroge_par": [
+    "rbv-25"
+  ],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Les règles de la bourse : compartiments de la cote, admission et introduction des titres, ordres de bourse, négociation et cotation, transactions sur dossier, offres publiques de vente, ventes judiciaires, information des émetteurs cotés, sociétés de bourse et leur déontologie. Texte pris sous l'ancien Règlement 06/03.",
+    "essentiel": "La cote permanente compte **5 compartiments** (A actions, B-PME, C obligataire, D capital-investissement hors cote, E TCN). Admission : demande **simultanée à la BVMAC et à la COSUMAF** via une société de bourse ; réponse en **21 jours ouvrés** (silence = refus) ; introduction dans les **90 jours ouvrés** (+30 jours maximum). Ordres : validité **jour** ou **durée déterminée de 30 jours maximum** ; ordre téléphonique confirmé par écrit en **7 jours**. Négociation **au comptant**, cotation **au fixing**, par une **société de bourse** sous peine de nullité.",
+    "retenir": [
+      "La BVMAC est une société commerciale de droit privé (Acte uniforme OHADA) qui a l'**exclusivité** d'organiser et d'animer le marché des valeurs mobilières de la CEMAC.",
+      "Les **5 compartiments** de la cote permanente : **A** (actions de grandes SA), **B-PME**, **C-Obligataire**, **D-Capital-investissement** (hors cote, private equity), **E-TCN** (billets de trésorerie, certificats de dépôt, bons du Trésor). Art. 5",
+      "Avant l'admission, l'émetteur **purge ses statuts** de toute clause gênant la libre cessibilité des titres. Art. 6",
+      "La demande d'admission est adressée **simultanément à la BVMAC et à la COSUMAF**, **par l'intermédiaire d'une société de bourse**, avec un projet de document d'information. Art. 7",
+      "Le **Comité d'admission** de la BVMAC décide ; sa décision ne préjuge pas de l'avis de la COSUMAF ; **pas de cotation sans décision favorable** du Comité. Art. 10",
+      "Réponse de la BVMAC dans les **21 jours ouvrés** ; le **silence vaut refus** motivé. Art. 9",
+      "Deux procédures d'introduction : **procédure ouverte** (prix plancher, ordres au moins égaux) et **offre à prix ferme** (ordres au prix fixé). Art. 17-19",
+      "La BVMAC peut imposer un **contrat d'animation** (liquidité) avec une société de bourse ; ce contrat est une pièce du dossier. Art. 20",
+      "L'émetteur coté désigne un **responsable des relations avec les investisseurs**. Art. 21",
+      "Un ordre de bourse mentionne : **sens**, **valeur**, **nombre de titres**, **cours ou limite**, **durée de validité**, **référence du compte client**. Art. 23",
+      "Toute négociation sur un titre coté doit se faire **sur le marché de la BVMAC**, **par une société de bourse**, **sous peine de nullité** ; négociation **au comptant** (fonds et titres disponibles dès l'ordre). Art. 29-30",
+      "Cotation **au fixing** (la cotation en continu reste possible) ; cotation à la pièce ou en % du nominal. Art. 31, 34",
+      "La BVMAC peut **annuler un cours** (manipulation ou erreur) ou **suspendre une cotation** ; la COSUMAF est informée **immédiatement**. Art. 38-39",
+      "La BVMAC est **propriétaire des cours** ; la diffusion sur son site ou bulletin officiel vaut diffusion officielle. Art. 41",
+      "Défaillance de livraison : ordre de **débouclement** aux frais du défaillant ; sans débouclement dans les **30 jours**, la transaction est **annulée**. Art. 43-45",
+      "**Transaction sur dossier** : enregistrement d'une négociation convenue à l'avance (fusion, mère-filiale, actions de garantie d'administrateur, famille jusqu'au 3e degré ou époux, portage). Art. 46-47",
+      "Offre publique de vente : au moins **10 %** de l'émission ; recevabilité en **15 jours ouvrés** ; avis publié **15 jours avant** ; prix modifiable au plus tard **2 jours de bourse** avant, d'au moins **5 %**. Art. 57-61",
+      "Les sociétés de bourse ont le **monopole de la négociation** ; leur dossier d'agrément va à la COSUMAF, **copie à la BVMAC pour avis**. Art. 72-73",
+      "Une clause d'**exclusivité** entre une société de bourse et un client est **réputée non écrite**. Art. 83"
+    ],
+    "listes": [
+      {
+        "titre": "Les 5 compartiments de la cote",
+        "a": "art. 5",
+        "items": [
+          "A : titres de capital de SA (taille, performance, liquidité, transparence)",
+          "B-PME : titres de capital de PME",
+          "C-Obligataire : emprunts obligataires par APE",
+          "D-Capital-investissement (hors cote, private equity) : projets et entreprises en création",
+          "E-TCN : titres de créance négociables à court terme"
+        ]
+      },
+      {
+        "titre": "Informations importantes à publier par un émetteur coté",
+        "a": "art. 69",
+        "items": [
+          "Changement important de la direction",
+          "Fusion, absorption ou réorganisation",
+          "Emprunt d'une somme importante",
+          "Procédure judiciaire importante",
+          "Changement des projets d'investissement",
+          "Offre publique d'achat ou de rachat",
+          "Événement économique ou technologique touchant les actifs"
+        ]
+      },
+      {
+        "titre": "Mentions de l'avis de résultat d'OPV",
+        "a": "art. 63",
+        "items": [
+          "Cours coté (égal au prix de l'offre si suite positive)",
+          "Nombre de titres négociés",
+          "Ordres retenus",
+          "Réduction éventuelle des ordres d'achat"
+        ]
+      }
+    ],
+    "pieges": [
+      "Validité d'un ordre à durée déterminée : **30 jours maximum** selon le Règlement général BVMAC ; sans indication, l'ordre vaut pour la seule séance (« validité jour »).",
+      "**21 jours ouvrés** pour la réponse d'admission (silence = refus), **90 jours ouvrés** pour s'introduire, prorogation **30 jours**.",
+      "Le Règlement général BVMAC date de **2008** et renvoie encore au **Règlement 06/03**, abrogé par le Règlement **01/22**.",
+      "OPV : **10 %** minimum de l'émission ; le prix ne se modifie que d'au moins **5 %**."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les deux procédures d'introduction en bourse prévues par la BVMAC ?",
+        "r": "La procédure ouverte (inscription à un prix plancher, ordres au moins égaux) et l'offre à prix ferme (ordres stipulés au prix fixé par l'émetteur et la BVMAC)."
+      },
+      {
+        "q": "Que se passe-t-il si une société de bourse ne livre pas les titres ?",
+        "r": "La société créancière présente un ordre de débouclement hors marché aux risques et frais du défaillant ; à défaut sous 30 jours, la BVMAC et le Dépositaire Central annulent la transaction et le défaillant indemnise."
+      },
+      {
+        "q": "Dans quels cas une transaction sur dossier est-elle possible ?",
+        "r": "Fusion, acquisition, scission ; restructuration mère-filiale ; transfert d'actions de garantie entre administrateurs ; cession familiale jusqu'au 3e degré ou entre époux ; rétrocession dans un portage ; autre opération agréée par la BVMAC."
+      }
+    ]
+  },
+  "organisme": "bvmac",
+  "couverture": "partielle"
+}

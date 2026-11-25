@@ -1,0 +1,397 @@
+[
+  {
+    "id": "r03-26.delai.01",
+    "texte": "r03-26",
+    "type": "delai",
+    "article": "art. 91-2",
+    "enonce": "Période glissante sur laquelle un émetteur est limité à 2 placements privés",
+    "valeur_texte": "24 mois",
+    "type_valeur": "nombre",
+    "valeur": 24,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.delai.02",
+    "texte": "r03-26",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Entrée en vigueur du Règlement n° 03 sur le placement privé",
+    "valeur_texte": "1er jour du mois suivant l'adoption (1er novembre 2026)",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Adopté le 7 octobre 2026 à N'Djamena.",
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.delai.03",
+    "texte": "r03-26",
+    "type": "delai",
+    "article": "visas",
+    "enonce": "Avis conforme du Conseil d'administration de la BEAC sur le texte",
+    "valeur_texte": "5 octobre 2026",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.montant.01",
+    "texte": "r03-26",
+    "type": "montant",
+    "article": "art. 88 nouveau",
+    "enonce": "Souscription minimale par investisseur dans un placement privé",
+    "valeur_texte": "10 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.montant.02",
+    "texte": "r03-26",
+    "type": "montant",
+    "article": "art. 88 nouveau",
+    "enonce": "Nombre d'investisseurs qualifiés dans un placement privé",
+    "valeur_texte": "moins de 100",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.montant.03",
+    "texte": "r03-26",
+    "type": "montant",
+    "article": "art. 88 nouveau",
+    "enonce": "Plafond de montant d'un placement privé",
+    "valeur_texte": "aucun",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "L'ancien plafond était de 20 milliards FCFA sur 12 mois.",
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.montant.04",
+    "texte": "r03-26",
+    "type": "montant",
+    "article": "art. 89-1",
+    "enonce": "Patrimoine net minimal d'une personne physique pour être investisseur qualifié sur demande",
+    "valeur_texte": "50 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 50000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.montant.05",
+    "texte": "r03-26",
+    "type": "montant",
+    "article": "art. 89-1",
+    "enonce": "Capitaux propres minimaux d'une personne morale pour être investisseur qualifié sur demande",
+    "valeur_texte": "250 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 250000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.montant.06",
+    "texte": "r03-26",
+    "type": "montant",
+    "article": "art. 91-2",
+    "enonce": "Nombre maximal d'émissions par placement privé par émetteur sur 24 mois",
+    "valeur_texte": "2 émissions",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.role.01",
+    "texte": "r03-26",
+    "type": "role",
+    "article": "art. 89-1, 90, 91-2",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Enregistre les placements privés (contrôle formel), reconnaît les investisseurs qualifiés sur demande, publie leur liste et tient le registre des émissions.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.role.02",
+    "texte": "r03-26",
+    "type": "role",
+    "article": "art. 88 nouveau",
+    "enonce": "Intermédiaire de marché agréé",
+    "valeur_texte": "Prête obligatoirement son concours à toute opération de placement privé.",
+    "acteurs": [
+      "intermediaire-de-marche-agree"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.role.03",
+    "texte": "r03-26",
+    "type": "role",
+    "article": "art. 91-1",
+    "enonce": "BVMAC",
+    "valeur_texte": "Accueille la cession des titres de placement privé sur un compartiment dédié.",
+    "acteurs": [
+      "bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.role.04",
+    "texte": "r03-26",
+    "type": "role",
+    "article": "art. 88 nouveau",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Seule exception à l'achat pour compte propre : peut souscrire pour le compte d'autres investisseurs qualifiés ou d'OPC.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.role.05",
+    "texte": "r03-26",
+    "type": "role",
+    "article": "art. 90 nouveau",
+    "enonce": "Émetteur",
+    "valeur_texte": "Assume avec les investisseurs la responsabilité exclusive des conditions économiques et financières de l'opération.",
+    "acteurs": [
+      "emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.definition.01",
+    "texte": "r03-26",
+    "type": "definition",
+    "article": "art. 88 nouveau",
+    "enonce": "Placement privé",
+    "valeur_texte": "Offre de titres financiers réalisée sans publicité, par voie de syndication, auprès d'un public déterminé capable d'appréhender les risques, à moins de 100 investisseurs qualifiés, avec souscription minimale de 10 millions FCFA.",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.definition.02",
+    "texte": "r03-26",
+    "type": "definition",
+    "article": "art. 89 nouveau",
+    "enonce": "Investisseur qualifié de plein droit",
+    "valeur_texte": "Établissements de crédit et intermédiaires agréés, OPC, assureurs et réassureurs, sociétés de groupe d'assurance, institutions de prévoyance sociale, caisses de retraite, caisses de dépôts, institutions financières régionales, sociétés de bourse et de gestion agissant pour compte propre, fonds d'investissement.",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.definition.03",
+    "texte": "r03-26",
+    "type": "definition",
+    "article": "art. 90 nouveau",
+    "enonce": "Enregistrement (placement privé)",
+    "valeur_texte": "Formalité de contrôle formel de la conformité du dossier ; n'emporte pas approbation des conditions économiques et financières.",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.liste.01",
+    "texte": "r03-26",
+    "type": "liste",
+    "article": "art. 89 nouveau",
+    "enonce": "Investisseurs qualifiés de plein droit",
+    "valeur_texte": "Établissements de crédit et autres établissements financiers agréés ou réglementés ; Organismes de placement collectif ; Entreprises d'assurance et de réassurance ; Sociétés de groupe d'assurance ; Institutions de prévoyance sociale ; Caisses de retraite et organismes de dépôt et gestion de fonds ; Caisses de dépôts et consignations ; Institutions financières régionales et organismes de financement du développement ; Sociétés de bourse, sociétés de gestion et intermédiaires agréés agissant pour compte propre ; Fonds d'investissement",
+    "items": [
+      "Établissements de crédit et autres établissements financiers agréés ou réglementés",
+      "Organismes de placement collectif",
+      "Entreprises d'assurance et de réassurance",
+      "Sociétés de groupe d'assurance",
+      "Institutions de prévoyance sociale",
+      "Caisses de retraite et organismes de dépôt et gestion de fonds",
+      "Caisses de dépôts et consignations",
+      "Institutions financières régionales et organismes de financement du développement",
+      "Sociétés de bourse, sociétés de gestion et intermédiaires agréés agissant pour compte propre",
+      "Fonds d'investissement"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.liste.02",
+    "texte": "r03-26",
+    "type": "liste",
+    "article": "art. 89-1",
+    "enonce": "Ce qui prouve les compétences d'un candidat investisseur qualifié",
+    "valeur_texte": "Connaissances et expérience en investissement ; Compétences professionnelles, techniques ou financières ; Nature, importance et complexité des opérations envisagées ; Régularité de la constitution et agrément éventuel ; Organisation générale et qualité de la gouvernance ; Procédures de gestion et de contrôle des risques ; Ressources humaines, techniques et financières ; Situation financière (états financiers)",
+    "items": [
+      "Connaissances et expérience en investissement",
+      "Compétences professionnelles, techniques ou financières",
+      "Nature, importance et complexité des opérations envisagées",
+      "Régularité de la constitution et agrément éventuel",
+      "Organisation générale et qualité de la gouvernance",
+      "Procédures de gestion et de contrôle des risques",
+      "Ressources humaines, techniques et financières",
+      "Situation financière (états financiers)"
+    ],
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.piege.01",
+    "texte": "r03-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ancien régime (art. 88 de 2022) : 20 milliards max, 40 investisseurs max, nominal de 50 mi",
+    "valeur_texte": "Ancien régime (art. 88 de 2022) : **20 milliards max, 40 investisseurs max, nominal de 50 millions**. Nouveau : **moins de 100 investisseurs, 10 millions de souscription minimale, aucun plafond**.",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.piege.02",
+    "texte": "r03-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "50 millions = patrimoine net d'une personne physique ; 250 millions = capitaux propres d'u",
+    "valeur_texte": "**50 millions** = patrimoine net d'une **personne physique** ; **250 millions** = capitaux propres d'une **personne morale** (investisseur qualifié sur demande).",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.piege.03",
+    "texte": "r03-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "L'enregistrement n'est pas un visa : la COSUMAF ne valide pas les conditions économiques d",
+    "valeur_texte": "L'enregistrement **n'est pas un visa** : la COSUMAF ne valide pas les conditions économiques de l'opération.",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r03-26.piege.04",
+    "texte": "r03-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Les mutuelles et unions de mutuelles figuraient dans l'ancienne liste ; la nouvelle liste ",
+    "valeur_texte": "Les mutuelles et unions de mutuelles figuraient dans l'ancienne liste ; la nouvelle liste ajoute les **caisses de dépôts** et les **institutions financières régionales**.",
+    "note": null,
+    "themes": [
+      "pp"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

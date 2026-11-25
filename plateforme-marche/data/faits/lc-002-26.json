@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lc-002-26.delai.01",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I, ligne 1",
+    "enonce": "Reporting hebdomadaire des fonds par une SGO",
+    "valeur_texte": "tous les vendredis",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.02",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I et II",
+    "enonce": "Rapports trimestriels d'activités : T4 de l'année N-1",
+    "valeur_texte": "15 janvier de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.03",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I et II",
+    "enonce": "Rapports trimestriels d'activités : T1",
+    "valeur_texte": "15 avril de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.04",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I et II",
+    "enonce": "Rapports trimestriels d'activités : T2",
+    "valeur_texte": "15 juillet de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.05",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I et II",
+    "enonce": "Rapports trimestriels d'activités : T3",
+    "valeur_texte": "15 octobre de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.06",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I et II",
+    "enonce": "Rapport semestriel d'activités S2 de l'année N-1",
+    "valeur_texte": "31 janvier de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.07",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I et II",
+    "enonce": "Rapport semestriel d'activités S1",
+    "valeur_texte": "31 juillet de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.delai.08",
+    "texte": "lc-002-26",
+    "type": "delai",
+    "article": "I",
+    "enonce": "États financiers de synthèse, rapport de gestion et rapports des commissaires aux comptes d'une SGO",
+    "valeur_texte": "31 juillet de l'année N",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.role.01",
+    "texte": "lc-002-26",
+    "type": "role",
+    "article": "I",
+    "enonce": "Société de gestion d'OPC (calendrier 2026)",
+    "valeur_texte": "Transmet hebdomadairement le reporting des fonds, puis les rapports trimestriels, semestriels et annuels selon le calendrier.",
+    "acteurs": [
+      "societe-de-gestion-d-opc-calendrier-2026"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.role.02",
+    "texte": "lc-002-26",
+    "type": "role",
+    "article": "II",
+    "enonce": "Dépositaire d'OPC (calendrier 2026)",
+    "valeur_texte": "Transmet à la COSUMAF ses rapports périodiques, y compris le contrôle interne et le contrôle LBC/FT.",
+    "acteurs": [
+      "depositaire-d-opc-calendrier-2026"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.piege.01",
+    "texte": "lc-002-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Cette lettre remplace la lettre circulaire 003/24 du 24 septembre 2024 : c'est elle qui fa",
+    "valeur_texte": "Cette lettre **remplace** la lettre circulaire **003/24** du 24 septembre 2024 : c'est elle qui fait foi en 2026.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.piege.02",
+    "texte": "lc-002-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le scan mélange libellés, exercices et dates : les échéances des rapports annuels (activit",
+    "valeur_texte": "Le scan **mélange libellés, exercices et dates** : les échéances des rapports annuels (activités, contrôle interne, cartographies, procès-verbaux) ne sont **pas reprises ligne à ligne** ici ; les lire dans le PDF avant de les citer.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "lc-002-26.piege.03",
+    "texte": "lc-002-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le calendrier des dépositaires d'OPC reprend la même logique que celui des SGO mais sans r",
+    "valeur_texte": "Le calendrier des **dépositaires d'OPC** reprend la même logique que celui des SGO mais **sans** reporting hebdomadaire des fonds ni états financiers de synthèse.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

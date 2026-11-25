@@ -1,0 +1,406 @@
+[
+  {
+    "id": "r02-24.delai.01",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 12",
+    "enonce": "Avis du GABAC sur les risques pesant sur le marché intérieur après l'entrée en vigueur du règlement",
+    "valeur_texte": "dans un délai de 2 ans",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.02",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Mise à jour des évaluations de risques (blanchiment, financement du terrorisme)",
+    "valeur_texte": "tous les 2 ans",
+    "type_valeur": "nombre",
+    "valeur": 2,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.03",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 16",
+    "enonce": "Durée maximale de la saisie d'espèces ou d'instruments négociables au porteur par les autorités",
+    "valeur_texte": "72 heures",
+    "type_valeur": "nombre",
+    "valeur": 72,
+    "unite": "heures",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.04",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 39",
+    "enonce": "Conservation par les institutions financières des pièces relatives aux comptes et aux clients",
+    "valeur_texte": "au moins 10 ans à compter de la clôture des comptes ou de la fin de la relation",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.05",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 39",
+    "enonce": "Conservation des pièces et documents relatifs aux opérations",
+    "valeur_texte": "au moins 10 ans après l'exécution de l'opération",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.06",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 39",
+    "enonce": "Conservation des informations de l'institution financière intermédiaire",
+    "valeur_texte": "au moins 5 ans",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.07",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 48",
+    "enonce": "Conservation des registres des organismes à but non lucratif et des casinos",
+    "valeur_texte": "10 ans",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.08",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 88",
+    "enonce": "Mandat du chef de l'ANIF",
+    "valeur_texte": "5 ans non renouvelable",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.09",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 88",
+    "enonce": "Mandat des autres membres de l'ANIF",
+    "valeur_texte": "3 ans renouvelable une fois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.delai.10",
+    "texte": "r02-24",
+    "type": "delai",
+    "article": "art. 174",
+    "enonce": "Fin de la détention en matière d'extradition faute de demande reçue",
+    "valeur_texte": "dans le délai de 20 jours",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "jours",
+    "borne": "exact",
+    "note": "Lecture à vérifier contre le PDF.",
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.montant.01",
+    "texte": "r02-24",
+    "type": "montant",
+    "article": "art. 42",
+    "enonce": "PSAV : seuil des opérations occasionnelles au-delà duquel la vigilance est renforcée",
+    "valeur_texte": "500 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 500000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.montant.02",
+    "texte": "r02-24",
+    "type": "montant",
+    "article": "art. 58",
+    "enonce": "Dérogation de vigilance : montant unitaire maximal de l'opération",
+    "valeur_texte": "1 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.montant.03",
+    "texte": "r02-24",
+    "type": "montant",
+    "article": "art. 58",
+    "enonce": "Dérogation de vigilance : total maximal des opérations du client sur les 12 mois précédents",
+    "valeur_texte": "5 000 000 FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.montant.04",
+    "texte": "r02-24",
+    "type": "montant",
+    "article": "art. 77",
+    "enonce": "Bénéficiaire effectif d'une société : seuil de détention du capital ou des droits de vote",
+    "valeur_texte": "plus de 25 %",
+    "type_valeur": "nombre",
+    "valeur": 25,
+    "unite": "%",
+    "borne": "min",
+    "note": "Détention directe ou indirecte par une personne physique.",
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.role.01",
+    "texte": "r02-24",
+    "type": "role",
+    "article": "art. 12, préambule",
+    "enonce": "GABAC",
+    "valeur_texte": "Groupe d'Action contre le Blanchiment d'Argent en Afrique Centrale : émet un avis sur les risques régionaux, coordonne les politiques ; son Secrétaire permanent propose le règlement.",
+    "acteurs": [
+      "gabac"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.role.02",
+    "texte": "r02-24",
+    "type": "role",
+    "article": "art. 88",
+    "enonce": "ANIF",
+    "valeur_texte": "Agence Nationale d'Investigation Financière : reçoit les déclarations de soupçon ; son chef est nommé pour 5 ans non renouvelables, ses membres pour 3 ans renouvelables une fois.",
+    "acteurs": [
+      "anif"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.role.03",
+    "texte": "r02-24",
+    "type": "role",
+    "article": "art. 39",
+    "enonce": "Institution financière (assujettie)",
+    "valeur_texte": "Conserve les pièces 10 ans, applique les mesures de vigilance et déclare les soupçons.",
+    "acteurs": [
+      "institution-financiere-assujettie"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.role.04",
+    "texte": "r02-24",
+    "type": "role",
+    "article": "art. 42",
+    "enonce": "Prestataire de services sur actifs virtuels (PSAV)",
+    "valeur_texte": "Applique les mesures préventives et une vigilance renforcée au-delà de 500 000 FCFA d'opérations occasionnelles.",
+    "acteurs": [
+      "prestataire-de-services-sur-actifs-virtuels-psav"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.definition.01",
+    "texte": "r02-24",
+    "type": "definition",
+    "article": "art. 77",
+    "enonce": "Bénéficiaire effectif (société)",
+    "valeur_texte": "Personne physique qui détient, directement ou indirectement, plus de 25 % du capital ou des droits de vote de la société, ou exerce un contrôle équivalent.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.piege.01",
+    "texte": "r02-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Date : le titre affiché sur le site de la COSUMAF dit « du 24 avril 2014 » ; le texte lui-",
+    "valeur_texte": "**Date** : le titre affiché sur le site de la COSUMAF dit « du 24 avril 2014 » ; le texte lui-même a été **adopté et signé le 20 décembre 2024 à Libreville**. Citer **20 décembre 2024**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.piege.02",
+    "texte": "r02-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Conservation : 10 ans dans le Règlement CEMAC 02/24 (art. 39) et dans le Règlement général",
+    "valeur_texte": "**Conservation** : **10 ans** dans le Règlement CEMAC 02/24 (art. 39) et dans le Règlement général COSUMAF, mais **5 ans** dans l'**Instruction COSUMAF 32-24** : citer la source.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.piege.03",
+    "texte": "r02-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le PSAV applique une vigilance renforcée au-delà de 500 000 FCFA d'opérations occasionnell",
+    "valeur_texte": "Le PSAV applique une vigilance **renforcée au-delà de 500 000 FCFA** d'opérations occasionnelles ; les **dérogations** de vigilance jouent **jusqu'à 1 000 000 FCFA** par opération et 5 000 000 FCFA sur 12 mois : ne pas confondre les deux seuils.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.piege.04",
+    "texte": "r02-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le scan est de qualité moyenne : les chiffres ci-dessus ont été relus dans le texte mais s",
+    "valeur_texte": "Le scan est de **qualité moyenne** : les chiffres ci-dessus ont été relus dans le texte mais seuls les articles contenant des durées ou des montants ont été relevés ; **le règlement n'est pas couvert en entier**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "r02-24.piege.05",
+    "texte": "r02-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le règlement abroge « toutes dispositions antérieures contraires ayant le même objet », do",
+    "valeur_texte": "Le règlement abroge « toutes dispositions antérieures contraires ayant le même objet », dont l'ancien **Règlement n° 01/CEMAC/UMAC/CM du 11 avril 2016** sur la prévention et la répression du blanchiment (référence citée par le Règlement 02/18) ; le numéro n'est lu que partiellement dans le scan du 02/24 : **déduction à confirmer**.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

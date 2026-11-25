@@ -1,0 +1,183 @@
+[
+  {
+    "id": "i31-24.montant.01",
+    "texte": "i31-24",
+    "type": "montant",
+    "article": "art. 2.3",
+    "enonce": "Nombre minimal de familles de risques dans la cartographie (Instruction 31-24)",
+    "valeur_texte": "4 familles",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.role.01",
+    "texte": "i31-24",
+    "type": "role",
+    "article": "art. 2",
+    "enonce": "Entité contrôlée par la COSUMAF",
+    "valeur_texte": "Identifie ses risques, fixe ses limites, établit et exploite sa cartographie des risques pour corriger et prioriser ses contrôles.",
+    "acteurs": [
+      "entite-controlee-par-la-cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.01",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Cartographie des risques",
+    "valeur_texte": "Outil qui recense les risques sur tous les processus, mesure l'exposition, la probabilité et la criticité, et la compare aux limites fixées.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.02",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Risque de contrepartie",
+    "valeur_texte": "Risque de perte si la contrepartie faillit à ses obligations avant le règlement définitif de l'opération.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.03",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Risque de liquidité",
+    "valeur_texte": "Risque qu'une position ne puisse être cédée, liquidée ou clôturée à un coût limité et dans un délai court, compromettant le respect des obligations.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.04",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Risque de marché",
+    "valeur_texte": "Risque de perte dû à la variation de la valeur de marché des positions (taux, changes, actions, matières premières, qualité de crédit).",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.05",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 4",
+    "enonce": "Risque opérationnel",
+    "valeur_texte": "Risque de perte dû à l'inadéquation des processus internes et aux défaillances des personnes et des systèmes, y compris risque juridique et de documentation.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.06",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 4",
+    "enonce": "Risque de durabilité",
+    "valeur_texte": "Événement environnemental, social ou de gouvernance susceptible d'avoir un impact négatif important sur la valeur du produit ou service.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.definition.07",
+    "texte": "i31-24",
+    "type": "definition",
+    "article": "art. 5",
+    "enonce": "Risque cybersécurité",
+    "valeur_texte": "Circonstance liée aux réseaux et systèmes d'information qui peut compromettre leur sécurité et produire des effets préjudiciables.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.liste.01",
+    "texte": "i31-24",
+    "type": "liste",
+    "article": "art. 2-5",
+    "enonce": "Les 4 familles de risques et leurs composantes",
+    "valeur_texte": "Financiers : liquidité, marché, contrepartie, crédit ; Opérationnels : systèmes, personnes, juridique et documentation ; Durabilité : environnement, social, gouvernance ; Cybersécurité / informatique",
+    "items": [
+      "Financiers : liquidité, marché, contrepartie, crédit",
+      "Opérationnels : systèmes, personnes, juridique et documentation",
+      "Durabilité : environnement, social, gouvernance",
+      "Cybersécurité / informatique"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.piege.01",
+    "texte": "i31-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le risque de crédit et le risque de contrepartie sont deux risques financiers distincts.",
+    "valeur_texte": "Le **risque de crédit** et le **risque de contrepartie** sont **deux** risques financiers distincts.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i31-24.piege.02",
+    "texte": "i31-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le risque juridique est un risque opérationnel, pas un risque financier.",
+    "valeur_texte": "Le **risque juridique** est un risque **opérationnel**, pas un risque financier.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ibv-01.montant.01",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 1.1",
+    "enonce": "Marché A : part minimale du capital introduit en bourse",
+    "valeur_texte": "20 % dont 10 % diffusé dans le public",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.02",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 1.1",
+    "enonce": "Marché A : capitalisation boursière minimale",
+    "valeur_texte": "plus de 10 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 10000000000,
+    "unite": "fcfa",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.03",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 1.1",
+    "enonce": "Marché A : fonds propres minimum",
+    "valeur_texte": "500 millions FCFA",
+    "type_valeur": "nombre",
+    "valeur": 500000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.04",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 1.1",
+    "enonce": "Marché A : chiffre d'affaires",
+    "valeur_texte": "plus de 5 milliards FCFA",
+    "type_valeur": "nombre",
+    "valeur": 5000000000,
+    "unite": "fcfa",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.05",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 2.1",
+    "enonce": "Marché B (PME/PMI) : part minimale du capital introduit en bourse",
+    "valeur_texte": "20 % dont 10 % diffusé dans le public",
+    "type_valeur": "nombre",
+    "valeur": 20,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.06",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 2.1",
+    "enonce": "Marché B (PME/PMI) : fonds propres minimum",
+    "valeur_texte": "200 millions FCFA",
+    "type_valeur": "nombre",
+    "valeur": 200000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.07",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 2.1",
+    "enonce": "Marché B (PME/PMI) : chiffre d'affaires",
+    "valeur_texte": "plus de 1 milliard FCFA",
+    "type_valeur": "nombre",
+    "valeur": 1000000000,
+    "unite": "fcfa",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.08",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 3.1",
+    "enonce": "Compartiment obligataire C : montant minimum de l'emprunt",
+    "valeur_texte": "250 millions FCFA au minimum",
+    "type_valeur": "nombre",
+    "valeur": 250000000,
+    "unite": "fcfa",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.09",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 3.1",
+    "enonce": "Compartiment obligataire C : nombre minimum de titres diffusés",
+    "valeur_texte": "25 000 titres au minimum",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.montant.10",
+    "texte": "ibv-01",
+    "type": "montant",
+    "article": "art. 3.1",
+    "enonce": "Compartiment obligataire C : durée minimum de l'emprunt",
+    "valeur_texte": "3 ans au minimum",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.role.01",
+    "texte": "ibv-01",
+    "type": "role",
+    "article": "titres 2 et 3",
+    "enonce": "BVMAC",
+    "valeur_texte": "Instruit le dossier d'admission à la cote et vérifie les critères du compartiment visé.",
+    "acteurs": [
+      "bvmac"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.role.02",
+    "texte": "ibv-01",
+    "type": "role",
+    "article": "art. 4",
+    "enonce": "Émetteur",
+    "valeur_texte": "Dépose la demande d'admission avec la copie du dossier de visa COSUMAF, la note d'information et les états financiers certifiés.",
+    "acteurs": [
+      "emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.definition.01",
+    "texte": "ibv-01",
+    "type": "definition",
+    "article": "titre 1",
+    "enonce": "Titres diffusés dans le public",
+    "valeur_texte": "Titres détenus individuellement dans le capital à 2 % au plus pour les personnes physiques et 5 % au plus pour les personnes morales.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.definition.02",
+    "texte": "ibv-01",
+    "type": "definition",
+    "article": "titre 1",
+    "enonce": "Capitalisation boursière",
+    "valeur_texte": "Valeur boursière d'une société : cours du titre multiplié par le nombre d'actions composant le capital.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.definition.03",
+    "texte": "ibv-01",
+    "type": "definition",
+    "article": "titre 1",
+    "enonce": "Flottant",
+    "valeur_texte": "Nombre de titres admis à la négociation sur le marché central de la BVMAC.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.definition.04",
+    "texte": "ibv-01",
+    "type": "definition",
+    "article": "titre 1",
+    "enonce": "Hors cote",
+    "valeur_texte": "Compartiment de gré à gré où se négocient les valeurs non admises au premier ou au second marché.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.definition.05",
+    "texte": "ibv-01",
+    "type": "definition",
+    "article": "titre 1",
+    "enonce": "Marché primaire / marché secondaire",
+    "valeur_texte": "Marché primaire : émissions d'actions ou d'obligations pour lever des capitaux. Marché secondaire : négociation des valeurs mobilières une fois l'émission terminée.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.liste.01",
+    "texte": "ibv-01",
+    "type": "liste",
+    "article": "art. 4",
+    "enonce": "Pièces du dossier d'admission",
+    "valeur_texte": "Demande d'admission à la cote de la BVMAC ; Copie intégrale du dossier transmis à la COSUMAF pour le visa ; Lettre de désignation du mandataire ; Répartition du capital avant et après l'admission ; Projet de convention de placement ; Lettre d'engagement de l'émetteur ; Note d'information définitive ; États financiers certifiés",
+    "items": [
+      "Demande d'admission à la cote de la BVMAC",
+      "Copie intégrale du dossier transmis à la COSUMAF pour le visa",
+      "Lettre de désignation du mandataire",
+      "Répartition du capital avant et après l'admission",
+      "Projet de convention de placement",
+      "Lettre d'engagement de l'émetteur",
+      "Note d'information définitive",
+      "États financiers certifiés"
+    ],
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.piege.01",
+    "texte": "ibv-01",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ce texte est une version « projet » de novembre 2008 : ses compartiments (A et B pour les ",
+    "valeur_texte": "Ce texte est une **version « projet » de novembre 2008** : ses compartiments (A et B pour les actions) et ses seuils (par exemple 500 M de fonds propres) ne sont **plus ceux du Règlement général de 2025** (A Premium, B Medium, E PME, D OPC, C Obligataire ; capital de 100 M pour le compartiment A, art. 74).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.piege.02",
+    "texte": "ibv-01",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le seuil de capitalisation de 10 milliards apparaît aussi pour le marché B dans le scan : ",
+    "valeur_texte": "Le seuil de capitalisation de **10 milliards** apparaît aussi pour le marché B dans le scan : lecture à vérifier avant de le citer.",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "ibv-01.piege.03",
+    "texte": "ibv-01",
+    "type": "piege",
+    "article": null,
+    "enonce": "Compartiment C : emprunt ≥ 250 M et ≥ 25 000 titres ici ; le règlement de 2025 fixe d'autr",
+    "valeur_texte": "Compartiment C : emprunt **≥ 250 M** et **≥ 25 000 titres** ici ; le règlement de 2025 fixe d'autres minima selon l'émetteur (200 M pour les grandes entreprises, 50 M pour les PME).",
+    "note": null,
+    "themes": [
+      "marche"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

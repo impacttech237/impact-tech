@@ -1,0 +1,80 @@
+{
+  "id": "i01-23",
+  "ordre": 10,
+  "type": "instruction",
+  "numero": "01-23",
+  "titre": "Agrément des intermédiaires de marché",
+  "theme": "agrement",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Procédure et contenu du dossier d'agrément des intermédiaires de marché (sociétés de bourse, établissements de crédit, sociétés de gestion, CIF, conseillers en financement participatif, prestataires sur actifs numériques), et notification des changements de dirigeants.",
+    "essentiel": "Dossier déposé **physiquement et en version électronique**. Accusé de réception en **10 jours ouvrables**, décision d'accord ou de refus en **60 jours**. Tout changement de l'organe de direction est notifié **avant qu'il prenne effet**. Le dossier contient : informations générales, capital (origine des fonds), actionnaires (jusqu'au détenteur final), dirigeants (CV sur 10 ans, casier de moins de 3 mois), prévisions sur **3 exercices**, plan d'activités sur **3 ans**, organisation et contrôle interne.",
+    "retenir": [
+      "La demande est soumise à la **COSUMAF** par **dépôt physique et sous format électronique** ; le demandeur communique les informations sur **tous les membres de l'organe de direction**. Art. 1",
+      "**Accusé de réception** dans les **10 jours ouvrables**, avec les coordonnées d'un **point de contact** désigné. Art. 2",
+      "Si des informations manquent, la COSUMAF précise au demandeur ce qu'il doit fournir. Art. 3",
+      "Tout changement de l'**organe de direction** est notifié **avant qu'il ne prenne effet** (formulaire de l'annexe III). Art. 4",
+      "La décision d'accord ou de refus est notifiée **sur papier et par voie électronique** dans les **60 jours**. Art. 5",
+      "Le formulaire (annexe I) vise l'**article 164 du Règlement 01/22** et permet de cocher le type d'intermédiaire et les 13 activités possibles.",
+      "Dirigeants : CV détaillant les fonctions des **10 dernières années**, **extrait de casier judiciaire de moins de 3 mois**, déclaration sur l'honneur, antécédents disciplinaires, refus ou retraits d'agrément, conflits d'intérêts.",
+      "Finances : **états prévisionnels des 3 premiers exercices** (bilan, compte de résultat, hypothèses, fonds propres, ratio de solvabilité de la 1re année) ; pour une entreprise existante, **états des 3 derniers exercices**.",
+      "Organisation : **plan d'activités sur 3 ans**, contrôle interne, conservation des actifs des clients, adhésion au **Fonds de garantie du marché**, externalisation, conflits d'intérêts, dispositif **LBC/FT**, **plan de continuité**, archives, manuel de procédures.",
+      "Actionnaires : liste et répartition du capital, détenteur **final** des participations indirectes, organigramme du groupe et autorités de surveillance des entités réglementées."
+    ],
+    "listes": [
+      {
+        "titre": "Les 6 blocs du dossier d'agrément (annexe I)",
+        "a": "annexe I",
+        "items": [
+          "a) Informations générales (statuts, RCCM, succursales, services)",
+          "b) Capital social (origine des fonds, emprunts)",
+          "c) Actionnaires (répartition, détenteur final, groupe)",
+          "d) Organe de direction et dirigeants",
+          "e) Informations financières (prévisions 3 exercices)",
+          "f) Organisation (plan d'activités 3 ans, contrôle interne, LBC/FT, continuité)"
+        ]
+      },
+      {
+        "titre": "Annexes de l'instruction",
+        "a": "annexes",
+        "items": [
+          "I : formulaire de demande d'agrément",
+          "II : liste des membres de l'organe de direction",
+          "III : notification des modifications du conseil d'administration",
+          "IV : modèle de déclaration sur l'honneur"
+        ]
+      }
+    ],
+    "pieges": [
+      "**10 jours ouvrables** pour l'accusé de réception, **60 jours** pour la décision — à ne pas confondre avec les délais d'autres agréments (agences de notation, SGO…).",
+      "Le changement de dirigeants se notifie **avant** sa prise d'effet, pas après."
+    ],
+    "qr": [
+      {
+        "q": "Que doit contenir le dossier relatif aux dirigeants d'un intermédiaire ?",
+        "r": "Identité, fonction, CV sur 10 ans, extrait de casier de moins de 3 mois, déclaration sur l'honneur, antécédents judiciaires et disciplinaires, refus ou retraits d'agrément, intérêts et liens avec les autres dirigeants, mandats d'administrateur détenus."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

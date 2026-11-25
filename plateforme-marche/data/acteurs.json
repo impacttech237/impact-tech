@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "acteur-du-marche-entite-controlee",
+    "nom": "Acteur du marché (entité contrôlée)",
+    "textes": [
+      "i22-24"
+    ]
+  },
+  {
+    "id": "acteurs-et-intervenants-du-marche-assujettis-lbc-ft",
+    "nom": "Acteurs et intervenants du marché (assujettis LBC/FT)",
+    "textes": [
+      "ld-vigilance"
+    ]
+  },
+  {
+    "id": "administrateur-provisoire",
+    "nom": "Administrateur provisoire",
+    "textes": [
+      "rg-23"
+    ]
+  },
+  {
+    "id": "agence-de-notation",
+    "nom": "Agence de notation",
+    "textes": [
+      "i03-23",
+      "i10-23",
+      "i21-24"
+    ]
+  },
+  {
+    "id": "agence-mandatee-groupe",
+    "nom": "Agence mandatée (groupe)",
+    "textes": [
+      "i03-23"
+    ]
+  },
+  {
+    "id": "agent-de-calcul",
+    "nom": "Agent de calcul",
+    "textes": [
+      "i29-24"
+    ]
+  },
+  {
+    "id": "agent-placeur",
+    "nom": "Agent placeur",
+    "textes": [
+      "i29-24",
+      "r01-22"
+    ]
+  },
+  {
+    "id": "anif",
+    "nom": "ANIF",
+    "textes": [
+      "i39-25",
+      "r02-24",
+      "rg-23"
+    ]
+  },
+  {
+    "id": "anif-declarations-de-soupcon",
+    "nom": "ANIF (déclarations de soupçon)",
+    "textes": [
+      "ld-dos"
+    ]
+  },
+  {
+    "id": "apporteur-de-liquidite",
+    "nom": "Apporteur de liquidité",
+    "textes": [
+      "ibv-02"
+    ]
+  },
+  {
+    "id": "arrangeur",
+    "nom": "Arrangeur",
+    "textes": [
+      "i29-24"
+    ]
+  },
+  {
+    "id": "association-professionnelle",
+    "nom": "Association professionnelle",
+    "textes": [
+      "rg-23"
+    ]
+  },
+  {
+    "id": "association-professionnelle-des-societes-de-bourse",
+    "nom": "Association Professionnelle des Sociétés de Bourse",
+    "textes": [
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "assujetti-entite-controlee",
+    "nom": "Assujetti (entité contrôlée)",
+    "textes": [
+      "i32-24"
+    ]
+  },
+  {
+    "id": "banque-de-reglement-beac",
+    "nom": "Banque de règlement (BEAC)",
+    "textes": [
+      "r01-22"
+    ]
+  },
+  {
+    "id": "beac-depositaire-central-transitoire",
+    "nom": "BEAC (dépositaire central transitoire)",
+    "textes": [
+      "aa06-17"
+    ]
+  },
+  {
+    "id": "beac-reglementation-des-changes",
+    "nom": "BEAC (réglementation des changes)",
+    "textes": [
+      "r02-18"
+    ]
+  },
+  {
+    "id": "bvmac",
+    "nom": "BVMAC",
+    "textes": [
+      "ibv-01",
+      "r03-26",
+      "rbv-08"
+    ]
+  },
+  {
+    "id": "bvmac-entreprise-de-marche-unique",
+    "nom": "BVMAC (entreprise de marché unique)",
+    "textes": [
+      "aa06-17"
+    ]
+  },
+  {
+    "id": "bvmac-entreprise-de-marche",
+    "nom": "BVMAC (entreprise de marché)",
+    "textes": [
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "bvmac-surveillance-de-marche",
+    "nom": "BVMAC (surveillance de marché)",
+    "textes": [
+      "ibv-02"
+    ]
+  },
+  {
+    "id": "centralisateur",
+    "nom": "Centralisateur",
+    "textes": [
+      "i19-24",
+      "i24-24"
+    ]
+  },
+  {
+    "id": "chambre-de-compensation",
+    "nom": "Chambre de compensation",
+    "textes": [
+      "r01-22"
+    ]
+  },
+  {
+    "id": "chef-de-file",
+    "nom": "Chef de file",
+    "textes": [
+      "i05-23",
+      "i29-24"
+    ]
+  },
+  {
+    "id": "client-mandant",
+    "nom": "Client (mandant)",
+    "textes": [
+      "i47-25"
+    ]
+  },
+  {
+    "id": "cobac",
+    "nom": "COBAC",
+    "textes": [
+      "i48-25"
+    ]
+  },
+  {
+    "id": "cobac-commission-bancaire-de-l-afrique-centrale",
+    "nom": "COBAC (Commission Bancaire de l'Afrique Centrale)",
+    "textes": [
+      "conv-umac-08"
+    ]
+  },
+  {
+    "id": "college-de-la-cosumaf",
+    "nom": "Collège de la COSUMAF",
+    "textes": [
+      "i23-24",
+      "i46-25",
+      "r01-22"
+    ]
+  },
+  {
+    "id": "college-de-la-cosumaf-agrement-des-dirigeants",
+    "nom": "Collège de la COSUMAF (agrément des dirigeants)",
+    "textes": [
+      "lc-001-26"
+    ]
+  },
+  {
+    "id": "college-de-la-cosumaf-tarification",
+    "nom": "Collège de la COSUMAF (tarification)",
+    "textes": [
+      "cc-03-20"
+    ]
+  },
+  {
+    "id": "comite-d-admission",
+    "nom": "Comité d'Admission",
+    "textes": [
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "comite-d-admission-bvmac",
+    "nom": "Comité d'admission (BVMAC)",
+    "textes": [
+      "rbv-08"
+    ]
+  },
+  {
+    "id": "comite-d-investissement",
+    "nom": "Comité d'investissement",
+    "textes": [
+      "i47-25"
+    ]
+  },
+  {
+    "id": "comite-ministeriel-de-l-umac",
+    "nom": "Comité Ministériel de l'UMAC",
+    "textes": [
+      "aa03-01",
+      "cc-03-20",
+      "conv-umac-08",
+      "r01-14",
+      "r01-22"
+    ]
+  },
+  {
+    "id": "comite-ministeriel-de-l-umac-liste-des-participations",
+    "nom": "Comité ministériel de l'UMAC (liste des participations)",
+    "textes": [
+      "r19-intro"
+    ]
+  },
+  {
+    "id": "commissaire-aux-comptes",
+    "nom": "Commissaire aux comptes",
+    "textes": [
+      "i05-23",
+      "i30-24"
+    ]
+  },
+  {
+    "id": "commissaire-aux-comptes-modification-du-capital",
+    "nom": "Commissaire aux comptes (modification du capital)",
+    "textes": [
+      "lc-001-24"
+    ]
+  },
+  {
+    "id": "commissaire-aux-comptes-sec",
+    "nom": "Commissaire aux comptes (SEC)",
+    "textes": [
+      "i22-24"
+    ]
+  },
+  {
+    "id": "commissaire-aux-comptes-d-ot",
+    "nom": "Commissaire aux comptes d'OT",
+    "textes": [
+      "i21-24"
+    ]
+  },
+  {
+    "id": "commissaire-aux-comptes-de-l-opci",
+    "nom": "Commissaire aux comptes de l'OPCI",
+    "textes": [
+      "i15-24"
+    ]
+  },
+  {
+    "id": "commissaire-aux-comptes-du-fcpi",
+    "nom": "Commissaire aux comptes du FCPI",
+    "textes": [
+      "i16-24"
+    ]
+  },
+  {
+    "id": "commission-des-sanctions",
+    "nom": "Commission des sanctions",
+    "textes": [
+      "i46-25",
+      "r01-22"
+    ]
+  },
+  {
+    "id": "commission-permanente-de-l-harmonisation-fiscale-et-comptable",
+    "nom": "Commission permanente de l'harmonisation fiscale et comptable",
+    "textes": [
+      "rfi-07"
+    ]
+  },
+  {
+    "id": "conference-des-chefs-d-etat-de-la-cemac",
+    "nom": "Conférence des Chefs d'État de la CEMAC",
+    "textes": [
+      "aa03-01",
+      "tr-cemac-09"
+    ]
+  },
+  {
+    "id": "conseil-de-surveillance-d-un-fcpe",
+    "nom": "Conseil de surveillance d'un FCPE",
+    "textes": [
+      "rg-23"
+    ]
+  },
+  {
+    "id": "conseil-de-surveillance-du-fcpi",
+    "nom": "Conseil de surveillance du FCPI",
+    "textes": [
+      "i16-24"
+    ]
+  },
+  {
+    "id": "conseil-des-ministres-de-l-ueac",
+    "nom": "Conseil des Ministres de l'UEAC",
+    "textes": [
+      "rfi-07"
+    ]
+  },
+  {
+    "id": "conseiller-opci",
+    "nom": "Conseiller (OPCI)",
+    "textes": [
+      "i19-24"
+    ]
+  },
+  {
+    "id": "conseiller-en-investissements-financiers-cif",
+    "nom": "Conseiller en investissements financiers (CIF)",
+    "textes": [
+      "i42-25",
+      "i49-26"
+    ]
+  },
+  {
+    "id": "conseiller-en-investissements-financiers-reporting",
+    "nom": "Conseiller en investissements financiers (reporting)",
+    "textes": [
+      "lc-005-24"
+    ]
+  },
+  {
+    "id": "controleurs-legaux-cac",
+    "nom": "Contrôleurs légaux (CAC)",
+    "textes": [
+      "i04-23"
+    ]
+  },
+  {
+    "id": "cosumaf",
+    "nom": "COSUMAF",
+    "textes": [
+      "i01-23",
+      "i02-23",
+      "i03-23",
+      "i04-23",
+      "i06-23",
+      "i08-23",
+      "i09-23",
+      "i10-23",
+      "i11-24",
+      "i12-24",
+      "i13-24",
+      "i14-24",
+      "i17-24",
+      "i18-24",
+      "i20-24",
+      "i22-24",
+      "i23-24",
+      "i26-24",
+      "i28-24",
+      "i33-24",
+      "i42-25",
+      "i44-25",
+      "i45-25",
+      "r01-22",
+      "r03-26",
+      "r04-25",
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "cosumaf-autorite-de-regulation-unique",
+    "nom": "COSUMAF (autorité de régulation unique)",
+    "textes": [
+      "aa06-17"
+    ]
+  },
+  {
+    "id": "cosumaf-institution-specialisee-de-l-umac",
+    "nom": "COSUMAF (institution spécialisée de l'UMAC)",
+    "textes": [
+      "conv-umac-08"
+    ]
+  },
+  {
+    "id": "cosumaf-lbc-ft",
+    "nom": "COSUMAF (LBC/FT)",
+    "textes": [
+      "ld-vigilance"
+    ]
+  },
+  {
+    "id": "cosumaf-lignes-directrices-dos",
+    "nom": "COSUMAF (lignes directrices DOS)",
+    "textes": [
+      "ld-dos"
+    ]
+  },
+  {
+    "id": "cosumaf-modification-du-capital",
+    "nom": "COSUMAF (modification du capital)",
+    "textes": [
+      "lc-001-24"
+    ]
+  },
+  {
+    "id": "cosumaf-obligations-gss",
+    "nom": "COSUMAF (obligations GSS)",
+    "textes": [
+      "guide-ovsd-26"
+    ]
+  },
+  {
+    "id": "cosumaf-reglement-06-03",
+    "nom": "COSUMAF (Règlement 06/03)",
+    "textes": [
+      "r06-03"
+    ]
+  },
+  {
+    "id": "cosumaf-reporting-des-sgo",
+    "nom": "COSUMAF (reporting des SGO)",
+    "textes": [
+      "lc-002-24"
+    ]
+  },
+  {
+    "id": "cosumaf-tarification",
+    "nom": "COSUMAF (tarification)",
+    "textes": [
+      "cc-01-08"
+    ]
+  },
+  {
+    "id": "cour-de-justice-de-la-cemac",
+    "nom": "Cour de Justice de la CEMAC",
+    "textes": [
+      "r01-22"
+    ]
+  },
+  {
+    "id": "declarant-et-correspondant-anif",
+    "nom": "Déclarant et correspondant ANIF",
+    "textes": [
+      "ld-dos"
+    ]
+  },
+  {
+    "id": "delegue-dans-la-chaine-de-conservation",
+    "nom": "Délégué dans la chaîne de conservation",
+    "textes": [
+      "i07-23"
+    ]
+  },
+  {
+    "id": "depositaire-central",
+    "nom": "Dépositaire Central",
+    "textes": [
+      "i09-23",
+      "r01-22",
+      "r04-25",
+      "rbv-08",
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "depositaire-central-regime-01-14",
+    "nom": "Dépositaire Central (régime 01/14)",
+    "textes": [
+      "r01-14"
+    ]
+  },
+  {
+    "id": "depositaire-d-opc",
+    "nom": "Dépositaire d'OPC",
+    "textes": [
+      "i07-23",
+      "i13-24",
+      "r01-22"
+    ]
+  },
+  {
+    "id": "depositaire-d-opc-calendrier-2026",
+    "nom": "Dépositaire d'OPC (calendrier 2026)",
+    "textes": [
+      "lc-002-26"
+    ]
+  },
+  {
+    "id": "depositaire-d-opc-diligences-post-agrement",
+    "nom": "Dépositaire d'OPC (diligences post-agrément)",
+    "textes": [
+      "lc-003-26"
+    ]
+  },
+  {
+    "id": "depositaire-d-opcvm",
+    "nom": "Dépositaire d'OPCVM",
+    "textes": [
+      "i24-24",
+      "i41-25"
+    ]
+  },
+  {
+    "id": "depositaire-d-ot",
+    "nom": "Dépositaire d'OT",
+    "textes": [
+      "i21-24"
+    ]
+  },
+  {
+    "id": "depositaire-de-l-opci",
+    "nom": "Dépositaire de l'OPCI",
+    "textes": [
+      "i15-24"
+    ]
+  },
+  {
+    "id": "depositaire-du-fcpi",
+    "nom": "Dépositaire du FCPI",
+    "textes": [
+      "i16-24"
+    ]
+  },
+  {
+    "id": "depositaire-du-fpc",
+    "nom": "Dépositaire du FPC",
+    "textes": [
+      "i35-25"
+    ]
+  },
+  {
+    "id": "dirigeant-effectif",
+    "nom": "Dirigeant effectif",
+    "textes": [
+      "i33-24"
+    ]
+  },
+  {
+    "id": "distributeur",
+    "nom": "Distributeur",
+    "textes": [
+      "i28-24"
+    ]
+  },
+  {
+    "id": "emetteur",
+    "nom": "Émetteur",
+    "textes": [
+      "i04-23",
+      "i05-23",
+      "i45-25",
+      "ibv-01",
+      "r03-26",
+      "r04-25"
+    ]
+  },
+  {
+    "id": "emetteur-frais-bvmac",
+    "nom": "Émetteur (frais BVMAC)",
+    "textes": [
+      "ibv-03"
+    ]
+  },
+  {
+    "id": "emetteur-placement-prive",
+    "nom": "Émetteur (placement privé)",
+    "textes": [
+      "i26-24",
+      "i27-24"
+    ]
+  },
+  {
+    "id": "emetteur-ape",
+    "nom": "Émetteur APE",
+    "textes": [
+      "i30-24",
+      "i44-25"
+    ]
+  },
+  {
+    "id": "emetteur-d-obligations-gss",
+    "nom": "Émetteur d'obligations GSS",
+    "textes": [
+      "guide-ovsd-26"
+    ]
+  },
+  {
+    "id": "emetteur-ou-offreur",
+    "nom": "Émetteur ou offreur",
+    "textes": [
+      "i20-24"
+    ]
+  },
+  {
+    "id": "entite-controlee-par-la-cosumaf",
+    "nom": "Entité contrôlée par la COSUMAF",
+    "textes": [
+      "i31-24"
+    ]
+  },
+  {
+    "id": "entreprise-de-marche-bvmac",
+    "nom": "Entreprise de marché (BVMAC)",
+    "textes": [
+      "i12-24",
+      "r01-22"
+    ]
+  },
+  {
+    "id": "etablissement-centralisateur-ape",
+    "nom": "Établissement centralisateur (APE)",
+    "textes": [
+      "rg-23"
+    ]
+  },
+  {
+    "id": "etablissement-charge-des-operations-de-regularisation",
+    "nom": "Établissement chargé des opérations de régularisation",
+    "textes": [
+      "i29-24"
+    ]
+  },
+  {
+    "id": "etablissement-de-credit-appel-public-a-l-epargne-transfrontalier",
+    "nom": "Établissement de crédit (appel public à l'épargne transfrontalier)",
+    "textes": [
+      "au-ohada-14"
+    ]
+  },
+  {
+    "id": "etablissements-de-credit-intermediaires-agrees",
+    "nom": "Établissements de crédit (intermédiaires agréés)",
+    "textes": [
+      "r02-18"
+    ]
+  },
+  {
+    "id": "etat-ou-collectivite-emetteur",
+    "nom": "État ou collectivité émetteur",
+    "textes": [
+      "i30-24"
+    ]
+  },
+  {
+    "id": "etats-membres",
+    "nom": "États membres",
+    "textes": [
+      "aa06-17"
+    ]
+  },
+  {
+    "id": "etats-membres-de-la-cemac-cession-de-participations",
+    "nom": "États membres de la CEMAC (cession de participations)",
+    "textes": [
+      "r19-intro"
+    ]
+  },
+  {
+    "id": "evaluateur-externe-obligations-vertes",
+    "nom": "Évaluateur externe (obligations vertes)",
+    "textes": [
+      "i44-25"
+    ]
+  },
+  {
+    "id": "expert-en-evaluation-de-l-opci",
+    "nom": "Expert en évaluation de l'OPCI",
+    "textes": [
+      "i43-25"
+    ]
+  },
+  {
+    "id": "expert-en-evaluation-immobiliere",
+    "nom": "Expert en évaluation immobilière",
+    "textes": [
+      "i15-24"
+    ]
+  },
+  {
+    "id": "expert-en-evaluation-immobiliere-assermente",
+    "nom": "Expert en évaluation immobilière assermenté",
+    "textes": [
+      "i17-24"
+    ]
+  },
+  {
+    "id": "expert-externe-en-evaluation",
+    "nom": "Expert externe en évaluation",
+    "textes": [
+      "i19-24"
+    ]
+  },
+  {
+    "id": "fonction-de-reexamen",
+    "nom": "Fonction de réexamen",
+    "textes": [
+      "i10-23"
+    ]
+  },
+  {
+    "id": "gabac",
+    "nom": "GABAC",
+    "textes": [
+      "conv-umac-08",
+      "r02-24"
+    ]
+  },
+  {
+    "id": "gerant-mandataire-sdb-ou-sgo",
+    "nom": "Gérant / mandataire (SDB ou SGO)",
+    "textes": [
+      "i47-25"
+    ]
+  },
+  {
+    "id": "gestionnaire",
+    "nom": "Gestionnaire",
+    "textes": [
+      "i47-25"
+    ]
+  },
+  {
+    "id": "huissier-de-justice",
+    "nom": "Huissier de justice",
+    "textes": [
+      "rbv-08"
+    ]
+  },
+  {
+    "id": "institution-financiere-assujettie",
+    "nom": "Institution financière (assujettie)",
+    "textes": [
+      "r02-24"
+    ]
+  },
+  {
+    "id": "intermediaire-arrangeur",
+    "nom": "Intermédiaire / arrangeur",
+    "textes": [
+      "i05-23"
+    ]
+  },
+  {
+    "id": "intermediaire-de-marche",
+    "nom": "Intermédiaire de marché",
+    "textes": [
+      "i01-23",
+      "i02-23"
+    ]
+  },
+  {
+    "id": "intermediaire-de-marche-modification-du-capital",
+    "nom": "Intermédiaire de marché (modification du capital)",
+    "textes": [
+      "lc-001-24"
+    ]
+  },
+  {
+    "id": "intermediaire-de-marche-agree",
+    "nom": "Intermédiaire de marché agréé",
+    "textes": [
+      "r03-26"
+    ]
+  },
+  {
+    "id": "intermediaire-en-bourse",
+    "nom": "Intermédiaire en bourse",
+    "textes": [
+      "rfi-07"
+    ]
+  },
+  {
+    "id": "intermediaire-repreneur",
+    "nom": "Intermédiaire repreneur",
+    "textes": [
+      "i48-25"
+    ]
+  },
+  {
+    "id": "liquidateur",
+    "nom": "Liquidateur",
+    "textes": [
+      "i48-25"
+    ]
+  },
+  {
+    "id": "listing-sponsor",
+    "nom": "Listing sponsor",
+    "textes": [
+      "r01-22"
+    ]
+  },
+  {
+    "id": "mediateur",
+    "nom": "Médiateur",
+    "textes": [
+      "r01-22"
+    ]
+  },
+  {
+    "id": "membre-de-l-organe-executif",
+    "nom": "Membre de l'organe exécutif",
+    "textes": [
+      "i32-24"
+    ]
+  },
+  {
+    "id": "membre-de-la-bvmac",
+    "nom": "Membre de la BVMAC",
+    "textes": [
+      "ibv-02"
+    ]
+  },
+  {
+    "id": "membres-independants-du-conseil-agence",
+    "nom": "Membres indépendants du conseil (agence)",
+    "textes": [
+      "i10-23"
+    ]
+  },
+  {
+    "id": "ministere-en-charge-de-la-monnaie-et-du-credit",
+    "nom": "Ministère en charge de la monnaie et du crédit",
+    "textes": [
+      "r02-18"
+    ]
+  },
+  {
+    "id": "opci",
+    "nom": "OPCI",
+    "textes": [
+      "i43-25"
+    ]
+  },
+  {
+    "id": "organisme-de-garantie",
+    "nom": "Organisme de garantie",
+    "textes": [
+      "r01-22"
+    ]
+  },
+  {
+    "id": "point-de-contact-cosumaf",
+    "nom": "Point de contact (COSUMAF)",
+    "textes": [
+      "i01-23"
+    ]
+  },
+  {
+    "id": "premiers-porteurs-et-sgo-diligences-post-agrement",
+    "nom": "Premiers porteurs et SGO (diligences post-agrément)",
+    "textes": [
+      "lc-003-26"
+    ]
+  },
+  {
+    "id": "president-de-la-commission-de-la-cemac",
+    "nom": "Président de la Commission de la CEMAC",
+    "textes": [
+      "tr-cemac-09"
+    ]
+  },
+  {
+    "id": "president-de-la-cosumaf",
+    "nom": "Président de la COSUMAF",
+    "textes": [
+      "i48-25",
+      "r01-22",
+      "rg-23"
+    ]
+  },
+  {
+    "id": "president-de-la-cosumaf-introduction-des-etats",
+    "nom": "Président de la COSUMAF (introduction des États)",
+    "textes": [
+      "r19-intro"
+    ]
+  },
+  {
+    "id": "prestataire-de-services-sur-actifs-virtuels-psav",
+    "nom": "Prestataire de services sur actifs virtuels (PSAV)",
+    "textes": [
+      "r02-24"
+    ]
+  },
+  {
+    "id": "rcci-responsable-conformite-et-controle-interne",
+    "nom": "RCCI (responsable conformité et contrôle interne)",
+    "textes": [
+      "i06-23",
+      "i39-25"
+    ]
+  },
+  {
+    "id": "regulateur-du-marche-financier-cosumaf",
+    "nom": "Régulateur du marché financier (COSUMAF)",
+    "textes": [
+      "r02-18"
+    ]
+  },
+  {
+    "id": "responsable-de-l-audit-interne",
+    "nom": "Responsable de l'audit interne",
+    "textes": [
+      "i33-24"
+    ]
+  },
+  {
+    "id": "responsable-de-la-conformite",
+    "nom": "Responsable de la conformité",
+    "textes": [
+      "i33-24"
+    ]
+  },
+  {
+    "id": "responsable-de-la-fonction-de-depositaire",
+    "nom": "Responsable de la fonction de dépositaire",
+    "textes": [
+      "i07-23"
+    ]
+  },
+  {
+    "id": "responsable-de-la-gestion-des-risques",
+    "nom": "Responsable de la gestion des risques",
+    "textes": [
+      "i33-24"
+    ]
+  },
+  {
+    "id": "responsable-de-la-verification-de-la-conformite-agence",
+    "nom": "Responsable de la vérification de la conformité (agence)",
+    "textes": [
+      "i10-23"
+    ]
+  },
+  {
+    "id": "responsable-des-relations-avec-les-investisseurs",
+    "nom": "Responsable des relations avec les investisseurs",
+    "textes": [
+      "rbv-08"
+    ]
+  },
+  {
+    "id": "responsable-du-controle-interne-societe-de-bourse",
+    "nom": "Responsable du contrôle interne (société de bourse)",
+    "textes": [
+      "rbv-08"
+    ]
+  },
+  {
+    "id": "reviseur-independant-obligations-gss",
+    "nom": "Réviseur indépendant (obligations GSS)",
+    "textes": [
+      "guide-ovsd-26"
+    ]
+  },
+  {
+    "id": "rssi",
+    "nom": "RSSI",
+    "textes": [
+      "i39-25"
+    ]
+  },
+  {
+    "id": "secretaire-general-de-la-cosumaf",
+    "nom": "Secrétaire Général de la COSUMAF",
+    "textes": [
+      "r01-22",
+      "rg-23"
+    ]
+  },
+  {
+    "id": "sgo-et-fondateurs-diligences-post-agrement",
+    "nom": "SGO et fondateurs (diligences post-agrément)",
+    "textes": [
+      "lc-003-26"
+    ]
+  },
+  {
+    "id": "societe-de-bourse",
+    "nom": "Société de bourse",
+    "textes": [
+      "i08-23",
+      "i39-25",
+      "i49-26",
+      "rbv-08",
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "societe-de-bourse-frais-bvmac",
+    "nom": "Société de bourse (frais BVMAC)",
+    "textes": [
+      "ibv-03"
+    ]
+  },
+  {
+    "id": "societe-de-bourse-placement-prive",
+    "nom": "Société de bourse (placement privé)",
+    "textes": [
+      "i26-24"
+    ]
+  },
+  {
+    "id": "societe-de-bourse-reporting",
+    "nom": "Société de bourse (reporting)",
+    "textes": [
+      "lc-005-24"
+    ]
+  },
+  {
+    "id": "societe-de-bourse-chef-de-file",
+    "nom": "Société de bourse chef de file",
+    "textes": [
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "societe-de-bourse-mandatee",
+    "nom": "Société de bourse mandatée",
+    "textes": [
+      "i04-23"
+    ]
+  },
+  {
+    "id": "societe-de-bourse-specialiste",
+    "nom": "Société de bourse spécialiste",
+    "textes": [
+      "rbv-25"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opc",
+    "nom": "Société de gestion d'OPC",
+    "textes": [
+      "i06-23",
+      "i11-24",
+      "i13-24",
+      "i14-24",
+      "i25-24",
+      "i28-24",
+      "i45-25",
+      "i49-26",
+      "r03-26"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opc-calendrier-2026",
+    "nom": "Société de gestion d'OPC (calendrier 2026)",
+    "textes": [
+      "lc-002-26"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opc-calendrier-de-reporting",
+    "nom": "Société de gestion d'OPC (calendrier de reporting)",
+    "textes": [
+      "lc-003-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opc-mise-en-conformite",
+    "nom": "Société de gestion d'OPC (mise en conformité)",
+    "textes": [
+      "lc-004-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opc-reporting",
+    "nom": "Société de gestion d'OPC (reporting)",
+    "textes": [
+      "lc-002-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opc-societe-d-investissement",
+    "nom": "Société de gestion d'OPC / société d'investissement",
+    "textes": [
+      "i40-25"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opci",
+    "nom": "Société de gestion d'OPCI",
+    "textes": [
+      "i16-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opcvm",
+    "nom": "Société de gestion d'OPCVM",
+    "textes": [
+      "i24-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-opcvm-societe-d-investissement",
+    "nom": "Société de gestion d'OPCVM / société d'investissement",
+    "textes": [
+      "i41-25"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-d-ot",
+    "nom": "Société de gestion d'OT",
+    "textes": [
+      "i21-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-de-l-opci-ou-spi",
+    "nom": "Société de gestion de l'OPCI ou SPI",
+    "textes": [
+      "i15-24"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-de-l-organisme-de-capital-investissement",
+    "nom": "Société de gestion de l'organisme de capital investissement",
+    "textes": [
+      "i34-25"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-du-fpc",
+    "nom": "Société de gestion du FPC",
+    "textes": [
+      "i35-25"
+    ]
+  },
+  {
+    "id": "societe-de-gestion-du-fpi",
+    "nom": "Société de gestion du FPI",
+    "textes": [
+      "i37-25"
+    ]
+  },
+  {
+    "id": "societe-de-placement-en-capital-spc",
+    "nom": "Société de placement en capital (SPC)",
+    "textes": [
+      "i36-25"
+    ]
+  },
+  {
+    "id": "societe-professionnelle-d-investissement-a-long-terme-spi",
+    "nom": "Société professionnelle d'investissement à long terme (SPI)",
+    "textes": [
+      "i38-25"
+    ]
+  },
+  {
+    "id": "structure-agreee",
+    "nom": "Structure agréée",
+    "textes": [
+      "i46-25"
+    ]
+  },
+  {
+    "id": "structure-employeuse",
+    "nom": "Structure employeuse",
+    "textes": [
+      "i18-24"
+    ]
+  },
+  {
+    "id": "syndic",
+    "nom": "Syndic",
+    "textes": [
+      "r04-25"
+    ]
+  },
+  {
+    "id": "syndic-liquidation-d-un-teneur-de-compte",
+    "nom": "Syndic (liquidation d'un teneur de compte)",
+    "textes": [
+      "r01-14"
+    ]
+  },
+  {
+    "id": "syndic-ou-administrateur-judiciaire",
+    "nom": "Syndic ou administrateur judiciaire",
+    "textes": [
+      "i48-25"
+    ]
+  },
+  {
+    "id": "teneur-de-compte",
+    "nom": "Teneur de compte",
+    "textes": [
+      "r01-14",
+      "r04-25",
+      "rfi-07"
+    ]
+  },
+  {
+    "id": "teneur-de-comptes-reporting",
+    "nom": "Teneur de comptes (reporting)",
+    "textes": [
+      "lc-005-24"
+    ]
+  },
+  {
+    "id": "tiers-independant-verification",
+    "nom": "Tiers indépendant (vérification)",
+    "textes": [
+      "i32-24"
+    ]
+  },
+  {
+    "id": "tiers-introducteur",
+    "nom": "Tiers introducteur",
+    "textes": [
+      "i32-24"
+    ]
+  }
+]

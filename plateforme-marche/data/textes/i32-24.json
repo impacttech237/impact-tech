@@ -1,0 +1,98 @@
+{
+  "id": "i32-24",
+  "ordre": 41,
+  "type": "instruction",
+  "numero": "32-24",
+  "titre": "Obligations de vigilance en matière de LBC/FT",
+  "theme": "conformite",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Mise en œuvre des obligations de vigilance contre le blanchiment de capitaux et le financement du terrorisme (art. 14 du Règlement 01/22, art. 93 et suivants du RG) : connaissance du client et du bénéficiaire effectif, approche par les risques, conservation, recours à des tiers, facteurs de risque.",
+    "essentiel": "**Identifier** (déclaratif) puis **vérifier** (pièce probante) le client, son représentant et le **bénéficiaire effectif**, **avant** la relation d'affaires. Personne physique présente : **original** d'une pièce officielle avec **photo** ; personne morale : extrait de registre de **moins de 3 mois** ; à distance : identification électronique fiable ou **au moins 2 mesures**. Pas de bénéficiaire effectif à identifier pour une société **cotée** (ou détenue à **plus de 75 %** par une cotée). Risque **faible** : identification seule ; risque **élevé** et **PPE** : vigilance **renforcée**, décision par l'**organe exécutif**. Conservation **5 ans**.",
+    "retenir": [
+      "Champ : entités contrôlées par la COSUMAF (art. **89 du RG**) ; base : **art. 14 du Règlement 01/22** et **art. 93 et suivants du RG**. Art. 1",
+      "**Identification** = déclaratif (nom, prénoms, date et lieu de naissance ; pour une personne morale : forme, dénomination, immatriculation, adresse). **Vérification** = document écrit **probant** (papier ou numérique). Le **mandataire** est identifié et ses **pouvoirs** vérifiés. Art. 2",
+      "Personne physique présente : **original** d'un document officiel d'identité **en cours de validité avec photo**, dont l'assujetti **prend copie** ; document en alphabet non latin **traduit en français**. Art. 2.3",
+      "Personne morale : acte ou **extrait de registre officiel de moins de 3 mois** (dénomination, forme, siège, associés, dirigeants) ; **fiducie ou trust** : le contrat. Art. 2.4",
+      "**À distance** : moyen d'identification électronique fiable ou **au moins deux mesures** : copie de pièce, certification par un **tiers indépendant**, **premier paiement** depuis un compte bancaire CEMAC au nom du client, confirmation par un tiers assujetti, **signature électronique** qualifiée. Art. 2.5",
+      "**Bénéficiaire effectif** : identifié en remontant la **chaîne de détention**, vérifié avant l'entrée en relation ; **dispense** si le client est **coté** sur la bourse régionale ou détenu à **plus de 75 %** par une société cotée. Art. 3",
+      "Connaissance de la relation d'affaires : objet, nature, **profil de risque** ; personne physique : situation financière et professionnelle, **justificatif de domicile**, **provenance des fonds** ; personne morale : statuts, objet, secteur, situation financière (bilan prévisionnel si société nouvelle). Art. 4",
+      "Vérifications **avant** la relation ou l'opération ; exception si risque **faible** : pendant l'établissement de la relation, au plus tard à la **conclusion du contrat**. Mise à jour obligatoire (vigilance constante). Art. 5",
+      "Risque **faible** (sans soupçon) : **identification seule** suffit. Clients à risque faible : organismes et intermédiaires de marché, OPC et leurs SGO et dépositaires, CAC, organismes de garantie, **Fonds de garantie**, sociétés **cotées**, autorités publiques, institutions internationales. Art. 6.1-6.2",
+      "Opération **complexe**, d'un montant **inhabituellement élevé**, sans **justification économique** ou objet licite apparent : **examen renforcé** de l'**origine des fonds**, leur **destination**, l'**objet** et le **bénéficiaire**. Art. 6.3",
+      "Vigilances complémentaires : **PPE**, produits favorisant l'**anonymat**, **pays tiers à haut risque** → décision par un **membre de l'organe exécutif**, informations supplémentaires (origine du patrimoine), surveillance renforcée. Art. 6.4",
+      "**Conservation 5 ans** : documents d'identité et de vigilance à compter de la **clôture du compte** ou de la fin de la relation ; documents sur les opérations à compter de leur **exécution** ; résultats des examens renforcés. Art. 7",
+      "**Tiers introducteur** possible, après analyse de risque écrite et **contrat** préalable ; l'assujetti reste **pleinement responsable** et accède sans délai aux informations. Art. 8",
+      "Évaluation des risques : facteurs liés au **client**, au **pays**, aux **produits/services/transactions**, aux **canaux de distribution** ; risque résiduel = risque inhérent − qualité des contrôles ; pondération jamais dominée par un facteur ni par le profit ; mise à jour **chaque année** et dès qu'un risque nouveau apparaît. Art. 9-14"
+    ],
+    "listes": [
+      {
+        "titre": "Les 4 familles de facteurs de risque LBC/FT",
+        "a": "art. 10-12",
+        "items": [
+          "Clients et bénéficiaires effectifs",
+          "Pays ou zones géographiques",
+          "Produits, services et transactions",
+          "Canaux de distribution"
+        ]
+      },
+      {
+        "titre": "Points de l'examen renforcé",
+        "a": "art. 6.3",
+        "items": [
+          "Origine des fonds",
+          "Destination des sommes",
+          "Objet de l'opération",
+          "Identité du bénéficiaire"
+        ]
+      },
+      {
+        "titre": "Mesures de vérification à distance (2 au moins)",
+        "a": "art. 2.5",
+        "items": [
+          "Copie d'un document officiel avec photo (ou extrait de registre < 3 mois)",
+          "Certification par un tiers indépendant",
+          "Premier paiement via un compte bancaire CEMAC au nom du client",
+          "Confirmation par un tiers assujetti",
+          "Signature ou cachet électronique qualifié"
+        ]
+      }
+    ],
+    "pieges": [
+      "Conservation LBC/FT : **5 ans** selon l'Instruction 32-24 ; d'autres textes (Règlement CEMAC LBC/FT, RG) peuvent prévoir **10 ans** : citer la source.",
+      "Dispense d'identifier le bénéficiaire effectif : société **cotée** ou détenue à **plus de 75 %** par une cotée.",
+      "**Identification** (déclaratif) ≠ **vérification** (preuve)."
+    ],
+    "qr": [
+      {
+        "q": "Quelles mesures renforcées s'appliquent à une personne politiquement exposée ?",
+        "r": "La décision de nouer ou maintenir la relation est prise par un membre de l'organe exécutif, on recueille des informations supplémentaires (origine des fonds et du patrimoine, objet des opérations) et on renforce la surveillance (contrôles plus nombreux et fréquents)."
+      },
+      {
+        "q": "Comment vérifier l'identité d'un client qui entre en relation à distance ?",
+        "r": "Par un moyen d'identification électronique fiable ou par au moins deux mesures : copie de pièce, certification par un tiers indépendant, premier paiement depuis un compte CEMAC au nom du client, confirmation par un tiers assujetti, signature électronique qualifiée."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

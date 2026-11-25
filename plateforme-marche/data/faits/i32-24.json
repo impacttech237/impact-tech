@@ -1,0 +1,383 @@
+[
+  {
+    "id": "i32-24.delai.01",
+    "texte": "i32-24",
+    "type": "delai",
+    "article": "art. 2.4",
+    "enonce": "Ancienneté maximale de l'extrait de registre d'une personne morale (LBC/FT)",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.delai.02",
+    "texte": "i32-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Conservation des documents d'identification et de vigilance (Instruction 32-24)",
+    "valeur_texte": "5 ans après la clôture du compte ou la fin de la relation",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.delai.03",
+    "texte": "i32-24",
+    "type": "delai",
+    "article": "art. 7",
+    "enonce": "Conservation des documents relatifs aux opérations des clients (Instruction 32-24)",
+    "valeur_texte": "5 ans après leur exécution",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.delai.04",
+    "texte": "i32-24",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Mise à jour de l'évaluation des risques LBC/FT à l'échelle de l'entreprise",
+    "valeur_texte": "chaque année civile (date fixée)",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.delai.05",
+    "texte": "i32-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Moment des vérifications d'identité du client",
+    "valeur_texte": "avant l'entrée en relation d'affaires",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Si risque faible : au plus tard à la conclusion du contrat.",
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.montant.01",
+    "texte": "i32-24",
+    "type": "montant",
+    "article": "art. 3",
+    "enonce": "Seuil de détention par une société cotée dispensant d'identifier le bénéficiaire effectif",
+    "valeur_texte": "plus de 75 %",
+    "type_valeur": "nombre",
+    "valeur": 75,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.montant.02",
+    "texte": "i32-24",
+    "type": "montant",
+    "article": "art. 2.5",
+    "enonce": "Nombre minimal de mesures de vérification d'un client à distance",
+    "valeur_texte": "2 mesures",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.role.01",
+    "texte": "i32-24",
+    "type": "role",
+    "article": "art. 2-14",
+    "enonce": "Assujetti (entité contrôlée)",
+    "valeur_texte": "Identifie et vérifie client et bénéficiaire effectif, évalue et classe les risques, applique une vigilance proportionnée et conserve les documents 5 ans.",
+    "acteurs": [
+      "assujetti-entite-controlee"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.role.02",
+    "texte": "i32-24",
+    "type": "role",
+    "article": "art. 6.4",
+    "enonce": "Membre de l'organe exécutif",
+    "valeur_texte": "Décide de nouer ou maintenir une relation avec une PPE, un produit anonyme ou un pays à haut risque.",
+    "acteurs": [
+      "membre-de-l-organe-executif"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.role.03",
+    "texte": "i32-24",
+    "type": "role",
+    "article": "art. 8",
+    "enonce": "Tiers introducteur",
+    "valeur_texte": "Applique les mesures de vigilance pour l'assujetti, selon ses procédures et par contrat ; l'assujetti reste responsable.",
+    "acteurs": [
+      "tiers-introducteur"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.role.04",
+    "texte": "i32-24",
+    "type": "role",
+    "article": "art. 2.6",
+    "enonce": "Tiers indépendant (vérification)",
+    "valeur_texte": "Autorité publique, officier public ministériel ou prestataire de vérification biométrique qui certifie les copies de documents.",
+    "acteurs": [
+      "tiers-independant-verification"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.definition.01",
+    "texte": "i32-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Identification (LBC/FT)",
+    "valeur_texte": "Recueil déclaratif des éléments d'identité du client, de son représentant et du bénéficiaire effectif.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.definition.02",
+    "texte": "i32-24",
+    "type": "definition",
+    "article": "art. 2",
+    "enonce": "Vérification (LBC/FT)",
+    "valeur_texte": "Contrôle de l'identité déclarée sur présentation d'un document écrit probant, matériel ou numérique.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.definition.03",
+    "texte": "i32-24",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Bénéficiaire effectif",
+    "valeur_texte": "Personne physique qui, au bout de la chaîne de détention, possède ou contrôle le client ou pour laquelle l'opération est faite.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.definition.04",
+    "texte": "i32-24",
+    "type": "definition",
+    "article": "art. 6.4, 18",
+    "enonce": "Personne politiquement exposée (PPE)",
+    "valeur_texte": "Client exerçant ou ayant exercé une fonction publique importante ; impose toujours une vigilance renforcée.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.definition.05",
+    "texte": "i32-24",
+    "type": "definition",
+    "article": "art. 9",
+    "enonce": "Risque résiduel",
+    "valeur_texte": "Niveau de risque LBC/FT restant après prise en compte du risque inhérent et de la qualité des contrôles.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.definition.06",
+    "texte": "i32-24",
+    "type": "definition",
+    "article": "art. 5",
+    "enonce": "Vigilance constante",
+    "valeur_texte": "Suivi et mise à jour permanents du profil de risque et des informations sur le client tout au long de la relation.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.liste.01",
+    "texte": "i32-24",
+    "type": "liste",
+    "article": "art. 10-12",
+    "enonce": "Les 4 familles de facteurs de risque LBC/FT",
+    "valeur_texte": "Clients et bénéficiaires effectifs ; Pays ou zones géographiques ; Produits, services et transactions ; Canaux de distribution",
+    "items": [
+      "Clients et bénéficiaires effectifs",
+      "Pays ou zones géographiques",
+      "Produits, services et transactions",
+      "Canaux de distribution"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.liste.02",
+    "texte": "i32-24",
+    "type": "liste",
+    "article": "art. 6.3",
+    "enonce": "Points de l'examen renforcé",
+    "valeur_texte": "Origine des fonds ; Destination des sommes ; Objet de l'opération ; Identité du bénéficiaire",
+    "items": [
+      "Origine des fonds",
+      "Destination des sommes",
+      "Objet de l'opération",
+      "Identité du bénéficiaire"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.liste.03",
+    "texte": "i32-24",
+    "type": "liste",
+    "article": "art. 2.5",
+    "enonce": "Mesures de vérification à distance (2 au moins)",
+    "valeur_texte": "Copie d'un document officiel avec photo (ou extrait de registre < 3 mois) ; Certification par un tiers indépendant ; Premier paiement via un compte bancaire CEMAC au nom du client ; Confirmation par un tiers assujetti ; Signature ou cachet électronique qualifié",
+    "items": [
+      "Copie d'un document officiel avec photo (ou extrait de registre < 3 mois)",
+      "Certification par un tiers indépendant",
+      "Premier paiement via un compte bancaire CEMAC au nom du client",
+      "Confirmation par un tiers assujetti",
+      "Signature ou cachet électronique qualifié"
+    ],
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.piege.01",
+    "texte": "i32-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Conservation LBC/FT : 5 ans selon l'Instruction 32-24 ; d'autres textes (Règlement CEMAC L",
+    "valeur_texte": "Conservation LBC/FT : **5 ans** selon l'Instruction 32-24 ; d'autres textes (Règlement CEMAC LBC/FT, RG) peuvent prévoir **10 ans** : citer la source.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.piege.02",
+    "texte": "i32-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Dispense d'identifier le bénéficiaire effectif : société cotée ou détenue à plus de 75 % p",
+    "valeur_texte": "Dispense d'identifier le bénéficiaire effectif : société **cotée** ou détenue à **plus de 75 %** par une cotée.",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i32-24.piege.03",
+    "texte": "i32-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Identification (déclaratif) ≠ vérification (preuve).",
+    "valeur_texte": "**Identification** (déclaratif) ≠ **vérification** (preuve).",
+    "note": null,
+    "themes": [
+      "conformite"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

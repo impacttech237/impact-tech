@@ -1,0 +1,87 @@
+[
+  {
+    "id": "i43-25.role.01",
+    "texte": "i43-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "Expert en évaluation de l'OPCI",
+    "valeur_texte": "Établit le rapport annuel d'expertise selon les rubriques de l'instruction ; autorise ou non sa publication.",
+    "acteurs": [
+      "expert-en-evaluation-de-l-opci"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i43-25.role.02",
+    "texte": "i43-25",
+    "type": "role",
+    "article": "annexe",
+    "enonce": "OPCI",
+    "valeur_texte": "Supporte les frais de traduction des rapports d'expertise d'immeubles situés hors CEMAC.",
+    "acteurs": [
+      "opci"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i43-25.definition.01",
+    "texte": "i43-25",
+    "type": "definition",
+    "article": "annexe 1",
+    "enonce": "Date de valeur",
+    "valeur_texte": "Date à laquelle se rapporte la valeur estimée de l'immeuble, distincte le cas échéant de la date de rédaction et de visite.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i43-25.liste.01",
+    "texte": "i43-25",
+    "type": "liste",
+    "article": "annexe",
+    "enonce": "Plan du rapport d'expertise d'un OPCI",
+    "valeur_texte": "1. Mission ; 2. Clauses de non-publication et d'utilisation intégrale ; 3. Situation géographique ; 4. Situation juridique ; 5. Situation urbanistique et administrative ; 6. Description du bien ; Méthodes et valeur retenue (avec régime fiscal de cession)",
+    "items": [
+      "1. Mission",
+      "2. Clauses de non-publication et d'utilisation intégrale",
+      "3. Situation géographique",
+      "4. Situation juridique",
+      "5. Situation urbanistique et administrative",
+      "6. Description du bien",
+      "Méthodes et valeur retenue (avec régime fiscal de cession)"
+    ],
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i43-25.piege.01",
+    "texte": "i43-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Hors CEMAC : la traduction non assermentée est approximative, seul l'original fait foi.",
+    "valeur_texte": "Hors CEMAC : la traduction non assermentée est **approximative**, seul l'**original** fait foi.",
+    "note": null,
+    "themes": [
+      "opc"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

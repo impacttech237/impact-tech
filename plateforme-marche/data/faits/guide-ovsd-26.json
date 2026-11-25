@@ -1,0 +1,136 @@
+[
+  {
+    "id": "guide-ovsd-26.role.01",
+    "texte": "guide-ovsd-26",
+    "type": "role",
+    "article": "préambule, partie II-B",
+    "enonce": "COSUMAF (obligations GSS)",
+    "valeur_texte": "Élabore le guide, vise l'opération d'émission et instruit le dossier de prospectus ou de note d'opération.",
+    "acteurs": [
+      "cosumaf-obligations-gss"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.role.02",
+    "texte": "guide-ovsd-26",
+    "type": "role",
+    "article": "partie I",
+    "enonce": "Émetteur d'obligations GSS",
+    "valeur_texte": "Alloue les fonds aux projets éligibles, les gère séparément, assure le reporting et fait réaliser une revue indépendante.",
+    "acteurs": [
+      "emetteur-d-obligations-gss"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.role.03",
+    "texte": "guide-ovsd-26",
+    "type": "role",
+    "article": "partie I-E, II-A",
+    "enonce": "Réviseur indépendant (obligations GSS)",
+    "valeur_texte": "Réalise la revue indépendante avant l'émission puis pendant la vie de l'émission.",
+    "acteurs": [
+      "reviseur-independant-obligations-gss"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.definition.01",
+    "texte": "guide-ovsd-26",
+    "type": "definition",
+    "article": "préambule",
+    "enonce": "Obligations GSS",
+    "valeur_texte": "Obligations vertes, sociales et durables (Green, Social and Sustainability Bonds) : titres de créance dont les fonds levés financent des projets à impact environnemental et/ou social positif.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.liste.01",
+    "texte": "guide-ovsd-26",
+    "type": "liste",
+    "article": "partie I-A",
+    "enonce": "Les trois types d'obligations GSS",
+    "valeur_texte": "Obligations vertes ; Obligations socialement responsables ; Obligations durables",
+    "items": [
+      "Obligations vertes",
+      "Obligations socialement responsables",
+      "Obligations durables"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.liste.02",
+    "texte": "guide-ovsd-26",
+    "type": "liste",
+    "article": "partie II",
+    "enonce": "Étapes d'une émission d'obligations GSS",
+    "valeur_texte": "Identification des projets ; Revue indépendante ; Dépôt du projet de prospectus ou de note d'opération ; Instruction du dossier et visa ; Information périodique ; Information permanente",
+    "items": [
+      "Identification des projets",
+      "Revue indépendante",
+      "Dépôt du projet de prospectus ou de note d'opération",
+      "Instruction du dossier et visa",
+      "Information périodique",
+      "Information permanente"
+    ],
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.piege.01",
+    "texte": "guide-ovsd-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Ce guide est un document d'orientation (bonnes pratiques) : les obligations juridiques sur",
+    "valeur_texte": "Ce guide est un document d'**orientation** (bonnes pratiques) : les obligations juridiques sur les obligations vertes sont dans le **Règlement général de la COSUMAF** (art. 188 à 200) et l'**Instruction 44-25** (information des émetteurs).",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "guide-ovsd-26.piege.02",
+    "texte": "guide-ovsd-26",
+    "type": "piege",
+    "article": null,
+    "enonce": "Fiche partielle : seuls le préambule, le public visé et le plan ont été relus ; les recomm",
+    "valeur_texte": "Fiche **partielle** : seuls le préambule, le public visé et le plan ont été relus ; les recommandations détaillées ne sont pas reprises.",
+    "note": null,
+    "themes": [
+      "ape"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

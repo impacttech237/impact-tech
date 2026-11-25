@@ -1,0 +1,41 @@
+{
+  "id": "lc-004-24",
+  "ordre": 111,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "num": "Lettre circulaire n° 004/COS/PR/SG/DGCE/24",
+  "date": "1er octobre 2024, Libreville",
+  "titre": "Lettre circulaire n° 004/24 portant plan de mise en conformité des sociétés de gestion d'OPC",
+  "theme": "opc",
+  "couverture": "complete",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\02_Lettre-circulaire-004-24-plan-mise-en-conformite-SGO.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 1 page), lu par OCR"
+  },
+  "relations": {},
+  "objet": "Invite les sociétés de gestion d'OPC à communiquer à la COSUMAF un plan de mise en conformité de leur organisation avec le Règlement 01/22 du 21 juillet 2022 et le Règlement général de la COSUMAF du 23 mai 2023, dans un délai de trois mois à compter de la notification.",
+  "trente": "Les SGO communiquent à la COSUMAF un **plan de mise en conformité** de leur organisation aux nouveaux textes (**Règlement 01/22** du 21 juillet 2022 et **Règlement général** du 23 mai 2023) **dans un délai de 3 mois** à compter de la **notification** de la lettre.",
+  "retenir": [
+    "Contexte : le Comité ministériel de l'UMAC a adopté le **Règlement 01/22 le 21 juillet 2022** ; le **Règlement général de la COSUMAF** a suivi le **23 mai 2023**. Chapeau",
+    "Ces textes ont un impact sur l'**organisation générale** des SGO et sur celle des produits qu'elles gèrent. Chapeau",
+    "Les SGO doivent communiquer un **plan de mise en conformité** de leur organisation. Chapeau",
+    "Délai : **trois (3) mois** à compter de la **notification** de la lettre circulaire. Chapeau"
+  ],
+  "delais": [
+    { "q": "Communication à la COSUMAF du plan de mise en conformité d'une SGO", "v": "3 mois à compter de la notification de la lettre circulaire", "a": "chapeau" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "Société de gestion d'OPC (mise en conformité)", "r": "Établit et communique à la COSUMAF un plan de mise en conformité de son organisation aux nouveaux textes.", "a": "chapeau" }
+  ],
+  "definitions": [],
+  "listes": [],
+  "pieges": [
+    "Le délai de **3 mois** court à partir de la **notification** de la lettre, pas de la date de la lettre (1er octobre 2024).",
+    "La lettre ne vise que les **sociétés de gestion d'OPC** ; les autres intermédiaires ont reçu d'autres courriers."
+  ],
+  "qr": [
+    { "q": "Quel délai pour communiquer un plan de mise en conformité selon la circulaire 004/24 ?", "r": "Trois mois à compter de la notification de la lettre circulaire." }
+  ]
+}

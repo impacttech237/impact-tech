@@ -1,0 +1,284 @@
+[
+  {
+    "id": "i18-24.delai.01",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Ancienneté maximale du casier judiciaire pour une demande d'habilitation",
+    "valeur_texte": "moins de 3 mois",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "max",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.delai.02",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Validité maximale de l'attestation d'employeur jointe à la demande d'habilitation",
+    "valeur_texte": "1 mois",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.delai.03",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 2",
+    "enonce": "Expérience professionnelle exigée à défaut de diplôme Bac+3 (habilitation)",
+    "valeur_texte": "5 ans dans le secteur financier",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.delai.04",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Date limite d'envoi de la liste des cartes professionnelles à renouveler",
+    "valeur_texte": "15 décembre de l'année",
+    "type_valeur": "date",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.delai.05",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Accusé de réception d'une demande d'habilitation",
+    "valeur_texte": "10 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.delai.06",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 4",
+    "enonce": "Instruction d'une demande d'habilitation",
+    "valeur_texte": "60 jours ouvrés",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours ouvrés",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.delai.07",
+    "texte": "i18-24",
+    "type": "delai",
+    "article": "art. 5",
+    "enonce": "Délai pour fournir la fiche complémentaire avant rejet de la demande d'habilitation",
+    "valeur_texte": "30 jours",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.montant.01",
+    "texte": "i18-24",
+    "type": "montant",
+    "article": "art. 2",
+    "enonce": "Niveau de diplôme minimal pour l'habilitation",
+    "valeur_texte": "Bac+3",
+    "type_valeur": "texte",
+    "valeur": null,
+    "unite": null,
+    "borne": null,
+    "note": "Dans le domaine juridique, financier ou comptable.",
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.role.01",
+    "texte": "i18-24",
+    "type": "role",
+    "article": "art. 2-3",
+    "enonce": "Structure employeuse",
+    "valeur_texte": "Désigne le postulant, fournit l'attestation d'employeur et envoie avant le 15 décembre la liste des cartes à renouveler.",
+    "acteurs": [
+      "structure-employeuse"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.role.02",
+    "texte": "i18-24",
+    "type": "role",
+    "article": "art. 4-7",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Organise l'examen, instruit la demande, notifie la décision et délivre la carte professionnelle.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.definition.01",
+    "texte": "i18-24",
+    "type": "definition",
+    "article": "art. 7",
+    "enonce": "Carte professionnelle",
+    "valeur_texte": "Document délivré après habilitation, portant identité, photo, numéro d'enregistrement, dates de délivrance et d'expiration, fonctions habilitées et signature de l'autorité ; peut être dématérialisé.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.definition.02",
+    "texte": "i18-24",
+    "type": "definition",
+    "article": "Règl. 01/22 art. 25",
+    "enonce": "Habilitation",
+    "valeur_texte": "Autorisation personnelle donnée par la COSUMAF, après examen, d'exercer certaines fonctions dans une structure agréée.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.liste.01",
+    "texte": "i18-24",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Pièces du dossier d'habilitation",
+    "valeur_texte": "CV actualisé ; Casier judiciaire de moins de 3 mois ; Diplôme Bac+3 ou 5 ans d'expérience ; Photo d'identité récente ; Téléphone ou e-mail ; Acte de désignation ; Attestation d'employeur de moins d'1 mois ; Preuve de réussite à l'examen ; Justificatif de paiement de l'inscription",
+    "items": [
+      "CV actualisé",
+      "Casier judiciaire de moins de 3 mois",
+      "Diplôme Bac+3 ou 5 ans d'expérience",
+      "Photo d'identité récente",
+      "Téléphone ou e-mail",
+      "Acte de désignation",
+      "Attestation d'employeur de moins d'1 mois",
+      "Preuve de réussite à l'examen",
+      "Justificatif de paiement de l'inscription"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.liste.02",
+    "texte": "i18-24",
+    "type": "liste",
+    "article": "art. 7",
+    "enonce": "Mentions de la carte professionnelle",
+    "valeur_texte": "Nom et prénom ; Photo ; Numéro d'enregistrement ; Date de délivrance ; Date d'expiration ; Fonction(s) habilitée(s) ; Nom et signature de l'autorité",
+    "items": [
+      "Nom et prénom",
+      "Photo",
+      "Numéro d'enregistrement",
+      "Date de délivrance",
+      "Date d'expiration",
+      "Fonction(s) habilitée(s)",
+      "Nom et signature de l'autorité"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.piege.01",
+    "texte": "i18-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le renouvellement n'est pas automatique : il faut repasser l'examen d'habilitation.",
+    "valeur_texte": "Le renouvellement **n'est pas automatique** : il faut **repasser l'examen** d'habilitation.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i18-24.piege.02",
+    "texte": "i18-24",
+    "type": "piege",
+    "article": null,
+    "enonce": "15 décembre : date limite de la liste des renouvellements.",
+    "valeur_texte": "**15 décembre** : date limite de la liste des renouvellements.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

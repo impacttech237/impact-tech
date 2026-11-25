@@ -1,0 +1,289 @@
+[
+  {
+    "id": "i45-25.delai.01",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 14",
+    "enonce": "Information préalable d'une modification non soumise à autorisation (intermédiaire, organisme central)",
+    "valeur_texte": "30 jours avant",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.delai.02",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Nouveau document d'information après une erreur ou inexactitude substantielle",
+    "valeur_texte": "7 jours calendaires après la constatation",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.delai.03",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 15",
+    "enonce": "Nouveau document d'information après un fait nouveau significatif",
+    "valeur_texte": "15 jours calendaires après sa survenance",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.delai.04",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 17",
+    "enonce": "Information préalable d'une modification de la situation d'un émetteur (hors visa et autorisation)",
+    "valeur_texte": "10 jours avant",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.delai.05",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 18",
+    "enonce": "Décision de la COSUMAF sur une modification soumise à nouvel agrément",
+    "valeur_texte": "15 jours",
+    "type_valeur": "nombre",
+    "valeur": 15,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.delai.06",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 18",
+    "enonce": "Décision de la COSUMAF sur une modification soumise à nouveau visa ou enregistrement",
+    "valeur_texte": "10 jours",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.delai.07",
+    "texte": "i45-25",
+    "type": "delai",
+    "article": "art. 18",
+    "enonce": "Décision de la COSUMAF sur une modification soumise à autorisation préalable",
+    "valeur_texte": "10 jours calendaires",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours calendaires",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.role.01",
+    "texte": "i45-25",
+    "type": "role",
+    "article": "art. 18-19",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Statue sur les modifications (15 jours, 10 jours, 10 jours calendaires selon le régime) et donne un avis sur le régime applicable en cas de doute.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.role.02",
+    "texte": "i45-25",
+    "type": "role",
+    "article": "art. 4-6",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Dépose un nouveau dossier pour toute fusion, scission ou transformation d'OPC et demande l'autorisation pour les changements importants.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.role.03",
+    "texte": "i45-25",
+    "type": "role",
+    "article": "art. 15",
+    "enonce": "Émetteur",
+    "valeur_texte": "Informe immédiatement la COSUMAF et soumet un nouveau document en 7 ou 15 jours calendaires selon le cas.",
+    "acteurs": [
+      "emetteur"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.definition.01",
+    "texte": "i45-25",
+    "type": "definition",
+    "article": "art. 3",
+    "enonce": "Modification substantielle (OPC)",
+    "valeur_texte": "Changement de catégorie d'un OPC (hors OPCVM, non transformables) ou de classification d'un OPCVM, soumis à un nouvel agrément.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.definition.02",
+    "texte": "i45-25",
+    "type": "definition",
+    "article": "art. 9",
+    "enonce": "Cession de contrôle",
+    "valeur_texte": "Changement dans la structure de contrôle d'une entité agréée avec arrivée d'un nouvel actionnaire ou associé majoritaire ; soumis à autorisation préalable.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.liste.01",
+    "texte": "i45-25",
+    "type": "liste",
+    "article": "art. 2",
+    "enonce": "Les 3 régimes de modification",
+    "valeur_texte": "Nouvel agrément, nouveau visa ou nouvel enregistrement ; Autorisation préalable de la COSUMAF ; Information préalable de la COSUMAF",
+    "items": [
+      "Nouvel agrément, nouveau visa ou nouvel enregistrement",
+      "Autorisation préalable de la COSUMAF",
+      "Information préalable de la COSUMAF"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.liste.02",
+    "texte": "i45-25",
+    "type": "liste",
+    "article": "art. 15",
+    "enonce": "Faits nouveaux significatifs pour un émetteur",
+    "valeur_texte": "Dégradation substantielle de la situation économique ou financière ; Cession de contrôle de l'émetteur ; Modification des droits attachés aux titres ; Engagements souscrits ; Modification des caractéristiques de l'opération (prix, durée de remboursement…)",
+    "items": [
+      "Dégradation substantielle de la situation économique ou financière",
+      "Cession de contrôle de l'émetteur",
+      "Modification des droits attachés aux titres",
+      "Engagements souscrits",
+      "Modification des caractéristiques de l'opération (prix, durée de remboursement…)"
+    ],
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.piege.01",
+    "texte": "i45-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Émetteur : 7 jours (erreur substantielle) contre 15 jours (fait nouveau significatif), en ",
+    "valeur_texte": "Émetteur : **7 jours** (erreur substantielle) contre **15 jours** (fait nouveau significatif), en jours **calendaires**.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.piege.02",
+    "texte": "i45-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Information préalable : 30 jours avant pour un intermédiaire, 10 jours avant pour un émett",
+    "valeur_texte": "Information préalable : **30 jours** avant pour un intermédiaire, **10 jours** avant pour un émetteur.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i45-25.piege.03",
+    "texte": "i45-25",
+    "type": "piege",
+    "article": null,
+    "enonce": "Un OPCVM ne peut jamais être transformé en un autre type d'OPC.",
+    "valeur_texte": "Un **OPCVM** ne peut **jamais** être transformé en un autre type d'OPC.",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

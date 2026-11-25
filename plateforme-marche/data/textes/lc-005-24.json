@@ -1,0 +1,75 @@
+{
+  "id": "lc-005-24",
+  "ordre": 112,
+  "type": "circulaire",
+  "organisme": "cosumaf",
+  "numero": "Lettre circulaire n° 005/COS/PR/SG/DME/24",
+  "titre": "Lettre circulaire n° 005/24 portant transmission des informations permanentes et périodiques des sociétés de bourse, des teneurs de comptes et des conseillers en investissements financiers",
+  "theme": "conformite",
+  "date_texte": "15 novembre 2024, Libreville",
+  "date_adoption": "2024-11-15",
+  "lieu": "Libreville",
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "couverture": "partielle",
+  "source": {
+    "pdf": null,
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "fichier_local": "Downloads\\Preparation COSUMAF\\01KGM9N05TDF4DMW4XZ4K8RE4M.pdf",
+    "origine": "PDF officiel de la COSUMAF (scan, 3 pages), lu par OCR ; le tableau des informations périodiques annuelles mélange libellés et dates et n'est pas repris en détail"
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Fixe, en application de l'article 311 du Règlement général de la COSUMAF (obligation de reporting), le calendrier de mise à disposition de la COSUMAF des informations périodiques (rapports, états financiers, suivis mensuels) et permanentes (tarifs, comptes rendus d'ordres et de transactions, contrats des CIF) par les sociétés de bourse, les teneurs de comptes et les conseillers en investissements financiers.",
+    "essentiel": "**Informations périodiques** : suivis **mensuels** (chiffre d'affaires, transactions boursières, activités connexes, levée de fonds, situation de portefeuille, situation des avoirs) à transmettre **le 15 du mois suivant** ; informations sur la **maison mère** **une fois par an, le 15 avril** N+1. **Informations permanentes** des sociétés de bourse : tarifs affichés et communiqués à la COSUMAF en cas de modification ; **comptes rendus des ordres et des transactions** au plus tard **1 jour ouvrable** après le jour de cotation. **CIF** : copie des contrats signés et liste des contrats **le 30 du mois suivant**. **Premier envoi** (situation au 30 septembre 2024) au plus tard le **30 novembre 2024**, au format Excel.",
+    "retenir": [
+      "Base légale : **article 311 du Règlement général de la COSUMAF** (obligation de reporting). Chapeau",
+      "Destinataires : **sociétés de bourse**, **teneurs de comptes**, **conseillers en investissements financiers (CIF)**. Chapeau",
+      "Informations périodiques mensuelles : **suivi du chiffre d'affaires**, **transactions boursières**, **activités connexes**, **activités de levée de fonds**, **situation de portefeuille** (dirigeants, personnel, clientèle), **situation des avoirs** (CIF non concernés) : **le 15 du mois suivant**. I",
+      "Informations sur la **maison mère** (modèle en annexe 3) : **une fois par an**, **15 avril N+1**. I",
+      "Informations périodiques annuelles et semestrielles : fiche de présentation, programme d'activités, rapport annuel de gestion, rapport d'activité semestriel, états financiers provisoires et certifiés, rapport du contrôleur interne, procès-verbaux des organes (échéances de **janvier à octobre**, voir le tableau). I",
+      "Sociétés de bourse : **affichage et communication des tarifs** de frais et commissions (locaux et site internet) ; **toute modification est reportée immédiatement** à la COSUMAF. II-a",
+      "Sociétés de bourse : **compte rendu des ordres reçus** pour le compte de la clientèle (identifiant, titre, date et heure de réception, type, sens, quantité, prix, compte propre ou de tiers) : **jour de cotation + 1 jour ouvrable**. II-a",
+      "Sociétés de bourse : **compte rendu des transactions réalisées** (identifiant de la société et de la contrepartie, identifiant de la transaction, titre, quantité, montant, date et heure, sens, prix, compte propre ou de tiers) : **jour de cotation + 1 jour ouvrable**. II-a",
+      "CIF : **copie de chaque contrat signé avec chaque intervenant commercial** et **liste des contrats ou conventions** (annexe 4) : **le 30 du mois suivant**. II-b",
+      "Le **premier envoi**, avec la situation au **30 septembre 2024**, devait être effectif **au plus tard le 30 novembre 2024**, au **format Excel** fourni par la COSUMAF. Dernier alinéa"
+    ],
+    "listes": [
+      {
+        "titre": "Suivis mensuels à transmettre le 15 du mois suivant",
+        "a": "I",
+        "items": [
+          "Suivi du chiffre d'affaires",
+          "Transactions boursières",
+          "Activités connexes",
+          "Activités de levée de fonds",
+          "Situation de portefeuille (dirigeants, personnel, clientèle)",
+          "Situation des avoirs (CIF non concernés)"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le tableau des informations périodiques **annuelles et semestrielles** (fiche de présentation, rapport annuel, états financiers, rapport du contrôleur interne…) mélange libellés et dates dans le scan : les échéances ne sont pas reprises ici, **les lire dans le PDF**.",
+      "**Jour de cotation + 1 jour ouvrable** vaut pour les comptes rendus des ordres et des transactions, pas pour les suivis mensuels (**15 du mois suivant**) ni pour les contrats de CIF (**30 du mois suivant**).",
+      "La **situation des avoirs** ne concerne **pas les CIF**."
+    ],
+    "qr": [
+      {
+        "q": "Quand une société de bourse doit-elle rendre compte des transactions réalisées pour ses clients ?",
+        "r": "Au plus tard un jour ouvrable après le jour de cotation."
+      },
+      {
+        "q": "Quel est le rythme de transmission des suivis de chiffre d'affaires et de transactions boursières ?",
+        "r": "Mensuel, au plus tard le 15 du mois suivant."
+      }
+    ]
+  }
+}

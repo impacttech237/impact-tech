@@ -1,0 +1,77 @@
+{
+  "id": "i29-24",
+  "ordre": 38,
+  "type": "instruction",
+  "numero": "29-24",
+  "titre": "Mentions minimales des contrats de placement entre émetteur et agent placeur",
+  "theme": "ape",
+  "date_texte": "28 novembre 2024",
+  "date_adoption": "2024-11-28",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Clauses minimales du contrat de placement d'un APE (art. 173 du Règlement général), conclu entre l'émetteur et la société de bourse ou le chef de file, puis entre le chef de file et les agents placeurs du syndicat.",
+    "essentiel": "Deux contrats : **émetteur ↔ société de bourse ou chef de file**, et **chef de file ↔ agents placeurs** du syndicat. Clauses dans l'ordre de l'annexe : émission et souscription, **émissions syndiquées** (souscription **solidaire**, contrat de **prise ferme**), agent de calcul, titres, **commissions** (toute commission hors Instruction 23-24 exige l'**autorisation** de la COSUMAF), restrictions de vente, distribution du document, **régularisation et sur-allocation** (fin au plus tard **30 jours** après l'émission ou **60 jours** après l'allocation), cotation, déclarations (litiges sur **12 mois**), engagements, conditions suspensives, indemnisation, **résiliation avec préavis de 30 jours**.",
+    "retenir": [
+      "Prise en application de l'**art. 173 du Règlement général** ; s'applique aux **APE** du titre III du Règlement 01/22. Art. 1",
+      "Contrat de placement entre l'**émetteur** et une **société de bourse** ou le **chef de file du syndicat**, avec au minimum les mentions de l'annexe, **dans l'ordre**. Art. 2.1",
+      "Un second contrat lie le **chef de file** aux **agents placeurs** membres du syndicat pour respecter les obligations du premier. Art. 2.2",
+      "Annexes possibles : **procédure d'émission**, **restrictions de vente**, modèle de **contrat de calcul**, modèle de **lettre d'adhésion** d'arrangeur et d'agent placeur, modèle de **contrat de prise ferme**. Art. 2.4",
+      "L'agent placeur peut **souscrire lui-même** ou **faire souscrire** (et à défaut souscrire) ; ou agir comme simple **mandataire** de l'émetteur, sans responsabilité sauf **faute intentionnelle ou lourde**. Annexe 2.1",
+      "**Émission syndiquée** : plusieurs agents placeurs souscrivent **solidairement**, selon un **contrat de prise ferme**. Annexe 2.2",
+      "**Commissions** : payées à la remise des titres (déductibles du montant souscrit) ; toute commission **non prévue par l'Instruction 23-24** exige l'**autorisation préalable** de la COSUMAF. Annexe 4",
+      "Aucun agent placeur ne donne d'informations **autres que celles du document d'information** ; l'émetteur l'autorise **irrévocablement** à distribuer le document et son résumé. Annexe 5.1-5.2",
+      "**Régularisation et sur-allocation** : un établissement (agent placeur ou chef de file) peut soutenir le cours, à ses risques ; début après publication des conditions définitives, fin au plus tard à la première de ces dates : **30 jours après l'émission** ou **60 jours après l'allocation**. Annexe 5.3",
+      "Déclarations de l'émetteur : personnalité morale, document d'information **exact et complet**, états financiers sincères, autorisations, absence de conflit, **aucun litige sur 12 mois**, absence de cas d'exigibilité anticipée, rang de créance. Annexe 7",
+      "Engagements de l'émetteur : **supplément** au document si nécessaire, information du public, alerte immédiate en cas de **dégradation de la notation**, frais et impôts. Annexe 8",
+      "**Résiliation** par l'émetteur ou un agent placeur **à tout moment**, avec **préavis écrit d'au moins 30 jours** ; les droits acquis restent. Annexe 13"
+    ],
+    "listes": [
+      {
+        "titre": "Clauses du contrat de placement",
+        "a": "annexe",
+        "items": [
+          "Définitions",
+          "Offres et ventes (émission, syndication, agent de calcul)",
+          "Les titres",
+          "Commissions",
+          "Offre (restrictions, distribution, régularisation)",
+          "Cotation et avis",
+          "Déclarations et garanties",
+          "Engagements de l'émetteur",
+          "Conditions suspensives",
+          "Indemnisation",
+          "Résiliation et désignation"
+        ]
+      }
+    ],
+    "pieges": [
+      "Régularisation : **30 jours** après l'émission **ou** **60 jours** après l'allocation — la **première** date atteinte.",
+      "Commission non prévue par la grille tarifaire (Instruction **23-24**) = **autorisation préalable** de la COSUMAF."
+    ],
+    "qr": [
+      {
+        "q": "Quand prennent fin les opérations de régularisation d'une émission ?",
+        "r": "Au plus tard à la première des deux dates : 30 jours après la date d'émission ou 60 jours après la date d'allocation."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

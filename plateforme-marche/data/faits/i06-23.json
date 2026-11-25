@@ -1,0 +1,427 @@
+[
+  {
+    "id": "i06-23.delai.01",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Accusé de réception du dossier complet d'agrément d'une SGO",
+    "valeur_texte": "10 jours",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.02",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Délai d'agrément d'une société de gestion d'OPC",
+    "valeur_texte": "60 jours après le dossier complet",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.03",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 3",
+    "enonce": "Délai avant renvoi d'un dossier SGO resté incomplet",
+    "valeur_texte": "30 jours après la notification des pièces manquantes",
+    "type_valeur": "nombre",
+    "valeur": 30,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.04",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 10",
+    "enonce": "Délai d'approbation d'une extension d'agrément de SGO",
+    "valeur_texte": "60 jours après le dossier complet",
+    "type_valeur": "nombre",
+    "valeur": 60,
+    "unite": "jours",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.05",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 11",
+    "enonce": "Transmission du rapport de gestion d'une SGO à la COSUMAF",
+    "valeur_texte": "7 mois après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 7,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.06",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 11",
+    "enonce": "Transmission du rapport annuel de contrôle interne d'une SGO",
+    "valeur_texte": "3 mois après la clôture",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.07",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 11",
+    "enonce": "Compte rendu des indemnisations et non-respects de restrictions d'investissement",
+    "valeur_texte": "1 mois calendaire après chaque trimestre",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.08",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 12",
+    "enonce": "Non-usage de l'agrément entraînant le retrait (SGO)",
+    "valeur_texte": "12 mois",
+    "type_valeur": "nombre",
+    "valeur": 12,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.09",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "art. 12",
+    "enonce": "Inactivité entraînant le retrait d'agrément (SGO)",
+    "valeur_texte": "6 mois au moins",
+    "type_valeur": "nombre",
+    "valeur": 6,
+    "unite": "mois",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.delai.10",
+    "texte": "i06-23",
+    "type": "delai",
+    "article": "annexe III, K",
+    "enonce": "Durée minimale de report de la rémunération variable (SGO)",
+    "valeur_texte": "3 ans",
+    "type_valeur": "nombre",
+    "valeur": 3,
+    "unite": "ans",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.montant.01",
+    "texte": "i06-23",
+    "type": "montant",
+    "article": "annexe I",
+    "enonce": "Seuil de détention des actionnaires à mentionner dans le dossier SGO",
+    "valeur_texte": "plus de 10 %",
+    "type_valeur": "nombre",
+    "valeur": 10,
+    "unite": "%",
+    "borne": "min",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.montant.02",
+    "texte": "i06-23",
+    "type": "montant",
+    "article": "annexe III, K",
+    "enonce": "Part minimale de la rémunération variable versée en parts ou actions de l'OPC",
+    "valeur_texte": "50 %",
+    "type_valeur": "nombre",
+    "valeur": 50,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.montant.03",
+    "texte": "i06-23",
+    "type": "montant",
+    "article": "annexe III, K",
+    "enonce": "Part minimale de la rémunération variable reportée",
+    "valeur_texte": "40 %",
+    "type_valeur": "nombre",
+    "valeur": 40,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.montant.04",
+    "texte": "i06-23",
+    "type": "montant",
+    "article": "annexe III",
+    "enonce": "Intérêt économique conservé par le prêteur initial ou sponsor (titrisation)",
+    "valeur_texte": "5 %",
+    "type_valeur": "nombre",
+    "valeur": 5,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.role.01",
+    "texte": "i06-23",
+    "type": "role",
+    "article": "art. 2, 11",
+    "enonce": "Société de gestion d'OPC",
+    "valeur_texte": "Dépose le dossier et le programme d'activité, transmet ses comptes, rapports, valeurs liquidatives et comptes rendus trimestriels à la COSUMAF.",
+    "acteurs": [
+      "societe-de-gestion-d-opc"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.role.02",
+    "texte": "i06-23",
+    "type": "role",
+    "article": "art. 3-12",
+    "enonce": "COSUMAF",
+    "valeur_texte": "Vérifie la complétude, accuse réception en 10 jours, décide en 60 jours, accorde les extensions et peut retirer l'agrément.",
+    "acteurs": [
+      "cosumaf"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.role.03",
+    "texte": "i06-23",
+    "type": "role",
+    "article": "annexe II",
+    "enonce": "RCCI (responsable conformité et contrôle interne)",
+    "valeur_texte": "Dont le CV et le programme de travail figurent au dossier ; fait partie du personnel identifié pour la rémunération.",
+    "acteurs": [
+      "rcci-responsable-conformite-et-controle-interne"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.definition.01",
+    "texte": "i06-23",
+    "type": "definition",
+    "article": "art. 6",
+    "enonce": "Programme d'activité",
+    "valeur_texte": "Document du dossier d'agrément qui décrit chaque service que la SGO entend fournir, les opérations envisagées, son organisation et les contrôles associés.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.definition.02",
+    "texte": "i06-23",
+    "type": "definition",
+    "article": "art. 9",
+    "enonce": "Extension d'agrément",
+    "valeur_texte": "Demande d'une SGO déjà agréée pour fournir un nouveau service, utiliser de nouveaux instruments ou lever une restriction.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.liste.01",
+    "texte": "i06-23",
+    "type": "liste",
+    "article": "art. 5",
+    "enonce": "Étapes de l'agrément d'une SGO",
+    "valeur_texte": "Prise de contact avec la COSUMAF ; Dépôt de la demande et du dossier ; Vérification de complétude et accusé de réception (10 jours) ou renvoi ; Instruction et demandes complémentaires ; Prolongation éventuelle du délai ; Notification de l'agrément ou du refus ; Début d'activité",
+    "items": [
+      "Prise de contact avec la COSUMAF",
+      "Dépôt de la demande et du dossier",
+      "Vérification de complétude et accusé de réception (10 jours) ou renvoi",
+      "Instruction et demandes complémentaires",
+      "Prolongation éventuelle du délai",
+      "Notification de l'agrément ou du refus",
+      "Début d'activité"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.liste.02",
+    "texte": "i06-23",
+    "type": "liste",
+    "article": "annexe III",
+    "enonce": "Sections du programme d'activité",
+    "valeur_texte": "A Activités ; B Activités accessoires ; C Moyens techniques ; D Investissement et désinvestissement ; E Meilleure exécution et passation des ordres ; F Dispositif de contrôle ; G Évaluation des instruments ; H Externalisation et délégation ; I Conflits d'intérêts ; J LBC/FT et fraude fiscale ; K Politique de rémunération ; L Commercialisation ; M Fonds propres",
+    "items": [
+      "A Activités",
+      "B Activités accessoires",
+      "C Moyens techniques",
+      "D Investissement et désinvestissement",
+      "E Meilleure exécution et passation des ordres",
+      "F Dispositif de contrôle",
+      "G Évaluation des instruments",
+      "H Externalisation et délégation",
+      "I Conflits d'intérêts",
+      "J LBC/FT et fraude fiscale",
+      "K Politique de rémunération",
+      "L Commercialisation",
+      "M Fonds propres"
+    ],
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.piege.01",
+    "texte": "i06-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "SGO : rapport de gestion à 7 mois, rapport de contrôle interne à 3 mois.",
+    "valeur_texte": "SGO : rapport de **gestion** à **7 mois**, rapport de **contrôle interne** à **3 mois**.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.piege.02",
+    "texte": "i06-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Le numéro d'agrément doit figurer sur les documents, mais ne peut pas servir de label de q",
+    "valeur_texte": "Le numéro d'agrément doit figurer sur les documents, mais **ne peut pas servir de label de qualité**.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
+    "id": "i06-23.piege.03",
+    "texte": "i06-23",
+    "type": "piege",
+    "article": null,
+    "enonce": "Rémunération variable : 50 % en instruments, 40 % reportés, 3 ans de report.",
+    "valeur_texte": "Rémunération variable : **50 %** en instruments, **40 %** reportés, **3 ans** de report.",
+    "note": null,
+    "themes": [
+      "agrement"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  }
+]

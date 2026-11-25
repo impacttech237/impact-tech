@@ -1,0 +1,96 @@
+{
+  "id": "i49-26",
+  "ordre": 58,
+  "type": "instruction",
+  "numero": "49-26",
+  "titre": "Activités principales et connexes des SDB, SGO et CIF",
+  "theme": "vie",
+  "date_texte": "13 juillet 2026",
+  "date_adoption": "2026-07-13",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Liste des activités principales et connexes autorisées aux sociétés de bourse, aux sociétés de gestion d'OPC et aux conseillers en investissements financiers (art. 144 et suivants du Règlement 01/22, art. 250 du RG).",
+    "essentiel": "**SDB** : **7 activités principales** (exécution d'ordres, compte propre, **arrangement** APE et placement privé, placement, RTO, tenue de compte, démarchage) et **8 connexes** (listing sponsor, **dépositaire d'OPC**, CIF, **gestion sous mandat**, distribution d'OPC, financements structurés, opérations sur d'autres marchés). **SGO** : **3 principales** (gestion d'OPC, distribution d'OPC, démarchage) + connexes **gestion sous mandat** et **CIF**. **CIF** : **5 activités** de conseil et démarchage, **rien d'autre** : jamais d'exécution, placement, négociation ni détention de fonds des clients.",
+    "retenir": [
+      "Base : **art. 144 et suivants du Règlement 01/22** et **art. 250 du RG**. Art. 1",
+      "**Activité principale** : activité de l'**art. 146** du Règlement 01/22 pour laquelle l'intermédiaire est agréé. **Activité connexe** : activité distincte, **expressément visée** par l'instruction et **autorisée** par la COSUMAF, qui contribue à l'objet social. Art. 2",
+      "**SDB — principales** : exécution d'ordres pour compte de tiers ; négociation pour compte propre ; **arrangement** des APE et placements privés ; placement ; réception-transmission d'ordres ; **tenue de comptes** ; démarchage. Art. 3",
+      "**SDB — connexes** : **listing sponsor** ; **dépositaire d'OPC** ; **CIF** ; **gestion individuelle sous mandat** ; distribution d'OPC ; **financements structurés** ; structuration et placement sur d'autres marchés ; activités sur d'autres marchés réglementés prévues au programme d'activité. Art. 3",
+      "**SGO — principales** : gestion et administration d'OPC agréés ; **distribution** de produits d'OPC (compte propre et tiers) ; démarchage. **Connexes** : **gestion sous mandat**, **CIF**. Art. 4",
+      "**CIF — activités** : conseil en gestion et ingénierie financière aux émetteurs APE ; conseil en gestion de portefeuille ; conseil en gestion de patrimoine ; conseil en levée de capitaux ; démarchage. **Aucune autre activité**. Art. 5",
+      "Le CIF ne fait **jamais** d'exécution d'ordres, de placement ni de négociation pour compte propre, et ne **détient jamais** les fonds ou titres des clients ; il respecte le **monopole des SDB** sur l'**arrangement**. Art. 5",
+      "Les personnes qui proposent ces services au public doivent être **habilitées** par la COSUMAF ; leurs structures ont des procédures de réclamations, de **LBC/FT et prolifération**, et d'information précontractuelle. Art. 6",
+      "Respect des règles déontologiques et de **gestion des conflits d'intérêts** du **Titre V du RG** ; les activités exercées entrent dans le **périmètre du contrôle interne**. Art. 7-8"
+    ],
+    "listes": [
+      {
+        "titre": "Société de bourse : 7 activités principales",
+        "a": "art. 3",
+        "items": [
+          "Exécution d'ordres pour compte de tiers",
+          "Négociation pour compte propre",
+          "Arrangement des APE et placements privés",
+          "Placement d'instruments financiers",
+          "Réception et transmission d'ordres",
+          "Tenue de comptes d'instruments financiers",
+          "Démarchage financier"
+        ]
+      },
+      {
+        "titre": "Société de bourse : 8 activités connexes",
+        "a": "art. 3",
+        "items": [
+          "Listing sponsor",
+          "Dépositaire d'OPC",
+          "Conseil en investissements financiers",
+          "Gestion individuelle sous mandat",
+          "Distribution d'OPC",
+          "Financements structurés",
+          "Structuration et placement sur d'autres marchés",
+          "Activités sur d'autres marchés réglementés"
+        ]
+      },
+      {
+        "titre": "CIF : 5 activités autorisées",
+        "a": "art. 5",
+        "items": [
+          "Conseil en gestion et ingénierie financière aux émetteurs APE",
+          "Conseil en gestion de portefeuille",
+          "Conseil en gestion de patrimoine et placements",
+          "Conseil en levée de capitaux",
+          "Démarchage financier"
+        ]
+      }
+    ],
+    "pieges": [
+      "Pour une **SDB**, la gestion sous mandat et le rôle de dépositaire d'OPC sont des activités **connexes**, pas principales.",
+      "Le **CIF** ne détient **jamais** les fonds ni les titres de ses clients.",
+      "L'**arrangement** d'APE et de placement privé reste un **monopole des SDB** (Règlement 01/22, art. 159)."
+    ],
+    "qr": [
+      {
+        "q": "Quelles sont les activités principales d'une société de gestion d'OPC ?",
+        "r": "La gestion et l'administration d'OPC agréés, la distribution de produits d'OPC pour compte propre et de tiers, et le démarchage financier ; ses activités connexes sont la gestion sous mandat et le conseil en investissements financiers."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ld-dos",
+  "ordre": 121,
+  "type": "lignes_directrices",
+  "organisme": "cosumaf",
+  "num": "Lignes directrices DOS",
+  "date": "15 décembre 2025",
+  "titre": "Lignes directrices relatives aux modalités d'établissement des déclarations d'opérations suspectes (DOS) sur le marché financier de l'Afrique centrale",
+  "theme": "conformite",
+  "couverture": "partielle",
+  "source": {
+    "fichier_local": "Downloads\\cosumaf-manquants\\06_Lignes-directrices-declarations-operations-suspectes.pdf",
+    "url_officielle": "https://cosumaf.org/nos-documents",
+    "origine": "PDF officiel de la COSUMAF (scan, 16 pages), lu par OCR ; fiche partielle : plan, règles de délai et de confidentialité relus, le reste résumé d'après la table des matières"
+  },
+  "relations": {},
+  "objet": "Lignes directrices de la COSUMAF qui expliquent comment les acteurs du marché doivent établir et transmettre à l'ANIF leurs déclarations d'opérations suspectes (DOS) : environnement réglementaire, gouvernance interne, déclarant et correspondant ANIF, sommes et opérations à déclarer, délais, confidentialité, approche par les risques, surveillance et alertes, gel des avoirs, suivi et audit. Document pédagogique daté du 15/12/2025.",
+  "trente": "La DOS est en principe faite **avant l'exécution** de l'opération, pour permettre à l'**ANIF** d'exercer son **droit d'opposition** ; l'assujetti **s'abstient d'exécuter** l'opération tant qu'il n'a pas déclaré. Une DOS peut être faite **après** l'opération (exécution impossible à différer, report gênant pour les enquêtes, soupçon apparu après) : elle est alors transmise **« sans délai »**. La **confidentialité** couvre l'existence et le contenu des déclarations ; le **secret professionnel** relatif aux DOS **n'est pas opposable à la COSUMAF**.",
+  "retenir": [
+    "Plan : environnement réglementaire, gouvernance interne (engagement de la direction, **manuel de procédures LBC/FT**, formation), **déclarant et correspondant ANIF**, sommes et opérations à déclarer, déclaration complémentaire, délais, confidentialité, approche fondée sur les risques, surveillance et alertes, procédure de déclaration, gel des avoirs, suivi et audit. Table des matières",
+    "**Principe** : les DOS sont effectuées **avant l'exécution** de l'opération, pour que l'ANIF puisse exercer son **droit d'opposition** ; la déclaration indique le **délai d'exécution** de l'opération. III-G-1",
+    "Le professionnel **s'abstient d'effectuer** l'opération qu'il soupçonne liée au blanchiment ou au financement du terrorisme **avant d'avoir déclaré**. III-G-1",
+    "Déclaration **après exécution**, transmise **« sans délai »**, si : il était **impossible de surseoir**, le report aurait **fait obstacle à des investigations**, ou le soupçon est **apparu après** l'opération. III-G-2",
+    "**Confidentialité** : l'existence et le contenu des déclarations, ainsi que leurs suites, ne peuvent être communiqués ni à l'intéressé ni à des tiers ; la violation entraîne des **sanctions pécuniaires**. III-H",
+    "Le **secret professionnel** relatif aux DOS **n'est pas opposable à la COSUMAF**, et l'ANIF peut lui communiquer des informations sur les déclarations. III-H",
+    "**Cartographie des risques** : documenter les risques propres à l'activité (clients, produits, canaux, juridictions, volumes) ; **profilage** : clients « standard » et clients ou opérations « à risque élevé » (personnes politiquement exposées, bénéficiaires effectifs complexes, juridictions à risque). IV-4.1 et 4.2"
+  ],
+  "delais": [
+    { "q": "Moment de la déclaration d'opération suspecte (principe)", "v": "avant l'exécution de l'opération", "a": "III-G-1" },
+    { "q": "Déclaration d'opération suspecte après exécution de l'opération", "v": "sans délai", "a": "III-G-2" }
+  ],
+  "montants": [],
+  "roles": [
+    { "acteur": "ANIF (déclarations de soupçon)", "r": "Reçoit les DOS, peut exercer un droit d'opposition à l'exécution de l'opération et informe la COSUMAF.", "a": "III-G, III-H" },
+    { "acteur": "Déclarant et correspondant ANIF", "r": "Personnes désignées par l'assujetti pour transmettre les déclarations à l'ANIF et assurer la liaison ; tout changement est porté sans délai à la connaissance de l'ANIF.", "a": "III-A" },
+    { "acteur": "COSUMAF (lignes directrices DOS)", "r": "Émet les lignes directrices ; le secret professionnel relatif aux DOS ne lui est pas opposable.", "a": "III-H" }
+  ],
+  "definitions": [
+    { "t": "Déclaration d'opération suspecte (DOS)", "d": "Déclaration que l'assujetti adresse à l'ANIF lorsqu'il soupçonne qu'une opération ou des fonds sont liés au blanchiment de capitaux ou au financement du terrorisme.", "a": "III" }
+  ],
+  "listes": [
+    { "titre": "Cas où la DOS peut être faite après l'exécution de l'opération", "a": "III-G-2", "items": ["Impossible de surseoir à l'exécution", "Le report aurait fait obstacle à des investigations", "Le soupçon est apparu après la réalisation de l'opération"] }
+  ],
+  "pieges": [
+    "La DOS est faite **avant** l'exécution **en principe** ; la déclaration **après** exécution est l'**exception** et doit alors être faite **sans délai**.",
+    "Les lignes directrices sont un document **pédagogique** : les obligations elles-mêmes viennent du **Règlement CEMAC 02/24**, du Règlement général COSUMAF et des instructions (par exemple la **32-24**).",
+    "Le scan est **partiel dans cette fiche** : le contenu minimal du rapport de suspicion, le format des déclarations et les procédures de gel ne sont pas détaillés ici."
+  ],
+  "qr": [
+    { "q": "Quand déclarer une opération suspecte à l'ANIF ?", "r": "En principe avant l'exécution de l'opération, pour permettre à l'ANIF d'exercer son droit d'opposition ; après l'exécution, sans délai, dans les cas d'impossibilité de surseoir, d'obstacle aux investigations ou de soupçon tardif." },
+    { "q": "Le secret professionnel est-il opposable à la COSUMAF pour les DOS ?", "r": "Non." }
+  ]
+}

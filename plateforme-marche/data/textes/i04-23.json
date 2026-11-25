@@ -1,0 +1,86 @@
+{
+  "id": "i04-23",
+  "ordre": 13,
+  "type": "instruction",
+  "numero": "04-23",
+  "titre": "Modalités de dépôt et contenu du dossier d'appel public à l'épargne",
+  "theme": "ape",
+  "date_texte": "5 décembre 2023",
+  "date_adoption": "2023-12-05",
+  "lieu": null,
+  "entree_en_vigueur": null,
+  "statut": "en_vigueur",
+  "statut_source": "non_verifie",
+  "abroge": [],
+  "abroge_par": [],
+  "modifie": [],
+  "modifie_par": [],
+  "abroge_externes": [],
+  "source": {
+    "pdf": null,
+    "url_officielle": null,
+    "origine": "v2 olympiades-2 (scan lu par OCR)",
+    "fichier_local": null
+  },
+  "verifie_le": null,
+  "verifie_par": null,
+  "confiance": "a_verifier",
+  "contenu": {
+    "objet": "Comment déposer un dossier de visa d'APE sur des valeurs mobilières (art. 74 du Règlement 01/22) : dépôt physique et électronique, pièces à fournir, accusé de réception, version finale, publicités, encart de visa.",
+    "essentiel": "Dossier déposé au **siège** de la COSUMAF (papier) **et par e-mail** ; document d'information en **français obligatoirement**. Accusé de réception en **10 jours ouvrables**. Pièces : statuts, document d'information, bulletin de souscription, RCCM de **moins de 3 mois**, états financiers certifiés des **3 derniers exercices**, PV d'AG, mandat de la **société de bourse**, évaluation, prévisions sur **3 ans**. Version visée transmise **5 jours avant** l'offre. Le visa **n'est pas un avis favorable** sur l'émetteur.",
+    "retenir": [
+      "L'instruction s'applique à l'APE sur des **valeurs mobilières** (art. 74 du Règlement 01/22). Art. 1",
+      "Dépôt du projet de document d'information au **siège de la COSUMAF** (dossier physique) **et** par voie **électronique** (e-mail de la COSUMAF). Art. 2",
+      "Le document d'information est déposé et visé dans une langue de travail de la CEMAC et **obligatoirement en français**. Art. 2",
+      "Le déposant désigne un **contact** (identité, e-mail, téléphone) ; si un intermédiaire présente le dossier, il indique un **responsable chez l'émetteur**. Art. 2",
+      "Accusé de réception **au plus tard 10 jours ouvrables** après la demande, avec un **numéro de référence** et un **point de contact** COSUMAF. Art. 2, 5",
+      "Si le projet n'est pas **complet, compréhensible et cohérent**, la COSUMAF le signale par écrit et par voie électronique. Art. 5",
+      "Pièces déjà fournies lors d'un dépôt antérieur : pas besoin de les redonner si elles n'ont **pas changé** (l'émetteur le mentionne). Art. 3",
+      "Opération particulière : contacter la COSUMAF **avant le dépôt**, même si les conditions ne sont pas arrêtées. Art. 3",
+      "Version finale visée transmise **5 jours avant** le début de l'offre (au plus tard au début), avec la **déclaration signée des responsables**, la **lettre de fin de travaux** des contrôleurs légaux et l'**attestation** des intermédiaires qui dirigent le placement. Art. 6",
+      "Les **documents promotionnels** sont déposés **avec le projet initial** ; sinon, **avant la délivrance du visa** pour validation. Art. 7",
+      "L'encart de visa rappelle : le visa **ne vaut pas avis favorable** sur l'émetteur ni sur la qualité des titres ; un **supplément** est exigé en cas de **fait nouveau significatif** ou d'**erreur substantielle**. Annexe II"
+    ],
+    "listes": [
+      {
+        "titre": "Pièces du dossier de demande de visa",
+        "a": "art. 3",
+        "items": [
+          "Demande d'autorisation ou lettre d'intention d'APE",
+          "Statuts certifiés conformes",
+          "Document d'information à viser",
+          "Projet de bulletin de souscription",
+          "Extrait RCCM de moins de 3 mois",
+          "États financiers certifiés des 3 derniers exercices",
+          "PV de l'AG ayant autorisé l'opération",
+          "3 derniers rapports de gestion",
+          "3 derniers rapports généraux et spéciaux des CAC",
+          "Lettre de mandat de la société de bourse",
+          "Rapport d'évaluation financière",
+          "Prévisions d'activité sur 3 ans"
+        ]
+      },
+      {
+        "titre": "Pièces jointes à la version finale",
+        "a": "art. 6",
+        "items": [
+          "Déclaration signée des personnes responsables",
+          "Lettre de fin de travaux des contrôleurs légaux",
+          "Attestation des intermédiaires qui dirigent le placement"
+        ]
+      }
+    ],
+    "pieges": [
+      "Le visa ou l'enregistrement **n'est pas un avis favorable** : la COSUMAF vérifie seulement que l'information est **complète, cohérente et compréhensible**.",
+      "Le document d'information est **toujours** disponible en **français**, même s'il est rédigé dans une autre langue de travail."
+    ],
+    "qr": [
+      {
+        "q": "Que doit contenir la déclaration générale de l'émetteur ?",
+        "r": "Que les informations du document d'information sont, à sa connaissance, conformes à la réalité et ne comportent pas d'omission de nature à en altérer la portée (annexe I)."
+      }
+    ]
+  },
+  "organisme": "cosumaf",
+  "couverture": "partielle"
+}
