@@ -76,7 +76,7 @@ const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/comprendre', 'Co
 function cadre() {
   $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}</nav>`;
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
-    <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a></div></div>`;
+    <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a></div></div>`;
 }
 const marquerNav = path => { $$('[data-nav]').forEach(a => { const h = a.dataset.nav; const on = h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && path.startsWith('/texte')); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); };
 
@@ -843,6 +843,7 @@ document.addEventListener('keydown', e => {
 window.addEventListener('hashchange', render);
 (async () => {
   try { await charger(); } catch (e) { $('#app').innerHTML = `<div class="empty"><h1>Données indisponibles</h1><p>Impossible de charger les données. Vérifiez votre connexion puis rechargez la page.</p></div>`; return; }
+  { const m = location.pathname.match(/^\/textes\/([a-z0-9-]+)\/?$/); if (m && D.T.has(m[1])) history.replaceState(null, '', '/#/texte/' + m[1] + location.search); }
   cadre(); await render();
   if ('serviceWorker' in navigator && /nosw/.test(location.search)) { // mode développement : pas de cache hors ligne
     navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister())); caches?.keys().then(ks => ks.forEach(k => caches.delete(k)));

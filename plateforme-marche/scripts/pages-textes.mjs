@@ -1,0 +1,78 @@
+// Pages statiques par texte (référencement) : dist/textes/<id>/index.html, dist/textes/index.html, sitemap.xml, robots.txt.
+// Chaque page contient le texte de la fiche déjà écrit dans le HTML ; l'application prend ensuite la main (voir app.js).
+import fs from 'node:fs';
+import path from 'node:path';
+
+const TYPE = { instruction: 'Instruction', reglement: 'Règlement', reglement_general: 'Règlement général', reglement_ueac: 'Règlement UEAC', reglement_bvmac: 'Règlement général BVMAC', instruction_bvmac: 'Instruction BVMAC', acte_additionnel: 'Acte additionnel', circulaire: 'Lettre circulaire', lignes_directrices: 'Lignes directrices', communique: 'Communiqué', traite: 'Traité', convention: 'Convention', acte_uniforme: 'Acte uniforme', guide: 'Guide' };
+const ORG = { cosumaf: 'COSUMAF', bvmac: 'BVMAC', cemac: 'CEMAC', umac: 'UMAC', ueac: 'UEAC', ohada: 'OHADA' };
+const STATUT = { en_vigueur: 'En vigueur', abroge: 'Abrogé', modifie: 'Modifié', projet: 'Projet' };
+const SPECIAL = { 'r19-intro': 'Règlement CEMAC/UMAC de 2019 (introduction en bourse des États)', 'rg-23': 'Règlement général de la COSUMAF (2023)', 'rbv-08': 'Règlement général de la BVMAC (2008)', 'rbv-25': 'Règlement général de la BVMAC (2025)', 'rfi-07': 'Règlement UEAC 14/07 (régime fiscal BVMAC)', 'r06-03': 'Règlement 06/03 (organisation du marché, ancien)' };
+const SECTIONS = { delai: 'Délais', montant: 'Montants et seuils', role: 'Rôles des acteurs', definition: 'Définitions', liste: 'Listes à retenir', piege: 'Pièges' };
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const nom = t => { if (SPECIAL[t.id]) return SPECIAL[t.id]; const base = TYPE[t.type] || ''; const n = t.numero || ''; return fold(n).startsWith(fold(base)) ? n : `${base} ${n}`.trim(); };
+const coupe = (s, n) => { s = String(s || '').replace(/\*\*/g, '').replace(/\s+/g, ' ').trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; };
+
+export function genererPages({ dist, racine, textes, faits, siteUrl, lancement }) {
+  const gabarit = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
+  const ecrire = (rel, contenu) => { const f = path.join(dist, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, contenu); };
+  const page = ({ titre, description, canon, corps, json }) => gabarit
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(titre)}</title>`)
+    .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${esc(description)}">\n<link rel="canonical" href="${canon}">\n<meta property="og:title" content="${esc(titre)}">\n<meta property="og:description" content="${esc(description)}">\n<meta property="og:type" content="article">\n<meta property="og:url" content="${canon}">\n<meta property="og:locale" content="fr_FR">\n<script type="application/ld+json">${JSON.stringify(json).replace(/</g, '\\u003c')}</script>`)
+    .replace(/<main id="app"[^>]*>[\s\S]*?<\/main>/, `<main id="app" tabindex="-1" aria-live="polite">${corps}</main>`);
+
+  const parTexte = new Map();
+  for (const f of faits) { if (!parTexte.has(f.texte)) parTexte.set(f.texte, []); parTexte.get(f.texte).push(f); }
+  const par = new Map(textes.map(t => [t.id, t]));
+  const lien = id => par.has(id) ? `<a href="/textes/${id}/">${esc(nom(par.get(id)))}</a>` : esc(id);
+  const urls = [`${siteUrl}/`, `${siteUrl}/textes/`];
+
+  for (const t of textes) {
+    const c = t.contenu || {}, fs_ = parTexte.get(t.id) || [], canon = `${siteUrl}/textes/${t.id}/`;
+    const sous = fold(t.titre).startsWith(fold(nom(t))) ? t.titre.slice(nom(t).length).replace(/^[\s,:–-]+/, '') : t.titre;
+    const blocs = [];
+    if (c.essentiel) blocs.push(`<section><h2>L'essentiel</h2><p>${md(c.essentiel)}</p></section>`);
+    if ((c.retenir || []).length) blocs.push(`<section><h2>À retenir</h2><ul>${c.retenir.map(x => `<li>${md(x)}</li>`).join('')}</ul></section>`);
+    for (const [type, titre] of Object.entries(SECTIONS)) {
+      const l = fs_.filter(f => f.type === type); if (!l.length) continue;
+      blocs.push(`<section><h2>${titre}</h2>${type === 'piege' ? `<ul>${l.map(f => `<li>${md(f.valeur_texte)}</li>`).join('')}</ul>` : `<dl>${l.map(f => `<dt>${esc(f.enonce)}</dt><dd>${type === 'liste' ? esc((f.items || []).join(' ; ')) : esc(f.valeur_texte)}${f.article ? ` <small>(${esc(f.article)})</small>` : ''}</dd>`).join('')}</dl>`}</section>`);
+    }
+    const rel = [];
+    if (t.abroge_par?.length) rel.push(`<p>Abrogé par : ${t.abroge_par.map(lien).join(', ')}</p>`);
+    if (t.abroge?.length) rel.push(`<p>Abroge : ${t.abroge.map(lien).join(', ')}</p>`);
+    const corps = `<article class="seo"><nav><a href="/">Accueil</a> › <a href="/textes/">Textes</a></nav>
+      <h1>${esc(nom(t))}</h1>${sous ? `<p><strong>${esc(sous)}</strong></p>` : ''}
+      <p>${esc(STATUT[t.statut] || t.statut)} · ${esc(ORG[t.organisme] || '')}${t.date_texte ? ` · ${esc(t.date_texte)}` : ''}</p>
+      ${t.statut === 'abroge' ? '<p><strong>Ce texte est abrogé.</strong></p>' : ''}${rel.join('')}
+      ${blocs.join('')}${t.source?.url_officielle ? `<p><a href="${esc(t.source.url_officielle)}" rel="noopener">Lire le texte officiel</a></p>` : ''}
+      <p><a href="/#/texte/${t.id}">Ouvrir la fiche interactive</a></p>
+      <p><small>Outil d'aide à la lecture, non officiel : il ne remplace pas les textes publiés par la COSUMAF et la BVMAC.</small></p></article>`;
+    const titre = SPECIAL[t.id] ? nom(t) : `${nom(t)} : ${coupe(sous || t.titre, 70)}`;
+    const description = coupe(c.essentiel || c.objet || t.titre, 155);
+    ecrire(`textes/${t.id}/index.html`, page({ titre, description, canon, corps, json: {
+      '@context': 'https://schema.org', '@type': 'WebPage', name: titre, description, inLanguage: 'fr', url: canon,
+      about: { '@type': 'Thing', name: nom(t), description: t.titre },
+      isPartOf: { '@type': 'WebSite', name: 'Marché financier CEMAC', url: siteUrl + '/' },
+      breadcrumb: { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Accueil', item: siteUrl + '/' }, { '@type': 'ListItem', position: 2, name: 'Textes', item: siteUrl + '/textes/' }, { '@type': 'ListItem', position: 3, name: nom(t), item: canon }] } } }));
+    urls.push(canon);
+  }
+
+  // Index des textes (point d'entrée pour les moteurs de recherche)
+  const groupes = {};
+  for (const t of textes.slice().sort((a, b) => (b.date_adoption || '').localeCompare(a.date_adoption || ''))) (groupes[ORG[t.organisme] || 'Autres'] ||= []).push(t);
+  const corpsIndex = `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Tous les textes du marché financier de la CEMAC</h1>
+    <p>${textes.length} textes de la COSUMAF, de la BVMAC et de la CEMAC, avec leur statut, leurs délais, montants et rôles.</p>
+    ${Object.entries(groupes).map(([o, l]) => `<section><h2>${esc(o)}</h2><ul>${l.map(t => `<li><a href="/textes/${t.id}/">${esc(nom(t))}</a> : ${esc(coupe(t.titre, 110))}${t.statut === 'abroge' ? ' (abrogé)' : ''}</li>`).join('')}</ul></section>`).join('')}</article>`;
+  const descIndex = `Liste des ${textes.length} textes du marché financier de l'Afrique centrale (COSUMAF, BVMAC, CEMAC) avec leur statut.`;
+  ecrire('textes/index.html', page({ titre: 'Tous les textes du marché financier de la CEMAC', description: descIndex, canon: `${siteUrl}/textes/`, corps: corpsIndex, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Textes du marché financier CEMAC', description: descIndex, inLanguage: 'fr', url: `${siteUrl}/textes/` } }));
+
+  // Plan du site, consignes aux robots
+  const jour = new Date().toISOString().slice(0, 10);
+  ecrire('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `<url><loc>${u}</loc><lastmod>${jour}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+  ecrire('robots.txt', lancement ? `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n` : '# Préversion : ne pas indexer. Lancer le build avec LANCEMENT=1 pour ouvrir aux moteurs de recherche.\nUser-agent: *\nDisallow: /\n');
+  const h = fs.readFileSync(path.join(dist, '_headers'), 'utf8');
+  ecrire('_headers', lancement ? h.replace(/\n  X-Robots-Tag: noindex, nofollow/, '') : h);
+  return urls.length;
+}

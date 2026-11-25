@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { charger, valider, racine } from './valider.mjs';
+import { genererPages } from './pages-textes.mjs';
 
 const donnees = charger();
 const { erreurs, avertissements } = valider(donnees);
@@ -88,11 +89,16 @@ ecrire('data/faits.json', compact);
 ecrire('data/guides.json', guides);
 ecrire('data/retenir.json', retenir);
 
+// 2 bis. Pages statiques par texte (référencement) ; LANCEMENT=1 et SITE_URL pour la mise en ligne publique
+const siteUrl = (process.env.SITE_URL || 'https://marche-cemac-preview.impacttech237.workers.dev').replace(/\/$/, '');
+const nbPages = genererPages({ dist, racine, textes, faits, siteUrl, lancement: process.env.LANCEMENT === '1' });
+console.log(`Pages statiques : ${nbPages} (indexation ${process.env.LANCEMENT === '1' ? 'OUVERTE' : 'fermée : préversion'}, ${siteUrl})`);
+
 // 3. Service worker (cache hors ligne versionné)
 const liste = [];
 const parcourir = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) parcourir(p); else liste.push('/' + path.relative(dist, p).replace(/\\/g, '/')); } };
 parcourir(dist);
-const fichiers = liste.filter(f => f !== '/sw.js').sort();
+const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && f !== '/sitemap.xml').sort();
 const h = crypto.createHash('sha1');
 for (const f of fichiers) { h.update(f); h.update(fs.readFileSync(path.join(dist, f))); }
 const versionSw = h.digest('hex').slice(0, 10);
