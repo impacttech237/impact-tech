@@ -28,6 +28,16 @@ Sans ces variables, le build reste en mode préversion (indexation fermée, doma
 - Exclure vos appareils : ouvrir le site avec `?notrack=1` (`?notrack=0` pour réactiver).
 - Données conservées 200 jours, sans cookie ni adresse IP.
 
+## 3 bis. Comptes : activer « Continuer avec Google » (facultatif)
+
+Le code est prêt mais inactif tant que l'identifiant Google n'est pas fourni. Il faut le domaine définitif.
+1. Google Cloud Console, API et services, Identifiants, créer un « ID client OAuth » de type Application Web.
+2. « Origines JavaScript autorisées » : `https://votre-domaine` (et l'adresse workers.dev si besoin de tests).
+3. Enregistrer l'identifiant : `echo VOTRE_ID_CLIENT | node ../node_modules/wrangler/bin/wrangler.js secret put GOOGLE_CLIENT_ID`.
+4. Le bouton Google apparaît tout seul sur la page Compte. Aucun autre changement de code.
+
+Mot de passe oublié : par code de récupération (affiché une fois à la création). Une réinitialisation par e-mail demanderait la clé Resend dans ce Worker.
+
 ## 4. Les PDF
 
 Les PDF ne sont pas dans git (325 Mo). Ils sont pris dans les dossiers Téléchargements de l'équipe via `data/pdf-map.json`.
