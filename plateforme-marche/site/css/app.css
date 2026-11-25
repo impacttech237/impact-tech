@@ -284,3 +284,12 @@ main{padding-bottom:40px}
 .onmat{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
 @media (max-width:640px){.nav a{padding:6px 12px}.card,.sheet{padding:20px}.fcard{padding:24px}.shelfsearch{margin-bottom:50px}.book.course .spine{font-size:13px}}
 [hidden]{display:none!important}
+
+/* ---------- guides ---------- */
+.guides{counter-reset:g;margin-top:30px}
+.guides .item{position:relative;padding-left:84px}
+.guides .num{position:absolute;left:24px;top:22px;width:44px;height:44px;border-radius:50%;background:var(--y);border:2.5px solid var(--ink);box-shadow:2px 3px 0 var(--ink);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:20px;color:var(--ink)}
+.pager{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:34px 0 10px}
+.persoline{text-align:center;margin:6px 0 0}
+.sheet .facts{margin-top:0}
+.srcl{font-family:var(--display);font-weight:700;font-size:13.5px;color:var(--ink);margin-right:10px}

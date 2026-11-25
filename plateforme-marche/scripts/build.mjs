@@ -25,6 +25,13 @@ if (avertissements.length) {
     if (msgs.length > 4) console.log(`     … ${msgs.length - 4} autre(s)`);
   }
 }
+// Guides « Découvrir » et « Comprendre » : chaque fait cité doit exister et venir d'un texte en vigueur
+const guides = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'guides.json'), 'utf8')).sort((a, b) => a.porte.localeCompare(b.porte) || a.ordre - b.ordre);
+{ const idsFaits = new Map(faits.map(f => [f.id, f])); const st = new Map(textes.map(t => [t.id, t.statut]));
+  for (const g of guides) for (const b of g.blocs) for (const id of b.faits || []) {
+    if (!idsFaits.has(id)) erreurs.push({ code: 'G1', msg: `guide ${g.id} : fait inconnu ${id}` });
+    else if (st.get(idsFaits.get(id).texte) === 'abroge') erreurs.push({ code: 'G2', msg: `guide ${g.id} : ${id} vient d'un texte abrogé` }); } }
+console.log(`Guides : ${guides.length} chapitres`);
 if (erreurs.length) {
   console.error(`\n${erreurs.length} ERREUR(S) — build arrêté :`);
   for (const e of erreurs.slice(0, 40)) console.error(`  [${e.code}] ${e.msg}`);
@@ -78,6 +85,7 @@ index.genere_le = new Date().toISOString().slice(0, 10);
 index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.filter(t => t.confiance !== 'verifie').length };
 ecrire('data/index.json', index);
 ecrire('data/faits.json', compact);
+ecrire('data/guides.json', guides);
 ecrire('data/retenir.json', retenir);
 
 // 3. Service worker (cache hors ligne versionné)

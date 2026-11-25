@@ -1,0 +1,560 @@
+[
+  {
+    "id": "bourse-en-bref",
+    "porte": "decouvrir",
+    "ordre": 1,
+    "titre": "La bourse d'Afrique centrale, en bref",
+    "accroche": "À quoi sert la bourse, qui la fait fonctionner, et comment les titres circulent.",
+    "theme": "cadre",
+    "blocs": [
+      {
+        "p": "Une entreprise ou un État qui a besoin d'argent peut le chercher auprès du public en émettant des **titres**. Une **action** est une part du capital d'une entreprise ; une **obligation** est un prêt consenti à l'émetteur, qui s'engage à le rembourser avec des intérêts. Une fois émis, ces titres peuvent être revendus à d'autres épargnants sur un marché organisé : la **bourse**."
+      },
+      {
+        "p": "Dans la zone CEMAC, le marché financier est unifié depuis l'acte additionnel du 19 février 2018 : une seule autorité de régulation, une seule bourse et un dépositaire central des titres."
+      },
+      {
+        "faits": [
+          "aa06-17.definition.01",
+          "aa06-17.role.01",
+          "aa06-17.role.02",
+          "aa06-17.role.03"
+        ],
+        "titre": "Les trois piliers, selon l'acte additionnel"
+      },
+      {
+        "note": "Pour acheter ou vendre un titre coté, un épargnant passe obligatoirement par une société de bourse (voir « Acheter ou vendre »)."
+      }
+    ]
+  },
+  {
+    "id": "qui-protege",
+    "porte": "decouvrir",
+    "ordre": 2,
+    "titre": "Qui protège l'épargnant ?",
+    "accroche": "Le régulateur, les sanctions, la médiation et les réflexes à avoir avant de confier de l'argent.",
+    "theme": "conformite",
+    "blocs": [
+      {
+        "p": "Le marché est surveillé par la **COSUMAF**, qui délivre les agréments, accorde les visas aux offres au public et peut sanctionner. Plusieurs mécanismes protègent l'épargnant : une instance chargée de juger les manquements, un médiateur pour les litiges, et une cellule qui reçoit les déclarations d'opérations suspectes."
+      },
+      {
+        "faits": [
+          "r01-22.role.01",
+          "r01-22.role.05",
+          "r01-22.role.16",
+          "rg-23.role.03",
+          "r01-22.role.15"
+        ],
+        "titre": "Qui fait quoi pour vous protéger"
+      },
+      {
+        "p": "Les personnes qui conseillent ou négocient pour le public doivent avoir été **habilitées** et recevoir une carte professionnelle."
+      },
+      {
+        "faits": [
+          "i18-24.definition.01",
+          "i18-24.role.02"
+        ],
+        "titre": "La carte professionnelle"
+      },
+      {
+        "note": "Réflexe simple : avant de confier de l'argent, demandez à voir la carte professionnelle de votre interlocuteur et vérifiez que l'intermédiaire est agréé auprès de la COSUMAF."
+      }
+    ]
+  },
+  {
+    "id": "ou-sont-mes-titres",
+    "porte": "decouvrir",
+    "ordre": 3,
+    "titre": "Où sont mes titres ?",
+    "accroche": "Il n'y a plus de certificat en papier : vos titres sont inscrits dans un compte.",
+    "theme": "titres",
+    "blocs": [
+      {
+        "p": "Les titres ne sont plus matérialisés par des certificats : ils sont **inscrits en compte** au nom de leur propriétaire. Selon la forme du titre, cette inscription se fait chez l'émetteur lui-même ou chez un intermédiaire habilité, le **teneur de compte**. Vous recevez une **attestation d'inscription en compte** qui prouve que vous détenez les titres."
+      },
+      {
+        "faits": [
+          "r04-25.definition.01",
+          "r04-25.definition.04",
+          "r04-25.definition.05",
+          "r04-25.definition.06",
+          "r04-25.definition.07"
+        ],
+        "titre": "Les mots à connaître"
+      },
+      {
+        "faits": [
+          "r04-25.role.02"
+        ],
+        "titre": "Le rôle du teneur de compte"
+      },
+      {
+        "note": "Conservez vos attestations d'inscription en compte : elles sont la preuve de votre propriété."
+      }
+    ]
+  },
+  {
+    "id": "acheter-vendre",
+    "porte": "decouvrir",
+    "ordre": 4,
+    "titre": "Acheter ou vendre : passer par une société de bourse",
+    "accroche": "Comment un ordre est donné, à quel prix, et combien de temps il reste valable.",
+    "theme": "marche",
+    "blocs": [
+      {
+        "p": "À la BVMAC, seules les **sociétés de bourse** peuvent négocier. Vous leur donnez un **ordre de bourse** : une instruction d'achat ou de vente d'un titre. L'ordre peut préciser un prix limite, ou être passé « au marché », c'est-à-dire sans indication de prix."
+      },
+      {
+        "faits": [
+          "rbv-25.role.04",
+          "rbv-25.definition.07",
+          "rbv-25.definition.08",
+          "rbv-25.definition.09",
+          "rbv-25.definition.06"
+        ],
+        "titre": "Les notions de base"
+      },
+      {
+        "faits": [
+          "rbv-25.delai.13",
+          "rbv-25.delai.14"
+        ],
+        "titre": "Délais à connaître"
+      }
+    ]
+  },
+  {
+    "id": "epargner-par-un-fonds",
+    "porte": "decouvrir",
+    "ordre": 5,
+    "titre": "Épargner par un fonds (OPC)",
+    "accroche": "Confier son épargne à un fonds géré par des professionnels, sans choisir chaque titre.",
+    "theme": "opc",
+    "blocs": [
+      {
+        "p": "Un **fonds** (OPC, organisme de placement collectif) rassemble l'argent de nombreux épargnants et l'investit dans un portefeuille de titres. Vous achetez des **parts** ou des **actions** du fonds. Le portefeuille est géré par une société de gestion et les actifs sont gardés par un **dépositaire**, distinct du gestionnaire, qui contrôle la régularité de ses décisions."
+      },
+      {
+        "faits": [
+          "rg-23.definition.01",
+          "r01-22.role.12",
+          "i24-24.role.01",
+          "i24-24.role.02"
+        ],
+        "titre": "Comment un fonds est organisé"
+      },
+      {
+        "faits": [
+          "rg-23.definition.05"
+        ],
+        "titre": "Un exemple : le fonds d'épargne salariale"
+      },
+      {
+        "note": "Lisez toujours le document d'information du fonds : il présente les frais, le dépositaire et les risques. Les performances passées ne garantissent pas les performances futures."
+      }
+    ]
+  },
+  {
+    "id": "souscrire-offre-public",
+    "porte": "decouvrir",
+    "ordre": 6,
+    "titre": "Souscrire à une offre au public",
+    "accroche": "Quand une entreprise ou un État vous propose d'acheter ses titres : ce qui doit exister avant.",
+    "theme": "ape",
+    "blocs": [
+      {
+        "p": "Quand une entreprise ou un État propose ses titres au public, on parle d'**appel public à l'épargne** (APE). L'opération doit recevoir un **visa** de la COSUMAF et s'accompagner d'un **document d'information** que vous pouvez consulter avant de souscrire. Les souscriptions sont centralisées par une société de bourse, qui transmet ensuite les fonds à l'émetteur."
+      },
+      {
+        "faits": [
+          "r01-22.montant.01",
+          "r01-22.delai.01",
+          "rg-23.role.04"
+        ],
+        "titre": "Ce que prévoient les textes"
+      },
+      {
+        "note": "Une offre qui n'a pas reçu de visa alors qu'elle s'adresse au public est un signal d'alerte : renseignez-vous auprès de la COSUMAF avant de verser de l'argent."
+      }
+    ]
+  },
+  {
+    "id": "vue-ensemble",
+    "porte": "comprendre",
+    "ordre": 1,
+    "titre": "Le marché financier de la CEMAC : vue d'ensemble",
+    "accroche": "La CEMAC, l'UMAC et l'unification du marché de 2018.",
+    "theme": "cadre",
+    "blocs": [
+      {
+        "p": "La **CEMAC** est la Communauté Économique et Monétaire de l'Afrique Centrale. Sa dimension monétaire est portée par l'**UMAC**, dont la COSUMAF est une institution spécialisée. L'acte additionnel de 2018 a réuni le marché financier régional et celui du Cameroun."
+      },
+      {
+        "faits": [
+          "tr-cemac-09.definition.01",
+          "conv-umac-08.role.01",
+          "aa06-17.definition.01"
+        ],
+        "titre": "Les cadres"
+      },
+      {
+        "faits": [
+          "aa06-17.role.01",
+          "aa06-17.role.02",
+          "aa06-17.role.03",
+          "aa06-17.role.04",
+          "aa06-17.montant.01"
+        ],
+        "titre": "Qui fait quoi depuis l'unification"
+      },
+      {
+        "faits": [
+          "aa06-17.delai.01",
+          "aa06-17.delai.02",
+          "aa06-17.delai.03",
+          "aa06-17.delai.04",
+          "aa06-17.delai.05"
+        ],
+        "titre": "Le calendrier prévu par l'acte"
+      }
+    ]
+  },
+  {
+    "id": "institutions",
+    "porte": "comprendre",
+    "ordre": 2,
+    "titre": "Les institutions de régulation",
+    "accroche": "COSUMAF, Collège, Commission des sanctions, Comité ministériel, Cour de justice.",
+    "theme": "cadre",
+    "blocs": [
+      {
+        "p": "La COSUMAF régule, contrôle et surveille le marché. Elle s'organise autour d'un **Collège**, d'un **Président**, d'un **Secrétaire Général** et d'une **Commission des sanctions**, sous l'autorité du **Comité ministériel de l'UMAC**. Ses décisions peuvent être contestées devant la **Cour de justice de la CEMAC**."
+      },
+      {
+        "faits": [
+          "r01-22.role.01",
+          "r01-22.role.02",
+          "r01-22.role.03",
+          "r01-22.role.04",
+          "r01-22.role.05",
+          "r01-22.role.06",
+          "r01-22.role.07"
+        ],
+        "titre": "Les organes et leurs missions"
+      },
+      {
+        "faits": [
+          "r01-22.delai.03",
+          "r01-22.delai.04",
+          "r01-22.delai.05",
+          "r01-22.delai.06",
+          "r01-22.delai.07"
+        ],
+        "titre": "Mandats et rythme de travail"
+      },
+      {
+        "faits": [
+          "conv-umac-08.role.02",
+          "conv-umac-08.role.03",
+          "conv-umac-08.role.04",
+          "tr-cemac-09.role.01"
+        ],
+        "titre": "Les institutions de la zone"
+      }
+    ]
+  },
+  {
+    "id": "bvmac-cote",
+    "porte": "comprendre",
+    "ordre": 3,
+    "titre": "La BVMAC et la cote",
+    "accroche": "L'entreprise de marché, la Cote Permanente, ses compartiments et les conditions d'admission.",
+    "theme": "marche",
+    "blocs": [
+      {
+        "p": "La **BVMAC** est l'entreprise de marché : elle organise et anime la bourse, décide de l'admission des valeurs et publie chaque jour le bulletin officiel de la cote. Les valeurs sont admises à la **Cote Permanente**, répartie en compartiments selon la taille et la nature de l'émetteur."
+      },
+      {
+        "faits": [
+          "rbv-25.role.01",
+          "rbv-25.role.03",
+          "rbv-25.definition.01",
+          "rbv-25.definition.02",
+          "rbv-25.definition.05"
+        ],
+        "titre": "Les acteurs et les marchés"
+      },
+      {
+        "faits": [
+          "rbv-25.montant.01",
+          "rbv-25.montant.02",
+          "rbv-25.montant.03",
+          "rbv-25.montant.04"
+        ],
+        "titre": "Compartiment A Premium : conditions d'introduction"
+      },
+      {
+        "faits": [
+          "rbv-25.montant.05",
+          "rbv-25.montant.06",
+          "rbv-25.montant.07",
+          "rbv-25.delai.02"
+        ],
+        "titre": "Compartiment B Medium et délai de décision"
+      }
+    ]
+  },
+  {
+    "id": "negocier",
+    "porte": "comprendre",
+    "ordre": 4,
+    "titre": "Négocier : ordres, cotation et règlement",
+    "accroche": "Fixing ou continu, types d'ordres, transactions de bloc et acheté-vendu.",
+    "theme": "marche",
+    "blocs": [
+      {
+        "p": "Les ordres des sociétés de bourse sont confrontés selon deux modes de cotation : le **fixing**, qui détermine un cours unique, et la **cotation en continu**. Le règlement se fait au comptant. Certaines opérations suivent des règles particulières : transactions de bloc et opérations « acheté-vendu »."
+      },
+      {
+        "faits": [
+          "rbv-25.definition.03",
+          "rbv-25.definition.04",
+          "rbv-25.definition.06",
+          "rbv-25.definition.07",
+          "rbv-25.definition.08",
+          "rbv-25.definition.09"
+        ],
+        "titre": "Le vocabulaire de la négociation"
+      },
+      {
+        "faits": [
+          "rbv-25.definition.10",
+          "rbv-25.definition.11",
+          "rbv-25.montant.10",
+          "rbv-25.montant.11",
+          "rbv-25.montant.12",
+          "rbv-25.montant.13",
+          "rbv-25.montant.14",
+          "rbv-25.montant.15"
+        ],
+        "titre": "Blocs et acheté-vendu : seuils minimaux"
+      },
+      {
+        "faits": [
+          "rbv-25.delai.13",
+          "rbv-25.delai.14",
+          "rbv-25.delai.17"
+        ],
+        "titre": "Délais liés aux ordres"
+      }
+    ]
+  },
+  {
+    "id": "depositaire-titres",
+    "porte": "comprendre",
+    "ordre": 5,
+    "titre": "Les titres, le dépositaire central et le règlement",
+    "accroche": "Inscription en compte, formes de titres et chaîne de règlement-livraison.",
+    "theme": "titres",
+    "blocs": [
+      {
+        "p": "Depuis le règlement 04/25, les titres sont **inscrits en compte**. Le **Dépositaire Central** tient les comptes de ses adhérents ; les **teneurs de comptes** tiennent ceux des titulaires. Autour de lui, la **chambre de compensation** et la **banque de règlement (BEAC)** assurent le dénouement des opérations."
+      },
+      {
+        "faits": [
+          "r04-25.definition.01",
+          "r04-25.definition.02",
+          "r04-25.definition.03",
+          "r04-25.definition.04",
+          "r04-25.definition.05",
+          "r04-25.definition.06",
+          "r04-25.definition.07",
+          "r04-25.definition.08"
+        ],
+        "titre": "Le vocabulaire"
+      },
+      {
+        "faits": [
+          "r04-25.role.01",
+          "r04-25.role.02",
+          "r04-25.role.03",
+          "r01-22.role.09",
+          "r01-22.role.10",
+          "r01-22.role.11"
+        ],
+        "titre": "Les acteurs de la chaîne"
+      },
+      {
+        "faits": [
+          "r04-25.delai.01",
+          "r04-25.delai.03",
+          "r04-25.delai.05",
+          "r04-25.delai.06",
+          "r04-25.delai.07"
+        ],
+        "titre": "Les délais de la transition"
+      }
+    ]
+  },
+  {
+    "id": "intermediaires",
+    "porte": "comprendre",
+    "ordre": 6,
+    "titre": "Les intermédiaires et leurs missions",
+    "accroche": "Sociétés de bourse, spécialistes, agents placeurs, sponsors, habilitation et retrait d'agrément.",
+    "theme": "agrement",
+    "blocs": [
+      {
+        "p": "Les intermédiaires sont agréés, leurs collaborateurs sont habilités. Les **sociétés de bourse** ont le monopole de la négociation à la BVMAC ; d'autres acteurs accompagnent les émetteurs, comme les **agents placeurs** et les **listing sponsors**."
+      },
+      {
+        "faits": [
+          "rbv-25.role.04",
+          "rbv-25.role.06",
+          "rbv-25.role.07",
+          "rbv-25.role.08",
+          "r01-22.role.13",
+          "r01-22.role.14"
+        ],
+        "titre": "Les rôles"
+      },
+      {
+        "faits": [
+          "rg-23.role.01",
+          "rg-23.role.02",
+          "i18-24.definition.01",
+          "rg-23.role.06"
+        ],
+        "titre": "Habilitation et profession"
+      },
+      {
+        "faits": [
+          "r01-22.delai.12",
+          "r01-22.delai.13",
+          "rg-23.role.05"
+        ],
+        "titre": "Retrait d'agrément et administration provisoire"
+      }
+    ]
+  },
+  {
+    "id": "lever-des-capitaux",
+    "porte": "comprendre",
+    "ordre": 7,
+    "titre": "Lever des capitaux : visa, placement et introduction",
+    "accroche": "Appel public à l'épargne, seuils, commissions et introduction en bourse des États.",
+    "theme": "ape",
+    "blocs": [
+      {
+        "p": "Un émetteur qui s'adresse au public lance un **appel public à l'épargne**, soumis au visa de la COSUMAF. En dessous d'un seuil, l'offre n'est pas un appel public. Les États peuvent aussi céder des participations en bourse."
+      },
+      {
+        "faits": [
+          "r01-22.montant.01",
+          "r01-22.delai.01",
+          "r01-22.delai.02",
+          "rg-23.role.04"
+        ],
+        "titre": "Seuils et délais"
+      },
+      {
+        "faits": [
+          "i23-24.montant.01",
+          "i23-24.montant.03"
+        ],
+        "titre": "Commissions"
+      },
+      {
+        "faits": [
+          "rbv-25.montant.08",
+          "rbv-25.montant.09"
+        ],
+        "titre": "L'offre publique de vente à la BVMAC"
+      },
+      {
+        "faits": [
+          "r19-intro.role.01",
+          "r19-intro.role.02",
+          "r19-intro.role.03"
+        ],
+        "titre": "L'introduction en bourse des participations des États"
+      }
+    ]
+  },
+  {
+    "id": "opc",
+    "porte": "comprendre",
+    "ordre": 8,
+    "titre": "Les OPC : organisation et vocabulaire",
+    "accroche": "Valeur liquidative, sommes distribuables, compartiments, nourricier, FCPE, dépositaire.",
+    "theme": "opc",
+    "blocs": [
+      {
+        "p": "Les **OPCVM** investissent l'épargne collectée dans un portefeuille de valeurs mobilières. Leur organisation sépare la **société de gestion**, le **dépositaire** et, souvent, un **centralisateur** des ordres."
+      },
+      {
+        "faits": [
+          "rg-23.definition.01",
+          "rg-23.definition.02",
+          "rg-23.definition.03",
+          "rg-23.definition.04",
+          "rg-23.definition.05"
+        ],
+        "titre": "Les notions de comptabilité du fonds"
+      },
+      {
+        "faits": [
+          "i24-24.definition.01",
+          "i24-24.definition.02",
+          "i24-24.definition.03",
+          "i21-24.definition.02"
+        ],
+        "titre": "Compartiments, catégories de parts, nourricier, FIA"
+      },
+      {
+        "faits": [
+          "r01-22.role.12",
+          "i24-24.role.01",
+          "i24-24.role.02",
+          "i24-24.role.03",
+          "rg-23.role.07"
+        ],
+        "titre": "Les acteurs d'un fonds"
+      }
+    ]
+  },
+  {
+    "id": "controle-lbc",
+    "porte": "comprendre",
+    "ordre": 9,
+    "titre": "Contrôle, sanctions et lutte contre le blanchiment",
+    "accroche": "Prescription, vigilance sur la clientèle, déclarations de soupçon et institutions régionales.",
+    "theme": "conformite",
+    "blocs": [
+      {
+        "p": "Les acteurs du marché doivent **connaître leurs clients** et signaler les opérations suspectes. Le contrôle repose sur la COSUMAF, sur la Commission des sanctions pour les manquements, et sur des institutions régionales de lutte contre le blanchiment."
+      },
+      {
+        "faits": [
+          "rg-23.role.03",
+          "i32-24.role.01",
+          "i32-24.role.02",
+          "i32-24.role.03",
+          "i32-24.definition.04",
+          "rg-23.definition.07"
+        ],
+        "titre": "La vigilance sur la clientèle"
+      },
+      {
+        "faits": [
+          "conv-umac-08.role.02",
+          "conv-umac-08.role.03",
+          "r01-22.delai.16"
+        ],
+        "titre": "Institutions et prescription"
+      }
+    ]
+  }
+]

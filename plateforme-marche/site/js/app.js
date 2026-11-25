@@ -37,6 +37,7 @@ const themeNom = id => D.themes.get(id)?.nom || id;
 async function charger() {
   const [idx, faits] = await Promise.all([fetch('/data/index.json').then(r => r.json()), fetch('/data/faits.json').then(r => r.json())]);
   D = { ...idx, faits, T: new Map(idx.textes.map(t => [t.id, t])), themes: new Map(idx.themes.map(t => [t.id, t])), parTexte: new Map() };
+  D.parId = new Map(faits.map(f => [f.id, f]));
   for (const f of faits) { if (!D.parTexte.has(f.t)) D.parTexte.set(f.t, []); D.parTexte.get(f.t).push(f); }
 }
 let retenirCache = null;
@@ -71,7 +72,7 @@ const qs = o => { const p = new URLSearchParams(); for (const [k, v] of Object.e
 const options = (map, sel, tous) => `<option value="">${tous}</option>` + Object.entries(map).map(([k, v]) => `<option value="${esc(k)}" ${k === sel ? 'selected' : ''}>${esc(v)}</option>`).join('');
 
 /* ---------- cadre : en-tête, pied ---------- */
-const NAV = [['/', 'Accueil'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
+const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/comprendre', 'Comprendre'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
 function cadre() {
   $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}</nav>`;
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
@@ -109,7 +110,7 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
@@ -117,8 +118,10 @@ const views = {};
 views.accueil = async () => {
   const exemples = ['délai visa APE', 'capital minimum société de bourse', 'placement privé', 'agrément dirigeant'];
   const portes = [
+    ['#/decouvrir', 'lightbulb', 'Découvrir', 'La bourse expliquée simplement, pour tous.'],
+    ['#/comprendre', 'book-open', 'Comprendre', 'Institutions, acteurs et instruments du marché.'],
     ['#/bibliotheque', 'library', 'Bibliothèque', 'Les ' + D.stats.textes + ' textes, rangés par thème.'],
-    ['#/flashcards', 'layers', 'Flashcards', 'Retenir les délais, montants et rôles, jour après jour.'],
+    ['#/flashcards', 'layers', 'Flashcards', 'Retenir les délais, montants et rôles.'],
     ['#/quiz', 'circle-check', 'Quiz', 'Séries de 10 questions pour tester ses réponses.'],
     ['#/pratiquer', 'clipboard-list', 'Pratiquer', 'Retrouver un délai ou un montant, avec son article.'],
   ];
@@ -200,10 +203,10 @@ views.bibliotheque = async (_a, q) => {
     } };
 };
 
-const factHtml = f => {
+const factHtml = (f, avecSource) => {
   const t = T(f.t);
   const cite = citation(t, f.a);
-  const act = `<span class="act">${f.a ? `<span class="art">${esc(f.a)}</span>` : ''}<button class="btn sm" data-copy="${esc(cite)}" title="Copier la citation" aria-label="Copier la citation">${ic('quote')}</button></span>`;
+  const act = `<span class="act">${avecSource ? `<a class="srcl" href="#/texte/${f.t}${qs({ f: f.id })}">${esc(shortName(t))}</a>` : ''}${f.a ? `<span class="art">${esc(f.a)}</span>` : ''}<button class="btn sm" data-copy="${esc(cite)}" title="Copier la citation" aria-label="Copier la citation">${ic('quote')}</button></span>`;
   if (f.y === 'piege') return `<li id="f-${f.id}">${md(f.v)}</li>`;
   if (f.y === 'liste') return `<div class="fact" id="f-${f.id}"><div class="q">${esc(f.q)}</div><div class="v"><ul style="margin:0;padding-left:18px;font-weight:400">${(f.i || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>${act}</div>`;
   if (f.y === 'role' || f.y === 'definition') return `<div class="fact" id="f-${f.id}"><div class="q">${esc(f.q)}</div><div class="v" style="font-weight:400">${esc(f.v)}</div>${act}</div>`;
@@ -763,6 +766,43 @@ views.progres = async () => {
     after() { $('#reset').onclick = () => { if (confirm('Effacer toute ta progression (scores, historique, niveau) ?')) { for (const k of Object.keys(ET)) delete ET[k]; Object.assign(ET, { cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }); sauver(); render(); } }; } };
 };
 
+/* ---------- Découvrir et Comprendre : guides rédigés, chaque fait renvoie à son article ---------- */
+let guidesCache = null;
+const chargerGuides = async () => guidesCache ||= await fetch('/data/guides.json').then(r => r.json());
+const PORTES = {
+  decouvrir: { nom: 'Découvrir', sous: 'La bourse expliquée simplement', mat: '#2f7d4e', perso: ['amina', 'joy'] },
+  comprendre: { nom: 'Comprendre', sous: 'Institutions, acteurs et instruments du marché', mat: '#35569e', perso: ['kofi', 'think'] },
+};
+const guideView = porte => async ([id]) => {
+  const P = PORTES[porte], gs = (await chargerGuides()).filter(g => g.porte === porte);
+  const nbRepères = g => g.blocs.reduce((n, b) => n + (b.faits?.length || 0), 0);
+  if (!id) return { title: P.nom, html: `
+    <h1 class="h1">${lbls(P.nom)}</h1><span class="hand">${P.sous}</span>
+    <div class="persoline">${perso(P.perso[0], P.perso[1], 130)}</div>
+    <ol class="list guides">${gs.map((g, i) => `<li><a class="card item" href="#/${porte}/${g.id}"><span class="num">${i + 1}</span><span class="t">${esc(g.titre)}</span><span class="sub">${esc(g.accroche)}</span><span class="meta"><span>${nbRepères(g)} repères sourcés</span></span></a></li>`).join('')}</ol>`,
+    after() { fond(P.mat); } };
+  const i = gs.findIndex(g => g.id === id); if (i < 0) return views.introuvable();
+  const g = gs[i], prec = gs[i - 1], suiv = gs[i + 1];
+  const corps = g.blocs.map(b => {
+    if (b.p) return `<div class="sheet"><p>${md(b.p)}</p></div>`;
+    if (b.note) return `<div class="banner info">${ic('lightbulb')}<div>${md(b.note)}</div></div>`;
+    if (b.faits) return `<h2 class="sec"><span class="lbl l2">${esc(b.titre || 'Dans les textes')}</span></h2><div class="sheet"><div class="facts">${b.faits.map(x => D.parId.get(x)).filter(Boolean).map(x => factHtml(x, true)).join('')}</div></div>`;
+    return '';
+  }).join('');
+  return { title: `${g.titre} : ${P.nom}`, html: `
+    <div class="crumbs"><a href="#/${porte}">${P.nom}</a> ${ic('chevron-right')} <span>${esc(g.titre)}</span></div>
+    <header class="doc-head"><h1 class="h1">${lbls(g.titre)}</h1><p class="full">${esc(g.accroche)}</p></header>
+    ${corps}
+    <div class="actions" style="margin-top:34px">
+      <a class="btn" href="#/flashcards/run${qs({ theme: g.theme })}">${ic('layers')} Réviser ce thème</a>
+      <a class="btn ghost" href="#/quiz/run${qs({ theme: g.theme })}">${ic('circle-check')} Quiz sur ce thème</a>
+      <a class="btn ghost" href="#/bibliotheque${qs({ theme: g.theme })}">${ic('library')} Voir les textes</a></div>
+    <nav class="pager">${prec ? `<a class="btn ghost" href="#/${porte}/${prec.id}">← ${esc(prec.titre)}</a>` : '<span></span>'}${suiv ? `<a class="btn" href="#/${porte}/${suiv.id}">${esc(suiv.titre)} →</a>` : '<span></span>'}</nav>`,
+    after() { fond(P.mat); } };
+};
+views.decouvrir = guideView('decouvrir');
+views.comprendre = guideView('comprendre');
+
 views.apropos = async () => ({ title: 'À propos', html: `
   <h1 class="h1">${lbls('À propos')}</h1>
   <div class="banner">${ic('triangle-alert')}<div><strong>Outil d'aide, non officiel.</strong> Cette plateforme n'est ni la COSUMAF, ni la BVMAC. Elle ne remplace pas les textes officiels : citez toujours le texte publié.</div></div>
@@ -778,7 +818,7 @@ views.apropos = async () => ({ title: 'À propos', html: `
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', decouvrir: 'decouvrir', comprendre: 'comprendre', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');
