@@ -4,3 +4,6 @@
   Referrer-Policy: strict-origin-when-cross-origin
 /sw.js
   Cache-Control: no-cache
+/pdf/*
+  Cache-Control: public, max-age=86400
+  Content-Disposition: inline

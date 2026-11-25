@@ -246,7 +246,8 @@ views.texte = async ([id], q) => {
     <header class="doc-head"><h1 class="h1">${lbls(shortName(t))}</h1>${sous ? `<p class="full">${esc(sous)}</p>` : ''}
       <div class="meta">${badgeStatut(t)}<span class="badge">${esc(ORG[t.organisme])}</span>${t.date_texte ? `<span class="muted">${esc(t.date_texte)}</span>` : ''}</div>
       <div class="actions">
-        ${t.url ? `<a class="btn" href="${esc(t.url)}" target="_blank" rel="noopener">${ic('external-link')} Lire le texte officiel</a>` : ''}
+        ${t.pdf ? `<a class="btn" href="/pdf/${t.id}.pdf" download="${esc(shortName(t).replace(/[\/:*?"<>|]+/g, '-'))}.pdf">${ic('download')} Télécharger le PDF <small>(${t.pdf > 1e6 ? (t.pdf / 1e6).toFixed(1) + ' Mo' : Math.max(1, Math.round(t.pdf / 1e3)) + ' Ko'})</small></a>` : ''}
+        ${t.url ? `<a class="btn ${t.pdf ? 'ghost' : ''}" href="${esc(t.url)}" target="_blank" rel="noopener">${ic('external-link')} Site officiel</a>` : ''}
         <button class="btn ghost" data-copy="${esc(citation(t))}">${ic('quote')} Copier la référence</button>
         <details class="more"><summary class="btn ghost">Plus</summary><div class="menu">
           <button class="btn sm" data-copy="${esc(location.origin + '/#/texte/' + id)}">${ic('link')} Copier le lien</button>
@@ -325,6 +326,7 @@ views.recherche = async (_a, q) => {
     ${faits.length ? `<h2 class="sec"><span class="lbl l6">Délais, montants, rôles</span></h2><div class="hits" id="hf">${faits.slice(0, limFaits).map(hitFait).join('')}</div><p><button class="btn" id="mf" ${faits.length > limFaits ? '' : 'hidden'}>Afficher plus</button></p>` : ''}
     ${points.length ? `<h2 class="sec"><span class="lbl l2">Points à retenir</span></h2><div class="hits">${points.slice(0, 15).map(r => { const t = T(r.t); return `<a class="hit" href="#/texte/${r.t}${qs({ s: 'retenir' })}"><span class="h">${hlFold(r.x.replace(/\*\*/g, ''), ts)}</span><span class="s">${esc(shortName(t))}${t.statut === 'abroge' ? ' <span class="badge bad">abrogé</span>' : ''}</span></a>`; }).join('')}</div>` : ''}
     ${!textes.length && !faits.length && !points.length ? `<div class="empty">${perso('samir', 'sad', 130)}<p>Aucun résultat pour « ${esc(terme)} ».</p><p class="small">Essayez un mot plus court, sans accent, ou un seul mot-clé (par exemple « visa » plutôt que « délai du visa APE »).</p></div>` : ''}`;
+  if (terme) window.MF?.ev('search', { a: terme, n: textes.length + faits.length + points.length });
   return { title: terme ? `Recherche : ${terme}` : 'Recherche', html: `<h1 class="h1">${lbls('Chercher')}</h1><form class="bigsearch" id="rs" role="search"><label for="rq" class="sr">Rechercher</label><input id="rq" type="search" value="${esc(terme)}" placeholder="Délai, montant, acteur, numéro…" autocomplete="off"><button class="btn" type="submit">${ic('search')} Rechercher</button></form><div class="results">${html}</div>`,
     after() {
       $('#rs').addEventListener('submit', e => { e.preventDefault(); location.hash = '#/recherche' + qs({ q: $('#rq').value.trim() }); });
@@ -336,7 +338,7 @@ views.recherche = async (_a, q) => {
 /* ---------- Entraînement : flashcards et quiz, mécanique reprise de la plateforme Excellence ---------- */
 const DAY = 864e5;
 const ET = Object.assign({ cards: {}, quiz: {}, errors: {}, days: {}, history: [], xp: 0, scores: {} }, store.get('etude', {}));
-const log = (type, d = {}) => { ET.history.push({ t: Date.now(), type, ...d }); if (ET.history.length > 600) ET.history.shift(); ET.xp = (ET.xp || 0) + (d.xp || 0); sauver(); };
+const log = (type, d = {}) => { window.MF?.ev('act', { a: type === 'game' ? 'jeu:' + d.game : type, n: d.score ?? d.n ?? null }); ET.history.push({ t: Date.now(), type, ...d }); if (ET.history.length > 600) ET.history.shift(); ET.xp = (ET.xp || 0) + (d.xp || 0); sauver(); };
 const sauver = () => store.set('etude', ET);
 const touchDay = n => { const d = new Date().toLocaleDateString('sv'); ET.days[d] = (ET.days[d] || 0) + n; };
 const SUJETS = { delai: 'Délais', montant: 'Montants', role: 'Rôles', definition: 'Définitions' };
@@ -828,13 +830,13 @@ async function render() {
   try {
     document.body.classList.remove('quiz-mode'); E.touches = null; E.coach.hide(); fond(MAT[nom] || MAT.accueil);
     const v = await views[nom](segs.slice(1), params(qstr));
-    document.title = v.title; app.innerHTML = v.html; v.after?.();
+    document.title = v.title; app.innerHTML = v.html; v.after?.(); window.MF?.pv(location.hash);
     if (!(nom === 'texte' && params(qstr).f) && !(nom === 'texte' && params(qstr).s)) window.scrollTo(0, 0);
     app.focus({ preventScroll: true });
   } catch (e) { console.error(e); app.innerHTML = `<div class="empty"><h1>Une erreur est survenue</h1><p>${esc(e.message)}</p><a class="btn" href="#/">Retour à l'accueil</a></div>`; }
 }
 document.addEventListener('click', e => {
-  const c = e.target.closest('[data-copy]'); if (c) { e.preventDefault(); copier(c.dataset.copy, c.dataset.copy.startsWith('http') ? 'Lien copié' : 'Copié'); }
+  const c = e.target.closest('[data-copy]'); if (c) { e.preventDefault(); window.MF?.ev('cite', { a: (c.dataset.copy || '').slice(0, 60) }); copier(c.dataset.copy, c.dataset.copy.startsWith('http') ? 'Lien copié' : 'Copié'); }
 });
 document.addEventListener('keydown', e => {
   const saisie = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName);
@@ -843,7 +845,7 @@ document.addEventListener('keydown', e => {
 window.addEventListener('hashchange', render);
 (async () => {
   try { await charger(); } catch (e) { $('#app').innerHTML = `<div class="empty"><h1>Données indisponibles</h1><p>Impossible de charger les données. Vérifiez votre connexion puis rechargez la page.</p></div>`; return; }
-  { const m = location.pathname.match(/^\/textes\/([a-z0-9-]+)\/?$/); if (m && D.T.has(m[1])) history.replaceState(null, '', '/#/texte/' + m[1] + location.search); }
+  { const m = location.pathname.match(/^\/(textes|decouvrir|comprendre)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
   cadre(); await render();
   if ('serviceWorker' in navigator && /nosw/.test(location.search)) { // mode développement : pas de cache hors ligne
     navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister())); caches?.keys().then(ks => ks.forEach(k => caches.delete(k)));

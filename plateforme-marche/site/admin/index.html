@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Audience : Marché financier CEMAC</title>
+<style>
+:root{--ink:#1b1410;--paper:#fffdf6;--y:#ffe14a;--bg:#2f7d4e}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,sans-serif;background:var(--bg);color:#fff;padding:24px 16px 60px}
+main{max-width:1000px;margin:0 auto}
+h1{margin:0 0 4px;font-size:28px}
+.sub{opacity:.85;margin:0 0 22px}
+.card{background:var(--paper);color:var(--ink);border-radius:14px;padding:18px 20px;box-shadow:0 10px 20px -8px rgba(0,0,0,.45);margin-bottom:18px}
+.card h2{margin:0 0 12px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:18px}
+.kpi{background:var(--paper);color:var(--ink);border-radius:14px;padding:14px 16px;box-shadow:0 10px 20px -8px rgba(0,0,0,.45)}
+.kpi b{display:block;font-size:30px;line-height:1.1}.kpi span{font-size:13px;opacity:.75}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{padding:5px 6px;text-align:left;border-bottom:1px solid rgba(0,0,0,.1)}td:last-child,th:last-child{text-align:right}
+select,input,button{font:inherit;padding:8px 12px;border-radius:10px;border:2px solid var(--ink);background:#fff;color:var(--ink)}
+button{background:var(--y);font-weight:700;cursor:pointer}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+#msg{margin:0 0 14px;color:var(--y)}
+canvas{max-height:260px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Audience</h1>
+  <p class="sub">Mesure anonyme : aucun cookie, aucune adresse IP. Pour exclure vos appareils, ouvrez le site avec <code>?notrack=1</code>.</p>
+  <div class="bar"><label>Période <select id="jours"><option value="7">7 jours</option><option value="30" selected>30 jours</option><option value="90">90 jours</option><option value="180">180 jours</option></select></label><button id="maj">Actualiser</button><button id="sortir" style="background:#fff">Changer de code</button></div>
+  <p id="msg"></p>
+  <div id="app" hidden>
+    <div class="grid" id="kpi"></div>
+    <div class="card"><h2>Visites et pages vues par jour</h2><canvas id="cj"></canvas></div>
+    <div class="cols">
+      <div class="card"><h2>Pages les plus vues</h2><table id="pages"></table></div>
+      <div class="card"><h2>Recherches</h2><table id="rech"></table></div>
+      <div class="card"><h2>Actions</h2><table id="act"></table></div>
+      <div class="card"><h2>Sources</h2><table id="src"></table></div>
+      <div class="card"><h2>Pays</h2><table id="pays"></table></div>
+      <div class="card"><h2>Appareils</h2><table id="app2"></table></div>
+      <div class="card"><h2>Liens sortants</h2><table id="out"></table></div>
+      <div class="card"><h2>Heures (heure du Cameroun)</h2><canvas id="ch"></canvas></div>
+    </div>
+  </div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+(() => {
+'use strict';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+let jeton = ''; try { jeton = sessionStorage.getItem('mf.admin') || ''; } catch { /* ignore */ }
+const graphiques = {};
+const table = (id, lignes, colonnes) => { $(id).innerHTML = lignes.length ? lignes.map(l => `<tr>${colonnes.map(c => `<td>${esc(typeof c === 'function' ? c(l) : l[c])}</td>`).join('')}</tr>`).join('') : '<tr><td>Aucune donnée</td></tr>'; };
+const courbe = (id, cfg) => { graphiques[id]?.destroy(); graphiques[id] = new Chart($(id), cfg); };
+async function charger() {
+  if (!jeton) { jeton = prompt('Code administrateur :') || ''; if (!jeton) return; try { sessionStorage.setItem('mf.admin', jeton); } catch { /* ignore */ } }
+  $('#msg').textContent = 'Chargement…';
+  const r = await fetch('/api/admin/stats?jours=' + $('#jours').value, { headers: { 'x-admin': jeton } }).catch(() => null);
+  if (!r) { $('#msg').textContent = 'Réseau indisponible.'; return; }
+  if (r.status === 401) { jeton = ''; try { sessionStorage.removeItem('mf.admin'); } catch { /* ignore */ } $('#msg').textContent = 'Code incorrect.'; return; }
+  if (!r.ok) { $('#msg').textContent = 'Erreur ' + r.status; return; }
+  const d = await r.json(); $('#msg').textContent = ''; $('#app').hidden = false;
+  const t = d.totaux || {}, jours = d.quotidien.length || 1;
+  const act = d.actions.reduce((o, a) => { o[a.type] = (o[a.type] || 0) + a.n; return o; }, {});
+  $('#kpi').innerHTML = [[t.visites || 0, 'visites'], [t.pv || 0, 'pages vues'], [t.visites ? (t.pv / t.visites).toFixed(1) : '–', 'pages par visite'], [d.duree?.moyenne ? Math.round(d.duree.moyenne) + ' s' : '–', 'temps moyen par page'], [act.act || 0, 'activités (quiz, jeux…)'], [act.pdf || 0, 'PDF téléchargés'], [Math.round((t.visites || 0) / jours), 'visites par jour']]
+    .map(([v, l]) => `<div class="kpi"><b>${esc(v)}</b><span>${l}</span></div>`).join('');
+  courbe('#cj', { type: 'line', data: { labels: d.quotidien.map(x => x.d.slice(5)), datasets: [{ label: 'Visites', data: d.quotidien.map(x => x.visites), borderColor: '#2f7d4e', backgroundColor: 'rgba(47,125,78,.15)', fill: true, tension: .3 }, { label: 'Pages vues', data: d.quotidien.map(x => x.pv), borderColor: '#d9692f', tension: .3 }] }, options: { responsive: true, plugins: { legend: { position: 'bottom' } } } });
+  const hrs = Array.from({ length: 24 }, (_, h) => d.heures.find(x => x.h === h)?.n || 0);
+  courbe('#ch', { type: 'bar', data: { labels: hrs.map((_, h) => h + ' h'), datasets: [{ label: 'Pages vues', data: hrs, backgroundColor: '#35569e' }] }, options: { responsive: true, plugins: { legend: { display: false } } } });
+  table('#pages', d.pages, ['page', 'n']);
+  table('#rech', d.recherches, ['a', l => l.resultats === 0 ? '0 résultat · ' + l.n : l.n]);
+  table('#act', d.actions, [l => ({ act: 'Activité', pdf: 'PDF', cite: 'Citation copiée' }[l.type] || l.type) + ' : ' + (l.a || ''), 'n']);
+  table('#src', d.sources, ['ref', 'visites']);
+  table('#pays', d.pays, ['pays', 'visites']);
+  table('#app2', d.appareils, ['device', 'visites']);
+  table('#out', d.sortants, ['a', 'n']);
+}
+$('#maj').onclick = charger; $('#jours').onchange = charger;
+$('#sortir').onclick = () => { jeton = ''; try { sessionStorage.removeItem('mf.admin'); } catch { /* ignore */ } $('#app').hidden = true; charger(); };
+charger();
+})();
+</script>
+</body>
+</html>

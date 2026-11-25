@@ -5,6 +5,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { charger, valider, racine } from './valider.mjs';
 import { genererPages } from './pages-textes.mjs';
+import { preparerPdf } from './pdf.mjs';
 
 const donnees = charger();
 const { erreurs, avertissements } = valider(donnees);
@@ -55,6 +56,10 @@ const copier = (de, vers) => {
 };
 copier(path.join(racine, 'site'), dist);
 
+// 1 bis. PDF officiels
+const pdf = preparerPdf({ dist, racine });
+console.log(`PDF : ${Object.keys(pdf.taille).length} disponibles${pdf.manquants.length ? ', ABSENTS : ' + pdf.manquants.join(', ') : ''}`);
+
 // 2. Données du site
 const nbFaits = (id, type) => faits.filter(f => f.texte === id && (!type || f.type === type)).length;
 const index = {
@@ -63,7 +68,7 @@ const index = {
     date_texte: t.date_texte, date_adoption: t.date_adoption, statut: t.statut, statut_source: t.statut_source,
     abroge: t.abroge, abroge_par: t.abroge_par, modifie: t.modifie.map(m => ({ texte: m.texte, articles: m.articles })),
     modifie_par: t.modifie_par, abroge_externes: (t.abroge_externes || []).map(x => x.reference),
-    couverture: t.couverture, confiance: t.confiance, url: t.source?.url_officielle || null,
+    couverture: t.couverture, confiance: t.confiance, url: t.source?.url_officielle || null, pdf: pdf.taille[t.id] || 0,
     n: { delai: nbFaits(t.id, 'delai'), montant: nbFaits(t.id, 'montant'), role: nbFaits(t.id, 'role'), definition: nbFaits(t.id, 'definition'), piege: nbFaits(t.id, 'piege'), liste: nbFaits(t.id, 'liste') },
   })),
   themes, acteurs: acteurs.map(a => ({ id: a.id, nom: a.nom })),
@@ -91,14 +96,14 @@ ecrire('data/retenir.json', retenir);
 
 // 2 bis. Pages statiques par texte (référencement) ; LANCEMENT=1 et SITE_URL pour la mise en ligne publique
 const siteUrl = (process.env.SITE_URL || 'https://marche-cemac-preview.impacttech237.workers.dev').replace(/\/$/, '');
-const nbPages = genererPages({ dist, racine, textes, faits, siteUrl, lancement: process.env.LANCEMENT === '1' });
+const nbPages = genererPages({ dist, racine, textes, faits, siteUrl, lancement: process.env.LANCEMENT === '1', pdf: pdf.taille, guides });
 console.log(`Pages statiques : ${nbPages} (indexation ${process.env.LANCEMENT === '1' ? 'OUVERTE' : 'fermée : préversion'}, ${siteUrl})`);
 
 // 3. Service worker (cache hors ligne versionné)
 const liste = [];
 const parcourir = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) parcourir(p); else liste.push('/' + path.relative(dist, p).replace(/\\/g, '/')); } };
 parcourir(dist);
-const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && f !== '/sitemap.xml').sort();
+const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && f !== '/sitemap.xml').sort();
 const h = crypto.createHash('sha1');
 for (const f of fichiers) { h.update(f); h.update(fs.readFileSync(path.join(dist, f))); }
 const versionSw = h.digest('hex').slice(0, 10);

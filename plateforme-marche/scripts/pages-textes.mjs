@@ -15,7 +15,7 @@ const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLow
 const nom = t => { if (SPECIAL[t.id]) return SPECIAL[t.id]; const base = TYPE[t.type] || ''; const n = t.numero || ''; return fold(n).startsWith(fold(base)) ? n : `${base} ${n}`.trim(); };
 const coupe = (s, n) => { s = String(s || '').replace(/\*\*/g, '').replace(/\s+/g, ' ').trim(); return s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…'; };
 
-export function genererPages({ dist, racine, textes, faits, siteUrl, lancement }) {
+export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, pdf = {}, guides = [] }) {
   const gabarit = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
   const ecrire = (rel, contenu) => { const f = path.join(dist, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, contenu); };
   const page = ({ titre, description, canon, corps, json }) => gabarit
@@ -46,7 +46,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement }
       <h1>${esc(nom(t))}</h1>${sous ? `<p><strong>${esc(sous)}</strong></p>` : ''}
       <p>${esc(STATUT[t.statut] || t.statut)} · ${esc(ORG[t.organisme] || '')}${t.date_texte ? ` · ${esc(t.date_texte)}` : ''}</p>
       ${t.statut === 'abroge' ? '<p><strong>Ce texte est abrogé.</strong></p>' : ''}${rel.join('')}
-      ${blocs.join('')}${t.source?.url_officielle ? `<p><a href="${esc(t.source.url_officielle)}" rel="noopener">Lire le texte officiel</a></p>` : ''}
+      ${blocs.join('')}${pdf[t.id] ? `<p><a href="/pdf/${t.id}.pdf">Télécharger le PDF (${(pdf[t.id] / 1e6).toFixed(1)} Mo)</a></p>` : ''}${t.source?.url_officielle ? `<p><a href="${esc(t.source.url_officielle)}" rel="noopener">Lire le texte officiel</a></p>` : ''}
       <p><a href="/#/texte/${t.id}">Ouvrir la fiche interactive</a></p>
       <p><small>Outil d'aide à la lecture, non officiel : il ne remplace pas les textes publiés par la COSUMAF et la BVMAC.</small></p></article>`;
     const titre = SPECIAL[t.id] ? nom(t) : `${nom(t)} : ${coupe(sous || t.titre, 70)}`;
@@ -57,6 +57,26 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement }
       isPartOf: { '@type': 'WebSite', name: 'Marché financier CEMAC', url: siteUrl + '/' },
       breadcrumb: { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Accueil', item: siteUrl + '/' }, { '@type': 'ListItem', position: 2, name: 'Textes', item: siteUrl + '/textes/' }, { '@type': 'ListItem', position: 3, name: nom(t), item: canon }] } } }));
     urls.push(canon);
+  }
+
+  // Guides « Découvrir » et « Comprendre » : une page par chapitre + une page par porte
+  const PORTES = { decouvrir: { nom: 'Découvrir', sous: 'La bourse expliquée simplement : épargner, acheter, vendre, se protéger.' }, comprendre: { nom: 'Comprendre', sous: 'Institutions, acteurs et instruments du marché financier de la CEMAC.' } };
+  const parId = new Map(faits.map(f => [f.id, f]));
+  const valeur = f => f.type === 'liste' ? (f.items || []).join(' ; ') : f.valeur_texte;
+  for (const [porte, P] of Object.entries(PORTES)) {
+    const gs = guides.filter(g => g.porte === porte);
+    for (const g of gs) {
+      const canon = `${siteUrl}/${porte}/${g.id}/`;
+      const corps = `<article class="seo"><nav><a href="/">Accueil</a> › <a href="/${porte}/">${P.nom}</a></nav><h1>${esc(g.titre)}</h1><p><strong>${esc(g.accroche)}</strong></p>
+        ${g.blocs.map(b => b.p ? `<p>${md(b.p)}</p>` : b.note ? `<p><em>${md(b.note)}</em></p>` : b.faits ? `<section><h2>${esc(b.titre || 'Dans les textes')}</h2><dl>${b.faits.map(id => parId.get(id)).filter(Boolean).map(f => { const t = par.get(f.texte); return `<dt>${esc(f.enonce)}</dt><dd>${esc(valeur(f))}${f.article ? ` <small>(${esc(f.article)}, ${t ? lien(t.id) : ''})</small>` : ''}</dd>`; }).join('')}</dl></section>` : '').join('')}
+        <p><a href="/#/${porte}/${g.id}">Ouvrir la version interactive</a></p></article>`;
+      const description = coupe(g.accroche + ' ' + (g.blocs.find(b => b.p)?.p || ''), 155), titre = `${g.titre} | ${P.nom}`;
+      ecrire(`${porte}/${g.id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Article', headline: g.titre, description, inLanguage: 'fr', url: canon, isPartOf: { '@type': 'WebSite', name: 'Marché financier CEMAC', url: siteUrl + '/' } } }));
+      urls.push(canon);
+    }
+    const corpsPorte = `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>${P.nom}</h1><p>${esc(P.sous)}</p><ol>${gs.map(g => `<li><a href="/${porte}/${g.id}/">${esc(g.titre)}</a> : ${esc(g.accroche)}</li>`).join('')}</ol></article>`;
+    ecrire(`${porte}/index.html`, page({ titre: `${P.nom} : marché financier de la CEMAC`, description: P.sous, canon: `${siteUrl}/${porte}/`, corps: corpsPorte, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: P.nom, description: P.sous, inLanguage: 'fr', url: `${siteUrl}/${porte}/` } }));
+    urls.push(`${siteUrl}/${porte}/`);
   }
 
   // Index des textes (point d'entrée pour les moteurs de recherche)

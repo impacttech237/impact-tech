@@ -1,5 +1,7 @@
 {
   "name": "marche-cemac-preview",
+  "main": "worker/index.js",
   "compatibility_date": "2025-01-01",
-  "assets": { "directory": "./dist" }
+  "assets": { "directory": "./dist", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "impact-tech-db", "database_id": "afaeac82-b728-4095-a4ff-a2053a5a9b55" }]
 }
