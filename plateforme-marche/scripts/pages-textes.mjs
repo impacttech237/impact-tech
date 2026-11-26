@@ -19,7 +19,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
   const gabarit = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
   const ecrire = (rel, contenu) => { const f = path.join(dist, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, contenu); };
   const page = ({ titre, description, canon, corps, json }) => gabarit
-    .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(titre)}</title>`)
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(/Boussole CEMAC/.test(titre) ? titre : titre + ' | Boussole CEMAC')}</title>`)
     .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${esc(description)}">\n<link rel="canonical" href="${canon}">\n<meta property="og:title" content="${esc(titre)}">\n<meta property="og:description" content="${esc(description)}">\n<meta property="og:type" content="article">\n<meta property="og:url" content="${canon}">\n<meta property="og:locale" content="fr_FR">\n<script type="application/ld+json">${JSON.stringify(json).replace(/</g, '\\u003c')}</script>`)
     .replace(/<main id="app"[^>]*>[\s\S]*?<\/main>/, `<main id="app" tabindex="-1" aria-live="polite">${corps}</main>`);
 
@@ -54,7 +54,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
     ecrire(`textes/${t.id}/index.html`, page({ titre, description, canon, corps, json: {
       '@context': 'https://schema.org', '@type': 'WebPage', name: titre, description, inLanguage: 'fr', url: canon,
       about: { '@type': 'Thing', name: nom(t), description: t.titre },
-      isPartOf: { '@type': 'WebSite', name: 'Marché financier CEMAC', url: siteUrl + '/' },
+      isPartOf: { '@type': 'WebSite', name: 'Boussole CEMAC', url: siteUrl + '/' },
       breadcrumb: { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Accueil', item: siteUrl + '/' }, { '@type': 'ListItem', position: 2, name: 'Textes', item: siteUrl + '/textes/' }, { '@type': 'ListItem', position: 3, name: nom(t), item: canon }] } } }));
     urls.push(canon);
   }
@@ -71,7 +71,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
         ${g.blocs.map(b => b.p ? `<p>${md(b.p)}</p>` : b.note ? `<p><em>${md(b.note)}</em></p>` : b.liste || b.puces ? `${b.titre ? `<h2>${esc(b.titre)}</h2>` : ''}<ul>${(b.liste || b.puces).map(x => `<li>${md(x)}</li>`).join('')}</ul>` : b.etapes ? `${b.titre ? `<h2>${esc(b.titre)}</h2>` : ''}<ol>${b.etapes.map(x => `<li>${md(x)}</li>`).join('')}</ol>` : b.chiffres ? `<ul>${b.chiffres.map(x => `<li><strong>${esc(x.v)}</strong> ${esc(x.l)}</li>`).join('')}</ul>` : b.chrono ? `<h2>${esc(b.titre || 'Les grandes dates')}</h2><ul>${b.chrono.map(x => `<li><strong>${esc(x.an)}</strong> : ${esc(x.t)}</li>`).join('')}</ul>` : b.acteurs ? `<h2>${esc(b.titre || 'Acteurs')}</h2><ul>${b.acteurs.map(id => `<li><a href="/acteurs/${id}/">${esc(id)}</a></li>`).join('')}</ul>` : b.faits ? `<section><h2>${esc(b.titre || 'Dans les textes')}</h2><dl>${b.faits.map(id => parId.get(id)).filter(Boolean).map(f => { const t = par.get(f.texte); return `<dt>${esc(f.enonce)}</dt><dd>${esc(valeur(f))}${f.article ? ` <small>(${esc(f.article)}, ${t ? lien(t.id) : ''})</small>` : ''}</dd>`; }).join('')}</dl></section>` : '').join('')}
         <p><a href="/#/${porte}/${g.id}">Ouvrir la version interactive</a></p></article>`;
       const description = coupe(g.accroche + ' ' + (g.blocs.find(b => b.p)?.p || ''), 155), titre = `${g.titre} | ${P.nom}`;
-      ecrire(`${porte}/${g.id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Article', headline: g.titre, description, inLanguage: 'fr', url: canon, isPartOf: { '@type': 'WebSite', name: 'Marché financier CEMAC', url: siteUrl + '/' } } }));
+      ecrire(`${porte}/${g.id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Article', headline: g.titre, description, inLanguage: 'fr', url: canon, isPartOf: { '@type': 'WebSite', name: 'Boussole CEMAC', url: siteUrl + '/' } } }));
       urls.push(canon);
     }
     const corpsPorte = `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>${P.nom}</h1><p>${esc(P.sous)}</p><ol>${gs.map(g => `<li><a href="/${porte}/${g.id}/">${esc(g.titre)}</a> : ${esc(g.accroche)}</li>`).join('')}</ol></article>`;
@@ -104,7 +104,7 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
       ${ts.length ? `<section><h2>Textes officiels</h2><ul>${ts.map(x => `<li>${lien(x.id)}</li>`).join('')}</ul></section>` : ''}
       <p><a href="/#/cours/${id}">Ouvrir le cours interactif (schémas, flashcards, quiz)</a></p></article>`;
     const description = coupe(pk.description || pk.chapitres[0]?.resume?.court || pk.titre, 155), titre = `${pk.titre} : cours`;
-    ecrire(`cours/${id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Course', name: pk.titre, description, inLanguage: 'fr', url: canon, provider: { '@type': 'Organization', name: 'Marché financier CEMAC', url: siteUrl + '/' } } }));
+    ecrire(`cours/${id}/index.html`, page({ titre, description, canon, corps, json: { '@context': 'https://schema.org', '@type': 'Course', name: pk.titre, description, inLanguage: 'fr', url: canon, provider: { '@type': 'Organization', name: 'Boussole CEMAC', url: siteUrl + '/' } } }));
     urls.push(canon);
   }
   ecrire('cours/index.html', page({ titre: 'Cours sur le marché financier de la CEMAC', description: 'Onze cours gratuits : cadre institutionnel, entrée en bourse, appel public à l\'épargne, placement privé, intermédiaires, fonds, conformité.', canon: `${siteUrl}/cours/`, corps: `<article class="seo"><nav><a href="/">Accueil</a></nav><h1>Cours sur le marché financier de la CEMAC</h1><ol>${listeCours.map(pk => `<li><a href="/cours/${pk.id}/">${esc(pk.titre)}</a> : ${esc(coupe(pk.description || '', 140))}</li>`).join('')}</ol></article>`, json: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Cours', inLanguage: 'fr', url: `${siteUrl}/cours/` } }));

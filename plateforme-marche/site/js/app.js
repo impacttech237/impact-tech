@@ -1,4 +1,4 @@
-/* Marché financier CEMAC — application (sans dépendance). Routage par # : accueil, bibliothèque, texte, pratiquer, recherche, maîtriser, à propos. */
+/* Boussole CEMAC — application (sans dépendance). Routage par # : accueil, bibliothèque, texte, pratiquer, recherche, maîtriser, à propos. */
 (() => {
 'use strict';
 const $ = (s, r = document) => r.querySelector(s);
@@ -149,10 +149,10 @@ views.accueil = async () => {
     ['Que devient ma vie privée ?', 'La mesure d\'audience est anonyme : ni cookie, ni adresse IP. Votre progression reste sur votre appareil, sauf si vous créez un compte.'],
   ];
   const extraits = ['bourse-en-bref', 'qui-protege', 'ou-sont-mes-titres'].map(id => gs.find(g => g.id === id)).filter(Boolean);
-  return { title: 'Marché financier CEMAC : textes, délais, montants', html: `
+  return { title: 'Boussole CEMAC : la bourse et ses règles, textes, délais, montants', html: `
     <section class="hero">
-      <h1 class="h1"><span class="lbl l6" style="--r:-2deg">Marché financier</span><br><span class="lbl l1" style="--r:1.2deg">CEMAC</span></h1>
-      <span class="hand">Les textes, délais et montants du marché, en un clic</span>
+      <h1 class="h1"><span class="lbl l6" style="--r:-2deg">Boussole</span><br><span class="lbl l1" style="--r:1.2deg">CEMAC</span></h1>
+      <span class="hand">La bourse et ses règles, de A à Z</span>
       <p class="lead">Un délai, un montant, un rôle ? Retrouvez-le dans les textes de la COSUMAF et de la BVMAC, avec l'article cité. Gratuit, sans compte.</p>
       <form class="bigsearch" id="hs" role="search"><label for="hq" class="sr">Rechercher dans les textes</label><input id="hq" type="search" placeholder="Ex. : délai visa APE, capital minimum, conservation 10 ans" autocomplete="off"><button class="btn" type="submit">${ic('search')} Rechercher</button></form>
       <div class="chips" aria-label="Exemples de recherche">${exemples.map(e => `<a class="chip" href="#/recherche${qs({ q: e })}">${esc(e)}</a>`).join('')}</div>

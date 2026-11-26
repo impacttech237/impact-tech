@@ -1,6 +1,6 @@
 {
-  "name": "Marché financier CEMAC",
-  "short_name": "Marché CEMAC",
+  "name": "Boussole CEMAC",
+  "short_name": "Boussole",
   "description": "Textes, délais et montants du marché financier de l'Afrique centrale.",
   "start_url": "/",
   "scope": "/",
