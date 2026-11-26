@@ -458,3 +458,15 @@ main{padding-bottom:40px}
 .niv{display:inline-block;width:max-content;font-family:var(--display);font-weight:800;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border:2px solid var(--ink);border-radius:99px;padding:0 9px;background:#fff}
 .niv-E{background:#ffb8d1}.niv-C{background:#bcd7ff}.niv-A{background:#d9c8ff}
 .parcours-cours{margin-top:60px}
+
+/* ---------- page Textes ---------- */
+.pyramide{display:grid;gap:8px;max-width:760px;margin:30px auto 10px}
+.pyr{display:flex;justify-content:space-between;align-items:center;gap:12px;border:3px solid var(--ink);border-radius:14px;box-shadow:3px 4px 0 var(--ink);padding:10px 20px;color:var(--ink);font-family:var(--display)}
+.pyr b{font-weight:800}.pyr small{font-size:.82rem;font-weight:700}
+.pyr.p1{background:#ffb8d1;width:60%;margin:0 auto}.pyr.p2{background:#fff27a;width:75%;margin:0 auto}.pyr.p3{background:#bcd7ff;width:90%;margin:0 auto}.pyr.p4{background:#a9f0d0;width:100%}
+@media (max-width:640px){.pyr.p1,.pyr.p2,.pyr.p3{width:100%}}
+.abro{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.remp{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:14px 18px;color:var(--ink)}
+.remp a{color:var(--ink)}.remp .fl{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--y);border:2px solid var(--ink)}
+.frise a{color:var(--y)}
+.ou{margin-bottom:26px}.ou p{margin:0;line-height:1.7}

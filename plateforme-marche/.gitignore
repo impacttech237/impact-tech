@@ -2,3 +2,5 @@ dist/
 .wrangler/
 node_modules/
 sources/annuaire/*.html
+sources/annuaire/*.pdf
+sources/annuaire/*.png

@@ -1,0 +1,120 @@
+{
+ "presentation": "Mme Kamga, directrice de **Kamga Agro** (entreprise fictive), a décidé d'entrer en bourse. Son avocat lui demande de réunir « les textes applicables ». Ici, il y en a 82, du traité fondateur à la lettre circulaire. Pour ne pas s'y perdre, il faut comprendre leur hiérarchie : on part des fondations, puis on descend vers le détail pratique.",
+ "parties": [
+  {
+   "titre": "Les fondations",
+   "types": [
+    "traite",
+    "convention",
+    "acte_uniforme",
+    "acte_additionnel"
+   ],
+   "histoire": "Mme Kamga demande à son avocat : « Sur quoi tout cela repose-t-il ? » Il lui tend les textes fondateurs.",
+   "intro": [
+    "Au sommet, les textes qui créent les institutions et fixent leurs pouvoirs : le traité de la CEMAC, la convention de l'UMAC, l'acte uniforme de l'OHADA (le droit des affaires), et les actes additionnels pris par les chefs d'État, comme celui de 2018 qui a unifié le marché financier.",
+    "On les lit pour comprendre le cadre, rarement pour répondre à une question de détail."
+   ]
+  },
+  {
+   "titre": "Les règlements : le cœur du droit du marché",
+   "types": [
+    "reglement",
+    "reglement_general",
+    "reglement_bvmac",
+    "reglement_ueac"
+   ],
+   "histoire": "Pour son introduction en bourse, Mme Kamga doit connaître les règles du jeu en détail. L'avocat sort les règlements.",
+   "intro": [
+    "Les règlements CEMAC-UMAC posent les règles de fond du marché financier. Le **Règlement Général de la COSUMAF** les détaille : agréments, intermédiaires, fonds, sanctions. Celui de la **BVMAC** organise la bourse, et le règlement **UEAC** fixe le régime fiscal des opérations cotées.",
+    "Quand deux versions se succèdent, la plus récente s'applique : la fiche d'un texte ancien indique celui qui le remplace."
+   ]
+  },
+  {
+   "titre": "Les instructions : le mode d'emploi",
+   "types": [
+    "instruction",
+    "instruction_bvmac"
+   ],
+   "histoire": "Pour monter son dossier, Mme Kamga a besoin du mode d'emploi : chaque démarche a son instruction.",
+   "intro": [
+    "Les instructions de la COSUMAF appliquent le règlement : pour chaque sujet, elles précisent les dossiers à déposer, les formats, les délais et les modalités (agrément, document d'information, tarification, vigilance…). Elles sont numérotées par année : l'instruction 01-23 est la première de 2023.",
+    "Celles de la BVMAC précisent les règles d'admission, de marché et de tarification."
+   ]
+  },
+  {
+   "titre": "Lettres, lignes directrices, communiqués et guides",
+   "types": [
+    "circulaire",
+    "lignes_directrices",
+    "communique",
+    "guide"
+   ],
+   "histoire": "Dernière étape pour Kamga Agro : les précisions de terrain.",
+   "intro": [
+    "Ce sont des textes d'accompagnement. Une **lettre circulaire** donne des directives pratiques (calendriers, modèles, plans de mise en conformité). Des **lignes directrices** expliquent comment appliquer une obligation. Un **communiqué** fixe des tarifs ou rappelle une règle. Un **guide** présente une pratique, comme les obligations vertes, sociales et durables."
+   ]
+  }
+ ],
+ "lire": [
+  [
+   "L'essentiel",
+   "Le texte résumé en quelques lignes : à quoi il sert, ce qu'il décide."
+  ],
+  [
+   "À retenir",
+   "Les points qui comptent, avec l'article de référence."
+  ],
+  [
+   "Délais",
+   "Tous les délais du texte, un par un."
+  ],
+  [
+   "Montants et seuils",
+   "Les chiffres : capital, pourcentages, plafonds."
+  ],
+  [
+   "Rôles des acteurs",
+   "Qui fait quoi : la COSUMAF, l'émetteur, le dépositaire…"
+  ],
+  [
+   "Définitions",
+   "Les termes que le texte définit."
+  ],
+  [
+   "Pièges",
+   "Les points où deux textes se contredisent ou où un règlement en corrige un autre."
+  ]
+ ],
+ "frise": [
+  "aa03-01",
+  "rfi-07",
+  "conv-umac-08",
+  "rbv-08",
+  "tr-cemac-09",
+  "aa06-17",
+  "r02-18",
+  "r19-intro",
+  "r01-22",
+  "rg-23",
+  "r02-24",
+  "rbv-25",
+  "r04-25",
+  "r03-26"
+ ],
+ "textes_type": {
+  "traite": "Texte fondateur de la Communauté : il fixe ses institutions et leurs compétences. Tout le reste doit lui être conforme.",
+  "convention": "La convention de l'Union Monétaire (UMAC) encadre les institutions monétaires, dont la COSUMAF, institution spécialisée.",
+  "acte_uniforme": "Un acte uniforme de l'OHADA fixe le droit des affaires commun à ses États membres ; il s'applique à côté des textes du marché financier.",
+  "acte_additionnel": "Un acte additionnel est pris par la Conférence des Chefs d'État : il décide de l'organisation du marché (par exemple son unification en 2018).",
+  "reglement": "Un règlement CEMAC-UMAC pose des règles de fond du marché financier. Les instructions de la COSUMAF viennent ensuite préciser leur application.",
+  "reglement_general": "Le Règlement Général de la COSUMAF détaille le fonctionnement du marché : agréments, intermédiaires, fonds, ratios, sanctions.",
+  "reglement_bvmac": "Le Règlement Général de la BVMAC organise la bourse : admission à la cote, négociation, règlement-livraison.",
+  "reglement_ueac": "Le règlement UEAC institue le régime fiscal spécifique des opérations cotées à la BVMAC.",
+  "instruction": "Une instruction de la COSUMAF applique le règlement : elle précise les dossiers, les formats, les délais et les modalités.",
+  "instruction_bvmac": "Une instruction de la BVMAC précise des règles d'admission, de marché ou de tarification.",
+  "circulaire": "Une lettre circulaire donne des directives pratiques aux professionnels : calendriers, modèles, plans de mise en conformité.",
+  "lignes_directrices": "Des lignes directrices expliquent comment appliquer une obligation, par exemple la vigilance ou la déclaration d'opérations suspectes.",
+  "communique": "Un communiqué informe, fixe des tarifs ou rappelle une règle.",
+  "guide": "Un guide présente une pratique ou un produit ; il n'a pas valeur de règle."
+ }
+}

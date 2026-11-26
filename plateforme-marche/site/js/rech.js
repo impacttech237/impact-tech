@@ -15,6 +15,9 @@ const TYPES = {
   resume: { nom: 'Résumés', ic: 'book-open', w: 1.0, tab: 'resume', col: '#ffd3a3' },
   carte: { nom: 'Flashcards', ic: 'layers', w: .9, tab: 'cartes', col: '#d9c8ff' },
   question: { nom: 'Questions', ic: 'circle-check', w: .8, tab: 'quiz', col: '#c4f1dd' },
+  texte: { nom: 'Textes officiels', sing: 'Texte officiel', ic: 'file-text', w: 1.5, tab: '', col: '#fff27a' },
+  repere: { nom: 'Délais, montants, rôles', sing: 'Repère', ic: 'scale', w: 1.1, tab: '', col: '#a9f0d0' },
+  acteur: { nom: 'Acteurs', ic: 'users', w: 1.3, tab: '', col: '#bcd7ff' },
 };
 
 let INDEX = null, sig = '';
@@ -34,6 +37,7 @@ function build() {
     (c.questions || []).forEach(q => add('question', q.q, [q.choix[q.bonne], q.explication].join(' — ')));
     (c.schemas || []).forEach(v => add('schema', v.titre, strip([v.legende, B.viz?.words?.(v)].filter(Boolean).join(' '))));
   }));
+  ((B.rechExtra && B.rechExtra()) || []).forEach(it => INDEX.push({ ...it, nt: norm(it.title), nx: norm(it.text) }));
   return INDEX;
 }
 
@@ -78,7 +82,7 @@ const snippet = (text, toks, len = 170) => { const n = norm(text); let at = -1; 
 const link = (it, q) => { const base = `#/cours/${it.p.id}`; const hlq = `&hl=${encodeURIComponent(q)}`;
   if (it.type === 'carte') return `${base}/cartes?ch=${it.c.id}`; if (it.type === 'question') return `${base}/quiz?ch=${it.c.id}`;
   return `${base}?t=${TYPES[it.type].tab}&ch=${it.c.id}${hlq}`; };
-B.rech = { search, TYPES, hlAccent, snippet, link: (it, q) => `#/cours/${it.p.id}?t=${TYPES[it.type].tab === 'cartes' || TYPES[it.type].tab === 'quiz' ? 'resume' : TYPES[it.type].tab}&ch=${it.c.id}&hl=${encodeURIComponent(q)}` };
+B.rech = { search, TYPES, hlAccent, snippet, link: (it, q) => it.href || `#/cours/${it.p.id}?t=${TYPES[it.type].tab === 'cartes' || TYPES[it.type].tab === 'quiz' ? 'resume' : TYPES[it.type].tab}&ch=${it.c.id}&hl=${encodeURIComponent(q)}` };
 /* surlignage des termes cherchés dans les pages de cours (paramètre hl) */
 B.highlight = (root, q) => {
   const toks = norm(q).split(/[^a-z0-9']+/).filter(t => t.length > 1); if (!toks.length || !root) return;

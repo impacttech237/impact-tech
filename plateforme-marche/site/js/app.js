@@ -111,7 +111,7 @@ function notePoint(r, ts, need) {
 }
 
 /* ---------- vues ---------- */
-const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', acteurs: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', olympiade: '#c2392f', planning: '#c9a46b', guide: '#2f7d4e', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
+const MAT = { accueil: '#2f7d4e', decouvrir: '#2f7d4e', comprendre: '#35569e', bibliotheque: '#2f7d4e', flashcards: '#2c7a8f', quiz: '#3a5fb8', jeux: '#3a5fb8', progres: '#2f7d4e', compte: '#2c7a8f', textes: '#2f7d4e', acteurs: '#2c7a8f', exercices: '#3a5fb8', examen: '#c2392f', olympiade: '#c2392f', planning: '#c9a46b', guide: '#2f7d4e', carte: '#6b4fb0', cours: '#2c7a8f', pratiquer: '#35569e', recherche: '#2f7d4e', maitriser: '#3a5fb8', apropos: '#2f7d4e', introuvable: '#c2392f' };
 const MAT_ORG = { cosumaf: '#35569e', bvmac: '#d9692f', cemac: '#2c7a8f', umac: '#c99a2e', ueac: '#c2392f', ohada: '#6b4fb0' };
 const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
@@ -250,7 +250,7 @@ views.bibliotheque = async (_a, q) => {
         dessinerEtagere(box, cours);
         const montre = st.q || st.tout, l = montre ? filtrer() : [], cs = st.q ? cours.filter(c => fold(c.titre + ' ' + c.court + ' ' + c.description).includes(fold(st.q))) : [];
         $('#liste').innerHTML = !montre
-          ? `${parcoursLecture(cours, CPa)}<div class="hint"><p>Ou consultez directement les textes officiels.</p><a class="btn" id="all" href="#/bibliotheque?tout=1">${ic('library')} Voir les ${D.textes.length} textes</a></div>`
+          ? `<a class="suite" href="#/textes" style="margin-top:44px"><small>Les textes officiels</small><b>${D.textes.length} textes, du traité fondateur à la lettre circulaire</b><i>Comprendre leur hiérarchie, savoir lesquels sont en vigueur, télécharger les PDF.</i><span>${ic('arrow-right')}</span></a>${parcoursLecture(cours, CPa)}<div class="hint"><p>Ou consultez directement les textes officiels.</p><a class="btn" id="all" href="#/bibliotheque?tout=1">${ic('library')} Voir les ${D.textes.length} textes</a></div>`
           : `${cs.length ? `<h2 class="sec"><span class="lbl l6">Cours</span></h2><ul class="list" style="margin-bottom:34px">${cs.map(c => `<li><a class="card item" href="#/cours/${c.id}"><span class="t">${esc(c.titre)}</span><span class="sub">${esc(c.description || '')}</span><span class="meta"><span>${c.n.fiches} fiches</span><span>${c.n.cartes} cartes</span><span>${c.n.questions} questions</span></span></a></li>`).join('')}</ul>` : ''}
             <div class="listhead"><h2 class="sec"><span class="lbl l2">Les textes</span></h2>
               <div class="mini"><label>Statut<select id="fs"><option value="en_vigueur" ${st.statut === 'en_vigueur' ? 'selected' : ''}>En vigueur</option><option value="abroge" ${st.statut === 'abroge' ? 'selected' : ''}>Abrogés</option><option value="tous" ${st.statut === 'tous' ? 'selected' : ''}>Tous</option></select></label>
@@ -294,6 +294,40 @@ const mastCours = c => {
   return total ? Math.round(ok / total * 100) : 0;
 };
 const PTYPE = { explication: ['compass', 'Explication'], exemple: ['lightbulb', 'Exemple du coach'], examen: ['star', 'Insiste : à l\'examen'], conseil: ['target', 'Conseil'], piege: ['triangle-alert', 'Piège'], consigne: ['clipboard-list', 'Consigne'], anecdote: ['message-circle', 'Anecdote'] };
+
+/* ---------- Page « Textes » : la hiérarchie des textes, avec Mme Kamga comme fil conducteur ---------- */
+let textesParcoursCache = null;
+const chargerTextesParcours = async () => textesParcoursCache ||= await fetch('/data/textes-parcours.json').then(r => r.json());
+const carteTexte = t => `<li><a class="card item" href="#/texte/${t.id}"><span class="t">${esc(shortName(t))}</span><span class="sub">${esc(t.titre)}</span><span class="meta">${badgeStatut(t)}<span>${ORG[t.organisme]}</span>${t.date_texte ? `<span>${esc(t.date_texte)}</span>` : ''}${t.pdf ? `<span>${ic('download')} PDF</span>` : ''}</span></a></li>`;
+views.textes = async () => {
+  const TP = await chargerTextesParcours();
+  const tri = l => l.slice().sort((a, b) => (b.date_adoption || '').localeCompare(a.date_adoption || '') || a.ordre - b.ordre);
+  const abroges = D.textes.filter(t => t.statut === 'abroge' && t.abroge_par.length);
+  const frise = TP.frise.map(id => T(id)).filter(Boolean).sort((a, b) => (a.date_adoption || '').localeCompare(b.date_adoption || ''));
+  return { title: 'Les textes officiels du marché financier de la CEMAC', html: `
+    <h1 class="h1">${lbls('Les textes')}</h1><span class="hand">${D.textes.length} textes officiels, rangés du plus fondamental au plus pratique</span>
+    <div class="sheet presentation">${E.perso('fatou', 'lol', 130, { fixe: true })}<div><p>${md(TP.presentation)}</p><p class="small muted" style="margin-top:8px"><a href="#/recherche">Chercher un mot dans tous les textes</a> · <a href="#/bibliotheque?tout=1">Liste filtrable de tous les textes</a> · <a href="#/bibliotheque">Les cours</a></p></div></div>
+    <div class="pyramide" role="img" aria-label="Hiérarchie des textes : fondations, règlements, instructions, lettres et guides">${TP.parties.map((pt, k) => `<div class="pyr p${k + 1}"><b>${esc(pt.titre.replace(/ :.*/, ''))}</b><small>${D.textes.filter(t => pt.types.includes(t.type)).length} textes</small></div>`).join('')}</div>
+    ${TP.parties.map((pt, k) => { const l = tri(D.textes.filter(t => pt.types.includes(t.type))), visibles = l.slice(0, 6), reste = l.slice(6);
+      return `<section class="partie"><h2 class="sec"><span class="lbl l${k % 6 + 1}">Partie ${k + 1} · ${esc(pt.titre)}</span></h2>
+        ${encartKamga(pt.histoire)}
+        <div class="sheet texte">${pt.intro.map(x => `<p>${md(x)}</p>`).join('')}</div>
+        <ul class="list">${visibles.map(carteTexte).join('')}</ul>
+        ${reste.length ? `<details class="repli"><summary><span class="sous" style="margin:0"><span class="lbl l3">Voir les ${reste.length} autres textes</span></span><span class="voir">Afficher la liste</span></summary><ul class="list" style="margin:10px 0 14px">${reste.map(carteTexte).join('')}</ul></details>` : ''}
+      </section>`; }).join('')}
+    <section class="partie"><h2 class="sec"><span class="lbl l5">Comment lire une fiche de texte</span></h2>
+      <div class="sheet texte"><p>Chaque texte est résumé dans une fiche, avec le lien vers le <strong>PDF officiel</strong> pour lire le texte complet. Les fiches sont organisées en rubriques, toujours dans le même ordre :</p></div>
+      <ol class="etapes">${TP.lire.map(([t, d], i) => `<li><span class="n">${i + 1}</span><div><strong>${esc(t)}.</strong> ${esc(d)}</div></li>`).join('')}</ol></section>
+    <section class="partie"><h2 class="sec"><span class="lbl l4">En vigueur ou abrogé ?</span></h2>
+      ${encartKamga("Attention, Mme Kamga : un texte peut avoir été remplacé. Avant de le citer, regardez son statut.")}
+      <div class="sheet texte"><p>Quand un texte nouveau en remplace un ancien, l'ancien est <strong>abrogé</strong> : on ne le cite plus comme droit en vigueur. La fiche d'un texte abrogé le signale et renvoie vers son remplaçant. La base compte ${abroges.length} remplacements :</p></div>
+      <ul class="list abro">${abroges.map(t => `<li><div class="card remp"><a href="#/texte/${t.id}">${esc(shortName(t))}</a><span class="fl">${ic('arrow-right')}</span>${t.abroge_par.map(id => `<a href="#/texte/${id}"><b>${esc(shortName(T(id)))}</b></a>`).join(', ')}</div></li>`).join('')}</ul></section>
+    <section class="partie"><h2 class="sec"><span class="lbl l6">La frise des textes</span></h2>
+      <div class="sheet texte"><p>Quelques textes clés, dans l'ordre où ils ont été adoptés : on voit le marché se construire, puis s'unifier en 2018, puis se moderniser.</p></div>
+      <ol class="chrono frise">${frise.map(t => `<li><b>${esc((t.date_adoption || '').slice(0, 4))}</b><span><a href="#/texte/${t.id}">${esc(shortName(t))}</a> : ${esc(t.titre.length > 120 ? t.titre.slice(0, 117) + '…' : t.titre)}${t.statut === 'abroge' ? ' <em>(abrogé)</em>' : ''}</span></li>`).join('')}</ol></section>
+    <a class="suite" href="#/bibliotheque"><small>Pour aller plus loin</small><b>Apprendre le contenu des textes dans les cours</b><i>Les onze cours expliquent ces textes, avec schémas, flashcards et quiz.</i><span>${ic('arrow-right')}</span></a>`,
+    after() { fond(MAT.bibliotheque); } };
+};
 
 /* ---------- Parcours des cours : fil conducteur « Kamga Agro » ---------- */
 let coursParcoursCache = null;
@@ -386,6 +420,7 @@ const factHtml = (f, avecSource) => {
 
 views.texte = async ([id], q) => {
   const t = T(id); if (!t) return views.introuvable();
+  const TPx = await chargerTextesParcours(), idxC_ = await chargerCoursIdx(), coursLies = idxC_.filter(c => c.textes.includes(t.id));
   const c = await chargerContenu(id);
   const faits = D.parTexte.get(id) || [];
   const par = y => faits.filter(f => f.y === y);
@@ -430,6 +465,7 @@ views.texte = async ([id], q) => {
     ${t.statut === 'abroge' ? `<div class="banner bad">${ic('triangle-alert')}<div><strong>Ce texte est abrogé.</strong> Ne le citez pas comme droit en vigueur.</div></div>` : ''}
     ${t.couverture !== 'complete' ? `<div class="banner info">${ic('info')}<div><strong>${COUV[t.couverture]}.</strong> ${t.couverture === 'partielle' ? 'Cette fiche reprend les points clés, pas tous les articles.' : 'Cette fiche situe le texte sans détailler ses dispositions.'}</div></div>` : ''}
     ${rel.length ? `<div class="rel">${rel.join('')}</div>` : ''}
+    ${TPx.textes_type[t.type] ? `<div class="sheet ou"><p><strong>Où se situe ce texte ?</strong> ${esc(TPx.textes_type[t.type])}</p>${coursLies.length ? `<p class="chips" style="margin-top:10px">${coursLies.map(c => `<a class="btn ghost sm" href="#/cours/${c.id}">${ic('graduation-cap')} Cours : ${esc(c.court)}</a>`).join('')}<a class="btn ghost sm" href="#/textes">${ic('library')} Tous les textes</a></p>` : `<p style="margin-top:10px"><a class="btn ghost sm" href="#/textes">${ic('library')} Tous les textes</a></p>`}</div>` : ''}
     <nav class="tabsrow" aria-label="Rubriques du texte">${sommaire.map(([k, n]) => `<button class="chip" data-sec="${k}" aria-pressed="${k === actif}">${esc(n)}</button>`).join('')}</nav>
     <div class="secs">${corps || '<p class="empty">Cette fiche ne contient pas encore de contenu détaillé.</p>'}</div>`,
     after() {
@@ -483,30 +519,57 @@ views.pratiquer = async (_a, q) => {
     } };
 };
 
-views.recherche = async (_a, q) => {
-  const terme = (q.q || '').trim(); const ts = termes(terme);
-  const retenir = ts.length ? await chargerRetenir() : [];
-  await chargerTousCours(); const rcours = ts.length ? B.rech.search(terme).hits : [];
-  const rt = ts.length ? classer(D.textes, noteTexte, ts) : { liste: [] }, rf = ts.length ? classer(D.faits, noteFait, ts) : { liste: [] }, rp = ts.length ? classer(retenir, notePoint, ts) : { liste: [] };
-  const cours_ = rcours, textes = rt.liste, faits = rf.liste, points = rp.liste, approx = rt.relaxe || rf.relaxe || rp.relaxe;
-  const hitFait = f => { const t = T(f.t); return `<a class="hit" href="#/texte/${f.t}${qs({ f: f.id })}"><span class="h">${f.y === 'piege' ? hlFold(f.v.replace(/\*\*/g, ''), ts) : hlFold(f.q, ts)}</span><span class="s">${f.y === 'piege' ? '' : `<strong>${hlFold(f.v.length > 160 ? f.v.slice(0, 160) + '…' : f.v, ts)}</strong> · `}${f.a ? esc(f.a) + ' · ' : ''}${esc(shortName(t))}${t.statut === 'abroge' ? ' <span class="badge bad">abrogé</span>' : ''} <span class="badge">${ONGLETS[f.y]}</span></span></a>`; };
-  let limFaits = 30;
-  const html = !ts.length ? `<div class="empty">${perso('lina', 'think', 140)}<p>Saisissez un mot ou une expression : un délai, un montant, un acteur, un numéro de texte.</p></div>` : `
-    <p class="count" aria-live="polite">${textes.length} texte${textes.length > 1 ? 's' : ''}, ${faits.length} fait${faits.length > 1 ? 's' : ''}, ${points.length} point${points.length > 1 ? 's' : ''} à retenir, ${cours_.length} dans les cours pour « ${esc(terme)} »</p>
-    ${approx ? `<div class="banner info">${ic('info')}<div>Aucun résultat ne contient tous les mots : voici les plus proches. Essayez moins de mots pour affiner.</div></div>` : ''}
-    ${textes.length ? `<h2 class="sec"><span class="lbl l1">Textes</span></h2><div class="hits">${textes.slice(0, 8).map(t => `<a class="hit" href="#/texte/${t.id}"><span class="h">${hlFold(shortName(t), ts)}</span><span class="s">${hlFold(t.titre, ts)} ${badgeStatut(t)}</span></a>`).join('')}</div>${textes.length > 8 ? `<p class="small muted">… et ${textes.length - 8} autres : <a href="#/bibliotheque${qs({ q: terme, statut: 'tous' })}">voir dans la bibliothèque</a>.</p>` : ''}` : ''}
-    ${cours_.length ? `<h2 class="sec"><span class="lbl l1">Dans les cours</span></h2><div class="slist">${cours_.slice(0, 10).map(({ it }) => { const Ty = B.rech.TYPES[it.type]; return `<a class="sres" href="${B.rech.link(it, terme)}" style="--tc:${Ty.col}"><span class="stag">${ic(Ty.ic)} ${Ty.nom.replace(/s$/, '')}</span><h4>${B.rech.hlAccent(it.title, ts)}</h4><p>${B.rech.hlAccent(it.type === 'definition' ? it.text : B.rech.snippet(it.text, ts), ts)}</p><small>${esc(it.course)} · ${esc(it.chap)}</small></a>`; }).join('')}</div>${cours_.length > 10 ? `<p class="small onmat">… et ${cours_.length - 10} autres résultats dans les cours.</p>` : ''}` : ''}
-    ${faits.length ? `<h2 class="sec"><span class="lbl l6">Délais, montants, rôles</span></h2><div class="hits" id="hf">${faits.slice(0, limFaits).map(hitFait).join('')}</div><p><button class="btn" id="mf" ${faits.length > limFaits ? '' : 'hidden'}>Afficher plus</button></p>` : ''}
-    ${points.length ? `<h2 class="sec"><span class="lbl l2">Points à retenir</span></h2><div class="hits">${points.slice(0, 15).map(r => { const t = T(r.t); return `<a class="hit" href="#/texte/${r.t}${qs({ s: 'retenir' })}"><span class="h">${hlFold(r.x.replace(/\*\*/g, ''), ts)}</span><span class="s">${esc(shortName(t))}${t.statut === 'abroge' ? ' <span class="badge bad">abrogé</span>' : ''}</span></a>`; }).join('')}</div>` : ''}
-    ${!textes.length && !faits.length && !points.length && !cours_.length ? `<div class="empty">${perso('samir', 'sad', 130)}<p>Aucun résultat pour « ${esc(terme)} ».</p><p class="small">Essayez un mot plus court, sans accent, ou un seul mot-clé (par exemple « visa » plutôt que « délai du visa APE »).</p></div>` : ''}`;
-  if (terme) window.MF?.ev('search', { a: terme, n: textes.length + faits.length + points.length });
-  return { title: terme ? `Recherche : ${terme}` : 'Recherche', html: `<h1 class="h1">${lbls('Chercher')}</h1><form class="bigsearch" id="rs" role="search"><label for="rq" class="sr">Rechercher</label><input id="rq" type="search" value="${esc(terme)}" placeholder="Délai, montant, acteur, numéro…" autocomplete="off"><button class="btn" type="submit">${ic('search')} Rechercher</button></form><div class="results">${html}</div>`,
+/* ---------- Recherche : page reprise à l'identique d'Excellence (olympiades/js/recherche.js), avec en plus les textes, les repères et les acteurs ---------- */
+B.rechExtra = () => {
+  const out = [];
+  for (const t of D.textes) out.push({ p: { id: '' }, c: { id: '' }, course: 'Textes officiels', chap: `${ORG[t.organisme]} · ${TYPE[t.type] || t.type}${t.statut === 'abroge' ? ' · abrogé' : ''}`, type: 'texte', title: shortName(t), text: `${t.titre} ${t.numero || ''} ${t.date_texte || ''} ${themeNom(t.theme)}`, href: `#/texte/${t.id}` });
+  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, type: 'repere', title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
+  for (const a of annuaireCache || []) out.push({ p: { id: '' }, c: { id: '' }, course: 'Acteurs', chap: `${TYPE_ACTEUR[a.type] || ''}${a.pays ? ' · ' + a.pays : ''}`, type: 'acteur', title: a.nom, text: `${a.description || ''} ${(a.dirigeants || []).map(d => d.nom + ' ' + d.titre).join(' ')} ${a.ville || ''} ${a.pays || ''}`, href: `#/acteurs/${a.id}` });
+  return out;
+};
+const RS = { q: '', type: '', course: '', more: 1 };
+views.recherche = async (_a, qs_) => {
+  await chargerTousCours(); await chargerAnnuaire(); const idx = await chargerCoursIdx();
+  RS.q = qs_.q || ''; RS.type = B.rech.TYPES[qs_.type] ? qs_.type : ''; RS.course = idx.some(c => c.id === qs_.c) ? qs_.c : ''; RS.more = 1;
+  return { title: RS.q ? `Recherche : ${RS.q}` : 'Recherche', html: `<div class="searchpage">
+    <h1 class="h1">${lbls('Recherche')}</h1>
+    <p class="onmat" style="max-width:660px;margin:6px 0 20px">Un terme, une définition, un délai, un montant, un sigle, le nom d'un texte ou d'un acteur… la recherche balaie les cours, les textes officiels, les repères et l'annuaire (accents et petites fautes tolérés).</p>
+    <div class="sbar"><span class="sico">${ic('search')}</span><input id="sq" type="search" placeholder="Ex. : délai visa, capital minimum, fixing, valeur liquidative…" autocomplete="off" spellcheck="false" value="${esc(RS.q)}"><button id="sx" aria-label="Effacer" ${RS.q ? '' : 'hidden'}>${ic('x')}</button></div>
+    <div class="sfilters" id="sf"></div><div id="sres"></div></div>`,
     after() {
-      $('#rs').addEventListener('submit', e => { e.preventDefault(); location.hash = '#/recherche' + qs({ q: $('#rq').value.trim() }); });
-      $('#mf')?.addEventListener('click', () => { limFaits += 30; $('#hf').innerHTML = faits.slice(0, limFaits).map(hitFait).join(''); if (faits.length <= limFaits) $('#mf').hidden = true; });
-      if (!terme) $('#rq').focus();
+      fond(MAT.recherche);
+      const inp = $('#sq'); inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length);
+      let t; inp.oninput = () => { RS.q = inp.value; RS.more = 1; $('#sx').hidden = !RS.q; clearTimeout(t); t = setTimeout(() => { history.replaceState(null, '', `#/recherche?q=${encodeURIComponent(RS.q)}${RS.type ? '&type=' + RS.type : ''}${RS.course ? '&c=' + RS.course : ''}`); resultats(idx); }, 140); };
+      $('#sx').onclick = () => { inp.value = ''; inp.oninput(); inp.focus(); };
+      inp.onkeydown = e => { if (e.key === 'Escape') { inp.value = ''; inp.oninput(); } };
+      resultats(idx);
     } };
 };
+function resultats(idx) {
+  const { q, type, course } = RS, box = $('#sres'), fb = $('#sf'); if (!box) return;
+  const TY = B.rech.TYPES;
+  const base = q.trim() ? B.rech.search(q, { course }) : { hits: [], toks: [] };
+  const counts = {}; base.hits.forEach(h => { counts[h.it.type] = (counts[h.it.type] || 0) + 1; });
+  fb.innerHTML = `<select class="chsel" id="sc" aria-label="Cours"><option value="">Tout le site</option>${idx.map(c => `<option value="${esc(c.id)}" ${course === c.id ? 'selected' : ''}>Cours : ${esc(c.court)}</option>`).join('')}</select>
+    <div class="chip-row"><button class="chip ${type ? '' : 'on'}" data-t="">Tout${q.trim() ? ` · ${base.hits.length}` : ''}</button>${Object.entries(TY).filter(([k]) => !course || !['texte', 'repere', 'acteur'].includes(k)).map(([k, v]) => `<button class="chip ${type === k ? 'on' : ''}" data-t="${k}">${ic(v.ic)} ${v.nom}${q.trim() ? ` · ${counts[k] || 0}` : ''}</button>`).join('')}</div>`;
+  $('#sc').onchange = e => { RS.course = e.target.value; RS.more = 1; resultats(idx); };
+  $$('#sf .chip').forEach(b => b.onclick = () => { RS.type = b.dataset.t; RS.more = 1; resultats(idx); });
+  if (!q.trim()) {
+    const sug = ['visa APE', 'capital minimum', 'société de bourse', 'dépositaire central', 'délit d\'initié', 'placement privé', 'fixing', 'OPCVM', 'valeur liquidative', 'franchissement de seuil', 'BVMAC', 'COSUMAF'];
+    box.innerHTML = `<div class="sempty">${E.perso('amina', 'think', 160, { fixe: true })}<div><h3>Cherche n'importe quoi</h3><p>Par exemple :</p><div class="sug">${sug.map(x => `<a href="#/recherche?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join('')}</div></div></div>`; return;
+  }
+  const { hits, toks, fuzzy } = type ? B.rech.search(q, { type, course }) : base;
+  if (!hits.length) { box.innerHTML = `<div class="sempty">${E.perso('samir', 'sad', 150, { fixe: true })}<div><h3>Rien trouvé pour « ${esc(q)} »</h3><p>Essaie un mot plus court, un synonyme, ou retire un filtre.</p></div></div>`; return; }
+  const shown = hits.slice(0, 20 * RS.more);
+  box.innerHTML = (fuzzy ? `<p class="didyou">${ic('lightbulb')} Résultats pour <b>${esc(fuzzy.join(' '))}</b> (petite faute de frappe ?)</p>` : '') +
+    `<p class="scount">${hits.length} résultat${hits.length > 1 ? 's' : ''}</p>
+    <div class="slist">${shown.map(({ it }) => { const Ty = TY[it.type], isDef = it.type === 'definition' || it.type === 'repere' || it.type === 'acteur';
+      return `<a class="sres" href="${B.rech.link(it, q)}" style="--tc:${Ty.col}"><span class="stag">${ic(Ty.ic)} ${Ty.sing || Ty.nom.replace(/s$/, '')}</span>
+        <h4>${B.rech.hlAccent(it.title, toks)}</h4><p>${B.rech.hlAccent(isDef ? B.rech.snippet(it.text, toks, 220) : B.rech.snippet(it.text, toks), toks)}</p>
+        <small>${esc(it.course)} · ${esc(it.chap)}</small></a>`; }).join('')}</div>
+    ${hits.length > shown.length ? `<div class="btns"><button class="btn" id="smore">Voir plus (${hits.length - shown.length})</button></div>` : ''}`;
+  $('#smore')?.addEventListener('click', () => { RS.more++; resultats(idx); });
+}
 
 /* ---------- Entraînement : flashcards et quiz, mécanique reprise de la plateforme Excellence ---------- */
 const DAY = 864e5;
@@ -1586,7 +1649,7 @@ views.apropos = async () => ({ title: 'À propos', html: `
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', acteurs: 'acteurs', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', textes: 'textes', acteurs: 'acteurs', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');
@@ -1611,7 +1674,7 @@ document.addEventListener('keydown', e => {
 window.addEventListener('hashchange', render);
 (async () => {
   try { await charger(); } catch (e) { $('#app').innerHTML = `<div class="empty"><h1>Données indisponibles</h1><p>Impossible de charger les données. Vérifiez votre connexion puis rechargez la page.</p></div>`; return; }
-  { const m = location.pathname.match(/^\/(textes|decouvrir|cours|comprendre|acteurs)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'acteurs' ? '/#/acteurs' + (m[2] ? '/' + m[2] : '') : m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/bibliotheque') : m[1] === 'cours' ? (m[2] ? '/#/cours/' + m[2] : '/#/bibliotheque') : m[1] === 'comprendre' ? '/#/bibliotheque' : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
+  { const m = location.pathname.match(/^\/(textes|decouvrir|cours|comprendre|acteurs)\/?([a-z0-9-]*)\/?$/); if (m) { const cible = m[1] === 'acteurs' ? '/#/acteurs' + (m[2] ? '/' + m[2] : '') : m[1] === 'textes' ? (m[2] && D.T.has(m[2]) ? '/#/texte/' + m[2] : '/#/textes') : m[1] === 'cours' ? (m[2] ? '/#/cours/' + m[2] : '/#/bibliotheque') : m[1] === 'comprendre' ? '/#/bibliotheque' : '/#/' + m[1] + (m[2] ? '/' + m[2] : ''); history.replaceState(null, '', cible + location.search); } }
   cadre(); await render();
   if (compte()) synchroniser().then(r => { if (r.ok && /^#\/progres/.test(location.hash)) render(); });
   if ('serviceWorker' in navigator && /nosw/.test(location.search)) { // mode développement : pas de cache hors ligne

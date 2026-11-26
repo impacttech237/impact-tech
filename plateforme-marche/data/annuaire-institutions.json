@@ -11,15 +11,40 @@
     "email": "infos@cosumaf.org",
     "site": "https://cosumaf.org",
     "description": "Le régulateur du marché financier de la zone CEMAC. Elle régule, contrôle et surveille le marché : elle délivre les agréments, les visas et les habilitations, enregistre les placements privés et peut sanctionner. Sa mission est de promouvoir la régulation et la protection de l'épargne investie en instruments financiers.",
-    "faits": ["Le Président et le Secrétaire Général sont nommés par la Conférence des Chefs d'État de la CEMAC pour un mandat de 5 ans non renouvelable.", "Elle est une institution spécialisée de l'UMAC."],
+    "faits": [
+      "Le Président et le Secrétaire Général sont nommés par la Conférence des Chefs d'État de la CEMAC pour un mandat de 5 ans non renouvelable.",
+      "Elle est une institution spécialisée de l'UMAC."
+    ],
     "dirigeants": [
-      { "nom": "Jacqueline ADIABA-NKEMBE", "titre": "Présidente", "depuis": "2023", "note": "Première femme à la présidence de la COSUMAF." },
-      { "nom": "Salvador MANGUE AYINGONO", "titre": "Secrétaire Général", "depuis": "2023", "note": "Information relevée dans la presse (installation en 2023) ; la fiche de la COSUMAF ne cite pas son nom." }
+      {
+        "nom": "Jacqueline ADIABA-NKEMBE",
+        "titre": "Présidente",
+        "depuis": "2023",
+        "note": "Première femme à la présidence de la COSUMAF."
+      },
+      {
+        "nom": "Salvador MANGUE AYINGONO",
+        "titre": "Secrétaire Général",
+        "depuis": "2023",
+        "note": "Information relevée dans la presse (installation en 2023) ; la fiche de la COSUMAF ne cite pas son nom."
+      }
     ],
     "logoUrl": "https://cosumaf.org/assets/logocosumaf.png",
     "photoUrl": "https://cosumaf.org/assets/photo-presidente.jpeg",
-    "liens": { "cours": ["p0-cadre"], "textes": ["r01-22", "aa06-17", "conv-umac-08"] },
-    "source": { "nom": "COSUMAF : mot du Président, management", "url": "https://cosumaf.org/mot-du-president" }
+    "liens": {
+      "cours": [
+        "p0-cadre"
+      ],
+      "textes": [
+        "r01-22",
+        "aa06-17",
+        "conv-umac-08"
+      ]
+    },
+    "source": {
+      "nom": "COSUMAF : mot du Président, management",
+      "url": "https://cosumaf.org/mot-du-president"
+    }
   },
   {
     "id": "bvmac",
@@ -33,13 +58,38 @@
     "email": "bvmac@bvmac.cm",
     "site": "https://www.bvm-ac.org",
     "description": "La bourse régionale : une société anonyme constituée pour exercer, à titre exclusif, la mission de service public d'organisation, d'animation et de gestion des marchés réglementés du marché financier de l'Afrique Centrale. Elle est l'entreprise de marché et la plateforme unique de négociation des instruments financiers de la zone CEMAC.",
-    "faits": ["Société anonyme avec conseil d'administration, au capital social de 9 582 900 000 FCFA.", "Seules les sociétés de bourse peuvent négocier sur ses marchés."],
+    "faits": [
+      "Société anonyme avec conseil d'administration, au capital social de 9 582 900 000 FCFA.",
+      "Seules les sociétés de bourse peuvent négocier sur ses marchés."
+    ],
     "dirigeants": [
-      { "nom": "Louis BANGA NTOLO", "titre": "Directeur Général", "depuis": "2021", "note": "Mandat renouvelé en août 2025 pour quatre ans (avis de la BVMAC et presse)." }
+      {
+        "nom": "Louis BANGA NTOLO",
+        "titre": "Directeur Général",
+        "depuis": "2021",
+        "note": "Nommé par le Conseil d'administration le 25 octobre 2021 ; agrément COSUMAF du 4 février 2022 ; mandat reconduit par décision du 1er août 2025 (rapport annuel 2025). Aucune photo officielle de lui n'est publiée."
+      },
+      {
+        "nom": "Henri-Claude OYIMA",
+        "titre": "Président du Conseil d'Administration",
+        "note": "Photo : rapport annuel d'activités 2025 de la BVMAC, page 9.",
+        "photo": "/img/acteurs/bvmac-pca.jpg"
+      }
     ],
     "logoUrl": "https://www.bvm-ac.org/wp-content/uploads/elementor/thumbs/New-Logo-BVMAC-512_512-qwnzmiqtsnt2po72tdlu865tpj4slppkgfrtz25a0w.png",
-    "liens": { "cours": ["p1-entrer-en-bourse", "p5-ordre-denouement"], "textes": ["rbv-25"] },
-    "source": { "nom": "BVMAC : mot du Directeur Général", "url": "https://www.bvm-ac.org/message-du-directeur-general/" }
+    "liens": {
+      "cours": [
+        "p1-entrer-en-bourse",
+        "p5-ordre-denouement"
+      ],
+      "textes": [
+        "rbv-25"
+      ]
+    },
+    "source": {
+      "nom": "BVMAC : rapport annuel d'activités 2025 (mandataires sociaux)",
+      "url": "https://www.bvm-ac.org/wp-content/uploads/2026/09/RA-2025_compressed-12.pdf"
+    }
   },
   {
     "id": "depositaire-central",
@@ -48,11 +98,24 @@
     "nomCourt": "Dépositaire Central",
     "pays": "Zone CEMAC",
     "description": "L'organisme central chargé de garantir l'intégrité physique et juridique des titres financiers, de réduire les risques liés aux titres physiques et de sécuriser le dénouement des transactions. Il tient les comptes courants de titres de ses adhérents.",
-    "faits": ["Agréé et supervisé par la COSUMAF."],
+    "faits": [
+      "Agréé et supervisé par la COSUMAF."
+    ],
     "dirigeants": [],
     "logoUrl": "https://cosumaf.org/img/sections/organismes/logos/depositaire.png",
-    "liens": { "cours": ["p5-ordre-denouement"], "textes": ["r04-25", "i09-23"] },
-    "source": { "nom": "COSUMAF : organismes centraux", "url": "https://cosumaf.org/organismes-centraux" }
+    "liens": {
+      "cours": [
+        "p5-ordre-denouement"
+      ],
+      "textes": [
+        "r04-25",
+        "i09-23"
+      ]
+    },
+    "source": {
+      "nom": "COSUMAF : organismes centraux",
+      "url": "https://cosumaf.org/organismes-centraux"
+    }
   },
   {
     "id": "banque-de-reglement-beac",
@@ -64,8 +127,18 @@
     "description": "La fonction de banque de règlement est assurée par la Banque des États de l'Afrique Centrale (BEAC) : elle règle en espèces les transactions du marché.",
     "dirigeants": [],
     "logoUrl": "https://cosumaf.org/img/sections/organismes/logos/beac.png",
-    "liens": { "cours": ["p5-ordre-denouement"], "textes": ["r01-22"] },
-    "source": { "nom": "COSUMAF : organismes centraux", "url": "https://cosumaf.org/organismes-centraux" }
+    "liens": {
+      "cours": [
+        "p5-ordre-denouement"
+      ],
+      "textes": [
+        "r01-22"
+      ]
+    },
+    "source": {
+      "nom": "COSUMAF : organismes centraux",
+      "url": "https://cosumaf.org/organismes-centraux"
+    }
   },
   {
     "id": "chambre-de-compensation",
@@ -76,7 +149,17 @@
     "description": "L'infrastructure centrale chargée de sécuriser le fonctionnement du marché financier régional et de garantir la bonne fin des opérations. Selon la COSUMAF, elle n'est pas encore effective.",
     "dirigeants": [],
     "logoUrl": "https://cosumaf.org/img/sections/organismes/logos/compensation.png",
-    "liens": { "cours": ["p5-ordre-denouement"], "textes": ["r01-22"] },
-    "source": { "nom": "COSUMAF : organismes centraux", "url": "https://cosumaf.org/organismes-centraux" }
+    "liens": {
+      "cours": [
+        "p5-ordre-denouement"
+      ],
+      "textes": [
+        "r01-22"
+      ]
+    },
+    "source": {
+      "nom": "COSUMAF : organismes centraux",
+      "url": "https://cosumaf.org/organismes-centraux"
+    }
   }
 ]
