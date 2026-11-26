@@ -438,3 +438,23 @@ main{padding-bottom:40px}
 .ch-n b{font-family:var(--display);font-weight:800;line-height:1.15}.ch-n span{font-family:var(--sans);font-size:.8rem;color:var(--ink-soft);line-height:1.2}
 .ch-bas{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
 .ch-bas span{border:2px dashed var(--ink);border-radius:99px;padding:4px 14px;font-family:var(--display);font-weight:700;font-size:.85rem}
+
+/* ---------- parcours des cours ---------- */
+.amina.kamga{background:#d9f5e6}
+.intro-cours{margin:8px 0 30px}
+.pourquoi p{line-height:1.75;margin:0 0 14px}
+.pourquoi h3{font-family:var(--display);font-weight:800;margin:22px 0 10px;color:var(--ink)}
+.objectifs{margin:0;padding-left:0;list-style:none;display:grid;gap:10px}
+.objectifs li{position:relative;padding-left:38px;line-height:1.55;color:var(--ink)}
+.objectifs li::before{content:"✓";position:absolute;left:0;top:-1px;width:26px;height:26px;border-radius:50%;background:var(--y);border:2.5px solid var(--ink);display:grid;place-items:center;font-weight:800;font-size:.9rem}
+.plan{background:rgba(0,0,0,.18);border-radius:16px;padding:6px 18px 10px;margin:0 0 14px}
+.plan>summary{cursor:pointer;padding:10px 0;font-family:var(--display);font-weight:700}
+.plan ol{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:12px;counter-reset:pl}
+.plan li a{display:grid;gap:3px;background:var(--paper);color:var(--ink);border-radius:12px;padding:12px 16px 12px 52px;position:relative;text-decoration:none;box-shadow:0 6px 12px -6px rgba(0,0,0,.4);counter-increment:pl;transition:transform .15s}
+.plan li a:hover{transform:translateX(4px)}
+.plan li a::before{content:counter(pl);position:absolute;left:12px;top:12px;width:28px;height:28px;border-radius:50%;background:var(--y);border:2.5px solid var(--ink);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:.85rem}
+.plan li b{font-family:var(--display);font-weight:800;line-height:1.25}
+.plan li small{font-family:var(--sans);color:var(--ink-soft);line-height:1.45}
+.niv{display:inline-block;width:max-content;font-family:var(--display);font-weight:800;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border:2px solid var(--ink);border-radius:99px;padding:0 9px;background:#fff}
+.niv-E{background:#ffb8d1}.niv-C{background:#bcd7ff}.niv-A{background:#d9c8ff}
+.parcours-cours{margin-top:60px}

@@ -90,11 +90,13 @@ export function genererPages({ dist, racine, textes, faits, siteUrl, lancement, 
   const nomChap = x => String(x).replace(/^[^·]*·\s*(\d+\s*·\s*)?/, '');
   const dossierCours = path.join(racine, 'data', 'cours'), listeCours = [];
   const ordreCours = ['p0-cadre', 'p1-entrer-en-bourse', 'p2-appel-public', 'p3-placement-prive', 'p4-vie-du-titre', 'p5-ordre-denouement', 'p6-intermediaires', 'p7-fonds', 'p8-conformite-sanctions', 'p9-reperes', 'epreuves'];
+  const cpar = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours-parcours.json'), 'utf8'));
   const liensCours = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'cours-textes.json'), 'utf8'));
   for (const id of ordreCours) {
     const pk = JSON.parse(fs.readFileSync(path.join(dossierCours, id + '.json'), 'utf8')); listeCours.push(pk);
     const canon = `${siteUrl}/cours/${id}/`, ts = textes.filter(x => (liensCours[id] || []).includes(x.theme));
     const corps = `<article class="seo"><nav><a href="/">Accueil</a> › <a href="/cours/">Cours</a></nav><h1>${esc(pk.titre)}</h1><p><strong>${esc(pk.description || '')}</strong></p>
+      ${cpar.cours[id] ? `<p><em>${esc(cpar.cours[id].histoire)}</em></p>${cpar.cours[id].pourquoi.map(x => `<p>${esc(x)}</p>`).join('')}<h2>Dans ce cours, vous saurez</h2><ul>${cpar.cours[id].objectifs.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${pk.chapitres.map(c => `<section><h2>${esc(nomChap(c.titre))}</h2>${mdBloc(c.resume?.moyen || '')}
         ${(c.fiches || []).map(f => `<h3>${esc(f.titre)}</h3>${mdBloc(f.contenu)}`).join('')}
         ${(c.mnemos || []).length ? `<h3>À retenir</h3>${c.mnemos.map(m => mdBloc(m)).join('')}` : ''}

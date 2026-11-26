@@ -233,7 +233,7 @@ function dessinerEtagere(box, cours) {
 }
 
 views.bibliotheque = async (_a, q) => {
-  const cours = await chargerCoursIdx();
+  const cours = await chargerCoursIdx(); const CPa = await chargerCoursParcours();
   const st = { q: q.q || '', statut: q.statut || 'en_vigueur', org: q.org || '', tout: q.tout === '1' };
   const filtrer = () => { const ts = termes(st.q);
     return D.textes.filter(t => (!st.org || t.organisme === st.org) && (st.statut === 'tous' || t.statut === st.statut) && tous(fold(shortName(t) + ' ' + t.titre + ' ' + t.numero + ' ' + (t.date_texte || '')), ts))
@@ -250,7 +250,7 @@ views.bibliotheque = async (_a, q) => {
         dessinerEtagere(box, cours);
         const montre = st.q || st.tout, l = montre ? filtrer() : [], cs = st.q ? cours.filter(c => fold(c.titre + ' ' + c.court + ' ' + c.description).includes(fold(st.q))) : [];
         $('#liste').innerHTML = !montre
-          ? `<div class="hint"><p>Ouvrez un cours sur l'étagère, ou cherchez.</p><a class="btn" id="all" href="#/bibliotheque?tout=1">${ic('library')} Voir les ${D.textes.length} textes</a></div>`
+          ? `${parcoursLecture(cours, CPa)}<div class="hint"><p>Ou consultez directement les textes officiels.</p><a class="btn" id="all" href="#/bibliotheque?tout=1">${ic('library')} Voir les ${D.textes.length} textes</a></div>`
           : `${cs.length ? `<h2 class="sec"><span class="lbl l6">Cours</span></h2><ul class="list" style="margin-bottom:34px">${cs.map(c => `<li><a class="card item" href="#/cours/${c.id}"><span class="t">${esc(c.titre)}</span><span class="sub">${esc(c.description || '')}</span><span class="meta"><span>${c.n.fiches} fiches</span><span>${c.n.cartes} cartes</span><span>${c.n.questions} questions</span></span></a></li>`).join('')}</ul>` : ''}
             <div class="listhead"><h2 class="sec"><span class="lbl l2">Les textes</span></h2>
               <div class="mini"><label>Statut<select id="fs"><option value="en_vigueur" ${st.statut === 'en_vigueur' ? 'selected' : ''}>En vigueur</option><option value="abroge" ${st.statut === 'abroge' ? 'selected' : ''}>Abrogés</option><option value="tous" ${st.statut === 'tous' ? 'selected' : ''}>Tous</option></select></label>
@@ -295,9 +295,25 @@ const mastCours = c => {
 };
 const PTYPE = { explication: ['compass', 'Explication'], exemple: ['lightbulb', 'Exemple du coach'], examen: ['star', 'Insiste : à l\'examen'], conseil: ['target', 'Conseil'], piege: ['triangle-alert', 'Piège'], consigne: ['clipboard-list', 'Consigne'], anecdote: ['message-circle', 'Anecdote'] };
 
+/* ---------- Parcours des cours : fil conducteur « Kamga Agro » ---------- */
+let coursParcoursCache = null;
+const chargerCoursParcours = async () => coursParcoursCache ||= await fetch('/data/cours-parcours.json').then(r => r.json());
+const NIVEAU = { E: 'Essentiel', C: 'À connaître', A: 'Pour aller plus loin' };
+const encartKamga = (txt, cls = '') => `<div class="amina kamga ${cls}">${E.perso('fatou', 'joy', 78, { fixe: true })}<p>${md(txt)}</p></div>`;
+const rangCours = (CP, id) => { const ordre = CP.parties.flatMap(pt => pt.cours); const k = ordre.indexOf(id); const part = CP.parties.findIndex(pt => pt.cours.includes(id)); return { k, total: ordre.length, ordre, part, partie: CP.parties[part] }; };
+function parcoursLecture(cours, CP) {
+  const par = id => cours.find(c => c.id === id);
+  let n = 0;
+  return `<section class="parcours-cours"><h2 class="sec"><span class="lbl l2">Par où commencer ?</span></h2>
+    <div class="sheet presentation">${E.perso('fatou', 'lol', 130, { fixe: true })}<div><p>${md(CP.heroine.presentation)}</p></div></div>
+    ${CP.parties.map((pt, k) => `<div class="partie"><h3 class="sous"><span class="lbl l${k % 6 + 1}">Partie ${k + 1} · ${esc(pt.titre)}</span></h3><p class="onmat intro">${esc(pt.intro)}</p>
+      <ol class="list guides">${pt.cours.map(id => { const c = par(id), info = CP.cours[id]; n++; return c ? `<li><a class="card item" href="#/cours/${id}"><span class="num">${n}</span><span class="t">${esc(c.titre)}</span><span class="sub">${esc(info.cle)}</span><span class="histoire-min">${esc(info.histoire)}</span><span class="meta"><span>${c.n.fiches} fiches</span><span>${c.n.cartes} cartes</span><span>${c.n.questions} questions</span><span>${c.chapitres.length} chapitres</span></span></a></li>` : ''; }).join('')}</ol></div>`).join('')}
+  </section>`;
+}
+
 views.cours = async ([id], q) => {
   const idx = await chargerCoursIdx(), meta = idx.find(c => c.id === id); if (!meta) return views.introuvable();
-  const p = await chargerCours(id);
+  const p = await chargerCours(id); const CP = await chargerCoursParcours(), info = CP.cours[id] || {}, rg = rangCours(CP, id), suivant = rg.ordre[rg.k + 1] ? idx.find(c => c.id === rg.ordre[rg.k + 1]) : null;
   const TABS = [['resume', 'Résumé'], ['fiches', 'Fiches'], ['schemas', 'Schémas'], ...(p.chapitres.some(c => (c.prof || []).length) ? [['prof', 'Le coach insiste']] : []), ...(p.chapitres.some(c => (c.exemples || []).length) ? [['exemples', 'Exemples']] : []), ['gloss', 'Glossaire'], ['textes', `Textes${meta.textes.length ? ' (' + meta.textes.length + ')' : ''}`]];
   const tab = TABS.some(([k]) => k === q.t) ? q.t : 'resume', chFiltre = p.chapitres.some(c => c.id === q.ch) ? q.ch : '';
   const chs = chFiltre ? p.chapitres.filter(c => c.id === chFiltre) : p.chapitres, base = `#/cours/${id}`, chq = chFiltre ? `&ch=${chFiltre}` : '';
@@ -334,7 +350,13 @@ views.cours = async ([id], q) => {
     <div class="cbtns"><a class="btn" href="#/flashcards/run${qs({ cours: id })}">${ic('layers')} Flashcards${due ? ` · ${due} à revoir` : ''}</a><a class="btn ghost" href="#/quiz/run${qs({ cours: id })}">${ic('circle-check')} Quiz</a><a class="btn ghost sm" href="#/exercices/run${qs({ c: id })}">${ic('puzzle')} Exercices</a><a class="btn ghost sm" href="#/examen/run${qs({ c: id, n: 20 })}">${ic('clipboard-check')} Examen blanc</a><a class="btn ghost sm" href="#/carte/${id}${chFiltre ? '?ch=' + chFiltre : ''}">${ic('network')} Carte mentale</a><a class="btn ghost sm" href="#/jeux">${ic('gamepad-2')} Jeux</a></div>
     ${p.chapitres.length > 1 ? (p.chapitres.length > 6 ? `<div class="chip-row"><select class="chsel" id="chsel" aria-label="Chapitre"><option value="">Tous les chapitres (${p.chapitres.length})</option>${p.chapitres.map(c => `<option value="${esc(c.id)}" ${chFiltre === c.id ? 'selected' : ''}>${esc(c.titre)}</option>`).join('')}</select></div>` : `<div class="chip-row"><a class="chip ${chFiltre ? '' : 'on'}" href="${base}?t=${tab}">Tous les chapitres</a>${p.chapitres.map(c => `<a class="chip ${chFiltre === c.id ? 'on' : ''}" href="${base}?t=${tab}&ch=${c.id}">${esc(nomChap(c.titre))}</a>`).join('')}</div>`) : ''}
     <nav class="tabsrow" aria-label="Rubriques du cours">${TABS.map(([k, l]) => `<a class="chip" aria-pressed="${tab === k}" href="${base}?t=${k}${chq}">${l}</a>`).join('')}</nav>
-    <div class="panel ${tab === 'resume' ? 'resume' : ''}" id="panel">${corps}</div>`,
+    ${tab === 'resume' && info.histoire ? `<section class="intro-cours"><small class="partie-n">Partie ${rg.part + 1} · ${esc(rg.partie?.titre || '')} · cours ${rg.k + 1} sur ${rg.total}</small>
+      ${encartKamga(info.histoire, 'grand')}
+      <div class="sheet pourquoi">${(info.pourquoi || []).map(t => `<p>${md(t)}</p>`).join('')}<h3>Dans ce cours, vous saurez…</h3><ul class="objectifs">${(info.objectifs || []).map(o => `<li>${esc(o)}</li>`).join('')}</ul></div>
+      <details class="plan" open><summary>Le plan du cours : ${p.chapitres.length} chapitre${p.chapitres.length > 1 ? 's' : ''}</summary><ol>${p.chapitres.map(c => `<li><a href="${base}?t=fiches&ch=${c.id}"><span class="niv niv-${c.niveauCode ? String(c.niveauCode)[0] : 'x'}">${esc(NIVEAU[c.niveau] || c.niveau || NIVEAU[String(c.niveauCode || '')[0]] || 'Chapitre')}</span><b>${esc(nomChap(c.titre))}</b><small>${esc((c.resume?.court || '').slice(0, 170))}${(c.resume?.court || '').length > 170 ? '…' : ''}</small></a></li>`).join('')}</ol></details></section>` : ''}
+    <div class="panel ${tab === 'resume' ? 'resume' : ''}" id="panel">${corps}</div>
+    ${info.cle ? `<div class="banner info retenir">${ic('lightbulb')}<div><strong>L'essentiel du cours.</strong> ${esc(info.cle)}</div></div>` : ''}
+    ${suivant ? `<a class="suite" href="#/cours/${suivant.id}"><small>Suite du parcours : cours ${rg.k + 2} sur ${rg.total}</small><b>${esc(suivant.titre)}</b><i>${esc((CP.cours[suivant.id] || {}).histoire || '')}</i><span>${ic('arrow-right')}</span></a>` : `<a class="suite" href="#/bibliotheque"><small>Fin du parcours</small><b>Retour à la bibliothèque</b><span>${ic('arrow-right')}</span></a>`}`,
     after() {
       fond(MAT_COURS[p.couleur] || MAT.bibliotheque);
       if (q.hl && tab !== 'gloss') B.highlight($('#panel'), q.hl);

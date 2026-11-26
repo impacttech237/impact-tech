@@ -93,7 +93,7 @@ index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.f
 ecrire('data/index.json', index);
 ecrire('data/faits.json', compact);
 ecrire('data/guides.json', guides);
-for (const f of ['annuaire.json', 'parcours-acteurs.json', 'guides-meta.json']) fs.copyFileSync(path.join(racine, 'data', f), path.join(dist, 'data', f));
+for (const f of ['annuaire.json', 'parcours-acteurs.json', 'guides-meta.json', 'cours-parcours.json']) fs.copyFileSync(path.join(racine, 'data', f), path.join(dist, 'data', f));
 ecrire('data/retenir.json', retenir);
 
 // Cours (repris d'Excellence COSUMAF) : data/cours/*.json -> dist/data/cours/<id>.json + dist/data/cours.json (index)

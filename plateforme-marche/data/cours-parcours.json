@@ -1,0 +1,209 @@
+{
+ "heroine": {
+  "nom": "Mme Kamga",
+  "perso": "fatou",
+  "presentation": "Pour suivre ces onze cours comme une histoire, imaginons **Kamga Agro**, une entreprise agro-industrielle de Douala (elle est fictive). Sa directrice, Mme Kamga, veut financer une nouvelle usine et pense à la bourse. De l'idée à l'examen, chaque cours répond à une question qu'elle se pose : qui contrôle le marché, comment entrer en bourse, comment lever des fonds, comment vit un titre, qui sont les professionnels, quelles règles ne jamais enfreindre. À vous de jouer à la fin, avec les épreuves."
+ },
+ "parties": [
+  {
+   "titre": "Poser le décor",
+   "intro": "Avant de bouger, Mme Kamga a besoin de la carte : qui fait quoi sur le marché et sur quels textes tout repose.",
+   "cours": [
+    "p0-cadre"
+   ]
+  },
+  {
+   "titre": "Faire entrer l'entreprise sur le marché",
+   "intro": "Entrer en bourse, ou lever des fonds : devant le grand public avec un appel public à l'épargne, ou seulement auprès d'investisseurs qualifiés avec un placement privé.",
+   "cours": [
+    "p1-entrer-en-bourse",
+    "p2-appel-public",
+    "p3-placement-prive"
+   ]
+  },
+  {
+   "titre": "Faire vivre et circuler le titre",
+   "intro": "Une fois cotée, l'entreprise a des obligations et des opérations à mener. Les épargnants, eux, passent des ordres qu'il faut exécuter puis dénouer.",
+   "cours": [
+    "p4-vie-du-titre",
+    "p5-ordre-denouement"
+   ]
+  },
+  {
+   "titre": "Les professionnels du marché",
+   "intro": "Derrière chaque opération, des professionnels agréés : intermédiaires de marché et gestionnaires de fonds.",
+   "cours": [
+    "p6-intermediaires",
+    "p7-fonds"
+   ]
+  },
+  {
+   "titre": "Respecter les règles",
+   "intro": "Rien de tout cela ne tient sans règles de conduite : abus de marché, vigilance contre le blanchiment, contrôles et sanctions.",
+   "cours": [
+    "p8-conformite-sanctions"
+   ]
+  },
+  {
+   "titre": "S'entraîner",
+   "intro": "Pour fixer l'ensemble : une fiche de repères à relire avant chaque épreuve, puis les épreuves elles-mêmes.",
+   "cours": [
+    "p9-reperes",
+    "epreuves"
+   ]
+  }
+ ],
+ "cours": {
+  "p0-cadre": {
+   "histoire": "Mme Kamga envisage la bourse pour financer une usine. Première question : qui décide, qui agrée, qui contrôle ?",
+   "pourquoi": [
+    "Avant d'entrer dans le détail des règles, il faut connaître les acteurs et les textes. Ce cours pose le décor : la COSUMAF (son statut, ses missions, ses pouvoirs), la BVMAC, le dépositaire central, la chambre de compensation, la banque de règlement, puis les textes fondateurs, de la création de la COSUMAF à l'unification du marché.",
+    "C'est le cours à lire en premier : tous les autres s'y appuient."
+   ],
+   "objectifs": [
+    "Dire qui décide, qui agrée et qui contrôle sur le marché",
+    "Citer les neuf pouvoirs de la COSUMAF : agrément, injonction, contrôle, sanctions, médiation…",
+    "Situer les grands textes dans le temps grâce à la frise",
+    "Expliquer l'approche par les risques du Règlement Général"
+   ],
+   "cle": "Sans agrément, pas de professionnel ; sans visa, pas d'offre au public : tout part de la COSUMAF."
+  },
+  "p1-entrer-en-bourse": {
+   "histoire": "Kamga Agro veut être cotée à la BVMAC. Dans quel compartiment sa taille la place-t-elle, et quel dossier doit-elle déposer ?",
+   "pourquoi": [
+    "Être admis à la cote n'est pas automatique : chaque compartiment a ses critères chiffrés (capital, capitalisation, titres diffusés dans le public). Ce cours explique quel compartiment correspond à quelle entreprise, le dossier à déposer et les procédures de première cotation.",
+    "Il décrit aussi ce qui se passe après : les obligations pendant le séjour à la cote, et les cas de suspension et de radiation."
+   ],
+   "objectifs": [
+    "Choisir le compartiment (A, B, E, D, C) selon les critères chiffrés",
+    "Décrire la procédure de première cotation : prix ferme, prix minimal, prix ouvert, cotation directe",
+    "Connaître les obligations de l'émetteur pendant son séjour à la cote",
+    "Comprendre dans quels cas un titre est suspendu ou radié"
+   ],
+   "cle": "Le compartiment dépend de la taille ; la cotation n'est que le début de la vie boursière."
+  },
+  "p2-appel-public": {
+   "histoire": "Mme Kamga choisit de s'adresser au grand public avec une émission d'actions. Il lui faut un document d'information, un visa de la COSUMAF, puis un placement réussi.",
+   "pourquoi": [
+    "Quand une entreprise propose ses titres au public, elle fait un « appel public à l'épargne ». Ce régime protège l'épargnant : un document d'information, un visa de la COSUMAF, des commissaires aux comptes, puis une information régulière. Ce cours en détaille chaque étape, du dossier de l'émetteur à la clôture des souscriptions.",
+    "Il aborde aussi les cas particuliers : non-résidents, sukuks, jetons numériques, obligations vertes, notation et garantie des émissions."
+   ],
+   "objectifs": [
+    "Définir l'appel public à l'épargne, ses exemptions et les cas de retrait du visa",
+    "Connaître le contenu du document d'information et le rôle du visa",
+    "Décrire le déroulement du placement : syndicat, souscriptions, clôture",
+    "Citer les obligations d'information de l'émetteur après l'opération (Instruction 44-25)"
+   ],
+   "cle": "Offrir des titres au public suppose un document d'information et un visa de la COSUMAF."
+  },
+  "p3-placement-prive": {
+   "histoire": "Plan B pour Kamga Agro : lever des fonds seulement auprès d'investisseurs qualifiés, sans appel au grand public. Que permet le placement privé ?",
+   "pourquoi": [
+    "Le placement privé évite l'appel public, mais il reste encadré. Ce cours compare le nouveau régime, en vigueur depuis le 1er novembre 2026, à l'ancien : définition, investisseurs qualifiés, document d'information simplifié, enregistrement auprès de la COSUMAF.",
+    "C'est un cours où les dates comptent : il faut savoir quel régime s'applique à quelle opération."
+   ],
+   "objectifs": [
+    "Définir le placement privé et les investisseurs qualifiés",
+    "Décrire le document d'information simplifié et l'enregistrement",
+    "Distinguer le nouveau régime de l'ancien (2022)",
+    "Reconnaître les cas où une offre devient publique"
+   ],
+   "cle": "Moins ouvert au public, le placement privé reste encadré : investisseurs qualifiés, document simplifié, enregistrement."
+  },
+  "p4-vie-du-titre": {
+   "histoire": "Kamga Agro est cotée. Elle verse un dividende, augmente son capital, subit l'offre d'un concurrent : sa vie à la cote commence.",
+   "pourquoi": [
+    "Un titre coté n'est pas figé. Les opérations sur titres (dividendes, augmentations de capital), les offres publiques (OPV, OPA, OPE, offre simplifiée, OPR), les blocs, le rachat d'office ou encore les franchissements de seuils rythment sa vie. Ce cours les passe en revue, avec l'information du marché qui accompagne chacune.",
+    "Il se termine par le régime fiscal spécifique des opérations cotées à la BVMAC."
+   ],
+   "objectifs": [
+    "Expliquer les opérations sur titres et l'information qui les accompagne",
+    "Distinguer OPV, OPA, OPE, offre simplifiée, offre au tiers et garantie de cours",
+    "Savoir quand un franchissement de seuil doit être déclaré",
+    "Citer les avantages fiscaux des opérations cotées"
+   ],
+   "cle": "Un titre coté vit : dividendes, augmentations de capital, offres publiques, seuils à surveiller."
+  },
+  "p5-ordre-denouement": {
+   "histoire": "Un épargnant veut acheter des actions Kamga Agro. Comment son ordre voyage-t-il, jusqu'à l'inscription en compte ?",
+   "pourquoi": [
+    "De l'ordre à l'inscription en compte, une chaîne bien réglée : types et validité des ordres, fixation du cours (fixing), compensation, règlement-livraison, rôle du teneur de compte. Ce cours suit un ordre pas à pas et explique le rôle du Dépositaire Central, de la chambre de compensation et de la banque de règlement.",
+    "Il ajoute les bases utiles pour les calculs de marché : actions, dividendes, PER, obligations, coupon couru."
+   ],
+   "objectifs": [
+    "Distinguer les types d'ordres et leur durée de validité",
+    "Expliquer le fixing et la formation du cours",
+    "Décrire le règlement-livraison et le rôle du teneur de compte",
+    "Faire les calculs de marché de base : capitalisation, dividende, coupon"
+   ],
+   "cle": "L'ordre, le cours, puis le dénouement : titres et espèces suivent des chemins coordonnés."
+  },
+  "p6-intermediaires": {
+   "histoire": "Pour tout cela, Kamga Agro s'appuie sur des intermédiaires : société de bourse, teneur de compte, conseiller. Comment le devient-on, et à quelles règles est-on soumis ?",
+   "pourquoi": [
+    "Les intermédiaires sont l'interface entre le marché et le public. Pour exercer, ils ont besoin d'un agrément ; leurs collaborateurs, d'une habilitation et d'une carte professionnelle. Ce cours détaille le capital exigé, l'organisation, la conformité, la convention client, les règles de bonne conduite et les déclarations à la COSUMAF.",
+    "Il couvre aussi les cas particuliers : conseillers en investissements financiers, listing sponsors, gestion sous mandat, et la tarification du marché."
+   ],
+   "objectifs": [
+    "Distinguer agrément, habilitation et carte professionnelle",
+    "Connaître les services et monopoles des intermédiaires",
+    "Citer les règles de protection de la clientèle et de bonne conduite",
+    "Savoir ce qui change quand un intermédiaire modifie son dossier d'agrément"
+   ],
+   "cle": "Agrément pour la société, habilitation pour les personnes, bonne conduite envers le client."
+  },
+  "p7-fonds": {
+   "histoire": "Un fonds souhaite détenir des actions Kamga Agro. Comment crée-t-on et gère-t-on un fonds ?",
+   "pourquoi": [
+    "Les fonds (OPC) collectent l'épargne de nombreux investisseurs. Ce cours explique les OPCVM (SICAV et FCP), l'agrément, le rôle de la société de gestion et du dépositaire, la valeur liquidative, les documents d'information et les ratios d'investissement.",
+    "Il présente ensuite les autres véhicules : FCPE, titrisation, OPCI, capital-investissement."
+   ],
+   "objectifs": [
+    "Distinguer OPCVM, FIA, SICAV et FCP",
+    "Expliquer le rôle respectif de la société de gestion et du dépositaire",
+    "Calculer et interpréter la valeur liquidative",
+    "Citer les ratios d'investissement et les documents obligatoires"
+   ],
+   "cle": "Le gestionnaire gère, le dépositaire garde et contrôle : deux fonctions séparées."
+  },
+  "p8-conformite-sanctions": {
+   "histoire": "Un administrateur de Kamga Agro vend des titres la veille d'une mauvaise annonce. Délit d'initié ? Voyons les règles, et les sanctions.",
+   "pourquoi": [
+    "La confiance dans le marché repose sur des règles de conduite. Ce cours traite des abus de marché (délit d'initié, manipulation de cours, fausses informations), de la vigilance contre le blanchiment et le financement du terrorisme (identifier, connaître, déclarer), puis des contrôles, enquêtes et sanctions.",
+    "Il décrit la procédure de sanction devant la COSUMAF et le barème des sanctions pécuniaires."
+   ],
+   "objectifs": [
+    "Reconnaître un délit d'initié, une manipulation de cours, une fausse information",
+    "Appliquer les trois réflexes de la vigilance LBC/FT : identifier, connaître, déclarer",
+    "Connaître les pénalités de retard et le déroulement d'un contrôle",
+    "Suivre la procédure de sanction : délais, récusation, publication, recours"
+   ],
+   "cle": "Aucun professionnel n'est au-dessus des règles : abus de marché, blanchiment, sanctions."
+  },
+  "p9-reperes": {
+   "histoire": "La veille de l'examen, Mme Kamga relit une fiche mémoire : les chiffres qui reviennent partout, et les pièges.",
+   "pourquoi": [
+    "Certains chiffres reviennent dans tous les cours : le « 10 – 30 – 60 », les compartiments, les capitaux. D'autres sont des pièges : deux textes se contredisent, ou un règlement récent remplace un ancien. Ce cours les rassemble en trois fiches : tous les délais, tous les seuils et montants, tous les pièges.",
+    "À relire avant chaque épreuve."
+   ],
+   "objectifs": [
+    "Retrouver un délai par thème",
+    "Retrouver un seuil, un montant ou un pourcentage",
+    "Repérer les cas où les textes changent ou se contredisent"
+   ],
+   "cle": "Les chiffres s'apprennent, mais les pièges se repèrent : un texte peut en corriger un autre."
+  },
+  "epreuves": {
+   "histoire": "Épilogue : Kamga Agro devient un cas pratique. Place aux épreuves.",
+   "pourquoi": [
+    "Connaître le cours ne suffit pas : il faut savoir l'appliquer. Ce cours propose douze cas pratiques résolus avec une méthode, huit sujets de grand oral avec plan et questions de jury, et trente-sept questions de mise en situation, en QCM et en réponses ouvertes."
+   ],
+   "objectifs": [
+    "Résoudre un cas pratique avec méthode : lire, citer le texte, conclure",
+    "Construire une soutenance de vingt minutes et répondre au jury",
+    "S'entraîner sur des mises en situation proches du réel"
+   ],
+   "cle": "La méthode fait la différence : lire le cas, citer le texte, conclure."
+  }
+ }
+}
