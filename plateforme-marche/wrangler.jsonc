@@ -1,5 +1,5 @@
 {
-  "name": "marche-cemac-preview",
+  "name": "boussole-cemac-preview",
   "main": "worker/index.js",
   "compatibility_date": "2025-01-01",
   "assets": { "directory": "./dist", "run_worker_first": ["/api/*"] },

@@ -11,7 +11,7 @@ node ../node_modules/wrangler/bin/wrangler.js deploy
 
 Ce que cela change : `robots.txt` autorise les moteurs, l'en-tête `noindex` disparaît, les adresses canoniques et le plan du site (`sitemap.xml`) utilisent le vrai domaine.
 
-Sans ces variables, le build reste en mode préversion (indexation fermée, domaine `marche-cemac-preview.impacttech237.workers.dev`).
+Sans ces variables, le build reste en mode préversion (indexation fermée, domaine `boussole-cemac-preview.impacttech237.workers.dev`).
 
 ## 2. Ensuite
 

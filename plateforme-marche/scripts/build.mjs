@@ -139,7 +139,7 @@ ecrire('data/retenir.json', retenir);
 }
 
 // 2 bis. Pages statiques par texte (référencement) ; LANCEMENT=1 et SITE_URL pour la mise en ligne publique
-const siteUrl = (process.env.SITE_URL || 'https://marche-cemac-preview.impacttech237.workers.dev').replace(/\/$/, '');
+const siteUrl = (process.env.SITE_URL || 'https://boussole-cemac-preview.impacttech237.workers.dev').replace(/\/$/, '');
 const nbPages = genererPages({ dist, racine, textes, faits, siteUrl, lancement: process.env.LANCEMENT === '1', pdf: pdf.taille, guides });
 console.log(`Pages statiques : ${nbPages} (indexation ${process.env.LANCEMENT === '1' ? 'OUVERTE' : 'fermée : préversion'}, ${siteUrl})`);
 
