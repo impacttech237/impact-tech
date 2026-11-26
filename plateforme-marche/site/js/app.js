@@ -75,14 +75,52 @@ const qs = o => { const p = new URLSearchParams(); for (const [k, v] of Object.e
 const options = (map, sel, tous) => `<option value="">${tous}</option>` + Object.entries(map).map(([k, v]) => `<option value="${esc(k)}" ${k === sel ? 'selected' : ''}>${esc(v)}</option>`).join('');
 
 /* ---------- cadre : en-tête, pied ---------- */
-const NAV = [['/', 'Accueil'], ['/decouvrir', 'Découvrir'], ['/acteurs', 'Acteurs'], ['/bibliotheque', 'Bibliothèque'], ['/flashcards', 'Flashcards'], ['/quiz', 'Quiz'], ['/jeux', 'Jeux'], ['/pratiquer', 'Pratiquer'], ['/recherche', 'Chercher'], ['/progres', 'Progrès'], ['/a-propos', 'À propos']];
+// Barre simple sur ordinateur (4 liens + « S'entraîner » + recherche + compte), menu plein écran sur téléphone (toutes les rubriques, par sections).
+const MENU = [
+  { titre: 'Comprendre', liens: [['/decouvrir', 'lightbulb', 'Découvrir', 'Les bases, sans jargon'], ['/acteurs', 'users', 'Les acteurs', 'Régulateur, bourse, sociétés'], ['/bibliotheque', 'graduation-cap', 'Cours', 'Onze cours complets'], ['/textes', 'file-text', 'Textes officiels', 'COSUMAF, BVMAC, CEMAC'], ['/pratiquer', 'clipboard-list', 'Délais et montants', 'Tous les repères chiffrés']] },
+  { titre: 'S\'entraîner', liens: [['/flashcards', 'layers', 'Flashcards', 'Retourner, se noter'], ['/quiz', 'circle-check', 'Quiz', 'Séries de questions'], ['/jeux', 'gamepad-2', 'Jeux', 'Réviser en jouant'], ['/exercices', 'pencil-line', 'Exercices', 'Trous, tri, ordre'], ['/examen', 'clipboard-check', 'Examen blanc', 'Conditions réelles'], ['/olympiade', 'trophy', 'Olympiade blanche', 'Le grand test'], ['/planning', 'calendar-days', 'Plan de révision', 'Jour après jour'], ['/progres', 'activity', 'Mes progrès', 'Niveau, série, badges']] },
+  { titre: 'Aide', liens: [['/guide', 'compass', 'Guide d\'utilisation', 'Prendre en main'], ['/a-propos', 'info', 'À propos', 'Le projet, les sources']] },
+];
+const NAV_DIRECT = [['/decouvrir', 'Découvrir'], ['/bibliotheque', 'Cours'], ['/textes', 'Textes'], ['/acteurs', 'Acteurs']];
+const lienMenu = ([h, i, l, d]) => `<a href="#${h}" data-nav="${h}" class="mlien">${ic(i)}<span><b>${l}</b><small>${d}</small></span></a>`;
+const ENTRAINER = MENU[1].liens;
+function fermerMenu(rendreFocus) {
+  document.body.classList.remove('menu-ouvert');
+  $('#burger')?.setAttribute('aria-expanded', 'false'); $('#ent')?.setAttribute('aria-expanded', 'false');
+  const t = $('#tiroir'); if (t) t.hidden = true; const e = $('#entpan'); if (e) e.hidden = true;
+  if (rendreFocus) $('#burger')?.focus();
+}
 function cadre() {
-  $('#top').innerHTML = `<nav class="nav" aria-label="Navigation principale">${NAV.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}<a href="#/compte" data-nav="/compte" class="acct" aria-label="Compte">${ic('user')}<i class="dot"></i></a></nav>`;
+  $('#top').innerHTML = `<div class="bar">
+    <a class="marque" href="#/" data-nav="/" aria-label="Boussole CEMAC, accueil">${ic('compass')}<span>Boussole <em>CEMAC</em></span></a>
+    <nav class="nav" aria-label="Navigation principale">${NAV_DIRECT.map(([h, l]) => `<a href="#${h}" data-nav="${h}">${l}</a>`).join('')}
+      <span class="pop"><button type="button" id="ent" aria-expanded="false" aria-controls="entpan" data-groupe="${ENTRAINER.map(x => x[0]).join(' ')}">S'entraîner ${ic('chevron-down')}</button>
+        <div class="entpan" id="entpan" hidden>${ENTRAINER.map(lienMenu).join('')}</div></span></nav>
+    <div class="outils"><a class="btn-ic" href="#/recherche" data-nav="/recherche" aria-label="Rechercher" title="Rechercher (Ctrl K)">${ic('search')}<span class="lib">Chercher</span></a>
+      <a href="#/compte" data-nav="/compte" class="btn-ic acct" aria-label="Compte">${ic('user')}<i class="dot"></i></a>
+      <button type="button" class="btn-ic" id="burger" aria-expanded="false" aria-controls="tiroir" aria-label="Menu">${ic('menu')}</button></div></div>
+    <div class="tiroir" id="tiroir" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+      <div class="tiroir-in"><div class="tiroir-tete"><strong>${ic('compass')} Boussole CEMAC</strong><button type="button" id="mfermer" aria-label="Fermer le menu">${ic('x')}</button></div>
+        <a class="mrech" href="#/recherche" data-nav="/recherche">${ic('search')} Rechercher un délai, un texte, un acteur…</a>
+        ${MENU.map(g => `<section><h2>${g.titre}</h2><div class="mgrille">${g.liens.map(lienMenu).join('')}</div></section>`).join('')}
+        <a class="mcompte" href="#/compte" data-nav="/compte">${ic('user')} Mon compte (facultatif)</a></div></div>`;
   majIconeCompte();
+  $('#burger').onclick = () => { if ($('#tiroir').hidden) { $('#tiroir').hidden = false; document.body.classList.add('menu-ouvert'); $('#burger').setAttribute('aria-expanded', 'true'); $('#mfermer').focus(); } else fermerMenu(true); };
+  $('#mfermer').onclick = () => fermerMenu(true);
+  $('#tiroir').onclick = e => { if (e.target.id === 'tiroir' || e.target.closest('a')) fermerMenu(false); };
+  $('#ent').onclick = e => { e.stopPropagation(); const ouvrir = $('#entpan').hidden; $('#entpan').hidden = !ouvrir; $('#ent').setAttribute('aria-expanded', String(ouvrir)); };
+  $('#entpan').onclick = e => { if (e.target.closest('a')) fermerMenu(false); };
+  document.addEventListener('click', e => { if (!e.target.closest('.pop')) { const p = $('#entpan'); if (p && !p.hidden) { p.hidden = true; $('#ent').setAttribute('aria-expanded', 'false'); } } });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && (!$('#tiroir').hidden || !$('#entpan').hidden)) fermerMenu(!$('#tiroir').hidden); });
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
     <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a> · <a href="#/guide">Guide</a> · <a href="#/planning">Plan de révision</a> · <a href="#/olympiade">Olympiade blanche</a></div></div>`;
 }
-const marquerNav = path => { $$('[data-nav]').forEach(a => { const h = a.dataset.nav; const on = h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && (path.startsWith('/texte') || path.startsWith('/cours'))); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); }); };
+const marquerNav = path => {
+  const dans = h => h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && (path.startsWith('/texte') || path.startsWith('/cours')));
+  $$('[data-nav]').forEach(a => { if (dans(a.dataset.nav)) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  const g = $('#ent'); if (g) { if (g.dataset.groupe.split(' ').some(dans)) g.setAttribute('aria-current', 'page'); else g.removeAttribute('aria-current'); }
+  fermerMenu(false);
+};
 
 /* ---------- recherche ---------- */
 const STOP = new Set('de du des la le les un une et au aux en d l a à ou pour par sur dans qui que est sont'.split(' '));
