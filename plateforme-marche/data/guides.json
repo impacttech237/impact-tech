@@ -56,7 +56,9 @@
           "url": "https://www.bvm-ac.org/histoire-de-la-bvmac/"
         }
       }
-    ]
+    ],
+    "histoire": "Amina a 500 000 FCFA d'économies et une question : à quoi sert la bourse, et est-ce pour quelqu'un comme elle ?",
+    "partie": "Comprendre"
   },
   {
     "id": "qui-est-qui",
@@ -104,7 +106,9 @@
           "url": "https://cosumaf.org/organismes-centraux"
         }
       }
-    ]
+    ],
+    "histoire": "Avant de se lancer, Amina veut savoir à qui elle aura affaire. Elle dresse la liste des institutions.",
+    "partie": "Comprendre"
   },
   {
     "id": "actionnaire-ou-obligataire",
@@ -134,7 +138,9 @@
           "url": "https://www.bvm-ac.org/espace-investisseurs-fr/investisseurs-acces-aux-produits-boursiers/"
         }
       }
-    ]
+    ],
+    "histoire": "Amina hésite : devenir propriétaire d'une petite part d'entreprise, ou prêter de l'argent à un État ou à une société ?",
+    "partie": "Comprendre"
   },
   {
     "id": "investir-pas-a-pas",
@@ -195,7 +201,9 @@
           "url": "https://www.bvm-ac.org/espace-investisseurs-fr/investisseurs-acces-aux-produits-boursiers/"
         }
       }
-    ]
+    ],
+    "histoire": "Amina est décidée. Reste à savoir par où commencer, concrètement.",
+    "partie": "Se lancer"
   },
   {
     "id": "ce-que-lon-peut-acheter",
@@ -246,12 +254,80 @@
           "url": "https://www.bvm-ac.org/la-bvmac/nos-produits-et-services/"
         }
       }
-    ]
+    ],
+    "histoire": "Amina regarde la cote : que peut-elle réellement acheter ?",
+    "partie": "Se lancer"
+  },
+  {
+    "id": "acheter-vendre",
+    "porte": "decouvrir",
+    "ordre": 6,
+    "titre": "Acheter ou vendre : passer par une société de bourse",
+    "accroche": "Comment un ordre est donné, à quel prix, et combien de temps il reste valable.",
+    "theme": "marche",
+    "blocs": [
+      {
+        "p": "À la BVMAC, seules les **sociétés de bourse** peuvent négocier. Vous leur donnez un **ordre de bourse** : une instruction d'achat ou de vente d'un titre. L'ordre peut préciser un prix limite, ou être passé « au marché », c'est-à-dire sans indication de prix."
+      },
+      {
+        "faits": [
+          "rbv-25.role.04",
+          "rbv-25.definition.07",
+          "rbv-25.definition.08",
+          "rbv-25.definition.09",
+          "rbv-25.definition.06"
+        ],
+        "titre": "Les notions de base"
+      },
+      {
+        "faits": [
+          "rbv-25.delai.13",
+          "rbv-25.delai.14"
+        ],
+        "titre": "Délais à connaître"
+      }
+    ],
+    "histoire": "Amina est chez sa société de bourse. Comment donne-t-on un ordre, et à quel prix ?",
+    "partie": "Se lancer"
+  },
+  {
+    "id": "ou-sont-mes-titres",
+    "porte": "decouvrir",
+    "ordre": 7,
+    "titre": "Où sont mes titres ?",
+    "accroche": "Il n'y a plus de certificat en papier : vos titres sont inscrits dans un compte.",
+    "theme": "titres",
+    "blocs": [
+      {
+        "p": "Les titres ne sont plus matérialisés par des certificats : ils sont **inscrits en compte** au nom de leur propriétaire. Selon la forme du titre, cette inscription se fait chez l'émetteur lui-même ou chez un intermédiaire habilité, le **teneur de compte**. Vous recevez une **attestation d'inscription en compte** qui prouve que vous détenez les titres."
+      },
+      {
+        "faits": [
+          "r04-25.definition.01",
+          "r04-25.definition.04",
+          "r04-25.definition.05",
+          "r04-25.definition.06",
+          "r04-25.definition.07"
+        ],
+        "titre": "Les mots à connaître"
+      },
+      {
+        "faits": [
+          "r04-25.role.02"
+        ],
+        "titre": "Le rôle du teneur de compte"
+      },
+      {
+        "note": "Conservez vos attestations d'inscription en compte : elles sont la preuve de votre propriété."
+      }
+    ],
+    "histoire": "Son ordre est exécuté. Mais où sont ses titres, maintenant qu'il n'y a plus de certificat en papier ?",
+    "partie": "Se lancer"
   },
   {
     "id": "fiscalite-epargnant",
     "porte": "decouvrir",
-    "ordre": 6,
+    "ordre": 8,
     "theme": "marche",
     "titre": "Les impôts de l'investisseur",
     "accroche": "Ce qui est exonéré, ce qui est prélevé : le régime fiscal spécifique des opérations cotées à la BVMAC.",
@@ -297,69 +373,9 @@
           "url": "https://www.bvm-ac.org/espace-investisseurs-fr/bourse-et-fiscalite-pour-les-investisseurs/"
         }
       }
-    ]
-  },
-  {
-    "id": "acheter-vendre",
-    "porte": "decouvrir",
-    "ordre": 7,
-    "titre": "Acheter ou vendre : passer par une société de bourse",
-    "accroche": "Comment un ordre est donné, à quel prix, et combien de temps il reste valable.",
-    "theme": "marche",
-    "blocs": [
-      {
-        "p": "À la BVMAC, seules les **sociétés de bourse** peuvent négocier. Vous leur donnez un **ordre de bourse** : une instruction d'achat ou de vente d'un titre. L'ordre peut préciser un prix limite, ou être passé « au marché », c'est-à-dire sans indication de prix."
-      },
-      {
-        "faits": [
-          "rbv-25.role.04",
-          "rbv-25.definition.07",
-          "rbv-25.definition.08",
-          "rbv-25.definition.09",
-          "rbv-25.definition.06"
-        ],
-        "titre": "Les notions de base"
-      },
-      {
-        "faits": [
-          "rbv-25.delai.13",
-          "rbv-25.delai.14"
-        ],
-        "titre": "Délais à connaître"
-      }
-    ]
-  },
-  {
-    "id": "ou-sont-mes-titres",
-    "porte": "decouvrir",
-    "ordre": 8,
-    "titre": "Où sont mes titres ?",
-    "accroche": "Il n'y a plus de certificat en papier : vos titres sont inscrits dans un compte.",
-    "theme": "titres",
-    "blocs": [
-      {
-        "p": "Les titres ne sont plus matérialisés par des certificats : ils sont **inscrits en compte** au nom de leur propriétaire. Selon la forme du titre, cette inscription se fait chez l'émetteur lui-même ou chez un intermédiaire habilité, le **teneur de compte**. Vous recevez une **attestation d'inscription en compte** qui prouve que vous détenez les titres."
-      },
-      {
-        "faits": [
-          "r04-25.definition.01",
-          "r04-25.definition.04",
-          "r04-25.definition.05",
-          "r04-25.definition.06",
-          "r04-25.definition.07"
-        ],
-        "titre": "Les mots à connaître"
-      },
-      {
-        "faits": [
-          "r04-25.role.02"
-        ],
-        "titre": "Le rôle du teneur de compte"
-      },
-      {
-        "note": "Conservez vos attestations d'inscription en compte : elles sont la preuve de votre propriété."
-      }
-    ]
+    ],
+    "histoire": "Amina se demande ce que les impôts prélèveront sur ses gains.",
+    "partie": "Aller plus loin"
   },
   {
     "id": "epargner-par-un-fonds",
@@ -390,7 +406,9 @@
       {
         "note": "Lisez toujours le document d'information du fonds : il présente les frais, le dépositaire et les risques. Les performances passées ne garantissent pas les performances futures."
       }
-    ]
+    ],
+    "histoire": "Amina n'a pas le temps de suivre les cours chaque jour : peut-elle déléguer la gestion ?",
+    "partie": "Aller plus loin"
   },
   {
     "id": "souscrire-offre-public",
@@ -414,7 +432,9 @@
       {
         "note": "Une offre qui n'a pas reçu de visa alors qu'elle s'adresse au public est un signal d'alerte : renseignez-vous auprès de la COSUMAF avant de verser de l'argent."
       }
-    ]
+    ],
+    "histoire": "Une entreprise propose ses titres au public. Amina est tentée : à quoi doit-elle faire attention ?",
+    "partie": "Aller plus loin"
   },
   {
     "id": "qui-protege",
@@ -457,12 +477,68 @@
       {
         "note": "Réflexe simple : avant de confier de l'argent, demandez à voir la carte professionnelle de votre interlocuteur et vérifiez que l'intermédiaire est agréé auprès de la COSUMAF."
       }
-    ]
+    ],
+    "histoire": "Amina veut savoir qui veille sur elle si quelque chose tourne mal.",
+    "partie": "Se protéger"
+  },
+  {
+    "id": "bons-reflexes",
+    "porte": "decouvrir",
+    "ordre": 12,
+    "theme": "conformite",
+    "titre": "Les bons réflexes pour ne pas se faire piéger",
+    "accroche": "Vérifier un agrément, repérer une offre suspecte, signaler un manquement.",
+    "blocs": [
+      {
+        "p": "Comme dans tout domaine où l'on confie de l'argent, des personnes malintentionnées profitent de la méconnaissance de la bourse. Quelques réflexes simples suffisent à écarter l'essentiel des risques."
+      },
+      {
+        "titre": "Avant de confier de l'argent",
+        "liste": [
+          "**Vérifiez l'agrément** de la société ou de la personne sur le site de la COSUMAF (« vérifier un agrément »).",
+          "**Demandez la carte professionnelle** de votre interlocuteur : les personnes qui conseillent ou négocient pour le public doivent être habilitées.",
+          "**Méfiez-vous des promesses de gains garantis** ou très élevés : aucun placement en bourse n'est sans risque.",
+          "**Vérifiez qu'une offre au public a reçu son visa** de la COSUMAF et lisez le document d'information avant de souscrire.",
+          "**Ne payez jamais sur un compte personnel** : les sociétés de bourse tiennent des comptes à votre nom, et les souscriptions sont centralisées par une société de bourse."
+        ]
+      },
+      {
+        "faits": [
+          "i18-24.definition.01",
+          "r01-22.montant.01",
+          "r01-22.delai.01"
+        ],
+        "titre": "Ce que disent les textes"
+      },
+      {
+        "titre": "En cas de doute",
+        "liste": [
+          "**Signalez** tout manquement aux règles du marché financier à la COSUMAF (service « déposer une plainte »).",
+          "**Posez votre question** aux experts de la COSUMAF (service « soumettre une requête »).",
+          "En cas de litige avec un acteur du marché, un **médiateur** peut proposer une résolution amiable."
+        ]
+      },
+      {
+        "cta": {
+          "href": "https://cosumaf.org/verifier-un-agrement",
+          "label": "Vérifier un agrément sur cosumaf.org",
+          "externe": true
+        }
+      },
+      {
+        "source": {
+          "nom": "COSUMAF : vérifier un agrément, signaler une fraude",
+          "url": "https://cosumaf.org/signaler-fraude"
+        }
+      }
+    ],
+    "histoire": "À une amie d'Amina, on a proposé un placement « sans risque ». Quels réflexes lui conseille-t-elle ?",
+    "partie": "Se protéger"
   },
   {
     "id": "entrer-en-bourse",
     "porte": "decouvrir",
-    "ordre": 12,
+    "ordre": 13,
     "theme": "marche",
     "titre": "Pour les entreprises : entrer en bourse",
     "accroche": "Les compartiments de la cote, les conditions d'admission, les commissions et les avantages fiscaux.",
@@ -526,58 +602,8 @@
           "url": "https://www.bvm-ac.org/espace-emetteurs/conditions-d-admission-au-marche-boursier/"
         }
       }
-    ]
-  },
-  {
-    "id": "bons-reflexes",
-    "porte": "decouvrir",
-    "ordre": 13,
-    "theme": "conformite",
-    "titre": "Les bons réflexes pour ne pas se faire piéger",
-    "accroche": "Vérifier un agrément, repérer une offre suspecte, signaler un manquement.",
-    "blocs": [
-      {
-        "p": "Comme dans tout domaine où l'on confie de l'argent, des personnes malintentionnées profitent de la méconnaissance de la bourse. Quelques réflexes simples suffisent à écarter l'essentiel des risques."
-      },
-      {
-        "titre": "Avant de confier de l'argent",
-        "liste": [
-          "**Vérifiez l'agrément** de la société ou de la personne sur le site de la COSUMAF (« vérifier un agrément »).",
-          "**Demandez la carte professionnelle** de votre interlocuteur : les personnes qui conseillent ou négocient pour le public doivent être habilitées.",
-          "**Méfiez-vous des promesses de gains garantis** ou très élevés : aucun placement en bourse n'est sans risque.",
-          "**Vérifiez qu'une offre au public a reçu son visa** de la COSUMAF et lisez le document d'information avant de souscrire.",
-          "**Ne payez jamais sur un compte personnel** : les sociétés de bourse tiennent des comptes à votre nom, et les souscriptions sont centralisées par une société de bourse."
-        ]
-      },
-      {
-        "faits": [
-          "i18-24.definition.01",
-          "r01-22.montant.01",
-          "r01-22.delai.01"
-        ],
-        "titre": "Ce que disent les textes"
-      },
-      {
-        "titre": "En cas de doute",
-        "liste": [
-          "**Signalez** tout manquement aux règles du marché financier à la COSUMAF (service « déposer une plainte »).",
-          "**Posez votre question** aux experts de la COSUMAF (service « soumettre une requête »).",
-          "En cas de litige avec un acteur du marché, un **médiateur** peut proposer une résolution amiable."
-        ]
-      },
-      {
-        "cta": {
-          "href": "https://cosumaf.org/verifier-un-agrement",
-          "label": "Vérifier un agrément sur cosumaf.org",
-          "externe": true
-        }
-      },
-      {
-        "source": {
-          "nom": "COSUMAF : vérifier un agrément, signaler une fraude",
-          "url": "https://cosumaf.org/signaler-fraude"
-        }
-      }
-    ]
+    ],
+    "histoire": "Le frère d'Amina dirige une PME. Il se demande si son entreprise pourrait entrer en bourse.",
+    "partie": "Côté entreprises"
   }
 ]

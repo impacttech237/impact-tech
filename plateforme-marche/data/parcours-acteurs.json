@@ -1,0 +1,339 @@
+{
+ "heroine": {
+  "nom": "Amina",
+  "perso": "amina",
+  "presentation": "Amina est enseignante à Douala. Après quelques années d'économies, elle a 500 000 FCFA de côté. Elle veut savoir si cet argent peut travailler pour elle, sans le confier à n'importe qui. Suivons son argent : en route, nous rencontrerons tous les acteurs du marché, l'un après l'autre."
+ },
+ "etapes": [
+  {
+   "id": "idee",
+   "n": 1,
+   "titre": "Une idée : faire travailler son épargne",
+   "court": "L'idée",
+   "accroche": "Pourquoi un marché financier existe, et pourquoi il faut tant d'acteurs différents.",
+   "histoire": "Sur son compte, l'argent d'Amina dort. Elle a entendu parler de la bourse, mais ne sait pas par où commencer.",
+   "texte": [
+    "Un **marché financier** résout un problème simple : mettre en relation ceux qui ont de l'argent à placer et ceux qui ont besoin d'en trouver. Une entreprise qui veut construire une usine, un État qui veut financer une route peuvent émettre des **titres**, actions ou obligations, que des épargnants achètent. En échange, les épargnants espèrent des revenus : des dividendes, des intérêts, parfois une plus-value.",
+    "Dans les six pays de la CEMAC, ce marché est commun. Depuis l'acte additionnel de 2018, il est **unifié** : une seule autorité de régulation, une seule bourse, un dépositaire central des titres. Autour de ce noyau gravitent des professionnels, chacun avec un rôle précis."
+   ],
+   "chiffres": [
+    {
+     "v": "6",
+     "l": "pays partagent le même marché financier"
+    },
+    {
+     "v": "1",
+     "l": "régulateur et 1 bourse pour toute la zone"
+    },
+    {
+     "v": "{{total}}",
+     "l": "acteurs recensés dans cet annuaire"
+    }
+   ],
+   "retenir": "Un marché financier a besoin de trois choses : des règles, un lieu d'échange, et des professionnels qui font le lien avec le public. Les trois étapes suivantes les présentent dans cet ordre.",
+   "acteurs": null
+  },
+  {
+   "id": "regles",
+   "n": 2,
+   "titre": "Les règles du jeu : la COSUMAF",
+   "court": "Les règles",
+   "accroche": "Le régulateur qui délivre les agréments, accorde les visas et sanctionne.",
+   "histoire": "Avant de donner un franc, Amina cherche qui garantit que le jeu est loyal. On lui répond : la COSUMAF.",
+   "texte": [
+    "La **COSUMAF**, Commission de Surveillance du Marché Financier de l'Afrique Centrale, est le gendarme du marché. Elle **régule, contrôle et surveille** : elle délivre les **agréments** aux professionnels, les **visas** aux opérations proposées au public, les **habilitations** aux personnes, et elle enregistre les placements privés. Quand les règles ne sont pas respectées, elle peut **sanctionner**.",
+    "Son siège est à Libreville. Elle est dirigée par une **Présidente**, assistée d'un **Secrétaire Général**, tous deux nommés par la Conférence des Chefs d'État de la CEMAC pour un mandat de cinq ans non renouvelable. Les décisions importantes sont prises par un **Collège**, et une **Commission des sanctions** juge les manquements. Un membre du Collège, le **médiateur**, peut proposer une solution amiable en cas de litige.",
+    "La COSUMAF travaille avec des institutions partenaires, comme la COBAC, qui supervise les banques : le marché financier et le système bancaire sont voisins, et leurs superviseurs coopèrent."
+   ],
+   "pour_amina": "Amina note une première règle : aucun professionnel ne peut lui proposer de placer son argent sans agrément. Elle sait désormais qu'elle peut le vérifier sur le site de la COSUMAF.",
+   "retenir": "Pas d'agrément, pas de professionnel. Pas de visa, pas d'offre au public.",
+   "faits": [
+    "r01-22.role.01",
+    "r01-22.role.05",
+    "r01-22.role.16"
+   ],
+   "acteurs": {
+    "ids": [
+     "cosumaf"
+    ],
+    "titre": "Le régulateur"
+   },
+   "acteurs2": {
+    "types": [
+     "cooperation"
+    ],
+    "titre": "Les institutions partenaires",
+    "intro": "Elles supervisent d'autres pans du système financier et coopèrent avec la COSUMAF."
+   },
+   "cta": {
+    "href": "#/cours/p0-cadre",
+    "label": "Le cours « Le cadre » : qui fait quoi"
+   }
+  },
+  {
+   "id": "bourse",
+   "n": 3,
+   "titre": "Le lieu d'échange : la BVMAC",
+   "court": "La bourse",
+   "accroche": "L'entreprise de marché qui organise la cotation, de Douala, pour six pays.",
+   "histoire": "Amina apprend qu'il existe une bourse régionale. Mais elle ne peut pas y entrer toute seule.",
+   "texte": [
+    "La **BVMAC**, Bourse des Valeurs Mobilières de l'Afrique Centrale, est le **marché** : c'est elle qui organise, anime et gère la cotation des titres pour les six pays. Elle admet les titres à la cote, enregistre les négociations, publie chaque jour le **Bulletin Officiel de la Cote**, surveille le marché et contrôle les sociétés de bourse.",
+    "C'est une **société anonyme** dirigée par un Directeur Général, sous le contrôle d'un conseil d'administration. Son capital est détenu par des entités publiques, des banques, des microfinances, des sociétés de bourse et des assurances. Elle est installée à **Douala** et exerce sa mission en vertu d'un agrément de la COSUMAF.",
+    "Les titres y sont classés par compartiments selon la taille des entreprises : grandes entreprises, entreprises moyennes, PME, obligations, fonds. Les achats et les ventes se rencontrent soit à un **cours unique** fixé par confrontation de tous les ordres (le fixing), soit **en continu**."
+   ],
+   "pour_amina": "Amina comprend que la bourse est une place de marché, pas un guichet : on n'y achète pas directement. Il faut passer par un professionnel autorisé.",
+   "retenir": "La BVMAC organise le marché : les investisseurs n'ont aucune commission directe à lui payer pour leurs achats et leurs ventes.",
+   "faits": [
+    "rbv-25.definition.01",
+    "rbv-25.definition.03",
+    "rbv-25.definition.04"
+   ],
+   "acteurs": {
+    "ids": [
+     "bvmac"
+    ],
+    "titre": "L'entreprise de marché"
+   },
+   "cta": {
+    "href": "#/cours/p1-entrer-en-bourse",
+    "label": "Le cours « Entrer en bourse »"
+   }
+  },
+  {
+   "id": "porte",
+   "n": 4,
+   "titre": "La porte d'entrée : les sociétés de bourse",
+   "court": "Les sociétés de bourse",
+   "accroche": "Les seuls professionnels habilités à négocier à la BVMAC, implantés dans cinq pays.",
+   "histoire": "Pour acheter sa première action, Amina doit choisir une société de bourse. Il y en a trente. Comment s'y retrouver ?",
+   "texte": [
+    "Les **sociétés de bourse** sont les intermédiaires du marché agréés par la COSUMAF. Elles ont le **monopole de la négociation** à la BVMAC : c'est à elles que l'épargnant donne ses ordres d'achat et de vente, et elles en sont responsables une fois présentés au marché.",
+    "Leur métier est large : négociation, placement, réception et transmission d'ordres, **tenue de compte**, gestion de portefeuille sous mandat, conseil en gestion de patrimoine, démarchage financier. Ce sont des sociétés anonymes, soumises à des ratios prudentiels et à un contrôle de la COSUMAF.",
+    "Pour devenir client, l'épargnant ouvre un **compte titres et espèces**, prend connaissance des **conditions tarifaires** (ce sont elles, et non la bourse, qui facturent leurs services), puis donne ses ordres. La plupart des sociétés sont implantées au Cameroun, les autres au Gabon, au Congo, au Tchad et en Guinée équatoriale."
+   ],
+   "pour_amina": "Amina compare : une société proche de chez elle, des tarifs lisibles, un interlocuteur qui prend le temps d'expliquer. Surtout, elle vérifie que la société figure bien sur la liste des agréées.",
+   "retenir": "Choisissez une société agréée, comparez ses tarifs, et gardez la trace de votre compte titres : c'est la preuve de ce que vous détenez.",
+   "faits": [
+    "rbv-25.role.04"
+   ],
+   "acteurs": {
+    "types": [
+     "societe-de-bourse"
+    ],
+    "titre": "Les sociétés de bourse agréées",
+    "groupePar": "pays",
+    "intro": "Triées par pays de siège. Chaque fiche donne l'agrément, les coordonnées et le dirigeant."
+   },
+   "cta": {
+    "href": "#/decouvrir/investir-pas-a-pas",
+    "label": "Investir pas à pas : les quatre étapes"
+   }
+  },
+  {
+   "id": "coulisses",
+   "n": 5,
+   "titre": "Dans les coulisses : où va l'ordre, où va l'argent",
+   "court": "Les coulisses",
+   "accroche": "Le dépositaire central, la banque de règlement, la chambre de compensation et les teneurs de compte.",
+   "histoire": "Amina a donné son ordre. Elle se demande ce qui se passe ensuite : où va son argent, et où arrive son titre ?",
+   "texte": [
+    "Une fois l'ordre exécuté, la BVMAC **enregistre la négociation** et transmet les données au **Dépositaire Central**. Celui-ci tient les comptes de titres de ses adhérents : il organise la **livraison des titres**. De son côté, la **banque de règlement**, fonction assurée par la **BEAC**, règle les **espèces** : le vendeur est payé, l'acheteur est débité.",
+    "Le titre n'est plus un certificat en papier : il est **inscrit en compte**. Les établissements de crédit agréés, comme les banques, peuvent intervenir en qualité de **teneurs de compte** : ils ouvrent les comptes-titres des clients et leur délivrent une attestation. Une **chambre de compensation**, contrepartie centrale qui garantirait la bonne fin des opérations, est prévue, mais selon la COSUMAF elle n'est pas encore effective."
+   ],
+   "pour_amina": "Quelques jours plus tard, Amina voit son titre inscrit sur son compte-titres et son compte espèces débité du prix. Elle conserve son attestation d'inscription en compte.",
+   "retenir": "Titres et argent suivent deux chemins séparés mais coordonnés : le dépositaire pour les titres, la BEAC pour les espèces.",
+   "faits": [
+    "r04-25.role.01",
+    "r04-25.role.02",
+    "r01-22.role.11"
+   ],
+   "acteurs": {
+    "ids": [
+     "depositaire-central",
+     "banque-de-reglement-beac",
+     "chambre-de-compensation"
+    ],
+    "titre": "Les organismes centraux"
+   },
+   "acteurs2": {
+    "types": [
+     "etablissement-credit",
+     "intermediaire"
+    ],
+    "titre": "Les établissements de crédit agréés",
+    "intro": "Autorisés à intervenir sur le marché comme teneurs de compte ou dépositaires de fonds."
+   },
+   "cta": {
+    "href": "#/cours/p5-ordre-denouement",
+    "label": "Le cours « Ordre et dénouement »"
+   }
+  },
+  {
+   "id": "gestion",
+   "n": 6,
+   "titre": "Confier son épargne à des professionnels",
+   "court": "Gestion et conseil",
+   "accroche": "Les sociétés de gestion, les fonds et les conseillers en investissements financiers.",
+   "histoire": "Amina n'a pas le temps de suivre les cours chaque jour. Existe-t-il un moyen de déléguer la gestion ?",
+   "texte": [
+    "Les **sociétés de gestion d'OPC** sont agréées pour créer, gérer et commercialiser des **fonds** (organismes de placement collectif). L'épargnant achète des parts d'un fonds ; le gestionnaire choisit les placements, évalue le portefeuille et publie les informations périodiques. Sa gestion est **séparée de la conservation des actifs**, confiée à un dépositaire indépendant qui contrôle la régularité de ses décisions.",
+    "Les **conseillers en investissements financiers** (CIF) donnent des conseils personnalisés. Ils ne détiennent **jamais les fonds** de leurs clients et sont tenus à une obligation de neutralité, de compétence et de déclaration préalable à la COSUMAF."
+   ],
+   "pour_amina": "Amina hésite entre acheter elle-même quelques titres et placer une partie de son épargne dans un fonds. Elle lit le document d'information du fonds : frais, dépositaire, risques.",
+   "retenir": "Déléguer la gestion ne supprime pas le risque. Lisez toujours le document d'information : les performances passées ne garantissent pas les performances futures.",
+   "faits": [
+    "r01-22.role.12",
+    "rg-23.definition.01"
+   ],
+   "acteurs": {
+    "types": [
+     "sgo"
+    ],
+    "titre": "Les sociétés de gestion d'OPC",
+    "groupePar": "pays"
+   },
+   "acteurs2": {
+    "types": [
+     "cif",
+     "psan",
+     "financement-participatif"
+    ],
+    "titre": "Les conseillers",
+    "intro": "Conseillers en investissements financiers et autres intermédiaires agréés."
+   },
+   "cta": {
+    "href": "#/decouvrir/epargner-par-un-fonds",
+    "label": "Épargner par un fonds : le chapitre"
+   }
+  },
+  {
+   "id": "veilleurs",
+   "n": 7,
+   "titre": "Les veilleurs : comptes, analyses, notations, garanties",
+   "court": "Les veilleurs",
+   "accroche": "Ceux qui vérifient les comptes, étudient les entreprises et évaluent leur solidité.",
+   "histoire": "Avant d'acheter, Amina veut être sûre que l'entreprise dit vrai sur ses résultats. Qui contrôle ?",
+   "texte": [
+    "Autour des entreprises qui font appel à l'épargne, des **intervenants indépendants** apportent expertise et contrôle de qualité. Les **commissaires aux comptes** certifient les états financiers : ils sont agréés par la COSUMAF et inscrits au tableau de l'ordre d'un État membre. Les **analystes financiers** produisent des études objectives sur les émetteurs et les secteurs.",
+    "Les **agences de notation** évaluent la solidité d'un émetteur ou d'une opération sur une échelle publique, et leur opinion guide les investisseurs. Les **organismes de garantie** protègent les investisseurs en cas de défaillance d'un émetteur. Enfin, les **listing sponsors** accompagnent les PME qui entrent en bourse ou qui en sortent."
+   ],
+   "pour_amina": "Amina découvre que les comptes d'une société cotée sont certifiés par des commissaires aux comptes agréés. Elle sait désormais où chercher l'information avant d'acheter.",
+   "retenir": "Les états financiers certifiés et les documents d'information sont la base d'une décision éclairée. Les veilleurs sont là pour réduire l'asymétrie entre l'entreprise et l'épargnant.",
+   "faits": [
+    "i03-23.role.01",
+    "r01-22.role.15"
+   ],
+   "acteurs": {
+    "types": [
+     "cac"
+    ],
+    "titre": "Les commissaires aux comptes agréés",
+    "groupePar": "pays",
+    "repli": true
+   },
+   "acteurs2": {
+    "types": [
+     "analyste",
+     "agence-notation",
+     "organisme-garantie",
+     "listing-sponsor",
+     "intervenant"
+    ],
+    "titre": "Analystes, notation, garanties",
+    "intro": "Les autres intervenants agréés par la COSUMAF."
+   }
+  },
+  {
+   "id": "emetteurs",
+   "n": 8,
+   "titre": "Ceux qui cherchent de l'argent : les émetteurs",
+   "court": "Les émetteurs",
+   "accroche": "États, collectivités et entreprises qui émettent actions, obligations et autres titres.",
+   "histoire": "Amina rencontre enfin ceux qui ont besoin de son épargne : des entreprises et des États qui émettent des titres.",
+   "texte": [
+    "Les **émetteurs** sont les États membres, les collectivités territoriales de la CEMAC et les sociétés anonymes qui procèdent à des émissions publiques ou privées : **actions, obligations, sukuk, jetons**. Pour s'adresser au public, ils obtiennent le **visa** de la COSUMAF sur un document d'information, puis respectent des obligations d'information continue et de reporting.",
+    "Certains émetteurs sont **cotés** à la BVMAC : leurs actions s'échangent chaque jour de séance. La BVMAC en recense huit en actions à ce jour. D'autres émettent des obligations, parfois pour financer des projets publics."
+   ],
+   "pour_amina": "Amina choisit de regarder de près une obligation d'État : elle comprend que, derrière le titre, il y a un émetteur qui s'est engagé à la rembourser avec des intérêts.",
+   "retenir": "Derrière chaque titre, un émetteur : sa solidité, son document d'information et son visa sont les premiers éléments à lire.",
+   "faits": [
+    "r01-22.montant.01",
+    "r01-22.delai.01"
+   ],
+   "acteurs": {
+    "types": [
+     "emetteur"
+    ],
+    "titre": "Les émetteurs enregistrés à la COSUMAF"
+   },
+   "cta": {
+    "href": "#/decouvrir/entrer-en-bourse",
+    "label": "Pour les entreprises : entrer en bourse"
+   }
+  },
+  {
+   "id": "protection",
+   "n": 9,
+   "titre": "Au bout du chemin : ce qu'Amina retient",
+   "court": "Ce qu'il faut retenir",
+   "accroche": "Les protections de l'épargnant et le parcours complet, en un schéma.",
+   "histoire": "Le parcours d'Amina s'achève. Elle sait maintenant qui fait quoi, et surtout qui interroger en cas de doute.",
+   "texte": [
+    "Amina n'a pas de recette miracle, mais elle a une carte. Au centre, la **COSUMAF** veille à ce que chacun respecte les règles. La **BVMAC** organise le marché, les **sociétés de bourse** lui donnent accès, le **dépositaire** et la **BEAC** font circuler titres et argent. À côté, des **gestionnaires**, des **conseillers** et des **veilleurs** accompagnent, tandis que les **émetteurs** cherchent des financements.",
+    "Chaque fois qu'elle doute, Amina a un réflexe : **vérifier l'agrément** du professionnel sur le site de la COSUMAF, demander sa **carte professionnelle**, lire le **document d'information**, et signaler tout manquement."
+   ],
+   "pour_amina": "Fin de l'histoire. Amina décide de commencer petit, avec une somme dont elle n'aura pas besoin avant plusieurs années.",
+   "retenir": "Un marché sûr tient à des acteurs agréés, à des documents d'information lisibles et à des épargnants qui posent des questions.",
+   "chaine": true,
+   "acteurs": null,
+   "cta": {
+    "href": "#/decouvrir/bons-reflexes",
+    "label": "Les bons réflexes pour ne pas se faire piéger"
+   },
+   "cta2": {
+    "href": "https://cosumaf.org/verifier-un-agrement",
+    "label": "Vérifier un agrément",
+    "externe": true
+   }
+  }
+ ],
+ "textes_type": {
+  "regulateur": "Le régulateur du marché : il délivre les agréments, les visas et les habilitations, enregistre les placements privés et peut sanctionner.",
+  "organisme-central": "Un organisme central forme l'infrastructure du marché : il assure la stabilité, la transparence et l'efficacité des transactions. Il est agréé et supervisé par la COSUMAF.",
+  "cooperation": "Une institution partenaire de la COSUMAF : elle coopère avec le régulateur sur le contrôle, l'harmonisation des règles ou l'intégration régionale.",
+  "societe-de-bourse": "Une société de bourse est agréée par la COSUMAF pour négocier, intermédier et tenir des comptes-titres. Elle exécute vos ordres d'achat et de vente sur les marchés réglementés. Elle est soumise à des ratios prudentiels et au contrôle de la COSUMAF.",
+  "sgo": "Une société de gestion d'OPC est agréée pour créer, gérer et commercialiser des fonds. Elle définit la stratégie d'investissement, évalue les actifs et produit les informations périodiques. Les actifs du fonds sont conservés par un dépositaire indépendant.",
+  "cif": "Un conseiller en investissements financiers fournit des conseils personnalisés sans détenir les fonds de ses clients. Il est tenu à une obligation de neutralité, de compétence et de déclaration préalable à la COSUMAF.",
+  "psan": "Un prestataire de services sur actifs numériques fournit des services d'achat-vente, de conservation et de négociation d'actifs numériques, ainsi que de la réception et transmission d'ordres, de la gestion de portefeuille ou du conseil.",
+  "financement-participatif": "Un conseiller en financement participatif met en relation des porteurs de projets et des investisseurs au moyen d'une plateforme électronique, dans le respect de la réglementation.",
+  "etablissement-credit": "Un établissement de crédit agréé est autorisé à intervenir sur le marché financier en qualité de teneur de compte ou de dépositaire d'OPC.",
+  "intermediaire": "Un intermédiaire du marché financier agréé par la COSUMAF.",
+  "cac": "Un commissaire aux comptes certifie les états financiers des intervenants du marché : il vérifie la régularité des comptes et détecte les risques comptables significatifs. Il est agréé par la COSUMAF et inscrit au tableau de l'ordre d'un État membre de la CEMAC.",
+  "analyste": "Un analyste financier est agréé par la COSUMAF pour fournir des études objectives sur les émetteurs, les secteurs ou les opérations financières. Ses recommandations d'achat, de vente ou d'échange sont neutres.",
+  "agence-notation": "Une agence de notation évalue la solvabilité d'un émetteur ou d'une opération sur une échelle publique. Elle est contrôlée pour sa méthodologie et son indépendance.",
+  "organisme-garantie": "Un organisme de garantie est agréé par la COSUMAF pour protéger les investisseurs en cas de défaillance d'un émetteur.",
+  "listing-sponsor": "Un listing sponsor accompagne les petites et moyennes entreprises dans leur introduction sur le compartiment PME de la BVMAC et dans leur retrait de la cote.",
+  "intervenant": "Un intervenant agréé ou enregistré auprès de la COSUMAF.",
+  "emetteur": "Un émetteur procède à des émissions publiques ou privées d'instruments financiers : actions, obligations, sukuk, jetons. Il est soumis au visa ou à l'enregistrement préalable et au reporting auprès de la COSUMAF."
+ },
+ "etape_type": {
+  "regulateur": 2,
+  "cooperation": 2,
+  "organisme-central": 5,
+  "societe-de-bourse": 4,
+  "sgo": 6,
+  "cif": 6,
+  "psan": 6,
+  "financement-participatif": 6,
+  "etablissement-credit": 5,
+  "intermediaire": 5,
+  "cac": 7,
+  "analyste": 7,
+  "agence-notation": 7,
+  "organisme-garantie": 7,
+  "listing-sponsor": 7,
+  "intervenant": 7,
+  "emetteur": 8
+ }
+}

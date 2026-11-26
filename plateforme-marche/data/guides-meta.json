@@ -1,0 +1,13 @@
+{
+ "heroine": {
+  "nom": "Amina",
+  "perso": "amina"
+ },
+ "parties": {
+  "Comprendre": "Les bases : à quoi sert la bourse, qui la fait vivre, ce qu'un titre rapporte.",
+  "Se lancer": "Du premier ordre au titre inscrit sur son compte : le chemin concret d'un investisseur.",
+  "Aller plus loin": "Les impôts, les fonds, les offres au public : élargir ses options en connaissance de cause.",
+  "Se protéger": "Les protections prévues et les réflexes qui évitent les mauvaises surprises.",
+  "Côté entreprises": "Et si c'était l'entreprise qui cherchait des financements ? Entrer en bourse."
+ }
+}

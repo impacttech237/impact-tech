@@ -1049,18 +1049,71 @@ const photoDir = d => d.photo ? `<img class="aphoto" src="${esc(d.photo)}" alt="
 const dateFr = d => d ? new Date(d).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 const carteActeur = a => `<li><a class="card acteur" href="#/acteurs/${a.id}">${logoActeur(a)}<span class="an"><b>${esc(a.nomCourt || a.nom)}</b>${a.nomCourt ? `<small>${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</small>` : ''}<small>${esc([a.ville, a.pays].filter(Boolean).join(', '))}</small>${a.dirigeants?.[0] ? `<small class="dg">${esc(a.dirigeants[0].titre)} : ${esc(a.dirigeants[0].nom)}</small>` : ''}</span></a></li>`;
 
+/* ---------- Les acteurs : un parcours en 9 étapes, avec Amina comme fil conducteur ---------- */
+let parcoursCache = null, guidesMeta = null;
+const chargerParcours = async () => parcoursCache ||= await fetch('/data/parcours-acteurs.json').then(r => r.json());
+const chargerGuidesMeta = async () => guidesMeta ||= await fetch('/data/guides-meta.json').then(r => r.json());
+const encartAmina = (txt, cls = '') => `<div class="amina ${cls}">${E.perso('amina', 'joy', 78, { fixe: true })}<p>${md(txt)}</p></div>`;
+const blocActeurs = (A, spec) => {
+  if (!spec) return '';
+  const liste = (spec.ids ? spec.ids.map(id => A.find(a => a.id === id)) : A.filter(a => spec.types.includes(a.type))).filter(Boolean);
+  if (!liste.length) return '';
+  const cartes = l => `<ul class="list acteurs">${l.map(carteActeur).join('')}</ul>`;
+  let corps;
+  if (spec.groupePar === 'pays') {
+    const groupes = {}; liste.forEach(a => (groupes[a.pays || 'Autre'] ||= []).push(a));
+    corps = Object.entries(groupes).sort((x, y) => y[1].length - x[1].length).map(([pays, l], i) => `<details class="gp" ${i === 0 && !spec.repli ? 'open' : ''}><summary><b>${esc(pays)}</b> <span class="badge">${l.length}</span></summary>${cartes(l)}</details>`).join('');
+  } else corps = cartes(liste);
+  const entete = `<h3 class="sous"><span class="lbl l3">${esc(spec.titre || '')}</span> <small>${liste.length}</small></h3>${spec.intro ? `<p class="onmat intro">${esc(spec.intro)}</p>` : ''}`;
+  return spec.repli ? `<details class="repli">${`<summary>${entete}<span class="voir">Afficher la liste</span></summary>`}${corps}</details>` : `${entete}${corps}`;
+};
+const CHAINE = `<div class="chaine" role="img" aria-label="Le parcours d'un ordre de bourse : l'épargnant, la société de bourse, la BVMAC, le dépositaire central et la BEAC, sous le contrôle de la COSUMAF">
+  <div class="ch-top"><b>COSUMAF</b><span>régule, agrée, sanctionne</span></div>
+  <div class="ch-row"><div class="ch-n"><b>Amina</b><span>donne son ordre</span></div><i>→</i><div class="ch-n"><b>Société de bourse</b><span>reçoit et transmet</span></div><i>→</i><div class="ch-n"><b>BVMAC</b><span>rapproche acheteurs et vendeurs</span></div><i>→</i><div class="ch-n"><b>Dépositaire central</b><span>livre les titres</span></div><i>+</i><div class="ch-n"><b>BEAC</b><span>règle les espèces</span></div></div>
+  <div class="ch-bas"><span>Sociétés de gestion</span><span>Conseillers</span><span>Commissaires aux comptes</span><span>Émetteurs</span></div></div>`;
+async function parcoursActeurs(A, q) {
+  const PA = await chargerParcours(), E_ = PA.etapes;
+  const total = A.length;
+  return { title: 'Les acteurs du marché financier de la CEMAC : le parcours d\'Amina', html: `
+    <h1 class="h1">${lbls('Les acteurs')}</h1><span class="hand">Suivez l'argent d'Amina, de l'idée au titre inscrit en compte</span>
+    <div class="sheet presentation">${E.perso('amina', 'lol', 130, { fixe: true })}<div><p>${md(PA.heroine.presentation)}</p><p class="small muted" style="margin-top:8px"><a href="#/acteurs/annuaire">Chercher un acteur précis dans l'annuaire complet</a> · <a href="#/decouvrir">Suivre le parcours d'Amina dans les chapitres Découvrir</a></p></div></div>
+    <nav class="rail" aria-label="Les étapes du parcours">${E_.map(e => `<a href="#/acteurs?e=${e.n}" data-etape="${e.n}"><span>${e.n}</span><small>${esc(e.court)}</small></a>`).join('')}</nav>
+    ${E_.map((e, i) => `<section class="etape" id="etape-${e.n}">
+      <header class="eh"><span class="nn">${e.n}</span><div><small>Étape ${e.n} sur ${E_.length}</small><h2>${esc(e.titre)}</h2><p>${esc(e.accroche)}</p></div></header>
+      ${encartAmina(e.histoire)}
+      <div class="sheet texte">${e.texte.map(t => `<p>${md(t)}</p>`).join('')}</div>
+      ${e.chiffres ? `<div class="chiffres">${e.chiffres.map(x => `<div class="card chf"><b>${esc(String(x.v).replace('{{total}}', total))}</b><span>${esc(x.l)}</span></div>`).join('')}</div>` : ''}
+      ${e.chaine ? CHAINE : ''}
+      ${e.pour_amina ? `<div class="pouramina"><b>Pour Amina</b><p>${esc(e.pour_amina)}</p></div>` : ''}
+      ${blocActeurs(A, e.acteurs)}${blocActeurs(A, e.acteurs2)}
+      ${e.faits ? `<details class="textes"><summary>${ic('file-text')} Ce que disent les textes</summary><div class="facts">${e.faits.map(id => D.parId.get(id)).filter(Boolean).map(f => factHtml(f, true)).join('')}</div></details>` : ''}
+      <div class="banner info retenir">${ic('lightbulb')}<div><strong>À retenir.</strong> ${esc(e.retenir)}</div></div>
+      <p class="etape-actions">${e.cta ? `<a class="btn ghost" href="${esc(e.cta.href)}">${ic('arrow-right')} ${esc(e.cta.label)}</a>` : ''}${e.cta2 ? `<a class="btn" href="${esc(e.cta2.href)}" target="_blank" rel="noopener">${ic('external-link')} ${esc(e.cta2.label)}</a>` : ''}</p>
+      ${E_[i + 1] ? `<a class="suite" href="#/acteurs?e=${E_[i + 1].n}"><small>Étape suivante</small><b>${esc(E_[i + 1].titre)}</b><span>${ic('arrow-right')}</span></a>` : `<a class="suite" href="#/acteurs/annuaire"><small>Pour aller plus loin</small><b>Rechercher un acteur dans l'annuaire complet</b><span>${ic('arrow-right')}</span></a>`}
+    </section>`).join('')}`,
+    after() {
+      fond(MAT.acteurs);
+      const aller = n => $('#etape-' + n)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      $$('.rail a, .suite').forEach(a => a.addEventListener('click', e => { const m = /e=(\d+)/.exec(a.getAttribute('href')); if (m) { e.preventDefault(); history.replaceState(null, '', '#/acteurs?e=' + m[1]); aller(m[1]); } }));
+      if (q.e) setTimeout(() => aller(q.e), 350);
+      const obs = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { const n = en.target.id.replace('etape-', ''); $$('.rail a').forEach(a => a.classList.toggle('on', a.dataset.etape === n)); } }), { rootMargin: '-30% 0px -60% 0px' });
+      $$('.etape').forEach(x => obs.observe(x));
+    } };
+}
+
 views.acteurs = async ([id], q) => {
   const A = await chargerAnnuaire();
-  if (id) {
+  if (id && id !== 'annuaire') {
     const a = A.find(x => x.id === id); if (!a) return views.introuvable();
-    const idxC = await chargerCoursIdx(), liens = a.liens || { cours: COURS_TYPE[a.type] || [], textes: [] };
+    const PA_ = await chargerParcours(); const idxC = await chargerCoursIdx(), liens = a.liens || { cours: COURS_TYPE[a.type] || [], textes: [] };
     const cours = (liens.cours || []).map(cid => idxC.find(c => c.id === cid)).filter(Boolean), textes = (liens.textes || []).map(T).filter(Boolean);
     const ligne = (ic_, t, v) => v ? `<div class="ligne">${ic(ic_)}<span><small>${t}</small>${v}</span></div>` : '';
     const groupe = GROUPES.find(g => g[2].includes(a.type));
     return { title: `${a.nomCourt || a.nom} : ${TYPE_ACTEUR[a.type]}`, html: `
       <div class="crumbs"><a href="#/acteurs">Acteurs</a> ${ic('chevron-right')} ${groupe ? `<a href="#/acteurs${qs({ g: groupe[0] })}">${groupe[1]}</a> ${ic('chevron-right')} ` : ''}<span>${esc(a.nomCourt || a.nom)}</span></div>
       <header class="doc-head afiche"><div class="aentete">${logoActeur(a, 'grand')}<div><span class="badge">${TYPE_ACTEUR[a.type]}${a.categorie && a.categorie !== TYPE_ACTEUR[a.type] ? ' · ' + esc(a.categorie) : ''}</span><h1 class="h1" style="margin:10px 0 6px">${lbls(a.nomCourt || a.nom)}</h1>${a.nomCourt ? `<p class="full">${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</p>` : ''}</div></div></header>
-      ${a.description ? `<div class="sheet"><p>${esc(a.description)}</p></div>` : ''}
+      ${a.description ? `<div class="sheet"><p>${esc(a.description)}</p></div>` : (PA_.textes_type[a.type] ? `<div class="sheet"><p>${esc(PA_.textes_type[a.type])}</p></div>` : '')}
+      ${PA_.etape_type[a.type] ? `<a class="suite place" href="#/acteurs?e=${PA_.etape_type[a.type]}"><small>Sa place dans le parcours d'Amina</small><b>Étape ${PA_.etape_type[a.type]} : ${esc(PA_.etapes[PA_.etape_type[a.type] - 1].titre)}</b><span>${ic('arrow-right')}</span></a>` : ''}
       ${a.dirigeants?.length ? `<h2 class="sec"><span class="lbl l2">Direction</span></h2><div class="dirigeants">${a.dirigeants.map(d => `<div class="card dir">${photoDir(d)}<div><b>${esc(d.nom)}</b><small>${esc(d.titre)}${d.depuis ? ' · depuis ' + esc(d.depuis) : ''}</small>${d.note ? `<small class="note">${esc(d.note)}</small>` : ''}</div></div>`).join('')}</div>` : ''}
       <h2 class="sec"><span class="lbl l6">Informations</span></h2>
       <div class="sheet infos">${ligne('scale', 'Numéro d\'agrément', a.agrement ? `${esc(a.agrement.numero)}${a.agrement.date ? ' · ' + dateFr(a.agrement.date) : ''}` : '')}${ligne('library', 'Siège', esc([a.ville, a.pays].filter(Boolean).join(', ')))}${ligne('book-open', 'Adresse', esc(a.adresse || ''))}${ligne('message-circle', 'Téléphone', esc(a.tel || ''))}${ligne('link', 'E-mail', a.email ? `<a href="mailto:${esc(a.email)}">${esc(a.email)}</a>` : '')}${ligne('external-link', 'Site web', a.site ? `<a href="${esc(a.site)}" target="_blank" rel="noopener">${esc(a.site.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a>` : '')}${a.secteur ? ligne('activity', 'Secteur', esc(a.secteur)) : ''}${a.faits ? a.faits.map(f => `<div class="ligne">${ic('lightbulb')}<span>${esc(f)}</span></div>`).join('') : ''}</div>
@@ -1069,6 +1122,7 @@ views.acteurs = async ([id], q) => {
       <p class="small onmat" style="margin-top:26px">Source : <a href="${esc(a.source.url)}" target="_blank" rel="noopener" style="color:var(--y)">${esc(a.source.nom)}</a>. Logo${a.dirigeants?.some(d => d.photo) ? ' et photo' : ''} reproduits depuis les sites officiels, à des fins d'identification ; ils restent la propriété de leurs titulaires. Données relevées le 25 novembre 2026 : <button class="linkbtn" data-copy="${esc(`Erreur signalée sur l'acteur « ${a.nom} » : `)}">signaler une erreur</button>.</p>`,
       after() { fond(MAT.acteurs); } };
   }
+  if (id !== 'annuaire' && !q.g && !q.p && !q.q) return parcoursActeurs(A, q);
   const g = GROUPES.find(x => x[0] === q.g) ? q.g : '', pays_ = q.p || '', mot = q.q || '';
   const filtre = mot => A.filter(a => (!g || GROUPES.find(x => x[0] === g)[2].includes(a.type)) && (!pays_ || a.pays === pays_) && (!mot || fold(a.nom + ' ' + (a.dirigeants || []).map(d => d.nom).join(' ') + ' ' + (a.ville || '')).includes(fold(mot))));
   const paysListe = [...new Set(A.map(a => a.pays).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
@@ -1356,11 +1410,13 @@ const PORTES = {
 const guideView = porte => async ([id]) => {
   const P = PORTES[porte], gs = (await chargerGuides()).filter(g => g.porte === porte);
   const nbRepères = g => g.blocs.reduce((n, b) => n + (b.faits?.length || 0), 0);
-  if (!id) return { title: P.nom, html: `
+  const GM = await chargerGuidesMeta();
+  if (!id) { const parties = [...new Set(gs.map(g => g.partie))]; return { title: P.nom, html: `
     <h1 class="h1">${lbls(P.nom)}</h1><span class="hand">${P.sous}</span>
-    <div class="persoline">${perso(P.perso[0], P.perso[1], 130)}</div>
-    <ol class="list guides">${gs.map((g, i) => `<li><a class="card item" href="#/${porte}/${g.id}"><span class="num">${i + 1}</span><span class="t">${esc(g.titre)}</span><span class="sub">${esc(g.accroche)}</span><span class="meta"><span>${nbRepères(g)} repères sourcés</span></span></a></li>`).join('')}</ol>`,
-    after() { fond(P.mat); } };
+    <div class="sheet presentation">${E.perso('amina', 'lol', 130, { fixe: true })}<div><p>${md("Voici **Amina**. Elle a 500 000 FCFA d'économies et se demande si la bourse peut l'aider à les faire travailler. Chaque chapitre répond à une de ses questions, dans l'ordre où elle se les pose. Vous pouvez tout lire d'une traite, ou aller directement au chapitre qui vous intéresse.")}</p><p class="small muted" style="margin-top:8px"><a href="#/acteurs">Rencontrer les acteurs du marché, étape par étape</a></p></div></div>
+    ${parties.map((pt, k) => `<section class="partie"><h2 class="sec"><span class="lbl l${k % 6 + 1}">Partie ${k + 1} · ${esc(pt)}</span></h2><p class="onmat" style="max-width:720px;margin:-6px 0 18px">${esc(GM.parties[pt] || '')}</p>
+      <ol class="list guides">${gs.filter(g => g.partie === pt).map(g => `<li><a class="card item" href="#/${porte}/${g.id}"><span class="num">${g.ordre}</span><span class="t">${esc(g.titre)}</span><span class="sub">${esc(g.accroche)}</span><span class="histoire-min">${esc(g.histoire || '')}</span><span class="meta"><span>${nbRepères(g)} repères sourcés</span></span></a></li>`).join('')}</ol></section>`).join('')}`,
+    after() { fond(P.mat); } }; }
   const i = gs.findIndex(g => g.id === id); if (i < 0) return views.introuvable();
   const g = gs[i], prec = gs[i - 1], suiv = gs[i + 1];
   const A = await chargerAnnuaire(); const titreB = b => b.titre ? `<h2 class="sec"><span class="lbl l2">${esc(b.titre)}</span></h2>` : '';
@@ -1380,12 +1436,14 @@ const guideView = porte => async ([id]) => {
   }).join('');
   return { title: `${g.titre} : ${P.nom}`, html: `
     <div class="crumbs"><a href="#/${porte}">${P.nom}</a> ${ic('chevron-right')} <span>${esc(g.titre)}</span></div>
-    <header class="doc-head"><h1 class="h1">${lbls(g.titre)}</h1><p class="full">${esc(g.accroche)}</p></header>
+    <header class="doc-head"><small class="partie-n">Partie : ${esc(g.partie || '')} · chapitre ${g.ordre} sur ${gs.length}</small><h1 class="h1">${lbls(g.titre)}</h1><p class="full">${esc(g.accroche)}</p></header>
+    ${g.histoire ? encartAmina(g.histoire, 'grand') : ''}
     ${corps}
     <div class="actions" style="margin-top:34px">
       <a class="btn" href="#/flashcards/run${qs({ theme: g.theme })}">${ic('layers')} Réviser ce thème</a>
       <a class="btn ghost" href="#/quiz/run${qs({ theme: g.theme })}">${ic('circle-check')} Quiz sur ce thème</a>
       <a class="btn ghost" href="#/bibliotheque${qs({ theme: g.theme })}">${ic('library')} Voir les textes</a></div>
+    ${suiv?.histoire ? `<a class="suite" href="#/${porte}/${suiv.id}" style="margin-top:34px"><small>Dans le chapitre suivant</small><b>${esc(suiv.titre)}</b><i>${esc(suiv.histoire)}</i><span>${ic('arrow-right')}</span></a>` : ''}
     <nav class="pager">${prec ? `<a class="btn ghost" href="#/${porte}/${prec.id}">← ${esc(prec.titre)}</a>` : '<span></span>'}${suiv ? `<a class="btn" href="#/${porte}/${suiv.id}">${esc(suiv.titre)} →</a>` : '<span></span>'}</nav>`,
     after() { fond(P.mat); } };
 };
