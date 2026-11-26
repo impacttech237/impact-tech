@@ -72,7 +72,9 @@ copier(path.join(racine, 'site'), dist);
   for (const f of [...jsList, ...cssList]) fs.rmSync(path.join(dist, f));
   const polices = ['newsreader-normal-400', 'bricolage-grotesque-normal-700'].map(n => `<link rel="preload" href="/fonts/${n}.woff2" as="font" type="font/woff2" crossorigin>`).join('\n');
   let h = html.replace(/<link rel="stylesheet" href="\/css\/[^"]+">\n?/g, '').replace(/<script src="\/js\/[^"]+"><\/script>\n?/g, '');
-  h = h.replace('</head>', `${polices}\n<link rel="stylesheet" href="${nCss}">\n</head>`).replace('</body>', `<script src="${nJs}" defer></script>\n</body>`);
+  const donnees = ['/data/index.json', '/data/faits.json'].map(u => `<link rel="preload" href="${u}" as="fetch" crossorigin>`).join('\n');
+  const accueil = `<script>if(!location.hash||location.hash==='#/'){['guides','cours','annuaire'].forEach(function(n){var l=document.createElement('link');l.rel='preload';l.as='fetch';l.crossOrigin='';l.href='/data/'+n+'.json';document.head.appendChild(l)})}</script>`;
+  h = h.replace('</head>', `${polices}\n${donnees}\n${accueil}\n<link rel="stylesheet" href="${nCss}">\n</head>`).replace('</body>', `<script src="${nJs}" defer></script>\n</body>`);
   fs.writeFileSync(path.join(dist, 'index.html'), h);
   console.log(`Bundle : JS ${(js.length / 1024).toFixed(0)} Ko (${jsList.length} fichiers), CSS ${(css.length / 1024).toFixed(0)} Ko (${cssList.length} fichiers)`);
 }
