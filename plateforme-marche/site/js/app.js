@@ -35,10 +35,13 @@ const themeNom = id => D.themes.get(id)?.nom || id;
 
 /* ---------- données ---------- */
 async function charger() {
-  const [idx, faits] = await Promise.all([fetch('/data/index.json').then(r => r.json()), fetch('/data/faits.json').then(r => r.json())]);
-  D = { ...idx, faits, T: new Map(idx.textes.map(t => [t.id, t])), themes: new Map(idx.themes.map(t => [t.id, t])), parTexte: new Map() };
-  D.parId = new Map(faits.map(f => [f.id, f]));
-  for (const f of faits) { if (!D.parTexte.has(f.t)) D.parTexte.set(f.t, []); D.parTexte.get(f.t).push(f); }
+  const idx = await fetch('/data/index.json').then(r => r.json());
+  D = { ...idx, faits: [], T: new Map(idx.textes.map(t => [t.id, t])), themes: new Map(idx.themes.map(t => [t.id, t])), parTexte: new Map(), parId: new Map((idx.vedettes || []).map(f => [f.id, f])) };
+  // faits.json (le plus lourd) se charge en arrière-plan ; seules les pages qui en ont besoin l'attendent
+  D.pret = fetch('/data/faits.json').then(r => r.json()).then(faits => {
+    D.faits = faits; D.parId = new Map(faits.map(f => [f.id, f]));
+    for (const f of faits) { if (!D.parTexte.has(f.t)) D.parTexte.set(f.t, []); D.parTexte.get(f.t).push(f); }
+  });
 }
 let retenirCache = null;
 const chargerRetenir = async () => retenirCache ||= await fetch('/data/retenir.json').then(r => r.json());
@@ -117,7 +120,7 @@ const fond = c => document.documentElement.style.setProperty('--mat', c);
 const views = {};
 
 views.accueil = async () => {
-  const gs = await chargerGuides().catch(() => []); await chargerCoursIdx(); const ANN = await chargerAnnuaire().catch(() => []);
+  const [gs, , ANN] = await Promise.all([chargerGuides().catch(() => []), chargerCoursIdx(), chargerAnnuaire().catch(() => [])]);
   const nbPdf = D.textes.filter(t => t.pdf).length, nbEnVigueur = D.textes.filter(t => t.statut === 'en_vigueur').length;
   const exemples = ['délai visa APE', 'capital minimum société de bourse', 'placement privé', 'agrément dirigeant'];
   const vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
@@ -1559,7 +1562,7 @@ function fusionner(dist) {
   for (const [k, v] of Object.entries(d.scores || {})) { const bas = GAMES[k.split(':')[0]]?.low; const l = ET.scores[k]; if (l == null || (bas ? v < l : v > l)) ET.scores[k] = v; }
 }
 let timerSync = 0;
-function planifierSync() { if (!compte()) return; clearTimeout(timerSync); timerSync = setTimeout(() => synchroniser(), 2500); }
+function planifierSync() { if (!compte()) return; clearTimeout(timerSync); timerSync = setTimeout(() => synchroniser(), 15000); }
 async function synchroniser() {
   if (!compte()) return { ok: false };
   const r = await api('/sync');
@@ -1658,6 +1661,7 @@ async function render() {
   const app = $('#app');
   try {
     document.body.classList.remove('quiz-mode'); E.touches = null; E.coach.hide(); fond(MAT[nom] || MAT.accueil);
+    if (nom !== 'accueil') await D.pret;
     const v = await views[nom](segs.slice(1), params(qstr));
     document.title = v.title; app.innerHTML = v.html; v.after?.(); window.MF?.pv(location.hash);
     if (!(nom === 'texte' && params(qstr).f) && !(nom === 'texte' && params(qstr).s)) window.scrollTo(0, 0);

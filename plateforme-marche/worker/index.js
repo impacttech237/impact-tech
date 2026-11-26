@@ -8,21 +8,36 @@ const nettoie = (s, n = 80) => (typeof s === 'string' ? s.slice(0, n).replace(/[
 const json = (o, status = 200) => new Response(JSON.stringify(o), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
 const appareil = ua => /ipad|tablet/i.test(ua) ? 'tablette' : /mobi|android|iphone/i.test(ua) ? 'mobile' : 'desktop';
 
-async function collecter(req, env) {
-  const ua = req.headers.get('user-agent') || '';
-  if (BOT.test(ua)) return new Response(null, { status: 204 });
-  let corps;
-  try { const txt = await req.text(); if (txt.length > 2048) return new Response(null, { status: 413 }); corps = JSON.parse(txt); } catch { return new Response(null, { status: 400 }); }
-  if (!TYPES.has(corps.type)) return new Response(null, { status: 400 });
+const SQL = 'INSERT INTO marche_events (ts, vid, type, page, a, n, ref, utm, country, device) VALUES (?,?,?,?,?,?,?,?,?,?)';
+// Un évènement valide -> valeurs à insérer, sinon null
+function ligne(corps, vid, pays, dev) {
+  if (!corps || !TYPES.has(corps.type)) return null;
   let a = nettoie(corps.a, 100);
   if (corps.type === 'search' && a) a = a.toLowerCase().replace(/[\w.+-]+@[\w.-]+/g, '').replace(/\d{6,}/g, '').trim();
   const page = nettoie(corps.page, 80);
-  if (page && !/^[a-z0-9/_-]*$/i.test(page)) return new Response(null, { status: 400 });
+  if (page && !/^[a-z0-9/_-]*$/i.test(page)) return null;
   const n = Number.isFinite(corps.n) ? Math.max(0, Math.min(1e6, Math.round(corps.n))) : null;
   const utm = [corps.us, corps.uc, corps.ut].map(x => nettoie(x, 40) || '').join('|');
-  await env.DB.prepare('INSERT INTO marche_events (ts, vid, type, page, a, n, ref, utm, country, device) VALUES (?,?,?,?,?,?,?,?,?,?)')
-    .bind(Date.now(), nettoie(corps.vid, 16), corps.type, page, a, n, nettoie(corps.ref, 60), utm === '||' ? null : utm, req.cf?.country || null, appareil(ua)).run();
-  if (Math.random() < 0.01) await env.DB.prepare('DELETE FROM marche_events WHERE ts < ?').bind(Date.now() - 200 * 864e5).run(); // conservation 200 jours
+  return [Date.now(), vid, corps.type, page, a, n, nettoie(corps.ref, 60), utm === '||' ? null : utm, pays, dev];
+}
+
+// Les évènements arrivent groupés (jusqu'à 20) : une seule requête D1 par groupe, répondue sans attendre l'écriture.
+async function collecter(req, env, ctx) {
+  const ua = req.headers.get('user-agent') || '';
+  if (BOT.test(ua)) return new Response(null, { status: 204 });
+  let corps;
+  try { const txt = await req.text(); if (txt.length > 8192) return new Response(null, { status: 413 }); corps = JSON.parse(txt); } catch { return new Response(null, { status: 400 }); }
+  const vid = nettoie(corps.vid, 16), pays = req.cf?.country || null, dev = appareil(ua);
+  const liste = Array.isArray(corps.evs) ? corps.evs.slice(0, 20).map(e => ({ ...e })) : [corps];
+  const lignes = liste.map(e => ligne(e, vid, pays, dev)).filter(Boolean);
+  if (!lignes.length) return new Response(null, { status: 400 });
+  const ecrire = async () => {
+    try {
+      await env.DB.batch(lignes.map(l => env.DB.prepare(SQL).bind(...l)));
+      if (Math.random() < 0.01) await env.DB.prepare('DELETE FROM marche_events WHERE ts < ?').bind(Date.now() - 200 * 864e5).run(); // conservation 200 jours
+    } catch { /* l'audience ne doit jamais gêner les visiteurs */ }
+  };
+  if (ctx?.waitUntil) ctx.waitUntil(ecrire()); else await ecrire();
   return new Response(null, { status: 204 });
 }
 
@@ -49,9 +64,9 @@ async function statistiques(req, env, url) {
 }
 
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     const url = new URL(req.url);
-    if (url.pathname === '/api/t' && req.method === 'POST') return collecter(req, env);
+    if (url.pathname === '/api/t' && req.method === 'POST') return collecter(req, env, ctx);
     if (url.pathname === '/api/admin/stats' && req.method === 'GET') return statistiques(req, env, url);
     if (url.pathname.startsWith('/api/auth/') || url.pathname === '/api/sync') return gererAuth(req, env, url);
     return new Response('Introuvable', { status: 404 });

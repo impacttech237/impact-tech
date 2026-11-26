@@ -57,6 +57,26 @@ const copier = (de, vers) => {
 };
 copier(path.join(racine, 'site'), dist);
 
+// 1 ter. Performance : un seul JS et un seul CSS, minifiés, à nom hashé (cache long « immutable »)
+{
+  const { transformSync } = await import('esbuild');
+  const lire = f => fs.readFileSync(path.join(dist, f), 'utf8');
+  const empr = s => crypto.createHash('sha1').update(s).digest('hex').slice(0, 10);
+  const html = lire('index.html');
+  const jsList = [...html.matchAll(/<script src="(\/js\/[^"]+)"><\/script>/g)].map(m => m[1]);
+  const cssList = [...html.matchAll(/<link rel="stylesheet" href="(\/css\/[^"]+)">/g)].map(m => m[1]);
+  const js = transformSync(jsList.map(f => lire(f)).join(';\n'), { minify: true, target: 'es2020', legalComments: 'none' }).code;
+  const css = transformSync(cssList.map(f => lire(f)).join('\n'), { loader: 'css', minify: true, legalComments: 'none' }).code;
+  const nJs = `/js/m.${empr(js)}.js`, nCss = `/css/m.${empr(css)}.css`;
+  fs.writeFileSync(path.join(dist, nJs), js); fs.writeFileSync(path.join(dist, nCss), css);
+  for (const f of [...jsList, ...cssList]) fs.rmSync(path.join(dist, f));
+  const polices = ['newsreader-normal-400', 'bricolage-grotesque-normal-700'].map(n => `<link rel="preload" href="/fonts/${n}.woff2" as="font" type="font/woff2" crossorigin>`).join('\n');
+  let h = html.replace(/<link rel="stylesheet" href="\/css\/[^"]+">\n?/g, '').replace(/<script src="\/js\/[^"]+"><\/script>\n?/g, '');
+  h = h.replace('</head>', `${polices}\n<link rel="stylesheet" href="${nCss}">\n</head>`).replace('</body>', `<script src="${nJs}" defer></script>\n</body>`);
+  fs.writeFileSync(path.join(dist, 'index.html'), h);
+  console.log(`Bundle : JS ${(js.length / 1024).toFixed(0)} Ko (${jsList.length} fichiers), CSS ${(css.length / 1024).toFixed(0)} Ko (${cssList.length} fichiers)`);
+}
+
 // 1 bis. PDF officiels
 const pdf = preparerPdf({ dist, racine });
 console.log(`PDF : ${Object.keys(pdf.taille).length} disponibles${pdf.manquants.length ? ', ABSENTS : ' + pdf.manquants.join(', ') : ''}`);
@@ -88,6 +108,7 @@ for (const t of textes) {
 }
 const empreinte = crypto.createHash('sha1').update(JSON.stringify([index, compact, retenir])).digest('hex').slice(0, 10);
 index.version = empreinte;
+index.vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => compact.find(f => f.id === id)).filter(Boolean);
 index.genere_le = new Date().toISOString().slice(0, 10);
 index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.filter(t => t.confiance !== 'verifie').length };
 ecrire('data/index.json', index);
@@ -124,7 +145,7 @@ console.log(`Pages statiques : ${nbPages} (indexation ${process.env.LANCEMENT ==
 const liste = [];
 const parcourir = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) parcourir(p); else liste.push('/' + path.relative(dist, p).replace(/\\/g, '/')); } };
 parcourir(dist);
-const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/cours/') && !f.startsWith('/acteurs/') && !f.startsWith('/img/acteurs/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && f !== '/sitemap.xml').sort();
+const fichiers = liste.filter(f => f !== '/sw.js' && !f.startsWith('/textes/') && !f.startsWith('/decouvrir/') && !f.startsWith('/cours/') && !f.startsWith('/acteurs/') && !f.startsWith('/img/acteurs/') && !f.startsWith('/comprendre/') && !f.startsWith('/admin/') && !f.startsWith('/pdf/') && !f.startsWith('/data/') && !f.startsWith('/img/') && f !== '/sitemap.xml').sort();
 const h = crypto.createHash('sha1');
 for (const f of fichiers) { h.update(f); h.update(fs.readFileSync(path.join(dist, f))); }
 const versionSw = h.digest('hex').slice(0, 10);

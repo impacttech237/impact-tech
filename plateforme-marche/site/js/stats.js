@@ -11,12 +11,22 @@ try { vid = sessionStorage.getItem('mf.vid'); if (!vid) { vid = Math.random().to
 const P = new URLSearchParams(location.search);
 let premier = true, page = '', depuisT = 0, visible = !document.hidden;
 const nomPage = h => { const c = String(h || '').replace(/^#\/?/, '').split('?')[0].replace(/\/+$/, ''); return c ? (/^[a-z0-9/_-]+$/i.test(c) ? c.slice(0, 80) : 'autre') : 'accueil'; };
-const envoyer = o => {
-  if (coupe || local) return;
+// Les évènements sont regroupés : un envoi toutes les 8 s au plus, et à la fermeture de la page.
+let file = [], minuteur = 0;
+const vider = () => {
+  clearTimeout(minuteur); minuteur = 0;
+  if (!file.length) return;
+  const evs = file.splice(0, 20);
   try {
-    const s = JSON.stringify({ vid, ...o });
+    const s = JSON.stringify({ vid, evs });
     if (!(navigator.sendBeacon && navigator.sendBeacon('/api/t', new Blob([s], { type: 'application/json' })))) fetch('/api/t', { method: 'POST', body: s, keepalive: true }).catch(() => {});
   } catch { /* ignore */ }
+  if (file.length) vider();
+};
+const envoyer = o => {
+  if (coupe || local) return;
+  file.push(o);
+  if (file.length >= 20) vider(); else if (!minuteur) minuteur = setTimeout(vider, 8000);
 };
 const duree = () => { if (page && depuisT) { const s = Math.round((Date.now() - depuisT) / 1000); if (s >= 1) envoyer({ type: 'dur', page, n: s }); } depuisT = visible ? Date.now() : 0; };
 window.MF = {
@@ -32,8 +42,8 @@ window.MF = {
   },
   ev(type, o = {}) { envoyer({ type, page, ...o }); },
 };
-document.addEventListener('visibilitychange', () => { if (document.hidden) { duree(); visible = false; depuisT = 0; } else { visible = true; depuisT = Date.now(); } });
-window.addEventListener('pagehide', duree);
+document.addEventListener('visibilitychange', () => { if (document.hidden) { duree(); visible = false; depuisT = 0; vider(); } else { visible = true; depuisT = Date.now(); } });
+window.addEventListener('pagehide', () => { duree(); vider(); });
 document.addEventListener('click', e => {
   const a = e.target.closest('a[href]'); if (!a) return;
   const h = a.getAttribute('href') || '';

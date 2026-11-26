@@ -4,6 +4,16 @@
   Referrer-Policy: strict-origin-when-cross-origin
 /sw.js
   Cache-Control: no-cache
+/js/m.*
+  Cache-Control: public, max-age=31536000, immutable
+/css/m.*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/img/*
+  Cache-Control: public, max-age=604800
+/data/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=86400
 /pdf/*
   Cache-Control: public, max-age=86400
   Content-Disposition: inline
