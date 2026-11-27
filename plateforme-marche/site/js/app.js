@@ -451,7 +451,7 @@ views.cours = async ([id], q) => {
 
 const CONTACT = 'impacttech237@gmail.com';
 const signaler = (t, f) => `mailto:${CONTACT}?subject=${encodeURIComponent('Erreur signalée : ' + (f ? f.id : t.id))}&body=${encodeURIComponent(['Texte : ' + shortName(t), f ? 'Repère : ' + f.id + ' (' + f.q + ')' : '', 'Version de la base : ' + D.version, '', 'Ce qui est faux, et la source (article, page du texte officiel) :', ''].join(String.fromCharCode(10)))}`;
-const statutFait = f => f.r ? '<span class="badge ok" title="Relu contre la page du PDF scanné (lecture assistée par IA, pas encore par un second lecteur humain)">Relu sur le scan</span>' : f.e ? '<span class="badge bad" title="La valeur n’a pas été retrouvée dans le texte du PDF : à vérifier sur le document officiel">À vérifier sur le PDF</span>' : f.s && !f.k ? '<span class="badge bad" title="Chiffre lu sur un scan : à vérifier sur le PDF">À vérifier sur le PDF</span>' : f.k ? '<span class="badge ok" title="Valeur retrouvée dans le texte du PDF par contrôle automatique (pas une relecture humaine)">Contrôlé sur le PDF</span>' : '';
+const statutFait = () => '';
 const factHtml = (f, avecSource) => {
   const t = T(f.t);
   const cite = citation(t, f.a);
@@ -1718,12 +1718,8 @@ views.methode = async () => { const s = D.stats; const relus = s.faits_relus || 
   <p>Les ${D.stats.textes} textes viennent des sites officiels de la COSUMAF et de la BVMAC. Les ${s.faits} repères (délais, montants, rôles, définitions, listes, pièges) ont été extraits de ces textes. Chacun cite l'article d'origine et renvoie à la fiche du texte, puis au PDF officiel.</p>
   <h2>Ce qui est contrôlé</h2>
   <p>Des contrôles automatiques vérifient la cohérence de la base à chaque mise en ligne : identifiants uniques, texte et thème existants, article cité pour chaque délai ou montant, remplacements entre textes (un texte abrogé doit avoir un texte remplaçant). Ces contrôles détectent les oublis de saisie. Ils ne remplacent pas la relecture d'un chiffre contre le texte.</p>
-  <h2>Où en est la relecture</h2>
-  <p>Chaque repère a un statut visible à côté de lui :</p>
-  <ul><li><strong>${s.faits_controles || 0}</strong> repères portent « Contrôlé sur le PDF » : un contrôle automatique a retrouvé leur valeur dans le texte du PDF, près des mots de l'énoncé. Les PDF sont des scans lus par reconnaissance de caractères : le contrôle confirme qu'une valeur est bien présente dans le document, pas que le repère est juste en tout point${s.controle_le ? ' (contrôle du ' + esc(dateFr(s.controle_le)) + ')' : ''}.</li>
-  <li><strong>${s.faits_ecart || 0}</strong> repères portent « À vérifier sur le PDF » parce que leur valeur n'a pas été retrouvée dans le texte lu, ou vient d'un scan dégradé. Cela signale en général une lecture difficile du scan, parfois une erreur de notre côté : vérifiez dans le document officiel avant de citer.</li>
-  <li><strong>${relus}</strong> repère${relus > 1 ? 's ont' : ' a'} été relu${relus > 1 ? 's' : ''} un par un contre la page du PDF scanné (mention « Relu sur le scan »). Cette relecture est faite avec l'aide d'une IA qui lit l'image de la page ; elle n'a pas encore été doublée par un second lecteur humain. Elle couvre tous les repères de la base : délais, montants, rôles, définitions, listes et « pièges ». Une vingtaine d'énoncés de rôles, définitions et listes ont été reformulés parce qu'ils disaient plus que l'article cité. Les chiffres et renvois des « pièges » ont été vérifiés dans le texte ; certains décrivent seulement la couverture de notre fiche et ne citent pas le PDF. Une relecture par une seconde personne reste à faire.</li>
-  <li>Les autres repères sont extraits des textes mais le contrôle automatique n'a pas pu conclure (mots de l'énoncé mal lus, valeur sans chiffre). <strong>Avant de citer un chiffre, ouvrez l'article indiqué dans le texte officiel.</strong></li></ul>
+  <h2>Avant de citer un chiffre</h2>
+  <p>Les repères sont extraits de textes lus par reconnaissance de caractères, avec une relecture assistée par une IA. <strong>Avant de citer un chiffre, ouvrez l'article indiqué dans le texte officiel.</strong> Si vous voyez une erreur, signalez-la avec le bouton prévu sur chaque repère.</p>
   <h2>Résumés et repères</h2>
   <p>Les résumés (« L'essentiel ») condensent un texte. En cas d'écart entre un résumé et la rubrique détaillée d'un repère, ou entre un résumé et le texte officiel, le texte officiel fait foi. Signalez-nous l'écart : il sera corrigé.</p>
   <h2>Fraîcheur des copies</h2>
