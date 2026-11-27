@@ -719,7 +719,7 @@
     "id": "rbv-25.role.05",
     "texte": "rbv-25",
     "type": "role",
-    "article": "art. 21, 37, 230",
+    "article": "art. 21, 37, 231",
     "enonce": "Dépositaire Central",
     "valeur_texte": "Reçoit les données de négociation pour la livraison des titres et le paiement ; attribue le numéro d'identification unique ; informe la BVMAC d'un défaut de dénouement.",
     "acteurs": [
