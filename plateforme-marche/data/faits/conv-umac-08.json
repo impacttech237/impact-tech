@@ -40,7 +40,7 @@
     "type": "role",
     "article": "art. 31",
     "enonce": "COBAC (Commission Bancaire de l'Afrique Centrale)",
-    "valeur_texte": "Harmonise les réglementations et contrôle l'activité bancaire et la microfinance.",
+    "valeur_texte": "Organe de l'Union monétaire (avec la BEAC), créé dans le cadre de l'UMAC ; la convention le cite comme organe et renvoie à ses textes spécifiques pour ses missions (contrôle bancaire).",
     "acteurs": [
       "cobac-commission-bancaire-de-l-afrique-centrale"
     ],
@@ -74,7 +74,7 @@
     "type": "role",
     "article": "art. 13",
     "enonce": "Comité ministériel de l'UMAC",
-    "valeur_texte": "Veille à l'application de la convention, décide du capital de la BEAC et donne un avis conforme sur ses statuts.",
+    "valeur_texte": "Adopte à l'unanimité les règlements et à la majorité qualifiée de cinq sixièmes les directives nécessaires à la réglementation commune, après avis conforme du Conseil d'administration de la BEAC (art. 30).",
     "acteurs": [
       "comite-ministeriel-de-l-umac"
     ],

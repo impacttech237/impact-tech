@@ -41,7 +41,7 @@
     "type": "role",
     "article": "chapeau, dernier alinéa",
     "enonce": "Intermédiaire de marché (modification du capital)",
-    "valeur_texte": "Soumet à la COSUMAF le dossier d'autorisation préalable et transmet ses statuts modifiés dans les 30 jours après l'opération.",
+    "valeur_texte": "Soumet à la COSUMAF le dossier d'autorisation préalable, puis transmet l'extrait du RCCM mis à jour au plus tard 30 jours calendaires après la fin de l'opération de modification du capital.",
     "acteurs": [
       "intermediaire-de-marche-modification-du-capital"
     ],

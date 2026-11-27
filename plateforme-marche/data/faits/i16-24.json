@@ -166,7 +166,7 @@
     "type": "role",
     "article": "art. 10, 14, 23 du modèle",
     "enonce": "Dépositaire du FCPI",
-    "valeur_texte": "Contrôle la régularité des décisions de la SGO, l'inventaire semestriel et la liquidation ; décide la prorogation avec la SGO.",
+    "valeur_texte": "Sous son contrôle, la société de gestion établit l'inventaire des actifs au moins chaque semestre ; la cessation de fonction du dépositaire, sans autre dépositaire désigné, entraîne la dissolution du fonds.",
     "acteurs": [
       "depositaire-du-fcpi"
     ],

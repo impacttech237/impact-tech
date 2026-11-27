@@ -23,7 +23,7 @@
     "type": "role",
     "article": "art. 2",
     "enonce": "Société de gestion d'OPC",
-    "valeur_texte": "Publie les prix d'émission, de vente, de rachat et de remboursement par au moins deux moyens, dont son site internet.",
+    "valeur_texte": "Publie les prix d'émission, de vente, de rachat et de remboursement selon au moins deux méthodes de la liste, avec toujours une information minimale sur son site internet ou celui de l'OPC.",
     "acteurs": [
       "societe-de-gestion-d-opc"
     ],
@@ -40,7 +40,7 @@
     "type": "liste",
     "article": "art. 2",
     "enonce": "Méthodes de publication des prix des parts d'OPC",
-    "valeur_texte": "Site internet de la SGO ou de l'OPC (obligatoire) ; Affichage dans les locaux ; Journal d'annonces légales ; Presse ; Site internet de la bourse régionale ; Tout autre moyen adapté",
+    "valeur_texte": "Site internet de la SGO ou de l'OPC (information minimale toujours requise) ; Affichage dans les locaux ; Journal d'annonces légales ; Presse ; Site internet de la bourse régionale ; Tout autre moyen adapté",
     "items": [
       "Site internet de la SGO ou de l'OPC (obligatoire)",
       "Affichage dans les locaux",

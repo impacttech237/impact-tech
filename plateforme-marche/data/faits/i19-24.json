@@ -76,7 +76,7 @@
     "type": "role",
     "article": "annexe 1, II",
     "enonce": "Conseiller (OPCI)",
-    "valeur_texte": "Conseille l'OPCI par contrat mais ne prend aucune décision, qui reste de la responsabilité de la SGO.",
+    "valeur_texte": "Entreprise de conseil ou conseiller en investissement externe : l'OPCI en indique l'identité dans son document d'information lorsque le recours à ses services est prévu par contrat.",
     "acteurs": [
       "conseiller-opci"
     ],

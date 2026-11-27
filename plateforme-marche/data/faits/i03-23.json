@@ -77,7 +77,7 @@
     "type": "role",
     "article": "art. 2, 5",
     "enonce": "Agence de notation",
-    "valeur_texte": "Personne morale établie en CEMAC qui apprécie le risque de solvabilité d'un émetteur ou d'une opération ; demande l'agrément et notifie ses changements de dirigeants.",
+    "valeur_texte": "Personne morale établie en CEMAC qui demande son agrément à la COSUMAF et notifie toute modification de son organe de direction avant qu'elle prenne effet (au plus tard 5 jours ouvrables après, si c'est impossible).",
     "acteurs": [
       "agence-de-notation"
     ],

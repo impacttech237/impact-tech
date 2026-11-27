@@ -128,7 +128,7 @@
     "type": "role",
     "article": "annexe 5.3",
     "enonce": "Établissement chargé des opérations de régularisation",
-    "valeur_texte": "Peut sur-allouer et soutenir le cours des titres, à ses propres risques, sans être mandataire de l'émetteur.",
+    "valeur_texte": "Peut effectuer des sur-allocations et soutenir le cours des titres (opérations de régularisation) dans la limite des lois ; n'agit pas comme mandataire de l'émetteur ; pertes et gains sont supportés ou conservés par lui ou par les agents placeurs selon leur accord.",
     "acteurs": [
       "etablissement-charge-des-operations-de-regularisation"
     ],
@@ -145,7 +145,7 @@
     "type": "role",
     "article": "annexe 6.2",
     "enonce": "Arrangeur",
-    "valeur_texte": "Organise pour l'émetteur la publication des avis relatifs au contrat et aux titres.",
+    "valeur_texte": "Partie au dispositif de placement : une lettre d'adhésion d'Arrangeur et d'Agent Placeur figure parmi les annexes possibles du contrat de placement.",
     "acteurs": [
       "arrangeur"
     ],
@@ -162,7 +162,7 @@
     "type": "definition",
     "article": "annexe 2.2",
     "enonce": "Émission syndiquée",
-    "valeur_texte": "Émission dans laquelle plusieurs agents placeurs s'engagent solidairement à souscrire les titres, selon un contrat de prise ferme.",
+    "valeur_texte": "Émission réalisée par un syndicat d'agents placeurs, dirigé par un chef de file (société de bourse) ; l'instruction prévoit alors un avis du chef de file et le contrat de placement entre le chef de file et les agents placeurs.",
     "note": null,
     "themes": [
       "ape"

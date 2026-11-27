@@ -12,10 +12,12 @@ def page_de(i):
     for s, n in pages:
         if s <= i: p = n
     return p
+RELUS = set(json.load(open(os.path.join(racine, 'data', 'releve.json'), encoding='utf-8'))['faits'])
 def sa(s): return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
 for k, f in enumerate(faits):
     if k < a or k >= b: continue
     if os.environ.get('TYPES') and f['type'] not in os.environ['TYPES'].split(','): continue
+    if os.environ.get('NONRELUS') and f['id'] in RELUS: continue
     c = ctl.get(f['id'], {}); pos = c.get('p')
     head = f"[{k}] {f['id'].split('.',1)[1]} | {f.get('article')} | {f['enonce'][:90]} => {f['valeur_texte'][:90]} | {c.get('s')}"
     if pos is None or f['type'] in ('piege',):

@@ -119,7 +119,7 @@
     "type": "definition",
     "article": "annexe",
     "enonce": "RTO / RPO",
-    "valeur_texte": "Durée maximale d'interruption admissible et perte de données maximale admissible, validées pour les sauvegardes.",
+    "valeur_texte": "Durée maximale d'interruption admissible (RTO) et perte de données maximale admissible (RPO). L'annexe demande de valider ces valeurs pour les sauvegardes, sans les définir elle-même.",
     "note": null,
     "themes": [
       "conformite"

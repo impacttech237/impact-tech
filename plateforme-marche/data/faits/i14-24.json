@@ -166,7 +166,7 @@
     "type": "role",
     "article": "annexe II",
     "enonce": "COSUMAF",
-    "valeur_texte": "Approuve préalablement la méthode de calcul de l'ISR et contrôle son calcul ; est l'autorité compétente pour le DIS.",
+    "valeur_texte": "Autorité compétente pour le DIS. Le calcul de l'ISR et chacune de ses révisions doivent être documentés (méthodes de calcul et données de référence).",
     "acteurs": [
       "cosumaf"
     ],

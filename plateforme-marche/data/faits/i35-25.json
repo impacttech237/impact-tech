@@ -113,7 +113,7 @@
     "type": "role",
     "article": "annexe",
     "enonce": "Société de gestion du FPC",
-    "valeur_texte": "Gère le fonds, désigne le CAC, établit l'inventaire semestriel, décide fusion, dissolution ou prorogation.",
+    "valeur_texte": "Gère le fonds, établit au moins chaque semestre l'inventaire des actifs sous le contrôle du dépositaire ; si l'actif reste sous le seuil pendant 24 mois, informe la COSUMAF et dissout le fonds (sauf fusion).",
     "acteurs": [
       "societe-de-gestion-du-fpc"
     ],
@@ -130,7 +130,7 @@
     "type": "role",
     "article": "annexe",
     "enonce": "Dépositaire du FPC",
-    "valeur_texte": "Contrôle l'inventaire et décide la prorogation avec la société de gestion.",
+    "valeur_texte": "Contrôle l'inventaire des actifs du FPC établi au moins chaque semestre par la société de gestion.",
     "acteurs": [
       "depositaire-du-fpc"
     ],

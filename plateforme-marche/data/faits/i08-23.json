@@ -95,7 +95,7 @@
     "type": "role",
     "article": "art. 1",
     "enonce": "Société de bourse",
-    "valeur_texte": "Actionnaire d'office de l'entreprise de marché : n'a pas besoin de l'agrément de cette instruction.",
+    "valeur_texte": "L'instruction ne s'applique qu'aux actionnaires de l'entreprise de marché autres que les sociétés de bourse : les sociétés de bourse en sont exclues.",
     "acteurs": [
       "societe-de-bourse"
     ],
