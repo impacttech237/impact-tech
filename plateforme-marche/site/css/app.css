@@ -543,3 +543,17 @@ body.menu-ouvert{overflow:hidden}
   .sheet.ou{display:none}
   .doc-head .copie{display:none}
 }
+
+/* ---------- recherche : réponse directe et suggestions ---------- */
+.sbar{position:relative}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 8px);z-index:40;list-style:none;margin:0;padding:6px;background:var(--paper);border:2.5px solid var(--ink);border-radius:16px;box-shadow:5px 6px 0 var(--ink);max-height:60vh;overflow:auto}
+.sugg[hidden]{display:none}
+.sugg a{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:10px 12px;border-radius:10px;color:var(--ink);text-decoration:none;font-family:var(--sans)}
+.sugg a:hover,.sugg a:focus{background:var(--y)}
+.sugg small{color:var(--ink-soft);white-space:nowrap;font-size:.78rem}
+.answer{display:block;margin:0 0 18px;padding:16px 18px;background:#fff;border:3px solid var(--ink);border-radius:18px;box-shadow:5px 6px 0 var(--ink);color:var(--ink);text-decoration:none}
+.answer .aq{font-family:var(--sans);font-size:.98rem;margin:8px 0 4px}
+.answer .av{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,5vw,2.2rem);line-height:1.15;background:var(--y);display:inline-block;padding:2px 10px;border-radius:8px;margin:4px 0 8px}
+.answer small{display:block;color:var(--ink-soft);font-size:.82rem}
+.answer .stag{display:inline-flex;gap:6px;align-items:center;font-family:var(--sans);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;background:#a9f0d0;border:2px solid var(--ink);border-radius:999px;padding:2px 10px}
+.answer .avd{font-family:var(--sans);font-weight:600;font-size:1.05rem;background:transparent;padding:0}

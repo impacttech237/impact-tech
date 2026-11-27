@@ -565,10 +565,11 @@ views.pratiquer = async (_a, q) => {
 };
 
 /* ---------- Recherche : page reprise à l'identique d'Excellence (olympiades/js/recherche.js), avec en plus les textes, les repères et les acteurs ---------- */
+B.rechSig = () => (D?.faits?.length || 0) + ':' + (annuaireCache?.length || 0);
 B.rechExtra = () => {
   const out = [];
   for (const t of D.textes) out.push({ p: { id: '' }, c: { id: '' }, course: 'Textes officiels', chap: `${ORG[t.organisme]} · ${TYPE[t.type] || t.type}${t.statut === 'abroge' ? ' · abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'texte', title: shortName(t), text: `${t.titre} ${t.numero || ''} ${t.date_texte || ''} ${themeNom(t.theme)}`, href: `#/texte/${t.id}` });
-  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'repere', title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
+  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'repere', y: f.y, v: f.v, art: f.a || '', n: f.n || '', r: f.r, s: f.s, tid: f.t, title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''} ${f.a || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
   for (const a of annuaireCache || []) out.push({ p: { id: '' }, c: { id: '' }, course: 'Acteurs', chap: `${TYPE_ACTEUR[a.type] || ''}${a.pays ? ' · ' + a.pays : ''}`, type: 'acteur', title: a.nom, text: `${a.description || ''} ${(a.dirigeants || []).map(d => d.nom + ' ' + d.titre).join(' ')} ${a.ville || ''} ${a.pays || ''}`, href: `#/acteurs/${a.id}` });
   return out;
 };
@@ -584,12 +585,18 @@ views.recherche = async (_a, qs_) => {
     after() {
       fond(MAT.recherche);
       const inp = $('#sq'); inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length);
-      let t; inp.oninput = () => { RS.q = inp.value; RS.more = 1; $('#sx').hidden = !RS.q; clearTimeout(t); t = setTimeout(() => { history.replaceState(null, '', `#/recherche?q=${encodeURIComponent(RS.q)}${RS.type ? '&type=' + RS.type : ''}${RS.course ? '&c=' + RS.course : ''}`); resultats(idx); }, 140); };
+      const sg = document.createElement('ul'); sg.className = 'sugg'; sg.hidden = true; inp.closest('.sbar').appendChild(sg);
+      const majSug = () => { const l = RS.q.trim().length >= 2 ? B.rech.suggere(RS.q) : []; sg.innerHTML = l.map(it => `<li><a href="${B.rech.link(it, RS.q)}"><span>${esc(it.title.length > 90 ? it.title.slice(0, 88) + '…' : it.title)}</span><small>${esc(B.rech.TYPES[it.type].sing || B.rech.TYPES[it.type].nom)}</small></a></li>`).join(''); sg.hidden = !l.length; };
+      inp.addEventListener('blur', () => setTimeout(() => { sg.hidden = true; }, 180)); inp.addEventListener('focus', majSug);
+      let t; inp.oninput = () => { RS.q = inp.value; majSug(); RS.more = 1; $('#sx').hidden = !RS.q; clearTimeout(t); t = setTimeout(() => { history.replaceState(null, '', `#/recherche?q=${encodeURIComponent(RS.q)}${RS.type ? '&type=' + RS.type : ''}${RS.course ? '&c=' + RS.course : ''}`); resultats(idx); }, 140); };
       $('#sx').onclick = () => { inp.value = ''; inp.oninput(); inp.focus(); };
       inp.onkeydown = e => { if (e.key === 'Escape') { inp.value = ''; inp.oninput(); } };
       resultats(idx);
     } };
 };
+let logT, dernierLog = '';
+const reponseDirecte = (hits, q) => { const h = hits[0]; if (!h || h.it.type !== 'repere' || !['delai', 'montant', 'role', 'definition'].includes(h.it.y) || h.it.abroge) return ''; if (hits[1] && h.sc < hits[1].sc * 1.2) return ''; const it = h.it;
+  return `<a class="answer" href="${it.href}"><span class="stag">${ic('scale')} Réponse directe</span><div class="aq">${esc(it.title)}</div><div class="av${['definition', 'role'].includes(it.y) ? ' avd' : ''}">${esc(it.v)}</div><small>${esc(it.course)}${it.art ? ' · ' + esc(it.art) : ''}${it.s ? ' · <b>à vérifier sur le PDF</b>' : ''}</small></a>`; };
 function resultats(idx) {
   const { q, type, course } = RS, box = $('#sres'), fb = $('#sf'); if (!box) return;
   const TY = B.rech.TYPES;
@@ -603,10 +610,12 @@ function resultats(idx) {
     const sug = ['visa APE', 'capital minimum', 'société de bourse', 'dépositaire central', 'délit d\'initié', 'placement privé', 'fixing', 'OPCVM', 'valeur liquidative', 'franchissement de seuil', 'BVMAC', 'COSUMAF'];
     box.innerHTML = `<div class="sempty">${E.perso('amina', 'think', 160, { fixe: true })}<div><h3>Cherche n'importe quoi</h3><p>Par exemple :</p><div class="sug">${sug.map(x => `<a href="#/recherche?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join('')}</div></div></div>`; return;
   }
-  const { hits, toks, fuzzy } = type ? B.rech.search(q, { type, course }) : base;
-  if (!hits.length) { box.innerHTML = `<div class="sempty">${E.perso('samir', 'sad', 150, { fixe: true })}<div><h3>Rien trouvé pour « ${esc(q)} »</h3><p>Essaie un mot plus court, un synonyme, ou retire un filtre.</p></div></div>`; return; }
+  const { hits, toks, fuzzy, relaxed } = type ? B.rech.search(q, { type, course }) : base;
+  clearTimeout(logT); logT = setTimeout(() => { const k = q.trim().toLowerCase(); if (k.length >= 3 && k !== dernierLog) { dernierLog = k; window.MF?.ev('search', { a: k, n: hits.length }); } }, 1600);
+  if (!hits.length) { box.innerHTML = `<div class="sempty">${E.perso('samir', 'sad', 150, { fixe: true })}<div><h3>Rien trouvé pour « ${esc(q)} »</h3><p>Essaie un mot plus court, un synonyme, ou retire un filtre. Tu peux aussi <a href="mailto:${CONTACT}?subject=${encodeURIComponent('Recherche sans résultat : ' + q)}">nous signaler cette recherche</a>.</p></div></div>`; return; }
   const shown = hits.slice(0, 20 * RS.more);
   box.innerHTML = (fuzzy ? `<p class="didyou">${ic('lightbulb')} Résultats pour <b>${esc(fuzzy.join(' '))}</b> (petite faute de frappe ?)</p>` : '') +
+    (relaxed ? `<p class="didyou">${ic('lightbulb')} Aucun contenu ne contient tous vos mots : voici les résultats les plus proches.</p>` : '') + reponseDirecte(hits, q) +
     `<p class="scount">${hits.length} résultat${hits.length > 1 ? 's' : ''}</p>
     <div class="slist">${shown.map(({ it }) => { const Ty = TY[it.type], isDef = it.type === 'definition' || it.type === 'repere' || it.type === 'acteur';
       return `<a class="sres" href="${B.rech.link(it, q)}" style="--tc:${Ty.col}"><span class="stag">${ic(Ty.ic)} ${Ty.sing || Ty.nom.replace(/s$/, '')}</span>
