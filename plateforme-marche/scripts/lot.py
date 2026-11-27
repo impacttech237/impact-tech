@@ -16,7 +16,7 @@ for tid in [x for x in sys.argv[1:] if not x.startswith('--')]:
     pg = [(m.start(), int(m.group(1))) for m in re.finditer(r'=== page (\d+) ===', raw)]
     print('########', tid)
     for f in json.load(open(f'{R}/data/faits/{tid}.json', encoding='utf-8')):
-        if f['id'] in rel or f['type'] not in ('role', 'definition', 'liste'): continue
+        if f['id'] in rel or f['type'] not in os.environ.get('TYPES','role,definition,liste').split(','): continue
         ns = set(stems(f['enonce'] + ' ' + f['valeur_texte']))
         wt = {w: math.log(1 + len(wins) / (1 + df.get(w, 0))) for w in ns}; tot = sum(wt.values()) or 1
         best = max(wins, key=lambda x: sum(wt[w] for w in ns if w in x[1]))
