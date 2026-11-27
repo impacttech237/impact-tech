@@ -4,3 +4,4 @@ node_modules/
 sources/annuaire/*.html
 sources/annuaire/*.pdf
 sources/annuaire/*.png
+sources/ocr/img/

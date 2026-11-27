@@ -1,0 +1,1080 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+COSUMAF
+INSTRUCTION COSUMAF NO 24-24 du 28 Novembre 2024
+RELATIVE AU MODELE TYPE DE DOCUMENT D'INFORMATION DES ORGANISMES
+DE PLACEMENT COLLECTIF EN VALEURS MOBILIERES
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel no 03/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création
+de la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement no 01/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 28 novembre 2024 à Libreville
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT :
+=== page 2 ===
+ARTICLE PREMIER - CHAMP D'APPLICATION
+La présente instruction est prise en application des dispositions des articles 402 et suivants
+du Règlement Général de la COSUMAF. Elle a pour objet d'établir un modèle-type de
+document d'information pour les organismes de placement collectif en valeur mobilière
+(OPCVM) visés à l'article 360 du Règlement Général de la COSUMAF.
+ARTICLE 2 - DEFINITIONS
+Au sens de la présente Instruction, il faut entendre par •
+« Compartiment » : Technique de segmentions qui permet de juxtaposer, dans le cadre d'un
+même OPCVM et sous une même dénomination, plusieurs types de portefeuilles composés
+différemment ou ayant des orientations de gestion différentes. Les actifs d'un compartiment
+sont séparés des actifs des autres compartiments et sont séparés juridiquement des autres
+compartiments.
+« Catégorie de parts/actions » ou « Classe de parts/actions » : Types de parts ou actions
+appartenant au même OPCVM attribuant des droits différents à un ou plusieurs sous ensemble
+d'investisseurs par rapport à leur investissement. Ces droits portent sur la distribution des
+revenus, un traitement fiscal spécifique, un minimum d'investissement différent, des frais
+différents, ou une couverture d'un risque de change.
+ARTICLE 3 - FORMAT TYPE DU DOCUMENT D'INFORMATION D'UN ORGANISME DE
+PLACEMENT COLLECTIF EN VALEURS MOBILIERES
+1.
+2.
+Le document d'information d'un organisme de placement collectif en valeurs mobilières
+comporte les rubriques mentionnées en Annexe 1.
+Les rubriques du document d'information d'un organisme de placement collectif en
+valeurs mobilières sont mentionnées dans l'ordre établi par l'Annexe 1.
+2
+=== page 3 ===
+ARTICLE4 ENTREE EN VIGUEUR
+La présente instruction, qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSIJMAF.
+Fait à Libreville, le 28 novembre 2024
+Pour la COSUMAF
+Le Président
+COMMISSION DE SURVEILLANC
+OU MARCHE FINANCI
+.ii!'A
+L'AFRIQUE CE
+Tét,: + 241 01.74. 5.89/9
+B.A 1724 Libreville
+Jacqueline ADIABA-NKEMBE
+3
+=== page 4 ===
+ANNEXE 1
+PLAN TYPE DU DOCUMENT D'INFORMATION D'UN ORGANISME DE PLACEMENT
+COLLECTIF EN VALEURS MOBILIERES
+l. Caractéristiques générales
+Cette rubrique comporte les caractéristiques générales de l'OPCVM.
+10 Forme de l'OPCVM
+20 Dénomination
+a) Pour les FCP, dénomination ,
+b) Pour les SICAV, dénomination ou raison sociale, siège social et adresse postale si
+celle-ci est différente
+30 Forme juridique
+40 État membre dans lequel l'OPCVM a été constitué
+50 Date de création et durée d'existence prévue
+60 Synthèse de l'offre de gestion
+a.
+b.
+c.
+d.
+e.
+Rappel des compartiments et des différentes catégories de parts
+Souscripteurs concernés
+Montant minimum de souscription pour chaque compartiment / type de parts
+Code ISIN (le cas échéant) ou numéro d'identification ,
+Ces informations sont présentées sous la forme d'un tableau récapitulatif pour
+permettre une bonne lisibilité de l'ensemble de l'offre de gestion.
+Exemple
+Compartiment no 1
+Parts
+Caractéristiques
+4
+=== page 5 ===
+Code ISIN
+Compartiment no 2
+Distribution des
+sommes
+distribuables
+Capitalisation
+Distribution
+Parts
+Caractéristiques
+Code ISIN
+Devise de
+libellé
+FCFA
+FCFA
+Devise de
+libellé
+FCFA
+FCFA
+etc.
+etc.
+Distribution des
+sommes
+distribuables
+Capitalisation
+Distribution
+70 Indication du lieu où l'on peut se procurer le règlement du FCP/les statuts de la SICAV s'ils
+n'ont pas annexé le dernier rapport annuel et le dernier état périodique
+Les derniers documents annuels ainsi que la composition des actifs sont adressés dans un
+délai de huit (8) jours ouvrés sur simple demande écrite du porteur auprès de:
+• Raison sociale
+• Adresse
+• (Tél. éventuellement) .
+• E-mail :
+Ces documents sont également disponibles sur le site www. (le cas échéant)
+Désignation d'un point de contact (personne/service, moment, etc.) où des explications
+supplémentaires peuvent être obtenues si nécessaire.
+Si l'OPCVM est un OPCVM nourricier, ajouter la mention suivante : les documents
+relatifs à l'OPCVM maître
+d'informations
+agréé par la COSUMAF, sont disponibles auprès de
+5
+de droit
+=== page 6 ===
+Raison sociale
+Adresse
+(Tél. éventuellement)
+E-mail :
+Il - Acteurs
+Cette rubrique comporte la liste et les coordonnées de l'ensemble des acteurs concernés au
+titre de la gestion, de la conservation, du contrôle ou de la distribution.
+10 Société de gestion
+a.
+b.
+c.
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si
+celle-ci est différente du siège social ,
+Identité et fonctions des membres des organes d'administration, de direction et de
+surveillance
+Mention des principales activités exercées par ces personnes en dehors de la société
+lorsqu'elles sont significatives par rapport à celle-ci, y compris donc au sein de la
+SICAV.
+La société de gestion peut choisir, s'agissant des informations mentionnées au b) ci-dessous,
+de faire un renvoi vers son site internet.
+20 Dépositaire et conservateurs
+a.
+b.
+c.
+Identité du dépositaire de l'OPCVM et description de ses missions et des conflits
+d'intérêts potentiels
+Description des éventuelles fonctions de garde déléguées par le dépositaire, liste des
+délégataires et sous- délégataires et identification des conflits d'intérêts susceptibles
+de résulter d'une telle délégation. Préciser que ces détails sont disponibles sur un site
+internet et en préciser la référence et qu'un exemplaire sur papier est mis à disposition
+gratuitement sur demande
+Des informations actualisées concernant le a) et le b) seront mises à disposition des
+investisseurs sur demande.
+30 Courtier principal (Prime broker)
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+Préciser si le prime broker est également conservateur par délégation du dépositaire, le cas
+échéant.
+Indiquer l'activité principale.
+6
+=== page 7 ===
+40 Commissaire aux comptes
+Dénomination ou raison sociale, siège social et signataire.
+50 Distributeurs
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+60 Délégataires
+Cette rubrique regroupe, pour l'ensemble des délégations, notamment financière,
+administrative et comptable, les informations suivantes
+a. Identité ou raison sociale de la société ,
+b. Éléments du contrat avec la société de gestion ou la société d'investissement de nature
+à intéresser les investisseurs, à l'exclusion de ceux relatifs aux rémunérations ,
+c. Autres caractéristiques sommaires de l'activité de la société délégataire.
+70 Conseillers
+Indications sur les entreprises de conseil ou les conseillers d'investissement externes, pour
+autant que le recours à leurs services soit prévu par contrat directement ou pour le compte de
+l'OPCVM. Ne sont pas visées les prestations fournies à la société de gestion pour l'ensemble
+de son activité, qui ne sont pas directement liées à un OPCVM ou à une gamme d'OPCVM.
+a.
+b.
+c.
+d.
+Identité ou raison sociale de la société ou nom du conseiller ;
+Éléments du contrat avec la société de gestion ou la société d'investissement de nature
+à intéresser les investisseurs, à l'exclusion de ceux relatifs aux rémunérations
+Autres caractéristiques sommaires de l'activité de la société ou du conseiller ;
+Le conseiller n'est pas amené à prendre des décisions pour le compte de l'OPCVM,
+qui relèvent de la compétence et de la responsabilité de la SICAV ou de la société de
+gestion du FCP.
+80 Centralisateur
+a. identité du centralisateur ,
+b. identité du ou des établissement(s) en charge de la réception des ordres de
+souscription et rachat.
+90 Pour les SICAV
+a.
+b.
+c.
+Identité et fonctions dans la SICAV des membres des organes d'administration, de
+direction et de surveillance ,
+Mention des principales activités exercées par ces personnes en dehors de la société
+lorsqu'elles sont significatives par rapport à celle-ci ;
+Capital.
+7
+=== page 8 ===
+Ill - Modalités de fonctionnement et de gestion
+Cette rubrique comporte l'ensemble des modalités de fonctionnement et de gestion de
+l'OPCVM.
+Pour les OPCVM à compartiment et afin de permettre une meilleure lisibilité du document
+d'information en cas de compartiments, les modalités de fonctionnement de l'OPCVM sont
+scindées en deux parties : une partie générale décrite au I décrivant les dispositions
+communes à l'ensemble des compartiments et une rubrique particulière décrite au Il déclinant
+les spécificités mises en œuvre par compartiment.
+A. Caractéristiques générales
+Cette partie comporte les indications suivantes
+10 Caractéristiques des parts ou actions :
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+Code ISIN
+Dans le cas de parts ou compartiments multiples, le code ISIN ou code équivalent doit
+être uniquement renseigné dans le Il ;
+Nature du droit attaché à la catégorie de parts ou d'actions
+Inscription à un registre, ou précision des modalités de tenue du passif ;
+Droits de vote
+o Pour les SICAV, mention des droits de vote attachés aux actions ,
+o Pour les FCP, mention du fait qu'aucun droit de vote n'est attaché aux parts, les
+décisions étant prises par la société de gestion
+Forme des parts ou actions : Nominatives / au porteur ;
+Décimalisation éventuellement prévue (fractionnement).
+20 Admission aux négociations sur un marché réglementé des parts ou actions d'un
+OPCVM dont l'objectif de gestion est fondé sur un indice (le cas échéant)
+Préciser si l'admission des parts ou actions de l'OPCVM aux négociations à la Bourse
+Régionale est envisagée.
+Lorsque les actions ou parts d'organismes de placement collectif en valeurs mobilières
+peuvent faire l'objet d'une admission aux négociations sur la Bourse régionale sous la
+condition que ces organismes aient mis en place un dispositif permettant de s'assurer que le
+cours de ces parts ou actions ne s'écarte pas sensiblement de leur valeur liquidative, les règles
+de fonctionnement suivantes, déterminées par la Bourse régionale s'appliquent à la cotation
+des parts du Fonds : des seuils de réservation sont fixés en appliquant un pourcentage de
+8
+=== page 9 ===
+variation de [X 0/01 de part et d'autre de la Valeur Liquidative Indicative ou « VLi » (cf. section
+« Valeur Liquidative Indicative ») du Fonds, publiée par la Bourse régionale et actualisée de
+manière estimative en cours de séance en fonction de la variation de l'Indice
+Les « Teneurs de marché » s'assurent que le cours de bourse des parts du Fonds ne s'écarte
+pas de plus de [X%] de part et d'autre de la valeur liquidative indicative de l'OPCVM, afin de
+respecter les seuils de réservation fixés par Bourse régionale (cf. section « valeur liquidative
+indicative »).
+30 Date de clôture :
+Précision de la date de clôture de l'exercice comptable.
+40 Indications sur le régime fiscal (si pertinent).
+Précision des retenues à la source effectuées (le cas échéant).
+B. Dispositions particulières
+Les dispositions particulières ont vocation à décrire les spécificités de la gestion proposée par
+l'OPCVM ou pour chaque compartiment de l'OPCVM
+10 Code ISIN ou autre code d'identification •
+20 Classification (le cas échéant) ;
+30 Délégation de gestion financière
+Rappel du nom du délégataire, dans le cas de compartiments, le cas échéant ;
+40 Présentation des techniques et instruments utilisés
+Les techniques et instruments utilisés doivent être cohérents avec la gestion envisagée, les
+moyens de la société de gestion et son programme d'activité validé par la COSUMAF ,
+50 Objectif de gestion
+Cette rubrique explique quels sont les objectifs de gestion poursuivis par l'OPCVM. Les
+informations figurant dans le document d'information simplifié peuvent être complétées par
+des considérations plus techniques, relevant du document d'information.
+60 Indicateur de référence
+L'objectif de cette rubrique est de fournir un étalon auquel l'investisseur pourra comparer la
+performance et le risque pris par l'OPCVM. Selon l'objectif de gestion de l'OPCVM,
+9
+=== page 10 ===
+l'information donnée à l'investisseur, et la nature des risques pris, cet étalon peut être, par
+exemple, un indicateur étroit ou au contraire un indice large de marché, un indice reconnu par
+la COSUMAF, un taux ou tout autre indicateur pertinent. Cette rubrique doit donc comporter
+le nom et la description de l'indicateur de référence retenu. Les éléments permettant
+d'identifier cet indicateur doivent être mentionnés, ainsi que ses caractéristiques. S'agissant
+de l'inclusion ou non des dividendes, la rubrique mentionne que « la performance de
+l'indicateur X [inclut/n'inc/ut pas] les dividendes détachés par les [actions/OPCVM] qui
+composent l'indicateur ».
+Le document d'information complète l'information synthétique communiquée dans le
+document d'informations simplifié, rappelée ci-dessus, en indiquant, le cas échéant, la
+corrélation recherchée, ou toute information pertinente permettant d'apprécier l'OPCVM au
+regard de l'indicateur désigné.
+70 Stratégie d'investissement
+L'objectif de cette rubrique est d'expliquer comment la société de gestion s'efforcera
+d'atteindre l'objectif de gestion affiché. D'une manière générale, elle doit comprendre
+a. La description des stratégies utilisées.
+Le document d'information décrit de manière complète les différentes stratégies utilisées pour
+atteindre l'objectif de gestion. Il doit notamment préciser, le cas échéant
+• L'existence de stratégies particulières concernant des secteurs industriels, géographiques
+ou d'une autre nature
+• Le fait que l'OPCVM a une stratégie de constitution d'un portefeuille d'actifs diversifié
+• L'existence d'interventions sur des catégories particulières d'actifs
+• Le style de gestion adopté (par exemple, relation entre l'indice et l'objectif de performance
+du fonds ou recherche de rendement absolu).
+b. La description des catégories d'actifs et de contrats financiers dans lesquels l'OPCVM
+entend investir et leur contribution à la réalisation de l'objectif de gestion.
+Pour les actifs hors dérivés intégrés, le document d'information doit mentionner
+l'ensemble des classes d'actifs qui entreront dans la composition de l'actif de l'OPCVM.
+Le cas échéant, elle doit également comporter les éléments suivants
+La mention que le fonds investira principalement dans des actifs autres que les
+actions, les titres de créance et les instruments du marché monétaire
+10
+=== page 11 ===
+Les actions : les principales caractéristiques des investissements envisagés
+(dans la mesure où elles ne sont pas redondantes avec les éléments décrits plus
+haut), notamment
+Répartition géographique et/ou sectorielle des émetteurs ,
+Petites/moyennes/grandes capitalisations ,
+Autres critères de sélection (à préciser).
+Les titres de créance et instruments du marché monétaire : les principales
+caractéristiques des investissements envisagés (dans la mesure où elles ne sont
+pas redondantes avec les éléments décrits plus haut), notamment
+Répartition dette privée/publique
+Niveau de risque crédit envisagé
+Nature juridique des instruments utilisés
+Duration ,
+Autres caractéristiques (à préciser).
+La détention d'actions ou parts d'OPCVM de droit CEMAC ou d'autres OPC;
+Dans le cas où l'OPCVM achète des OPCVM, FIA ou fonds d'investissement
+de droit étranger gérés par le prestataire ou une société liée, le mentionner dans le
+document d'information de l'OPCVM
+Pour chacune des catégories mentionnées ci-dessus
+Les fourchettes de détention qui seront respectées
+L'existence d'investissements dans des instruments financiers de la Zone
+CEMAC et hors zone ,
+L'existence d'éventuelles restrictions en matière d'investissement que s'impose
+la société de gestion ,
+L'existence d'autres critères (à préciser).
+Pour les instruments dérivés, le document d'information doit mentionner .
+- La nature des marchés d'intervention
+o Réglementés
+o De gré à gré.
+11
+=== page 12 ===
+- Les risques sur lesquels le gérant désire intervenir :
+o Action
+o Taux,
+o Change
+o Crédit.
+La nature des interventions, l'ensemble des opérations devant être limitées à la
+réalisation de l'objectif de gestion
+o Couverture
+o Exposition
+o Arbitrage
+o Autre nature (à préciser).
+- La nature des instruments utilisés
+o
+o
+o
+o
+o
+o
+Futures ,
+Options
+Swaps ,
+Change à terme ,
+Dérivés de crédit ;
+Autre nature (à préciser).
+- La stratégie d'utilisation des dérivés pour atteindre l'objectif de gestion
+o Couverture générale du portefeuille, de certains risques, titres, etc.
+o Reconstitution d'une exposition synthétique à des actifs, à des risques;
+o Augmentation de l'exposition au marché et précision de l'effet de levier
+maximum autorisé et recherché
+o Autre stratégie (à préciser).
+Concernant les contrats d'échange sur rendement global (« total return swap »), le document
+d'information inclut une description générale des contrats d'échange sur rendement global
+utilisés par l'OPCVM, la justification de leur utilisation, ainsi que les types d'actifs pouvant faire
+l'objet de tels contrats. De plus, des informations sont inclues sur la/les contreparties aux
+transactions de ces contrats, ainsi que la mesure dans laquelle la contrepartie dispose d'un
+quelconque pouvoir de décision discrétionnaire sur la composition ou la gestion du portefeuille
+d'investissement de l'OPCVM ou de l'actif sous-jacent des instruments financiers dérivés, et
+si l'approbation de la contrepartie est requise pour une quelconque transaction relative au
+portefeuille d'investissement de l'OPCVM
+12
+=== page 13 ===
+Les critères déterminant le choix des contreparties (y compris la forme juridique, le pays
+d'origine et la notation minimale de crédit) doivent également être décrits.
+Les OPCVM ne doivent pas retenir de rédaction imprécise, telle que « utilisation des
+instruments à terme dans la limite de la réglementation », ne permettant pas une bonne
+appréciation des instruments et stratégies utilisés.
+Pour les titres intégrant des dérivés (warrants, credit link note, EMTN, bon de
+souscription, etc.) le document d'information doit mentionner :
+Les risques sur lesquels le gérant désire intervenir .
+o
+o
+o
+o
+Action ,
+Taux ,
+Change
+Crédit ,
+Autre risque (à préciser).
+La nature des interventions, l'ensemble des opérations devant être limitées à la
+réalisation de l'objectif de gestion
+o
+o
+o
+o
+Couverture
+Exposition ,
+Arbitrage
+Autre nature (à préciser).
+La nature des instruments utilisés
+La stratégie d'utilisation des dérivés intégrés pour atteindre l'objectif de gestion.
+Pour les dépôts, le document d'information doit mentionner les caractéristiques, niveau
+d'utilisation et description de la contribution à la réalisation de l'objectif de gestion.
+Pour les emprunts d'espèces, le document d'information doit comporter l'indication des
+techniques et instruments ou des autorisations en matière d'emprunts susceptibles
+d'être utilisés dans le fonctionnement de l'OPCVM.
+Pour les opérations d'acquisitions et cessions temporaires de titres, le document
+d'information inclut une description générale des opérations de financement sur titres
+utilisées par l'OPCVM et la justification de leur utilisation. En effet, l'utilisation des
+13
+=== page 14 ===
+opérations d'acquisitions et cessions temporaires de titres doit être expliquée de façon
+précise
+La nature des opérations utilisées .
+o Prises et mises en pension
+o Prêts et emprunts de titres
+o Autre nature (à préciser).
+La nature des interventions, l'ensemble des opérations devant être limitées à la
+réalisation de l'objectif de gestion
+o Gestion de la trésorerie ,
+o Optimisation des revenus de l'OPCVM
+o Autre nature (à préciser).
+Les types d'actifs pouvant faire l'objet de telles opérations
+Le niveau d'utilisation envisagé et autorisé : la proportion maximale d'actifs sous
+gestion pouvant faire l'objet de telles opérations, ainsi que la proportion attendue
+d'actifs sous gestion qui feront l'objet de telles opérations doivent être spécifiées
+Les effets de levier éventuels
+La rémunération : mention du fait que des informations complémentaires figurent à la
+rubrique frais et commissions
+Critères déterminant le choix des contreparties (y compris la forme juridique, le pays
+c.
+d.
+d'origine et la notation minimale de crédit).
+Le niveau d'utilisation maximum des différents instrumentsl
+Le niveau d'utilisation des différents instruments généralement
+correspondant à l'utilisation habituelle envisagée par le gérant2.
+recherché,
+80 Contrats constituant des garanties financières
+Les investisseurs sont informés de manière claire quant à la politique de l'OPCVM en matière
+de garanties financières. Les types de garanties financières autorisées, le niveau de garanties
+financières requis et la politique en matière de décote doivent y figurer, de même que la
+politique de réinvestissement (incluant les risques qui en découlent) en ce qui concerne les
+garanties financières en espèces.
+Les OPCVM qui souhaitent être pleinement garantis par des valeurs mobilières émises ou
+garanties par un État membre le mentionnent dans leur document d'information.
+Cette information devra également être communiquée s'agissant des contrats d'échange sur rendement global utilisés par l'OPCVM.
+14
+=== page 15 ===
+Outre les garanties acceptables en ce qui concerne les types d'actifs, le document
+d'information doit décrire l'émetteur, l'échéance, la liquidité ainsi que la diversification des
+garanties et les politiques en matière de corrélation. Le document d'information fournit des
+indications sur la manière dont les actifs faisant l'objet d'opérations de financement sur titres
+et de contrats d'échange sur rendement global et les garanties reçues sont conservés (par
+exemple par un dépositaire de fonds) ainsi que sur toute restriction (réglementaire ou
+volontaire) concernant la réutilisation des garanties.
+90 Cas particulier des nourriciers
+Pour les nourriciers n'intervenant pas sur les marchés à terme, la rubrique « stratégie
+d'investissement » doit préciser que .
+a.
+b.
+c.
+d.
+e.
+f.
+Celui-ci est le nourricier d'un OPCVM maître donné et que, en tant que tel, il investit en
+permanence 85 % ou plus de ses actifs dans des parts ou actions de cet OPCVM
+maître
+L'objectif et la politique de placement, ainsi que le profil de risque de l'OPCVM
+nourricier et des informations quant au point de savoir si les performances de l'OPCVM
+nourricier et de l'OPCVM maître sont identiques, ou dans quelle mesure et pour quelles
+raisons elles diffèrent. Le document d'information contient également une description
+des actifs autres que les parts ou actions de l'OPCVM maître, dans lesquels l'actif de
+l'OPCVM nourricier peut être investi à hauteur maximum de 15 %.
+Une description brève de l'OPCVM maître, de son organisation ainsi que de son objectif
+et de sa politique de placement, y compris son profil de risque et une indication de la
+manière dont il est possible de se procurer le document d'information de l'OPCVM
+maître
+Un résumé de l'accord entre l'OPCVM nourricier et l'OPCVM maître
+La manière dont les porteurs peuvent obtenir des informations supplémentaires sur
+l'OPCVM maître et sur l'accord précité conclu entre l'OPCVM nourricier et l'OPCVM
+maître
+Une description des rémunérations et des remboursements de coûts dus par l'OPCVM
+nourricier au titre de son investissement dans des parts ou actions de l'OPCVM maître,
+15
+=== page 16 ===
+g.
+ainsi qu'une description des frais totaux de l'OPCVM nourricier et de l'OPCVM maître
+Une description des conséquences fiscales de l'investissement dans les parts ou
+actions de l'OPCVM maître pour l'OPCVM nourricier.
+100 Pour les nourriciers intervenant sur les marchés à terme :
+a.
+b.
+Si cette intervention sur les marchés à terme n'introduit pas de décorrélation
+substantielle entre l'OPCVM nourricier et l'OPCVM maître, la rubrique « stratégie
+d'investissement » doit •
+Préciser le % d'investissement de l'OPCVM nourricier (minimum 85%) dans un autre
+OPCVM (en précisant le nom de cet OPCVM) et s'il intervient sur les marchés à terme
+Reprendre la section « en quoi consiste ce produit » du document d'information
+simplifié et, le cas échéant, la rubrique « objectifs et politique d'investissement » du
+document d'information simplifié de l'OPCVM maître et préciser la nature et l'impact
+de l'intervention sur les marchés à terme par l'OPCVM nourricier ;
+Si cette intervention sur les marchés à terme introduit une décorrélation substantielle
+entre l'OPCVM nourricier et l'OPCVM maître, la rubrique « stratégie d'investissement
+» doit •
+Préciser que l'OPCVM est investi en totalité dans un autre OPCVM et à titre accessoire
+en liquidités mais que l'utilisation des marchés à terme modifie de manière importante
+l'exposition de l'OPCVM par rapport à un simple investissement en direct dans cet
+autre OPCVM
+Préciser la nature et l'impact de l'utilisation des marchés à terme sur l'exposition de
+l'OPCVM nourricier en décrivant le montage financier retenu.
+Afin de limiter le risque de confusion, toutes les mentions provenant du document d'information
+de l'OPCVM maître doivent être clairement identifiables (police différente, couleur différente,
+etc.).
+110 Cas particulier des OPCVM à compartiment
+S'il est envisagé que des compartiments souscrivent des parts ou actions de compartiment(s)
+du même OPCVM auxquels ils se rattachent, le document d'information doit le mentionner et
+préciser le pourcentage maximum de l'actif du compartiment investi dans d'autres
+compartiments du même OPCVM ainsi que le pourcentage maximum de l'actif de chaque
+compartiment qui peut être détenu par un autre compartiment du même OPCVM
+16
+=== page 17 ===
+120 Profil de risque
+L'objectif de cette rubrique est de donner une information pertinente sur les risques auquel
+s'expose l'investisseur. Le profil de risque du fonds ne se limite pas à la description des
+instruments dans lesquels l'OPCVM est investi.
+Par exemple
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+j.
+k.
+m.
+n.
+Mention des caractéristiques spécifiques de l'OPCVM, notamment liées aux
+classifications (degré minimum d'exposition au marché actions, sensibilité, risque de
+change, etc.) ;
+Effets possibles de l'utilisation des contrats financiers sur le profil de risque ,
+Mention spécifique lorsque la valeur liquidative est susceptible de connaître une
+volatilité élevée du fait de la composition de son portefeuille ou des techniques de
+gestion du portefeuille pouvant être employées, ou lorsqu'un OPCVM monétaire est
+sensible au risque crédit ,
+Le risque que la performance de l'OPCVM ne soit pas conforme à ses objectifs, aux
+objectifs de l'investisseur (en précisant que ce dernier risque dépend de la composition
+du portefeuille de l'investisseur) ,
+Le risque que le capital investi ne soit pas intégralement restitué
+Impact de l'inflation ,
+Les risques liés à l'utilisation d'un prime broker (par exemple, risque lié à la diminution
+du niveau de financement accordé par ce dernier, risque lié à la réutilisation des titres) ;
+Restriction de liquidité
+Risques découlant de l'évolution potentielle de certains éléments (traitement fiscal, par
+exemple) ,
+Risques liés au type de réplication utilisé, pour les OPCVM indiciels
+Risques associés à la politique d'investissement indicielle et à effet de levier, pour les
+OPCVM indiciels à effet de levier. Une description est également faite de la manière
+dont le rendement de l'OPCVM peut s'écarter significativement à moyen ou long terme
+de celui attendu au regard du niveau de levier attendu.
+Risques associés aux techniques de gestion efficace de portefeuille, y compris le
+risque de contrepartie et les conflits d'intérêts potentiels, ainsi que leur incidence sur
+le rendement de l'OPCVM,
+Risque de défaillance de la contrepartie (risque de contrepartie) et l'impact sur les
+rendements pour les investisseurs, si l'OPCVM utilise des contrats d'échange sur
+rendement global (« total return swap ») ou d'autres instruments financiers dérivés qui
+présentent les mêmes caractéristiques.
+Outre la description des risques liés aux opérations de financement sur titres et aux
+contrats d'échange sur rendement global évoqués aux points l) et m), le document
+17
+=== page 18 ===
+d'information décrit également les risques liés à la gestion des garanties, tels que le
+risque opérationnel, le risque de liquidité, le risque de conservation et le risque juridique
+et, le cas échéant, les risques liés à la réutilisation des garanties.
+130 Garantie ou protection
+Cette rubrique complète le document d'informations simplifié, notamment en précisant toutes
+les caractéristiques techniques de la garantie ou de la protection, telles que les modalités de
+substitution des sous-jacents, les formules mathématiques.
+140 Souscripteurs concernés et profil de l'investisseur type
+L'objectif de cette rubrique est de préciser quels souscripteurs ont accès à l'OPCVM et à quel
+type d'investisseurs l'OPCVM s'adresse.
+(à décliner par catégorie de parts, le cas échéant)
+Elle doit donc
+a.
+b.
+Préciser si l'OPCVM est
+Tous souscripteurs ,
+Tous souscripteurs, destinés plus particulièrement à X (par exemple, tous
+souscripteurs, plus particulièrement destinés à servir de support de contrats
+d'assurance vie en unité de compte de la compagnie d'assurance Z) ,
+Expliciter quel est le profil type de l'investisseur pour lequel l'OPCVM a été créé, ainsi
+que la durée de placement recommandée le cas échéant.
+S'agissant du profil type de l'investisseur, sa description est complétée, lorsque cela
+est pertinent, par des éléments, sur
+L'aversion au risque ou la recherche de l'exposition à un risque des souscripteurs visés
+La proportion du portefeuille financier ou du patrimoine des clients qu'il est raisonnable
+d'investir dans cet OPCVM
+Ainsi qu'un avertissement sur la nécessité de diversification des placements.
+S'agissant de la durée de placement recommandée, celle-ci doit être cohérente avec l'objectif
+de gestion et les catégories d'instruments dans lequel l'OPCVM est investi. Elle doit être
+cohérente avec une prise de risque minimale en capital, en fonction de l'évolution long terme
+des marchés et non pas d'une situation de marché ponctuelle ou atypique. À titre d'illustration,
+la COSUMAF serait amenée à interroger la société de gestion sur les raisons de son choix si
+la durée de placement recommandée d'un OPCVM « actions » était inférieure à 5 ans.
+18
+=== page 19 ===
+150 Modalités de détermination et d'affectation des revenus
+(A décliner par catégorie de parts, le cas échéant).
+160 Fréquence de distribution
+(A décliner par catégorie de parts, le cas échéant).
+170 Caractéristiques des parts ou actions : (devises de libellé, fractionnement, etc.)
+(A décliner par catégorie de parts, le cas échéant).
+180 Modalités de souscription et de rachat
+(Avec mention et adresse de l'organisme désigné pour recevoir les souscriptions et les
+rachats)
+Cette rubrique comporte les mentions et le tableau suivants2 •
+« Les ordres sont exécutés conformément au tableau ci-dessous .
+J-q ouvrés [O
+Centralisatio
+n avant [12h1
+des ordres
+de
+souscription
+1
+J-p ouvrés [0
+Centralisatio
+n avant [12h1
+des ordres
+de rachatl
+jour
+d'établisseme
+nt de la VL
+Exécution de
+l'ordre au plus
+tard en J
+ouvrés
+Publicatio
+n de la
+valeur
+liquidative
+J+S ouvrés
+[0 É s' 51
+Livraison
+des
+souscription
+s
+J+Z
+ouvrés [0
+Règleme
+nt
+des
+rachats
+a.
+b.
+c.
+d.
+ISauf éventuel délai spécifique convenu avec votre établissement financier. »
+Précision des modalités de passage d'un compartiment à un autre, d'une catégorie de
+parts ou d'actions à une autre, y compris du point de vue fiscal ;
+pour un OPCVM dont les parts ou actions sont admises aux négociations sur la Bourse
+Régionale : indication des modalités d'admission sur un marché réglementé où les
+parts ou actions sont négociés
+Possibilités prévues de limiter ou arrêter les souscriptions
+Existence et description d'éventuels préavis incitatifs de souscription et/ou de rachat .
+2 Où « q » est le délai de préavis de souscription, « p » est le délai de préavis de rachat, « y » est le délai de publication de la valeur
+liquidative, « s » est le délai de souscription des ordres et « z » est le délai de règlement des rachats.
+19
+=== page 20 ===
+Exemple de rédaction de préavis incitatif de rachat
+« Des commissions de rachat s'appliqueront dans les conditions suivantes .
+e.
+pour les règlements sans délai d'exécution de l'ordre : 2 % acquis à l'OPCVM pour
+toute demande de rachat présentée avec un préavis inférieur à 35 jours ;
+pour les règlements avec un délai d'exécution de l'ordre (préavis) égal ou supérieur à
+35 jours : néant. »
+Existence et description d'un éventuel délai entre la date de centralisation d'un ordre
+de souscription ou de rachat, et la date de règlement par le teneur de compte émetteur
+ou de livraison des parts ou actions de l'OPCVM.
+Exemple de rédaction portant sur le délai applicable lors du rachat de parts ou actions pour un
+OPCVM dont la périodicité de valorisation est mensuelle
+« Le délai entre la date de centralisation de l'ordre de souscription ou de rachat et la date de
+règlement de cet ordre par le dépositaire au porteur est de XX (60 jours maximum)
+i.
+ii.
+iii.
+iv.
+Une valeur liquidative est établie le dernier jour ouvré de chaque semaine (date
+d'établissement de la valeur liquidative) ,
+La valeur liquidative est calculée et publiée au plus tard 20 jours après sa date
+d'établissement de la valeur liquidative ,
+Le dépositaire règle les parts ou actions au plus tard 5 jours après la date de calcul
+et de publication de la valeur liquidative ,
+Les ordres de rachat doivent être transmis au plus tard avant 12 heures, 35 jours
+avant la date d'établissement de la valeur liquidative. Si ce jour n'est pas un jour
+ouvré, il doit être transmis au plus tard avant 12 heures le jour ouvré précédent.
+À titre d'exemple, un porteur souhaitant faire racheter ses parts surla valeur liquidative du 30
+avril, doit faire parvenir son ordre de rachat au plus tard le 26 mars à 12 heures. La valeur
+liquidative du 30 avril sera calculée et publiée le 20 mai, et le dépositaire règlera les rachats
+au plus tard le 25 mai.
+L'attention des investisseurs est attirée sur le fait qu'un ordre de rachat passé par un porteur
+le 27 mars (c'est-à-dire après la date limite de centralisation) ne serait pas exécuté sur la
+valeur liquidative établie le 30 avril, mais sur celle établie le 30 mai. Dans ce cas, un délai de
+90 jours s'écoulerait entre la date de passation de l'ordre et la date de règlement du rachat par
+le dépositaire.
+Cet exemple ne tient pas compte des décalages pouvant intervenir si les jours mentionnés ne
+sont pas ouvrés ».
+20
+=== page 21 ===
+f. Dispositif de plafonnement des rachats (« gates ») •
+Existence d'un dispositif de « gates »
+Les modalités de fonctionnement des « gates » doivent être décrites de façon précise dans
+les documents d'information des OPCVM concernés. II est rappelé que la société de gestion
+doit évaluer la pertinence du dispositif retenu, notamment au regard des conséquences sur la
+gestion de la liquidité de l'OPCVM que pourraient avoir certains dispositifs de plafonnement
+des rachats.
+ii.
+iii.
+iv.
+Description de la méthode retenue (seuil d'activation des « gates » qui doit être
+appliqué sur les rachats centralisés à une même date pour l'ensemble de l'actif de
+l'OPCVM et non de façon spécifique selon les catégories de parts, éventuel montant
+minimum nécessaires au déclenchement de l'application des règles de
+plafonnement des ordres de rachats...) ;
+En cas d'activation du mécanisme de « gates », modalités d'information des
+porteurs dont les ordres n'ont pas été entièrement exécutés, ainsi que de l'ensemble
+des porteurs ,
+Traitement des ordres non exécutés (report, annulation, faculté ouverte aux
+porteurs de s'opposer au report) ,
+Renvoi vers le règlement ou les statuts de l'OPCVM pour obtenir des informations
+plus précises sur le dispositif de « gates » .
+Absence de dispositif de « gates »
+Dans l'hypothèse où l'OPCVM ne prévoit pas de dispositif de « gates », l'avertissement suivant
+doit être mentionné de manière visible dans le document d'information, mettant en garde les
+investisseurs sur l'absence de cet outil de gestion de liquidité3 •
+« En cas de circonstances exceptionnelles, l'absence de mécanisme de plafonnement des
+rachats pourra avoir pour conséquence l'incapacité de l'OPCVM à honorer les demandes de
+rachats et ainsi augmenter le risque de suspension complète des souscriptions et des rachats
+sur cet OPCVM. ».
+g) pour un OPCVM dont l'objectif de gestion est fondé sur un indice et dont les parts ou actions
+sont admises aux négociations sur la bourse régionale, le document d'information doit contenir
+les précisions ci-après
+21
+=== page 22 ===
+g.
+h.
+conditions de souscriptions et de rachat du fonds sur le marché primaire ,
+admission et négociation des parts du fonds sur le marché secondaire
+Lorsque l'objectif de gestion de l'OPCVM est fondé sur un indice et que les parts ou
+actions de cet OPCVM sont admises aux négociations sur un marché réglementé, ces
+parts ou actions acquises sur un marché secondaire ne peuvent généralement pas être
+rachetées au niveau du fonds. Le document d'information et les communications à
+caractère commercial du fonds doivent comporter l'avertissement suivant : « Les parts
+ou actions de l'OPCVM coté acquises sur le marché secondaire ne peuvent
+généralement pas être directement revendues à l'OPCVM coté. Les investisseurs
+doivent acheter et vendre les parts/actions sur un marché secondaire avec l'assistance
+d'un intermédiaire (par exemple un courtier) et peuvent ainsi supporter des frais. En
+outre, il est possible que les investisseurs paient davantage que la valeur liquidative
+actuelle lorsqu'ils achètent des parts/actions et reçoivent moins que la valeur liquidative
+actuelle à la revente. »
+indiquer la procédure à suivre par les investisseurs qui ont acheté leurs parts/actions
+sur le marché secondaire, ainsi que les éventuels coûts associés.
+pour un OPCVM dont l'objectif de gestion est fondé sur un indice et dont les parts ou
+actions sont admises aux négociations sur la bourse régionale, le document
+d'information doit indiquer la manière dont la valeur liquidative indicative est calculée,
+le cas échéant, et la fréquence de ces calculs. Il est par ailleurs indiqué l'endroit où est
+publiée la valeur liquidative indicative, le cas échéant.
+pour un OPCVM dont l'objectif de gestion est fondé sur un indice et dont les parts ou
+actions sont admises aux négociations sur la bourse régionale, le document
+d'information doit indiquer les précisions sur les établissements financiers « Teneurs
+de marché ».
+190 Frais et commissions.
+(A décliner par catégorie de parts, le cas échéant).
+L'objectif du document d'information est de donner une description de l'exhaustivité des frais,
+commissions et rémunérations des différents acteurs et intermédiaires, les informations
+complémentaires (commissions de gestion indirectes par exemple) venant détailler le total des
+coûts récurrents du document d'informations simplifié notamment et les informations requises
+au titre de l'article 403 du Règlement Général de la COSUMAF:
+22
+=== page 23 ===
+a.
+Les commissions de souscription et de rachat viennent augmenter le prix de
+souscription payé par l'investisseur ou diminuer le prix de remboursement. Les
+commissions acquises à l'OPCVM servent à compenser les frais supportés par
+l'OPCVM pour investir ou désinvestir les avoirs confiés. Les commissions non acquises
+reviennent à la société de gestion, au commercialisateur, etc.
+Ces éléments doivent être présentés sous la forme d'un tableau
+Frais à la charge de l'investisseur,
+prélevé lors des souscriptions et des
+rachats
+Commission de souscription non acquise
+à l'OPCVM
+Commission de souscription acquise à
+l'OPCVM
+Commission de rachat non acquise à
+Assiette
+Valeur liquidative
+x
+Nombre
+parts/actions
+Valeur liquidative
+Taux barème
+A %, A% maximum, ou
+modalité
+particulière
+de
+(fourchette, etc.)
+B % ou selon modalités
+particulières4 (applicables à
+x
+Nombre
+parts/actions
+Valeur liquidative
+de
+l'ensemble
+souscriptions)
+des
+C %, C% maximum, ou
+l'OPCVM
+Commission
+l'OPCVM
+modalité
+particulière
+de
+rachat
+acquise
+à
+Nombre
+parts/actions
+Valeur liquidative
+de
+x
+Nombre
+parts/actions
+de
+(fourchette, etc.
+D % ou selon modalités
+particulières5 (applicables à
+l'ensemble des rachats)
+b.
+c.
+d.
+les frais de gestion financière
+les frais de fonctionnement et autres services ,
+les frais indirects maximum (commissions et frais de gestion).
+7 Par exemple dans le cas des droits d'entrée ajustables acquis
+5 Par exemple dans le cas des droits de sortie ajustables acquis
+23
+=== page 24 ===
+e.
+les commissions de mouvement. Le barème des commissions de mouvement devant
+figurer dans le document d'information devra préciser notamment :
+Les assiettes retenues sur .
+Les transactions ,
+Les opérations sur titres
+Les autres opérations ,
+Les taux ou montants applicables à ces différentes assiettes (par mesure de
+simplification, les OPCVM ont la possibilité de mentionner un taux maximum, pour
+l'ensemble des instruments) ,
+Les clés de répartition entre les différents acteurs.
+Il doit en outre comporter une description succincte de la procédure de choix des
+intermédiaires et des commentaires éventuels.
+Dans la mesure où de façon exceptionnelle un sous-conservateur, pour une opération
+particulière, serait amené à prélever une commission de mouvement non prévue dans les
+modalités ci-dessus, la description de l'opération et des commissions de mouvement facturées
+doit être renseignée dans le rapport de gestion de l'OPCVM.
+Ces éléments doivent être présentés sous la forme d'un tableau
+1
+2
+Frais facturés à l'OPCVM
+Frais de gestion financières
+Frais de fonctionnement
+services * 7
+et
+Assiette
+Actif net
+Actif net
+Taux barème
+X % TTC
+Taux
+maximum
+X % TTC
+Taux
+maximum (en
+autres
+24
+cas
+de
+prélèvement
+en frais réels)
+ou
+Taux (en cas
+de forfait) **
+=== page 25 ===
+3
+4
+Frais indirects maximum (commissions et Actif net
+frais de gestion)
+Commissions de mouvement
+Prélèvement
+sur
+chaque transaction
+X % TTC
+Taux
+maximum
+Barème
+H % sur les
+actions
+I % sur les
+obligations
+Etc.
+(*) Préciser exhaustivement les frais de fonctionnement et autres services concernés.
+(**) La mention est complétée par une précision sur le fait que ce taux peut être prélevé quand
+bien même les frais réels sont inférieurs et que tout dépassement de ce taux est pris en charge
+par la société de gestion.
+( ) Le cas échéant, un taux maximum peut être indiqué, en plus du taux effectif.
+Seuls les frais mentionnés ci-dessous peuvent être hors champ des 5 blocs de frais évoqués
+ci-dessus et doivent dans ce cas être mentionnés ci-après .
+Les contributions dues pour la gestion de l'OPCVM du règlement CEMAC-UMAC ; les
+impôts, taxes, redevances et droits gouvernementaux (en relation avec l'OPCVM)
+exceptionnels et non récurrents ;
+Les coûts exceptionnels et non récurrents en vue d'un recouvrement des créances ou
+d'une procédure pour faire valoir un droit (ex : procédure de class action).
+L'information relative à ces frais est décrite en outre ex post dans le rapport annuel de
+l'OPCVM.
+De façon optionnelle, la société de gestion peut
+Fusionner les frais de gestion financière et les frais de fonctionnement et autres services.
+Dans ce cas, le nom de la rubrique s'intitule « frais de gestion financière et frais de
+fonctionnement et autres services» ,
+Choisir, s'agissant des frais de fonctionnement et autres services, un prélèvement sur la
+base des frais réels ou sur la base d'un forfait dans la limite du taux maximum du barème
+indiqué
+Ajouter un taux maximum total de frais comprenant les frais de gestion financière, les frais
+de fonctionnement et autres services, les commissions de mouvement et les frais indirects.
+25
+=== page 26 ===
+Ainsi, la société de gestion peut indiquer par exemple que « le total des frais maximum
+sera de X% par an de l'actif net ».
+Seuls les OPCVM qui affichent les frais dans le document d'information selon la présentation
+ventilée (des frais de gestion financière et des frais de fonctionnement et autres services) et
+ayant opté pour un prélèvement en frais réels de ces derniers peuvent bénéficier de la
+possibilité d'informer les actionnaires ou porteurs de parts de l'OPCVM par tout moyen.
+Dans ce cas, le document d'information comprend une mention indiquant clairement que
+l'OPCVM sera susceptible de ne pas informer ses actionnaires ou porteurs de parts de
+manière particulière, ni de leur offrir la possibilité d'obtenir le rachat de leurs actions ou parts
+sans frais en cas de majoration des frais de fonctionnement et autres services pour lesquels
+le prélèvement en frais réels a été choisi qui serait égale ou inférieure à 10 points de base par
+année civile ; l'information des actionnaires ou porteurs de parts pouvant alors être réalisée
+par tout moyen (par exemple, sur le site Internet de la société de gestion de portefeuille, dans
+la rubrique relative à l'OPCVM concerné). Il est rappelé que cette information devra, par
+ailleurs, être publiée en préalable à sa prise d'effet.
+Les OPCVM existants qui décideraient d'ajouter cette mention dans leur document
+d'information doivent en informer leurs actionnaires ou porteurs de parts de manière préalable,
+par l'intermédiaire d'une information particulière et leur laisser la possibilité d'obtenir le rachat
+de leurs actions ou parts sans frais.
+Si la société de gestion souhaite utiliser un taux réel fixe, elle pourra afficher un tableau
+simplifié avec ce taux unique.
+Lorsque l'OPCVM est nourricier, les informations relatives aux frais (et notamment le tableau)
+du maître doivent être reprises dans le document d'information du nourricier.
+Dans le cas d'un OPCVM dont les parts ou actions sont admises aux négociations sur la
+bourse régionale, le document d'information doit préciser, le cas échéant, l'impact de cette
+admission sur les frais/commissions de souscription/rachat aux investisseurs recourant à ce
+mode de distribution.
+IV - Informations d'ordre commercial
+Cette rubrique doit comporter les informations sur les mesures prises pour effectuer .
+10 Les distributions ,
+26
+=== page 27 ===
+20 Le rachat ou le remboursement des parts
+30 La diffusion des informations concernant l'OPCVM
+40Les supports sur lesquels l'investisseur peut trouver l'information sur les critères ESG pris
+en compte par l'OPCVM dans sa stratégie d'investissement.
+Lorsque les parts sont commercialisées dans un autre État membre, les informations précitées
+sont données en ce qui concerne cet État membre et sont comprises dans le document
+d'information.
+V - Règles d'investissement
+Cette rubrique comporte une description des différents ratios réglementaires et spécifiques
+applicables à l'OPCVM. Cette description peut directement faire référence aux textes
+applicables.
+Mention particulière sur la dérogation permettant d'investir en dehors des ratios de l'article 411
+du Règlement Général de la COSUMAF dans des titres garantis en indiquant les États, les
+collectivités publiques territoriales et les organismes internationaux à caractère public dans
+lesquels ils ont l'intention de placer ou ont placé plus de 40 % de leurs actifs.
+VI - Risque global
+Mention de la méthode de calcul du ratio du risque global (méthode du calcul de l'engagement
+ou méthode de calcul de la VAR).
+Mention particulière sur les informations relatives au portefeuille de référence si la VAR relative
+est appliquée.
+Si la VAR (absolue ou relative) est appliquée, faire apparaître le niveau de levier indicatif de
+l'OPCVM, calculé comme la somme des nominaux des positions sur les contrats financiers
+utilisés, ainsi que la possibilité pour l'OPCVM d'atteindre un niveau de levier plus élevé.
+VII - Règles d'évaluation de l'actif
+Les règles d'évaluation de l'actif reposent sur des méthodes d'évaluation et sur des modalités
+pratiques qui sont précisées dans l'annexe aux comptes annuels et dans le document
+d'information.
+1. Les règles d'évaluation sont fixées, sous leur responsabilité, par le conseil
+d'administration ou le directoire de la SICAV ou, pour un FCP, par la société de gestion.
+Le document d'information précise les méthodes d'évaluation de chaque natur
+27
+=== page 28 ===
+d'instruments financiers, dépôts ou valeurs et les modalités pratiques de valorisation de
+ceux-ci. Les méthodes d'évaluation fixent les principes généraux de valorisation par
+référence à une négociation sur un marché ou par référence aux méthodes spécifiques
+prévues notamment par le plan comptable OPCVM. Ces principes permettent de définir
+les modalités pratiques de valorisation. Par « modalités pratiques », il faut entendre pour
+chaque information nécessaire à la valorisation (courbe de taux, bourse, ...), la source
+des informations nécessaires à la valorisation et, le cas échéant, l'heure de récupération.
+Ces modalités pratiques doivent permettre de s'assurer que les valeurs liquidatives sont
+calculées de manière identique à chaque valeur liquidative.
+Le document d'information prévoit également des modalités pratiques alternatives en cas,
+notamment, d'indisponibilité des données financières nécessaires à l'évaluation ainsi qu'une
+information du commissaire aux comptes de l'OPCVM en cas de mise en oeuvre.
+À titre d'exemple
+a.
+b.
+Pour les actions, la méthode de valorisation précise que l'on retient les derniers cours
+connus à l'heure de valorisation de l'OPCVM tandis que les modalités pratiques
+précisent l'heure pour chacun des marchés réglementés utilisés et s'il s'agit du cours
+d'ouverture ou de clôture
+Pour les TCN, la méthode de valorisation précise quelles options du plan comptable sont
+retenues et les modalités pratiques précisent notamment les sources d'information des
+taux retenus.
+Le plan de ce paragraphe dans le document d'information est le suivant : « Les
+instruments financiers et valeurs négociées sur la bourse régionale sont évalués..
+Toutefois, les instruments suivants sont évalués selon les méthodes spécifiques
+suivantes
+Les instruments financiers non négociés sur la bourse régionale sont
+évalués .
+Les contrats sont évalués .
+Les dépôts sont évalués
+Autres instruments.
+Les instruments financiers dont le cours n'a pas été constaté le jour de
+l'évaluation ou dont le cours a été corrigé sont évalués à leur valeur
+probable de négociation sous la responsabilité du conseil d'administration
+ou du directoire de la SICAV ou, pour un fonds commun, de la société de
+gestion. Ces évaluations et leur justification sont communiquées au
+commissaire aux comptes à l'occasion de ses contrôles
+28
+=== page 29 ===
+Descriptions des autres modalités pratiques alternatives d'évaluation et des
+cas de mise en œuvre. »
+Le document d'information décrit la méthode d'évaluation des garanties et sa justification et
+mentionne l'utilisation ou non d'une évaluation au prix du marché (mark-to-market) quotidienne
+et de marges de variation quotidiennes.
+2. Méthode de comptabilisation. Le mode de comptabilisation retenu pour l'enregistrement
+des revenus des instruments financiers (coupon couru ou coupon encaissé, prise en
+compte des intérêts du week-end, ... ) et des frais de transaction (frais inclus ou frais
+exclus, le cas échéant, par nature d'instruments) doit être précisé.
+VIII — Politique de Rémunération
+Le document d'information comporte une présentation détaillée de la politique de
+rémunération précisant la manière dont les rémunérations et les avantages sont calculés,
+l'identité des personnes responsables de l'attribution des rémunérations et des avantages et
+la composition du comité de rémunération, lorsqu'un tel comité existe.
+29

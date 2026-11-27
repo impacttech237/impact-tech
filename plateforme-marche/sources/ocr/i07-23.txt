@@ -1,0 +1,404 @@
+=== page 1 ===
+Union Monétaire de ItAfrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique Centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF no 07-23 du 5 décembre 2023
+RELATIVE A L'AGREMENT DES DEPOSITAIRES D'ORGANISMES DE PLACEMENT COLLECTIF (OPC)
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel no 03/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création de la Commission de
+Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF)
+Vu le Règlement N001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant organisation et
+fonctionnement du marché financier de l'Afrique Centrale ,
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique Centrale,
+En sa séance du 5 décembre 2023 à Libreville ;
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT :
+1
+=== page 2 ===
+ARTICLE PREMIER
+La présente instruction s'applique à l'ensemble des entités souhaitant exercer une activité de dépositaire d'OPC.
+Article 2
+Les informations suivantes sont à fournir lors de la demande initiale de l'agrément en tant que dépositaire d'OPC
+et lors de tout changement significatif ultérieur d'éléments qui sont à la base de l'autorisation initiale et/ ou du
+modèle opérationnel.
+INFORMATIONS A FOURNIR
+Article 3 — Informations sur l'entité
+1. Entité concernée
+Nouvelle entité :
+Établissement de crédit :
+Caisse de dépôt et
+consignation
+Dénomination sociale :
+Siège social
+Agrément(s) détenu(s)
+Agrément(s)
+instruction
+Personne(s) de contact
+la
+demande
+pour
+d'agrément
+Oui/Non
+Oui/Non
+Oui/Non
+Nom(s) :
+Entreprise :
+Entité existante :
+Société de bourse
+Oui/Non
+Oui/Non
+Téléphone :
+E-mail :
+Présentation générale et
+organigramme
+du
+groupe auquel l'entité
+dépositaire appartient.
+Article 4 — information sur le périmètre des OPC visés
+2. Projet et véhicules d'investissement visés
+A — Types de véhicules pour lesquels l'entité envisage de prester la fonction de dépositaire
+OPCVM
+Organisme
+titrisation
+OPCI
+de
+OPC
+de
+capital
+investissement
+Organismes
+professionnels
+d'investissement
+long terme (OPI)
+à
+Oui / Non
+Oui/Non
+Oui/Non
+Oui/Non
+Oui/Non
+2
+=== page 3 ===
+B- Plan d'activités prévisionnel pour les trois (3) prochaines années, indiquant le nombre annuel estimé de
+véhicules d'investissement, leur répartition par types et par politiques de placement.
+Article 5 — Moyens Humains
+3. Descriptif des moyens humains
+A— Un organigramme complet de l'entité, en indiquant notamment la structure des différents départements
+intervenants dans le cadre de la fonction de dépositaire ainsi que les différents liens hiérarchiques et
+fonctionnels entre eux et avec la direction de l'entité, ceci dans un but de contrôle de l'adéquation de la
+structure pour l'accomplissement de la mission de dépositaire.
+B — Nombre total de personnes employées par l'entité ainsi que le nombre total d'employés affectés à l'activité
+de dépositaire d'OPC. Joindre un descriptif général des compétences et de l'expérience professionnelle des
+employés de la ligne métier de dépositaire d'OPC.
+C- Le(s) nom(s) du/des responsable(s) de la fonction de dépositaire d'OPC et une justification que le(s)
+responsable(s) dispose(nt) de l'honorabilité et de l'expérience professionnelle requises eu égard notamment
+aux types d'OPC pour lesquels l'entité compte agir comme dépositaire, en fournissant notamment le(s) CV et
+la/les déclaration(s) sur l'honneur de la/des personne(s) responsable(s) de la fonction de dépositaire d'OPC à
+la date de la demande.
+D- Est-ce que des comités spécifiques liés à la fonction de dépositaire d'OPC ont été mis en place localement
+au niveau de l'entité et au niveau du groupe ?
+Dans l'affirmative, veuillez détailler leur mode de fonctionnement et le processus décisionnel.
+Article 6 — Moyens techniques
+4. Descriptif des moyens techniques
+A — Fournir une description de l'organisation (organigramme, nombre de personnes) et de la stratégie
+informatique. Confirmer que le responsable IT ou l'équipe informatique de l'entité sera en charge et
+activement impliquée dans la gestion des accès (e.g. demande et validation de la création de nouveaux profils
+utilisateurs) ainsi que dans la gestion des changements sur ses systèmes informatiques.
+B. Préciser les systèmes informatiques qui seront utilisés par l'entité pour l'activité de dépositaire d'OPC.
+Fournir un schéma d'architecture. Préciser la localisation de tous les systèmes informatiques utilisés pour
+l'activité de dépositaire d'OPC.
+C- précisez l'identité de la personne qui assure la gestion et l'administration des systèmes informatiques et
+de l'infrastructure sous-jacente (système d'exploitation, base de données) ainsi que le modèle de services
+dédié ou partagé. Dans le cas où les systèmes sont partagés, veuillez également préciser les mesures de
+sécurité implémentées pour assurer la ségrégation des environnements.
+D- Veuillez préciser les mesures et mécanismes de sécurité physique (contrôles d'accès, sécurité
+environnementale) relatifs aux locaux informatiques / centres de données de l'entité.
+E — Veuillez fournir une description des mesures de sécurité logique et les mécanismes relatifs aux connexions
+aux systèmes informatiques (e.g. redondance des connexions, protocole de sécurité utilisé). Veuillez préciser
+notamment le protocole, l'algorithme de cryptage utilisé et la longueur des clés utilisés.
+3
+=== page 4 ===
+F Veuillez décrire le mécanisme d'authentification des utilisateurs pour accéder aux systèmes informatiques,
+en local et à distance.
+G- Veuillez préciser si des accès à distance seront utilisés (par des employés internes, du groupe ou par des
+prestataires informatiques externes) et si vous prévoyez d'utiliser des terminaux mobiles.
+H. Veuillez préciser les contrôles effectués sur les accès aux systèmes informatiques utilisés par l'entité pour
+l'activité de dépositaire d'OPC (e.g. respect du principe « need-to-know », processus d'attribution, de
+modification et de révocation des accès et revue régulière des droits d'accès — au moins semestrielle).
+Ces principes doivent être formalisés dans une procédure de gestion des accès.
+l. Veuillez indiquer si les données stockées sont encryptées ou non. Dans l'affirmative, veuillez décrire les
+processus de cryptage qui ont été mis en place en précisant le protocole, l'algorithme de cryptage et la
+longueur des clés.
+J. Veuillez fournir une description des solutions de sauvegarde notamment, le type (i.e. full ou incrémental),
+la fréquence et les périodes de rétention, la localisation des sauvegardes et la restriction d'accès à ces
+sauvegardes.
+K. Veuillez confirmer que l'entité dispose d'un accès permanent, direct et inconditionnel (lecture et écriture)
+aux systèmes informatiques mis à disposition par des sous-traitants.
+L'entité doit à tout moment pouvoir reprendre ses activités en main.
+L. Veuillez décrire les grands principes des stratégies d'un plan de reprise d'activités (DRP / Disaster Recovery
+Plan) et plan de continuité d'activité (BCP Business Continuity Plan) par rapport aux activités de dépositaire
+d'un dépositaire d'OPC. Veuillez préciser les locaux de secours dans le cadre de l'activation d'un BCP.
+L'entité doit confirmer que les solutions de sauvegarde, le BCP et le DRP seront en ligne avec ses besoins en
+termes de continuité.
+Article 7 — Procédure de contrôle
+5. Procédure de contrôle
+A. Liste des procédures
+B. Préciser les systèmes informatiques qui seront utilisés par l'entité pour l'activité de dépositaire d'OPC.
+Fournir un schéma d'architecture. Préciser la localisation de tous les systèmes informatiques utilisés pour
+l'activité de dépositaire d'OPC.
+C. Précisez l'identité de la personne qui assure la gestion / l'administration des systèmes informatiques et de
+l'infrastructure sous-jacente (système d'exploitation, base de données) ainsi que le modèle de services dédié
+ou partagé. Dans le cas où les systèmes sont partagés, veuillez également préciser les mesures de sécurité
+implémentées pour assurer la ségrégation des environnements.
+D. Veuillez préciser les mesures et mécanismes de sécurité physique (contrôles d'accès, sécurité
+environnementale) relatifs aux locaux informatiques / centres de données de l'entité
+E. Veuillez fournir une description des mesures de sécurité logique et les mécanismes relatifs aux connexions
+aux systèmes informatiques (e.g. redondance des connexions, protocole de sécurité utilisé). Veuillez préciser
+notamment le protocole, l'algorithme de cryptage utilisé et la longueur des clés utilisés.
+4
+=== page 5 ===
+F. Veuillez décrire le mécanisme d'authentification des utilisateurs pour accéder aux systèmes informatiques,
+en local et à distance.
+G. Veuillez préciser si des accès à distance seront utilisés (par des employés internes, du groupe ou par des
+prestataires informatiques externes) et si vous prévoyez d'utiliser des terminaux mobiles.
+H. Veuillez préciser les contrôles effectués sur les accès aux systèmes informatiques utilisés par l'entité pour
+l'activité de dépositaire d'OPC (e.g. respect du principe « need-to-know », processus d'attribution, de
+modification et de révocation des accès et revue régulière des droits d'accès — au moins semestrielle).
+Ces principes doivent être formalisés dans une procédure de gestion des accès.
+l. Veuillez indiquer si les données stockées sont encryptées ou non. Dans l'affirmative, veuillez décrire les
+processus de cryptage qui ont été mis en place en précisant le protocole, l'algorithme de cryptage et la
+longueur des clés.
+J. Veuillez fournir une description des solutions de sauvegarde notamment, le type (i.e. full ou incrémental),
+la fréquence et les périodes de rétention, la localisation des sauvegardes et la restriction d'accès à ces
+sauvegardes.
+K. Veuillez confirmer que l'entité dispose d'un accès permanent, direct et inconditionnel (lecture et écriture)
+aux systèmes informatiques mis à disposition par des sous-traitants.
+L'entité doit à tout moment pouvoir reprendre ses activités en main.
+L. Veuillez décrire les grands principes du plan de reprise d'activités (DRP / Disaster Recovery Plan) et du plan
+de continuité d'activité (BCP Business Continuity Plan) par rapport aux activités de dépositaire d'un dépositaire
+d'OPC. Veuillez préciser les locaux de secours dans le cadre de l'activation d'un BCP.
+L'entité doit confirmer que les solutions de sauvegarde, le BCP et le DRP seront en ligne avec ses besoins en
+termes de continuité.
+Article 8 — Dispositions organisationnelles en rapport avec les fonctions de dépositaire
+6. Dispositions organisationnelles en rapport avec les fonctions de dépositaire
+Description des modalités d'exécution et des dispositions organisationnelles telles que reprises sous les
+points A à E ci-dessous, de toutes les tâches opérationnelles du modèle se rapportant à la fonction de
+dépositaire d'OPC, en mettant notamment l'accent sur une description claire et précise de tous les principes
+et exigences y énumérés.
+Cette description doit s'accompagner notamment de tous les points de contrôle mis en œuvre au jour le
+jour pour chaque tâche opérationnelle, y compris leur fonctionnement et toute la documentation sous-
+jacente requise pour les matérialiser.
+A — Obligation de garde des actifs
+1) Actifs dont la conservation peut être assurée
+Ouverture des comptes dans les livres du dépositaire et dans le réseau des délégués dans la chaîne
+de conservation des actifs
+Ségrégation adéquate des actifs
+Enregistrement et identification corrects des actifs
+Vérification du droit de propriété des actifs
+5
+=== page 6 ===
+2)
+Diligence requise à l'égard des actifs conservés
+Dispositions organisationnelles appropriées mises en place pour minimiser le risque de perte ou de
+diminution de la valeur des actifs, ou des droits liés à ces actifs ;
+Rapprochements réguliers avec les registres et les comptes des délégués dans la chaîne de
+conservation des actifs (méthodes de rapprochement, fréquences, suivis des différences, vérification
+de la correspondance des positions de liquidités entre ses propres registres et ceux de l'OPC)
+Droits d'accès appropriés aux informations vis-à-vis des délégués dans la chaîne de conservation des
+actifs
+Actifs dont la conservation peut être assurée
+Accès aux informations pertinentes, y compris les informations pertinentes fournies par des tiers,
+pour remplir les obligations en matière de vérification de propriété et d'enregistrement des actifs ;
+Vérification du droit de propriété des actifs et tenue à jour d'un registre de propriété (e.g. inscription
+des actifs et production d'un inventaire complet et à jour) ;
+Rapprochements réguliers (méthodes de rapprochement, fréquences, suivis des différences,
+vérification de la correspondance des positions de liquidités entre ses propres registres et ceux de
+l'OPC, etc.) ;
+Droits d'accès appropriés aux informations vis-à-vis des délégués dans la chaîne de conservation des
+actifs ;
+Instructions/règlements des transactions,
+B. Comptabilisation et suivi adéquat des flux de liquidité
+Ouverture des comptes de liquidités auprès de l'entité dépositaire et des entités tierces éligibles ;
+Comment est-ce que l'entité est informée de l'existence de tous les comptes de liquidités ?
+Suivi des flux de liquidités dont au moins notamment ;
+La comptabilisation sur des comptes de liquidités ouverts auprès d'entités éligibles ;
+La mise en place des procédures de rapprochements périodiques de tous les mouvements de
+liquidités ;
+Le suivi continu des résultats des rapprochements ;
+L'évaluation périodique des procédures de rapprochement ;
+La détection et le suivi des flux de liquidités importants respectivement inhabituels, ainsi que
+des flux de liquidités entrants/ sortants (détermination de seuils, etc.) ;
+La vérification et le suivi des paiements effectués par les porteurs de parts lors de la
+souscription.
+C- Obligations spécifiques de surveillance
+1) Veuillez décrire en détail, la mise en place et la documentation des mesures de contrôle adéquates
+en rapport avec l'exercice des obligations spécifiques de surveillance suivante
+Obligations relatives à la souscription et au remboursement des parts ou actions ;
+Obligations relatives à l'évaluation des parts ou actions ;
+Obligations relatives à l'exécution des instructions de l'OPC ou de la Société de Gestion d'OPC ;
+Obligations relatives au règlement des transactions dans les délais d'usage ;
+Obligations relatives à l'affectation des produits ;
+2) Descriptif de la procédure en matière d'opérations concernant l'administration courante des actifs
+D- Dispositions organisationnelles spécifiques
+a) Descriptif des dispositions organisationnelles spécifiques mises en place par l'entité dépositaire en
+fonction de la politique d'investissement poursuivie par l'OPC ou des techniques auxquelles l'OPC a
+recours (cas de mise en place de garanties ou de sûretés, placements dans des instruments financiers
+dérivés négociés sur un marché réglementé ou de gré à gré, placement dans des OPC cibles, etc.)
+6
+=== page 7 ===
+b) Au cas où l'entité envisage d'effectuer des opérations de prêt de titres, veuillez décrire le rôle et les
+tâches effectués par l'entité.
+E — Schémas des flux
+Schémas explicatifs commentés de tous les flux d'information, de transactions, de Reporting et de contrôles,
+décrivant les processus de traitement en cas d'achats / ventes d'actifs et de souscriptions / rachats des
+investisseurs.
+Article 9 — Réseau des délégués dans la chaîne de conservation des actifs
+7. Réseau des délégués dans la chaîne de conservation des actifs
+A — Liste à jour du réseau de tous les délégués dans la chaîne de conservation des actifs
+B. Est-ce qu'un plan d'urgence et des stratégies de rechange (le cas échéant, par la désignation d'un prestataire
+de remplacement) ont été mis en place par l'entité ?
+C- Est-ce que le recours à un courtier principal a été accepté (selon quelles modalités) et sera utilisé par
+l'entité ?
+Article 10 — Délégation de fonctions par le dépositaire
+8. Délégation de fonctions
+A. En cas de délégation à des délégués dans la chaîne de conservation des actifs des fonctions de garde des
+actifs, veuillez documenter les informations et confirmations suivantes de manière précise :
+veuillez confirmer que les tâches ne sont pas déléguées dans l'intention de se soustraire aux
+exigences qui incombent au dépositaire au titre des dispositions légales applicables ;
+Est-ce que la délégation est justifiée par une raison objective ?
+Veuillez décrire la mise en œuvre et l'application d'une procédure appropriée et documentée de la
+« due diligence » initiale requise lors de la sélection et de la désignation des délégués dans la chaîne
+de conservation des actifs, auxquels l'entité à l'intention de déléguer certaines parties de ses tâches
+et de la « ongoing due diligence » requise dans l'évaluation périodique et le suivi permanent desdits
+délégués auxquels certaines parties des tâches seront déléguées et les dispositions prises par les
+délégués dans la chaîne de conservation des actifs concernant les tâches déléguées ;
+Est-ce que les délégués dans la chaîne de conservations des actifs disposent en permanence de
+structures et d'une expertise adéquate et proportionnée à la nature et à la complexité des actifs des
+OPC qui leur sont confiés ?
+Pour les tâches de conservation visant les actifs dont la conservation peut être assurée, est ce que
+les délégués dans la chaîne de conservation des actifs sont soumis en permanence à la
+réglementation et à une surveillance prudentielle efficaces, y compris aux exigences de fonds
+propres, dans la juridiction concernée ainsi qu'à un contrôle périodique externe afin de garantir que
+les instruments financiers sont en leur possession ?
+Est-ce que les délégués dans la chaîne de conservation des actifs effectuent en permanence une
+ségrégation adéquate des actifs des OPC de l'entité dépositaire de ses propres actifs et des actifs de
+l'entité dépositaire, de façon à ce que les actifs puissent à tout moment être identifiés comme des
+actifs appartenant aux OPC de l'entité dépositaire ?
+Veuillez confirmer que les délégués dans la chaîne de conservation des actifs n'utilisent pas les actifs
+sans l'accord préalable de l'OPC ou de la Société de Gestion agissant pour le compte de l'OPC et sans
+en avoir informé au préalable le dépositaire ;
+Les délégués dans la chaîne de conservation des titres prennent en permanence toutes les mesures
+nécessaires et mettent en place des arrangements pour garantir qu'en cas d'insolvabilité des
+7
+=== page 8 ===
+délégués, les actifs conservés par les délégués ne puissent pas être distribués parmi les créanciers
+des délégués ou réalisés dans l'intérêt de ces derniers ?
+Est-ce que l'entité dépositaire s'est procuré un avis juridique indépendant concernant le caractère
+exécutoire de l'accord contractuel avec le délégué, s'il est situé dans un pays en dehors de la zone
+CEMAC, afin de garantir que l'accord contractuel puisse également être exécuté en cas d'insolvabilité
+du délégué ?
+Est-ce que la relation de délégation est formalisée et documentée de manière adéquate par une
+documentation contractuelle entre l'entité dépositaire et le délégué dans la chaîne de conservation
+des actifs ?
+Est-ce que le dépositaire dispose d'une procédure décisionnelle pour le choix des délégués dans la
+chaîne de conservation des actifs auxquels il peut déléguer les fonctions de garde, qui repose sur des
+critères objectifs prédéfinis et sert les seuls intérêts de l'OPC et de ses investisseurs ?
+B- En cas de sous-délégation par les délégués dans la chaîne de conservation des actifs à leur tour de tout ou
+partie de leurs fonctions, est ce que l'entité dépositaire s'est assuré strictement du respect de ces mêmes
+exigences précitées par les délégués, par rapport à chaque entité immédiatement en aval desdits délégués
+dans la chaîne de conservation des actifs ?
+C — Lorsque la législation d'un pays hors zone CEMAC exige que certains instruments financiers soient
+conservés par une entité locale et qu'aucune entité locale ne satisfait aux exigences visées audit point, l'entité
+ne peut déléguer ses fonctions à une telle entité locale, uniquement que dans la mesure où la législation du
+pays tiers l'exige et uniquement tant qu'aucune entité locale ne satisfait aux obligations en matière de
+délégation.
+Dans ce cas précis, veuillez confirmer le respect strict des exigences suivantes par l'entité :
+Est-ce que les investisseurs sont dûment informés, avant leur investissement, que cette délégation
+est rendue nécessaire par les contraintes juridiques de la législation du pays tiers ainsi que des
+circonstances justifiant la délégation et des risques inhérents à cette délégation ?
+Est-ce que l'OPC ou la Société de Gestion agissant pour le compte de l'OPC, a chargé l'entité
+dépositaire de déléguer la conservation à une telle entité locale ?
+D — Lorsque la législation du pays hors zone CEMAC exige que certains instruments financiers soient conservés
+par une entité locale et lorsqu'aucune entité locale ne satisfait aux exigences relatives à la délégation visées
+au 5, l'entité dépositaire peut se décharger de sa responsabilité.
+Dans ce cas précis, veuillez confirmer que le dépositaire s'est assuré du respect strict des conditions suivantes :
+Est-ce que le règlement ou les documents constitutifs de l'OPC autorisent expressément une telle
+décharge aux conditions prévues par le présent paragraphe ?
+Est-ce que les investisseurs de l'OPC ont été dûment informés, avant leur investissement, de la
+décharge et des circonstances la justifiant ?
+Est-ce que l'OPC ou la Société de Gestion agissant pour son compte a donné l'instruction au
+dépositaire de déléguer la conservation de ces instruments financiers à une entité locale ?
+Est-ce qu'il existe un contrat écrit entre le dépositaire et l'OPC ou la Société de Gestion agissant pour
+le compte de l'OPC, autorisant expressément cette décharge ?
+Est-ce qu'il existe un contrat écrit entre le dépositaire et le tiers qui transfère expressément la
+responsabilité du dépositaire vers l'entité locale et qui permet à l'OPC ou à la Société de Gestion
+d'OPC agissant pour le compte de l'OPC, de déposer plainte contre l'entité locale au sujet de la perte
+d'instruments financiers ou au dépositaire de déposer plainte en leur nom ?
+8
+=== page 9 ===
+Article 11— Ségrégation des tâches
+9. Ségrégation des tâches
+A — Liste à jour du réseau de tous les délégués dans la chaîne de conservation des actifs
+B. Est-ce qu'un plan d'urgence et des stratégies de rechange (le cas échéant, par la désignation d'un prestataire
+de remplacement) ont été mis en place par l'entité ?
+C- Est-ce que le recours à un courtier principal a été accepté (selon quelles modalités) et sera utilisé par
+l'entité ?
+Article 12— Relations avec les autres parties
+10. Relations avec les autres parties
+Schéma illustratif complet et commenté, de tous les flux informationnels et transactionnels mettant en
+évidence tous les différents intervenants et les tiers impliqués dans les opérations liées à la fonction de
+dépositaire d'OPC, à savoir l'entité dépositaire, les délégués dans la chaîne de conservation des actifs, la
+Société de Gestion d'OPC, l'agent administratif, l'agent teneur de registre, les investisseurs des OPC, etc.
+Article 13— Traitement des plaintes
+11. Traitement des plaintes
+Décrire la Politique de traitement des plaintes émanant des investisseurs
+Article 14— Lutte contre le blanchiment et le financement du terrorisme
+12. Lutte contre le blanchiment des capitaux et le financement du terrorisme
+Est-ce que les procédures LBC/FT « AML/KYC » spécifiques ont été mises en place, ou est-ce que des
+procédures LBC/FT« AML / KYC » en place au sein de l'entité sont applicables pour la fonction de dépositaire
+d'OPC ?
+Article 15- Projet de contrat de dépositaire d'OPC
+13. Projet de contrat de dépositaire d'OPC
+Un modèle du contrat écrit de désignation du dépositaire d'OPC, accompagné d'une matrice indiquant où sont
+couverts tous les différents éléments requis par la réglementation OPC applicable.
+Article 16- Revue par la direction et par le responsable de la fonction conformité
+14. Revue par la direction et par le responsable de la fonction conformité
+Veuillez confirmer par une lettre signée par deux (2) futurs membres de direction ou par deux membres
+existants de la direction autorisés par la COSUMAF, que l'intégralité des informations fournies dans le présent
+questionnaire a fait l'objet d'une revue et d'un aval formel de leur part et, le cas échéant, également de la
+part du responsable de la fonction conformité.
+Date d'application
+9
+=== page 10 ===
+Fait à Libreville,
+Pour la COSUMAF
+COMMISSION DE SURVEILLIce,4 ident
+DU MARCHE FINANCER
+DE L'AFRIQUE CENTRAL
+Tél.: +241 01.74
+1
+B.P. 1724 Librevill -GAB
+Jacqueline ADIABA-NKEMBE
+10
+=== page 11 ===
+ANNEXE - MODÈLE DE DÉCLARATION SUR L'HONNEUR
+DÉCLARATION SUR L'HONNEUR
+Je soussigné(e) : ............„..,. ......
+De (nom et prénom(s) du père) : .
+(nom et prénom(s) de la mère) : .
+Demeurant : .
+Déclare sur l'honneur :
+né(e) le :
+. et de
+que toutes les informations fournies dans la demande d'agrément sont sincères ;
+que le dossier d'agrément est conforme à la réglementation du marché financier de l'Afrique
+Centrale ;
+n'avoir fait l'objet d'aucune condamnation pénale ni de sanction civile ou administrative de nature à
+m'interdire de gérer, d'administrer ou de diriger une personne morale.
+J'atteste également avoir connaissance des sanctions disciplinaires, pécuniaires encourues en cas de fausse
+déclaration et ce, sans préjudice des éventuelles sanctions civiles, pénales ou administratives.
+Fait à.
+SIGNATURE . ...........„
+11

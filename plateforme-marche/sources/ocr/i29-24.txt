@@ -1,0 +1,676 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF NO 29-24 du 28 Novembre 2024
+RELATIVE AUX MENTIONS MINIMALES DEVANT FIGURER DANS LES CONTRATS DE
+PLACEMENT CONCLUS ENTRE UN EMETTEUR ET UN AGENT PLACEUR
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel n003/01 -CEMAC-CE 03 en date du 8 décembre 2001 portant création de
+la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 28 novembre 2024 à Libreville
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT
+1
+=== page 2 ===
+ARTICLE PREMIER : CHAMP D'APPLICATION
+La présente instruction est prise en application des dispositions de l'article 173 du règlement
+général de la COSUMAF. Elle s'applique aux opérations d'appel public à l'épargne visées au
+titre Ill du règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022.
+ARTICLE 2 - CONTRAT DE PLACEMENT
+1.
+2.
+3.
+4.
+Le contrat de placement visé à l'article 173 du Règlement Général de la COSUMAF,
+conclu entre l'émetteur et une société de bourse ou, le cas échéant, le chef de file du
+syndicat de placement, comporte à minima les informations précisées en Annexe l.
+Le contrat de placement visé à l'article 173 du Règlement Général de la COSUMAF,
+conclu entre la société de bourse chef de file et les agents placeurs membres du
+syndicat, comporte les informations nécessaires permettant de respecter les
+obligations du Chef de file et de l'Émetteur prévues dans le contrat visé au paragraphe
+1.
+Les informations visées aux paragraphes 1 respectent l'ordre énuméré dans les
+annexes respectives.
+Le contrat de placement peut prévoir des annexes précisant notamment
+a.
+b.
+c.
+d.
+e.
+la procédure d'émission ;
+les restrictions de vente ,
+le modèle de contrat de calcul ;
+le modèle de lettre d'adhésion d'Arrangeur et d'Agent Placeur ;
+le modèle de contrat de Prise Ferme.
+ARTICLE 3 - ENTREE EN VIGUEUR
+La présente Instruction, qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSUMAF.
+Fait à Libreville, le 28 novembre 2024
+Pour la COSUMAF
+sident
+COMMISSION DE SURVEIL
+DU MARCHE FINANCIER
+DE L'AFRIQUE CEN
+9/91
+Tél.: + 241 01.74
+B.P. 1724 Libre Ilie - GABON
+Jacqueline ADIABA-NKEMBE
+2
+=== page 3 ===
+1.
+2.
+ANNEXE
+INFORMATIONS A INCLURE DANS LE CONTRAT DE PLACEMENT ENTRE
+L'EMETTEUR ET LA SOCIETE DE BOURSE
+Définitions et interprétation
+Offres et ventes de Titres
+2.1. Émission et souscription
+Tout Agent Placeur pourra convenir avec l'Émetteur de (i) souscrire et payer ou (ii) faire
+souscrire et payer et, à défaut, souscrire et payer lui-même, une Tranche de Titres.
+L'Émetteur devra alors émettre les Titres correspondants et l'Agent Placeur Concerné devra
+(i) souscrire et payer ou (ii) faire souscrire et payer et, à défaut, souscrire et payer lui-même,
+ces Titres à la Date d'Émission selon les stipulations du présent Contrat et toutes autres
+modalités qui pourraient être convenues entre les parties par ailleurs.
+En outre, s'il en est convenu ainsi à la Date de Négociation, l'Agent Placeur Concerné agira
+uniquement en tant que mandataire de l'Émetteur pour la conclusion d'un contrat aux termes
+duquel un souscripteur acceptera de souscrire et de payer une Tranche de Titres et l'Agent
+Placeur Concerné devra faire tous les efforts raisonnables (aux frais et avec le consentement
+préalable et écrit de l'Émetteur et à condition que ces frais aient été justifiés et raisonnablement
+engagés par l'Agent Placeur Concerné) pour assister l'Émetteur afin d'obtenir du souscripteur
+l'exécution de chaque engagement de souscrire et de payer les Titres, conclu par
+l'intermédiaire de l'Agent Placeur Concerné. L'Agent Placeur Concerné ne sera toutefois pas
+responsable à l'égard de l'Émetteur si l'une quelconque de ces acquisitions n'était pas réalisée
+pour une quelconque raison (autre que la faute intentionnelle ou la faute lourde de l'Agent
+Placeur Concerné).
+2.2. Émissions Syndiquées
+Deux ou plusieurs Agents Placeurs pourront convenir avec l'Émetteur de souscrire et payer
+solidairement des Titres, sauf si les parties en conviennent autrement.
+Les modalités d'un tel engagement seront précisées dans un Contrat de Prise Ferme, qui sera
+conforme en substance au modèle en Annexe ou qui produira en substance les mêmes effets.
+2.3. Procédures et règlement des émissions non-syndiquées
+Les parties conviennent que toutes les émissions de Titres (à l'exception des Émissions
+Syndiquées) seront effectuées conformément à cette sous-clause et aux Procédures
+d'Émission, à moins qu'il n'en soit convenu autrement le moment venu entre l'Émetteur, le ou
+les Agent(s) Placeur(s) Concerné(s) et l'Agent Financier.
+2.4. Agent de Calcul
+S'il est procédé à l'émission de Titres qui requièrent l'intervention d'au moins un agent de
+calcul, l'Émetteur devra demander à l'Agent Financier de remplir ces fonctions, étant entendu
+que l'Émetteur devra, si l'Agent Placeur concerné en fait la demande, nommer à la place de
+l'Agent Financier ledit Agent Placeur et/ou une ou plusieurs autres personnes désignées par
+cet Agent Placeur en qualité d'agent(s) de calcul pour ces Titres. Au cas où un Agent Placeur
+3
+=== page 4 ===
+interviendrait en qualité d'agent de calcul, sa désignation se fera conformément aux modalités
+prévues en Annexe (que l'Émetteur est présumé avoir conclu avec chaque Agent Placeur).
+Dans l'hypothèse où une personne désignée en qualité d'agent de calcul ne serait pas un
+Agent Placeur, elle signera (à moins qu'elle ne l'ait déjà fait) un contrat conforme en substance
+au modèle figurant à l'Annexe du Contrat et la désignation de cette personne se fera
+conformément aux modalités prévues dans ce contrat.
+3. Les Titres
+3.1. Modalités et format
+La devise, les échéances, valeurs nominales et autres modalités des titres prévues au contrat
+de placement figurent dans le document d'information. Les titres, reçus, coupons et talons
+devront en substance revêtir la forme figurant au contrat de service financier.
+3.2. Valeurs nominales
+Sous réserve du respect par l'Émetteur et par le ou les Arrangeurs et Agent(s) Placeur(s)
+Concerné(s) de toutes les dispositions législatives et réglementaires applicables, les titres
+seront émis aux valeurs nominales convenues entre l'Émetteur et le ou les Arrangeurs et
+Agent(s) Placeur(s) Concerné(s), telles qu'indiquées dans le Document d'information préparé
+pour les besoins de l'émission de ces Titres.
+4. Commissions
+A la date de la remise et du paiement de tous titres émis conformément à la Clause 2.1,
+l'Émetteur s'engage à payer à l'Agent Placeur Concerné une commission qui aura été
+convenue avec cet Agent Placeur. Cette commission pourra être déduite du montant de
+souscription à payer à l'Émetteur au titre de ces titres par l'Agent Placeur Concerné, ou de
+toute autre manière convenue.
+Le paiement de toute commission non prévue par l'instruction no 23-24 du 18 juillet 2024 est
+soumis à l'autorisation préalable de la COSUMAF.
+5. Offre de Titres
+5.1. Restrictions de vente
+Chaque Agent Placeur s'engage pour ce qui le concerne à respecter les stipulations figurant
+à l'Annexe du Contrat. Les stipulations figurant à en Annexe du Contrat tel que visé à l'article
+2.4 de la présente Instruction pourront être modifiées conformément aux stipulations de
+l' Annexe.
+Aucun Agent Placeur n'est autorisé à faire des déclarations ou à transmettre des informations
+relatives à l'émission, l'offre ou la vente de Titres, autres que celles contenues dans les
+documents ou les informations (ou conformes à ces derniers) dont la diffusion est autorisée
+conformément à la Clause 5.2.
+=== page 5 ===
+5.2. Distribution du Document d'information
+Sous réserve de la clause 5.1, l'émetteur autorise de manière irrévocable chacun des agents
+placeurs à distribuer pour son compte des exemplaires du document d'information et du
+résumé du document d'information pour laquelle il est un agent placeur concerné et à faire
+des déclarations conformes au contenu de chaque conditions définitives au regard desquelles
+il intervient en qualité d'agent placeur concerné, tout prospectus de tranche pour laquelle il est
+un agent placeur concerné et à faire des déclarations conformes au contenu du document
+d'information de chaque émission au regard de laquelle il intervient en qualité d'agent placeur
+concerné, de tous les documents et informations qui font partie du domaine public à l'initiative
+de l'émetteur et de tous autres documents ou informations remis à cet agent placeur pour
+utilisation dans le cadre du contrat de placement, sous réserve du respect par cet agent
+placeur de toute disposition législative applicable.
+5.3. Régularisation et sur-allocation
+Pour chaque Emission et à moins qu'il n'en ait été convenu autrement entre l'Émetteur et le
+ou les Agent(s) Placeur(s) Concerné(s), l'Agent Placeur Concerné ou, dans le cas d'une
+Émission Syndiquée, le Chef de File, interviendra en qualité d'établissement chargé des
+opérations de régularisation ("Établissement chargé des Opérations de Régularisation").
+Il est toutefois entendu qu'un autre Établissement chargé des Opérations de Régularisation ne
+pourra pas intervenir lors de l'émission d'une Emission supplémentaire au titre d'une Emission
+existante avant la fin des opérations de régularisation relatives à cette Emission.
+L'Établissement chargé des Opérations de Régularisation aura la faculté, dans la limite des
+lois et règlements applicables, d'effectuer des sur-allocations de Titres et toute opération en
+vue de supporter le cours des Titres à un niveau supérieur à celui qui pourrait autrement
+s'établir en l'absence d'une telle intervention. A cet effet, l'Établissement chargé des
+Opérations de Régularisation n'interviendra pas en qualité de mandataire de l'Émetteur.
+Toute perte ou gain résultant de ces opérations de sur-allocation et de régularisation sera
+supportée ou conservée par lui ou, le cas échéant, par les Agents Placeurs Concernés, de la
+manière qui aura été convenue entre eux.
+Ces opérations de régularisation ne pourront débuter qu'après la date à laquelle les Conditions
+Définitives de la Tranche concernée auront été rendues publiques ou à cette date et, une fois
+commencées, elles pourront être arrêtées à tout moment et devront prendre fin au plus tard à
+la première des deux dates suivantes : (i) 30 jours après la date d'émission de l'émission
+concernée et (ii) 60 jours après la date d'allocation des Titres de l'Émission concernée. Ces
+opérations de régularisation seront menées conformément aux lois et règlements applicables
+et n'engageront pas la responsabilité de l'Émetteur.
+6. Cotation et admission aux négociations
+6.1. Demande de cotation et d'admission aux négociations
+L'Émetteur confirme qu'il a déposé ou fait déposer, pour son compte et à ses frais, une
+demande de visa ou d'enregistrement du Document d'information auprès de la COSUMAF en
+vue de l'admission des Titres aux négociations sur la Bourse Régionale, étant précisé que les
+5
+=== page 6 ===
+Titres devront être émis au plus tard à la date de publication du Document d'information. Aux
+fins de la demande d'admission des titres aux négociations, l'Émetteur s'engage
+à fournir tous documents et informations (en sus de ceux qui ont déjà été déposés
+auprès de la Bourse Régionale et de la COSUMAF) qui pourraient être nécessaires
+afin de permettre ou maintenir l'admission aux négociations sur la Bourse Régionale
+à utiliser tous moyens raisonnables afin de maintenir ces admissions aussi longtemps
+que l'Émetteur demeurera tenu de réaliser tout paiement lié aux titres admis aux
+négociations.
+6.2. Avis
+L'Émetteur autorise par les présentes l'Arrangeur à organiser, pour son compte et à ses frais,
+la publication dans des journaux, ou par tout autre moyen, de toutes informations relatives au
+Contrat de placement ou aux Titres conformément aux règles posées par la Bourse Régionale
+et aux dates exigées par ceux-ci ainsi que toute autre information de la façon et aux dates qui
+auront été convenues entre l'Émetteur et l'Arrangeur. L'Émetteur peut également autoriser tout
+autre Agent Placeur à remplir cette fonction spécifique.
+7. Déclarations et Garanties
+A la date du contrat, l'Émetteur déclare et garantit que
+7.1. Personnalité morale
+L'Émetteur est [..] doté de la personnalité morale conformément aux lois de la CEMAC et
+détient les pouvoirs et la capacité nécessaire pour exercer ses activités telles que décrites
+dans le Document d'information ,
+7.2. Document d'information
+(i) le Document d'information est conforme aux dispositions législatives et réglementaires en
+vigueur sur le marché financier de l'Afrique Centrale. Il contient toutes les informations
+importantes relatives à l'Émetteur et aux Titres dans le contexte de l'émission et de l'offre des
+Titres ; (ii) l'Émetteur confirme que les informations et déclarations contenues dans le
+Document d'information sont précises, exactes, sincères et ne sont pas susceptibles d'induire
+le public et les investisseurs en erreur ; (iii) l'Émetteur confirme qu'il n'existe aucun fait le
+concernant ou relatif aux Titres dont l'omission serait susceptible d'induire le public et les
+investisseurs en erreur sur l'un quelconque des éléments contenus dans le Document
+d'information dans le contexte de l'émission des Titres ; (iv) les informations contenues dans
+le Document d'information sont conformes à la réalité et ne comportent pas d'omissions de
+nature à en altérer la portée ; et (v) le Document d'information a été diffusé conformément aux
+dispositions du Règlement Général de la COSUMAF;
+7.3. États financiers
+L'émetteur déclare que les états financiers et/ou autres informations financières de l'Émetteur
+contenus dans le Document d'Information décrivent de manière sincère la situation financière
+de l'Émetteur aux dates auxquelles ils ont été préparés, et pour une période couvrant les douze
+(12) derniers mois il ne s'est produit aucun changement défavorable dans la situation
+financière ou les perspectives de l'Émetteur qui soit significatif, sauf mention contraire dans le
+Document d'information.
+6
+=== page 7 ===
+7.4. Autorisations
+Tous les actes, autorisations, accords ou autres conditions et mesures nécessaires devant
+être pris, donnés et remplis (y compris tous enregistrements et accords nécessaires avant
+l'émission des Titres) ont été pris, donnés et remplis (ou, le cas échéant, le seront, avant ou à
+la date d'émission des Titres) et sont en vigueur, en ce qui concerne
+la diffusion du Document d'information ,
+la signature et la livraison des Titres et la signature des Contrats
+l'émission et le cas échéant, l'admission des Titres aux négociations à la bourse
+régionale conformément aux termes du présent Contrat
+l'exécution par l'Émetteur des modalités des Titres et des Contrats.
+7.5. Absence de conflit
+La signature et la remise des Contrats et des Titres par l'Émetteur et le respect de leurs
+modalités ne contreviennent et ne contreviendront pas à une quelconque disposition législative
+ou réglementaire de la CEMAC publiée ou encore aux stipulations d'un contrat important ou
+d'un acte important auquel l'Émetteur est partie ou d'un jugement le concernant ,
+7.6. Validité
+La signature, la remise (le cas échéant) et l'émission des Titres ainsi que la signature des
+Contrats et leur exécution par l'Émetteur ont été dûment autorisés par l'Émetteur, et après
+signature et, en ce qui concerne les Titres, après le paiement du produit net de l'émission, les
+Titres et les Contrats constitueront des engagements contractuels valables ayant force
+obligatoire à son encontre
+7.7. Litiges
+Pour une période couvrant les douze (12) derniers mois, l'Émetteur n'est impliqué dans aucune
+procédure gouvernementale, judiciaire ou d'arbitrage (y compris toute procédure dont
+l'Émetteur a connaissance, qui est en suspens ou dont il est menacé) qui pourrait avoir ou a
+eu récemment des effets significatifs sur la situation financière de l'Émetteur, sauf dans les
+limites de ce qui est mentionné dans le Document d'Information.
+7.8. Absence de Cas d'Exigibilité Anticipée
+Aucun événement ne s'est produit ni aucune circonstance n'est apparue qui, si les Titres
+avaient été émis, pourrait (avec ou sans notification et/ou écoulement d'un certain délai et/ou
+réalisation d'une quelconque autre condition) constituer un cas d'exigibilité anticipée en vertu
+des Titres
+7.9. Rang de Créance des Titres (le cas échéant)
+IJne fois émis, les Titres constitueront des engagements directs, inconditionnels, non assortis
+de sûretés et non subordonnés de l'Émetteur venant au même rang entre eux et, sous réserve
+des exceptions légales impératives applicables en zone CEMAC, au même rang que tout
+autre engagement non subordonné et non assorti de sûretés présent et futur de l'Émetteur ;
+7.10. Utilisation des fonds
+Le produit net de l'émission des Titres servira à financer les investissements de l'Émetteur
+mentionnés dans le document d'information ,
+7
+=== page 8 ===
+7.11. Montant Maximum
+A la Date d'Émission de tout Titre, en tenant compte de l'émission de ces Titres et de tout
+autre Titre à émettre à la même date ainsi que du remboursement de Titres appelés au
+remboursement au plus tard à la Date d'Émission, le montant nominal total des Titres en
+circulation ne sera pas supérieur au Montant Maximum du Document d'information
+7.12. Démarchage
+Ni l'Émetteur, ni les personnes agissant pour son compte autre que les Agents Placeurs, n'a
+entrepris ou n'entreprendra de démarchage relativement aux Titres ,
+7.13. Sanctions et anti-corruption
+7.13.1. Sanctions
+Ni l'Emetteur, ni aucun de ses dirigeants, représentants ou employés ne fait actuellement
+l'objet de sanctions économiques administrées par l'un des États de la Communauté
+Économique et Monétaire de l'Afrique Centrale et ne prêtera pas, n'investira pas, ni ne mettra
+autrement à disposition le produit de l'émission des Titres au profit de personnes visées par
+de telles sanctions.
+7.13.2. Dispositions anti-corruption
+Ni l'Émetteur ni aucun de ses dirigeants, représentants ou employés ne s'est engagé dans des
+activités ou comportements qui pourraient enfreindre les lois et règlements applicables en
+matière de lutte contre la corruption (active ou passive) ou qui pourraient avoir pour effet de
+placer l'Arrangeur ou le ou les Agent(s) Placeur(s) Concerné(s) en situation d'infraction à ces
+lois et règlements.
+8. Engagements
+L'Émetteur s'engage envers chaque Agent Placeur et l'Arrangeur sur ce qui suit
+8.1. Déclarations et garanties
+Il avertira sans délai les Agents Placeurs et l'Arrangeur de tout changement affectant à tout
+moment l'une quelconque de ses déclarations, garanties et indemnisations figurant au présent
+Contrat et prendra les mesures qui pourront être raisonnablement exigées par l'Arrangeur,
+pour le compte des Agents Placeurs Permanents et en accord avec eux (ou, en cas d'un
+changement affectant une émission de Titres donnée, l'Agent Placeur Concerné ou, s'il existe
+plusieurs Agents Placeurs Concernés, le Chef de File pour le compte des Agents Placeurs
+Concernés) afin de régulariser la situation.
+8.2. Supplément au Document d'information
+Il préparera un supplément au Document d'information dans l'hypothèse où, à un moment
+quelconque pendant la durée du Document d'information intervient tout fait nouveau significatif
+ou toute erreur ou inexactitude substantielle concernant les informations contenues dans le
+Document d'information, qui est de nature à influencer l'évaluation des Titres et ce supplément
+sera réputé contenir l'information qui est nécessaire pour permettre aux investisseurs de
+réaliser une estimation, fondée sur ces éléments d'appréciation, de la situation financière et
+des perspectives de l'Émetteur, ainsi que des droits attachés aux Titres
+8
+=== page 9 ===
+L'Émetteur informera sans délai les Agents Placeurs Permanents (ou, dans le cas d'un
+changement affectant une émission de Titres donnée, l'Agent Placeur Concerné ou, s'il existe
+plusieurs Agents Placeurs Concernés, le Chef de File, pour le compte des Agents Placeurs
+Concernés) de toute proposition visant à préparer un supplément au Document d'information
+ou à le remplacer ou à modifier, compléter ou remplacer le Contrat de Service Financier ; et
+L'Émetteur donnera la possibilité, dans un délai raisonnable, aux Agents Placeurs
+Permanents, à l'Agent Placeur Concerné ou au Chef de File, selon le cas, de commenter ces
+projets de supplément au Document d'information ou document le remplaçant, ou, selon le
+cas, de modification, complément ou remplacement du Contrat de Service Financier.
+8.3. Distribution du Document d'information et des états financiers
+L'Émetteur devra fournir à chacun des Agents Placeurs ou, dans le cas d'une Émission
+Syndiquée, le Chef de File, pour le compte des Agents Placeurs Concernés
+des copies du Document d'information, y compris chaque supplément ou document le
+remplaçant, pour lesquels l'Agent Placeur est un Agent Placeur Concerné; et
+des copies des comptes administratifs, des budgets primitifs et de tous autres états
+financiers les plus récents préparés par l'Émetteur et mis à la disposition du public
+aussitôt que disponibles.
+8.4. Information du public
+Le jour même ou immédiatement après le jour où l'Émetteur fait un communiqué de presse ou
+toute annonce publique (à l'exception des états financiers visés à la sous clause 8.3) ou rend
+public tout autre événement ou circonstance significative dans le contexte de l'émission,
+l'Émetteur devra fournir cette information aux Agents Placeurs. Si cette information est fournie
+oralement, elle devra être confirmée par écrit.
+8.5. Dégradation de la notation
+L'Émetteur devra avertir immédiatement chacun des Agents Placeurs de toute baisse ou
+proposition de baisse, retrait ou mise sous surveillance (creditwatch) (ou toute publication
+équivalente indiquant la mise sous surveillance de la notation par l'agence de notation
+concernée) de la notation des titres de l'Émetteur ou de la notation de l'Émetteur, par toute
+agence de notation.
+8.6. Frais et impôts
+8.6.2. : L'Émetteur s'engage, à moins qu'il n'en soit convenu autrement dans le contexte d'une
+émission de Titres particulière, à payer tous les frais liés à l'exécution de ses obligations en
+vertu du présent Contrat, en ce compris
+(ii)
+les frais et honoraires de ses conseils juridiques, de l'Agent Financier, de
+tout agent de calcul et de toutes les autres parties au Contrat de Service
+Financier,
+tous les frais encourus du fait de l'émission, de la contre-signature et de la
+remise initiale des Titres, de la préparation des lettres comptables et des
+Certificats Globaux Temporaires, des Contrats et de leurs avenants et
+compléments et de la préparation et l'impression des Titres Physiques, du
+Document d'information et de tous ses avenants et compléments et de tout
+autre document relatif à l'émission et à la remise des Titres,
+9
+=== page 10 ===
+(iii)
+(iv)
+(v)
+(vi)
+(vii)
+(viii)
+les frais d'admission aux négociations des Titres sur la bourse régionale
+les frais d'admission au système du dépositaire central ,
+les frais relatifs à toute mesure de publicité approuvée par l'Émetteur et
+relative à l'émission d'un quelconque Titre
+les frais (y compris, et, à moins qu'il n'en soit convenu autrement, sans
+limitation, les honoraires et les débours des conseils juridiques) supportés
+par l'Arrangeur à l'occasion de la mise en place de l'Émission et au titre de
+leurs obligations pendant la durée de celui-ci et
+à moins qu'il n'en soit convenu autrement, les frais de toute traduction de
+l'information contenue dans le Document d'Information qui pourrait être
+requise par la COSUMAF;
+Tous frais ou commissions dûs à la COSUMAF.
+8.6.2. : L'Émetteur s'engage à indemniser et prévenir de tout préjudice chaque Agent Placeur
+et l'Arrangeur, sur présentation des justificatifs appropriés, du paiement de tout droit de timbre
+ou d'enregistrement, ou droit équivalent d'émission ou de mutation, y compris tout intérêt ou
+pénalité, dû à raison de l'émission de Titres conformément aux termes du présent Contrat,
+étant entendu toutefois que l'Émetteur ne sera pas tenu d'indemniser un Agent Placeur d'un
+tel impôt dès lors que cet assujettissement résulte uniquement d'une faute intentionnelle ou
+d'une faute lourde de l'Agent Placeur ou encore de sa mauvaise foi.
+8.7. Contrôle
+L'Émetteur s'engage à remettre, enregistrer et fournir les documents, instruments,
+informations et engagements et à obtenir toute autorisation, auprès de la COSUMAF et la
+Bourse Régionale lorsque l'admission aux négociations des Titres est envisagée,
+éventuellement nécessaires afin de se conformer à toutes les dispositions législatives et
+réglementaires applicables aux Titres ou aux Contrats, et l'Émetteur autorise par les présentes
+l'Arrangeur à remettre, enregistrer et fournir de tels documents, instruments, informations et
+engagements et à obtenir de telles autorisations (aux frais de l'Émetteur).
+8.8. Restrictions applicables
+Pendant la période commençant à la date où une émission de Titres est lancée et se terminant
+à la Date d'Émission concernée, l'Émetteur n'émettra ni ne s'engagera à émettre, sans l'accord
+préalable de l'Agent Placeur Concerné ou, s'il y en a plusieurs, du Chef de File pour le compte
+des Agents Placeurs Concernés, aucun autres titres, obligations ou autres instruments
+financiers de quelque nature que ce soit, offrant une rémunération calculée sur la même base
+que les Titres à émettre à la Date d'Émission concernée.
+9. Conditions suspensives
+Les obligations et engagements des Agents Placeurs au titre du présent Contrat étant
+souscrits et acceptés et pris sur le fondement des déclarations, garanties et engagements de
+l'Émetteur aux termes du présent Contrat, ces obligations et engagements sont subordonnés
+aux conditions suspensives exposées ci-dessous.
+10
+=== page 11 ===
+9.1. Conditions suspensives initiales
+Les obligations et engagements des Agents Placeurs au titre du présent Contrat sont
+subordonnés à la remise à l'Arrangeur, au plus tard lors de la première émission de Titres
+effectuée dans le cadre du présent Contrat, pour le compte des Agents Placeurs Permanents
+9.1.1. Avis juridiques (le cas échéant)
+D'avis juridiques conformes, dans la forme et dans le fond, dans chaque cas à ce que les
+Agents Placeurs Permanents pourront raisonnablement demander, rédigés par :
+[Insérer le nom du ou des cabinets concernés]
+9.1.2. Certificat relatif à la situation financière de l'Émetteur
+D'un certificat relatif à la situation financière de l'Émetteur ;
+9.1.3 Pouvoirs
+D'une liste des noms et qualités ainsi que les modèles de signature des personnes habilitées
+à signer, au nom et pour le compte de l'Émetteur, le Contrat de Service Financier, le
+présent Contrat ,
+à signer, donner ou remettre, au nom et pour le compte de l'Émetteur, tous les avis et
+tous autres documents devant être remis conformément au présent Contrat,
+à prendre toute autre mesure, au nom et pour le compte de l'Émetteur, conformément
+au présent Contrat.
+9.1.4. Contrats et Document d'Information
+Un original du présent Contrat et de copies du Contrat de Service Financier, dûment signé
+dans la forme convenue par les parties à ce Contrat de Service Financier, et du Document
+d'Information ,
+9.1.5 Autorisation boursière
+De la confirmation par la COSUMAF de l'approbation du Document d'Information et de
+l'attribution du numéro de visa ou d'enregistrement.
+9.1.6 Notation
+D'une confirmation de [Nom de l'Agence de Notation] de la notation « [Note] » attribué à
+l'Émetteur ou à l'émission.
+9.2. Conditions suspensives complémentaires
+9.2.1. Autorisation d'émission des Titres
+L'émission des Titres ayant été autorisée par l'Émetteur ,
+9.2.2. Déclarations et garantie
+L'exactitude, à la Date d'Émission de ces Titres, des déclarations et garanties de l'Émetteur,
+énoncées à la Clause 7, faites à la Date de Négociation correspondante, étant entendu que,
+pour les besoins de cette sous-clause, de telles déclarations et garanties seront énoncées
+sous les réserves faites à la Clause 7 pour autant que l'information soit révélée par écrit aux
+Agents Placeurs Concernés avant la Date de Négociation et sous réserve de l'exécution par
+11
+=== page 12 ===
+l'Émetteur, au plus tard à chaque Date d'Émission, des obligations à sa charge en vertu du
+présent Contrat et devant être exécutées au plus tard à cette date et (dans le cas d'une
+émission syndiquée) la fourniture d'un avis à cet effet ,
+9.2.3. Admission aux négociations
+Pour tout Titre devant faire l'objet d'une admission aux négociations en vertu du présent
+Contrat, l'acceptation par la Bourse Régionale de l'admission aux négociations de ces Titres,
+à la seule condition qu'ils soient effectivement émis ,
+9.2.4. Changement significatif défavorable
+L'absence, entre la Date de Négociation concernée et la Date d'Émission concernée, de
+(ix)
+(x)
+(xi)
+tout changement significatif défavorable ou tout développement laissant supposer
+un changement défavorable dans la situation financière ou juridique de l'Émetteur
+qui, de l'avis raisonnable de l'Agent Placeur Concerné ou, s'il y en a plusieurs, du
+Chef de File pour le compte des Agents Placeurs Concernés, affecte ou est
+susceptible d'affecter l'offre des Titres de manière importante
+toute baisse ou proposition de baisse, ou mise sous surveillance avec implication
+négative (negative creditwatch) (ou toute publication équivalente indiquant la mise
+sous surveillance avec implication négative de la notation par l'agence de notation
+concernée) de la notation des titres de créance de l'Émetteur, de la notation du
+Programme ou de la notation de l'Émetteur par toute agence de notation telle que
+décrite à la Clause 8.5, ou
+tout changement dans la conjoncture financière, politique ou économique sur le
+plan national, régional ou international, ou relatif aux taux de change ou au contrôle
+des changes qui, de l'avis de l'Agent Placeur Concerné ou, s'il y en a plusieurs, du
+Chef de File, et après en avoir informé l'Émetteur, serait de nature à compromettre
+gravement le succès de l'offre et du placement de l'un quelconque des Titres, ou
+les négociations des Titres sur le marché secondaire.
+9.2.5. Certificat relatif à la situation financière de l'Émetteur
+Un certificat de l'Émetteur relatif à la situation financière de l'Émetteur devra avoir été délivré
+à l'(aux) Agent(s) Placeur(s) Concerné(s), si le ou les Agent(s) Placeur(s) Concerné(s) en
+fait(font) la demande et si cela est accepté par l'Émetteur au plus tard à la Date de Négociation
+à laquelle l'opération concernée est conclue par cet ou ces Agent(s) Placeur(s) Concerné(s)
+et, dans le cas d'une Émission Syndiquée, un certificat de l'Émetteur devra avoir été délivré
+au Chef de File, pour le compte de ou des Agent(s) Placeur(s) Concerné(s), conforme à ce
+que le Chef de File pourra raisonnablement demander et datés de la Date d'Émission
+concernée.
+9.2.6. Avis juridiques
+Un (des) avis juridique(s) rédigé(s), daté(s) de la Date d'Émission concernée par :
+a. [Insérer le nom du cabinet] de l'Émetteur; et
+b. [Insérer le nom du cabinet] des Agents Placeurs,
+devra(ont) avoir été remis, dans le cas d'une Émission Syndiquée, au Chef de File pour le
+compte des Agents Placeurs Concernés et, pour toutes les autres émissions, et si le ou les
+Agent(s) Placeur(s) Concerné(s) en fait(font) la demande et si cette demande est accepté
+12
+=== page 13 ===
+par l'Émetteur au plus tard à la Date de Négociation à laquelle l'opération concernée est
+conclue, à cet Agent Placeur conforme à ce que l'Agent Placeur Concerné ou, selon le cas,
+que le Chef de File pourrait demander à la Date d'Émission concernée.
+9.2.7. Notation
+Si le ou les Agent(s) Placeur(s) Concerné(s) en fait (font) la demande et si cette demande est
+acceptée par l'Emetteur au plus tard à la Date de Négociation à laquelle l'opération concernée
+est conclue, une confirmation de [Nom de l'Agence de notation] de la notation attribuée aux
+Titres.
+9.2.8. Autorisations
+Toutes autorisations de la COSUMAF ou de la Bourse Régionale ou de toute autres autorités
+qui sont requis pour l'émission des Titres et pour l'exécution de leurs modalités doivent avoir
+été obtenus (en ce compris ceux exposés dans le Document d'Information).
+9.2.9. Calculs
+Tous calculs ou déterminations nécessaires, en vertu du ou des articles des Modalités
+concernés, devront avoir été effectués préalablement à la Date d'Émission.
+9.2.10. Autres documents
+La remise à ou aux Agent(s) Placeur(s) Concerné(s) de tous avis, documents, attestations et
+informations que le ou les Agent(s) Placeur(s) Concerné(s) pourra(ont) raisonnablement
+demander dans le contexte de l'émission de ces Titres.
+9.2.11. Autorisation d'émission
+Il a été délivré à l'Agent Placeur concerné une copie certifiée de la délibération correspondante
+de l'Émetteur relative à l'émission des titres.
+9.3. Généralités
+Tout Agent Placeur (pour ce qui le concerne) pourra renoncer à l'une quelconque des
+conditions prévues à la sous-clause 9.1.
+L'Agent Placeur Concerné ou, s'il y en a plusieurs et à moins qu'il n'en soit convenu autrement,
+le Chef de File pour le compte des Agents Placeurs Concernés, pourra renoncer à l'une
+quelconque des conditions prévues à la sous-clause 9.2.
+IO. Indemnisation
+10.1. Indemnisation par l'Émetteur
+Les obligations des Agents Placeurs et de l'Arrangeur au titre du présent Contrat sont prises
+sur la foi des déclarations, garanties et engagements de l'Émetteur contenus au présent
+Contrat et dans la mesure où de telles déclarations et garanties demeureront exactes et
+précises en tous points jusqu'à chaque Date d'Émission (incluse) et que les contrats devront
+avoir été exécutés au plus tard à chaque Date d'Émission.
+L'Émetteur s'engage, sur présentation de justificatifs appropriés, à indemniser chacun des
+Agents Placeurs et l'Arrangeur ainsi que leurs administrateurs, cadres et employés ainsi que
+chaque personne qui contrôle un tel Agent Placeur ou l'Arrangeur, sauf en cas de faute lourde
+ou de faute intentionnelle de la Partie Indemnisée concernée, contre toute(s)/tous perte,
+13
+=== page 14 ===
+responsabilité, frais, réclamation, débours, action en justice, procédure, dommages intérêts,
+dépense ou demande (y compris et sans être limité à tous les coûts, frais et dépenses
+raisonnables payés ou encourus au cours d'un litige relatif à ce qui précède tant en demande
+qu'en défense) ("Pertes") que l'un quelconque d'entre eux pourrait supporter ou qui pourrait
+être engagé à son encontre en conséquence ou en relation avec le non-respect réel ou allégué
+des déclarations, garanties et engagements. Si une telle réclamation, demande, action en
+justice ou procédure devait être engagée contre une quelconque Partie Indemnisée pour
+laquelle la garantie de l'Émetteur pourra être recherchée, cette Partie Indemnisée devra
+informer immédiatement par écrit l'Émetteur et devra utiliser les conseils juridiques qui ont été
+convenus entre cette Partie Indemnisée et l'Émetteur ou, en l'absence d'accord, au choix de
+la Partie Indemnisée à ses frais.
+L'Émetteur ne pourra être tenu responsable du règlement de frais relatifs à toute réclamation,
+demande, action en justice ou procédure qui aurait fait l'objet d'une transaction sans son
+consentement écrit préalable.
+10.2. Indemnisation par les Agents Placeurs
+Chaque Agent Placeur s'engage, pour ce qui le concerne, envers l'Émetteur sur présentation
+de justificatifs appropriés, à indemniser et à dédommager, sauf en cas de faute lourde ou de
+faute intentionnelle de l'Émetteur, de ses mandataires, dirigeants, représentants et employés,
+contre toute(s)/tous perte, responsabilité, frais, réclamation, débours, action en justice,
+procédure, dommages-intérêts, dépense exposée ou demande (y compris et sans être limité
+à tous les coûts, frais et dépenses raisonnables payés ou encourus au cours d'un litige relatif
+à ce qui précède tant en demande qu'en défense) que l'Émetteur pourrait supporter ou qui
+pourrait être engagé à son encontre en conséquence ou en relation avec le non-respect par
+un tel Agent Placeur de ses obligations (y compris et sans être limité à tous les frais juridiques
+et débours raisonnables), étant entendu cependant qu'aucun Agent Placeur ne sera tenu
+responsable de toute(s)/tous perte, responsabilité, frais, réclamation, débours, action en
+justice, procédure, dommages-intérêts, dépense ou demande consécutifs(ves) à la vente de
+Titres à une personne considérée de bonne foi par cet Agent Placeur, comme étant une
+personne à qui les Titres peuvent être vendus régulièrement dans le respect de la loi applicable
+à la date de cette vente.
+Si une telle réclamation, demande, action en justice ou procédure devait être engagée contre
+l'Émetteur pour laquelle la garantie de cet Agent Placeur pourra être recherchée, l'Émetteur
+devra informer immédiatement par écrit cet Agent Placeur et devra utiliser les conseils
+juridiques qui ont été convenus entre l'Émetteur et cet Agent Placeur ou, en l'absence
+d'accord, au choix de l'Émetteur à ses frais. Cet Agent Placeur ne pourra être tenu responsable
+du règlement de frais relatifs à toute réclamation, demande, action en justice ou procédure qui
+aurait fait l'objet d'une transaction sans son consentement écrit préalable.
+11. Situation des Agents Placeurs et de l'Arrangeur
+11.1. Obligations conjointes des Agents Placeurs et de l'Arrangeur
+L'Agent Placeur ne pourra être tenu responsable du règlement de frais relatifs à toute
+réclamation, demande, action en justice ou procédure qui aurait fait l'objet d'une transaction
+sans son consentement écrit préalable.
+14
+=== page 15 ===
+11.2. Responsabilités
+Chacun des Agents Placeurs reconnaît que l'Arrangeur a joué uniquement un rôle
+organisationnel destiné à faciliter la mise en place et/ou le maintien du Document d'Information
+et ne sont pas responsable (i) de l'adéquation, l'exactitude, le caractère exhaustif et
+raisonnable de toute déclaration, garantie, engagement, accord ou information contenu dans
+le Document d'Information, dans le présent Contrat ou dans toute information fournie dans le
+cadre de l'émission ou (ii) de la nature et de la pertinence de toute question fiscale, juridique
+ou comptable y afférente et de toute documentation dans le cadre de l'émission.
+11.3. Obligations
+Chaque Agent Placeur et l'Arrangeur ne sont tenus que des devoirs, obligations et
+responsabilités expressément prévus dans le présent Contrat.
+12. Maintien de certaines déclarations et obligations
+Les indemnités, accords, déclarations, garanties et autres engagements de l'Émetteur
+énoncés dans le présent Contrat (en ce compris les Annexes) ainsi que la déclaration et
+l'engagement de chaque Agent Placeur conformément à la Clause 5.1 demeureront
+pleinement valables et applicables nonobstant tout manquement de l'Émetteur à l'une
+quelconque des conditions suspensives de la Clause 9 et ce indépendamment de toute
+enquête ou déclaration sur les effets de celui-ci faite par ou pour le compte d'un quelconque
+Agent Placeur, de l'Arrangeur, de l'Émetteur, ou de l'un de leurs représentants, directeurs ou
+administrateurs respectifs ou de toute personne les contrôlant. Ils demeureront valables après
+toute souscription, émission et paiement en vertu des Titres.
+13. Résiliation et désignation
+13.1. Résiliation
+Le présent Contrat pourra être résilié (conformément à ces stipulations et sous réserve et sauf
+stipulation contraire) par l'Émetteur pour l'ensemble des Agents Placeurs et de l'Arrangeur, ou
+à l'égard de l'un d'entre eux uniquement, ou bien par tout Agent Placeur ou l'Arrangeur mais
+uniquement dans ses rapports avec l'Émetteur, pour tout motif et à tout moment, sous réserve
+d'un préavis écrit d'au moins 30 jours adressé aux autres parties au présent Contrat. Tout
+règlement relatif aux Titres placés par un Agent Placeur et qui intervient après résiliation du
+présent Contrat sera toutefois réalisé conformément aux présentes.
+13.2. Droits acquis
+Une telle résiliation n'affectera pas les droits acquis ou les obligations échues à la date à
+laquelle la résiliation prendra effet (ou qui viendraient à échéance par la suite de tout acte ou
+omission survenant avant une telle résiliation) et, en particulier, les obligations de l'Émetteur
+stipulées aux Clauses 8 et IO et des Agents Placeurs à la Clause 5 resteront en vigueur. En
+outre, si une telle résiliation intervient après que l'Émetteur a accepté une offre de souscription
+de Titres mais avant leur Date d'Émission, toutes les obligations de l'Émetteur et de cet Agent
+Placeur relatives à ces Titres resteront également en vigueur.
+15
+=== page 16 ===
+13.3. Agents Placeurs et/ou Arrangeurs supplémentaires
+L'Émetteur pourra désigner un ou plusieurs Arrangeurs ou Agents Placeurs supplémentaires
+conformément aux stipulations du présent Contrat. Toute désignation d'un Agent Placeur
+pourra être faite pour l'Émission.
+14. Avis
+14.1. Méthode de notification
+Tous les avis seront adressés par courrier électronique, lettre écrite délivrée par porteur ou
+téléphone (qui devra être aussitôt confirmée par courrier électronique, étant entendu que le
+défaut de confirmation n'entraînera pas la caducité de l'avis initial). Les avis et autres
+informations à communiquer à chaque Agent Placeur conformément à la Clause 8 seront
+donnés à chacun d'eux autant que possible de manière simultanée. Chaque avis sera délivré
+à la personne concernée au numéro de téléphone ou à l'adresse électronique à l'attention de
+la personne désignée par la partie concernée aux autres parties à cet effet, et dans le cas d'un
+avis par courrier électronique ou par correspondance écrite à l'attention de cette personne et
+dans le cas d'une communication téléphonique, par appel de cette personne. Le numéro de
+téléphone, l'adresse, l'adresse électronique et les personnes ainsi désignées initialement par
+les parties en vertu du présent Contrat sont indiqués dans les Procédures d'Émission.
+14.2. Réception
+Un avis sera présumé avoir été reçu lorsque la bonne réception en aura été confirmée par le
+destinataire à la demande de l'expéditeur (dans le cas d'un courrier électronique), lorsqu'il aura
+été effectué (dans le cas d'un appel téléphonique) et, dans le cas d'un simple écrit, lorsqu'il
+aura été remis dans chaque cas selon les modalités indiquées à la présente Clause. Toute
+notification reçue en dehors des heures de bureau ou un jour qui n'est pas un jour ouvré dans
+le lieu de réception, sera cependant présumée avoir été reçue à l'heure d'ouverture des
+bureaux du jour ouvré suivant de ce lieu de réception. Chaque notification adressée par
+l'Émetteur ne pourra être annulée qu'à condition que l'Agent Placeur Concerné n'ait pas agi
+sur le fondement de celle-ci.
+14.3. Émissions Syndiquées
+En ce qui concerne les Émissions Syndiquées, les avis destinés aux Agents Placeurs
+Concernés seront donnés au Chef de File pour le compte de ces Agents Placeurs.
+15. Cession
+15.1. Par l'émetteur
+L'Émetteur ne peut céder ou transférer ses droits et obligations découlant du présent contrat
+sans l'accord écrit préalable de l'Arrangeur et des Agents Placeurs. Toute cession ou tout
+transfert effectué sans cet accord sera nul à moins que la totalité ou la quasi-totalité des actifs
+et des passifs de l'Émetteur soit transférée à une autre entité par opération de la loi.
+15.2. Par les Agents Placeurs
+Aucun Agent Placeur ne peut céder ses droits ou transférer ses obligations découlant du
+présent Contrat, en partie ou en totalité, sans l'accord écrit préalable de l'Émetteur et toute
+cession ou tout transfert effectué sans cet accord sera nul, sauf dans le cas d'une cession o
+16
+=== page 17 ===
+d'un transfert, quelle que soit la forme, de tous les droits et obligations découlant du présent
+Contrat par un Agent Placeur à un "partnership", une société, un "trust" ou tout autre entité
+quelle que soit sa forme, à qui tous les actifs et l'activité de l'Agent Placeur sont transférés, qui
+lui succédera et qui assumera les obligations de cet Agent Placeur par suite d'un contrat, du
+fait de la loi ou de tout autre manière. Ce transfert ou l'acceptation de ces obligations libéreront
+intégralement cet Agent Placeur de toutes ses obligations découlant du présent Contrat, que
+celles-ci soient nées avant ou après ce transfert ou cette acceptation.
+16. Droit applicable et attribution de juridiction
+16.1. Droit applicable
+Le présent Contrat est régi et interprété conformément au droit applicable dans un ou plusieurs
+Etats membres de la Communauté Économique et Monétaire de l'Afrique Centrale.
+16.2. Attribution de juridiction
+Pour tout différend entre les parties découlant du présent Contrat ou relatif à celui-ci, chacune
+des parties donnent irrévocablement attribution aux tribunaux compétents de [Ajouter le nom
+du Pays] / conviennent de recourir à l'arbitrage par [..
+17

@@ -1,0 +1,774 @@
+=== page 1 ===
+COMMISSION DE SURVEILLANCE
+Du MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+LIGNES DIRECTRICES
+RELATIVES AUX MODALITES DE MISE EN ŒUVRE DES
+OBLIGATIONS DE VIGILANCE EN MATIERE DE LUTTE CONTRE LE
+BLANCHIMENT DE CAPITAUX ET LE FINANCEMENT DU
+TERRORISME SUR LE MARCHE FINANCIER DE L'AFRIQUE
+CENTRALE
+=== page 2 ===
+1)
+2)
+TABLE DES MATIERES
+INTRODUCTION
+10 - ACTEURS ET INTERVENANTS DU MARCHE SOUMIS AUX
+OBLIGATIONS EN MATIERE DE LBC/FT
+110 - OBLIGATIONS DE MISE EN PLACE D'UN DISPOSITIF INTERNE
+D'EVALUATION ET DE GESTION DES RISQUES
+1110 - OBLIGATIONS D'IDENTIFICATION DES RISQUES
+10
+IVO - OBLIGATIONS D'EVALUATION ET DE CLASSIFICATION DES
+RISQUES
+...... 13
+vo - MESURES DE VIGILANCE A METTRE EN ŒUVRE FACE AUX
+........27
+.........28
+RISQUES ..... ..... ..... ..... ........................................................ ...
+.. . .. ... ...........15
+ANNEXE : MENACES PESANT SUR LE MARCHE FINANCIER ET CRITERES
+D'ALERTE
+27
+Menaces pesant sur le marché financier de la CEMAC : .........................
+Critères d'alerte •
+27
+Critères d'alerte relatifs à l'opération •
+27
+Critères d'alerte relatifs aux fonds :
+Critères d'alerte relatifs aux clients ou aux bénéficiaires effectifs •
+Critères d'alerte relatifs aux mesures de vigilance •
+28
+29
+2
+=== page 3 ===
+INTRODUCTION
+Les marchés financiers sont un secteur fortement exposé au risque de blanchiment de
+capitaux et de financement du terrorisme. Ils présentent également une vulnérabilité certaine
+face aux activités criminelles déstabilisatrices de l'économie. Les réseaux criminels
+exploitent, en effet, la complexité des transactions financières pour dissimuler l'origine des
+fonds illicites. Il est dès lors crucial de disposer de solides cadres de lutte contre le
+blanchiment d'argent pour préserver la stabilité et l'intégrité du système financier de la
+CEMAC.
+La lutte contre le blanchi1nent de capitaux et le financement du terrorisme (LBC/FT) sur le
+marché financier de l'Afrique Centrale doit être comprise comme une priorité partagée entre,
+d'une part, les pouvoirs publics de la CEMAC et le régulateur du marché et, d'autre part, les
+acteurs et intervenants du marché et les professionnels du secteur privé, en vue d'assurer la
+solidité des dispositifs de lutte mis en place dans la sous-région.
+L'objectif d'intégrité du système financier suppose un partenariat efficace entre toutes les
+parties prenantes, qui repose sur une implication forte des professionnels et une meilleure
+connaissance de leurs obligations ainsi que des typologies de blanchiment.
+Les présentes lignes directrices, prévues dans le Plan d' Action de la COSUMAF, ont vocation
+à aider les acteurs du marché à améliorer leur participation au dispositif LBC/FT. Il s'agit
+avant tout d'un document à caractère pédagogique.
+Le système d'évaluation et de gestion des risques, prévu par les lignes directrices, est la clé
+de voûte du dispositif LBC/FT. Elaborée par chaque acteur du marché selon son expertise et
+la connaissance qu'il a de sa clientèle et de la nature des opérations qu'il traite, la cartographie
+des risques sert de support à la mise en place des mesures de vigilance à mettre en œuvre.
+C'est au terme de ce processus que le professionnel sera le mieux à même de décider
+d'effectuer une déclaration de soupçon.
+Pour ce faire, il est primordial d'intensifier la formation des acteurs du marché et la diffusion
+des informations en matière de LBC/FT.
+La lutte contre le blanchiment de capitaux et le financement du terrorisme consütue un enjeu
+3
+=== page 4 ===
+majeur de politique publique des Etats membres de la CEMAC. Les acteurs du marché
+financier régional ne sauraient s'affranchir des efforts à consentir pour assurer l'intégrité de
+notre système financier. Les flux de capitaux sont un élément essentiel d'un marché prospère
+et dynamique. Cependant, il faut le mettre à l'abri des circuits d'argent sale. Les acteurs du
+marché jouent un rôle clé dans la détection des activités criminelles. Ils doivent effectuer des
+contrôles rigoureux et s'assurer qu'ils sont efficaces contre la criminalité financière.
+4
+=== page 5 ===
+1.
+2.
+3.
+IO - ACTEURS ET INTERVENANTS DU MARCHE SOUMIS AUX
+OBLIGATIONS EN MATIERE DE LBC/FT
+En vertu des dispositions de l'article 89 du Règlement Général de la COSUMAF,
+sont soumis aux obligations en matière de lutte contre le blanchiment de capitaux
+et le financement du terrorisme, les acteurs et intervenants suivants
+a)
+b)
+c)
+d)
+e)
+f)
+g)
+h)
+les organismes centraux du marché ,
+les intermédiaires de marché ;
+les agences de notation financière ;
+les organismes de placement collectif, les sociétés de gestion et leurs
+dépositaires ;
+le fonds de garantie du marché ;
+les analystes financiers intervenant sur le marché ou y exerçant une activité ;
+les organismes de garantie des émissions ;
+toute autre personne ou structure agréée par la COSUMAF.
+Il s'agit plus particulièrement des personnes, structures ou organismes placées
+sous le contrôle de la COSUMAF.
+Compte tenu de ce qui précède, les expressions « professionnels
+assujettis », ou « entreprises et établissements assujettis » peuvent également être
+employées pour désigner les personnes ou structures visées à l'article 89 précité
+du Règlement Général de la COSUMAF.
+5
+=== page 6 ===
+110 - OBLIGATIONS DE MISE EN PLACE D'UN DISPOSITIF
+INTERNE D'EVALUATION ET DE GESTION DES RISOUES
+Les personnes, structures ou organismes visées à l'article 89 du Règlement Général de la
+COSUMAF appliquent les mesures de vigilance en fonction de l'évaluation des risques
+présentés par leurs activités en matière de blanchiment de capitaux et de financement du
+terrorisme.
+A cette fin, elles définissent et mettent en place des dispositifs dlidentification et d'évaluation
+des risques de blanchiment des capitaux et de financement du terrorisme auxquels elles sont
+exposées ainsi qu'une politique adaptée à ces risques. Elles élaborent en particulier une
+classification des risques en question en fonction de la nature des produits ou services offerts,
+des conditions de transaction proposées, des canaux de distribution utilisés, des
+caractéristiques des clients, ainsi que du pays ou du territoire d'origine ou de destination des
+fonds.
+Lorsqu'elles appar.tiennent à un groupe ou à un conglomérat financier, elles mettent en place
+un dispositif d'identification et d'évaluation des risques existant au niveau du groupe ainsi
+qu'une politique adaptée à ces risques.
+Pour l'identification et l'évaluation des risques de blanchiment de capitaux et de financement
+du terrorisme auxquels ils sont exposés, les acteurs ou structures agréées tiennent compte
+notamment des facteurs inhérents aux clients, aux produits, services, transactions et canaux
+de distribution. Ils tiennent compte également des facteurs géographiques, ainsi que des
+conclusions et recommandations issues de l'analyse nationale des risques.
+Les personnes, structures ou organismes visés à l'article 89 du Règlement Général de la
+COSUMAF mettent en place un dispositif interne de lutte contre le blanchiment des capitaux
+et le financement du terrorisme. Le dispositif interne s'entend d'une organisation et de
+procédures internes visant à lutter contre le blanchiment des capitaux et le financement du
+terrorisme, tenant compte de l'évaluation des risques prévue à l'article 111 du Règlement
+Général de la COSUMAF. En tenant compte du volume et de la nature de leur activité ains•
+6
+=== page 7 ===
+que des risques présentés par les relations d'affaires qu'elles établissent, les acteurs assujettis
+déterminent un profil de la relation d'affaires permettant d'exercer la vigilance constante
+prévue à l'article 94 du Règlement Général de la COSUMAF.
+Le dispositif interne de LBC/FT est un système d'évaluation et de gestion des risques de
+blanchiment de capitaux et de financement du terrorisme auxquels la personne ou structure
+assujettie est exposée. Il constitue la véritable clé de voute du dispositif anti-blanchiment et
+de lutte contre le financement du terrorisme.
+Le dispositif interne est constitué de l'ensemble des mesures techniques et organisationnelles
+mises en place par les assujettis pour détecter de manière pertinente les personnes et les
+opérations à risque et les signaler à l'ANIF.
+La mise en place d'un tel système permet à l'assujetti d'identifier, d'analyser et de
+comprendre les risques LBC/FT afin d'appliquer des mesures de prévention, d'atténuation
+ou d'élimination des risques identifiés.
+Ce système comprend deux (2) volets :
+• un volet « classification » des risques auxquels l'assujetti est exposé au regard,
+notamment, de ses activités ou services, de ses opérations, de ses clients, de ses
+implantations (il s'agit de la cartog•aphie des risques) ;
+• un volet « opérationnel » décrivant les procédures internes LBC/FT adoptées par
+l'assujetti, en réponse aux risques identifiés préalablement.
+Lorsque les personnes, structures ou organismes assujettis appartiennent à un groupe,
+l'entreprise mère du groupe définit au niveau du groupe l'organisation et les procédures anti-
+blanchiment et veille à leur respect.
+Les personnes, structures ou organismes assujettis mettent en place un dispositif de gestion
+des risques permettant de détecter les personnes et les opérations présentant ou susceptibles
+de présenter un risque de blanchiment de capitaux ou de financement du terrorisme.
+Elles désignent un responsable qualifié chargé de la mise en ceuvre, de la gestion et du suivi
+du dispositif de lutte contre le blanchiment de capitaux et le financement du terrorisme. Le
+7
+=== page 8 ===
+responsable désigné doit justifier, en toutes circonstances, d'une connaissance suffisante du
+niveau d'exposition de la structure au risque de blanchiment de capitaux et de financement
+du terrorisme.
+Dans leur politique de recrutement du personnel, les structures assujetties prennent en
+compte les risques que présentent les personnes au regard de la lutte contre le blanchiment
+de capitaux et le financement du terrorisme.
+Le dispositif doit être individualisé et adapté à la situation particulière de chaque acteur ou
+assujetti.
+Il est nécessaire de prendre en compte les spécificités de la structure (sa taille, sa clientèle, ses
+opérations, son implantation géographique) afin de s'assurer que le dispositif est adapté à la
+situation de l'assujetti.
+Le dispositif doit faire l'objet d'un document écrit diffusé à l'ensemble du personnel de la
+structure ayant pour mission de mettre en œuvre les mesures de vigilance en matière de
+LBC/FT.
+Le document écrit doit décrire le processus interne de LBC/FT de l'assujetti, qui se
+décompose en trois étapes comme suit :
+1ère étape
+Identification des Risques
+2ème étape
+3ème étape
+Classification et évaluation Mise en œuvre des
+des risques
+mesures
+Ainsi, en premier lieu, il s'agit de dresser une cartographie des risques (étapes 1 et 2
+comprenant l'identification, l'évaluation et la classification des risques) puis de décrire, en
+second lieu, les mesures opérationnelles à adopter afin de prévenir, atténuer ou éliminer les
+risques identifiés (étape 3).
+Il convient de souligner que la cartographie des risques est au cœur de la stratégie de gestion
+des risques. Elle doit être comprise comme une nomenclature, établie par l'assujetti, des
+situations dans lesquelles il peut avoir à faire à une opération ou à une personne suspecte.
+8
+=== page 9 ===
+En cartographiant ses risques, l'assujetti crée les conditions d'une plus grande connaissance
+et donc d'une meilleure maîtrise des risques auxquels il est confronté.
+A fifre de rappel, la cartographie est établie en deux (2) phases : l'identification des risques
+d'une part, la classification et l'évaluation des risques, d'autre part.
+9
+=== page 10 ===
+1110 - OBLIGATIONS D'IDENTIFICATION DES RISOUES
+La réalisation de la cartographie des risques peut s'organiser selon les deux étapes
+suivantes :
+Etape 1 : examen de la nature du client (personne physique / personne morale) ;
+Etape 2 : examen de la nature des transactions et opérations.
+L'identification des risques peut s'appuyer notamment sur les éléments suivants :
+Les caractéristiques de la clientèle et les modalités particulières des
+transactions effectuées ;
+Les activités exercées par le client et le bénéficiaire effectif, c'est-à-dire la
+personne physique qui contrôle directement ou indirectement le client
+personne morale ou celle pour laquelle la transaction est réalisée ;
+la localisation des activités du client ou du bénéficiaire ;
+la forme juridique et la taille de la structure et de l'activité exercée par le client
+personne morale ;
+les opérations avec des clients exposés à des risques particuliers en raison de
+leurs fonctions et qui appellent une vigilance complémentaire ;
+tout élément participant à la connaissance du client, du bénéficiaire effectif et
+aux caractéristiques de la relation d'affaires ;
+les critères énoncés dans le Règlement Général de la COSUMAF devant
+conduire à des mesures de vigilance complémentaire ou renforcée ;
+les activités exercées avec des personnes établies dans des pays à risque, etc.
+Les éléments ci-après sont à prendre en compte dans le cadre de l'identification des risques.
+10
+=== page 11 ===
+Quelques éléments à prendre en compte pour l'identification des risques :
+• Personnes physiques :
+- Incohérence entre le profil du client (âge, revenus, profession, diverses informations
+recueillies sur le client) et l'opération ou les flux observés ;
+- Le client exerce-t-il une profession à risque ?
+Quel est son « train de vie » ? Est-il disproportionné avec les revenus d'activité déclarés ?
+Le client réside-t-il dans un pays à risque figurant sur les listes publiées par le GAFI ?
+- Le client est-il une personne politiquement exposée (PPE) ?
+La personne est-elle connue pour diverses iNractions ?
+- Les documents fournis sont-ils probants ?
+- Le client ou son représentant légal sont-ils physiquement présents aux fins de
+l'identification ?, etc.
+• Personnes morales
+- Secteurs d'activités sensibles (financement participatif, monnaies virtuelles, etc.)) ,
+- Entreprises récemment créées ;
+- Difficultés pour identifier le bénéficiaire réel d'une opération ;
+Changements fréquents de dirigeants ;
+Age du dirigeant ;
+- Localisation des acüvités (zone sensible, société de domiciliation, adresse non clairement
+identifiée, pays à risque figurant sur les listes publiées par le GAFI notamment) ;
+- Incohérence chiffre d'affaires / marge brute avec la moyenne du secteur ;
+- Absence de correspondance entre l'activité de la société et son objet social déclaré, etc.
+Opérations .
+Le produit ou l'opération favorise l'anonymat ;
+- Nombreux versements en espèces ou paiement en espèces d'un montant significatif ,
+- Prix anormalement bas ou élevé ;
+- Flux à caractère professionnel sur un compte privé ;
+11
+=== page 12 ===
+- Paiements en provenance de tiers ;
+- Paiements en provenance de l'étranger ,
+- Doute sur l'origine ou la destination, notamment géographique, des fonds ;
+- Investissement ou acquisition de titres en ayant recours à des fonds à l'origine non traçable
+(espèces, tontine, etc.) ;
+- Investissement ou acquisition de titres par un prêt non bancaire ;
+- Montant inhabituellement élevé ;
+- Montage complexe ou sans justification économique (multiplicité de comptes bancaires,
+multiplicité d'intermédiaires ou de structures, etc.) ;
+- Montage financier atypique ;
+- Lien entre la structure agréée ou l'assujetti et le client ;
+- Opération annulée et demande de remboursement sur un compte tiers des sommes
+investies, etc.
+12
+=== page 13 ===
+IVO - OBLIGATIONS D'EVALUATION ET DE CLASSIFICATION
+DES RISOUES
+1. Après l'identification des risques, les personnes ou structures assujetties
+procèdent à une évaluation et une classification des risques de blanchiment de
+capitaux et de financement du terrorisme et mettent en place les procédures
+adaptées.
+2. Il s'agit d'établir des catégories ou profils de clients et d'opérations que l'acteur
+du marché peut classer en fonction de la probabilité des risques LBC/FT qu'ils
+représentent. Cette classification permettra à l'assujetti de moduler les mesures
+de vigilance en fonction des caractéristiques des clients et des opérations.
+3. L'évaluation des risques sert alors de base à leur présentation synthétique sous
+une forme hiérarchisée, dite cartographie des risques.
+4. L'évaluation des risques et leur classification portent sur l'ensemble des
+opérations et des fransactions réalisées ou auxquelles les assujettis prêtent leur
+concours. Si certains critères et indicateurs de risques de blanchiment de capitaux
+et de financement du terrorisme sont expressément prévus dans la
+réglementation, la classification des risques peut être également réalisée sur la
+base de critères et d'indicateurs que les assujettis ont eux-mêmes définis au regard
+de la nature des activités et des situations spécifiques auxquelles ils sont exposés.
+5. Les éléments indiqués supra représentent des critères utiles pour établir une
+cartographie des risques mais ne revêtent aucun caractère exhaustif.
+6. L'évaluation des risques doit également se fonder sur une connaissance par le
+professionnel assujetti d'informations externes à son entreprise et qu'il est tenu de
+mettre à jour régulièrement (études et rapports d'activité et d'analyse de l'ANIF,
+du GABAC, documentation du GAFI, échanges avec les autorités nationales et
+avec les organisations professionnelles, consultation de la doctrine, de la presse,
+d'internet, de bases de données, etc.)
+13
+=== page 14 ===
+7.
+8.
+9.
+Des procédures internes sont élaborées à cet effet sur la base des critères prévus
+dans la réglementation et des critères définis par l'acteur assujetti. Les procédures
+internes doivent par conséquent intégrer l'élaboration d'un document d'analyse
+du risque de chaque client concerné, document permettant de justifier,
+notamment lors des contrôles, que cette analyse a bien été réalisée avant l'entrée
+en relation d' affaires.
+Il est recommandé de désigner un responsable de la mise en place et du suivi du
+système d'évaluation et de classification des risques ainsi que de l'ensemble des
+procédures correspondantes (à titre indicatif, mise à jour de la classification des
+risques, diffusion des informations relatives à la LBC/FT, veille réglementaire,
+contrôles de second niveau, etc.). L'organisation est adaptée à la taille de
+l'entreprise.
+L'évaluation et la classification des risques sont actualisées régulièrement.
+14
+=== page 15 ===
+vo - MESURES DE VIGILANCE A METTRE EN ŒUVRE FACE
+AUX RISOUES
+Les acteurs et intervenants du marché doivent être en mesure de justifier, en toutes
+circonstances, auprès de la COSUMAF, qu'ils ont effectué les diligences nécessaires
+en matière de vigilance, notamment pour identifier le bénéficiaire effectif.
+Les professionnels assujettis doivent, à partir des mesures d'identification et de
+gilance, être en mesure de détecter les anomalies qui appellent une analyse
+vi
+approfondie de la relation d'affaires (vigilance renforcée ou complémentaire, par
+exemple) au regard des risques qu'ils auront identifiés et classifiés en vue de confirmer
+ou non le caractère suspect d'une opération ; le cas échéant, une déclaration de
+soupçon doit être effectuée auprès de l'AMF.
+Avant d'entrer en relation d'affaires ou d'assister son client dans la préparation ou la
+réalisation d'un investissement ou de toute autre opération sur le marché, le
+professionnel doit identifier le client, voire le bénéficiaire effectif de l'opération. Il doit
+notamment, d'une part, vérifier son identité sur la base d'un document officiel ou de
+tout document écrit probant et, d'autre part, recueillir toute information sur l'objet et
+la nature de l'opération envisagée.
+Ainsi, pour tout teneur de compte de titTes (sociétés de bourse et établissements de
+crédit dûment agréés), l'identification du client et du bénéficiaire effectif devra
+intervenir avant la signature de la convention d'ouverture de compte et avant la
+signature d'un bulletin de souscription.
+Cette liste de situations n'est pas exhaustive. Elle est donnée à titre indicatif afin de permettre
+aux professionnels de les intégrer dans leur cartographie et leur évaluation des risques
+concernant leur(s) client(s) pour une opération donnée.
+Dans le suivi de la relation d'affaires, l'acteur du marché ou l'assujetti a l'obligation
+de mettre à jour sa connaissance du client, afin d'apprécier la cohérence, voire I
+15
+=== page 16 ===
+licéité, des opérations effectuées par ce dernier.
+Relation d'affaires et client occasionnel
+Les notions de « relation d' affaires » et de « client occasionnel » doivent être bien distinguées.
+Elles renvoient à des obligations différentes.
+Conformément aux dispositions de l' article 2 du Règlement N002/ 24/ CEMAC/ UMAC/ CM
+du 20 décembre 2024 portant prévention et répression du blanchiment de capitaux et du
+financement du terrorisme et de la prolifération en Afrique Centrale, la relation d'affaires
+s'entend d'une « situation dans laquelle un assujetti engage une relation professionnelle ou
+commerciale qui est censée, au moment où le contact est établi, s'inscrire dans une certaine durée ».
+En d' autres termes, la relation d' affaires induit un lien qui se traduit par plusieurs opérations
+successives réalisées entre les parties ou encore un lien qui crée, pour les parties, des
+obligations continues.
+La relation d'affaires peut être prévue par un contrat. Elle peut également être nouée en
+l'absence d'un tel contrat, notamment lorsqu'un client bénéficie de façon régulière de
+l'intervention d'un professionnel assujetti pour la réalisation de plusieurs opérations ou
+d'une opération présentant un caractère continu.
+Il convient de souligner que même si la durée est un élément déterminant de la relation
+d'affaires, elle n'implique pas nécessairement des relations sur une période prolongée. Ainsi,
+un client qui procède à plusieurs opérations de souscription de titres la même année peut
+être considéré comme une relation d'affaires. Il en est de même pour un client qui donne
+mandat à une société de bourse en vue de structurer un placement privé de titres.
+Le client occasionnel est défini à l'article 2 du même texte comme « toute personne qui s 'adresse
+à un assujetti dans le but exclusif de préparer ou de réaliser une opération ponctuelle ou d' être assistée
+dans la préparation ou la réalisation d'une telle opération, que celle-ci soit réalisée en une seule
+opération ou en plusieurs opérations apparaissant comme liées entre elles ».
+16
+=== page 17 ===
+Le client occasionnel est défini, selon les mêmes caractéristiques, à l'article 96 du Règlement
+Général de la COSUMAF. Le client occasionnel est donc celui qui réalise, auprès d'un
+assujetti, une opération ponctuelle.
+Les personnes, structures ou organismes assujettis sont tenus de définir des critères pour
+distinguer leurs clients habituels de leurs clients occasionnels.
+• Obligation de vigilance constante
+a. Identification du client/bénéficiaire effectif
+Les acteurs du marché ou assujettis doivent relever les noms et prénoms de la (des)
+personne(s) physique(s) concernée(s), ainsi que tout autre élément permettant d'établir
+l'identité du bénéficiaire effectif, notamment la date et le lieu de naissance.
+Les acteurs du marché vérifient l'identité de leurs clients selon les modalités suivantes (art.
+30 et s. Règlement CEMAC/UMAC du 20 déc. 2024) :
+Lorsque le client est une personne physique, l'identification est opérée par la
+présentation d'un document officiel original en cours de validité et comportant une
+photographie, dont il est pris une photocopie ;
+Llidentification d'une personne morale est effectuée par la production des statuts et
+de tout document établissant qu'elle a été légalement constituée et qu'elle a une
+existence réelle au moment de l'identification. Il en est pris photocopie. Au cas où
+l'identification de l'adresse d'un des principaux centres d'activités est différente de
+l'adresse du siège social, elle doit être mentionnée. En particulier, les assujettis
+identifient et enregistrent, selon le cas le nom de la personne morale, la forme
+juridique et l'attestation d'existence, les noms des personnes pertinentes occupant les
+fonctions de direction dans la personne morale et l'adresse de son siège social et de
+son principal centre d'activité, si elle est différente de celle du siège social et du
+bénéficiaire effectif de la personne morale.
+=== page 18 ===
+Lorsque la vérification de l'identité ne peut avoir lieu en présence de la personne physique
+ou du représentant de la personne morale, l'institution financière met en œuvre, des mesures
+de vigilance complémentaires.
+Article 33 Règlement CEMAÇUMAC du 20 déc. 2024 — Identification du bénéficiaire
+effectif
+Au cas où il n'est pas certain que le client agit pour son propre compte, l'institution financière
+se renseigne par tout moyen sur l'identité du véritable donneur d'ordre.
+Les institutions financières doivent identifier et prendre des mesures raisonnables pour
+vérifier l'identité des bénéficiaires de leurs clients qui sont des personnes morales ou des
+constructions juridiques.
+L'identification des bénéficiaires effectifs des personnes morales devrait se faire au moyen
+des informations suivantes, nonobstant celles obtenues de sources, de données ou
+renseignements indépendants et authentifiés :
+a) l'identité de la ou des personne(s) physique(s) qui détiennent, en dernier lieu, une
+participation de contrôle dans une personne morale ;
+b) l'identité de la ou des personne(s) physique(s) exerçant un contrôle réel de la personne
+morale par d'autres moyens, lorsque :
+il existe des doutes suite à la vérification prévue au point a) du présent alinéa,
+quant au fait de savoir si les personnes ayant une participation de contrôle sont
+les bénéficiaires effectifs ;
+aucune personne physique n'exerce de contrôle sur la personne morale au travers
+d'une participation ;
+c) l'identité de la personne physique pertinente qui occupe la position de dirigeant
+principal, lorsqu'aucune personne physique n'est identifiée dans le cadre de la mise en
+ceuvre des exigences prévues aux points a) ou b) du présent alinéa.
+L'identification des bénéficiaires effectifs des constructions devrait se faire au moyen des
+informations suivantes
+18
+=== page 19 ===
+pour les fiducies, l'identité du constituant de la fiducie, du ou des fiduciaires, du
+protecteur, des bénéficiaires ou de la catégorie de bénéficiaires et de toute autre
+personne physique exerçant en dernier lieu un contrôle effectif sur la fiducie, y
+compris au travers d'une chaîne de contrôle ou de propriété ;
+pour les aufres types de constructions juridiques, l'identité des personnes occupant
+des positions équivalentes ou similaires à celles énumérées au point a) du présent
+alinéa.
+Si le client est un avocat, un notaire, un comptable, un courtier en valeurs mobilières,
+intervenant en tant qu'intermédiaire financier, il ne pourra invoquer le secret professionnel
+pour refuser de communiquer l'identité du donneur d'ordre ou du bénéficiaire effectif.
+b. Connaissance de la relation d'affaires avant l'entrée en relation
+Article 20 Règlement CEMAC/UMAC du 20 déc. 2024
+« Avant d'entrer en relation d'affaires avec leur client ou de llassister dans la préparation ou
+la réalisation diune transaction, les assujettis au présent Règlement identifient leurs clients
+qu'il s'agisse de personnes physiques, de personnes morales ou de constructions juridiques
+et, le cas échéant, le bénéficiaire effectif de la relation dlaffaires, par des moyens adaptés et
+vérifient les éléments d'identification sur présentation de tout document écrit probant, y
+compris des données ou informations issues de sources fiables et indépendantes.
+Les personnes assujetties identifient, dans les mêmes conditions, leurs clients occasionnels
+et, le cas échéant, le bénéficiaire effectif de la relation d'affaires, au sens du présent
+Règlement.
+Par dérogation à l'alinéa premier du présent article, lorsque le risque de blanchiment de
+capitaux et de financement du terrorisme est jugé faible au sens du présent Règlement, la
+vérification de l'identité du client, et le cas échéant du bénéficiaire effectif peut être effectuée
+uniquement pendant l'établissement de la relation d'affaires ».
+Article 94 R.G. COSUMAF -
+19
+=== page 20 ===
+« Avant d'entrer en relation d'affaires avec leur client ou de l'assister dans la préparation ou
+la réalisation d'une transaction, les acteurs ou intervenants du marché :
+identifient le client et vérifient son identité au moyen de documents, données et
+informations de sources fiables et indépendantes ;
+identifient le bénéficiaire effectif et prennent des mesures raisonnables pour vérifier
+son identité de manière à écarter tout doute sur l'identité du bénéficiaire effectif.
+S'agissant des personnes morales et des constructions juridiques, les acteurs et
+intervenants du marché doivent, en toute circonstances, comprendre la structure de
+propriété et de contrôle du client ;
+doivent comprendre et, le cas échéant, obtenir des iNormations sur l'objet et la nature
+de la relation d'affaires envisagée ;
+doivent exercer une vigilance constante à l'égard de la relation d'affaires et assurer un
+examen attentif des opérations effectuées pendant toute la durée de cette relation
+d' affaires, afin de s' assurer qu'elles sont cohérentes notamment avec le profil de risque
+du client ».
+Pour l'application des dispositions de l'article 94 du Règlement Général de la COSUMAF, les
+assujettis identifient leurs clients dans les condiüons suivantes :
+lorsque le client est une personne physique, en recueillant ses nom et prénoms ainsi
+que des date et lieu de naissance ;
+lorsque le client est une personne morale, en recueillant sa forme juridique, sa
+dénomination, son numéro d'immatriculation et l'adresse de son siège social ;
+lorsque le client est un organisme de placement collectif dépourvu de personnalité
+morale (ex. Fonds commun de placement), en recueillant sa dénomination, sa forme
+juridique, les références de son agrément, son numéro international d'identification
+des valeurs mobilières (code ISIN), ainsi que la dénomination, l'adresse et les
+références de l'agrément de la société de gestion qui le gère.
+Les acteurs du marché identifient également les personnes agissant pour le compte du client
+et vérifient leurs pouvoirs.
+Les assujettis doivent être en mesure de justifier, en toutes circonstances, de la mise en œuvre
+20
+=== page 21 ===
+de ces mesures et de leur adéquation au risque de blanchiment de capitaux et de financement
+du terrorisme présenté par la relation d'affaires.
+c. Connaissance de la relation d'affaires pendant la relation
+Article 21 Règlement CEMAC/UMAC du 20 déc. 2024
+Les personnes visées aux articles 6 et 7 du présent Règlement recueillent et analysent les
+éléments d'information nécessaires à la connaissance de leur client ainsi que l'objet et la
+nature de la relafion d'affaires, pour évaluer le risque de blanchiment de capitaux et de
+financement du terrorisme.
+Pendant toute la durée de la relation d'affaires, ces personnes recueillent, mettent à jour et
+analysent les éléments d'information, à cet effet, par une autorité compétente, qui permettent
+de conserver une connaissance appropriée de leur client. La collecte et la conservation de ces
+informations doivent être réalisées en adéquation avec les objectifs d'évaluation du risque de
+blanchiment de capitaux et de financement du terrorisme et de surveillance adaptée à ce
+risque.
+A tout moment, ces personnes doivent être en mesure de justifier aux autorités de contrôle
+l'adéquation des mesures de vigilance qu'elles ont mises en oeuvre aux risques de
+blanchiment de capitaux et de financement du terrorisme présentés par la relation diaffaires.
+Les personnes visées aux articles 6 et 7 du présent Règlement doivent exercer une vigilance
+constante concernant toute relation d'affaires et examiner attentivement les opérations
+effectuées en vue de s'assurer qu'elles sont conformes à ce qu'elles savent de leurs clients, de
+leurs activités commerciales, de leur profil de risque et, le cas échéant, de l'origine de leurs
+fonds.
+Il leur est interdit de tenir des comptes anonymes ou des comptes sous des noms fictifs ».
+• Adaptation des mesures de vigilance au risque identifié
+Les mesures de vigilance à mettre en œuvre sont fonction des niveaux de risques tels
+qu'évalués dans la cartographie des risques.
+a. Vigilance simplifiée
+21
+=== page 22 ===
+Article 102 R.G. COSUMAF -
+« Lorsque le risque de blanchiment des capitaux et de financement du terrorisme présenté par un client,
+une relation d'affaires, un produit ou une opération leur paraît faible, les acteurs et intervenants du
+marché peuvent réduire l'intensité des mesures de vigilance permanente concernant la relation
+d'affaires et les opérations effectuées ».
+À tout moment, les personnes assujetties doivent être en mesure de justifier aux autorités de
+contrôle l'adéquation des mesures de vigilance qu'elles ont mises en oeuvre aux risques de
+blanchiment de capitaux et de financement du terrorisme présentés par la relation d'affaires.
+Les assujettis doivent exercer une vigilance constante concernant toute relation dlaffaires et
+examiner attentivement les opérations effectuées en vue de s'assurer quielles sont conformes
+à ce qu'elles savent de leurs clients, de leurs activités commerciales, de leur profil de risque
+et, le cas échéant, de l'origine de leurs fonds.
+b. Vigilance renforcée
+Article 103 R.G. COSUMAF -
+« Lorsque le risque de blanchiment des capitaux et de financement du terrorisme présenté par une
+relation d'affaires, un produit ou une opération leur paraît élevé, les acteurs et intervenants du marché
+mettent en œuvre les dispositions des articles 100 et 101 du présent règlement général sous la forme
+de mesures de vigilance renforcées.
+La mise en œuvre des mesures de vigilance complémentaires prévues à l'article 106 du présent
+règlement général ne fait pas obstacle à I I application des mesures de vigilance renforcée visées à l'alinéa
+premier du présent article ».
+c. Examen renforcé
+Article 104 R.G. COSUMAF -
+« Les acteurs et intervenants du marché effectuent un examen renforcé de toute opération
+particulièrement complexe ou d'un montant inhabituellement élevé ou ne paraissant pas avoir de
+justification économique ou d' objet licite. Dans ce cas, ces personnes se renseignent auprès du client
+sur It origine des fonds et la destination de ces sommes ainsi que sur l'objet de II opération et Itidentité
+de la personne qui en bénéficie ».
+22
+=== page 23 ===
+• Obligation de vigilance complémentaire
+Article 101 R.G. COSUMAF -
+« Les acteurs et intervenants du marché appliquent des mesures de vigilance complémentaires à
+l'égard de leur client, en sus des mesures prévues à l'article 100 du présent règlement général, lorsque
+10 Le client, le cas échéant son bénéficiaire effectif, est une personne qui est exposée à des risques
+particuliers en raison des fonctions politiques, juridictionnelles ou administratives qu 'elle exerce ou a
+exercées ou de celles qu 'exercent ou ont exercées des membres directs de sa famille ou des personnes
+connues pour lui être étroitement associées ou le devient en cours de relation d'affaires ;
+20 Le produit ou l' opération présente, par sa nature, un risque particulier de blanchiment de capitaux
+ou de financement du terrorisme, notamment lorsqu'ils favorisent llanonymat •
+30 L'opération est une opération pour compte propre ou pour compte de tiers effectuée avec des
+personnes physiques ou morales, y compris leurs filiales ou établissements ou toute autre entité,
+domiciliées, enregistrées ou établies dans un Etat ou un territoire dont la législation ou les pratiques
+font obstacle à la lutte contre le blanchiment des capitaux et le financement du terrorisme ».
+a)
+b)
+c)
+d)
+e)
+f)
+g)
+Notion de « Personnes Politiquement Exposées » (PPE) •
+PPE étrangères : les personnes physiques qui exercent ou qui ont exercé d'importantes
+fonctions publiques dans un autre Etat membre ou un Etat tiers, à savoir notamment
+Les Chefs d'Etat ou de Gouvernement, les Ministres, les Ministres délégués et les
+Secrétaires d'Etat ;
+Les Secrétaires Généraux, Directeurs de Cabinets, Directeurs Généraux des Ministères
+et assimilés ;
+Les parlementaires ;
+Les responsables de partis politiques ;
+Les membres des cours suprêmes, des cours constitutionnelles ou d'autres hautes
+juridictions ainsi que les autres magistrats ;
+Les dirigeants ou membres de l'organe de direction d'une banque centrale ;
+Les ambassadeurs, les chargés d'affaires, les consuls ,
+23
+=== page 24 ===
+h) Les officiers généraux ou officiers supérieurs de la force publique ;
+i) Les membres des organes d'administration, de direction ou de surveillance des entreprises
+publiques ou para publiques ;
+j) Les dirigeants d'une institution internationale publique créée par un traité ;
+k) Les personnes connues pour être étroitement associées aux PPE désignées dans le
+présent point ;
+1) Les membres de la famille d'une PPE, à savoir :
+Le ou les conjoint(s) ;
+Tout partenaire considéré comme l'équivalent d'un conjoint ;
+Les descendants et leurs conjoint(e)s ou partenaires ;
+Les ascendants.
+Les collatéraux privilégiés.
+PPE nationales : personnes physiques qui exercent ou qui ont exercé d'importantes
+fonctions publiques au niveau national, notamment les personnes physiques visées
+aux points a) à l) ci-dessous ;
+a) Les Chefs d'Etat ou de Gouvernement, les Ministres, les Ministres délégués et
+les Secrétaires d'Etat ;
+b) Les Secrétaires Généraux, Directeurs de Cabinets, Directeurs Généraux des
+Ministères et assimilés ;
+c) Les parlementaires ;
+d) Les responsables de partis politiques ;
+e) Les membres des cours suprêmes, des cours constitutionnelles ou d'autres
+hautes juridictions ainsi que les autres magistrats ;
+f) Les dirigeants ou membres de l'organe de direction d'une banque centrale ;
+g) Les ambassadeurs, les chargés d'affaires, les consuls ;
+h) Les officiers généraux ou officiers supérieurs de la force publique ;
+i) Les membres des organes d'administration, de direction ou de surveillance
+des entreprises publiques ou para publiques ;
+24
+=== page 25 ===
+j) Les dirigeants d'une institution internationale publique créée par un traité ;
+k) Les personnes connues pour être étroitement associées aux PPE désignées
+dans le présent point ;
+l) Les membres de la famille d'une PPE, à savoir :
+Le ou les conjoint(s) ;
+Tout partenaire considéré comme l'équivalent d'un conjoint ;
+Les descendants et leurs conjoint(e)s ou partenaires ;
+Les ascendants ;
+Les collatéraux privilégiés.
+PPE des organisations internationales : personnes qui exercent ou qui ont exercé
+d'importantes fonctions au sein de ou pour le compte d'une organisation
+internationale, notamment les membres de la haute direction, y compris les
+membres du Conseil d' Administration, les Présidents, Secrétaires Généraux, les
+directeurs, directeurs adjoints et toutes les personnes exerçant des fonctions
+équivalentes.
+Article 110 R.G. COSUMAF -
+« A l'égard des personnes politiquement exposées, les acteurs ou intervenants du marché doivent :
+disposer de systèmes appropriés de gestion des risques permettant de déterminer si le client ou
+le bénéficiaire effectif est une personne politiquement exposée ;
+soumettre à l'autorisation de la haute direction l'établissement de telles relations d'affaires ;
+prendre des mesures visant à établir l'origine du patrimoine et l'origine des fonds ;
+assurer une surveillance renforcée et constante à l'égard de la relation d'affaires ».
+Vigilance à la suite du gel des avoirs
+Le fait qu'une personne fasse l'objet d'une mesure restrictive, y inclus de gel des avoirs17,
+n'impose pas nécessairement à l'assujetti de procéder à une déclaration de soupçon à l'ANIF.
+En revanche, il est attendu de l'assujetti qu'il réévalue le profil de la relation d'affaires au
+regard de cette mesure, et adapte sa vigilance en conséquence. II examine en particulier av
+25
+=== page 26 ===
+attention le fonctionnement de la relation d'affaires, notamment les opérations qui ont
+précédé l'entrée en vigueur de la mesure restrictive mais également les éventuels liens
+familiaux et patrimoniaux de la personne concernée.
+Lorsqu'il est mis fin à la mesure restrictive, le professionnel veille à conserver une vigilance
+et un profil de son client adaptés, tenant compte notamment de ce facteur de risque et de tout
+auffe élément pertinent.
+En tout état de cause, en cas de soupçon, il appartient à l'assujetti de transmettre sans délai
+une déclaration à I' ANIF, en précisant les éléments d'analyse ayant conduit au soupçon.
+1) Rupture de la relation d'affaires
+Lorsque les informations à la disposition d'un assujetti ne lui permettent pas de garantir
+clairement l'identification des clients, il se doit d'interrompre la relation d'affaires et, en
+conséquence, il ne doit exécuter aucune opération.
+26
+=== page 27 ===
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+i.
+ANNEXE : MENACES PESANT SUR LE MARCHE FINANCIER ET CRITERES
+D'ALERTE
+1) Menaces pesant sur le marché financier de la CEMAC :
+Origine illégale des fonds ,
+Commercialisation de produits atypiques ou non autorisés ,
+Fraudes et escroqueries diverses ;
+Corruption ;
+Détournement de fonds •
+Nouvelles technologies « Fintechs » ;
+Actifs virtuels (notamment usage abusif d'une société commerciale à des fins
+d'escroquerie à travers le trading d'actifs virtuels) •
+Plateformes de financement participatif ;
+Nouveaux moyens de paiement.
+2) Critères d'alerte :
+La liste des critères d'alerte ci-après n'est pas exhaustive. Ces critères constituent des
+exemples que chaque assujetti devra apprécier selon la situation de son établissement et les
+risques auxquels il est exposé.
+• Critères d'alerte relatifs à l'opération :
+Complexité de l'opération
+l'opération ne semble pas avoir de justification économique : l'opération
+manque de cohérence ou de justification simple ;
+l'opération soulève des complications financières, économiques ou juridiques
+l'opération présente des caractéristiques inhabituelles ;
+la cohérence est insuffisante entre la situation familiale, économique ou sociale
+de la personne et les conditions économiques de l'opération ;
+le client procède à plusieurs achats et reventes successifs dans un temps bref.
+27
+=== page 28 ===
+• Critères d'alerte relatifs aux fonds :
+•
+le client fournit des espèces ou utilise sans explication de nombreux comptes ;
+le client demande que le versement des sommes qui lui sont dues soit effectué
+à une tierce personne ;
+le paiement est effectué en provenance ou à destination d'établissements
+financiers, de sociétés ou de personnes résidant (i) dans un pays à fiscalité
+privilégiée, (ii) dans un pays connu pour son instabilité politique ou le
+développement de certains trafics, (iii) dans un pays sensible compte tenu de
+l'actualité ,
+l'investisseur paie son achat en espèces ;
+le paiement provient d'un tiers sans justification du lien juridique qui
+pourrait légitimer cette intervention au profit du client ;
+il y a un doute sur l'origine des fonds prêtés par des membres de la
+famille du client ou investisseur ;
+l'utilisation régulière par des personnes physiques domiciliées et ayant une
+activité en zone CEMAC de comptes détenus par des sociétés étrangères ;
+le paiement par un client de fonds sans rapport avec son activité ou sa
+situation patrimoniale connue ;
+l'origine des fonds est inconnue ;
+annulation de l'opération et demande de retour des fonds vers un compte
+autre que le compte émetteur.
+•
+•
+•
+• Critères d'alerte relatifs aux clients ou aux bénéficiaires effectifs :
+le destinataire final des fonds est inconnu ou est dissimulé ;
+le comportement du client ou du bénéficiaire effectif est insolite ;
+il y a une substitution de partie au dernier moment ,
+l'utilisation de sociétés écran ;
+le recours à l'interposition de personnes physiques ;
+la difficulté d'identifier les bénéficiaires effectifs et les liens entre l'origine et la
+destination des fonds en raison de l'utilisation de comptes intermédiaires ou de
+28
+=== page 29 ===
+comptes de passage, ou du recours à des structures sociétaires complexes et à des
+montages juridiques et financiers rendant peu transparents les mécanismes de gestion
+et d'adminisfration ;
+• le client a une origine géographique sensible par rapport à l'actualité ;
+• le client a un comportement atypique éveillant le doute ;
+• le client ou les bénéficiaires effectifs sont des personnalités politiquement exposées
+(PPE) ou des personnes assimilées aux PPE ;
+présence d'un tiers aux côtés du client, dont le comportement tend à faire penser qu'il
+s'agit du bénéficiaire réel de l'opération ;
+difficulté d'établir un contact avec le client et présence d'un intermédiaire.
+• Critères d'alerte relatifs aux mesures de vigilance :
+difficultés ou impossibilité d'obtenir des informations ;
+• les documents produits (ex : documents d'identité, extrait du Registre du Commerce
+et du Crédit Mobilier RCCM, etc.) sont faux ou douteux ;
+l'identité d'une personne physique ou morale est usurpée ;
+• les documents légaux qui doivent normalement être fournis font défaut
+il est impossible d'obtenir des informations sur l'identification du client, sur le
+bénéficiaire effectif ou encore sur l'opération ;
+• une information recueillie sur le client ou les bénéficiaires effectifs et/ou l'opération
+s'avère incomplète et ou inexacte ;
+• la constatation d'anomalies dans les documents produits comme justification de
+l'origine des fonds, de l'identité des personnes physique ou morale ou sur la cohérence
+économique de l'opération (ex : absence du numéro d'immatriculation au Registre du
+Commerce et du Crédit Mobilier, faux bulletins de salaire, fausses pièces d'identité,
+etc.) ;
+29
+=== page 30 ===
+• le refus du client de produire des pièces justificatives quant à la provenance des fonds
+reçus ou l'impossibilité de produire ces pièces ;
+• l'absence de réponse aux questions.
+Pour le Collège de la COSUMAF
+La Présidente
+DE SURVEI
+DU MARCHE FIN
+OE L'AFRIQU E
+Tél.: + 2410 4.75.89 /
+Jacqueline ADIABA-NKEMBE
+30

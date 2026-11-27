@@ -1,0 +1,797 @@
+=== page 1 ===
+Page - 1 - 
+DEPARTEMENT OPERATIONS & DEVELOPPEMENT DU MARCHE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INSTRUCTION N°2 
+ 
+REGLES DE MARCHE DE LA 
+BVMAC
+=== page 2 ===
+- 2 - 
+               
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DEPARTEMENT DES OPERATIONS & DEVELOPPEMENT DU MARCHE 
+Version
+Date
+Auteurs
+Description
+1 
+Février 2008 
+Les services des 
+OPERATIONS DU 
+MARCHE 
+Projet d’instruction relatif aux règles de marché
+=== page 3 ===
+- 3 - 
+               
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+Sommaire 
+1. 
+CYCLE DE NEGOCIATION 
+- 5 - 
+1.1 
+Classification des Titres par Groupe de cotation et Mode de Négociation 
+- 5 - 
+1.2 
+Apporteur de liquidité 
+- 5 - 
+1.2.1 
+Possibilités de recourir à un Apporteur de Liquidité ............................................................................................... - 5 - 
+1.3 
+Phases de négociation au fixing 
+- 6 - 
+2. 
+ORDRES 
+- 7 - 
+2.1 
+Types d’ordres 
+- 7 - 
+2.1.1 
+Les ordres au marché........................................................................................................................................... - 7 - 
+2.1.2 
+Les ordres à cours limité ...................................................................................................................................... - 7 - 
+2.2 
+Prix de l’ordre 
+- 8 - 
+2.3 
+Taille de l’ordre 
+- 8 - 
+2.4 
+Validité de l’ordre 
+- 8 - 
+2.5 
+Modification et annulation d’ordres 
+- 9 - 
+3. 
+NEGOCIATION 
+- 12 - 
+3.1 
+Détermination du prix et allocation des titres pendant un fixing 
+- 12 - 
+3.1.1 
+Principe de maximisation du volume d’échanges ................................................................................................ - 12 - 
+3.1.2 
+La minimisation du solde .................................................................................................................................... - 13 - 
+3.1.3 
+Prix de référence ................................................................................................................................................ - 13 - 
+3.2 
+Etat d’un titre 
+- 13 - 
+3.2.1 
+Suspension ........................................................................................................................................................ - 13 - 
+3.2.2 
+Gel ..................................................................................................................................................................... - 13 - 
+3.2.3 
+Réservation ........................................................................................................................................................ - 14 - 
+3.2.4 
+Interdiction de saisie ........................................................................................................................................... - 14 - 
+3.2.5 
+Information sur l’état des Titres ........................................................................................................................... - 14 - 
+4. 
+MECANISMES DE SECURITE 
+- 15 - 
+4.1 
+Les prix de référence statique et les intervalles statiques de prix 
+- 15 - 
+4.1.1 
+Le prix de référence statique .............................................................................................................................. - 15 - 
+4.1.2 
+Les intervalles statiques de prix .......................................................................................................................... - 15 - 
+5. 
+DIFFUSION DES DONNEES DE MARCHE 
+- 17 - 
+5.1 
+Le marché résumé 
+- 17 -
+=== page 4 ===
+- 4 - 
+               
+  
+  
+  
+  
+  
+ 
+ 
+5.2 
+Le marché par ordres 
+- 17 - 
+5.3 
+Le marché par limites 
+- 18 - 
+5.4 
+Les transactions 
+- 18 - 
+6. 
+HORAIRES DE COTATION ET DÉTAILS DES DIFFÉRENTES PHASES 
+- 20 - 
+6.1 
+8H00 : Phase de Consultation Début 
+- 20 - 
+6.2 
+10H00 : Phase de Pré-ouverture 
+- 20 - 
+6.3 
+11H00 : Phase d’ouverture 
+- 20 - 
+6.4 
+11H30 : Phase d’Intervention Surveillance 
+- 21 - 
+6.5 
+12H30 : Phase de Post-séance 
+- 21 -
+=== page 5 ===
+- 5 - 
+ 
+1. CYCLE DE NEGOCIATION 
+ 
+ 
+1 . 1 
+C l a s s i f i c a t i o n d e s T i t r e s p a r G r o u p e 
+d e c o t a t i o n e t M o d e d e N é g o c i a t i o n  
+ 
+ 
+ 
+Les titres sont négociés sur la plate forme de Négociation de la BVMAC. 
+ 
+Les heures d’ouverture de la plate-forme de Négociation de la BVMAC et d’organisation 
+des différentes phases de la journée de Négociation sont publiées par la BVMAC dans la 
+présente Instruction sur les Règles de Marché.  
+ 
+En cas d’incident pouvant affecter les horaires normaux prédéfinis, la BVMAC en 
+informe immédiatement les membres par la diffusion d’un message via sa plate forme de 
+négociation en indiquant les nouveaux horaires de cotation. 
+ 
+Les titres sont repartis dans un groupe de cotation soumis à différentes règles de 
+négociation. 
+ 
+ 
+1 . 2 
+A p p o r t e u r d e l i q u i d i t é 
+ 
+Est défini par Apporteur de Liquidité, le client d’un Membre qui s’est engagé et a été 
+habilité par la BVMAC à améliorer la liquidité d’un Instrument Financier. 
+1.2.1 Possibilités de recourir à un Apporteur de Liquidité 
+ 
+Les Apporteurs de Liquidité sont tenus d’introduire dans le Carnet d’Ordre Central, de 
+façon régulière, en mode fixing ou en continu, des ordres d’achat et de vente en vue 
+d’améliorer la liquidité sur le marché  de cet instrument.
+=== page 6 ===
+- 6 - 
+ 
+1 . 3 
+P h a s e s d e n é g o c i a t i o n a u f i x i n g 
+ 
+ 
+ 
+Pour chaque groupe de négociation, les phases de négociations disponibles et les heures 
+de négociation y afférentes figurent en Annexe (Cf. Annexe « Horaires de cotation » et 
+« Détail des différentes phases »).
+=== page 7 ===
+- 7 - 
+ 
+2. 
+ORDRES 
+ 
+ 
+ 
+ 
+ 
+2 . 1 
+T y p e s d ’ o r d r e s 
+ 
+ 
+2.1.1 Les ordres au marché 
+ 
+ 
+L’ordre « au marché » ne comporte pas de limite de prix. Il s’exécute aux prix successifs 
+déterminés par la Plate- Forme de Négociation de la BVMAC. L’ordre au marché est 
+exécuté au maximum de la quantité immédiatement disponible, son solde restant en 
+carnet. Si un ordre au marché ne trouve pas de contrepartie, il reste aussi en carnet 
+jusqu’à son exécution ou son annulation soit par le Membre, soit du fait de l’atteinte de 
+sa limite de validité. 
+ 
+ 
+ 
+ 
+2.1.2 Les ordres à cours limité 
+ 
+ 
+L’ordre à « cours limité » est celui par lequel l’acheteur fixe le prix maximal qu’il est 
+disposé à payer (respectivement le prix minimal pour le vendeur). 
+ 
+En séance, la saisie d’un ordre limité provoque soit une exécution partielle ou totale de 
+l’ordre, si les conditions de marché le permettent, soit, à défaut, le positionnement de 
+celui-ci dans le carnet d’ordres dans un ordre décroissant en terme de prix à l’achat ou 
+croissant à la vente (priorité de prix) et en queue de la file d’attente des ordres à la 
+même limite (priorité de temps).
+=== page 8 ===
+- 8 - 
+ 
+2 . 2 
+P r i x d e l ’ o r d r e 
+ 
+ 
+Le prix de l’ordre est exprimé à la pièce ou en pourcentage du nominal. 
+ 
+2 . 3 
+T a i l l e d e l ’ o r d r e 
+ 
+ 
+Le volume d’un ordre s’exprime par une quantité de titres ou par un montant.  
+ 
+2 . 4 
+V a l i d i t é d e l ’ o r d r e 
+ 
+La validité  de l’ordre peut être choisie par le membre parmi les paramètres fixés par la 
+BVMAC. La plate forme de négociation de la BVMAC permet les options suivantes : 
+ 
+ 
+ 
+ 
+ Validité jour : 
+ l’ordre est valable seulement pour la journée de négociation en cours .La validité jour 
+constitue la validité par défaut  dans la plate forme de négociation de la BVMAC. 
+ 
+ A date déterminée (« daté») :  
+ l’ordre est valable seulement jusqu’à une date spécifique. La date système d’expiration 
+peut être au maximum d’un an (soit la date de saisie plus 365 jours civils). Selon le 
+Règlement Général de la BVMAC, l’historisation de l’ordre est 30 jours maximum. 
+ 
+ A révocation :  
+ l’ordre est valable jusqu’à ce qu’il soit exécuté, annulé par l’intervenant ou supprimé par 
+le système lorsqu’il atteint sa limite de validité (soit la date de saisie plus 365 jours 
+civils). 
+ 
+ 
+A l’expiration d’une des périodes de validité mentionnées ci –dessus, l’ordre est 
+automatiquement éliminé de la plate- forme de négociation de la BVMAC.
+=== page 9 ===
+- 9 - 
+ 
+ 
+ 
+2 . 5 
+M o d i f i c a t i o n e t a n n u l a t i o n d ’ o r d r e s 
+ 
+ 
+ 
+Pendant les périodes d’accumulation des ordres, l’ordre qui n’a pas été annulé, supprimé 
+ou intégralement exécuté peut être modifié par le Membre qui l’a saisi. 
+ 
+La modification de l’ordre conduit à une modification de la priorité temporelle si la 
+limite est modifiée ou si la modification a un impact sur la priorité d’exécution des 
+autres ordres présents dans le carnet d’ordres (par exemple : une augmentation de la 
+quantité de l’ordre existant).La priorité temporelle reste inchangée si la quantité de 
+l’ordre existant est diminuée. 
+ 
+ 
+ 
+ 
+ 
+Opération sur titres : 
+ 
+Une opération sur titre (OST) se définit comme l’action d’un Emetteur, ou d’un tiers en 
+relation avec cet Emetteur, affectant les droits attachés à ce Titre. 
+ 
+L’OST peut avoir pour conséquence l’annulation des ordres  en carnet et l’ajustement du 
+prix de référence statique, celui -ci étant : 
+ 
+ soit le dernier cours traité (généralement le cours de clôture de la veille) ; 
+ soit le dernier prix indicatif. 
+La BVMAC annonce par avis les conséquences d’une OST donnée, celles –ci 
+s’établissant généralement comme suit : 
+ 
+ 
+                Type d’OST 
+Conséquences sur le carnet 
+d’ordres 
+Division 
+Annulation des ordres 
+Dividendes
+Annulation des ordres
+Coupons d’obligations 
+Néant 
+Détachement de droits 
+Annulation des ordres
+Fusion /acquisition /offres 
+Annulation des ordres
+=== page 10 ===
+- 10 - 
+ 
+Répartition des titres détenus en 
+portefeuille  
+Annulation des ordres
+Regroupement 
+Annulation des ordres
+Introduction en bourse
+Création du carnet d’ordres
+Radiation 
+Annulation des ordres 
+Redénomination (obligations)
+Néant
+ 
+ 
+ 
+ 
+Opération administratives 
+ 
+ 
+Opérations Administratives 
+Conséquences sur le carnet 
+d’ordres 
+Changement du nom de la société
+Néant
+Changement de code de négociation
+Annulation des ordres
+Changement du mnémonique
+Néant 
+Changement de la monnaie de 
+négociation 
+Annulation des ordres
+Changement de groupe de cotation
+Néant
+Changement de place de cotation
+Annulation des ordres
+Changement du type d’expression du 
+cours (unité monétaire ou 
+pourcentage) 
+Annulation des ordres
+Changement de quotité
+Annulation des ordres
+Changement de type de titre
+Annulation des ordres 
+ 
+ 
+ 
+Autres opérations 
+ 
+ 
+Autres opérations 
+Conséquences sur le carnet 
+d’ordres 
+Suspension
+Néant
+=== page 11 ===
+-11-
+=== page 12 ===
+- 12 - 
+ 
+3. 
+NEGOCIATION 
+ 
+ 
+ 
+ 
+Tous les ordres saisis dans la plate-forme de Négociation de la BVMAC font l’objet d’un 
+message d’acquittement et se voient attribuer un numéro d’ordre séquentiel par Titre. 
+Pour chaque Transaction, les Membres reçoivent un message indiquant la quantité 
+négociée et le cours d’exécution. En cas d’exécution partielle, le solde de l’ordre apparaît 
+dans le message de confirmation d’exécution. Les annulations d’ordres ou transactions 
+par la BVMAC sont notifiées aux Membres. 
+ 
+ 
+ 
+ 
+3 . 1 
+D é t e r m i n a t i o n d u p r i x e t a l l o c a t i o n 
+d e s t i t r e s p e n d a n t u n f i x i n g 
+ 
+ 
+Provisoirement, comme le mode de cotation choisi est au fixing, le cours est celui qui 
+maximise le volume échangé.  
+Dans le cas contraire, la minimisation du solde, le sens du solde et, si nécessaire, le prix 
+de référence, sont subsidiairement pris en compte afin de permettre l’établissement 
+d’un cours de fixing unique. 
+ 
+ 
+ 
+ 
+ 
+3.1.1 Principe de maximisation du volume d’échanges 
+ 
+ 
+Le cours du fixing est déterminé sur la base de la situation du carnet d’ordres à la fin de 
+la phase de pré-ouverture. Le cours du fixing est le prix qui maximise le volume 
+échangeable pour chaque niveau de prix. Les ordres au prix du marché ont priorité sur 
+les ordres à cours limité.
+=== page 13 ===
+- 13 - 
+ 
+ 
+ 
+3.1.2 La minimisation du solde 
+ 
+ 
+Si le processus précédent détermine le cours de fixing, la minimisation du solde pour 
+chaque limite est utilisée comme critère supplémentaire. Le cours du fixing est le prix 
+qui maximise le volume exécuté et minimise le solde non exécuté. 
+ 
+ 
+ 
+3.1.3 Prix de référence 
+ 
+ 
+Si l’inclusion du sens du solde de marché n’aboutit pas à la détermination d’un cours de 
+fixing unique, le prix de référence est pris en compte en tant que critère subsidiaire, le 
+cours du fixing étant alors celui le plus proche du cours de référence. 
+ 
+ 
+ 
+ 
+ 
+3 . 2 
+E t a t d ’ u n t i t r e 
+ 
+ 
+ 
+3.2.1 Suspension 
+ 
+ 
+En cas de suspension de cotation d’un Titre, la reprise de cotation est précédée d’un avis 
+de la BVMAC. 
+ 
+Pendant la phase de suspension d’un Titre, les ordres saisis par les Membres et transmis 
+à la Plate-forme de Négociation de la BVMAC sont enregistrés dans le carnet d’ordres 
+sans provoquer de négociations. 
+ 
+ 
+3.2.2 Gel 
+Un Titre est dit « gelé » lorsque le déroulement normal des négociations :
+=== page 14 ===
+- 14 - 
+ 
+ 
+A abouti au franchissement d’un seuil de précaution (lorsqu’un 
+mécanisme de précaution est applicable) et, en conséquence de ce franchissement, 
+ 
+ 
+Le marché dudit Titre n’est ouvert ni à la négociation ni même à la 
+passation, la modification ou l’annulation d’ordres. 
+ 
+ 
+ 
+3.2.3 Réservation 
+ 
+ 
+ 
+Un Titre est « réservé » lorsque  le déroulement normal des négociations : 
+ 
+ 
+A abouti au franchissement d’un seuil de réservation. 
+ 
+De plus amples détails sont disponibles dans les procédures de la BVMAC. 
+ 
+ 
+3.2.4 Interdiction de saisie 
+ 
+En cas de suspension d’un Titre ou de modification de  ses paramètres de cotation, la 
+BVMAC peut être amenée à interdire temporairement la saisie des ordres sur le Titre 
+concerné. 
+ 
+3.2.5 Information sur l’état des Titres 
+ 
+Les modifications d’état d’un Titre telles que la suspension, la réservation ou le gel font 
+l’objet de messages d’information diffusés via la Plate-forme de Négociation de la 
+BVMAC.
+=== page 15 ===
+- 15 - 
+ 
+4. 
+MECANISMES DE SECURITE 
+ 
+ 
+En règle générale, les prix varient librement selon l’offre et la demande. 
+ 
+Cependant, la BVMAC rejette automatiquement les ordres d’achat ou de vente entrés 
+dans la Plate-forme  de Négociation qui doivent provoquer des négociations à un prix 
+en dehors des seuils de « réservation » ou bien des seuils « de précautions ». 
+ 
+4 . 1 
+L e s p r i x d e r é f é r e n c e s t a t i q u e e t l e s 
+i n t e r v a l l e s s t a t i q u e s d e p r i x 
+ 
+Le prix de référence statique ainsi que les intervalles statiques de prix sont utilisés dans 
+le but d’identifier un mouvement de prix majeur survenant en plusieurs étapes  sur une 
+période de temps relativement longue. 
+ 
+L’intervalle constitué par les seuils de prix statiques est défini par un pourcentage de 
+variation maximum du prix du marché appliqué de part et d’autre du prix de référence 
+statique. 
+ 
+ 
+4.1.1 Le prix de référence statique 
+ 
+ 
+ 
+Après le fixing d’ouverture : 
+ 
+ 
+Si un cours d’ouverture est coté, ce cours devient alors un nouveau prix de 
+référence statique, 
+ 
+Si le Titre est réservé (automatiquement sans aucune négociation), le 
+nouveau prix de référence statique disponible est alors égal au seuil de réservation atteint, 
+ 
+Si le Titre ouvre sans aucune négociation (cours des ordres 
+incompatibles), le prix de référence statique demeurant alors inchangé. 
+ 
+ 
+ 
+4.1.2 Les intervalles statiques de prix
+=== page 16 ===
+- 16 - 
+ 
+Pour le fixing d’ouverture de la journée de Négociation, les seuils de prix statiques sont 
+égaux au prix de référence statique plus ou moins 10% pour les actions et plus ou moins  
+6% pour les obligations. 
+ 
+Les seuils de variation peuvent être modifiés par la BVMAC, qui en informe 
+préalablement les Adhérents et la COSUMAF.
+=== page 17 ===
+- 17 - 
+ 
+5. 
+DIFFUSION DES DONNEES DE MARCHE 
+ 
+ 
+Les données de marché son diffusées via la Plate-forme de négociation de la BVMAC. 
+ 
+Les informations diffusées sont : 
+ 
+ 
+ 
+5 . 1 
+L e m a r c h é r é s u m é 
+ 
+ 
+Le marché résumé pour un Titre donné est composé de la meilleure demande et de la 
+meilleure offre, soit : 
+ 
+ Meilleure demande : quantité totale montrée à l’achat au prix le plus élevé, ainsi que le prix 
+correspondant ; 
+  
+ Meilleure offre : quantité totale montrée à la vente au prix le plus bas, ainsi que le prix 
+correspondant. 
+ 
+ 
+ 
+5 . 2 
+L e m a r c h é p a r o r d r e s 
+ 
+ 
+Le marché par ordre est composé, pour chaque Titre, de tous les ordres d’achat, classés 
+par ordre décroissant de prix et de tous les ordres de vente, classés par ordre croissant 
+de prix. Pour chaque ordre, figurent la quantité de Titres montrée et le prix saisi. En 
+période d’accumulation des ordres, le cours théorique d’ouverture est diffusé dès qu’il 
+peut être calculé. 
+ 
+Les ordres d’achat à un prix supérieur au cours théorique d’ouverture et les ordres de 
+vente à un cours inférieur à ce cours théorique sont diffusés avec une limite de prix 
+égale au dit cours théorique.
+=== page 18 ===
+- 18 - 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 . 3 
+L e m a r c h é p a r l i m i t e s 
+ 
+ 
+Le marché par limite diffusé est composé, pour chaque Titre, des cinq meilleures limites 
+à l’achat, classées par ordre décroissant de prix et des cinq meilleures limites à la vente, 
+classées par ordre croissant de prix. Pour chaque limite figurent le nombre d’ordres et la 
+quantité totale montrée dans le carnet d’ordres à ce prix. 
+ 
+ 
+ 
+5 . 4 
+L e s t r a n s a c t i o n s 
+ 
+ 
+Pour chaque transaction, les informations suivantes sont immédiatement diffusées aux 
+Membres : 
+ La quantité de Titres échangés ; 
+ Le cours ; 
+ L’heure de Transaction, 
+ Le numéro d’identification de la transaction
+=== page 19 ===
+ANNEXY
+-19-
+=== page 20 ===
+- 20 - 
+ 
+6. 
+HORAIRES DE COTATION ET DETAILS DES DIFFERENTES PHASES 
+ 
+ 
+ 
+6 . 1 
+9 H 0 0 : P h a s e d e C o n s u l t a t i o n D é b u t   
+ 
+ 
+ 
+Les phases de consultation début sont des états réservés aux surveillants pour qu’ils 
+puissent intervenir sur les groupes et préparer  la journée de cotation. Durant cette 
+période aucun ordre ne peut être saisi, que ce soit par le surveillant ou par l’adhérent. 
+ 
+6 . 2 
+1 0 H 0 0 : P h a s e d e P r é - o u v e r t u r e  
+ 
+C’est une phase au cours de laquelle il n’y a aucune transaction.  Adhérents et 
+surveillants peuvent saisir, modifier, annuler des ordres. Ces derniers sont stockés dans 
+le carnet d’ordres, et un cours théorique d’ouverture est calculé. Cet état du groupe 
+permet d’alimenter le marché en d’en déterminer un cours théorique permettant de 
+maîtriser les écarts de cours et d’équilibrer le marché. 
+ 
+6 . 3 
+1 1 H 0 0 : P h a s e d ’ o u v e r t u r e  
+ 
+C’est une phase d’échange  pour tous les ordres dont les  transactions  seront  effectuées 
+au Cours Théorique d’Ouverture.  Aucun ordre ne peut être saisi durant cette courte 
+période d’échanges. 
+ 
+Au niveau de la BVMAC, la phase d’ouverture sera suivie soit d’une pré-ouverture.
+=== page 21 ===
+- 21 - 
+ 
+6 . 4 
+1 1 H 3 0 : P h a s e d ’ I n t e r v e n t i o n 
+S u r v e i l l a n c e 
+ 
+ 
+Lorsque le groupe est en Intervention Surveillance, aucun ordre ne peut être saisi 
+par les adhérents. La surveillance est seule autorisée à faire des manipulations sur les 
+carnets d’ordres pour corriger certaines erreurs et éventuellement rééquilibrer le 
+marché. 
+ 
+ 
+6 . 5 
+1 2 H 3 0 : P h a s e d e P o s t - s é a n c e 
+ 
+ 
+En post-séance, aucune intervention ne peut être effectuée, même de la part de la 
+surveillance. La Post-séance traite les ordres, purge les fichiers et réinitialise toutes les 
+données pour le démarrage de la journée de cotation du lendemain. 
+ 
+Note : La séance de cotation aura lieu tous les mardis conformément aux horaires de cotation, ainsi 
+qu’aux différentes phases décrites dans la présente Instruction.

@@ -1,0 +1,1212 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+OU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF NO 32-24 du 28 Novembre 2024
+RELATIVE AUX MODALITES DE MISE EN ŒUVRE DES OBLIGATIONS DE VIGILANCE
+EN MATIERE DE LUTTE CONTRE LE BLANCHIMENT DE CAPITAUX ET LE
+FINANCEMENT DU TERRORISME
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel no 03/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création
+de la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 28 novembre 2024 à Libreville
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT
+1
+=== page 2 ===
+ARTICLE PREMIER - CHAMP D'APPLICATION ET OBJET
+La présente instruction est prise en application des dispositions de l'article 14 du Règlement
+N001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 et des articles 93 et suivants du
+Règlement Général de la COSUMAF. Elle s'applique aux personnes, structures ou
+organismes soumis au contrôle de la COSUMAF visés à l'article 89 du Règlement Général de
+la COSUMAF. Elle a pour objet de préciser les modalités de mise en oeuvre des obligations
+de vigilance en matière de lutte contre le blanchiment de capitaux et le financement du
+terrorisme, les facteurs de risques à prendre en compte et les opérations présentant un risque
+élevé de blanchiment de capitaux et de financement du terrorisme.
+TITRE I - CONNAISSANCE DU CLIENT
+ARTICLE 2 - IDENTIFICATION ET VERIFICATION DE L'IDENTITE DU CLIENT
+1. L'identification repose sur une base déclarative et s'entend du recueil des éléments
+d'identité suivants
+Nom, prénoms, date et lieu de naissance pour les personnes physiques
+Forme juridique, dénomination, immatriculation, adresse du lieu de direction
+effective de l'activité si celle-ci est différente de l'adresse du siège social pour les
+personnes morales.
+Les assujettis identifient dans les mêmes conditions que le client, les personnes
+agissant pour le compte de celui-ci en vertu de la loi ou d'un contrat.
+Les assujettis vérifient également les pouvoirs de la personne qui agit pour le compte
+du client en recueillant un document justifiant sa qualité de représentant.
+2. La vérification de l'identité d'un client et de son représentant légal repose sur la
+présentation de tout document écrit à caractère probant qui peut être sur un support
+matériel ou numérique.
+3. Une vérification de l'identité d'un client, personne physique et physiquement présent
+aux fins de l'identification au moment de l'établissement de la relation d'affaires repose
+sur la présentation de l'original d'un document officiel d'identité, en cours de validité et
+comportant sa photographie. L'assujetti en prend copie.
+Les documents d'identité sont rédigés exclusivement en langue étrangère, dans un
+alphabet autre que l'alphabet latin, n'apportent une garantie réelle que s'ils sont traduits
+en langue française. La traduction peut être effectuée par un collaborateur, un
+traducteur assermenté ou tout moyen automatisé, selon une approche par les risques.
+Lorsqu'il s'avère difficile en pratique de s'assurer de l'authenticité du document
+d'identité présenté, l'assujetti recueille une pièce justificative supplémentaire
+permettant de confirmer l'identité.
+2
+=== page 3 ===
+4. La vérification de l'identité d'un client, personne morale, dont le représentant dûment
+habilité est physiquement présent aux fins de l'identification au moment de
+l'établissement de la relation d'affaires, repose sur la communication de l'original ou de
+la copie de tout acte ou extrait de registre officiel datant de moins de trois mois ou
+extrait de Journal officiel, constatant la dénomination, la forme juridique, l'adresse du
+siège social et l'identité des associés et dirigeants sociaux, ainsi que des représentants
+légaux ou de leurs équivalents en droit étranger.
+La vérification de l'identité de la personne morale peut également être réalisée en
+obtenant une copie certifiée du document directement via les greffes des tribunaux de
+commerce ou un document équivalent.
+La vérification de l'identité d'un client fiducie ou trust repose sur la présentation de
+l'original ou de la copie du contrat de fiducie ou de documents équivalents.
+5. La vérification de l'identité du client lorsque l'entrée en relation d'affaires se fait à
+distance nécessite le recours à un moyen d'identification électronique présumé fiable.
+Les assujettis peuvent également vérifier l'identité de leur client en appliquant au moins
+deux des mesures suivantes
+Le recueil d'une copie d'un document officiel en cours de validité comportant la
+photographie du client lorsque le client est une personne physique ou une copie de
+tout acte ou extrait du registre officiel datant de moins de trois mois ou extrait du
+Journal Officiel d'identité lorsque le client est une personne morale
+La mise en œuvre des mesures de vérification et de certification de la copie d'un
+document officiel pour une personne physique ou d'un extrait de registre officiel
+(pour une personne morale) par un tiers indépendant de la personne à identifier.
+Exiger que le premier paiement des opérations soit effectué en provenance ou à
+destination d'un compte ouvert au nom du client auprès d'un établissement de
+crédit de la CEMAC
+L'obtention d'une confirmation de l'identité du client de la part d'un tiers lui-même
+assujetti aux obligations de lutte contre le blanchiment et le financement du
+terrorisme et situé dans la CEMAC ou un pays tiers imposant des obligations
+équivalentes.
+Le recueil d'une signature électronique avancée ou qualifiée ou un cachet
+électronique avancé ou qualifié valide reposant sur un certificat qualifié ou avoir
+recours à un service d'envoi recommandé électronique qualifié comportant l'identité
+du signataire ou du créateur de cachet et délivré par un prestataire de service de
+confiance qualifié.
+6. Le tiers indépendant mentionné au paragraphe 5 est soit
+une autorité publique ou un officier public ministérie
+3
+=== page 4 ===
+un tiers indépendant proposant des solutions technologiques dites de
+« vérification/certification » de copies des documents d'identité reposant sur des
+données biométriques
+ARTICLE 3 - IDENTIFICATION ET VERIFICATION DE L'IDENTITE DU BENEFICIAIRE
+EFFECTIF
+1.
+2.
+3.
+Les assujettis doivent être en mesure de justifier à la COSUMAF des mesures prises
+pour déterminer le bénéficiaire effectif.
+Lorsqu' à l'issue de sa recherche, l'assujetti a déterminé la ou les personne(s)
+physique(s) répondant à la définition de bénéficiaire effectif, le cas échéant, en
+remontant toute la « chaîne de détention », il doit mettre en oeuvre son obligation de
+vigilance à l'égard du bénéficiaire effectif.
+Préalablement à l'entrée en relation d'affaires avec le client, l'assujetti, après avoir
+identifié le bénéficiaire effectif, vérifie les éléments d'identification recueillis sur celui-ci
+sur présentation de tout document écrit à caractère probant.
+L'identification du bénéficiaire effectif se fait selon les mêmes modalités que celles
+définies pour le client et consiste ainsi à relever les nom(s) et prénom(s) de la (des)
+personne (s) physique (s) concernée(s), sa (leur) date et son (leur) lieu de naissance.
+Ces éléments d'identification peuvent être collectés oralement, le recueil des
+documents afférents relevant de l'opération de « vérification ».
+Les assujettis n'ont pas l'obligation d'identifier le bénéficiaire effectif de la relation
+d'affaires lorsque le client est une société dont les titres sont admis à la négociation
+sur la bourse régionale. Cette dérogation s'applique également lorsque la société est
+détenue à plus de 75% par une société admise à la négociation sur la bourse régionale.
+La vérification des éléments d'identification se fait par des mesures adaptées au risque
+de blanchiment de capitaux et de financement du terrorisme présenté par la relation
+d'affaires. En cas de risque faible et sous réserve de le justifier, l'assujetti peut vérifier
+l'identité de cette personne sur la base d'une déclaration remplie et signée par le client.
+ARTICLE 4 - CONNAISSANCE DE LA RELATION D'AFFAIRES
+1. La nature et l'étendue des informations collectées ainsi que la fréquence de la mise à
+jour de ces informations et l'étendue des analyses menées sont adaptées au risque de
+blanchiment de capitaux et de financement du terrorisme présenté par la relation
+d'affaires. Les assujettis doivent être en mesure de justifier à la COSUMAF la mise en
+oeuvre de mesures adéquates par rapport au risque de blanchiment de capitaux et de
+financement du terrorisme présenté par la relation d'affaires.
+4
+=== page 5 ===
+En cas de risque faible, l'assujetti peut simplifier la connaissance de la relation
+d'affaires et se contenter de simples informations déclaratives, sous réserve de justifier
+à la COSIJMAF l'adéquation des diligences mises en oeuvre.
+En cas de risque élevé, la connaissance de la relation d'affaires est renforcée,
+l'assujetti recueille des documents corroborant les déclarations du client.
+2. Les assujettis recueillent et analysent, avant d'entrer en relation d'affaires, les éléments
+d'informations nécessaires à la connaissance de l'objet et de la nature de celle-ci en
+vue d'établir un profil de risque.
+Les assujettis collectent, selon une approche par les risques, des informations, voire
+des documents pertinents
+Sur chacune des parties à la relation d'affaires y compris le bénéficiaire effectif ;
+Sur le fonctionnement envisagé de cette relation d'affaires ou sa justification
+économique.
+Les assujettis déterminent, dans leur procédure, les éléments d'informations et
+documents à collecter, en tenant compte de leur classification des risques, des services
+proposés, de la nature de la clientèle, ainsi que du profil des relations d'affaires.
+La collecte et l'analyse de ces éléments permettent aux assujettis d'établir un profil de
+risque de la relation d'affaires, de comprendre les opérations effectuées et d'exercer
+ainsi une vigilance constante adéquate. L'assujetti doit rester attentif aux événements
+et opérations susceptibles d'affecter le niveau de risque du client et au risque de
+participation à une opération de blanchiment.
+3. Les éléments d'informations pertinents à recueillir pour les personnes physiques sont .
+sa situation financière et professionnelle
+justification de l'adresse du domicile du client et le cas échéant du bénéficiaire
+effectif ;
+la provenance des fonds.
+Lorsque des tiers interviennent ou sont amenés à intervenir dans le cadre de la relation
+d'affaires, l'assujetti s'assure de l'identité de ces personnes, la nature des liens
+existants entre le client, et le cas échéant le bénéficiaire effectif, et ce tiers et l'origine
+des fonds.
+4. Les éléments d'informations pertinents à recueillir pour les personnes morales sont
+Les statuts ,
+L'objet social ,
+Le secteur d'activité
+La situation financière.
+Pour les sociétés nouvellement créées qui ne disposent pas d'information relative à
+leur situation financière, les assujettis recueillent un bilan prévisionnel et le volume de
+5
+=== page 6 ===
+facturation attendu clients/fournisseurs, le niveau de charge moyen mensuel, les
+antériorités professionnelles du dirigeant et des éventuels associés, les moyens
+matériels, financiers et humains mis en place dans le cadre de la réalisation du projet
+d'entreprise.
+Pour les constructions juridiques, les assujettis analysent les éléments figurant au
+contrat, notamment son objet. Ils analysent les raisons d'exister de cette construction,
+le contexte de sa création ainsi que les liens entre les constituants.
+ARTICLE 5 - REALISATION DES VERIFICATIONS
+1. L'identification et la vérification de l'identité du client et du/ des bénéficiaire(s) effectif(s)
+du client sont réalisées avant
+L'entrée en relation d'affaires avec le client ou avant de l'assister dans la
+préparation ou la réalisation d'une transaction
+D'effectuer une opération pour le compte d'un client occasionnel.
+2. Par exception au paragraphe 1, les diligences sont conduites
+Pendant l'établissement de la relation d'affaires, lorsque le risque de
+blanchiment des capitaux ou de financement du terrorisme paraît faible et que
+c'est nécessaire pour ne pas interrompre l'exercice normal de l'activité
+Au plus tard au moment de la conclusion du contrat et avant le début de
+l'opération qui est l'objet du contrat.
+3. Les éléments d'identification obtenus doivent être obligatoirement mis à jour, dans le
+cadre de la vigilance constante, et permettre d'actualiser les profils de risque des
+clients et des bénéficiaires effectifs au regard de la classification des risques de
+l'assujetti.
+ARTICLE 6 - APPROCHE PAR LES RISQUES
+1. Pour les personnes, les services et les produits qui présentent un faible risque, et
+pourvu qu'il n'existe pas de soupçon de blanchiment de capitaux ou de financement
+du terrorisme, l'identification des clients et des bénéficiaires effectifs seule suffit :
+la vérification des identités du client et de son bénéficiaire effectif n'est pas
+requise
+le recueil d'éléments de connaissance de la relation d'affaires n'est pas requis
+6
+=== page 7 ===
+2. Les personnes présentant un risque faible sont les entités ou organismes
+suivants établies dans un Etat de la CEMAC
+Les organismes de marché
+Les intermédiaires de marché
+Les organismes de placement collectif, leurs sociétés de gestion et leurs
+dépositaires ,
+Les commissaires aux comptes des sociétés faisant appel public à l'épargne,
+ou des personnes, structures ou organismes soumis au contrôle de la
+COSUMAF
+Les organismes de garantie des émissions ,
+Le Fonds de garantie du Marché
+Les sociétés dont les titres sont admis sur la bourse régionale
+Les autorités publiques ou les organismes publics désignés comme tels dans
+la CEMAC ou par l'un de ses États Membres
+Les institutions internationales ou transnationales.
+3. Pour les personnes, les services et les produits qui présentent, selon l'assujetti, un
+risque élevé, l'identification et la vérification des identités du client et du bénéficiaire
+effectif, la connaissance de la relation d'affaires et la vigilance constante donnent lieu
+à des mesures renforcées, par rapport à celles prévues dans les autres cas.
+Ces mesures renforcées sont à l'appréciation de l'assujetti qui doit être en mesure, à
+tout moment, de justifier à la COSUMAF de l'adéquation de ses diligences au niveau
+de risque identifié.
+Face à une opération particulièrement complexe ou d'un montant inhabituellement
+élevé ou sans justification économique apparente ou sans objet licite apparent, un
+examen renforcé s'impose. Cet examen porte sur :
+a. L'origine des fonds
+b. La destination des sommes ,
+c. L'objet de l'opération ,
+d. L'identité de la personne qui en bénéficie.
+4. Des vigilances complémentaires doivent être menées dans les cas suivants
+a. Le client est une personne politiquement exposée
+b. Lorsque le produit ou l'opération présente par sa nature un risque
+particulier de blanchiment de capitaux ou de financement du terrorisme
+parce qu'elle favorise l'anonymat
+c. Lorsque l'opération implique des personnes domiciliées, enregistrées
+ou établies dans un pays tiers à haut risque
+La décision de nouer ou de maintenir la relation d'affaires est prise par un
+membre de l'organe exécutif ;
+Des informations supplémentaires sont recueillies relatives à la connaissance
+du client et le cas échéant du bénéficiaire effectif, la nature de la relation
+7
+=== page 8 ===
+d'affaires, l'origine des fonds et du patrimoine du client et, le cas échéant, du
+bénéficiaire effectif ainsi que l'objet des opérations envisagées ou réalisées ;
+Les assujettis renforcent la surveillance de la relation d'affaires en augmentant
+le nombre et la fréquence des contrôles réalisés et en adaptant les critères et
+seuils en fonction desquels les opérations doivent faire l'objet d'un examen plus
+approfondi.
+ARTICLE 7 - OBLIGATIONS DE CONSERVATION
+1. Les assujettis conservent .
+les documents et informations, quel qu'en soit le support, relatifs à l'identité de
+leurs relations d'affaires ou clients occasionnels, ainsi que le cas échéant du
+bénéficiaire effectif des clients occasionnels , et relatif aux mesures de vigilance
+mise en ceuvre pendant cinq ans à compter de la clôture de leurs comptes ou
+de la cessation de leurs relations avec lesdits clients
+dans la limite de leurs attributions, les documents et informations, quel qu'en
+soit le support, relatifs aux opérations faites par leurs relations d'affaires ou
+clients occasionnels ainsi que les documents consignant les caractéristiques
+des opérations qui font l'objet d'un examen renforcé pendant cinq ans à
+compter de leur exécution.
+Par ailleurs, les résultats de l'examen renforcé prescrit à l'article 4 doivent être
+consignés par écrit et conservés pendant cinq ans.
+2. Les assujettis doivent déterminer dans leurs procédures internes les conditions de
+conservations des éléments d'information et documents requis pour respecter les
+dispositions relatives à la lutte contre le blanchiment de capitaux et le financement du
+terrorisme.
+ARTICLE 8 - RECOURS A DES TIERS POUR LA MISE EN ŒUVRE DES OBLIGATIONS
+DE VIGILANCE
+1. Les assujettis peuvent recourir à un tiers pour la mise en oeuvre des mesures de
+vigilance vis-à-vis de leurs clients.
+2. La désignation d'un tiers introducteur doit résulter d'une approche par les risques,
+conduite par l'assujetti, comprenant :
+Une analyse des risques potentiellement encourus concernant le tiers, cette
+analyse devant faire l'objet de procédures écrites ,
+Un examen de ces risques potentiels au regard de la classification des risques
+qu'il a mise en place
+Une recherche des éventuelles sanctions publiques.
+8
+=== page 9 ===
+L'assujetti doit s'assurer que le tiers est en mesure de mettre en oeuvre en
+permanence, les obligations en matière de lutte contre le blanchiment de capitaux
+et le financement du terrorisme prévues notamment dans la présente instruction.
+3. Un contrat entre l'assujetti et le tiers est conclu avant la réalisation de la prestation.
+4. L'assujetti qui a recours au tiers demeure pleinement responsable de la mise en œuvre
+de ses obligations de vigilance, notamment vis-à-vis de la COSUMAF.
+5. Le tiers applique les procédures de lutte contre le blanchiment de capitaux et le
+financement du terrorisme de l'assujetti.
+6. Le tiers est un professionnel exerçant sa profession ou son activité ou ayant son siège
+social sur le territoire d'un Etat membre de la CEMAC assujetti aux règles de lutte
+contre le blanchiment de capitaux et le financement du terrorisme visées notamment
+dans la présente instruction ou dans un autre État soumis à des règles équivalentes.
+7. Les assujettis concernés précisent dans leurs procédures internes une méthodologie
+d'évaluation du niveau d'équivalence des obligations en matière de lutte contre le
+blanchiment de capitaux et le financement du terrorisme d'un autre État tel que visé au
+paragraphe 6.
+8. L'assujetti a accès aux informations recueillies par le tiers. Ces informations sont
+transmises sans délai à l'assujetti et à première demande, la copie des documents y
+afférents. Les modalités de transmission des informations et des copies des
+documents recueillis dans le cadre de la mise en oeuvre des mesures de vigilance ainsi
+que les modalités de contrôle de ces mesures sont précisées dans un contrat conclu
+par écrit entre l'assujetti et le tiers introducteur.
+TITRE Il - FACTEURS DE RISQUES A PRENDRE EN COMPTE
+ARTICLE 9 - EXIGENCE D'UNE BONNE COMPREHENSION DES RISQUES
+7. Les assujettis doivent s'assurer de bien comprendre les risques de blanchiment de
+capitaux et de financement du terrorisme auxquels ils sont exposés.
+8. Pour ce faire, les assujettis doivent évaluer :
+a. le risque de blanchiment de capitaux et financement du terrorisme auquel ils sont
+exposés en raison de la nature et de la complexité de leurs activités ,
+b. le risque de blanchiment de capitaux et financement du terrorisme auquel ils
+s'exposent en nouant une relation d'affaires ou en concluant une transaction à
+titre occasionnel.
+Chaque évaluation des risques s'articule autour de deux étapes distinctes liées
+9
+=== page 10 ===
+a. L'identification des facteurs de risques de blanchiment de capitaux et
+financement du terrorisme
+b. L'évaluation du risque de blanchiment de capitaux et financement du terrorisme
+9. Lorsqu'ils évaluent le niveau global du risque résiduel de blanchiment de capitaux et
+financement du terrorisme associé à leurs activités et à des relations d'affaires
+individuelles ou à des transactions conclues à titre occasionnel, les assujettis tiennent
+compte à la fois du niveau de risque inhérent et de la qualité des contrôles et autres
+facteurs d'atténuation des risques.
+10. Les assujettis enregistrent et documentent leur évaluation des risques ainsi que toute
+modification apportée à cette évaluation, de sorte que l'assujetti et la COSUMAF
+puissent comprendre la manière dont elle a été réalisée et les raisons pour lesquelles
+elle a fait l'objet d'une méthode particulière.
+- FACTEURS DE RISQUES DE BLANCHIMENT DE CAPITAUX ET
+ARTICLE 10
+FINANCEMENT DU TERRORISME LIES AU CLIENT
+1. Les assujettis doivent identifier les facteurs de risques liés à leurs clients, aux pays ou
+aux zones géographiques, aux produits et services et aux canaux de distribution.
+2. Lorsqu'ils identifient le risque associé à leurs clients et bénéficiaires effectifs de leurs
+clients, les assujettis doivent prendre en considération le risque lié
+a. aux activités commerciales ou professionnelles du client et du
+bénéficiaire effectif du client ,
+b. à la réputation du client et du bénéficiaire effectif du client ,
+c. à la nature des transactions ou des opérations et au comportement du
+client et du bénéficiaire effectif du client, et déterminer si le risque de
+financement du terrorisme pourrait s'en trouver accru.
+3. Les facteurs de risques liés aux clients qui peuvent être pertinent sont précisés en
+Annexe I.
+- FACTEURS DE RISQUES DE BLANCHIMENT DE CAPITAUX ET
+ARTICLE 11
+FINANCEMENT DU TERRORISME LIES AUX PRODUITS, AUX SERVICES ET AUX
+TRANSACTIONS
+1. Lorsqu'ils identifient le risque associé à leurs produits, services et transactions, les
+assujettis doivent prendre en considération le risque lié
+a. au niveau de transparence, ou d'opacité, offert par le produit, le service ou la
+transaction;
+10
+=== page 11 ===
+b. à la complexité du produit, du service ou de la transaction;
+c. à la valeur ou à la taille du produit, du service ou de la transaction.
+2. Les facteurs de risques liés aux produits, aux services et aux transactions qui peuvent
+être pertinent sont précisés en Annexe Il.
+- FACTEURS DE RISQUES DE BLANCHIMENT DE CAPITAUX ET
+ARTICLE 12
+FINANCEMENT DU TERRORISME LIES AUX CANAUX DE DISTRIBUTION
+1. Lorsqu'ils identifient le risque associé à la façon dont le client obtient les produits ou
+services qui lui sont fournis, les assujettis prennent en compte le risque lié
+a. à la mesure dans laquelle la relation d'affaires est conduite sans la présence
+physique des parties
+b. aux apporteurs d'affaires ou aux intermédiaires auxquels l'assujetti pourrait
+avoir recours, ainsi qu'à la nature de leur relation avec l'assujetti.
+2. Les facteurs de risques liés aux canaux de distribution qui peuvent être pertinent sont
+précisés en Annexe Ill.
+ARTICLE 13 - EVALUATION DU RISQUE DE BLANCHIMENT DE CAPITAUX ET DE
+FINANCEMENT DU TERRORISME
+1. Les assujettis utilisent les facteurs de risques identifiés pour évaluer le niveau global
+du risque de blanchiment de capitaux et de financement du terrorisme.
+2. Lorsqu'ils évaluent les facteurs de risques, les assujettis déterminent en connaissance
+de cause la pertinence des différents facteurs de risques dans le contexte d'une
+relation d'affaires, d'une transaction conclue à titre occasionnel ou de leurs activités.
+3. Le poids accordé à chacun de ces facteurs est susceptible de varier d'un produit à
+l'autre, d'un client à l'autre et d'un assujetti à l'autre. Les assujettis veillent •
+a. à ce que la pondération ne soit pas excessivement influencée par un seul
+facteur ;
+b. à ce que la notation du risque ne soit pas influencée par des considérations
+d'ordre économique ou de profit
+c. à ce que la pondération ne conduise pas à une situation où il est impossible de
+classer une relation d'affaires comme présentant un risque élevé
+d. à ce qu'ils puissent annuler toute note de risque générée automatiquement, si
+nécessaire. Les raisons de la décision d'annulation de ces notes devraient être
+documentées de manière adéquate.
+4. Les assujettis arrêtent la meilleure manière de catégoriser les risques. Cette décision
+dépendra de la nature et de l'ampleur des activités de l'assujetti, ainsi que des type
+11
+=== page 12 ===
+de risque de blanchiment de capitaux et financement du terrorisme auxquels il est
+exposé.
+5. A la suite de son évaluation des risques, et compte tenu des risques inhérents et des
+techniques d'atténuation qu'il a identifiés, un assujetti classe ses lignes d'activité ainsi
+que ses relations d'affaires et les transactions conclues à titre occasionnel en fonction
+du niveau de risque de blanchiment de capitaux et de financement du terrorisme qu'il
+perçoit.
+ARTICLE 14 - MISES A JOUR DES EVALUATIONS DES RISQUES
+1. Les assujettis mettent en place des systèmes et des contrôles qui permettent d'évaluer
+en permanence le risque de blanchiment de capitaux et financement du terrorisme
+associé à leur activité et à leurs relations d'affaires individuelles, afin que cette
+évaluation soit constamment à jour et pertinente.
+2. Les systèmes et contrôles que les assujettis mettent en place pour tenir à jour leurs
+évaluations de risques individuelles doivent porter à minima sur les aspects suivants
+a. fixer la date à laquelle sera effectuée, chaque année civile, la prochaine mise à
+jour de l'évaluation des risques à l'échelle de l'entreprise, et en ce qui concerne
+l'évaluation de risques individuelle, fixer une date en fonction du risque pour
+s'assurer que les risques nouveaux ou émergents sont pris en compte
+b. lorsque l'assujetti prend connaissance avant cette date de l'apparition d'un
+nouveau risque de blanchiment de capitaux ou financement du terrorisme ou
+de l'augmentation d'un risque existant, il doit en rendre compte dès que
+possible dans les évaluations de risques individuelles et à l'échelle de
+l'entreprise.
+c. Enregistrer soigneusement tout au long de la période de référence les
+événements qui pourraient avoir une incidence sur les évaluations de risques,
+telles que les déclarations de transaction suspecte effectuées, les
+manquements à la conformité ou les renseignements émanant des services
+opérationnels
+3. Les assujettis doivent disposer de systèmes et de contrôles permettant de détecter les
+risques émergents en matière de blanchiment de capitaux et de financement du
+terrorisme. Ils doivent être en mesure d'évaluer ces risques et, le cas échéant, de les
+intégrer en temps utile dans leurs évaluations de risques individuelles et à l'échelle de
+l'entreprise.
+4. Les systèmes et contrôles que les assujettis doivent mettre en place pour identifier les
+risques émergents comprennent •
+a. Des processus permettant de s'assurer que les informations internes, telles que les
+informations obtenues dans le cadre du contrôle continu des relations d'affaires par
+un assujetti, sont réexaminées régulièrement afin d'identifier les tendances et les
+12
+=== page 13 ===
+questions émergentes concernant les relations d'affaires individuelles et les
+activités commerciales de l'assujetti ;
+b. Des processus permettant de s'assurer que l'assujetti réexamine régulièrement les
+sources d'information pertinentes, et en particulier •
+a. en ce qui concerne les évaluations de risques individuelles,
+les alertes terroristes et les régimes de sanctions financières, ou les
+changements intervenus dans ces alertes et régimes, dès qu'ils sont émis ou
+communiqués, en veillant à ce qu'il y soit donné suite si nécessaire;
+les comptes rendus parus dans les médias concernant les secteurs ou les pays
+ou territoires dans lesquels opère l'assujetti;
+b. en ce qui concerne les évaluations de risques à l'échelle de
+l'entreprise,
+Les alertes et les signalements d'ordre répressif ;
+Les études thématiques et autres publications émanant de la COSUMAF
+Des processus permettant de collecter et de réexaminer les informations sur
+les risques, en particulier les risques liés à de nouvelles catégories de clients,
+de pays ou de zones géographiques, à de nouveaux produits et services, à de
+nouveaux canaux de distribution et à de nouveaux systèmes et contrôles de la
+conformité
+c. L'engagement d'un dialogue avec d'autres représentants du secteur et avec la
+COSUMAF et des processus de retour d'information pour communiquer les
+éventuelles conclusions au personnel concerné.
+5. Les établissements devraient déterminer la fréquence de l'examen général de leur
+méthode d'évaluation de risques individuelle et à l'échelle de l'entreprise, en fonction
+de la sensibilité au risque.
+ARTICLE 15 - EVALUATION DES RISQUES A L'ECHELLE DE L'ENTREPRISE
+1. Les évaluations des risques à l'échelle de l'entreprise doivent aider les assujettis à
+identifier les domaines dans lesquels ils sont exposés à un risque de blanchiment de
+capitaux et de financement du terrorisme et les secteurs de leurs activités sur lesquels
+ils devraient concentrer la lutte contre le blanchiment de capitaux et de financement
+du terrorisme
+2. Les assujettis doivent obtenir une vue globale des risques de blanchiment et de
+financement du terrorisme auxquels ils sont exposés, en identifiant et en évaluant le
+risque de blanchiment de capitaux et de financement du terrorisme associé aux
+produits et aux services qu'ils proposent, aux pays ou territoires dans lesquels i
+13
+=== page 14 ===
+3.
+4.
+opèrent, aux clients qu'ils attirent, ainsi qu'aux canaux de transaction ou de
+distribution qu'ils utilisent pour servir leurs clients.
+Les assujettis doivent
+Recenser les facteurs de risques sur la base d'informations provenant de
+diverses sources internes et externes ,
+Tenir compte des facteurs de risques pertinents visés dans la présente
+instruction ,
+Prendre en considération des facteurs plus généraux, contextuels, tels que le
+risque sectoriel et le risque géographique, qui pourraient avoir une incidence
+sur leurs profils de risques de blanchiment de capitaux et de financement du
+terrorisme.
+Les assujettis doivent veiller à ce que leur évaluation des risques à l'échelle de
+l'entreprise soit adaptée à leur profil d'activité et tienne compte des facteurs et des
+risques propres aux activités de l'assujetti.
+ARTICLE 16 - EVALUATION DES RISQUES INDIVIDUELLES
+1.
+2.
+Les assujettis doivent recenser les risques de blanchiment de capitaux et de
+financement du terrorisme auxquels ils sont ou seraient exposés lorsqu'ils nouent ou
+maintiennent une relation d'affaires ou concluent une transaction à titre occasionnel.
+Lorsqu'ils identifient les risques de blanchiment de capitaux et de financement du
+terrorisme associés à une relation d'affaires ou à une transaction conclue à titre
+occasionnel, les assujettis doivent considérer les facteurs de risques pertinents, et
+notamment le profil et les caractéristiques de leurs clients, les pays ou zones
+géographiques dans lesquels ils opèrent, les produits, services et transactions
+spécifiques demandés par le client, et les canaux utilisés par l'assujetti pour fournir ces
+produits, services et transactions.
+TITRE Ill - OPERATIONS PRESENTANT UN RISQUE ELEVE DE BLANCHIMENT DE
+CAPITAUX OU DE FINANCEMENT DU TERRORISME
+CONSEILLERS EN INVESTISSEMENTS FINANCIERS ET EN
+CHAPITRE I -
+FINANCEMENT PARTICIPATIF
+ARTICLE 17 - FACTEURS DE RISQUES LIES AUX PRODUITS, AUX SERVICES ET AUX
+TRANSACTIONS
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+14
+=== page 15 ===
+a) Les clients demandent d'importantes sommes en espèces ou d'autres réserves
+physiques de valeur, telles que des métaux précieux ,
+b) Les transactions d'un montant très élevé par rapport aux opérations habituelles du
+client ,
+c) Les arrangements financiers impliquant des pays ou territoires associés à un risque
+plus élevé de blanchiment de capitaux et du financement du terrorisme
+d) Les prêts garantis par la valeur de biens situés dans d'autres pays ou territoires, en
+particulier dans des pays ou territoires où il est difficile de déterminer si le client peut
+légitimement mettre en oeuvre cette garantie, ou lorsque l'identité des parties
+garantissant le prêt est difficile à vérifier ;
+e) L'utilisation de structures commerciales complexes, telles que les fiducies/trusts ou les
+véhicules d'investissement privés, en particulier lorsque l'identité du bénéficiaire effectif
+en dernier ressort pourrait ne pas être claire ,
+f) Les activités commerciales exercées dans plusieurs pays, en particulier lorsqu'elles
+impliquent plusieurs prestataires de services financiers ,
+g) Les arrangements transfrontaliers lorsque les actifs sont déposés ou gérés dans un
+autre établissement financier appartenant au même groupe financier ou extérieur au
+groupe, en particulier lorsque l'autre établissement financier est installé dans un pays
+ou territoire associé à un risque plus élevé de blanchiment de capitaux et du
+financement du terrorisme. Les établissements devraient accorder une attention
+particulière aux pays et territoires présentant des niveaux d'infractions sous-jacentes
+plus élevés, un dispositif de lutte contre le blanchiment de capitaux et du financement
+du terrorisme ou des normes de transparence fiscale faibles.
+ARTICLE 18 - FACTEURS DE RISQUES LIES AUX CLIENTS
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Les clients disposant de revenus et/ou d'un patrimoine issu de secteurs à risque élevé
+tels que l'armement, les industries extractives, la construction, les jeux d'argent et de
+hasard ou la sous-traitance d'activités militaires au secteur privé.
+b) Les clients qui ont fait l'objet d'allégations d'infractions crédibles.
+c) Les clients qui exigent un niveau de confidentialité ou de discrétion inhabituellement
+élevé.
+d) Les clients dont le comportement en matière de dépenses et de transactions rend
+difficile l'établissement d'un type de comportement «normal» ou attendu.
+15
+=== page 16 ===
+e) Les clients très fortunés et influents, y compris les clients qui jouissent d'une grande
+notoriété publique, les clients non-résidents et les personnes politiquement exposée.
+Lorsqu'un client ou le bénéficiaire effectif d'un client est une personne politiquement
+exposée, les assujettis doivent toujours appliquer des mesures de vigilance renforcées
+à l'égard de la clientèle.
+f) Le client demande à l'assujetti de l'aider à obtenir un produit ou service d'un tiers sans
+logique économique ou commerciale claire.
+ARTICLE 19 - FACTEURS DE RISQUES LIES AUX PAYS OU ZONES GEOGRAPHIQUES
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Les activités commerciales sont exercées dans des pays ayant une culture du secret
+bancaire ou ne respectant pas les normes internationales en matière de transparence
+fiscale.
+b) Le client vit dans un pays ou territoire associé à un risque plus élevé de blanchiment
+de capitaux et du financement du terrorisme ou ses fonds proviennent d'une activité
+exercée dans un tel pays ou territoire.
+CHAPITRE Il - ORGANISMES DE PLACEMENT COLLECTIF, SOCIETES DE GESTION ET
+DEPOSITAIRES
+ARTICLE 20 - FACTEURS DE RISQUES LIES AUX PRODUITS, AUX SERVICES ET AUX
+TRANSACTIONS
+1. Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de
+capitaux et de financement du terrorisme associé au fonds
+a) Le fonds s'adresse à un nombre limité d'individus ou de «family offices» ;
+b) L'investisseur peut souscrire au fonds puis rapidement racheter l'investissement
+sans s'exposer à des frais administratifs importants.
+c) Les parts ou les actions du fonds peuvent être négociées sans que le fonds ou le
+gestionnaire du fonds en ait été informé au moment de l'opération.
+d) Les informations sur l'investisseur sont réparties entre plusieurs acteurs.
+2. Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de
+capitaux et de financement du terrorisme lié à la souscription •
+16
+=== page 17 ===
+a) La souscription concerne des comptes ou des tiers situés dans plusieurs pays ou
+territoires, en particulier lorsque ceux-ci sont associés à un risque élevé de blanchiment
+de capitaux et du financement du terrorisme.
+b) La souscription fait intervenir des souscripteurs ou bénéficiaires tiers, en particulier
+lorsque cela n'est pas prévu.
+ARTICLE 21 - FACTEURS DE RISQUES LIES AUX CLIENTS
+Un comportement du client inhabituel peut présenter un risque élevé de blanchiment de
+capitaux et de financement du terrorisme. Ce comportement peut prendre les formes
+suivantes
+a) Les raisons qui sous-tendent l'investissement ne répondent pas à une stratégie ou à
+une finalité économique évidente, ou le client effectue des investissements qui ne
+correspondent pas à sa situation financière globale, lorsque ces éléments sont connus
+du fonds ou du gestionnaire du fonds.
+b) Le client demande l'achat et/ou la vente à répétition de parts ou d'actions peu de temps
+après l'investissement initial ou avant la date de remboursement, sans stratégie ou
+logique claire, en particulier lorsque cela entraîne une perte financière ou le paiement
+de frais de transaction élevés.
+c) Le client transfère des fonds dont le montant dépasse celui requis pour l'investissement
+et demande le remboursement du trop-payé.
+d) Le client utilise plusieurs comptes sans notification préalable, notamment lorsque ces
+comptes sont détenus dans plusieurs pays ou territoires ou dans des pays ou territoires
+associés à un risque plus élevé de BC/FT.
+e) Le client souhaite structurer la relation de façon à avoir recours à plusieurs parties, par
+exemple des entreprises apparentes non réglementées, dans différents pays ou
+territoires, en particulier lorsque ces pays ou territoires sont associés à un risque plus
+élevé de blanchiment de capitaux et du financement du terrorisme.
+f) Le client modifie subitement le lieu de règlement sans raison, par exemple en modifiant
+le pays de résidence du client.
+ARTICLE 22 - FACTEURS DE RISQUES LIES AUX CANAUX DE DISTRIBUTION
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+17
+=== page 18 ===
+a) Des canaux de distribution complexes qui limitent la capacité du fonds à surveiller ses
+relations d'affaires et à contrôler les transactions ,
+b) Le distributeur est implanté dans un pays ou territoire associé à un risque plus élevé
+de blanchiment de capitaux et du financement du terrorisme.
+ARTICLE 23 - FACTEURS DE RISQUES LIES AU PAYS OU A LA ZONE GEOGRAPHIQUE
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Les fonds des clients ou des bénéficiaires effectifs ont été générés dans des pays ou
+territoires associés à un risque plus élevé de blanchiment de capitaux et de
+financement du terrorisme, en particulier dans des pays ou territoires associés à des
+niveaux plus élevés d'infractions sous-jacentes au blanchiment de capitaux.
+b) Le client demande que son investissement soit remboursé sur un compte ouvert
+auprès d'un établissement de crédit situé dans un pays ou territoire associé à un risque
+plus élevé de blanchiment de capitaux et de financement du terrorisme.
+CHAPITRE Ill - PLATES-FORMES DE FINANCEMENT PARTICIPATIF
+ARTICLE 24 - FACTEURS DE RISQUES LIES AUX PRODUITS, AUX SERVICES ET AUX
+TRANSACTIONS
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Le Conseiller en financement participatif collecte des fonds par l'intermédiaire de la
+plate-forme de financement participatif, mais permet une transmission ultérieure de ces
+fonds. Il s'agit de modèles d'entreprise selon lesquels
+ii.
+L'argent est collecté pour un projet indéterminé et, par conséquent, détenu sur
+le compte de l'investisseur jusqu'à ce que le projet soit déterminé ; ou
+L'argent est collecté mais peut être restitué aux investisseurs lorsque l'objectif
+de la collecte de fonds n'est pas atteint ou lorsque le porteur du projet n'a pas
+reçu l'argent.
+b) Le Conseiller en financement participatif autorise le remboursement anticipé des
+investissements et des prêts ou la revente des investissements ou des prêts sur les
+marchés secondaires.
+c) Le Conseiller en financement participatif n'impose aucune restriction quant à la taille,
+au volume ou à la valeur des transactions, au chargement ou au remboursement traité
+18
+=== page 19 ===
+par l'intermédiaire de la plate-forme de financement participatif, ni au montant des
+fonds à conserver sur les comptes des investisseurs de détail.
+d) Le Conseiller en financement participatif permet aux investisseurs d'effectuer un
+paiement au porteur de projet par l'intermédiaire de la plateforme de financement
+participatif, au moyen d'instruments qui ne relèvent pas du champ d'application d'un
+quelconque régime réglementaire ou qui sont régis par des obligations en matière de
+lutte contre le blanchiment de capitaux et le financement du terrorisme moins strictes
+que celles prévues dans le règlement général de la COSUMAF.
+e) Le Conseiller en financement participatif accepte sur sa plate-forme les
+investissements en espèces ou autorise les retraits d'espèces par des investisseurs
+qui sont des personnes physiques ou des entités juridiques non réglementées.
+f) Le Conseiller en financement participatif prévoit un levier financier, un remboursement
+privilégié ou un rendement garanti pour les investisseurs ou les prêteurs.
+g) Le Conseiller en financement participatif ne confirme pas son intention de racheter les
+valeurs mobilières et ne prévoit aucun délai de rachat.
+h) En ce qui concerne les instruments autres que les capitaux propres, le taux d'intérêt
+nominal, la date à partir de laquelle les intérêts deviennent exigibles, les dates
+d'exigibilité des paiements d'intérêts, la date d'échéance et le rendement applicable ne
+sont pas précisés.
+i) Le Conseiller en financement participatif autorise les paiements en monnaies virtuelles
+sur la plate-forme de financement participatif.
+j) Le Conseiller en financement participatif permet aux investisseurs et aux porteurs de
+projets de conserver plusieurs comptes sur la plate-forme de financement participatif
+alors qu'ils ne sont pas liés à des projets de financement participatif particuliers.
+k) Le Conseiller en financement participatif autorise les transferts entre investisseurs ou
+entre porteurs de projets sur la plate-forme de financement participatif
+ARTICLE 25 - FACTEURS DE RISQUES LIES AUX CLIENTS
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Le type ou le comportement du client est inhabituel
+ii.
+Les raisons qui sous-tendent l'investissement ou le prêt ne comportent pas de
+finalité économique évidente.
+L'investisseur demande le remboursement d'un investissement dans un bref
+délai après l'investissement initial.
+19
+=== page 20 ===
+iv.
+vi.
+vii.
+viii.
+ix.
+x.
+L'investisseur demande des conditions privilégiées ou un rendement de
+l'investissement fixe.
+L'investisseur ou le porteur de projet transfère sur la plateforme des fonds dont
+le montant dépasse celui nécessaire pour le projet ou le prêt, et demande
+ensuite le remboursement du trop-payé.
+L'investisseur ou le porteur de projet est une personne physique ou morale
+associée à des niveaux plus élevés de risque de blanchiment de capitaux.
+Le porteur du projet accélère, de manière inattendue et sans explication
+raisonnable, l'échéancier de rachat/remboursement convenu, soit par des
+paiements forfaitaires, soit par résiliation anticipée.
+Le porteur du projet semble réticent à fournir des informations sur le projet ou
+l'initiative nécessitant un financement participatif.
+L'origine des fonds destinés à l'investissement n'est pas claire et l'investisseur
+est réticent à fournir ces informations à la demande du Conseiller en
+financement participatif. Le niveau des actifs investis dépasse le volume estimé
+des avoirs liquides de l'investisseur. Les fonds investis sont empruntés.
+L'investisseur ne réside pas dans le pays de la plate-forme de financement
+participatif ou n'a pas d'autres liens avec ce pays ni avec l'objet de
+l'investissement.
+L'investisseur ou le porteur de projet est une personne politiquement exposée.
+L'investisseur refuse de répondre aux mesures de vigilance requises à l'égard
+de la clientèle.
+b) L'investisseur ou le porteur de projet transfère de la monnaie virtuelle.
+c) L'investisseur ou le porteur de projet ont fait l'objet de commentaires négatifs dans les
+actualités.
+d) L'investisseur ou le porteur de projet font l'objet de sanctions.
+ARTICLE 26 - FACTEURS DE RISQUES LIES AUX CANAUX DE DISTRIBUTION
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Le Conseiller en financement participatif exploite la plate-forme de financement
+participatif entièrement en ligne sans garanties adéquates, telles que l'identification
+électronique d'une personne utilisant une signature électronique ou un autre moyen
+d'identification électronique.
+20
+=== page 21 ===
+b) Les clients intègrent la plate-forme de financement participatif à distance, sans aucune
+garantie.
+c) Le Conseiller en financement participatif n'est assujetti à aucun régime réglementaire
+et, par conséquent, les mesures qui seraient normalement mises en place pour
+détecter et éviter une possible utilisation de la plate-forme de financement participatif
+à des fins de blanchiment de capitaux et du financement du terrorisme pourraient ne
+pas l'être.
+ARTICLE 27 - FACTEURS DE RISQUES LIES AU PAYS OU A LA ZONE GEOGRAPHIQUE
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Le Conseiller en financement participatif exerce ses activités à l'échelle mondiale, en
+mettant en relation les investisseurs, les porteurs de projets et les projets de différents
+pays ou territoires.
+b) Les fonds proviennent de liens personnels ou commerciaux avec un pays ou territoire
+considéré par des sources crédibles comme présentant des niveaux importants de
+corruption ou d'autres activités criminelles, telles que le terrorisme, le blanchiment de
+capitaux, la production et la vente de drogues illicites, ou d'autres infractions sous-
+jacentes.
+c) Le porteur de projet ou l'investisseur, ou leurs bénéficiaires effectifs respectifs, le cas
+échéant, sont établis dans un pays ou territoire associé à des risques de blanchiment
+de capitaux et du financement du terrorisme plus élevés, ou dans un pays ou territoire
+ne disposant pas d'un système de surveillance efficace en matière de lutte contre le
+blanchiment de capitaux et du financement du terrorisme. Les Conseillers en
+financement participatif accordent une attention particulière aux pays ou territoires
+connus pour financer ou soutenir des activités terroristes ou dans lesquels opèrent des
+groupes connus pour commettre des infractions terroristes, ainsi qu'aux pays ou
+territoires soumis à des sanctions financières, à des embargos ou à des mesures liées
+au terrorisme, au financement du terrorisme ou à la prolifération.
+CHAPITRE IV - AUTRES INTERMEDIAIRES ET INTERVENANTS DU MARCHE
+ARTICLE 28 - FACTEURS DE RISQUES LIES AUX PRODUITS, AUX SERVICES ET AUX
+TRANSACTIONS
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Le montant inhabituellement élevé des transactions, par rapport au profil du client
+21
+=== page 22 ===
+b) Les modalités de règlement ne sont pas standard ou semblent irrégulières ,
+c) Certaines opérations de trading miroir ou certaines transactions portant sur des valeurs
+mobilières utilisées à des fins de conversion monétaire semblent inhabituelles ou n'ont
+pas de finalité commerciale ou économique apparente
+d) Le produit ou service est structuré d'une manière qui peut compliquer l'identification
+des clients
+ARTICLE 29 - FACTEURS DE RISQUES LIES AUX CLIENTS
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) Le comportement du client
+ii.
+iv.
+v.
+vi.
+vii.
+viii.
+ix.
+Les raisons qui sous-tendent l'investissement ne comportent pas de finalité
+économique évidente
+Le client demande le rachat ou le remboursement d'un placement à long terme
+dans un délai court après l'investissement initial ou avant la date de
+remboursement, sans justification claire, en particulier lorsque cela entraîne
+une perte financière ou le paiement de frais de transaction élevés
+Le client demande l'achat et la vente répétés d'actions dans un délai court, sans
+stratégie ni logique économique évidentes ,
+Le client n'est pas disposé à fournir des informations sur les mesures de
+vigilance à l'égard du client et du bénéficiaire effectif ,
+Des modifications fréquentes sont apportées aux informations dans le cadre
+des mesures de vigilance à l'égard de la clientèle ou aux informations de
+paiement ,
+Le client transfère des fonds dont le montant dépasse celui requis pour
+l'investissement et demande le remboursement du trop-payé
+Les circonstances dans lesquelles le client fait usage de la période de réflexion
+font naître un soupçon ,
+Le client utilise plusieurs comptes sans notification préalable, notamment
+lorsque ces comptes sont détenus dans plusieurs pays ou territoires ou dans
+des pays ou territoires à haut risque ,
+Le client souhaite structurer la relation de façon à avoir recours à plusieurs
+parties, par exemple des entreprises apparentes (nominee companies), dan
+22
+=== page 23 ===
+différents pays ou territoires, en particulier lorsque ces pays ou territoires sont
+associés à un risque plus élevé de blanchiment de capitaux et du financement
+du terrorisme.
+b) La nature du client •
+ii.
+iv.
+vi.
+Le client est une entreprise, une fiducie/un trust ou tout autre type de
+construction juridique ayant une structure ou des fonctions semblables à celles
+des fiducies/trusts, établi dans un pays ou territoire associé à un risque plus
+élevé de blanchiment de capitaux et de financement du terrorisme ,
+Le client est un véhicule d'investissement qui prend peu ou pas de mesures de
+vigilance à l'égard de ses propres clients ,
+Le client est un véhicule d'investissement tiers non réglementé ,
+La structure de propriété et de contrôle du client est opaque
+Le client ou le bénéficiaire effectif est une personne politiquement exposée ou
+occupe une autre fonction importante qui pourrait lui permettre d'abuser de sa
+position à des fins d'enrichissement personnel ;
+Le client est une entreprise apparente non réglementée dont les actionnaires
+ne sont pas connus.
+c) Les activités du client
+i. Ses fonds proviennent d'activités exercées dans des secteurs qui sont associés
+à un risque plus élevé de criminalité financière. Au titre de ce paragraphe, sont
+considérés comme secteurs associés à un risque plus élevé de criminalité
+financière les secteurs suivants
+la construction,
+les produits pharmaceutiques et les soins de santé,
+le commerce des armes et la défense,
+les industries extractives ; ou
+les marchés publics.
+ARTICLE 30 - FACTEURS DE RISQUES LIES AUX CANAUX DE DISTRIBUTION
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) La chaîne de réception et de transmission des ordres est complexe.
+b) La chaîne de distribution des produits d'investissement est complexe.
+23
+=== page 24 ===
+c) La plate-forme de négociation compte des membres ou des participants situés dans
+des pays ou territoires à haut risque
+ARTICLE 31 - FACTEURS DE RISQUES LIES AU PAYS OU A LA ZONE GEOGRAPHIQUE
+Les facteurs de risques suivants peuvent présenter un risque élevé de blanchiment de capitaux
+et de financement du terrorisme
+a) L'investisseur ou son dépositaire est installé dans un pays ou territoire associé à un
+risque plus élevé de blanchiment de capitaux et du financement du terrorisme
+b) Les fonds proviennent d'un pays ou territoire associé à un risque plus élevé de
+blanchiment de capitaux et du financement du terrorisme.
+ARTICLE 32 - ENTREE EN VIGUEUR
+La présente instruction, qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSUMAF.
+Fait à Libreville, le 28 novembre 2024
+Pour la COSUMAF
+Le Président
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CEN
+Tél.: + 241 01.74.7 . 9191
+B.P. 1724 Librevi e - GABO
+Jacqueline
+24
+IABA-NKEMBE
+=== page 25 ===
+ANNEXE I - FACTEURS DE RISQUES POUR LES CLIENTS
+I. Les facteurs de risques qui peuvent être pertinents lors de l'identification du risque associé
+aux activités commerciales ou professionnelles d'un client ou du bénéficiaire effectif d'un client
+comprennent notamment
+a. Le client ou le bénéficiaire effectif a-t-il des liens avec des secteurs qui sont
+communément associés à un risque de corruption plus élevé, tels que le bâtiment, le
+secteur pharmaceutique et la santé, l'industrie de l'armement et la défense, les
+industries extractives ou la passation de marchés publics ?
+b. Le client ou le bénéficiaire effectif a-t-il des liens avec des secteurs qui sont associés
+à un risque plus élevé de BC/FT, par exemple certains prestataires de services
+monétaires, les casinos et les négociants de métaux précieux ?
+c. Le client ou le bénéficiaire effectif a-t-il des liens avec des secteurs qui impliquent
+d'importants montants en espèces ?
+d. Lorsque le client est une personne morale, une fiducie/un trust ou un autre type de
+construction juridique, quel est son objet social ? Par exemple, quelle est la nature de
+son activité ?
+e. Le client a-t-il des liens politiques ? S'agit-il par exemple d'une personne
+politiquement exposée (PPE), ou son bénéficiaire effectif est-il une PPE ? Le client
+ou le bénéficiaire effectif a-t-il d'autres liens pertinents avec une PPE, par exemple
+les directeurs du client sont-ils des PPE et, si oui, ces dernières exercent elles un
+contrôle significatif sur le client ou le bénéficiaire effectif ? Lorsqu'un client ou son
+bénéficiaire effectif est une PPE, les établissements doivent toujours appliquer des
+mesures de vigilance renforcées à l'égard de la clientèle.
+f. Le client ou le bénéficiaire effectif exerce-t-il une autre fonction importante ou jouit-il
+d'une notoriété publique qui pourrait lui permettre d'abuser de cette fonction en vue
+d'un gain personnel ? Par exemple, s'agit-il d'un haut fonctionnaire local ou régional
+ayant la capacité d'influencer l'attribution de marchés publics, de décideurs
+d'organismes sportifs influents ou d'individus connus pour influencer le
+gouvernement?
+g. Le client est-il une personne morale qui est soumise à des obligations contraignantes
+de déclaration qui garantissent que des informations fiables concernant le bénéficiaire
+effectif du client sont accessibles au public, par exemple une entreprise cotée sur la
+bourse régionale qui exige une telle déclaration comme condition d'admission à la
+bourse régionale ?
+h. Le client est-il un établissement de crédit ou un établissement financier agissant pour
+son propre compte dans un pays ou territoire doté d'un dispositif efficace de lutte
+contre le blanchiment de capitaux et le financement du terrorisme et fait-il l'objet d'une
+surveillance en ce qui concerne le respect des obligations locales en matière de lutte
+contre le blanchiment de capitaux et le financement du terrorisme ? Existe-t-il des
+25
+=== page 26 ===
+j.
+preuves que le client a fait l'objet au cours des dernières années de sanctions ou de
+mesures répressives de la part d'un organisme de supervision en raison du non-
+respect d'obligations de lutte contre le BC/FT ou d'exigences de comportement plus
+générales ?
+Le client est-il une administration ou une entreprise publique d'un pays ou territoire
+présentant de faibles niveaux de corruption ?
+Les informations sur le client ou le bénéficiaire effectif correspondent-elles à ce que
+l'établissement sait de leurs activités commerciales précédentes, actuelles ou
+envisagées, du chiffre d'affaires, de l'origine des fonds ou de l'origine de leur
+patrimoine ?
+3. Les FACTEURS DE RISQUES suivants peuvent être pertinents lors de l'identification du
+risque associé à la réputation d'un client ou d'un bénéficiaire effectif •
+a. Existe-t-il des échos négatifs dans les médias ou d'autres sources d'information
+pertinentes concernant le client, par exemple le client ou le bénéficiaire effectif est-il
+accusé d'actes criminels ou terroristes ? Si oui, ces informations sont-elles fiables et
+crédibles ? Les assujettis doivent déterminer la crédibilité des allégations rapportées
+dans les médias en fonction notamment de la qualité et de l'indépendance de la
+source d'information et de la persistance de ces informations dans les médias. Les
+assujettis doivent garder à l'esprit que l'absence de condamnations pénales ne suffit
+pas, seule, à écarter les allégations d'infractions.
+b. Le client, le bénéficiaire effectif ou toute personne connue publiquement pour être
+étroitement associée à ceux-ci a-t-il vu ses avoirs gelés en raison d'une procédure
+administrative ou pénale ou d'accusations de terrorisme ou de financement du
+terrorisme ? L'assujetti a-t-il des motifs raisonnables de soupçonner que le client, le
+bénéficiaire effectif ou toute personne connue publiquement pour être étroitement
+associée à ceux-ci a fait l'objet, à un quelconque moment dans le passé, d'un tel gel
+d'avoirs ?
+c. L'assujetti sait-il si le client ou le bénéficiaire effectif a fait l'objet par le passé d'une
+déclaration de transaction suspecte ?
+d. L'établissement dispose-t-il d'informations internes concernant l'intégrité du client ou
+du bénéficiaire effectif qu'il aurait obtenues, par exemple, dans le cadre d'une relation
+d'affaires de longue date ?
+4. Les FACTEURS DE RISQUES suivant peuvent être pertinents lors de l'identification
+du risque associé à la nature et au comportement d'un client ou d'un bénéficiaire
+effectif. Les assujettis doivent noter que ces FACTEURS DE RISQUES ne seront pas
+tous perceptibles d'emblée et pourraient n'apparaître qu'après l'établissement d'une
+relation d'affaires
+26
+=== page 27 ===
+a. Le client a-t-il des motifs légitimes de ne pas être en mesure de fournir des
+preuves solides de son identité, peut-être parce qu'il s'agit d'un demandeur d'asile
+b. L'assujetti a-t-il des doutes concernant la véracité ou l'exactitude de l'identité du
+client ou du bénéficiaire effectif ?
+c. Existe-t-il des indices selon lesquels le client pourrait chercher à éviter l'assujetti
+d'une relation d'affaires ? Par exemple, le client cherche-t-il à exécuter une seule
+transaction ou plusieurs transactions isolées, alors que l'établissement d'une
+relation d'affaires pourrait être plus logique sur le plan économique ?
+d. La structure de propriété et de contrôle du client est-elle transparente et logique
+? Si la structure de propriété et de contrôle du client est complexe ou opaque,
+existe-t-il une justification commerciale ou licite évidente ?
+e. Le client émet-il des actions au porteur ou son capital est-il détenu par des
+actionnaires nominatifs (nominee shareholders) ?
+f. Le client est-il une personne morale ou une construction juridique qui pourrait être
+utilisée comme une structure de détention d'actifs ?
+g. Existe-t-il une raison valable aux modifications apportées à la structure de
+propriété et de contrôle du client ?
+h. Le client demande-t-il des transactions complexes, d'un montant inhabituellement
+ou anormalement élevé, ou des types inhabituels ou inattendus de transaction,
+n'ayant pas d'objet économique ou licite apparent ou de justification commerciale
+valable ?
+i. Le client exige-t-il des niveaux de secret professionnel inutiles ou déraisonnables
+? Par exemple, le client est-il peu enclin à communiquer des informations dans le
+cadre du processus de vigilance à l'égard de la clientèle, ou semble-t-il vouloir
+masquer la véritable nature de ses activités
+j. L'origine du patrimoine ou l'origine des fonds du client ou du bénéficiaire effectif
+peut-elle être facilement expliquée, par exemple au regard de la profession, de
+l'héritage ou des placements du client ou du bénéficiaire effectif ? Cette
+explication est-elle plausible ?
+k. Le client utilise-t-il les produits et les services qu'il a souscrits de la manière
+annoncée lors de l'établissement initial de la relation d'affaires ?
+l. Lorsque le client est un non résident, ses besoins pourraient-ils être mieux servis
+ailleurs ? Le client a-t-il des motifs économiques et légaux valables pour
+demander le type de service financier souhaité ?
+5. Lorsqu'ils identifient le risque associé à la nature et au comportement d'un client ou
+d'un bénéficiaire effectif, les établissements devraient accorder une attentio
+27
+=== page 28 ===
+particulière aux FACTEURS DE RISQUES qui, bien qu'ils ne soient pas spécifiques
+au financement du terrorisme, pourraient indiquer un accroissement du risque de
+financement du terrorisme, notamment lorsque d'autres facteurs de ce même risque
+sont également présents. À cette fin, les assujettis doivent au moins tenir compte des
+facteurs de risque suivants
+a. Le client ou le bénéficiaire effectif est-il une personne figurant sur les listes de
+personnes, groupes et entités impliqués dans des actes de terrorisme et faisant
+l'objet de mesures restrictives, ou est-il connu pour avoir des liens personnels
+ou professionnels étroits avec des personnes inscrites sur ces listes (par
+exemple, parce qu'il est en couple ou vit avec une telle personne)?
+b. Le client ou le bénéficiaire effectif est-il une personne dont on sait publiquement
+qu'elle fait l'objet d'une enquête pour activité terroriste ou qu'elle a été
+condamnée pour activité terroriste, ou est-il connu pour avoir des liens
+personnels ou professionnels étroits avec une telle personne (par exemple,
+parce qu'il est en couple ou vit avec une telle personne) ?
+c. Le client effectue-t-il des transactions caractérisées par des transferts de fonds
+entrants et sortants en provenance et/ou à destination de pays connus pour
+abriter des groupes commettant des actes terroristes ou pour financer le
+terrorisme, ou qui font l'objet de sanctions internationales ? Dans l'affirmative,
+ces transferts peuvent-ils être aisément expliqués, par des liens familiaux ou
+des relations commerciales par exemple ?
+d. Le client est-il une organisation à but non lucratif •
+dont les activités ou les dirigeants sont publiquement connus pour être
+associés à l'extrémisme ou entretenir des sympathies terroristes?
+Ou dont le comportement en matière de transactions se caractérise par des
+transferts massifs de fonds vers des pays ou territoires associés à un risque
+plus élevé de blanchiment de capitaux et financement du terrorisme ou vers
+des pays tiers à haut risque ?
+e. Le client effectue-t-il des transactions portant sur d'importants flux d'argent
+dans un court laps de temps, auxquelles sont associées des organisations à
+but non lucratif dont les liens avec le client sont peu clairs (par exemple, ils sont
+domiciliés au même endroit physique, partagent les mêmes représentants ou
+employés ou détiennent plusieurs comptes sous les mêmes noms) ?
+f. Le client transfère-t-il ou a-t-il l'intention de transférer des fonds à des
+personnes visées aux points a) et b) ?
+6. Lorsqu'ils identifient le risque associé aux pays et aux zones géographiques, les
+assujettis devraient prendre en considération le risque lié
+a. aux pays ou territoires dans lesquels le client est établi ou réside, et où le bénéficiaire
+effectif réside;
+28
+=== page 29 ===
+b. aux pays ou territoires dans lesquels le client et le bénéficiaire effectif ont leur siège;
+c. aux pays ou territoires avec lesquels le client et le bénéficiaire effectif ont des liens
+personnels ou commerciaux d'importance, ou des intérêts financiers ou juridiques.
+7. Les assujettis doivent noter que la nature et la finalité de la relation d'affaires, ou le
+type d'activité, détermineront souvent l'importance relative des facteurs de risques
+associés à chaque pays et zone géographique. Par exemple
+a. Lorsque les fonds utilisés dans la relation d'affaires ont été générés à l'étranger,
+le niveau des infractions sous-jacentes au blanchiment de capitaux et
+l'efficacité du système juridique du pays concerné seront particulièrement
+importants.
+b. Lorsque les fonds sont reçus de pays ou territoires dans lesquels opèrent des
+groupes qui sont connus pour commettre des infractions terroristes, ou sont
+envoyés vers de tels pays ou territoires, les établissements devraient envisager
+dans quelle mesure cela pourrait faire naître un soupçon, en fonction de ce que
+l'établissement sait de l'objet et de la nature de la relation d'affaires.
+c. Lorsque le client est un établissement financier ou un établissement de crédit,
+les établissements devraient accorder une attention particulière à l'adéquation
+du dispositif de lutte contre le blanchiment de capitaux et le financement du
+terrorisme et à l'efficacité de la surveillance en la matière dans le pays
+concerné.
+d. Lorsque le client est une fiducie/un trust ou tout autre type de construction
+juridique, ou qu'il a une structure ou des fonctions semblables à celles des
+trusts, les assujettis doivent examiner dans quelle mesure le pays dans lequel
+le client et, le cas échéant, le bénéficiaire effectif sont enregistrés respecte
+effectivement les normes internationales en matière de transparence fiscale et
+d'échange d'informations.
+8. Les facteurs de risques que les assujettis doivent prendre en considération lorsqu'ils
+identifient l'efficacité du dispositif de lutte contre le blanchiment de capitaux et le
+financement du terrorisme mis en place dans un pays ou un territoire comprennent •
+a. La COSUMAF a-t-elle déterminé que le pays présentait des carences
+stratégiques dans son dispositif de lutte contre le blanchiment de capitaux et le
+financement du terrorisme ?
+b. La législation nationale interdit-elle la mise en place de politiques et de
+procédures à l'échelle du groupe ?
+c. Existe-t-il des informations provenant de plusieurs sources crédibles et fiables
+concernant la qualité des contrôles effectués par le pays ou le territoire en
+matière de lutte contre le blanchiment de capitaux et le financement du
+terrorisme, y compris des informations sur la qualité et l'efficacité de l'exécution
+29
+=== page 30 ===
+des règlements et de la surveillance réglementaire ? Les sources d'information
+possibles comprennent, par exemple, les rapports d'évaluation établis par le
+Groupe d'action financière (GAFI) ou des organismes régionaux de type GAFI
+(ORTG), la liste des pays et territoires à haut risque et non coopératifs dressée
+par le GAFI, les évaluations du Fonds monétaire international (FMI) et les
+rapports du programme d'évaluation du secteur financier (FSAP).
+9. Les facteurs de risques que les assujettis doivent prendre en considération lorsqu'ils
+identifient le niveau de transparence et de discipline fiscale d'un pays ou territoire
+comprennent •
+a. Existe-t-il des informations provenant de plusieurs sources crédibles et fiables
+selon lesquelles le pays a été jugé conforme aux normes internationales en
+matière de transparence fiscale et d'échange d'informations ? Existe-t-il des
+preuves selon lesquelles les règles pertinentes sont effectivement mises en
+ceuvre dans la pratique ? Les sources d'information possibles comprennent, par
+exemple, les rapports du Forum mondial sur la transparence et l'échange de
+renseignements à des fins fiscales organisé par l'Organisation de coopération et
+de développement économiques (OCDE), dans lesquels sont évalués les pays ou
+territoires à des fins de transparence fiscale et de partage d'informations, les
+évaluations visant à déterminer si un pays ou territoire respecte la norme
+commune de déclaration sur l'échange automatique de renseignements, les
+évaluations du respect des recommandations no 9, 24 et 25 du GAFI et des
+résultats immédiats no 2 et 5 menées par le GAFI ou les OR TG, les évaluations
+effectuées par rapport à la liste de l'Union européenne des pays et territoires non
+coopératifs à des fins fiscales, ainsi que les évaluations du FMI (portant par
+exemple sur les centres financiers extraterritoriaux).
+b. Le pays ou territoire s'est-il engagé à respecter, et a-t-il effectivement mis en
+œuvre la norme commune de déclaration sur l'échange automatique de
+renseignements, adoptée par le G20 en 2014 ?
+c. Le pays ou territoire a-t-il mis en place des registres de bénéficiaires effectifs
+fiables et accessibles ?
+10. Les facteurs de risques que les assujettis doivent prendre en considération lorsqu'ils
+identifient le risque associé au niveau d'infractions sous-jacentes au blanchiment de
+capitaux comprennent
+a. Existe-t-il des informations provenant de sources crédibles et fiables concernant
+le niveau des infractions sous-jacentes au blanchiment de capitaux, telles que la
+corruption, la criminalité organisée, les infractions fiscales pénales ou la fraude
+grave ? On peut citer par exemple les indices de perception de la corruption, les
+rapports sur les pays de l'OCDE concernant la mise en ceuvre de la convention
+de l'OCDE contre la corruption, et le rapport de l'Office des Nations unies contre
+la drogue et le crime.
+30
+=== page 31 ===
+b. Existe-t-il des informations provenant de plusieurs sources crédibles et fiables
+concernant la capacité du système judiciaire et d'enquête du pays ou territoire à
+rechercher et à poursuivre efficacement ces infractions ?
+31
+=== page 32 ===
+ANNEXE Il - FACTEURS DE RISQUES LIES AUX PRODUITS AUX SERVICES ET AUX
+TRANSACTIONS
+1. Les facteurs de risques que les assujettis devraient prendre en considération lorsqu'ils
+identifient le risque associé à la transparence d'un produit, d'un service ou d'une
+transaction comprennent
+a. Dans quelle mesure les produits ou services permettent-ils au client, au
+bénéficiaire effectif ou aux structures bénéficiaires de rester anonymes ou de
+masquer leur identité plus facilement ?
+Ces produits et services comprennent notamment les actions au porteur, les
+placements fiduciaires, les véhicules offshore et certain(e)s fiducies/trusts, ainsi
+que les entités juridiques telles que les fondations, qui peuvent être structurées
+de façon à profiter de l'anonymat et permettent de conclure des transactions
+avec des sociétés écrans ou des sociétés dont le capital est détenu par des
+actionnaires apparents.
+b. Dans quelle mesure est-il possible pour un tiers ne faisant pas partie de la
+relation d'affaires de donner des instructions, par exemple dans le cas de
+certaines relations bancaires de correspondant ?
+2. Les facteurs de risques que les assujettis devraient prendre en considération lorsqu'ils
+identifient le risque associé à la complexité d'un produit, d'un service ou d'une
+transaction comprennent
+a. Quelle est la complexité de la transaction et concerne-t-elle plusieurs parties ou
+plusieurs pays ou territoires, par exemple dans le cas de certaines opérations de
+crédits commerciaux ? Les transactions sont-elles simples, par exemple des
+versements réguliers sont-ils effectués sur un fonds de pension ?
+b. Dans quelle mesure les produits ou services permettent-ils les paiements de tiers ou
+acceptent-ils les paiements excédentaires lorsque cela n'est pas ou ne serait pas
+normalement prévu ? Lorsque des paiements de tiers sont prévus, l'établissement
+connaît-il l'identité du tiers, par exemple s'agit-il d'une autorité chargée du paiement
+d'allocations publiques ou d'un garant ? Ou bien les produits et services sont-ils
+financés exclusivement par des transferts de fonds provenant du compte propre du
+client auprès d'un autre établissement financier soumis à des normes et à une
+surveillance en matière de lutte contre le BC/FT qui sont comparables à celles
+applicables en zone CEMAC.
+c. L'assujetti comprend-il les risques associés à son produit ou service nouveau ou
+innovant, en particulier lorsque cela implique le recours à des technologies ou à des
+méthodes de paiement nouvelles ?
+32
+=== page 33 ===
+3.
+a.
+b.
+Les facteurs de risques que les établissements devraient prendre en considération
+lorsqu'ils identifient le risque associé à la valeur ou à la taille d'un produit, d'un service
+ou d'une transaction comprennent
+Dans quelle mesure les produits ou services nécessitent-ils beaucoup d'espèces, à
+l'instar de nombreux services de paiement mais aussi de certains comptes courants ?
+Dans quelle mesure les produits ou services facilitent-ils ou favorisent-ils des
+transactions d'un montant élevé ? Existe-t-il des plafonds aux valeurs de transaction
+ou aux niveaux de prime qui pourraient limiter l'utilisation du produit ou du service à
+des fins de blanchiment de capitaux et de financement du terrorisme ?
+33
+=== page 34 ===
+ANNEXE Ill - FACTEURS DE RISQUES LIES AUX CANAUX DE DISTRIBUTION
+Lorsqu'ils évaluent le risque associé à la façon dont le client obtient les produits ou services,
+les assujettis prennent en compte les facteurs suivants .
+a. Le client est-il présent physiquement à des fins d'identification ? Si le client n'est pas
+présent physiquement, l'établissement
+i. a-t-il eu recours à une forme fiable de mesures de vigilance à l'égard de la
+clientèle n'impliquant pas la présence physique des parties ?
+ii. a-t-il pris des mesures pour éviter l'usurpation ou la fraude à l'identité ?
+b. Le client a-t-il été introduit par une autre partie appartenant au même groupe financier
+et, si tel est le cas, dans quelle mesure l'établissement peut-il s'appuyer sur cette mise
+en relation pour avoir la garantie que le client ne l'exposera pas à un risque excessif
+de blanchiment de capitaux et financement du terrorisme ?
+c. Le client a-t-il été introduit par un tiers, par exemple une banque n'appartenant pas au
+même groupe ou un intermédiaire ?
+i. Ce tiers est-il une entité réglementée soumise à des obligations en matière de
+lutte contre le blanchiment de capitaux qui sont compatibles avec celles
+applicables en zone CEMAC. Ce tiers est-il un établissement financier ou bien
+ses principales activités commerciales n'ont-elles aucun lien avec la fourniture
+de services financiers ?
+ii. Ce tiers applique-t-il des mesures de vigilance à l'égard de la clientèle, conserve-
+t-il des documents conformément aux dispositions applicables en zone CEMAC ?
+fait-il l'objet d'une surveillance concernant le respect d'obligations comparables
+en matière de lutte contre le blanchiment de capitaux et financement du
+terrorisme ? Existe-t-il des éléments indiquant que le niveau de conformité du
+tiers avec la législation ou la réglementation relative à lutte contre le blanchiment
+de capitaux et financement du terrorisme est inadéquat, par exemple le tiers a-t-
+il été sanctionné pour non-respect des obligations qui lui incombent en la matière
+iii. Le tiers est-il établi dans un pays ou territoire associé à un risque plus élevé de
+blanchiment de capitaux et financement du terrorisme ? Lorsqu'un tiers est
+installé dans un pays tiers à haut risque que la COSUMAF a identifié comme
+présentant des carences stratégiques, les assujettis ne doivent pas avoir recours
+à cet intermédiaire.
+iv. Quelles mesures l'établissement a-t-il pris pour s'assurer:
+que le tiers présente toujours les documents d'identité nécessaires;
+34
+=== page 35 ===
+que le tiers fournira, immédiatement sur demande des copies pertinentes des
+données d'identification et de vérification ou des données électroniques visées;
+que la qualité des mesures de vigilance prises par le tiers à l'égard de la
+clientèle est telle que l'on peut s'y fier; et
+que le niveau de vigilance à l'égard de la clientèle appliqué par le tiers est
+proportionné au risque de blanchiment de capitaux et de financement du
+terrorisme associé à la relation d'affaires, étant donné que le tiers aura appliqué
+des mesures de vigilance à l'égard de la clientèle à ses propres fins et,
+éventuellement, dans un contexte différent?
+35

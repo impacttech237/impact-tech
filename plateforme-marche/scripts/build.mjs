@@ -96,11 +96,14 @@ const index = {
   })),
   themes, acteurs: acteurs.map(a => ({ id: a.id, nom: a.nom })),
 };
+let releve = new Set(); try { releve = new Set(JSON.parse(fs.readFileSync(path.join(racine, 'data', 'releve.json'), 'utf8')).faits); } catch { /* aucune relecture */ }
+let controle = {}; try { controle = JSON.parse(fs.readFileSync(path.join(racine, 'data', 'controle.json'), 'utf8')).faits || {}; } catch { /* pas encore de contrôle */ }
 const compact = faits.map(f => {
   const o = { id: f.id, t: f.texte, y: f.type, q: f.enonce, v: f.valeur_texte, h: f.themes?.[0] };
   if (f.article) o.a = f.article; if (f.note) o.n = f.note; if (f.items) o.i = f.items; if (f.acteurs?.length) o.c = f.acteurs;
   if (f.type_valeur === 'nombre') { o.x = f.valeur; o.u = f.unite; }
-  if (f.confiance === 'verifie') o.r = 1; if (/scan|d[ée]grad|relire/i.test(f.note || '')) o.s = 1;
+  if (controle[f.id]?.s === 'confirme') o.k = 1; else if (controle[f.id]?.s === 'non_retrouve') o.e = 1;
+  if (f.confiance === 'verifie' || releve.has(f.id)) { o.r = 1; delete o.e; } if (/scan|d[ée]grad|relire/i.test(f.note || '')) o.s = 1;
   return o;
 });
 const retenir = [];
@@ -113,7 +116,7 @@ const empreinte = crypto.createHash('sha1').update(JSON.stringify([index, compac
 index.version = empreinte;
 index.vedettes = ['rg-23.delai.16', 'rg-23.delai.07', 'rg-23.montant.07', 'aa06-17.montant.01'].map(id => compact.find(f => f.id === id)).filter(Boolean);
 index.genere_le = new Date().toISOString().slice(0, 10);
-index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.filter(t => t.confiance !== 'verifie').length, faits_relus: faits.filter(f => f.confiance === 'verifie').length, faits_scan: faits.filter(f => /scan|d[ée]grad|relire/i.test(f.note || '')).length };
+index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.filter(t => t.confiance !== 'verifie').length, faits_relus: faits.filter(f => f.confiance === 'verifie' || releve.has(f.id)).length, faits_controles: faits.filter(f => controle[f.id]?.s === 'confirme' && !releve.has(f.id)).length, faits_ecart: faits.filter(f => controle[f.id]?.s === 'non_retrouve' && !releve.has(f.id)).length, controle_le: (() => { try { return JSON.parse(fs.readFileSync(path.join(racine, 'data', 'controle.json'), 'utf8')).genere_le; } catch { return null; } })(), faits_scan: faits.filter(f => /scan|d[ée]grad|relire/i.test(f.note || '')).length };
 ecrire('data/index.json', index);
 ecrire('data/faits.json', compact);
 ecrire('data/guides.json', guides);

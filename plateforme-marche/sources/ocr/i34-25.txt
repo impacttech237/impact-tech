@@ -1,0 +1,845 @@
+=== page 1 ===
+Union Monétaire de l'Afrique
+Centrale Commission de
+Surveillance du Marché Financier de
+l'Afrique centrale COSUMAF
+INSTRUCTION COSUMAF no 34-25 du 23 mai 2025
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+RELATIVE AU MODELE TYPE DE DOCUMENT D'INFORMATION D'UN ORGANISME DE
+CAPITAL INVESTISSEMENT
+LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE L'AFRIQUE
+CENTRALE
+Vu l'Acte Additionnel n003/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création de
+la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale ,
+En sa séance du 23 mai 2025 ;
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT :
+1
+=== page 2 ===
+ARTICLE PREMIER - CHAMP D'APPLICATION
+La présente instruction est prise en application des dispositions de l'article 476 du Règlement
+Général de la COSUMAF. Elle s'applique aux Organismes de Capital Investissement prenant
+la forme de Société de placement en capital (SPC), ou de Fonds de Placement en Capital
+(FPC), visés à l'article 470 dudit Règlement Général.
+ARTICLE 2 - DEFINITIONS
+Au sens de la présente Instruction, il faut entendre par :
+« Compartiment » : Technique de segmentations qui permet de juxtaposer, dans le cadre d'un
+même OPC et sous une même dénomination, plusieurs types de portefeuilles composés
+différemment ou ayant des orientations de gestion différentes. Les actifs d'un compartiment
+sont séparés des actifs des autres compartiments et sont séparés juridiquement des autres
+compartiments.
+« Catégorie de parts/actions » ou « Classe de parts/actions » : sont des types de parts ou
+actions appartenant au même OPC attribuant des droits différents à un ou plusieurs sous
+ensemble d'investisseurs par rapport à leur investissement. Ces droits portent sur la
+distribution des revenus, un traitement fiscal spécifique, un minimum d'investissement
+différent, des frais différents, ou une couverture d'un risque de change.
+ARTICLE 3 - FORMAT TYPE DU DOCUMENT D'INFORMATION D'UN ORGANISME DE
+CAPITAL INVESTISSEMENT
+1. Le document d'information d'un Organisme de Capital Investissement comporte les
+rubriques mentionnées en Annexe.
+2. Le document d'information d'un Organisme de Capital Investissement comporte les
+rubriques prévues en annexe de la présente instruction.
+ARTICLE 4 - ENTREE EN VIGUEUR
+La présente instruction qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSUMAF.
+Fait à Libreville, le 23 mai 2025
+Pour la COSUMAF
+Le Président
+DE SURVEILLANCE
+OU CHE FINANCIER
+'AFRIQUE CENTRALE
+9/91
+B.P. 1724 Lbrevitle - GABON
+Jacqueline ADIABA-NKEMBE
+2
+=== page 3 ===
+ANNEXE - PLAN TYPE DU DOCUMENT D'INFORMATION D'UN ORGANISME DE
+CAPITAL INVESTISSEMENT
+DOCUMENT D'INFORMATION DE L'ORGANISME DE CAPITAL INVESTISSEMENT
+..(ajouter le nom de l'OPC)
+a
+l. Caractéristiques générales
+10 Avertissement
+Le document d'information débute ar les avertissements suivants .
+« Le FIA X est un organisme de capital investissement. Avant d'investir dans cet organisme
+de capital investissement, vous devez comprendre comment il sera géré et quels sont les
+risques particuliers liés à la gestion du fonds. En particulier, vous devez prendre
+connaissance des conditions et des modalités particulières de fonctionnement et de
+gestion de cet organisme de capital investissement :
+- Règles d'investissement et d'engagement ;
+- Conditions et modalités des souscriptions, acquisitions, rachats des parts et des
+actions ;
+- Valeur liquidative en deçà de laquelle il est procédé à la dissolution du fonds.
+Ces conditions et modalités sont énoncées dans le règlement ou les statuts de
+l'organisme de capital investissement, de même que les conditions dans lesquelles le
+règlement et les statuts peuvent être modifiés. »
+« Seules les personnes mentionnées à la rubrique « souscripteurs concernés » peuvent
+souscrire ou acquérir des [parts/actions] de l'organisme de capital investissement X.
+20 Dénomination .
+a) Pour les FPC, dénomination ;
+b) Pour les SPC, dénomination ou raison sociale, siège social et adresse postale si celle-ci
+est différente.
+30 Forme juridique et État membre dans lequel l'organisme de capital investissement a été
+constitué ,
+40 Date de création et durée d'existence prévue, ainsi que la date d'agrément de la COSUMAF,
+et la date de publication du document d'information •
+50 Synthèse de l'offre de gestion ;
+60 Rappel des compartiments et des différentes catégories de parts ,
+70 Souscripteurs concernés ,
+80 Montant minimum de souscription pour chaque compartiment / type de parts
+90 Code ISIN ;
+100 Date et périodicité de calcul de la valeur liquidative ;
+3
+=== page 4 ===
+110 Support et modalités de publication ou de communication de la valeur liquidative.
+Ces informations sont présentées sous la forme d'un tableau récapitulatif pour permettre une
+bonne lisibilité de l'ensemble de l'offre de gestion.
+Exemple
+Com artiment no 1
+Parts
+Caractéristiques
+Code ISIN
+Com artiment no 2 :
+Parts
+Code ISIN
+Affectation des
+sommes
+distribuables
+Capitalisation
+Distribution
+Devise de
+libellé
+FCFA
+FCFA
+Etc.
+Caractéristiques
+Affectation
+sommes
+distribuables
+Capitalisation
+Distribution
+des Devise
+libellé
+FCFA
+FCFA
+de
+Etc.
+120 Indication du lieu où l'on peut se procurer les informations périodiques, le dernier rapport
+annuel, la dernière valeur liquidative de l'organisme de capital investissement ainsi que
+l'information sur ses performances passées. Les derniers documents annuels et périodiques sont
+adressés dans un délai d'une semaine sur simple demande écrite du porteur auprès de :
+Raison sociale
+Adresse
+(Tél. éventuellement)
+E-mail :
+Ces documents sont également disponibles sur le site (le cas échéant)
+Désignation d'un point de contact (personne/service, moment, etc.) où des explications
+supplémentaires peuvent être obtenues si nécessaire.
+4
+=== page 5 ===
+a
+Il. Acteurs
+Cette rubrique comporte la liste, les coordonnées ainsi que les obligations de l'ensemble des
+acteurs et prestataires concernés au titre de la gestion, de la conservation, du contrôle ou de
+la distribution.
+10 Société de gestion.
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+Décrire la manière dont la société de gestion respecte les exigences afin de couvrir les risques
+éventuels de mise en cause de sa responsabilité professionnelle à l'occasion de la gestion de
+FIA.
+20 Dépositaire et conservateurs.
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+Activité principale, pour •
+a) Le dépositaire ;
+Le cas échéant, décrire toute fonction de garde déléguée par le dépositaire ainsi que tout
+conflit d'intérêt susceptible de découler de ces délégations.
+b) Le conservateur (actif de l'organisme de capital investissement) ;
+c) Les établissements en charge de la centralisation des ordres de souscription et de rachat
+d) L'établissement en charge de la tenue des registres des parts ou actions (passif de
+l'organisme de capital investissement).
+30 Courtier principal (Prime(s) broker(s)).
+Le courtier principal (prime broker) est une personne morale
+a) Exerçant la compensation et le règlement de transactions initiées par une société de
+gestion pour le compte d'un OPC ;
+b) Contrepartie importante de contrats constituant des instruments financiers à terme conclus
+par un FIA, permettant à ce dernier de mettre en oeuvre sa stratégie d'investissement, en
+accordant le financement nécessaire ;
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+Préciser si le courtier principal (prime broker) est également conservateur par délégation du
+dépositaire ou non.
+Indiquer l'activité principale.
+Description de toutes les dispositions importantes que le FIA a prises avec ses courtiers
+principaux et la manière dont sont gérés les conflits d'intérêts y afférents et la disposition du
+contrat avec le dépositaire stipulant la possibilité d'un transfert ou d'un réemploi des actifs du
+FIA et les informations relatives à tout transfert de responsabilité au courtier principal qui
+pourrait exister.
+40 Commissaire aux comptes
+Dénomination ou raison sociale, siège social, signataire.
+50 Commercialisateurs
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+60 Personne s'assurant que les critères relatifs à la capacité des souscripteurs ou acquéreurs
+5
+=== page 6 ===
+ont été respectés et que ces derniers ont reçu l'information requise.
+Cette personne désignée peut notamment être •
+a) Le dépositaire ;
+b) La société de gestion ou la SPC elle-même ,
+c) Toute personne commercialisant les parts ou actions de l'organisme de capital
+investissement.
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci est
+différente du siège social.
+70 Délégataires.
+Cette rubrique regroupe, pour l'ensemble des délégations, notamment financières,
+administratives et comptables, les informations suivantes :
+a) Identité ou raison sociale de la société ;
+b) Éléments du contrat avec la société de gestion ou la société d'investissement de nature à
+intéresser les investisseurs, à l'exclusion de ceux relatifs aux rémunérations ;
+c) Autres caractéristiques sommaires de l'activité de la société délégataire ,
+d) Tout conflit d'intérêts susceptible de découler de ces délégations
+80 Conseillers.
+Indications sur les entreprises de conseil ou les conseillers d'investissement externes, pour
+autant que le recours à leurs services soit prévu par contrat .
+a) Identité ou raison sociale de la société ou du conseiller ;
+b) Éléments du contrat avec la société de gestion ou la société d'investissement de nature à
+intéresser les investisseurs, à l'exclusion de ceux relatifs aux rémunérations ,
+c) Autres caractéristiques sommaires de l'activité de la société ou du conseiller.
+Le conseiller n'est pas amené à prendre des décisions pour le compte de l'organisme de
+capital investissement, qui relèvent de la compétence et de la responsabilité de la SPC ou de
+la société de gestion du FPC.
+90 Pour la SPC :
+a) Identité et fonctions dans la SPC des membres des organes d'administration, de direction
+et de surveillance ,
+b) Mention des principales activités exercées par ces personnes en dehors de la société
+lorsqu'elles sont significatives par rapport à celle-ci.
+Ill. Modalités de fonctionnement et de gestion
+Cette rubrique comporte l'ensemble des modalités de fonctionnement et de gestion de
+l'organisme de capital investissement.
+Pour les organismes de capital investissement à compartiments et afin de permettre une
+meilleure lisibilité du document d'information, les modalités de fonctionnement de l'organisme de
+capital investissement sont scindées en deux parties : une partie générale décrite au I et énonçant
+les dispositions communes à l'ensemble des compartiments et une rubrique particulière décrite
+au Il déclinant les spécificités mises en œuvre par compartiment.
+Caractéristiques générales
+Cette partie comporte les indications suivantes :
+10 Caractéristiques des parts ou actions :
+a) Code ISIN. Dans le cas de parts ou compartiments multiples, le code ISIN doit être
+uniquement renseigné dans le Il du présent article ;
+b) Nature des droits attachés à la catégorie de parts ou d'actions ,
+6
+=== page 7 ===
+c) Inscription à un registre, ou précision des modalités de tenue du passif ;
+d) Droits de vote .
+- Pour les SPC, mention des droits de vote attachés aux actions ,
+- Pour les FPC, mention du fait qu'aucun droit de vote n'est attaché aux parts, les décisions
+étant prises par la société de gestion ,
+e) Forme des parts ou actions : Nominatives / au porteur ;
+f) Décimalisation éventuellement prévue (fractionnement).
+g) le cas échéant, l'admission des parts sur un marché réglementé et ses modalités.
+20 Date de clôture :
+Précision de la date de clôture de l'exercice comptable.
+Dispositions particulières
+Les dispositions particulières ont vocation à décrire les spécificités de la gestion proposée par
+l'organisme de capital investissement ou pour chaque compartiment de l'organisme de capital
+investissement :
+10 Code ISIN.
+20 Délégation de gestion financière
+Rappel du nom du délégataire, dans le cas de compartiments, le cas échéant. Dans la mesure
+où il n'existe pas différents compartiments, ce rappel n'est pas nécessaire.
+30 Présentation des rubriques.
+L'ensemble des techniques et instruments utilisés doivent faire l'objet d'une mention dans le
+document d'information. Les techniques et instruments utilisés doivent être cohérents avec la
+gestion envisagée, les moyens de la société de gestion ou de la SPC.
+Les techniques et instruments spécifiques doivent être énoncés de manière précise dans le
+document d'information.
+L'organisme de capital investissement ne peut faire l'acquisition d'instruments non mentionnés
+dans le document d'information. L'utilisation des instruments financiers à terme doit être décrite de
+façon économique, en la déclinant par technique de gestion utilisée.
+Exemple : exposition à l'indice X entre 100 % et 130 % de l'actif, représentative d'un effet de
+levier de 1,3.
+À titre d'exemple, les instruments suivants peuvent être cités :
+des actions et parts sociales émises par les sociétés ayant leur siège social ou leur
+principal établissement dans les Etats membres de la CEMAC ;
+des bons de souscription ou d'attribution de titres de capital émis par les sociétés ayant
+leur siège social ou leur principal établissement dans les Etats membres de la CEMAC ,
+les titres de capital ou de créance donnant accès, directement ou indirectement, au
+capital social de sociétés ayant leur siège social ou leur principal établissement dans les
+Etats membres de la CEMAC ;
+les titres émis par d'autres organismes de capital investissement agréés par la
+COSUMAF ;
+les créances dont le remboursement est subordonné au remboursement préalable de
+tous les autres créanciers ;
+7
+=== page 8 ===
+tout titre de créance ne donnant pas accès au capital ;
+tout autre titre financier émis par une société ayant son siège social ou son principal
+établissement dans les Etats membres de la CEMAC ;
+tout autre actif dont la détention est autorisée par la COSUMAF.
+Les rubriques sont les suivantes •
+a) Objectif de gestion
+La présente rubrique doit donner une description précise de l'objectif de gestion poursuivi
+par l'organisme de capital investissement, en évitant les formules générales comme, par
+exemple, « la valorisation du capital ». L'objectif de gestion doit être indépendant des types
+d'investissements en instruments financiers envisagés. Néanmoins, il peut être complété par
+la mention des principales classes d'actifs qui entreront dans la composition de l'actif de
+l'organisme de capital investissement ou qui seront représentatives de son exposition.
+b) Indicateur de référence
+L'objectif de cette rubrique est de foumir un indicateur auquel l'investisseur pourra se référer
+pour comparer la performance et le risque pris par l'organisme de capital investissement.
+Selon l'objectif de gestion de l'organisme de capital investissement, l'information donnée à
+l'investisseur et la nature des risques pris, cet étalon peut être, par exemple, un indicateur
+étroit ou au contraire un indice large de marché, un indice reconnu par la COSUMAF ou
+tout autre indicateur pertinent. Cette rubrique doit donc comporter le nom et la description
+de l'indicateur de référence retenu ainsi que, le cas échant, la corrélation recherchée, ou
+toute information pertinente permettant d'apprécier l'organisme de capital investissement
+au regard de l'indicateur désigné. Si la société de gestion ou la SPC considère qu'un
+indicateur de référence ne peut être utilisé ou que celui-ci pourrait induire l'investisseur en
+erreur, la présente rubrique doit le mentionner et le justifier.
+c) Stratégie d'investissement
+L'objectif de cette rubrique est d'expliquer comment la société de gestion ou la SPC
+s'efforcera d'atteindre l'objectif de gestion affiché. D'une manière générale, elle doit
+comprendre •
+- La description des stratégies utilisées. Le document d'information décrit de manière
+complète les différentes stratégies utilisées pour atteindre l'objectif de gestion. Elle doit
+notamment préciser :
+• L'existence de stratégies particulières concernant des secteurs industriels,
+géographiques ou d'une autre nature ,
+• Le fait que l'organisme de capital investissement a une stratégie de constitution d'un
+portefeuille d'actifs diversifié ,
+• L'existence d'interventions sur des catégories particulières d'actifs ,
+• Le style de gestion adopté (par exemple, relation entre l'indice et l'objectif de performance
+du fond ou recherche de rendement absolu)
+• Les circonstances dans lesquelles l'organisme de capital investissement peut faire
+appel à l'effet de levier, les types d'effets de levier et les sources des effets de levier
+autorisés.
+- La description des catégories d'actifs et d'instruments financiers à terme dans lesquels
+l'organisme de capital investissement entend investir et leur contribution à la réalisation de
+l'objectif de gestion.
+Pour les actifs hors dérivés intégrés, le document d'information doit mentionner l'ensemble
+des classes d'actifs qui entreront dans la composition de l'actif de l'organisme de capital
+investissement. Le cas échéant, elle doit également comporter les éléments suivants :
+8
+=== page 9 ===
+- Les instruments financiers autres que les actions, les titres de créance et les instruments du
+marché monétaire : description des principales caractéristiques des investissements
+envisagés ;
+- Les actions : les principales caractéristiques des investissements envisagés (dans la mesure
+où elles ne sont pas redondantes avec les éléments précédemment décrits), notamment .
+• Répartition géographique et/ou sectorielle des émetteurs ;
+• Petites/moyennes/grandes capitalisations ;
+• Autres critères de sélection (à préciser).
+- Les titres de créance et instruments du marché monétaire : les principales caractéristiques
+des investissements envisagés (dans la mesure où elles ne sont pas redondantes avec les
+éléments décrits plus haut), notamment :
+• Répartition dette privée/publique ,
+• Niveau de risque crédit envisagé
+• Nature juridique des instruments utilisés ,
+• Duration ou sensibilité ,
+• Autres caractéristiques (à préciser).
+- La détention d'actions ou parts d'autres placements collectifs, en précisant s'il s'agit :
+• d'OPCVM de droit CEMAC ;
+• de FIA ou d'Autres placements collectifs, en précisant les types de fonds concernés.
+Si le FIA est un fonds de fonds, indiquer le lieu d'établissement des fonds sous-jacents.
+Dans le cas où l'organisme de capital investissement investit dans des parts ou actions de
+placements collectifs ou des fonds d'investissement gérés par une société de gestion liée, ce
+fait doit faire l'objet, d'une mention dans le document d'information de l'organisme de capital
+investissement.
+Pour chacune des catégories mentionnées ci-dessus .
+• Les fourchettes de détention qui seront respectées ;
+• L'existence d'investissements dans des instruments financiers de pays hors CEMAC ;
+• L'existence d'éventuelles restrictions en matière d'investissement que s'impose la société
+de gestion ou la SPC ;
+• L'existence d'autres critères (à préciser).
+Pour les contrats financiers, le document d'information doit mentionner :
+- La nature des marchés d'intervention
+• Réglementés ,
+• Organisés ;
+• De gré à gré.
+- les risques sur lesquels le gérant désire intervenir :
+• Action ,
+• Taux ;
+• Change ;
+• Crédit.
+- La nature des interventions, l'ensemble des opérations devant être limitées à la réalisation
+de l'objectif de gestion •
+• Couverture ;
+• Exposition ,
+• Arbitrage ;
+• Autre nature (à préciser).
+- La nature des instruments utilisés .
+• Futures ,
+• Options ,
+• Swaps déclinés par type de contrat tel que : swap de taux, swap de change, crédit default
+swap, total return swap ;
+• Dérivés de crédit ;
+• Autre nature (à préciser).
+9
+=== page 10 ===
+- La stratégie d'utilisation des dérivés pour atteindre l'objectif de gestion :
+• Couverture générale du portefeuille, de certains risques, titres, etc. ;
+• Reconstitution d'une exposition synthétique à des actifs, à des risques ,
+• Augmentation de l'exposition au marché et précision de l'effet de levier maximum autorisé
+et recherché ;
+• Autre stratégie (à préciser).
+Les organismes de capital investissement ne doivent pas retenir de rédaction imprécise, telle
+que « utilisation des instruments à terme dans la limite de la réglementation », ne permettant
+pas une bonne appréciation des instruments et stratégies utilisées.
+Pour les dépôts, le document d'information doit mentionner les caractéristiques, le niveau
+d'utilisation et la description de la contribution à la réalisation de l'objectif de gestion.
+Pour les emprunts d'espèces, le document d'information doit comporter l'indication des
+techniques et instruments ou des autorisations en matière d'emprunts susceptibles d'être
+utilisés dans le fonctionnement de l'organisme de capital investissement.
+Pour les opérations d'acquisitions et cessions temporaires de titres, le document d'information
+inclut une description générale des opérations de financement sur titres utilisées par le FIA
+et la justification de leur utilisation. En effet, l'utilisation des opérations d'acquisitions et
+cessions temporaires de titres doit être expliquée de façon précise .
+- La nature des opérations utilisées .
+• Prises et mises en pension;
+• Prêts et emprunts de titres ;
+• Autre nature (à préciser).
+- La nature des interventions, l'ensemble des opérations devant être limitées à la réalisation
+de l'objectif de gestion •
+• Gestion de la trésorerie ;
+• Optimisation des revenus de l'organisme de capital investissement ;
+• Contribution éventuelle à l'effet de levier de l'organisme de capital investissement ;
+• Autre nature (à préciser).
+- Les types d'actifs pouvant faire l'objet de telles opérations ;
+- Le niveau d'utilisation envisagé et autorisé : la proportion maximale d'actifs sous gestion
+pouvant faire l'objet de telles opérations, ainsi que la proportion attendue d'actifs sous
+gestion qui feront l'objet de telles opérations doivent être spécifiées ;
+- Les effets de levier éventuels.
+- Les critères déterminant le choix des contreparties (y compris la forme juridique, le pays
+d'origine et la notation minimale de crédit).
+De manière similaire à ce qui est requis pour les opérations de financement sur titres en
+matière d'informations tel qu'exposé ci-dessus, le document d'information du FIA doit
+également fournir s'agissant des contrats d'échange sur rendement global utilisés
+Une description générale desdits contrats utilisés par le FIA et une justification de leur
+utilisation ,
+Des données générales devant être déclarées pour chaque type de contrat d'échange sur
+rendement global, en particulier :
+les types d'actifs pouvant faire l'objet de tels contrats,
+la proportion maximale d'actifs sous gestion pouvant faire l'objet de tels contrats,
+la proportion attendue d'actifs sous gestion qui feront l'objet de tels contrats.
+Les critères déterminant le choix des contreparties (y compris la forme juridique, le pays
+d'origine et la notation minimale de crédit).
+Rémunération : mention du fait que des informations complémentaires figurent à la
+rubrique « frais et commissions ».
+- Le niveau d'utilisation maximum des différents instruments ,
+- Le niveau d'utilisation des différents instruments généralement recherché, correspondant
+10
+=== page 11 ===
+l'utilisation habituelle envisagée par le gérant.
+- Le cas échéant, des éventuelles restrictions à l'utilisation de l'effet de levier, ainsi que des
+éventuelles modalités de remploi d'un collatéral ou d'actifs.
+Le niveau de levier maximal que le gestionnaire est habilité à employer pour le compte du
+FIAI.
+40 Contrats constituant des garanties financières.
+La possibilité pour l'organisme de capital investissement de donner ce type de garantie à des
+tiers doit être mentionnée de manière expresse. Cette rubrique détaille :
+a) La nature des garanties octroyées par l'organisme de capital investissement ;
+b) La nature des engagements de l'organisme de capital investissement pouvant nécessiter
+ce type de garanties ;
+c) La nature des bénéficiaires de ces garanties.
+Outre la description des garanties acceptables (reçues dans le cadre d'opérations de
+financement sur titres et des contrats d'échanges utilisés par le véhicule) en ce qui concerne
+les types d'actifs, le document d'information doit décrire l'émetteur, l'échéance, la liquidité ainsi
+que la diversification des garanties et les politiques en matière de corrélation.
+Le document d'information fournit des indications sur la manière dont les actifs faisant l'objet
+d'opérations de financement sur titres et de contrats d'échange sur rendement global et les
+garanties reçues sont conservés (par exemple par un dépositaire de fonds) ainsi que sur toute
+restriction (réglementaire ou volontaire) concernant la réutilisation des garanties.
+50 Cas particulier des organismes de capital investissement à compartiment.
+S'il est envisagé que des compartiments souscrivent des parts ou actions de compartiment(s)
+du même organisme de capital investissement auxquels ils se rattachent, le document
+d'information doit le mentionner et préciser le pourcentage maximum de l'actif du compartiment
+investi dans d'autres compartiments du même organisme de capital investissement ainsi que
+le pourcentage maximum de l'actif de chaque compartiment qui peut être détenu par un autre
+compartiment du même organisme de capital investissement.
+60 Profil de risque.
+L'objectif de cette rubrique est de donner une information pertinente sur les risques associés
+aux techniques employées auxquels s'expose l'investisseur. Le profil de risque du fonds ne se
+limite pas à la description des instruments dans lesquels l'organisme de capital investissement
+est investi. Il doit être en mesure d'informer l'investisseur sur les risques spécifiques de
+l'organisme de capital investissements liés à des marchés ou des classes d'actifs particuliers
+(par exemple : volatilité, risque de liquidité, concentration du portefeuille sur certains marchés,
+certaines classes d'actifs ou risque particulier). Le document d'information a pour vocation de
+décliner de façon détaillée et hiérarchisée les risques.
+Par exemple •
+a) Mention des caractéristiques spécifiques de l'organisme de capital investissement ;
+b) Effets possibles de l'utilisation des contrats financiers sur le profil de risque ;
+c) Mention spécifique lorsque la valeur liquidative est susceptible de connaître une volatilité
+élevée du fait de la composition de son portefeuille ou des techniques de gestion du
+portefeuille pouvant être employées ;
+d) Le risque que la performance de l'organisme de capital investissement ne soit pas
+conforme à ses objectifs, aux objectifs de l'investisseur (en précisant que ce dernier risque
+11
+=== page 12 ===
+dépend de la composition du portefeuille de l'investisseur) ;
+e) Le risque que le capital investi ne soit pas intégralement restitué
+f) Impact de l'inflation ,
+g) Mention d'une restriction de liquidité liée à des clauses de souscription ou de rachat
+particulières ;
+h) Risques liés à l'existence de règles de dispersion des risques très souples et d'effets de
+levier significatifs ,
+i) Risques découlant de l'évolution potentielle de certains éléments (traitement fiscal
+notamment) ,
+j) Risques associés au recours à l'effet de levier ;
+k) Risques liés aux opérations de financement sur titres et aux contrats d'échange sur
+rendement global, ainsi que des risques liés à la gestion des garanties : le document
+d'information fournit une description des risques liés aux opérations de financement sur
+titres et aux contrats d'échange sur rendement global, ainsi que des risques liés à la gestion
+des garanties, tels que le risque opérationnel, le risque de liquidité, le risque de
+contrepartie, le risque de conservation et le risque juridique et, le cas échéant, les risques
+liés à la réutilisation des garanties.
+70 Garantie ou protection.
+Cette rubrique précise notamment toutes les caractéristiques techniques de la garantie ou de la
+protection, telles que les modalités de substitution des sous-jacents, les formules mathématiques.
+80 Une description des principales conséquences juridiques de l'engagement
+contractuel pris à des fins d'investissement, y compris des informations sur la
+compétence judiciaire, sur le droit applicable et sur l'existence ou non d'instruments
+juridiques permettant la reconnaissance et l'exécution des décisions sur le territoire
+d'un Etat Membre de la CEMAC.
+90 Souscripteurs concemés et profil de l'investisseur type.
+L'objectif de cette rubrique est de préciser les catégories de souscripteurs ayant accès à
+l'organisme de capital investissement et à quel type d'investisseurs l'organisme de capital
+investissement s'adresse.
+(à décliner par catégorie de parts, le cas échéant).
+Elle doit donc :
+a) Préciser si l'organisme de capital investissement est :
+Tous souscripteurs ;
+Tous souscripteurs, destinés plus particulièrement à X •
+Dédié à 20 investisseurs qualifiés au plus : dans ce cas il est indiqué dans
+cette rubrique que le nombre de souscripteurs ne peut excéder vingt
+investisseurs qualifiés et que et que l'organisme de capital investissement
+ne fait l'objet d'aucune publicité, démarchage ou autre forme de
+sollicitation du public ,
+Dédié, plus particulièrement à X (par exemple, dédié aux filiales du
+groupe K) : dans ce cas, la rubrique précise clairement les
+caractéristiques de la catégorie d'investisseurs visés et que l'organisme
+de capital investissement ne fait l'objet d'aucune, publicité, démarchage
+ou autre forme de sollicitation du public.
+b) Indiquer que l'organisme de capital investissement est commercialisé en CEMAC
+(éventuellement, en précisant dans quels pays) et le cas échéant hors CEMAC (en
+précisant dans quels pays).
+Lorsque l'organisme de capital investissement a vocation à être commercialisé auprès
+d'une catégorie particulière d'investisseurs, cette catégorie est définie précisément dans le
+12
+=== page 13 ===
+document d'information.
+c) Expliciter quel est le profil type de l'investisseur pour lequel l'organisme de capital
+investissement a été créé, ainsi que la durée de placement recommandée. S'agissant du
+profil type de l'investisseur, sa description est complétée, lorsque cela est pertinent, par
+des éléments sur:
+- L'aversion au risque ou la recherche de l'exposition à un risque des souscripteurs visés
+- La proportion du portefeuille financier ou du patrimoine des clients qu'il est raisonnable
+d'investir dans cet organisme de capital investissement ;
+- Et un avertissement sur la nécessité de diversification des placements.
+d) S'agissant de la durée de placement recommandée, celle-ci doit être cohérente avec
+l'objectif de gestion et la stratégie mise en œuvre ainsi qu'avec les catégories d'instruments
+financiers dans lesquels l'organisme de capital investissement est investi.
+100 Modalités de détermination et d'affectation des sommes distribuables.
+(à décliner par catégorie de parts, le cas échéant).
+110 Fréquence de distribution.
+(à décliner par catégorie de parts, le cas échéant).
+120 Caractéristiques des parts ou actions : (devises de libellé, fractionnement, etc.)
+(à décliner par catégorie de parts, le cas échéant).
+Mention optionnelle (N.B. : cette information doit en tout état de cause être mise à la disposition
+des investisseurs)
+Lorsque l'organisme de capital investissement comprend des catégories de parts ou actions,
+le document d'information doit comporter une description de la manière la société de gestion
+garantit un traitement équitable des investisseurs.
+130 Modalités de souscription et de rachat.
+Afin de rendre l'information la plus claire possible, les modalités et conditions de ces opérations
+devront figurer sous cette rubrique, les frais et commissions étant regroupés sous la rubrique
+correspondante.
+(à décliner par catégorie de pads, le cas échéant).
+a) Modalités et conditions de souscription dont montant minimum de la souscription initiale,
+le cas échéant, dates et heures de réception des ordres ;
+b) Indication éventuelle des bourses ou des marchés où les parts sont cotées ou négociées
+et précision qu'un document d'information spécifique, lié à la cotation, est disponible
+(préciser les modalités d'accès à ce document d'information) ;
+c) Possibilités prévues de limiter ou d'arrêter les souscriptions et les rachats ;
+Dans l'hypothèse où l'organisme de capital investissement ne prévoit pas de dispositif de
+plafonnement des rachats, l'avertissement suivant doit être mentionné de manière visible
+dans le document d'information, mettant en garde les investisseurs sur l'absence de cet
+outil de gestion de liquidité •
+« l'absence de mécanisme de plafonnement des rachats pourra avoir pour conséquence
+l'incapacité de l'organisme de capital investissement à honorer les demandes de rachats et
+ainsi augmenter le risque de suspension complète des souscriptions et des rachats sur cet
+organisme de capital investissement. ».
+d) Concernant les délais •
+- Existence et description d'éventuels préavis impératifs ,
+- Existence d'un délai de blocage des ordres de rachat
+13
+=== page 14 ===
+- Existence d'un délai de blocage des ordres de souscription.
+e) Adresse de l'organisme désigné pour recevoir les souscriptions et les rachats ,
+f) Modalités et conditions de rachat, possibilités de suspension, modalités de passage à un
+autre compartiment et conséquences fiscales ;
+g) Modalités de passage à une autre catégorie de parts et conséquences fiscales ,
+h) Détermination de la valeur liquidative et en particulier :
+- Méthode et fréquence du calcul de cette valeur liquidative ;
+- Indication portant sur les moyens, les lieux et la fréquence où la valeur liquidative est publiée ,
+i) Une description de la gestion du risque de liquidité du FIA, y compris les droits au
+remboursement dans des circonstances à la fois normales et exceptionnelles, et les
+modalités existantes avec les investisseurs en matière de remboursement ;
+140 Frais et commissions.
+(à décliner par catégorie de parts, le cas échéant).
+L'objectif du document d'information est de donner une description de l'exhaustivité des frais,
+commissions et rémunérations des différents acteurs et intermédiaires, les informations
+complémentaires (commissions de gestion indirectes par exemple) :
+a) Les commissions de souscription et de rachat viennent augmenter le prix de
+souscription payé par l'investisseur ou diminuer le prix de remboursement. Les
+commissions acquises à l'organisme de capital investissement servent à compenser
+les frais supportés par l'organisme de capital investissement pour investir ou
+désinvestir les avoirs confiés. Les commissions non acquises reviennent à la société
+de gestion, au commercialisateur, etc.
+Ces éléments doivent être présentés sous la forme d'un tableau
+Frais à la charge de l'investisseur,
+prélevés lors des souscriptions et
+des rachats
+Commission
+de
+souscription
+non acquise à l'organisme de
+capital investissement
+Commission
+de
+souscription
+acquise à l'organisme de capital
+investissement
+Commission
+de
+rachat
+non acquise à l'organisme de
+capital investissement
+Commission
+de
+rachat
+acquise à l'organisme de capital
+investissement
+Assiette
+valeur
+x
+nombre
+parts/actions
+liquidative
+de
+Taux
+Barème
+A %, A% maximum, ou
+modalité particulière
+(fourchette, etc.)
+B %, ou selon modalités
+valeur
+x
+nombre
+parts/actions
+liquidative
+de
+particulières
+(applicables
+l'ensemble
+souscriptions)
+à
+des
+valeur
+x
+nombre
+parts/actions
+liquidative
+de
+C %, C% maximum, ou
+modalité particulière
+(fourchette, etc.)
+D % ou selon modalités
+valeur
+x
+nombre
+parts/actions
+liquidative
+de
+particulières
+(applicables
+l'ensemble
+rachats)
+à
+des
+Ces éléments doivent être complétés des données utiles en cas de spécificité de la structure
+14
+=== page 15 ===
+des frais.
+b) les frais de gestion financière ,
+c) les frais de fonctionnement et autres services ,
+d) les frais indirects maximum (commissions et frais de gestion). Dans le cas d'un
+organisme de capital investissement investissant à plus de 20 % dans d'autres
+placements collectifs mention du niveau maximal des commissions de gestion directes
+et indirectes
+e) les commissions de mouvement. Le barème des commissions de mouvement devant
+figurer dans le document d'information devra préciser notamment :
+- Les assiettes retenues sur :
+• Les transactions ;
+• Les opérations sur titres ,
+• Les autres opérations ;
+- Les taux ou montants applicables à ces différentes assiettes (par mesure de simplification,
+les organismes de capital investissement ont la possibilité de mentionner un taux maximum,
+pour l'ensemble des instruments) ,
+- Les clés de répartition entre les différents acteurs.
+Il doit en outre comporter une description succincte de la procédure de choix des
+intermédiaires et des commentaires éventuels.
+Dans la mesure où de façon exceptionnelle un sous-conservateur, pour une opération
+particulière, serait amené à prélever une commission de mouvement non prévue dans les
+modalités ci-dessus, la description de l'opération et des commissions de mouvement facturées
+doit être renseignée dans le rapport de gestion de l'organisme de capital investissement.
+f) la commission de surperformance
+Ces éléments doivent être présentés sous la forme d'un tableau :
+Frais facturés à l'organisme de capital Assiette
+1
+2
+3
+4
+5
+investissement
+Frais de gestion financière
+Actif net
+Frais de fonctionnement et autres services Actif net
+Frais indirects maximum (commissions et
+frais de gestion)
+Commissions de mouvement
+Commission de surperformance
+Actif net
+Prélèvement sur
+chaque transaction
+Actif net
+(*) Préciser les frais de fonctionnement et autres services concernés
+Taux barème
+X % TTC
+Taux maximum
+X 0/0 TTC
+Taux maximum (en
+cas de prélèvement
+en frais réels)
+ou
+Taux (en cas de
+forfait **
+X % TTC
+Taux maximum
+Barème .
+H % sur les actions
+I % sur les
+obligations
+Etc.
+performance au-
+delà de G (TTC)
+15
+=== page 16 ===
+(**) La mention est complétée par une précision sur le fait que ce taux peut être prélevé
+quand bien même les frais réels sont inférieurs et que tout dépassement de ce taux est pris
+en charge par la société de gestion.
+( ) Le cas échéant, un taux maximum peut être indiqué, en plus du taux effectif.
+Seuls les frais mentionnés ci-dessous peuvent être hors champ des 5 blocs de frais évoqués
+ci-dessus et doivent dans ce cas être mentionnés ci-après :
+les contributions dues pour la gestion de l'organisme de capital investissement ;
+les impôts, taxes, redevances et droits gouvernementaux (en relation avec le FIA)
+exceptionnels et non récurrents ;
+les coûts exceptionnels et non récurrents en vue d'un recouvrement des créances (ex
+• Lehman) ou d'une procédure pour faire valoir un droit (ex : procédure de class action).
+L'information relative à ces frais est décrite en outre ex post dans le rapport annuel de
+l'organisme de capital investissement.
+De façon optionnelle, la société de gestion peut •
+fusionner les frais de gestion financière et les frais de fonctionnement et autres
+services. Dans ce cas, le nom de la rubrique s'intitule « frais de gestion financière et
+frais de fonctionnement et autres services» ;
+ajouter un taux maximum total de frais comprenant les frais de gestion financière, les
+frais de fonctionnement et autres services, les commissions de mouvement et les frais
+indirects. Ainsi, la société de gestion peut indiquer par exemple que « le total des frais
+maximum sera de X% par an de l'actif net ».
+Si la société de gestion ou la SPC souhaite utiliser un taux réel fixe, elle pourra afficher un
+tableau simplifié avec ce taux unique.
+150 Régime fiscal.
+Fiscalité de l'organisme de capital investissement et précision de l'éligibilité à des dispositifs
+fiscaux.
+Avertissement : Selon votre régime fiscal, les plus-values et revenus éventuels liés à la détention
+de parts de l'organisme de capital investissement peuvent être soumis à taxation. Nous vous
+conseillons de vous renseigner à ce sujet auprès du commercialisateur de [Organisme de capital
+investissement.
+a
+IV. Informations d'ordre commercial
+Cette rubrique doit comporter les informations sur les mesures prises pour effectuer :
+10 Les distributions ,
+20 Le rachat ou le remboursement des parts ,
+30 La diffusion des informations concernant l'organisme de capital investissement.
+a
+V. Règles d'investissement
+Pour les organismes de capital investissement, cette rubrique reprend intégralement
+a) S'il s'agit d'une SPC : les statuts précisent les règles d'investissement et d'engagement.
+Cette rubrique rappelle également les modalités de modification de ces règles.
+b) S'il s'agit d'un FPC : Le règlement précise les règles d'investissement et d'engagement.
+Cette rubrique rappelle également les modalités de modification de ces règles.
+a
+VI. Suivi des risques
+Cette rubrique présente les modalités d'évaluation et de suivi des risques mises en place pour
+la gestion de l'organisme de capital investissement. Elle définit, le cas échéant, des indicateurs
+16
+=== page 17 ===
+financiers tels que la volatilité, la perte maximale, adaptés à la stratégie mise en ceuvre et
+permettant à l'investisseur de comprendre la nature des risques et de les quantifier.
+VII. Règles d'évaluation et de comptabilisation des actifs
+l. Les règles d'évaluation de l'actif reposent, d'une part, sur des méthodes d'évaluation et, d'autre
+part, sur des modalités pratiques qui sont précisées dans l'annexe aux comptes annuels et dans
+le document d'information. Les règles d'évaluation sont fixées, sous leur responsabilité, par le
+conseil d'administration ou le directoire de la SPC ou, pour un FPC, par la société de gestion.
+Il. Le document d'information précise les méthodes d'évaluation de chaque nature d'instruments
+financiers, dépôts ou valeurs, y compris les méthodes employées pour les actifs difficiles à
+évaluer, et les modalités pratiques de valorisation de ceux-ci. Les méthodes d'évaluation fixent
+les principes généraux de valorisation par référence à une négociation sur un marché ou par
+référence aux méthodes spécifiques prévues notamment par le plan comptable de l'organisme
+de capital investissement. Ces principes permettent de définir les modalités pratiques de
+valorisation. Par « modalités pratiques », il faut entendre pour chaque information nécessaire à
+la valorisation (courbe de taux, bourse...) la source des informations nécessaires à la
+valorisation et, le cas échéant, l'heure de récupération. Ces modalités pratiques doivent
+permettre de s'assurer que les valeurs liquidatives sont calculées de manière identique à chaque
+valeur liquidative. Le document d'information prévoit également des modalités pratiques
+alternatives en cas, notamment, d'indisponibilité des données financières nécessaires à
+l'évaluation ainsi qu'une information du commissaire aux comptes de l'organisme de capital
+investissement en cas de mise en oeuvre.
+À titre d'exemple
+10 Pour les actions, la méthode de valorisation précise que l'on retient les derniers cours
+connus à l'heure de valorisation de l'organisme de capital investissement tandis que les
+modalités pratiques précisent l'heure pour chacun des marchés réglementés utilisés et s'il
+s'agit du cours d'ouverture ou de clôture ,
+20 Pour les TCN, la méthode de valorisation précise quelles options du plan comptable sont
+retenues et les modalités pratiques précisent notamment les sources d'information des taux
+retenus.
+Le plan de ce paragraphe du document d'information est le suivant :
+« Les instruments financiers et valeurs négociées sur un marché réglementé sont évalués...
+Toutefois, les instruments suivants sont évalués selon les méthodes spécifiques suivantes :
+- Les instruments financiers non négociés sur un marché réglementé sont évalués ;
+- Les contrats sont évalués ;
+- Les dépôts sont évalués ;
+- Autres instruments.
+Les instruments financiers dont le cours n'a pas été constaté le jour de l'évaluation ou dont le
+cours a été corrigé sont évalués à leur valeur probable de négociation sous la responsabilité du
+conseil d'administration ou du directoire de la SPC ou, pour un fonds commun, de la société de
+gestion. Ces évaluations et leur justification sont communiquées au commissaire aux comptes à
+l'occasion de ses contrôles.
+Descriptions des autres modalités pratiques altematives d'évaluation et des cas de mise en oeuvre.
+Le document d'information décrit la méthode d'évaluation des garanties utilisées dans le cadre
+d'opérations de financement sur titres et des contrats d'échange sur rendement global, sa
+17
+=== page 18 ===
+justification et mentionne l'utilisation ou non d'une évaluation au prix du marché (mark-to-
+market) quotidienne et de marges de variation quotidiennes.
+Ill. Le mode de comptabilisation retenu pour l'enregistrement des revenus des instruments
+financiers (coupon couru ou coupon encaissé, prise en compte des intérêts du week end, ...)
+et des frais de transaction (frais inclus ou frais exclus, le cas échéant, par nature d'instruments)
+doit être précisé.
+18

@@ -1,0 +1,128 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+Du MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF NO 31-24 du 28 Novembre 2024
+RELATIVE AUX MODALITES D'ETABLISSEMENT DE LA CARTOGRAPHIE DES
+RISQUES AUXQUELS SONT EXPOSES LES PERSONNES, STRUCTURES OU
+ORGANISMES PLACES SOUS LE CONTROLE DE LA COSUMAF
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel no 03/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création
+de la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement no 01/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale ,
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 28 novembre 2024 à Libreville ,
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT
+1
+=== page 2 ===
+ARTICLE PREMIER - CHAMP D'APPLICATION
+La présente Instruction est prise en application des dispositions de l'article 5 du Règlement
+Général de la COSUMAF. Elle s'applique aux personnes, structures ou organismes soumis
+au contrôle de la COSUMAF.
+ARTICLE 2 - DISPOSITIF DE GESTION DES RISQUES
+1.
+2.
+3.
+4.
+5.
+Les personnes, organismes ou structures visées à l'article 1er de la présente Instruction
+identifient l'ensemble des risques potentiels ou existants auxquels ils sont confrontés
+et la quantification du niveau de risque considéré comme acceptable afin d'établir ou
+d'adapter leur dispositif de gestion des risques.
+Des lors que les risques auxquels les personnes, organismes ou structures visées à
+l'article 1er sont exposées ont été identifiés et que des limites ont été fixées, elles
+établissent une cartographie des risques permettant d'évaluer le niveau d'exposition à
+ces risques et ensuite de les comparer aux limites établies. Les personnes, structures
+ou organismes concernés mettent en place toutes les procédures pour gérer les
+risques identifiés.
+Ces risques comprennent à minima
+Risques financiers ,
+Risques opérationnels
+Risques de durabilité
+Risques Cyber Informatique.
+La cartographie des risques prend en compte tous les processus de la personne,
+l'organisme ou la structure visée à l'article 1er et permet de mesurer la probabilité de
+survenance d'un facteur de risque en déterminant son caractère critique ou non au
+regard de sa probabilité de réalisation.
+La cartographie des risques permet d'engager ensuite, le cas échéant, toutes les
+actions correctrices nécessaires sur le dispositif de gestion des risques existant et de
+fixer les priorités dans le cadre des contrôles à réaliser.
+ARTICLE 3 - RISQUES FINANCIERS
+1.
+2.
+Les risques financiers comprennent
+Risque de liquidité
+Risque de marché
+Risque de contrepartie
+Risque de crédit.
+Le risque de contrepartie est le risque de perte résultant du fait que la contrepartie à
+une opération ou à un contrat peut faillir à ses obligations avant que l'opération ait été
+réglée de manière définitive sous la forme d'un flux financier.
+2
+=== page 3 ===
+3.
+4.
+Le risque de liquidité est le risque qu'une position ne puisse être cédée, liquidée ou
+clôturée pour un coût limité et dans un délai suffisamment court, compromettant ainsi
+la capacité de la personne, l'organisme ou la structure visée à l'article 1er à se
+conformer à ses obligations contractuelles ou réglementaires.
+Le risque de marché est le risque de perte résultant d'une fluctuation de la valeur de
+marché des positions de son portefeuille imputable à une modification de variables du
+marché telles que les taux d'intérêt, les taux de change, les cours d'actions et de
+matières premières, ou à une modification de la qualité de crédit d'un émetteur.
+ARTICLE 4 - RISQUES OPERATIONNELS
+1.
+2.
+3.
+4.
+Les risques opérationnels comprennent les risques suivants
+Risque de défaillance des systèmes ,
+Risque de défaillance des personnes
+Risque juridique et de documentations.
+Le risque opérationnel est le risque de perte résultant de l'inadéquation de processus
+internes et de défaillances liées aux personnes et aux systèmes de la personne,
+l'organisme ou la structure visée à l'article 1er résultant d'événements extérieurs, y
+compris le risque juridique et le risque de documentation, ainsi que le risque résultant
+des procédures de négociation, de règlement et d'évaluation.
+Le risque de liquidité est le risque qu'une position ne puisse être cédée, liquidée ou
+clôturée pour un coût limité et dans un délai suffisamment court, compromettant ainsi
+la capacité de la personne, l'organisme ou la structure visée à l'article 1er à se
+conformer à ses obligations contractuelles ou réglementaires.
+Le risque de marché est le risque de perte résultant d'une fluctuation de la valeur de
+marché des positions de son portefeuille imputable à une modification de variables du
+marché telles que les taux d'intérêt, les taux de change, les cours d'actions et de
+matières premières, ou à une modification de la qualité de crédit d'un émetteur.
+ARTICLE 4 - RISQUES DE DURABILITE
+Le risque de durabilité comprend tout événement ou situation dans le domaine
+environnemental, social ou de gouvernance qui, s'il survient, pourrait avoir une incidence
+négative importante, réelle ou potentielle, sur la valeur du produit ou service.
+ARTICLE 5 - RISQUES CYBERSECURITE
+Le risque cybersécurité se définit comme toute circonstance raisonnablement identifiable liée
+à l'utilisation des réseaux et des systèmes d'information qui, si elle se concrétise, peut
+compromettre la sécurité des réseaux et des systèmes d'information, de tout outil ou
+processus dépendant de la technologie, du fonctionnement et des processus ou de la
+fourniture de services en produisant des effets préjudiciables dans l'environnement numérique
+ou physique.
+3
+=== page 4 ===
+ARTICLE 6 - ENTREE EN VIGUEUR
+La présente Instruction, qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSUMAF
+Fait à Libreville, le 28 novembre 2024
+Pour la COSUMAF
+ident
+COMMISSION OE SURVEILLA
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRA
+191
+Tél.'. + 241 01.74.
+B.P. 1724 Libre e -GABO
+Jacqueline ADIABA-NKEMBE
+4

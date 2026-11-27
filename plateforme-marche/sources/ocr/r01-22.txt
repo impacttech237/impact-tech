@@ -1,0 +1,2217 @@
+=== page 1 ===
+COMMUNAUTE ECONOMIQUE ET
+MONETAIRE DE L'AFRIQUE CENTRALE
+UNION MONETAIRE DE L'AFRIQUE
+CENTRALE
+COMITE MINISTERIEL
+01
+REGLEMENT NO 122/CEMAC/UMAC/CM/COSUMAF
+PORTANT ORGANISATION ET
+FONCTIONNEMENT DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+LE COMITE MINISTERIEL
+VU le Traité instituant la Communauté Economique et Monétaire de l'Afrique Centrale (CEMAC) ;
+VU la Convention régissant l'Union Monétaire de l'Afrique Centrale (UMAC) ;
+VU l'Acte Additionnel n003/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création de la
+Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) ;
+VU l'Acte Additionnel 11006/17-CEMAC-COSUMAF-CCE-SE du 19 février 2018 portant unifiQation
+du marché financier de la CEMAC et mesures d'accompagnement ;
+VU les délibérations de la Commission de Surveillance du Marché Financier de l'Afrique Centrale,
+réunie à Libreville, le 5 mai 2022 ;
+VU l'Avis conforme du Conseil d' Administration de la BEAC, émis lors de sa session ordinaire tenue
+à Douala, le 20 juillet 2022 ;
+SUR proposition du Président de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale ;
+En sa séance du 21 juillet 2022
+ADOPTE LE REGLEMENT DONT LA TENEUR SUIT :
+TITRE 1 - DISPOSITIONS GENERALES
+CHAPITRE 1 - CHAMP D'APPLICATION
+Article 1 - Le présent Règlement s'applique :
+à l' Autorité de régulation, de tutelle et de contrôle du Marché Financier de r Afrique Centrale,
+ci-après dénommée « Commission de Surveillance du Marché Financier » ou « COSUMAF » ;
+1
+=== page 2 ===
+•
+•
+•
+•
+•
+•
+aux organismes de marché ;
+aux intermédiaires de marché ;
+aux organismes de placement collectif, à leurs sociétés de gestion et à leurs dépositaires ;
+aux émetteurs d'instruments financiers ;
+aux investisseurs en valeurs mobilières ou en tous autres produits de placement émis sur le
+marché financier régional ;
+aux commissaires aux comptes des sociétés faisant appel public à l'épargne, ou des personnes,
+structures ou organismes soumis au contrôle de la COSUMAF •
+aux analystes financiers indépendants;
+aux organismes de garantie des émissions ;
+au Fonds de garantie du Marché ;
+aux agences de notation financière ;
+aux personnes placées sous l'autorité ou agissant pour le compte des personnes, structures, ou
+organismes soumis au contrôle de la COSUMAF ;
+à toute personne ou entité impliquée dans le fonctionnement du Marché financier.
+Les Organismes de marché, les Intermédiaires, les émetteurs et toute autre personne ou entité visés
+au présent article ne peuvent intervenir sur le Marché Financier Régional sans avoir sollicité et obtenu
+préalablement un agrément, une habilitation ou une autorisation auprès de la COSUMAF aux fins
+d'exercer leurs activités ou de réaliser leurs opérations.
+Lorsque les organismes de marché et intermédiaires visés au présent article sont constitués sous la
+forme de société anonyme avec conseil d'administration, les fonctions de Président du conseil
+d'administration et de Directeur général sont obligatoirement séparées et exercées par des personnes
+distinctes.
+Dans les organismes de marché et intermédiaires visés au présent article, les fonctions de Président
+du Conseil d'Administration ou de Directeur Général sont incompatibles avec celles de contrôle
+interne ou de contrôle de la gestion opérationnelle.
+Article 2 - Le Marché Financier de l'Afrique Centrale, ci-après dénommé « le Marché Financier
+Régional », comprend un marché au comptant et un marché à terme.
+Sur le marché au comptant, sont négociés des valeurs mobilières et autres titres financiers.
+Sur le marché à terme sont négociés des contrats financiers ou instruments financiers à terme.
+Article 3 - Le Marché Financier Régional est placé sous la régulation, la tutelle et le contrôle de la
+COSUMAF.
+Article 4 - L'organisation, le fonctionnement et l'animation du Marché Financier Régional sont
+assurés, dans la limite de leurs compétences et de leurs responsabilités, par les quatre (4) institutions
+suivantes :
+la Bourse des Valeurs Mobilières de l'Afrique Centrale, ci-après dénommée « la Bourse
+Régionale » ou « BVMAC» ;
+le Dépositaire Central ;
+2
+=== page 3 ===
+la Banque de Règlement, mission assurée par la Banque des Etats de l'Afrique Centrale
+(BEAC) ;
+la Chambre de Compensation.
+CHAPITRE 11 - LES INSTRUMENTS FINANCIERS
+Article 5 - Les instruments financiers comprennent :
+l) les titres financiers;
+2) les contrats financiers ou instruments financiers à terme.
+Article 6 - Les titres financiers comprennent :
+• les valeurs mobilières ;
+• les effets publics négociables issus de la titrisation de la dette intérieure d'un ou de plusieurs
+États membres de la CEMAC ;
+• les titres de créance négociables supervisés par la BEAC ;
+les Sukuks et les titres financiers assimilés.
+Au sens du présent Règlement, les valeurs mobilières comprennent les titres de capital et les titres de
+créances émis par les sociétés par actions, les personnes morales de droit public, les organismes de
+placement collectif. Elles confèrent des droits identiques par catégorie et donnent accès directement
+ou indirectement à une quotité du capital de l'entité émettrice, ou à un droit de créance général sur
+son patrimoine.
+Au sens du présent Règlement, le Sukuk s'entend d'un titre financier islamique, équivalent à une
+obligation ordinaire et soumis aux préceptes religieux de la Charia. Le Règlement Général de la
+COSUMAF précise les conditions et modalités d'émission des Sukuks sur le Marché financier
+régional.
+Article 7 - Les titres financiers visés dans le présent Règlement sont inscrits soit dans un compte
+titres tenu par l'émetteur ou par un intermédiaire dûment agréé, soit dans un dispositif
+d'enregistrement électronique partagé ou tout dispositif équivalent permettant d'identifier,
+directement ou indirectement, le propriétaire desdits titres.
+L'inscription dans un dispositif d'enregistrement électronique partagé tient lieu d'inscription en
+compte.
+Le Règlement Général de la COSUMAF fixe les conditions dans lesquelles les titres financiers
+peuvent être inscrits dans un dispositif d'enregistrement électronique partagé ou dans tout autre
+dispositif, présentant des garanties, notamment en matière d'authentification, au moins équivalentes
+à celles présentées par une inscription en compte-titres.
+Article 8 - Les contrats financiers ou instruments financiers à terme comprennent les contrats à terme
+ferme, les contrats d'option, les contrats d'échange, accords de taux futurs et tous autres contrats à
+terme qui peuvent être réglés par une livraison physique ou en espèces, négociés ou non sur le Marché
+Financier Régional et portant sur des actifs, des droits ou des obligations.
+3
+=== page 4 ===
+TITRE 11 - COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE (COSUMAF)
+CHAPITRE 1 - STATUT ET MISSIONS DE LA COSUMAF
+Article 9 - La COSUMAF est une Institution Spécialisée créée dans le cadre de l'Union Monétaire
+de l'Afrique Centrale (UMAC). Elle est dotée de la personnalité juridique et de l'autonomie
+financière.
+Article 10 - La COSUMAF a pour missions de veiller :
+1) à la protection de l'épargne investie en instruments financiers et en tous autres produits de
+placement ;
+2) à l'information des investisseurs ;
+3) au bon fonctionnement du Marché Financier Régional.
+Dans l'accomplissement de ses missions, la COSUMAF prend en compte les objectifs de stabilité
+financière de l'ensemble du système monétaire, bancaire et financier de la CEMAC.
+Article 11 - La COSUMAF est une autorité indépendante. Elle exerce ses fonctions indépendamment
+de toute intervention extérieure et d'intérêts politiques, commerciaux ou de toute autre nature.
+Les décisions de la COSUMAF sont adoptées dans l'intérêt exclusif du marché, de ses intervenants
+et de ses acteurs.
+Article 12 - Les ressources de la COSUMAF sont constituées :
+1) des commissions perçues à l'occasion de la délivrance des visas à apposer sur le document
+d'information d'un émetteur dans le cadre d'une opération par appel public à l'épargne ou des
+offres publiques ;
+2) des commissions perçues à l'occasion de l'enregistrement du document d'information établi
+dans le cadre d'opérations d'appel public à l'épargne par un État ou dans le cadre d'un
+placement privé ;
+3) des commissions perçues à l'occasion de la délivrance des agréments et habilitations aux
+personnes, structures et organismes placés sous son contrôle ;
+4) des commissions perçues à l'occasion de la délivrance de visas du document d'information
+établi par les organismes de placement collectif ou du document d'information simplifié exigé
+avant toute commercialisation en zone CEMAC de titres d'organismes de placement collectif
+étrangers ;
+5) des redevances et rétrocessions perçues sur les activités des personnes, organismes et structures
+placées sous son contrôle ;
+6) des subventions dont l'allocation est décidée par le Comité Ministériel de l'Union Monétaire
+de l'Afrique Centrale (UMAC) et mises en place par les États membres ;
+4
+=== page 5 ===
+7) du produit des sanctions pécuniaires prononcées par la COSUMAF en vertu des dispositions
+du présent Règlement ;
+8) du produit des pénalités de retard prononcées par la COSUMAF en vertu des dispositions du
+présent Règlement ;
+9) des frais de dossier liés à l'instruction des demandes de visa ou d'enregistrement des opérations
+d'appel public à l'épargne ;
+10)de tous autres revenus approuvés par le Comité Ministériel de l'UMAC.
+Les subventions visées au présent article sont allouées à la COSUMAF en début d'exercice, par débit
+direct des comptes des États auprès de la Banque des États de l'Afrique Centrale.
+Les montants, les taux et les modalités de versement des commissions, redevances et rétrocessions
+visées au présent article sont fixés par une instruction de la COSUMAF approuvée par le Comité
+Ministériel de l'UMAC.
+Article 13 - La COSUMAF exerce ses activités dans le respect :
+l) des dispositions de la Convention régissant l'Union Monétaire de l'Afrique Centrale (UMAC)
+et du présent Règlement ;
+2) des dispositions relatives à l'appel public à l'épargne telles que fixées dans l'Acte Uniforme
+OHADA relatif au droit des sociétés commerciales et du groupement d'intérêt économique, à
+condition que lesdites dispositions ne soient pas contraires ou incompatibles avec celles de
+présent Règlement, de ses textes d'application ou de toute autre disposition régissant le Marché
+Financier Régional ;
+3) de toutes autres dispositions contenues dans la législation interne des Etats membres de la
+CEMAC, à condition que lesdites dispositions ne soient pas contraires ou incompatibles avec
+celles du présent Règlement, de ses textes d' application ou de toute autre disposition régissant
+le Marché Financier Régional.
+Article 14 - La COSUMAF prend les dispositions visant les personnes, organismes et structures
+soumis à son contrôle, permettant de prévenir, de détecter et de réprimer le blanchiment de capitaux,
+le financement du terrorisme et la prolifération des armes de destruction massive sur le territoire des
+États membres de la CEMAC, afin d'empêcher l'utilisation du Marché Financier Régional à des fins
+de recyclage de capitaux ou de tous autres biens d'origine illicite.
+Le Règlement Général de la COSUMAF détermine les mesures visant à détecter et à réprimer le
+blanchiment de capitaux, le financement du terrorisme et la prolifération des armes de destruction
+massive.
+Article 15 - La COSUMAF participe aux travaux des instances internationales de régulation
+financière et adapte la réglementation du Marché Financier Régional aux dispositions issues des
+meilleures pratiques internationales.
+5
+=== page 6 ===
+Article 16 - Dans le cadre de ses missions, la COSUMAF agit en coordination avec les instances
+nationales, régionales, continentales et internationales de supervision et de contrôle des activités
+financières et bancaires. A cet effet, elle est habilitée à conclure des accords de coopération et
+d'échange d'informations avec des autorités de régulation et de contrôle en matière financière,
+bancaire et d' assurances.
+En application de ces accords, la COSUMAF peut notamment diligenter des enquêtes ou contrôles
+dans la CEMAC, à la demande d'une autorité étrangère dotée de pouvoirs et compétences analogues.
+Les informations collectées à cette occasion par la COSUMAF peuvent être communiquées à
+l'autorité étrangère.
+Nonobstant l'existence d'un accord, la COSUMAF sera fondée à refuser son assistance ou sa
+coopération dans les cas suivants :
+1) l'autorité étrangère ne garantit aucune réciprocité en matière de coopération et d'échange
+d'information ;
+2) l'autorité étrangère n'est pas soumise à des exigences de secret professionnel au moins
+identiques à celles prévalant à la COSUMAF ;
+3) l'exécution de la demande d'assistance risque de porter atteinte à la souveraineté, à l'ordre
+public, à la sécurité ou aux intérêts politiques ou économiques essentiels d'un ou plusieurs
+États membres de la CEMAC ;
+4) lorsqu'une procédure pénale en lien avec la demande d'assistance est pendante devant une
+autorité judiciaire relevant d'un État membre de la CEMAC ;
+5) lorsqu'une décision définitive a été rendue pour les mêmes faits, concernant les mêmes
+personnes.
+Article 17 - Dans le cadre de ses missions, la COSUMAF veille :
+1) au respect des principes généraux encadrant le fonctionnement des marchés financiers. A
+ce titre, elle veille, en toutes circonstances, au respect de l'égalité de traitement des
+actionnaires ou investisseurs ;
+2) à l'équité, à la transparence, à la loyauté, à la sécurité et à l'intégrité du Marché Financier
+de l'Afrique Centrale ;
+3) à la protection des investisseurs.
+En cas d'inobservation de la réglementation et en cas de manquement à l'un des principes ou l'une
+des dispositions du présent Règlement, la COSUMAF peut formuler des injonctions et prendre sans
+délai toute sanction qu'elle juge appropriée.
+Article 18 - La COSUMAF, ses organes, ses dirigeants et son personnel bénéficient, dans l'exercice
+de leurs missions, des privilèges et immunités reconnus aux organisations internationales et précisés
+dans l'Acte Additionnel no 6/99/CEMAC-024-CCE-02 du 17/12/99 relatif au Régime des Droits,
+Immunités et Privilèges accordés à la Communauté, aux Membres de ses Institutions et à son
+Personnel.
+6
+=== page 7 ===
+CHAPITRE 11 - POUVOIRS ET ATTRIBUTIONS DE LA COSUMAF
+Article 19 - Sont placés sous le contrôle de la COSUMAF :
+1)
+2)
+3)
+4)
+5)
+6)
+7)
+8)
+9)
+les organismes centraux du marché et leurs participants ou adhérents ;
+les émetteurs faisant appel public à l'épargne ;
+les intermédiaires de marché ;
+les agences de notation financière ;
+les conseillers en investissements financiers et en financement participatif ;
+les organismes de placement collectif, les sociétés de gestion et leurs dépositaires ;
+le fonds de garantie du marché ;
+les commissaires aux comptes des sociétés faisant appel public à l'épargne, et des
+personnes, structures ou organismes placés sous le contrôle de la COSUMAF •
+les analystes financiers intervenant sur le marché ou y exerçant une activité ;
+10)les organismes de garantie des émissions ;
+I l)les personnes placées sous l'autorité ou agissant pour le compte des personnes, structures,
+ou organismes soumis au contrôle de la COSUMAF •
+12)toute autre personne ou organisme intervenant sur le marché ou y exerçant une activité, à
+l'exception de l'Institut d'Emission.
+La COSUMAF veille au respect par ces personnes, structures ou organismes des dispositions
+législatives et réglementaires qui leur sont applicables.
+Le Règlement Général de la COSUMAF précise les obligations professionnelles auxquelles sont
+soumis les personnes, structures ou organismes visés au présent article.
+Article 20 - La COSUMAF dispose de tous les pouvoirs nécessaires à l'accomplissement de ses
+missions. A ce titre, elle est dotée des pouvoirs suivants :
+1)
+réglementaire ;
+2)
+d'approbation ;
+d'agrément et d'enregistrement ;
+3)
+d'habilitation ;
+4)
+d'injonction ;
+5)
+6)
+de contrôle et d'enquête ;
+de médiation ;
+7)
+d'application de pénalités ;
+8)
+de sanction.
+9)
+Section I - Pouvoir règlementaire
+Article 21 - Pour l'exécution de ses missions, la COSUMAF prend un Règlement Général qui précise
+les droits et obligations des intervenants et acteurs du marché, les modalités d'organisation et de
+fonctionnement du Marché Financier Régional. Une fois adopté par le Collège, ce Règlement est
+homologué par le Comité Ministériel de l'UMAC avant d'entrer en vigueur.
+7
+=== page 8 ===
+Dans le cadre de l'exécution de ses missions, la COSUMAF peut procéder par voie d'instructions, de
+circulaires, de communiqués, d'avis et de recommandations, aux fins de préciser les modalités
+d'application de son Règlement Général.
+Section II - Agrément, autorisation et enregistrement
+Article 22 - Les personnes, structures ou organismes visés à l' Article 19 du présent Règlement ne
+peuvent intervenir sur le Marché Financier Régional et y exercer leurs activités sans avoir
+préalablement obtenu leur agrément, autorisation ou enregistrement auprès de la COSUMAF.
+Article 23 - L'agrément, l'autorisation ou l'enregistrement peut être retiré sur décision motivée de la
+COSUMAF, notamment en cas de violation de dispositions législatives et réglementaires ou en cas
+d'inobservation, par les professionnels concernés, de leurs obligations professionnelles et
+déontologiques.
+Article 24 - La COSUMAF tient une liste des agréments, autorisations et enregistrements délivrés
+par ses soins. Cette liste est régulièrement mise à jour et publiée sur son site Internet.
+Section III - Habilitation
+Article 25 - Les personnes physiques placées sous l'autorité ou exerçant certaines fonctions au sein
+des structures ou organismes soumis au contrôle de la COSUMAF, sont tenues de solliciter une
+habilitation auprès de la COSUMAF.
+L'habilitation est accordée à l'issue d'un examen organisé par la COSUMAF ou sous sa supervision.
+Elle donne lieu à la délivrance d'une carte professionnelle.
+Le Règlement Général de la COSUMAF précise les personnes et fonctions soumises à habilitation,
+les modalités d'organisation de l'examen d'habilitation, la périodicité des examens, les modalités de
+délivrance de la carte professionnelle, les conditions de suspension, de retrait et de renouvellement de
+l'habilitation.
+La COSUMAF tient une liste des personnes physiques habilitées. Cette liste est régulièrement mise à
+jour et publiée sur son site Internet.
+Section IV - Approbation
+Article 26 - Dans le cadre de ses missions, la COSUMAF approuve, y compris en cas de
+modification, les statuts, règlements, textes et documents établis par les personnes, structures ou
+organismes soumis à son contrôle.
+Le Règlement Général de la COSUMAF fixe les modalités d'application des dispositions du présent
+article.
+Section V - Pénalités de retard
+Article 27 - La COSUMAF est autorisée à appliquer des pénalités de retard aux personnes, structures
+et organismes placés sous son contrôle. Ces pénalités s'appliquent notamment en cas de retard
+observé dans la communication de documents ou informations à la COSUMAF, dans la diffusion
+8
+=== page 9 ===
+d'une information au public et dans le respect des injonctions et des exigences législatives et
+réglementaires.
+Le Règlement Général de la COSUMAF fixe les modalités d'application des pénalités encourues et
+leur montant.
+Section VI - Pouvoir d'injonction
+Article 28 - La COSUMAF est investie d'un pouvoir d'injonction à l'égard des personnes, structures
+ou organismes soumis à son contrôle. Dans le cadre de l'exercice de ce pouvoir, elle peut ordonner
+qu'il soit mis fin aux manquements aux dispositions législatives ou réglementaires ou à tout autre
+manquement ou comportement de nature à porter atteinte aux intérêts des investisseurs ou au bon
+fonctionnement du marché.
+En tant que de besoin, la COSUMAF saisit l'autorité judiciaire compétente, dans le cadre d'une
+procédure d'urgence, en vue de faire cesser les manquements visés au présent article.
+Article 29 - La COSUMAF peut solliciter de l'autorité judiciaire compétente, par demande motivée,
+la mise sous séquestre de fonds, valeurs, titres ou droits appartenant aux personnes, structures ou
+organismes mis en cause, ainsi que la consignation d'une somme d'argent par ces derniers.
+Section VII - Pouvoir de contrôle et d'enquête
+Article 30 - La COSUMAF peut ordonner un contrôle ou une enquête à l'égard des personnes,
+structures ou organismes soumis à son contrôle.
+Les pouvoirs de contrôle et d'enquête dévolus à la COSUMAF s'exercent également sur toute
+opération portant sur les instruments financiers.
+Article 31 - Les contrôles ou enquêtes sont effectués sur pièces ou sur place, selon les modalités
+précisées dans le Règlement Général de la COSUMAF.
+Les inspecteurs et enquêteurs de la COSUMAF peuvent se faire communiquer tout document, quel
+qu'en soit le support, et en obtenir copie, convoquer et entendre toute personne susceptible de leur
+fournir des informations, accéder, le cas échéant avec l'aide de la force publique, aux locaux à usage
+professionnel ou personnel.
+Le secret professionnel ne peut en aucun cas être opposé aux inspecteurs ou enquêteurs de la
+COSUMAF.
+Article 32 - Pour conduire ses contrôles ou enquêtes, la COSUMAF peut recourir, outre les membres
+de son personnel, à des agents de police judiciaire, à des experts judiciaires, à des commissaires aux
+comptes et à d'autres contrôleurs extérieurs.
+Les inspecteurs ou enquêteurs de la COSUMAF bénéficient, en tant que de besoin, de l'assistance de
+toute administration publique des États membres de la CEMAC.
+9
+=== page 10 ===
+Toute entrave à une mission de contrôle ou d'enquête de la COSUMAF expose le contrevenant à des
+sanctions disciplinaires et pécuniaires, sans préjudice d'éventuelles poursuites judiciaires.
+Les contrôleurs visés au présent article sont astreints au secret professionnel, sous peine de sanctions.
+Section VIII - Pouvoir de Sanction
+Article 33 - La COSUMAF est investie d'un pouvoir de sanction disciplinaire qui vise les personnes,
+structures ou organismes agréés.
+L'exercice de ce pouvoir peut donner lieu aux sanctions suivantes :
+•
+•
+avertissement ;
+blâme ;
+suspension de tout ou partie des fonctions ou activités ;
+révocation des dirigeants et des administrateurs ;
+retrait d'agrément.
+La suspension des fonctions ou activités et le retrait d'agrément sont obligatoirement assortis d'une
+interdiction d'usage des cartes professionnelles.
+La révocation entraine l'interdiction d'exercer, sur le marché financier régional, les fonctions
+d'administration ou de direction pendant une durée précisée dans le Règlement Général de la
+COSUMAF.
+Le retrait d'agrément prononcé à l'encontre des personnes, structures ou organismes placés sous le
+contrôle de la COSUMAF entraîne leur liquidation.
+Les règles de liquidation sont précisées par un Règlement de la CEMAC.
+Article 34 - La COSUMAF est investie d'un pouvoir de sanction pécuniaire qui vise les personnes,
+structures ou organismes soumis à son contrôle et toute personne intervenant sur le marché.
+L'exercice de ce pouvoir peut donner lieu aux sanctions dont les modalités sont prévues dans le
+présent Règlement et dans le Règlement Général de la COSUMAF.
+Article 35 - Les sanctions disciplinaires et pécuniaires sont prononcées dans le respect de la
+procédure prévue dans le Règlement Général de la COSUMAF.
+Article 36 - Les sanctions prononcées par la COSUMAF sont rendues publiques sur son site Internet
+et sur tout autre support précisé par la COSUMAF.
+10
+=== page 11 ===
+Section IX - Pouvoir de Médiation
+Article 37 - La COSUMAF est habilitée à recevoir de toute association régulièrement constituée
+pour la défense des intérêts des porteurs d'instruments financiers ou de toute personne physique ou
+morale intéressée, des réclamations dont l'objet entre dans son champ de compétence. Elle examine
+ces réclamations et y donne suite.
+Le cas échéant, elle propose une résolution amiable des litiges, dans le cadre d'une médiation. A cet
+effet, la COSUMAF désigne un membre du Collège en qualité de médiateur.
+CHAPITRE 111 - ORGANISATION ET FONCTIONNEMENT DE LA COSUMAF
+Section I - Dispositions générales
+Article 38 - L'organisation, le fonctionnement et les prérogatives de la COSUMAF sont régis par les
+textes de la CEMAC, notamment la Convention régissant l'UMAC, l'Acte Additionnel 11003/01-
+CEMAC-CE 03 du 8 Décembre 2001 portant création de la Commission de Surveillance du Marché
+Financier de l'Afrique Centrale et le présent Règlement.
+le Collège et la Commission des
+Article 39 - La COSUMAF est composée de deux organes .
+sanctions.
+Section II - Le Collège
+Sous-section 1 - Composition et fonctionnement du Collège
+Article 40- Le Collège de la COSUMAF est composé de :
+1) un (1) Président, nommé par la Conférence des Chefs d'État de la CEMAC conformément
+aux règles communautaires en vigueur;
+2) onze (11) membres nommés par le Comité Ministériel de l'UMAC, soit :
+a) Six (6) membres représentant chacun un État membre de la CEMAC, sur proposition
+de celui-ci ;
+b) un (1) représentant de la BEAC, désigné sur proposition du Gouverneur de cette
+institution ;
+c) un (l) juriste, désigné sur proposition du Président de la COSUMAF et justifiant d'une
+expérience significative dans l'exercice des professions de magistrat, d'avocat,
+d'enseignant dans une structure d'enseignement supérieur, de juriste d'entreprise ou
+au sein de tout autre organisme public ou privé ;
+d) un (l) représentant de la Commission de la CEMAC désigné sur proposition du
+Président de ladite Commission ;
+e) un (1) représentant de la Commission Bancaire de l'Afrique Centrale (COBAC),
+désigné sur proposition du Secrétaire Général de ladite Commission ;
+11
+=== page 12 ===
+f) un (l) expert-comptable désigné sur proposition du Président de la COSUMAF et
+justifiant de sa qualité de membre d'un ordre national d'experts comptables de la
+CEMAC ou d'une organisation nationale analogue ;
+Chaque membre nommé par le Comité Ministériel de l'UMAC a un (1) suppléant désigné pour la
+durée de son mandat, dans les mêmes conditions que le titulaire.
+Article 41 - Les membres du Collège et leurs suppléants doivent justifier d'un haut niveau de
+compétence en matière juridique, financière et économique. Ils doivent en outre justifier de
+compétences en matière d'offres publiques de titres, d'admission aux négociations et de placements
+financiers.
+Les membres du Collège ne doivent pas avoir fait l'objet d'une condamnation à une peine infamante,
+d'une mesure administrative de mise en débet, d'une interdiction de gérer ou administrer une
+entreprise.
+Article 42 - Le Président de la COSUMAF est nommé pour un mandat de cinq (05) ans non
+renouvelable.
+Le Président est investi des pouvoirs les plus étendus pour assurer le fonctionnement courant de la
+COSUMAF et en faire exécuter les décisions. Il est assisté dans l'exercice de ses fonctions par un
+Secrétaire Général.
+La rémunération du Président est fixée par le Comité Ministériel de l'UMAC, conformément aux
+règles communautaires en vigueur.
+Article 43 - Les membres du Collège autres que le Président sont nommés pour une durée de trois
+(03) ans, renouvelable une fois. Ils peuvent être révoqués à tout instant par le Comité Ministériel de
+I 'UMAC, pour motif légitime et sérieux.
+Article 44 - Les membres du Collège sont tenus de :
+1) déclarer les fonctions, missions ou mandats qu'ils détiennent ou qu'ils ont détenus durant les
+cinq (5) années précédant leur désignation ;
+2) communiquer la liste des titres financiers qu'ils détiennent directement ou indirectement ;
+3) s'abstenir de délibérer dans des affaires concernant des entreprises ou organisations dans
+lesquelles eux-mêmes ou leurs proches exercent ou ont exercé des fonctions ou ont eu un
+intérêt.
+Article 45 - Avant leur entrée en fonction, les membres du Collège de la COSUMAF prêtent serment
+devant la Cour de Justice de la CEMAC dans les formes et conditions prévues dans le Règlement
+intérieur de la COSUMAF.
+Article 46 - Les membres du Collège de la COSUMAF doivent satisfaire en permanence aux
+conditions d'éligibilité visées aux articles 41 et 49 du présent Règlement et aux conditions
+d'incompatibilité précisées dans le Règlement Général de la COSUMAF.
+Article 47 - Les membres du Collège de la COSUMAF sont astreints au secret professionnel.
+12
+=== page 13 ===
+Article 48 - Dans le cadre de leur participation aux réunions du Collège, les membres de la
+COSUMAF perçoivent des indemnités de session et, le cas échéant, d'autres allocations dont le
+montant est fixé dans le règlement intérieur de la COSUMAF.
+Article 49 - Nul ne peut être membre du Collège de la COSUMAF, si lui-même ou une société dont
+il a été dirigeant ou administrateur a fait l'objet d'une condamnation pénale relative à une infraction
+à caractère économique ou financier.
+Article 50 - Le Règlement intérieur du Collège fixe son mode de fonctionnement. Le Président de la
+COSUMAF soumet le projet de Règlement intérieur au Collège en vue de son adoption.
+Article 51 - Le Collège se réunit en session ordinaire au moins une fois par trimestre. Il peut, en tant
+que de besoin, tenir des sessions extraordinaires dans les conditions précisées dans son règlement
+intérieur.
+La convocation des membres du Collège est faite par le Président ou à la demande d'au moins quatre
+de ses membres. Cette convocation fixe la date et le lieu de la réunion et comprend une proposition
+d' ordre du jour.
+Article 52 - Le Président de la COSUMAF assure la présidence des sessions du Collège.
+Les réunions du Collège se déroulent selon les règles de procédure prévues dans son Règlement
+intérieur. Elles peuvent se tenir par visioconférence ou par d'autres moyens de télécommunication
+permettant l'identification des participants.
+Les affaires inscrites à l'ordre du jour des réunions du Collège sont rapportées par le Secrétaire
+Général.
+Article 53 - Le Collège peut valablement délibérer dès lors que neuf de ses membres au moins sont
+présents.
+Les décisions sont prises à la majorité simple. En cas d'égalité des voix, la voix du Président est
+prépondérante.
+En cas d'urgence constatée par son Président, le Collège peut statuer par voie de consultation écrite.
+Article 54 - La Conférence des Chefs d'Etat de la CEMAC nomme le Secrétaire Général de la
+COSUMAF pour un mandat de cinq (5) ans, non renouvelable, conformément aux règles
+communautaires en vigueur.
+La rémunération du Secrétaire Général est fixée par le Comité Ministériel de l'UMAC, conformément
+aux règles communautaires en vigueur.
+Le Secrétaire Général peut être révoqué à tout moment par la Conférence des Chefs d'Etat, pour motif
+légitime et sérieux.
+13
+=== page 14 ===
+Sous-section 2 - Décisions du Collège
+Article 55 - Sauf disposition contraire du présent Règlement, les attributions de la COSUMAF sont
+exercées par le Collège.
+Article 56 - Le Collège de la COSUMAF adopte ses décisions dans les conditions fixées au présent
+Règlement, précisées par son Règlement Général et son Règlement intérieur. Il prend des décisions
+à caractère général ou individuel.
+Ses décisions sont motivées. Elles sont notifiées aux intéressés et publiées sur tout support précisé par
+le présent Règlement ou par le Règlement Général de la COSUMAF.
+Dès leur publication ou leur notification, les décisions du Collège sont exécutoires de plein droit sur
+le territoire de chaque État membre de la CEMAC.
+Article 57 - Les décisions à caractère général prises par la COSUMAF ont pour objet de formuler
+des exigences réglementaires. Sauf indication contraire, elles sont exécutoires dès qu'elles sont
+rendues publiques.
+Les décisions à caractère individuel sont celles relatives aux injonctions, habilitations, visas,
+autorisations, agréments, enregistrements et sanctions. Sauf indication contraire, elles sont
+exécutoires dès leur notification aux intéressés.
+Article 58 - Sans préjudice des pouvoirs reconnus au Collège, le Président de la COSUMAF peut
+prendre les décisions et mesures suivantes :
+l) autorisation préalable de modifications envisagées au dossier d'agrément des
+personnes, structures ou organismes agréés du marché et de leurs dirigeants ;
+2) enregistrement des opérations de placement privé ;
+3) injonction à l'égard des personnes, structures ou organismes placés sous le contrôle de
+la COSUMAF ;
+4) saisine des autorités judiciaires dans le cadre des contrôles, enquêtes, perquisitions et
+autres mesures avec, le cas échéant, l'assistance de la force publique.
+Le Président de la COSUMAF rend compte au Collège des actes accomplis en vertu des dispositions
+du présent article.
+Article 59 - Sans préjudice des pouvoirs reconnus au Collège, le Secrétaire Général de la COSUMAF
+peut prendre, sous l'autorité du Président, les décisions ou mesures suivantes:
+l) contrôle sur place et enquêtes auprès des personnes, structures ou organismes placés
+sous le contrôle de la COSUMAF ;
+2) habilitations et délivrance des cartes professionnelles aux personnes physiques exerçant
+certaines fonctions au sein des structures ou organismes soumis au contrôle de la
+COSUMAF.
+Le Président de la COSUMAF rend compte au Collège des actes accomplis par le Secrétaire Général
+en vertu des dispositions du présent article
+14
+=== page 15 ===
+Article 60 - Les recours contre les décisions rendues par la COSUMAF sont portés devant la Cour
+de Justice de la CEMAC.
+Les recours contre les décisions de la COSUMAF ne sont pas suspensifs. Toutefois, la Cour de Justice
+peut ordonner qu'il soit sursis à l'exécution de la décision attaquée.
+Section III - La Commission des Sanctions
+Sous-section 1 - Composition de la Commission des sanctions
+Article 61 - La Commission des sanctions est composée de cinq (5) membres nommés par le Comité
+Ministériel de l'UMAC, à savoir :
+1) un (1) juriste, Président de la Commission, désigné sur proposition du Président de la
+COSUMAF et justifiant d'une expérience significative dans l'exercice des professions de
+magistrat, d'avocat, d'enseignant dans une structure d'enseignement supérieur, de juriste
+d'entreprise ou au sein de tout autre organisme public ou privé ;
+2) un (l) membre désigné sur proposition du Premier Président de la Cour des Comptes de la
+CEMAC ;
+3) trois (3) membres désignés sur proposition des organisations représentatives des émetteurs
+faisant appel public à l'épargne, des investisseurs et des organisations professionnelles des
+structures agréées du marché. »
+Article 62 - Les membres de la Commission des sanctions doivent justifier d'un haut niveau de
+compétence en matière juridique, financière et économique. Ils doivent en outre justifier de
+compétences en matière d'offres publiques de titres, d'admission aux négociations et de placements
+financiers.
+Article 63 - Les fonctions de membre de la Commission des sanctions sont incompatibles avec celles
+de membre du Collège de la COSUMAF.
+Article 64 - Les membres de la Commission des sanctions ne doivent pas avoir fait l'objet d'une
+condamnation à une peine infamante, d'une mesure administrative de mise en débet, d'une
+interdiction de gérer ou administrer une entreprise.
+Article 65 - Les membres de la Commission des sanctions sont désignés pour un mandat de trois
+(03) ans, renouvelable une fois, et courant à compter de la date de leur nomination.
+Article 66 - Les membres de la Commission des sanctions siègent lorsqu'ils sont saisis d'une affaire
+par le Président de la COSUMAF. Dans le cadre de leurs travaux, ils perçoivent des indemnités de
+session et, le cas échéant, d'autres allocations fixées dans leur règlement intérieur.
+Sous-section 2 : Attributions de la Commission des sanctions
+Article 67 - La Commission des sanctions est l'instance de jugement de la COSUMAF. Elle a pour
+missions :
+15
+=== page 16 ===
+d'instruire les dossiers qui lui sont transmis par le Président de la COSUMAF dans le cadre
+des procédures disciplinaire et pécuniaire, en cas de violation des dispositions législatives
+ou réglementaires relevant de la compétence de la COSUMAF •
+• de prendre les sanctions disciplinaires et pécuniaires en cas de violation des dispositions
+législatives ou réglementaires susvisées.
+Article 68 - Les faits susceptibles de donner lieu à des sanctions sont instruits dans le cadre d'une
+procédure contradictoire. A cet égard, la Commission des sanctions veille à l'équité de la procédure
+d' instruction.
+Les personnes mises en cause doivent pouvoir assurer leur défense dans des conditions normales.
+Elles doivent disposer d'une information complète sur les faits qui leurs sont reprochés et pouvoir, à
+tout moment de l'instruction, recevoir copie des pièces du dossier, présenter leurs observations, et se
+faire assister ou représenter par le conseil de leur choix.
+Article 69 - Le Règlement Général de la COSUMAF précise les règles de fonctionnement de la
+Commission des sanctions et les modalités d'instruction des dossiers susceptibles de donner lieu à
+des sanctions.
+Section IV - Autres règles de fonctionnement de la COSUMAF
+Article 70 - La COSUMAF met en place en son sein une structure de contrôle interne et conformité
+chargée de veiller, à travers des audits réguliers, au respect par ses différents organes et services, des
+normes et procédures s'appliquant à leurs activités. Cette structure établit un rapport annuel qui est
+transmis au Collège de la COSUMAF.
+Article 71 - Les membres du personnel de la COSUMAF, les membres du Collège, de la
+Commission des sanctions et toute personne appelée à collaborer avec la COSUMAF, en qualité
+d'expert ou à un autre titre, doivent sous peine de sanctions disciplinaires et pécuniaires, respecter le
+secret professionnel et garder la plus stricte confidentialité sur toute information relative au
+fonctionnement du Marché Financier Régional et de ses organes, ainsi que sur toute information
+relative aux valeurs qui y sont ou peuvent y être inscrites et dont ils auront pris connaissance dans
+l'exercice de leurs fonctions.
+Article 72 - Au plus tard le 30 novembre de chaque année civile, la COSUMAF soumet à
+l'approbation préalable du Comité Ministériel de l'UMAC, son projet de budget pour l'année
+suivante.
+Article 73 - Les comptes annuels de la COSUMAF sont certifiés par un commissaire aux comptes
+nommé par le Collège de la COSUMAF pour une durée de trois (3) ans renouvelable une fois.
+Le commissaire aux comptes doit être inscrit sur la liste des experts-comptables agréés par la CEMAC
+et au tableau d'un ordre national d'experts-comptables.
+Le commissaire aux comptes exerce sa mission dans les conditions fixées pour le commissariat aux
+comptes des sociétés anonymes par l'Acte Uniforme OHADA relatif au droit des sociétés
+commerciales et du groupement d'intérêt économique.
+16
+=== page 17 ===
+Au vu du rapport établi par le commissaire aux comptes, le Collège de la COSUMAF se prononce
+sur le quitus à donner au Président pour sa gestion. Le Président ne prend pas part à cette délibération.
+Le rapport du commissaire aux comptes est communiqué au Comité Ministériel de l'UMAC.
+TITRE 111- OPERATIONS SUR LE MARCHE FINANCIER
+CHAPITRE I — Appel public à l'épargne
+Section I - Dispositions générales
+Article 74 - Sont réputées faire publiquement appel à l'épargne :
+• les sociétés, les Etats et leurs démembrements, ou toute autre personne morale dont les
+valeurs mobilières sont admises à la négociation sur la bourse régionale à dater de
+l'admission de ces titres ;
+• les sociétés ou toute personne qui offrent au public d'un État Membre de la CEMAC, des
+valeurs mobilières dans les conditions énoncées à l' Article 75 - du présent Règlement.
+Article 75 - L'offre au public de valeurs mobilières est constituée par l'une des opérations suivantes
+• une communication adressée sous quelque forme et par quelque moyen que ce soit à des
+personnes et présentant une information suffisante sur les conditions de l'offre et sur les
+instruments financiers à offrir, de manière à mettre un investisseur en mesure de décider
+d'acheter ou de souscrire ces instruments.
+• un placement de valeurs mobilières par des intermédiaires financiers dans le cadre soit d'une
+émission, soit d'une cession.
+Article 76 - Les dispositions relatives à l'appel public à l'épargne s'appliquent également au
+placement de jetons numériques.
+Au sens du présent Règlement, constitue un jeton tout bien incorporel représentant, sous forme
+numérique, un ou plusieurs droits pouvant être émis, inscrits, conservés ou transférés au moyen d'un
+dispositif d'enregistrement électronique partagé permettant d' identifier, directement ou indirectement
+le propriétaire dudit bien.
+La COSUMAF définit, dans son Règlement Général et ses instructions, des dispositions spécifiques
+pour le placement des jetons visés au présent article.
+Article 77 - Ne constitue pas un appel public à l'épargne au sens du présent Règlement :
+1) l'offre dont le montant total est inférieur à cinquante millions (50.000.000) de francs CFA, ce
+montant étant calculé sur une période de douze (12) mois ;
+2) l'offre qui est adressée uniquement à des investisseurs qualifiés agissant pour compte propre.
+17
+=== page 18 ===
+Article 78 - La COSUMAF fixe dans son Règlement Général les dispositions spécifiques applicables
+aux opérations de finance participative.
+Article 79 - Il est interdit aux personnes n'y ayant pas été autorisées de faire publiquement appel à
+l'épargne.
+Il est également interdit à toute personne de procéder à la cession par appel public à l'épargne des
+titres d'une société ou personne n'étant pas autorisée à faire publiquement appel à l'épargne par le
+présent Règlement.
+Toute opération effectuée en violation des dispositions du présent article est nulle et passible des
+sanctions prévues par le présent Règlement, sans préjudice d'éventuelles poursuites pénales.
+Article 80 - Sauf disposition contraire prévue par le présent Règlement, tout émetteur qui envisage
+de faire appel public à l'épargne sur le Marché Financier Régional est tenu d'établir un document
+d'information soumis au visa de la COSUMAF préalablement à sa diffusion. Le document
+d'information est obligatoirement accompagné d'un résumé.
+Aucun autre document d'information n'est exigible lors d'une revente ultérieure de valeurs mobilières
+ni lors d'un placement final de valeurs mobilières par des intermédiaires financiers, dès lors qu'un
+document d'information valide est disponible et que l'émetteur ou la personne chargée de rédiger
+ledit document d'information consent par un accord écrit à son utilisation.
+Article 81 - L'obligation de publier un document d'information ne s'applique pas aux offres au
+public portant sur les catégories de valeurs mobilières suivantes :
+1) les actions émises en substitution d'actions de même catégorie déjà émises, si l'émission de
+ces nouvelles actions n'entraîne pas d'augmentation du capital souscrit ;
+2) les valeurs mobilières offertes dans le cadre d'une offre publique d'acquisition par voie
+d'offre publique d'échange, lorsque l'émetteur a rendu disponible un document soumis au
+visa de la COSUMAF, comprenant des renseignements équivalant à ceux qui doivent figurer
+dans le document d'information ;
+3) les valeurs mobilières attribuées à l'occasion d'une opération de fusion, de scission ou
+d'apport d'actifs, lorsque l'émetteur a rendu disponible un document soumis au visa de la
+COSUMAF, comprenant des renseignements équivalant à ceux qui doivent figurer dans le
+document d'information ;
+4) les actions offertes, attribuées ou devant être attribuées gratuitement aux actionnaires, ainsi
+que les actions remises en paiement de dividendes de la même catégorie que celles donnant
+droit à ces dividendes, lorsque l'émetteur met à la disposition des intéressés un document
+comprenant des renseignements sur le nombre et la nature des actions ainsi que sur les motifs
+et les modalités de l'offre ;
+5) les valeurs mobilières offertes, attribuées ou devant être attribuées aux administrateurs, aux
+mandataires sociaux ou aux salariés anciens ou existants par leur employeur ou par une
+société appartenant au même groupe que l'émetteur, lorsque l'émetteur a son administration
+centrale ou son siège social dans un Etat membre de la CEMAC et qu'il met à la disposition
+18
+=== page 19 ===
+des intéressés un document comprenant des renseignements sur le nombre et la nature des
+titres financiers ainsi que sur les motifs et les modalités de l'offre.
+Article 82 - L'obligation de publier un document d'information ne s'applique pas à l'admission à la
+négociation sur la bourse régionale, des catégories de valeurs mobilières suivantes :
+1) les actions représentant, sur une période de douze (12) mois, moins de dix pour cent (10%)
+du nombre d'actions de même catégorie déjà admises à la négociation sur la bourse
+régionale ;
+2) les actions émises en substitution d'actions de même catégorie déjà admises à la négociation
+sur la bourse régionale, si l'émission de ces nouvelles actions n'entraine pas d'augmentation
+du capital souscrit ;
+3) les valeurs mobilières offertes dans le cadre d'une offre publique d'acquisition par voie
+d'offre publique d'échange, lorsque l'émetteur a rendu disponible un document, soumis au
+visa de la COSUMAF, comprenant des renseignements équivalant à ceux qui doivent figurer
+dans le document d'information ;
+4) les valeurs mobilières offertes, attribuées ou devant être attribuées à l'occasion d'une
+opération de fusion de scission ou d'apport d'actifs, lorsque l'émetteur a rendu disponible un
+document, soumis au visa de la COSUMAF, comprenant des renseignements équivalant à
+ceux qui doivent figurer dans le document d'information ;
+5) les actions offertes, attribuées ou devant être attribuées gratuitement aux actionnaires
+existants, ainsi que les actions remises en paiement de dividendes, lorsque ces actions sont
+de la même catégorie que celles déjà admises aux négociations sur la bourse régionale et que
+l'émetteur a rendu disponible un document comprenant des renseignements sur le nombre et
+la nature des actions ainsi que sur les motifs et les modalités de l'offre ;
+6) les valeurs mobilières offertes, attribuées ou devant être attribuées aux administrateurs, aux
+mandataires sociaux ou aux salariés anciens ou existants par leur employeur ou par une
+société appartenant au même groupe que l'émetteur, lorsque ces titres sont de la même
+catégorie que ceux déjà admis à la négociation sur la bourse régionale et que l'émetteur a
+rendu disponible un document comprenant des renseignements sur le nombre et la nature
+des valeurs mobilières ainsi que sur les motifs et les modalités de l'admission ;
+7) les actions résultant de la conversion ou de l'échange d'autres valeurs mobilières, ou de
+l'exercice des droits conférés par d'autres valeurs mobilières lorsque ces actions sont de la
+même catégorie que celles déjà admises à la négociation sur la bourse régionale.
+Article 83 - La COSUMAF délivre son visa si les informations figurant dans le document
+d'information visé à l'Article 80 - sont complètes, cohérentes et compréhensibles. Ce visa est valable
+dans tous les États membres de la CEMAC.
+La COSUMAF peut refuser de délivrer son visa lorsque ses demandes d'informations
+complémentaires ne sont pas satisfaites ou si l'opération s'accompagne d'actes contraires aux intérêts
+des investisseurs.
+La diffusion du document d'information et le placement des titres dans le public doivent être réalisés
+dans un délai de quatre-vingt-dix (90) jours à compter de la délivrance du visa.
+19
+=== page 20 ===
+Article 84 - La COSUMAF précise dans son Règlement Général :
+la composition du dossier de demande de visa ;
+le contenu du document d'information prévu au présent chapitre et ;
+les modalités de dépôt et d'examen du dossier de demande de visa.
+Article 85 - L'émetteur qui procède à une opération d'appel public à l'épargne est soumis au
+versement d'une commission de visa ou d'une commission d'appel public à l'épargne, dont le
+montant est fixé par une instruction de la COSUMAF. La commission est calculée sur le montant
+effectivement mobilisé.
+Article 86 - La COSUMAF peut retirer un visa délivré à un émetteur dans les cas suivants :
+1) le document d'information ne correspond plus à la situation réelle de l'émetteur ;
+2) le document d'information comporte des informations fausses ou trompeuses ou des omissions
+de nature à induire le public en erreur ;
+3) le document d'information publié ou diffusé par l'émetteur contient des informations non
+conformes au document d'information visé ;
+4) aucune diligence aux fins de placement des titres n'a été accomplie à l'issue de la période de
+souscription ;
+5) les opérations de placement se sont poursuivies au-delà de la période de réalisation de
+l'opération, en l'absence de demande de prorogation validée par la COSUMAF.
+Le retrait du visa entraîne d'office annulation de l'opération et interdiction de proposer au public
+l'acquisition ou la souscription de titres sans qu'un nouveau document d'information ait été
+préalablement soumis au visa de la COSUMAF.
+La décision motivée de retrait de visa est notifiée à l'émetteur et, en copie, à son intermédiaire de
+marché ou, le cas échéant, au chef de file du syndicat de placement.
+Section II -Règles spécifiques concernant les émetteurs établis dans des pays tiers
+Article 87 - Lorsqu'une personne morale non-résidente envisage un appel public à l'épargne sur le
+Marché Financier Régional de l'Afrique Centrale, elle est tenue d'établir un document d'information
+soumis au visa de la COSUMAF avant sa diffusion.
+Au titre de la règlementation des changes, l'autorisation préalable de la Banque des Etats de l'Afrique
+Centrale (B.E.A.C.) est requise au nom des Etats membres de la CEMAC.
+Par non-résident, on entend une personne morale ayant son principal centre d'intérêt ou son siège
+social hors de la zone de l'Union Monétaire de l'Afrique Centrale.
+L'émetteur étranger doit désigner une société de bourse établie sur le territoire d'un Etat membre de
+la CEMAC, auprès duquel il élit domicile.
+20
+=== page 21 ===
+La COSUMAF précise dans son Règlement Général, les modalités d'application des dispositions du
+présent article.
+CHAPITRE 11 - PLACEMENT PRIVE
+Article 88 - Par dérogation aux dispositions relatives à l'appel public à l'épargne, constitue un
+placement privé au sens du présent Règlement, l'offre de valeurs mobilières présentant les
+caractéristiques ci-après :
+- le montant total est inférieur ou égal à vingt milliards (20.000.000.000.) de FCFA, ce montant
+étant calculé sur une période de douze (12) mois ;
+- les titres sont placés auprès d'investisseurs qualifiés dont le nombre maximum est de quarante
+(40) ;
+- les titres ne peuvent être cédés qu'entre les investisseurs qualifiés sélectionnés pour l'opération
+- le montant nominal de chaque titre doit être de cinquante millions (50.000.000) de FCFA ;
+- les investisseurs sollicités doivent agir pour leur compte propre, à l'exception des sociétés de
+gestion d'OPC qui peuvent agir pour le compte d'autres investisseurs qualifiés ou d'OPCVM.
+Article 89 - Au sens du présent Règlement, un investisseur qualifié est une personne ou une entité
+disposant des compétences et des moyens nécessaires pour appréhender les risques inhérents aux
+opérations sur les instruments financiers.
+Sont notamment considérés comme investisseurs qualifiés :
+1)
+2)
+3)
+4)
+5)
+6)
+7)
+8)
+9)
+les établissements de crédit et autres intermédiaires ou établissements financiers agréés ou
+réglementés ;
+les organismes de placement collectif ainsi que leurs sociétés de gestion ;
+les entreprises d'assurance et de réassurance ;
+les sociétés de groupe d'assurance ;
+les mutuelles et unions de mutuelles ;
+les institutions de prévoyance ;
+les caisses de retraite et autres organismes publics ou privés de dépôt et de gestion de fonds ;
+les organismes de financement du développement ;
+les sociétés de bourse et autres intermédiaires de marché agréés ;
+10)les fonds d'investissement.
+Le Règlement Général de la COSUMAF précise les conditions dans lesquelles les mutuelles et Unions
+de mutuelles visés au présent article peuvent être traités comme des investisseurs qualifiés.
+21
+=== page 22 ===
+Des investisseurs autres que ceux mentionnés au présent article, y compris les organismes du secteur
+public, les pouvoirs publics locaux ou régionaux, peuvent être traités comme des investisseurs
+qualifiés sous réserve du respect des conditions fixées dans le Règlement Général.
+Article 90 - Les opérations par placement privé sont soumises à la formalité d'enregistrement auprès
+de la COSUMAF dans les conditions et modalités précisées dans son Règlement Général.
+Article 91 - Un émetteur non-résident peut réaliser un placement privé dans un ou plusieurs Etats
+membres de la CEMAC sous réserve du respect des dispositions du présent Règlement et de la
+réglementation des changes applicable en zone CEMAC.
+CHAPITRE 111 - OFFRES PUBLIQUES
+Article 92 - Pour l'application des dispositions du présent Règlement, l'offre publique s'entend de
+toute procédure par laquelle une personne physique ou morale, agissant seule ou de concert, fait
+connaître publiquement qu'elle se propose d'acquérir, de vendre ou d'échanger tout ou partie des
+titres d'une société admis aux négociations sur le marché réglementé de la CEMAC.
+Sont considérées comme agissant de concert les personnes qui ont conclu un accord en vue d' acquérir,
+de céder ou d'exercer des droits de vote, pour mettre en œuvre une politique commune vis-à-vis de la
+société ou pour obtenir le contrôle de cette société.
+Les sociétés appartenant à un même groupe et soumises au contrôle direct ou indirect, de droit ou de
+fait d'une même personne, sont présumées agir de concert.
+Article 93 - Pour l'application des dispositions du présent Règlement, les termes ci-après s'entendent
+comme suit :
+L'initiateur : désigne toute personne physique ou morale qui dépose ou pour le compte de laquelle
+un ou plusieurs intermédiaires de marché déposent un projet d'offre publique.
+La société visée : s'entend de l'émetteur dont les valeurs mobilières font l'objet de l'offre publique.
+Les personnes concemées : désignent l'initiateur et la société visée ainsi que les personnes agissant
+de concert avec l'un ou l' autre.
+Article 94 - La COSUMAF précise dans son Règlement Général la période de l'offre, sa durée et les
+conditions y afférentes.
+Article 95 - Les offres publiques doivent respecter les principes suivants :
+1) la loyauté de la transaction et la libre compétition ;
+2) la transparence et l'intégrité du marché ;
+3) l'égalité des actionnaires.
+Article 96 - La COSUMAF détermine dans son Règlement Général :
+l) les conditions dans lesquelles toute personne physique ou morale, agissant seule ou de
+concert, est tenue de déposer un projet d'offre publique ainsi que les conditions dans
+lesquelles il peut être dérogé à cette obligation.
+22
+=== page 23 ===
+2)
+3)
+les conditions relatives aux offres publiques de retrait, applicables notamment lorsqu'un ou
+plusieurs actionnaires majoritaires, détenant au moins 95% du capital de la société visée,
+proposent le retrait des minoritaires.
+les conditions relatives au retrait obligatoire, applicable notamment lorsqu'à l'issue d'une
+procédure d'offre publique de retrait, les titres non présentés par les actionnaires minoritaires,
+dès lors qu'ils ne représentent pas plus de 5% du capital ou des droits de vote, sont de plein
+droit, transférés aux actionnaires majoritaires à leur demande, sous réserve de l' indemnisation
+des minoritaires concernés. L'indemnisation des minoritaires est effectuée selon des procédés
+d'évaluation précisés dans le Règlement Général et les instructions de la COSUMAF.
+Article 97 - Le Règlement Général de la COSUMAF précise les conditions dans lesquelles toute
+personne, dont il y a des motifs sérieux de penser qu'elle envisage une offre publique, peut être tenue
+de déclarer ses intentions à la COSUMAF. Il en est ainsi notamment lorsque des titres cotés ou admis
+à la négociation sur le marché réglementé régional font l'objet de transactions significatives.
+La déclaration visée au présent article est immédiatement portée à la connaissance du public dans les
+conditions fixées par la COSUMAF.
+Article 98 - Les offres publiques sont placées sous le contrôle exclusif de la COSUMAF qui en
+apprécie souverainement la recevabilité et est habilitée à délivrer un visa au document d'information
+établi à cette occasion par l'initiateur de l'offre principale ou par les initiateurs d'offres concurrentes.
+La COSUMAF fixe, dans son Règlement Général, les conditions de recevabilité des offres et de
+délivrance de son visa.
+Article 99 - Les actionnaires de sociétés admises à la négociation sur le marché réglementé régional
+sont tenus de déclarer sans délai le franchissement du seuil de 5 % de détention du capital ou des
+droits de vote.
+Lorsque les seuils de IO %, 15 %, 20 %, 25 % et 30 % de détention du capital ou des droits de vote
+sont franchis, l'actionnaire doit, outre une déclaration, préciser ses objectifs pour les six (6) prochains
+mois.
+La déclaration s'applique également à tout franchissement à la baisse des différents seuils mentionnés
+à l'alinéa précédent.
+La COSUMAF prévoit dans son Règlement Général un format type de déclaration de franchissement
+de seuil.
+TITRE IV - ORGANISMES CENTRAUX
+CHAPITRE 1- ENTREPRISE DE MARCHE
+Section I - Statut et agrément
+Article 100 - L'Entreprise de Marché est une société anonyme constituée à l'effet de remplir, à titre
+exclusif, la mission de service public d'organisation, d'animation et de gestion u marché financier
+23
+=== page 24 ===
+de l'Afrique Centrale. Elle doit, avant d'exercer ses activités, solliciter et obtenir un agrément auprès
+de la COSUMAF.
+Le Règlement Général de la COSUMAF précise les conditions et la procédure d'agrément de
+l'Entreprise de Marché.
+Article 101 -La COSUMAF approuve le Règlement Général, les instructions, les règles de
+fonctionnement et les autres règles de marché établies par l'Entreprise de Marché.
+Article 102 - Tout projet de modification des règles de marché, de l'organisation et du
+fonctionnement de l'Entreprise de Marché est soumis à l'autorisation préalable de la COSUMAF.
+Article 103 - L'Entreprise de Marché est une société indépendante des pouvoirs publics et des
+institutions de la CEMAC. Dans l'exercice de sa mission, elle veille à agir en conformité avec les
+dispositions du présent Règlement, celles de son cahier des charges et celles adoptées par la
+COSUMAF dont elle sollicite, chaque fois que nécessaire, l'avis.
+Article 104 - L'administration et la direction de l'Entreprise de Marché relèvent des dispositions
+statutaires de la société. Ces dispositions devront prévoir la présence, au sein du conseil
+d'administration, d'un représentant des intermédiaires de marché, d'un représentant des émetteurs,
+d'un représentant des investisseurs et d'un administrateur indépendant.
+Article 105 - Les fonctions de Directeur Général et de Directeur Général Adjoint de l'Entreprise de
+Marché sont incompatibles avec celle de Président du Conseil d' Administration de l'entreprise de
+marché et avec celles de Directeur général, de Directeur général adjoint ou de gérant de toute autre
+structure.
+Article 106 - La COSUMAF peut désigner un administrateur provisoire de l'Entreprise de Marché,
+auquel sont conférés tous les pouvoirs d'administration, de direction et de représentation.
+La désignation de l'administrateur provisoire intervient à l'initiative de la COSUMAF lorsque :
+il est relevé que l'organisation et la gestion de l'Entreprise de Marché ne peuvent plus être
+assurées dans des conditions garantissant le bon fonctionnement du marché et la protection des
+intervenants ;
+la situation financière et patrimoniale de l'Entreprise de Marché présente une forte dégradation,
+avec un risque avéré pour les investisseurs ou d'atteinte au bon fonctionnement du marché.
+La désignation de l'administrateur provisoire peut également intervenir à la demande du conseil
+d'administration de l'Entreprise de Marché lorsqu'il estime ne plus être en mesure d'exercer
+normalement ses fonctions.
+Le Règlement Général de la COSUMAF précise le statut et les modalités de désignation de
+l'administrateur provisoire visé au présent article.
+24
+=== page 25 ===
+Section II - Capital social et actionnariat de l'Entreprise de Marché
+Article 107 - Le capital social de l'Entreprise de marché est réparti entre les sociétés de bourse, les
+établissements de crédit, les sociétés d'assurances, les autres sociétés commerciales dûment agréées
+par la COSUMAF et les Etats membres de la CEMAC ou leurs démembrements.
+Article 108 - A l'exception des sociétés de bourse, actionnaires d'office, toute souscription au capital
+social de l'entreprise de marché est soumise à l'agrément préalable de la COSUMAF.
+La COSUMAF précise dans son Règlement Général les conditions et la procédure d'agrément des
+actionnaires de I 'Entreprise de marché.
+Article 109 -Le montant du capital social de l'Entreprise de Marché, les conditions de sa
+souscription, ainsi que les modalités de sa répartition entre les actionnaires, sont soumis à
+l'autorisation préalable de la COSUMAF.
+Article 110 - La COSUMAF veille à la conformité permanente des statuts et des décisions de
+l'Entreprise de Marché avec les dispositions de la présente section.
+Article 111 - La COSUMAF veille à ce que les décisions de l'entreprise de marché soient prises dans
+l'intérêt du marché et de ses acteurs.
+Section III : Fonctions de l'Entreprise de Marché
+Article 112 - L'Entreprise de Marché fixe dans son Règlement Général les conditions d'admission
+des membres et les règles de fonctionnement du marché.
+Article 113 - L'Entreprise de Marché s'assure que le membre de marché dispose de l'agrément
+correspondant aux activités exercées sur le marché.
+Lorsque plusieurs catégories de membres sont prévues, les règles du marché précisent les conditions
+d'admission applicables à chaque catégorie.
+Article 114 - L'Entreprise de Marché conclut des contrats écrits avec ses membres. Ces contrats
+prévoient que les membres du marché affichent des prix fermes et compétitifs à l'achat et à la vente,
+avec pour finalité d' apporter de la liquidité au marché de manière régulière et prévisible.
+Les contrats mentionnés au présent article précisent toutes les obligations du membre du marché,
+notamment celles relatives à l'apport de liquidité. Ces contrats précisent également toute incitation,
+sous forme de rabais ou sous une autre forme, proposée par l'Entreprise de Marché à ses membres
+afin d'apporter de la liquidité au marché de manière régulière et prévisible.
+Article 115 - Les règles du marché établies par l'Entreprise de Marché, sont transparentes et non
+discrétionnaires. Elles assurent une négociation équitable et ordonnée et fixent des critères objectifs
+en vue de l'exécution efficace des ordres.
+Article 116 - L'Entreprise de Marché assure l'animation et la gestion courante du Marché Financier
+Régional. A ce titre, elle :
+25
+=== page 26 ===
+l) veille en toutes circonstances, sous le contrôle de la COSUMAF, au bon fonctionnement de
+ses plateformes de négociation, de cotation et à la conformité de ses actions et décisions aux
+dispositions législatives et réglementaires encadrant son activité ;
+2) adopte des dispositions et procédures, et se dote des ressources nécessaires, en vue de contrôler
+de façon régulière le respect par ses membres des règles de la plateforme de négociation ;
+3) signale immédiatement à la COSUMAF tout manquement significatif aux règles des
+plateformes, toute condition de négociation de nature à perturber le bon ordre du marché et
+toute conduite potentiellement révélatrice d'un comportement interdit ou tout
+dysfonctionnement du système lié à un instrument financier.
+L' Entreprise de Marché communique sans délai à la COSUMAF, toute information concernant ces
+manquements. Elle prête à la COSUMAF toute l'aide nécessaire pour instruire et poursuivre les
+manquements commis sur la plate-forme de négociation.
+Article 117 - Dans l'exercice de ses fonctions et prérogatives, I 'Entreprise de Marché est notamment
+chargée :
+1) d'autoriser l'admission des valeurs à la cote de la Bourse Régionale ;
+2) d'assurer une gestion optimale de ses plates-formes techniques et de garantir leur sécurité et
+leur fiabilité opérationnelle ;
+3) d'assurer, en toutes circonstances, une liaison technique sécurisée avec les sociétés de bourse
+en vue de garantir la bonne exécution des ordres d'achat ou de vente de titres ;
+4) de contrôler les sociétés de bourse dans l'exercice de leur activité de négociation ;
+5) d'enregistrer les négociations entre sociétés de bourse et transmettre les données y afférentes
+au Dépositaire Central, en vue d'assurer la livraison des titres et le paiement du prix ;
+6) de publier, après chaque séance de cotation, y compris sur son site Internet, les informations
+sur les transactions réalisées dans les conditions précisées dans le Règlement Général et les
+instructions de la COSUMAF •
+7) d'assurer une diffusion équitable de l'information boursière, en veillant à garantir l'égalité de
+traitement et Œ information des intervenants, des acteurs du marché et du public ;
+8) de surveiller le marché boursier ;
+9) de suspendre, pour une durée déterminée, la négociation d'un titre admis à la cotation, après
+en avoir informé la COSUMAF et l'émetteur, lorsque les conditions de négociation de ce titre
+n'obéissent plus aux dispositions du Règlement Général et des instructions de la BVMAC ;
+10)de radier un titre de la cote, après en avoir informé la COSUMAF et l'émetteur, lorsqu'il ne
+remplit plus les conditions d'admission prévues dans le Règlement Général et les instructions
+de la BVMAC, sous réserve que cette radiation ne porte pas atteinte de manière significative
+aux intérêts des investisseurs ou ne soit pas de nature à compromettre le bon fonctionnement
+du marché ;
+26
+=== page 27 ===
+11)de communiquer sans délai à la COSUMAF toute information de nature à affecter le bon
+fonctionnement du marché, la régularité des transactions, la crédibilité d'un intervenant ou de
+l'un quelconque de ses administrateurs ou actionnaires ;
+12)de proposer à la COSUMAF des mesures visant à développer le marché financier.
+Les règles du marché précisent les modalités de mise en oeuvre des dispositions du présent article.
+Article 118 - L'Entreprise de Marché veille à la transparence, à l'équité et au caractère non
+discriminatoire de ses structures tarifaires, y compris les frais d'exécution, les frais accessoires et les
+rabais éventuels.
+L' Entreprise de Marché impose à ses membres des obligations de tenue de marché.
+CHAPITRE 11- DEPOSITAIRE CENTRAL
+Section I - Statut et fonctions du Dépositaire Central
+Article 119 - Le Dépositaire Central est une société anonyme investie à titre exclusif d'une mission
+de service public afin d'exercer les fonctions visées au présent chapitre.
+Dans l'exercice de sa mission, le Dépositaire Central veille à agir en conformité avec les dispositions
+du présent Règlement, celles de son cahier des charges et celles adoptées par la COSUMAF.
+Le Dépositaire Central doit, avant d'exercer ses activités, solliciter et obtenir un agrément auprès de
+la COSUMAF.
+Article 120 - Le Dépositaire Central respecte en permanence les conditions régissant son agrément.
+Les modifications des éléments constitutifs de son agrément sont soumises à l'autorisation préalable
+de la COSUMAF.
+Les règles de fonctionnement du Dépositaire Central et des systèmes de règlement-livraison
+d'instruments financiers qu'il gère, sont approuvées par la COSUMAF.
+Les décisions de la COSUMAF approuvant les règles de fonctionnement du Dépositaire Central ou
+leurs modifications sont publiées sur le site Internet de COSUMAF. Les règles ainsi approuvées sont
+annexées à la décision de la COSUMAF.
+Le Dépositaire Central publie l'ensemble de ses règles de fonctionnement sur son site Internet.
+Le Règlement Général de la COSUMAF précise les conditions et la procédure d'agrément du
+Dépositaire Central.
+Article 121 - Le Dépositaire Central fournit les services suivants :
+service notarial, consistant dans l'enregistrement initial de titres dans un système d'inscription
+en compte ;
+27
+=== page 28 ===
+service de tenue centralisée de comptes, consistant dans la fourniture et la tenue centralisée de
+comptes de titres émis par les sociétés par actions ou toute autre personne établie en zone
+CEMAC ;
+service de règlement, consistant dans l'exploitation d'un système de règlement de titres ;
+circulation des titres par virement de compte à compte ;
+gestion de la dématérialisation des titres émis par les sociétés par actions ou toute autre
+personne établie en zone CEMAC.
+A titre accessoire, le Dépositaire Central peut également fournir:
+1.
+2.
+3.
+4.
+des services liés au service de règlement, tels que :
+a) l'organisation, en tant qu'agent, d'un mécanisme de prêt de titres entre les participants à
+un système de règlement de titres ;
+b) la fourniture, en tant qu'agent, de services de gestion des garanties pour les participants à
+un système de règlement de titres ;
+c) l'appariement de règlements, la transmission d'instructions, la confirmation de transactions
+et la vérification de transactions.
+des services liés au service notarial et au service de tenue de comptes de titres centralisée, tels
+que :
+a) les services liés aux registres d'actionnaires ;
+b) les services liés au traitement des opérations sur titres, notamment en ce qui concerne la
+fiscalité, la tenue d'assemblées générales et la communication d'informations ;
+c) les services liés à une nouvelle émission, notamment l'assignation et la gestion de codes
+ISIN et de codes équivalents ;
+d) la transmission et le traitement d'instructions, la perception et le traitement de commissions
+et de frais ainsi que la communication d'informations connexes ;
+e) la tenue de compte des titres admis à ses opérations faisant l'objet d'un nantissement.
+des services relatifs à l'établissement de liens entre dépositaires centraux de pays situés hors
+zone CEMAC, la fourniture, la tenue ou la gestion de comptes de titres dans le cadre d'un
+service de règlement, d'un service de gestion des garanties ou d'autres services accessoires ;
+tout autre service, tel que :
+a) l'élaboration de rapports réglementaires ;
+28
+=== page 29 ===
+b) la transmission d'informations, de données et de statistiques aux services économiques et
+statistiques ou à d'autres entités gouvernementales ou intergouvernementales ;
+c) la fourniture de services informatiques.
+Le Dépositaire Central peut, sous réserve du respect des dispositions législatives et réglementaires en
+vigueur, fournir les services suivants :
+a) l'ouverture de comptes d'espèces pour les participants à un système de règlement de titres et
+pour les titulaires de comptes de titres ainsi que la réception de dépôts de ces participants ou
+titulaires ;
+b) l'ouverture de lignes de crédit en vue d'un remboursement au plus tard le jour ouvrable suivant,
+les prêts en espèces pour le préfinancement d'opérations sur titres et le prêt de titres aux
+titulaires de comptes de titres ;
+c) les services de paiement impliquant le traitement des transactions en espèces et en devises ;
+d) l'octroi de garanties et la souscription d'engagements liés au prêt/emprunt de titres ;
+e) les activités de trésorerie impliquant les marchés des changes et les valeurs mobilières liées à
+la gestion des soldes créditeurs des participants.
+Le Règlement Général de la COSUMAF précise les modalités et conditions d'exercice des fonctions
+du Dépositaire Central.
+Section II - Capital social et actionnariat du Dépositaire Central
+Article 122 - Le montant du capital social du Dépositaire Central, les conditions de sa souscription,
+ainsi que les modalités de sa répartition entre les actionnaires sont fixées avec l'autorisation préalable
+de la COSUMAF. Cette autorisation est également requise en cas de projet de modification du capital.
+Article 123 - Le capital social du Dépositaire Central est réparti entre la BVMAC, les sociétés de
+bourse, la BEAC, les établissements de crédit et autres sociétés commerciales.
+Article 124 - Toute souscription au capital social du Dépositaire Central est soumise à l'autorisation
+préalable de la COSUMAF.
+Article 125 - Nul ne peut être actionnaire ou dirigeant du Dépositaire Central s'il a fait l'objet d'une
+condamnation à une peine infamante, d'une mesure administrative de mise en débet, d'une
+interdiction de gérer ou administrer une entreprise.
+Section III - Administration et direction du Dépositaire Central
+Article 126 - La COSUMAF veille en toutes circonstances au respect des exigences d'honorabilité,
+de compétence et d'expérience par les dirigeants du Dépositaire Central.
+Les administrateurs, les dirigeants, les salariés, tout expert désigné en son sein et toute autre personne
+agissant pour son compte ou placée sous son autorité sont tenus au secret professionnel.
+29
+=== page 30 ===
+L'administration et la direction du Dépositaire Central relèvent des dispositions statutaires de la
+Société. Ces dispositions devront prévoir la présence, au sein du conseil d' administration:
+d'un représentant de la BVMAC ;
+d'un représentant des adhérents, sociétés de bourse ou teneurs de compte, du Dépositaire
+Central ;
+d'un représentant des émetteurs ;
+d'un représentant des investisseurs désignés par leurs pairs ;
+d'un représentant de la BEAC.
+Article 127 - Le Règlement Général de la COSUMAF précise les exigences d'honorabilité, de
+compétence et d'expérience des administrateurs, des dirigeants, des salariés, de tout expert et de toute
+autre personne agissant pour le compte du Dépositaire Central.
+Article 128 - Les fonctions de Directeur Général du Dépositaire Central sont incompatibles avec
+celles de Directeur général, de Directeur général adjoint ou de gérant de toute autre structure.
+Article 129 - La COSUMAF peut désigner un administrateur provisoire du Dépositaire Central,
+auquel sont conférés tous les pouvoirs d'administration, de direction et de représentation.
+La désignation de l'administrateur provisoire intervient à l'initiative de la COSUMAF lorsque :
+il est relevé que l'organisation et la gestion du Dépositaire Central ne peuvent plus être assurées
+dans des conditions garantissant le bon fonctionnement du marché et la protection des
+intervenants ;
+la situation financière et patrimoniale du Dépositaire Central présente une forte dégradation,
+avec un risque avéré pour les investisseurs ou d'atteinte au bon fonctionnement du marché.
+La désignation de l'administrateur provisoire peut également intervenir à la demande du conseil
+d'administration du Dépositaire Central lorsqu'il estime ne plus être en mesure d'exercer
+normalement ses fonctions.
+Le Règlement Général de la COSUMAF précise le statut et les modalités de désignation de
+l'administrateur provisoire visé au présent article.
+CHAPITRE 111 - CHAMBRE DE COMPENSATION
+Article 130 - En vue de sécuriser le fonctionnement du Marché Financier Régional et d'assurer la
+bonne fin des opérations sur le marché, une Chambre de Compensation du Marché Financier de
+l'Afrique Centrale est mise en place dans les conditions fixées par la COSUMAF.
+30
+=== page 31 ===
+Section I - Statut et fonctions de la Chambre de Compensation
+Article 131 - La Chambre de Compensation est un établissement de crédit dont le siège est établi sur
+le territoire d'un État membre de la CEMAC.
+Article 132 - La Chambre de Compensation est la contrepartie centrale du marché. Elle assure la
+surveillance des positions, l'appel des marges et. le cas échéant, la liquidation d'office des positions
+de ses adhérents.
+Article 133 - La Chambre de Compensation est agréée par la COSUMAF après avis de la Banque
+des Etats de l'Afrique Centrale et de la Commission Bancaire de l'Afrique Centrale (COBAC). Elle
+respecte en permanence les conditions de son agrément.
+La Chambre de Compensation informe sans délai la COSUMAF de toute modification ayant une
+incidence sur le respect des conditions régissant son agrément. Les modifications des éléments
+constitutifs de son agrément sont soumises à l'autorisation préalable de la COSUMAF.
+Les règles de fonctionnement de la Chambre de Compensation sont approuvées par la COSUMAF, y
+compris en cas de modification. Les règles ainsi approuvées sont annexées à la décision de la
+COSUMAF.
+Les décisions de la COSUMAF approuvant les règles de fonctionnement de la Chambre de
+Compensation ou leurs modifications sont publiées sur le site Internet de la COSUMAF.
+La Chambre de Compensation publie et met à jour sur son site Internet l'ensemble de ses règles de
+fonctionnement.
+Le Règlement Général de la COSUMAF précise les modalités d' agrément et de fonctionnement de la
+Chambre de Compensation.
+Section II - Adhésion à la Chambre de Compensation
+Article 134 - Seuls peuvent adhérer à la Chambre de Compensation, sous réserve de leur agrément
+par la COSUMAF •
+l) les établissements de crédit ayant leur siège social sur le territoire d'un État membre de la
+CEMAC ;
+2) les sociétés de bourse ayant leur siège social sur le territoire d'un État membre de la
+CEMAC ;
+3) les personnes morales dont les membres ou associés sont indéfiniment et solidairement
+responsables des dettes et engagements, à condition que ces membres ou associés soient
+des établissements de crédit ou des sociétés de bourse ayant leur siège social sur le territoire
+d'un État membre de la CEMAC ;
+4) les personnes morales ayant leur siège social sur le territoire d'un Etat membre de la
+CEMAC et qui ont pour activité principale ou unique la compensation d'instruments
+financiers ;
+5) certaines personnes morales ayant leur siège hors de la CEMAC, dans les conditions fixées
+par le présent Règlement.
+Les relations entre la Chambre de Compensation et ses adhérents sont de nature contractuelle.
+31
+=== page 32 ===
+Le Règlement Général de la COSUMAF précise les règles de fonctionnement et d'adhésion à la
+Chambre de Compensation, les conditions d'agrément de ses adhérents et les obligations
+professionnelles auxquelles ils sont soumis.
+Section III - Relations de la Chambre de Compensation avec ses adhérents
+Article 135 - Les adhérents compensateurs sont responsables vis-à-vis de la Chambre de
+compensation des engagements de leurs donneurs d'ordre. Ils se portent commissionnaires ducroire
+vis-à-vis de la Chambre de Compensation des engagements de leurs donneurs d'ordre.
+Article 136 - Aucun créancier d'un donneur d'ordre, d'un prestataire de services financiers autre
+qu'une société de gestion de portefeuille, d'un adhérent d'une Chambre de Compensation ou, selon le
+cas, de la Chambre elle-même ni aucun mandataire de justice ne peut se prévaloir d'un droit
+quelconque sur les dépôts qui prennent la forme d'une garantie financière auprès de la Chambre de
+Compensation.
+Les interdictions mentionnées au premier alinéa du présent article sont également applicables aux
+procédures judiciaires ou amiables ouvertes hors de la zone CEMAC.
+Section IV - Autres Obligations
+Article 137 - Les dirigeants, salariés et préposés de la Chambres de Compensation sont tenus au
+secret professionnel.
+Toutefois, lors d'opérations sur contrats financiers, la Chambre de Compensation peut communiquer
+des informations couvertes par le secret professionnel à un référentiel central.
+Les adhérents de la Chambre de Compensation ne peuvent opposer le secret professionnel aux
+demandes formulées par celle-ci aux fins d'assurer la surveillance des positions, et concernant
+l'identité, les positions et la solvabilité des donneurs d'ordres dont ils tiennent les comptes.
+Article 138 - En cas d'ouverture d'une procédure collective ou de toute procédure équivalente sur le
+fondement d'un droit étranger à l'encontre d'un adhérent de la Chambre de Compensation, ou de tout
+autre cas de défaillance de cet adhérent, la chambre peut, de plein droit :
+1. transférer chez un autre adhérent les dépôts effectués auprès de cet adhérent et afférents aux
+positions prises par les donneurs d'ordre non défaillants ;
+2. transférer chez un autre adhérent les positions enregistrées chez elle pour le compte des
+donneurs d'ordre de cet adhérent et les dépôts y afférents ;
+3. prendre toute autre disposition autorisée par ses règles de fonctionnement de nature à limiter
+ou à supprimer les risques auxquels elle est exposée, y compris, le cas échéant, la liquidation
+des actifs et positions détenus par l'adhérent compensateur défaillant pour le compte du
+donneur d'ordre.
+Tout excédent dont la Chambre de Compensation est redevable après achèvement du processus de
+gestion de la défaillance de l'adhérent compensateur est restitué sans délai aux donneurs d'ordre
+lorsqu'ils sont connus de la contrepartie centrale ou, s'ils ne le sont pas, à l'adhérent compensateur
+pour le compte de ses donneurs d'ordre.
+32
+=== page 33 ===
+Article 139 - Nul ne peut être actionnaire ou dirigeant de la Chambre de Compensation si lui-même
+ou une société dont il a été dirigeant a fait l'objet d'une interdiction bancaire, d'une condamnation
+pénale ou d'une procédure de faillite ou banqueroute.
+Article 140 - Les fonctions de Directeur Général ou de Directeur Général Adjoint de la Chambre de
+Compensation sont incompatibles avec celles de Directeur général, de Directeur général adjoint ou
+de gérant de toute autre structure.
+CHAPITRE IV - LA BANQUE DE REGLEMENT
+Article 141 - La Banque de Règlement est un organisme de marché chargé du Règlement en espèces
+des transactions réalisées sur le marché.
+Article 142 - Les fonctions de Banque de Règlement sont assurées par la Banque des Etats de
+l'Afrique Centrale (BEAC). Les missions et activités de la banque de Règlement sont précisées dans
+le Règlement Général de la COSUMAF.
+Article 143 - Pour l'exécution de ses fonctions, la Banque de Règlement met en place un système de
+traitement automatisé des transactions réalisées sur le marché.
+TITRE V - INTERMEDIAIRES DE MARCHE
+CHAPITRE 1- ACTIVITES DES INTERMEDIAIRES DE MARCHE
+Article 144 - Pour l'application des dispositions du présent Règlement, les intermédiaires de marché
+sont des personnes qui, sous réserve de leur agrément par la COSUMAF, ont pour profession
+habituelle la fourniture d'un ou plusieurs services financiers visés au présent Titre.
+Article 145 - Les intermédiaires de marché sont :
+1)
+2)
+3)
+4)
+5)
+6)
+Les sociétés de bourse ;
+Les établissements de crédit ;
+Les sociétés de gestion ;
+Les conseillers en investissements financiers ;
+Les conseillers en financement participatif ;
+les prestataires de services sur actifs numériques.
+Article 146 - Les services financiers exercés par les intermédiaires de marché sont :
+l) la réception et la transmission d'ordres pour le compte de tiers;
+2) l'exécution d'ordres pour le compte de tiers ;
+33
+=== page 34 ===
+3)
+4)
+5)
+6)
+7)
+8)
+9)
+la négociation pour compte propre ;
+la gestion individuelle sous mandat ;
+la gestion collective ;
+le conseil en investissements financiers ;
+le placement d'instruments financiers;
+le conseil en financement participatif ;
+les activités de « Listing Sponsor » ;
+10)le démarchage financier ;
+11)la tenue de compte d'instruments financiers ;
+12)l'arrangement des opérations d'appel public à l'épargne et de placement privé ;
+13)la prestation de services sur actifs numériques.
+Article 147 - Constitue le service de réception et transmission d'ordres pour le compte de tiers le fait
+pour une société de bourse ou toute autre entité agréée de recevoir et de transmettre à une société de
+bourse des ordres portant sur des instruments financiers en vue de leur exécution sur le marché.
+Article 148 - Constitue le service d'exécution d'ordres pour le compte de tiers le fait de conclure sur
+le marché des accords d'achat ou de vente portant sur un ou plusieurs instruments financiers pour le
+compte de tiers.
+Article 149 - Constitue le service de négociation pour compte propre le fait de négocier en engageant
+ses propres capitaux ou un ou plusieurs instruments financiers, en vue de conclure des transactions.
+Article 150 - Constitue le service de gestion individuelle sous mandat, le fait de gérer, de façon
+discrétionnaire et individualisée, des portefeuilles incluant un ou plusieurs instruments financiers
+dans le cadre d'un mandat donné par un tiers.
+Article 151 - Constitue le service de gestion collective le fait pour une société de gestion de gérer et
+d'administrer les organismes de placement collectif visés au Titre VI du présent Règlement.
+Article 152 - Constitue le service de conseil en investissements financiers le fait de fournir des
+recommandations personnalisées à un tiers, soit à sa demande, soit à l'initiative de l'entreprise qui
+fournit le conseil, concernant une ou plusieurs transactions portant sur des instruments financiers.
+Ce service inclut :
+1) le conseil en gestion financière et en ingénierie financière auprès des personnes morales
+faisant appel public à l'épargne ;
+2) le conseil en gestion de portefeuille d'instruments financiers ;
+3) le conseil en gestion de patrimoine et placements ;
+34
+=== page 35 ===
+4) le conseil dans le cadre des opérations d'appel public à l'épargne ;
+5) le conseil aux sociétés en matière d'introduction en bourse et leur assistance après
+l'admission sur le marché ;
+6) le démarchage financier.
+Article 153 - Constitue le service de placement le fait pour un agent placeur de rechercher des
+souscripteurs ou des acquéreurs pour le compte d'un émetteur ou d'un cédant d'instruments
+financiers.
+L'agent placeur, qu'il s'agisse d'une société de bourse ou d'un établissement de crédit peut souscrire
+un placement garanti, consistant à garantir à l'émetteur ou au cédant un montant minimal de
+souscription en s'engageant à souscrire ou acquérir lui-même les valeurs mobilières non placées.
+Article 154 - L'agent placeur peut également proposer une prise ferme, consistant à souscrire ou
+acquérir directement les instruments financiers auprès de l'émetteur ou du cédant, en vue d'effectuer
+leur placement auprès de clients. L'agent placeur agit alors en son nom et pour son propre compte.
+Article 155 - Le conseil en financement participatif consiste en la mise en relation au moyen d'un
+site internet des intérêts d'investisseurs et de porteurs de projets en vue d'un financement en dehors
+des circuits financiers institutionnels et comportant un ou plusieurs des éléments suivants :
+1) facilitation de l'octroi de prêts ;
+2) placement sans engagement ferme de valeurs mobilières émises par des porteurs de projets ;
+3) réception et transmission des ordres de clients concernant des instruments financiers.
+Article 156 - Le service de « Listing Sponsor » consiste à assister et conseiller les petites et
+moyennes entreprises dans le cadre de leur introduction en bourse sur le compartiment des PME de
+la BVMAC et de leur retrait de la cote.
+Article 157 - Le démarchage financier consiste à se rendre habituellement au domicile ou à la
+résidence des personnes, sur des lieux de travail ou des lieux publics, en vue de proposer ou conseiller
+la conclusion d'un contrat portant sur l'achat, la vente ou l'échange de valeurs mobilières ou autres
+instruments financiers, ou en vue de proposer la participation à une opération sur valeurs mobilières
+ou autres instruments financiers.
+Sont également considérées comme des activités de démarchage financier les sollicitations effectuées
+en vue des mêmes fins, par tout moyen de communication.
+Article 158 -Le service de tenue de compte d'instruments financiers consiste, d'une part, à
+enregistrer les mouvements et opérations sur instruments financiers et, d'autre part, à conserver
+lesdits instruments financiers pour le compte des clients.
+Article 159 - L'arrangement des opérations d'appel public à l'épargne ou de placement privé
+consiste en leur structuration.
+Les sociétés de bourse ont le monopole de l'arrangement des opérations visées au présent article.
+35
+=== page 36 ===
+Article 160 - Constitue la prestation de services sur actifs numériques le fait de proposer un ou
+plusieurs des services ou opérations ci-après :
+• conservation d'actifs numériques pour le compte de tiers ;
+• achat-vente d'actifs numériques contre une monnaie ayant cours légal ou contre d'autres actifs
+numériques ;
+• exploitation d'une plateforme de négociation d'actifs numériques ;
+• autres services sur actifs numériques tels que la réception et la transmission d'ordres pour le
+compte de tiers, la gestion de portefeuille pour le compte de tiers, le conseil, le placement.
+La COSUMAF précise dans son Règlement Général les conditions et modalités de fourniture des
+services ou opérations visés au présent article.
+Article 161 - Les services de négociation pour compte propre et d'exécution d'ordres pour le compte
+de tiers relèvent du monopole des sociétés de bourse agréées par la COSUMAF.
+Article 162 - L'activité de tenue de compte relève du monopole des établissements de crédit et des
+sociétés de bourse agréés à cet effet.
+Article 163 - L'activité de gestion individuelle sous mandat est exercée exclusivement par les
+sociétés de gestion d'organismes de placement collectif et les sociétés de bourse agréées à cet effet.
+CHAPITRE 11 - CONDITIONS D'AGREMENT ET D'EXERCICE APPLICABLES AUX
+INTERMEDIAIRES DE MARCHE
+Section I- Principes applicables aux agréments des intermédiaires de marché
+Article 164 - En vue de leur agrément, les intermédiaires de marché adressent à la COSUMAF un
+dossier de demande d'agrément comprenant les documents et informations précisés dans le
+Règlement Général et les instructions de la COSUMAF.
+La COSUMAF instruit les demandes d'agrément dans les conditions et délais précisés dans son
+Règlement Général.
+Article 165 - L'agrément précise les services ou activités que l'intermédiaire de marché est autorisé
+à fournir.
+Tout intermédiaire de marché souhaitant étendre son activité à d'autres services ou activités
+d'investissement soumet une demande d'extension de son agrément.
+Article 166 - L'agrément délivré par la COSUMAF est valable pour la fourniture des services
+financiers et activités sur l'ensemble des États membres de la CEMAC.
+Article 167 - La liste des intermédiaires de marché agréés est disponible sur le site Internet de la
+COSUMAF. Cette liste contient le nom de l'intermédiaire et des informations sur les services ou les
+activités pour lesquels l'intermédiaire de marché est agréé. Cette liste est régulièrement mise à jour.
+36
+=== page 37 ===
+Article 168 - La COSUMAF peut retirer son agrément à tout intermédiaire de marché qui :
+1) ne fait pas usage de son agrément dans un délai de douze (12) mois à compter de sa délivrance ;
+2) renonce expressément à exercer son activité ;
+3) n'a fourni aucun service ou n'a exercé aucune activité pendant une période de six (6) mois ;
+4) a obtenu son agrément au moyen de fausses déclarations ou par tout autre moyen irrégulier ;
+5) ne remplit plus les conditions de son agrément ;
+6) a enfreint la réglementation du marché financier régional.
+Le Règlement Général de la COSUMAF précise en tant que de besoin les modalités d' application du
+présent article.
+Article 169 - La COSUMAF approuve les codes de bonne conduite des associations professionnelles
+d'intermédiaires du marché.
+Article 170 - Les intermédiaires agréés respectent en permanence les règles de bonne conduite ainsi
+que les exigences prudentielles, organisationnelles et administratives précisées dans le présent
+Règlement et dans le Règlement Général de la COSUMAF.
+Section II- Interdictions et incompatibilités
+Article 171 - Ne peuvent être administrateurs ou dirigeants d'un intermédiaire de marché les
+personnes ayant fait l'objet d'une condamnation pénale pour crime ou délit ou sur lesquelles le
+système bancaire et financier de la zone CEMAC porte des créances douteuses.
+Article 172 - Les fonctions de Directeur Général et de Directeur Général adjoint d'un intermédiaire
+de marché sont exclusives de toute autre activité rémunérée au sein d'une structure agréée par la
+COSUMAF, la COBAC, la CIMA ou au sein d'une quelconque structure commerciale.
+Section III - Administration provisoire
+Article 173 - Lorsque la situation financière, patrimoniale ou de la gouvernance d'un intermédiaire
+de marché agréé, autre qu'un établissement de crédit, présente un risque avéré pour les investisseurs
+ou d'atteinte au bon fonctionnement du marché, la COSUMAF peut désigner un administrateur
+provisoire auprès de cet intermédiaire de marché, auquel sont conférés tous les pouvoirs
+d'administration, de direction et de représentation.
+Le Règlement Général de la COSUMAF précise les modalités de désignation et le statut de
+I ' administrateur provisoire.
+CHAPITRE 111 - CAPITAL SOCIAL ET REGLES PRUDENTIELLES
+Article 174 - Le montant du capital social des intermédiaires de marché autres que les Etablissements
+de crédit est fixé dans le Règlement Général de la COSUMAF.
+37
+=== page 38 ===
+La COSUMAF peut prévoir des dispositions adaptées en fonction des activités ou services proposés
+par un intermédiaire de marché.
+La COSUMAF précise dans son Règlement Général les règles prudentielles auxquelles sont
+soumis les organismes centraux et les intermédiaires de marché.
+CHAPITRE IV - REGLES D'ORGANISATION
+Article 175 - La COSUMAF précise dans son Règlement Général et ses instructions les règles
+applicables notamment en matière de :
+1) contrôle interne et de conformité ;
+2) enregistrement des transactions ;
+3) détention d' instruments financiers pour le compte des clients ;
+4) exécution d'ordres ;
+5) politique de rémunération.
+Article 176 - La COSUMAF précise dans son Règlement Général et ses instructions les dispositions
+spécifiques applicables notamment pour :
+1)
+2)
+3)
+4)
+5)
+6)
+le conseil en investissements financiers ;
+le conseil en financement participatif ;
+les activités de listing sponsors ;
+les activités de recherche et d'analyse financière ;
+les activités de tenue de compte conservation ;
+les activités des adhérents compensateurs.
+CHAPITRE V - PROTECTION DE LA CLIENTELE
+Article 177 - Lorsque les intermédiaires de marché fournissent des services financiers, ils agissent
+d'une manière honnête, équitable, professionnelle et dans l'intérêt exclusif de leurs clients.
+Article 178 - Les intermédiaires de marché qui conçoivent des instruments financiers destinés à la
+vente aux clients s'assurent que lesdits instruments financiers sont conçus de façon à répondre aux
+besoins des clients.
+Article 179 - Tout intermédiaire de marché s'assure de comprendre les instruments financiers qu'il
+propose ou recommande et évalue leur compatibilité avec les besoins de ses clients.
+Article 180 - Les informations, y compris publicitaires, adressées par l'intermédiaire de marché à
+des clients ou à des clients potentiels doivent être précises, correctes et non trompeuses. Les
+informations publicitaires doivent être clairement identifiables comme telles.
+Les informations mentionnées au présent article doivent être fournies sous une forme
+compréhensible, de manière à permettre aux clients de comprendre la nature de l' activité et du service
+d'investissement.
+38
+=== page 39 ===
+Ces informations doivent également permettre aux clients de comprendre le type spécifique
+d'instrument financier proposé ainsi que les risques y afférents et, par conséquent, de prendre leurs
+décisions d'investissement en toute connaissance de cause.
+Le Règlement Général de la COSUMAF précise le contenu et le format des informations adressées à
+la clientèle.
+Article 181 -Le Règlement Général de la COSUMAF précise le contenu des règles de bonne
+conduite applicables aux intermédiaires de marché.
+Article 182 - L'intermédiaire de marché doit s'assurer que ses agents disposent des connaissances et
+compétences nécessaires leur permettant de remplir leurs obligations professionnelles.
+Lorsqu'il fournit des conseils, l'intermédiaire de marché vérifie les connaissances et l'expérience du
+client en matière d'investissement en rapport avec le type spécifique de produit ou de service. Il vérifie
+également sa situation financière, sa capacité à subir des pertes, ses objectifs d'investissement et sa
+tolérance au risque.
+Si l'intermédiaire de marché estime, sur la base des informations reçues en vertu du premier alinéa,
+que le produit ou le service ne convient pas au client, il l'en avertit. Cet avertissement peut être
+transmis sous une forme normalisée.
+Si le client ne fournit pas les informations visées au deuxième alinéa du présent article, ou si les
+informations fournies sur ses connaissances et son expérience sont insuffisantes, l'intermédiaire
+l'avertit qu'il n'est pas en mesure de déterminer si le service ou le produit envisagé lui convient. Cet
+avertissement peut être transmis sous une forme normalisée.
+La COSUMAF peut prévoir dans son Règlement Général des dispositions dérogatoires lorsque
+l'intermédiaire de marché fournit uniquement un service d'exécution ou de réception et transmission
+d'ordres de clients. Cette dérogation peut être soumise à des conditions.
+CHAPITRE V1 - INFORMATIONS ADRESSEES A LA COSUMAF
+Article 183 - Les intermédiaires de marché sont tenus d'adresser à la COSUMAF des informations
+permanentes et périodiques.
+Le contenu, le format et les modalités de transmission de ces informations sont précisés par le
+Règlement Général et les instructions de la COSUMAF.
+Article 184 - Les intermédiaires de marché sont tenus de communiquer à la COSUMAF des états et
+autres documents permettant de s'assurer du respect des exigences réglementaires. La COSUMAF
+précise dans son Règlement Général les documents à fournir en application du présent article.
+39
+=== page 40 ===
+CHAPITRE VII - COMMISSAIRES AUX COMPTES
+Article 185 - Les commissaires aux comptes des intermédiaires de marché informent sans délai la
+COSUMAF de tout acte ou omission dont ils ont connaissance dans le cadre de leur mission, dès lors
+que cet acte ou cette omission :
+est de nature à affecter de manière significative la situation financière de l'intermédiaire de
+marché ;
+constitue une violation du présent Règlement ou du Règlement Général de la COSUMAF •
+compromet ou est susceptible de compromettre les intérêts des clients de l'intermédiaire de
+marché.
+Les obligations et fonctions des commissaires aux comptes intervenant auprès des personnes,
+structures ou organismes soumis au contrôle de la COSUMAF sont précisées dans le Règlement
+Général de la COSUMAF.
+TITRE V1- ORGANISMES DE PLACEMENT COLLECTIF
+CHAPITRE 1 - DISPOSITIONS GENERALES
+Section I - Agrément
+Sous-Section 1 — Conditions d'agrément
+Article 186 - Les Organismes de Placement Collectif (OPC) comprennent les Organismes de
+Placement Collectif en Valeurs Mobilières (OPCVM), les Fonds d'Investissement Alternatifs (FIA)
+et tout autre organisme agréé comme tel par la COSUMAF.
+Article 187 - Les OPCVM comprennent :
+l) Les Fonds Communs de Placement (FCP) ;
+2) Les Sociétés d'Investissement à Capital Variable (SICAV).
+Les OPCVM émettent et rachètent des parts ou actions à tout moment à la demande des porteurs de
+parts ou des actionnaires.
+Article 188 - Le Fonds Commun de Placement est une copropriété de valeurs mobilières dépourvue
+de la personnalité morale. Il a pour objet de collecter les fonds de ses souscripteurs et de les investir
+pour constituer un portefeuille de valeurs mobilières diversifiées.
+Les règles relatives à l'indivision et aux sociétés en participation ne s'appliquent pas au fonds
+commun de placement.
+Article 189 - La SICAV est une société anonyme ayant pour objet de collecter les fonds des
+souscripteurs et de les investir pour constituer un portefeuille de valeurs mobilières diversifiées.
+Article 190 - Les FIA comprennent :
+40
+=== page 41 ===
+1) les organismes de titrisation ;
+2) les organismes de placement collectif immobilier (OPCI) ;
+3) les organismes de capital investissement ;
+4) les organismes professionnels d'investissement à long terme (OPI).
+Article 191 -Un FIA peut être constitué sous la forme d'une société par actions ou d'un fonds
+dépourvu de la personnalité morale, dans les conditions définies dans le Règlement Général de la
+COSUMAF.
+Article 192 - La COSUMAF établit et tient à jour la liste des organismes de placement collectif et
+de leur société de gestion. Cette liste est publiée sur son site Internet.
+Article 193 - Les OPC doivent être agréés par la COSUMAF avant toute commercialisation sur le
+territoire des Etats membres de la CEMAC.
+Toute opération de transformation, de fusion et de scission d'un OPC est soumise à l'agrément de la
+COSUMAF.
+La COSUMAF précise dans son Règlement Général les règles de fonctionnement ainsi que les
+conditions et la procédure d'agrément, de transformation, de fusion et de scission des OPC.
+Article 194 - La liquidation d'un OPC agréé est soumise à l'autorisation préalable de la COSUMAF.
+La COSUMAF précise dans son Règlement Général les conditions et la procédure de liquidation des
+OPC.
+Sous - section 2 - Document d'information et Document d'information simplifié
+Article 195 - Avant toute commercialisation d'un OPC, un document d'information et un document
+d'information simplifié doivent être établis par la société de gestion ou l'OPC lors de la demande
+d'agrément.
+Article 196 - Le document d'information présente les caractéristiques de l'OPC permettant aux
+investisseurs de prendre en toute connaissance de cause une décision d'investissement.
+Le document d'information comporte une description claire et facile à comprendre du profil de risque
+de l'OPC, indépendamment des instruments dans lesquels il investit.
+Sont notamment précisés dans le document d'information :
+•
+l'orientation et les risques de la gestion ;
+les règles de valorisation et la fréquence de publication de la valeur liquidative ;
+la classification de l'OPC ;
+la durée de placement adaptée au produit ;
+41
+=== page 42 ===
+les frais d'entrée et de sortie ;
+les frais annuels de gestion ;
+la rémunération du dépositaire et du commissaire aux comptes.
+La COSUMAF précise dans son Règlement Général le contenu et le format du document
+d'information.
+Article 197 - Le document d'information simplifié présente dans un document sommaire les
+informations clés pour l'investisseur.
+Les informations clés pour l'investisseur s'entendent des informations appropriées sur les
+caractéristiques essentielles de l'OPC concerné, devant être fournies aux investisseurs afin que ceux-
+ci puissent raisonnablement comprendre la nature et les risques du produit d'investissement qui leur
+est proposé et, par voie de conséquence, prendre une décision d'investissement en toute connaissance
+de cause. Les informations clés doivent être compréhensibles pour l'investisseur, sans renvoi à
+d'autres documents.
+La COSUMAF précise dans son Règlement Général le contenu et format du document d'information
+simplifié.
+Sous-section 3- Classification
+Article 198 - Les OPC sont classés en différentes catégories, en fonction de leur stratégie
+d'investissement, de la composition et de la nature de leurs actifs.
+La COSUMAF précise, dans son Règlement Général, les modalités de classification des OPC, ainsi
+que les règles d'allocation des actifs.
+Section II- Obligations d'information
+Article 199 - Les OPC et leurs sociétés de gestion sont soumis à des obligations d'information dont
+le contenu, les modalités et le format sont précisés par la COSUMAF.
+Section III — Admission à la cote
+Article 200 - Sous réserve d'autorisation de la COSUMAF, les parts ou actions émises par les OPC
+peuvent être admises aux négociations à la Bourse des Valeurs Mobilières de l'Afrique Centrale.
+Section IV - Actifs des OPC
+Article 201 - La composition des actifs des OPC est fixée dans le Règlement Général de la
+COSUMAF.
+Article 202 - Sous réserve d'autorisation préalable de la COSUMAF, les actifs d'un OPC pourront
+comprendre, dans la limite de 150/0, des titres émis sur un marché situé en dehors de la zone CEMAC.
+42
+=== page 43 ===
+CHAPITRE 11 - SOCIETES DE GESTION D'OPC
+Section I- Agrément
+Article 203 - Les sociétés de gestion d'OPC doivent, avant de fournir leurs services, solliciter et
+obtenir leur agrément auprès de la COSUMAF.
+La COSUMAF détermine dans son Règlement Général les conditions et la procédure d' agrément des
+sociétés de gestion de portefeuille.
+La COSUMAF prévoit dans son Règlement Général les dispositions relatives à l'organisation et au
+fonctionnement des sociétés de gestion d'OPC.
+Article 204 - La COSUMAF peut retirer l'agrément accordé à une société de gestion d'OPC dans les
+cas prévus à l'article 168 du présent Règlement.
+Article 205 - La COSUMAF publie et tient à jour sur son site Internet la liste des sociétés de gestion
+d'OPC agréées.
+Article 206 - Les sociétés de gestion d'OPC sont obligatoirement constituées sous la forme de
+société anonyme avec conseil d'administration. Elles doivent établir leur siège social sur le territoire
+d'un État membre de la CEMAC.
+Section Il— Conditions d'exercice
+Article 207 - Un OPC peut assurer lui-même sa gestion ou la confier à une société de gestion d'OPC
+agréée par la COSUMAF.
+Article 208 - Une société de gestion d'OPC ne peut gérer qu'un seul type d'OPC.
+Pour l'application des dispositions du présent article, les OPC comprennent cinq (5) types :
+les OPCVM ;
+les organismes de titrisation ;
+les organismes de placement collectif immobilier ;
+les organismes de capital investissement ;
+les organismes professionnels d'investissement à long terme.
+Article 209 - Les sociétés de gestion d'OPC mettent en œuvre des politiques et des pratiques
+appropriées en matière de gouvernance, de gestion de la liquidité, de gestion des risques et
+d'évaluation des OPC.
+La COSUMAF précise dans son règlement général le contenu et les modalités de mise en œuvre des
+politiques et pratiques visées au présent article.
+Article 210 - Une société de gestion d'OPC ne peut en aucun cas contracter des emprunts pour le
+compte de l'OPC dont elle assure la gestion. Cette interdiction s'applique également à l'OPC assurant
+sa propre gestion.
+43
+=== page 44 ===
+Section 111— Délégation et sous-délégation de fonctions
+Article 211 - Une société de gestion d'OPC peut déléguer une partie de ses fonctions à une autre
+société de gestion d'OPC agréée par la COSUMAF.
+La société de gestion d'OPC ou l'entité délégataire peut également sous déléguer une partie de ses
+fonctions à une autre société de gestion d'OPC agréée.
+La délégation et la sous délégation des fonctions visées au présent article sont soumises à
+l'autorisation préalable de la COSUMAF.
+La COSUMAF précise dans son Règlement Général les conditions et modalités de la délégation et de
+la sous délégation de fonctions.
+CHAPITRE 111- DEPOSITAIRE D'OPC
+Section I - Dispositions Générales
+Article 212 - Les actifs d'un OPC sont conservés par un dépositaire unique, indépendant et distinct
+de cet OPC ou de la société de gestion.
+Article 213 - Le dépositaire d'OPC doit avoir son siège social établi sur le territoire d'un Etat
+membre de la CEMAC.
+Article 214 - La désignation du dépositaire est matérialisée par un contrat écrit conclu entre la société
+de gestion ou l'OPC et le Dépositaire. Cette désignation est précisée dans les statuts ou dans le
+règlement de gestion de l'OPC.
+Article 215 - Les fonctions de dépositaire d'OPC peuvent être exercées par :
+les établissements de crédit établis dans la zone CEMAC ;
+les sociétés de bourse ;
+les caisses de dépôts et consignations.
+Article 216 - Avant d'exercer leurs missions, l'établissement dépositaire doit solliciter et obtenir un
+agrément auprès de la COSUMAF.
+Article 217 - La COSUMAF tient à jour sur son site Internet, la liste des établissements dépositaires
+d'OPC agréés.
+Article 218 - Le Règlement Général de la COSUMAF détermine les conditions et la procédure
+d'agrément ainsi que les règles de fonctionnement des établissements dépositaires d'OPC.
+Section II - Fonctions du dépositaire d'OPC
+Article 219 - Le dépositaire d'OPC exerce les fonctions suivantes :
+la conservation des actifs ;
+44
+=== page 45 ===
+le contrôle de la régularité des décisions de l'OPC ou de la société de gestion ;
+l'intervention à certaines étapes de la vie de l'OPC.
+Article 220 - L'établissement dépositaire doit ouvrir un compte-espèces et un compte-titres au nom
+de chaque OPC.
+Article 221 -Le dépositaire assume une obligation de garde des actifs de l'OPC. En toutes
+circonstances, il veille à la correspondance entre les avoirs conservés et les titres inscrits aux comptes
+des souscripteurs. Il ne peut utiliser pour son propre compte les titres dont il assure la conservation.
+Le dépositaire assume en outre une obligation de restitution des actifs qui lui sont confiés.
+Article 222 - Dans le cadre de ses fonctions, le dépositaire est chargé de :
+1) recevoir les souscriptions ;
+2) effectuer les rachats d'actions ou de parts d'OPC ;
+3) s'assurer de l'exécution des ordres d'achat et de vente de titres ainsi que de ceux relatifs
+à l'exercice des droits de souscription ou d'attribution attachés aux titres composant
+l'actif de l'OPC ;
+4) assurer les encaissements et les paiements.
+Article 223 - Le dépositaire est tenu d'informer IT)PC des opérations relatives aux actifs conservés
+pour son compte.
+Article 224 - Le dépositaire doit informer sans délai l'établissement gestionnaire :
+1) de l'exécution des opérations relatives aux titres et aux espèces ;
+2) des événements affectant la vie des titres, lorsqu'il en a eu connaissance.
+Article 225 - Dans le cadre de l'exercice de sa mission de contrôle de la régularité des décisions de
+l'OPC ou de la société de gestion, le dépositaire assure les fonctions suivantes :
+1) contrôle de la régularité des décisions d'investissement ;
+2) contrôle de l'établissement de la valeur liquidative ;
+3) contrôle des règles relatives au montant de l'actif minimum de l'OPC ;
+4) contrôle de l'organisation comptable.
+Le dépositaire doit veiller à recevoir du gestionnaire toutes les informations lui permettant d'effectuer
+ces différents contrôles.
+Article 226 - Lorsque, dans le cadre de ses différents contrôles, le dépositaire constate des anomalies
+ou des irrégularités, il doit adresser au gestionnaire une demande de régularisation.
+Si, dans un délai de dix jours calendaires, aucune réponse n'est formulée par le gestionnaire, le
+dépositaire lui adresse une mise en demeure.
+45
+=== page 46 ===
+Le dépositaire informe sans délai l'OPC, le commissaire aux comptes et la COSUMAF des
+manquements relevés.
+Article 227 - Le dépositaire intervient à différentes étapes de la vie des OPC :
+1) à la création, le dépositaire est chargé de :
+établir, en collaboration avec l'établissement gestionnaire, le règlement de
+gestion du fonds ;
+établir l'attestation de dépôt des fonds correspondant au montant minimum des
+actifs ou du capital social de l'OPC ;
+2) en cours de vie de l'OPC, le dépositaire doit être informé par la société de gestion de
+tout changement relatif aux dirigeants, à l'organisation de l'OPC, au contenu du
+document d'information de l'OPC, au règlement ou aux statuts de l'OPC ;
+3) en cas de liquidation, le dépositaire s'assure que les conditions de liquidation et, en
+particulier, les modalités de répartition des actifs, sont conformes aux dispositions
+prévues dans le règlement ou les statuts de l'OPC.
+Article 228 - La COSUMAF précise dans son Règlement Général les modalités d'application de la
+présente section.
+Section III - Délégation des fonctions du Dépositaire
+Article 229 - Le Dépositaire d'OPC peut déléguer une partie de ses fonctions à un autre dépositaire
+d'OPC.
+La délégation des fonctions visée au présent article est soumise à l'autorisation préalable de la
+COSUMAF.
+La COSUMAF précise dans son Règlement Général les conditions et modalités de la délégation de
+fonctions.
+Section IV- Responsabilité du dépositaire
+Article 230 - Le dépositaire est responsable à l'égard de l'OPC et des actionnaires ou porteurs de
+parts de la perte par lui ou par son délégataire, des actifs conservés. Le dépositaire est dans ce cas
+tenu de restituer sans délai à l'OPC ou à la société de gestion un actif de type identique ou un montant
+correspondant.
+La responsabilité du dépositaire est écartée s'il est en mesure de prouver que la perte résulte d'un
+événement extérieur échappant à son contrôle et dont les conséquences auraient été inévitables malgré
+tous les efforts raisonnables déployés pour les éviter.
+Article 231 - La responsabilité du dépositaire ne peut pas être exclue ou limitée contractuellement.
+Toute clause contraire est réputée non écrite.
+46
+=== page 47 ===
+Article 232 - Les actionnaires ou porteurs de parts de l'OPC peuvent invoquer la responsabilité du
+dépositaire directement ou indirectement par le biais de l'OPC ou de sa société de gestion.
+Section V - Règles de fonctionnement
+Article 233 - Dans l'exercice de leurs fonctions respectives, l'OPC ou sa société de gestion et le
+dépositaire agissent de manière honnête, loyale, professionnelle, indépendante et uniquement dans
+l'intérêt de l'OPC et des investisseurs de l'OPC.
+Article 234 - Lorsqu'un dépositaire exerce des activités de nature à entraîner des conflits d'intérêts
+entre l'OPC, les investisseurs dudit OPC, la société de gestion et lui-même, il est tenu de séparer sur
+le plan fonctionnel et hiérarchique les tâches de dépositaire de ses autres tâches potentiellement
+conflictuelles.
+Le dépositaire doit en outre mettre en place les mesures et procédures permettant de détecter, gérer,
+suivre et communiquer aux investisseurs de l'OPC les conflits d' intérêts potentiels.
+Article 235 - Le Règlement Général de la COSUMAF définit les conditions de remplacement de la
+société de gestion d'OPC et du dépositaire et prévoit des règles permettant d'assurer la protection des
+actionnaires ou porteurs de parts lors d'un tel remplacement.
+CHAPITRE IV- OPC ETRANGERS
+Article 236 - Les entités étrangères émettrices de titres gérés en portefeuille ou les établissements
+gestionnaires non-résidents qui souhaitent commercialiser en zone CEMAC des OPC constitués ou
+gérés par eux doivent, à cet effet, mandater un correspondant local.
+Le correspondant visé au présent article doit être désigné parmi les sociétés de gestion d'OPC agréées
+par la COSUMAF.
+Article 237 - La commercialisation des OPC étrangers est soumise à la production d'un document
+d'information simplifié et au respect des dispositions relatives à la réglementation des changes en
+vigueur dans la CEMAC. Le document d'information simplifié est soumis au visa préalable de la
+COSUMAF avant toute communication au public et avant toute commercialisation de l'OPC.
+Article 238 - Les actifs de l'OPC étranger doivent être conservés par un dépositaire répondant à des
+exigences au moins similaires à celles prévues pour les dépositaires d'OPC agréés par la COSUMAF.
+La COSUMAF précise dans son Règlement Général le contenu du document d'information simplifié
+visé au présent article ainsi que les autres obligations d'information attachées à la commercialisation
+en zone CEMAC d'OPC étrangers.
+Article 239 - Les titres d'OPC étrangers commercialisés par les sociétés de gestion d'OPC agréées
+par la COSUMAF nep ent, en aucun cas, représenter plus du cinquième (1/5ème) des actifs gérés
+par lesdites sociétés.
+47
+=== page 48 ===
+TITRE VII - AUTRES STRUCTURES SOUMISES AU CONTROLE DE LA COSUMAF
+Article 240 - Les autres structures soumises au contrôle de la COSUMAF sont :
+les agences de notation ;
+le Fonds de Garantie du Marché ;
+les organismes de garantie.
+CHAPITRE 1 - AGENCES DE NOTATION
+Article 241 - Les agences de notation ont pour objet d'apprécier le risque de solvabilité financière
+d'un émetteur ou d'une opération portant sur les instruments financiers ou autres actifs financiers.
+Article 242 - Avant toute intervention sur le marché financier régional, les agences de notation
+doivent solliciter et obtenir un agrément auprès de la COSUMAF.
+Les agences de notation informent, au plus tard dans les cinq (5) jours ouvrés, la COSUMAF de toute
+modification ayant une incidence sur le respect des conditions de leur agrément.
+Article 243 - Les agences de notation agissent avec intégrité, transparence et responsabilité. Elles
+respectent les principes de bonne gouvernance et d'indépendance des activités de notation de crédit,
+afin de contribuer à la qualité des notations émises dans la CEMAC et au bon fonctionnement du
+marché.
+Article 244 - Les agences de notation possèdent les moyens humains, financiers et techniques
+nécessaires à leurs activités.
+Article 245 - Les agences de notation prennent toute mesure nécessaire pour garantir que l'émission
+d'une notation n'est affectée par aucun conflit d'intérêts, ni aucune relation commerciale, existants
+ou potentiels, impliquant l'agence de notation, ses dirigeants, ses analystes, ses salariés, toute autre
+personne physique intervenant à un titre quelconque au sein dudit organisme ou toute personne qui
+lui est liée directement ou indirectement par une relation de contrôle.
+Les agences de notation se dotent d'un dispositif de gestion des informations privilégiées et de
+prévention des abus de marché.
+Article 246 - Le Règlement Général de la COSUMAF fixe les conditions d'émission et de
+publication des notations de crédit ainsi que les règles de bonne conduite, organisationnelles, et celles
+relatives aux publications des agences de notation de crédit.
+Article 247 - Le Règlement Général de la COSUMAF précise les conditions et la procédure
+d'agrément des agences de notation.
+CHAPITRE 11 - FONDS DE GARANTIE DU MARCHE
+Article 248 - Il est institué un Fonds de garantie du Marché Financier de l'Afrique Centrale, en
+abrégé « FOGAMAF ».
+Le Règlement Général de la COSUMAF précise l'objet, les missions, les règles de fonctionnement
+et de gestion du Fonds de Garantie du Marché Financier de l'Afrique Centrale, visé au présent article.
+48
+=== page 49 ===
+CHAPITRE 111 - ORGANISMES DE GARANTIE DES EMISSIONS
+Article 249 - Un émetteur faisant appel public à l'épargne peut faire recours à un organisme de
+garantie, personne morale dont le rôle consiste à assurer la couverture du risque de défaillance et
+d'incapacité de l'émetteur à tenir ses engagements sur le marché.
+Article 250 - Avant de pouvoir exercer ses activités, l'organisme de garantie est tenu de solliciter et
+obtenir un agrément auprès de la COSUMAF.
+Article 251 - Le Règlement Général de la COSUMAF précise les conditions et la procédure
+d'agrément des organismes de garantie visés au présent chapitre.
+49
+=== page 50 ===
+TITRE VIII - SANCTIONS
+CHAPITRE 1- DISPOSITIONS GENERALES
+Article 252 - Les dispositions du présent Titre s'appliquent aux personnes, organismes et entités
+agréés et à toute autre personne soumise au contrôle de la COSUMAF ou intervenant sur le Marché
+Financier Régional. Ces dispositions visent également toute autre personne qui se rend coupable d'un
+manquement ou d'une pratique illicite visée au présent Titre.
+Article 253 - Sont illicites au sens du présent Règlement et donnent lieu à l'application des sanctions,
+les pratiques ayant pour objet ou pour effet de :
+fausser le fonctionnement du Marché Financier Régional ;
+procurer, directement ou indirectement, à leurs auteurs ou à des tiers un avantage injustifié
+qu'ils n'auraient pas obtenu dans le cadre du fonctionnement normal du marché ;
+porter atteinte à l'égalité de traitement et d'information des investisseurs ou à leurs intérêts ;
+faire bénéficier quiconque d'agissements contraires à des obligations déontologiques ou
+professionnelles.
+Article 254 - Les sanctions prononcées par la COSUMAF en vertu des dispositions du présent Titre
+doivent intervenir dans le cadre d'une procédure contradictoire. A cet effet, les personnes mises en
+cause doivent, préalablement :
+être mises en mesure de faire des observations sur les griefs qui leur sont opposés ;
+être informées de leur droit à obtenir copie du dossier les concernant ;
+être convoquées et entendues ;
+être informées de leur droit à se faire assister ou représenter par le conseil de leur choix.
+Article 255 - Le montant des sanctions pécuniaires prononcées par la COSUMAF est déterminé,
+dans la limite des montants indiqués dans le présent règlement, en fonction de la gravité des
+manquements relevés, de la qualité de l'auteur des manquements, des avantages ou des profits tirés
+de ces manquements et des préjudices causés aux épargnants.
+Article 256 - Les juridictions pénales et la Commission des sanctions de la COSUMAF ne peuvent
+être saisies de faits remontant à plus de dix (10) ans s'il n'a été fait pendant ce délai aucun acte tendant
+à leur recherche, à leur constatation ou à leur sanction.
+En cas d'infraction occulte ou dissimulée, le délai de prescription court à compter du jour où
+l'infraction est apparue et a pu être constatée dans des conditions permettant sa poursuite.
+Est occulte l'infraction qui, en raison de ses éléments constitutifs, ne peut être connue ni de la
+COSUMAF ni de l'autorité judiciaire.
+Est dissimulée l'infraction dont l'auteur accomplit délibérément toute manœuvre caractérisée tendant
+à en empêcher la découverte.
+50
+=== page 51 ===
+Article 257 - La COSUMAF peut transmettre à la juridiction saisie d'une action en réparation d'un
+préjudice qui en fait la demande, les procès-verbaux et les rapports d'enquête ou de contrôle qu'elle
+détient et dont la production est utile à la solution du litige.
+Article 258 - Toute décision de sanction pécuniaire de la COSUMAF est exécutoire par provision,
+nonobstant tout recours devant le juge Communautaire. Tout recours contre la décision de la
+COSUMAF porté devant le juge Communautaire est subordonné au paiement préalable, par
+l'organisme ou la personne sanctionnée, de 50% du montant de la sanction pécuniaire prononcée,
+placé dans un compte séquestre.
+CHAPITRE 11- SANCTIONS DISCIPLINAIRES ET PECUNIAIRES
+Section I — Manquements à la transparence et au bon fonctionnement du marché
+Article 259 - Sans préjudice des dispositions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA, sans pouvoir excéder le décuple de l'avantage retiré du manquement, le fait, pour toute
+personne, organisme ou entité de réaliser une opération d' initié.
+Constitue une opération d'initié le fait pour toute personne détenant une information privilégiée, d'en
+faire usage en acquérant ou en cédant, pour son propre compte ou pour le compte d'un tiers,
+directement ou indirectement, des instruments financiers auxquels cette information se rapporte.
+L'utilisation d'une information privilégiée pour annuler ou pour modifier un ordre concernant un
+instrument financier auquel cette information se rapporte, lorsque l'ordre avait été passé avant que la
+personne concernée ne détienne l' information privilégiée, constitue également une opération d' initié.
+Est puni des sanctions prévues à l'alinéa précédent, le détenteur d'une information privilégiée qui :
+recommande, sur la base de cette information, qu'une autre personne acquière ou cède des
+instruments financiers auxquels cette information se rapporte, ou incite cette personne à
+procéder à une telle acquisition ou à une telle cession ;
+ou recommande, sur la base de cette information, qu'une autre personne annule ou modifie un
+ordre relatif à un instrument financier auquel cette information se rapporte, ou incite cette
+personne à procéder à une telle annulation ou à une telle modification.
+L'utilisation des recommandations ou des incitations visées au présent article constitue une opération
+d'initié lorsque la personne qui utilise la recommandation ou l'incitation sait, ou devrait savoir, que
+celle-ci est basée sur des informations privilégiées.
+Une information privilégiée est une information à caractère précis qui n'a pas été rendue publique,
+qui concerne, directement ou indirectement, un ou plusieurs émetteurs, ou un ou plusieurs instruments
+financiers, et qui, si elle était rendue publique, serait susceptible d'influencer de façon sensible le
+cours des instruments financiers concernés ou le cours d'instruments financiers dérivés qui leur sont
+liés.
+Article 260 - Sans préjudice des dispositions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA, sans pouvoir excéder le décuple de l'avantage retiré du manquement, le fait, pour toute
+personne, organisme ou entité de procéder à une divulgation illicite d'information privilégiée
+51
+=== page 52 ===
+Constitue une divulgation illicite d'information privilégiée le fait pour toute personne détenant une
+information privilégiée, de la divulguer à une autre personne, sauf lorsque cette divulgation a lieu
+dans le cadre normal de l'exercice d'un travail, d'une profession ou de fonctions.
+La divulgation ultérieure des recommandations ou incitations visées à l'article 259 du présent
+Règlement, constitue une divulgation illicite d'informations privilégiées au sens du présent article
+lorsque la personne qui divulgue la recommandation ou l'incitation sait, ou devrait savoir, qu'elle
+était basée sur des informations privilégiées.
+Article 261 - Sans préjudice des dispositions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA, sans pouvoir excéder le décuple de l'avantage retiré du manquement, le fait, pour toute
+personne, organisme ou entité de commettre une manipulation de marché.
+Constitue une manipulation de marché le fait pour toute personne de diffuser des informations, que
+ce soit par l'intermédiaire des médias, dont l'Internet, ou par tout autre moyen, qui donnent ou sont
+susceptibles de donner des indications fausses ou trompeuses en ce qui concerne l'offre, la demande
+ou le cours d'un instrument financier, ou fixent ou sont susceptibles de fixer à un niveau anormal ou
+artificiel le cours d'un ou de plusieurs instruments financiers, y compris le fait de répandre des
+rumeurs, alors que la personne ayant procédé à une telle diffusion savait ou aurait dû savoir que ces
+informations étaient fausses ou trompeuses.
+Sera punie des mêmes peines, toute personne qui :
+l) effectue une transaction, passe un ordre ou adopte tout autre comportement qui donne ou
+est susceptible de donner des indications fausses ou trompeuses en ce qui concerne l'offre,
+la demande ou le cours d'un instrument financier ou fixe ou est susceptible de fixer à un
+niveau anormal ou artificiel le cours d'un ou de plusieurs instruments financiers ;
+2) effectue une transaction, passe un ordre ou effectue toute autre activité ou adopte tout autre
+comportement influençant ou étant susceptible d'influencer le cours d'un ou de plusieurs
+instruments financiers, en ayant recours à des procédés fictifs ou à toute autre forme de
+tromperie ou d'artifice.
+Article 262 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à dix millions (10.000.000) de francs CFA, toute personne, organisme ou entité qui, à la suite du
+franchissement des seuils de participation au capital d'une société dont les titres sont admis à la
+Bourse Régionale, tels que fixés à l' Article 99 - du présent Règlement, a omis de procéder aux
+déclarations requises.
+Article 263 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à dix millions (10.000.000) de francs CFA, le fait pour toute personne, organisme ou entité de
+porter à la connaissance du public, par voie de publication, de communication de documents ou
+autrement, tout cours qui ne serait pas extrait de la cote ou d'un document établi par les autorités
+boursières.
+52
+=== page 53 ===
+Est passible de la même peine, le fait pour toute personne, organisme ou entité de procéder à une
+communication de cours sans mentionner expressément, avec indication de la date, la référence à la
+cote ou au document d'où ledit cours est extrait.
+Section II — Manquements à la réglementation de l'appel public à l'épargne
+Article 264 - Sans préjudice des dispositions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à vingt cinq millions (25.000.000) de
+francs CFA, sans pouvoir excéder le décuple de l'avantage retiré du manquement, le fait pour tout
+émetteur ou toute autre personne de procéder à un appel public à l'épargne sans que le document
+d'information prévu à l'Article 80 - du présent Règlement ait reçu le visa préalable de la COSUMAF.
+En outre, la COSUMAF peut faire procéder au blocage des comptes ou à la saisie des sommes de
+toute personne physique ou morale s'étant livrée à une opération illicite d' Appel Publique à I 'Épargne.
+Article 265 - Sans préjudice des dispositions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA, sans pouvoir excéder le décuple de l'avantage retiré du manquement, tout intermédiaire ou
+établissement financier qui participe au placement d'instruments financiers dans le cadre d'un appel
+public à l'épargne pour lequel l'émetteur ou le cédant n'a pas soumis le document d'information visé
+à l' Article 80 - du présent Règlement au visa préalable de la COSUMAF.
+Article 266 - Est passible d'une sanction pécuniaire d'un montant supérieur ou égal à cinq millions
+(5.000.000) de francs CFA le fait pour tout émetteur faisant appel public à l'épargne de violer ses
+obligations en matière de publication et de diffusion de l'information financière permanente et
+périodique ou d'établissement des listes d'initiés.
+Section III — Manquements à la réglementation des organismes de placement collectif
+Article 267 - Sans préjudice des dispositions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à cinq millions (5.000.000) de francs
+CFA, le fait pour toute personne, agissant pour son propre compte ou pour le compte d'une autre
+personne, de faire usage d'une dénomination commerciale, d'une publicité, de sigles ou d'une
+terminologie faisant croire qu'elle est agréée en qualité d'organisme de placement collectif.
+Article 268 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA :
+1) les dirigeants d'un organisme de placement collectif, ceux d'un établissement gestionnaire
+d'un établissement dépositaire ainsi que toute personne agissant pour leur compte ou placée
+sous leur responsabilité, qui exécutent des instructions contraires à la réglementation des
+organismes de placement collectif ou aux stipulations de leurs statuts ou règlement de gestion ;
+2) les dirigeants d'un organisme de placement collectif ou ceux de l'établissement gestionnaire
+d'un tel organisme qui procèdent à des emprunts d'espèces en violation de la réglementation
+en vigueur ;
+53
+=== page 54 ===
+3) les dirigeants d'un organisme de placement collectif ou ceux de l'établissement gestionnaire
+d'un tel organisme qui n'auront pas procédé à la désignation d'un commissaire aux comptes
+agréé par la COSUMAF ou ne l'auront pas convoqué aux assemblées générales des
+actionnaires de l'organisme ou de son établissement gestionnaire ;
+4) les administrateurs d'un organisme de placement collectif ou de son établissement gestionnaire
+qui n'auront pas convoqué l'assemblée générale annuelle dans les cinq (5) mois suivant la
+clôture de l'exercice ou qui n'auront pas soumis à l'approbation de ladite assemblée les
+comptes annuels et les autres documents de synthèse ;
+5) les dirigeants d'un organisme de placement collectif ou ceux de son établissement gestionnaire
+qui auront omis, lorsque les circonstances l'exigent, de procéder à la suspension du rachat ou
+de l'émission de parts ou actions, ou qui auront omis d'informer la COSUMAF de ladite
+suspension ;
+6) les dirigeants d'un organisme de placement collectif ou ceux de l'établissement gestionnaire
+et de l'établissement dépositaire, ainsi que toute personne placée sous leur autorité ou agissant
+pour leur compte, qui auront sciemment fait obstacle aux vérifications ou aux contrôles du
+commissaire aux comptes, ou qui auront refusé de lui communiquer des pièces utiles à
+l'exercice de sa mission ;
+7) les dirigeants d'un organisme de placement collectif, ceux de l'établissement gestionnaire ou
+de l'établissement dépositaire qui :
+ne se conforment pas aux règles d'évaluation des actifs apportés à l'organisme de
+placement collectif ;
+n'établissent pas la valeur liquidative avec la fréquence requise ;
+omettent de déclarer à la COSUMAF et de solliciter son autorisation préalable en cas
+de changements importants affectant l'un quelconque des éléments du dossier
+d'agrément ;
+procèdent à des opérations de transformation, de fusion ou de scission en violation des
+dispositions du Règlement Général et des instructions de la COSUMAF.
+Article 269 - Sans préjudice des dispositions pénales applicables, sont passibles d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA les dirigeants de droit ou de fait d'un organisme de placement collectif qui procèdent à des
+placements collectifs sans que celui-ci ait été agréé par la COSUMAF.
+Article 270 - Sans préjudice des dispositions pénales applicables, sont passibles d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA, les dirigeants d'un organisme de placement collectif, ceux de l'établissement gestionnaire ou
+de l'établissement dépositaire qui procèdent à la collecte de l'épargne auprès du public sans que le
+document d'information ait reçu le visa préalable de la COSUMAF.
+Section IV — Manquements relatifs à la Commission de Surveillance du Marché Financier de
+l'Afrique Centrale
+54
+=== page 55 ===
+Article 271 - Sans préjudice des sanctions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à cinq millions (5.000.000) de francs
+CFA, le fait pour tout membre du Collège ou de la Commission des sanctions, tout dirigeant, tout
+membre du personnel, tout préposé, toute personne agissant pour le compte de la COSUMAF, tout
+expert mandaté ou désigné en son sein, ou toute personne participant aux délibérations de la
+COSUMAF, de violer le secret professionnel auquel il est soumis en vertu du présent Règlement et
+de toutes autres dispositions régissant le fonctionnement de la COSUMAF ou du Marché Financier
+Régional.
+Article 272 - Sans préjudice des sanctions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA, le fait pour toute personne de faire obstacle, par son comportement ou ses agissements, au bon
+déroulement d'une mission de contrôle ou d'enquête de la COSUMAF effectuée en application des
+dispositions du présent Règlement et du Règlement Général de la COSUMAF.
+Les peines visées au présent article s' appliquent notamment à toute personne :
+• qui refuse, aux inspecteurs ou enquêteurs de la COSUMAF, l'accès aux locaux à usage
+professionnel ;
+• qui refuse la communication de documents et informations aux inspecteurs ou enquêteurs de
+la COSUMAF ;
+• qui refuse de déférer à une convocation pour une audition ;
+• qui communique, aux inspecteurs ou enquêteurs de la COSUMAF, des renseignements
+inexacts ou incomplets.
+Section V — Manquements relatifs aux organismes centraux et aux intermédiaires de marché
+Article 273 - Sans préjudice des sanctions pénales applicables, sont passibles d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à cinq millions (5.000.000) de francs
+CFA :
+l) tout administrateur, dirigeant, membre du personnel, préposé, toute personne agissant pour le
+compte de la Bourse Régionale ou du Dépositaire Central, ou tout expert désigné en leur sein,
+qui viole le secret professionnel auquel il est soumis ;
+2) les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché, qui n'auront
+pas, pour chaque exercice social, établi, arrêté et fait procéder à l'approbation des états
+financiers de synthèse de leur entreprise, en application de dispositions de l'Acte uniforme
+OHADA relatif au droit des sociétés commerciales et du groupement d'intérêt économique ou
+qui n'auront pas procédé à la publication des états financiers de synthèse de leur entreprise
+telle que prévue par ledit Acte uniforme ;
+3) les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché qui n'auront
+pas procédé à la désignation ou au remplacement des commissaires aux comptes de leur
+entreprise dans les délais réglementaires ;
+4) les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché qui auront
+omis de convoquer les commissaires aux comptes aux assemblées générales ;
+55
+=== page 56 ===
+5) les dirigeants ou toute personne placée sous l'autorité ou agissant pour le compte d'un
+organisme central du marché ou d'un intermédiaire de marché, qui auront, d'une quelconque
+manière, mis obstacle aux diligences et contrôles des commissaires aux comptes, ou qui auront
+refusé de leur communiquer les documents et informations utiles à l'exercice de leur mission ;
+6) les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché qui auront
+omis de déclarer à la COSUMAF et de solliciter son autorisation préalable en cas de
+changements importants affectant l'un quelconque des éléments et informations fournis dans
+le cadre de leur agrément initial ;
+7) les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché qui n'auront
+pas respecté les obligations de communication à la COSUMAF des informations périodiques,
+permanentes ou occasionnelles exigées des structures agréées du marché ;
+8) les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché qui n'auront
+pas désigné un responsable du contrôle interne ou sollicité, pour l'intéressé, la délivrance d'une
+carte professionnelle ;
+9) les dirigeants d'un organisme central du marché ou d'un intermédiaire qui auront omis de
+respecter les obligations de vigilance imposées en matière de lutte contre le blanchiment
+d'argent et de financement du terrorisme et qui n'auront pas établi une déclaration de soupçon
+dans les circonstances visées dans le Règlement Général de la COSUMAF ;
+10)les dirigeants d'un organisme central du marché ou d'un intermédiaire qui n'auront pas
+respecté la tarification admise sur le marché ou qui n'auront pas sollicité l'homologation de
+leurs tarifs ;
+11)les dirigeants d'un organisme central du marché ou d'un intermédiaire qui auront omis
+d'adresser à la COSUMAF le rapport annuel de contrôle interne prévu au Règlement Général
+de la COSUMAF ;
+12)les dirigeants d'un organisme central du marché ou d'un intermédiaire de marché qui auront
+refusé de déférer à une injonction de la COSUMAF ;
+13)les dirigeants d'un organisme central du marché qui n'auront pas sollicité l'autorisation
+préalable de la COSUMAF, pour toute décision de l'assemblée générale des actionnaires
+statuant sur une modification du capital social ;
+14)les dirigeants d'un organisme central du marché qui n'auront pas sollicité l'autorisation
+préalable de la COSUMAF pour la fixation du montant du capital social, des conditions de sa
+souscription et des modalités de sa répartition entre les actionnaires ;
+15)les dirigeants d'un organisme central du marché qui auront omis de solliciter, auprès de la
+COSUMAF, l'agrément d'un actionnaire de leur structure ;
+16)les dirigeants d'un organisme central du marché qui auront omis d'informer sans délai la
+COSUMAF de toute irrégularité relevée dans leur activité, de tout dysfonctionnement majeur
+survenu dans les processus d'enregistrement et de traitement des valeurs admises à leurs
+opérations et de porter à sa connaissance les sanctions ou mesures éventuellement appliquées.
+56
+=== page 57 ===
+Article 274 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA :
+1) les dirigeants de la Bourse Régionale qui omettent de publier et de communiquer à la
+COSUMAF, après chaque séance de cotation, les transactions réalisées ;
+2) les dirigeants de la Bourse Régionale qui ne respectent pas leurs obligations de diffusion
+équitable de l'information boursière, en veillant à garantir l'égalité de traitement et
+d'information des intervenants, des acteurs du marché et du public dans les Etats membres de
+la CEMAC ;
+3) les dirigeants de la Bourse Régionale qui ne respectent pas leurs obligations relatives à la
+suspension de la cotation d'un titre ou à la radiation de la cote ;
+4) les dirigeants de la Bourse Régionale qui omettent de solliciter la non-opposition de la
+COSUMAF à l'admission d'une valeur à la cote.
+Article 275 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à dix millions (10.000.000) de francs CFA, les organismes centraux et les intermédiaires de
+marché qui n'auront pas mis en place un dispositif de lutte contre le blanchiment des capitaux et le
+financement du terrorisme ou qui n' auront pas procédé aux diligences et déclarations correspondantes
+prévues par la réglementation en vigueur.
+Article 276 - Sont passibles d'une sanction pécuniaire d'un montant supérieur ou égal à cinq millions
+(5.000.000) de francs CFA et, en cas de récidive, d'un retrait d'agrément, les intermédiaires de
+marché qui n'auront pas procédé à la certification, à l'approbation et à la publication de leurs comptes
+annuels.
+Article 277 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA et, en cas de récidive, d'un retrait d'agrément, la
+société de bourse ou le chef de file du syndicat de placement qui n'aura pas, dans un délai de huit (8)
+jours après la clôture des opérations de souscription de titres, rendu public et communiqué à
+l'émetteur et à la COSUMAF le rapport de clôture de l'opération, ou qui n'aura pas, dans le même
+délai, mis les fonds levés à la disposition de l'émetteur.
+Article 278 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, la société de bourse qui n'aura pas établi et tenu à
+jour des listes de surveillance.
+Constitue une liste de surveillance, la liste établie par le responsable de la conformité recensant les
+émetteurs et les instruments financiers sur lesquels la société de bourse dispose d'une information
+privilégiée.
+Article 279 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, la société de bourse qui n'aura pas établi et tenu à
+jour des listes d'initiés.
+Constitue une liste d'initié la liste établie par les émetteurs ou par toute personne agissant en leur nom
+ou pour leur compte, recensant toutes les personnes qui ont accès aux informations privilégiées, et
+qui travaillent pour eux en vertu d'un contrat de travail ou exécutent des tâches leur donnant accès à
+des informations privilégiées, comme les conseillers, les comptables ou les agences de notation de
+crédit. Cette liste est régulièrement mise à jour et communiquée à la COSUMAF.
+57
+=== page 58 ===
+Article 280 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, la société de bourse qui n'aura pas établi et tenu à
+jour des « barrières à l'information ».
+Les « barrières à l'information » consistent, pour les sociétés de bourse, à établir et garder
+opérationnelles des procédures appropriées de contrôle de la circulation et de l'utilisation des
+informations privilégiées, en tenant compte des activités exercées par le groupe auquel elles
+appartiennent et de l'organisation adoptée au sein de celui-ci.
+Ces procédures dites « barrières à l'information » prévoient :
+l) l'identification des secteurs, services, départements ou toutes autres entités, susceptibles de
+détenir des informations privilégiées ;
+2) l'organisation, notamment matérielle, conduisant à la séparation des entités au sein desquelles
+les dirigeants, membres du personnel des sociétés de bourse et toute autre personne intervenant
+à un titre quelconque au sein de ces sociétés, sont susceptibles de détenir des informations
+privilégiées ;
+3) l'interdiction, pour les personnes mentionnées au (2) du présent article, détentrices d'une
+information privilégiée, de la communiquer à d'autres personnes sauf lorsque cette divulgation
+a lieu dans le cadre normal de l'exercice d'un travail, d'une profession ou de fonctions ;
+4) les conditions dans lesquelles les sociétés de bourse peuvent autoriser une personne
+mentionnée au (2) du présent article et affectée à une entité donnée, à apporter son concours à
+une autre entité, dès lors qu'une de ces entités est susceptible de détenir des informations
+privilégiées. Le responsable de la conformité est informé lorsque la personne concernée
+apporte son concours à l'entité détentrice des informations privilégiées et lorsque ce concours
+prend fin ;
+5) la manière dont la personne concernée bénéficiant de l'autorisation prévue au (4) du présent
+alinéa est informée des conséquences temporaires de celles-ci sur l'exercice de ses fonctions
+habituelles.
+Section VI — Manquements relatifs aux commissaires aux comptes
+Article 281 - Sans préjudice des sanctions pénales applicables, est passible d'une sanction
+disciplinaire et/ou pécuniaire d'un montant supérieur ou égal à dix millions (10.000.000) de francs
+CFA tout commissaire aux comptes intervenant auprès d'un émetteur faisant appel public à l'épargne,
+d'un organisme du marché, d'un intermédiaire, d'un organisme de placement collectif, de son
+établissement gestionnaire, de son dépositaire ou de toute autre structure agréée du marché :
+l) qui aura sciemment donné ou confirmé des informations mensongères sur la situation d'une
+structure de marché auprès de laquelle il intervient ;
+2) qui n'aura pas porté à la connaissance de la COSUMAF et à celle de l'assemblée générale
+des actionnaires de la structure contrôlée les irrégularités ou inexactitudes qu'il aura relevées
+dans l'exercice de sa mission ;
+58
+=== page 59 ===
+3) qui aura omis, lorsque des circonstances particulières l'exigent, de convoquer l'assemblée
+générale de la structure contrôlée ;
+4) qui aura omis de déclarer à la COSUMAF et de solliciter son autorisation préalable en cas de
+changements importants affectant l'un quelconque des éléments produits lors de la demande
+d'agrément ;
+5) qui n'aura pas informé la COSUMAF du déclenchement d'une procédure d'alerte visant un
+émetteur faisant appel public à l'épargne ou une structure agréée par la COSUMAF •
+6) qui aura violé les obligations d'information prescrites dans le présent Règlement et dans le
+Règlement Général de la COSUMAF.
+Section VII — Manquements divers
+Article 282 - Est passible d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à dix millions (10.000.000) de francs CFA, le fait pour toute personne, structure ou organisme
+soumis à l'agrément de la COSUMAF, d'exercer des activités sur le marché sans avoir préalablement
+sollicité et obtenu ledit agrément.
+Article 283 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, les personnes, structures ou organismes visés à
+l' Article 19 du présent Règlement qui auront omis de respecter l'obligation de déclaration à la
+COSUMAF de leurs transactions et opérations en bourse.
+Article 284 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, les personnes, structures ou organismes visés à
+l'Article 19 - du présent Règlement qui ont omis d'informer la COSUMAF de toute évolution
+importante qui intervient dans leur organisation, fonctionnement, activité ou leur situation financière.
+La même peine est applicable lorsque lesdites personnes ont omis d'informer la COSUMAF et, le
+cas échéant, de solliciter son autorisation préalable en cas de modification des documents et
+informations contenus dans le dossier d'agrément initial de leur structure.
+Article 285 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, les personnes, structures ou organismes visés à
+l' Article 19 - du présent Règlement qui ont omis de conserver, pendant au moins cinq (5) ans, les
+informations pertinentes relatives aux prestations effectuées, aux transactions sur instruments
+financiers, aux opérations d'appel public à l'épargne auxquelles elles ont pris part, ou à toute autre
+opération ou service accompli dans le cadre du fonctionnement du marché.
+Article 286 - Sont passibles d'une sanction disciplinaire et/ou pécuniaire d'un montant supérieur ou
+égal à cinq millions (5.000.000) de francs CFA, les personnes, structures ou organismes visés à
+l'Article 19 - du présent Règlement qui ont omis de respecter l'obligation de déclaration à la
+COSUMAF des transactions dont ils ont des raisons de suspecter qu'elles pourraient constituer des
+abus de marché.
+Article 287 - La COSUMAF peut prononcer une sanction pécuniaire d'un montant supérieur ou égal
+à dix millions (10.000.000) de francs CFA et/ou l'une des sanctions disciplinaires prévues à l'Article
+59
+=== page 60 ===
+33 - du présent Règlement, à l'encontre de l'auteur de toute autre pratique de nature à porter atteinte
+à la protection des investisseurs ou au bon fonctionnement du Marché Financier Régional.
+CHAPITRE 111 - PROCEDURE DE SANCTION ET VOIES DE RECOURS
+Article 288 - Les décisions de sanction prises en application des dispositions du présent Chapitre
+sont prononcées par la Commission des sanctions dans le cadre d'une procédure fixée dans le
+Règlement Général de la COSUMAF.
+Les décisions de sanction sont notifiées sans délai aux intéressés et rendues publiques sur le site
+Internet de la COSUMAF, dans les journaux et sur tout autre support précisé par la COSUMAF. Les
+frais de publication sont à la charge des personnes sanctionnées.
+La Commission des sanctions peut décider de reporter la publication d'une décision ou de publier
+cette dernière sous une forme anonyme ou de ne pas la publier dans l'une ou l'autre des circonstances
+suivantes :
+lorsque la publication de la décision est susceptible de causer à la personne mise en cause un
+préjudice grave et disproportionné, notamment, dans le cas d'une sanction infligée à une
+personne physique, lorsque la publication inclut des données personnelles ;
+lorsque la publication serait de nature à perturber gravement la stabilité du système financier,
+de même que le déroulement d'une enquête ou d'un contrôle en cours.
+Article 289 - L'examen des recours contre les décisions prises par la COSUMAF relève de la
+compétence de la Cour de Justice de la CEMAC.
+Le recours n'est pas suspensif. Toutefois, la Cour peut ordonner qu'il soit sursis à l'exécution de la
+décision si celle-ci est susceptible d'entraîner des conséquences manifestement excessives.
+60
+=== page 61 ===
+TITRE IX- DISPOSITIONS DIVERSES, TRANSITOIRES ET FINALES
+Article 290 - Jusqu'à la mise en place effective de la Commission des sanctions prévue à l'article 61
+du présent Règlement, ses attributions sont exercées par le Collège de la COSUMAF.
+Article 291 - Le présent Règlement ne peut être modifié que par le Comité Ministériel de l'UMAC
+après avis conforme du Conseil d' Administration de la BEAC. Les dispositions révisées entrent en
+vigueur à la date fixée par le Comité Ministériel.
+Article 292 - Le présent Règlement abroge toutes dispositions antérieures contraires et, dans toutes
+ses dispositions, le Règlement no 06/03-CEMAC-UMAC du 12 novembre 2003 portant organisation,
+fonctionnement et surveillance du marché financier de l'Afrique Centrale.
+Article 293 - Le présent Règlement entre en vigueur le I er jour du mois suivant celui de son adoption
+par le Comité Ministériel de l'UMAC. Il est publié au Bulletin officiel de la Communauté.
+Le Président du Comité Ministériel de l'UMAC,
+o Le Président r-
+Hervé NDOBA
+61

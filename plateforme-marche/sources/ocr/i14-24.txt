@@ -1,0 +1,579 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF no 14-24 du 20 février 2024
+RELATIVE AU CONTENU ET AU FORMAT DU DOCUMENT D'INFORMATION SIMPLIFIE DES OPC
+LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel no 03/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création de la
+Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+Vu le Règlement no 01/22 /CEMAC-UMAC du 21 juillet 2022 portant Organisation et Fonctionnement
+du Marché Financier de l'Afrique Centrale,
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique Centrale,
+En sa séance du 20 février 2024 à Yaoundé ;
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT :
+1
+=== page 2 ===
+SECTION 1- CONTENU ET PRESENTATION DU DOCUMENT D'INFORMATION SIMPLIFIE
+ARTICLE PREMIER - SECTION « INFORMATIONS GENERALES »
+La section « Informations générales » du document d'information simplifié contient l'ensemble des
+informations suivantes :
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+ARTICLE 2 -
+le nom donné à l'OPC, le cas échéant son compartiment et le numéro international
+d'identification des valeurs mobilières ou l'identifiant unique de l'OPC;
+La catégorie de parts ;
+Pour les OPC nourriciers, le nom de l'OPC maître ;
+la raison sociale de la Société de Gestion de l'OPC ;
+le site web fournissant aux investisseurs des informations sur la manière d'entrer en
+contact avec la Société de Gestion d'OPC ainsi qu'un numéro de téléphone;
+le numéro et la date d'agrément de l'OPC;
+le numéro et la date de visa de la COSUMAF ;
+la date de production ou, lorsque le document d'information simplifié a été révisé par la
+suite, la date de la dernière révision de ce document.
+SECTION « En quoi consiste cet OPC ? »
+1.
+2.
+3.
+4.
+Les informations contenues dans la section intitulée « En quoi consiste cet OPC ? » du
+document d'information simplifié décrivent la forme juridique de l'OPC concerné.
+Les informations relatives aux objectifs de l'OPC doivent être formulées de manière claire,
+concise et compréhensible. Ces informations doivent préciser les principaux facteurs
+déterminant le rendement de l'OPC, le mode de calcul du rendement et le lien entre, d'une
+part, le rendement de l'OPC et, d'autre part, celui des actifs d'investissement sous-jacents ou
+des valeurs de référence.
+Lorsque le nombre d'actifs ou de valeurs de référence visés au premier alinéa est tel que des
+références spécifiques à l'ensemble de ceux-ci ne peuvent être fournies dans un document
+d'information simplifié, seuls les segments de marché ou types d'instruments concernant les
+actifs d'investissement sous-jacents ou valeurs de référence doivent être indiqués.
+La description du type d'investisseur auprès duquel l'OPC est destiné à être commercialisé,
+figurant dans la section intitulée « En quoi consiste ce produit ?» du document d'information
+simplifié, comprend des informations sur les investisseurs cibles définis par la Société de
+Gestion de l'OPC concerné, en particulier en fonction des besoins, caractéristiques et objectifs
+du type de client avec lequel l'OPC est compatible. Cette définition se fonde sur la capacité
+des investisseurs à supporter des pertes d'investissement, ainsi que sur leurs préférences en
+termes d'horizon d'investissement, de durabilité, leur connaissance théorique et leur
+expérience des OPC et des marchés financiers et sur les besoins, caractéristiques et objectifs
+des clients finaux potentiels.
+Les informations relatives à la durée de vie de l'OPC contenues dans la section intitulée «En
+quoi consiste ce produit?» du document d'information simplifié contiennent l'ensemble des
+éléments suivants:
+a. la date d'échéance de l'OPC ou une indication de l'absence de date d'échéance;
+2
+=== page 3 ===
+b.
+c.
+ARTICLE 3 -
+des informations précisant si la Société de Gestion d'OPC a le droit de résilier
+unilatéralement l'OPC en question;
+une description des circonstances dans lesquelles l'OPC peut être résilié
+automatiquement, et les dates de résiliation, si elles sont connues.
+SECTION « Quels sont les risques et qu'est-ce que cela pourrait me rapporter ?»
+1.
+2.
+3.
+Dans la section «Quels sont les risques et qu'est-ce que cela pourrait me rapporter?» du
+document d'information simplifié, les Sociétés de Gestion d'OPC appliquent la méthode à
+utiliser pour la présentation des risques décrite à l'annexe Il, tiennent compte des aspects
+techniques de la présentation de l'indicateur synthétique de risque décrit à l'annexe Ill et
+respectent les orientations techniques, les formats et la méthode décrits aux annexes IV et
+V pour la présentation des scenarios de performances.
+Dans la section « Quels sont les risques et qu'est-ce que cela pourrait me rapporter ?» du
+document d'information simplifié les Sociétés de Gestion d'OPC fournissent les informations
+suivantes :
+a.
+b.
+c.
+d.
+e.
+f.
+le niveau de risque de l'OPC sous la forme d'une classe de risque en utilisant un
+indicateur synthétique de risque exprimé selon une échelle numérique de I à 7;
+une référence explicite à tout OPC illiquide ou présentant un risque de liquidité
+matériellement pertinent, tel que défini dans la partie 4 de l'annexe Il, sous la forme
+d'un avertissement à cet effet dans la présentation de l'indicateur synthétique de risque;
+un texte explicatif figurant sous l'indicateur synthétique de risque et expliquant que, si
+un OPC est libellé dans une monnaie autre que la monnaie officielle de la CEMAC dans
+lequel ce produit est commercialisé, le rendement, lorsqu'il est exprimé dans la monnaie
+officielle de la CEMAC où est commercialisé ce produit, peut varier selon les fluctuations
+monétaires;
+une brève description du profil de risque et de rémunération de l'OPC et un
+avertissement signalant, le cas échéant, que le risque inhérent à l'OPC peut être
+nettement plus élevé que celui représenté dans l'indicateur synthétique de risque si
+l'OPC n'est pas détenu jusqu'à l'échéance ou pendant toute la période de détention
+recommandée;
+en ce qui concerne les OPC pour lesquels sont prévus contractuellement des sanctions
+en cas de sortie précoce ou de longs délais de préavis en cas de désinvestissement, une
+référence aux conditions sous-jacentes applicables dans la section intitulée «Combien
+de temps dois-je le conserver et puis-je retirer de l'argent de façon anticipée?»;
+une indication de la perte maximale possible et des informations indiquant que
+l'investissement risque d'être perdu s'il n'est pas protégé.
+Les Sociétés de Gestion d'OPC incluent trois scenarios de performances appropriés, comme
+prévu à l'annexe V, dans la section intitulée «Quels sont les risques et qu'est-ce que cela
+pourrait me rapporter?» du document d'information simplifié. Ces trois scenarios de
+performances sont un scenario défavorable, un scenario intermédiaire et un scenario
+favorable.
+3
+=== page 4 ===
+ARTICLE 4 - SECTION « Que se passe-t-il si [nom de la Société de Gestion d'OPC] n'est pas en
+mesure d'effectuer les versements ?»
+Les Sociétés de Gestion d'OPC fournissent les informations suivantes dans la section intitulée «Que se
+passe-t-il si [nom de la Société de Gestion d'OPC] n'est pas en mesure d'effectuer les versements?» du
+document d'information simplifié:
+a.
+b.
+des informations précisant si l'investisseur pourrait subir une perte financière en raison de la
+défaillance de la Société de Gestion d'OPC ou d'une entité autre que la Société de Gestion
+d'OPC et l'identité de cette entité;
+des éclaircissements sur la question de savoir si la perte visée au point a) est couverte par un
+système d'indemnisation des investisseurs ou de garantie et si des limites ou des conditions
+sont fixées pour cette couverture.
+ARTICLE 5 - SECTION « Que va me coûter cet investissement ?»
+1. Les Sociétés de Gestion d'OPC présentent, dans la section intitulée « Que va me coûter cet
+investissement ? » du document d'information simplifié un tableau relatif aux frais figurant à
+l'annexe IV.
+2. Dans le tableau « Composition des frais » de la section intitulée « Que va me coûter cet
+investissement ?» du document d'information simplifié, les Sociétés de Gestion d'OPC
+précisent :
+a.
+b.
+c.
+3.
+les frais ponctuels, comme les frais d'entrée et de sortie, exprimés en pourcentage;
+les frais récurrents, comme les frais annuels de transactions de portefeuille et les autres frais
+récurrents, par an, exprimés en pourcentage;
+les frais accessoires, tels que les commissions liées aux résultats ou la commission
+d'intéressement, exprimés en pourcentage.
+Les Sociétés de Gestion d'OPC ajoutent un descriptif de chacun des frais inclus dans le tableau
+« Composition des frais » de la section intitulée « Que va me coûter cet investissement ?» du
+document d'information simplifié, en précisant si, et en quoi, ces frais peuvent différer des
+frais réels que l'investisseur peut devoir supporter, ou peuvent dépendre du choix de
+l'investisseur d'exercer ou non certaines options.
+ARTICLE 6 - SECTION « Combien de temps dois-je le conserver et puis-je retirer de l'argent de façon
+anticipée ? »
+Les Sociétés de Gestion d'OPC fournissent les informations suivantes dans la section intitulée «
+Combien de temps dois-je le conserver et puis-je retirer de l'argent de façon anticipée ?» du
+document d'information simplifié :
+a.
+b.
+c.
+une brève description des raisons ayant motivé le choix de la période de détention
+recommandée ou de la période de détention minimale requise;
+une description des caractéristiques de la procédure de désinvestissement et, lorsqu'un
+désinvestissement est possible, des informations sur l'impact d'une sortie avant l'échéance sur
+le profil de risque ou de performance de l'OPC ou sur l'applicabilité de garanties du capital;
+des informations sur les éventuels frais et pénalités appliqués en cas de désinvestissement
+avant l'échéance ou toute autre date précisée, autre que la période de détention
+recommandée, y compris une référence croisée aux informations sur les coûts à inclure da s
+4
+=== page 5 ===
+le document d'information simplifié en vertu de l'article 5 et une explication de l'incidence de
+ces frais et pénalités pour différentes périodes de détention.
+ARTICLE 7 - SECTION « Comment puis-je formuler une réclamation ? »
+Les Sociétés de Gestion d'OPC fournissent, dans la section intitulée « Comment puis-je formuler une
+réclamation ?» du document d'information simplifié les informations suivantes, sous forme
+synthétique :
+a. les étapes à suivre pour introduire une réclamation concernant l'OPC ou le comportement de
+la Société de Gestion de l'OPC ou de la personne qui fournit des conseils au sujet de l'OPC ou
+qui le vend;
+b. un lien vers le site internet sur lequel des réclamations de ce type peuvent être introduites;
+c. une adresse postale à jour et une adresse électronique auxquelles ces plaintes peuvent être
+déposées.
+ARTICLE 8 - SECTION « Autres informations pertinentes ? »
+1.
+2.
+Les Sociétés de Gestion d'OPC mentionnent, dans la section intitulée « Autres informations
+pertinentes » du document d'information simplifié, tout document d'information
+supplémentaire qui pourrait être fourni, et précisent si ces documents d'information
+supplémentaire sont mis à disposition sur la base d'une obligation légale ou uniquement à la
+demande de l'investisseur.
+Les informations figurant dans la section intitulée « Autres informations pertinentes » du
+document d'information simplifié peuvent être fournies sous forme synthétique, y compris au
+moyen d'un lien vers le site web où il est possible d'obtenir d'autres éléments que les
+documents visés au paragraphe 1.
+ARTICLE 9 - Modèle
+Les Sociétés de Gestion d'OPC présentent le document d'information simplifié au moyen du modèle
+figurant à l'annexe l.
+Fait à Yaoundé, le 20 février 2024
+Pour la COSUMAF
+Le Président
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+Tél.: + 241 01.74.75.891
+B.P. 1724 Libreville -
+Jacqueline ADIABA-NKEMBE
+5
+=== page 6 ===
+LISTE DES ANNEXES
+ANNEXE I
+DOCUMENT D'INFORMA TION SIMPLIFIE
+OBJECTIF
+Le présent document contient des informations essentielles sur l'OPC. Il ne s'agit pas d'un document
+à caractère commercial. Ces informations vous sont fournies conformément à une obligation légale,
+afin de vous aider à comprendre en quoi consiste le (s) produit (s) et quels risques, coûts, gains et
+pertes potentiels y sont associés, et de vous aider à le comparer à d'autres produits.
+PRODUIT
+[Nom de de la Société de Gestion cas échéant : ISINj[site web de la Société de
+Gestion d'OPC] Appelez le [numéro de téléphone] pour de plus amples informations. [La COSUMAF
+est l'autorité compétente pour le document d'information simplifié] [date de production du
+document d'information simplifié]
+[Avertissement (le cas échéant) Vous êtes sur le point d'acheter un produit qui n'est pas simple et
+qui peut être difficile à comprendre]
+EN QUOI CONSISTE CE PRODUIT ?
+Type
+Objectifs
+Critères ESG
+Investisseurs visés
+QUELS SONT LES RISQUES ET QU'EST-CE QUE CELA POURRAIT ME RAPPORTER ?
+Indicateur de risque
+Description du profil de risque et de rémunération
+Indicateur synthétique de risque (ISR)
+Modèle et textes de présentation de l'ISR figurant à l'annexe Ill, y
+compris concernant les pertes maximales : Est-ce que je risque de
+perdre tout le capital investi ? Est-ce que je risque de devoir
+assumer des obligations ou engagements financiers
+supplémentaires ? Mon capital est-il protégé du risque de
+marché ?
+Scénarios de performance
+6
+=== page 7 ===
+Modèle de textes de présentation des scénarios de performance
+figurant à l'annexe V, y compris, le cas échéant, des informations
+sur les conditions de rendement pour les investisseurs ou les
+plafonds de performances intégrés, et une déclaration indiquant
+que la législation fiscale peut avoir des conséquences sur les
+sommes effectivement versées.
+QUE SE PASSE-T-IL SI [Nom de la Société de Gestion de l'OPC et du dépositaire] N'EST PAS EN MESURE
+D'EFFECTUER LES VERSEMENTS ?
+Indiquer s'il existe un système de garantie, le nom du garant ou de l'opérateur du système
+d'indemnisation des investisseurs, et les risques couverts et ceux qui ne le sont pas.
+QUE VA ME COUTER CET INVESTISSEMENT
+Coûts au fil du temps
+Composition des coûts
+Modèle et textes de présentation figurant à l'annexe VII
+Modèle et textes de présentation figurant à l'annexe VII
+Explication des informations à inclure dans les autres coûts de
+distribution
+COMBIEN DE TEMPS DOIS-JE LE CONSERVER, ET PUIS-JE RETIRER DE L'ARGENT DE FACON
+ANTICIPÉE ?
+Période de détention recommandée [minimale requise] : [X]
+Informations sur la possibilité et les conditions d'un désinvestissement avant échéance, et sur les
+frais et pénalités éventuellement applicables. Information sur les conséquences d'une sortie avant
+l'échéance ou la fin de la période de détention recommandée.
+COMMENT PUIS-JE FORMULER UNE RECLAMATION ?
+AUTRES INFORMATIONS PERTINENTES
+7
+=== page 8 ===
+1.
+a)
+b)
+2.
+3.
+a)
+b)
+c)
+d)
+e)
+4.
+5.
+a)
+b)
+c)
+ANNEXE Il
+MÉTHODE DE PRÉSENTATION DES RISQUES
+La section « Profil de risque et de rendement » du document d'information simplifié contient
+un indicateur synthétique, complété par :
+une explication textuelle de cet indicateur synthétique et de ses principales limites;
+une explication textuelle des risques qui sont importants pour l'OPC, mais qui ne sont pas
+adéquatement pris en considération par l'indicateur synthétique.
+L'indicateur synthétique visé au paragraphe 1 prend la forme d'une série de catégories placées
+sur une échelle numérique, l'OPC étant classé dans l'une de ces catégories.
+La présentation de l'indicateur synthétique satisfait aux exigences suivantes :
+L'indicateur synthétique classe le fonds sur une échelle allant de 1 à 7, sur la base de ses
+résultats passés en matière de volatilité.
+Cette échelle se présente comme une série de catégories identifiées par des nombres entiers
+allant de 1 à 7, classées par ordre croissant de gauche à droite et représentant les niveaux de
+risque et de rendement, du plus faible au plus élevé.
+L'échelle indique clairement qu'à risque plus faible, rendement potentiellement plus faible et,
+inversement, qu'à risque plus élevé, rendement potentiellement plus élevé.
+La catégorie dans laquelle l'OPC est classée apparaît très clairement.
+Aucune couleur n'est utilisée pour distinguer entre eux les éléments placés sur l'échelle.
+Le calcul de l'indicateur synthétique visé au paragraphe 1 et chacune de ses révisions
+ultérieures sont adéquatement documentés. La documentation visée se rapporte aux
+méthodes de calcul et aux données de référence du calcul.
+Les Sociétés de Gestion d'OPC conservent une trace de ces calculs pour une période qui ne
+peut être inférieure à dix (IO) ans. Dans le cas des fonds structurés, cette période est prolongée
+de cinq ans après l'échéance.
+Le calcul est opéré par le gestionnaire, sous le contrôle de la COSUMAF.
+La détermination de la méthode de calcul est soumise à l'approbation préalable de la
+COSUMAF.
+Le calcul de l'indicateur s'effectue sur une base trimestrielle soit le dernier jour du trimestre
+et tient compte d'une période de référence (historique) d'un (1) mois précédant le jour du
+calcul.
+L'explication textuelle visée au paragraphe I, point a), inclut les informations suivantes :
+une déclaration indiquant que les données historiques, telles que celles utilisées pour calculer
+l'indicateur synthétique, pourraient ne pas constituer une indication fiable du profil de risque
+futur de l'OPC;
+une déclaration précisant qu'il n'est pas certain que la catégorie de risque et de rendement
+affichée demeure inchangée et que le classement de l'OPC est susceptible d'évoluer dans le
+temps;
+une déclaration précisant que la catégorie la plus basse n'est pas synonyme d'investissement
+sans risque;
+8
+=== page 9 ===
+d)
+e)
+6.
+a)
+b)
+c)
+d)
+e)
+7.
+a)
+b)
+c)
+une brève explication de la raison pour laquelle l'OPC est classé dans telle ou telle catégorie;
+des informations détaillées sur la nature, la durée et la portée de toute garantie ou protection
+du capital offerte par l'OPC, y compris les conséquences potentielles d'une revente de parts
+effectuée en dehors de la période de garantie ou de protection.
+L'explication textuelle visée au paragraphe 1, point b), couvre les catégories de risque
+suivantes, lorsque celles-ci sont importantes :
+Le risque de crédit, lorsqu'une part significative des investissements est réalisée dans des titres
+de créance ;
+le risque de liquidité, lorsqu'une part significative des investissements est réalisée dans des
+instruments financiers par nature suffisamment liquides, mais néanmoins susceptibles, dans
+certaines circonstances, d'avoir un niveau de liquidité relativement faible, au point d'avoir un
+impact sur le risque de liquidité de l'OPC dans son ensemble;
+le risque de contrepartie, lorsque le fonds est adossé à une garantie d'un tiers, ou lorsque
+l'exposition de ses investissements résulte, dans une large mesure, d'un ou de plusieurs
+contrats avec une contrepartie;
+Les risques opérationnels et les risques liés à la garde des actifs ;
+L'impact des techniques financières, telles que les instruments dérivés, sur le profil de risque
+de l'OPC, lorsque ces techniques sont utilisées pour obtenir, augmenter ou réduire une
+exposition à des actifs sous-jacents.
+Un OPC est considéré comme présentant un risque de liquidité matériellement pertinent dès
+lors que l'un des critères suivants est rempli :
+L'OPC est admis à la négociation sur un marché secondaire ou un dispositif alternatif de
+liquidité, et ni les teneurs de marché ni l'initiateur n'offrent de liquidités confirmées, de sorte
+que la liquidité dépend uniquement de la présence d'acheteurs et de vendeurs sur le marché
+secondaire ou le dispositif alternatif de liquidité, compte tenu du fait que la négociation
+régulière d'un produit à un moment donné ne garantit pas sa négociation régulière à tout
+autre moment ;
+le profil de liquidité moyen des investissements sous-jacents est nettement inférieur à la
+fréquence normale de remboursement de l'OPC, lorsque, et dans la mesure où, la liquidité
+offerte par l'OPC est subordonnée à la liquidation de ses actifs sous-jacents;
+La Société de Gestion de l'OPC estime que les investisseurs peuvent éprouver, selon la
+situation spécifique du marché, d'importantes difficultés, en termes de temps et de coût, à se
+retirer pendant la durée de vie du produit.
+8. Un OPC est considéré comme illiquide, que ce soit contractuellement ou non, dès lors que l'un
+des critères suivants est rempli :
+a)
+L'OPC n'est pas admis à la négociation sur un marché secondaire et aucun
+dispositif alternatif de liquidité n'est proposé par son initiateur ou par un tiers, ou
+le dispositif alternatif de liquidité existant est soumis à d'importantes conditions
+limitatives, notamment d'importantes pénalités de sortie anticipée ou des prix de
+rachat discrétionnaires, ou il n'existe pas d'accords de liquidité ;
+b) L'OPC offre des possibilités de sortie anticipée ou de remboursement avant
+échéance, mais ces possibilités sont soumises à d'importantes conditions limitatives,
+notamment d'importantes pénalités de sortie anticipée ou des prix de
+9
+=== page 10 ===
+remboursement discrétionnaires, ou à l'autorisation préalable et discrétionnaire de
+la Société de Gestion d'OPC ;
+c) L'OPC n'offre pas de possibilités de sortie anticipée ou de remboursement avant
+échéance.
+9. L'OPC est considéré comme liquide dans tous les autres cas.
+10
+=== page 11 ===
+LISTE DES ANNEXES
+1.
+2.
+3.
+4.
+5.
+a)
+b)
+c)
+d)
+ANNEXE - PERFORMANCES PASSEES
+Présentation des performances passées
+Les informations relatives aux performances passées de l'OPC sont présentées sous la forme
+d'un diagramme en bâtons, qui couvre les performances de l'OPC sur les dix (10) dernières
+années.
+Le diagramme en bâtons visé au premier alinéa est d'une taille suffisante pour être lisible, mais
+n'occupe en aucun cas plus d'une demi-page dans le document d'information simplifié.
+Les OPC ayant moins de cinq années civiles complètes d'existence utilisent une présentation
+couvrant les cinq (5) dernières années uniquement.
+Pour toute année pour laquelle aucune donnée n'est disponible, le diagramme est vide et ne
+comprend aucune autre indication que la date.
+Dans le cas d'un OPC ne disposant pas encore de données relatives à ses performances passées
+pour une année civile complète, une déclaration est insérée, qui indique qu'il existe trop peu
+de données pour fournir aux investisseurs des indications utiles sur les performances passées.
+Le diagramme en bâtons est complété par des déclarations, placées bien en évidence, qui:
+précisent qu'il ne constitue pas une indication fiable des performances futures;
+indiquent brièvement quels frais et commissions ont été inclus ou, au contraire, exclus du
+calcul des performances passées;
+mentionnent l'année de création du fonds;
+indiquent la monnaie dans laquelle les performances passées ont été calculées.
+L'exigence prévue au point b) ne s'applique pas aux OPC qui ne facturent pas de frais d'entrée ou de
+sortie.
+6.
+7.
+8.
+Le document d'information simplifié ne contient aucune information sur les performances
+passées pour l'année civile en cours.
+Le calcul des performances passées est fondé sur la valeur nette d'inventaire de l'OPC et sur
+le principe selon lequel toute recette distribuable du fonds a été réinvestie.
+Le diagramme en bâtons présentant les performances passées satisfait aux critères suivants :
+l'échelle de l'axe des Y du diagramme est linéaire, et non logarithmique;
+l'échelle est adaptée à la taille des bâtons et ne comprime pas ceux-ci au point de rendre les
+fluctuations des rendements difficiles à discerner;
+l'axe des X se situe au niveau de performance de O %;
+une légende est insérée pour chaque bâton, qui indique le rendement réalisé en pourcentage;
+les performances passées sont arrondies à la première décimale.
+Il.
+Impact et traitement des changements importants
+1. Lorsqu'un changement important survient dans les objectifs et la politique d'investissement
+de l'OPC durant la période couverte par le diagramme en bâtons visé au l, les performances
+passées enregistrées par l'OPC avant ce changement important continuent à figurer dans le
+diagramme.
+11
+=== page 12 ===
+Ill.
+IV.
+2.
+1.
+2.
+La période antérieure au changement important visé au paragraphe 1 est signalée dans le
+diagramme en bâtons et fait l'objet d'un avertissement clair selon lequel les performances
+affichées ont été réalisées dans des circonstances qui ne sont plus d'actualité.
+Utilisation d'une valeur de référence parallèlement aux performances passées
+Lorsque la section « Objectifs et politique d'investissement » du document d'information
+simplifié se réfère à une valeur de référence, un bâton montrant la performance de cette
+valeur de référence est inclus dans le diagramme à côté de chaque bâton montrant la
+performance passée de l'OPC.
+Dans le cas des OPC ne disposant pas de données relatives à leurs performances passées sur
+la période requise de cinq ou dix ans, la valeur de référence n'est pas affichée pour les années
+durant lesquelles l'OPC n'existait pas encore.
+Utilisation des données fondées sur des simulations pour les performances passées
+1.
+a)
+b)
+2.
+3.
+4.
+L'utilisation d'une simulation de performance pour la période durant laquelle aucune donnée
+n'était encore disponible n'est autorisée que dans les cas suivants et sous réserve d'être
+correcte, claire et non trompeuse :
+la performance d'une nouvelle catégorie d'actions d'un OPC ou d'un compartiment
+d'investissement existant peut être simulée sur la base de la performance d'une autre
+catégorie d'actions, sous réserve que la proportion que ces deux catégories d'actions
+représentées dans les actifs de l'OPC ne diffère pas substantiellement;
+un OPC nourricier peut simuler sa performance sur la base de la performance de son OPC
+maître, sous réserve que l'une des conditions suivantes soit remplie:
+i)
+la stratégie et les objectifs de l'OPC nourricier ne lui permettent pas de détenir
+d'autres actifs que des parts de l'OPC maître et que des actifs liquides à titre
+accessoire;
+les caractéristiques de l'OPC nourricier ne diffèrent pas substantiellement de celles
+de l'OPC maître.
+Dans tous les cas où la performance a été simulée conformément au paragraphe 1, ce fait est
+clairement indiqué dans le diagramme en bâtons.
+Un OPC qui change de statut juridique ne continue à utiliser ses performances passées que
+lorsque la COSUMAF estime raisonnablement que ce changement de statut juridique n'aura
+pas d'incidence sur les performances de l'OPC.
+Dans le cas des fusions visées à l'article 352 du Règlement Général, seules les performances
+passées de l'OPC absorbeur figurent dans le document d'information simplifié
+12
+=== page 13 ===
+ANNEXE Il - SCENARIOS DE PERFORMANCE
+1. Toutes les Sociétés de Gestion d'OPC présentent les scénarios de performance selon le format
+ci-dessous :
+Investissement
+Scénarios
+Scéna rio
+défavorable
+Scénario
+intermédiaire
+Ian
+[3] ans
+[5] ans (Période
+de détention
+recommandée)
+Ce qui vous pourriez obtenir
+après déduction des coûts
+Rendement annuel moyen
+Ce qui vous pourriez obtenir
+après déduction des coûts
+Rendement annuel moyen
+Scénario favorable Ce qui vous pourriez obtenir
+après déduction des coûts
+Rendement annuel moyen
+2. Les éléments explicatifs suivants doivent être inclus dans le document d'information simplifié
+a) Ce tableau montre les sommes que vous pourriez obtenir sur [période de détention
+recommandée] ans, en fonction de différents scénarios, en supposant que vous investissiez l...]
+FCFA.
+b) Les différents scénarios montrent comment votre investissement pourrait se comporter. Vous
+pouvez les comparer avec les scénarios d'autres produits.
+c) Les scénarios présentés sont une estimation de performances futures à partir de données du
+passé relatives aux variations de la valeur de cet investissement. Ils ne constituent pas un
+indicateur exact. Ce que vous obtiendrez dépendra de l'évolution du marché et de la durée
+pendant laquelle vous conserverez l'OPC.
+d) Le scénario de tensions montre ce que vous pourriez obtenir dans des situations de marché
+défavorables et ne tient pas compte du cas où l'investisseur ne pourrait pas être payé.
+e) [Le cas échéant] Il n'est pas [possible/facile] de sortir de ce produit. Par conséquent, il est difficile
+d'estimer combien vous obtiendrez si vous en sortez avant [la période de détention
+recommandée/échéancel. Il est possible que vous ne puissiez pas sortir du produit avant
+échéance, ou que vous subissiez des pertes ou des frais importants dans un tel cas.
+f) Les chiffres indiqués comprennent tous les coûts de l'OPC lui-même, [selon le cas:J [mais pas
+nécessairement tous les frais dus à votre conseiller ou distributeur] [ainsi que les frais dus à votre
+conseiller ou distributeur]. Ces chiffres ne tiennent pas compte de votre situation fiscale
+personnelle, qui peut également influer sur les montants que vous recevrez.
+g) Ce tableau montre comment votre investissement pourrait se comporter. Vous pouvez le
+comparer au graphique de rémunération d'autres OPC.
+h) Le tableau présente un éventail de résultats possibles ; il n'est pas une indication exacte de ce que
+vous pourriez obtenir. Ce que vous recevrez dépendra de l'évolution du sous-jacent. Pour chaque
+valeur du sous-jacent, le graphique montre les gains ou les pertes de l'OPC. L'axe horizontal
+correspond aux différentes valeurs possibles du sous-jacent à la date d'échéance et l'axe vertical
+indique les gains ou les pertes.
+13
+=== page 14 ===
+i) L'achat de cet OPC signifie que vous considérez que le prix du sous-jacent va
+[augmenter/diminuer].
+j) Votre perte maximale peut être l'ensemble de votre investissement.
+14
+=== page 15 ===
+ANNEXE - FRAIS
+Les frais sont présentés dans un tableau structuré comme suit :
+Frais ponctuels prélevés avant ou après investissement
+Frais d'entrée
+Frais de sortie
+Le pourcentage indiqué est le maximum pouvant être prélevé sur votre capital [avant que celui-ci
+ne soit investi] [avant que le revenu de votre investissement ne vous soit distribué].
+Frais prélevés par le fonds sur une année
+Frais courants
+Frais prélevés par le fonds dans certaines circonstances
+Commission de performance
+[l % par an de tout rendement
+réalisé par le fonds qui dépasse
+la valeur de référence définie
+pour cette commission, à savoir
+[nom de la valeur de référence]
+— Un pourcentage est indiqué pour chacun des frais listés ci-dessus.
+—En cas de commission de performance, le montant facturé au titre du dernier exercice du fonds est
+inclus, également sous la forme d'un pourcentage.
+15

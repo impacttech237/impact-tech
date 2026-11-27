@@ -1,0 +1,748 @@
+=== page 1 ===
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+INSTRUCTION COSUMAF NO 19-24 du 9 mai 2024
+RELATIVE AU MODELE TYPE DE DOCUMENT D'INFORMATION D'UN ORGANISME DE
+PLACEMENT COLLECTIF IMMOBILIER (OPCO
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel n003/01-CEMAC-CE-03 du 8 décembre 2001 portant création de la
+Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale,
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 9 mai 2024 à Libreville;
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT
+1
+=== page 2 ===
+ARTICLE PREMIER
+La présente instruction est établie en application des dispositions de l'article 456 du Règlement
+Général de la COSUMAF.
+ARTICLE 2 - FORMAT TYPE DU DOCUMENT D'INFORMATION D'UN OPCI
+1. Le document d'information d'un OPCI comporte les rubriques mentionnées en Annexe
+1.
+2. Les rubriques du document d'information d'un OPCI sont mentionnées dans le même
+ordre que celle de l'Annexe 1.
+ARTICLE 3- ENTREE EN VIGUEUR
+La présente instruction, qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF ou sur tout autre support précisé par la COSUMAF.
+Fait à Libreville, le 9 mai 2024
+Pour la COSUMAF,
+Le Président
+COMWSSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+Tél.: + 241 01.74.75.8919
+B.P. 1724 kibreville -
+Jacqueline ADIABA-NKEMBE
+2
+=== page 3 ===
+ANNEXE 1
+DOCUMENT D'INFORMATION DE L'OPCI
+l'OPCl)
+En tête, l'avertissement obligatoire suivant :
+(Ajouter le nom de
+« L'OPC/ détient directement et/ou indirectement des immeubles dont la vente exige des
+délais qui dépendront de l'état du marché immobilier.
+[Après une période d'interdiction d'une durée de XXXXX années,J1 En cas de demande de
+rachat (remboursement) de vos parts/actions, votre argent pourrait ne vous être versé que
+dans un délai de XXXXX mois (à compléter par le délai de rachat maximum figurant dans
+le document d'information).
+Par ailleurs, la somme que vous récupérerez pourra être inférieure à celle que vous aviez
+investie, en cas de baisse de la valeur des actifs de l'OPCl, en particulier du marché
+immobilier, sur la durée de votre placement.
+La durée de placement recommandée est de XXXXX (à compléter selon le cas). »
+Cet avertissement doit être adapté en fonction des caractéristiques de liquidité de l'OPCl.
+l. Caractéristiques générales
+Cette rubrique comporte les caractéristiques générales de l'OPCl
+10 Forme juridique de l'OPCl
+20 Dénomination
+a) Pour les FCPI, dénomination
+b) Pour les SPI dénomination ou raison sociale, siège social et adresse postale si celle-ci
+est différente
+30 Date de création de l'OPCl et durée de vie
+40 Synthèse de l'offre de gestion
+a) Rappel des compartiments et des différentes catégories de parts
+b) Souscripteurs concernés ,
+c) Montant minimum de souscription pour chaque compartiment / type de parts
+d) Code ISIN, le cas échéant.
+Ces informations sont présentées sous la forme d'un tableau récapitulatif pour permettre
+une bonne lisibilité de l'ensemble de l'offre de gestion.
+Exemple
+Compartiment 1
+Caractéristiques
+Parts
+Code ISIN
+B
+1
+Devise de libellé
+FCFA
+FCFA
+Etc.
+Syntaxe à rajouter dans l'avertissement pour les OPCI mettant en place une période de blocage des rachats.
+3
+=== page 4 ===
+Compartiment 2
+Caractéristiques
+Parts
+Code ISIN
+FR
+FR
+Devise de libellé
+FCFA
+FCFA
+Etc.
+50 Indication du lieu où l'on peut se procurer s'ils ne sont pas annexés, le règlement, le
+dernier rapport annuel et le dernier état périodique, la dernière valeur liquidative de l'OPCl
+ainsi que, le cas échéant, l'information sur ses performances passées.
+Les derniers documents annuels ainsi que la composition des actifs sont adressés dans un
+délai de huit (8) jours ouvrés sur simple demande écrite du porteur ou de l'actionnaire
+auprès de
+• Dénomination sociale
+• Adresse
+• Tél. (éventuellement)
+• E-mail
+Ces documents sont également disponibles sur le site web « www (le cas échéant) ».
+Désignation d'un point de contact (personne/service, moment, etc.) où des explications
+supplémentaires peuvent être obtenues si nécessaire.
+Si l'OPCl investit a plus de 85% dans un autre OPCI (OPCI Maître), ajouter la mention
+suivante
+les documents d'informations relatifs à l'OPCl (OPCI Maître)
+de droit
+agréé par la COSUMAF sont
+disponibles auprès de
+Dénomination sociale
+Adresse
+Tél. (éventuellement)
+E-mail
+60 Indication sur les conditions de mise à disposition du rapport de synthèse des
+évaluateurs immobiliers
+70 Mention sur les modalités et les échéances de communication des informations.
+Il - Acteurs de l'OPCl
+La rubrique « acteurs de l'OPCl » comporte la liste, les coordonnées ainsi que les
+obligations de l'ensemble des acteurs et prestataires de l'OPCl concernés au titre de la
+gestion, de la conservation, du contrôle ou de la distribution et toute autre information utile
+aux investisseurs (notamment, le cas échéant, les missions déléguées).
+10 Société de gestion d'OPCl
+a) Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-
+ci est différente du siège social.
+4
+=== page 5 ===
+b) Identité et fonctions dans la SPI des membres des organes d'administration, de direction
+et de surveillance
+c) Mention des principales activités exercées par ces personnes en dehors de la société
+lorsqu'elles sont significatives par rapport à celle-ci
+Décrire, le cas échéant, la manière dont la société de gestion d'OPCl respecte les
+exigences afin de couvrir les risques éventuels de mise en cause de sa responsabilité
+professionnelle à l'occasion de la gestion de FIA.
+20 Dépositaire et conservateurs
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si
+celle-ci est différente du siège social.
+Activité principale, pour :
+a) Le dépositaire
+b) Le conservateur (actif de l'OPCl) •
+c) L'établissement en charge de la tenue des registres des parts ou actions (passif de
+l'OPC).
+Le cas échéant, description de toute fonction de garde déléguée par le dépositaire,
+l'identification du délégataire et tout conflit d'intérêts susceptible de découler de ces
+délégations.
+30 Commissaire aux comptes
+Dénomination ou raison sociale, siège social, signataire.
+40 Distributeurs
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci
+est différente du siège social.
+50 Personne s'assurant que les critères relatifs à la capacité des souscripteurs ou
+acquéreurs ont été respectés et que ces derniers ont reçu l'information requise.
+60 Délégataires
+Cette rubrique regroupe, pour l'ensemble des délégations, notamment financière,
+administrative et comptable, les informations suivantes
+a) Identité ou raison sociale de la société
+b) Éléments du contrat avec la société de gestion d'OPCl de nature à intéresser les
+investisseurs, à l'exclusion de ceux relatifs aux rémunérations
+c) Autres caractéristiques sommaires de l'activité de la société délégataire
+d) Tout conflit d'intérêts susceptible de découler de ces délégations.
+70 Centralisateur .
+a) identité du centralisateur
+b) identité du ou des établissement(s) en charge de la réception des ordres de souscription
+et rachat ,
+8 0 Expert(s) externe(s) en évaluation
+Dénomination ou raison sociale, forme juridique, siège social et adresse postale si celle-ci
+est différente du siège social.
+90 Conseillers
+Indications sur les entreprises de conseil ou les conseillers d'investissement externes, pour
+autant que le recours à leurs services soit prévu par contrat directement ou pour le compte
+de l'OPCl. Ne sont pas visées les prestations fournies à la société de gestion d'OPCl pour
+5
+=== page 6 ===
+l'ensemble de son activité, qui ne sont pas directement liées à un OPCI ou à une gamme
+d'OPCl.
+a) Identité ou raison sociale de la société ou nom du conseiller ,
+b) Éléments du contrat avec la société de gestion d'OPCl ou la SPI de nature à intéresser
+les investisseurs, à l'exclusion de ceux relatifs aux rémunérations ,
+c) Autres caractéristiques sommaires de l'activité de la société ou du conseiller.
+Le conseiller n'est pas amené à prendre des décisions pour le compte de l'OPCl, qui
+relèvent de la compétence et de la responsabilité de la société de gestion d'OPCl.
+Ill- La politique de gestion
+La rubrique « politique de gestion de l'OPCl » détaille la stratégie de gestion envisagée par
+l'OPCl.
+10 Objectifs de gestion
+Cette rubrique explique quels sont les objectifs de gestion poursuivis par l'OPCl.
+Les informations figurant dans le Document d'Information Simplifié peuvent être
+complétées par des considérations plus techniques.
+20 Indicateur de référence, le cas échéant
+L'objectif de cette rubrique est de fournir un étalon auquel l'investisseur pourra comparer la
+performance et le risque pris par l'OPCl. Selon l'objectif de gestion de l'OPCl, l'information
+donnée à l'investisseur, et la nature des risques pris, cet étalon peut être, par exemple, un
+indicateur étroit ou au contraire un indice large de marché, un indice reconnu par la
+COSUMAF ou tout autre indicateur pertinent. Les éléments permettant d'identifier cet
+indicateur doivent être mentionnés, ainsi que ses caractéristiques. Sagissant de l'inclusion
+ou non des dividendes, la rubrique mentionne que « La performance de l'indicateur XXXXX
+[inclut / n'inclut pas] les dividendes détachés par les actions qui composent l'indicateur ».
+Cette rubrique doit donc comporter le nom et la description de l'indicateur de référence
+retenu.
+30 Stratégie d'investissement
+Cette rubrique décrit de manière précise la stratégie d'allocation mise en œuvre entre actifs
+immobiliers et instruments financiers, la stratégie de gestion au sein de chacune de ces
+deux catégories d'actifs, et la politique d'endettement envisagée pendant toute la durée de
+vie de l'OPCl y compris pendant les trois premières années. Les limites que l'OPCl entend
+se fixer doivent apparaitre clairement.
+Les techniques et instruments utilisés doivent être cohérents avec la gestion envisagée, les
+moyens de la société de gestion d'OPCl et son programme d'activité validé par la
+COSUMAF. Le règlement décrit de façon précise et exhaustive les techniques et
+instruments spécifiques utilisés. Les techniques et instruments spécifiques non mentionnés
+dans le règlement sont exclus du champ d'intervention de l'OPCl.
+L'utilisation des instruments financiers à terme doit être déclinée par technique de gestion
+utilisée.
+L'objectif de cette rubrique est d'expliquer comment la société de gestion d'OPCl s'efforcera
+d'atteindre l'objectif de gestion affiché. D'une manière générale, elle doit comprendre
+a) La description des stratégies utilisées
+Le règlement décrit de manière complète les différentes stratégies utilisées pour atteindre
+l'objectif de gestion. Elle doit notamment préciser, le cas échéant
+6
+=== page 7 ===
+• L'existence de stratégies particulières concernant des secteurs industriels,
+géographiques ou d'une autre nature
+• L'existence d'interventions sur des catégories particulières d'actifs
+Les circonstances dans lesquelles l'OPCl peut faire appel à l'effet de levier, les types
+d'effets de levier et les sources des effets de levier autorisés.
+b) La description des catégories d'actifs dans lesquels l'OPCl entend investir et leur
+contribution à la réalisation de l'objectif de gestion
+Le règlement doit mentionner l'ensemble des classes d'actifs qui entreront dans la
+composition de l'actif de l'OPCl. Le cas échéant, elle doit également comporter les éléments
+suivants
+Pour la poche immobilière
+• Type d'actif conformément aux articles 443 du Règlement Général de la COSUMAF
+(immeubles, parts de sociétés, etc.)
+• Zone géographique (CEMAC, Cameroun, Centrafrique, Congo, Gabon, Guinée-
+Équatoriale, Tchad, etc.)
+• Secteur d'activité (habitation, bureaux, locaux commerciaux, autres, etc.)
+Pour la poche mobilière
+• Les actions : les principales caractéristiques des investissements envisagés (dans la
+mesure où elles ne sont pas redondantes avec les éléments décrits plus haut),
+répartition géographique et/ou sectorielle des émetteurs,
+notamment
+petites/moyennes/grandes capitalisations, autres critères de sélection (à préciser) ;
+• Les autres instruments financiers pouvant être utilisés à titre accessoire au titre de
+l'article 430 du Règlement Général de la COSUMAF.
+Pour chacune des catégories mentionnées ci-dessus
+• Les fourchettes de détention qui seront respectées ,
+• L'existence d'éventuelles restrictions en matière d'investissement que s'impose la
+société de gestion d'OPCl ;
+• L'existence d'autres critères (à préciser).
+Les OPCI ne doivent pas retenir de rédaction imprécise ne permettant pas une bonne
+appréciation des instruments et stratégies utilisés.
+Pour les liquidités ou avances en compte courant, le règlement doit mentionner les
+caractéristiques, le niveau d'utilisation et la description de la contribution à la réalisation de
+l'objectif de gestion.
+Pour les emprunts d'espèces, le règlement doit comporter l'indication des techniques
+et instruments ou des autorisations en matière d'emprunts susceptibles d'être utilisés dans
+le fonctionnement de l'OPCl.
+c) Le niveau d'utilisation maximum des différents instruments et actifs
+d) Le niveau d'utilisation des différents instruments et actifs généralement recherché,
+correspondant à l'utilisation habituelle envisagée par le gérant ,
+e) Le cas échéant, des éventuelles restrictions à l'utilisation de l'effet de levier, ainsi que
+des éventuelles modalités de remploi d'un collatéral ou d'actifs.
+Le niveau de levier maximal que le gestionnaire est habilité à employer pour le compte de
+l'OPCl.
+f) Contrats constituant des garanties financières.
+La possibilité pour l'OPCl d'octroyer des garanties à des tiers doit être mentionnée de
+manière expresse. Cette rubrique détaille
+• La nature des garanties octroyées par l'OPCl ,
+• La nature des engagements de l'OPCl pouvant nécessiter ce type de garanties
+• La qualité des bénéficiaires de ces garanties.
+7
+=== page 8 ===
+Le document d'information décrit les garanties acceptables en ce qui concerne les types
+d'actifs, l'émetteur, l'échéance, la liquidité ainsi que la diversification des garanties et les
+politiques en matière de corrélation.
+Le document d'information fournit des indications sur la manière dont les actifs faisant
+l'objet d'opérations de financement sur titres et de contrats d'échange sur rendement global
+et les garanties reçues sont conservés (par exemple par un dépositaire de fonds) ainsi que
+sur toute restriction (réglementaire ou volontaire) concernant la réutilisation des garanties.
+40 Profil de risque
+L'objectif est d'informer l'investisseur sur les risques liés à la nature de l'OPCl, associés aux
+techniques employées2 et ceux qui résultent des marchés ou des classes d'actifs sur
+lesquels l'OPCl entend s'exposer. Cette rubrique ne doit pas se limiter à la description des
+instruments dans lesquels l'OPCl est investi.
+Elle distingue
+a) Les facteurs de risques pour les OPCI dans leur ensemble
+b) Les facteurs de risques propres à l'OPCl et liés à sa stratégie d'investissement.
+Le document d'information a pour vocation de décliner de façon détaillée et hiérarchisée
+les risques
+Par exemple
+a) Mention des caractéristiques spécifiques de l'OPCl (degré minimum d'exposition aux
+différents marchés) ;
+b) Le risque que la performance de l'OPCl ne soit pas conforme à ses objectifs, aux objectifs
+de l'investisseur (en précisant que ce dernier risque dépend de la composition du
+portefeuille de l'investisseur)
+c) Le risque lié à l'usage de contrat financier ;
+d) Le risque que le capital investi ne soit pas intégralement restitué ,
+e) Restriction de liquidité
+f) Risques associés à l'effet de levier.
+50 Une description des principales conséquences iuridiques de l'engagement contractuel
+pris à des fins d'investissement, y compris des informations sur la compétence judiciaire,
+sur le droit applicable et sur l'existence ou non d'instruments juridiques permettant la
+reconnaissance et l'exécution des décisions sur le territoire de domiciliation de l'OPCl.
+60 Souscripteurs concernés, profil de l'investisseur type
+L'objectif de cette rubrique est de préciser quels souscripteurs ont accès à l'OPCl et à quel
+type d'investisseurs l'OPCl s'adresse.
+Elle doit donc
+a) Préciser si l'OPCl est .
+Tous souscripteurs ,
+Tous souscripteurs, destinés plus particulièrement à X
+Dédié à 20 investisseurs qualifiés au plus : dans ce cas il est indiqué dans
+cette rubrique que le nombre de souscripteurs ne peut excéder vingt
+investisseurs qualifiés et que l'OPCl ne fait l'objet d'aucune publicité,
+démarchage ou autre forme de sollicitation du public ,
+2
+Les risques liés aux opérations de financement sur titres et aux contrats d'échange sur rendement global, ainsi que des risques liés à la gestion
+des garanties, tels que risque opérationnel, risque de liquidité, risque de contrepartie, risque de conservation et risque juridique et, le cas
+échéant, les risques liés à la réutilisation des garanties doivent également être décrits.
+8
+=== page 9 ===
+Dédié, plus particulièrement à X (par exemple, dédié aux filiales du
+groupe XXXXX) : dans ce cas, la rubrique précise clairement les
+caractéristiques de la catégorie d'investisseurs visés et que l'OPCl ne fait
+l'objet d'aucune, publicité, démarchage ou autre forme de sollicitation du
+public.
+Lorsque l'OPCl a vocation à être commercialisé auprès d'une cible particulière
+d'investisseurs, cette catégorie d'investisseurs est définie précisément dans le document
+d'information. Une note technique devra être communiquée lors de la demande d'agrément,
+détaillant notamment la cible de clientèle visée et les modalités de commercialisation
+retenues.
+b) Expliciter quel est le profil type de l'investisseur pour lequel l'OPCl a été créé, ainsi que
+la durée de placement recommandée.
+La description du profil type de l'investisseur complétée, lorsque cela est
+pertinent, par des éléments sur
+• L'aversion au risque ou la recherche de l'exposition à un risque des
+souscripteurs visés ,
+• La proportion du portefeuille financier ou du patrimoine des clients qu'il
+est raisonnable d'investir dans cet OPCI ;
+Ainsi qu'un avertissement sur la nécessité de diversification des placements.
+IV - Parts ou actions de l'OPCl
+Lorsque l'OPCl comprend différentes catégories de parts ou d'actions dans les conditions
+de l'article 434 du Règlement Général de la COSUMAF, le document d'information devra
+comporter une description de la manière dont la société de gestion d'OPCl garantit un
+traitement équitable des investisseurs, et, dès lors qu'un investisseur bénéficie d'un
+traitement préférentiel ou du droit de bénéficier d'un traitement préférentiel, une description
+de ce traitement préférentiel, le type d'investisseurs qui bénéficient de ce traitement
+préférentiel, et, le cas échéant, l'indication de leurs liens juridiques ou économiques avec
+l'OPCl ou la société de gestion d'OPCl.
+| 0 Caractéristiques des parts ou actions
+Figure dans cette rubrique l'ensemble des caractéristiques des parts et actions
+(fractionnement, catégories, frais, mode de conservation).
+Ces informations sont présentées sous la forme d'un tableau récapitulatif pour permettre
+une bonne lisibilité de l'ensemble de l'offre de gestion.
+Exemple
+Caractéristiques
+Parts
+Code ISIN
+20 La valeur liquidative
+Devise de libellé
+FCFA
+FCFA
+Etc.
+Cette rubrique indique la fréquence de calcul de la valeur liquidative ainsi que le lieu de
+publication de cette valeur.
+9
+=== page 10 ===
+30 Durée de placement recommandée
+La durée de placement recommandée doit être cohérente avec l'objectif de gestion et les
+actifs immobiliers détenus directement et indirectement ainsi que les instruments financiers
+dans lesquels l'OPCl est investi.
+40 Modalités des souscriptions / rachats
+Cette rubrique comporte deux paragraphes distincts : l'un pour les souscriptions, l'autre
+pour les rachats.
+Chaque paragraphe est illustré par un exemple mettant en évidence les délais entre la date
+de l'ordre et la date de livraison/règlement.
+Y sont notamment mentionnés, le cas échéant, les éléments suivants
+le montant minimum de la souscription
+la commission de souscription ou commission de rachat ,
+la possibilité de fermeture des souscriptions
+les modalités de déclaration à respecter par les porteurs ou actionnaires franchissant
+le seuil de IO %
+la possibilité de suspendre les rachats pour les porteurs ou actionnaires détenant plus
+de 20 % du capital
+l'existence d'un dispositif de plafonnement des rachats (« gates »)
+Les modalités de fonctionnement des « gates » doivent être décrites de façon précise dans
+le document d'information des OPCI concernés. Il est rappelé que la société de gestion
+d'OPCl doit évaluer la pertinence du dispositif retenu, notamment au regard des
+conséquences sur la gestion de la liquidité de l'OPCl que pourraient avoir certains
+dispositifs de plafonnement des rachats .
+•
+description de la méthode retenue (seuil d'activation des « gates ») ,
+en cas d'activation du mécanisme de « gates », modalités
+d'information des porteurs ou actionnaires dont les ordres n'ont pas été
+entièrement exécutés
+ainsi
+de
+l'ensemble
+des
+que
+porteurs/actionnaires ,
+traitement des ordres non exécutés (report, annulation, faculté ouverte
+au porteur ou actionnaire de s'opposer au report)
+renvoi vers le règlement ou les statuts de l'OPCl pour obtenir des
+informations plus précises sur le dispositif de « gates ».
+absence de dispositif de « gates » .
+Dans l'hypothèse où l'OPCl ne prévoit pas un dispositif de « gates », l'avertissement
+suivant doit être mentionné de manière visible dans le document d'information, mettant en
+garde les investisseurs sur l'absence de cet outil de gestion de liquidité
+« En cas de circonstances exceptionnelles, l'absence de mécanisme de plafonnement des
+rachats pourra avoir pour conséquence l'incapacité de l'OPCI à honorer les demandes de
+rachats et ainsi augmenter le risque de suspension complète des souscriptions et des
+rachats sur cet OPCI. »
+Cet avertissement n'est pas requis pour les OPCI de type fermé.
+- l'existence et la description de préavis ,
+une description de la gestion du risque de liquidité de l'OPCl, y compris les droits au
+remboursement dans des circonstances à la fois normales et exceptionnelles, et les
+modalités existantes avec les investisseurs en matière de remboursement ,
+les modalités de versement du montant des souscriptions et la date de jouissance
+les modalités de passation des ordres ,
+10
+=== page 11 ===
+l'adresse de l'organisme désigné pour recevoir les souscriptions et les rachats.
+Par ailleurs, un descriptif précis est donné du mécanisme de frais d'entrée (taux, assiette,
+répartition, périodicité de mise à jour et modalités de diffusion) destiné à faire supporter les
+frais de manière égalitaire aux porteurs de parts ou actionnaires.
+Frais à la charge de l'investisseur,
+prélevés lors des souscriptions et des
+rachats
+Commission de souscription non
+acquise à l'OPCl
+Commission de souscription acquise à
+l'OPCl
+Commission de rachat non acquise à
+Assiette
+valeur
+x
+nombre
+Taux barème
+A 0/0, A 0/0
+liquidative
+de
+maximum,
+ou
+parts/actions
+modalité particulière
+(fourchette, etc.)
+B % ou selon
+valeur
+x
+nombre
+liquidative
+de
+parts/actions
+valeur
+x
+nombre
+liquidative
+de
+modalités
+particulières3
+(applicables
+l'ensemble
+souscriptions)
+c
+taux,
+à
+des
+ou
+l'OPCl
+Commission
+l'OPCl
+parts/actions
+modalité particulière
+(fourchette, etc.)
+D % ou selon
+de
+rachat acquise
+à
+valeur
+x
+nombre
+liquidative
+de
+parts/actions
+modalités
+particulières4
+(applicables
+l'ensemble
+achats)
+à
+des
+S'agissant des commissions de souscription et de rachat acquises à l'OPCl, le taux affiché
+est un taux maximum. Le taux effectivement appliqué est fixé par la société de gestion
+d'OPCl avec une fréquence adaptée à la stratégie d'investissement et la structure du passif
+de l'OPCl. Cette fréquence est au moins annuelle. La société de gestion d'OPCl en informe
+les investisseurs au moment de la souscription et/ou du rachat des parts ou actions par
+celui-ci ainsi que les conditions dans lesquelles ce taux peut être réduit.
+V- Frais - Commissions
+(A décliner par catégories de part, le cas échéant)
+L'objectif de cette rubrique dans le document d'information est la description de
+l'exhaustivité des frais, commissions et rémunérations des différents acteurs et
+intermédiaires, les informations complémentaires (acquisition et cession temporaire de
+titres par exemple)
+Frais à la charge de l'investisseur Assiette
+Actif net
+Frais de fonctionnement et de
+des
+gestion
+Taux barème
+E % maximum TTC
+F 0/0 maximum TTC
+Valeur globale
+actifs gérés
+11
+=== page 12 ===
+Frais d'exploitation immobilière
+Commission de surperformance
+Frais et commissions liés aux
+transactions immobilières et
+financières .
+- Frais liés aux opérations sur
+actifs
+immobiliers
+hors
+commissions de mouvement liées
+aux opérations d'investissement
+d'arbitrage
+sur actifs
+immobiliers
+- Commissions de mouvement
+Actif net
+Valeur globale des
+actifs immobiliers gérés
+Actif net
+A définir
+A définir
+définir
+liées
+opérations
+aux
+G % TTC en moyenne
+sur les 3 prochaines
+années
+H % TTC en moyenne
+sur les 3 prochaines
+années
+I % de la performance
+au-delà de J TTC
+K % TTC
+TTC
+M % TTC
+d'investissement et d'arbitrage sur
+actifs immobiliers
+- Commissions de mouvement
+liées
+aux opérations
+sur
+instruments financiers
+(*) Le cas échéant, un taux maximum peut être indiqué, en plus du taux effectif.
+1 Frais de fonctionnement et de gestion
+Les frais de fonctionnement et de gestion recouvrent l'ensemble des frais supportés de
+manière récurrente par l'OPCl afin d'en assurer le fonctionnement à l'exclusion des frais
+liés à l'exploitation immobilière, des commissions de surperformance et des frais et
+commissions liés aux opérations de transaction. L'OPCI règle ainsi la rémunération de la
+société de gestion d'OPCl au titre de ses prestations liées à l'exécution de ses missions
+notamment de
+Gestion de l'OPCl (fund management immobilier), à savoir notamment l'établissement
+de la stratégie d'investissement et du business plan général de l'OPCl ainsi que l'allocation
+entre la poche immobilière, la poche financière et les liquidités, l'identification et l'évaluation
+des opportunités d'investissement, la détermination des modalités de financement des
+actifs immobiliers ainsi que, le cas échéant, des actifs financiers, la détermination des
+modalités de réalisation des actifs immobiliers, financiers et des liquidités de l'OPCl, les
+prestations liées aux obligations d'information de la COSUMAF et des
+actionnaires/porteurs, et notamment l'établissement du rapport annuel de gestion et des
+documents d'information périodique
+Gestion des actifs immobiliers (asset management immobilier), à savoir l'élaboration
+des stratégies d'acquisition, de construction, de financement, d'arbitrage et de
+commercialisation des actifs immobiliers, l'élaboration de la stratégie de gestion des actifs
+immobiliers et notamment l'établissement du plan de travaux et de sa mise à jour ,
+Suivi des montages immobiliers attachés à l'acquisition ou à la cession d'actifs et suivi
+de la gestion des actifs immobiliers.
+12
+=== page 13 ===
+Outre la rémunération de la société de gestion d'OPCl, l'OPCl supporte également de façon
+récurrente, l'ensemble des frais et charges mentionnés ci-dessous .
+Les frais et charges liés à l'administration de l'OPCl et à sa vie sociale, notamment
+ceux du dépositaire, du commissaire aux comptes, les frais de fonctionnement des organes
+de gouvernance (conseil d'administration/ conseil de surveillance), notamment la
+rémunération de leurs membres, les éventuels frais de publication ,
+Les honoraires liés à la valorisation des actifs, notamment ceux des évaluateurs
+immobiliers.
+20 Frais d'exploitation immobilière
+Ces frais recouvrent l'intégralité des frais et charges liés à la gestion du patrimoine
+immobilier, en particulier ceux liés aux travaux, fonction de la stratégie de l'OPCl et des
+conditions de marché. L'OPCI supporte essentiellement les frais mentionnés ci-dessous,
+dans la mesure où ils ne sont pas refacturés aux locataires et qu'ils ne sont pas
+immobilisables dans la comptabilité de l'OPCl
+L'ensemble des charges des actifs immobiliers, notamment les loyers des baux à
+construction, de baux emphytéotiques ou autres, les impôts, taxes et redevances afférents
+aux actifs immobiliers non refacturés aux occupants, en ce compris notamment la taxe
+foncière, les taxes ou redevances sur les bureaux et locaux commerciaux, les fournitures
+d'éclairage, d'eau, de chauffage, de climatisation, de ventilation, et généralement toute
+consommation d'énergie et de fluides quels qu'ils soient, les primes d'assurances et
+commissions de courtage y afférentes, les frais du personnel affecté au gardiennage, à la
+sécurité, les honoraires d'administration de biens et de « property » management,
+l'ensemble des dépenses, frais et charges liés à la détention des parts et actions de
+sociétés immobilières ,
+L'ensemble des frais liés à la commercialisation locative, notamment les frais et
+commissions de location et de recherche de locataires et les frais et honoraires de gestion
+y afférents ,
+L'ensemble des dépenses d'aménagement, d'entretien, de nettoyage, de maintenance,
+de réparation, de remplacement et de mise en conformité à effectuer sur les immeubles et
+leurs équipements, en ce compris les honoraires techniques et juridiques y afférents
+(architectes, bureaux d'études, maîtrise d'ouvrage déléguée, notaires, avocats et
+évaluateurs, etc.) ainsi que les impôts, taxes et redevances y afférents
+Les honoraires de conseils divers, notamment liés à la gestion des contentieux ou
+autres entrants dans le cadre de l'activité de l'OPCl, dès lors que ces honoraires ne se
+rapportent pas à des contentieux découlant d'un manquement contractuel ou d'une
+méconnaissance des obligations légales ou réglementaires de la société de gestion
+d'OPCl.
+30Frais et commissions liés aux opérations de transactions immobilières et financières
+3.1 Frais liés aux opérations sur actifs immobiliers hors commissions de mouvement liées
+aux opérations d'investissement et d'arbitrage sur actifs immobiliers.
+Les frais suivants liés aux opérations de transactions immobilières viennent en supplément
+des commissions de mouvement
+L'ensemble des frais afférents aux acquisitions et ventes d'actifs immobiliers,
+notamment les frais d'acquisition et de cession de tous biens et droits immobiliers ou titres
+13
+=== page 14 ===
+de sociétés immobilières, les émoluments de notaire, les honoraires de conseil, les
+commissions d'agents
+Les frais d'actes, les impôts et taxes afférents aux actes, les frais d'audit, d'études
+techniques et d'évaluation des actifs, les frais d'audit techniques, juridiques et fiscaux, que
+lesdites opérations d'acquisition et de cession soient effectivement conclues ou qu'elles
+soient interrompues ou abandonnées pour quelque cause que ce soit ,
+L'ensemble des frais afférents à la construction des actifs immobiliers, notamment la
+rémunération des entreprises, des promoteurs, maîtres d'ouvrage délégués, maîtres
+d'œuvre, les honoraires techniques et juridiques (architectes, bureaux d'études, notaires,
+avocats et évaluateurs, etc.), ainsi que les impôts, taxes et redevances y afférents ,
+L'ensemble des frais afférents au financement des acquisitions ou des constructions
+des actifs immobiliers, que lesdites opérations d'acquisition ou de construction soient
+effectivement conclues ou qu'elles soient interrompues ou abandonnées pour quelque
+cause que ce soit, les commissions, intérêts, frais de couverture de taux et coûts des
+sûretés afférents aux financements et à leur remboursement.
+3.2 Commissions de mouvement liées aux opérations d'investissement et d'arbitrage sur
+actifs immobiliers
+Les commissions de mouvement d'investissement et d'arbitrage couvrent l'ensemble des
+diligences réalisées par la société de gestion d'OPCl.
+Le barème de ces commissions devant figurer dans le document d'information devra
+préciser notamment
+Les assiettes retenues sur
+• les acquisitions
+• les cessions ,
+• les autres opérations
+Les taux ou montants applicables à ces différentes assiettes (par mesure de
+simplification, les OPCI ont la possibilité de mentionner un taux maximum, pour l'ensemble
+des opérations) ,
+Le montant prélevé par la société de gestion d'OPCl.
+3.3 Commissions de mouvement liées à l'investissement en instruments financiers
+Les frais de transaction sur instruments financiers incluent les frais d'intermédiation
+(courtage, impôt de bourse, ...) et la commission de mouvement, le cas échéant, qui peut
+être perçue sur chaque opération, notamment par le dépositaire et la société de gestion
+d'OPCl.
+Le barème de ces commissions devant figurer dans le document d'information devra
+préciser notamment
+Les assiettes retenues sur
+• les transactions
+• les opérations sur titres
+• les autres opérations ,
+Les taux ou montants applicables à ces différentes assiettes (par mesure de
+simplification, les OPCI ont la possibilité de mentionner un taux maximum, pour l'ensemble
+des instruments) ,
+Les clés de répartition entre les différents acteurs.
+14
+=== page 15 ===
+Dans la mesure où de façon exceptionnelle un sous-conservateur, pour une opération
+particulière, serait amené à prélever des frais de transaction non prévus dans les modalités
+ci-dessus, la description de l'opération et de ces frais facturés doit être renseignée dans le
+rapport de gestion de l'OPCl.
+4 - Frais indirects
+Les frais indirects comprennent les frais supportés par l'OPCl relatifs aux investissements
+immobiliers et financiers réalisés indirectement.
+Ils doivent être inclus dans les taux mentionnés aux rubriques précédentes à partir du
+moment où l'OPCl prévoit d'investir plus de 20 % de son actif indirectement dans des sous-
+jacents immobiliers et/ou financiers.
+5 — Commission de surperformance
+Celle-ci rémunère la société de gestion d'OPCl dès lors que l'OPCl a dépassé ses objectifs.
+Elle est facturée à l'OPCl.
+Pour toute information complémentaire, l'actionnaire/porteur de parts pourra également se
+reporter au rapport annuel de l'OPCl.
+« L'attention de l'investisseur est appelée sur le fait que hormis les frais de fonctionnement
+et de gestion, les autres frais sont susceptibles de varier d'une année sur l'autre ».
+VI - Organe de gouvernance
+Cette rubrique expose toute information utile concernant .
+Le fonctionnement, notamment les missions de l'organe de gouvernance, les modalités
+de convocation de cet organe (quorum, constat de carence) ,
+Les modalités de désignation de ses membres ,
+Les moyens d'obtention de l'identité de ces membres et les moyens de les contacter
+Mention des principales activités exercées par ces personnes en dehors de la société
+lorsqu'elles sont significatives par rapport à celle-ci.
+VII - Évaluation - Comptabilisation
+Cette rubrique décrit les règles d'évaluation des actifs de l'OPCl telles qu'elles sont
+appliquées pour le calcul de la valeur liquidative ainsi que les options retenues pour la
+comptabilisation ou l'évaluation de certains actifs.
+Les règles d'évaluation de l'actif reposent sur des méthodes d'évaluation et sur des
+modalités pratiques qui sont précisées dans l'annexe aux comptes annuels et dans le
+document d'information.
+10 Les règles d'évaluation sont fixées, sous sa responsabilité, par la société de gestion
+d'OPCl.
+Le document d'information précise les méthodes d'évaluation de chaque nature
+d'instruments financiers, dépôts ou valeurs, y compris les méthodes employées pour les
+actifs difficiles à évaluer, et les modalités pratiques de valorisation de ceux-ci. Les
+méthodes d'évaluation fixent les principes généraux de valorisation par référence à une
+négociation sur un marché ou par référence aux méthodes spécifiques prévues notamment
+par le plan comptable OPCI. Ces principes permettent de définir les modalités pratiques de
+valorisation. Par « modalités pratiques », il faut entendre pour chaque informatio
+15
+=== page 16 ===
+nécessaire à la valorisation, la source des informations nécessaires à la valorisation et, le
+cas échéant, l'heure de récupération. Ces modalités pratiques doivent permettre de
+s'assurer que les valeurs liquidatives sont calculées de manière identique à chaque valeur
+liquidative.
+Le document d'information prévoit également des modalités pratiques alternatives en cas,
+notamment, d'indisponibilité des données financières nécessaires à l'évaluation ainsi
+qu'une information du commissaire aux comptes de l'OPCl en cas de mise en oeuvre.
+20 La méthode de comptabilisation
+le mode de comptabilisation retenu pour
+l'enregistrement des revenus des instruments financiers (coupon couru ou coupon
+encaissé, prise en compte des intérêts du weekend end, ... ) et des frais de transaction
+(frais inclus ou frais exclus, le cas échéant, par nature d'instruments et actifs immobiliers)
+doit être précisé.
+30 Mention de la méthode de calcul du ratio du risque global
+Le document d'information décrit la méthode d'évaluation des garanties et sa justification
+et mentionne l'utilisation ou non d'une évaluation au prix du marché (mark-to-market)
+quotidienne et de marges de variation quotidiennes.
+VIII - Régime fiscal
+Cette rubrique décrit le régime fiscal auquel est soumis l'OPCl.
+Le document d'information précise qu'une note relative au régime fiscal auquel est soumis
+l'OPCl est tenue à la disposition des souscripteurs auprès de la société de gestion d'OPCl.
+16

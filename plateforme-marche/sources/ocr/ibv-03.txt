@@ -1,0 +1,155 @@
+=== page 1 ===
+BVMAC
+INSTRUCTION N03
+GRILLE TARIFAIRE DE
+L'ENTREPRISE DE MARCHE
+BVMAC
+=== page 2 ===
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DEPARTEMENT DES OPERATIONS DU MARCHE
+Version
+Date
+Auteurs
+Description
+1 
+Octobre 2013 
+Les services des OPERATIONS 
+DU MARCHE 
+Projet d’instruction relatif à la tarification de l’entreprise de 
+marché
+=== page 3 ===
+3 
+ 
+TITRE I : TARIFICATION DE L’ENTREPRISE GESTIONNAIRE DU MARCHE 
+ 
+ 
+BVMAC 
+Tarification 
+ Commission d’Introduction 
+ 
+Payable par l’émetteur uniquement à 
+l’introduction en Bourse 
+Emission d’Action : 0,08% de la 
+capitalisation boursière 
+ 
+Emission d’Obligation : 0,04% de la 
+capitalisation boursière 
+ 
+ Commission de Capitalisation 
+ 
+Payable par l’émetteur annuellement sur la 
+base de la capitalisation moyenne 
+ 
+ 
+Valeur Action : 0,08% de la 
+capitalisation des titres cotés 
+ 
+ 
+Valeur Obligation : 0,04% de la 
+capitalisation des titres cotés 
+ Commission de Courtage 
+applicable aux SDB 
+ 
+Payable par les Sociétés de Bourse, 
+proportionnellement au volume de leurs 
+activités de négociation 
+ 
+ 
+Valeur Action et Obligation : 0,3% du 
+volume de négociation 
+ 
+ 
+ Redevance de Siège applicable 
+aux SDB 
+ 
+Payable par les Sociétés de Bourse, 
+annuellement, en leur qualité de membre 
+ 
+ 
+ 
+2 000 000 FCFA/an 
+ 
+ 
+ 
+ 
+ 
+1.1 Commission perçues par la BVMAC 
+ 
+ 
+ Commission d’introduction (Emetteur)
+=== page 4 ===
+4 
+ 
+ 
+ Commission d’introduction (Emetteur) 
+ 
+La commission d’introduction est facturée à l’Emetteur lors de son introduction en Bourse. Elle 
+est calculée sur la base d’un pourcentage appliqué à la capitalisation boursière. L’Emetteur doit 
+impérativement s’acquitter de l’intégralité de cette commission avant la date de première 
+cotation de ses titres. 
+ 
+ 
+ Commission de capitalisation (Emetteur) 
+ 
+ 
+La commission de capitalisation est annuelle. Elle est calculée et facturée au prorata temporis. Elle est 
+due différemment selon qu’il s’agisse d’actions ou d’obligations cotées : 
+ 
+ Au titre des actions cotées : la commission de capitalisation est calculée et facturée 
+trimestriellement par la BVMAC. La base de calcul est la capitalisation moyenne du trimestre 
+écoulé. L’Emetteur doit s’acquitter de chaque facture trimestrielle dans les délais mentionnés 
+sur la facture. 
+ 
+ Au titre des obligations cotées : la commission de capitalisation est calculée et facturée 
+globalement à l’Emetteur sur toute la durée de vie du titre, conformément au tableau 
+d’amortissement de l’emprunt obligataire, sur la base du montant nominal de l’emprunt. 
+ 
+ 
+ Redevance de siège (SDB*) 
+ 
+ 
+La redevance de Siège est annuelle. Elle est forfaitaire et facturée annuellement par la BVMAC aux 
+SDB. 
+ 
+ 
+ Commission de courtage (SDB) 
+ 
+La commission de courtage est due à l’issue de chaque séance de cotation à la BVMAC par les SDB 
+ayant réalisé des transactions. Elle est calculée sur la base d’un pourcentage appliqué au volume de 
+négociation. 
+ 
+ 
+ 
+SDB = Société de Bourse

@@ -1,0 +1,337 @@
+=== page 1 ===
+COMMUNAUTE ECONOMIQUE
+ET MONETAIRE DE L'AFRIQUE CENTRALE
+UNION MONETAIRE DE L'AFRIQUE CENTRALE
+COMITE MINISTERIEL
+25/CEMAC/UMAC/ portant institution d'un régime général
+REGLEMENT NO
+d'inscription en compte des valeurs mobilières et autres titres financiers émis sur le
+territoire des Etats membres de la CEMAC
+LE COMITE MINISTERIEL
+VU le Traité révisé de la Communauté Economique et Monétaire de l'Afrique Centrale
+(CEMAC) ;
+VU la Convention régissant l'Union Economique de l'Afrique Centrale (UEAC) ,
+VU la Convention régissant l'Union Monétaire de l'Afrique Centrale (IJMAC) ;
+VU l'Acte Additionnel NO 03/01-CEMAC-CE 03 du 8 décembre 2001 portant création
+de la Commission de Surveillance du Marché Financier de l'Afrique Centrale
+VU l'Acte Additionnel n006/17-CEMAC- COSUMAF- CCE-SE du 19 février 2018
+portant unification du marché financier de la CEMAC et mesures d'accompagnement ;
+VU le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale •
+Considérant la Résolution no 14 du Collège de la COSUMAF réuni en session ordinaire
+du 21 novembre 2025 à Libreville, approuvant le projet de Règlement portant institution
+d'un régime général d'inscription en compte des valeurs mobilières et autres titres
+financiers émis sur le territoire des Etats membres de la CEMAC et autorisant sa
+transmission à la BEAC en vue de son adoption par le Comité Ministériel de l'UMAC ;
+=== page 2 ===
+Considérant la nécessité de faire converger la réglementation existante sur
+l'inscription en compte des valeurs mobilières et autres instruments financiers de la
+CEMAC avec les dispositions de l'Acte uniforme de l'OHADA du 30 Janvier 2014 relatif
+au droit des sociétés commerciales et du groupement d'intérêt économique ,
+Après avis conforme du Conseil d'Administration de la BEAC délivré lors de sa session
+ordinaire du 18 décembre 2025 à Bata en République de Guinée Equatoriale ,
+Sur proposition du Président de la Commission de Surveillance du Marché Financier
+de l'Afrique Centrale ,
+Réuni en session ordinaire le 19 décembre 2025 à Bata en République de Guinée
+Equatoriale,
+ADOPTE A L'UNANIMITÉ LE REGLEMENT PONT LA TENEUR SUIT
+TITRE PRELIMINAIRE : OBJET - DEFINITIONS
+Article premier. - Le présent Règlement définit le régime général d'inscription en compte,
+dont il fixe les principes et règles.
+Le régime d'inscription en compte s'entend de la substitution de certificats physiques de
+titres par leur inscription en compte, sous forme électronique, au nom de leurs
+propriétaires, auprès de l'émetteur ou auprès d'un teneur de compte agréé par
+l'Autorité de surveillance du marché financier.
+Article 2.-
+Au sens du présent Règlement, il faut entendre par :
+a) « Adhérent » : tout établissement ou organisme disposant d'un compte courant
+auprès du Dépositaire Central des titres.
+b) « Bourse des Valeurs » : la Bourse des Valeurs Mobilières de l'Afrique Centrale
+(BVMAC).
+c) « Comptes courants de titres auprès du Dépositaire Central » : comptes
+ouverts chez le Dépositaire Central au nom de ses adhérents et retraçant la
+totalité de leurs avoirs propres et de ceux de leur clientèle.
+2
+=== page 3 ===
+d) « Comptes titres » : comptes ouverts par les teneurs de comptes au nom des
+titulaires de titres et retraçant les avoirs détenus par ces derniers.
+e) « Dépositaire Central » : organisme central agréé par l'Organe de surveillance
+du marché financier et investi à titre exclusif d'une mission de service public afin
+de fournir notamment les services suivants
+• l'enregistrement initial de titres dans un système d'inscription en compte
+• la tenue centralisée de comptes, consistant dans la fourniture et la tenue
+centralisée de comptes de titres émis par les sociétés par actions ou toute
+autre personne établie en zone CEMAC
+• le règlement, consistant dans l'exploitation d'un système de règlement de
+titres
+• la circulation des titres par virement de compte à compte
+• la gestion du processus d'inscription en compte des titres émis par les
+sociétés par actions ou toute autre personne établie en zone CEMAC
+• la dématérialisation des valeurs mobilières et autres titres financiers.
+f) « Inscription en compte » : substitution des certificats physiques de titres par
+l'inscription en compte desdits titres sous forme électronique, au nom de leurs
+propriétaires, auprès de l'émetteur ou auprès d'un teneur de compte agréé par
+l'autorité de surveillance du marché financier.
+g) « Intermédiaire financier » ou « intermédiaire habilité »
+les sociétés de bourse et autres intermédiaires agréés par l'organe de
+surveillance du marché financier ,
+les établissements de crédit agréés par l'organe de surveillance du
+marché financier ,
+les teneurs de comptes
+tout autre prestataire de services financiers spécialement habilité.
+h) « Organe de surveillance du marché financier » : la Commission de
+Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF).
+i) « Titres au porteur » : titres conservés uniquement auprès d'un intermédiaire
+agréé.
+3
+=== page 4 ===
+j) « Titres financiers » : titres visés à l'article 6 du Règlement
+n001/22/CEMAC/UMAC/CM du 21 juillet 2022. Ils comprennent .
+Les valeurs mobilières ,
+Les effets publics négociables issus de la titrisation de la dette intérieure
+d'un ou de plusieurs Etats membres de la CEMAC ;
+Les titres de créance négociables supervisés par la BEAC
+Les Sukuks et titres financiers assimilés.
+k) « Titres nominatifs » : titres émis par une société commerciale, inscrits et
+conservés dans les registres de ladite société (titres nominatifs purs) ou dans
+ceux tenus par un intermédiaire habilité (titres nominatifs administrés).
+l) « Valeurs admises aux opérations du Dépositaire Central » : valeurs ou
+titres faisant l'objet d'une ouverture de compte courant dans les livres du
+Dépositaire Central.
+m)« Valeurs mobilières » : Titres de capital ou de créance émis par les sociétés
+par actions, les personnes morales de droit public, les organismes de placement
+collectif, conférant des droits identiques par catégorie et donnant accès
+directement ou indirectement à une quotité du capital de l'entité émettrice ou à
+un droit de créance général sur son patrimoine.
+TITRE PREMIER • CHAMP D'APPLICATION ET PRINCIPE DE L'INSCRIPTION EN
+COMPTE
+Article 3.-
+Le Présent Règlement s'applique à toutes les valeurs mobilières et autres titres
+financiers émis sur le territoire des Etats membres de la CEMAC, quelle que soit leur
+forme, qu'ils soient ou non admis à la négociation à la Bourse des Valeurs.
+Article 4.-
+L'inscription des valeurs mobilières et autres titres financiers dans un dispositif
+d'enregistrement électronique partagé ou tout dispositif équivalent permettant
+d'identifier, directement et indirectement, le propriétaire tient lieu d'inscription en
+compte.
+L'inscription en compte donne lieu à la délivranc , par le Dépositaire Central, à la
+personne morale émettrice, d'une attestation d'ins ription en compte.
+4
+=== page 5 ===
+Article 5. -
+Pour l'application des dispositions du présent Règlement, les valeurs mobilières et
+autres titres financiers sont des titres émis par des personnes morales publiques ou
+privées, qui confèrent des droits identiques par catégorie, librement transmissibles et
+donnant accès, directement ou indirectement, à une quotité du capital de l'entité
+émettrice ou à un droit de créance général sur son patrimoine.
+Sont notamment considérés comme valeurs mobilières ou titres assimilés
+les titres de capital et titres de créance émis par les sociétés par actions ,
+les bons du trésor, les obligations du trésor et tout autre titre financier
+émis par la BEAC, par un Etat membre de la CEMAC ou un
+démembrement de cet Etat ,
+les actions et parts d'organismes de placement collectif ;
+tout autre titre financier émis dans le cadre d'un appel public à l'épargne.
+Article 6.-
+Pour l'application des dispositions du présent Règlement, les valeurs mobilières et
+autres titres financiers ou assimilés visés en son l'article 5, sont obligatoirement
+représentés par une inscription en compte au nom de leur propriétaire.
+Le compte-titre est ouvert au nom d'un ou de plusieurs titulaires, propriétaires des titres
+financiers qui y sont inscrits.
+Le compte-titre peut, par dérogation, être ouvert
+- au nom d'un organisme de placement collectif, la désignation de l'organisme
+de placement collectif pouvant être valablement substituée à celle de tous les
+copropriétaires ,
+- au nom d'un intermédiaire inscrit agissant pour le compte du propriétaire
+des titres financiers ,
+- Au nom d'un intermédiaire inscrit agissant pour le compte d'un ou de plusieurs
+propriétaires de parts ou d'actions d'organismes de placement collectif, lorsque
+ces propriétaires n'ont pas leur domicile sur le territoire d'un Etat membre de la
+CEMAC.
+L'intermédiaire inscrit est tenu, au moment de l'ouverture de son compte-titre, de
+déclarer sa qualité d'intermédiaire détenant des titres pour le compte d'autrui.
+Article 7.-
+Les valeurs mobilières et autres titres financiers ou assimilés visés à l'article 5 du
+présent Règlement se transmettent par virement de compte à compte.
+5
+=== page 6 ===
+Article 8.-
+La propriété des titres résulte de leur inscription au compte de leur titulaire tenu chez un
+teneur de compte.
+La propriété de titres nominatifs administrés, résulte des inscriptions portées dans les
+registres de l'intermédiaire agréé assurant l'administration de ceux-ci.
+L'inscription en compte établit, à l'égard de tous, la propriété du titulaire du compte sur
+les titres inscrits en son nom et tous les droits y afférents.
+Les titres inscrits en compte ne peuvent plus être représentés matériellement sur
+support papier.
+TITRE Il . ADMINISTRATION DES TITRES INSCRITS EN COMPTE
+Article 9.-
+Les titres sont soit au porteur, soit nominatifs.
+Les titres au porteur sont exclusivement représentés par une inscription en compte
+auprès d'un intermédiaire financier agréé par la COSUMAF.
+Article 10.-
+Les personnes morales émettrices des valeurs mobilières ou titres financiers soumis
+au régime de l'inscription en compte sont tenues, pour les titres nominatifs qu'elles ont
+émis, d'ouvrir des comptes au nom de leurs titulaires. Les titres gérés sous cette forme
+sont dits « nominatifs purs
+En vue de faciliter la gestion et la négociation de leur portefeuille de titres, les titulaires
+de titres nominatifs peuvent solliciter l'ouverture d'un « compte d'administration »
+auprès d'un intermédiaire financier agréé par la COSUMAF. Cette modalité
+d'administration résulte d'un mandat donné à l'intermédiaire financier par le titulaire
+des titres. Une copie du mandat est sans délai notifiée par l'intermédiaire financier à la
+personne morale émettrice.
+Les titres gérés sous cette forme sont dits « nominatifs administrés » et sont
+représentés par une inscription en compte auprès d'un intermédiaire financier agréé.
+Article 11.-
+L'intermédiaire financier agréé, mandataire de l'administration de titres nominatifs
+veille, en toutes circonstances, à la cohérence et l'identité des indications figurant
+dans le compte d'administration avec celles figurant dans les livres de la personne morale
+émettrice.
+Toute instruction donnée par le titulaire des titres à l'intermédiaire financier doit
+immédiatement, lorsqu'elle affecte les titres adminis rés, être portée par ce dernier, à
+la connaissance de l'émetteur.
+6
+=== page 7 ===
+Article 12.-
+Pour l'application du présent Règlement, sont considérés comme teneurs de comptes
+les personnes morales émettrices ,
+les intermédiaires financiers et autres organismes agréés à cet effet par
+l'organe de surveillance du marché financier ;
+Sont également assimilés à des teneurs de compte
+la Banque des Etats de l'Afrique Centrale
+les Trésors publics des Etats membres de la CEMAC
+la Chambre de compensation ;
+tout autre organisme public dûment habilité par l'organe de surveillance du
+marché financier.
+Article 13.-
+Les teneurs de comptes ouvrent des comptes courants de titres auprès du Dépositaire
+Central et acquièrent de ce fait la qualité d'adhérents.
+Les comptes courants des personnes morales émettrices mentionnent les avoirs en
+titres nominatifs purs.
+Les comptes courants des intermédiaires financiers agréés enregistrent distinctement
+les titres au porteur et les titres nominatifs administrés.
+Article 14.-
+Le Dépositaire Central assure les fonctions visées à l'article 121 du Règlement
+n001/22/CEMAC/UMAC du 21 juillet 2022 portant organisation et fonctionnement du
+Marché Financier de l'Afrique Centrale. Il est garant du montant de l'émission des
+valeurs admises à ses opérations. Il enregistre dans sa comptabilité l'intégralité des
+titres composant l'émission desdites valeurs.
+La contrepartie de chaque émission de valeurs admises aux opérations du Dépositaire
+Central figure dans sa comptabilité au crédit des comptes ouverts à leurs adhérents.
+Le solde créditeur des comptes courants de titres auprès du Dépositaire Central doit,
+en toutes circonstances, correspondre au total des titres inscrits en compte auprès des
+teneurs de comptes au nom des titulaires.
+Le Dépositaire Central veille, en toutes circonstances, aux équilibres comptables
+prévus au présent article et au respect des règles de tenue des comptes titres et de la
+comptabilité titres des teneurs de compte.
+Article 15.-
+En cas d'ouverture d'une procédure de redressement judiciaire ou de liquidation des
+biens du teneur de compte, le syndic informe sans délai le Dépositaire Central et la
+COSUMAF.
+7
+=== page 8 ===
+La COSUMAF désigne un autre intermédiaire agréé en qualité de teneur de compte
+auquel les titres sont transférés.
+Les titulaires de comptes ont ensuite la possibilité de transférer leurs avoirs chez le
+teneur de compte de leur choix.
+Article 16.-•
+Toute opposition sur titres perdus ou volés est sans effet si elle intervient
+postérieurement au dépôt des titres concernés auprès du Dépositaire Central.
+Article 17.-
+Le teneur de compte délivre au titulaire de titres inscrits en compte une attestation
+justifiant de la nature et du nombre de titres inscrits au nom dudit titulaire.
+Article 18.-
+Le teneur de compte est seul responsable de la bonne tenue de ses livres et des
+informations que ceux-ci contiennent sur la nature et le nombre des valeurs mobilières
+et autres titres dont il est dépositaire, et sur l'identité des titulaires de celles-ci. II
+souscrit à cet effet, auprès d'une compagnie d'assurance agréée par la CIMA, toutes
+polices couvrant sa responsabilité civile professionnelle.
+Article 19.-
+Pendant un délai de vingt (20) ans à compter de la vente prévue à l'article 26 du
+présent Règlement, les personnes morales émettrices sont tenues de conserver les
+souches des titres au porteur qu'elles ont émis.
+TITRE Ill : DISPOSITIONS PARTICULIERES ET TRANSITOIRES
+Article 20.-
+A compter de l'entrée en vigueur du présent Règlement, les personnes -morales
+émettrices et les intermédiaires financiers agréés informent, sans délai, par lettre
+recommandée ou remise en main propre contre décharge, les titulaires de titres
+nominatifs ou au porteur, des modalités pratiques de l'inscription en compte de leurs
+titres telles que fixées aux articles 21 et 22 du présent Règlement.
+Article 21.-
+Dans un délai de trente-six (36) mois à compter de l'entrée en vigueur du présent
+Règlement :
+les personnes morales émettrices inscrivent en compte les titres nominatifs
+figurant sur leurs registres et arrêter lesdits registres ,
+les intermédiaires financiers agréés inscrivent en compte d'administration
+les titres correspondant aux certificats nominatifs dont la détention leur a été
+confiée
+les intermédiaires financiers agréés inscrivent e comptes les titres au
+porteur dont la détention leur a été confiée.
+8
+=== page 9 ===
+Article 22.-
+Les titulaires des titres au porteur non déposés peuvent les remettre à un intermédiaire
+financier agréé de leur choix aux fins d'inscription en compte, jusqu' à la veille de la
+vente prévue à l'article 26 du présent Règlement.
+Les titres au porteur non déposés peuvent également être remis à la personne morale
+émettrice aux fins d'inscription en compte sous la forme nominative, jusqu'à la veille
+de la vente prévue à l'article 26 du présent Règlement.
+Article 23.-
+Les titres nominatifs ou au porteur déposés auprès d'un teneur de comptes sont, sans
+délai, remis par ce dernier au Dépositaire Central, lequel, en sa qualité de garant du
+montant global des émissions de titres en circulation, est tenu d'enregistrer dans sa
+comptabilité l'intégralité des titres composant l'émission des valeurs admises à ses
+opérations.
+Article 24.-
+Dans un délai de trois (3) ans à compter de l'entrée en vigueur du présent Règlement,
+les titulaires de titres au porteur ne peuvent exercer les droits attachés à ces titres
+qu'après les avoir remis à un intermédiaire financier agréé ou, le cas échéant, à la
+personne morale émettrice, aux fins d'inscription en compte.
+Article 25.-
+Dans un délai de trois (3) ans à compter de l'entrée en vigueur du présent Règlement,
+les titulaires de certificats nominatifs non déposés auprès d'un intermédiaire agréé ne
+pourront exercer leurs droits qu'après la remise desdits certificats à la personne morale
+émettrice.
+Article 26.-
+Trois ans après l'entrée en vigueur du présent Règlement, les personnes morales
+émettrices procèdent, dans délai de vingt-quatre mois, à la vente à la Bourse
+Régionale des droits correspondant aux titres non-inscrits en compte, à l'exception de
+ceux frappés d'opposition.
+Le produit net de la vente visée au présent article est consigné par le Dépositaire
+Central dans un compte ouvert auprès d'une institution financière de la CEMAC. Elle
+est tenue à la disposition des ayants droits sur présentation des titres y afférents.
+Les ayants droit disposent d'un délai de trente (30) ans, à compter de la date de
+consignation, pour réclamer le produit de la vente. À l'expiration dudit délai, ces
+sommes sont dévolues conformément à la législation de l'État membre de
+rattachement.
+Les titres anciens sont réputés nuls après la vente des droits y afférents.
+9
+=== page 10 ===
+TITRE IV. SANCTIONS
+Article 27.-
+Sans préjudice des dispositions administratives et financières applicables, est passible
+d'une sanction pécuniaire, conformément aux règlements en vigueur, toute personne
+morale émettrice ne justifiant pas de l'attestation d'inscription en compte visée à
+l'article 2 du présent Règlement, dans un délai de trente-six (36) mois à compter de
+son entrée en vigueur.
+TITRE V. DISPOSITIONS FINALES
+Article 28.-
+L'Autorité de régulation du Marché Financier de l'Afrique Centrale précise, en tant que
+de besoin, par voie d'instructions, les modalités d'application des dispositions du présent
+Règlement.
+Article 29.-
+Les dispositions du présent Règlement peuvent être modifiées, à l'initiative de la
+COSUMAF, par le Comité Ministériel, après avis conforme du Conseil d'Administration
+de la BEAC dans le respect des traités communautaires.
+Arücle 30.-
+Le présent Règlement entre en vigueur le 1 er jour du mois suivant celui de son adoption
+par le Comité Ministériel de l'Union Monétaire de l'Afrique Centrale. Il abroge toutes
+dispositions antérieures contraires portant sur le même objet, applicables dans les
+Etats membres de la CEMAC et, dans toutes ses dispositions, le Règlement
+n001/14/CEMAC-UMAC/CM du 25 avril 2014 portant institution d'un régime
+d'inscription en compte des valeurs mobilières et autres instruments financiers émis
+dans le cadre d'un appel public à l'épargne. Il est publié au Bulletin officiel de la
+Communauté.
+Bata, le 19 décembre 2025
+Le Président du Comité Ministériel,
+E EBE MOLINA
+10

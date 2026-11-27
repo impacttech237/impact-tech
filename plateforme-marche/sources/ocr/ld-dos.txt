@@ -1,0 +1,469 @@
+=== page 1 ===
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+LIGNES DIRECTRICES
+RELATIVES AUX MODALITES D'ÉTABLISSEMENT DES
+DECLARATIONS D'OPÉRATIONS SUSPECTES SUR LE
+MARCHÉ FINANCIER DE L'AFRIQUE CENTRALE
+Date .
+• 15/ 12 / 2025
+1
+=== page 2 ===
+Table des matières
+D. Définition du soupçon ..... ....
+E. Contenu des déclarations ...
+F. Format des déclarations.....
+G. Délais des déclarations.
+INTRODUCTION............
+I — Environnement réglementaire et champ d'application
+I. 1 Fondements réglementaires ..
+1.3 Champ d'application
+II - Gouvernance interne
+2.2 Engagement formel de la direction .
+2.3 Manuel de procédures de LBC/FT
+2.4 Formation et sensibilisation du personnel.
+III — Déclaration d'opérations suspectes ..
+A) Déclarant et correspondant ANIF
+B. Sommes et opérations à déclarer ... ....
+C. Déclaration complémentaire
+.... 10
+.. .... 13
+10
+10
+.. 11
+1) Principe de l'envoi d'une déclaration de soupçon avant l'exécution de l'opération ... 11
+2) Le délai des déclarations de soupçon après exécution de l'opération ...
+. 11
+H. Confidentialité des déclarations
+IV — Approche fondée sur les risques et connaissance du client
+4.1 Cartographie des risques
+4.2 Profilage des clients et opérations
+4.3 Mesures de vigilance.
+3.4 Documentation & conservation.........
+V — Surveillance des opérations et détection d'alertes....
+5.1 Système de surveillance des opérations ..
+5.3 Analyse des alertes / suspicion ................
+5.4 Décision....
+5.5 Tentatives d'opérations suspectes ...
+.11
+11
+11
+12
+. 12
+. 12
+12
+. 12
+13
+... 13
+=== page 3 ===
+VI — Procédure de déclaration — Modalités, contenu, délais
+6.1 Quand déclencher une déclaration
+6.2 Modalités de la déclaration
+6.3 Contenu minimal du rapport de suspicion......
+6.4 Obligation de diligence
+6.5 Information complémentaire
+6.6 Suspension / interdiction de l'opération suspecte
+7. Gel des avoirs, sanctions ciblées et mesures conservatoires ......
+7.1 Procédure interne de gel / suspension
+7.2 Documentation des mesures.
+7.3 Respect du secret professionnel et de la confidentialité.............
+8. Suivi, audit interne, reporting et amélioration continue..
+8.1 Registre interne des alertes et déclarations
+8.2 Contrôles / audits internes périodiques
+8.3 Rapport périodique de conformité à la direction...
+8.4 Mise à jour et adaptation du manuel interne ...
+9. Confidentialité, protection des données et secret professionnel
+10. Gouvernance de l'adoption et mise en œuvre .............
+13
+. 13
+13
+. 13
+........... 14
+14
+14
+14
+. 14
+15
+15
+15
+. 15
+15
+15
+15
+.. 15
+........ 16
+=== page 4 ===
+INTRODUCTION
+Les marchés financiers sont un secteur fortement exposé au risque de blanchiment de capitaux
+et de financement du terrorisme. Il présente également une vulnérabilité certaine face aux
+activités criminelles déstabilisatrices de l'économie. Les réseaux criminels exploitent, en effet,
+la complexité des transactions financières pour dissimuler l'origine des fonds illicites. Il est dès
+lors crucial de disposer de solides cadres de lutte contre le blanchiment d'argent pour préserver
+la stabilité et l'intégrité du système financier de la CEMAC.
+La lutte contre le blanchiment de capitaux et le financement du terrorisme (LCB/FT) sur le
+marché financier de l'Afrique Centrale doit être comprise comme une priorité partagée entre,
+d'une part, les pouvoirs publics de la CEMAC et le régulateur du marché et, d'autre part, les
+acteurs et intervenants du marché et les professionnels du secteur privé, en vue d'assurer la
+solidité des dispositifs de lutte mis en place dans la sous-région.
+L'objectif d'intégrité du système financier suppose un partenariat efficace entre toutes les
+parties prenantes, qui repose sur une implication forte des professionnels et une meilleure
+connaissance de leurs obligations ainsi que des typologies de blanchiment
+Les présentes lignes directrices, prévues dans le Plan d'Action de la COSUMAF, ont vocation
+à aider les acteurs du marché à améliorer leur participation au dispositif LCB/FT. Il s'agit avant
+tout d'un document à caractère pédagogique. Elles ont pour objet de fournir un cadre
+opérationnel, clair et harmonisé pour l'identification, l'analyse et la déclaration d'opérations
+suspectes liées au blanchiment de capitaux (BC), au financement du terrorisme (FT), à la fraude,
+à la fraude fiscale ou à d'autres activités illicites pour toutes les entités assujetties sur le marché
+financier de la CEMAC.
+Le système d'évaluation et de gestion des risques, prévu dans la réglementation en vigueur, est
+la clé de voûte du dispositifLCB/FT. Élaborée par chaque acteur du marché selon son expertise
+et la connaissance qu'il a de sa clientèle et de la nature des opérations qu'il traite, la cartographie
+des risques sert de support à la mise en place des mesures de vigilance à mettre en œuvre. C'est
+au terme de ce processus que le professionnel sera le mieux à même de décider d'effectuer une
+déclaration de soupçon.
+La lutte contre le blanchiment de capitaux et le financement du terrorisme constitue un enjeu
+majeur de politique publique des États membres de la CEMAC. Les acteurs du marché financier
+4
+=== page 5 ===
+régional ne sauraient s'affranchir des efforts à consentir pour assurer I 'intégrité de notre système
+financier. Les flux de capitaux sont un élément essentiel d'un marché prospère et dynamique.
+Cependant, il faut le mettre à l'abri des circuits d'argent sale. Les acteurs du marché jouent un
+rôle clé dans la détection des activités criminelles. Ils doivent effectuer des contrôles rigoureux
+et s'assurer qu'ils sont efficaces contre la criminalité financière.
+I — Environnement réglementaire et champ d'application
+1.1 Fondements réglementaires
+Les présentes Lignes Directrices sont prises en application des textes suivants :
+Le Règlement no 01/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant sur
+l'organisation et le fonctionnement du marché financier de la CEMAC ;
+Le Règlement Général de la COSUMAF •
+Le régime instauré par le Règlement n002/24/CEMAC/UMAC/CM (décembre 2024)
+relatif à la prévention et à la répression du blanchiment de capitaux, du financement du
+terrorisme et de la prolifération ;
+Les instructions de la COSUMAF (notamment celles relatives à la vigilance client, à
+l'identification et à la déclaration de bénéficiaire effectif) •
+Elles ont également pour fondement les Recommandations du GAFI.
+1.3 Champ d'application
+Les présentes Lignes Directrices s'appliquent aux personnes, structures ou organismes placés
+sous le contrôle de la COSUMAF et visés aux articles 89 et suivants du Règlement Général de
+la COSUMAF. Ces structures sont les suivantes :
+1)
+2)
+3)
+4)
+5)
+6)
+7)
+8)
+les organismes centraux du marché ;
+les intermédiaires de marché •
+les agences de notation financière ;
+les organismes de placement collectif, les sociétés de gestion et leurs dépositaires ;
+le Fonds de garantie du marché ;
+les analystes financiers intervenant sur le marché ou y exerçant une activité ;
+les organismes de garantie des émissions ;
+les émetteurs soumis au visa de la COSUMAF ;
+5
+=== page 6 ===
+9) toute autre personne ou structure agréée par la COSUMAF.
+II - Gouvernance interne
+2.1 Désignation d'un responsable qualifié du dispositif LBC/FT (Responsable LBC/FT) dont
+les missions principales portent sur :
+la mise en œuvre du dispositif LBC/FT ;
+la surveillance des opérations quotidiennes ;
+l'analyse des alertes ;
+la décision d'établir une déclaration de suspicion ;
+la liaison avec l'Agence Nationale d'Investigation Financière (ANIF) ;
+la conservation des dossiers et l'archivage.
+2.2 Engagement formel de la direction
+La direction de la structure doit formaliser par écrit l'engagement à respecter les obligations
+LCB/FT, garantir I 'indépendance du Responsable LBC/FT, et allouer les ressources nécessaires
+(humaines, matérielles, formation, procédures).
+2.3 Manuel de procédures de LBC/FT
+Un manuel interne doit être établi pour regrouper : les Lignes Directrices, l'organigramme
+conformité, les rôles et responsabilités, les procédures d'alerte, d'analyse, de déclaration, de gel
+d'avoirs, de conservation, de reporting, etc.
+2.4 Formation et sensibilisation du personnel
+Formation initiale obligatoire pour tout agent nouvellement recruté, et formation de recyclage
+régulière pour tout le personnel (front-offce, back-office, direction, conformité), afin de
+garantir la sensibilisation aux risques BC/FT, aux obligations légales, aux typologies de BC/FT,
+et aux procédures internes.
+6
+=== page 7 ===
+III — Déclaration d'opérations suspectes
+A) Déclarant et correspondant ANIF
+1. Au sein de chaque structure agréée est désigné un déclarant et éventuellement un
+correspondant ANIF, qui peuvent par ailleurs être une seule et même personne. Le Responsable
+LBC/FT peut cumuler ces deux fonctions.
+2. En application des dispositions de l'article 91 du Règlement n002/24/CEMAC/UMAC/CM
+du 20 décembre 2024, le déclarant est la personne habilitée à procéder à la déclaration
+d'opération suspecte. En application de l'article 90 du même Règlement, le correspondant est
+la personne chargée de collaborer avec l'ANIF dans le cadre de l'exercice de ses attributions.
+3. L'identité et la qualité du déclarant et du correspondant sont communiquées à l'ANIF par
+courrier signé du principal dirigeant de la structure.
+4. En cas de changement, l'identité du nouveau déclarant/correspondant ANIF est portée, sans
+délai, à la connaissance de l'ANIF.
+5. Le déclarant ANIF :
+transmet les déclarations d'opérations suspectes à l'ANIF ;
+transmet, le cas échéant, les déclarations de soupçon complémentaires.
+6. Le correspondant ANIF :
+est destinataire des accusés de réception des déclarations d'opérations suspectes ;
+traite les demandes de communication de pièces ou de documents émanant de Tracfin
+concernant les déclarations de soupçon.
+B. Sommes et opérations à déclarer
+Les champs potentiels de la déclaration de soupçon sont énoncés aux articles 105 du Règlement
+CEMAC du 20 décembre 2024 et 106 du Règlement Général de la COSUMAF. Les acteurs,
+structures et intervenants du marché doivent déclarer les sommes inscrites dans leurs livres ou
+les opérations portant sur de telles sommes, lorsqu'ils savent, soupçonnent ou ont de bonnes
+raisons de soupçonner que ces sommes ou opérations sont liées à un crime, à un délit, à des
+7
+=== page 8 ===
+activités illicites ou qu'elles s'inscrivent dans un processus de blanchiment de capitaux ou de
+financement du terrorisme. Doivent notamment être déclarées :
+les sommes ou opérations de toute nature qui pourraient être liées à des trafics illicites
+ou des activités illégales ;
+les opérations pour lesquelles l'identité du donneur d'ordre ou du bénéficiaire effectif
+est inconnue ou douteuse ;
+La tentative des opérations visées au premier alinéa du présent article ;
+Les sommes ou opérations qui pourraient provenir d'une fraude fiscale.
+La fraude fiscale est notamment présumée dans les cas suivants :
+10 1'utilisation de sociétés écran, dont l'activité n'est pas cohérente avec l'objet social ou ayant
+leur siège social dans un Etat ou un teritoire avec lequel le pays membre du siège de l'assujetti
+n'a pas conclu une convention fiscale, ou à I 'adresse privée d 'un des bénéficiaires de I 'opération
+suspecte ou chez un domiciliataire ;
+20 la réalisation d'opérations financières par des sociétés dans lesquelles sont intervenus des
+changements statutaires fréquents non justifiés par la situation économique de l'entreprise ;
+30 la réalisation d'opérations financières incohérentes au regard des activités habituelles de
+l'entreprise ;
+40 la progression forte et inexpliquée, sur une courte période, des sommes créditées sur les
+comptes nouvellement ouverts ou jusque-là peu actifs ou inactifs ;
+50 la constatation d'anomalies dans les factures ou les bons de commande lorsqu'ils sont
+présentés comme justification des opérations financières, telles que l'absence du numéro
+d'immatriculation au registre du commerce et du crédit mobilier, de numéro de facture,
+d'adresse ou de dates ;
+60 le recours inexpliqué à des comptes utilisés comme des comptes de passage ou par lesquels
+transitent de multiples opérations tant au débit qu'au crédit, alors que les soldes des comptes
+sont souvent proches de zéro ;
+70 le retrait fréquent d'espèces d'un compte professionnel ou leur dépôt sur un tel compte non
+justifié par le niveau ou la nature de l'activité économique ;
+8
+=== page 9 ===
+90 la difficulté d'identifier les bénéficiaires effectifs et les liens entre l'origine et la destination
+des fonds
+80 le refus du client de produire des pièces justificatives quant à la provenance des fonds reçus
+ou quant aux motifs avancés des paiements, ou l'impossibilité de produire ces pièces ;
+90 1'utilisation ou le dépôt, par un particulier, de fonds sans rapport avec son activité ou sa
+situation patrimoniale connue.
+Le champ de la déclaration d'opération suspecte porte sur toutes les infractions sanctionnées
+d'une peine d'emprisonnement supérieure à un an. Il s'agit notamment du trafic de stupéfiants,
+de la corruption et du trafic d'influence commis par des personnes exerçant une fonction
+publique, de l'abus de biens sociaux, de la contrefaçon, de I 'escroquerie, de I 'abus de confiance,
+de l'abus frauduleux de l'état d'ignorance ou de la situation de faiblesse, du travail dissimulé,
+de la banqueroute, de la tromperie, de la pratique commerciale trompeuse, etc.
+Il convient par ailleurs de souligner que les déclarants ne sont pas tenus de préciser, ni de
+qualifier une infraction sous-jacente. Il suffit en effet qu'ils soupçonnent ou qu'ils aient de «
+bonnes raisons » de soupçonner qu'il existe une infraction sous-jacente et formulent leur
+analyse des faits dans la partie « développement » de la déclaration.
+Les professionnels effectuent une DOS quand le soupçon est établi au terme de l'analyse
+conduite, c'est-à-dire lorsqu'ils n'ont pas obtenu, au regard des informations et documents
+recueillis auprès du client ou par d'autres moyens, d'assurance raisonnable quant à la licéité des
+fonds ou de l'opération, ou quant à sa justification économique au regard de leur connaissance
+de la clientèle.
+C. Déclaration complémentaire
+Toute information de nature à infirmer, conforter ou modifier les éléments contenus dans la
+déclaration est portée, sans délai, à la connaissance Les déclarations complémentaires indiquent
+les références Tracfin de la déclaration initiale et comportent l'ensemble des éléments utiles à
+compréhension des faits signalés.
+9
+=== page 10 ===
+D. Définition du soupçon
+Le soupçon résulte d'un doute qui conduit I 'assujetti à s'interroger sur la licéité de l'origine des
+sommes ou sur la licéité de l'utilisation qui sera faite des sommes engagées. Il est le fruit d'une
+réflexion objective et méthodique du professionnel.
+Compte tenu des informations dont il dispose sur son client (identité, notoriété, profession, etc.)
+et des éléments, notamment financiers, concourant à cette opération, l'assujetti procède à une
+déclaration lorsqu'il ne peut exclure tout doute sur le caractère régulier ou licite de l'action ou
+de l'acte envisagé.
+E. Contenu des déclarations
+1. Le déclarant effectue les DOS sur la base des informations dont il dispose.
+2. A titre liminaire, il convient de souligner que la DOS est la matérialisation d'un travail
+d'analyse. Dès lors, le déclarant doit s'abstenir de faire des déclarations motivées uniquement
+par des éléments de contexte. Ainsi, les DOS ne peuvent avoir pour seul motif :
+la réception d'une réquisition judiciaire ou d'une demande de renseignement émanant
+d'une administration ;
+l'activité professionnelle du client, son adresse ou son pays de résidence (éléments
+toutefois susceptibles de constituer un faisceau d'indices) ;
+le montant élevé d'une opération ;
+le fait d'être une PPE.
+Conformément à la réglementation, doit figurer explicitement dans toute déclaration l'analyse
+des faits ayant conduit au soupçon à l'origine du signalement. Cette obligation est la
+conséquence naturelle de l'analyse effectuée et de ses conclusions.
+Quel que soit le mode de transmission de la déclaration, des documents peuvent être joints aux
+DOS. Les déclarants utilisent cette fonctionnalité pour transmettre à l'ANIF l'ensemble des
+éléments nécessaires à la compréhension du signalement.
+F. Format des déclarations
+Les DOS sont établies par écrit. Elles peuvent également être recueillies verbalement.
+10
+=== page 11 ===
+G. Délais des déclarations
+1) Principe de l'envoi d'une déclaration de soupçon avant l'exécution de
+l'opération
+Les DOS doivent, en principe, être effectuées préalablement à l'exécution de l'opération afin,
+le cas échéant, de permettre à l'ANIF d'exercer son droit d'opposition. La déclaration indique,
+dans cette hypothèse, le délai d'exécution de l'opération.
+Le professionnel s'abstient, en conséquence, d'effectuer l'opération dont il soupçonne qu'elle
+est liée au blanchiment de capitaux ou au financement du terrorisme avant d'avoir effectué sa
+déclaration de soupçon.
+2) Le délai des déclarations de soupçon après exécution de l'opération
+1. Un assujetti peut, toutefois, effectuer une DOS à l'ANIF après que l'opération a été réalisée,
+soit parce qu'il a été impossible de surseoir à son exécution, soit que son report aurait pu faire
+obstacle à des investigations, soit que le soupçon est apparu postérieurement à la réalisation de
+l'opération. Dans ce cas, la déclaration est transmise « sans délai »
+H. Confidentialité des déclarations
+La confidentialité concerne l'existence et le contenu des déclarations qui ne peuvent être
+communiqués, de même que les suites qui leur ont été données, ni à l'intéressé ni à des tiers.
+Le non-respect de cette interdiction de divulgation entraîne l'application de sanctions
+pécuniaires.
+Le secret professionnel relatif aux DOS n'est pas opposable à la COSUMAF.
+La confidentialité de la déclaration ne fait pas obstacle à la communication par l'ANIF
+d'informations concernant les déclarations à la COSUMAF.
+IV — Approche fondée sur les risques et connaissance du client
+4.1 Cartographie des risques
+L'entité doit réaliser et documenter une cartographie des risques propres à son activité : clients,
+produits/instruments financiers, canaux, juridictions, types et volumes d'opérations, etc.
+11
+=== page 12 ===
+4.2 Profilage des clients et opérations
+Sur la base de la cartographie, définir des catégories de risque : clients "standard", clients ou
+juridictions à "risque élevé" (par exemple : personnes politiquement exposées, bénéficiaires
+effectifs complexes, juridictions à risque, etc.), opérations ou instruments à risque élevé.
+4.3 Mesures de vigilance
+Pour clients "standard" : vigilance normale ;
+Pour clients ou opérations "à risque élevé" : vigilance renforcée ;
+Identification complète du client (personne physique ou morale), et du bénéficiaire
+effectif s'il y a lieu ; collecte d'informations pertinentes : nature de l'activité, source des
+fonds, objet de la relation, bénéficiaires, etc.
+3.4 Documentation et conservation
+Tous les justificatifs, données clients, informations sur bénéficiaires effectifs, source des fonds,
+objets d'opérations, correspondances etc., doivent être conservés selon une politique interne
+d'archivage afin de permettre audits, reconstitutions ou enquêtes si nécessaire.
+V — Surveillance des opérations et détection d'alertes
+5.1 Système de surveillance des opérations
+Mise en place d'un dispositif manuel ou automatisé selon la taille / volume d'opérations pour
+surveiller les flux, les transactions, les transferts, les souscriptions/rachats, les mouvements sur
+comptes-titres, les transferts transfrontaliers, etc.
+5.2 Grille de typologies et signaux d'alerte
+Le manuel interne doit inclure une grille "typologies/signaux faibles" notamment :
+opérations inhabituelles (volume, fréquence) non cohérentes avec le profil du client ;
+fractionnement d'opérations pour éviter des seuils ;
+opérations structurées ou opaques, multipartenaires, bénéficiaires multiples, entités
+interposées ;
+bénéficiaires effectifs inconnus, opaques ou douteux ;
+transferts transfrontaliers sans justification économique ou légale claire ;
+juridictions à risque élevé ;
+12
+=== page 13 ===
+changements récents dans le profil ou l'activité du client ;
+nouvelles informations (médias, alertes externes, sanctions, soupçons) ;
+toute opération susceptible d'être liée à une fraude, à une fraude fiscale, un
+détournement, un trafic, ou d'autres infractions.
+5.3 Analyse des alertes/suspicion
+Lorsque survient un signal d'alerte, le Responsable LBC/FT ou la personne désignée procède à
+une analyse approfondie : examen de l'historique du client, des justificatifs, de la source des
+fonds, du contexte, des bénéficiaires, de la cohérence économique, juridique et fiscale.
+5.4 Décision
+Si des motifs sérieux de suspicion subsistent même en l'absence de certitude l'entité doit
+envisager une DOS.
+5.5 Tentatives d'opérations suspectes
+Les tentatives d'opérations suspectes (ordre, instruction, demande, même si non exécutées)
+doivent être documentées, analysées et, le cas échéant, faire I 'objet d'une déclaration à I 'ANIF.
+VI — Procédure de déclaration — Modalités, contenu, délais
+6.1 Quand déclencher une déclaration
+Dès que l'entité sait, soupçonne ou a de bonnes raisons de soupçonner qu'un client, une
+opération, ou des fonds sont liés à un crime, un délit, des activités illicites, blanchiment,
+financement du terrorisme, fraude, détournement, fraude fiscale, etc.
+6.2 Modalités de la déclaration
+La déclaration doit être faite par écrit, sous forme d'un rapport remis à l'ANIF, conformément
+aux dispositions du Règlement CEMAC du 20 décembre 2024 et du Règlement Général de la
+COSUMAF.
+6.3 Contenu minimal du rapport de suspicion
+Le rapport doit contenir au minimum :
+l'identité du donneur d'ordre / client / contrepartie (personne physique ou morale) ;
+13
+=== page 14 ===
+l'identité du bénéficiaire effectif (si possible) ou mention des difficultés d'identification
+description de l'opération : nature, date, montant, instruments financiers, canal,
+bénéficiaires, origine/destination des fonds, contexte, etc. ;
+motifs du soupçon : incohérences, signaux, typologies, contexte, éléments nouveaux,
+etc. ;
+historique pertinent de la relation ou des opérations antérieures ;
+nom, fonction, coordonnées de la personne ayant effectué la déclaration, date, référence
+interne (alerte, dossier), signature, etc. ;
+copies ou références des justificatifs disponibles (identité, source des fonds, documents
+contractuels, correspondances, etc.).
+6.4 Obligation de diligence
+La déclaration doit être envoyée à l'ANIF dès que le soupçon apparaît sans attendre la
+confirmation ou l'issue de l'opération.
+6.5 Information complémentaire
+Toute nouvelle information pertinente (confirmant ou infirmant le soupçon) doit être transmise
+à l'ANIF sans délai.
+6.6 Suspension / interdiction de l'opération suspecte
+L'entité doit s'abstenir d'exécuter ou de poursuivre toute opération qu'elle sait, soupçonne ou
+a de bonnes raisons de soupçonner être liée à des activités illicites, au blanchiment ou au
+financement du terrorisme.
+7. Gel des avoirs, sanctions ciblées et mesures conservatoires
+7.1 Procédure interne de gel / suspension
+Le manuel interne doit prévoir les conditions et modalités d'immobilisation, de blocage ou de
+gel des avoirs/opérations notamment lorsqu'une décision de gel est requise (sanctions,
+décisions d'autorités, risques identifiés, etc.)•
+=== page 15 ===
+7.2 Documentation des mesures
+Toute décision de gel ou blocage doit être formalisée : motif, bénéficiaire, montant, période,
+modalités, communication interne, référence de décision, archivage.
+7.3 Respect du secret professionnel et de la confidentialité
+La mise en œuvre des mesures de gel doit respecter les obligations de secret professionnel
+seules les personnes habilitées (Responsable LBC/FT, direction, audit interne) peuvent y avoir
+accès.
+8. Suivi, audit interne, reporting et amélioration continue
+8.1 Registre interne des alertes et déclarations
+Maintien d'un registre interne (alerte log) contenant : alertes, analyses, décisions, déclarations
+faites, gels, refus, justificatifs, dates, personnes responsables, etc.
+8.2 Contrôles / audits internes périodiques
+Surveillance régulière de la conformité : qualité des dossiers, respect des procédures,
+adéquation des typologies, efficacité du dispositif, formation du personnel, mise à jour des
+évaluations de risques, etc.
+8.3 Rapport périodique de conformité à la direction
+Rapport annuel ou à une autre périodicité définie à la direction : statistiques (alertes,
+déclarations, gels), retour d'expérience, difficultés rencontrées, recommandations, plan
+d' action.
+8.4 Mise à jour et adaptation du manuel interne
+Révision régulière (au moins annuelle) ou à chaque changement réglementaire, incident, retour
+d'audit, nouvelle typologie pour garantir I 'actualisation et I 'efficacité du dispositif.
+9. Confidentialité, protection des données et secret professionnel
+• Toutes les informations collectées (identités, bénéficiaires, justificatifs, correspondances,
+alertes, dossiers de déclaration) doivent être traitées avec la plus stricte confidentialité.
+15
+=== page 16 ===
+• L'accès aux informations sensibles doit être limité aux personnes habilitées (Responsable
+LBC/FT, direction, audit interne).
+• Les données doivent être archivées de manière sécurisée papier ou électronique selon la
+politique d'archivage interne, avec traçabilité des accès et des modifications.
+• Toute modification, accès ou suppression doit être documentée.
+10. Gouvernance de l'adoption et mise en œuvre
+• Les Lignes Directrices doivent faire l'objet d'une diffusion interne à tout le personnel de la
+structure agréée. La direction doit s'engager à en faire respecter toutes les dispositions.
+• Nomination officielle du Référent conformité/Responsable LBC/FT, avec définition des
+responsabilités, habilitations, ressources.
+• Un programme de formation initiale et continue doit être lancé par la direction.
+Fait à Libreville, le 15 décembre 2025
+Pour la COSUMAF
+Le Président
+COMMISSION DE SURVEILLANCE
+Du MARCHE FINANCIE
+LE
+DE L'AFRIQUE CEN
+.e9 / 91
+Tél.: + 241
+B.P. 1724 Libre le - GABON
+Jacqueline ADIABA - NKEMBE
+16

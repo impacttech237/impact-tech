@@ -1,0 +1,947 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF no 11-24 du 20 février 2024
+RELATIVE AUX INFORMATIONS ADRESSEES PAR LES SOCIETES DE GESTION D'OPC A LA COSUMAF
+LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel no 03/01-CEMAC-CE- 03 en date du 8 décembre 2001 portant création de la
+Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+Vu le Règlement N001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant organisation et
+fonctionnement du marché financier de l'Afrique Centrale,
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique Centrale,
+En sa séance du 20 février 2024 à Yaoundé •
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT :
+1
+=== page 2 ===
+CHAPITRE PRELIMINAIRE : CHAMP D'APPLICATION
+ARTICLE PREMIER
+La présente Instruction s'applique à l'ensemble des Sociétés de Gestion d'OPC quel que soit le type
+d'OPC géré.
+CHAPITRE 1 INFORMATIONS A FOURNIR SUR L'ACTIVITE DES SOCIETES DE GESTION D'OPC
+ARTICLE 2
+Deuxième
+marché/instrume
+nt
+Troisième
+marché/instru
+ment
+Quatrième
+marché/instrument
+1
+2
+3
+Marché/instrum
+ent principal
+Principaux
+marchés sur
+lesquels
+intervient la
+société de
+gestion d'OPC
+Principaux
+instruments
+gérés par la
+société de
+gestion d'OPC
+Valeur totale
+des actifs gérés
+(En FCFA)
+conformément
+à l'Annexe I
+La transmission à la COSUMAF, d'informations relatives à l'activité des sociétés de gestion d'OPC,
+notamment en ce qui concerne les tableaux, s'effectue sur une base semestrielle.
+Sauf disposition contraire, les obligations de communication d'informations à la COSUMAF, autres que
+celles visées au présent article, sont maintenues, qu'il s'agisse notamment d'informations
+hebdomadaires, mensuelles, trimestrielles ou semestrielles.
+ARTICLE 3
+Nom
+de
+l'OPC
+Code
+d'identification
+Date de
+création
+Types de
+fonds
+2
+Valeur
+nette
+d'inventaire
+(VNI)
+OPC de la zone CEMAC
+(Oui/Non)
+=== page 3 ===
+CHAPITRE 2 INFORMATIONS A FOURNIR SUR LES OPC
+Type d'informations
+Identification de l'OPC
+Informations
+OPC de la CEMAC : Oui/Non
+1
+2
+1
+2
+3
+4
+5
+6
+7
+8
+Nom de l'OPC
+Société de
+Gestion de
+l'OPC
+Nom de l'OPC
+Gestionnaire de l'OPC
+Codes d'identification du
+fonds, le cas échéant
+Date de création de l'OPC
+Devise principale de l'OPC selon la norme ISO
+4217 et actifs gérés
+Identité du ou des courtiers
+principaux de l'OPC
+Droit applicable aux trois
+sources de financement
+principales
+Devise
+Total actifs
+gérés
+Instruments composant le portefeuille et différents types d'expositions
+Détail des expositions prises et principales catégories d'actifs dans lesquelles l'OPC a
+investi à la date de déclaration :
+Titres
+a)
+Trésorerie et équivalents de trésorerie
+Valeur longue (positions Valeur
+acheteuses)
+courte
+(positions
+vendeuses)
+Dont:
+Certificats de
+dépôt
+3
+=== page 4 ===
+Actions cotées
+Dont :
+Actions non cotées
+Effets de
+commerce
+Autres dépôts
+Autres éléments
+liquides et quasi
+liquides (à
+l'exclusion des
+titres d'État)
+Actions émises par
+des établissements
+financiers
+Autres
+Obligations de sociétés autres que des
+établissements financiers
+Dont :
+Catégorie
+investissement
+(investment grade)
+Catégorie
+spéculative (non-
+investment grade)
+Obligations de sociétés émises par des
+établissements financiers
+Dont :
+Obligations souveraines
+Catégorie
+investissement
+(investment grade)
+Catégorie
+spéculative (non-
+investment grade)
+4
+=== page 5 ===
+Dont :
+Obligations
+CEMAC avec une
+maturité résiduelle
+de O à 1 an
+Obligations
+CEMAC avec une
+maturité résiduelle
+supérieure à 1 an
+Obligations non-
+CEMAC avec une
+maturité résiduelle
+de O à 1 an
+Obligations non-
+CEMAC avec une
+maturité résiduelle
+supérieure à 1 an
+Obligations convertibles émises par des
+établissements autres que des établissements
+financiers
+Dont :
+Catégorie
+investissement
+(investment grade)
+Catégorie
+spéculative (non-
+investment grade)
+Obligations convertibles émises par des
+établissements financiers
+Dont :
+Prêts
+Catégorie
+investissement
+(investment grade)
+Catégorie
+spéculative (non-
+investment grade)
+5
+=== page 6 ===
+Dont :
+Produits structurés/titrisés
+Dont :
+Dérivés
+b)
+Prêts à effet de
+levier
+Autres prêts
+Titres adossés à
+des actifs
+Titres adossés à
+des crédits
+hypothécaires
+résidentiels
+Titres adossés à
+des crédits
+hypothécaires
+commerciaux
+Titres adossés à
+des crédits
+hypothécaires
+d'agence publique
+Titres courts
+adossés à des
+actifs
+Obligations
+adossées à des
+créances/à des
+prêts bancaires
+Certificats
+structurés
+Produits indiciels
+cotés (Exchange
+traded products —
+ETP)
+Autres
+6
+Valeur longue
+Valeur
+courte
+=== page 7 ===
+Dérivés sur actions
+Dont :
+Dérivés à revenu fixe
+Dérivés liés à des
+établissements
+financiers
+Autres dérivés sur
+actions
+Contrats d'échange sur risque de crédit (CDS)
+Dont :
+CDS financiers
+mono-émetteurs
+(single name)
+CDS souverains
+mono-émetteurs
+Autres CDS mono-
+émetteurs
+CDS indiciels
+Exotique (y
+compris sur
+tranches de
+produits de crédit)
+Valeur brute
+Dérivés de change (à des fins d'investissement)
+Dérivés de taux d'intérêt
+Valeur longue
+Dérivés sur matières premières
+Valeur
+courte
+Dont :
+Énergie
+Dont :
+7
+=== page 8 ===
+Pétrole brut
+Gaz naturel
+Electricité
+Métaux précieux
+dont : Or
+Autres matières
+premières ou
+marchandises
+dont :
+Métaux
+industriels
+Bétail
+Produits
+agricoles
+Autres dérivés
+Actifs physiques (corporels/réels)
+c)
+Actifs physiques : Biens immobiliers
+Valeur longue
+Dont :
+Immobilier
+résidentiel
+Immobilier
+commercial
+Actifs physiques : Matières premières
+Actifs physiques : Bois de construction
+Actifs physiques : Objets d'art et de collection
+Actifs physiques : Moyens de transport
+8
+=== page 9 ===
+Actifs physiques : Autres
+Organismes de placement collectif
+d)
+Investissements dans des OPC gérés par la Société
+de Gestion de l'OPC
+Dont :
+Fonds du marché
+monétaire et OPC
+de gestion de
+liquidités
+OPC indiciels cotés
+Autres OPC
+Investissements dans des OPC non gérés par la
+Société de Gestion de l'OPC
+9
+Dont :
+Investissements dans
+e)
+d'autres catégories
+d'actifs
+Total autres
+Valeur des volumes
+échangés dans chaque
+catégorie d'actifs sur la
+période de déclaration
+a) Titres
+Fonds du marché
+monétaire et OPC
+de gestion de
+liquidités
+OPC indiciels cotés
+Autres OPC
+Valeur longue
+Valeur longue
+Valeur de marché
+Valeur
+courte
+Trésorerie et équivalents de
+trésorerie
+9
+=== page 10 ===
+Actions cotées
+Actions non cotées
+Obligations de sociétés
+autres que des
+établissements financiers
+Dont :
+Obligations des
+établissements financiers
+Obligations souveraines
+Dont :
+Obligations convertibles
+Prêts
+Catégorie
+investissement
+(investment grade)
+Catégorie
+spéculative (non-
+investment grade)
+Obligations d'États
+membres de la
+CEMAC
+Obligations de
+pays non membres
+de la CEMAC
+Produits structurés/titrisés
+b) Dérivés
+Dérivés sur actions
+Dérivés à revenu fixe
+Contrats d'échange sur
+risque de crédit
+10
+Valeur notionnelle
+Valeur de
+marché
+=== page 11 ===
+Dérivés de change (à des
+fins d'investissement)
+Dérivés de taux d'intérêt
+Dérivés sur matières
+premières
+Autres dérivés
+c) Actifs physiques
+(corporels/réels)
+Actifs physiques : Matières
+premières
+Actifs physiques : Biens
+immobiliers
+Actifs physiques : Bois de
+construction
+Actifs physiques : Objets
+d'art et de collection
+Actifs physiques : Moyens
+de transport
+Actifs physiques : Autres
+d) Organismes de
+Placement Collectif
+e) Autres catégories
+d'actifs
+Devise des expositions
+Valeur de marché
+Profil de risque de l'OPC
+1. Profil de risque de marché
+11
+=== page 12 ===
+10
+11
+12
+Rendement annuel attendu des
+investissements/TRl dans des conditions
+normales de marché (en %)
+2. Profil de risque de contrepartie
+Mécanismes de
+négociation et de
+compensation
+Estimation du % (en valeur de marché) de
+a)
+titres négociés:
+(ne rien indiquer en l'absence de négociation de
+titres)
+sur un marché réglementé
+de gré à gré
+Estimation du % (en volume) de dérivés
+b)
+négociés :
+(ne rien indiquer en l'absence de négociation de
+dérivés)
+sur un marché réglementé
+de gré à gré
+Estimation du % (en volume) d'opérations sur
+c)
+dérivés compensés:
+(ne rien indiquer en l'absence de négociation de
+dérivés)
+Estimation du % (en valeur de marché)
+d)
+d'opérations de pension compensées:
+(ne rien indiquer en l'absence d'opérations de
+pension)
+Valeur des collatéraux et autres soutiens de
+crédit que l'OPC a fournis à l'ensemble des
+contreparties :
+12
+=== page 13 ===
+13
+14
+15
+Valeur des collatéraux fournis sous forme de
+a)
+trésorerie et équivalents de trésorerie
+Valeur des collatéraux fournis sous forme
+d autres titres (à l'exclusion de la trésorerie et
+des équivalents de trésorerie)
+Valeur des autres types de collatéraux et de
+c)
+soutiens de crédit fournis (inclure la valeur
+faciale des lettres de crédit et autres soutiens
+de crédit similaires à des tiers)
+Sur le montant des collatéraux et autres soutiens
+de crédit que le fonds déclarant a fourni à des
+contreparties : quel est le pourcentage ré -
+hypothéqué par ces contreparties ?
+Trois plus importantes expositions à des
+contreparties (hors CCP)
+Indiquer les trois contreparties sur lesquelles
+I OPC détient les expositions nettes au risque
+de contrepartie les plus importantes en valeur
+de marché, mesurées en % de la Valeur nette
+d'inventaire (VNI) de l'OPC
+Contrepartie 1
+Contrepartie 2
+Contrepartie 3
+Indiquer les trois contreparties détenant les
+b)
+expositions nettes au risque de contrepartie
+de l'OPC les plus importantes en valeur de
+marché, mesurées en % de la valeur nette
+d'inventaire (VNI) de l'OPC
+Contrepartie 1
+Contrepartie 2
+Contrepartie 3
+Compensation directe via des contreparties
+centrales de compensation (CCP)
+13
+Nom
+Nom
+Exposition
+totale
+Exposition
+totale
+=== page 14 ===
+Durant la période couverte par la déclaration,
+I OPC a- t-il compensé directement des
+opérations en passant par une CCP ?
+En cas de réponse affirmative au point 18 a),
+b)
+indiquer les deux principales CCP concernées,
+en termes d'exposition nette au risque de
+crédit
+CCP 1
+CCP 2
+Oui
+Non (passez
+directement à la
+question 18)
+Nom
+3. Profil de liquidité
+Profil de liquidité du portefeuille
+Profil de liquidité des investisseurs
+Pourcentage du portefeuille liquidable sous:
+16
+17
+18
+19
+2à7 8à
+1 jour ou
+31 à 91 à
+90
+180
+jours jours
+181
+à
+365
+jours
+plus de 365 jours
+moins
+jours 30
+jours
+Montant de liquidités non soumises à
+restrictions
+Profil de liquidité des investisseurs
+Profil de liquidité des investisseurs
+Pourcentage des actions d'investisseurs (en % de
+la valeur nette d'inventaire (VNI de l'OPC)
+remboursables sous :
+1 jour ou
+moins
+jours 30
+jours
+31 à
+90
+jours
+91 à
+180
+jours
+181
+365
+jours
+Remboursement des
+investisseurs
+L'OPC offre-t-il d'ordinaire aux investisseurs un
+a)
+droit de retrait/remboursement ?
+14
+plus de 365 jours
+Oui
+Valeur
+détenue
+Non
+=== page 15 ===
+[Un seul choix possible]
+Quotidienne
+20
+Quelle est la fréquence des remboursements
+b)
+aux investisseurs ? (si plusieurs catégories
+d'actions ou de parts sont concernées,
+indiquer la plus importante en pourcentage de
+la valeur nette d'inventaire (VNI)
+Quel est le délai de préavis (en jours) à
+c)
+respecter pour les remboursements ?
+(indiquer un délai pondéré en fonction des actifs
+si plusieurs catégories d'actions ou de parts sont
+concernées)
+Quelle est la période de verrouillage (lock-up)
+d)
+pour l'investisseur, en jours (indiquer un délai
+pondéré en fonction des actifs si plusieurs
+catégories d'actions ou de parts sont
+concernées)
+Traitement spécial ou préférentiel :
+À la date de déclaration, quel pourcentage de
+a)
+la valeur nette d'inventaire (VNI) de l'OPC fait
+l'objet des dispositions suivantes :
+cantonnement d'actifs
+échelonnement des
+remboursements
+Suspension de la
+négociation
+Autres dispositions prises
+pour la gestion d'actifs
+illiquides (préciser)
+15
+•
+•
+•
+•
+•
+•
+•
+[Type]
+hebdomadaire
+bihebdomadaire
+mensuelle
+trimestrielle
+Semestrielle
+Annuelle
+Autres
+Sans objet
+=== page 16 ===
+(Oui ou Non)
+21
+22
+Indiquer le pourcentage d'actifs de l'OPC, en
+b)
+valeur nette d'inventaire, faisant actuellement
+l'objet d'un traitement spécial du fait de leur
+nature non liquide
+Traitements spéciaux en %
+de la valeur nette
+d'inventaire (VNI)
+Certains investisseurs bénéficient-ils d'un
+c)
+traitement préférentiel ou du droit de
+bénéficier d'un traitement préférentiel (par
+exemple en vertu d'une lettre d'avenant) et
+ont-ils de ce fait été signalés à l'ensemble des
+investisseurs ?
+Dans l'affirmative, veuillez indiquer tous les
+d)
+traitements préférentiels appliqués :
+en matière d'information
+en matière d'accords
+concernant la liquidité
+en matière de perception
+de frais
+dans d'autres domaines
+Indiquer comment se répartit la propriété des
+parts d'OPC entre les différents groupes
+d'investisseurs (en % de la VNI des actifs du FIA;
+indiquer prioritairement les bénéficiaires
+effectifs, s'ils sont connus ou identifiables)
+Financement de la liquidité :
+Indiquer la somme des emprunts contractés
+par l'OPC et des sources de financement en
+espèces dont il dispose (en y incluant toutes
+les lignes de crédit, utilisées ou non,
+confirmées ou non, ainsi que tout financement
+à terme)
+Répartir le montant indiqué au point a) entre
+b)
+les différentes périodes suivantes, en fonction
+de la durée maximale pour laquelle le
+16
+=== page 17 ===
+créancier s'est engagé contractuellement à
+fournir le financement:
+1 jour ou
+31 à 91 à
+moins
+jours 30
+181
+plus de 365 jours
+90
+180
+jours jours jours 365
+jours
+4. Risques liés aux emprunts
+23 valeur des emprunts de liquidités ou de titres :
+Emprunts de liquidités non
+garantis :
+Emprunts de liquidités
+garantis ou collatéralisés —
+Via un courtier principal
+Emprunts de liquidités
+garantis ou collatéralisés —
+Via une opération de
+pension
+Emprunts de liquidités
+garantis ou collatéralisés —
+Via un courtier principal
+24 valeur des emprunts intégrés à des instruments
+Dérivés négociés en bourse:
+exposition brute, déduction
+faite de la marge fournie
+Dérivés négociés de gré à
+gré: exposition brute,
+déduction faite de la marge
+fournie
+25 Valeur des titres
+empruntés pour des
+positions courtes
+26
+Levier de l'OPC
+=== page 18 ===
+27
+28
+calculé selon la méthode
+a)
+brute
+calculé selon la méthode
+b)
+de l'engagement
+5. Risques opérationnels et autres
+Nombre total de positions
+ouvertes:
+Profil de risque historique
+Rendement brut des investissements ou TRI de
+I OPC sur la période de déclaration (en %,
+avant déduction des frais de gestion ou des
+commissions liées aux résultats)
+1er mois de la période de
+déclaration
+2e mois de la période de
+déclaration
+Dernier mois de la période
+de déclaration
+Rendement net des investissements ou TRI de
+b)
+l'OPC sur la période de déclaration (en %,
+déduction faite des frais de gestion ou des
+commissions liées aux résultats)
+1er mois de la période de
+déclaration
+2e mois de la période de
+déclaration
+18
+=== page 19 ===
+Dernier mois de la période
+de déclaration
+Variations de la valeur nette d'inventaire de
+c)
+l'OPC sur la période de déclaration (en %,
+après prise en compte de l'impact des
+souscriptions et remboursements)
+1er mois de la période de
+déclaration
+2e mois de la période de
+déclaration
+Dernier mois de la période
+de déclaration
+Souscriptions sur la période de déclaration
+d)
+1er mois de la période de
+déclaration
+2e mois de la période de
+déclaration
+Dernier mois de la période
+de déclaration
+Remboursements sur la période de déclaration
+1er mois de la période de
+déclaration
+2e mois de la période de
+déclaration
+19
+=== page 20 ===
+Dernier mois de la période
+de déclaration
+Les valeurs monétaires sont à indiquer dans la monnaie principale de l'OPC.
+Résultat des simulations de crise
+Veuillez indiquer le résultat des simulations de crise réalisées.
+Fait à Yaoundé, le 20 février 2024
+Pour la COSUMAF,
+Le Président
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIE
+DE L'AFRIQUE C
+Tél.: + 241 01.74.75.89191
+B.P. 1724 Libreville - GABON
+Jacqueline ADIABA-NKEMBE
+20
+=== page 21 ===
+ANNEXE - CALCUL PE LA VALEUR TOTALE DES ACTIFS GERES
+1. Pour pouvoir calculer la valeur totale des actifs gérés, une société de gestion d'OPC doit :
+a) identifier tous les OPC pour lesquels elle a été désignée ;
+b) identifier le portefeuille d'actifs de chaque OPC géré et déterminer la valeur correspondante
+des actifs gérés, y compris des actifs acquis grâce à l'effet de levier, en appliquant pour cela
+les règles d'évaluation prévues par la législation du pays dans lequel l'OPC est établi et/ou
+prévues par le règlement ou les documents constitutifs du FIA;
+c) faire la somme des valeurs des actifs gérés pour tous les OPC gérés.
+Aux fins du paragraphe 1, les OPC gérés par les Sociétés de Gestion d'OPC pour lesquels ces dernières
+ont délégué des fonctions sont inclus dans le calcul. Les portefeuilles de l'OPC que la Société de Gestion
+d'OPC gère par délégation sont en revanche exclus du calcul.
+2.
+3.
+4.
+5.
+Aux fins du calcul de la valeur totale des actifs gérés, chaque position d'instrument dérivé, y
+compris tout dérivé incorporé dans des valeurs mobilières, est convertie en sa position
+équivalente sur l'actif sous-jacent de cet instrument dérivé en appliquant les méthodes de
+conversion précisées dans une circulaire de la COSUMAF. La valeur absolue de cette position
+équivalente est alors employée pour le calcul de la valeur totale des actifs gérés.
+Lorsqu'un OPC investit dans d'autres OPC gérés par la même Société de Gestion d'OPC, cet
+investissement peut être exclu du calcul des actifs gérés de la Société de Gestion d'OPC.
+Lorsqu'un compartiment au sein d'un OPC géré de manière interne ou externe investit dans
+un autre compartiment de ce même OPC, cet investissement peut être exclu du calcul des
+actifs gérés de la Société de Gestion d'OPC.
+La valeur totale des actifs gérés est calculée conformément aux paragraphes 1 à 4 au moins
+une fois par an et à partir des valeurs d'actifs les plus récentes dont on puisse disposer. La
+valeur d'actif la plus récente dont on puisse disposer pour chaque OPC est établie au cours des
+douze (12) mois précédant la date de calcul du seuil conformément à la première phrase de
+ce paragraphe. La Société de Gestion d'OPC fixe une date de calcul du seuil et l'applique
+invariablement. Tout changement ultérieur de la date choisie doit être justifié auprès de
+l'autorité compétente. Pour choisir la date de calcul du seuil, le gestionnaire tient compte du
+moment auquel intervient l'évaluation des actifs gérés et de la fréquence de cette évaluation.
+21
+=== page 22 ===
+ANNEXE - CALCUL PE VEFFET DE LEVIER
+1.
+2.
+3.
+4.
+5.
+Le levier d'un OPC est exprimé sous la forme d'un ratio entre l'exposition de cet OPC et sa
+valeur nette d'inventaire.
+L'exposition des OPC gérés est calculée par les Sociétés de Gestion d'OPC selon la méthode
+brute et selon la méthode du calcul de l'engagement tel qu'indiqué à l'annexe Ill.
+L'exposition attachée aux structures financières ou juridiques impliquant des tiers contrôlés
+par l'OPC concerné est incluse dans le calcul de l'exposition lorsque les structures en question
+ont été spécifiquement créées pour augmenter l'exposition directement ou indirectement au
+niveau de l'OPC. Pour les OPC dont la politique principale en matière d'investissement consiste
+à acquérir le contrôle de sociétés ou d'émetteurs non cotés, la Société de Gestion d'OPC
+n'inclut pas, dans le calcul de l'effet de levier, l'exposition existant au niveau de ces sociétés
+et émetteurs non cotés si l'OPC ou la Société de Gestion d'OPC agissant pour le compte de
+l'OPC n'est pas tenu de prendre à sa charge les pertes éventuelles au-delà de son
+investissement dans ces sociétés ou émetteurs.
+Les Sociétés de Gestion d'OPC excluent les accords d'emprunt contractés si ces derniers sont
+de nature temporaire et entièrement couverts par les promesses contractuelles d'apport de
+capitaux de la part des investisseurs de l'OPC.
+Une Société de Gestion d'OPC dispose de procédures dûment documentées pour calculer
+l'exposition de chaque OPC qu'elle gère selon la méthode brute et selon la méthode de
+l'engagement. Le calcul est appliqué invariablement au fil du temps.
+22
+=== page 23 ===
+ANNEXE : METHODE BRUTE
+L'exposition d'un OPC calculée selon la méthode brute correspond à la somme des valeurs absolues
+de toutes les positions évaluées.
+Pour le calcul de l'exposition d'un OPC selon la méthode brute, une Société de Gestion d'OPC:
+a)
+b)
+c)
+d)
+exclut la valeur de la trésorerie et des équivalents de trésorerie, lesquels correspondent à des
+investissements très liquides détenus dans la devise principale de l'OPC qui sont rapidement
+convertibles en un montant connu de trésorerie, sont exposés à un risque insignifiant de variation
+de valeur, et fournissent un rendement ne dépassant pas le taux d'intérêt d'un emprunt d'État à
+trois (3) mois de qualité de signature élevée;
+convertit les instruments dérivés en positions équivalentes sur leurs actifs sous-jacents selon la
+méthode visée dans une circulaire de la COSUMAF;
+exclut les emprunts de liquidités qui restent sous forme de trésorerie ou d'équivalents de
+trésorerie tels que désignés au point a) et pour lesquels les montants dus sont connus;
+inclut l'exposition résultant du réinvestissement des liquidités empruntées, en prenant pour
+l'exprimer soit la valeur de marché de l'investissement réalisé, soit le montant total des
+liquidités empruntées selon ce qui est le plus élevé;
+inclut les positions détenues dans des accords de prise ou de mise en pension et des accords
+d'emprunt ou de prêt de titres ou autres.
+METHODE DE CALCUL DE L'ENGAGEMENT
+1.
+2.
+3.
+a)
+b)
+L'exposition d'un OPC calculée selon la méthode de l'engagement correspond à la somme des
+valeurs absolues de toutes les positions.
+Pour le calcul de l'exposition d'un OPC selon la méthode de l'engagement, une Société de
+Gestion d'OPC:
+a) convertit la position de chaque instrument dérivé en une position équivalente sur l'actif
+sous-jacent de cet instrument dérivé en employant les méthodes de conversion visées
+dans une circulaire de la COSUMAF;
+b) applique des dispositions de couverture et de compensation;
+c) calcule l'exposition créée par le réinvestissement des emprunts lorsque ce
+réinvestissement augmente l'exposition de l'OPC;
+Aux fins du calcul de l'exposition d'un OPC selon la méthode de l'engagement :
+les dispositions de compensation englobent les combinaisons d'opérations sur des
+instruments dérivés ou des titres se rapportant au même actif sous-jacent, quelle que soit,
+dans le cas des instruments dérivés, la date d'échéance desdits instruments dérivés, lorsque
+ces opérations sont conclues dans le seul but de supprimer les risques liés aux positions prises
+à travers les autres instruments dérivés ou titres;
+les dispositions de couverture englobent les combinaisons d'opérations sur des instruments
+dérivés ou des titres qui ne se rapportent pas nécessairement au même actif sous-jacent,
+lorsque ces opérations sont conclues dans le seul but de neutraliser les risques liés aux
+positions prises à travers les autres instruments dérivés ou titres.
+23
+=== page 24 ===
+4.
+a)
+b)
+c)
+5.
+a)
+b)
+6.
+a)
+b)
+c)
+d)
+e)
+7.
+8.
+Par dérogation au paragraphe 2, un instrument dérivé n'est pas converti en une position
+équivalente sur l'actif sous-jacent s'il présente l'ensemble des caractéristiques suivantes :
+il échange la performance d'actifs financiers détenus dans le portefeuille de l'OPC contre la
+performance d'autres actifs financiers de référence;
+il neutralise entièrement les risques des actifs du portefeuille de l'OPC sur lesquels porte
+l'échange, de telle manière que la performance de l'OPC ne dépend pas de la performance de
+ces actifs;
+il n'inclut ni caractéristiques optionnelles supplémentaires, ni clauses concernant l'effet de
+levier, ni aucun autre risque additionnel par rapport à la détention directe des actifs financiers
+de référence.
+Par dérogation au paragraphe 2, un instrument dérivé n'est pas converti en une position
+équivalente sur l'actif sous-jacent lors du calcul de l'exposition selon la méthode de
+l'engagement s'il remplit les deux conditions suivantes :
+la détention conjointe par l'OPC d'un instrument dérivé lié à un actif financier et de trésorerie
+investie dans des équivalents de trésorerie équivaut à détenir une position longue dans l'actif
+financier concerné;
+l'instrument dérivé ne crée pas d'augmentation de l'exposition et du levier ou du risque.
+Les dispositions de couverture sont prises en compte lors du calcul de l'exposition de l'OPC
+uniquement si elles respectent toutes les conditions suivantes :
+Les positions intervenant dans le cadre de la relation de couverture ne visent pas à générer un
+rendement et les risques généraux et spécifiques sont neutralisés;
+la réduction du risque de marché au niveau de l'OPC est vérifiable;
+les éventuels risques généraux et spécifiques liés aux instruments dérivés sont neutralisés;
+les dispositions de couverture se rapportent à la même classe d'actifs;
+elles sont efficaces en situation de tension sur les marchés.
+Sous réserve du paragraphe 6, les instruments dérivés utilisés pour la couverture de change
+qui n'entraînent pas d'augmentation de l'exposition, du levier ou d'autres risques ne sont pas
+inclus dans le calcul.
+Une Société de Gestion d'OPC compense les positions dans les cas suivants :
+a) entre instruments dérivés s'ils se rapportent au même actif sous-jacent, même si leur date
+d'échéance diffère;
+b) entre un instrument dérivé dont l'actif sous-jacent correspond à une valeur mobilière, à un
+instrument du marché monétaire ou à des parts dans un OPC.
+9. Les Sociétés de Gestion d'OPC qui, conformément à leur politique principale en matière
+d'investissement, investissent surtout dans des dérivés de taux d'intérêt, emploient des règles
+spécifiques de compensation en duration pour prendre en compte la corrélation entre les
+fourchettes de maturité de la courbe des taux d'intérêt.
+24

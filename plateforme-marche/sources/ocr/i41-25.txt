@@ -1,0 +1,1503 @@
+=== page 1 ===
+Union Monétaire de l'Afrique
+Centrale Commission de
+Surveillance du Marché Financier de
+l'Afrique centrale COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF n041-25 du 23 mai 2025
+RELATIVE A LA FREQUENCE ET AUX FORMATS DES REPORTING A TRANSMETTRE
+A LA COSUMAF PAR LES DEPOSITAIRES D'OPCVM, LES SOCIETES DE GESTION
+D'OPCVM ET LES SOCIETES D'INVESTISSEMENT
+LE COLLEGE DE LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE
+L'AFRIQUE CENTRALE
+Vu l'Acte Additionnel n003/01-CEMAC-CE 03 du 8 décembre 2001 portant création de la
+Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF)
+vu le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 23 mai 2025 ;
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT
+1
+=== page 2 ===
+Article 1er - Champ d'application
+La présente Instruction définit la fréquence et le format des reporting à adresser à la
+COSUMAF par les dépositaires d'OPCVM, les sociétés de gestion d'OPCVM et les sociétés
+d'investissement.
+Article 2 : Reportinq hebdomadaire des sociétés de qestion d'OPCVM et des sociétés
+d'investissement
+Les sociétés de gestion d'OPCVM et les sociétés d'investissement sont tenues d'établir au
+moins une fois par semaine, et de transmettre à la COSUMAF un reporting de chaque
+organisme de placement collective en valeurs mobilières (OPCVM) détenu.
+Le Reporting hebdomadaire des organismes de placement collective en valeurs mobilières
+(OPCVM) est présenté selon le format fixé en Annexe I de la présente Instruction.
+Article 3 : Rapport trimestriel d'activité des dépositaires d'OPCVM, des sociétés de
+gestion d'OPCVM et des sociétés d'investissement
+1) Les sociétés de gestion d'OPCVM et les sociétés d'investissement sont tenues de
+transmettre à la COSUMAF un rapport trimestriel d'activité au plus tard quinze (15) jours
+calendaires après la fin de chaque trimestre.
+Le rapport trimestriel d'activité des sociétés de gestion d'OPCVM et des sociétés
+d'investissement est présenté selon le format fixé en Annexe Il de la présente Instruction.
+2) Les dépositaires d'OPCVM sont tenus de transmettre à la COSUMAF un rapport trimestriel
+d'activité au plus tard quinze (15) jours calendaires après la fin de chaque trimestre.
+Le rapport trimestriel d'activité des dépositaires d'OPCVM est présenté selon le format fixé en
+Annexe IV de la présente Instruction.
+Article 4 : Rapport semestriel d'activité des dépositaires d'OPCVM, des sociétés de
+gestion d'OPCVM et des sociétés d'investissement
+1) Les sociétés de gestion d'OPCVM et les sociétés d'investissement sont tenues de
+transmettre à la COSUMAF du rapport semestriel d'activité au plus tard au plus tard trente
+(30) jours calendaires après la fin de chaque semestre.
+Le rapport semestriel d'activité des sociétés de gestion d'OPCVM et des sociétés
+d'investissement est présenté selon le format fixé en Annexe Il de la présente Instruction.
+2) Les dépositaires d'OPCVM sont tenus de transmettre à la COSUMAF du rapport semestriel
+d'activité au plus tard au plus tard trente (30) jours calendaires après la fin de chaque trimestre.
+Le rapport semestriel d'activité des Dépositaires d'OPCVM est présenté selon le format fixé
+en Annexe IV de la présente Instruction.
+2
+=== page 3 ===
+Article 5 : Rapport annuel d'activité des sociétés de gestion d'OPCVM et des sociétés
+d'investissement
+Les sociétés de gestion d'OPCVM et les sociétés d'investissement sont tenues de
+transmettre à la COSUMAF un rapport annuel d'activité au plus tard trente (30) jours
+calendaires après la fin de chaque année.
+Le rapport annuel d'activité est présenté selon le format fixé en Annexe Ill de la présente
+Instruction.
+Article 6 : Pénalités de Retard
+Le non-respect des obligations d'information prévues par la présente donne lieu à l'application
+des pénalités de retard prévues aux articles 31 et suivants du Règlement Général de la
+COSUMAF.
+Article 7 : Dispositions finales
+La présente Instruction complète l'Instruction no 11-24 du 20 février 2024 relative aux
+informations adressées par les sociétés de gestion d'OPC à la COSUMAF.
+Article 8 : Entrée en viqueur
+La présente Instruction, qui entre en vigueur à la date de sa signature, est publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSUMAF
+Fait à Libreville, le 23 mai 2025
+Pour la COSUMAF
+Le Présid n
+COMMISSION DE SURVEILLANCE
+ARCHE FINANCIER
+. RIQUE CENTRALE
+DE
+él.: + 241 01.74.75.89 191
+GABON
+B.P. 1724 Libre
+Jacqueline ADIABA-NKEMBE
+3
+=== page 4 ===
+ANNEXE I : MODELE ET FORMAT DE REPORTING HEBDOMADAIRE DES SOCIETES DE
+GESTION D'OPCVM ET DES SOCIETES D'INVESTISSEMENT
+CHAPITRE I : GESTION COLLECTIVE
+IDENTIFICATION DE L'OPCVM
+Nom de l'OPCVM
+Numéro d'agrément
+Date d'agrément
+Dépositaire de l'OPCVM
+Commissaire aux Comptes de l'OPCVM
+Classification
+Politique de distribution
+Réseau distributeur
+ÉTAT DU PATRIMOINE
+a. Portefeuille-titres (ventilation détaillée par titre)
+Actifs
+ACTIONS
+Actions, VA et DA
+Total ACTIONS
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA
+Sous-total Titres du
+marché des titres
+ubiics BEAC
+Total OBLIGA TIONS
+ET AUTRES TITRES
+DE CREANCES
+MONETAIRE
+Code ISIN
+Nombre
+Cours
+a eur au
+ate
+4
+=== page 5 ===
+Actifs
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.. ..... ..
+Sous-Total Titres du
+MFAC de maturité
+initiale / résiduelle < 2
+ans
+Titres du marché des
+titres publics (BEAC)
+de maturité initiale /
+résiduelle < 2 ans
+Monétaires x. ......
+Sous-Total Titres du
+marché des titres
+publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+TOTAL MONETAIRE
+PARTS OU ACTIONS
+D'OPCVM
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+PARTS OU ACTIONS
+DE FIA
+Parts ou actions de
+FIA x....
+Total PARTS OU
+ACTIONS DE FIA
+TITRES EMIS SUR
+UN MARCHE SITUE
+HORS CEMAC
+Titres x. .......
+Total TITRES EMIS
+SUR UN MARCHE
+SITUE HORS CEMAC
+Titres NON COTES
+Code ISIN
+Nombre
+Cours
+a eur au
+5
+=== page 6 ===
+Actifs
+Titres x..
+Total Titres NON
+COTES
+Total INSTRUMENTS
+INANCIERS
+Code ISIN
+Nombre
+Cours
+a eur au
+*Pour chacun des placements précités, la quote-part doit être rapportée au total des actifs de
+l'OPCVM.
+Faire une analyse de l'état du patrimoine, compte tenu de la politique de placement de
+l'OPC.
+b. Disponibilités
+is onibilités
+Dépôts à vue ou à terme
+auprès des établissements de
+crédit
+Avoirs de l'OPCVM auprès des
+sociétés de estion d'OPCVM
+Avoir de l'OPCVM auprès des
+sociétés de bourse
+Avoir de l'OPCVM auprès
+d'autres établissements
+financiers
+Créditeurs Divers (ventilation
+détaillée ar oste
+Débiteurs divers (ventilation
+détaillée ar oste
+TOTAL
+c. Règles d'investissement
+Actifs
+ACTIFS PAR EMETTEURS PRIVES
+Total ACTIFS DES EMETTEURS PRIVES
+ACTIFS PAR EMETTEURS ETATIQUES
+Montan
+a eur au
+ate
+6
+=== page 7 ===
+Actifs
+CAMEROUN
+CENTRAFRIQUE
+CONGO
+GABON
+GUINEE EQUATORIALE
+TCHAD
+Total ACTIFS PAR EMETTEURS
+ETA TIQUES
+ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+Groupe 1
+Groupe 2
+Groupe x..
+Total ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+VALEUR DE L'ACTIF NET
+a eu
+u
+ate
+CHAPITRE Il : GESTION INDIVIDUELLE SOUS MANDAT
+l. IDENTIFICATION DU MANDAT
+Nom ou Dénomination du client
+Date du Contrat
+Dépositaire
+Profil de risque
+Stratégie d'investissement
+ÉTAT DU PATRIMOINE
+a. Portefeuille-titres (ventilation détaillée par titre)
+Actifs
+ACTIONS
+Actions, VA et DA
+x.........
+Total ACTIONS
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA
+Code ISIN
+Nombre
+a eur au
+Cours
+D
+7
+=== page 8 ===
+Actifs
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA
+Sous-total Titres du
+marché des titres
+ubiics BEAC
+Total OBLIGA TIONS
+ET AUTRES TITRES
+DE CREANCES
+MONETAIRE
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.
+Sous-Total Titres du
+MFAC de maturité
+initiale / résiduelle < 2
+ans
+Titres du marché des
+titres publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x. ........
+Sous-Total Titres du
+marché des titres
+publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+TOTAL MONETAIRE
+PARTS OU ACTIONS
+D'OPCVM
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+PARTS OU ACTIONS
+DE FIA
+Parts ou actions de FIA
+x.....
+Total PARTS OU
+ACTIONS DE FIA
+Code ISIN
+Nombre
+Cours
+aleur au
+8
+=== page 9 ===
+aleur au
+Actifs
+TITRES EMIS SUR UN
+MARCHE SITUE
+HORS CEMAC
+Titres x. ..... ...
+Total TITRES EMIS
+SUR UN MARCHE
+SITUE HORS CEMAC
+Titres NON COTES
+Titres x.........
+Total Titres NON
+COTES
+TOTAL
+INSTRUMENTS
+INANCIERS
+Code ISIN
+Nombre
+Cours
+Pour chacun des placements précités, sa quote-part rapportée au total des actifs.
+Faire une analyse de l'état du patrimoine, compte tenu de la stratégie d'investissement du
+mandat.
+b. Disponibilités
+Dis onibilités
+Dépôts à vue ou à terme
+auprès des établissements de
+crédit
+Avoirs de l'OPCVM auprès des
+sociétés de estion d'OPCVM
+Avoir de l'OPCVM auprès des
+sociétés de bourse
+Avoir de l'OPCVM auprès
+d'autres établissements
+financiers
+Créditeurs Divers (ventilation
+détaillée ar oste
+Débiteurs divers (ventilation
+détaillée ar oste
+TOTAL
+Montant
+9
+=== page 10 ===
+ANNEXE 11: MODÈLE ET FORMAT DE REPORTING TRIMESTRIEL ET SEMESTRIEL DES
+SOCIÉTÉS DE GESTION D'OPCVM ET DES
+D'INVESTISSEMENT
+CHAPITRE 1: LA SOCIETE DE GESTION D'OPCVM
+1. IDENTIFICATION DE LA SGO
+Nom ou Dénomination
+Date de création
+Date d'agrément
+Numéro d'agrément
+Dirigeant
+Commissaire aux Comptes
+Contrôleur Interne
+Gérant de portefeuille
+Actifs sous gestion en début de
+période
+Actifs sous gestion en fin d'exercice
+Nombre de fonds gérés
+2. CONTEXTE ECONOMIQUE ET FINANCIER DE LA SGO
+SOCIETES
+- Brève analyse de la situation macroéconomique (inflation, taux d'intérêt, croissance
+économique, etc.).
+CHAPITRE 11: GESTION COLLECTIVE
+Il.
+IDENTIFICATION DE L'OPCVM
+Nom de l'OPCVM
+Numéro d'agrément
+Date d'agrément
+Dépositaire de l'OPCVM
+Commissaire aux Comptes de l'OPCVM
+Classification
+Politique de distribution
+Réseau distributeur
+Évènements marquants de la période
+Ill. ÉTAT DU PATRIMOINE
+a. Portefeuille-titres (ventilation détaillée par titre)
+Actifs
+ACTIONS
+Actions, VA et DA
+Total ACTIONS
+Code ISIN
+Nombre
+Cours
+aleur au
+t
+10
+=== page 11 ===
+Actifs
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA
+x.........
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA
+x.........
+Sous-total Titres du
+marché des titres
+ubiics BEAC
+Total OBLIGA TIONS
+ET AUTRES TITRES
+DE CREANCES
+MONETAIRE
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.. ......
+Sous- Total Titres du
+MFAC de maturité
+initiale / résiduelle < 2
+ans
+Titres du marché des
+titres publics (BEAC)
+de maturité initiale /
+résiduelle < 2 ans
+Monétaires x. ........
+Sous-Total Titres du
+marché des titres
+publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+TOTAL MONETAIRE
+PARTS OU ACTIONS
+D'OPCVM
+Code ISIN
+Nombre
+Cours
+a eur au
+ate
+11
+=== page 12 ===
+aleur au
+Actifs
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+PARTS OU ACTIONS
+DE FIA
+Parts ou actions de
+FIA x.....
+Total PARTS OU
+ACTIONS DE FIA
+TITRES EMIS SUR
+UN MARCHE SITUE
+HORS CEMAC
+Titres x.
+Total TITRES EMIS
+SUR UN MARCHE
+SITUE HORS CEMAC
+Titres NON COTES
+Titres x. .... ....
+Total Titres NON
+COTES
+-TOTAL
+INSTRUMENTS
+INANCIERS
+Code ISIN
+Nombre
+Cours
+*Pour chacun des placements précités, la quote-part doit être rapportée au total des actifs de
+l'OPC.
+Faire une analyse de l'état du patrimoine, compte tenu de la politique de placement de
+l'OPCVM.
+b. Disponibilités
+IS om I Ite
+Dépôts à vue ou à terme
+auprès des établissements de
+crédit
+Avoirs de l'OPCVM auprès des
+sociétés de estion d'OPCVM
+Avoir de l'OPCVM auprès des
+sociétés de bourse
+Avoir de l'OPCVM auprès
+d'autres établissements
+financiers
+ontan
+12
+=== page 13 ===
+Créditeurs Divers (ventilation
+détaillée ar oste
+Débiteurs divers (ventilation
+détaillée ar oste
+TOTAL
+c. Règles d'investissement
+Actifs
+ACTIFS PAR EMETTEURS PRIVES
+Total ACTIFS DES EMETTEURS PRIVES
+ACTIFS PAR EMETTEURS ETATIQUES
+CAMEROUN
+CENTRAFRIQUE
+CONGO
+GABON
+GUINEE EQUATORIALE
+TCHAD
+Total ACTIFS PAR EMETTEURS
+ETATIQUES
+ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+Groupe 1
+Groupe 2
+Groupe x..............
+Total ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+VALEUR DE L'ACTIF NET
+Valeur au Date
+IV.
+PORTEURS DE PARTS
+Nom ou raison
+Nationalité CEMAC /
+sociale
+Nom 1
+Nom 2
+la pièce
+Catégorie
+ppjpM
+souscripteur**
+parts
+13
+=== page 14 ===
+Nom x
+TOTAL
+* *Les catégories de souscripteur sont les suivantes
+Pour les personnes morales .
+Compagnies d'assurances et organismes de prévoyance et de retraite
+Banques
+OPC
+Caisse de dépôt et de consignation (CDC)
+Autres institutions financières
+Sociétés de bourse
+Sociétés de gestion d'OPC
+Entreprises non financières
+Pour les personnes physiques
+v.
+Salarié secteur public
+Salarié secteur privé
+Agent des organismes internationaux
+Profession libérale
+Commerçant / entrepreneur
+Chômeur
+NOMBRE ET MONTANT DES SOUSCRIPTIONS ET RACHATS
+Porteurs
+Nombre
+de parts
+de arts
+Clients 1
+Clients 2
+Clients 4
+Clients x
+TOTAL
+Souscriptions
+Montant
+Rachats
+Nombre
+Montant
+*Pour chacune des opérations précitées, la quote-part doit être rapportée à l'actif net de
+l'OPC.
+VI. TABLEAU COMPARATIF DE LA VALEUR LIQUIDATIVE SUR LA PERIODE DE
+REFERENCE ET PAR RAPPORT A LA VALEUR D'ORIGINE
+Valeur liquidative (VL) Actuelle (N) - Performance sur la Performance depuis la
+période sous
+création (%)
+de départ
+revue %
+14
+=== page 15 ===
+VII. INDICATION DES CHANGEMENTS INTERVENUS DANS LA COMPOSITION DU
+PORTEFEUILLE-TITRES AU COURS DE LA PERIODE DE REFERENCE
+a. Acquisitions
+Code
+Devise Date
+ISIN
+Nom du
+titre
+Titre 1
+Titre N
+TOTAL
+Nombre
+de titres
+Cours
+Montant
+Frais
+Mettre une mention spéciale sur les acquisitions par apport de titres
+Plus ou
+Montant
+moins-values
+transaction
+réalisées
+Plus ou
+Montant
+moins-values
+Nom du
+titre
+Titre 1
+Titre N
+TOTAL
+b. Cessions
+Code
+Devise Date
+ISIN
+Nombre
+de titres
+Cours
+Montant
+Frais
+Cours
+transaction
+r ali ée
+CHAPITRE Ill : LA GESTION INDIVIDUELLE SOUS MANDAT
+IDENTIFICATION DU MANDAT
+Nom ou Dénomination du client
+Date du Contrat
+Dépositaire
+Profil de risque
+Stratégie d'investissement
+Évènements marquants de la période.
+Il. ÉTAT DU PATRIMOINE
+a. Portefeuille-titres (ventilation détaillée par titre)
+Actifs
+ACTIONS
+Actions, VA et DA
+Total ACTIONS
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA
+x.........
+Code ISIN
+Nombre
+Valeur au
+Date
+15
+=== page 16 ===
+Actifs
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA
+x.........
+Sous-total Titres du
+marché des titres
+ubiics BEAC
+Total OBLIGA TIONS
+ET AUTRES TITRES
+DE CREANCES
+MONETAIRE
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.
+Sous-Total Titres du
+MFAC de maturité
+initiale / résiduelle < 2
+ans
+Titres du marché des
+titres publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.. ..... ..
+Sous-Total Titres du
+marché des titres
+publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+TOTAL MONETA/RE
+PARTS OU ACTIONS
+D'OPCVM
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+PARTS OU ACTIONS
+DE FIA
+Parts ou actions de FIA
+x.....
+Total PARTS OU
+ACTIONS DE FIA
+Code ISIN
+Nombre
+Cours
+aleur au
+16
+=== page 17 ===
+Actifs
+TITRES EMIS SUR UN
+MARCHE SITUE
+HORS CEMAC
+Titres x.
+Total TITRES EMIS
+SUR UN MARCHE
+SITUE HORS CEMAC
+Titres NON COTES
+Titres x.........
+Total Titres NON
+COTES
+TotaliNSTRUMENTS
+FINANCIERS
+Code ISIN
+Nombre
+Cours
+a eur au
+Pour chacun des placements précités, sa quote-part rapportée au total des actifs.
+Faire une analyse de l'état du patrimoine, compte tenu de la stratégie d'investissement du
+mandat.
+b. Disponibilités
+IS onl Ilit s
+Dépôts à vue ou à terme
+auprès des établissements de
+crédit
+Avoirs de l'OPCVM auprès des
+sociétés de estion d'OPCVM
+Avoir de l'OPCVM auprès des
+sociétés de bourse
+Avoir de l'OPCVM auprès
+d'autres établissements
+financiers
+Créditeurs Divers (ventilation
+détaillée ar oste
+Débiteurs divers (ventilation
+détaillée ar oste
+TOTAL
+Montant
+17
+=== page 18 ===
+ANNEXE 111: MODÈLE ET FORMAT DE REPORTING ANNUEL DES SOCIÉTÉS DE
+GESTION D'OPCVM ET DES SOCIETES D'INVESTISSEMENT
+CHAPITRE I : LA SOCIETE DE GESTION D'OPCVM
+1. Identification de la SGO
+Nom ou Dénomination
+Date de création
+Date d'agrément
+Numéro d'agrément
+Dirigeant
+Commissaire aux Comptes
+Contrôleur Interne
+Gérant de portefeuille
+Actifs sous gestion en début d'exercice
+Actifs sous gestion en fin d'exercice
+Nombre de fonds gérés
+2. Contexte économique et financier de la SGO
+- Brève analyse de la situation macroéconomique (inflation, taux d'intérêt, croissance
+économique, etc.)
+- Événements importants sur le Marché Financier Régional pendant la période
+(évolutions des marchés, physionomie, volatilité, etc.)
+- États financiers provisoires
+CARACTERISTIQUES
+ELEMENTS DU BILAN
+ACTIF
+ELEMENTS
+Immobilisations incorporelles
+Immobilisations corporelles
+Immobilisations financières
+Emplois stables (ES)
+Actif Circulant Hors activités ordinaires
+AC HAO
+Créances d'exploitation (Autres
+créances
+Actif Circulant (AC)
+Nom ou Dénomination de
+la SGO
+Date d'a rément
+Numéro d'a rément
+Diri eant
+Commissaire aux
+Com tes
+Contrôleur Interne
+0
+0
+0
+18
+=== page 19 ===
+résorerie Actif (TA)
+TOTAL ACTIF
+ELEMENTS DU BILAN
+PASSIF
+ELEMENTS
+Total Capitaux Propres (CP)
+Total Dettes Financières (DF)
+Ressources stables (RS)
+Passif Circulant Hors activités ordinaires
+AC HAO
+Dettes d'exploitation
+Passif Circulant PC
+Trésorerie Passif TP
+TOTAL PASSIF
+ELEMENTS DU COMPTE DE RESULTAT
+ELEMENTS
+Chiffre d'Affaires
+Valeur Ajoutée
+Excedent Brut d'Exploitation
+Résultat d'Exploitation
+Résultat Financier
+Charges financières
+Résultat Activités Ordinaires
+Résultat Hors Activités Ordinaires
+Résultat Avant Impôt
+Impôts sur le Résultat
+Résultat Net
+AUTRES INDICATEURS
+0
+0
+N-1
+N-2
+0
+19
+=== page 20 ===
+ELEMENTS
+Montants prêts au personnel
+Pêts au personnel / fonds propres (en
+Fonds propres (FP)
+Capital social
+DECOMPOSITION FONDS PROPRES
+ELEMENTS
+Capital
+Réserves indisponibles
+Report à nouveau
+Résultat net de l'exercice
+Total ca itaux ropres
+CHAPITRE Il : GESTION COLLECTIVE
+l.
+IDENTIFICATION DE L'OPCVM
+Nom de l'OPCVM
+.4.
+Numéro d'agrément
+Date d'agrément
+Dépositaire de l'OPCVM
+Commissaire aux Comptes de l'OPCVM
+Classification
+Politique de distribution
+Réseau distributeur
+Évènements marquants de la période
+Il. POLITIQUE D'INVESTISSEMENT
+2.1.
+2.2.
+2.3.
+2.4.
+2.5.
+2.6.
+Rappel de la politique de gestion
+Rappel de la stratégie d'investissement
+Présentations des risques liés à l'investissement et leur gestion
+Présentation des méthodes de valorisation des actifs de l'OPCVM utilisées
+Présentation brève des modalités de souscription et de rachat
+Présentation de la fiscalité applicable
+ÉTAT DU PATRIMOINE
+a) Portefeuille-titres (ventilation détaillée par titre)
+Actifs
+ACTIONS
+Actions, VA et DA
+x.........
+Total ACTIONS
+Code ISIN
+Nombre
+Cours
+Valeur au Date
+-o
+o
+20
+=== page 21 ===
+Actifs
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA
+x.........
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA
+x....
+Sous-total Titres du
+marché des titres
+ubiics BEAC
+Total OBLIGA TIONS
+ET AUTRES TITRES
+DE CREANCES
+MONETAIRE
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x. ........
+Sous-Total Titres du
+MFAC de maturité
+initiale / résiduelle < 2
+ans
+Titres du marché des
+titres publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.
+Sous-Tota/ Titres du
+marché des titres
+publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+TOTAL MONETAIRE
+PARTS OU ACTIONS
+D'OPCVM
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+Code ISIN
+Nombre
+Cours
+Valeur au Date
+21
+=== page 22 ===
+Actifs
+PARTS OU ACTIONS
+DE FIA
+Parts ou actions de FIA
+x.....
+Total PARTS OU
+ACTIONS DE FIA
+TITRES EMIS SUR UN
+MARCHE SITUE
+HORS CEMAC
+Titres x. .... ....
+Total TITRES EMIS
+SUR UN MARCHE
+SITUE HORS CEMAC
+Titres NON COTES
+Titres x. .......
+Total Titres NON
+COTES
+Total INSTRUMENTS
+INANCIERS
+Code ISIN
+Nombre
+Cours
+Valeur au Date
+*Pour chacun des placements précités, la quote-part doit être rapportée au total des actifs de
+l'OPCVM.
+Faire une analyse de l'état du patrimoine, compte tenu de la politique de placement de
+l'OPCVM.
+b) Disponibilités
+is onibilités
+Dépôts à vue ou à terme
+auprès des établissements de
+crédit
+Avoirs de l'OPCVM auprès des
+sociétés de estion d'OPCVM
+Avoir de l'OPCVM auprès des
+sociétés de bourse
+Avoir de l'OPCVM auprès
+d'autres établissements
+financiers
+Créditeurs Divers (ventilation
+détaillée ar oste
+Débiteurs divers (ventilation
+détaillée ar oste
+TOTAL
+Montant
+22
+=== page 23 ===
+c) Règles d'investissement
+Actifs
+ACTIFS PAR EMETTEURS PRIVES
+a eur au
+Date
+Total ACTIFS DES EMETTEURS PRIVES
+ACTIFS PAR EMETTEURS ETATIQUES
+CAMEROUN
+CENTRAFRIQUE
+CONGO
+GABON
+GUINEE EQUATORIALE
+TCHAD
+Total ACTIFS PAR EMETTEURS
+ETA TIQUES
+ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+Groupe 1
+Groupe 2
+Groupe x..............
+Total ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+VALEUR DE L'ACTIF NET
+IV. TABLEAU COMPARATIF DE LA VALEUR LIQUIDATIVE SUR LA PERIODE DE
+REFERENCE ET PAR RAPPORT A LA VALEUR D'ORIGINE
+Valeur
+Actuelle sur la période la durée
+liquidative (VL)
+e ormance sur
+Performance
+de départ
+(N)
+sous revue
+o
+depuis la création
+d'investissement
+23
+=== page 24 ===
+v.
+INDICATION DES CHANGEMENTS INTERVENUS DANS LA COMPOSITION DU
+PORTEFEUILLE-TITRES AU COURS DE LA PERIODE DE REFERENCE
+a. Acquisitions
+Nom
+du titre
+Titre 1
+Titre N
+TOTAL
+Code
+Nombre
+Devise Date
+ISIN
+de titres
+Cours
+Montant
+Montant
+Frais
+transaction
+Mettre une mention spéciale sur les acquisitions par apport de titres
+b. Cessions
+Nom
+du titre
+Titre 1
+Titre N
+TOTAL
+Code
+Devise
+ISIN
+Nombre
+Date
+de titres
+Cours
+Montant
+Montant Frais
+transaction
+c. Mise en paiement d'évènements sur valeurs (ES
+on an en
+Nom du titre
+Devise Date
+u
+moins-
+values
+us ou
+moins-
+values
+Montant Total
+VI.
+COMMISSIONS ET FRAIS
+on an e
+on an
+erclce
+Commissions de souscription
+Commissions de rachat
+Frais de gestion
+Frais de conservation
+Frais de commissariat aux comptes
+Autres frais*
+*Préciser la nature des frais
+VII.
+ETATS FINANCIERS DE L'OPCVM •
+Présenter les éléments financiers de l'OPCVM à savoir le bilan, le compte de résultat
+ainsi que l'état de variation de l'actif net.
+24
+=== page 25 ===
+VIII. PORTEURS DE PARTS
+Nom ou raison
+CEMAC 1
+sociale
+Nom 1
+Nom 2
+Nom x
+TOTAL
+Nationalité
+hors
+Numéro de
+la pièce
+d'identité
+Catégorie
+PP/PM
+souscripteur
+Nombre de
+parts
+détenues
+**Les catégories de souscripteur sont les suivantes :
+Pour les personnes morales :
+Compagnies d'assurances et organismes de prévoyance et de retraite
+Banques
+OPC
+Caisse de dépôt et de consignation (CDC)
+Autres institutions financières
+Sociétés de bourse
+Sociétés de gestion d'OPC
+Entreprises non financières
+Pour les personnes physiques
+Salarié secteur public
+Salarié secteur privé
+Agent des organismes internationaux
+Profession libérale
+Commerçant / entrepreneur
+Chômeur
+Autres (à préciser)
+IX. NOMBRE ET MONTANT DES SOUSCRIPTIONS ET RACHATS
+Porteurs
+Nombre
+de parts
+Montant
+de arts
+Clients 1
+Clients 2
+Clients 4
+Clients x
+TOTAL
+Nombre
+Montant
+*Pour chacune des opérations précitées, la quote-part doit être rapportée à l'actif net de
+l'OPC.
+CHAPITRE Ill : LA GESTION INDIVIDUELLE SOUS MANDAT
+l. IDENTIFICATION DU MANDAT
+Nom ou Dénomination du client
+Date du Contrat
+Dépositaire
+Profil de risque
+25
+=== page 26 ===
+Stratégie d'investissement
+Évènements marquants de la période.
+Il. ÉTAT DU PATRIMOINE
+a. Portefeuille-titres (ventilation détaillée par titre)
+ctifs
+ACTIONS
+Actions, VA et DA x..
+Total ACTIONS
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA x.........
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA x... ......
+Sous-total Titres du
+marché des titres publics
+BEAC
+Total OBLIGA TIONS ET
+AUTRES TITRES DE
+CREANCES
+MONETAIRE
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x....
+Sous-Total Titres du
+MFAC de maturité initiale
+/ résiduelle < 2 ans
+Titres du marché des
+titres publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires x.........
+Sous-Total Titres du
+marché des titres publics
+(BEAC) de maturité
+initiale / résiduelle < 2 ans
+TOTAL MONETAIRE
+oe S
+Nombre
+Cours
+Valeur au Da e
+_o
+26
+=== page 27 ===
+Actifs
+PARTS OU ACTIONS
+D'OPCVM
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+PARTS OU ACTIONS DE
+FIA
+Parts ou actions de FIA
+x.....
+Total PARTS OU
+ACTIONS DE FIA
+TITRES EMIS SUR UN
+MARCHE SITUE HORS
+CEMAC
+Titres x. ....
+Total TITRES EMIS SUR
+UN MARCHE SITUE
+HORS CEMAC
+Titres NON COTES
+Titres x. ..... ...
+Total Titres NON COTES
+Total INSTRUMENTS
+INANCIERS
+Code ISIN
+Cours
+Valeur au Date
+Pour chacun des placements précités, sa quote-part est rapportée au total des actifs.
+Faire une analyse de l'état du patrimoine, compte tenu de la stratégie d'investissement du
+mandat.
+b. Disponibilités
+Dis onibilités
+Dépôts à vue ou à terme
+auprès des établissements de
+crédit
+Avoirs de l'OPCVM auprès des
+sociétés de estion d'OPCVM
+Avoir de l'OPCVM auprès des
+sociétés de bourse
+Avoir de l'OPCVM auprès
+d'autres établissements
+financiers
+Créditeurs Divers (ventilation
+détaillée ar oste
+Montant
+=== page 28 ===
+Débiteurs divers (ventilation
+détaillée par oste
+TOTAL
+28
+=== page 29 ===
+ANNEXE IV: MODÈLE ET FORMAT DE REPORTING SEMESTRIEL DES DÉPOSITAIRES
+D'OPCVM
+CONTROLE DE L'EXACTITUDE DE LA VALEUR LIQUIDATIVE ET DE LA
+CONSERVATION DES ACTIFS
+1.
+CONTROLE DE L'EXACTITUDE DE LA VALEUR LIQUIDATIVE
+1.1. Description de la procédure de transmission de la valeur liquidative par la société
+de gestion
+1.2. Description de la méthode de vérification de l'exactitude de la valeur liquidative
+par la société de gestion
+1.3. Description de la procédure de traitement des discordances
+2. CONTROLE DE LA CONSERVATION DES ACTIFS
+2.1.
+2.2.
+2.3.
+2.4.
+2.5.
+Description de la procédure d'inventaire des actifs
+Description de la procédure de rapprochement des titres inscrits au compte de
+l'OPCVM avec le Dépositaire Central
+Description de la procédure de traitement des discordances
+Description de la procédure de rapprochement des espèces détenues par
+l'OPCVM avec les mouvements ayant affecté le(s) compte(s) de l'OPCVM
+Description de la procédure de traitement des discordances
+3. RAPPEL DES REGLES DE GESTION
+Appréciation des décisions de gestion et de la performance de l'OPCVM conformément au
+règlement de gestion, au document d'information.
+4. ACQUISITIONS ET CESSIONS DE VALEURS DETENUES PAR L'OPC AU XXX
+5. PORTEFEUILLE ACTIONS
+Au cours de la période sous revue, l'OPCVM a procédé à des acquisitions et des cessions
+d'actions tel que décliné dans le tableau suivant .
+Actions 1
+Action 2
+Action x
+Actions 1
+Action 2
+Action x
+29
+=== page 30 ===
+6. PORTEFEUILLE OBLIGATIONS
+Concernant les lignes obligataires, l'OPCVM a procédé à des acquisitions et des cessions
+d'obligations tel que décliné dans le tableau suivant :
+ACQUISITION 1 CESSION
+D'OBLIGATIONS
+Obligations 1
+Obligations 2
+Obligations x
+A ACQ IS
+Obligations 1
+Obligations 2
+Obligations x
+7. PORTEFEUILLE FCP
+CODE DEVIS
+ISIN
+MONTANTS (FCFA) D'OPERATIO
+S'agissant du portefeuille FCP, au cours de la période sous revue, le fonds a procédé à des
+acquisitions et des cessions de parts d'OPCVM tel que décliné dans le tableau suivant :
+ACQUISITION 1 CESSION D'OPCVM
+OPC 1
+OPC 2
+OPC x
+CVM
+OPC 1
+OPC 2
+OPC x
+MONTANTS (FCFA)
+8. REGULARITE DES OPERATIONS EXECUTEES SUR LA PERIODE SOUS REVUE
+1. REGULARITE DES OPERATIONS
+Appréciation de l'exécution des souscriptions et rachat conformément à la stratégie
+d'investissement de l'OPCVM et à a règlementation en vigueur sur le marché Financier
+Régional.
+2. ETAT DES SOUSCRIPTIONS ET RACHATS
+L'état des souscriptions et des rachats sur la période sous revue est décliné dans le tableau
+suivant :
+30
+=== page 31 ===
+PE DES USCR PTION
+SOUSCRIPTIONS REALISEES
+Montants
+Nombre titres émis
+Nombre de nouveaux actionnaires
+RACHATS REALISES
+Montants
+Nombre titres émis
+Nombre d'actionnaires sortants
+MONTANTS (FCFA)
+9.
+1.
+SITUATION DU PORTEFEUILLE ET ANALYSE DES RATIOS PRUDENTIELS DE
+L'OPCVM
+SITUATION PORTEFEUILLE AU XXX
+Caractéristiques de
+l'OPCVM
+Actifs
+ACTIONS
+Total ACTIONS
+OBLIGATIONS ET
+AUTRES TITRES DE
+CREANCES
+Titres du MFAC
+Obligations et VA 1
+Obligations et VA 2
+Obligations et VA
+x.........
+Sous-total Titres du
+MFAC
+Titres du marché des
+titres ublics BEAC
+Obligations et VA 1
+Nom ou
+Dénomination
+Numéro
+d'a rément
+Société de
+Gestion
+Classification
+Politique de
+distribution*
+Code ISIN
+Nombre
+Cours
+Valeur au
+Date
+31
+=== page 32 ===
+Obligations et VA
+Sous-total Titres du
+marché des titres
+ubiics BEAC
+Total OBLIGA TIONS
+ET AUTRES TITRES
+DE CREANCES
+MONETAIRE
+Titres du MFAC de
+maturité initiale /
+résiduelle < 2 ans
+Monétaires 1
+Monétaires 2
+Monétaires x. ..... ...
+Sous-Total Titres du
+MFAC de maturité
+initiale / résiduelle < 2
+ans
+Titres du marché des
+titres publics (BEAC)
+de maturité initiale I
+résiduelle < 2 ans
+Monétaires 1
+Monétaires 2
+Monétaires x. .....
+Sous-Total Titres du
+marché des titres
+publics (BEAC) de
+maturité initiale /
+résiduelle < 2 ans
+TOTAL MONETAIRE
+PARTS OU ACTIONS
+D'OPCVM
+Parts ou actions
+d'OPCVM 1
+Parts ou actions
+d'OPCVM 2
+Parts ou actions
+d'OPCVM x.....
+Total PARTS OU
+ACTIONS D'OPCVM
+PARTS OU ACTIONS
+DE FIA
+Parts ou actions de FIA
+1
+Parts ou actions de FIA
+2
+32
+=== page 33 ===
+Parts ou actions de FIA
+x...
+Total PARTS OU
+ACTIONS DE FIA
+TITRES EMIS SUR UN
+MARCHE SITUE HORS
+CEMAC
+Titres 1
+Titres 2
+Titres x. ........
+Total TITRES EMIS
+SUR UN MARCHE
+SITUE HORS CEMAC
+Titres NON COTES
+Titres 1
+Titres 2
+Titres x.........
+Total Titres NON
+COTES
+Total INSTRUMENTS
+FINANCIERS
+Liquidités des
+investisseurs
+TOTAL DES ACTIFS
+SOUS GESTION
+Autres avoirs détenus
+ar l'OPCVM
+Dettes de l'OPCVM
+VALEUR DE L'ACTIF
+NET
+Actifs
+REGLES D'INVESTISSESSEMENT
+Valeur au (Date)
+ACTIFS PAR EMETTEURS PRIVES
+33
+=== page 34 ===
+REGLES D'INVESTISSESSEMENT
+Total ACTIFS DES EMETTEURS PRIVES
+ACTIFS PAR EMETTEURS ETATIQUES
+CAMEROUN
+CENTRAFRIQUE
+CONGO
+GABON
+GUINEE EQUATORIALE
+TCHAD
+Total ACTIFS PAR EMETTEURS
+ETA TIQUES
+ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+Groupe 1
+Groupe 2
+Groupe x....
+Total ACTIFS PAR EMETTEURS PRIVES
+APPARTENANT AU MEME GROUPE
+VALEUR DE L'ACTIF NET
+2. ANALYSE DES RATIOS PRUDENTIELS
+2.1. Conformément à la documentation de l'OPCVM
+2.2. Conformément à la réglementation
+10. SITUATION DES PORTEURS DE PARTS ET EMPRISE DANS L'ACTIF DE
+L'OPCVM
+Nom ou raison
+Nationalité
+sociale
+Nom 1
+Nom 2
+Nom 3
+Nom x
+Raison sociale 1
+Raison sociale 2
+Raison sociale 3
+umero e
+la pièce
+pppM
+Catégorie
+Nombre
+souscripteur
+Cours
+Valeur
+au
+34
+=== page 35 ===
+Raison sociale x
+OTA
+ACTIFS SOUS
+ES O
+35

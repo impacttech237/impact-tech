@@ -1,0 +1,858 @@
+=== page 1 ===
+COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+GUIDE RELATIF A L'EMISSION
+D'OBLIGATIONS VERTES,
+SOCIALEMENT RESPONSABLES ET
+D RABLESENAFRIQUECENTRALE
+Ce guide a été établi en partenariat avec
+Société Financière
+Internationale
+GROUPE DE LA BANQUE MONDIALE
+=== page 2 ===
+GUIDE RELATIF A L'EMISSION D'OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+=== page 3 ===
+3
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Table des matières
+Préambule	
+A qui s’adresse ce guide ?
+Pourquoi ce guide ?
+Qu’est-ce qu’une Obligation GSS ?
+Quelles sont les différents types d’obligations GSS ?
+I.  RECOMMANDATIONS ET BONNES PRATIQUES
+      A.  Allocation des fonds levés
+	
+1.  Les obligations vertes
+	
+2.  Les obligations socialement responsables
+	
+3.  Les obligations durables
+     B.  Évaluation et sélection des projets à financer
+     C.  Gestion des fonds levés
+     D.  Communication et Reporting
+     E.  Revue indépendante
+II.  RÉALISER UNE ÉMISSION D’OBLIGATIONS GSS
+     A.  Préalablement à l’émission
+	
+1.   Identification des projets
+	
+2.  Revue indépendante
+    B.  Visa de l’opération d’émission
+	
+1.   Dépôt du projet de prospectus ou de note d’opération
+	
+2.  Instruction du dossier
+   C.  Durant la vie de l’émission d’obligations GSS
+	
+1.  Information périodique
+	
+2.  Information permanente	
+4
+5
+6
+7
+9
+10
+11
+11
+14
+15
+16
+17
+19 
+21
+23
+25
+25
+26
+27
+27
+28
+29
+29
+30
+=== page 4 ===
+4
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Ce guide est relatif à l’émission d’obligations vertes, socialement responsables et 
+durables, élaboré en collaboration avec le Groupe de la Banque mondiale. Il a pour but 
+de promouvoir le rôle du marché financier dans le financement de projets répondant 
+aux besoins environnementaux, sociaux et aux impératifs de développement durable 
+du pays. 
+Le marché des obligations vertes, socialement responsables et durables (Green, Social 
+and Sustainability Bonds, ci-après les « obligations GSS ») est un marché en plein 
+essor et si le groupe de la Banque mondiale a initialement joué un rôle moteur dans le 
+développement du marché des Obligations GSS , l’arrivée de nouveaux acteurs permet 
+d’établir un écosystème d’investissement plus large.
+Ce guide suit les recommandations et principes (ci-après « les Principes ») publiés par 
+l’Association Internationale des Marches de Capitaux (« ICMA ») . Ces Principes ont 
+pour objectif de :
+•	
+Favoriser l’intégrité du marché des GSS, en prônant la transparence, la diffusion 
+d’informations et l’utilisation de reporting adéquat. 
+•	
+Promouvoir la diffusion des informations nécessaires pour allouer davantage de 
+fonds aux projets ayant un impact environnemental et/ou social positif.
+Ces Principes sont reconnus sur le plan international et sont largement utilisés pour 
+l’élaboration de guides professionnels par les autorités de régulation et de surveillance 
+des marchés financiers. Pourtant, si les obligations GSS sont définies dans leur principe, 
+aucun standard ne caractérise de façon précise la dimension environnementale ou 
+sociale des projets financés. 
+Ainsi, la Commission de Surveillance du Marché Financier de l’Afrique Centrale 
+(COSUMAF), en tant qu’autorité de régulation et de surveillance des marches de la 
+Communauté économique et monétaire de l’Afrique centrale, dont la mission est 
+notamment de veiller à la protection de l’épargne dans le cadre d’un appel public à 
+l’épargne, a mis en place en collaboration avec la Banque Mondiale, ce guide de bonnes 
+pratiques afin de donner des orientations précises quant à l’utilisation des Principes 
+dans le cadre précis d’émission d’obligations GSS en zone CEMAC. 
+Préambule
+=== page 5 ===
+5
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+A qui s’adresse ce guide ? 
+Ce guide s’adresse en particulier aux 
+émetteurs d’obligations lorsque l’opération 
+d’émission est effectuée par appel public 
+à l’épargne. Toutefois, les autres émetteurs 
+qui souhaiteraient que les obligations qu’ils 
+émettent bénéficient d’un label vert, social 
+ou durable « label GSS » sont encouragés 
+à se conformer à l’ensemble des éléments 
+décrits dans ce guide. En effet, tous les 
+émetteurs d’obligations trouveront dans 
+ce guide une synthèse des principes à 
+respecter pour bénéficier d’un label GSS 
+et une clarification de l’approche à suivre 
+afin que l’opération d’émission réponde 
+aux 
+meilleures 
+pratiques 
+nationales 
+et 
+internationales 
+en 
+la 
+matière. 
+Les 
+investisseurs y trouveront également des 
+informations utiles leur permettant de mieux 
+appréhender ce segment du marché de la 
+dette. 
+Les émetteurs souhaitant émettre en 
+Afrique centrale des obligations qu’ils 
+décrivent 
+et 
+commercialisent 
+comme 
+‘vertes’, 
+‘sociales’ 
+ou 
+‘durables’, 
+doivent impérativement se conformer à 
+l’ensemble des éléments décrits dans ce 
+guide.
+=== page 6 ===
+6
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Pourquoi ce guide ?  
+Ce guide a pour vocation de promouvoir 
+la création et le développement de ce 
+marché en Afrique Centrale, en détaillant 
+les engagements et les règles relatives au 
+document d’information  que les émetteurs 
+devraient 
+respecter 
+s’ils 
+souhaitent 
+bénéficier du label GSS.  Ces engagements 
+portent principalement sur la transparence, 
+la diffusion d’informations, l’intégrité et la 
+qualité des émissions. Ils sont essentiels car 
+ils apportent aux investisseurs les garanties 
+nécessaires quant aux objectifs sociaux et 
+environnementaux des projets dans lesquels 
+ils souhaitent investir. Les obligations GSS 
+sont un levier important pour le financement 
+de la transition écologique, sociale et 
+durable. 
+Le fait d’appeler une obligation ‘verte, 
+‘socialement responsable’ ou durable’ lui 
+confère un caractère unique, car dans la 
+mesure où cette obligation répond à des 
+caractéristiques spécifiques, elle n’est plus 
+fongible avec les autres obligations émises 
+de façon standard par le même émetteur.
+=== page 7 ===
+7
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Qu’est-ce qu’une Obligation GSS ?
+Sur le plan international il existe trois types d’obligations GSS :
+Les obligations vertes 
+Les obligations vertes sont des obligations   dont le produit sert exclusivement à 
+financer ou à refinancer en tout ou partie, des projets ‘verts’ nouveaux ou existants, 
+c’est-à-dire contribuant positivement à la transition écologique. Ces projets doivent 
+répondre aux conditions et caractéristiques de base décrites dans ce guide et suivre les 
+lignes directrices établies dans les Green Bond Principles (GBP) actualisés par ICMA en 
+2018. Il s’agit généralement de projets relatifs aux énergies renouvelables, à l’efficacité 
+énergétique, à la gestion durable des déchets et de l’eau, à l’exploitation durable des 
+terres, au transport propre et à l’adaptation aux changements climatiques, et plus 
+particulièrement les investissements en infrastructures. Les obligations vertes se 
+distinguent des obligations classiques par un reporting détaillé sur les investissements 
+qu’elles financent et le caractère vert des projets financés. 
+Les obligations ‘socialement responsables’ 
+Les obligations socialement responsables sont des obligations dont le produit sert 
+exclusivement à financer ou à refinancer en tout ou partie, des projets ‘sociaux’ 
+nouveaux ou existants, c’est-à-dire des projets ayant un impact social positif. Ces 
+projets doivent répondre aux conditions et caractéristiques de base décrites dans ce 
+guide qui suivent les lignes directrices établies dans les Social Bond Principles (SBP) 
+actualisés par l’ICMA en 2018. 
+Les obligations durables 
+Les obligations durables sont des obligations dont le produit sert exclusivement à 
+financer ou à refinancer en tout ou partie, une combinaison de projets verts et sociaux. 
+Ces projets doivent répondre aux conditions et caractéristiques de base décrites 
+dans ce guide qui suivent les lignes directrices établies dans les Sustainability Bond 
+Guidelines (SBG) actualisés par l’ICMA en 2018.
+=== page 8 ===
+8
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Il existe également sur le plan international un 
+marché d’obligations dites ‘vertes’, ‘climatiques’, 
+‘socialement responsables’, émises par des 
+organisations qui se consacrent à des activités 
+qu’elles qualifient de socialement responsables 
+et/ou 
+environnementalement 
+responsables, 
+mais qui ne sont pas nécessairement conformes 
+aux critères de base des GBP, SBP et SBG. Ces 
+obligations ne sont pas considérées comme des 
+obligations GSS, au sens de ce guide. 
+Les 
+émetteurs 
+souhaitant 
+émettre 
+ou 
+commercialiser 
+en 
+Afrique 
+Centrale 
+des 
+obligations 
+ne 
+se 
+conformant 
+pas 
+aux 
+recommandations de ce guide ne peuvent 
+se prévaloir d’un label ‘Obligations Vertes’, 
+‘Obligations Socialement responsables ’ ou 
+‘Obligations Durables’ et doivent en aviser de 
+façon non ambiguë tout investisseur potentiel. 
+Attention
+=== page 9 ===
+9
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Quelles sont les différents types 
+d’obligations GSS ?
+La structuration financière d’une obligation verte sociale et durable, ne présentent pas 
+de particularité par rapport aux obligations classiques et n’exige pas de caractéristiques 
+financières particulières.  Cependant, sur le plan international on distingue actuellement 
+quatre types d’obligations GSS en fonction de la nature du recours des créanciers,
+Les obligations vertes, socialement responsables ou durables 
+classiques (ou ‘Use of proceeds’) :
+Ces obligations sont assorties d’un droit de recours général contre l’émetteur au même 
+titre que les autres créanciers (selon le rang) ; 
+Les obligations vertes, socialement responsables ou durables 
+garanties par les revenus (ou ‘Use of proceeds revenue’) :
+Ces obligations sont sans droit de recours général contre l’émetteur. Ainsi, les sommes 
+dues au titre de l’émission sont couvertes uniquement par les revenus de l’émetteur 
+provenant de projets concernés ou non par l’émission (commissions, taxes, etc.) ; 
+Les obligations vertes, socialement responsables ou durables 
+spécifiques à un projet :
+Le produit de l’émission est spécifiquement destiné à un ou plusieurs projets verts, 
+sociaux ou durables pour lesquels l’investisseur a une exposition directe au risque, 
+avec ou sans recours possible contre l’émetteur ;
+Les obligations vertes, socialement responsables ou durables 
+titrisées  :
+le recours porte sur un ensemble de projets éligibles qui sont regroupés ensemble et 
+génèrent les flux destinés au paiement de l’obligation, par exemple dans le cadre d’une 
+opération de titrisation.
+=== page 10 ===
+10
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+I.	 Recommandations 
+Ce guide adhère aux éléments énoncés dans « les Principes ». Ainsi, 
+toute émission obligataire GSS doit obligatoirement préciser : 
+•	
+L’allocation des fonds levés ; 
+•	
+L’existence d’un projet admissible (vert, social ou durable) et 
+l’analyse du projet ; 
+•	
+La bonne gestion et le suivi de l’allocation des fonds au projet ; 
+•	
+Les conditions de diffusion d’information aux investisseurs via 
+un reporting dédié.
+=== page 11 ===
+11
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+A.  Allocation des fonds levés 
+Il s’agit de l’élément essentiel d’une obligation GSS : les fonds levés doivent 
+obligatoirement être alloués au financement de projets ayant un impact environnemental 
+et/ou social positif. 
+Les projets éligibles peuvent être soit des projets futurs, où il est question de financement 
+pour leur réalisation, soit des projets existants pour lesquels l’émetteur cherche un 
+refinancement. Il peut s’agir de projets identifiés individuellement, ou de projets non 
+déjà identifiés mais satisfaisant des critères précis et clairement déterminés. Dans le cas 
+de financement de projets futurs, le produit de l’émission doit être utilisé exclusivement 
+pour financer les projets ou catégories de projets prédéfinis lors de l’émission.
+Dans le cas de refinancement de projet existant, il s’agit d’un adossement du produit de 
+l’émission à un projet ou à un portefeuille de projets déjà existants. L’émetteur disposant 
+d’un pool d’actifs éligibles remplace les ressources qu’il a déjà engagées dans lesdits 
+projets par le produit de l’émission. Ainsi, l’usage des fonds levés n’est pas restreint. 
+Cependant, l’émetteur doit garantir l’existence d’un portefeuille de projets éligibles 
+correspondant au moins à l’encours de l’émission à tout moment pendant la durée de 
+vie de l’émission. 
+Dans tous les cas, il lui est impératif de définir des indicateurs pertinents permettant 
+de quantifier les impacts escomptés, (en termes de GSS) des projets financés par des 
+obligations GSS.
+1.	
+Les obligations vertes 
+Les fonds levés via une émission obligataire qui se désigne comme une émission 
+d‘obligations ‘Vertes’ doivent être exclusivement affecté à un ou des projets verts  . Le 
+projet ‘vert’ doit être décrit de façon correcte et de manière suffisamment précise au 
+moment de l’émission de l’obligation dans le document d’information. Tous les projets 
+ainsi désignés doivent présenter des avantages environnementaux clairs, qui seront 
+évalués et, si possible, quantifiés par l’émetteur. 
+Si tout ou partie du produit de l’émission des obligations vertes est ou peut être utilisé 
+pour refinancer des projets, l’émetteur doit fournir une estimation relative à la part de 
+financement et de refinancement et, le cas échéant, préciser quels investissements ou 
+portefeuilles de projets peuvent être refinancés et, le cas échéant, la période d’éligibilité 
+au refinancement. 
+Il existe un large éventail d’activités et de projets dont l’impact environnemental est 
+positif et qui peuvent, par conséquent, être éligibles à un financement par une obligation 
+verte.
+=== page 12 ===
+12
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+L’éligibilité au financement par une obligation verte doit être appréciée par un expert 
+en labellisation, indépendant. L’ICMA fixe, à titre indicatif, dans ses GBP une liste de 
+catégories générales de projets éligibles, qui peut utilement servir de référence aux 
+experts. 
+•	
+Energies renouvelables : y compris la production, la transmission, les 
+équipements et produits ; 
+•	
+Efficacité énergétique : tel que dans les immeubles nouveaux 
+ou rénovés, stockage d’énergie, chauffage de quartier, réseaux 
+intelligents, équipements et produits ; 
+•	
+Prévention et contrôle de la pollution : y compris la réduction des 
+émissions dans l’air, contrôle des gaz à effet de serre, prévention, 
+réduction et recyclage des déchets, réhabilitation des sols, etc. ; 
+•	
+Gestion environnementale durable des ressources naturelles 
+vivantes et utilisation des sols : y compris l’agriculture durable, 
+l’élevage et la reproduction animale durable, intrants agricoles 
+durables tels que la protection biologique des récoltes ou l’irrigation 
+par goutte-à-goutte, la pêche et aquaculture durables, la foresterie 
+durable y compris l’afforestation ou la reforestation et la préservation 
+ou la restauration des paysages naturels ; 
+•	
+Conservation de la biodiversité terrestre et aquatique : y compris la 
+protection des environnements côtiers et marins ; 
+•	
+Transports propres : tels que les véhicules électriques ou hybrides, 
+les transports publics ou multimodaux, l’infrastructure pour véhicules 
+à énergie propre et réduction des émissions ; 
+  Catégories de projets éligibles selon les GBP de l’ICMA
+=== page 13 ===
+13
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+•	
+Gestion durable de l’eau et des eaux usées : y compris l’infrastructure 
+durable pour l’eau propre ou potable, le traitement des eaux usées, les 
+systèmes durables de drainage urbain et de gestion des inondations ; 
+•	
+Adaptation au changement climatique : y compris les systèmes de 
+support informationnel tels que l’observation du climat et les systèmes 
+d’alerte ;
+•	
+Produits, technologies de production et process éco-efficients 
+ou adaptés à l’économie circulaire : tel que le développement 
+et l’introduction de produits durables, ayant un éco label ou une 
+certification environnementale, le packaging et la distribution 
+efficients ; 
+•	
+Constructions vertes : qui répondent à des standards ou des 
+certifications nationales, régionales ou internationales reconnus. 
+A noter que les projets relatifs aux financements d’infrastructures pour la production 
+d’électricité à partir de combustibles fossiles sont exclus de cette liste et ne permettent 
+pas d’appeler une obligation ‘Verte’.
+=== page 14 ===
+14
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+2.	
+Les obligations socialement responsables 
+Les fonds levés via une émission obligataire qui se désigne comme une émission 
+d‘obligations ‘socialement responsables’, doivent être exclusivement affectés à des 
+projets sociaux. Les projets sociaux doivent être clairement définis par l’émetteur dans 
+la note d’information. Leurs impacts doivent être clairement décrits et quantifiés. 
+Les projets sociaux visent directement à résoudre ou atténuer des problèmes 
+sociaux spécifiques et/ou ciblant un impact social positif, spécifiquement, mais 
+non exclusivement, au profit d’une ou plusieurs population(s) cible(s). La notion de 
+population cible devient déterminante dans le contexte des obligations socialement 
+responsables car il est impératif pour l’émetteur de définir la ou les populations cibles 
+qui bénéficieront des impacts sociaux positifs qu’il est proposé de poursuivre dans le 
+cadre des projets pour lesquels il cherche un financement.
+Les SBP publiés par ICMA définissent également, à titre indicatif, certaines catégories 
+de projets communément ciblées par les émissions d’Obligations Socialement 
+responsables. Cette liste peut utilement servir de référence dans le cadre des émissions 
+en Afrique Centrale. 
+•	
+Les populations vivant sous le seuil de pauvreté ; 
+•	
+Les populations et/ou communautés marginalisées et/ou exclues ; 
+•	
+Les groupes vulnérables, y compris suite à un désastre naturel ; 
+•	
+Les personnes handicapées ; 
+•	
+Les immigrants et/ou les personnes déplacées ; 
+•	
+Les populations analphabètes ou illettrées ; 
+•	
+Les populations sous-servies, n’ayant pas accès à des biens et/ou 
+services essentiels de qualité, et ;
+•	
+Les populations sans emploi. 
+Exemples de Catégories de Populations Cibles selon les 
+SBP de l’ICMA *
+=== page 15 ===
+15
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+3.	
+Les obligations durables 
+Les obligations qui servent à financer des projets à la fois verts et sociaux, selon la 
+définition de ce guide peuvent obtenir le label « Obligations Durables ».  
+Les projets financés par l’émission d’obligations durables présentent des avantages à la 
+fois environnementaux et sociaux. 
+Tout comme pour les obligations vertes et socialement responsables, les projets 
+financés par l’émission d’obligations durables doivent être clairement définis par 
+l’émetteur dans le document d’information et leurs impacts clairement décrits et 
+quantifiés. Il incombera ensuite à l’émetteur de classer l’allocation des fonds levés 
+dans la catégorie « obligations vertes » ou « obligations socialement responsables » en 
+fonction des principaux objectifs visés par les projets en question. 
+Si tout ou partie du produit de l’émission des obligations durables est ou peut être 
+utilisé pour refinancer des projets, l’émetteur doit fournir une estimation de la part de 
+financement et de refinancement et, le cas échéant, préciser quels investissements ou 
+portefeuilles de projets peuvent être refinancés et, le cas échéant, la période d’éligibilité 
+au refinancement. 
+La définition des populations cibles peut varier en fonction des contextes locaux. 
+Aussi, dans certaines situations, la ou les population(s) cible(s) peuvent également être 
+servies par des actions visant l’intérêt général. 
+Si tout ou partie du produit de l’émission des obligations socialement responsables est, 
+ou peut être utilisé pour refinancer des projets, l’émetteurs doit fournir une estimation 
+de la part de financement et de refinancement et, le cas échéant, préciser quels 
+investissements ou portefeuilles de projets peuvent être refinancés et, le cas échéant, 
+la période d’éligibilité au refinancement.
+=== page 16 ===
+16
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+B.	 Évaluation et sélection des 	
+         projets 
+La procédure d’évaluation et de sélection des projets doivent être formalisée par 
+l’émetteur. Elles seront notamment revues par un expert indépendant  dans la cadre 
+de la revue externe . Elles doivent donc être suffisamment clair, précis et transparent 
+quant : 
+•	
+Aux critères d’éligibilité des projets, y compris, le cas échéant, les critères 
+éventuels d’exclusion ;
+•	
+Aux objectifs des projets et leurs impacts environnementaux et/ou sociaux . 
+Cela inclut l’identification de critères d’impact ; 
+•	
+Au processus permettant l’identification et la gestion de risques sociaux et/ou 
+environnementaux matériels, potentiellement associés aux projets.
+=== page 17 ===
+17
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+C.	 Gestion des fonds levés
+L’émetteur doit expliquer dans le document d’information comment sera géré le produit 
+net de l’émission d’obligations GSS. Il doit par conséquent disposer et mettre en œuvre 
+un processus formalisé et rigoureux de suivi et de contrôle de l’utilisation des fonds 
+levés tout au long de la vie des obligations GSS. Ce suivi concerne la traçabilité de 
+l’affectation des fonds investis, ainsi que du reliquat non investi. Ainsi :
+•	
+Les fonds doivent être cantonnés dans des comptes spécifiques, afin 
+d’assurer une utilisation de ces fonds conforme aux principes décrits au 
+moment de l’émission ;
+•	
+Lorsqu’il s’agit de projets existants pour lesquels l’émetteur cherche un 
+refinancement, où l’usage des fonds n’est pas restreint, le cantonnement 
+des fonds levés n’est pas applicable. Dans ce cas, le processus de suivi 
+doit néanmoins permettre d’assurer, l’existence d’un portefeuille de projets 
+suffisant en adossement à l’encours de l’émission, et ce, pendant toute sa 
+durée de vie. Ce processus doit notamment prévoir les mesures permettant 
+de remédier à la sortie d’actifs du portefeuille adossé à l’émission ;
+•	
+Pendant toute la durée de vie de l’obligation GSS, le solde du produit 
+d’émission fait l’objet d’un suivi périodiquement ajusté aux montants alloués 
+et aux projets admissibles. L’émetteur doit indiquer aux investisseurs dans le 
+document d’information et via un reporting régulier, les types de placement 
+temporaire prévus pour le solde des fonds non alloués ;
+•	
+Les fonds levés sans avoir été directement destinés au financement d’un 
+projet particulier, peuvent être alloués à un portefeuille dans la mesure où 
+chacun des projets de ce portefeuille répond à des critères prédéfinis ;
+•	
+Les fonds non encore investis dans les projets éligibles peuvent être 
+momentanément investis dans des instruments financiers répondant à des 
+principes définis par l’émetteur et communiqués aux investisseurs ;
+=== page 18 ===
+18
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+•	
+La procédure de suivi et de contrôle de l’allocation des fonds levés devrait 
+détailler les autorisations et restrictions en matière de mouvements de fonds, 
+les vérifications et rapprochements périodiques réalisés (notamment sur le 
+compte dédié), les reportings prévus en ce qui concerne les fonds utilisés 
+et non utilisés.  La procédure de suivi et de contrôle de l’allocation des 
+fonds levés devrait être formalisée et contrôlée par expert indépendant. Ses 
+conclusions sont incluses dans le rapport annuel de l’émetteur et mises à 
+disposition sur son site internet.
+PROCÉDURE DE SUIVI & CONTRÔLE
+EXPERTISE 
+INDÉPENDANTE
+=== page 19 ===
+19
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+D.	 Communication et Reporting
+Au moment de l’émission et pendant toute la durée de vie des obligations GSS, l’émetteur 
+doit mettre à la disposition du public via son site internet :
+•	
+Les procédures d’évaluation et de sélection des projets ;
+•	
+Les procédures de suivi et de contrôles ;
+•	
+L’information relative à l’allocation des fonds levés ;
+•	
+Le rapport d’évaluation externe relative à ces procédures.
+Les émetteurs devraient également publier la liste à jour des projets financés ou 
+refinancés par le ou les émissions d’obligations GSS, ainsi qu’une brève description 
+des projets, le montant alloué à chaque projet et l’impact escompté. 
+Lorsque des accords de confidentialité, des considérations de concurrence ou le grand 
+nombre de projets à financer limitent le niveau de détails pouvant être communiqués, 
+il est recommandé de présenter les informations de façon regroupée mais claire et 
+intelligible pour chaque investisseur concerné, ou de les regrouper au niveau du 
+portefeuille (par exemple, pourcentage alloué à certaines catégories de projets). 
+Ces informations sont mises à jour au moins annuellement et autant que de besoin, en 
+cas de changement ou d’évènements importants. 
+Une fois l’obligation GSS émise, l’émetteur devrait préparer, conserver, et mettre à la 
+disposition des investisseurs un dossier d’information sur :
+•	
+L’utilisation des fonds levés : projets ou types de projets financés, enveloppes 
+allouées auxdits projets, soldes non utilisés, etc. ; 
+•	
+Les impacts des projets financés ou refinancés, en des termes mesurables, 
+compréhensibles et avec des indicateurs les plus pertinents et communément 
+admis, y compris par rapport aux impacts escomptés lors de l’émission.
+Ces informations sont actualisées chaque année jusqu’à l’allocation totale des fonds et 
+en cas d’évolution substantielle de l’allocation. Ces informations devraient figurer dans 
+le rapport annuel de l’émetteur.
+=== page 20 ===
+20
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Le COSUMAF recommande d’utiliser des indicateurs de performance qualitatifs et, si 
+possible, des mesures quantitatives des résultats obtenus, par exemple : 
+•	
+Capacités énergétiques ; 
+•	
+Production d’électricité ; 
+•	
+Émissions de gaz à effet de serre limitées/évitées ; 
+•	
+Nombre de personnes ayant accès à une électricité propre ; 
+•	
+Diminution de la consommation d’eau ; 
+•	
+Réduction du nombre de voitures, etc., et ; 
+•	
+Nombre de bénéficiaires, notamment dans les populations cibles 
+(dans le cadre des obligation socialement responsables). 
+Et d’indiquer la principale méthode utilisée et/ou les hypothèses retenues pour les 
+mesures quantitatives . Les impacts doivent être communiqués par projet et/ou sur 
+une base globale selon le cas. Les informations ainsi communiquées aux investisseurs 
+doivent être comparables dans le temps, avec le maintien des mêmes indicateurs dans 
+toutes les publications. En cas de changement des indicateurs de mesure d’impact, 
+l’émetteur doit en informer les investisseurs, motiver le changement et assurer une 
+période transitoire de 24 mois pendant laquelle les indicateurs abandonnés continuent 
+à être publiés. Les informations relatives aux impacts doivent avoir fait l’objet d’une 
+revue par un expert indépendant.
+=== page 21 ===
+21
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+E.	 Revue indépendante
+La vérification du caractère durable, vert et/ou social des projets éligibles par un expert 
+indépendant, est essentielle pour assurer la crédibilité et la confiance des investisseurs. 
+Cette vérification est effectuée avant l’émission. Elle est essentielle au développement 
+durable du marché. Les émetteurs doivent avoir recours à un prestataire externe afin 
+de vérifier le bon respect des obligations auxquelles les émissions d’obligations GSS 
+qu’il a émis, sont astreintes. 
+Selon les principes de l’ICMA, le périmètre des revues externes peut être variable. Cette 
+revue peut être partielle et porter uniquement sur certains aspects de l’émission, ou 
+être intégrale et évaluer l’émission au regard du respect de l’ensemble des critères GSS 
+de base (allocation, évaluation et sélection), tels que décrits dans le présent Guide).  
+On distingue plusieurs type de revues ‘externes’ auxquels l’émetteur doit ou peut avoir 
+recours dans le cadre d’une émission GSS :
+•	
+L’avis d’expert «de seconde opinion » :  Il s’agit d’une opinion fournie par un 
+expert qualifié et indépendant, qui porte sur l’alignement de l’émission proposée 
+avec les Principes. Cette ‘second opinion’ est nécessaire et doit être fournie à 
+la COSUMAF au moment de l’émission, avec le document d’information.
+L’émetteur peut également recourir à d’autres types de revue. Cette démarche reste 
+volontaire et peut intervenir soit au moment, ou après l’émission :   
+•	
+Le contrôle : Dans ce cas, l’émetteur a recourt à un tiers externe pour uniquement 
+faire contrôler le respect de certains aspects de l’émission par rapport à certains 
+critères spécifiques définis par l’émetteur au moment de l’émission. Par exemple, 
+le contrôle peut ne porter que sur le respect des critères de sélection des projets, 
+ou encore ne porter que sur les procédures qu’il a établi pour la gestion des fonds 
+levés, le suivi des soldes des comptes dédiés aux fonds levés, le respect des 
+critères d’impacts, etc…
+•	
+La certification : L’émetteur peut faire certifier la conformité de ses obligations 
+GSS. La certification donne une assurance supplémentaire quant à la conformité 
+de l’émission par rapport à un référentiel externe. Dans ce cas, l’alignement 
+de l’obligation avec les critères spécifiques définis par le référentiel est vérifié 
+par un tiers externe. Cette démarche permet à l’émetteur de faire certifier son 
+obligation par rapport à un standard publiquement reconnu.
+=== page 22 ===
+22
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+•	
+La notation : L’émetteur peut enfin recourir à une agence de notation financière. 
+Dans ce cas, l’évaluation de l’émission se fait par rapport à la méthodologie de 
+l’agence. Il est à noter que la note GSS de l’émission est à différencier de la note 
+ESG que peut avoir un émetteur.
+Dans tous les cas, l’expert ou le tiers indépendant auquel l’émetteur a recours doit 
+avoir l’expérience et les compétences nécessaires pour évaluer les caractéristiques 
+GSS de l’émission d’obligations. Dans la cadre de sa revue, l’expert indépendant doit 
+mentionner ses références et ses compétences, la portée de son audit ainsi que toutes 
+informations contextuelles pertinentes pour l’investisseur. Son rapport doit contenir au 
+minimum   :
+•	
+Une description générale des objectifs et de la portée de la revue ; 
+•	
+Les qualifications et principales références du fournisseur de la revue ; 
+•	
+Une déclaration d’indépendance et de la politique de gestion des conflits d’intérêt ; 
+•	
+Une description de l’approche analytique et de la méthodologie utilisée ; 
+•	
+Les conclusions et les limitations éventuelles de la revue externe. 
+En termes de diligences, l’expert indépendant fournira selon le type de revue 
+envisagée :
+•	
+Une évaluation des impacts escomptés des projets à financer ou à refinancer par 
+l’obligation GSS ; 
+•	
+La vérification et ses recommandations en termes d’alignement de l’obligation GSS 
+avec les éléments avec lesquels elle doit se conformer ; 
+•	
+Une évaluation, le cas échéant, des risques environnementaux et/ou sociaux 
+matériels associés aux projets éligibles ainsi que la gestion de ces risques par 
+l’émetteur.
+=== page 23 ===
+Il. Réaliser une émiss on
+d'obligations GSS
+=== page 24 ===
+24
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Les obligations GSS ne sont pas régies par un régime légal spécifique ; Elles obéissent 
+aux règles légales et réglementaires applicables aux obligations ainsi qu’aux principes 
+généraux régissant la relation entre l’émetteur et l’investisseur (obligation de respect des 
+clauses contractuelles convenues, obligations d’information continue et périodique). 
+L’émetteur doit :
+•	
+Faire approuver l’émission par le ou les organes compétents ;
+•	
+Structurer l’émission en collaboration avec son conseiller ;
+•	
+Obtenir, si besoin ou nécessaire, une notation de crédit ;
+•	
+Commercialiser l’obligation et en fixer le prix. 
+En outre, le contenu de la documentation et les process internes de l’émetteur devront 
+être adaptés aux bonnes pratiques décrites dans ce guide et dans « les Principes » à 
+savoir : 
+•	
+Evaluer et sélectionner des projets admissibles ; 
+•	
+Gérer les fonds levés de façon idoine si besoin sur un compte séparé ; 
+•	
+Assurer le suivi et rendre régulièrement compte de l’allocation des fonds levés ;
+•	
+Faire procéder à une revue indépendante (la ‘second opinion’).
+Si l’émission d’obligations GSS est effectuée par appel public à l’épargne, l’émetteur 
+doit déposer auprès du COSUMAF un projet de prospectus (ou de note d’opération si un 
+document de référence a été préalablement enregistré) conformément aux dispositions 
+légales et réglementaires régissant l’émission des emprunts obligataires dans le public.
+=== page 25 ===
+25
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+A.	 Préalablement à l’émission
+L’émetteur doit formaliser :
+1.	
+Identification des projets
+•	
+Sa politique de sélection et les critères de sélection applicables, 
+•	
+Sa politique d’évaluation et de financement des projets, 
+•	
+Ses méthodes d’identification et de gestion des risques environnementaux et 
+sociaux potentiellement associés aux projets financés, notamment dans le cas 
+des projets de financement d’infrastructure. 
+S’agissant du document d’information : 
+•	
+Les méthodes de sélection, d’évaluation et de suivi mis en place par l’émetteur 
+sont explicitées, avec une présentation des critères et éléments qui permettront 
+l’évaluation qualitative et, si possible, quantité du/ des projets ;
+•	
+Les projets identifiés et sélectionnés ou admissibles au financement ou au 
+refinancement sont décrits de façon claire et suffisamment précise, avec une 
+présentation claire des avantages environnementaux et/ ou sociaux anticipés. 
+Les projets peuvent être identifiés individuellement, et s’ils ne sont pas 
+individuellement identifiés au moment de l’émission, le document d’information 
+doit indiquer quels sont les critères à satisfaire, et décrire la procédure mise ne 
+place pour l’évaluation, la sélection et le financement des futurs projets ;
+•	
+Dans le cas où tout ou partie du produit de l’émission est utilisé pour le 
+refinancement de projets éligibles, le document d’information doit indiquer quelle 
+est la part de l’émission destinée au refinancement et clarifier quels projets ou 
+portefeuilles de projets sont concernés par ce refinancement.
+=== page 26 ===
+26
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Les différentes revues indépendantes auxquelles peut avoir recours l’émetteur 
+permettent de :
+2.	
+Revue indépendante 
+•	
+Donner aux investisseurs des assurances concernant l’impact positif des projets 
+sur l’environnement, ce qui contribue au succès de l’émission ;
+•	
+Couvrir l’émetteur contre un risque réputationnel et le protéger d’éventuelles 
+accusations de « green washing », notamment en cas de non-réalisation des 
+effets escomptés via les projets financés par l’émission d’obligation GSS ;
+•	
+Aider l’émetteur à améliorer ces process, à identifier de meilleurs projets, à mieux 
+préparer les documents nécessaires à l’émission et améliorer sa communication 
+vis-à-vis des investisseurs.
+=== page 27 ===
+27
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+B.	 Visa de l’opération d’émission
+Un projet de prospectus ou de note d’opération pour les émissions d’obligations GSS par 
+appel public à l’épargne, doit être soumis pour visa à la COSUMAF et ce, conformément 
+la législation et la réglementation applicable aux émissions d’obligations dans le public. 
+Outre les informations prévues dans le schéma de prospectus relatif aux émissions 
+d’obligations, L’émetteur devrait inclure  dans le document d’information à destination 
+des investisseurs, et visé par la COSUMAF :
+1.	
+Dépôt du projet de prospectus ou de note d’opération
+1.	
+Les critères de sélection des projets, la procédure de sélection et les critères 
+d’évaluation (catégories, impacts escomptés, rentabilité, etc.) des projets. Ces 
+procédures décrivent notamment les rôles et les étapes de validation à suivre en 
+vue de la sélection de projet ; 
+2.	
+Le descriptif (aspects techniques, juridiques, économiques et financiers) des 
+projets si ces derniers sont individuellement identifiés, incluant leurs impacts 
+sociaux ou environnementaux escomptés et, dans le cas d’obligations socialement 
+responsables, la description de la population cible ; 
+3.	
+La procédure de gestion et de suivi des fonds collectés ; 
+4.	
+L’engagement de création d’un compte spécifique pour les fonds levés (sauf dans 
+les cas de refinancement) ; 
+5.	
+La liste des informations que l’émetteur s’engage à publier tout au long de 
+l’émission (nature des informations, fréquences et supports de publication, lieux 
+de disponibilité); 
+6.	
+Le rapport de l’expert indépendant (la ‘second opinion’) qui inclut, à minima, un 
+examen :
+•	
+Des procédures de sélection et d’évaluation des projets ;
+•	
+Des procédures de gestion et de suivi des fonds collectés.
+=== page 28 ===
+28
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+Les émissions d’obligations GSS obéissent aux mêmes règles régissant l’instruction 
+de dossier dans le cadre d’une émission d’obligations standards, la COSUMAF ne se 
+prononçant pas sur les mérites environnementaux ou sociaux de l’émission. Sur cet 
+aspect, la COSUMAF s’appuie sur les conclusions du ou des prestataires externes 
+indépendants. La COSUMAF s’assure toutefois que l’émetteur fournit les informations 
+requises par le présent guide aux investisseurs potentiels.
+2.	
+Instruction du dossier
+=== page 29 ===
+29
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+C.	 Durant la vie de l’émission 
+d’obligations GSS
+de l’émission d’un emprunt obligataire classique, ainsi que les engagements de 
+reporting additionnel qu’il a pris lors de l’émission d’obligations GSS, tels que détaillées 
+dans le document d’information. 
+Ainsi, l’émetteur d’obligation GSS doit, au minimum, régulièrement communiquer 
+(reporting) sur :
+1.	
+Information périodique
+•	
+L’utilisation des fonds levés : projets ou types de projets financés, enveloppes 
+allouées auxdits projets, échéanciers des tirages, soldes non utilisés, etc. ; 
+•	
+Les impacts des projets financés ou refinancés, en des termes mesurables 
+et compréhensibles compte tenu d’indicateurs prédétermines, pertinents et 
+communément admis tels que décrit dans le document d’information ; il s’agit 
+des impacts réalisés par les projets financés ou refinancés et comparés a/ aux 
+impacts escomptés lors de la phase d’évaluation desdits projets et b/ aux critères 
+d’éligibilité fixés dans le document d’information.
+=== page 30 ===
+30
+GUIDE RELATIF A L’EMISSION  D’OBLIGATIONS VERTES, SOCIALEMENT RESPONSABLES ET DURABLES EN AFRIQUE CENTRALE
+À l’instar des émetteurs d’obligations ordinaires, les émetteurs d’obligations GSS 
+doivent publier toute information concernant un événement important. Dans le cas des 
+obligations GSS, les événements suivants sont considérés comme importants :
+2.	
+Information permanente
+•	
+Un retard ou un décalage dans le calendrier d’utilisation des fonds levés tel que 
+présenté dans la note d’information ;
+•	
+Un écart négatif significatif entre les impacts escomptés et les impacts réels des 
+projets financés (sur base individuelle ou globale) ; 
+•	
+Tout changement de prestataire externe désigné aux fins de revoir les procédures 
+de l’émetteur ou d’effectuer une revue indépendante de l’émission ; 
+•	
+Tout évènement susceptible d’avoir un impact sur les performances 
+environnementales et/ou socialement responsables des projets, ou sur la 
+faisabilité des projets ; 
+•	
+Toute modification des engagements pris par l’émetteur lors de l’émission qui 
+doit conformément à la législation en vigueur obtenir l’approbation préalable de 
+la COSUMAF.
+=== page 31 ===
+
+=== page 32 ===
+Scannez pour télécharger
+la version PDF
+349, Rue Dr. CUREAU, Place de l'Indépendance
+BP : 1 724, Libreville - République Gabonaise
+Tel: +241 01 1 72 51 41 - Email: infos@cosumaf.org
+www.cosumaf.org

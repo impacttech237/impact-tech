@@ -1,0 +1,713 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du
+Marché Financier de l'Afrique Centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF no 47-25 du 15 décembre 2025
+RELATIVE AUX MODALITES D'EXERCICE DE L'ACTIVITÉ DE GESTION
+INDIVIDUELLE SOUS MANDAT
+LA COMMISSION DE SURVEILLANCE DU MARCHE
+L'AFRIQUE CENTRALE
+FINANCIER DE
+VU
+VU
+VU
+l'Acte Additionnel no 03/01-CEMAC-CE 03 en date du 8 décembre 2001 portant
+création de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale (COSUMAF) ;
+le Règlement no 01/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022
+portant Organisation et Fonctionnement du Marché Financier de IIAfrique
+Centrale ;
+le Règlement Général de la Commission de Surveillance du Marché Financier
+de l'Afrique Centrale ;
+En sa séance du 15 décembre 2025 ;
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT
+1
+=== page 2 ===
+TITRE 1 - DISPOSITIONS GENERALES
+ARTICLE PREMIER - CHAMP D'APPLICATION
+La présente Instruction, prise en application des dispositions de l'article 150 du
+Règlement no 01/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale, fixe les
+conditions et modalités d'exercice de l'activité de gestion individuelle sous mandat sur
+le Marché Financier de l'Afrique Centrale
+ARTICLE 2 - DEFINITIONS
+Au sens de la présente Instruction, il faut entendre par •
+« Gestion Individuelle sous Mandat » : Service d'investissement consistant pour une
+société de bourse ou une société de gestion d'organismes de placement collectif, à
+gérer, de façon discrétionnaire et individualisée, des portefeuilles, d'une valeur
+minimale de dix millions (10.000.000) de francs CFA incluant un ou plusieurs
+instruments financiers dans le cadre d'un mandat de gestion donné par un tiers.
+« Client » : personne physique ou morale dont le portefeuille fait l'objet d'une gestion
+discrétionnaire par un mandataire sur la base d'un contrat.
+« Gérant ou mandataire » : société de bourse ou société de gestion d'organismes de
+placement collectif agréée par la COSUMAF, attributaire du mandat de gestion.
+« Gestionnaire » : personne physique membre du personnel d'une société de bourse
+ou d'une société de gestion d'organismes de placement collectif, chargée de la gestion
+des portefeuilles des clients.
+« Mandat de gestion » : convention écrite par laquelle un client (le mandant) donne
+pouvoir à un gérant agréé (le mandataire) de gérer un portefeuille incluant un ou
+plusieurs instruments financiers. L'évaluation par le mandataire du profil du client est
+préalable à la conclusion de la convention.
+« Profil du client » .
+catégorisation du client suivant sa situation financière
+personnelle, ses connaissances en matière d'investissement boursier et de produits
+financiers, ses expériences et projets, son attitude face au risque financier et ses attentes
+en matière de rendement. Le profil du client doit permettre aux parties d'établir le
+mandat de gestion et au Gestionnaire de composer le portefeuille du client.
+« Société de bourse » : Société de bourse agréée par la COSUMAF.
+« Société de Gestion d'Organismes de Placement Collectif » : Société de Gestion
+d'Organismes de Placement Collectif agréée par la COSUMAF
+2
+=== page 3 ===
+« Stratégie de la gestion » : orientation de gestion du portefeuille qui tient compte du
+profil du client. Elle définit la répartition recherchée par classe d'actifs, c'est-à-dire
+par catégorie d'investissement ainsi que les niveaux de pondération desdits actifs et
+les critères de performance.
+TITRE 11 - CONDITIONS GENERALES RELATIVES A LA CONNAISSANCE DU
+CLIENT
+ARTICLE 3 - IDENTIFICATION DU CLIENT
+Préalablement à la signature du mandat de gestion, le gérant a l'obligation,
+conformément aux dispositions légales et réglementaires relatives à la Lutte contre le
+Blanchiment des Capitaux et le Financement du Terrorisme dans la Communauté
+Economique et Monétaire de l'Afrique Centrale (CEMAC), de recueillir des
+informations sur l'identité du client ou l'identité de la personne pour laquelle ledit
+client agit.
+ARTICLE 4 - APPRECIATION DU PROFIL CLIENT
+Le gérant met en place les moyens nécessaires afin d'obtenir les informations sur le
+client lui permettant d'apprécier son profil, en recueillant notamment des informations
+relatives à sa connaissance des risques associés aux produits financiers, sa situation
+financière personnelle ou patrimoniale, sa compétence et son expérience en matière
+d'investissement en produits financiers, ses objectifs en termes de risque, de rentabilité
+et d'horizon de placement, les catégories d'instruments financiers que peut comporter
+son portefeuille ainsi que ses contraintes, le cas échéant.
+L'appréciation par le gérant du profil du client est préalable à la conclusion de la
+convention.
+ARTICLE 5 - INFORMATIONS DUES AU CLIENT
+Avant la signature du mandat de gestion, le gérant doit fournir au client une
+documentation détaillée sur :
+ses formules de gestion ;
+les types d'instruments financiers susceptibles d'être inclus dans le portefeuille
+selon les formules de gestion ;
+les transactions pouvant être effectuées ;
+les objectifs de gestion et les risques qu'ils engendrent ;
+les mécanismes d'évaluation des performances du mandat de gestion ;
+les frais liés au mandat de gestion ;
+la durée du placement.
+3
+=== page 4 ===
+ARTICLE 6 - OBJECTIFS ASSIGNES A LA GESTION INDIVIDUELLE SOUS
+MANDAT
+Sur la base des informations recueillies sur le client, le gérant :
+vérifie que la stratégie de gestion proposée répond aux objectifs du client ;
+exprime avec précision la stratégie de gestion déterminée dans le mandat de
+gestion, notamment le profil de rendement-risque, l'horizon et les objectifs de
+placement ;
+vérifie que le client a l'expérience et les connaissances pour comprendre les
+risques inhérents à la gestion individuelle sous mandat du portefeuille. À
+défaut, l'information fournie au client devra être adaptée à ses connaissances
+afin de s'assurer de sa bonne compréhension des risques associés au service
+d'investissement proposé.
+Le profil rendement-risque pourrait être présenté sous la forme d'une échelle allant du
+risque le plus faible de perte de capital au risque le plus élevé.
+TITRE 111 - FORMALISATION DE LA RELATION ENTRE LE GERANT ET LE
+CLIENT
+ARTICLE 7 - VALIDATION DU PROFIL DU CLIENT
+Le profil du client doit être transcrit dans une fiche retraçant :
+sa situation financière ou patrimoniale ;
+sa compétence et son expérience en matière de bourse, d'investissement en
+valeurs mobilières et de produits financiers ;
+ses objectifs en termes de risque, de rentabilité et d'horizon de placement ;
+ses contraintes ;
+sa catégorisation.
+Cette fiche doit être signée par le client et le gérant.
+ARTICLE 8 - CONVENTION DE GESTION INDIVIDUELLE SOUS MANDAT
+Toute gestion individuelle sous mandat commence par la signature d'une convention
+de gestion individuelle sous mandat entre le gérant et le client.
+La convention de gestion individuelle sous mandat doit contenir les mentions
+obligatoires suivantes :
+I. les renseignements concernant les parties à la convention de gestion individuelle
+sous mandat :
+l'identité et l'adresse des parties contractantes (client et gérant) ;
+la responsabilité des parties contractantes ;
+les obligations des parties contractantes ;
+4
+=== page 5 ===
+l'élection de domicile.
+2. les renseignements concernant le mandat de gestion :
+l'objet du mandat ;
+la stratégie de gestion ;
+les modalités d'informations entre les parties ;
+les frais de gestion ;
+les conditions de validité du contrat ;
+les conditions de résiliation du mandat de gestion ;
+les clauses de confidentialité ;
+la clause attributive de juridiction ;
+la date et le lieu de signature du contrat.
+La convention de gestion individuelle sous mandat doit être établie en deux (02)
+exemplaires dont l'un est remis au client, et l'autre conservé par le gérant au dossier
+du client constitué conformément aux dispositions réglementaires en vigueur.
+Un modèle de contrat de gestion individuelle sous mandat est annexé à la présente
+Instruction.
+ARTICLE 9 - COMPTES DU CLIENT
+La gestion individuelle sous mandat s'effectue sur le compte espèces et le compte titres
+du client. Toutes les opérations initiées se réfèrent à la formule de gestion établie par
+le gestionnaire.
+TITRE IV - OBLIGATIONS DU GERANT
+ARTICLE 10 - OBLIGATIONS DE MOYENS
+Le gérant doit agir dans l'intérêt exclusif du client. À cet effet, il doit disposer :
+d'une organisation et de procédures qui lui permettent :
+d'avoir accès, à tout moment, à la position titres et espèces des comptes
+gérés ;
+• d'initier et de transmettre des ordres en toute sécurité, avec célérité et
+égalité de traitement entre les clients.
+des moyens techniques d'analyse et d'aide à la décision.
+L'organisation implique l'existence d'au moins un gestionnaire et d'un comité
+d'investissement composé du personnel de la société de gestion, à l'exclusion du
+négociateur.
+ARTICLE 11 - STRATEGIE DE LA GESTION
+5
+=== page 6 ===
+Le gérant définit différentes formules de gestion par la pondération des actifs,
+l'horizon et les objectifs d'investissement. La stratégie de gestion peut mentionner
+l'existence d'un plancher ou d'un plafond pour certaines catégories d'actifs.
+La stratégie de gestion pour des clients de même profil doit être cohérente.
+ARTICLE 12 - MISE EN PLACE DE PROCEDURES DE CONTROLE
+Le gérant doit mettre en place des procédures de contrôle adaptées afin de vérifier :
+la conformité de la gestion individuelle sous mandat à la présente Instruction
+et aux clauses du mandat de gestion ;
+la conformité de la performance de la gestion individuelle sous mandat des
+différents clients en tenant compte de la performance par stratégie de gestion ;
+la conformité des documents que le gérant adresse aux clients ainsi que
+l'exactitude des informations qui y sont contenues ;
+les situations de conflits d'intérêts et leur gestion ;
+l'absence d'utilisation d'informations privilégiées dans les opérations.
+Article 13 : Modifications du mandat de gestion
+Toute modification substantielle du mandat de gestion, notamment concernant les
+objectifs d'investissement, les niveaux de risque, les catégories d'instruments
+financiers ou la structure des frais, fait l'objet d'un avenant écrit, signé par le client, et
+est transmise à la COSUMAF dans un délai de cinq (5) jours ouvrés suivant sa
+signature.
+Est qualifiée de substantielle toute modification susceptible d'altérer la compréhension
+initiale par le client de sa stratégie d'investissement, de son profil de risque ou de ses
+frais.
+Les modifications mineures, n'ayant pas d'incidence sur le profil de risque ou les frais,
+sont communiquées au client par tout support durable et transmises à la COSUMAF à
+titre d'information.
+ARTICLE 14 - MODALITES D'INFORMATION DU CLIENT
+Le gérant adresse au client, selon une périodicité convenue entre les deux parties
+contractantes, ou à défaut, au moins une fois chaque trimestre :
+un journal des opérations récapitulant l'ensemble des opérations réalisées pour
+le compte du client durant la période considérée ;
+un relevé de portefeuille valorisé présentant le détail de chaque instrument
+financier, son volume et sa valeur de marché, le solde de trésorerie au début et
+6
+=== page 7 ===
+à la fin de la période couverte (la valorisation des titres cotés doit être faite au
+dernier cours coté de la période considérée) ;
+une situation faisant ressortir les résultats du portefeuille et l'évolution de l'actif
+géré durant la période écoulée ;
+le montant des commissions de gestion, de rétrocession, de courtage et frais
+supportés sur la période couverte ;
+le montant des dividendes, intérêts et autres paiements reçus durant la période.
+Les documents et informations visés au présent article doivent être transmis dans un
+délai qui ne peut dépasser sept (07) jours calendaires à compter de la date convenue,
+ou à défaut, à la fin de chaque trimestre.
+ARTICLE 15 - REGLES DE CONFIDENTIALITE ET DE CONSERVATION DES
+DONNEES
+Le gérant et le(s) gestionnaire(s) doivent respecter en permanence les règles de
+confidentialité au regard des informations recueillies dans le cadre de l'activité de
+gestion individuelle sous mandat.
+La communication d'informations par le gérant à des tierces personnes en rapport avec
+les opérations effectuées pour le compte du client doit être préalablement autorisée
+par ce dernier, sauf dispositions légales ou réglementaires contraires.
+Par ailleurs, le gérant est tenu de respecter l'obligation relative au délai légal de
+conservation des documents et informations sur le client et ce, conformément à la
+réglementation en vigueur.
+TITRE V - REGLES DE BONNE CONDUITE APPLICABLES AU GERANT
+ARTICLE 16 - GESTION EXCLUSIVE DANS L'INTERET DES CLIENTS
+Le gérant exerce ses activités avec diligence, intégrité, équité et dans le respect de
+l'intérêt de ses clients. Il veille à assurer un traitement équitable entre ses clients.
+La fréquence des opérations réalisées dans le cadre de la gestion individuelle sous
+mandat doit être motivée par l'intérêt exclusif des clients.
+Le gérant (mandataire) ne doit pas souscrire à une opération de capital pour le compte
+des clients, dans le but exclusif de permettre à l'émetteur de placer ses propres titres
+ou de recevoir des commissions de placement.
+Le gérant s'interdit de réaliser une opération lorsque lui ou son gestionnaire sont en
+possession d'une information privilégiée.
+ARTICLE 17 - REMUNERATION LIEE A LA SURPERFORMANCE
+7
+=== page 8 ===
+Toute rémunération liée à la surperformance est subordonnée à l'existence d'une
+clause expresse dans le mandat de gestion, précisant :
+la méthode de calcul de la surperformance, incluant la formule, l'indicateur de
+référence et la période d'observation retenus ;
+l'existence d'un seuil minimal de performance relative au-delà duquel la
+commission devient exigible ;
+l'application d'un mécanisme garantissant que seule une performance excédant
+les niveaux précédemment atteints peut donner lieu à rémunération
+complémentaire ;
+les modalités de restitution, de report ou de suspension des commissions en cas
+de contre-performance ultérieure ;
+la fréquence de calcul (au minimum annuelle) et les conditions de prélèvement.
+Le taux de la commission de surperformance ne peut excéder vingt pour cent (20 %)
+de la performance nette excédentaire constatée au regard de l'indicateur de référence.
+Toute disposition contractuelle prévoyant un taux supérieur est réputée non écrite.
+Le gérant ne peut percevoir une telle commission que si l'intégralité des conditions
+prévues par la convention de gestion et par la présente Instruction sont respectées.
+ARTICLE 18
+PRINCIPES GENERAUX DE GESTION DE CONFLITS
+D'INTERETS PAR LE GERANT
+Il est interdit au gérant :
+de réaliser des opérations pour son propre compte en utilisant en contrepartie
+les clients ;
+de réaliser des opérations entre les clients ;
+de réaliser des opérations hors marché entre les clients et les sociétés avec
+lesquelles il entretient des liens juridiques directs ou indirects ;
+de réaliser des opérations entre les clients et les OPC pour lesquels il est
+directement impliqué dans la commercialisation ou la gestion du passif et/ou
+dans la définition de la politique d'investissement ;
+d'inciter ses gestionnaires à une rotation active des portefeuilles des clients sous
+gestion non justifiée par des considérations économiques et financières ;
+de rémunérer ses collaborateurs, en tenant compte des produits générés par les
+opérations réalisées pour le compte des clients, notamment les rémunérations
+incitatives pouvant être à l'origine de comportement préjudiciable aux clients,
+à l'exception des commissions de surperformance dument justifiées par le
+mandat de gestion conclu avec le client ;
+8
+=== page 9 ===
+de réaliser des opérations pour le compte de ses collaborateurs qui sont en
+concurrence avec celles réalisées pour le compte des clients, leur causant un
+préjudice du fait des mouvements de cours entrainés par ces opérations ;
+d'accepter des interventions éventuelles d'une société qui lui est liée ou d'un de
+ses dirigeants ou collaborateurs dont l'objet est d'influencer les décisions de
+gestion individuelle sous mandat en privilégiant, aux dépens des intérêts des
+clients :
+• les activités du groupe ou de ses filiales ;
+• les produits de marchés conçus par des sociétés du groupe ou de ses
+filiales ;
+• les OPC gérés par les Sociétés de Gestion dOPC du groupe ou de ses
+filiales.
+d'accepter des interventions d'un mandant, client important d'une société de
+son groupe, en vue d'obtenir des avantages indus contraires à l'intérêt de
+l'ensemble des clients ;
+de privilégier certains mandants en ce qui concerne l'affectation des
+transactions groupées ;
+d'affecter aux clients les titres vendus ou achetés issus des erreurs de
+transactions.
+Le gérant s'assure qu'en cas d'émission, de placement privé ou d'introduction en
+bourse de valeurs mobilières entrainant un effet de rareté, il ne mènera aucune action
+visant à privilégier certains clients avec lesquels lui ou ses collaborateurs ont des liens
+particuliers.
+Lorsque le gérant a été chargé par un émetteur d'une opération d'appel public
+l'épargne, de fusion, d'absorption ou de toute autre opération susceptible d'avoir un
+effet sur le cours de la valeur dudit émetteur, il doit s'abstenir d'acquérir cette valeur
+pour le compte de ses clients, tant que les informations relatives ladite opération ne
+sont pas portées à la connaissance du public.
+ARTICLE 19 - GESTION DES CONFLITS D'INTERETS DANS LE CADRE DES
+RELATIONS DE GROUPE
+1. Le gérant identifie et documente toute situation dans laquelle les intérêts d'un
+client sous mandat pourraient être compromis du fait de relations économiques,
+capitalistiques ou contractuelles existantes entre le gérant et d'autres entités
+appartenant à un même groupe.
+2. Les transactions entre un client sous mandat et une entité liée au groupe du
+gérant sont interdites, sauf si :
+o Elles sont justifiées par l'intérêt exclusif du client ;
+9
+=== page 10 ===
+o Une information préalable et écrite est remise au client et dûment
+conservée par le gérant ;
+o L'analyse de la transaction est documentée dans un dossier interne
+consultable par le contrôle interne et la COSUMAF.
+3. Tout lien entre le gérant et l'entité cocontractante (participation, gouvernance,
+partenariat contractuel) doit être recensé dans un registre interne mis à jour, et
+déclaré annuellement dans le rapport d'activité adressé à la COSUMAF.
+4. Le dispositif interne de contrôle et de conformité vérifie régulièrement la mise
+en œuvre de ces obligations et tient à disposition de la COSUMAF tout
+document y afférent.
+TITRE V1- REGLES DE BONNE CONDUITE APPLICABLES AU GESTIONNAIRE
+ARTICLE 20 - INDEPENDANCE DU GESTIONNAIRE
+La fonction de gestionnaire doit être indépendante des autres fonctions de la société.
+À cet effet, le gestionnaire ne peut ni gérer les comptes de la société, ni réceptionner
+des ordres des clients de la société.
+ARTICLE 21 - GESTION EQUITABLE DES CLIENTS
+Lorsque le gestionnaire agit pour le compte de plusieurs clients en gestion individuelle
+sous mandat, il est autorisé à passer un ordre groupé pour le compte desdits clients. À
+cet effet, il doit mettre en place un dispositif permettant la traçabilité de ces ordres,
+entre autres, l'utilisation d'un numéro de référence unique pour la transmission de ce
+type d'ordre.
+Préalablement à la transmission de l'ordre, il définit la clé de répartition de l'ordre.
+À l'issue de l'exécution, le gestionnaire procède à l'allocation des titres selon la clé de
+répartition prédéfinie.
+Cette clé doit prévoir, en cas d'exécution partielle, une allocation au prorata des
+demandes ou des offres.
+Les répartitions des ordres groupés doivent être consignées dans un registre spécial
+permettant un audit des allocations qui sont effectuées après chaque transaction
+groupée, notamment :
+l'identité des bénéficiaires ;
+la méthode de répartition et sa justification ;
+les résultats de l'allocation. &
+10
+=== page 11 ===
+ARTICLE 22 - CAS DE DEROGATION AU TRAITEMENT EQUITABLE DES
+CLIENTS
+Le gérant doit mettre en place des règles précisant les conditions dans lesquelles le
+gestionnaire peut déroger exceptionnellement aux principes de l'égalité de traitement
+en ce qui concerne l'affectation des exécutions au prorata des ordres.
+Cette dérogation ne peut être justifiée que dans le cas de l'exécution très partielle de
+l'ordre groupé due aux conditions de marché. Dans ces conditions, le gestionnaire peut
+opter pour une répartition qui tienne compte du nombre de titres acquis et de
+l'impossibilité de constituer un portefeuille significatif pour certains clients.
+En cas d'application de cette dérogation exceptionnelle, le gestionnaire est tenu de
+produire une note circonstanciée datée permettant un audit ou une vérification des
+allocations effectuées.
+ARTICLE 23 : CODE DE CONDUITE DU GESTIONNAIRE
+Le gérant met en place un code de conduite applicable à ses gestionnaires. Ce code est
+contenu dans un code de déontologie dont l'élaboration et la mise à jour sont
+approuvées par le Conseil diAdministration du gérant.
+À cet effet, le gérant veille à ce que le gestionnaire s'abstienne de solliciter ou d'accepter
+des clients des cadeaux ou avantages pouvant porter atteinte à son impartialité ou à
+son indépendance.
+Le gérant veille à ce que le gestionnaire gère, avec transparence et dans le principe
+d'équité, les opérations qu'il réalise pour son propre compte ainsi que celles concernant
+les mandants avec lesquels il a des liens familiaux ou, à titre privé, des relations
+économiques et financières.
+Le gérant veille à ce que le gestionnaire s'assure que ses interventions ne portent pas
+atteinte à l'intégrité du marché. Ainsi, ce dernier s'abstient :
+de manipuler le marché ou s'adonner à des pratiques trompeuses ;
+d'utiliser des informations confidentielles ou privilégiées relatives au marché ;
+de propager de fausses informations ;
+d'utiliser l'épargne des clients à des fins personnelles.
+TITRE VII - INFORMATIONS A TRANSMETTRE A LA COSUMAF
+ARTICLE 24 - CONVENTIONS DE GESTION INDIVIDUELLE SOUS MANDAT e
+11
+=== page 12 ===
+Le gérant est tenu de transmettre à la COSUMAF copie de toute convention de gestion
+individuelle sous mandat dans un délai de huit (8) jours à compter de sa conclusion.
+ARTICLE 25 - COMMUNICATION DU CODE DE DEONTOLOGIE ET DE LA
+PROCEDURE DE GESTION
+Le gérant est tenu de transmettre à la COSUMAF le code de déontologie de son
+personnel ainsi qu'une procédure de gestion individuelle sous mandat, approuvés par
+son Conseil d'Administration, au moins un (01) mois avant leur mise en application.
+Les modifications du code de déontologie et de la procédure de gestion individuelle
+sous mandat doivent être approuvées par le Conseil d'Administration et transmises à
+la COSUMAF, au moins un (01) mois avant leur mise en application.
+Dans le délai susvisé, si la COSUMAF l'estime nécessaire, elle peut faire des
+observations qui doivent impérativement être prises en compte avant la mise en
+application du code de déontologie ou de la procédure de gestion.
+ARTICLE 26 - RAPPORT ANNUEL D'ACTIVITE
+Le gérant est tenu, à l'occasion de la transmission du rapport annuel de contrôle
+interne, d'adresser à la COSUMAF un rapport sur l'exercice de l'activité de la gestion
+individuelle sous mandat qui :
+décrit les moyens mis en oeuvre pour l'exécution de la gestion individuelle sous
+mandat ;
+présente l'évolution des clients (nombre de clients, valeurs du portefeuille,
+etc.) ;
+donne la liste de leurs dix (10) plus gros clients en fonction de la valeur de leurs
+portefeuilles et la performance réalisée par ces portefeuilles sur la période ;
+inventorie les contrôles effectués pour s'assurer de la bonne mise en oeuvre et
+du respect des procédures de gestion individuelle sous mandat, conformément
+à la présente Instruction ;
+fait ressortir les résultats des contrôles, notamment les irrégularités, les
+manquements, les conflits d'intérêts relevés ainsi que le plan d'actions
+correctives.
+TITRE VIII - DISPOSITIONS TRANSITOIRES ET FINALES
+ARTICLE 27 - DISPOSITIONS TRANSITOIRES
+12
+=== page 13 ===
+Les sociétés de bourse et les sociétés de gestion d'organismes de placement collectif
+agréées avant la date d'entrée en vigueur de la présente Instruction disposent d'un
+délai maximum de six (06) mois à compter de sa date de signature pour se conformer
+à ses dispositions.
+Article 28 : Conformité des mandats existants
+Les mandats en cours à la date d'entrée en vigueur de la présente Instruction restent
+valables.
+Ils font l'objet d'un avenant de mise en conformité, à formaliser par les parties, dans
+un délai maximal de six (6) mois à compter de ladite date d'entrée en vigueur.
+Article 29 : Inadéquation manifeste des stratégies
+Lorsqu'une stratégie de gestion existante présente une inadéquation manifeste avec les
+nouvelles exigences de profilage, l'entité gestionnaire est tenue d'en informer
+immédiatement le client.
+Elle doit, dans les plus brefs délais, proposer un ajustement de la stratégie conforme
+auxdites exigences.
+ARTICLE 30 - ENTREE EN VIGUEUR
+La présente Instruction, qui entre en vigueur à la date de sa signature, sera publiée sur
+le site internet de la COSUMAF et sur tout autre support précisé par la COSUMAF.
+Fait à Libreville, le 15 décembre 2025
+Pour la COSUMAF
+Le Président
+COMMISSION DE SURVEILLANCE
+DU MARCHE FINANCIE
+DE L'AFRIQUE CEN LE
+.89 / 91
+Tél.: + 241 01.74
+B.P. 1724 Librev e- GABON
+Jacqueline ADIABA-NKEMBE
+13
+=== page 14 ===
+ANNEXE : Modèle de contrat de gestion individuelle sous
+mandat
+ENTRE LES SOUSSIGNÉS :
+Prénoms, nom, date et lieu de naissance, domicile ou adresse du lieu d'exercice de
+l'activité, adresse postale et numéro de la carte nationale d'identité pour les personnes
+physiques ;
+ou
+Dénomination, forme sociale, capital, siège social, numéro d'immatriculation au
+registre de commerce, numéro de compte contribuable, prénoms et nom du ou des
+dirigeants sociaux habilités à engager la société.
+Ci-après désigné (e) : « le Client » ou « le Mandant »
+ET
+Dénomination, forme sociale, capital, siège social, numéro d'immatriculation au
+registre de commerce, numéro de compte contribuable, prénoms et nom du ou des
+dirigeants sociaux habilités à engager la société et agréée par la Commission de
+Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF), en qualité de
+XXX, sous le numéro XXX, représentée par XXX, ayant les pouvoirs nécessaires à l'effet
+des présentes.
+Ci-après désignée : « le Mandataire ou Gérant »
+Le Client et le Mandataire étant ci-après ensemble dénommés « les Parties » ou
+individuellement « une Partie ».
+IL A ÉTÉ PRÉALABLEMENT EXPOSÉ CE QUI SUIT :
+Le Mandataire est une Société de Bourse (SDB) ou une Société de Gestion
+d'Organismes de Placement Collectif (SGO) agréée, le
+sous le numéro
+par la Commission de Surveillance du Marché Financier de l'Afrique Centrale
+(COSUMAF) ayant pour objet principal
+. (à préciser).
+Le Client est une personne physique / morale intéressée par les services de gestion de
+portefeuille proposés par le Mandataire.
+Le Mandant reconnaît avoir disposé des informations relatives au service de gestion
+de portefeuille pour le compte de tiers, aux types d'instruments financiers que peut
+comporter le portefeuille ainsi qu'aux risques y afférents en temps utile avant la
+conclusion du présent mandat, lui permettant de comprendre la nature et les risques
+attachés à l'investissement dans les instruments financiers prévus dans le mandat.
+14
+=== page 15 ===
+Le Mandataire a effectué les diligences requises lui permettant de gérer le(s) compte(s)
+du Mandant de manière adaptée en tenant compte de ses connaissances et de son
+expérience en matière d'investissement, de sa situation financière ainsi que de ses
+objectifs d'investissement.
+À ce titre, le Mandataire s'est informé auprès du Mandant de ses connaissances et de
+son expérience en matière d'investissement, de sa situation financière et de ses objectifs
+d'investissement. Par ailleurs, le Mandataire a attiré l'attention du Mandant sur les
+risques attachés à l'investissement dans les Instruments financiers prévus dans le
+mandat.
+Le Mandant certifie l'exactitude de l'ensemble des renseignements le concernant.
+l'objet du mandat ;
+la stratégie de gestion ;
+les modalités d'informations entre les parties ;
+les frais de gestion ;
+les conditions de validité du contrat ;
+les conditions de résiliation du mandat de gestion ;
+les clauses de confidentialité ;
+la clause attributive de juridiction ;
+la date et le lieu de signature du contrat.
+CECI AYANT ÉTÉ EXPOSÉ, LES PARTIES ONT CONVENU DE CE QUI SUIT •
+Article 1er : Valeur de l'exposé préalable
+L'exposé préalable ci-dessus a la même valeur juridique que le présent contrat de
+gestion individuelle sous mandat dont il fait partie intégrante.
+Article 2 : Objet du contrat
+Par le présent contrat, le Client donne mandat discrétionnaire au Mandataire qui
+l'accepte. Ce dernier s'engage à gérer au mieux de ses intérêts, suivant les objectifs de
+gestion prévus, en son nom et pour son compte, et aux risques exclusifs du Mandant,
+les instruments financiers, les revenus associés et espèces déposés sur le compte no
+XXX ouvert dans les livres de XXX. Ce mandat est exclusif et emporte pouvoir
+d'administration et de disposition des titres confiés par le Client.
+En conséquence, le Mandant reconnaît expressément et de manière irrévocable qu'il
+n'est pas autorisé, pendant toute la durée du mandat à intervenir dans la gestion du
+compte sous mandat.
+Le Mandataire est investi des pouvoirs nécessaires à la réalisation des opérations
+initiées par ses soins et pour exercer tous les droits patrimoniaux attachés aux
+instruments financiers. Il pourra notamment signer tous bulletins de souscription
+15
+=== page 16 ===
+ordres d'achat et de vente, retrait ou de dépôt, ainsi que tout bordereau de transfert ou
+de conversion de tout instrument financier. »
+Article 3 : Profil du Client
+3.1. Le Client informe le Mandataire de l'ensemble de sa situation patrimoniale afin de
+permettre à ce dernier d'exécuter au mieux les prestations de service d'investissement
+convenues et en fonction de sa capacité d'assumer les risques.
+3.2. Le Client est informé de manière appropriée des éventuels risques s'il ne donne
+pas les précisions suffisantes sur l'ensemble de sa situation patrimoniale.
+3.3. Compte tenu des connaissances et de l'expérience des marchés financiers ainsi que
+de la situation financière et des objectifs d'investissement du Mandant, le Mandataire
+lui propose le profil d'investissement défini en Annexe au présent contrat que le
+Mandant reconnaît avoir accepté en toute connaissance de cause.
+Pour chaque profil, le Mandataire cherche à maximiser le profit ou à minimiser la perte
+en s'adaptant, dans le cadre d'une gestion discrétionnaire, aux situations de marché. Il
+retient, pour chaque classe d'actifs éligibles, celle qui lui semble offrir le meilleur
+rapport rendement/ risque.
+3.4. L'objectif de gestion et le profil d'investissement peuvent être modifiés à tout
+moment à la demande du Mandant. Chaque modification donne lieu à la signature
+d'un avenant au mandat. La mise en ceuvre de la gestion liée au nouveau profil retenu
+peut nécessiter un délai qui ne saurait excéder quinze (15) jours calendaires à compter
+de la réception par le Mandataire de l'avenant signé du Mandant et, en tout état de
+cause, à l'issue des délais de réflexion prévus par la réglementation. Un délai identique
+s'applique pour permettre au Mandataire d'investir les fonds confiés conformément
+au profil retenu par le Mandant.
+Le Mandataire pourra, le cas échéant, surseoir à la prise d'effet du mandat et des
+avenants notamment :
+stil estime que le profil d'investissement choisi ne correspond pas aux objectifs
+du Mandant ;
+ou encore si le Mandant n'a pas dûment complété l'ensemble des informations
+requises par le Mandataire.
+Article 4 : Objectifs et stratégie de gestion
+L'objectif assigné à la gestion des actifs détenus sur le Compte géré est d'accroître leur
+valeur en fonction des règles de gestion déterminées par le profil d'investissement
+choisi par le Client et précisé dans l'annexe au présent contrat.
+16
+=== page 17 ===
+Le Mandataire s'engage à mettre en œuvre un mode de gestion conforme à la
+réalisation de cet objectif et au profil du Client.
+A cette fin, le Mandataire met en place une stratégie adaptée. Le Mandataire présentera
+une description du mode de gestion retenu et ses résultats dans le compte rendu de
+gestion présenté au Client.
+Les actifs gérés pour le compte du Client devront respecter la répartition suivante :
+Il est convenu que le Mandataire poursuit la gestion dans une optique purement
+économique. En conséquence, il ne saurait être tenu responsable des conséquences
+fiscales de la gestion du mandat.
+Article 5 : Responsabilité du Mandataire
+5.1. Le Mandataire exercera son mandat en toute indépendance dans le respect des
+textes réglementaires du Marché Financier de l'Afrique Centrale.
+5.2. Le Mandataire agira avec prudence et diligence en se fondant sur les résultats de
+ses
+études.
+5.3. Le Mandataire s'engage à fournir au Client une information sincère, exacte sur les
+opérations traitées pour son compte ainsi que les supports y afférents selon la
+fréquence nécessaire et les moyens de communication qui seront convenus entre les
+Parties.
+5.4. Le Mandataire ne répond que de sa faute dans l'exécution de ses obligations.
+Ne peuvent pas donner lieu à réparation :
+les pertes qui n'ont pas exclusivement et directement leur cause dans une faute ;
+les conséquences fiscales de la gestion, notamment en matière d'imposition des
+plus-values ;
+les conséquences éventuelles de cas de force majeure tels que notamment
+les modifications légales, réglementaires, financières ou fiscales.
+Article 6 : Obligations du Client
+6.1. Le Mandant reconnaît avoir pleine connaissance de l'étendue des risques pouvant
+découler de l'exécution des opérations faisant l'objet du présent mandat de gestion.
+6.2. Le Mandant s'interdit d'accéder aux titres et/ ou aux espèces confiés au Mandataire
+dans le cadre du présent mandat, sans avoir l'accord préalable par écrit du Mandataire.
+17
+=== page 18 ===
+6.3. Le Mandant autorise le Mandataire à débiter le compte de tous frais, taxes,
+commission ou autres, liés à l'exécution du mandat.
+6.4. Le Mandant s'engage à :
+communiquer au Mandataire toutes les informations nécessaires pour
+l'exécution du présent Contrat et à l'informer immédiatement de tout fait
+nouveau de nature à avoir une influence sur le contenu du mandat ;
+fournir toute information nécessaire relative à la lutte contre le blanchiment et
+le financement du terrorisme ;
+n'utiliser les services du Mandataire que pour son propre usage et à ne pas
+transmettre à des tiers les documents reçus du Mandataire dans ce cadre ;
+accepter les décisions relatives aux services fournis par le Mandataire ;
+accepter que le Mandataire fournisse des services similaires ou identiques à
+d'autres clients ;
+rémunérer le Mandataire en contrepartie de ses prestations selon les modalités
+définies par les Parties.
+Article 7 : Information du Client
+Le Mandataire adresse au Client, selon une périodicité convenue entre les deux Parties,
+à défaut au moins chaque trimestre, par tout moyen à la convenance des deux Parties
+(à préciser), et dans un délai qui ne peut dépasser sept (07) jours calendaires à compter
+de l'arrêté de la période considérée, un compte-rendu de gestion comprenant :
+un journal des opérations récapitulant l'ensemble des opérations réalisées pour
+le compte du client durant la période considérée ;
+un relevé de portefeuille valorisé présentant le détail de chaque instrument
+financier, son volume et sa valeur de marché, le solde de trésorerie au début et
+à la fin de la période couverte. La valorisation des titres cotés doit être faite au
+dernier cours coté de la période considérée ;
+une situation faisant ressortir les résultats du portefeuille notamment
+l'évolution de l'actif géré durant la période écoulée ;
+le montant des commissions et frais supportés sur la période couverte ;
+le montant des dividendes, intérêts et autres paiements reçus durant la période
+une description du mode de gestion retenu.
+Article 8 : Rémunération
+La rémunération du Mandataire est de (ou est définie à l'annexe du présent contrat) :
+Toute modification du mode de calcul de la rémunération du Mandataire fera l'objet
+d'un avenant signé par les Parties au mandat.
+18
+=== page 19 ===
+Le Mandataire ne percevra, pour son propre compte, aucune commission de courtage.
+Le Client supportera les frais indirects liés à l'exécution des ordres et à la gestion des
+actifs (commissions de courtage et de règlement/ livraison dues à la Bourse des
+Valeurs Mobilières de l'Afrique Centrale (BVMAC) et du Dépositaire Central (DC),
+frais dus au Régulateur, impôts et taxes, etc.).
+Article 9 : Absence de lien de subordination
+Les Parties déclarent qu'aucune obligation résultant des présentes ne peut être
+interprétée comme un lien de subordination entre elles ou une relation de commettant
+à préposé.
+Article IO : Contestations
+10.1. Les contestations parviennent au Mandataire par tout moyen à la convenance des
+deux Parties. La traçabilité des informations étant indispensable, aucune contestation
+ne pourra être notifiée sans support archivable.
+10.2. Si le Client ne reçoit pas les documents prévus par l'article 6 de la présente
+convention au plus tard vingt et un (21) jours calendaires à compter de l'arrêté de la
+période convenue, il est tenu d'en faire la réclamation auprès de son Mandataire.
+10.3. Toute contestation relative au contenu des documents reçus doit se faire au plus
+tard huit (8) jours calendaires à compter de la réception desdits documents.
+Article 11 : Confidentialité
+L'existence du présent contrat, ses termes, son objet et toutes autres informations s'y
+rapportant sont strictement confidentiels et ne peuvent, sans l'accord des Parties, être
+communiqués ou divulgués aux tiers, sauf sur requête des autorités du marché ou
+pour défendre leurs droits en justice.
+Ces obligations de confidentialité doivent être observées pendant une durée de XXXX
+(déterminée par les parties), à compter de la résiliation du présent contrat.
+Article 12 : Durée - Résiliation
+12.1. Le présent mandat est conclu pour une durée de XXXX (à préciser) renouvelable
+par tacite reconduction à compter de sa date de signature et est valable jusqu'à
+résiliation par l'une ou l'autre des Parties, à charge pour la Partie qui en prend
+l'initiative d'avertir l'autre par lettre recommandée avec demande d'accusé de
+réception.
+12.2. La dénonciation à l'initiative du Client prend effet dès réception de la lettre
+recommandée par le Mandataire qui cesse d'être habilité à prendre l'initiative de
+nouvelles opérations.
+19
+=== page 20 ===
+12.3. La dénonciation par le Mandataire prend effet cinq (05) jours calendaires après
+réception de la lettre recommandée par le Client.
+12.4. Le présent mandat continuera, toutefois, à régir les rapports entre les Parties pour
+toutes les opérations initiées et non encore dénouées avant la date de prise d'effet de
+la résiliation.
+12.5. Au plus tard à la date d'effet de la résiliation, le Mandataire établit un relevé de
+portefeuille et arrête une situation de gestion dans les modalités décrites à l'article 6,
+sur la période courue depuis le dernier état du portefeuille.
+12.6. La résiliation de plein droit du présent contrat peut aussi survenir en cas
+d'ouverture d'une procédure collective à l'encontre de l'une des Parties.
+Article 13 : Amendement
+Le présent mandat est actualisé en fonction des amendements intervenant au niveau
+du cadre légal et réglementaire en vigueur. Le Mandataire avise le Client au plus tard
+huit (8) jours calendaires après que ces changements aient pris effet.
+Le présent mandat ne peut être modifié par l'une ou l'autre des deux Parties sans
+l'accord écrit de chacune d'elles.
+Toute modification au présent contrat prendra la forme d'un avenant signé par les
+Parties.
+Article 14 : Notification
+Toute communication ou notification au Client ou au Mandataire se fera par écrit
+(télécopie, courriel ou courrier) au moyen des coordonnées mentionnées dans présent
+contrat, sauf indication contraire écrite.
+Article 15 : Élection de domicile
+15.1. Pour l'exécution du présent contrat, les Parties font élection de domicile en leur
+siège social et domicile respectifs indiqués en tête des présentes.
+15.2. Tout changement de siège ou de domicile devra être notifié à l'autre Partie dans
+un délai de huit (8) jours calendaires à compter du changement effectif.
+Article 16 : Droit applicable et attribution de juridiction
+Le présent contrat est régi par XXXXX
+Toutes contestations relatives à l'exécution ou à l'interprétation des clauses du présent
+contrat et de ses suites, feront l'objet d'un règlement amiable entre les Parties.
+A défaut ou en cas d'échec dudit règlement dans le délai de trente (30) jours calendaires
+à compter de la date à laquelle une Partie reçoit une notification de l'autre indiquant e
+20
+=== page 21 ===
+l'existence d'un litige, ledit litige sera soumis aux tribunaux de XXXX, seuls compétents
+pour résoudre toutes contestations ou litiges qui pourraient survenir à l'occasion de
+l'interprétation et/ou de l'exécution du présent contrat.
+Fait à
+Ont signé (en deux exemplaires dont l'un a été remis au Client)
+Le Client
+Signature précédée de la mention
+manuscrite « lu et approuvé »
+Le Mandataire
+Signature du Représentant
+21

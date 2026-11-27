@@ -1,0 +1,2002 @@
+=== page 1 ===
+REGLEMENT GENERAL
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+BP. 442 Douala - CAMEROUN
+Tél +237 233 43 83 / Fax +237 233 43 85 u
+Email: info@bvrn-ac.or / Webt www bvm-ac.or
+=== page 2 ===
+BOURSE DES VALEURS MOBILÏERES DE L'AFRIQUE CENTRALE
+1450, Boulevard de la Liberté — BP 442
+Douala - CAMEROUN
+RCCM: RC/DLA2020/B/5383
+www.bvmac.cm
+LA BOURSE DES VALEURS MOBILIERES DE L'AFRIQUE CENTRALE,
+VU l'Acte Additionnel no 03/01-CEMAC-CE 03 du 8 décembre 2001 portant création de la
+Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) ;
+VU l'Acte Additionnel n006/17-CEMAC-COSUMAF-CCE-SE du 19 février 2018 portant unification du
+marché financier de la CEMAC et mesures d'accompagnement ;
+VU le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant organisation et
+fonctionnement du marché financier de l'Afrique Centrale ;
+VU le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale (COSUMAF) du 23 mai 2023 ;
+VU les délibérations du Conseil d'Administration de la Bourse des Valeurs Mobilières de l'Afrique
+Centrale (BVMAC), en date du 28 mars 2024 autorisant le Directeur Général à soumettre le présent
+Règlement Général à l'approbation de la COSUMAF ;
+VU la DECISION COSUMAF N021-2025 Portant Approbation du Règlement Général de la Bourse
+des Valeurs Mobilières de l'Afrique Centrale (BVMAC) ;
+VU la Décision CA/24-04-2025/005 du Conseil d'Administration de I Bourse des Valeurs Mobilières
+de l'Afrique Centrale ;
+En session du 24 avril 2025
+ADOPTE LE REGLEMENT GENERAL DO
+LA TENEUR SUIT :
+BVMAC
+2
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+E.P. 442 Douala - CAMEROUN
+Tét +237 233 43 as / +231233 43 35 u
+Ernail: info'bvrn-acor / Web www bvrnac,o
+=== page 3 ===
+TABLE DES MATIERES
+5
+TITRE 1 : DISPOSITIONS GENERALES
+6
+TITRE 11 : ACTEURS ET STRUCTURES DE GESTION DU MARCHE
+6
+CHAPITRE 1 : ENTREPRISE DE MARCHE
+7
+CHAPITRE 2 : MEMBRES DE MARCHE
+Section I : Sociétés de Bourse
+Sous-section I : De /a qualité de membre
+Sous-section 2 : De l'accès au système de cotation de BVMAC
+Sous-section 3 : De /a déontologie des activités de négociation
+Sous-section 4 : Du contrôle des opérations de négociation et de dénouement des transactions
+10
+des Sociétés de Bourse
+10
+Sous-section 5 : Régime disciplinaire des activités de négociation
+Section : Association Professionnelle des Sociétés de Bourse
+.11
+Section 111 : Renonciation — Suspension — Retrait de la qualité de membre
+11
+TITRE 111 : REGLES RELATIVES A L'ADMISSION A LA COTE DES INSTRUMENTS FINANCIERS, A LEUR
+13
+SEJOUR ET A LEUR RADIATION
+13
+CHAPITRE 1 : MARCHES DE TITRES DE LA BOURSE DES VALEURS
+13
+Section I : Cote Permanente
+Section II : Marché du Non-Coté
+15
+CHAPITRE 2 : MODALITES D'ADMISSION DES VALEURS A LA COTE PERMANENTE
+15
+Section Z ; Dispositions Communes
+Section II : Admission des titres de capita/ à la Cote Permanente (Marché Actions) .17
+Sous-section 1 : Compartiment A — Premium » / Grandes Entreprises
+Sous-section 2 : Compartiment « B — Medium » ..
+.18
+Sous-section 3 : Compattiment se E — PME » / Petites et Moyennes Entreprises
+18
+Sous-section 4 : Compartiment des Organismes de Placement Collectif ee D — OPC »
+Section III : Admission des titres de Dette ou de Créance à la Cote Permanente
+19
+21
+CHAPITRE 3 : PROCEDURES D'INTRODUCTION DES VALEURS A LA COTE
+21
+Section I : Procédure de diffusion des instrumen& financiers dans le public
+Section : Dispositions communes aux procédures de première cotation
+21
+Sous-section 1 : Dispositions particulières : Offre à Prix Ferme (OPF), Offre à Prix Minima/ (OPM),
+Offre à Prix Ouvert (OPO)
+CHAPITRE 4 : OBLIGATIONS DES ÉMETTEURS PENDANT LE SÉJOUR DE LEURS
+INSTRUMENTS FINANCIERS À LA COTE ET LES MODALITÉS DE LEUR RADIATION
+24
+Section r : Obligations des émetteurs pendant le séjour de leurs instruments
+financiers à fa Cote
+24
+Section : Modalités de radiation des instruments financiers de la Cote.
+.24
+TITRE IV : REGLES RELATIVES AU FONCTIONNEMENT DU MARCHE
+26
+26
+CHAPITRE 1 : NEGOCIATION DES VALEURS
+Section r : Organisation des séances de cotation
+3
+.26
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+S.P. 442 Douala - CAMEROUN
+Tét +237 233 43 233 43 85 u
+Email: / Web wwwbwn at
+=== page 4 ===
+Section IV : Conditions relatives à l'exécution des ordres de bourse
+31
+Section V.' Cours de Bourse et statistiques de transaction
+32
+Section VI - Annulation des négociations
+33
+CHAPITRE 3 : INFORMATIONS DE MARCHÉ
+33
+Section r : Informations aux donneurs d'ordres
+33
+Section II : Informations permanentes et le franchissement de seuil
+33
+Sous-section 1 : Informations permanentes
+33
+Section II : Animation de marché ..
+.28
+Section XII : Opérations sur Titres (OST)
+28
+CHAPITRE 2 : ORDRES DE BOURSE
+30
+Section 1 : Transmission des ordres de bourse.
+..30
+Section II : Libellé des ordres de bourse
+30
+35
+Section : Validité des ordres
+31
+Sous-section 2 : Franchissement de seuil
+Section : Indices boursiers
+34
+34
+CHAPITRE 4 : MODALITÉS DE NÉGOCIATION SPÉCIFIQUES AUX TITRES DE CRÉANCE
+ET LIGNES SECONDAIRES
+35
+Section r : Négociation des Titres de Créance
+Section II : Négociation des Lignes secondaires
+35
+CHAPITRE 5 : CONTROLE DES OPERATIONS DE NEGOCIATION ET DE DENOUEMENT
+DES TRANSACTIONS
+35
+TITRE V : NEGOCIATIONS PARTICULIERES SUR LE MARCHE BOURSIER
+37
+CHAPITRE 1 : OFFRES PUBLIQUES VISEES PAR LA COSUMAF
+37
+Section r : Règles Générales
+37
+Section XX : Offres Publiques de Vente.
+CHAPITRE 2 : NÉGOCIATIONS CONTRÔLÉES
+Section I : Opérations de contrepartie
+Sous-section 1 : Contrepartie ordinaire ...
+39
+39
+39
+Sous-section 2 : Contrepartie en régu/arisation de marché.
+39
+Section II : Transactions sur dossier
+39
+Section III : Défaut et rachat d'office
+41
+TITRE V1 : TARIFICATION DES SERVICES
+42
+TITRE VII : DISPOSITIONS FINALES
+42
+4
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+Tét +237 233 43 as +237 233 u
+Ernall: / Web www.bwn at.•r
+=== page 5 ===
+TITRE 1 : DISPOSITIONS GENERALES
+Article 1 — La Bourse des Valeurs Mobilières de l'Afrique Centrale, ci-après BVMAC » ou « Bourse
+Régionale », établit son Règlement Général qui est soumis, avant son application, à l'approbation préalable
+de la Commission de Surveillance du Marché Financier de l'Afrique Centrale, ci-après la COSUMAF
+conformément aux dispositions de l'article 101 du Règlement N001/22/CEMAC/UMAC/CM/COSUMAF du 21
+juillet 2022.
+Article 2 — Le Règlement Général de la BVMAC fixe les conditions d'admission des membres et les règles
+de fonctionnement du marché boursier applicables, aux intermédiaires de marché, aux émetteurs d'actifs
+financiers et aux autres membres de marché, conformément aux dispositions des articles 112 à 117 du
+Règlement NO 01/22/CEMAC/UMAC/CM, 544 à 547 et 558 à 571 du Règlement Général de la COSUMAF.
+Article 3 — La Bourse Régionale modifie son Règlement Général de sa propre initiative. L'autorisation
+préalable de la COSUMAF est requise. Ces modifications devront être intégrées au présent texte, et portées
+à la connaissance du public par voie de publication notamment sur le site Internet de la BVMAC et dans
+le Bulletin Officiel de la Cote (BOC).
+Article 4 Afin de préciser ou interpréter les dispositions de son Règlement Général qui se rapportent
+aux règles de marché, de l'organisation et de fonctionnement de l'Entreprise de Marché, la BVMAC prend
+des Instructions, Avis et Circulaires qui sont publiés dans le Bulletin Officiel de la Cote.
+Les Instructions
+Elles désignent un texte qui précise les modalités d'application des dispositions relatives aux opérations et
+aux mesures d'ordre général. Elles sont publiées dans le Bulletin Officiel de la Cote et sur les pages sociales
+et le Site Internet de la Bourse.
+Les Avis
+Ils informent sur les conditions d'application des dispositions du Règlement Général et des Instructions
+concernant une opération spécifique. Ils sont publiés dans le Bulletin Officiel de la Cote et sur les pages
+sociales et le Site Internet de la Bourse.
+Les Circulaires
+Elles s'appliquent à des décisions qui concernent un groupe d'acteurs déterminés. Elles ne sont pas
+rendues publiques.
+Les décisions prises par la BVMAC, lorsqu'elles concernent les règles de négociation, sont publiées sous
+forme de Règlement de Parquet.
+Les Instructions, les règles de fonctionnement et autres règles de marché établies par la BVMAC sont
+soumises à l'approbation préalable de la COSUMAF.
+Article 5 — Les décisions prises par l'Entreprise de Marché, de son propre ressort, qu'elles concernent la
+situation des Membres de marché, l'organisation des négociations, ou qu'elles soient relatives aux
+agissements de toute entité, sont exécutoires dès qu'elles ont été portées à la connaissance du public ou
+des intéressés, à moins qu'un délai de carence ait été précisé.
+Les décisions visées au présent article font l'objet d'une information préalable de la COSUMAF.
+Article 6 — La BVMAC met tout en ceuvre pour garantir en toutes circonstances le bon fonctionnement de
+la plateforme de négociation dans les conditions de paffaite sécurité. En cas de défaillance ou de
+dysfonctionnement, la responsabilité de la BVMAC ne pourra être engagée qu'en l'absence de faute
+commise par un membre ou intervenant dans l'utilisation des équipements.
+BVMAC
+Immeuble de la Bourse
+5
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+Tél +237
+Email' inf•Obvm ac.or / Web www bwn
+=== page 6 ===
+TITRE 11 : ACTEURS ET STRUCTURES DE GESTION DU MARCHE
+CHAPITRE 1 : ENTREPRISE DE MARCHE
+Article 7 — L'Entreprise de Marché, dénommée Bourse des Valeurs Mobilières de l'Afrique Centrale
+(BVMAC), assure l'animation et la gestion courante du Marché Financier Régional. Elle est une société
+anonyme avec Conseil d'Administration, constituée à l'effet de remplir à titre exclusif, la mission de service
+public d'organisation, d'animation et de gestion du marché financier de l'Afrique Centrale.
+Dans le cadre de ses fonctions, l'Entreprise de marché fixe les règles d'admission à la Cote, gère les
+plateformes de cotation et assure la promotion du marché auprès des investisseurs et des émetteurs.
+La BVMAC est dotée de prérogatives élargies en vue d'assurer le bon fonctionnement du Marché Financier
+Régional.
+Article 8 — La Bourse Régionale impose à ses membres des obligations de tenue de marché, en vertu des
+dispositions de l'article 118 du Règlement no 01/22/CEMAC/UMAC/CM/COSUMAF. Une Instruction précise
+l'étendue et les modalités de mise en oeuvre desdites obligations.
+Article 9 — La BVMAC rend publiques ses décisions d'admission d'un instrument financier.
+Article IO La BVMAC publie un Bulletin quotidien dénommé "Bulletin Officiel de la Cote" en abrégé
+'BOC". Ce Bulletin doit comporter notamment, les informations visées aux alinéas 6 & 7 de l'article 117
+du Règlement n001/22/CEMAC/UMAC/CM/COSUMAF, au paragraphe 3 de l'article 558 Règlement Général
+de la COSUMAF du 23 mai 2023, à l'alinéa 3 de l'article 562 et à l'article 565 du même Règlement Général.
+Article 11 — La BVMAC assure la plus stricte égalité d'accès à l'information publiée par ses soins aux
+investisseurs, aux épargnants, aux émetteurs, aux intermédiaires, aux autres professionnels et plus
+généralement au public.
+Article 12 — La BVMAC veille à la transparence, à l'équité et au caractère non discriminatoire de ses
+structures tarifaires, y compris les frais d'exécution, les frais accessoires et les rabais éventuels,
+Article 13 — Chaque intermédiaire en bourse désigne un responsable des négociateurs qui est le contact
+permanent vis-à-vis de la Bourse et des autres intermédiaires pour toutes les transactions effectuées sur
+le système de cotation électronique.
+Article 14 — La cotation des valeurs mobilières inscrites à la cote de la Bourse Régionale est assurée de
+manière électronique.
+La cotation électronique peut se faire selon l'un des modes ci-après :
+• le Fixing : la cotation au fixing se traduit par la confrontation de tous les ordres préalablement
+introduits par les sociétés de bourse dans le système de cotation électronique et, le cas échéant, par
+détermination d'un cours unique pour chaque valeur ;
+• le Continu : la cotation en continu se traduit par la confrontation de tous les ordres au fur et mesure
+de leur prise en charge par le système de cotation électronique, et le cas échéant, par la
+détermination d'un cours instantané pour chaque valeur.
+La BVMAC peut assurer simultanément, ces deux modes de cotation électronique, Dans ce cas, la
+répartition des valeurs entre chaque mode de cotation s'effectue selon des critères de liquidité qu'elle
+détermine par voix d'Instruction sur la base du
+• volume de transactions ;
+• nombre de titres traités ;
+• nombre de séances où la valeur a été traitée ;
+• du nombre de contrats de liquidité enregistrés.
+6
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+4237 23343 as +237 233 43 as u
+info'ivrn•ator / Web www bwn•ac.t'
+=== page 7 ===
+La répartition des valeurs entre chaque mode de cotation est révisée périodiquement et publiée dans le
+Bulletin Officiel de la Cote.
+La BVMAC arrête le mode de cotation des titres lors de leur première introduction ou admission à la Cote.
+Article 15 — La BVMAC exerce ses activités avec équité, diligence, impartialité et loyauté. Elle veille à la
+prévention des conflits d'intérêts et à l'intégrité du marché.
+Article 16 — La Bourse s'assure que les personnes placées sous sa propre autorité ou agissant pour son
+compte, respectent leurs obligations professionnelles.
+Article 17 — L'organisation et la gestion de la BVMAC prévoit le déploiement à terme des Antennes
+Nationales agissant en réseau avec de le Site Central basé à Douala en République du Cameroun.
+La gestion des ruptures éventuelles dans la transmission d'informations et des ordres entre le Site Central
+et les Antennes Nationales, est assurée par la Bourse Régionale.
+Elle détermine, pour ce faire, par une Instruction, les décisions et alternatives qui sfimposent au marché
+dans ces circonstances.
+La Bourse Régionale détermine et adopte les structures juridiques, humaines et techniques, qui lui
+permettent de veiller au mieux aux intérêts de toutes les parties impliquées dans le marché boursier et de
+respecter l'intégrité du marché.
+CHAPITRE 2 : MEMBRES DE MARCHE
+Section I : Sociétés de Bourse
+Sous-section 1 : De la qualité de membre
+Article 18 — La qualité de Membre de l'Entreprise de Marché est acquise à toute Société de Bourse agréée
+par la COSUMAF et ayant accompli toutes les formalités d'adhésion à la Bourse Régionale. Ces formalités
+renvoient notamment à la souscription au capital, à l'adhésion à la plateforme de cotation et à
+l'acquittement de la redevance de siège.
+Article 19 — L'agrément des Sociétés de Bourse relève de l'autorité de la COSUMAF, qui sollicite au
+préalable l'avis technique de la BVMAC.
+Article 20 — La qualité de membre de l'Entreprise de Marché n'est acquise que si toutes les conditions
+suivantes sont réunies :
+(i) Approbation par la BVMAC de la demande d'admission en qualité de membre de la Bourse, dès
+vérification faite que le candidat membre a satisfait à toutes les conditions suspensives notamment
+celles prévues à l'article 23 du présent Règlement Général, auxquelles cette approbation peut avoir
+été subordonnée ;
+(ii) Résultats satisfaisants de l'audit du système informatique du candidat membre, audit qui aura, le
+cas échéant, été effectué par ou pour le compte de la BVMAC ; ou preuve que le candidat membre
+a pris des mesures jugées satisfaisantes par la BVMAC pour remédier à tout défaut de son système
+informatique que cet audit peut avoir révélé ;
+(iii) Réception par la BVMAC des exemplaires originaux du Contrats d'Admission et de la Convention
+d'Accès aux Services, dûment signés par le candidat membre.
+Article 21 — Lorsqu'une Société de Bourse a été dûment agréée, la BVMAC lui affecte un numéro
+d'identification unique pour l'ensemble de ses opérations. Ce numéro est le même que celui que le
+Dépositaire Central lui aura attribué dans le cadre de ses prérogatives.
+7
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+a.P. 442 Douala - CAMEROUN
++237 43 U / 85 u
+Erna'l• Web wvwbwn
+=== page 8 ===
+Article 22 — La Société de Bourse s'engage à respecter l'ensemble des dispositions du présent Règlement
+Général et des textes subséquents de la Bourse Régionale.
+Article 23 — Si le Membre n'a pas commencé à exercer son activité de négociation dans un délai de (12)
+douze mois à compter de la notification de la décision relative à son agrément, la BVMAC peut demander
+à la COSUMAF la révocation de la décision d'agrément à la qualité de Société de Bourse.
+Si le membre n'a foumi aucune activité de négociation pendant une période de six mois, la BVMAC peut
+demander à la COSUMAF la révocation de la décision d'agrément à la qualité de Société de Bourse.
+Sous-section 2 : De l'accès au système de cotation de BVMAC
+Article 24 — Les Sociétés de Bourse disposent du monopole des négociations à la BVMAC, en vertu des
+dispositions de l'article 162 du Règlement N001/22/CEMAC/UMAC du 21 juillet 2022.
+Article 25 — Préalablement à l'accès au système de cotation, toute Société de Bourse agréée doit
+communiquer à la Bourse Régionale les documents suivants :
+une copie de ses statuts ou le cas échéant, une copie du procès-verbal de son Assemblée Générale
+constitutive ;
+une copie du procès-verbal de la réunion de ses organes sociaux comportant leur résolution relative
+à la désignation des mandataires sociaux et précisant leurs pouvoirs ;
+un document précisant le montant et la répartition de son capital social ;
+la liste de ses salariés habilités par la COSUMAF à exercer la fonction de négociateurs d'instruments
+financiers ;
+l'Attestation de son adhésion à l'Association professionnelle des Sociétés de Bourse ;
+son Organigramme ;
+une copie de la décision portant agrément de la COSUMAF ;
+une attestation d'admission aux mécanismes du Dépositaire Central (DC) ;
+un document précisant la date sollicitée pour son accès au système de cotation.
+La Société de Bourse s'engage à informer immédiatement la Bourse Régionale de toute modification
+relative aux informations communiquées préalablement à l'accès au système de cotation.
+Article 26 — La Bourse Régionale met à la disposition des Sociétés de Bourse un système de cotation
+permettant la négociation des instruments financiers.
+L'accès de la Société de Bourse au système de cotation fait l'objet d'une Convention entre les deux parties
+qui définit notamment, les conditions d'utilisation des services fournis par la Bourse Régionale
+conformément à la législation et la réglementation en vigueur.
+Article 27 -- Toute Société de Bourse peut sous sa responsabilité et après accord préalable de la BVMAC,
+permettre à ses clients, la transmission directe de leurs ordres, via le système de transmission d'ordres de
+ladite Société de Bourse, vers le système de cotation dans les conditions et suivant les modalités fixées
+dans une Convention établie à cet effet entre la BVMAC et la Société de Bourse.
+Avant dfintroduire un ordre dans le carnet d'ordres central, la Société de Bourse s'assure que :
+l'ordre, s'il émane d'un client, est bien conforme aux stipulations du Donneur d'ordre ;
+l'ordre ne présente pas de risque pour l'intégrité et la sécurité du Marché, notamment l'absence de
+provision titre ou espèces.
+Une copie de la convention visée au présent article est communiquée sans délai à la COSUMAF.
+Article 28 — La Bourse Régionale peut suspendre temporairement les moyens d'accès à distance de toute
+Société de Bourse au système de cotation lorsque ledit accès ne s'effectue pas conformément aux
+BVMAC
+Immeuble de la Bourse
+8
+1450. Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+233 0 85 u
+Email' / Web' www
+=== page 9 ===
+dispositions du présent Règlement Général, et aux stipulations de la Convention visée à l'article 27 ci-
+dessus et ce, jusqu'à la date de régularisation de la situation.
+Article 29 — La BVMAC tient, en toutes circonstances, dans ses locaux, à la disposition de ses membres,
+des stations de négociation de secours permettant l'accès à son système de cotation et la passation des
+ordres.
+Lorsque la Société de Bourse n'est plus en mesure d'accéder au système de cotation pour des raisons
+techniques indépendantes de sa volonté, elle peut utiliser les stations de négociation de secours que la
+BVMAC met à sa disposition dans ses locaux, dans la limite de leur disponibilité.
+Dans le cas où plusieurs Sociétés de Bourse se trouvent privées d'accès au système de cotation, pour les
+raisons techniques visées au précèdent paragraphe ci-dessus, la Bourse Régionale peut,
+exceptionnellement, suspendre la séance de négociations ou modifier les horaires de cotation dans Ifintérêt
+du marché. Elle en informe immédiatement les Sociétés de Bourse et la COSUMAF.
+Sous-section 3 : De la déontologie des activités de négociation
+Article 30 — Les Sociétés de Bourse exercent leur activité de manière indépendante les unes par rapport
+aux autres, mais dans un esprit de collaboration mutuelle. Elles doivent être mues par le souci permanent
+de défendre l'honorabilité de leur profession et de respecter les règles professionnelles et principes
+déontologiques fixés par la COSUMAF et le présent Règlement Général.
+Article 31 — Les Sociétés de Bourse s'abstiennent en particulier, de tout acte ou comportement
+susceptible de jeter le discrédit sur les membres de marché, leur profession ou de porter atteinte à leur
+respectabilité. Elles sinterdisent en outre d'user de quelque pratique ou méthode que ce soit qui puisse
+être assimilée à du harcèlement vis-à-vis des investisseurs.
+Article 32 — A quelque titre qu'elles interviennent, les sociétés de bourse agissent avec sérieux,
+professionnalisme, intégrité et dévouement ; elles assurent en toute circonstance, la primauté des intérêts
+de leurs clients.
+Tout intermédiaire de marché ayant groupé des transactions pour compte propre avec un ou plusieurs
+ordres de clients s'abstient de répartir les opérations correspondantes d'une manière qui soit préjudiciable
+à un client.
+Article 33 — Les conventions que les Sociétés de Bourse passent avec leurs clients sont libres. Toute
+convention visant à conférer à une Société de Bourse une quelconque exclusivité relativement à un client,
+ainsi que toute convention portant renonciation d'un client au droit de recourir aux services d'une autre
+Société de Bourse, est réputée non écrite.
+Article 34 — Une Société de Bourse est habilitée à intervenir sur le Marché Boursier pour son compte
+propre, dans le respect des conditions fixées par la COSUMAF et la BVMAC.
+Article 35 — Les personnes, agissant à quelque titre que ce soit, pour le compte d'une Société de Bourse
+ne peuvent effectuer d'opérations de Bourse pour leur propre compte, que par le biais de comptes de
+Valeurs domiciliés dans cette Société de Bourse. Les opérations réalisées par ces personnes ne peuvent
+en aucun cas être conclues ou dénouées à des conditions privilégiées par rapport à celles dont bénéficie
+la clientèle de la Société de Bourse.
+Article 36 — Chaque Société de Bourse est tenue au paiement de toute contribution qui pourra lui être
+réclamée aux fins notamment, de constitution du Fonds de Garantie du Marché Financier Régional.
+9
+BVMAC
+Immeuble de la Bourse
+"SO, Boulevard de la Liberté
+44è Douala CAMEROUN
+tiè
+=== page 10 ===
+Sous-section 4 : Du contrôle des opérations de négociation et de dénouement des
+transactions des Sociétés de Bourse
+Article 37 — Conformément aux dispositions de l'article 117 du Règlement n001/22/CEMAC du 21 juillet
+2022, la Bourse Régionale contrôle les Sociétés de Bourse dans l'exercice de leur activité de négociation.
+Elle enregistre les négociations entre Sociétés de Bourse et transmet les données y afférentes au
+Dépositaire Central, en vue d'assurer la livraison des titres et le paiement du prix.
+Ce faisant, la Bourse Régionale veille, dès réception des ordres jusqu'au dénouement des transactions, au
+contrôle notamment :
+I.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+de la réalité des ordres ;
+de Ihorodatage des ordres ;
+de la non compensation ou non globalisation des ordres d'achat et de vente de valeurs mobilières
+ou d'un instrument financier coté, sauf dans les cas expressément autorisés par Avis de la Bourse
+ou dans les cas où la Société de Bourse produit un ordre unique pour le compte de plusieurs clients
+gérés sous-mandat, sous réserve que l'affectation des négociations correspondantes se fasse entre
+ces clients selon des modalités de répartition fixées préalablement à la saisie de l'ordre ;
+la transmission des ordres avec diligence ;
+du respect des règles d'introduction des ordres dans le système de cotation prévues dans le présent
+Règlement Général ;
+du respect des règles de bonne conduite des Sociétés de Bourse au cours des séances de bourse ;
+du respect des règles d'utilisation du système de cotation ;
+des positions prises par les Sociétés de Bourse ;
+du processus de livraison des titres et règlement des espèces.
+La Bourse Régionale peut demander aux Sociétés de Bourse à tout moment des explications et des
+justifications relatives aux ordres introduits dans le système de cotation.
+La BVMAC peut demander aux Sociétés de Bourse de lui communiquer tout document ou information
+nécessaires lui permettant de contrôler les éléments précités, et en particulier d'évaluer les risques
+inhérents aux positions prises afin d'effectuer les ajustements de fonds nécessaires à la garantie de bonne
+fin des opérations.
+La BVMAC peut demander aux Sociétés de Bourse de lui communiquer les documents et informations
+suivantes :
+la description des moyens techniques et organisationnels dédiés à la garantie de bonne fin des
+transactions ;
+l'organisation mise en place en particulier les domaines du contrôle interne et de back office ;
+toute information relative à la situation de ses risques généraux et financiers.
+Les modalités de transmission des documents précités sont fixées par Instruction.
+Sous-section 5 : Régime disciplinaire des activités de négociation
+Article 38 — Dès qu'elle a connaissance d'une situation contraire à lintérêt du Marché, la BVMAC peut
+prendre toute mesure propre à la faire cesser.
+La décision de la BVMAC s'analyse comme une mesure conservatoire, prise dans Ifintérêt du Marché. Une
+telle décision doit être motivée.
+Elle est notifiée immédiatement à la COSUMAF.
+Article 39 — La mesure provisoire de suspension prise par la BVMAC en vertu aux dispositions de l'article
+117 (alinéa 9) du Règlement n001/22/CEMAC du 21 juillet 2022, peut donner lieu à recours auprès d'une
+juridiction compétente.
+BVMAC
+Immeuble de la Bourse
+10
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+.237 23343 U u
+Frnail• infogbvrn / Web
+=== page 11 ===
+Article 40 — Dans l'hypothèse où une Société de Bourse admise aux opérations de la BVMAC fait l'objet
+d'une suspension ou d'une radiation, il revient à la BVMAC de prendre les dispositions et mesures qui
+s'imposent, eu égard à la situation créée par la sanction pronòncée, afin que Ifintégrité du marché soit
+préservée.
+Section II : Association Professionnelle des Sociétés de Bourse
+Article 41 — Il est constitué entre les Membres de Marché, une Association dénommée Association
+Professionnelle des Sociétés de Bourse. Les Sociétés de Bourse agréées par la COSUMAF sont tenues
+d'adhérer à l'Association Professionnelle ainsi constituée.
+Le code de bonne conduite établi par l'association professionnelle des sociétés de bourse doit être
+approuvé par la COSUMAF.
+Article 42 — Les missions dévolues à cette Association sont les suivantes :
+o veiller à l'observation par ses membres de leurs obligations professionnelles et au respect par eux
+de la réglementation du marché financier régional ;
+o informer la COSUMAF de tout manquement relevé dans l'exercice de leurs fonctions ;
+o représenter les Membres dans le cadre de toute concertation réunion ou manifestation de Place où
+la présence des acteurs et des responsables de l'organisation et du fonctionnement du marché
+financier serait requise ;
+o veiller à leurs intérêts et d'assurer la défense de leurs droits ;
+o intervenir en qualité de médiateur dans les litiges que les Membres peuvent avoir entre elles ou avec
+la Bourse Régionale ;
+o élaborer un code de bonne conduite destiné à s'appliquer aux intermédiaires de marché.
+L'Association Professionnelle peut être consultée par la BVMAC et la COSUMAF, sur toute question
+intéressant la profession de ses membres. Les statuts de l'Association doivent être approuvés par la
+COSUMAF.
+Section III : Renonciation — Suspension — Retrait de la qualité de membre
+Article 43 — Un Membre peut renoncer à sa qualité de Membre du Marché à tout moment en donnant à
+la BVMAC un préavis d'au moins trente (30) jours par lettre recommandée. Une copie de cette lettre de
+préavis est adressée à la COSUMAF.
+Article 44 — Tous les montants dus par un Membre de la BVMAC deviennent immédiatement exigibles à
+compter de la notification de sa renonciation. Toutes les obligations de ce dernier en sa qualité de Membre
+doivent être entièrement exécutées.
+Article 45 — Le Membre doit restituer à la BVMAC tout matériel qui aurait été mis à sa disposition par la
+BVMAC.
+Article 46 — La renonciation d'un Membre prend effet à compter de la date précisée dans une lettre
+adressée par la BVMAC à ce membre. Une copie de cette lettre est adressée à la COSUMAF.
+Article 47 — Sans préjudice des pouvoirs de sanction de la COSUMAF, en cas de manquement aux
+obligations prescrites par ses textes, la BVMAC peut, sous le contrôle de la COSUMAF et conformément
+aux dispositions de l'article 545 du Règlement Général de la COSUMAF, appliquer des sanctions,
+notamment à titre conservatoire, à l'encontre d'une société de bourse.
+BVMAC
+Immeuble de la Bourse
+11
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+rit 6237 43 u
+tnf06bvm at. 0' / Wei www ban
+=== page 12 ===
+Article 48 — Tous les montants ordinairement dus par les Membres à la BVMAC continuent d'être dus et
+payables à l'égard de la BVMAC durant toute période de suspension, sans aucun droit à un crédit ou à un
+remboursement.
+Article 49 — Sans préjudice de toutes causes de retrait administratif, la qualité de Membre du Marché
+prend automatiquement fin dans chacune des circonstances suivantes :
+retrait d'agrément à une Société de bourse ;
+la dissolution et l'ouverture d'une procédure de liquidation des biens du membre personne morale
+ou groupement ;
+la décision motivée de la BVMAC.
+12
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+Tét +237 233 43 4237 233
+Erna/' / Web:
+=== page 13 ===
+TITRE 111 : REGLES RELATIVES A L'ADMISSION A LA COTE DES
+INSTRUMENTS FINANCIERS, A LEUR SEJOUR ET A LEUR
+RADIATION
+CHAPITRE 1 : MARCHES DE TITRES DE LA BOURSE DES VALEURS
+Article 50 — La Bourse Régionale des Valeurs Mobilières est organisée autour d'un Marché Officiel appelé
+la Cote Permanente, et d'un Marché de gré à gré dédié aux négociations des instruments financiers non
+cotés, appelé le Marché Hors-Cote.
+Section I : Cote Permanente
+Article 51 — La Cote Permanente comprend cinq Compartiments : « A— Premium « B — Medium « E
+— PME », « D— OPC » et « C— Obligataire »,
+(i) Le Compartiment A — Premium » est réservé à la négociation des titres de capital des sociétés
+anonymes qui répondent aux critères d'ouverture au public, de taille, de performance, de liquidité
+et de transparence visés à l'article 74 du présent Règlement Général et dont la demande d'inscription
+a recueilli les avis favorables du Comité d'Admission de la BVMAC.
+(ii) Le Compartiment « B — Medium » est ouvert à la négociation des titres de capital des sociétés
+anonymes dont la qualité de l'information, la taille et/ou la diffusion du capital, ne leur permettent
+pas d'accéder au « Compartiment A mais répondent aux critères de transparence, de liquidité et
+de performance visés à l'article 77 du présent Règlement Général.
+(iii) Le Compartiment E — PME » est ouvert à la négociation des titres de capital des petites ou
+moyennes entreprises, dont la qualité de l'information, la taille et/ou la diffusion du capital, ne leur
+permettent pas d'accéder au compartiment « Medium », mais répondent aux critères de
+transparence, de liquidité et de performance visés à l'article 80 du présent Règlement Général.
+(iv) Le Compartiment « D — OPC » est destiné à la négociation des titres émis par des Organismes de
+Placement Collectifs (OPC), ayant reçus l'approbation de la COSUMAF et l'avis conforme du Comité
+d'Admission de la BVMAC.
+(v) Le Compartiment « C— Obligataire » est réservé à la négociation des titres de créance émis par les
+sociétés, les Etats et leurs démembrements, ou toute autre personne morale ayant reçu
+l'approbation de la COSUMAF (visa, enregistrement) d'émettre des titres de créances, et dont la
+demande d'inscription a recueilli l'avis favorable du Comité d'Admission de la Bourse Régionale.
+La BVMAC peut créer des Compartiments supplémentaires ou modifier les Compartiments existants après
+autorisation préalable de la COSUMAF, au regard notamment de l'un ou plusieurs des critères suivants :
+0
+0
+la capitalisation des instruments financiers ;
+la catégorie des instruments financiers ;
+la catégorie des investisseurs ;
+les capitaux propres de l'émetteur ;
+le chiffre d'affaires de l'émetteur ;
+le nombre d'exercices certifiés ;
+le nombre minimum d'instruments financiers diffusés dans le public ;
+le montant minimum des instruments financiers diffusés dans le public ;
+le secteur d'activité et la localisation géographique de l'émetteur.
+13
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+9237 233 B / +237 23343 u
+Erna•l / Web: wwwbwn acor
+=== page 14 ===
+Article 52 — Chaque Compartiment a ses propres règles d'organisation concernant notamment les
+engagements pris par les émetteurs et la variation des cours. En revanche, les principes de cotation, de
+diffusion et de dénouement des transactions sont communs à tous les compartiments.
+Article 53 — Peuvent être admis en négociation sur le Marché Officiel de la BVMAC, les titres financiers
+ci-après, visés à l'article 6 du Règlement CEMAC N001/22 du 21 juillet 2022 :
+o les valeurs mobilières, entendues comme les titres de capital et de créances émis par les sociétés
+par actions, les personnes morales de droit public, les organismes de placement collectifs ;
+o les obligations du Trésor émis par un Etat membre de la CEMAC ou un démembrement dudit Etat ;
+o les actions ou parts émises par les organismes de placement collectif agréés par la COSUMAF ;
+o les Sukuks, qui sont des titres financiers islamiques, équivalent à une obligation ordinaire et soumis
+aux préceptes religieux de la Charia ;
+o tout autre titre ou instrument financier autorisé par la COSUMAF.
+L'admission à la Cote Permanente est autorisée par le Comité d'Admission de la BVMAC par délégation de
+pouvoirs reçue du Conseil d'Administration.
+Article 54 — Toute transaction portant sur une ou plusieurs valeurs que la BVMAC admet à la négociation
+doit, pour être valablement conclue et sous peine de nullité, être exécutée sur la plateforme de la BVMAC.
+Section II : Marché du Non-Coté
+Article 55 — La BVMAC peut organiser des transactions portant sur des valeurs non-inscrites à l'un
+quelconque des Compartiments de la Cote Permanente. Dans ce cas, les transactions se déroulent dans
+des conditions d'organisation particulières en marge du Marché Officiel.
+Article 56 — Peuvent être échangés sur le Marché du Non-Coté :
+o les effets publics négociables issus de la titrisation de la dette intérieure d'un ou de plusieurs Etats
+de la CEMAC ;
+o les titres de créances négociables (TCN) émis sur le Guichet de la BEAC ;
+o les titres de capital et de créance de toute société anonyme non admis à l'un quelconque des
+compartiments de la Cote Permanente de la Bourse (Private Equity) ;
+o les titres de sociétés non cotées faisant l'objet de vente judiciaire ou d'exécution en bourse pour
+défaut de libération ou pour « non-présentation » consécutivement à une opération de
+dématérialisation légale.
+Article 57 — Selon le cas, la demande d'une offre concernant une valeur donnée peut être initiée par :
+o une Collectivité émettrice dont les titres ne sont pas inscrits à un Compartiment quelconque de la
+Cote Permanente ;
+o un Investisseur porteur de titres non-inscrits à un Compartiment quelconque de la Cote Permanente,
+qui souhaite céder ses titres à des acquéreurs potentiels.
+Article 58 — Sur le Marché du Non-Coté, les échanges sont effectués selon l'un des mécanismes suivants,
+au libre choix de Ifinitiateur et selon les termes contractuellement fixés avec son intermédiaire :
+i) par confrontation multilatérale dans un Carnet d'Ordres Central ; ou
+ii) par confrontation bilatérale avec les intérêts d'une contrepartie identifiée.
+Article 59 — Les transactions effectuées par confrontation bilatérale sont réputées effectuées lorsque sont
+appariées linstruction d'achat et Ifinstruction de vente correspondante.
+Les modalités d'organisation des transactions portant sur les valeurs non inscrites à la Cote sont précisées
+dans une Instruction de la Bourse.
+14
+B VMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+233 43 as +237 2334) '5 u
+hifo@bwn-ar orr / Web'. www bvm•acnt
+=== page 15 ===
+CHAPITRE 2 : MODALITES D'ADMISSION DES VALEURS A LA COTE
+PERMANENTE
+Section I : Dispositions Communes
+Article 60 — L'Admission d'instruments financiers aux négociations sur un marché réglementé est décidée
+par l'Entreprise de Marché, en vertu des dispositions de l'article 117 du Règlement n001/22/CEMAC du 21
+juillet 2022 et aux règles du marché. Elle fait l'objet d'une demande adressée à la BVMAC par l'émetteur
+requérant ou par son ou ses mandataires habilités à cet effet.
+Article 61 — La demande d'admission visée à l'article 60 du présent Règlement Général doit être
+accompagnée d'un dossier comprenant les documents suivants :
+0
+0
+les procès-verbaux des organes délibérants de l'émetteur contenant la décision en vue de
+l'admission de ses instruments financiers, et fixant les modalités de sa réalisation ;
+le projet de document dfinformation prévu par l'article 80 du Règlement n001/22/CEMAC du 21
+juillet 2022 ;
+le projet de convention à conclure entre l'émetteur et les membres du syndicat de placement, le
+cas échéant ;
+l'attestation d'admission des titres financiers aux opérations du Dépositaire Central ;
+la copie conforme des statuts ;
+la liste des actionnaires ou porteurs de parts ou associés ainsi que la répartition du capital social
+et des droits de vote ou de l'actif des entités concernés ;
+l'extrait du document d'immatriculation au Registre du Commerce et du Crédit Mobilier (RCCM) ou
+tout document équivalent ;
+la lettre de désignation du ou des mandataires de l'émetteur, le cas échéant ;
+le projet de calendrier d'inscription des titres concernés par la demande d'admission ;
+la BVMAC peut exiger de l'émetteur qui demande l'inscription de ses titres à la Cote de la Bourse
+Régionale, la production de toute information nécessaire à l'instruction de l'opération d'admission.
+Article 62 — La BVMAC et le requérant arrêtent conjointement le calendrier pour l'admission à la Cote des
+titres financiers objet de la demande.
+Article 63 — Lfinscription de nouveaux titres de capital ou de créance d'un émetteur déjà inscrit à la Cote
+de la Bourse des Valeurs Mobilières est tributaire du respect par cet émetteur, des engagements prévus à
+l'article 64 du présent Règlement Général. Il doit en outre, mettre à jour les documents et informations
+de son dossier prévu à l'article 61 du présent Règlement.
+— L'émetteur qui demande l'admission de ses titres à la Cote de la Bourse, s'engage
+Article 64
+ultérieurement à :
+0
+faire parvenir à la BVMAC, le procès-verbal de chacune des assemblées générales ordinaires et
+extraordinaires des actionnaires ;
+expurger ses statuts de toute clause restrictive, susceptible d'entraver la libre circulation des titres
+émis ;
+produire en sus de ses états financiers individuels en normes SYSCOHADA ou selon le référentiel
+comptable spécifique à ses activités, des états financiers en normes internationales dlnformation
+financière (IFRS) afin de garantir la qualité et la comparabilité des données produites ;
+tenir informée la BVMAC, des modifications ultérieures apportées aux statuts, ainsi que les mesures
+prises par les instances de gouvernance de l'émetteur concernant ses titres ;
+15
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+*2.à7 233 u
+i"f.$bvrn or / Web www ban
+=== page 16 ===
+o
+prendre l'accord de la BVMAC en vue de fixer le calendrier d'émission et de souscription pour toute
+Opération sur Titres (OST) ;
+faire parvenir à la BVMAC, les états de synthèse annuels certifiés, ainsi que le rapport des
+commissaires aux comptes de chaque exercice social dès leur publication ;
+faire parvenir à la BVMAC tous les communiqués et publications diffusés par l'émetteur, ainsi que
+tout document d'information économique ou financier quil serait amené à publier ;
+faire parvenir à la BVMAC l'information relative aux modifications de son capital social •
+signer avec la BVMAC une convention de services.
+La BVMAC pourra, dans certaines conditions, dispenser un émetteur d'une des exigences ci-avant lorsque
+l'intérêt du marché le dicterait.
+Article 65 — La BVMAC s'assure que le dossier de la demande d'admission comprend tous les documents
+et informations requis et notamment à l'article 61 du présent Règlement, vérifie la régularité des conditions
+d'émission et de négociabilité des titres dont l'inscription à la Cote Permanente est demandée. Elle vérifie
+aussi les conditions dfinscription à l'un quelconque des compartiments de la Cote Permanente.
+La BVMAC procède à l'examen du dossier complet, et statue sur la demande d'admission dans un délai de
+dix (10) jours de Bourse à compter de la date de réception du dossier de la demande précitée.
+Toutefois, ce délai est suspendu lorsque la BVMAC demande au requérant un complément d'information
+et ce, jusqu'à la date de réception des documents et informations sollicitées.
+Article 66 — La décision d'admission des valeurs mobilières à la Cote Permanente est prise par le Comité
+d'Admissions statuant avec les prérogatives du Conseil d'Administration.
+Une copie de cette décision est, sans délai, adressée à la COSUMAF.
+Article 67 — La BVMAC prononce par Avis, l'admission des instruments financiers à l'un des compartiments
+de la Cote. Cet Avis précise notamment, les caractéristiques des instruments financiers, les modalités de
+leur diffusion ainsi que le calendrier de leur inscription à la Cote.
+Article 68 — En cas de refus de la demande d'admission, la BVMAC notifie sa décision au requérant par
+écrit. Une copie de cette décision est, sans délai, adressée à la COSUMAF par tout moyen approprié.
+Tout refus doit être motivé.
+Article 69 — Pour l'admission de nouveaux titres de capital ou de créance d'un Emetteur dont les titres
+sont déjà inscrits à la Cote de la Bourse Régionale, des mesures allégées peuvent être appliquées.
+Article 70 — La BVMAC informe par écrit, l'émetteur dont les titres sont admis à la Cote dans un de ses
+compartiments, des frais et commissions qu'elle applique aux opérations qui le concernent, ainsi que des
+conditions de leur acquittement.
+Article 71 — Sauf dérogation formelle de la BVMAC, les valeurs donnant accès aux titres de capital d'un
+émetteur ne peuvent être inscrites à la Cote Permanente que si les titres de capital auxquels elles se
+référent sont eux-mêmes inscrits à la Cote Permanente.
+Article 72 — La BVMAC fixe les conditions et modalités de cotation des titres nouvellement admis.
+Article 73 — Les titres d'emprunts des Etats de la CEMAC peuvent être admis à la cote dans les conditions
+fixées à l'article 88 du présent Règlement Général.
+16
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+R.P. 442 Douala - CAMEROUN
+'fax +237 233 43
+f •nfo$bvrn ut .Ot / Web' www.bvm er
+=== page 17 ===
+Section II : Admission des titres de capital à la Cote Permanente (Marché Actions)
+Sous-section 1 : Compartiment « A — Premium » / Grandes Entreprises
+Article 74 — Sont admissibles aux négociations sur le Compartiment « A — Premium » de la Cote
+Permanente, les titres de capital de toute société anonyme répondant aux conditions suivantes :
+Critères principaux :
+(1) Disposer d'un capital social minimum de FCFA cent millions (100 000 000) entièrement libéré ;
+(2) Présenter une capitalisation boursière à l'introduction égale ou supérieure à 10 milliards de FCFA
+(3) Diffuser dans le public au moins :
+0 200/0 du capital social si la capitalisation boursière lors de l'introduction est inférieure à 50 milliards
+FCFA ;
+0 15% du capital social si la capitalisation boursière lors de l'introduction est supérieure à 50 milliards
+et inférieure à 100 milliards FCFA ;
+0 100/0 du capital social si la capitalisation boursière lors de l'introduction est supérieure à 100
+milliards FCFA.
+(4) Diffuser dans le public un montant minimum de :
+0 5 milliards de FCFA si la capitalisation boursière à l'introduction est inférieure à 50 milliards FCFA ;
+0 8 milliards de FCFA si la capitalisation boursière à l'introduction est égale ou supérieure à 50 milliards
+de FCFA et inférieure à 100 milliards FCFA ;
+0 15 milliards de FCFA si la capitalisation boursière à l'introduction est supérieure à 100 milliards de
+FCFA.
+(5) Diffuser dans le public à Ifintroduction, un minimum de deux millions (2 000 000) de titres, répartis
+entre au moins deux cents (200) actionnaires.
+Critères de pencormance financière :
+o présenter des états financiers certifiés par deux commissaires aux comptes agréés, des trois
+derniers exercices précédant la date de dépôt de la demande d'admission à la Cote, établis
+conformément aux normes comptables en vigueur et aux normes IFRS ;
+o avoir un chiffre d'affaires supérieur à quinze (15) milliards de FCFA ;
+o connaître ou avoir connu au minimum deux (02) exercices bénéficiaires net, sur les trois (3)
+derniers ;
+o avoir distribué au moins un (I) dividende sur les trois derniers exercices clôturés.
+Les valeurs rattachées à ces titres de capital sont également éligibles au Compartiment « A — Premium ».
+Article 75 — La BVMAC se réserve le droit d'examiner, en fonction de la qualité des dossiers produits, tout
+autre élément d'appréciation.
+Article 76 — En cas de refus, les titres de capital de la société requérante peuvent être admis en négociation
+sur un autre compartiment de la Cote Permanente si les critères d'admission sur cet autre compartiment
+sont satisfaits et après accord de l'émetteur.
+Sous-section 2 : Compartiment « B — Medium »
+Article 77 — Sont admissibles à la Cote de la Bourse Régionale dans le compartiment « B — Medium »t
+les titres de capital émis par des personnes morales qui remplissent les conditions suivantes :
+Critères principaux :
+(1) Disposer d'un capital social minimum de FCFA dix millions (10 000 000) entièrement libéré ;
+(2) Présenter une capitalisation boursière à l'introduction d'au moins cinq (05) milliards de FCFA ;
+(3) Diffuser dans le public au moins 15% de son capit ocial dès l'introduction en Bourse ,
+17
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+Tét +237 43 B / +237 23343 85 u
+Email: info'bvrn-ac.or / Web www.bvm•ac.
+=== page 18 ===
+(4) Diffuser dans le public dès l'introduction en bourse, une quantité minimale de cinq cent mille
+(500 000) titres repartis entre au moins cent (100) actionnaires ;
+(5) Diffuser dans le public à l'introduction, un montant Minimum de 500 millions de FCFA ;
+Critères de perforaance financière :
+o présenter trois (03) années de comptes établis conformément aux normes comptables en
+vigueur et certifiés par un (01) commissaire aux comptes agréé ;
+o connaître ou avoir connu au minimum un (01) exercice bénéficiaire net, sur les trois (03)
+derniers ;
+avoir distribué au moins un (01) dividende sur les trois derniers exercices clôturés.
+o
+Les valeurs rattachées à ces titres de capital sont également éligibles au Compartiment « B Medium ».
+Article 78 — La BVMAC se réserve le droit d'examiner, en fonction de la qualité des dossiers produits,
+tout autre élément d'appréciation.
+Article 79 — Si, à la date de la décision d'admission, le dernier exercice a été clôturé depuis plus de huit
+mois, le Conseil d'Administration ou le directoire de la société doit établir et publier, sous sa responsabilité,
+les comptes du premier semestre. Ces comptes doivent être accompagnés de l'avis du Commissaire aux
+Comptes.
+Sous-section 3 : Compartiment « E — PME » / Petites et Moyennes Entreprises
+Article 80 — Sont admissibles à la Cote de la Bourse Régionale dans le compartiment « E — PME » dédié
+aux Petites et Moyennes Entreprises et Industries, les titres de capital émis par des personnes morales
+qui remplissent au moins deux des trois conditions principales suivantes :
+1. disposer d'un capital social minimum de dix millions (IO 000 000) de Francs CFA entièrement
+libéré ; avoir employé, pendant les six derniers mois un nombre de salariés atteignant au moins
+dix (10) personnes et n'excédant pas 100 employés ; présenter une capitalisation boursière à
+Ifintroduction de 300 millions de FCFA ;
+2. avoir un total Bilan ne dépassant pas dix (10) Milliards FCFA au titre du dernier exercice
+précédant la date de dépôt de la demande d'admission de ses titres à la Cote ; distribuer dans
+le public au moins 15% de son capital social ; émettre les titres d'un montant minimum de 200
+millions de FCFA ;
+3. avoir un chiffre d'affaires annuel hors taxes supérieur à 250 millions de Francs CFA et n'excédant
+pas deux (02) milliards de Francs CFA au titre du dernier exercice précédant la date de dépôt
+de la demande d'admission de ses titres.
+L'admission au Compartiment PME peut être demandée par une société anonyme en cours de constitution
+par appel public à l'épargne, et ce, après avoir obtenu un visa de la COSUMAF sur le Document
+d'Information élaboré dans le cadre de cette opération. Dans ce cas, la société doit présenter des
+perspectives de rentabilité étayées par des informations prévisionnelles sur trois (3) années, assorties
+des hypothèses sous-jacentes. Ces informations prévisionnelles, établies sous la responsabilité du Conseil
+d'Administration doivent être accompagnées de l'avis du Commissaire aux comptes.
+Sous-section 4 : Compartiment des Organismes de Placement Collectif « D — OPC »
+Article 81 — Peuvent être inscrits à la Cote Permanente dela BVMAC dans un Compartiment distinct, les
+parts ou actions des Organismes de Placement Collectif dûment agréés par la COSUMAF.
+Article 82 — La demande d'admission des titres des OPC (parts et actions) dans le Compartiment « D —
+OPC » de la Cote de la BVMAC, doit être accompagnée des documents suivants :
+18
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+442 Douala - CAMEROUN
+tél ,237 0
+& / Web
+=== page 19 ===
+o les états de synthèse de l'OPC du dernier exercice précédent la date de dépôt de la demande
+d'admission, accompagnés du rapport du ou des commissaires aux comptes relatif à la certification
+desdits états, le cas échéant ;
+les états de synthèse de l'OPC consolidés, le cas échéant, du dernier exercice précédant la date de
+dépôt de la demande d'admission, accompagnés du rapport du ou des commissaires aux comptes
+relatif à la certification desdits états, le cas échéant ;
+o une copie de la décision d'agrément COSUMAF de l'OPC concerné ;
+o une copie du contrat de liquidité ou d'apport de liquidité, le cas échéant.
+Article 83 — Les modalités d'inscription à la Cote Permanente des parts ou actions d'OPC visés à l'article
+précédent, la ou les procédures de leur première cotation, les conditions de leur négociation en bourse ainsi
+que toutes les informations que l'Emetteur de ces parts doit fournir à la BVMAC feront l'objet de dispositions
+ultérieures.
+Article 84 — La BVMAC se réserve le droit d'examiner, en fonction de la qualité des dossiers produits, tout
+autre élément d'appréciation.
+Article 85 — Si, à la date de la décision d'admission, le dernier exercice a été clôturé depuis plus de huit
+(8) mois, le Conseil d'Administration ou le directoire de la société doit établir et publier, sous sa
+responsabilité, les comptes du premier semestre. Ces comptes doivent être accompagnés de l'avis du
+Commissaire aux Comptes.
+Article 86 — Les émetteurs dont les valeurs sont admises à la Cote doivent :
+(1) disposer d'un site Internet en vue d'assurer la bonne information du Public, ils publient sur ce site
+notamment, les documents d'information et des données sur leurs activités et résultats ;
+(2) informer le public et la Bourse Régionale, de tout fait nouveau ou modification susceptible d'influer de
+manière significative sur le cours de bourse des dites valeurs ;
+(3) publier durant tout le séjour des titres à la Cote, Ifinformation financière évènementielle et/ou
+périodique (annuelle, semestrielle et trimestrielle) ;
+(4) établir les états financiers annuels conformes à la règlementation en vigueur et produire les rapports
+liés à la Responsabilité Sociale et Environnementale (RSE) ;
+(5) suivre l'évolution de la liquidité desdites valeurs et prendre les mesures susceptibles de l'améliorer. A
+cette fin, ils peuvent réaliser ou faire réaliser toute opération financière dans le but d'améliorer la
+liquidité desdites valeurs. Plus spécifiquement pour les titres admis aux Compartiments Premium et
+Medium, ils procèdent au moins à la conclusion d'un contrat d'animation du titre dans les conditions
+fixées par la Bourse Régionale.
+Les émetteurs dont les titres de capital sont admis à la Cote, sont soumis aux obligations inhérentes au
+statut d'émetteur faisant appel public à l'épargne. A ce titre, ils sont soumis notamment, aux obligations
+d'information périodiques et permanentes.
+Section III : Admission des titres de Dette ou de Créance à la Cote Permanente
+Article 87 Sont considérés comme titres de créance, les obligations émises par les personnes morales,
+les Etats et les démembrements des Etats, les Sukuks et les titres financiers assimilés, les obligations
+convertibles en titres de capital, ou tout autre titre financier donnant droit à une créance générale sur son
+émetteur.
+Article 88 — Peuvent être inscrits à la Cote de la Bourse Régionale, au Compartiment « C — Obligataire »,
+les instruments financiers autres que les actions et les parts d'OPC, représentatifs d'une dette, émis par
+19
+BX/ MAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+43
+/ Wetr www bvm
+=== page 20 ===
+les Etats et leurs démembrements, les Institutions Financières Régionales et Internationales, les sociétés
+publiques et privées, qui remplissent les conditions suivantes :
+> Pour les Etats et leurs démembrements (collectivités territoriales notamment) :
+• émettre des titres de créance ayant une maturité minimale de deux (2) ans ;
+• présenter un dossier complet relatif à l'opération dûment revêtu d'un numéro
+d'enregistrement de la COSUMAF ;
+• s'engager à constituer toute garantie énoncée dans le Document d'Information avant
+l'admission des titres à la Cote ;
+• s'acquitter des droits d'admission à la cote dans un délai de quinze jours suivants la date de
+la cérémonie de première cotation.
+> Pour les Institutions Financières Régionales et Internationales (Banques de Développement
+notamment) :
+• présenter un dossier complet relatif à l'opération dûment revêtu d'un numéro de visa de la
+COSUMAF ;
+• s'engager à constituer toute garantie énoncée dans le Document d'Information avant
+l'admission des titres à la Cote;
+• s'acquitter des droits d'admission à la cote dans un délai de quinze jours suivants la date de
+la cérémonie de première cotation.
+• émettre des titres de créance ayant une maturité minimale de deux (2) ans.
+Pour les Entreprises Publiques :
+• présenter un dossier complet relatif à l'opération dûment revêtu d'un numéro de visa de la
+COSUMAF ;
+• s'engager à constituer toute garantie énoncée dans le Document d'Information avant
+l'admission des titres à la Cote ;
+• émettre des titres de créance ayant une maturité minimale de deux (2) ans.
+Pour les Entreprises Privées dont :
+Grandes Entreprises
+disposer d'un capital social entièrement libéré ;
+fournir les éléments comptables, comprenant notamment les états financiers de synthèse
+des trois derniers exercices, établis conformément aux normes comptables en vigueur ;
+présenter des comptes annuels consolidés et certifiés lorsque la personne morale
+émettrice contrôle d'autres sociétés ;
+émettre des titres de créance représentant au moins un montant de deux cent (200)
+millions de FCFA ;
+émettre des titres de créance ayant une maturité minimale de deux (2) ans.
+Petites et Moyennes Entreprises
+o
+disposer d'un capital social entièrement libéré ;
+fournir les éléments comptables, comprenant notamment les états financiers de synthèse
+des deux derniers exercices, établis conformément aux normes comptables en vigueur ;
+émettre des titres de créance représentant au moins un montant de cinquante (50)
+millions de FCFA ;
+émettre des titres de créance ayant une maturité minimale de deux (2) ans.
+Article 89 — L'admission des titres de créance donnant accès au capital d'un émetteur dont les titres de
+capital ne sont pas eux-mêmes admis aux négociations à la Cote Permanente est subordonnée à
+l'engagement, par l'Emetteur, de présenter une demande d'admission sur le même marché des titres de
+capital concernés, dans un délai de douze mois avant la prise d'effet du droit d'accès au capital de
+IEmetteur.
+20
+B VMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+rét +237
+Ernail• / Wetr www bvm 'C .nrt
+=== page 21 ===
+Article 90 — L'admission aux négociations des emprunts émis par l'un des Etats Membres de la CEMAC,
+est prononcée sur simple demande de l'Etat émetteur. La Bourse s'assure néanmoins que les engagements
+volontairement pris par l'Etat concerné, pour notamment, sécuriser le remboursement de l'emprunt, sont
+préalablement remplis avant d'admettre le titre à la Cote.
+Article 91 — La demande d'admission porte sur tous les titres de créance appartenant à une même
+émission.
+Article 92 — L'Entreprise de Marché met en place et maintient, des dispositions afin de vérifier que les
+émetteurs des instruments financiers admis aux négociations sur le marché régional se conforment aux
+prescriptions qui leur sont applicables en matière d'information initiale, périodique et spécifique et facilite
+l'accès des membres aux informations que ces émetteurs rendent publiques.
+CHAPITRE 3 : PROCEDURES D'INTRODUCTION DES VALEURS A LA COTE
+Article 93 — Les titres ayant fait Itobjet d'une décision d'admission à la Cote peuvent être introduits à la
+Cote dans les conditions fixées aux sections suivantes.
+Section I : Procédure de diffusion des instruments financiers dans le public
+Article 94 — La diffusion dans le public des titres de capital admis aux négociations peut être réalisée, en
+tout ou partie, le jour de leur première cotation sur le marché, ou dans la période précédant
+immédiatement celle-ci.
+Dans l'intérêt du marché, la Bourse Régionale peut, en accord avec l'émetteur, accepter que la diffusion
+des titres s'effectue dans la période suivant immédiatement la première cotation.
+Sous réserve d'une autorisation donnée par la COSUMAF, la diffusion des titres dans le public, dans la
+période précédant immédiatement leur première cotation sur le marché, peut prendre la forme d'un
+placement garanti réalisé par un ou plusieurs structures habilitées pour le faire individuellement ou
+conjointement. En cas de placement préalable à la cotation, l'intermédiaire chef de file des opérations
+adresse à la BVMAC, un état récapitulatif détaillé sur le résultat du placement.
+Lorsque l'émetteur choisit de réaliser la diffusion dans le public, d'une partie de ses instruments financiers
+dans le cadre de la procédure de première cotation, et de l'autre pattie dans le cadre d'un placement
+préalable à la première cotation, la BVMAC apprécie l'adéquation des modalités de ladite diffusion aux
+caractéristiques de l'opération envisagée et ce, au regard des dispositions du présent Règlement Général.
+Le prix fixé pour la procédure de première cotation ne peut être supérieur à celui pratiqué lors du
+placement.
+Un état détaillé relatif aux principaux éléments du résultat du placement préalable est communiqué par le
+requérant à la BVMAC qui le publie par Avis.
+Article 95 — La diffusion dans le public est réputée réalisée, lorsque les titres émis sont détenus par un
+nombre minimum de souscripteurs fixé dans le présent Règlement Général.
+Section II : Dispositions communes aux procédures de première cotation
+Article 96 — La première cotation des titres admis à la Cote Permanente fait l'objet d'une publication au
+Bulletin Officiel de la Cote qui reprend les informations contenues dans le document d'information visé par
+la COSUMAF et précise les caractéristiques de l'opération notamment :
+21
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de fa Liberté
+B.P. 442 Douala - CAMEROUN
+Tél 23343
+trnall• 10foObvm•ac.or / Web'
+=== page 22 ===
+Ifidentité de l'émetteur et de ses conseillers pour les opérations d'admission;
+le nombre, la nature et les caractéristiques des titres objets de l'opération;
+le prix ou la fourchette de prix stipulé par l'émetteur;
+le calendrier et la procédure de première cotation choisie et,
+d'une manière générale, toutes les précisions relatives à la première cotation et nécessaires à
+l'information du public.
+Article 97 — Si, au vu des demandes présentées, la BVMAC estime que l'application des règles particulières
+de la procédure de première cotation choisie conduirait soit à la cotation d'un cours excédant une marge
+par rapport au prix de l'offre fixée en concertation avec l'émetteur ou son mandataire dûment désigné,
+soit à une réduction excessive des ordres d'achat retenus, elle peut décider de remettre l'introduction à
+une date ultérieure. Dans ce cas, elle en informe la COSUMAF.
+La publication d'un Avis dans le Bulletin Officiel de la Cote fait connaître cette date ainsi que, le cas
+échéant, la procédure de première cotation choisie et les nouvelles modalités fixées pour la réalisation de
+l'introduction.
+Tous les ordres d'achat doivent être renouvelés.
+Article 98— Le résultat de la mise en œuvre des procédures de première cotation donne lieu à la
+publication d'un Avis par la BVMAC faisant connaître notamment le cours coté, en cas de cotation, ou le
+prix indicatif en cas d'impossibilité de cotation ; le nombre de titres échangés et les conditions dans
+lesquelles les cotations seront poursuivies les jours suivants.
+Article 99 — La première cotation des titres admis à la Cote Permanente de la BVMAC est assurée selon
+l'une ou l'autre des quatre procédures suivantes :
+l'Offre à Prix Ferme (OPF) ;
+l'Offre à Prix Minimal (OPM) ;
+l'Offre à Prix Ouvert (OPO) ;
+la Cotation directe.
+Sous-section 1 : Dispositions particulières : Offre à Prix Ferme (OPF), Offre à Prix
+Minima/ (OPM), Offre à Prix Ouvert (OPO)
+Article 100 — L'offre à prix ferme (OPF) consiste à mettre à la disposition du public une quantité de titres
+en fixant un prix ferme. Les ordres présentés sont obligatoirement stipulés à ce prix. Lorsque l'offre est
+satisfaite, le cours de la première cotation est celui du prix de l'offre.
+L'allocation des titres se fait suivant un rapport entre l'offre et la demande et en fonction d'une méthode
+d'allocation préalablement annoncée par la BVMAC.
+Article 101 — L'offre à prix minimal (OPM) consiste à mettre à la disposition du public, une quantité de
+titres en fixant un prix minimal de vente. Les ordres émis par les souscripteurs sont obligatoirement
+stipulés à ce prix ou à un prix supérieur.
+Pour la réalisation d'une offre à prix minimal, la Bourse centralise les ordres d'achat que lui transmettent
+les intermédiaires en bourse. Elle n'accepte que des ordres à cours limité et a la faculté d'éliminer du
+marché d'introduction, les ordres assortis d'une limite qui lui paraît excéder anormalement le prix d'offre
+minimal.
+La Bourse peut diviser en plusieurs lots les titres mis à la disposition du marché et affecter chaque lot à la
+satisfaction des demandes retenues, classées par limite ett- le cas échéant, préalablement réduites. Le
+cours coté de l'introduction correspond à la limite inférieure du dernier ordre servi. Ce cours est unique.
+Article 102 — L'offre à prix ouvert (OPO) consiste à mettre à la disposition du public une quantité de
+titres en fixant une fourchette de prix, Les ordres émis par les souscripteurs sont obligatoirement stipulés
+à un cours appartenant à la fourchette de prix, bornes incluses.
+22
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+S.P. 442 Douala - CAMEROUN
+as U / Fax u
+Email / Wei www bsm
+=== page 23 ===
+Article 103 — L'émetteur peut, après accord de la BVMAC, se réserver la faculté de modifier le prix ferme,
+ou le prix minimal ou la fourchette de prix, initialement stipulé, à condition que la possibilité ait été prévue
+dans le document d'information visé par la COSUMAF, et que le prix finalement retenu soit publié dans un
+délai de trois (3) jours de Bourse au moins, avant la date de clôture des souscriptions.
+La BVMAC publie par Avis, cette modification en précisant les conditions dans lesquelles doivent être
+confirmées ou modifiées les ordres d'achat précédemment émis.
+Article 104 — La Bourse centralise les ordres transmis par les membres du syndicat de placement le jour
+fixé dans le calendrier de l'opération de première cotation.
+La BVMAC ne retient que les ordres d'achat stipulés au prix de l'offre dans le cas d'une offre à prix ferme,
+ou à un prix supérieur ou égal au prix minima dans le cas des offres à prix minimal, ou à un prix
+appartenant à la fourchette de prix dans le cas d'une offre à prix ouvert.
+Article 105 — Dans le cas de l'offre à prix ferme et lorsque l'offre est satisfaite, le cours de la première
+cotation est celui du prix de l'offre.
+Dans le cas de l'offre à prix minimal ou à prix ouvert, le cours résulte de la confrontation de l'offre et de
+la demande et en tenant compte de la demande exprimée dans le cadre du placement.
+Article 106 — La première cotation des titres admis à la Cote Permanente fait l'objet d'un Avis publié dans
+le Bulletin Officiel de la Cote. Cet Avis reprend les informations contenues dans le document d'information
+visé par la COSUMAF et précise les caractéristiques de l'opération notamment :
+l'identité de l'entité émettrice ;
+la Société de Bourse en charge du suivi des procédures d'admission et d'introduction ;
+le nombre, la nature et les caractéristiques des titres ;
+s'il y a lieu, le prix stipulé par l'émetteur ou les vendeurs ;
+la procédure retenue pour la première cotation ;
+et d'une manière générale, toutes les précisions nécessaires à l'information du public.
+L'Avis paraîtra au moins cinq (5) jours avant la date prévue de première cotation.
+Sous-section 2 : Dispositions patticulières à la Cotation directe
+Article 107 — La Cotation Directe consiste à admettre directement les instruments financiers à la Cote,
+selon les modalités de négociation habituellement pratiquées à la Bourse Régionale sur la base du cours
+d'admission fixé dans le document dfinformation.
+Pour les titres de capital, cette procédure ne peut être utilisée que si les actions sont diffusées dans le
+public au regard des critères de diffusion fixés, selon le cas, par l'article 94 du présent Règlement Général.
+Article 108 La Cotation Directe permet à la BVMAC, lorsque la société concernée est déjà cotée en
+bourse, de procéder à l'inscription directe de la valeur sur le marché pour y être négociée dans les
+conditions de cotation habituellement pratiquées sur le marché,
+Article 109 — Sous réserve de l'accord de la Bourse Régionale sur les conditions d'admission et le
+calendrier de l'opération, la cotation directe peut également consister en la mise sur le marché d'une
+quantité de titres destinés à être cédés le premier jour de cotation.
+Article 110 — La BVMAC publie un Avis dans le délai de cinq (5) jours de Bourse au moins avant la date
+de la première cotation. Cet Avis qui annonce l'admission de Ifinstrument financier selon la procédure de
+cotation directe, précise notamment le cours d'admission, la référence utilisée lors du premier jour de
+cotation et le mode de cotation dudit instrument.
+23
+BVMAC
+Immeuble de ta Bourse
+1450, Boulevard de la Liberté
+BP. 442 Douala - CAMEROUN
++237 Q37 23343 u
+F rnatl• / Web wwwbwn at.•r
+=== page 24 ===
+CHAPITRE 4 : OBLIGATIONS DES ÉMETTEURS PENDANT LE SÉJOUR DE
+LEURS INSTRUMENTS FINANCIERS À LA COTE ET LES
+MODALITÉS DE LEUR RADIATION
+Section I : Obligations des émetteurs pendant le séjour de leurs
+instruments financiers à la Cote
+Article 111 -- Les valeurs admises en négociation à la BVMAC séjournent dans l'un des compartiments
+de la Cote Permanente suivant les conditions définis à l'article 86 du présent Règlement Général.
+Article 112 — Les Emetteurs dont les Valeurs Mobilières sont inscrites sur l'un des Compartiments de la
+Cote Permanente sont tenus de désigner un Responsable des relations avec les Investisseurs et le public
+en général. Ils en informent la BVMAC et communiquent à cette dernière l'identité et les coordonnées de
+la personne chargée de cette fonction.
+Article 113 — En sus des obligations qui pèsent sur eux en vertu des Règlements, lois et actes, notamment
+en matière d'information et de protection des épargnants, les émetteurs dont les Valeurs Mobilières sont
+inscrites à la Cote Permanente doivent :
+(i) respecter les limites qui leur ont été fixées lors de l'Admission relativement au montant du capital
+social devant être libéré, au nombre d'actionnaires et aux pourcentages de diffusion des valeurs
+dans le public;
+(ii) prendre les mesures prescrites dans le présent Règlement Général afin de rendre satisfaisant le taux
+de rotation et la régularité des transactions sur les Valeurs concernées ;
+(iii) avoir une politique cohérente et transparente en matière dfinformation des actionnaires sur la
+situation de l'entreprise ;
+(iv) informer la BVMAC des aménagements financiers de l'émetteur.
+Article 114 —À la suite d'un examen systématique d'ensemble établi tous les ans, la BVMAC s'assure de
+la conformité des émetteurs aux conditions de séjour dans leur compartiment respectif.
+Article 115 — En cas de non-respect des critères stipulés aux dispositions du présent Règlement Général,
+la BVMAC informe l'Emetteur d'un éventuel transfert de ses titres à un autre compartiment ou, le cas
+échéant, à l'ouverture d'une procédure de radiation desdits titres.
+Article 116 — L'Emetteur dont les titres sont inscrits à la Cote Permanente de la Bourse des Valeurs peut
+demander le transfert de ses titres d'un compartiment vers un autre. La BVMAC apprécie le transfert au
+regard des conditions d'admission prévues pour chaque compartiment.
+Article 117 — Une fois par an, la BVMAC publie le reclassement des titres de capital dans les
+compartiments de la Cote Permanente auxquels ils appartiennent en motivant ledit reclassement.
+Section II : Modalités de radiation des instruments financiers de la Cote
+Article 118 — La radiation d'une valeur intervient automatiquement à l'échéance du titre, notamment en
+cas de remboursement des titres de créance, ou à l'occasion de la disparition de la collectivité émettrice.
+Article 119 — La BVMAC peut, de sa propre initiative, radier de la Cote Permanente tout instrument
+financier tant pour non-respect par son émetteur de ses obligations ou des règles du marché, qu'en cas
+de risque d'atteinte à la réputation du marché financier régional.
+La BVMAC peut radier un instrument financier de la Cote à la demande de son émetteur. Dans ce cas, elle
+informe la COSUMAF de la demande de radiation de la cote introduite par l'émetteur.
+La radiation d'une valeur intervient également à la demande de la COSUMAF.
+Dans tous les cas de radiation, la COSUMAF doit être informée.
+24
+B V MAC
+Immeuble de la Bourse
+1450, Boulevard de la Liherté
+E.P. 442 Douala - CAMEROUN
+rif. 85 u
+F rnill: Infotbvrn•ac.or / Web' bpm
+=== page 25 ===
+Article 120 — Si un Emetteur demande la radiation conformément à l'article 119 ci-dessus, la procédure
+suivante s'applique :
+1. l'émetteur doit formuler sa demande de radiation par écrit et indiquer les raisons afférentes ;
+2. un émetteur peut introduire, auprès de la COSUMAF, un recours contre une décision de radier ou
+non un titre.
+Article 121 — Sans préjudice des dispositions de l'article 119 ci-dessus, la BVMAC peut décider de ne pas
+procéder à la radiation de titres telle que demandée par un Emetteur si une telle radiation devait porter
+préjudice au fonctionnement équitable, ordonné et efficace du marché.
+La BVMAC peut subordonner une radiation de titres à toutes conditions supplémentaires qu'elle juge
+appropriées.
+Un Emetteur peut faire appel de la décision de radier ou non un titre auprès de la COSUMAF.
+Article 122 — La BVMAC établit un dossier sur chaque valeur susceptible d'être radiée.
+L'Emetteur de la valeur dont la radiation est envisagée est préalablement informé par la BVMAC de
+l'ouverture d'une procédure de radiation. Un délai de réponse lui est accordé pendant lequel il peut mettre
+fin à l'irrégularité qui affecte la situation de son titre, soit prendre des engagements pour y remédier.
+Si la BVMAC décide malgré tout de radier la valeur concernéet sa décision motivée précise la date de sa
+prise d'effet ainsi que les modalités de sa mise en œuvre. Une copie de la décision de radiation est
+immédiatement adressée à la COSUMAF.
+Article 123 — La BVMAC peut décider le maintien des titres éligibles à la radiation à condition que
+l'Emetteur des titres concernés s'engage à prendre les mesures nécessaires afin de se mettre en
+conformité avec les conditions d'admission à la Cote Permanente de la BVMAC dans un délai qu'elle fixe.
+Article 124 — La décision de radiation d'une valeur de la Cote ne peut être prise qu'après en avoir informé
+la COSUMAF et l'émetteur. Cette décision fait l'objet d'un Avis.
+La radiation d'un titre de capital implique la radiation totale de tous les titres qui lui sont rattachés ou qui
+y font référence, tels que les titres participatifs et les obligations convertibles, échangeables ou
+remboursables en titres de capital ainsi que les bons ou droits relatifs à ces titres.
+Toutefois, la Bourse Régionale peut décider de radier uniquement certaines lignes de cotation.
+25
+e VIVI AC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+O.P. "2 Douala - CAMEROUN
+/ fax
+tofo•bwn or / Web
+=== page 26 ===
+TITRE IV : REGLES RELATIVES AU FONCTIONNEMENT DU MARCHE
+CHAPITRE 1 : NEGOCIATION DES VALEURS
+Article 125 — Toute négociation portant sur une ou plusieurs Valeurs Mobilières admises à la Cote
+Permanente de la BVMAC doit, pour être valablement conclue et sous peine de nullité, être exécutée sur
+la plateforme de la BVMAC, par l'intermédiaire d'une Société de Bourse.
+Section I : Organisation des séances de cotation
+Article 126 — Les négociations portant sur les instruments financiers admis à la Cote de la Bourse
+Régionale sont organisées sous l'autorité de la BVMAC, conformément à la législation et la réglementation
+qui leur sont applicables.
+Article 127 — Lors des séances de cotation, l'Entreprise de Marché est notamment chargée de :
+(i) veiller à la discipline et à la police générale des séances ;
+(ii) s'assurer de la bonne marche des négociations entre sociétés de bourse dans les conditions fixées
+par les règles de marché et les usages consacrés ;
+(iii) sanctionner par la prise des mesures conservatoires, tout agissement non conforme aux dispositions
+réglementaires ;
+(iv) arbitrer, dans les limites de ses compétences, les litiges survenant en cours de séance ;
+(v) constater les cours enregistrés, produire les statistiques de transactions et les Indices et en faire
+publication ;
+(vi) dresser un procès-verbal de chaque séance de cotation dans une section dédiée du Bulletin Officiel
+de la Cote.
+Article 128 — Les transactions réalisées à la BVMAC se font au comptant ; cela signifie que l'acheteur est
+redevable des capitaux, et le vendeur, des titres, dès la passation de l'ordre.
+Par ailleurs, l'acheteur bénéficie, dès le jour de l'exécution de l'ordre, de la propriété des droits financiers
+détachés entre le jour de la négociation et la date de l'inscription des titres en compte. S'agissant des
+titres de créance admis à la négociation, l'acheteur ne bénéficie de la propriété des droits financiers qu'une
+fois intervenu, à son profit, le transfert de propriété desdits instruments financiers.
+Article 129 — Les valeurs admises à la Cote de la Bourse Régionale sont cotées soit au fixing, soit en
+continu.
+Pour les cotations au fixing, le système détermine un cours de fixing qui est le cours d'équilibre s'appliquant
+à l'ensemble des ordres d'achat et de vente exécutés, et permettant de maximiser le volume échangé.
+Pour les cotations en continu, chaque nouvel ordre est confronté immédiatement aux ordres disponibles
+en contrepartie dans le carnet d'ordres afin de vérifier si son exécution est possible. Les ordres déjà
+présents dans le carnet d'ordres déterminent le cours d'exécution.
+Article 130 — Les heures d'ouverture du système informatique de négociation de la Bourse, et
+d'organisation des différentes phases de la journée des négociations pour les valeurs cotant au fixing ou
+en continu, sont publiées par voie d'Avis.
+Article 131 — Les titres admis à la Cote de la BVMAC sont négociés via un carnet d'ordres central, et s'il
+y a lieu, un carnet d'ordres de bloc établi selon les modalités fixées au Chapitre 2 du Titre V du présent
+Règlement Général traitant des négociations contrôlées par la Bourse. Le carnet d'ordres central permet
+la négociation des instruments financiers, soit par confrontation des ordres d'achat et de vente après une
+période d'accumulation sans exécution, soit par confrontation continue des ordres d'achat et de vente. Les
+négociations sont effectuées par titre unitaire, sauf décision de la Bourse Régionale.
+Le carnet d'ordres de bloc permet la négociation des instruments financiers, soit par entente directe, soit
+par appariement continu des d'achats et de ventes.
+26
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+E.P. 442 Douala - CAMEROUN
+eZ37 23i43 ay /Fax 4237 0 85 u
+Erna•l: Inf06bm-«.or / Web' www •t.er
+=== page 27 ===
+Article 132 — La BVMAC assure la publicité des transactions à travers le Bulletin Officiel de la Cote.
+Le Bulletin Officiel de la Cote précise notamment, la physionomie des transactions par Compartiment de
+marché, le premier et dernier cours, le cours de référence ainsi que le plus haut et le plus bas des cours
+traités sur chaque valeur négociée sur la plate-forme des négociations et le prix offert et demandé à la
+clôture du marché.
+Il ne peut être fait de rectification sur le Bulletin Officiel de la Cote, après sa publication sur le site Internet
+de la BVMAC et par tous les moyens disponibles, que pour des omissions ou des erreurs éventuelles.
+Les informations rectificatives des erreurs ou omissions devront être publiées sans délai, dans une forme
+faisant apparaître qu'il s'agit d'une rectification et avec la mention explicite de l'information originelle
+erronée.
+Article 133 — La BVMAC déterminera les écarts de cours maximaux pouvant être enregistrés entre deux
+séances de cotation successives. Ces écarts pourront être différenciés pour les titres de capital et les titres
+de créance et être spécifiques à chaque Compattiment.
+En cas de circonstance exceptionnelle, la BVMAC pourra solliciter de la COSUMAF, l'autorisation de publier
+une Instruction à durée limitée pour déroger aux principes édictés ci-dessus.
+Article 134 — Pour les valeurs déterminées par la BVMAC, il est possible de produire durant une certaine
+période suivant le fixing, des ordres hors séance pour exécution au cours résultant de la confrontation
+générale. La BVMAC définit par voie d'Instruction les conditions de négociations hors séance de bourse.
+La négociation hors séance requiert l'accord exprès du donneur d'ordre.
+Article 135 — La BVMAC peut à tout moment, suspendre la cotation d'une ou plusieurs valeurs, lorsqu'elle
+estime que c'est dans l'intérêt du marché.
+Une mesure de suspension peut également concerner la cotation des lignes secondaires de cette valeur.
+Toute suspension de cotation fait l'objet d'un Avis.
+Pendant la suspension, aucun ordre ne peut être saisi dans le système de négociation et aucune
+négociation sur la valeur ne peut être réalisée.
+La suspension peut être à durée déterminée ou indéterminée. La Bourse Régionale peut également
+reporter la cotation d'une ou de plusieurs valeurs.
+Article 136 — Lorsque la volumétrie et la fréquence des transactions relevées sur une ou plusieurs valeurs
+l'exigeront, la BVMAC organisera, pour les valeurs concernées, les négociations suivant la cotation en
+continu (Continuous Trading) qui se traduit par la confrontation de tous les ordres au fur et à mesure de
+leur prise en charge par le système de cotation électronique, et le cas échéant, par la détermination d'un
+cours instantané pour chaque valeur.
+La décision d'organisation des négociations suivant la cotation en continu est soumise à l'autorisation
+préalable de la COSUMAF.
+Toute modification apportée au mode de cotation d'une valeur mobilière fait l'objet d'une publication au
+Bulletin Officiel de la Cote au moins 5 jours de bourse avant son application.
+Article 137 — La cotation des valeurs inscrites à la Cote Permanente est assurée de manière électronique.
+En cas d'impossibilité d'assurer la cotation de manière électronique, des procédures de substitution sont
+mises en place, en respectant les mêmes principes fondamentaux d'organisation du marché. La BVMAC
+peut par exemple basculer les intermédiaires de marché vers son site de secours en leur indiquant d'utiliser
+les adresses IP de connexion préalablement réservées lors de la connexion initiale des membres à la
+plateforme de cotation électronique.
+Une Instruction de la Bourse Régionale définit les modalités de cotation avec changement de l'adresse de
+connexion.
+Toute modification apportée au mode de cotation d'une valeur mobilière déterminée fait l'objet d'un Avis.
+En cas de défaillance du système informatique ou du système de télécommunications reliant les sociétés
+de bourse au site central, la Bourse Régionale agit en fonction de l'intérêt du marché. Elle peut notamment
+27
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+23343 +237 23343 as u
+f rnal "ifo@bvm-ac.or / Web www bmac.or
+=== page 28 ===
+décider d'avoir recours à la cotation via son site de secours, de suspendre ou de reporter à un moment
+ultérieur la séance de bourse.
+Article 138 — La BVMAC publie par Avis, avant la fin de chaque année, le calendrier indicatif des jours
+non ouvrés pour l'année suivante.
+Section II : Animation de marché
+Article 139 — Pour chaque valeur inscrite à la Cote, la Bourse Régionale désigne une société de bourse
+spécialiste, sur proposition de l'émetteur.
+Le contrat d'animation de marché conclu entre la société de bourse et l'émetteur est transmis à la Bourse
+Régionale pour information. Si l'émetteur ne conclut pas d'accord en ce sens avec une société de bourse,
+il en informe par lettre la Bourse Régionale ; de même en cas de changement de société de bourse ou de
+modification des clauses du contrat.
+L'objet de ce contrat est d'améliorer la liquidité naturelle du marché, en assurant des cotations régulières,
+en limitant les écarts de cours ou en favorisant l'inscription d'indications quand la cotation se révèle
+impossible.
+La société de bourse spécialiste d'une valeur est chargée notamment de :
+1. suivre la cotation de cette valeur et celles de ses lignes dites secondaires (droits, actions nouvelles,
+notamment) ;
+2. assurer la régularisation du marché de cette valeur par des prises de positions propres, dans les
+conditions fixées par une Instruction de la Bourse Régionale et selon le contrat signé entre elle et la
+société émettrice.
+En cas de manquement grave à ses engagements, la BVMAC peut retirer à une société de bourse, sa
+qualification de spécialiste sur une ou plusieurs valeurs. Dans un tel cas, elle publie un Avis pour en
+informer le marché et motive sa décision à la société de bourse concernée. Une copie de la décision de
+retrait de la qualification est immédiatement adressée à la COSUMAF.
+Article 140 — La BVMAC peut, à son initiative ou à la demande d'un apporteur de liquidité, conclure un
+contrat d'apport de liquidité portant sur un instrument financier donné,
+L'apporteur de liquidité est tenu d'assurer une présence minimale sur le marché de l'instrument financier,
+en positionnant simultanément des ordres d'achat et de vente et en respectant un volume minimum ainsi
+q'une fourchette de prix conformément aux stipulations du contrat d'apport de liquidité.
+La BVMAC détermine, en concertation avec l'apporteur de liquidité concerné, les modalités d'exécution de
+chaque contrat de liquidité, les porte à la connaissance de la COSUMAF et les publie par Avis.
+Section III : Opérations sur Titres (OST)
+Article 141 — Les opérations sur titres font l'objet d'un Avis de la Bourse qui informe le public de
+l'opération et de la date de sa prise d'effet sur le marché. Sont notamment considérées comme OST, les
+opérations suivantes :
+le détachement d'un droit préférentiel de souscription ;
+le détachement d'un droit d'attribution ;
+le paiement de dividende ;
+le détachement de coupon ;
+le regroupement d'actions ;
+la réduction du capital ;
+la radiation d'un instrument financier coté à la Bourse des valeurs ;
+la division de la valeur nominale ;
+l'élévation de la valeur nominale ;
+l'assimilation de deux lignes de cotation.
+28
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
++237 233 43 as 83/ Fax +237 233 43
+info@hwn-ac.or / Web' ace
+=== page 29 ===
+Article 142 Un droit de souscription ou d'attribution est détaché le jour où commencent les opérations
+d'augmentation de capital, sauf en cas de dérogation accordée par la Bourse.
+Le droit de souscription ou d'attribution est négocié en ligne secondaire dans le compartiment de
+rattachement de la valeur de référence. Les règles d'écart de cours appliquées par la Bourse s'entendent
+à partir de la valeur théorique du droit calculée sur la valeur de référence.
+Article 143 — L'Avis de la BVMAC informant le marché du détachement d'un coupon d'intérêt ou de
+dividende indique les dates effectives de détachement et de mise en paiement, ainsi que l'impact sur la
+limite des ordres en carnet.
+Article 144 — Les règles applicables sur les ordres en carnet sont les suivantes :
+o le détachement d'un coupon d'intérêt ou de dividende modifie seulement les limites des ordres saisis
+en carnet, en respectant les normes indiquées par voie d'Instruction par la BVMAC. Cette opération
+de changement de limites des ordres est faite par chaque société de bourse ;
+o le détachement d'un droit aboutissant à la division de titres modifie les limites des ordres ainsi que
+le nombre de titres de chaque ordre en carnet. Cette opération de changement de limites des ordres
+est faite par chaque société de bourse ;
+o le changement de code de la valeur, de raison sociale de l'Emetteur ou la sun./enance de la date de
+césure n'ont aucune conséquence sur les ordres en carnet.
+Toute autre opération a pour conséquence de rendre automatiquement caducs les ordres présents dans
+le carnet d'ordres.
+Article 145 — Au plus tard dix (10) jours de bourse avant la mise en oeuvre d'une OST,
+(i) la collectivité émettrice transmet à la Bourse et au Dépositaire Central, un dossier en relation avec
+l'opération, dont le contenu est fixé par la BVMAC. Ce dossier indique notamment, la date de cette
+mise en œuvre. Un Avis portant information de cette opération sur titre doit être publié par la Bourse
+au moins un jour de bourse avant sa mise en Œuvre. Si l'OST donne lieu à des opérations d'échanges
+d'instruments financiers avec rompus, ce délai est porté à vingt (20) jours de bourse.
+(ii) Dès réception du dossier prévu l'alinéa (i) ci-dessus, la BVMAC se concerte avec le Dépositaire
+Central, afin de s'assurer de la concordance des informations reçues par les deux Organismes
+centraux et de coordonner leurs traitements respectifs de l'opération.
+(iii) En cas de retard de transmission du dossier prévu au premier alinéa (i) ci-dessus, la BVMAC et le
+Dépositaire Central peuvent convenir avec l'émetteur d'un nouveau calendrier pour la réalisation de
+l'OST.
+(iv) La BVMAC annonce les caractéristiques et les modalités de traitement de l'OST par Avis, au moins
+cinq (5) jours de bourse avant la date d'effet de l'opération.
+(v) Sauf dérogation décidée par la BVMAC et validée par la COSUMAF, un droit préférentiel de
+souscription ou d'attribution est détaché trois (3) jours de bourse avant la date de démarrage des
+périodes des opérations de souscription ou d'attribution.
+Article 146 — L'émetteur désirant mettre en œuvre un programme de rachat de ses actions, doit informer
+la BVMAC des modalités dudit programme et de la société de bourse désignée pour sa réalisation au moins
+cinq (5) jours de bourse avant son démarrage.
+La BVMAC publie, par Avis, les modalités du programme de rachat.
+Article 147 — Les ordres transmis dans le cadre d'un programme de rachat doivent être introduits dans
+le système de cotation suivant une référence fixée par Instruction de la BVMAC.
+29
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
++237 23343 u
+f rnad: or / Web: wwwbwn-ac.or
+=== page 30 ===
+CHAPITRE 2 : ORDRES DE BOURSE
+Article 148 — Un ordre de bourse, désigné ci-après « ordre s, est une instruction d'achat ou de vente
+d'un instrument financier, donnée par un client à une société de bourse, ou initiée par cette dernière dans
+le cadre d'un mandat de gestion ou d'une activité de contrepartie, ou de tenue de marché, pour être
+exécutée sur le marché boursier.
+Section I : Transmission des ordres de bourse
+Article 149 — Les ordres de bourse sont transmis par les donneurs d'ordres par tous les moyens reconnus
+probants par la legislation et la réglementation en vigueur, acceptés par la société de bourse et permettant
+la détermination de leur auteur, leur authenticité et leur traçabilité générale. Dès leur présentation au
+marché, l'ordre devient de la responsabilité exclusive de la société de bourse.
+II est de la responsabilité de la société de bourse de prendre toute disposition utile pour présenter l'ordre
+au marché à la première séance de cotation suivant sa réception.
+Les ordres transmis par téléphone doivent faire l'objet d'une confirmation écrite au plus tard sept (7) jours
+après la passation de l'ordre, et comporter une indication du jour et de lheure de réception. Les ordres
+téléphoniques ne pourront être acceptés que si la société de bourse est équipée d'un système de bande
+enregistreuse.
+Article 150 — Tout ordre est horodaté dès sa réception par la société de bourse.
+Tous les ordres horodatés sont transmis par les sociétés de bourse à la BVMAC dès la séance qui suit la
+réception de l'ordre, sans compensation ni globalisation.
+Les conditions dans lesquelles les ordres sont horodatés font l'objet d'une Instruction de la BVMAC.
+Article 151 — Le donneur d'ordre a la possibilité de modifier ou d'annuler son ordre à tout moment jusqu'à
+l'ouverture de la séance de cotation prochaine. La société de bourse ne peut être tenue pour responsable
+de la non-saisie des modifications demandées après l'ouverture de la séance de bourse courante.
+Article 152 — La société de bourse doit vérifier les ordres qu'elle a saisis, dans le carnet d'ordres pour le
+compte de ses clients ou pour son compte propre. Elle a la possibilité de modifier ou d'annuler les ordres
+saisis tant que le processus de validation par le système informatique de la Bourse n'a pas été enclenché.
+Article 153 — Dès que les ordres saisis ont été validés par la société de bourse et pris en charge par la
+BVMAC conformément à ses prérogatives d'organisation du marché, ceux-ci sont considérés comme
+irrévocables et ne peuvent donc plus faire l'objet d'une modification ou d'une annulation.
+Article 154 — Une Instruction de la BVMAC précise les modalités de prise d'ordre lorsqu'il sera déployé
+les mécanismes de la Bourse en Ligne.
+Section II : Libellé des ordres de bourse
+Article 155 — Tout ordre de bourse doit comporter les mentions suivantes :
+l'indication du sens de l'opération (achat ou vente) ;
+2.
+la désignation ou les caractéristiques de la valeur sur laquelle porte la négociation ;
+3.
+le nombre de titres à négocier ;
+4.
+une indication du prix ou limite de cours ;
+5.
+la durée de validité de l'ordre ;
+6.
+la mention ordre client, non-client, animation ou rachat ;
+7.
+le numéro ou les références du compte client ;
+8.
+les références du donneur d'ordre et ;
+9.
+10. d'une manière générale toutes les précisions nécessaires à sa bonne exécution.
+30
+B VIVI AC
+Immeuble de la Bourse
+1450. Boulevard de la überté
+442 Douala - CAMEROUN
+233 43
+mt•ebvrn-acu / Web www.bvm
+=== page 31 ===
+La BVMAC pourra fixer d'autres mentions obligatoires de sa propre initiative ou à la demande de la
+COSUMAF. Ces nouvelles mentions sont publiées au Bulletin Officiel de la Cote, au moins, dix (10) jours
+de bourse avant leur entrée en vigueur.
+Article 156 — Les ordres portant sur les titres de capital sont obligatoirement exprimés en monnaie locale
+et par titre unitaire.
+Article 157 — Les ordres transmis vers le système de cotation de la BVMAC doivent être libellés selon l'un
+des types d'ordres suivants :
+o ordre à prix limité (limit order) ;
+o ordre au marché (market order).
+Article 158 — L'ordre à prix limité est celui par lequel l'acheteur fixe le prix maximal qu'il est disposé à
+payer et le vendeur le prix minimal auquel il accepte de céder ses titres.
+Article 159 — L'ordre au marché n'est assorti d'aucune indication de prix. Il est destiné à être exécuté
+aux différents prix sur le carnet d'ordres jusqu'à épuisement de sa quantité. II est prioritaire sur l'ordre à
+prix limité. En cas de non-exécution ou d'exécution partielle, l'ordre, ou son reliquat, est éliminé à sa date
+d'expiration.
+Article 160 — La BVMAC pourra autoriser d'autres types d'ordres, dans le cadre de l'organisation de la
+cotation en continu notamment.
+Section III : Validité des ordres
+Article 161 — Les ordres de bourse indiquent une stipulation concernant leur durée de validité. Le donneur
+d'ordre indique la date à l'issue de laquelle l'ordre n'est plus valide ou le nombre de jours au-delà duquel
+l'ordre ne doit plus participer au processus de cotation.
+Article 162 — Les ordres sont à « durée déterminée » ou à « validité jour ». Ce qui correspond aussi à la
+validité par défaut dans le système de cotation.
+(i) Dans le cas d'un ordre à durée déterminée, le donneur d'ordre fixe la durée de validité de son ordre,
+sans que celle-ci puisse excéder trente (30) jours suivant son inscription dans le carnet d'ordres. Dans
+cet intervalle, le donneur d'ordre peut modifier ou annuler son ordre à tout moment tant que celui-ci
+n'est pas entièrement exécuté. A défaut d'exécution totale au terme convenu, l'ordre à durée
+déterminée devient caduc.
+(ii) Les ordres qui ne contiennent aucune indication de délai sont réputés avoir une validité « jour ». Ils
+sont valables uniquement pour la séance de Cotation à laquelle ils ont été présentés.
+Article 163 — Dans les délais de la validité de son ordre, le donneur d'ordre peut annuler ou modifier un
+ordre. Dans ce cas, l'exécution partielle qui pourrait avoir eu lieu lui demeure opposable.
+Article 164 La validité d'un ordre expire automatiquement par suite du démembrement du droit
+préférentiel de souscription, d'attribution, et d'une façon générale, de tout avantage particulier attaché à
+la Valeur Mobilière considérée. Dans ce cas, la BVMAC procéde à l'élimination des ordres portant sur un
+ou plusieurs instruments et informe les sociétés de bourses en précisant les motifs de l'élimination.
+Section IV : Conditions relatives à l'exécution des ordres de bourse
+Article 165 — Les conditions de réponse des ordres sont les suivantes :
+o les ordres présentant une limite meilleure que le cours coté, plus élevé pour les ordres d'achat et
+plus basse pour les ordres de vente, doivent être exécutés en totalité ;
+31
+B VMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+233
+Email / Web: www.bvm ac.or
+=== page 32 ===
+o les ordres avec une limite inférieure au cours coté ne peuvent faire l'objet d'une exécution, même
+partielle ;
+o les ordres d'achat dont la limite est égale au cours coté peuvent faire l'objet d'une exécution partielle.
+Au sens du présent article, la 'limite" s'entend le cours de référence défini à l'article 170 du présent
+Règlement Général compte tenu, des seuils de cotation ou écarts de cours maximaux.
+Article 166—La Bourse détermine par voie d'instruction, les écarts de cours maximaux entre deux
+séances de Bourse ; ainsi que les échelons ou pas de cotation.
+Article 167— Concernant les conditions d'exécution des ordres, relatives aux réponses partielles, la
+BVMAC autorise les catégories suivantes :
+1) les ordres sans stipulation pour lesquels la quantité de titres s'analyse comme un maximum ;
+2) les ordres « tout ou rien », qui ne peuvent être répondus partiellement.
+Article 168 —La Bourse Régionale peut introduire d'autres types de stipulations, modalités ou conditions
+relatifs au prix, à la quantité de titres à négocier, à la durée de validité ou à toute autre caractéristique de
+l'ordre. La Bourse Régionale peut, de manière temporaire ou définitive, imposer ou interdire un type de
+stipulation, de modalité ou de condition pour une valeur donnée, lorsqu'elle estime qu'une telle mesure
+est dans l'intérêt du marché.
+Section V : Cours de Bourse et statistiques de transaction
+Article 169 — Les cours cotés résultent de la confrontation pendant la séance de Bourse, sous le contrôle
+de la BVMAC, de tous les ordres d'achat et des ordres de vente reçus introduits dans le système de cotation
+par les sociétés de bourse ou par la BVMAC, à l'initiative des sociétés de bourse.
+Article 170 — En fonction de l'état du marché d'une valeur déterminée, la Bourse peut décider des cas
+suivants :
+I. afficher une indication « non coté », notamment si les quantités impliquées ne justifient pas l'écart
+de cours induit. Dans ce cas, aucune transaction n'a lieu ;
+2. faire apparaître à la cote sur cette valeur, un prix « offert » ou « demandé », pour indiquer que la
+tendance du marché fait ressortir un déséquilibre supérieur à 4. Dans ce cas, aucune transaction n'a
+lieu ;
+3. publier un cours avec réduction. Dans ce cas, tous les ordres passés dans le sens du déséquilibre sont
+répondus partiellement, par application du taux de réduction à l'arrondi près. Ce taux est publié en
+même temps que le cours. Le coefficient de réduction ne peut être inférieur à 25% ;
+4. publier un cours dit d'équilibre. Dans ce cas, tous les ordres d'achat présentant une limite supérieure
+au cours coté et tous les ordres de vente présentant une limite inférieure au cours coté sont répondus
+en totalité. Les ordres d'achat ou de vente peuvent n'être que partiellement répondus.
+Article 171 — Le cours de référence d'un instrument financier correspond au cours de clôture pour ledit
+instrument, lors de la séance de bourse précédente, ajusté en cas d'OST ou d'offres publiques.
+Le cours de clôture d'un instrument financier peut correspondre au :
+cours du fixing de clôture ;
+au dernier cours traité.
+Article 172 — La BVMAC est propriétaire des cours cotés et des statistiques de marché. Elle peut donc
+les diffuser, à titre onéreux ou gratuit, par tout canal qui lui paraitrait conforme à sa mission de
+développement du marché.
+Article 173 — Les statistiques de transaction publiées sur le Bulletin Officiel de la Cote comprennent au
+minimum, les cours cotés pour chacune des valeurs admises aux opérations de la BVMAC, le nombre total
+de titres effectivement négociés et le montant des capitaux correspondant.
+32
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+442 Douala - CAMEROUN
+0237
+Web
+=== page 33 ===
+Section VI - Annulation des négociations
+Article 174 — La Bourse Régionale peut annuler un cours coté et en conséquence, l'ensemble des
+transactions qui ont été réalisées à ce cours. Elle peut également annuler une transaction déterminée.
+Dans les deux cas, la décision est communiquée à la COSUMAF. Elle fait l'objet d'un Avis.
+CHAPITRE 3 : INFORMATIONS DE MARCHÉ
+Section I : Informations aux donneurs d'ordres
+Article 175 — Pour chaque transaction sur le marché boursier qu'elle réalise, une société de bourse est
+tenue de remettre à son client une pièce comptable justificative, ou Avis d'opération, qui mentionne
+impérativement :
+(i) la dénomination sociale de la Société de Bourse et son siège social,
+(ii) le nom et l'adresse du client auquel la pièce justificative comptable est destinée,
+(iii) la date à laquelle la transaction a été réalisée,
+(iv) la nature de la transaction,
+(v) les références, nombre, description et cours à l'unité des valeurs mobilières, objet de la transaction,
+(vi) le montant total de la transaction,
+(vii) le montant des frais de courtage et, le cas échéant, de tous autres frais prélevés,
+(viii) le montant de tout impôt et de toute taxe auxquels la transaction est assujettie.
+Article 176 L'Avis d'opération doit être transmis au donneur d'ordre par tout moyen mentionné dans
+le contrat d'ouverture de compte, avant la séance de cotation suivant la date de Règlement/Livraison.
+Article 177 — Si le contrat d'ouverture de compte le prévoit, un donneur d'ordres professionnel peut
+demander qu'un Avis d'opération récapitulatif lui soit communiqué. Dans ce cas, le cours indiqué est un
+cours moyen sur une période donnée.
+La société de bourse devra conserver les éléments justifiant toutes les informations de l'Avis d'opération
+et les transmettre sans délai à son donneur d'ordres sur simple demande.
+Article 178 — Chaque société de bourse doit tenir un registre de tous les Avis d'opération produits par
+ses services. Ce Registre est tenu par numéro, indiqué séquentiellement et sans aucun numéro manquant.
+Section II : Informations permanentes et le franchissement de seuil
+Sous-section 1 : Informations permanentes
+Article 179 — Outre les informations périodiques dont les conditions de publication sont définies dans le
+Règlement Général de la COSUMAF, l'émetteur de titres inscrits à la Cote est tenu d'informer dans les
+meilleurs délais, la BVMAC pour diffusion, le cas échéant, au Bulletin Officiel de la Cote à ses frais :
+de la date de tenue des assemblées générales et des conditions de participation ;
+de l'occurrence du paiement des dividendes, des opérations d'émission d'actions nouvelles,
+d'attribution, de souscription, de renonciation et de conversion ;
+des modifications statutaires intervenues dans la vie de l'entité ;
+de toute décision judiciaire nouvelle l'affectant ;
+de tout fait nouveau important, qui soit de nature à affecter son activité de façon significative.
+33
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+E.P. 442 Douala - CAMEROUN
+85 13 +237 233 V. u
+Erna't: ac.or / Web. www bvm
+=== page 34 ===
+Sous-section 2 : Franchissement de seuil
+Article 180 — Les actionnaires de sociétés admises à la négociation sur le marché réglementé régional
+sont tenus de déclarer sans délai, le franchissement du seuil de 5% de détention du capital ou des droits
+de vote.
+Lorsque les seuils 100/0, 15%, 200/0, 25% et 30% de détention du capital ou des droits de vote sont
+franchis, l'actionnaire doit, outre la déclaration, préciser ses objectifs pour les six (6) prochains mois.
+La déclaration s'applique également à tout franchissement à la baisse des différents seuils mentionnés aux
+alinéas précédents.
+Article 181 — Le déclarant visé à l'article précédent est tenu de fournir une information claire, précise et
+sincère portant sur :
+- le nombre de titres précédemment détenus par lui et leur nature ;
+le nombre de titres détenus après le franchissement du seuil ;
+- l'indication, qu'il agit seul ou de concert ;
+- les objectifs qufil a Ifintention de poursuivre au cours des douze (12) mois à venir concernant
+la société dont les titres sont détenus.
+Section III : Indices boursiers
+Article 182 — La BVMAC calcule un indice boursier général dont la finalité est de rendre compte de la
+tendance globale du marché des actions.
+L'indice boursier général intégrera tous les titres de capital admis aux opérations de la BVMAC en tenant
+compte de leur capitalisation. Le cas échéant, la BVMAC pourra intégrer une clause limitant le poids d'une
+ou plusieurs lignes de cotation en tenant compte uniquement de la capitalisation.
+Des indices sectoriels pourront être calculés, si la BVMAC estime que ceci est un élément de
+développement du marché.
+Des indices pourront être calculés sur les valeurs cotées au compartiment des Obligations, si la BVMAC
+constate que ceci est un élément de développement du marché.
+Article 183 — Les indices sont calculés à partir d'une base historique déterminée par la BVMAC.
+Article 184 — Les indices sont calculés au terme de la séance de cotation en tenant compte du dernier
+cours connu de chaque titre de capital. Toutefois, une valeur suspendue de cotation depuis une longue
+période pourra être exclue du calcul de l'indice.
+Le calcul de Ifindice prendra en compte les opérations spécifiques qui ont une conséquence sur la valeur
+du titre par modification de la base. Ainsi, l'expression de la variation de l'indice en pourcentage indiquera
+la tendance des valeurs sous-jacentes. Les indices sont publiés dans le Bulletin Officiel de la Cote.
+Article 185 — La BVMAC mettra en place, en synergie avec les sociétés de bourse et les sociétés de
+gestion d'organismes de placement collectif (SGOPC), un Comité de l'Indice.
+34
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala CAMEROUN
+or / bwn ac.or
+=== page 35 ===
+CHAPITRE 4 : MODALITÉS DE NÉGOCIATION SPÉCIFIQUES AUX
+TITRES DE CRÉANCE ET LIGNES SECONDAIRES
+Section I : Négociation des Titres de Créance
+Article 186 — Les titres de créance sont cotés en pourcentage de leur valeur nominale et au pied de
+coupon.
+Le jour de négociation, le montant du coupon couru est calculé sur la base de la date de jouissance et de
+la date de dénouement théorique. Ce montant est diffusé par la Bourse.
+Les cours cotés sur les titres de créance à taux fixe sont exprimés en pourcentage du nominal, avec deux
+chiffres après la virgule.
+Les modalités de calcul du coupon couru sont fixées par la BVMAC.
+Article 187 — Les transactions sont exprimées en monnaie locale en tenant compte des frais de
+transaction et de la fraction courue de coupon telle que calculée par la BVMAC.
+Section II : Négociation des Lignes secondaires
+Article 188 — Tout titre constituant une ligne secondaire, dérive d'une ligne principale de cotation qui en
+constitue la valeur de référence.
+Article 189 — Sont notamment considérés comme lignes secondaires les titres suivants :
+o les droits de souscription ;
+o les droits d'attribution ;
+o les actions nouvelles de jouissance différente.
+Article 190 — La BVMAC définit, pour chaque ligne secondaire, un cours théorique qui fera office de cours
+de référence.
+Article 191 — La BVMAC détermine le mode de cotation des lignes secondaires en fonction de leur
+liquidité.
+Article 192 — En cas d'absence de cotation de la ligne principale, la BVMAC suspend la cotation des lignes
+secondaires dont les cours de référence sont attachés à celui de cette ligne principale, exception faite des
+droits de souscription.
+CHAPITRE 5 : CONTROLE DES OPERATIONS DE NEGOCIATION ET DE
+DENOUEMENT DES TRANSACTIONS
+Article 193 — Les règles de contrôle des négociations et de dénoument des transactions sont fixées dans
+le présent Chapitre, conformément aux dispositions des articles 116 (alinéa 2) & 117 (alinéa 4) du
+Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022.
+Pour ce faire, la BVMAC veille, dès réception des ordres jusqu'au dénouement des transactions, au contrôle
+notamment :
+de la réalité des ordres ;
+de l'horodatage des ordres ;
+de la non globalisation des ordres, sauf dans les cas autorisés par la réglementation en vigueur ;
+de la transmission des ordres avec diligence ;
+35
+B VMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+233 +237 2330 u
+.nfo$bwn ac.•r / Web wvw
+=== page 36 ===
+du respect des règles dintroduction des ordres dans le système de cotatation prévues dans le
+présent Règlement Général ;
+du respect des règles de bonne conduite des sociétés de bourse au cours des séances de bourse ;
+du respect des règles d'utilisation du système de cotation ;
+des positions prises par les sociétés de bourse ,
+du processus de livraison des titres et de règlement des espèces.
+La BVMAC peut demander aux sociétés de bourse de lui communiquer tout document ou information
+nécessaire, lui permettant de contrôler les éléments précités, et en particulier d'évaluer les risques
+inhérents aux positions prises afin notamment, d'effectuer les ajustements de fonds nécesaires à la
+garantie de bonne fin des opérations.
+La BVMAC peut demander aux sociétés de bourse à tout moment des explications et des justifications
+relatives aux ordres introduits dans le système de cotation.
+La BVMAC porte à la connaissance de la COSUMAF, toute infraction ou irrégularité qu'elle aura relevée
+dans l'exercice de sa mission de contrôle.
+Article 194 — En vue d'évaluer les risques des positions non-dénouées détenues par les sociétés de
+bourse, ces dernières doivent transmettre à la BVMAC les documents suivants :
+les états de synthèse de l'exercice écoulé, accompagnés du rapport du ou des commissaires aux
+comptes relatif à la certification desdits états ;
+une copie des statuts mis à jour accompagnée le cas échéant, du procès-verbal de l'assemblée
+générale ayant délibéré sur la modification des statuts.
+La BVMAC peut demander aux sociétés de bourse de lui communiquer les documents et informations
+suivants :
+le montant du capital social et la part détenue par chaque actionnaire ;
+l'organigramme de la société de bourse concernée ;
+la description des moyens techniques et organisationnels dédiés à la garantie de bonne fin des
+transactions ;
+l'organisation mise en place en patticulier dans les domaines du contrôle interne et du back-office ;
+toute information relative à la situation de ses risques généraux et financiers.
+Les modialités de transmission des documents précités sont fixées par Instruction.
+36
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+442 Douala - CAMEROUN
+I / Web
+=== page 37 ===
+TITRE V : NEGOCIATIONS PARTICULIERES SUR LE MARCHE
+BOURSIER
+CHAPITRE 1 : OFFRES PUBLIQUES VISEES PAR LA COSUMAF
+Section I : Règles Générales
+Article 195 — Au sens du Règlement 01/22/CEMAC du 21 juillet 2022, l'offre publique s'entend de toute
+procédure par laquelle une personne physique ou morale, agissant seule ou de concert, fait connaître
+publiquement qu'elle se propose d'acquérir, de vendre ou d'échanger tout ou partie des titres d'une
+société, admis aux négociations sur le marché réglementé de la CEMAC.
+Article 196 Dès le dépôt du projet d'offre publique auprès de la COSUMAF, la BVMAC suspend la
+cotation des titres de l'Emetteur concerné, jusqu'à l'ouverture de la période d'offre.
+Section II : Offres Publiques de Vente
+Article 197 — Conformément aux dispositions du Règlement Général de la COSUMAF, l'initiateur d'une
+Offre Publique de Vente établit un document d'information soumis, préalablement à sa diffusion, au visa
+de la COSUMAF.
+Article 198 — L'initiateur peut prévoir que les ordres émis en réponse à l'offre publique de vente soient
+répartis par catégories différenciées en fonction du type d'ordre, et détermine les normes selon lesquelles
+la BVMAC arrête l'état des ordres et répartit les titres, soit selon un pourcentage uniforme, soit en réservant
+un traitement particulier à certains types d'ordres.
+Article 199 — Le projet d'une offre publique de vente de titres admis à la cote ou négociés sur le marché
+hors-cote, fait l'objet d'une demande présentée à la COSUMAF par la personne détentrice des titres à
+céder dans les conditions de l'article 200 ci-dessous.
+Article 200 — Sauf dérogation accordée par la COSUMAF, au vu notamment du nombre de titres offerts
+ou du montant en capitaux qu'ils représentent, l'offre publique de vente doit porter sur une quantité de
+titres représentant soit 100/0 au moins du nombre de titres de capital de même nature de la société
+concernée, soit 100 000 titres au moins à condition que ce nombre soit supérieur à 5% des titres de capital
+de même nature.
+Lorsque les titres de la société' concernée sont non cotés et négociés sur le marché hors-cote, les clauses
+statutaires de préemption et d'agrément sont réputées non écrites à l'égard des acquéreurs, pendant la
+durée de l'offre.
+Article 201 — Le projet de l'offre publique de vente est déposé à la COSUMAF par la société de bourse
+chef de file, garantissant, pour le compte de la ou des personnes qui prennent l'initiative de l'opération, le
+caractère irrévocable des engagements pris. A l'appui du projet d'offre publique de vente, la société de
+bourse chef de file dépose à la COSUMAF un dossier précisant :
+l'objectif poursuivi par l'initiateur ;
+le nombre et la nature des titres mis en vente ;
+le cas échéant, le nombre minimal de titres qui doivent être effectivement vendus par l'initiateur
+pour que son offre ait une suite positive ;
+37
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+BIP, 442 Douala - CAMEROUN
+tèt es &237 233 85 84
+tntQEbwn•acor / Web•wwwbvm
+=== page 38 ===
+le prix auquel l'initiateur offre de céder les titres si ce dernier opte pour un prix ferme dès le jour
+du dépôt de son projet ;
+les conditions de paiement de ce prix.
+La présentation du dossier établi selon les normes fixées par la COSUMAF est faite par lettre adressée à
+celui-ci garantissant, sous la signature de la société de bourse chef de file, le caractère irrévocable des
+engagements pris par l'initiateur de l'offre. Cette irrévocabilité prend effet à la date de parution de l'avis
+prévu à l'article 202 ci-après. La COSUMAF peut demander la caution d'un établissement financier ou le
+dépôt préalable des titres présentés à l'offre publique de vente par virement au Dépositaire Central ou
+auprès d'un teneur de compte adhérent à celle-ci.
+Article 202 — Dès que la COSUMAF est saisi du projet, il publie sur son bulletin un avis de dépôt et en
+informe la Bourse qui peut suspendre la cotation des titres faisant l'objet de Itoffre publique de vente. La
+COSUMAF dispose d'un délai de 5 jours de bourse qui suivent le jour du dépôt du dossier pour se prononcer
+sur la recevabilité de l'offre. La déclaration de recevabilité de la COSUMAF ne porte que sur le principe de
+l'opération.
+Si la COSUMAF déclare l'offre recevable, elle communique cette information au marché en précisant
+l'identité de l'initiateur, le nombre de titres offerts, le prix auquel ces titres sont proposés et les conditions
+de réalisation de l'offre nécessaires à l'information du public. Cette communication est publiée au plus tard
+4 jours de bourse avant la date prévue pour la réalisation de l'offre publique de vente étant précisé que
+le délai d'offre aux investisseurs ne peut être inférieur à 3 jours de bourse.
+Avec l'autorisation préalable de la COSUMAF et à la condition que l'éventualité en ait été prévue dans son
+communiqué, l'initiateur peut se réserver la faculté d'assortir son offre d'une quantité minimale de titres
+cédés pour qu'elle ait une suite positive ou d'augmenter le nombre de titres cédés en fonction de la
+demande présentée en réponse à l'offre dans la limite de 25% du nombre total de titres cédés.
+Article 203 — Le jour fixé pour la réalisation de l'offre publique de vente, la Bourse centralise les ordres
+d'achat que lui transmettent les sociétés de bourse. Seuls les ordres à prix ferme, limités au prix doffre,
+émis en réponse à la seule offre publique de vente et valables jour, sont acceptés.
+Article 204 — La reprise des cotations des titres visés par l'offre publique de vente intervient deux jours
+de bourse après la publication de l'avis d'ouverture de l'offre ou de l'avis d'irrecevabilité de l'offre.
+Article 205 — Parallèlement à l'offre publique de vente et si l'opération porte sur une quantité de titres
+égale à 200/0 au moins du nombre de titres de capital de la société concernée ou sur un montant de
+capitaux de 500 millions de FCFA, la COSUMAF peut autoriser que la diffusion soit réalisée, pour partie,
+par placement garanti et proposé à une ou plusieurs catégories d'investisseurs. Dans cette hypothèse, le
+placement des titres doit s'effectuer sur la base d'un prix au moins égal au prix fixé pour la réalisation de
+cette offre publique de vente.
+Article 206 — A l'issue de la période de l'offre publique de vente, la Bourse communique à la COSUMAF
+un état récapitulatif détaillé sur le résultat de l'offre. Ce résultat fait l'objet d'un avis publié par la Bourse.
+Le résultat du placement est communiqué, par l'établissement chef de file, à la Bourse qui le publie au
+Bulletin Officiel de la Cote et le diffuse par voie d'affichage.
+38
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+S.P. 442 Douala - CAMEROUN
+43 85 +237 23343 85 84
+Ema•l: info'bvm-ac.or / Web' www bvrn•
+=== page 39 ===
+CHAPITRE 2 : NÉGOCIATIONS CONTRÔLÉES
+Section I : Opérations de contrepartie
+Sous-section 1 : Contrepartie ordinaire
+Article 207 — Une opération de contrepartie ordinaire consiste pour une société de bourse, à acheter ou
+à vendre des titres pour son compte propre.
+Cette opération s'effectue soit en passant un ordre sur le marché sans avoir reçu un ordre externe soit en
+achetant des titres à un client entre deux séances de cotation. Dans ce dernier cas, la société de bourse
+doit passer un ordre de débouclement de sa position dès la séance de cotation suivante.
+Article 208 -- Seules les sociétés de bourse peuvent intervenir en contrepartie d'ordres de la clientèle.
+Lorsque la société de bourse est intervenue en contrepartie de tout ou partie de l'ordre de son client, elle
+informe ce dernier de son intervention.
+La société de bourse qui réalise une opération de contrepartie, émet un avis d'opéré libellé au prix net,
+sans frais de courtage ni commissions.
+Article 209 — Tous les titres inscrits à la Cote Permanente de la BVMAC peuvent faire l'objet d'opération
+de contrepartie.
+Article 210 — Sauf autorisation de la BVMAC publiée par Avis au Bulletin Officiel de la Cote, les opérations
+de contrepartie sur une valeur sont interdites dans les cas ci-après :
+o lorsque la suspension de la valeur a été ordonnée ;
+o lorsque le déséquilibre entre ordres d'achat et ordres de vente n'a pas permis que cette
+valeur soit cotée équilibrée ; c'est-à-dire sans application d'un coefficient de réduction,
+pendant la dernière séance de bourse.
+Article 211 — La Réglementation en vigueur en matière de négociation et de garantie des opérations est
+applicable aux opérations de contrepartie.
+Article 212 La BVMAC reçoit les déclarations concernant les opérations de contrepartie réalisées, en
+contrôle la régularité et établit des statistiques de marché relatives à ces opérations. Les conditions de
+déclaration feront l'objet d'une Instruction de la Bourse Régionale.
+Sous-section 2 : Contrepartie en régularisation de marché
+Article 213 — La société de bourse choisie par l'émetteur en qualité de Spécialiste d'une valeur est seule
+habilitée à effectuer des opérations de contrepartie en régularisation de marché sur cette valeur.
+L'objet de ces opérations est d'assurer la continuité des cotations et la liquidité du marché sur la valeur.
+Article 214 — Dans le cadre de ses opérations de Spécialiste sur une ou plusieurs valeurs, la société de
+bourse enregistre les opérations de régularisation de marché dans des comptes spécifiques, valeur par
+valeur.
+Section II : Transactions sur dossier
+Article 215 — Une transaction sur dossier est une transaction particulière qui ne résulte pas de la
+présentation d'un ordre sur le marché, mais de l'enregistrement par la BVMAC d'une négociation
+préalablement convenue entre un client et sa société de bourse, ou entre deux sociétés de bourse.
+39
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
+23343 ts Q37 433584
+/ Webl www.bi.rrn ac.or
+=== page 40 ===
+Article 216 — Les transactions sur les Valeurs Mobilières admises à la Cote Permanente peuvent se faire
+sur dossier lorsqu'elles concernent :
+(i) le transfert d'un portefeuille de valeurs à l'occasion d'une opération de fusion, acquisition, absorption
+ou scission des sociétés ;
+(ii) une restructuration financière entre société mère et filiale;
+(iii) le transfert d'un administrateur à un autre des actions de garantie qu'un administrateur de société
+peut être tenu de posséder ;
+(iv) une cession de gré à gré, à titre gratuit ou onéreux, entre ascendants et descendants jusqu'au
+troisième degré, ou entre époux ;
+(v) une rétrocession d'actions dans le cadre d'un portage ;
+(vi) toute autre opération agréée par la BVMAC.
+Article 217 — Les demandes de transaction sur dossier sont introduites par la société de bourse qui
+représente le cédant. La BVMAC peut exiger aux fins de son instruction, la présentation de tout document
+ou justificatif à l'appui de la demande, permettant d'apprécier la transaction et le prix proposé. Elle peut
+en outre exiger les documents juridiques, comptables et financiers de la société dont les titres sont
+concernés.
+Article 218 — Dans le cadre d'une demande de transaction sur dossier, la Société de Bourse est tenue de
+présenter à la BVMAC des ordres de bourse écrits, datés, signés et comportant :
+(i) la mention "pour transaction sur dossier" ;
+(ii) la désignation du cédant et de l'acquéreur ainsi que le sens de l'opération entre eux ;
+(iii) la dénomination de la valeur sur laquelle porte la transaction ,
+(iv) le nombre de titres à échanger ;
+(v) le prix proposé qui doit se rapprocher du cours de Bourse de la clôture veille avec un intervalle de
+ce cours de référence majoré ou minoré de cinq pourcent (+/-5%) ;
+(vi) les raisons justifiant ladite transaction ;
+(vii) la ou les sociétés de bourse qui représentent les parties dans la transaction.
+L'acheté-vendu est enregistré dans le système de négociation par la BVMAC ou par la société de bourse
+concernée sur autorisation en dernier ressort de la BVMAC.
+Article 219 j-- Si la BVMAC accorde une suite favorable au dossier présenté, elle délivre une attestation
+de transaction sur dossier.
+Article 220 — Dans le cadre d'une transaction sur dossier, la livraison de titres s'effectue dans le respect
+des Règles de Fonctionnement du Dépositaire Central.
+Sous-section 1 : Achetés-vendus
+Article 221 — L'acheté-vendu est une négociation par laquelle, une société de bourse sett d'intermédiaire
+entre deux ou plusieurs de ses donneurs d'ordres, sans présenter d'ordre sur le marché. Pour être
+recevable, il doit s'agir d'une transaction dont le montant dépasse les capacités habituelles du marché.
+Article 222 L'acheté-vendu est autorisé à partir d'un seuil de valeur minimale évoluant par palier en
+fonction de seuils de cours de bourse de l'instrument financier, définis comme suit :
+>
+Cours compris entre 1 FCFA et 1 000 FCFA
+Cours compris entre 1 005 FCFA et 20 000 FCFA
+Cours compris entre 20 005 FCFA et 50 000 FCFA
+Cours compris entre 50 005 FCFA et 100 000 FCFA
+Cours au-dessus de 100 000 FCFA
+40
+500 millions de FCFA
+1 milliard de FCFA
+3 milliards de FCFA
+4 milliards de FCFA
+5 milliards de FCFA
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+S.P. 442 Douala - CAMEROUN
+Tét +237 43 85 03 / Fax +237 23343 35 u
+Email: / Web. www bwn acer
+=== page 41 ===
+Article 223 — L'acheté-vendu et ses conditions sont déclarés à la Bourse selon les dispositions des articles
+217 à 222 du présent Règlement.
+Sous-section 2 : Transactions de bloc
+Article 224 — Est considérée comme "transaction de bloc", toute transaction autorisée par la BVMAC
+selon les règles définies aux articles 217 à 222 du présent Règlement, réalisée par entente directe entre
+la société de bourse acheteuse et la société de bourse vendeuse.
+Article 225 Les transactions de bloc sont réalisées en dehors du carnet d'ordres central.
+Article 226 — sont considérées comme transactions de bloc, les opérations, impliquant au moins 10 000
+actions ou 100 000 obligations.
+Article 227 — Sauf autorisation expresse de la BVMAC, publiée par Avis dans le Bulletin de la Cote
+Officielle, les transactions de bloc sont interdites lorsque la valeur mobilière ou l'instrument financier fait
+l'objet d'une mesure de suspension.
+Article 228 — Toute transaction de bloc est déclarée à la BVMAC par la ou les société(s) de bourse ayant
+effectué l'opération dans les conditions prévues par le présent Règlement.
+La BVMAC informe sans délai la COSUMAF des déclarations de transactions de bloc visées à la présente
+section.
+Article 229 — En cas de défaillance de l'une des deux parties, lors du dénouement, la BVMAC informée,
+annule la transaction de bloc. La COSUMAF est tenue sans délai informée de toute annulation d'une
+transaction de bloc.
+Article 230 — La Bourse contrôle la régularité des transactions de bloc. Elle les intègre aux statistiques
+quotidiennes de marché.
+Section III : Défaut et rachat d'office
+Article 231 — Lorsqu'une société de bourse ne mène pas à terme une transaction dans le délai prévu par
+le Dépositaire Central, ce dernier informe la Bourse Régionale de la nature du défaut et des conditions de
+la transaction non dénouée. La Bourse Régionale peut alors déclarer la société de bourse défaillante et
+procéder à un rachat d'office. La Bourse Régionale précise, par Instruction, les modalités dapplication du
+présent article.
+Article 232 — Une société de bourse défaillante peut effectuer pour le compte de clients seulement, des
+opérations liquidatives. La société de bourse doit adresser au préalable, une requête écrite à la Bourse
+Régionale exposant les motifs justifiant l'octroi de cette permission spéciale.
+41
+BVMAC
+Immeuble de la Bourse
+1450, Boulevard de la Liberté
+gp. 442 Douala - CAMEROUN
+/ Fax +237 23343 asu
+Ernail• info'bwn-at.or / Web: ban ac.O
+=== page 42 ===
+TITRE V1 : TARIFICATION DES SERVICES
+Article 233 -- Les tarifs, redevances, et autres frais appliqués par la BVMAC dans le cadre de ses activités
+relèvent de la tarification générale en vigueur sur le marché financier régional.
+La BVMAC appliquera des conditions dérrogatoires incitatives en faveur des émetteurs atteignant une
+certaine taille d'opération ou relevant du Compartiment des petites et moyennes entreprises. Ces
+conditions tarifaires incitatives sont définies dans une Instruction.
+TITRE VII : DISPOSITIONS FINALES
+Article 234 — Les dispositions du Règlement Général de la Bourse Régionale, sont susceptibles d'être
+modifiées pour les besoins du marché, à son initiative ou en fonction de l'évolution et des modifications
+des textes régissant le marché financier et les valeurs mobilières.
+Ces modifications devront être intégrées au présent Règlement Général sous réserve de l'autorisation
+préalable de la COSUMAF, et portées à la connaissance du public par voie de publication sur le Site Internet
+de la Bourse et dans son Bulletin Officiel.
+Article 235 Afin de préciser ou interpréter les dispositions de son Règlement Général qui se rapportent
+aux règles de négociations ou aux mesures d'ordre général, la BVMAC prend des décisions, instructions et
+avis qui sont publiés dans le Bulletin Officiel de la Cote.
+Les décisions prises par la BVMAC qui concernent les règles de négociation sont publiées sous la forme de
+Règlement de négociation ou Règlement de parquet.
+Les Instructions précisent les modalités d'application des dispositions relatives aux opérations et aux
+mesures d'ordre général.
+Les Avis informent le public sur les conditions d'application des dispositions d'un Règlement ou d'une
+Instruction concernant une opération spécifique.
+Article 236 — La BVMAC publie le présent Règlement Général, ses modifications et les Instructions et Avis
+en les diffusant auprès des Membres, des Emetteurs concernés et du grand public, via son site Internet
+et le Bulletin Officiel de la Cote ou en les notifiant individuellement, le cas échéant.
+En l'absence de mention contraire expresse, toute notification ou autre communication spécifique à un
+Membre ou un Emetteur, dont une règle exige qu'elle soit effectuée par écrit, pourra être faite par tout
+moyen de communication permettant la reproduction du texte écrit ou imprimé de cette notification. Toute
+notification ou communication de cette nature sera réputée avoir été reçue lorsqu'elle aura été
+effectivement délivrée à l'adresse du destinataire ou, le cas échéant, à son adresse de courrier électronique
+notifiée par écrit par ce Membre ou cet Emetteur.
+Article 237 Le présent Règlement Général entre en vigueur trente (30) jours à compter de sa date
+d'approbation par la COSUMAF.
+BVMAC
+Immeuble de la Bourse
+1450. Boulevard de la Liberté
+B.P. 442 Douala - CAMEROUN
++237 23343 as 83/ Fax +237 233 0 as u
+Email: / Web www
+42

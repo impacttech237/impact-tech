@@ -1,0 +1,255 @@
+=== page 1 ===
+Union Monétaire de l'Afrique Centrale
+Commission de Surveillance du Marché
+Financier de l'Afrique centrale
+COSUMAF
+COMMISSION DE SURVEILLANCE
+OU MARCHE FINANCIER
+DE L'AFRIQUE CENTRALE
+INSTRUCTION COSUMAF no 39-25 du 23 mai 2025
+RELATIVE AU CONTENU DU RAPPORT DE CONTROLE INTERNE DES SOCIETES DE
+BOURSE
+LA COMMISSION DE SURVEILLANCE DU MARCHE FINANCIER DE L'AFRIQUE
+CENTRALE
+Vu l'Acte Additionnel n003/01-CEMAC-CE 03 en date du 8 décembre 2001 portant création de
+la Commission de Surveillance du Marché Financier de l'Afrique Centrale (COSUMAF) •
+vu le Règlement n001/22/CEMAC/UMAC/CM/COSUMAF du 21 juillet 2022 portant
+Organisation et Fonctionnement du Marché Financier de l'Afrique Centrale
+Vu le Règlement Général de la Commission de Surveillance du Marché Financier de l'Afrique
+Centrale
+En sa séance du 23 mai 2025
+ADOPTE L'INSTRUCTION DONT LA TENEUR SUIT :
+1
+=== page 2 ===
+ARTICLE PREMIER : CHAMP D'APPLICATION
+La présente instruction s'applique aux sociétés de bourse agréées sur le Marché Financier de
+l'Afrique Centrale.
+ARTICLE 2 : CONTENU DU RAPPORT DE CONTROLE INTERNE
+Les sociétés de bourse intervenant sur le marché financier de l'Afrique Centrale sont tenues
+de transmettre à la COSUMAF, au plus tard le 31 mars de chaque année, un rapport de
+contrôle interne dont le contenu est fixé à l'annexe de la présente Instruction.
+ARTICLE 3 : ENTREE EN VIGUEUR
+La présente instruction, qui entre en vigueur à la date de sa signature, sera publiée sur le site
+internet de la COSUMAF et sur tout autre support précisé par la COSUMAF.
+Fait à Libreville, le 23 mai 2025
+Pour la COSUMAF
+Le Président
+couwsst DE SURVEILLANCE
+DU MARCHE FINANCIER
+DE L'AFRIQUE CE
+91
+Td.: + 241 01.74.75.
+B.P. 1724
+Jacqueline ADIABA-NKEMBE
+2
+=== page 3 ===
+ANNEXE
+CONTENU DU RAPPORT DE CONTROLE INTERNE DES SOCIETES DE BOURSE
+METHODOLOGIE DE CONTROLE
+•
+•
+Objectifs
+Moyens mis en oeuvre
+Travaux réalisés
+Modifications significatives dans les méthodes de travail
+Etc..
+Il.
+PRESENTATION DE L'INTERMEDIAIRE OU DE L'EMETTEUR
+INFORMATIONS SUR LA SOCIETE «
+- Dénomination sociale
+- Forme juridique
+- Capital social
+- Date de création
+- Nature de l'activité ou objet social
+- Président Conseil d'Administration
+- Directeur Général [Gérant
+Directeur Général Adjoint
+- Contrôleur Interne (nom, téléphone,
+adresse électronique, copie et
+références de la carte professionnelle)
+- Référence agrément structure (le cas
+échéant)
+I - Référence agrément dirigeant
+- Numéro de Registre de Commerce
+- Siège social
+- Téléphone
+- Email
+Structure actionnariale
+Noms et prénoms I Dénomination
+sociale
+TOTAL
+Nombre d'actions
+Composition du conseil d'administration
+Noms et Prénoms
+Apport
+(XAF)
+Fonctions
+3
+=== page 4 ===
+Ill. DESCRIPTION DU DISPOSITIF DU CONTROLE INTERNE
+NO
+I
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+1) Outils du contrôle interne
+Procédures et autres documents
+Procédures administratives
+Procédures comptables
+Procédures financières
+Procédures de Gestion
+Procédures du système d'information
+Description de l'organisation comptable
+Traitement des opérations pour compte propre
+Code de déontologie
+Charte de confidentialité
+Traitement des plaintes
+Rapport de gestion
+Rapport du Commissaire aux Comptes
+Rapport d'activités
+Existence des logiciels métiers
+Charte du contrôle interne
+Dispositif LCB/FT
+Non
+Disponible Non disponible Applicable
+Procédure de prévention et gestion des conflits d'intérêts
+Cartographies des risques
+Plan de contrôle interne
+Plan de continuité d'activité
+2) Différents niveaux de contrôle et fréquence
+niveaux de contrôle existants et diligences accomplies
+fréquence ,
+responsables.
+3) Points de contrôle cibles
+organisation administrative et gouvernement d'entreprise ;
+fonctionnement des organes sociaux ;
+transactions sur le marché primaire et secondaire ;
+4
+=== page 5 ===
+transactions sur toute activité connexe ;
+évènements sur valeurs (Nantissement et autres) ;
+traitement des dossiers de la clientèle ;
+traitement des plaintes ;
+conformité réglementaire •
+tenue de la comptabilité •
+comités spécialisés ;
+ségrégation des comptes •
+gestion des conflits d'intérêts ;
+lutte contre le blanchiment des capitaux et le financement du Terrorisme
+(LBC/FT) :
+respect des ratios règlementaires ;
+Gouvernance et organisation du système d'information :
+o
+Adoption formelle et diffusion de la Politique de Sécurité des Systèmes
+d'Information (PSSI) ,
+Désignation, statut et rattachement hiérarchique du Responsable de la
+Sécurité des Systèmes d'Information (RSSI) •
+Validation et suivi par les organes de gouvernance des documents
+stratégiques SI (PCA, PRA, PSSI, plan d'audit SI).
+Architecture technique et exploitation du système d'information
+o Documentation, validation et mise à jour de la cartographie du SI (réseaux,
+flux inter-systèmes, interconnexions).
+o Sécurisation des flux réseau et surveillance continue (monitoring, alertes,
+supervision des incidents).
+o Existence d'un environnement de test distinct pour les mises en production.
+Logiciels métiers et interfaçage opérationnel
+Effectivité et conformité du logiciel métier (gestion OPC, gestion sous mandat,
+o
+valorisation, souscriptions/rachats).
+o Déploiement et paramétrage des interfaces avec dépositaires et plateformes
+de marché.
+o Suivi des prestations externalisées : conformité contractuelle, clauses de
+sécurité et continuité, droit d'audit.
+Sécurité logique, intégrité et qualité des données
+o Gestion des accès logiques (MFA, principe du moindre privilège, revue
+périodique des habilitations).
+o Contrôles de qualité, cohérence et intégrité des données (valorisations,
+rapprochements bancaires et titres, ajustements post-VL).
+o Traçabilité et inviolabilité des journaux d'audit (conservation, restitution,
+contrôles périodiques).
+Continuité d'activité et résilience
+5
+=== page 6 ===
+o
+Existence, validation et diffusion du Plan de Continuité d'Activité (PCA) et du
+Plan de Reprise d'Activité (PRA).
+Réalisation effective de tests de bascule et documentation des résultats.
+Sauvegardes : périodicité, localisation (Cloud/local), redondance, restauration
+et validation des RTO/RPO.
+Contrôles métiers et conformité réglementaire
+Automatisation du calcul et du contrôle des valeurs liquidatives (VL).
+Intégration et paramétrage des ratios réglementaires (diversification,
+exposition, liquidité).
+Contrôle automatisé des souscriptions/rachats (KYC, délais, fonds suffisants,
+validation interne).
+Vérification systématique de la séparation comptable entre OPC, mandats et
+comptes propres.
+lutte contre le blanchiment des capitaux et le financement du Terrorisme
+(LBC/FT) :
+o Paramétrage des mécanismes KYC et conservation des pièces justificatives.
+Mise en oeuvre de contrôles automatisés (filtrage, détection d'opérations
+o
+atypiques, gel d'avoirs).
+o Existence de procédures de surveillance, d'alerte et de reporting
+réglementaire LBC/FT dans le SI.
+4) Cartographie des risques
+Gouvernance
+Organigramme
+tenue régulière de la réunion des organes sociaux (CA et AG) •
+tenue des registres des PV des CA et AG
+mise en œuvre des décisions des organes sociaux ,
+respect des mandatures des administrateurs et des CAC
+respect des délais de clôture des exercices et transmission à la COSUMAF.
+Risque financier (Ratios prudentiels)
+niveau du capital social
+niveau des fonds propres
+chiffre d'affaire
+liquidité générale
+solvabilité
+rentabilité
+Risques règlementaires et juridiques
+conformité aux obligations de reporting
+conformité aux obligations d'informations destinées au public
+conformité aux obligations d'informations destinées à la clientèle
+mise en oeuvre des injonctions des décisions de la COSUMAF
+6
+=== page 7 ===
+mise en oeuvre des décisions des organes sociaux ,
+respect de la classification des fonds
+respect ségrégation des activités principales et connexes
+existence des fonctions règlementaires (habilitation du Négociateur et du
+responsable du Contrôle interne et conformité).
+Risques opérationnels
+incidents relevés sur les opérations
+incidents relevés dans le cadre LBC/FT (identification du responsable dédié,
+communication du rapport annuel de contrôle FBC/FT à la COSUMAF, déclaration des
+opérations suspectes auprès de l'ANlF •
+connexion à la plateforme de cotation de la BVMAC
+plan de sauvegarde informatique
+plan de continuité de l'activité.
+5) Mesures correctives et recommandations
+Mesures correctives destinées au renforcement du dispositif du contrôle interne.
+Suivi des recommandations antérieures
+Plan d'action et échéances
+6) Suivi des observations du Commissaire aux comptes
+7) Conclusions
+Synthèse des points clés
+Avis global sur l'efficacité du contrôle interne
+Signature et approbation par la Direction et le RCCI
+7
