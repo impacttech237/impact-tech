@@ -35,16 +35,13 @@ const CANON = [
   [/\bdocuments? d'information simplifies?\b/g, 'dis'], [/\bdocuments? d'information\b/g, 'prospectus'], [/\bdepositaires? centraux?\b/g, 'depocentral'], [/\bfonds communs? de placement\b/g, 'fcp'],
 ];
 /* synonymes (mots simples, sous forme normalisée) : chacun trouve les autres, avec un poids moindre */
-const FAMILLES = [['delai', 'duree', 'echeance', 'periode'], ['agrement', 'agreer', 'agree', 'agrer', 'habilitation', 'licence'], ['sanction', 'amende', 'penalite', 'peine', 'pecuniaire', 'disciplinaire'],
+const FAMILLES = [['delai', 'duree', 'echeance', 'periode'], ['agrement', 'agreer', 'agree', 'agrer', 'habilitation', 'licence'], ['sanction', 'amende', 'penalite', 'peine', 'pecuniaire', 'disciplinaire', 'risque', 'encourt', 'puni', 'punit'],
   ['commission', 'courtage', 'frais', 'tarif', 'tarification', 'cout', 'redevance', 'remuneration', 'honoraires'], ['montant', 'somme', 'plafond'], ['sdb', 'courtier', 'negociateur'], ['sgo', 'gestionnaire'],
   ['opc', 'opcvm', 'fonds'], ['cosumaf', 'regulateur'], ['cotation', 'cote', 'ipo'], ['interdit', 'interdiction', 'prohibe', 'defendu'], ['declaration', 'notification', 'declarer', 'notifier'],
   ['radiation', 'retrait', 'delistage'], ['suspension', 'suspendre', 'suspendu', 'interruption'], ['abroge', 'abrogation', 'remplace', 'supprime'], ['cac', 'auditeur', 'audit'],
   ['dirigeant', 'dirige', 'diriger', 'dg', 'pdg', 'directeur'], ['conservation', 'archivage', 'conserver'], ['initie', 'privilegie'], ['lbc', 'blanchiment', 'lcb'], ['capital', 'capitaux'], ['visa', 'autorisation'],
-  ['acheter', 'achat', 'acquisition', 'acquerir'], ['vendre', 'vente', 'cession', 'ceder'], ['investisseur', 'souscripteur', 'epargnant', 'porteur'], ['bvmac', 'bourse']];
-/* ce que laisse entendre la forme de la question : on remonte les repères du bon type */
-const INTENTS = [[/\b(?:combien de temps|dans quel delai|quel delai|a quelle echeance|jusqu'a quand|quand|delais?|duree)\b/, 'delai'], [/\b(?:combien|quel montant|quels montants|cout|plafond|minimum|minimal|maximum|taux|pourcentage|tarif|capital|seuil)\b/, 'montant'],
-  [/\b(?:qui|quel organe|qui est charge|responsable|competent|competente)\b/, 'role'], [/\b(?:qu'est[- ]ce|c'est quoi|que signifie|que veut dire|definition|definir|signifie)\b/, 'definition']];
-const STOPS = new Set("de du des la le les un une et au aux en d l a ou pour par sur dans qui que quoi quel quelle quels quelles est sont ce cet cette ces se sa son ses leur leurs il elle ils on y combien comment faut faire met mettre mets prend prendre doit doivent peut peuvent avoir etre avec sans plus quand lorsque si ne pas non oui mon ma mes qu est art article articles cas fait faite pourcent".split(' '));
+  ['acheter', 'achat', 'acquisition', 'acquerir'], ['vendre', 'vente', 'cession', 'ceder'], ['investisseur', 'souscripteur', 'epargnant', 'porteur'], ['bvmac', 'bourse'], ['heure', 'horaire', 'seance', 'ouverture', 'cloture'], ['obligatoire', 'impose', 'exige', 'requis'], ['siege', 'domicile', 'adresse'], ['dossier', 'demande', 'candidature']];
+const STOPS = new Set("de du des la le les un une et au aux en d l a ou pour par sur dans qui que quoi quel quelle quels quelles est sont ce cet cette ces se sa son ses leur leurs il elle ils on y combien comment faut faire met mettre mets prend prendre doit doivent peut peuvent avoir etre avec sans plus quand lorsque si ne pas non oui mon ma mes qu est art article articles cas fait faite pourcent difference differences entre vs versus comparer distinguer".split(' '));
 
 /* ---------- radical (stemmer français léger) ---------- */
 const SUF = ['issements', 'issement', 'ements', 'ement', 'ations', 'ation', 'ateurs', 'ateur', 'atrices', 'atrice', 'ites', 'ite', 'ions', 'ion', 'euses', 'euse', 'eurs', 'eur', 'ees', 'ee', 'es', 'e'];
@@ -86,9 +83,9 @@ function inverse() {
   const docs = build(); if (INV) return INV;
   const post = new Map(), surf = new Map(), mots = new Map(), len = new Float32Array(docs.length); let tot = 0;
   docs.forEach((it, i) => {
-    const tt = toks(prep(it.nt)).map(stem), tx = toks(prep(it.nx)).map(stem), tf = new Map();
+    const tt = toks(prep(it.nt + ' ' + norm(it.short || '') + ' ' + (it.kw || ''))).map(stem), tx = toks(prep(it.nx)).map(stem), tf = new Map();
     tt.forEach(t => tf.set(t, (tf.get(t) || 0) + 3)); tx.forEach(t => tf.set(t, (tf.get(t) || 0) + 1));
-    len[i] = tt.length * 3 + tx.length; tot += len[i]; it._tt = new Set(tt);
+    len[i] = tt.length * 3 + tx.length; tot += len[i]; it._tt = new Set(tt); it._tf = tf;
     tf.forEach((n, t) => { let a = post.get(t); if (!a) post.set(t, a = []); a.push(i, n); });
     const raw = toks(sigles(nombres(it.nt)));
     toks(sigles(nombres(it.nx))).forEach(w => { if (w.length >= 5 && !/^\d/.test(w)) mots.set(w, (mots.get(w) || 0) + 1); });
@@ -121,48 +118,163 @@ function candidats(I, w, dernier) {
   return { c: out, typo };
 }
 
-/* ---------- la recherche ---------- */
+/* ---------- langage de requête : questions naturelles et syntaxe avancée ---------- */
+const NL = [
+  [/\b(?:combien de temps|dans quel delai|sous quel delai|au bout de combien|a quelle echeance|jusqu'a quand|quel(?:s)? (?:est|sont) (?:le|les) delais?|quels? delais?|quand|delais?|duree)\b/, 'delai'],
+  [/\b(?:combien|a combien|quel(?:le)?s? (?:est|sont) (?:le|la|les) (?:montants?|taux|cout|tarif|plafonds?|capital|seuils?)|quel montant|cout|coute|tarif|taux|pourcentage|plafond|minimum|minimal|maximum|capital|seuil|prix)\b/, 'montant'],
+  [/\b(?:qui|quel organe|quelle autorite|qui est charge|qui peut|qui doit|responsable|competent|competente|autorite)\b/, 'role'],
+  [/\b(?:qu'est[- ]ce|c'est quoi|que signifie|que veut dire|definition|definir|signifie|designe|on appelle|a quoi sert|que fait|role de|en quoi consiste)\b/, 'definition'],
+  [/\b(?:comment|etapes?|procedure|demarches?|processus|marche a suivre|conditions?|documents? (?:a fournir|requis)|liste|quels? sont les|pieces)\b/, 'procedure'],
+  [/\b(?:sanction\w*|risque\w*|encourt|encourir|penalite\w*|amende\w*|puni\w*|peine\w*)\b/, 'sanction'],
+  [/\b(?:difference|differences|differ\w*|vs|versus|comparer|confond\w*|distinguer|ou bien)\b/, 'comparaison'],
+  [/\b(?:est[- ]ce que|peut[- ]on|peut[- ]elle|peut[- ]il|doit[- ]on|doit[- ]elle|doit[- ]il|a[- ]t[- ](?:on|elle|il)|obligatoire|interdit|autorise|permis|possible|faut[- ]il|a[- ]t[- ]on le droit)\b/, 'ouinon'],
+];
+const INTENT_Y = { delai: ['delai'], montant: ['montant'], role: ['role'], definition: ['definition'], procedure: ['liste'], sanction: ['montant', 'piege'], comparaison: ['piege', 'definition'], ouinon: ['piege', 'role'] };
+const INTENT_NOM = { delai: 'délai', montant: 'montant', role: 'rôle', definition: 'définition', procedure: 'procédure', sanction: 'sanction', comparaison: 'comparaison', ouinon: 'question oui/non' };
+const UNITES = [[/^jours?$|^jours? (?:ouvres?|calendaires?|ouvrables?)$|^j$/, 'jours'], [/^mois$/, 'mois'], [/^(?:ans?|annees?)$/, 'ans'], [/^(?:%|pour ?cent|pourcent)$/, '%'], [/^(?:fcfa|francs?|f cfa)$/, 'fcfa'], [/^heures?$/, 'heures'], [/^semaines?$/, 'semaines']];
+const unite = u => { u = (u || '').trim(); for (const [re, n] of UNITES) if (re.test(u)) return n; return ''; };
+const NUMOP = [[/(?:plus de|plus que|superieur(?:e)?s? a|au[- ]dessus de|depasse\w*|strictement plus de)/, '>'], [/(?:au moins|minimum de|a partir de|d'au moins|pas moins de)/, '>='], [/(?:moins de|inferieur(?:e)?s? a|en dessous de|strictement moins de)/, '<'], [/(?:au plus|maximum de|jusqu'a|pas plus de|d'au plus)/, '<='], [/(?:exactement)/, '=']];
+const UNIT_RE = '(jours?(?: ouvres| calendaires| ouvrables)?|mois|ans?|annees?|%|pour ?cent|fcfa|francs?|heures?|semaines?)';
+const NUM = '(\\d+(?:\\.\\d+)?)';
+const mult = (n, s) => { n = parseFloat(n); s = (s || '').toLowerCase(); return s === 'k' ? n * 1e3 : /^(m|mio|millions?)$/.test(s) ? n * 1e6 : /^(md|mds|milliards?)$/.test(s) ? n * 1e9 : n; };
+const ALIAS_TYPE = { repere: 'repere', reperes: 'repere', texte: 'texte', textes: 'texte', acteur: 'acteur', acteurs: 'acteur', definition: 'definition', definitions: 'definition', fiche: 'fiche', fiches: 'fiche', resume: 'resume', resumes: 'resume', schema: 'schema', schemas: 'schema', exemple: 'exemple', exemples: 'exemple', prof: 'prof', carte: 'carte', cartes: 'carte', flashcard: 'carte', flashcards: 'carte', question: 'question', questions: 'question', quiz: 'question' };
+const ALIAS_Y = { delai: 'delai', delais: 'delai', montant: 'montant', montants: 'montant', role: 'role', roles: 'role', piege: 'piege', pieges: 'piege', liste: 'liste', listes: 'liste' };
+
 function analyser(q) {
-  let n = prep(' ' + norm(q) + ' ');
-  const phrases = []; n = n.replace(/"([^"]+)"/g, (m, p) => { phrases.push(p.trim()); return ' ' + p + ' '; });
-  const exclus = []; n = n.replace(/(?:^|\s)-([a-z0-9]{2,})/g, (m, x) => { exclus.push(stem(x)); return ' '; });
-  const intents = new Set(); INTENTS.forEach(([re, y]) => { if (re.test(n)) intents.add(y); });
-  const art = (n.match(/\bart(?:icles?)?\.?\s*(\d+)/) || [])[1] || '';
+  const F = { type: '', y: '', org: '', statut: '', src: [], annee: null, art: '', th: '', cours: '', num: [], unite: '' }, interp = [], titreSeul = [];
+  let reste = String(q);
+  /* 1. expressions exactes et exclusions */
+  const phrases = [], nonPhrases = [];
+  reste = reste.replace(/(-?)"([^"]+)"/g, (m, neg, p) => { (neg ? nonPhrases : phrases).push(norm(p).trim()); return ' '; });
+  /* 2. filtres champ:valeur */
+  reste = reste.replace(/(?:^|\s)(type|org|organisme|statut|source|texte|annee|année|art|article|theme|thème|cours|valeur|unite|unité|titre|intitle|y)\s*:\s*(\S+)/gi, (m, k, v) => {
+    k = norm(k); v = norm(v).replace(/^"|"$/g, '');
+    if (k === 'type') { if (ALIAS_TYPE[v]) F.type = ALIAS_TYPE[v]; else if (ALIAS_Y[v]) { F.type = 'repere'; F.y = ALIAS_Y[v]; } interp.push('type : ' + v); }
+    else if (k === 'y') { if (ALIAS_Y[v]) { F.type = 'repere'; F.y = ALIAS_Y[v]; interp.push('type : ' + v); } }
+    else if (k === 'org' || k === 'organisme') { F.org = v; interp.push('organisme : ' + v.toUpperCase()); }
+    else if (k === 'statut') { F.statut = /^abrog/.test(v) ? 'abroge' : 'en_vigueur'; interp.push('statut : ' + (F.statut === 'abroge' ? 'abrogé' : 'en vigueur')); }
+    else if (k === 'source' || k === 'texte') { F.src.push(v.replace(/_/g, ' ')); interp.push('texte : ' + v); }
+    else if (k === 'annee') { const r = v.match(/^(\d{4})\.\.(\d{4})$/), g = v.match(/^(>=?|<=?)(\d{4})$/), e = v.match(/^(\d{4})$/); F.annee = r ? [+r[1], +r[2]] : g ? (g[1][0] === '>' ? [+g[2] + (g[1] === '>' ? 1 : 0), 9999] : [0, +g[2] - (g[1] === '<' ? 1 : 0)]) : e ? [+e[1], +e[1]] : null; if (F.annee) interp.push('année : ' + v); }
+    else if (k === 'art' || k === 'article') { F.art = v.replace(/[^a-z0-9.-]/g, ''); interp.push('article : ' + F.art); }
+    else if (k === 'theme') { F.th = v; interp.push('thème : ' + v); }
+    else if (k === 'cours') { F.cours = v; interp.push('cours : ' + v); }
+    else if (k === 'unite') { F.unite = unite(v) || v; interp.push('unité : ' + v); }
+    else if (k === 'valeur') { const r = v.match(/^(\d+(?:[.,]\d+)?)\.\.(\d+(?:[.,]\d+)?)$/), o = v.match(/^(>=|<=|>|<|=)?(\d+(?:[.,]\d+)?)(k|m|md|mds)?$/);
+      if (r) { F.num.push({ op: '>=', v: parseFloat(r[1].replace(',', '.')) }, { op: '<=', v: parseFloat(r[2].replace(',', '.')) }); interp.push('valeur : ' + v); } else if (o) { F.num.push({ op: o[1] || '=', v: mult(o[2].replace(',', '.'), o[3]) }); interp.push('valeur ' + (o[1] || '=') + ' ' + o[2]); } }
+    else if (k === 'titre' || k === 'intitle') { titreSeul.push(v); interp.push('dans le titre : ' + v); }
+    return ' '; });
+  /* 3. comparaisons directes : > 30 jours, >=60j, 10..30 mois */
+  reste = reste.replace(/(>=|<=|>|<|=)\s*(\d+(?:[.,]\d+)?)\s*(k|md|mds|m|millions?|milliards?)?\s*(jours?|j|mois|ans?|%|fcfa|heures?|semaines?)?(?![a-z])/gi, (m, op, n, mu, u) => { F.num.push({ op, v: mult(n.replace(',', '.'), mu) }); if (u) F.unite = unite(u); interp.push('valeur ' + op + ' ' + n + (mu ? ' ' + mu : '') + (u ? ' ' + u : '')); return ' '; });
+  reste = reste.replace(/(\d+(?:[.,]\d+)?)\s*\.\.\s*(\d+(?:[.,]\d+)?)\s*(jours?|j|mois|ans?|%|fcfa|heures?|semaines?)?/gi, (m, a, b, u) => { F.num.push({ op: '>=', v: parseFloat(a.replace(',', '.')) }, { op: '<=', v: parseFloat(b.replace(',', '.')) }); if (u) F.unite = unite(u); interp.push('valeur entre ' + a + ' et ' + b + (u ? ' ' + u : '')); return ' '; });
+  /* 4. exclusions -mot, obligatoires +mot, OR / |, jokers mot* */
+  const exclus = [], requis = [], jokers = [];
+  reste = reste.replace(/(?:^|\s)-([\p{L}\d]{2,})/gu, (m, x) => { exclus.push(norm(x)); interp.push('sans « ' + x + ' »'); return ' '; });
+  reste = reste.replace(/(?:^|\s)\+([\p{L}\d]{2,})/gu, (m, x) => { requis.push(stem(norm(x))); return ' ' + x + ' '; });
+  reste = reste.replace(/([\p{L}\d]+)\*/gu, (m, x) => { jokers.push(norm(x)); interp.push(x + '*'); return ' '; });
+  for (let i = 0; i < 4; i++) reste = reste.replace(/(\S+)\s+(?:OR|\|)\s+(\S+)/g, '$1§$2');
+  let n = prep(' ' + norm(reste) + ' ');
+  /* 5. contraintes numériques en langage naturel : « plus de 30 jours », « au moins 10 millions », « entre 5 et 10 ans » */
+  n = n.replace(new RegExp('entre ' + NUM + ' et ' + NUM + ' ?' + UNIT_RE + '?', 'g'), (m, a, b, u) => { F.num.push({ op: '>=', v: +a }, { op: '<=', v: +b }); if (u) F.unite = unite(u); interp.push('valeur entre ' + a + ' et ' + b + (u ? ' ' + unite(u) : '')); return ' '; });
+  NUMOP.forEach(([re, op]) => { n = n.replace(new RegExp('\\b' + re.source + ' ' + NUM + ' ?' + UNIT_RE + '?', 'g'), (m, a, u) => { F.num.push({ op, v: +a }); if (u) F.unite = unite(u); interp.push('valeur ' + op + ' ' + a + (u ? ' ' + unite(u) : '')); return ' '; }); });
+  /* 6. forme de la question -> type de contenu attendu */
+  const intents = new Set(); NL.forEach(([re, y]) => { if (re.test(n)) intents.add(y); });
+  const art = F.art || (n.match(/\bart(?:icles?)?\.?\s*(\d+)/) || [])[1] || '';
   CANON.forEach(([re, c]) => { n = n.replace(re, ' ' + c + ' '); re.lastIndex = 0; });
-  n = n.replace(/\b(?:combien de temps|dans quel delai|quel delai|a quelle echeance|jusqu'a quand)\b/g, ' delai ').replace(/\b(?:combien coute|combien payer|quel cout)\b/g, ' montant ');
+  n = n.replace(/\b(?:combien de temps|dans quel delai|sous quel delai|a quelle echeance|jusqu'a quand|au bout de combien de temps)\b/g, ' delai ').replace(/\b(?:combien coute|combien payer|quel cout)\b/g, ' montant ');
+  n = n.replace(/\b(?:qu'est[- ]ce que?|c'est quoi|que veut dire|que signifie|a quoi sert|en quoi consiste|quelle est la difference entre|quelle difference entre|difference entre|differences? entre)\b/g, ' ');
   n = n.replace(/\b[ldsjcmnt]'/g, ' ');
-  const mots = toks(n).filter(t => t.length > 1 && !STOPS.has(t) && !/^\d$/.test(t) || /^\d{2,}/.test(t));
-  const vu = new Set(), cs = []; mots.forEach(w => { const k = stem(w); if (!vu.has(k)) { vu.add(k); cs.push(w); } });
-  return { cs, intents, art, phrases, exclus, brut: norm(q).trim() };
+  const mots = toks(n.replace(/§/g, ' § ')).filter(t => t === '§' || (t.length > 1 && !STOPS.has(t)) || /^\d$/.test(t));
+  /* concepts : un mot = un concept ; « a § b » = un concept à deux mots (OR) */
+  const vu = new Set(), cs = []; let prev = null, lien = false;
+  mots.forEach(w => { if (w === '§') { lien = true; return; } const k = stem(w);
+    if (lien && prev) { prev.push(w); lien = false; return; } lien = false;
+    if (vu.has(k)) return; vu.add(k); prev = [w]; cs.push(prev); });
+  jokers.forEach(j => cs.push(['*' + j]));
+  titreSeul.forEach(w => { if (!vu.has(stem(w))) { vu.add(stem(w)); cs.push([w]); } });
+  return { cs, intents, art, phrases, nonPhrases, exclus, requis, titreSeul, F, interp, brut: norm(q).replace(/"[^"]*"/g, ' ').replace(/[^a-z0-9' ]+/g, ' ').replace(/\s+/g, ' ').trim(),
+    nums: toks(n).filter(t => /^\d+(\.\d+)?$/.test(t)).map(Number), dirige: /\b(?:dirige|dirigeants?|directeur general|dg|pdg|president|patron|chef)\b/.test(norm(q)) };
 }
+
+const okFiltre = (it, F, type, course) => {
+  if (type && it.type !== type) return false; if (course && it.p.id !== course) return false;
+  if (F.type && it.type !== F.type) return false; if (F.y && it.y !== F.y) return false;
+  if (F.org && (it.org || '') !== F.org) return false;
+  if (F.statut && (it.statut || (it.abroge ? 'abroge' : 'en_vigueur')) !== F.statut) return false;
+  if (F.src.length && !F.src.every(s => (it.tid || '') === s || norm(it.course || '').includes(s))) return false;
+  if (F.annee && !(it.yr && it.yr >= F.annee[0] && it.yr <= F.annee[1])) return false;
+  if (F.art && !(it.art && norm(it.art).includes(F.art))) return false;
+  if (F.th && !(it.th && it.th.includes(F.th))) return false;
+  if (F.cours && !(it.p.id && it.p.id.includes(F.cours))) return false;
+  if (F.num.length) { if (typeof it.x !== 'number') return false; for (const { op, v } of F.num) { if (op === '>' && !(it.x > v)) return false; if (op === '>=' && !(it.x >= v)) return false; if (op === '<' && !(it.x < v)) return false; if (op === '<=' && !(it.x <= v)) return false; if (op === '=' && it.x !== v) return false; } }
+  if (F.unite && !(it.u && norm(it.u).startsWith(F.unite))) return false;
+  return true;
+};
+
+/* ---------- la recherche ---------- */
 function search(q, { type = '', course = '' } = {}) {
-  const I = inverse(), docs = build(), A = analyser(q);
-  if (!A.cs.length) return { hits: [], toks: [], fuzzy: false, relaxed: false };
-  const ok = i => { const it = docs[i]; return (!type || it.type === type) && (!course || it.p.id === course); };
+  const I = inverse(), docs = build(), A = analyser(q), F = A.F;
+  const filtresSeuls = !A.cs.length && (F.type || F.y || F.org || F.statut || F.src.length || F.annee || F.art || F.th || F.cours || F.num.length || F.unite);
+  if (!A.cs.length && !filtresSeuls) return { hits: [], toks: [], fuzzy: false, relaxed: false, interp: A.interp, proches: [] };
   const corrections = [], hl = new Set();
-  const conc = A.cs.map((w, i) => { const { c, typo } = candidats(I, w, i === A.cs.length - 1 && w.length >= 3); if (typo) corrections.push([w, typo]); hl.add(w); c.forEach((p, t) => { if (p >= .6 || t.length >= 4) hl.add(I.surf.get(t) && p >= .72 ? I.surf.get(t) : t); }); return c; });
-  const excl = new Set(); A.exclus.forEach(x => { const l = I.post.get(x) || []; for (let k = 0; k < l.length; k += 2) excl.add(l[k]); });
-  const n = conc.length, needStrict = n <= 2 ? n : Math.ceil(n * .65);
-  const run = need => { const acc = new Map();
-    conc.forEach(c => { const best = new Map();
-      c.forEach((p, t) => { const l = I.post.get(t), w = idf(I, t) * p; for (let k = 0; k < l.length; k += 2) { const i = l[k]; if (!ok(i)) continue; const tf = l[k + 1], b = tf * 2.2 / (tf + 1.2 * (.4 + .6 * I.len[i] / I.avg)); const v = w * b; if (v > (best.get(i) || 0)) best.set(i, v); } });
-      best.forEach((v, i) => { const a = acc.get(i); if (a) { a.sc += v; a.m++; } else acc.set(i, { sc: v, m: 1 }); }); });
-    const out = [], sig = A.cs.map(w => stem(w)); const phrase = A.brut.replace(/[^a-z0-9' ]+/g, ' ').replace(/\s+/g, ' ').trim();
-    acc.forEach((a, i) => { if (a.m < need) return; const it = docs[i]; let sc = a.sc * (a.m / n) ** 1.5;
-      if (n > 1 && it.nt.includes(phrase)) sc *= 2; else if (n > 1 && it.nx.includes(phrase)) sc *= 1.35;
+  const conc = A.cs.map((groupe, gi) => { const c = new Map();
+    groupe.forEach(w => { if (w[0] === '*') { const p = stem(w.slice(1)); let k = 0; for (const t of I.vocab) if (t.startsWith(p) && ++k < 80) { if (!c.has(t)) c.set(t, .9); } hl.add(w.slice(1)); return; }
+      const r = candidats(I, w, gi === A.cs.length - 1 && w.length >= 3 && groupe.length === 1); if (r.typo) corrections.push([w, r.typo]); hl.add(w);
+      r.c.forEach((p, t) => { if ((c.get(t) || 0) < p) c.set(t, p); if (p >= .6 || t.length >= 4) hl.add(I.surf.get(t) && p >= .72 ? I.surf.get(t) : t); }); });
+    return c; });
+  const excl = new Set(); A.exclus.forEach(x => { const l = I.post.get(stem(x)) || []; for (let k = 0; k < l.length; k += 2) excl.add(l[k]); });
+  const requis = A.requis;
+  const doux = new Set(); if (A.cs.length >= 3) A.cs.forEach((g, i) => { if (g.length === 1 && ['cosumaf', 'bvmac'].includes(g[0])) doux.add(i); });
+  const n = conc.length - doux.size;
+  const comparaison = A.intents.has('comparaison');
+  const needStrict = comparaison ? 1 : n <= 2 ? n : Math.ceil(n * .65);
+  const phrase = A.brut, sig = A.cs.filter(g => g[0][0] !== '*').map(g => stem(g[0]));
+  const iy = new Set(); A.intents.forEach(k => (INTENT_Y[k] || []).forEach(y => iy.add(y)));
+  const tout = (it) => it.nt + ' ' + it.nx;
+  const run = (need, ff, extra) => { const acc = new Map();
+    const ordre = conc.map((c, ci) => ci).sort((a, b) => (doux.has(a) ? 1 : 0) - (doux.has(b) ? 1 : 0));
+    ordre.forEach(ci => { const c = conc[ci], best = new Map();
+      c.forEach((p, t) => { const l = I.post.get(t), w = idf(I, t) * p; for (let k = 0; k < l.length; k += 2) { const i = l[k]; if (!okFiltre(docs[i], ff, type, course)) continue; const tf = l[k + 1], b = tf * 2.2 / (tf + 1.2 * (.4 + .6 * I.len[i] / I.avg)); const v = w * b; if (v > (best.get(i) || 0)) best.set(i, v); } });
+      if (doux.has(ci)) { best.forEach((v, i) => { const a = acc.get(i); if (a) a.sc += v * .5; }); return; }
+      best.forEach((v, i) => { const a = acc.get(i); if (a) { a.sc += v; a.m++; a.set.add(ci); } else acc.set(i, { sc: v, m: 1, set: new Set([ci]) }); }); });
+    if (!conc.length) docs.forEach((it, i) => { if (okFiltre(it, ff, type, course)) acc.set(i, { sc: 1, m: 0, set: new Set() }); });
+    let ex = null; if (extra && extra.size) { ex = new Map(); extra.forEach((p, t) => { const l = I.post.get(t); if (!l) return; const w = idf(I, t) * p; for (let k = 0; k < l.length; k += 2) { const i = l[k]; if (acc.has(i)) ex.set(i, (ex.get(i) || 0) + w * l[k + 1] * 2.2 / (l[k + 1] + 1.2)); } }); }
+    const out = [];
+    acc.forEach((a, i) => { if (a.m < need) return; const it = docs[i]; let sc = n ? a.sc * (a.m / n) ** 1.5 : 1; if (ex) sc += (ex.get(i) || 0) * .25;
+      if (n) { let tm = 0; conc.forEach((c, ci) => { if (doux.has(ci)) return; for (const [t, p] of c) if (p >= .72 && it._tt.has(t)) { tm++; break; } }); sc *= 1 + .8 * tm / n; }
+      if (n > 1 && it.nt.includes(phrase)) sc *= 2; else if (n > 1 && tout(it).includes(phrase)) sc *= 1.35;
       if (it.nt === phrase) sc *= 2; if (n > 1 && sig.every(t => it._tt.has(t))) sc *= 1.25;
-      if (A.intents.size && (A.intents.has(it.y) || (it.type === 'definition' && A.intents.has('definition')))) sc *= 1.6;
+      if (iy.size && (iy.has(it.y) || (it.type === 'definition' && iy.has('definition')))) sc *= 1.6;
       if (A.intents.has('role') && it.type === 'acteur') sc *= 1.8;
       if ((it.type === 'acteur' || it.type === 'definition') && it._tt.size <= 5 && sig.some(t => it._tt.has(t))) sc *= 1.5;
+      if (it.type === 'acteur' && it.short && toks(norm(it.short)).some(t => sig.includes(stem(t)))) sc *= 3;
       if (A.art && it.art && norm(it.art).includes(A.art)) sc *= 2.5;
-      if (A.phrases.length && !A.phrases.every(p => (it.nt + ' ' + it.nx).includes(prep(p)) || (it.nt + ' ' + it.nx).includes(p))) return;
+      if (A.nums.length && typeof it.x === 'number' && A.nums.includes(it.x)) sc *= 1.6;
+      if (A.titreSeul.length && !A.titreSeul.every(t => it._tt.has(stem(t)))) return;
+      if (requis.length && !requis.every(t => it._tt.has(t) || (I.post.get(t) || []).includes(i))) return;
+      if (A.phrases.length && !A.phrases.every(p => tout(it).includes(prep(p)) || tout(it).includes(p))) return;
+      if (A.nonPhrases.length && A.nonPhrases.some(p => tout(it).includes(p))) return;
       if (excl.has(i)) return;
       sc *= TYPES[it.type].w; if (it.abroge) sc *= .3; out.push({ it, sc, matched: a.m }); });
     return out.sort((a, b) => b.sc - a.sc); };
-  let hits = run(needStrict), relaxed = false;
-  if (!hits.length && n > 1) { hits = run(1); relaxed = hits.length > 0; }
-  return { hits, toks: [...hl].filter(t => t.length > 1), fuzzy: corrections.length ? A.cs.map(w => (corrections.find(c => c[0] === w) || [0, w])[1]) : false, relaxed };
+  /* expansion par pseudo-retour de pertinence : les mots qui reviennent dans les meilleurs résultats aident à classer les autres */
+  const expansion = tops => { const sc = new Map(); tops.slice(0, 6).forEach(({ it }) => (it._tf || new Map()).forEach((v, t) => { if (t.length < 4 || /^\d/.test(t)) return; sc.set(t, (sc.get(t) || 0) + v * idf(I, t)); }));
+    const used = new Set(conc.flatMap(c => [...c.keys()])), ex = new Map(); [...sc].filter(([t]) => !used.has(t)).sort((a, b) => b[1] - a[1]).slice(0, 6).forEach(([t]) => ex.set(t, .5)); return ex; };
+  let ff = F, hits = run(needStrict, ff), relaxed = false, filtreRelache = false;
+  if (!hits.length && (F.num.length || F.unite) && n) { ff = { ...F, num: [], unite: '' }; hits = run(needStrict, ff); filtreRelache = hits.length > 0; }
+  if (hits.length < 8 && n > 1) { const deja = new Set(hits.map(h => h.it)); const plus = run(1, ff).filter(h => !deja.has(h.it)).map(h => ({ ...h, sc: h.sc * .4 })); if (plus.length) { hits = hits.concat(plus); relaxed = true; } }
+  if (hits.length >= 3 && n) { const r = run(relaxed ? 1 : needStrict, ff, expansion(hits)); if (r.length) hits = relaxed ? r.map(h => ({ ...h, sc: h.matched >= needStrict ? h.sc : h.sc * .4 })).sort((a, b) => b.sc - a.sc) : r; }
+  const interp = A.interp.slice(); A.intents.forEach(k => interp.unshift(INTENT_NOM[k]));
+  let proches = []; if (!hits.length) proches = proche(A.brut);
+  return { hits, toks: [...hl].filter(t => t.length > 1), fuzzy: corrections.length ? A.cs.map(g => (corrections.find(c => c[0] === g[0]) || [0, g[0]])[1]) : false, relaxed, interp: [...new Set(interp)], proches, filtreRelache, A };
 }
+
+/* titres les plus proches quand rien n'est trouvé (trigrammes) */
+let TRI = null;
+const tri = s => { s = ' ' + s + ' '; const r = new Set(); for (let i = 0; i < s.length - 2; i++) r.add(s.slice(i, i + 3)); return r; };
+function proche(q) { if (!q) return [];
+  if (!TRI) TRI = build().filter(it => ['definition', 'texte', 'acteur', 'repere'].includes(it.type)).map(it => ({ it, t: tri(it.nt) }));
+  const a = tri(q), out = []; TRI.forEach(({ it, t }) => { let c = 0; a.forEach(g => { if (t.has(g)) c++; }); const j = c / (a.size + t.size - c); if (j >= .22) out.push([it, j - (it.abroge ? .3 : 0)]); });
+  return out.sort((x, y) => y[1] - x[1]).slice(0, 4).map(([it]) => it); }
 
 /* suggestions pendant la frappe : titres de définitions, textes, acteurs et repères dont les mots commencent comme la saisie */
 function suggere(q, max = 6) {

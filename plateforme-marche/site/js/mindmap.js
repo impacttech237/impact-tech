@@ -71,7 +71,6 @@ function drawMap(tree, host, panel) {
     <rect x="-96" y="-84" width="200" height="${178 + cl.length * 22}" fill="#1b1410" opacity=".45" transform="translate(6,8)"/>
     <rect x="-100" y="-96" width="200" height="${182 + cl.length * 22}" fill="#fff" stroke="#1b1410" stroke-width="2.6"/>
     <rect x="-84" y="-70" width="168" height="144" fill="#bcd7ff" stroke="#1b1410" stroke-width="2"/>
-    <image href="img/persos/${who}-wow.svg" x="-80" y="-66" width="160" height="160"/>
     ${cl.map((l, k) => `<text x="0" y="${98 + k * 22}" text-anchor="middle" font-size="22" font-weight="700" fill="#1b1410" style="font-family:'Caveat','Comic Sans MS',cursive">${esc(l)}</text>`).join('')}
     ${pin(0, -92)}<rect x="-30" y="-110" width="60" height="22" fill="#ffd23a" opacity=".85" transform="rotate(-4)"/></g>`;
   host.innerHTML = `<svg id="mm" viewBox="${vb.x} ${vb.y} ${vb.w} ${vb.h}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Carte mentale">

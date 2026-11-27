@@ -1,5 +1,5 @@
 {
- "presentation": "Mme Kamga, directrice de **Kamga Agro** (entreprise fictive), a décidé d'entrer en bourse. Son avocat lui demande de réunir « les textes applicables ». Ici, il y en a 82, du traité fondateur à la lettre circulaire. Pour ne pas s'y perdre, il faut comprendre leur hiérarchie : on part des fondations, puis on descend vers le détail pratique.",
+ "presentation": "Une entreprise a décidé d'entrer en bourse. Son avocat lui demande de réunir « les textes applicables ». Ici, il y en a 82, du traité fondateur à la lettre circulaire. Pour ne pas s'y perdre, il faut comprendre leur hiérarchie : on part des fondations, puis on descend vers le détail pratique.",
  "parties": [
   {
    "titre": "Les fondations",
@@ -9,7 +9,7 @@
     "acte_uniforme",
     "acte_additionnel"
    ],
-   "histoire": "Mme Kamga demande à son avocat : « Sur quoi tout cela repose-t-il ? » Il lui tend les textes fondateurs.",
+   "histoire": "L'entreprise demande à son avocat : « Sur quoi tout cela repose-t-il ? » Il lui tend les textes fondateurs.",
    "intro": [
     "Au sommet, les textes qui créent les institutions et fixent leurs pouvoirs : le traité de la CEMAC, la convention de l'UMAC, l'acte uniforme de l'OHADA (le droit des affaires), et les actes additionnels pris par les chefs d'État, comme celui de 2018 qui a unifié le marché financier.",
     "On les lit pour comprendre le cadre, rarement pour répondre à une question de détail."
@@ -23,7 +23,7 @@
     "reglement_bvmac",
     "reglement_ueac"
    ],
-   "histoire": "Pour son introduction en bourse, Mme Kamga doit connaître les règles du jeu en détail. L'avocat sort les règlements.",
+   "histoire": "Pour son introduction en bourse, l'entreprise doit connaître les règles du jeu en détail. L'avocat sort les règlements.",
    "intro": [
     "Les règlements CEMAC-UMAC posent les règles de fond du marché financier. Le **Règlement Général de la COSUMAF** les détaille : agréments, intermédiaires, fonds, sanctions. Celui de la **BVMAC** organise la bourse, et le règlement **UEAC** fixe le régime fiscal des opérations cotées.",
     "Quand deux versions se succèdent, la plus récente s'applique : la fiche d'un texte ancien indique celui qui le remplace."
@@ -35,7 +35,7 @@
     "instruction",
     "instruction_bvmac"
    ],
-   "histoire": "Pour monter son dossier, Mme Kamga a besoin du mode d'emploi : chaque démarche a son instruction.",
+   "histoire": "Pour monter son dossier, l'entreprise a besoin du mode d'emploi : chaque démarche a son instruction.",
    "intro": [
     "Les instructions de la COSUMAF appliquent le règlement : pour chaque sujet, elles précisent les dossiers à déposer, les formats, les délais et les modalités (agrément, document d'information, tarification, vigilance…). Elles sont numérotées par année : l'instruction 01-23 est la première de 2023.",
     "Celles de la BVMAC précisent les règles d'admission, de marché et de tarification."
@@ -49,7 +49,7 @@
     "communique",
     "guide"
    ],
-   "histoire": "Dernière étape pour Kamga Agro : les précisions de terrain.",
+   "histoire": "Dernière étape pour l'entreprise : les précisions de terrain.",
    "intro": [
     "Ce sont des textes d'accompagnement. Une **lettre circulaire** donne des directives pratiques (calendriers, modèles, plans de mise en conformité). Des **lignes directrices** expliquent comment appliquer une obligation. Un **communiqué** fixe des tarifs ou rappelle une règle. Un **guide** présente une pratique, comme les obligations vertes, sociales et durables."
    ]

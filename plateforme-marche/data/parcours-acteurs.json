@@ -1,8 +1,8 @@
 {
  "heroine": {
-  "nom": "Amina",
+  "nom": "",
   "perso": "amina",
-  "presentation": "Amina est enseignante à Douala. Après quelques années d'économies, elle a 500 000 FCFA de côté. Elle veut savoir si cet argent peut travailler pour elle, sans le confier à n'importe qui. Suivons son argent : en route, nous rencontrerons tous les acteurs du marché, l'un après l'autre."
+  "presentation": "Prenons une épargnante qui a 500 000 FCFA de côté. Elle veut savoir si cet argent peut travailler pour elle, sans le confier à n'importe qui. Suivons son argent : en route, nous rencontrerons tous les acteurs du marché, l'un après l'autre."
  },
  "etapes": [
   {
@@ -11,7 +11,7 @@
    "titre": "Une idée : faire travailler son épargne",
    "court": "L'idée",
    "accroche": "Pourquoi un marché financier existe, et pourquoi il faut tant d'acteurs différents.",
-   "histoire": "Sur son compte, l'argent d'Amina dort. Elle a entendu parler de la bourse, mais ne sait pas par où commencer.",
+   "histoire": "Sur son compte, l'argent de l'épargnante dort. Elle a entendu parler de la bourse, mais ne sait pas par où commencer.",
    "texte": [
     "Un **marché financier** résout un problème simple : mettre en relation ceux qui ont de l'argent à placer et ceux qui ont besoin d'en trouver. Une entreprise qui veut construire une usine, un État qui veut financer une route peuvent émettre des **titres**, actions ou obligations, que des épargnants achètent. En échange, les épargnants espèrent des revenus : des dividendes, des intérêts, parfois une plus-value.",
     "Dans les six pays de la CEMAC, ce marché est commun. Depuis l'acte additionnel de 2018, il est **unifié** : une seule autorité de régulation, une seule bourse, un dépositaire central des titres. Autour de ce noyau gravitent des professionnels, chacun avec un rôle précis."
@@ -39,13 +39,13 @@
    "titre": "Les règles du jeu : la COSUMAF",
    "court": "Les règles",
    "accroche": "Le régulateur qui délivre les agréments, accorde les visas et sanctionne.",
-   "histoire": "Avant de donner un franc, Amina cherche qui garantit que le jeu est loyal. On lui répond : la COSUMAF.",
+   "histoire": "Avant de donner un franc, l'épargnante cherche qui garantit que le jeu est loyal. On lui répond : la COSUMAF.",
    "texte": [
     "La **COSUMAF**, Commission de Surveillance du Marché Financier de l'Afrique Centrale, est le gendarme du marché. Elle **régule, contrôle et surveille** : elle délivre les **agréments** aux professionnels, les **visas** aux opérations proposées au public, les **habilitations** aux personnes, et elle enregistre les placements privés. Quand les règles ne sont pas respectées, elle peut **sanctionner**.",
     "Son siège est à Libreville. Elle est dirigée par une **Présidente**, assistée d'un **Secrétaire Général**, tous deux nommés par la Conférence des Chefs d'État de la CEMAC pour un mandat de cinq ans non renouvelable. Les décisions importantes sont prises par un **Collège**, et une **Commission des sanctions** juge les manquements. Un membre du Collège, le **médiateur**, peut proposer une solution amiable en cas de litige.",
     "La COSUMAF travaille avec des institutions partenaires, comme la COBAC, qui supervise les banques : le marché financier et le système bancaire sont voisins, et leurs superviseurs coopèrent."
    ],
-   "pour_amina": "Amina note une première règle : aucun professionnel ne peut lui proposer de placer son argent sans agrément. Elle sait désormais qu'elle peut le vérifier sur le site de la COSUMAF.",
+   "pour_amina": "L'épargnante note une première règle : aucun professionnel ne peut lui proposer de placer son argent sans agrément. Elle sait désormais qu'elle peut le vérifier sur le site de la COSUMAF.",
    "retenir": "Pas d'agrément, pas de professionnel. Pas de visa, pas d'offre au public.",
    "faits": [
     "r01-22.role.01",
@@ -76,13 +76,13 @@
    "titre": "Le lieu d'échange : la BVMAC",
    "court": "La bourse",
    "accroche": "L'entreprise de marché qui organise la cotation, de Douala, pour six pays.",
-   "histoire": "Amina apprend qu'il existe une bourse régionale. Mais elle ne peut pas y entrer toute seule.",
+   "histoire": "L'épargnante apprend qu'il existe une bourse régionale. Mais elle ne peut pas y entrer toute seule.",
    "texte": [
     "La **BVMAC**, Bourse des Valeurs Mobilières de l'Afrique Centrale, est le **marché** : c'est elle qui organise, anime et gère la cotation des titres pour les six pays. Elle admet les titres à la cote, enregistre les négociations, publie chaque jour le **Bulletin Officiel de la Cote**, surveille le marché et contrôle les sociétés de bourse.",
     "C'est une **société anonyme** dirigée par un Directeur Général, sous le contrôle d'un conseil d'administration. Son capital est détenu par des entités publiques, des banques, des microfinances, des sociétés de bourse et des assurances. Elle est installée à **Douala** et exerce sa mission en vertu d'un agrément de la COSUMAF.",
     "Les titres y sont classés par compartiments selon la taille des entreprises : grandes entreprises, entreprises moyennes, PME, obligations, fonds. Les achats et les ventes se rencontrent soit à un **cours unique** fixé par confrontation de tous les ordres (le fixing), soit **en continu**."
    ],
-   "pour_amina": "Amina comprend que la bourse est une place de marché, pas un guichet : on n'y achète pas directement. Il faut passer par un professionnel autorisé.",
+   "pour_amina": "L'épargnante comprend que la bourse est une place de marché, pas un guichet : on n'y achète pas directement. Il faut passer par un professionnel autorisé.",
    "retenir": "La BVMAC organise le marché, mais acheter et vendre a un coût : la société de bourse facture une commission de courtage (0,3 % du volume négocié dans l'Instruction BVMAC n° 3 de 2013, art. 1), à vérifier avec la tarification actuelle de l'Instruction COSUMAF 23-24, et ajoute ses propres frais.",
    "faits": [
     "rbv-25.definition.01",
@@ -106,13 +106,13 @@
    "titre": "La porte d'entrée : les sociétés de bourse",
    "court": "Les sociétés de bourse",
    "accroche": "Les seuls professionnels habilités à négocier à la BVMAC, implantés dans cinq pays.",
-   "histoire": "Pour acheter sa première action, Amina doit choisir une société de bourse. Il y en a trente. Comment s'y retrouver ?",
+   "histoire": "Pour acheter sa première action, l'épargnante doit choisir une société de bourse. Il y en a trente. Comment s'y retrouver ?",
    "texte": [
     "Les **sociétés de bourse** sont les intermédiaires du marché agréés par la COSUMAF. Elles ont le **monopole de la négociation** à la BVMAC : c'est à elles que l'épargnant donne ses ordres d'achat et de vente, et elles en sont responsables une fois présentés au marché.",
     "Leur métier est large : négociation, placement, réception et transmission d'ordres, **tenue de compte**, gestion de portefeuille sous mandat, conseil en gestion de patrimoine, démarchage financier. Ce sont des sociétés anonymes, soumises à des ratios prudentiels et à un contrôle de la COSUMAF.",
     "Pour devenir client, l'épargnant ouvre un **compte titres et espèces**, prend connaissance des **conditions tarifaires** (ce sont elles, et non la bourse, qui facturent leurs services), puis donne ses ordres. La plupart des sociétés sont implantées au Cameroun, les autres au Gabon, au Congo, au Tchad et en Guinée équatoriale."
    ],
-   "pour_amina": "Amina compare : une société proche de chez elle, des tarifs lisibles, un interlocuteur qui prend le temps d'expliquer. Surtout, elle vérifie que la société figure bien sur la liste des agréées.",
+   "pour_amina": "L'épargnante compare : une société proche de chez elle, des tarifs lisibles, un interlocuteur qui prend le temps d'expliquer. Surtout, elle vérifie que la société figure bien sur la liste des agréées.",
    "retenir": "Choisissez une société agréée, comparez ses tarifs, et gardez la trace de votre compte titres : c'est la preuve de ce que vous détenez.",
    "faits": [
     "rbv-25.role.04"
@@ -136,12 +136,12 @@
    "titre": "Dans les coulisses : où va l'ordre, où va l'argent",
    "court": "Les coulisses",
    "accroche": "Le dépositaire central, la banque de règlement, la chambre de compensation et les teneurs de compte.",
-   "histoire": "Amina a donné son ordre. Elle se demande ce qui se passe ensuite : où va son argent, et où arrive son titre ?",
+   "histoire": "L'épargnante a donné son ordre. Elle se demande ce qui se passe ensuite : où va son argent, et où arrive son titre ?",
    "texte": [
     "Une fois l'ordre exécuté, la BVMAC **enregistre la négociation** et transmet les données au **Dépositaire Central**. Celui-ci tient les comptes de titres de ses adhérents : il organise la **livraison des titres**. De son côté, la **banque de règlement**, fonction assurée par la **BEAC**, règle les **espèces** : le vendeur est payé, l'acheteur est débité.",
     "Le titre n'est plus un certificat en papier : il est **inscrit en compte**. Les établissements de crédit agréés, comme les banques, peuvent intervenir en qualité de **teneurs de compte** : ils ouvrent les comptes-titres des clients et leur délivrent une attestation. Une **chambre de compensation**, contrepartie centrale qui garantirait la bonne fin des opérations, est prévue, mais selon la COSUMAF elle n'est pas encore effective."
    ],
-   "pour_amina": "Quelques jours plus tard, Amina voit son titre inscrit sur son compte-titres et son compte espèces débité du prix. Elle conserve son attestation d'inscription en compte.",
+   "pour_amina": "Quelques jours plus tard, l'épargnante voit son titre inscrit sur son compte-titres et son compte espèces débité du prix. Elle conserve son attestation d'inscription en compte.",
    "retenir": "Titres et argent suivent deux chemins séparés mais coordonnés : le dépositaire pour les titres, la BEAC pour les espèces.",
    "faits": [
     "r04-25.role.01",
@@ -175,12 +175,12 @@
    "titre": "Confier son épargne à des professionnels",
    "court": "Gestion et conseil",
    "accroche": "Les sociétés de gestion, les fonds et les conseillers en investissements financiers.",
-   "histoire": "Amina n'a pas le temps de suivre les cours chaque jour. Existe-t-il un moyen de déléguer la gestion ?",
+   "histoire": "L'épargnante n'a pas le temps de suivre les cours chaque jour. Existe-t-il un moyen de déléguer la gestion ?",
    "texte": [
     "Les **sociétés de gestion d'OPC** sont agréées pour créer, gérer et commercialiser des **fonds** (organismes de placement collectif). L'épargnant achète des parts d'un fonds ; le gestionnaire choisit les placements, évalue le portefeuille et publie les informations périodiques. Sa gestion est **séparée de la conservation des actifs**, confiée à un dépositaire indépendant qui contrôle la régularité de ses décisions.",
     "Les **conseillers en investissements financiers** (CIF) donnent des conseils personnalisés. Ils ne détiennent **jamais les fonds** de leurs clients et sont tenus à une obligation de neutralité, de compétence et de déclaration préalable à la COSUMAF."
    ],
-   "pour_amina": "Amina hésite entre acheter elle-même quelques titres et placer une partie de son épargne dans un fonds. Elle lit le document d'information du fonds : frais, dépositaire, risques.",
+   "pour_amina": "L'épargnante hésite entre acheter elle-même quelques titres et placer une partie de son épargne dans un fonds. Elle lit le document d'information du fonds : frais, dépositaire, risques.",
    "retenir": "Déléguer la gestion ne supprime pas le risque. Lisez toujours le document d'information : les performances passées ne garantissent pas les performances futures.",
    "faits": [
     "r01-22.role.12",
@@ -213,12 +213,12 @@
    "titre": "Les veilleurs : comptes, analyses, notations, garanties",
    "court": "Les veilleurs",
    "accroche": "Ceux qui vérifient les comptes, étudient les entreprises et évaluent leur solidité.",
-   "histoire": "Avant d'acheter, Amina veut être sûre que l'entreprise dit vrai sur ses résultats. Qui contrôle ?",
+   "histoire": "Avant d'acheter, l'épargnante veut être sûre que l'entreprise dit vrai sur ses résultats. Qui contrôle ?",
    "texte": [
     "Autour des entreprises qui font appel à l'épargne, des **intervenants indépendants** apportent expertise et contrôle de qualité. Les **commissaires aux comptes** certifient les états financiers : ils sont agréés par la COSUMAF et inscrits au tableau de l'ordre d'un État membre. Les **analystes financiers** produisent des études objectives sur les émetteurs et les secteurs.",
     "Les **agences de notation** évaluent la solidité d'un émetteur ou d'une opération sur une échelle publique, et leur opinion guide les investisseurs. Les **organismes de garantie** protègent les investisseurs en cas de défaillance d'un émetteur. Enfin, les **listing sponsors** accompagnent les PME qui entrent en bourse ou qui en sortent."
    ],
-   "pour_amina": "Amina découvre que les comptes d'une société cotée sont certifiés par des commissaires aux comptes agréés. Elle sait désormais où chercher l'information avant d'acheter.",
+   "pour_amina": "L'épargnante découvre que les comptes d'une société cotée sont certifiés par des commissaires aux comptes agréés. Elle sait désormais où chercher l'information avant d'acheter.",
    "retenir": "Les états financiers certifiés et les documents d'information sont la base d'une décision éclairée. Les veilleurs sont là pour réduire l'asymétrie entre l'entreprise et l'épargnant.",
    "faits": [
     "i03-23.role.01",
@@ -250,12 +250,12 @@
    "titre": "Ceux qui cherchent de l'argent : les émetteurs",
    "court": "Les émetteurs",
    "accroche": "États, collectivités et entreprises qui émettent actions, obligations et autres titres.",
-   "histoire": "Amina rencontre enfin ceux qui ont besoin de son épargne : des entreprises et des États qui émettent des titres.",
+   "histoire": "L'épargnante rencontre enfin ceux qui ont besoin de son épargne : des entreprises et des États qui émettent des titres.",
    "texte": [
     "Les **émetteurs** sont les États membres, les collectivités territoriales de la CEMAC et les sociétés anonymes qui procèdent à des émissions publiques ou privées : **actions, obligations, sukuk, jetons**. Pour s'adresser au public, ils obtiennent le **visa** de la COSUMAF sur un document d'information, puis respectent des obligations d'information continue et de reporting.",
     "Certains émetteurs sont **cotés** à la BVMAC : leurs actions s'échangent chaque jour de séance. La BVMAC en recense huit en actions à ce jour. D'autres émettent des obligations, parfois pour financer des projets publics."
    ],
-   "pour_amina": "Amina choisit de regarder de près une obligation d'État : elle comprend que, derrière le titre, il y a un émetteur qui s'est engagé à la rembourser avec des intérêts.",
+   "pour_amina": "L'épargnante choisit de regarder de près une obligation d'État : elle comprend que, derrière le titre, il y a un émetteur qui s'est engagé à la rembourser avec des intérêts.",
    "retenir": "Derrière chaque titre, un émetteur : sa solidité, son document d'information et son visa sont les premiers éléments à lire.",
    "faits": [
     "r01-22.montant.01",
@@ -275,15 +275,15 @@
   {
    "id": "protection",
    "n": 9,
-   "titre": "Au bout du chemin : ce qu'Amina retient",
+   "titre": "Au bout du chemin : ce qu'il faut retenir",
    "court": "Ce qu'il faut retenir",
    "accroche": "Les protections de l'épargnant et le parcours complet, en un schéma.",
-   "histoire": "Le parcours d'Amina s'achève. Elle sait maintenant qui fait quoi, et surtout qui interroger en cas de doute.",
+   "histoire": "Le parcours de l'épargnante s'achève. Elle sait maintenant qui fait quoi, et surtout qui interroger en cas de doute.",
    "texte": [
-    "Amina n'a pas de recette miracle, mais elle a une carte. Au centre, la **COSUMAF** veille à ce que chacun respecte les règles. La **BVMAC** organise le marché, les **sociétés de bourse** lui donnent accès, le **dépositaire** et la **BEAC** font circuler titres et argent. À côté, des **gestionnaires**, des **conseillers** et des **veilleurs** accompagnent, tandis que les **émetteurs** cherchent des financements.",
-    "Chaque fois qu'elle doute, Amina a un réflexe : **vérifier l'agrément** du professionnel sur le site de la COSUMAF, demander sa **carte professionnelle**, lire le **document d'information**, et signaler tout manquement."
+    "L'épargnante n'a pas de recette miracle, mais elle a une carte. Au centre, la **COSUMAF** veille à ce que chacun respecte les règles. La **BVMAC** organise le marché, les **sociétés de bourse** lui donnent accès, le **dépositaire** et la **BEAC** font circuler titres et argent. À côté, des **gestionnaires**, des **conseillers** et des **veilleurs** accompagnent, tandis que les **émetteurs** cherchent des financements.",
+    "Chaque fois qu'elle doute, l'épargnante a un réflexe : **vérifier l'agrément** du professionnel sur le site de la COSUMAF, demander sa **carte professionnelle**, lire le **document d'information**, et signaler tout manquement."
    ],
-   "pour_amina": "Fin de l'histoire. Amina décide de commencer petit, avec une somme dont elle n'aura pas besoin avant plusieurs années.",
+   "pour_amina": "Fin de l'histoire. L'épargnante décide de commencer petit, avec une somme dont elle n'aura pas besoin avant plusieurs années.",
    "retenir": "Un marché sûr tient à des acteurs agréés, à des documents d'information lisibles et à des épargnants qui posent des questions.",
    "chaine": true,
    "acteurs": null,

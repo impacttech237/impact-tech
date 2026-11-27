@@ -9,7 +9,7 @@ const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 const store = { get(k, d) { try { const v = localStorage.getItem('mf.' + k); return v == null ? d : JSON.parse(v); } catch { return d; } }, set(k, v) { try { localStorage.setItem('mf.' + k, JSON.stringify(v)); } catch { /* stockage indisponible */ } } };
 const ic = (n, c) => window.ic(n, c);
 const PERSO_COULEUR = { kofi: '#8fa9ff', amina: '#ffcb52', samir: '#ff7f7f', lina: '#ffcb52', leo: '#5fd3b3', nadia: '#b99cff', fatou: '#ff9f5a', jean: '#8fa9ff' };
-const perso = (qui = 'kofi', humeur = 'joy', taille = 160, o = {}) => `<div class="pz ${o.fixe ? '' : 'bob'}" style="width:${taille}px;height:${taille}px;--pc:${PERSO_COULEUR[qui] || '#8fa9ff'}"><span class="blob"></span><img src="/img/persos/${qui}-${humeur}.svg" alt="" width="${taille}" height="${taille}" ${o.flip ? 'style="transform:scaleX(-1)"' : ''} draggable="false"></div>`;
+const perso = () => '';
 const lbls = txt => String(txt).split(/\s+/).filter(Boolean).map((m, i) => `<span class="lbl l${i % 6 + 1}" style="--r:${[-1.6, 1.1, -.6, 1.5, -1.1, .8][i % 6]}deg">${esc(m)}</span>`).join(' ');
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
@@ -336,7 +336,7 @@ const mastCours = c => {
 };
 const PTYPE = { explication: ['compass', 'Explication'], exemple: ['lightbulb', 'Exemple du coach'], examen: ['star', 'Insiste : à l\'examen'], conseil: ['target', 'Conseil'], piege: ['triangle-alert', 'Piège'], consigne: ['clipboard-list', 'Consigne'], anecdote: ['message-circle', 'Anecdote'] };
 
-/* ---------- Page « Textes » : la hiérarchie des textes, avec Mme Kamga comme fil conducteur ---------- */
+/* ---------- Page « Textes » : la hiérarchie des textes, avec l'entreprise comme fil conducteur ---------- */
 let textesParcoursCache = null;
 const chargerTextesParcours = async () => textesParcoursCache ||= await fetch('/data/textes-parcours.json').then(r => r.json());
 const carteTexte = t => `<li><a class="card item" href="#/texte/${t.id}"><span class="t">${esc(shortName(t))}</span><span class="sub">${esc(t.titre)}</span><span class="meta">${badgeStatut(t)}<span>${ORG[t.organisme]}</span>${t.date_texte ? `<span>${esc(t.date_texte)}</span>` : ''}${t.pdf ? `<span>${ic('download')} PDF</span>` : ''}</span></a></li>`;
@@ -347,7 +347,7 @@ views.textes = async () => {
   const frise = TP.frise.map(id => T(id)).filter(Boolean).sort((a, b) => (a.date_adoption || '').localeCompare(b.date_adoption || ''));
   return { title: 'Les textes officiels du marché financier de la CEMAC', html: `
     <h1 class="h1">${lbls('Les textes')}</h1><span class="hand">${D.textes.length} textes officiels, rangés du plus fondamental au plus pratique</span>
-    <div class="sheet presentation">${E.perso('fatou', 'lol', 130, { fixe: true })}<div><p>${md(TP.presentation)}</p><p class="small muted" style="margin-top:8px"><a href="#/recherche">Chercher un mot dans tous les textes</a> · <a href="#/bibliotheque?tout=1">Liste filtrable de tous les textes</a> · <a href="#/bibliotheque">Les cours</a></p></div></div>
+    <div class="sheet presentation"><div><p>${md(TP.presentation)}</p><p class="small muted" style="margin-top:8px"><a href="#/recherche">Chercher un mot dans tous les textes</a> · <a href="#/bibliotheque?tout=1">Liste filtrable de tous les textes</a> · <a href="#/bibliotheque">Les cours</a></p></div></div>
     <div class="pyramide" role="img" aria-label="Hiérarchie des textes : fondations, règlements, instructions, lettres et guides">${TP.parties.map((pt, k) => `<div class="pyr p${k + 1}"><b>${esc(pt.titre.replace(/ :.*/, ''))}</b><small>${D.textes.filter(t => pt.types.includes(t.type)).length} textes</small></div>`).join('')}</div>
     ${TP.parties.map((pt, k) => { const l = tri(D.textes.filter(t => pt.types.includes(t.type))), visibles = l.slice(0, 6), reste = l.slice(6);
       return `<section class="partie"><h2 class="sec"><span class="lbl l${k % 6 + 1}">Partie ${k + 1} · ${esc(pt.titre)}</span></h2>
@@ -360,7 +360,7 @@ views.textes = async () => {
       <div class="sheet texte"><p>Chaque texte est résumé dans une fiche, avec le lien vers le <strong>PDF officiel</strong> pour lire le texte complet. Les fiches sont organisées en rubriques, toujours dans le même ordre :</p></div>
       <ol class="etapes">${TP.lire.map(([t, d], i) => `<li><span class="n">${i + 1}</span><div><strong>${esc(t)}.</strong> ${esc(d)}</div></li>`).join('')}</ol></section>
     <section class="partie"><h2 class="sec"><span class="lbl l4">En vigueur ou abrogé ?</span></h2>
-      ${encartKamga("Attention, Mme Kamga : un texte peut avoir été remplacé. Avant de le citer, regardez son statut.")}
+      ${encartKamga("Attention : un texte peut avoir été remplacé. Avant de le citer, regardez son statut.")}
       <div class="sheet texte"><p>Quand un texte nouveau en remplace un ancien, l'ancien est <strong>abrogé</strong> : on ne le cite plus comme droit en vigueur. La fiche d'un texte abrogé le signale et renvoie vers son remplaçant. La base compte ${abroges.length} remplacements :</p></div>
       <ul class="list abro">${abroges.map(t => `<li><div class="card remp"><a href="#/texte/${t.id}">${esc(shortName(t))}</a><span class="fl">${ic('arrow-right')}</span>${t.abroge_par.map(id => `<a href="#/texte/${id}"><b>${esc(shortName(T(id)))}</b></a>`).join(', ')}</div></li>`).join('')}</ul></section>
     <section class="partie"><h2 class="sec"><span class="lbl l6">La frise des textes</span></h2>
@@ -370,17 +370,17 @@ views.textes = async () => {
     after() { fond(MAT.bibliotheque); } };
 };
 
-/* ---------- Parcours des cours : fil conducteur « Kamga Agro » ---------- */
+/* ---------- Parcours des cours : fil conducteur « l'entreprise » ---------- */
 let coursParcoursCache = null;
 const chargerCoursParcours = async () => coursParcoursCache ||= await fetch('/data/cours-parcours.json').then(r => r.json());
 const NIVEAU = { E: 'Essentiel', C: 'À connaître', A: 'Pour aller plus loin' };
-const encartKamga = (txt, cls = '') => `<div class="amina kamga ${cls}">${E.perso('fatou', 'joy', 78, { fixe: true })}<p>${md(txt)}</p></div>`;
+const encartKamga = (txt, cls = '') => `<div class="amina kamga ${cls}"><p>${md(txt)}</p></div>`;
 const rangCours = (CP, id) => { const ordre = CP.parties.flatMap(pt => pt.cours); const k = ordre.indexOf(id); const part = CP.parties.findIndex(pt => pt.cours.includes(id)); return { k, total: ordre.length, ordre, part, partie: CP.parties[part] }; };
 function parcoursLecture(cours, CP) {
   const par = id => cours.find(c => c.id === id);
   let n = 0;
   return `<section class="parcours-cours"><h2 class="sec"><span class="lbl l2">Par où commencer ?</span></h2>
-    <div class="sheet presentation">${E.perso('fatou', 'lol', 130, { fixe: true })}<div><p>${md(CP.heroine.presentation)}</p></div></div>
+    <div class="sheet presentation"><div><p>${md(CP.heroine.presentation)}</p></div></div>
     ${CP.parties.map((pt, k) => `<div class="partie"><h3 class="sous"><span class="lbl l${k % 6 + 1}">Partie ${k + 1} · ${esc(pt.titre)}</span></h3><p class="onmat intro">${esc(pt.intro)}</p>
       <ol class="list guides">${pt.cours.map(id => { const c = par(id), info = CP.cours[id]; n++; return c ? `<li><a class="card item" href="#/cours/${id}"><span class="num">${n}</span><span class="t">${esc(c.titre)}</span><span class="sub">${esc(info.cle)}</span><span class="histoire-min">${esc(info.histoire)}</span><span class="meta"><span>${c.n.fiches} fiches</span><span>${c.n.cartes} cartes</span><span>${c.n.questions} questions</span><span>${c.chapitres.length} chapitres</span></span></a></li>` : ''; }).join('')}</ol></div>`).join('')}
   </section>`;
@@ -568,9 +568,9 @@ views.pratiquer = async (_a, q) => {
 B.rechSig = () => (D?.faits?.length || 0) + ':' + (annuaireCache?.length || 0);
 B.rechExtra = () => {
   const out = [];
-  for (const t of D.textes) out.push({ p: { id: '' }, c: { id: '' }, course: 'Textes officiels', chap: `${ORG[t.organisme]} · ${TYPE[t.type] || t.type}${t.statut === 'abroge' ? ' · abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'texte', title: shortName(t), text: `${t.titre} ${t.numero || ''} ${t.date_texte || ''} ${themeNom(t.theme)}`, href: `#/texte/${t.id}` });
-  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'repere', y: f.y, v: f.v, art: f.a || '', n: f.n || '', r: f.r, s: f.s, tid: f.t, title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''} ${f.a || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
-  for (const a of annuaireCache || []) out.push({ p: { id: '' }, c: { id: '' }, course: 'Acteurs', chap: `${TYPE_ACTEUR[a.type] || ''}${a.pays ? ' · ' + a.pays : ''}`, type: 'acteur', title: a.nom, text: `${a.description || ''} ${(a.dirigeants || []).map(d => d.nom + ' ' + d.titre).join(' ')} ${a.ville || ''} ${a.pays || ''}`, href: `#/acteurs/${a.id}` });
+  for (const t of D.textes) out.push({ p: { id: '' }, c: { id: '' }, course: 'Textes officiels', chap: `${ORG[t.organisme]} · ${TYPE[t.type] || t.type}${t.statut === 'abroge' ? ' · abrogé' : ''}`, abroge: t.statut === 'abroge', org: t.organisme, yr: +(t.date_adoption || '').slice(0, 4) || 0, statut: t.statut, tid: t.id, th: t.theme, type: 'texte', title: shortName(t), text: `${t.titre} ${t.numero || ''} ${t.date_texte || ''} ${themeNom(t.theme)}`, href: `#/texte/${t.id}` });
+  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'repere', kw: f.y === 'delai' ? 'delai' : f.y === 'montant' ? 'montant' : '', org: t.organisme, yr: +(t.date_adoption || '').slice(0, 4) || 0, statut: t.statut, th: f.h, x: f.x, u: f.u, y: f.y, v: f.v, art: f.a || '', n: f.n || '', r: f.r, s: f.s, tid: f.t, title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''} ${f.a || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
+  for (const a of annuaireCache || []) out.push({ p: { id: '' }, c: { id: '' }, course: 'Acteurs', chap: `${TYPE_ACTEUR[a.type] || ''}${a.pays ? ' · ' + a.pays : ''}`, acteurId: a.id, atype: a.type, short: a.nomCourt || '', dir: (a.dirigeants || []).slice(0, 2).map(d => `${d.titre} : ${d.nom}`).join(' ; '), type: 'acteur', title: a.nom, text: `${a.description || ''} ${(a.dirigeants || []).map(d => d.nom + ' ' + d.titre).join(' ')} ${a.ville || ''} ${a.pays || ''}`, href: `#/acteurs/${a.id}` });
   return out;
 };
 const RS = { q: '', type: '', course: '', more: 1 };
@@ -581,6 +581,14 @@ views.recherche = async (_a, qs_) => {
     <h1 class="h1">${lbls('Recherche')}</h1>
     <p class="onmat" style="max-width:660px;margin:6px 0 20px">Un terme, une définition, un délai, un montant, un sigle, le nom d'un texte ou d'un acteur… la recherche balaie les cours, les textes officiels, les repères et l'annuaire (accents et petites fautes tolérés).</p>
     <div class="sbar"><span class="sico">${ic('search')}</span><input id="sq" type="search" placeholder="Ex. : délai visa, capital minimum, fixing, valeur liquidative…" autocomplete="off" spellcheck="false" value="${esc(RS.q)}"><button id="sx" aria-label="Effacer" ${RS.q ? '' : 'hidden'}>${ic('x')}</button></div>
+    <details class="aide-rech"><summary>${ic('lightbulb')} Poser une question ou affiner : exemples et syntaxe</summary>
+      <div class="aide-grille">
+        <div><h4>En langage naturel</h4><ul>${["combien de temps pour obtenir l'agrément d'une société de bourse", 'qui dirige la BVMAC', 'quelle est la différence entre une SDB et une SGO', 'peut-on placer plus de 20 milliards en placement privé', "que risque-t-on en cas de délit d'initié", 'comment créer un FCP', 'délai de plus de 30 jours', 'montant au moins 100 millions'].map(x => `<li><a href="#/recherche?q=${encodeURIComponent(x)}">${esc(x)}</a></li>`).join('')}</ul></div>
+        <div><h4>Syntaxe avancée</h4><ul class="syn">
+          <li><code>"valeur liquidative"</code> expression exacte</li><li><code>visa -ape</code> exclure un mot</li><li><code>+visa agrément</code> mot obligatoire</li><li><code>agre*</code> début de mot</li><li><code>visa OR agrément</code> l'un ou l'autre</li>
+          <li><code>type:repere</code> texte, acteur, definition, fiche, delai, montant, role, piege, liste</li><li><code>org:cosumaf</code> bvmac, cemac, umac, ueac, ohada</li><li><code>statut:abroge</code> ou <code>statut:vigueur</code></li><li><code>texte:rg-23</code> un texte précis</li><li><code>annee:2023</code> <code>annee:2020..2024</code> <code>annee:&gt;2022</code></li><li><code>art:242</code> un article</li>
+          <li><code>valeur:&gt;30 unite:jours</code> ou <code>&gt;=60 jours</code>, <code>10..30 mois</code></li><li><code>titre:agrément</code> mot dans le titre</li></ul></div>
+      </div></details>
     <div class="sfilters" id="sf"></div><div id="sres"></div></div>`,
     after() {
       fond(MAT.recherche);
@@ -595,7 +603,9 @@ views.recherche = async (_a, qs_) => {
     } };
 };
 let logT, dernierLog = '';
-const reponseDirecte = (hits, q) => { const h = hits[0]; if (!h || h.it.type !== 'repere' || !['delai', 'montant', 'role', 'definition'].includes(h.it.y) || h.it.abroge) return ''; if (hits[1] && h.sc < hits[1].sc * 1.2) return ''; const it = h.it;
+const reponseDirecte = (hits, q, A) => { const h = hits[0]; if (!h || h.it.abroge) return ''; if (hits[1] && h.sc < hits[1].sc * 1.2) return ''; const it = h.it;
+  if (it.type === 'acteur' && A?.dirige && it.dir) return `<a class="answer" href="${it.href}"><span class="stag">${ic('users')} Réponse directe</span><div class="aq">${esc(it.title)}</div><div class="av avd">${esc(it.dir)}</div><small>Annuaire des acteurs</small></a>`;
+  if (it.type !== 'repere' || !['delai', 'montant', 'role', 'definition'].includes(it.y)) return '';
   return `<a class="answer" href="${it.href}"><span class="stag">${ic('scale')} Réponse directe</span><div class="aq">${esc(it.title)}</div><div class="av${['definition', 'role'].includes(it.y) ? ' avd' : ''}">${esc(it.v)}</div><small>${esc(it.course)}${it.art ? ' · ' + esc(it.art) : ''}${it.s ? ' · <b>à vérifier sur le PDF</b>' : ''}</small></a>`; };
 function resultats(idx) {
   const { q, type, course } = RS, box = $('#sres'), fb = $('#sf'); if (!box) return;
@@ -607,15 +617,15 @@ function resultats(idx) {
   $('#sc').onchange = e => { RS.course = e.target.value; RS.more = 1; resultats(idx); };
   $$('#sf .chip').forEach(b => b.onclick = () => { RS.type = b.dataset.t; RS.more = 1; resultats(idx); });
   if (!q.trim()) {
-    const sug = ['visa APE', 'capital minimum', 'société de bourse', 'dépositaire central', 'délit d\'initié', 'placement privé', 'fixing', 'OPCVM', 'valeur liquidative', 'franchissement de seuil', 'BVMAC', 'COSUMAF'];
-    box.innerHTML = `<div class="sempty">${E.perso('amina', 'think', 160, { fixe: true })}<div><h3>Cherche n'importe quoi</h3><p>Par exemple :</p><div class="sug">${sug.map(x => `<a href="#/recherche?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join('')}</div></div></div>`; return;
+    const sug = ['visa APE', 'capital minimum', 'société de bourse', 'dépositaire central', "délit d'initié", 'placement privé', 'fixing', 'OPCVM', 'valeur liquidative', 'franchissement de seuil', 'qui dirige la BVMAC', 'délai agrément SDB', 'type:delai valeur:>30', 'statut:abroge org:cosumaf'];
+    box.innerHTML = `<div class="sempty"><div><h3>Cherche n'importe quoi</h3><p>Par exemple :</p><div class="sug">${sug.map(x => `<a href="#/recherche?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join('')}</div></div></div>`; return;
   }
-  const { hits, toks, fuzzy, relaxed } = type ? B.rech.search(q, { type, course }) : base;
+  const { hits, toks, fuzzy, relaxed, interp, proches, filtreRelache, A } = type ? B.rech.search(q, { type, course }) : base;
   clearTimeout(logT); logT = setTimeout(() => { const k = q.trim().toLowerCase(); if (k.length >= 3 && k !== dernierLog) { dernierLog = k; window.MF?.ev('search', { a: k, n: hits.length }); } }, 1600);
-  if (!hits.length) { box.innerHTML = `<div class="sempty">${E.perso('samir', 'sad', 150, { fixe: true })}<div><h3>Rien trouvé pour « ${esc(q)} »</h3><p>Essaie un mot plus court, un synonyme, ou retire un filtre. Tu peux aussi <a href="mailto:${CONTACT}?subject=${encodeURIComponent('Recherche sans résultat : ' + q)}">nous signaler cette recherche</a>.</p></div></div>`; return; }
+  if (!hits.length) { box.innerHTML = `<div class="sempty"><div><h3>Rien trouvé pour « ${esc(q)} »</h3>${(proches || []).length ? `<p>Vouliez-vous dire :</p><div class="sug">${proches.map(it => `<a href="${B.rech.link(it, q)}">${esc(it.title.length > 70 ? it.title.slice(0, 68) + '…' : it.title)}</a>`).join('')}</div>` : ''}${(interp || []).length ? `<p class="interp">Compris : ${interp.map(x => `<span>${esc(x)}</span>`).join('')}</p>` : ''}<p>Essaie un mot plus court, un synonyme, ou retire un filtre. Tu peux aussi <a href="mailto:${CONTACT}?subject=${encodeURIComponent('Recherche sans résultat : ' + q)}">nous signaler cette recherche</a>.</p></div></div>`; return; }
   const shown = hits.slice(0, 20 * RS.more);
   box.innerHTML = (fuzzy ? `<p class="didyou">${ic('lightbulb')} Résultats pour <b>${esc(fuzzy.join(' '))}</b> (petite faute de frappe ?)</p>` : '') +
-    (relaxed ? `<p class="didyou">${ic('lightbulb')} Aucun contenu ne contient tous vos mots : voici les résultats les plus proches.</p>` : '') + reponseDirecte(hits, q) +
+    (relaxed ? `<p class="didyou">${ic('lightbulb')} Aucun contenu ne contient tous vos mots : voici les résultats les plus proches.</p>` : '') + (interp?.length ? `<p class="interp">${ic('search')} Compris : ${interp.map(x => `<span>${esc(x)}</span>`).join('')}${filtreRelache ? ' <em>(aucun repère ne respecte le filtre de valeur : filtre ignoré)</em>' : ''}</p>` : '') + reponseDirecte(hits, q, A) +
     `<p class="scount">${hits.length} résultat${hits.length > 1 ? 's' : ''}</p>
     <div class="slist">${shown.map(({ it }) => { const Ty = TY[it.type], isDef = it.type === 'definition' || it.type === 'repere' || it.type === 'acteur';
       return `<a class="sres" href="${B.rech.link(it, q)}" style="--tc:${Ty.col}"><span class="stag">${ic(Ty.ic)} ${Ty.sing || Ty.nom.replace(/s$/, '')}</span>
@@ -727,7 +737,7 @@ function flash(toutes, cram, f) {
 }
 
 /* ---------- Quiz ("Quiz Time!") ---------- */
-const REACTIONS = () => [ic('thumbs-up'), ic('heart', 'fill'), E.face('angry', 38), E.face('think', 38), E.face('wow', 38), E.face('laugh', 38)];
+const REACTIONS = () => [ic('thumbs-up'), ic('heart', 'fill'), E.face('angry'), E.face('think'), E.face('wow'), E.face('laugh')];
 const FLECHE = `<svg class="arrow" viewBox="0 0 64 64"><path d="M10 6 L10 50 L22 39 L31 58 L40 54 L31 36 L48 36 Z" fill="#ffc43a" stroke="#1e1b16" stroke-width="3" stroke-linejoin="round"/></svg>`;
 /* questions : { id, enonce, choix, bonne, explication, meta, voir } ; les choix sont mélangés à la création */
 const melanger = o => { const ordre = shuffle(o.choix.map((_, i) => i)); return { ...o, choix: ordre.map(i => o.choix[i]), bonne: ordre.indexOf(o.bonne) }; };
@@ -1119,7 +1129,7 @@ function tourGuide(from = 0) {
   document.addEventListener('keydown', onKey);
   const draw = () => { const st = GUIDE[i], last = i === GUIDE.length - 1;
     el.innerHTML = `<div class="gd-card"><button class="gd-x" id="gdx" aria-label="Fermer le guide">${ic('x')}</button>
-      <div class="gd-head">${E.perso('kofi', i === 0 ? 'lol' : 'joy', 84, { fixe: true })}<div class="gd-hi">${i === 0 ? 'Salut !' : 'Le coach t\'explique'}</div></div>
+      <div class="gd-head"><div class="gd-hi">${i === 0 ? 'Salut !' : 'Le coach t\'explique'}</div></div>
       <div class="gd-body"><div class="gd-ico">${ic(st.ic)}</div><small class="gd-n">Étape ${i + 1} sur ${GUIDE.length}</small><h2>${st.t}</h2>${st.p.map(x => `<p>${x}</p>`).join('')}</div>
       <div class="gd-dots">${GUIDE.map((_, k) => `<button class="${k === i ? 'on' : ''}" data-k="${k}" aria-label="Étape ${k + 1}"></button>`).join('')}</div>
       <div class="gd-btns">${i > 0 ? '<button class="btn ghost" id="gdp">← Précédent</button>' : '<button class="btn ghost" id="gdskip">Passer</button>'}${last ? '<button class="btn" id="gdgo">Commencer</button>' : '<button class="btn" id="gdn">Suivant →</button>'}</div></div>`;
@@ -1159,7 +1169,7 @@ async function monEspace() {
       <div class="notes"><a class="mnote n1" href="#/flashcards/run"><b>${due}</b><span>carte${due > 1 ? 's' : ''} à réviser</span><small>${due ? 'c\'est parti !' : 'tout est à jour'}</small></a>
         <a class="mnote n2" href="#/progres">${ic('flame')}<b>${serie}</b><span>jour${serie > 1 ? 's' : ''} de suite</span><small>${serie ? 'ne casse pas la série' : 'lance ta série !'}</small></a>
         <a class="mnote n3" href="#/planning">${ic('calendar-days')}<b>${prochain ? 'J−' + prochain.n : '?'}</b><span>${prochain ? esc(prochain.pk.court || prochain.pk.titre) : 'prochain examen'}</span><small>${prochain ? 'ouvre ton plan' : 'ajoute une date'}</small></a></div>
-      <div class="cta"><div class="coachbox">${E.perso('samir', 'cheeky', 150, { fixe: true })}<span class="say">On y va ?</span></div>
+      <div class="cta"><div class="coachbox"></div>
         <div class="ctabtns"><a class="btn" href="#/flashcards/run">Lancer la session du jour</a>${weak ? `<a class="btn ghost" href="#/quiz/run?faibles=1">Mes points faibles (${weak})</a>` : ''}<a class="btn ghost" href="#/examen">Examen blanc</a><a class="btn ghost" href="#/olympiade">Olympiade blanche</a></div></div></section>
     <section class="quests"><h2 class="sec"><span class="lbl l6">Défis du jour</span></h2><div class="qlist">${defis.map(x => `<a class="quest ${x.done ? 'done' : ''}" href="${x.href}"><span class="qi">${ic(x.done ? 'check' : x.ic)}</span><span class="qt"><b>${esc(x.txt)}</b><small>${x.max > 1 ? `${x.p} / ${x.max}` : (x.done ? 'fait !' : 'à faire')} · +${x.xp} pts</small></span>${x.done ? '<em class="qstamp">FAIT</em>' : ''}</a>`).join('')}</div></section>
     <section class="duo"><div class="wotd" id="wotd">${carteMot(defs[hashJ(auj_()) % (defs.length || 1)])}<button class="btn ghost sm" id="nw">${ic('refresh-cw')} Un autre mot</button></div></section>`;
@@ -1189,11 +1199,11 @@ const photoDir = d => d.photo ? `<img class="aphoto" src="${esc(d.photo)}" alt="
 const dateFr = d => d ? new Date(d).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 const carteActeur = a => `<li><a class="card acteur" href="#/acteurs/${a.id}">${logoActeur(a)}<span class="an"><b>${esc(a.nomCourt || a.nom)}</b>${a.nomCourt ? `<small>${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</small>` : ''}<small>${esc([a.ville, a.pays].filter(Boolean).join(', '))}</small>${a.dirigeants?.[0] ? `<small class="dg">${esc(a.dirigeants[0].titre)} : ${esc(a.dirigeants[0].nom)}</small>` : ''}</span></a></li>`;
 
-/* ---------- Les acteurs : un parcours en 9 étapes, avec Amina comme fil conducteur ---------- */
+/* ---------- Les acteurs : un parcours en 9 étapes, avec l'épargnante comme fil conducteur ---------- */
 let parcoursCache = null, guidesMeta = null;
 const chargerParcours = async () => parcoursCache ||= await fetch('/data/parcours-acteurs.json').then(r => r.json());
 const chargerGuidesMeta = async () => guidesMeta ||= await fetch('/data/guides-meta.json').then(r => r.json());
-const encartAmina = (txt, cls = '') => `<div class="amina ${cls}">${E.perso('amina', 'joy', 78, { fixe: true })}<p>${md(txt)}</p></div>`;
+const encartAmina = (txt, cls = '') => `<div class="amina ${cls}"><p>${md(txt)}</p></div>`;
 const blocActeurs = (A, spec) => {
   if (!spec) return '';
   const liste = (spec.ids ? spec.ids.map(id => A.find(a => a.id === id)) : A.filter(a => spec.types.includes(a.type))).filter(Boolean);
@@ -1209,14 +1219,14 @@ const blocActeurs = (A, spec) => {
 };
 const CHAINE = `<div class="chaine" role="img" aria-label="Le parcours d'un ordre de bourse : l'épargnant, la société de bourse, la BVMAC, le dépositaire central et la BEAC, sous le contrôle de la COSUMAF">
   <div class="ch-top"><b>COSUMAF</b><span>régule, agrée, sanctionne</span></div>
-  <div class="ch-row"><div class="ch-n"><b>Amina</b><span>donne son ordre</span></div><i>→</i><div class="ch-n"><b>Société de bourse</b><span>reçoit et transmet</span></div><i>→</i><div class="ch-n"><b>BVMAC</b><span>rapproche acheteurs et vendeurs</span></div><i>→</i><div class="ch-n"><b>Dépositaire central</b><span>livre les titres</span></div><i>+</i><div class="ch-n"><b>BEAC</b><span>règle les espèces</span></div></div>
+  <div class="ch-row"><div class="ch-n"><b>L'épargnante</b><span>donne son ordre</span></div><i>→</i><div class="ch-n"><b>Société de bourse</b><span>reçoit et transmet</span></div><i>→</i><div class="ch-n"><b>BVMAC</b><span>rapproche acheteurs et vendeurs</span></div><i>→</i><div class="ch-n"><b>Dépositaire central</b><span>livre les titres</span></div><i>+</i><div class="ch-n"><b>BEAC</b><span>règle les espèces</span></div></div>
   <div class="ch-bas"><span>Sociétés de gestion</span><span>Conseillers</span><span>Commissaires aux comptes</span><span>Émetteurs</span></div></div>`;
 async function parcoursActeurs(A, q) {
   const PA = await chargerParcours(), E_ = PA.etapes;
   const total = A.length;
-  return { title: 'Les acteurs du marché financier de la CEMAC : le parcours d\'Amina', html: `
-    <h1 class="h1">${lbls('Les acteurs')}</h1><span class="hand">Suivez l'argent d'Amina, de l'idée au titre inscrit en compte</span>
-    <div class="sheet presentation">${E.perso('amina', 'lol', 130, { fixe: true })}<div><p>${md(PA.heroine.presentation)}</p><p class="small muted" style="margin-top:8px"><a href="#/acteurs/annuaire">Chercher un acteur précis dans l'annuaire complet</a> · <a href="#/decouvrir">Suivre le parcours d'Amina dans les chapitres Découvrir</a></p></div></div>
+  return { title: 'Les acteurs du marché financier de la CEMAC : le parcours d\'une épargnante', html: `
+    <h1 class="h1">${lbls('Les acteurs')}</h1><span class="hand">Suivez l'argent d'une épargnante, de l'idée au titre inscrit en compte</span>
+    <div class="sheet presentation"><div><p>${md(PA.heroine.presentation)}</p><p class="small muted" style="margin-top:8px"><a href="#/acteurs/annuaire">Chercher un acteur précis dans l'annuaire complet</a> · <a href="#/decouvrir">Suivre le parcours d'une épargnante dans les chapitres Découvrir</a></p></div></div>
     <nav class="rail" aria-label="Les étapes du parcours">${E_.map(e => `<a href="#/acteurs?e=${e.n}" data-etape="${e.n}"><span>${e.n}</span><small>${esc(e.court)}</small></a>`).join('')}</nav>
     ${E_.map((e, i) => `<section class="etape" id="etape-${e.n}">
       <header class="eh"><span class="nn">${e.n}</span><div><small>Étape ${e.n} sur ${E_.length}</small><h2>${esc(e.titre)}</h2><p>${esc(e.accroche)}</p></div></header>
@@ -1224,7 +1234,7 @@ async function parcoursActeurs(A, q) {
       <div class="sheet texte">${e.texte.map(t => `<p>${md(t)}</p>`).join('')}</div>
       ${e.chiffres ? `<div class="chiffres">${e.chiffres.map(x => `<div class="card chf"><b>${esc(String(x.v).replace('{{total}}', total))}</b><span>${esc(x.l)}</span></div>`).join('')}</div>` : ''}
       ${e.chaine ? CHAINE : ''}
-      ${e.pour_amina ? `<div class="pouramina"><b>Pour Amina</b><p>${esc(e.pour_amina)}</p></div>` : ''}
+      ${e.pour_amina ? `<div class="pouramina"><b>En pratique</b><p>${esc(e.pour_amina)}</p></div>` : ''}
       ${blocActeurs(A, e.acteurs)}${blocActeurs(A, e.acteurs2)}
       ${e.faits ? `<details class="textes"><summary>${ic('file-text')} Ce que disent les textes</summary><div class="facts">${e.faits.map(id => D.parId.get(id)).filter(Boolean).map(f => factHtml(f, true)).join('')}</div></details>` : ''}
       <div class="banner info retenir">${ic('lightbulb')}<div><strong>À retenir.</strong> ${esc(e.retenir)}</div></div>
@@ -1253,7 +1263,7 @@ views.acteurs = async ([id], q) => {
       <div class="crumbs"><a href="#/acteurs">Acteurs</a> ${ic('chevron-right')} ${groupe ? `<a href="#/acteurs${qs({ g: groupe[0] })}">${groupe[1]}</a> ${ic('chevron-right')} ` : ''}<span>${esc(a.nomCourt || a.nom)}</span></div>
       <header class="doc-head afiche"><div class="aentete">${logoActeur(a, 'grand')}<div><span class="badge">${TYPE_ACTEUR[a.type]}${a.categorie && a.categorie !== TYPE_ACTEUR[a.type] ? ' · ' + esc(a.categorie) : ''}</span><h1 class="h1" style="margin:10px 0 6px">${lbls(a.nomCourt || a.nom)}</h1>${a.nomCourt ? `<p class="full">${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</p>` : ''}</div></div></header>
       ${a.description ? `<div class="sheet"><p>${esc(a.description)}</p></div>` : (PA_.textes_type[a.type] ? `<div class="sheet"><p>${esc(PA_.textes_type[a.type])}</p></div>` : '')}
-      ${PA_.etape_type[a.type] ? `<a class="suite place" href="#/acteurs?e=${PA_.etape_type[a.type]}"><small>Sa place dans le parcours d'Amina</small><b>Étape ${PA_.etape_type[a.type]} : ${esc(PA_.etapes[PA_.etape_type[a.type] - 1].titre)}</b><span>${ic('arrow-right')}</span></a>` : ''}
+      ${PA_.etape_type[a.type] ? `<a class="suite place" href="#/acteurs?e=${PA_.etape_type[a.type]}"><small>Sa place dans le parcours d'une épargnante</small><b>Étape ${PA_.etape_type[a.type]} : ${esc(PA_.etapes[PA_.etape_type[a.type] - 1].titre)}</b><span>${ic('arrow-right')}</span></a>` : ''}
       ${a.dirigeants?.length ? `<h2 class="sec"><span class="lbl l2">Direction</span></h2><div class="dirigeants">${a.dirigeants.map(d => `<div class="card dir">${photoDir(d)}<div><b>${esc(d.nom)}</b><small>${esc(d.titre)}${d.depuis ? ' · depuis ' + esc(d.depuis) : ''}</small>${d.note ? `<small class="note">${esc(d.note)}</small>` : ''}</div></div>`).join('')}</div>` : ''}
       <h2 class="sec"><span class="lbl l6">Informations</span></h2>
       <div class="sheet infos">${ligne('scale', 'Numéro d\'agrément', a.agrement ? `${esc(a.agrement.numero)}${a.agrement.date ? ' · ' + dateFr(a.agrement.date) : ''}` : '')}${ligne('library', 'Siège', esc([a.ville, a.pays].filter(Boolean).join(', ')))}${ligne('book-open', 'Adresse', esc(a.adresse || ''))}${ligne('message-circle', 'Téléphone', esc(a.tel || ''))}${ligne('link', 'E-mail', a.email ? `<a href="mailto:${esc(a.email)}">${esc(a.email)}</a>` : '')}${ligne('external-link', 'Site web', a.site ? `<a href="${esc(a.site)}" target="_blank" rel="noopener">${esc(a.site.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a>` : '')}${a.secteur ? ligne('activity', 'Secteur', esc(a.secteur)) : ''}${a.faits ? a.faits.map(f => `<div class="ligne">${ic('lightbulb')}<span>${esc(f)}</span></div>`).join('') : ''}</div>
@@ -1553,7 +1563,7 @@ const guideView = porte => async ([id]) => {
   const GM = await chargerGuidesMeta();
   if (!id) { const parties = [...new Set(gs.map(g => g.partie))]; return { title: P.nom, html: `
     <h1 class="h1">${lbls(P.nom)}</h1><span class="hand">${P.sous}</span>
-    <div class="sheet presentation">${E.perso('amina', 'lol', 130, { fixe: true })}<div><p>${md("Voici **Amina**. Elle a 500 000 FCFA d'économies et se demande si la bourse peut l'aider à les faire travailler. Chaque chapitre répond à une de ses questions, dans l'ordre où elle se les pose. Vous pouvez tout lire d'une traite, ou aller directement au chapitre qui vous intéresse.")}</p><p class="small muted" style="margin-top:8px"><a href="#/acteurs">Rencontrer les acteurs du marché, étape par étape</a></p></div></div>
+    <div class="sheet presentation"><div><p>${md("Prenons une épargnante : elle a 500 000 FCFA d'économies et se demande si la bourse peut l'aider à les faire travailler. Chaque chapitre répond à une de ses questions, dans l'ordre où elle se les pose. Vous pouvez tout lire d'une traite, ou aller directement au chapitre qui vous intéresse.")}</p><p class="small muted" style="margin-top:8px"><a href="#/acteurs">Rencontrer les acteurs du marché, étape par étape</a></p></div></div>
     ${parties.map((pt, k) => `<section class="partie"><h2 class="sec"><span class="lbl l${k % 6 + 1}">Partie ${k + 1} · ${esc(pt)}</span></h2><p class="onmat" style="max-width:720px;margin:-6px 0 18px">${esc(GM.parties[pt] || '')}</p>
       <ol class="list guides">${gs.filter(g => g.partie === pt).map(g => `<li><a class="card item" href="#/${porte}/${g.id}"><span class="num">${g.ordre}</span><span class="t">${esc(g.titre)}</span><span class="sub">${esc(g.accroche)}</span><span class="histoire-min">${esc(g.histoire || '')}</span><span class="meta"><span>${nbRepères(g)} repères sourcés</span></span></a></li>`).join('')}</ol></section>`).join('')}`,
     after() { fond(P.mat); } }; }

@@ -6,12 +6,11 @@ const E = window.E = {};
 window.B = window.B || { routes: {} };
 const COULEURS = { kofi: '#8fa9ff', amina: '#ffcb52', leo: '#5fd3b3', nadia: '#b99cff', samir: '#ff7f7f', fatou: '#ff9f5a', jean: '#8fa9ff', lina: '#ffcb52' };
 E.noms = Object.keys(COULEURS);
-E.perso = (qui = 'kofi', humeur = 'joy', taille = 160, o = {}) => { const k = COULEURS[qui] ? qui : 'kofi';
-  return `<div class="pz ${o.fixe ? '' : 'bob'}" style="width:${taille}px;height:${taille}px;--pc:${COULEURS[k]}"><span class="blob"></span><img src="/img/persos/${k}-${humeur}.svg" alt="" width="${taille}" height="${taille}" ${o.flip ? 'style="transform:scaleX(-1)"' : ''} draggable="false"></div>`; };
+E.perso = () => '';
 E.choisir = (graine = '') => { let h = 0; for (const c of String(graine)) h = (h * 31 + c.charCodeAt(0)) >>> 0; return E.noms[h % E.noms.length]; };
-E.cheer = (r = 1, taille = 170) => E.perso(r >= .8 ? 'kofi' : r >= .5 ? 'amina' : 'samir', r >= .8 ? 'lol' : r >= .5 ? 'joy' : 'proud', taille);
-const FACE = { laugh: 'lol', angry: 'angry', think: 'think', wow: 'wow', smile: 'joy', sad: 'sad' };
-E.face = (type, taille = 34) => `<span class="rface" style="width:${taille}px;height:${taille}px"><img src="/img/persos/kofi-${FACE[type] || 'joy'}.svg" alt="" draggable="false"></span>`;
+E.cheer = () => '';
+const FACE = { laugh: 'smile', angry: 'meh', think: 'lightbulb', wow: 'sparkles', smile: 'smile', sad: 'meh' };
+E.face = (type, taille = 34) => window.ic(FACE[type] || 'smile');
 
 /* ---------- sons ---------- */
 let ctx = null, muet = false;
@@ -38,12 +37,13 @@ E.sfx = {
 /* ---------- coach ---------- */
 const DIT = { ok: ['Bien joué !', 'Exactement !', 'Tu gères !', 'Yes !', 'Parfait !', 'Trop fort !', 'Bravo !'], ko: ['Pas grave !', 'Presque !', 'On retient !', 'Courage !', 'Aïe… la prochaine !'], win: ['Incroyable !', 'Champion·ne !', 'Quel score !'] };
 let el, bulleT, qui = 'kofi';
-const construire = () => { if (el) return; el = document.createElement('div'); el.id = 'coach'; el.innerHTML = '<div class="cbub"></div><div class="cwho"></div>'; document.body.appendChild(el); };
-const dessiner = humeur => { el.querySelector('.cwho').innerHTML = E.perso(qui, humeur, 140, { fixe: true }); };
+const construire = () => { return; if (el) return; el = document.createElement('div'); el.id = 'coach'; el.innerHTML = '<div class="cbub"></div><div class="cwho"></div>'; document.body.appendChild(el); };
+const dessiner = () => {};
 E.coach = {
-  show(w) { construire(); qui = w || E.choisir(location.hash); el.classList.add('on'); dessiner('joy'); },
+  show(w) { return; construire(); qui = w || E.choisir(location.hash); el.classList.add('on'); dessiner('joy'); },
   hide() { if (el) { el.classList.remove('on'); el.querySelector('.cbub').classList.remove('on'); } },
   say(humeur, texte, ms = 2600) {
+    return;
     if (!el || !el.classList.contains('on')) return; dessiner(humeur);
     const w = el.querySelector('.cwho'); w.classList.remove('hop'); void w.offsetWidth; w.classList.add('hop');
     const b = el.querySelector('.cbub'); b.textContent = texte; b.classList.add('on'); clearTimeout(bulleT); bulleT = setTimeout(() => b.classList.remove('on'), ms);
