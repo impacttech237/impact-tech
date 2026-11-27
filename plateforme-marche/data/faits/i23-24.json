@@ -436,7 +436,7 @@
     "texte": "i23-24",
     "type": "montant",
     "article": "art. 2, I",
-    "enonce": "Plafond de la commission de placement d'une société de bourse",
+    "enonce": "Plafond de la commission de structuration / arrangement d'une société de bourse (marché primaire)",
     "valeur_texte": "1,75 % du montant levé",
     "type_valeur": "nombre",
     "valeur": 1.75,
@@ -508,7 +508,7 @@
     "texte": "i23-24",
     "type": "montant",
     "article": "art. 2, II",
-    "enonce": "Plafond du droit de garde d'une banque teneur de comptes",
+    "enonce": "Plafond de la commission de conservation d'une banque teneur de comptes (le droit de garde est gratuit)",
     "valeur_texte": "0,30 % de la valeur conservée",
     "type_valeur": "nombre",
     "valeur": 0.3,
@@ -720,6 +720,24 @@
     "confiance": "a_verifier"
   },
   {
+    "id": "i23-24.montant.37",
+    "texte": "i23-24",
+    "type": "montant",
+    "article": "art. 2, I",
+    "enonce": "Plafond de la commission de placement des titres d'une société de bourse (marché primaire)",
+    "valeur_texte": "1 % du montant levé",
+    "type_valeur": "nombre",
+    "valeur": 1,
+    "unite": "%",
+    "borne": "exact",
+    "note": null,
+    "themes": [
+      "vie"
+    ],
+    "niveau": null,
+    "confiance": "a_verifier"
+  },
+  {
     "id": "i23-24.role.01",
     "texte": "i23-24",
     "type": "role",
@@ -851,8 +869,8 @@
     "texte": "i23-24",
     "type": "piege",
     "article": null,
-    "enonce": "Frais de gestion d'OPC « autres que actions » : lu 1,5 % HT (chiffre partiellement illisib",
-    "valeur_texte": "Frais de gestion d'OPC « autres que actions » : lu **1,5 % HT** (chiffre partiellement illisible dans le scan) ; actions **2 %**, mandat **3 %**.",
+    "enonce": "Frais de gestion d'OPC « autres que actions » : 1,5 % HT (chiffre partiellement illisib",
+    "valeur_texte": "Frais de gestion d'OPC « autres que actions » : **1,5 % HT** ; actions **2 %**, mandat **3 %**.",
     "note": null,
     "themes": [
       "vie"

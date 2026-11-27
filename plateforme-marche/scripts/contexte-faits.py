@@ -15,10 +15,11 @@ def page_de(i):
 def sa(s): return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
 for k, f in enumerate(faits):
     if k < a or k >= b: continue
+    if os.environ.get('TYPES') and f['type'] not in os.environ['TYPES'].split(','): continue
     c = ctl.get(f['id'], {}); pos = c.get('p')
-    head = f"[{k}] {f['id'].split('.',1)[1]} | {f.get('article')} | {f['enonce'][:100]} => {f['valeur_texte'][:110]} | auto={c.get('s')}"
+    head = f"[{k}] {f['id'].split('.',1)[1]} | {f.get('article')} | {f['enonce'][:90]} => {f['valeur_texte'][:90]} | {c.get('s')}"
     if pos is None or f['type'] in ('piege',):
         print(head); continue
     i = int(pos * len(sa(raw)))
-    ex = re.sub(r'\s+', ' ', raw[max(0, i - 160): i + 260])
+    ex = re.sub(r'\s+', ' ', raw[max(0, i - int(os.environ.get('AV', 160))): i + int(os.environ.get('AP', 260))])
     print(head); print('    p.%d : …%s…' % (page_de(i), ex))

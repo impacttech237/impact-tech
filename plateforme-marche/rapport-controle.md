@@ -2,7 +2,7 @@
 
 Généré le 2026-11-27. Contrôle automatique (OCR + recherche de la valeur) : ce n'est pas une relecture humaine.
 
-Global : {'non_concluant': 145, 'confirme': 1319, 'non_retrouve': 27}
+Global : {'non_concluant': 145, 'confirme': 1320, 'non_retrouve': 27}
 
 | Texte | confirmé | non concluant | non retrouvé | sans PDF |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@ Global : {'non_concluant': 145, 'confirme': 1319, 'non_retrouve': 27}
 | i20-24 | 6 | 2 | 0 | 0 |
 | i21-24 | 26 | 1 | 0 | 0 |
 | i22-24 | 15 | 2 | 0 | 0 |
-| i23-24 | 43 | 6 | 0 | 0 |
+| i23-24 | 44 | 6 | 0 | 0 |
 | i24-24 | 11 | 1 | 0 | 0 |
 | i25-24 | 2 | 1 | 1 | 0 |
 | i26-24 | 11 | 1 | 1 | 0 |

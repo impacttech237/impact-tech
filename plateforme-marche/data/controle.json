@@ -2578,7 +2578,7 @@
 "i23-24.montant.21": {
 "s": "confirme",
 "p": 0.157,
-"kw": 0.8,
+"kw": 0.88,
 "art": true
 },
 "i23-24.montant.22": {
@@ -2602,7 +2602,7 @@
 "i23-24.montant.25": {
 "s": "confirme",
 "p": 0.406,
-"kw": 0.17,
+"kw": 0.22,
 "art": true
 },
 "i23-24.montant.26": {
@@ -2669,6 +2669,12 @@
 "s": "non_concluant",
 "p": 0.479,
 "kw": 0.0,
+"art": true
+},
+"i23-24.montant.37": {
+"s": "confirme",
+"p": 0.157,
+"kw": 0.88,
 "art": true
 },
 "i23-24.role.01": {

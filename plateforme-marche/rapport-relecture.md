@@ -1,6 +1,6 @@
 # Rapport de relecture
 
-Textes : 82 · Faits : 1491 · Faits à vérifier : 1491
+Textes : 82 · Faits : 1492 · Faits à vérifier : 1492
 
 | Texte | Référence | Date | Statut | Couverture | Faits | À vérifier |
 |---|---|---|---|---|---|---|
@@ -8,7 +8,7 @@ Textes : 82 · Faits : 1491 · Faits à vérifier : 1491
 | rg-23 | reglement_general COSUMAF (2023) | 2023-05-23 | en_vigueur (non vérifié) | partielle | 94 | 94 |
 | rbv-25 | reglement_bvmac 2025 | 2025-04-24 | en_vigueur (non vérifié) | partielle | 70 | 70 |
 | cc-03-20 | communique Communiqué COSUMAF 03/20 | 2020-03-04 | en_vigueur (non vérifié) | partielle | 51 | 51 |
-| i23-24 | instruction 23-24 | 2024-07-18 | en_vigueur (non vérifié) | partielle | 49 | 49 |
+| i23-24 | instruction 23-24 | 2024-07-18 | en_vigueur (non vérifié) | partielle | 50 | 50 |
 | rbv-08 | reglement_general BVMAC (2008) | 2008-09-14 | abroge (déduit) | partielle | 41 | 41 |
 | rfi-07 | reglement_ueac 07-UEAC-175-CM-15 | 2007-03-19 | en_vigueur (non vérifié) | partielle | 31 | 31 |
 | i47-25 | instruction 47-25 | 2025-12-15 | en_vigueur (non vérifié) | partielle | 29 | 29 |
