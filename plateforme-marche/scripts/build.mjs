@@ -100,6 +100,7 @@ const compact = faits.map(f => {
   const o = { id: f.id, t: f.texte, y: f.type, q: f.enonce, v: f.valeur_texte, h: f.themes?.[0] };
   if (f.article) o.a = f.article; if (f.note) o.n = f.note; if (f.items) o.i = f.items; if (f.acteurs?.length) o.c = f.acteurs;
   if (f.type_valeur === 'nombre') { o.x = f.valeur; o.u = f.unite; }
+  if (f.confiance === 'verifie') o.r = 1; if (/scan|d[ée]grad|relire/i.test(f.note || '')) o.s = 1;
   return o;
 });
 const retenir = [];
@@ -110,9 +111,9 @@ for (const t of textes) {
 }
 const empreinte = crypto.createHash('sha1').update(JSON.stringify([index, compact, retenir])).digest('hex').slice(0, 10);
 index.version = empreinte;
-index.vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => compact.find(f => f.id === id)).filter(Boolean);
+index.vedettes = ['rg-23.delai.16', 'rg-23.delai.07', 'rg-23.montant.07', 'aa06-17.montant.01'].map(id => compact.find(f => f.id === id)).filter(Boolean);
 index.genere_le = new Date().toISOString().slice(0, 10);
-index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.filter(t => t.confiance !== 'verifie').length };
+index.stats = { textes: textes.length, faits: faits.length, a_verifier: textes.filter(t => t.confiance !== 'verifie').length, faits_relus: faits.filter(f => f.confiance === 'verifie').length, faits_scan: faits.filter(f => /scan|d[ée]grad|relire/i.test(f.note || '')).length };
 ecrire('data/index.json', index);
 ecrire('data/faits.json', compact);
 ecrire('data/guides.json', guides);

@@ -20,14 +20,14 @@ const ORG = { cosumaf: 'COSUMAF', bvmac: 'BVMAC', cemac: 'CEMAC', umac: 'UMAC', 
 const STATUT = { en_vigueur: 'En vigueur', abroge: 'Abrogé', modifie: 'Modifié', projet: 'Projet' };
 const COUV = { complete: 'Texte couvert en entier', partielle: 'Couverture partielle', contexte: 'Fiche de contexte' };
 const SECTIONS = { delai: 'Délais', montant: 'Montants et seuils', role: 'Rôles des acteurs', definition: 'Définitions', liste: 'Listes à retenir', piege: 'Pièges' };
-const SPECIAL = { 'r19-intro': 'Règlement CEMAC/UMAC de 2019 (introduction en bourse des États)', 'rg-23': 'Règlement général de la COSUMAF (2023)', 'rbv-08': 'Règlement général de la BVMAC (2008)', 'rbv-25': 'Règlement général de la BVMAC (2025)', 'rfi-07': 'Règlement UEAC 14/07 (régime fiscal BVMAC)', 'r06-03': 'Règlement 06/03 (organisation du marché, ancien)' };
+const SPECIAL = { 'r19-intro': 'Règlement CEMAC/UMAC de 2019 (introduction en bourse des États)', 'rg-23': 'Règlement général de la COSUMAF (2023)', 'rbv-08': 'Règlement général de la BVMAC (2008)', 'rbv-25': 'Règlement général de la BVMAC (2025)', 'rfi-07': 'Règlement UEAC 14/07 (régime fiscal BVMAC)', 'r03-26': 'Règlement n° 03 du 7 octobre 2026 (placement privé)', 'r06-03': 'Règlement 06/03 (organisation du marché, ancien)' };
 
 let D = null;
 const T = id => D.T.get(id);
 const shortName = t => {
   if (SPECIAL[t.id]) return SPECIAL[t.id];
   const base = TYPE[t.type] || ''; const n = t.numero || '';
-  return fold(n).startsWith(fold(base)) ? n : `${base} ${n}`.trim();
+  return (fold(n).startsWith(fold(base)) ? n : `${base} ${n}`.trim()).replace(/\b(\S+) \1\b/g, '$1');
 };
 const dateCourte = t => { const d = (t.date_texte || '').split(',')[0]; return /^\d/.test(d) ? ' du ' + d : d ? ` (${d})` : ''; };
 const citation = (t, article) => `${shortName(t)}${dateCourte(t)}${article ? ', ' + article : ''}`;
@@ -79,7 +79,7 @@ const options = (map, sel, tous) => `<option value="">${tous}</option>` + Object
 const MENU = [
   { titre: 'Comprendre', liens: [['/decouvrir', 'lightbulb', 'Découvrir', 'Les bases, sans jargon'], ['/acteurs', 'users', 'Les acteurs', 'Régulateur, bourse, sociétés'], ['/bibliotheque', 'graduation-cap', 'Cours', 'Onze cours complets'], ['/textes', 'file-text', 'Textes officiels', 'COSUMAF, BVMAC, CEMAC'], ['/pratiquer', 'clipboard-list', 'Délais et montants', 'Tous les repères chiffrés']] },
   { titre: 'S\'entraîner', liens: [['/flashcards', 'layers', 'Flashcards', 'Retourner, se noter'], ['/quiz', 'circle-check', 'Quiz', 'Séries de questions'], ['/jeux', 'gamepad-2', 'Jeux', 'Réviser en jouant'], ['/exercices', 'pencil-line', 'Exercices', 'Trous, tri, ordre'], ['/examen', 'clipboard-check', 'Examen blanc', 'Conditions réelles'], ['/olympiade', 'trophy', 'Olympiade blanche', 'Le grand test'], ['/planning', 'calendar-days', 'Plan de révision', 'Jour après jour'], ['/progres', 'activity', 'Mes progrès', 'Niveau, série, badges']] },
-  { titre: 'Aide', liens: [['/guide', 'compass', 'Guide d\'utilisation', 'Prendre en main'], ['/a-propos', 'info', 'À propos', 'Le projet, les sources']] },
+  { titre: 'Aide', liens: [['/guide', 'compass', 'Guide d\'utilisation', 'Prendre en main'], ['/a-propos', 'info', 'À propos', 'Le projet, les sources'], ['/methode', 'shield-check', 'Méthode et vérification', 'Comment les repères sont contrôlés'], ['/mentions', 'scale', 'Mentions légales', 'Éditeur, confidentialité']] },
 ];
 const NAV_DIRECT = [['/decouvrir', 'Découvrir'], ['/bibliotheque', 'Cours'], ['/textes', 'Textes'], ['/acteurs', 'Acteurs']];
 const lienMenu = ([h, i, l, d]) => `<a href="#${h}" data-nav="${h}" class="mlien">${ic(i)}<span><b>${l}</b><small>${d}</small></span></a>`;
@@ -113,7 +113,7 @@ function cadre() {
   document.addEventListener('click', e => { if (!e.target.closest('.pop')) { const p = $('#entpan'); if (p && !p.hidden) { p.hidden = true; $('#ent').setAttribute('aria-expanded', 'false'); } } });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && (!$('#tiroir').hidden || !$('#entpan').hidden)) fermerMenu(!$('#tiroir').hidden); });
   $('#foot').innerHTML = `<div class="foot-in"><div><strong>Outil d'aide à la lecture, non officiel.</strong> Il ne remplace pas les textes publiés par la COSUMAF et la BVMAC. Les textes viennent des sites officiels de la COSUMAF et de la BVMAC : citez toujours le texte publié.</div>
-    <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">En savoir plus</a> · <a href="/textes/">Liste des textes</a> · <a href="#/guide">Guide</a> · <a href="#/planning">Plan de révision</a> · <a href="#/olympiade">Olympiade blanche</a></div></div>`;
+    <div>Gratuit, sans compte. Données du ${esc(D.genere_le)} · version ${esc(D.version)} · ${D.stats.textes} textes, ${D.stats.faits} faits. <a href="#/a-propos">À propos</a> · <a href="#/methode">Méthode</a> · <a href="#/mentions">Mentions légales</a> · <a href="/textes/">Liste des textes</a> · <a href="#/guide">Guide</a> · <a href="#/planning">Plan de révision</a> · <a href="#/olympiade">Olympiade blanche</a></div></div>`;
 }
 const marquerNav = path => {
   const dans = h => h === '/' ? path === '/' : path.startsWith(h) || (h === '/bibliotheque' && (path.startsWith('/texte') || path.startsWith('/cours')));
@@ -161,7 +161,7 @@ views.accueil = async () => {
   const [gs, , ANN] = await Promise.all([chargerGuides().catch(() => []), chargerCoursIdx(), chargerAnnuaire().catch(() => [])]);
   const nbPdf = D.textes.filter(t => t.pdf).length, nbEnVigueur = D.textes.filter(t => t.statut === 'en_vigueur').length;
   const exemples = ['délai visa APE', 'capital minimum société de bourse', 'placement privé', 'agrément dirigeant'];
-  const vedettes = ['rbv-25.delai.19', 'r01-22.delai.03', 'rbv-25.montant.01', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
+  const vedettes = ['rg-23.delai.16', 'rg-23.delai.07', 'rg-23.montant.07', 'aa06-17.montant.01'].map(id => D.parId.get(id)).filter(Boolean);
   const public_ = [
     ['#/decouvrir', 'lightbulb', 'Grand public', 'Je veux comprendre la bourse', 'Épargner, acheter, vendre, se protéger : les bases expliquées simplement, chaque affirmation renvoyant à son article.', 'Découvrir'],
     ['#/bibliotheque', 'graduation-cap', 'Étudiants', 'J\'étudie le marché financier', 'Onze cours complets : résumés, fiches, schémas animés et glossaire, puis flashcards et quiz pour retenir.', 'Ouvrir les cours'],
@@ -206,8 +206,8 @@ views.accueil = async () => {
 
     ${ANN.length ? `<section class="land"><h2 class="sec"><span class="lbl l5">Les acteurs du marché</span></h2>
       <p class="lead">Le régulateur, la bourse, ${ANN.filter(a => a.type === 'societe-de-bourse').length} sociétés de bourse, ${ANN.filter(a => a.type === 'sgo').length} sociétés de gestion et leurs dirigeants : retrouvez qui fait quoi, avec les logos et les coordonnées officielles.</p>
-      <div class="vedettes" style="margin-top:20px">${ANN.filter(a => ['cosumaf', 'bvmac'].includes(a.id)).map(a => `<a class="card vedette" href="#/acteurs/${a.id}">${logoActeur(a, 'grand')}<div><small>${TYPE_ACTEUR[a.type]}</small><b>${esc(a.nomCourt)}</b>${a.dirigeants?.[0] ? `<span class="vdir">${photoDir(a.dirigeants[0])}<span>${esc(a.dirigeants[0].nom)}<small>${esc(a.dirigeants[0].titre)}</small></span></span>` : ''}</div></a>`).join('')}</div>
-      <div class="logos-ruban" aria-label="Quelques acteurs">${ANN.filter(a => a.logo && a.type === 'societe-de-bourse').slice(0, 8).map(a => `<a href="#/acteurs/${a.id}" title="${esc(a.nom)}">${logoActeur(a)}</a>`).join('')}</div>
+      <div class="vedettes" style="margin-top:20px">${ANN.filter(a => ['cosumaf', 'bvmac'].includes(a.id)).map(a => `<a class="card vedette" href="#/acteurs/${a.id}">${logoActeur(a, 'grand')}<div><small>${TYPE_ACTEUR[a.type]}</small><b>${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</b>${a.dirigeants?.[0] ? `<span class="vdir">${photoDir(a.dirigeants[0])}<span>${esc(a.dirigeants[0].nom)}<small>${esc(a.dirigeants[0].titre)}</small></span></span>` : ''}</div></a>`).join('')}</div>
+      
       <p style="margin-top:18px"><a class="btn" href="#/acteurs">${ic('users')} Voir tous les acteurs</a></p></section>` : ''}
 
     <section class="land"><h2 class="sec"><span class="lbl l6">Une réponse en quelques secondes</span></h2>
@@ -449,10 +449,13 @@ views.cours = async ([id], q) => {
     } };
 };
 
+const CONTACT = 'impacttech237@gmail.com';
+const signaler = (t, f) => `mailto:${CONTACT}?subject=${encodeURIComponent('Erreur signalée : ' + (f ? f.id : t.id))}&body=${encodeURIComponent(['Texte : ' + shortName(t), f ? 'Repère : ' + f.id + ' (' + f.q + ')' : '', 'Version de la base : ' + D.version, '', 'Ce qui est faux, et la source (article, page du texte officiel) :', ''].join(String.fromCharCode(10)))}`;
+const statutFait = f => f.r ? '<span class="badge ok" title="Relu contre le texte officiel">Relu</span>' : f.s ? '<span class="badge bad" title="Chiffre lu sur un scan : à vérifier sur le PDF">À vérifier sur le PDF</span>' : '';
 const factHtml = (f, avecSource) => {
   const t = T(f.t);
   const cite = citation(t, f.a);
-  const act = `<span class="act">${avecSource ? `<a class="srcl" href="#/texte/${f.t}${qs({ f: f.id })}">${esc(shortName(t))}</a>` : ''}${f.a ? `<span class="art">${esc(f.a)}</span>` : ''}<button class="btn sm" data-copy="${esc(cite)}" title="Copier la citation" aria-label="Copier la citation">${ic('quote')}</button></span>`;
+  const act = `<span class="act">${statutFait(f)}<a class="btn sm sig" href="${signaler(t, f)}" title="Signaler une erreur sur ce repère" aria-label="Signaler une erreur sur ce repère">${ic('flag')}</a>${avecSource ? `<a class="srcl" href="#/texte/${f.t}${qs({ f: f.id })}">${esc(shortName(t))}</a>` : ''}${f.a ? `<span class="art">${esc(f.a)}</span>` : ''}<button class="btn sm" data-copy="${esc(cite)}" title="Copier la citation" aria-label="Copier la citation">${ic('quote')}</button></span>`;
   if (f.y === 'piege') return `<li id="f-${f.id}">${md(f.v)}</li>`;
   if (f.y === 'liste') return `<div class="fact" id="f-${f.id}"><div class="q">${esc(f.q)}</div><div class="v"><ul style="margin:0;padding-left:18px;font-weight:400">${(f.i || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>${act}</div>`;
   if (f.y === 'role' || f.y === 'definition') return `<div class="fact" id="f-${f.id}"><div class="q">${esc(f.q)}</div><div class="v" style="font-weight:400">${esc(f.v)}</div>${act}</div>`;
@@ -492,6 +495,7 @@ views.texte = async ([id], q) => {
     <div class="crumbs"><a href="#/bibliotheque">Bibliothèque</a> ${ic('chevron-right')} <span>${esc(shortName(t))}</span></div>
     <header class="doc-head"><h1 class="h1">${lbls(shortName(t))}</h1>${sous ? `<p class="full">${esc(sous)}</p>` : ''}
       <div class="meta">${badgeStatut(t)}<span class="badge">${esc(ORG[t.organisme])}</span>${t.date_texte ? `<span class="muted">${esc(t.date_texte)}</span>` : ''}</div>
+      ${t.pdf ? `<p class="copie">Copie du PDF hébergée ici, état du ${esc(dateFr(D.genere_le))}. Le texte officiel fait foi : <a href="#/methode">comment nous le vérifions</a>.</p>` : ''}
       <div class="actions">
         ${t.pdf ? `<a class="btn" href="/pdf/${t.id}.pdf" download="${esc(shortName(t).replace(/[\/:*?"<>|]+/g, '-'))}.pdf">${ic('download')} Télécharger le PDF <small>(${t.pdf > 1e6 ? (t.pdf / 1e6).toFixed(1) + ' Mo' : Math.max(1, Math.round(t.pdf / 1e3)) + ' Ko'})</small></a>` : ''}
         ${t.url ? `<a class="btn ${t.pdf ? 'ghost' : ''}" href="${esc(t.url)}" target="_blank" rel="noopener">${ic('external-link')} Site officiel</a>` : ''}
@@ -500,7 +504,7 @@ views.texte = async ([id], q) => {
           <button class="btn sm" data-copy="${esc(location.origin + '/#/texte/' + id)}">${ic('link')} Copier le lien</button>
           <button class="btn sm" id="csvt" ${faits.some(f => f.y === 'delai' || f.y === 'montant') ? '' : 'disabled'}>${ic('download')} Délais et montants (CSV)</button>
           <button class="btn sm" onclick="print()">${ic('printer')} Imprimer</button>
-          <button class="btn sm" data-copy="${esc(`Erreur signalée sur « ${shortName(t)} » (${id}), version ${D.version} : `)}">${ic('flag')} Signaler une erreur</button>
+          <a class="btn sm" href="${signaler(t)}">${ic('flag')} Signaler une erreur</a>
         </div></details>
       </div></header>
     ${t.statut === 'abroge' ? `<div class="banner bad">${ic('triangle-alert')}<div><strong>Ce texte est abrogé.</strong> Ne le citez pas comme droit en vigueur.</div></div>` : ''}
@@ -563,8 +567,8 @@ views.pratiquer = async (_a, q) => {
 /* ---------- Recherche : page reprise à l'identique d'Excellence (olympiades/js/recherche.js), avec en plus les textes, les repères et les acteurs ---------- */
 B.rechExtra = () => {
   const out = [];
-  for (const t of D.textes) out.push({ p: { id: '' }, c: { id: '' }, course: 'Textes officiels', chap: `${ORG[t.organisme]} · ${TYPE[t.type] || t.type}${t.statut === 'abroge' ? ' · abrogé' : ''}`, type: 'texte', title: shortName(t), text: `${t.titre} ${t.numero || ''} ${t.date_texte || ''} ${themeNom(t.theme)}`, href: `#/texte/${t.id}` });
-  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, type: 'repere', title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
+  for (const t of D.textes) out.push({ p: { id: '' }, c: { id: '' }, course: 'Textes officiels', chap: `${ORG[t.organisme]} · ${TYPE[t.type] || t.type}${t.statut === 'abroge' ? ' · abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'texte', title: shortName(t), text: `${t.titre} ${t.numero || ''} ${t.date_texte || ''} ${themeNom(t.theme)}`, href: `#/texte/${t.id}` });
+  for (const f of D.faits) { const t = T(f.t); out.push({ p: { id: '' }, c: { id: '' }, course: shortName(t), chap: `${ONGLETS[f.y] || f.y}${f.a ? ' · ' + f.a : ''}${t.statut === 'abroge' ? ' · texte abrogé' : ''}`, abroge: t.statut === 'abroge', type: 'repere', title: f.y === 'piege' ? f.v.replace(/\*\*/g, '').slice(0, 90) : f.q, text: f.y === 'piege' ? f.v.replace(/\*\*/g, '') : `${f.v} ${f.n || ''}`, href: `#/texte/${f.t}${qs({ f: f.id })}` }); }
   for (const a of annuaireCache || []) out.push({ p: { id: '' }, c: { id: '' }, course: 'Acteurs', chap: `${TYPE_ACTEUR[a.type] || ''}${a.pays ? ' · ' + a.pays : ''}`, type: 'acteur', title: a.nom, text: `${a.description || ''} ${(a.dirigeants || []).map(d => d.nom + ' ' + d.titre).join(' ')} ${a.ville || ''} ${a.pays || ''}`, href: `#/acteurs/${a.id}` });
   return out;
 };
@@ -1170,7 +1174,8 @@ const TYPE_ACTEUR = { regulateur: 'Régulateur', 'organisme-central': 'Organisme
 const COURS_TYPE = { 'societe-de-bourse': ['p6-intermediaires', 'p5-ordre-denouement'], sgo: ['p7-fonds', 'p6-intermediaires'], cif: ['p6-intermediaires'], 'etablissement-credit': ['p5-ordre-denouement'], cac: ['p2-appel-public'], 'agence-notation': ['p2-appel-public'], 'organisme-garantie': ['p2-appel-public'], emetteur: ['p2-appel-public', 'p1-entrer-en-bourse'], regulateur: ['p0-cadre'], cooperation: ['p0-cadre'] };
 const initiales = n => String(n).replace(/[^A-Za-zÀ-ÿ ]/g, ' ').split(/\s+/).filter(w => w.length > 1 && !/^(de|du|des|la|le|les|et|sa|sarl|sas)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join('') || '?';
 const teinte = n => ['#ffe14a', '#ffb8d1', '#a9f0d0', '#bcd7ff', '#ffd3a3', '#d9c8ff'][hashJ(n) % 6];
-const logoActeur = (a, cls = '') => a.logo ? `<img class="alogo ${cls}" src="${esc(a.logo)}" alt="Logo ${esc(a.nomCourt || a.nom)}" width="${cls === 'grand' ? 104 : 68}" height="${cls === 'grand' ? 104 : 68}" loading="lazy" decoding="async" fetchpriority="low">` : `<span class="alogo ini ${cls}" style="background:${teinte(a.nom)}" aria-hidden="true">${esc(initiales(a.nomCourt || a.nom))}</span>`;
+const SANS_LOGO = ['cosumaf', 'bvmac'];
+const logoActeur = (a, cls = '') => a.logo && !SANS_LOGO.includes(a.id) ? `<img class="alogo ${cls}" src="${esc(a.logo)}" alt="Logo ${esc(a.nomCourt || a.nom)}" width="${cls === 'grand' ? 104 : 68}" height="${cls === 'grand' ? 104 : 68}" loading="lazy" decoding="async" fetchpriority="low">` : `<span class="alogo ini ${cls}" style="background:${teinte(a.nom)}" aria-hidden="true">${esc(initiales(a.nomCourt || a.nom))}</span>`;
 const photoDir = d => d.photo ? `<img class="aphoto" src="${esc(d.photo)}" alt="${esc(d.nom)}" loading="lazy" decoding="async" fetchpriority="low">` : `<span class="aphoto ini" style="background:${teinte(d.nom)}" aria-hidden="true">${esc(initiales(d.nom))}</span>`;
 const dateFr = d => d ? new Date(d).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
 const carteActeur = a => `<li><a class="card acteur" href="#/acteurs/${a.id}">${logoActeur(a)}<span class="an"><b>${esc(a.nomCourt || a.nom)}</b>${a.nomCourt ? `<small>${esc(a.nom.replace(/^[^:]*:\s*/, ''))}</small>` : ''}<small>${esc([a.ville, a.pays].filter(Boolean).join(', '))}</small>${a.dirigeants?.[0] ? `<small class="dg">${esc(a.dirigeants[0].titre)} : ${esc(a.dirigeants[0].nom)}</small>` : ''}</span></a></li>`;
@@ -1677,7 +1682,8 @@ views.compte = async () => {
 views.apropos = async () => ({ title: 'À propos', html: `
   <h1 class="h1">${lbls('À propos')}</h1>
   <div class="banner">${ic('triangle-alert')}<div><strong>Outil d'aide, non officiel.</strong> Cette plateforme n'est ni la COSUMAF, ni la BVMAC. Elle ne remplace pas les textes officiels : citez toujours le texte publié.</div></div>
-  <div class="sheet about"><h2>À quoi ça sert</h2><p>Les professionnels du marché financier relisent sans cesse les mêmes textes. Ici, on retrouve en quelques secondes un délai, un montant, un rôle ou un piège, avec l'article et le texte d'origine. C'est gratuit et sans compte.</p>
+  <div class="sheet about"><h2>Qui publie</h2><p>Boussole CEMAC est éditée par Impact Tech. Contact et signalement d'erreur : <a href="mailto:${CONTACT}">${CONTACT}</a>. Voir aussi la <a href="#/methode">méthode de vérification</a> et les <a href="#/mentions">mentions légales et la confidentialité</a>.</p>
+  <h2>À quoi ça sert</h2><p>Les professionnels du marché financier relisent sans cesse les mêmes textes. Ici, on retrouve en quelques secondes un délai, un montant, un rôle ou un piège, avec l'article et le texte d'origine. C'est gratuit et sans compte.</p>
   <h2>Ce que contient la base</h2><p>${D.stats.textes} textes (49 instructions de la COSUMAF, règlements CEMAC et UMAC, règlement général de la COSUMAF, règlement général et instructions de la BVMAC, lettres circulaires, lignes directrices, actes additionnels) et ${D.stats.faits} faits : délais, montants, rôles, définitions, listes et pièges.</p>
   <h2>D'où viennent les textes</h2><p>Tous les textes ont été téléchargés sur les sites officiels de la COSUMAF et de la BVMAC. Chaque fiche renvoie vers le site officiel.</p>
   <h2>Couverture</h2><ul><li><strong>${COUV.complete}</strong> : les dispositions sont reprises.</li><li><strong>${COUV.partielle}</strong> : points clés seulement (délais, montants, rôles, pièges).</li><li><strong>${COUV.contexte}</strong> : situe le texte sans détailler ses dispositions.</li></ul>
@@ -1687,10 +1693,43 @@ views.apropos = async () => ({ title: 'À propos', html: `
   <h2>Hors connexion</h2><p>Après une première visite, le site fonctionne sans réseau.</p>
   <h2>Données</h2><p>Version ${esc(D.version)}, générée le ${esc(D.genere_le)}.</p></div>` });
 
+views.methode = async () => { const s = D.stats; const relus = s.faits_relus || 0, scan = s.faits_scan || 0; return { title: 'Méthode et vérification', html: `
+  <h1 class="h1">${lbls('Méthode')}</h1>
+  <div class="sheet about"><h2>D'où viennent les repères</h2>
+  <p>Les ${D.stats.textes} textes viennent des sites officiels de la COSUMAF et de la BVMAC. Les ${s.faits} repères (délais, montants, rôles, définitions, listes, pièges) ont été extraits de ces textes. Chacun cite l'article d'origine et renvoie à la fiche du texte, puis au PDF officiel.</p>
+  <h2>Ce qui est contrôlé</h2>
+  <p>Des contrôles automatiques vérifient la cohérence de la base à chaque mise en ligne : identifiants uniques, texte et thème existants, article cité pour chaque délai ou montant, remplacements entre textes (un texte abrogé doit avoir un texte remplaçant). Ces contrôles détectent les oublis de saisie. Ils ne remplacent pas la relecture d'un chiffre contre le texte.</p>
+  <h2>Où en est la relecture</h2>
+  <ul><li><strong>${relus}</strong> repère${relus > 1 ? 's' : ''} sur ${s.faits} ${relus > 1 ? 'ont' : 'a'} été relu${relus > 1 ? 's' : ''} individuellement contre le texte officiel (mention « Relu »).</li>
+  <li><strong>${scan}</strong> repère${scan > 1 ? 's portent' : ' porte'} la mention « À vérifier sur le PDF » : le chiffre vient d'un scan dégradé et doit être confirmé sur le document officiel avant d'être cité.</li>
+  <li>Tous les autres repères sont extraits mais pas encore relus un par un. <strong>Avant de citer un chiffre, ouvrez l'article indiqué dans le texte officiel.</strong></li></ul>
+  <p>Cette relecture est la priorité du projet. Les textes les plus consultés (règlements généraux, instructions de tarification) passent en premier.</p>
+  <h2>Résumés et repères</h2>
+  <p>Les résumés (« L'essentiel ») condensent un texte. En cas d'écart entre un résumé et la rubrique détaillée d'un repère, ou entre un résumé et le texte officiel, le texte officiel fait foi. Signalez-nous l'écart : il sera corrigé.</p>
+  <h2>Fraîcheur des copies</h2>
+  <p>Les PDF proposés sont des copies hébergées sur ce site, à la date de la version de la base (${esc(dateFr(D.genere_le))}). Un texte peut être modifié ou abrogé après cette date. La fiche de chaque texte renvoie vers le site officiel, qui reste la référence.</p>
+  <h2>Signaler une erreur</h2>
+  <p>Chaque repère et chaque texte a un bouton ${ic('flag')} « Signaler une erreur » : il ouvre un e-mail prérempli avec la référence du repère et la version de la base. Indiquez ce qui est faux et l'article du texte officiel qui le montre. Écrivez aussi directement à <a href="mailto:${CONTACT}">${CONTACT}</a>.</p></div>` }; };
+
+views.mentions = async () => ({ title: 'Mentions légales et confidentialité', html: `
+  <h1 class="h1">${lbls('Mentions légales')}</h1>
+  <div class="banner">${ic('triangle-alert')}<div><strong>Outil d'aide à la lecture, non officiel.</strong> Boussole CEMAC n'est ni la COSUMAF ni la BVMAC. Elle ne donne ni conseil juridique, ni conseil en investissement. Citez toujours le texte officiel.</div></div>
+  <div class="sheet about"><h2>Éditeur</h2>
+  <p>Boussole CEMAC est éditée par <strong>Impact Tech</strong> (<a href="https://impacttech237.com" target="_blank" rel="noopener">impacttech237.com</a>). Contact et signalement d'erreur : <a href="mailto:${CONTACT}">${CONTACT}</a>.</p>
+  <h2>Hébergement</h2><p>Le site est hébergé par Cloudflare, Inc. (réseau mondial, avec stockage des données de compte et de fréquentation sur la plateforme Cloudflare).</p>
+  <h2>Textes et marques</h2><p>Les textes réglementaires appartiennent à leurs auteurs (COSUMAF, BVMAC, institutions de la CEMAC et de l'UMAC). Ils sont reproduits à titre d'information, avec renvoi vers les sites officiels. Les noms COSUMAF et BVMAC sont cités pour désigner ces institutions : ce site n'a aucun lien officiel avec elles.</p>
+  <h2>Responsabilité</h2><p>Malgré le soin apporté, une erreur ou un retard de mise à jour reste possible (voir la <a href="#/methode">méthode de vérification</a>). L'éditeur ne peut être tenu responsable d'une décision prise à partir des informations du site. Vérifiez toujours dans le texte officiel en vigueur.</p>
+  <h1 class="h2" style="margin-top:28px">Confidentialité et conditions d'utilisation</h1>
+  <h2>Sans compte</h2><p>Le site fonctionne sans compte. Votre progression (flashcards, quiz, scores) reste dans votre navigateur.</p>
+  <h2>Compte facultatif</h2><p>Si vous créez un compte, nous enregistrons votre adresse e-mail, votre mot de passe (conservé sous forme chiffrée, jamais en clair) et votre progression, pour la synchroniser entre vos appareils. Ces données ne sont ni vendues ni cédées. Une session est conservée par un cookie strictement nécessaire au fonctionnement du compte.</p>
+  <h2>Mesure d'audience</h2><p>Nous mesurons la fréquentation de façon anonyme : pages vues, durée, recherches, téléchargements. Aucun identifiant publicitaire, aucun traceur de tiers, aucun profil individuel, et aucune donnée personnelle liée à ces mesures.</p>
+  <h2>Vos droits</h2><p>Vous pouvez demander l'accès, la correction ou la suppression de vos données à <a href="mailto:${CONTACT}">${CONTACT}</a>. Vous pouvez aussi supprimer votre compte depuis la page Compte.</p>
+  <h2>Utilisation</h2><p>Le site est gratuit et fourni tel quel, sans garantie d'exhaustivité ni d'exactitude. Vous pouvez citer les textes et les repères en mentionnant le texte officiel d'origine. Toute utilisation qui nuirait au fonctionnement du site (collecte automatisée massive, attaque) est interdite.</p></div>` });
+
 views.introuvable = async () => ({ title: 'Page introuvable', html: `<div class="empty">${perso('samir', 'sad', 160)}<h1 class="h1">${lbls('Page introuvable')}</h1><p>Cette page n'existe pas ou a été déplacée.</p><a class="btn primary" href="#/">${ic('compass')} Retour à l'accueil</a></div>` });
 
 /* ---------- routeur ---------- */
-const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', textes: 'textes', acteurs: 'acteurs', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos' };
+const ROUTES = { '': 'accueil', bibliotheque: 'bibliotheque', texte: 'texte', pratiquer: 'pratiquer', recherche: 'recherche', maitriser: 'quiz', quiz: 'quiz', flashcards: 'flashcards', jeux: 'jeux', progres: 'progres', compte: 'compte', textes: 'textes', acteurs: 'acteurs', exercices: 'exercices', examen: 'examen', olympiade: 'olympiade', planning: 'planning', guide: 'guide', carte: 'carte', decouvrir: 'decouvrir', comprendre: 'bibliotheque', cours: 'cours', 'a-propos': 'apropos', methode: 'methode', mentions: 'mentions' };
 async function render() {
   if (!D) return;
   const [chemin, qstr] = (location.hash.slice(1) || '/').split('?');

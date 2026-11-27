@@ -406,7 +406,7 @@
     "valeur": 20000000000,
     "unite": "fcfa",
     "borne": "exact",
-    "note": "Remplacé par le Règlement n° 03 sur le placement privé (plus de plafond).",
+    "note": "Remplacé par le Règlement n° 03 du 7 octobre 2026 sur le placement privé (plus de plafond).",
     "themes": [
       "cadre"
     ],
@@ -1592,7 +1592,7 @@
     "type": "piege",
     "article": null,
     "enonce": "Placement privé : ce règlement (2022) prévoit 20 milliards / 40 investisseurs / 50 million",
-    "valeur_texte": "Placement privé : ce règlement (2022) prévoit **20 milliards / 40 investisseurs / 50 millions de nominal**. Le **Règlement n° 03** (2026) a changé ces règles : ne pas mélanger.",
+    "valeur_texte": "Placement privé : ce règlement (2022) prévoit **20 milliards / 40 investisseurs / 50 millions de nominal**. Le **Règlement n° 03 du 7 octobre 2026** a changé ces règles : ne pas mélanger.",
     "note": null,
     "themes": [
       "cadre"

@@ -7,17 +7,17 @@ const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLow
 const strip = t => String(t || '').replace(/\*\*/g, '').replace(/(^|\n)\s*(?:[-*]|\d+\.)\s+/g, '$1').replace(/\n+/g, ' · ').replace(/\s+/g, ' ').trim();
 
 const TYPES = {
-  definition: { nom: 'Définitions', ic: 'book-marked', w: 1.6, tab: 'gloss', col: '#ffe14a' },
-  fiche: { nom: 'Fiches', ic: 'notebook-pen', w: 1.3, tab: 'fiches', col: '#ffb8d1' },
-  schema: { nom: 'Schémas', ic: 'network', w: 1.1, tab: 'schemas', col: '#bcd7ff' },
-  prof: { nom: 'Cours oral', ic: 'message-circle', w: 1.2, tab: 'prof', col: '#ffd0a8' },
-  exemple: { nom: 'Exemples', ic: 'lightbulb', w: 1.1, tab: 'exemples', col: '#a9f0d0' },
-  resume: { nom: 'Résumés', ic: 'book-open', w: 1.0, tab: 'resume', col: '#ffd3a3' },
-  carte: { nom: 'Flashcards', ic: 'layers', w: .9, tab: 'cartes', col: '#d9c8ff' },
-  question: { nom: 'Questions', ic: 'circle-check', w: .8, tab: 'quiz', col: '#c4f1dd' },
-  texte: { nom: 'Textes officiels', sing: 'Texte officiel', ic: 'file-text', w: 1.5, tab: '', col: '#fff27a' },
-  repere: { nom: 'Délais, montants, rôles', sing: 'Repère', ic: 'scale', w: 1.1, tab: '', col: '#a9f0d0' },
-  acteur: { nom: 'Acteurs', ic: 'users', w: 1.3, tab: '', col: '#bcd7ff' },
+  repere: { nom: 'Délais, montants, rôles', sing: 'Repère', ic: 'scale', w: 2.4, tab: '', col: '#a9f0d0' },
+  texte: { nom: 'Textes officiels', sing: 'Texte officiel', ic: 'file-text', w: 2.0, tab: '', col: '#fff27a' },
+  acteur: { nom: 'Acteurs', ic: 'users', w: 1.6, tab: '', col: '#bcd7ff' },
+  definition: { nom: 'Définitions', ic: 'book-marked', w: 1.5, tab: 'gloss', col: '#ffe14a' },
+  fiche: { nom: 'Fiches', ic: 'notebook-pen', w: 1.0, tab: 'fiches', col: '#ffb8d1' },
+  resume: { nom: 'Résumés', ic: 'book-open', w: .8, tab: 'resume', col: '#ffd3a3' },
+  schema: { nom: 'Schémas', ic: 'network', w: .7, tab: 'schemas', col: '#bcd7ff' },
+  exemple: { nom: 'Exemples', ic: 'lightbulb', w: .55, tab: 'exemples', col: '#a9f0d0' },
+  prof: { nom: 'Cours oral', ic: 'message-circle', w: .5, tab: 'prof', col: '#ffd0a8' },
+  carte: { nom: 'Flashcards', ic: 'layers', w: .4, tab: 'cartes', col: '#d9c8ff' },
+  question: { nom: 'Questions', ic: 'circle-check', w: .35, tab: 'quiz', col: '#c4f1dd' },
 };
 
 let INDEX = null, sig = '';
@@ -45,26 +45,49 @@ function build() {
 const lev = (a, b) => { if (Math.abs(a.length - b.length) > 2) return 3; const d = Array.from({ length: a.length + 1 }, (_, i) => [i]); for (let j = 1; j <= b.length; j++) d[0][j] = j;
   for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; };
 
+/* mots vides et familles de mots : un professionnel ne tape pas le mot exact du rédacteur */
+const STOPS = new Set("de du des la le les un une et au aux en d l a ou pour par sur dans qui que quoi quel quelle quels quelles est sont ce cet cette ces se sa son ses leur leurs il elle ils on y combien comment faut faire met mettre mets prend prendre doit doivent peut peuvent avoir etre avec sans plus quand lorsque si ne pas non oui pour mon ma mes".split(' '));
+const PHRASES = [[/combien de temps|dans quel delai|quel delai|en combien de temps|a quelle echeance/g, ' delai '], [/societes? de bourse/g, ' sdb '], [/offres? publiques? de vente/g, ' opv '], [/appels? publics? a l'epargne/g, ' ape '], [/combien coute|combien payer|quel cout/g, ' montant ']];
+const FAMILLES = [['delai', 'duree', 'echeance'], ['agrement', 'agreer', 'agree', 'agrer', 'autorisation d\'exercer'], ['sdb', 'societe de bourse', 'societes de bourse', 'intermediaire de marche', 'intermediaires de marche'], ['opv', 'offre publique de vente'], ['ape', 'appel public a l\'epargne'], ['montant', 'plafond', 'tarif', 'frais'], ['commission', 'courtage', 'remuneration'], ['capital', 'fonds propres'], ['sanction', 'amende', 'penalite'], ['interdit', 'interdiction', 'prohibe'], ['obligation', 'obligations', 'devoir'], ['depositaire', 'depositaire central', 'conservateur']];
+const stem = w => { w = w.replace(/[sx]$/, ''); return w.length >= 7 ? w.slice(0, w.length - 2) : w; };
+const rx = a => new RegExp('(?:^|[^a-z0-9])' + a.split(/\s+/).map(w => stem(w).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '[a-z0-9]*').join('\\s+'));
+function concepts(q) {
+  let n = ' ' + norm(q) + ' ';
+  PHRASES.forEach(([re, to]) => { n = n.replace(re, to); });
+  n = n.replace(/\b[ldsjcmnt]'/g, ' ');
+  const ws = n.split(/[^a-z0-9']+/).filter(t => t.length > 1 && !STOPS.has(t));
+  const seen = new Set(), out = [];
+  ws.forEach(w => { const f = FAMILLES.find(g => g.includes(w) || g.includes(w.replace(/s$/, ''))); const key = f ? f[0] : w; if (seen.has(key)) return; seen.add(key);
+    const alts = f ? f.map((a, i) => ({ a, w: a === w || a === w.replace(/s$/, '') ? 1 : .7, re: rx(a) })) : [{ a: w, w: 1, re: rx(w) }];
+    if (f && !alts.some(x => x.w === 1)) alts.unshift({ a: w, w: 1, re: rx(w) });
+    out.push({ w, alts }); });
+  return out;
+}
+
 function search(q, { type = '', course = '' } = {}) {
-  const toks = norm(q).split(/[^a-z0-9']+/).filter(t => t.length > 1); if (!toks.length) return { hits: [], toks, fuzzy: false };
-  const phrase = norm(q).trim();
-  const score = (it, ts, strict) => { let sc = 0, matched = 0;
-    for (const t of ts) { let m = 0;
-      if (it.nt === t) m += 14; else if (it.nt.startsWith(t)) m += 9; else if (new RegExp('\\b' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).test(it.nt)) m += 7; else if (it.nt.includes(t)) m += 4;
-      if (it.nx.includes(t)) m += (it.nx.split(t).length - 1 > 2 ? 3 : 2);
-      if (m) matched++; sc += m; }
-    if (strict && matched < ts.length) return 0;
-    if (!matched) return 0;
-    if (toks.length > 1 && it.nt.includes(phrase)) sc += 12; if (toks.length > 1 && it.nx.includes(phrase)) sc += 5;
-    return sc * TYPES[it.type].w; };
+  const cs = concepts(q); const toks = [...new Set(cs.flatMap(c => c.alts.map(x => x.a)))].filter(t => t.length > 1);
+  if (!cs.length) return { hits: [], toks, fuzzy: false };
+  const phrase = cs.map(c => c.w).join(' ');
   const all = build().filter(it => (!type || it.type === type) && (!course || it.p.id === course));
-  let hits = all.map(it => ({ it, sc: score(it, toks, true) })).filter(h => h.sc > 0);
-  let fuzzy = false;
+  const run = (cs, need) => { const out = [];
+    for (const it of all) { let sc = 0, matched = 0;
+      for (const c of cs) { let best = 0;
+        for (const x of c.alts) { let m = 0;
+          if (it.nt === x.a) m += 14; else if (x.re.test(it.nt)) m += it.nt.startsWith(x.a.split(' ')[0].slice(0, 4)) ? 9 : 7;
+          if (x.re.test(it.nx)) m += 2.5; m *= x.w; if (m > best) best = m; }
+        if (best) { matched++; sc += best; } }
+      if (matched < need) continue;
+      if (cs.length > 1 && it.nt.includes(phrase)) sc += 12;
+      sc *= TYPES[it.type].w * (matched / cs.length) ** 1.6; if (it.abroge) sc *= .3;
+      out.push({ it, sc, matched }); }
+    return out; };
+  const needStrict = cs.length <= 2 ? cs.length : Math.ceil(cs.length * .66);
+  let hits = run(cs, needStrict), fuzzy = false;
   if (!hits.length) { // tolérance : fautes de frappe sur les mots du titre
     const words = new Set(); all.forEach(it => it.nt.split(/[^a-z0-9']+/).forEach(w => w.length > 3 && words.add(w)));
-    const fix = toks.map(t => { if (t.length < 4) return t; let best = t, bd = t.length > 6 ? 3 : 2; words.forEach(w => { const d = lev(t, w); if (d < bd) { bd = d; best = w; } }); return best; });
-    if (fix.join() !== toks.join()) { fuzzy = fix; hits = all.map(it => ({ it, sc: score(it, fix, true) })).filter(h => h.sc > 0); }
-    if (!hits.length) hits = all.map(it => ({ it, sc: score(it, toks, false) * .5 })).filter(h => h.sc > 0);
+    const fixed = cs.map(c => { const t = c.w; if (t.length < 4) return t; let best = t, bd = t.length > 6 ? 3 : 2; words.forEach(w => { const d = lev(t, w); if (d < bd) { bd = d; best = w; } }); return best; });
+    if (fixed.join() !== cs.map(c => c.w).join()) { fuzzy = fixed; hits = run(concepts(fixed.join(' ')), needStrict); }
+    if (!hits.length) hits = run(cs, Math.max(1, Math.ceil(cs.length / 2))).map(h => ({ ...h, sc: h.sc * .5 }));
   }
   hits.sort((a, b) => b.sc - a.sc); return { hits, toks, fuzzy };
 }
